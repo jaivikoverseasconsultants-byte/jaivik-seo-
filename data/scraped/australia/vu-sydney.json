@@ -1,0 +1,5815 @@
+[
+  {
+    "name": "22582VIC Certificate IV in Tertiary Preparation",
+    "slug": "vu-sydney-certificate-iv-in-tertiary-preparation-22582vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-tertiary-preparation-22582vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 5350,
+    "annualUSD": 3478,
+    "totalAUD": 2675,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22588VIC Certificate III in Enabling Technologies",
+    "slug": "vu-sydney-certificate-iii-in-enabling-technologies-22588vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-enabling-technologies-22588vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 5320,
+    "annualUSD": 3458,
+    "totalAUD": 2660,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22589VIC Certificate III in Emerging Technologies",
+    "slug": "vu-sydney-certificate-iii-in-emerging-technologies-22589vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-emerging-technologies-22589vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22602VIC Diploma of Teacher Education Preparation",
+    "slug": "vu-sydney-diploma-of-teacher-education-preparation-22602vic",
+    "url": "https://www.vu.edu.au/courses/diploma-of-teacher-education-preparation-22602vic",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 10220,
+    "annualUSD": 6643,
+    "totalAUD": 10220,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22603VIC Certificate IV in Cyber Security",
+    "slug": "vu-sydney-certificate-iv-in-cyber-security-22603vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-cyber-security-22603vic",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12740,
+    "annualUSD": 8281,
+    "totalAUD": 12740,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22614VIC Certificate II in Building and Construction Pre-apprenticeship",
+    "slug": "vu-sydney-certificate-ii-in-building-and-construction-pre-apprenticeship-22614vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-building-and-construction-pre-apprenticeship-22614vic",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9322,
+    "annualUSD": 6059,
+    "totalAUD": 18644,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22623VIC Course in Safe Use of Machinery for Technology Teaching",
+    "slug": "vu-sydney-course-in-safe-use-of-machinery-for-technology-teaching-22623vic",
+    "url": "https://www.vu.edu.au/courses/course-in-safe-use-of-machinery-for-technology-teaching-22623vic",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22627VIC Advanced Diploma of Building Design (Architectural)",
+    "slug": "vu-sydney-advanced-diploma-of-building-design-architectural-22627vic",
+    "url": "https://www.vu.edu.au/courses/advanced-diploma-of-building-design-architectural-22627vic",
+    "level": "Diploma",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34419,
+    "annualUSD": 22372,
+    "totalAUD": 68838,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22636VIC Course in Initial EAL",
+    "slug": "vu-sydney-course-in-initial-eal-22636vic",
+    "url": "https://www.vu.edu.au/courses/course-in-initial-eal-22636vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22637VIC Course in EAL",
+    "slug": "vu-sydney-course-in-eal-22637vic",
+    "url": "https://www.vu.edu.au/courses/course-in-eal-22637vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22638VIC Certificate I in EAL (Access)",
+    "slug": "vu-sydney-certificate-i-in-eal-access-22638vic",
+    "url": "https://www.vu.edu.au/courses/certificate-i-in-eal-access-22638vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22639VIC Certificate II in EAL (Access)",
+    "slug": "vu-sydney-certificate-ii-in-eal-access-22639vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-eal-access-22639vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22640VIC Certificate III in EAL (Access)",
+    "slug": "vu-sydney-certificate-iii-in-eal-access-22640vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-eal-access-22640vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22642VIC Certificate II in EAL (Employment)",
+    "slug": "vu-sydney-certificate-ii-in-eal-employment-22642vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-eal-employment-22642vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22643VIC Certificate III in EAL (Employment)",
+    "slug": "vu-sydney-certificate-iii-in-eal-employment-22643vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-eal-employment-22643vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22645VIC Certificate III in EAL (Further Study)",
+    "slug": "vu-sydney-certificate-iii-in-eal-further-study-22645vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-eal-further-study-22645vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22646VIC Certificate IV in EAL (Further Study)",
+    "slug": "vu-sydney-certificate-iv-in-eal-further-study-22646vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-eal-further-study-22646vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Arts",
+    "slug": "vu-sydney-bachelor-of-arts-abab",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-arts-abab",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Community Development",
+    "slug": "vu-sydney-bachelor-of-community-development-abcd",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-community-development-abcd",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Criminal Justice",
+    "slug": "vu-sydney-bachelor-of-criminal-justice-abcj",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-criminal-justice-abcj",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Criminal Justice and Psychological Studies",
+    "slug": "vu-sydney-bachelor-of-criminal-justice-and-psychological-studies-abcy",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-criminal-justice-and-psychological-studies-abcy",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Exercise Science (Sport Practice)",
+    "slug": "vu-sydney-bachelor-of-exercise-science-sport-practice-abhd",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-exercise-science-sport-practice-abhd",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Exercise Science (Clinical Practice)",
+    "slug": "vu-sydney-bachelor-of-exercise-science-clinical-practice-abhe",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-exercise-science-clinical-practice-abhe",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Studies",
+    "slug": "vu-sydney-bachelor-of-psychological-studies-abpa",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-psychological-studies-abpa",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Studies/Bachelor of Business",
+    "slug": "vu-sydney-bachelor-of-psychological-studies-bachelor-of-business-abpb",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-psychological-studies-bachelor-of-business-abpb",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Psychology (Honours)",
+    "slug": "vu-sydney-bachelor-of-psychology-honours-abpc",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-psychology-honours-abpc",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Screen Media",
+    "slug": "vu-sydney-bachelor-of-screen-media-absn",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-screen-media-absn",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Social Work",
+    "slug": "vu-sydney-bachelor-of-social-work-absw",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-social-work-absw",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Youth Work and Criminal Justice",
+    "slug": "vu-sydney-bachelor-of-youth-work-and-criminal-justice-abyc",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-youth-work-and-criminal-justice-abyc",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Youth Work",
+    "slug": "vu-sydney-bachelor-of-youth-work-abyw",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-youth-work-abyw",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 16992,
+    "annualUSD": 11045,
+    "totalAUD": 50976,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Digital Media",
+    "slug": "vu-sydney-graduate-diploma-in-digital-media-agdm",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-digital-media-agdm",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 29000,
+    "annualUSD": 18850,
+    "totalAUD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in International Community Development",
+    "slug": "vu-sydney-graduate-diploma-in-international-community-development-agid",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-international-community-development-agid",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Counselling",
+    "slug": "vu-sydney-graduate-diploma-in-counselling-agpd",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-counselling-agpd",
+    "level": "Graduate Diploma",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Studies (Honours)",
+    "slug": "vu-sydney-bachelor-of-psychological-studies-honours-ahpa",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-psychological-studies-honours-ahpa",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 17399,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Applied Psychology (Clinical Psychology)",
+    "slug": "vu-sydney-master-of-applied-psychology-clinical-psychology-amal",
+    "url": "https://www.vu.edu.au/courses/master-of-applied-psychology-clinical-psychology-amal",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of International Community Development",
+    "slug": "vu-sydney-master-of-international-community-development-amcd",
+    "url": "https://www.vu.edu.au/courses/master-of-international-community-development-amcd",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Clinical Exercise Science and Rehabilitation",
+    "slug": "vu-sydney-master-of-clinical-exercise-science-and-rehabilitation-amep",
+    "url": "https://www.vu.edu.au/courses/master-of-clinical-exercise-science-and-rehabilitation-amep",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 51750,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Counselling",
+    "slug": "vu-sydney-master-of-counselling-ampe",
+    "url": "https://www.vu.edu.au/courses/master-of-counselling-ampe",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 29000,
+    "annualUSD": 18850,
+    "totalAUD": 58000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Content Creation",
+    "slug": "vu-sydney-graduate-certificate-in-digital-content-creation-atdc",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-digital-content-creation-atdc",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 29000,
+    "annualUSD": 18850,
+    "totalAUD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Learning and Teaching",
+    "slug": "vu-sydney-graduate-certificate-in-digital-learning-and-teaching-atdi",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-digital-learning-and-teaching-atdi",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 29000,
+    "annualUSD": 18850,
+    "totalAUD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Media",
+    "slug": "vu-sydney-graduate-certificate-in-digital-media-atdm",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-digital-media-atdm",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 29000,
+    "annualUSD": 18850,
+    "totalAUD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in International Community Development",
+    "slug": "vu-sydney-graduate-certificate-in-international-community-development-atid",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-international-community-development-atid",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 13500,
+    "annualUSD": 8775,
+    "totalAUD": 6750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Accounting",
+    "slug": "vu-sydney-bachelor-of-accounting-bbaq",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-accounting-bbaq",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Business",
+    "slug": "vu-sydney-bachelor-of-business-bbns",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-business-bbns",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Business",
+    "slug": "vu-sydney-graduate-diploma-in-business-bgab",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-business-bgab",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 34500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Financial Planning Online",
+    "slug": "vu-sydney-graduate-diploma-in-financial-planning-bgfp",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-financial-planning-bgfp",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 24920,
+    "annualUSD": 16198,
+    "totalAUD": 24920,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Business Administration",
+    "slug": "vu-sydney-graduate-diploma-in-business-administration-bgpb",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-business-administration-bgpb",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 33500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws",
+    "slug": "vu-sydney-bachelor-of-laws-blaw",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-blaw",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Graduate Entry)",
+    "slug": "vu-sydney-bachelor-of-laws-graduate-entry-blge",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-graduate-entry-blge",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Business Administration (Global)",
+    "slug": "vu-sydney-master-of-business-administration-global-bmag",
+    "url": "https://www.vu.edu.au/courses/master-of-business-administration-global-bmag",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Professional Accounting",
+    "slug": "vu-sydney-master-of-professional-accounting-bmaq",
+    "url": "https://www.vu.edu.au/courses/master-of-professional-accounting-bmaq",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 34798,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Business Analytics",
+    "slug": "vu-sydney-master-of-business-analytics-bmbu",
+    "url": "https://www.vu.edu.au/courses/master-of-business-analytics-bmbu",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Enterprise Resource Planning",
+    "slug": "vu-sydney-master-of-enterprise-resource-planning-bmen",
+    "url": "https://www.vu.edu.au/courses/master-of-enterprise-resource-planning-bmen",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Financial Planning Online",
+    "slug": "vu-sydney-master-of-financial-planning-bmfp",
+    "url": "https://www.vu.edu.au/courses/master-of-financial-planning-bmfp",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 41540,
+    "annualUSD": 27001,
+    "totalAUD": 83080,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Marketing",
+    "slug": "vu-sydney-master-of-marketing-bmkt",
+    "url": "https://www.vu.edu.au/courses/master-of-marketing-bmkt",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Business Administration (MBA Online)",
+    "slug": "vu-sydney-master-of-business-administration-bmpf",
+    "url": "https://www.vu.edu.au/courses/master-of-business-administration-bmpf",
+    "level": "Masters",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 49860,
+    "annualUSD": 32409,
+    "totalAUD": 149580,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Supply Chain Management",
+    "slug": "vu-sydney-master-of-supply-chain-management-bmsu",
+    "url": "https://www.vu.edu.au/courses/master-of-supply-chain-management-bmsu",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB30120 Certificate III in Business",
+    "slug": "vu-sydney-certificate-iii-in-business-bsb30120",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-business-bsb30120",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 16750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB40120 Certificate IV in Business",
+    "slug": "vu-sydney-certificate-iv-in-business-bsb40120",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-business-bsb40120",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 7687,
+    "annualUSD": 4997,
+    "totalAUD": 3844,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB40620 Certificate IV in Legal Services",
+    "slug": "vu-sydney-certificate-iv-in-legal-services-bsb40620",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-legal-services-bsb40620",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 7280,
+    "annualUSD": 4732,
+    "totalAUD": 7280,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB50120 Diploma of Business",
+    "slug": "vu-sydney-diploma-of-business-bsb50120",
+    "url": "https://www.vu.edu.au/courses/diploma-of-business-bsb50120",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 11220,
+    "annualUSD": 7293,
+    "totalAUD": 11220,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB50420 Diploma of Leadership and Management",
+    "slug": "vu-sydney-diploma-of-leadership-and-management-bsb50420",
+    "url": "https://www.vu.edu.au/courses/diploma-of-leadership-and-management-bsb50420",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 6800,
+    "annualUSD": 4420,
+    "totalAUD": 6800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB50820 Diploma of Project Management",
+    "slug": "vu-sydney-diploma-of-project-management-bsb50820",
+    "url": "https://www.vu.edu.au/courses/diploma-of-project-management-bsb50820",
+    "level": "Diploma",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 17250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "slug": "vu-sydney-graduate-certificate-in-business-analytics-btbi",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-business-analytics-btbi",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Online",
+    "slug": "vu-sydney-graduate-certificate-in-business-btbu",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-business-btbu",
+    "level": "Graduate Certificate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 13500,
+    "annualUSD": 8775,
+    "totalAUD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Change Management Online",
+    "slug": "vu-sydney-graduate-certificate-in-change-management-btcm",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-change-management-btcm",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16620,
+    "annualUSD": 10803,
+    "totalAUD": 16620,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Enterprise and Resource Planning Systems",
+    "slug": "vu-sydney-graduate-certificate-in-enterprise-and-resource-planning-systems-bten",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-enterprise-and-resource-planning-systems-bten",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 17250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Finance Online",
+    "slug": "vu-sydney-graduate-certificate-in-finance-btff",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-finance-btff",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16620,
+    "annualUSD": 10803,
+    "totalAUD": 16620,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Financial Planning Online",
+    "slug": "vu-sydney-graduate-certificate-in-financial-planning-btfp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-financial-planning-btfp",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12460,
+    "annualUSD": 8099,
+    "totalAUD": 12460,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Marketing",
+    "slug": "vu-sydney-graduate-certificate-in-marketing-btkm",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-marketing-btkm",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Administration",
+    "slug": "vu-sydney-graduate-certificate-in-business-administration-btpf",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-business-administration-btpf",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 16750,
+    "annualUSD": 10888,
+    "totalAUD": 8375,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "slug": "vu-sydney-graduate-certificate-in-supply-chain-management-btsp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-supply-chain-management-btsp",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Transport Systems",
+    "slug": "vu-sydney-graduate-certificate-in-transport-systems-btts",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-transport-systems-btts",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC30121 Certificate III in Early Childhood Education and Care",
+    "slug": "vu-sydney-certificate-iii-in-early-childhood-education-and-care-chc30121",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-early-childhood-education-and-care-chc30121",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 13975,
+    "annualUSD": 9084,
+    "totalAUD": 13975,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC33021 Certificate III in Individual Support",
+    "slug": "vu-sydney-certificate-iii-in-individual-support-chc33021",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-individual-support-chc33021",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12000,
+    "annualUSD": 7800,
+    "totalAUD": 12000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC40221 Certificate IV in School Based Education Support",
+    "slug": "vu-sydney-certificate-iv-in-school-based-education-support-chc40221",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-school-based-education-support-chc40221",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12068,
+    "annualUSD": 7844,
+    "totalAUD": 12068,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC40421 Certificate IV in Youth Work",
+    "slug": "vu-sydney-certificate-iv-in-youth-work-chc40421",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-youth-work-chc40421",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 11937,
+    "annualUSD": 7759,
+    "totalAUD": 11937,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC43121 Certificate IV in Disability Support",
+    "slug": "vu-sydney-certificate-iv-in-disability-support-chc43121",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-disability-support-chc43121",
+    "level": "Certificate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC43215 Certificate IV in Alcohol and Other Drugs",
+    "slug": "vu-sydney-certificate-iv-in-alcohol-and-other-drugs-chc43215",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-alcohol-and-other-drugs-chc43215",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 18242,
+    "annualUSD": 11857,
+    "totalAUD": 18242,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC43315 Certificate IV in Mental Health",
+    "slug": "vu-sydney-certificate-iv-in-mental-health-chc43315",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-mental-health-chc43315",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 11187,
+    "annualUSD": 7272,
+    "totalAUD": 11187,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC52021 Diploma of Community Services",
+    "slug": "vu-sydney-diploma-of-community-services-chc52021",
+    "url": "https://www.vu.edu.au/courses/diploma-of-community-services-chc52021",
+    "level": "Diploma",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 21630,
+    "annualUSD": 14060,
+    "totalAUD": 32445,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHCSS00070 Assist Clients with Medication Skill Set",
+    "slug": "vu-sydney-assist-clients-with-medication-skill-set-chcss00070",
+    "url": "https://www.vu.edu.au/courses/assist-clients-with-medication-skill-set-chcss00070",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12000,
+    "annualUSD": 7800,
+    "totalAUD": 12000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHCSS00093 Alcohol and Other Drugs Skill Set",
+    "slug": "vu-sydney-alcohol-and-other-drugs-skill-set-chcss00093",
+    "url": "https://www.vu.edu.au/courses/alcohol-and-other-drugs-skill-set-chcss00093",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 18242,
+    "annualUSD": 11857,
+    "totalAUD": 18242,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CONISS012 Prepare to work safely in the construction industry",
+    "slug": "vu-sydney-prepare-to-work-safely-in-the-construction-industry-coniss012",
+    "url": "https://www.vu.edu.au/courses/prepare-to-work-safely-in-the-construction-industry-coniss012",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC20720 Certificate II in Drainage",
+    "slug": "vu-sydney-certificate-ii-in-drainage-cpc20720",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-drainage-cpc20720",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 7320,
+    "annualUSD": 4758,
+    "totalAUD": 14640,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC30216 Certificate III in Signs and Graphics",
+    "slug": "vu-sydney-certificate-iii-in-signs-and-graphics-cpc30216",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-signs-and-graphics-cpc30216",
+    "level": "Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 15300,
+    "annualUSD": 9945,
+    "totalAUD": 30600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC30220 Certificate III in Carpentry",
+    "slug": "vu-sydney-certificate-iii-in-carpentry-cpc30220",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-carpentry-cpc30220",
+    "level": "Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 19486,
+    "annualUSD": 12666,
+    "totalAUD": 38972,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC32420 Certificate III in Plumbing",
+    "slug": "vu-sydney-certificate-iii-in-plumbing-cpc32420",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-plumbing-cpc32420",
+    "level": "Certificate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC33020 Certificate III in Bricklaying and Blocklaying",
+    "slug": "vu-sydney-certificate-iii-in-bricklaying-and-blocklaying-cpc33020",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-bricklaying-and-blocklaying-cpc33020",
+    "level": "Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 16203,
+    "annualUSD": 10532,
+    "totalAUD": 32406,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC40920 Certificate IV in Plumbing and Services",
+    "slug": "vu-sydney-certificate-iv-in-plumbing-and-services-cpc40920",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-plumbing-and-services-cpc40920",
+    "level": "Certificate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12193,
+    "annualUSD": 7925,
+    "totalAUD": 36579,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CPC60121 Advanced Diploma of Building Surveying",
+    "slug": "vu-sydney-advanced-diploma-of-building-surveying-cpc60121",
+    "url": "https://www.vu.edu.au/courses/advanced-diploma-of-building-surveying-cpc60121",
+    "level": "Diploma",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35910,
+    "annualUSD": 23342,
+    "totalAUD": 71820,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Early Childhood Education and Leadership",
+    "slug": "vu-sydney-bachelor-of-early-childhood-education-and-leadership-ebcl",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-early-childhood-education-and-leadership-ebcl",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9000,
+    "annualUSD": 5850,
+    "totalAUD": 36000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Early Childhood Education",
+    "slug": "vu-sydney-bachelor-of-early-childhood-education-ebec",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-early-childhood-education-ebec",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9000,
+    "annualUSD": 5850,
+    "totalAUD": 27000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Education (P-12)",
+    "slug": "vu-sydney-bachelor-of-education-p-12-ebed",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-education-p-12-ebed",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 60000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Education (Primary)",
+    "slug": "vu-sydney-bachelor-of-education-primary-ebpe",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-education-primary-ebpe",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 10220,
+    "annualUSD": 6643,
+    "totalAUD": 40880,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Education Studies",
+    "slug": "vu-sydney-bachelor-of-education-studies-ebst",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-education-studies-ebst",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12068,
+    "annualUSD": 7844,
+    "totalAUD": 36204,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Youth Work/Bachelor of Sport Management",
+    "slug": "vu-sydney-bachelor-of-youth-work-bachelor-of-sport-management-ebys",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-youth-work-bachelor-of-sport-management-ebys",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Science/Master of Teaching (Secondary Education)",
+    "slug": "vu-sydney-bachelor-of-science-master-of-teaching-secondary-education-ecst",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-science-master-of-teaching-secondary-education-ecst",
+    "level": "Masters",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Diploma of Education Studies",
+    "slug": "vu-sydney-diploma-of-education-studies-edes",
+    "url": "https://www.vu.edu.au/courses/diploma-of-education-studies-edes",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16100,
+    "annualUSD": 10465,
+    "totalAUD": 16100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Block Teaching",
+    "slug": "vu-sydney-graduate-diploma-in-block-teaching-egbl",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-block-teaching-egbl",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Early Childhood Education",
+    "slug": "vu-sydney-graduate-diploma-in-early-childhood-education-egec",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-early-childhood-education-egec",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Education",
+    "slug": "vu-sydney-graduate-diploma-in-education-eged",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-education-eged",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Applied Teaching (Secondary Education)",
+    "slug": "vu-sydney-master-of-applied-teaching-secondary-education-emat",
+    "url": "https://www.vu.edu.au/courses/master-of-applied-teaching-secondary-education-emat",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 16000,
+    "annualUSD": 10400,
+    "totalAUD": 24000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Education",
+    "slug": "vu-sydney-master-of-education-emed",
+    "url": "https://www.vu.edu.au/courses/master-of-education-emed",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Teaching (Secondary Education)",
+    "slug": "vu-sydney-master-of-teaching-secondary-education-emes",
+    "url": "https://www.vu.edu.au/courses/master-of-teaching-secondary-education-emes",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 30000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Teaching (Primary Education)",
+    "slug": "vu-sydney-master-of-teaching-primary-education-empe",
+    "url": "https://www.vu.edu.au/courses/master-of-teaching-primary-education-empe",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Block Teaching",
+    "slug": "vu-sydney-graduate-certificate-in-block-teaching-etbl",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-block-teaching-etbl",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12800,
+    "annualUSD": 8320,
+    "totalAUD": 6400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Early Childhood Education",
+    "slug": "vu-sydney-graduate-certificate-in-early-childhood-education-etec",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-early-childhood-education-etec",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 12750,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Education",
+    "slug": "vu-sydney-graduate-certificate-in-education-eted",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-education-eted",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Performance-Based Building & Fire Codes",
+    "slug": "vu-sydney-graduate-certificate-in-performance-based-building-fire-codes-etqb",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-performance-based-building-fire-codes-etqb",
+    "level": "Graduate Certificate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Early Childhood Education",
+    "slug": "vu-sydney-undergraduate-certificate-in-early-childhood-education-euec",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-early-childhood-education-euec",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 25000,
+    "annualUSD": 16250,
+    "totalAUD": 12500,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Education (P12) STEM",
+    "slug": "vu-sydney-undergraduate-certificate-in-education-p12-stem-eued",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-education-p12-stem-eued",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Education Studies",
+    "slug": "vu-sydney-undergraduate-certificate-in-education-studies-eues",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-education-studies-eues",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12068,
+    "annualUSD": 7844,
+    "totalAUD": 6034,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNS40222 Certificate IV in Accounting and Bookkeeping",
+    "slug": "vu-sydney-certificate-iv-in-accounting-and-bookkeeping-fns40222",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-accounting-and-bookkeeping-fns40222",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 7625,
+    "annualUSD": 4956,
+    "totalAUD": 3813,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNS50222 Diploma of Accounting",
+    "slug": "vu-sydney-diploma-of-accounting-fns50222",
+    "url": "https://www.vu.edu.au/courses/diploma-of-accounting-fns50222",
+    "level": "Diploma",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9240,
+    "annualUSD": 6006,
+    "totalAUD": 4620,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNSSS00004 BAS Agent Registration Skill Set",
+    "slug": "vu-sydney-bas-agent-registration-skill-set-fnsss00004",
+    "url": "https://www.vu.edu.au/courses/bas-agent-registration-skill-set-fnsss00004",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNSSS00008 Tax Law for Tax Agents Skill Set (Tax documentation)",
+    "slug": "vu-sydney-tax-law-for-tax-agents-skill-set-tax-documentation-fnsss00008",
+    "url": "https://www.vu.edu.au/courses/tax-law-for-tax-agents-skill-set-tax-documentation-fnsss00008",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNSSS00014 Accounting Principles Skill Set",
+    "slug": "vu-sydney-accounting-principles-skill-set-fnsss00014",
+    "url": "https://www.vu.edu.au/courses/accounting-principles-skill-set-fnsss00014",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Biomedicine",
+    "slug": "vu-sydney-bachelor-of-biomedicine-hbbm",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-biomedicine-hbbm",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Biomedical Science",
+    "slug": "vu-sydney-bachelor-of-biomedical-science-hbbs",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-biomedical-science-hbbs",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Dermal Sciences",
+    "slug": "vu-sydney-bachelor-of-dermal-sciences-hbds",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-dermal-sciences-hbds",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Biomedical and Exercise Science",
+    "slug": "vu-sydney-bachelor-of-biomedical-and-exercise-science-hbes",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-biomedical-and-exercise-science-hbes",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Health Science",
+    "slug": "vu-sydney-bachelor-of-health-science-hbhl",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-health-science-hbhl",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Midwifery/Bachelor of Nursing",
+    "slug": "vu-sydney-bachelor-of-midwifery-bachelor-of-nursing-hbma",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-midwifery-bachelor-of-nursing-hbma",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 16796,
+    "annualUSD": 10917,
+    "totalAUD": 67184,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Nursing",
+    "slug": "vu-sydney-bachelor-of-nursing-hbnb",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-nursing-hbnb",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 16796,
+    "annualUSD": 10917,
+    "totalAUD": 50388,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Human Nutrition",
+    "slug": "vu-sydney-bachelor-of-human-nutrition-hbnt",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-human-nutrition-hbnt",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Paramedicine",
+    "slug": "vu-sydney-bachelor-of-paramedicine-hbpd",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-paramedicine-hbpd",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Nutritional Science/Master of Dietetics",
+    "slug": "vu-sydney-bachelor-of-nutritional-science-master-of-dietetics-hcnd",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-nutritional-science-master-of-dietetics-hcnd",
+    "level": "Masters",
+    "duration": "4.5 years",
+    "durationYears": 4.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 42917,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Science (Osteopathy)/Master of Health Science (Osteopathy)",
+    "slug": "vu-sydney-bachelor-of-science-osteopathy-master-of-health-science-osteopathy-hcop",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-science-osteopathy-master-of-health-science-osteopathy-hcop",
+    "level": "Masters",
+    "duration": "4.5 years",
+    "durationYears": 4.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 42917,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Applied Movement Sciences/Master of Physiotherapy",
+    "slug": "vu-sydney-bachelor-of-applied-movement-sciences-master-of-physiotherapy-hcpt",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-applied-movement-sciences-master-of-physiotherapy-hcpt",
+    "level": "Masters",
+    "duration": "4.5 years",
+    "durationYears": 4.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 42917,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Speech and Language Sciences/Master of Speech Pathology",
+    "slug": "vu-sydney-bachelor-of-speech-and-language-sciences-master-of-speech-pathology-hcsp",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-speech-and-language-sciences-master-of-speech-pathology-hcsp",
+    "level": "Masters",
+    "duration": "4.5 years",
+    "durationYears": 4.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 42917,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Counselling Theory and Practice",
+    "slug": "vu-sydney-graduate-diploma-in-counselling-theory-and-practice-hgcp",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-counselling-theory-and-practice-hgcp",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 29000,
+    "annualUSD": 18850,
+    "totalAUD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Mental Health Nursing",
+    "slug": "vu-sydney-graduate-diploma-in-mental-health-nursing-hgmn",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-mental-health-nursing-hgmn",
+    "level": "Graduate Diploma",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 23280,
+    "annualUSD": 15132,
+    "totalAUD": 116400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Science (Honours)",
+    "slug": "vu-sydney-bachelor-of-science-honours-hhsc",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-science-honours-hhsc",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT31120 Certificate III in Non-Emergency Patient Transport",
+    "slug": "vu-sydney-certificate-iii-in-non-emergency-patient-transport-hlt31120",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-non-emergency-patient-transport-hlt31120",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8596,
+    "annualUSD": 5587,
+    "totalAUD": 4298,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT33115 Certificate III in Health Services Assistance",
+    "slug": "vu-sydney-certificate-iii-in-health-services-assistance-hlt33115",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-health-services-assistance-hlt33115",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 6482,
+    "annualUSD": 4213,
+    "totalAUD": 3241,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT37315 Certificate III in Health Administration",
+    "slug": "vu-sydney-certificate-iii-in-health-administration-hlt37315",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-health-administration-hlt37315",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT50321 Diploma of Clinical Coding",
+    "slug": "vu-sydney-diploma-of-clinical-coding-hlt50321",
+    "url": "https://www.vu.edu.au/courses/diploma-of-clinical-coding-hlt50321",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 8312,
+    "annualUSD": 5403,
+    "totalAUD": 8312,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT51020 Diploma of Emergency Health Care",
+    "slug": "vu-sydney-diploma-of-emergency-health-care-hlt51020",
+    "url": "https://www.vu.edu.au/courses/diploma-of-emergency-health-care-hlt51020",
+    "level": "Diploma",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15540,
+    "annualUSD": 10101,
+    "totalAUD": 7770,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT54121 Diploma of Nursing",
+    "slug": "vu-sydney-diploma-of-nursing-hlt54121",
+    "url": "https://www.vu.edu.au/courses/diploma-of-nursing-hlt54121",
+    "level": "Diploma",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35360,
+    "annualUSD": 22984,
+    "totalAUD": 70720,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Child and Adolescent Mental Health",
+    "slug": "vu-sydney-master-of-child-and-adolescent-mental-health-hmch",
+    "url": "https://www.vu.edu.au/courses/master-of-child-and-adolescent-mental-health-hmch",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34600,
+    "annualUSD": 22490,
+    "totalAUD": 69200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Dietetics",
+    "slug": "vu-sydney-master-of-dietetics-hmdt",
+    "url": "https://www.vu.edu.au/courses/master-of-dietetics-hmdt",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Global Public Health",
+    "slug": "vu-sydney-master-of-global-public-health-hmgp",
+    "url": "https://www.vu.edu.au/courses/master-of-global-public-health-hmgp",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Mental Health",
+    "slug": "vu-sydney-master-of-mental-health-hmmh",
+    "url": "https://www.vu.edu.au/courses/master-of-mental-health-hmmh",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34600,
+    "annualUSD": 22490,
+    "totalAUD": 69200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Mental Health Nursing",
+    "slug": "vu-sydney-master-of-mental-health-nursing-hmmn",
+    "url": "https://www.vu.edu.au/courses/master-of-mental-health-nursing-hmmn",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34840,
+    "annualUSD": 22646,
+    "totalAUD": 69680,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Nursing Online",
+    "slug": "vu-sydney-master-of-nursing-hmng",
+    "url": "https://www.vu.edu.au/courses/master-of-nursing-hmng",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35400,
+    "annualUSD": 23010,
+    "totalAUD": 70800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Professional Psychology",
+    "slug": "vu-sydney-master-of-professional-psychology-hmpp",
+    "url": "https://www.vu.edu.au/courses/master-of-professional-psychology-hmpp",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 34500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Physiotherapy",
+    "slug": "vu-sydney-master-of-physiotherapy-hmps",
+    "url": "https://www.vu.edu.au/courses/master-of-physiotherapy-hmps",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 47400,
+    "annualUSD": 30810,
+    "totalAUD": 94800,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Public Health Online",
+    "slug": "vu-sydney-master-of-public-health-hmpt",
+    "url": "https://www.vu.edu.au/courses/master-of-public-health-hmpt",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 41350,
+    "annualUSD": 26878,
+    "totalAUD": 82700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Speech Pathology",
+    "slug": "vu-sydney-master-of-speech-pathology-hmst",
+    "url": "https://www.vu.edu.au/courses/master-of-speech-pathology-hmst",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35000,
+    "annualUSD": 22750,
+    "totalAUD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Child and Adolescent Mental Health",
+    "slug": "vu-sydney-graduate-certificate-in-child-and-adolescent-mental-health-htch",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-child-and-adolescent-mental-health-htch",
+    "level": "Graduate Certificate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 11480,
+    "annualUSD": 7462,
+    "totalAUD": 57400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Counselling Theory and Practice",
+    "slug": "vu-sydney-graduate-certificate-in-counselling-theory-and-practice-htcp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-counselling-theory-and-practice-htcp",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 14500,
+    "annualUSD": 9425,
+    "totalAUD": 7250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Global Public Health",
+    "slug": "vu-sydney-graduate-certificate-in-global-public-health-htgp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-global-public-health-htgp",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Mental Health",
+    "slug": "vu-sydney-graduate-certificate-in-mental-health-htmh",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-mental-health-htmh",
+    "level": "Graduate Certificate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 11480,
+    "annualUSD": 7462,
+    "totalAUD": 57400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Mental Health Nursing",
+    "slug": "vu-sydney-graduate-certificate-in-mental-health-nursing-htmn",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-mental-health-nursing-htmn",
+    "level": "Graduate Certificate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 11560,
+    "annualUSD": 7514,
+    "totalAUD": 57800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Nursing Online",
+    "slug": "vu-sydney-graduate-certificate-in-nursing-htng",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-nursing-htng",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 11800,
+    "annualUSD": 7670,
+    "totalAUD": 11800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Public Health",
+    "slug": "vu-sydney-graduate-certificate-in-public-health-htpt",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-public-health-htpt",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12800,
+    "annualUSD": 8320,
+    "totalAUD": 12800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Diet and Health",
+    "slug": "vu-sydney-undergraduate-certificate-in-diet-and-health-hudh",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-diet-and-health-hudh",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Health Science",
+    "slug": "vu-sydney-undergraduate-certificate-in-health-science-huhs",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-health-science-huhs",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Interpersonal and Organisational Skills",
+    "slug": "vu-sydney-undergraduate-certificate-in-interpersonal-and-organisational-skills-huio",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-interpersonal-and-organisational-skills-huio",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 8700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Laser Safety",
+    "slug": "vu-sydney-undergraduate-certificate-in-laser-safety-huls",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-laser-safety-huls",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Psychological Studies",
+    "slug": "vu-sydney-undergraduate-certificate-in-psychological-studies-hups",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-psychological-studies-hups",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 8700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "ICT30120 Certificate III in Information Technology",
+    "slug": "vu-sydney-certificate-iii-in-information-technology-ict30120",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-information-technology-ict30120",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 6625,
+    "annualUSD": 4306,
+    "totalAUD": 3313,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "ICT40120 Certificate IV in Information Technology",
+    "slug": "vu-sydney-certificate-iv-in-information-technology-ict40120",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-information-technology-ict40120",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12880,
+    "annualUSD": 8372,
+    "totalAUD": 12880,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "International Foundations at VU",
+    "slug": "vu-sydney-international-foundations-at-vu-jqag",
+    "url": "https://www.vu.edu.au/courses/international-foundations-at-vu-jqag",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 13000,
+    "annualUSD": 8450,
+    "totalAUD": 26000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "JQAK Chinese Language and Culture Program",
+    "slug": "vu-sydney-chinese-language-and-culture-program-jqak",
+    "url": "https://www.vu.edu.au/courses/chinese-language-and-culture-program-jqak",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Professional Course in Notarial Practice",
+    "slug": "vu-sydney-professional-course-in-notarial-practice-jqnp",
+    "url": "https://www.vu.edu.au/courses/professional-course-in-notarial-practice-jqnp",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 5700,
+    "annualUSD": 3705,
+    "totalAUD": 22800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "JQPN OSCE Preparation Program for Nurses",
+    "slug": "vu-sydney-osce-preparation-program-for-nurses-jqpn",
+    "url": "https://www.vu.edu.au/courses/osce-preparation-program-for-nurses-jqpn",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 16796,
+    "annualUSD": 10917,
+    "totalAUD": 50388,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "JVAE Capstone Exam Preparatory Course",
+    "slug": "vu-sydney-capstone-exam-preparatory-course-jvae",
+    "url": "https://www.vu.edu.au/courses/capstone-exam-preparatory-course-jvae",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 28500,
+    "annualUSD": 18525,
+    "totalAUD": 28500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "JVAO Sustainable Infrastructure Construction and Management",
+    "slug": "vu-sydney-sustainable-infrastructure-construction-and-management-jvao",
+    "url": "https://www.vu.edu.au/courses/sustainable-infrastructure-construction-and-management-jvao",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Foundations at VU",
+    "slug": "vu-sydney-foundations-at-vu-jyac",
+    "url": "https://www.vu.edu.au/courses/foundations-at-vu-jyac",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Criminology/Bachelor of Psychological Studies",
+    "slug": "vu-sydney-bachelor-of-criminology-bachelor-of-psychological-studies-lbcp",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-criminology-bachelor-of-psychological-studies-lbcp",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Criminology",
+    "slug": "vu-sydney-bachelor-of-criminology-lbcr",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-criminology-lbcr",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws/Bachelor of Arts",
+    "slug": "vu-sydney-bachelor-of-laws-bachelor-of-arts-lbla",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-bachelor-of-arts-lbla",
+    "level": "Undergraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 86995,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws/ Bachelor of Criminology",
+    "slug": "vu-sydney-bachelor-of-laws-bachelor-of-criminology-lblc",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-bachelor-of-criminology-lblc",
+    "level": "Undergraduate",
+    "duration": "4.5 years",
+    "durationYears": 4.5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 78296,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Legal Services",
+    "slug": "vu-sydney-bachelor-of-legal-services-lbls",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-legal-services-lbls",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws/Bachelor of Business",
+    "slug": "vu-sydney-bachelor-of-laws-bachelor-of-business-lbwb",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-bachelor-of-business-lbwb",
+    "level": "Undergraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 86995,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws/Bachelor of Psychological Studies",
+    "slug": "vu-sydney-bachelor-of-laws-bachelor-of-psychological-studies-lbwp",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-bachelor-of-psychological-studies-lbwp",
+    "level": "Undergraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 86995,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Migration Law",
+    "slug": "vu-sydney-graduate-diploma-in-migration-law-lgml",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-migration-law-lgml",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 28500,
+    "annualUSD": 18525,
+    "totalAUD": 28500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours)/Bachelor of Criminology",
+    "slug": "vu-sydney-bachelor-of-laws-honours-bachelor-of-criminology-lhcr",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-honours-bachelor-of-criminology-lhcr",
+    "level": "Undergraduate (Honours)",
+    "duration": "4.5 years",
+    "durationYears": 4.5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 78296,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours) (Graduate Entry)",
+    "slug": "vu-sydney-bachelor-of-laws-honours-graduate-entry-lhge",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-honours-graduate-entry-lhge",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours)",
+    "slug": "vu-sydney-bachelor-of-laws-honours-lhlw",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-honours-lhlw",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours)/Bachelor of Arts",
+    "slug": "vu-sydney-bachelor-of-laws-honours-bachelor-of-arts-lhwa",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-honours-bachelor-of-arts-lhwa",
+    "level": "Undergraduate (Honours)",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 86995,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours)/Bachelor of Business",
+    "slug": "vu-sydney-bachelor-of-laws-honours-bachelor-of-business-lhwb",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-honours-bachelor-of-business-lhwb",
+    "level": "Undergraduate (Honours)",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 86995,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours)/Bachelor of Psychology (Honours)",
+    "slug": "vu-sydney-bachelor-of-laws-honours-bachelor-of-psychology-honours-lhwp",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-laws-honours-bachelor-of-psychology-honours-lhwp",
+    "level": "Undergraduate (Honours)",
+    "duration": "6 years",
+    "durationYears": 6,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 104394,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MEM30219 Certificate III in Engineering - Mechanical Trade",
+    "slug": "vu-sydney-certificate-iii-in-engineering-mechanical-trade-mem30219",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-engineering-mechanical-trade-mem30219",
+    "level": "Certificate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 19200,
+    "annualUSD": 12480,
+    "totalAUD": 76800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MEM31922 Certificate III in Engineering - Fabrication Trade",
+    "slug": "vu-sydney-certificate-iii-in-engineering-fabrication-trade-mem31922",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-engineering-fabrication-trade-mem31922",
+    "level": "Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 19400,
+    "annualUSD": 12610,
+    "totalAUD": 38800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MSF20322 Certificate II in Cabinet Making and Timber Technology",
+    "slug": "vu-sydney-certificate-ii-in-cabinet-making-and-timber-technology-msf20322",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-cabinet-making-and-timber-technology-msf20322",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 6600,
+    "annualUSD": 4290,
+    "totalAUD": 13200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MSF30322 Certificate III in Cabinet Making and Timber Technology",
+    "slug": "vu-sydney-certificate-iii-in-cabinet-making-and-timber-technology-msf30322",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-cabinet-making-and-timber-technology-msf30322",
+    "level": "Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 21320,
+    "annualUSD": 13858,
+    "totalAUD": 42640,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Building Surveying",
+    "slug": "vu-sydney-bachelor-of-building-surveying-nbbs",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-building-surveying-nbbs",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Cyber Security",
+    "slug": "vu-sydney-bachelor-of-cyber-security-nbcs",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-cyber-security-nbcs",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Data Science",
+    "slug": "vu-sydney-bachelor-of-data-science-nbds",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-data-science-nbds",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Professional)",
+    "slug": "vu-sydney-bachelor-of-information-technology-professional-nbip",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-information-technology-professional-nbip",
+    "level": "Undergraduate",
+    "duration": "3.5 years",
+    "durationYears": 3.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 33380,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology",
+    "slug": "vu-sydney-bachelor-of-information-technology-nbit",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-information-technology-nbit",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Science",
+    "slug": "vu-sydney-bachelor-of-science-nbsc",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-science-nbsc",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Building Surveying",
+    "slug": "vu-sydney-graduate-diploma-in-building-surveying-ngbs",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-building-surveying-ngbs",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Cyber Security",
+    "slug": "vu-sydney-graduate-diploma-in-cyber-security-ngcs",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-cyber-security-ngcs",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Project Management",
+    "slug": "vu-sydney-graduate-diploma-in-project-management-ngpm",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-project-management-ngpm",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 34500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Construction Management (Honours)",
+    "slug": "vu-sydney-bachelor-of-construction-management-honours-nhcm",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-construction-management-honours-nhcm",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) (Civil Engineering)",
+    "slug": "vu-sydney-bachelor-of-engineering-honours-civil-engineering-nhec",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-engineering-honours-civil-engineering-nhec",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9357,
+    "annualUSD": 6082,
+    "totalAUD": 37428,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) (Electrical and Electronic Engineering)",
+    "slug": "vu-sydney-bachelor-of-engineering-honours-electrical-and-electronic-engineering-nhee",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-engineering-honours-electrical-and-electronic-engineering-nhee",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) (Mechanical Engineering)",
+    "slug": "vu-sydney-bachelor-of-engineering-honours-mechanical-engineering-nhem",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-engineering-honours-mechanical-engineering-nhem",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Applied Information Technology",
+    "slug": "vu-sydney-master-of-applied-information-technology-nmit",
+    "url": "https://www.vu.edu.au/courses/master-of-applied-information-technology-nmit",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Project Management",
+    "slug": "vu-sydney-master-of-project-management-nmpm",
+    "url": "https://www.vu.edu.au/courses/master-of-project-management-nmpm",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Artificial Intelligence",
+    "slug": "vu-sydney-graduate-certificate-in-artificial-intelligence-ntai",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-artificial-intelligence-ntai",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 17250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Building Surveying",
+    "slug": "vu-sydney-graduate-certificate-in-building-surveying-ntbs",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-building-surveying-ntbs",
+    "level": "Graduate Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Construction Project Management",
+    "slug": "vu-sydney-graduate-certificate-in-construction-project-management-ntcp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-construction-project-management-ntcp",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 17250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cyber Security",
+    "slug": "vu-sydney-graduate-certificate-in-cyber-security-ntcs",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-cyber-security-ntcs",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Information Technology Project Management",
+    "slug": "vu-sydney-graduate-certificate-in-information-technology-project-management-ntip",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-information-technology-project-management-ntip",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "slug": "vu-sydney-graduate-certificate-in-project-management-ntpm",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-project-management-ntpm",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Architectural Design",
+    "slug": "vu-sydney-undergraduate-certificate-in-architectural-design-nuad",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-architectural-design-nuad",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Building Construction Management",
+    "slug": "vu-sydney-undergraduate-certificate-in-building-construction-management-nubc",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-building-construction-management-nubc",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Engineering Fundamentals",
+    "slug": "vu-sydney-undergraduate-certificate-in-engineering-fundamentals-nuef",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-engineering-fundamentals-nuef",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Information Technology",
+    "slug": "vu-sydney-undergraduate-certificate-in-information-technology-nuit",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-information-technology-nuit",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Science and the Environment",
+    "slug": "vu-sydney-undergraduate-certificate-in-science-and-the-environment-nuse",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-science-and-the-environment-nuse",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "RII20720 Certificate II in Civil Construction",
+    "slug": "vu-sydney-certificate-ii-in-civil-construction-rii20720",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-civil-construction-rii20720",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12740,
+    "annualUSD": 8281,
+    "totalAUD": 6370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "RII30820 Certificate III in Civil Construction Plant Operations",
+    "slug": "vu-sydney-certificate-iii-in-civil-construction-plant-operations-rii30820",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-civil-construction-plant-operations-rii30820",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12740,
+    "annualUSD": 8281,
+    "totalAUD": 6370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "RII40720 Certificate IV in Civil Construction",
+    "slug": "vu-sydney-certificate-iv-in-civil-construction-rii40720",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-civil-construction-rii40720",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 14000,
+    "annualUSD": 9100,
+    "totalAUD": 7000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Sport Science (Human Movement)/Bachelor of Psychological Studies",
+    "slug": "vu-sydney-bachelor-of-sport-science-human-movement-bachelor-of-psychological-studies-sbhp",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-sport-science-human-movement-bachelor-of-psychological-studies-sbhp",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Sport Science (Human Movement)/Bachelor of Sport Management",
+    "slug": "vu-sydney-bachelor-of-sport-science-human-movement-bachelor-of-sport-management-sbhs",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-sport-science-human-movement-bachelor-of-sport-management-sbhs",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Outdoor Education and Environmental Science",
+    "slug": "vu-sydney-bachelor-of-outdoor-education-and-environmental-science-sboe",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-outdoor-education-and-environmental-science-sboe",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Outdoor Leadership",
+    "slug": "vu-sydney-bachelor-of-outdoor-leadership-sbol",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-outdoor-leadership-sbol",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Physical Education and Sport Science",
+    "slug": "vu-sydney-bachelor-of-physical-education-and-sport-science-sbph",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-physical-education-and-sport-science-sbph",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Sport Science",
+    "slug": "vu-sydney-bachelor-of-sport-science-sbsa",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-sport-science-sbsa",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Sport Management/Bachelor of Business",
+    "slug": "vu-sydney-bachelor-of-sport-management-bachelor-of-business-sbsb",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-sport-management-bachelor-of-business-sbsb",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Sport Management",
+    "slug": "vu-sydney-bachelor-of-sport-management-sbsm",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-sport-management-sbsm",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SHB30121 Certificate III in Beauty Services",
+    "slug": "vu-sydney-certificate-iii-in-beauty-services-shb30121",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-beauty-services-shb30121",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9800,
+    "annualUSD": 6370,
+    "totalAUD": 4900,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SHB30416 Certificate III in Hairdressing",
+    "slug": "vu-sydney-certificate-iii-in-hairdressing-shb30416",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-hairdressing-shb30416",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16417,
+    "annualUSD": 10671,
+    "totalAUD": 16417,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SHB30516 Certificate III in Barbering",
+    "slug": "vu-sydney-certificate-iii-in-barbering-shb30516",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-barbering-shb30516",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 13200,
+    "annualUSD": 8580,
+    "totalAUD": 13200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SHB50121 Diploma of Beauty Therapy",
+    "slug": "vu-sydney-diploma-of-beauty-therapy-shb50121",
+    "url": "https://www.vu.edu.au/courses/diploma-of-beauty-therapy-shb50121",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 24007,
+    "annualUSD": 15605,
+    "totalAUD": 24007,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT20322 Certificate II in Hospitality",
+    "slug": "vu-sydney-certificate-ii-in-hospitality-sit20322",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-hospitality-sit20322",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14580,
+    "annualUSD": 9477,
+    "totalAUD": 14580,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT20421 Certificate II in Cookery",
+    "slug": "vu-sydney-certificate-ii-in-cookery-sit20421",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-cookery-sit20421",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 19540,
+    "annualUSD": 12701,
+    "totalAUD": 19540,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT30622 Certificate III in Hospitality",
+    "slug": "vu-sydney-certificate-iii-in-hospitality-sit30622",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-hospitality-sit30622",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 5420,
+    "annualUSD": 3523,
+    "totalAUD": 2710,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT30821 Certificate III in Commercial Cookery",
+    "slug": "vu-sydney-certificate-iii-in-commercial-cookery-sit30821",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-commercial-cookery-sit30821",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 19540,
+    "annualUSD": 12701,
+    "totalAUD": 19540,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT40521 Certificate IV in Kitchen Management",
+    "slug": "vu-sydney-certificate-iv-in-kitchen-management-sit40521",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-kitchen-management-sit40521",
+    "level": "Certificate",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 19628,
+    "annualUSD": 12758,
+    "totalAUD": 29442,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT50122 Diploma of Travel and Tourism Management",
+    "slug": "vu-sydney-diploma-of-travel-and-tourism-management-sit50122",
+    "url": "https://www.vu.edu.au/courses/diploma-of-travel-and-tourism-management-sit50122",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15312,
+    "annualUSD": 9953,
+    "totalAUD": 15312,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT50322 Diploma of Event Management",
+    "slug": "vu-sydney-diploma-of-event-management-sit50322",
+    "url": "https://www.vu.edu.au/courses/diploma-of-event-management-sit50322",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14000,
+    "annualUSD": 9100,
+    "totalAUD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT50422 Diploma of Hospitality Management",
+    "slug": "vu-sydney-diploma-of-hospitality-management-sit50422",
+    "url": "https://www.vu.edu.au/courses/diploma-of-hospitality-management-sit50422",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 11390,
+    "annualUSD": 7404,
+    "totalAUD": 11390,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT60322 Advanced Diploma of Hospitality Management",
+    "slug": "vu-sydney-advanced-diploma-of-hospitality-management-sit60322",
+    "url": "https://www.vu.edu.au/courses/advanced-diploma-of-hospitality-management-sit60322",
+    "level": "Diploma",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 16320,
+    "annualUSD": 10608,
+    "totalAUD": 24480,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SITSS00068 Food Handling Skill Set",
+    "slug": "vu-sydney-food-handling-skill-set-sitss00068",
+    "url": "https://www.vu.edu.au/courses/food-handling-skill-set-sitss00068",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SITSS00069 Food Safety Supervision Skill Set",
+    "slug": "vu-sydney-food-safety-supervision-skill-set-sitss00069",
+    "url": "https://www.vu.edu.au/courses/food-safety-supervision-skill-set-sitss00069",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 11390,
+    "annualUSD": 7404,
+    "totalAUD": 5695,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SITSS00071 Responsible service of alcohol",
+    "slug": "vu-sydney-responsible-service-of-alcohol-sitss00071",
+    "url": "https://www.vu.edu.au/courses/responsible-service-of-alcohol-sitss00071",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Sport and Exercise Science",
+    "slug": "vu-sydney-master-of-sport-and-exercise-science-smes",
+    "url": "https://www.vu.edu.au/courses/master-of-sport-and-exercise-science-smes",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 51750,
+    "ieltsMin": 641,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Strength and Conditioning",
+    "slug": "vu-sydney-graduate-certificate-in-strength-and-conditioning-stsa",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-strength-and-conditioning-stsa",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 19950,
+    "annualUSD": 12968,
+    "totalAUD": 9975,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics for Sport Performance",
+    "slug": "vu-sydney-graduate-certificate-in-data-analytics-for-sport-performance-stsp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-data-analytics-for-sport-performance-stsp",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 167893,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Primary Physical Education",
+    "slug": "vu-sydney-undergraduate-certificate-in-primary-physical-education-supp",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-primary-physical-education-supp",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 8700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAA LANTITE Preparation Course",
+    "slug": "vu-sydney-lantite-preparation-course-thaaa",
+    "url": "https://www.vu.edu.au/courses/lantite-preparation-course-thaaa",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 30000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAC Revit Level 1",
+    "slug": "vu-sydney-revit-level-1-thaac",
+    "url": "https://www.vu.edu.au/courses/revit-level-1-thaac",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 15019,
+    "annualUSD": 9762,
+    "totalAUD": 30038,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAN Welding for Beginners",
+    "slug": "vu-sydney-welding-for-beginners-thaan",
+    "url": "https://www.vu.edu.au/courses/welding-for-beginners-thaan",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 19200,
+    "annualUSD": 12480,
+    "totalAUD": 38400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAU Mechanical Fitting for Hobbyists",
+    "slug": "vu-sydney-mechanical-fitting-for-hobbyists-thaau",
+    "url": "https://www.vu.edu.au/courses/mechanical-fitting-for-hobbyists-thaau",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 19200,
+    "annualUSD": 12480,
+    "totalAUD": 76800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAV Effective Communication Skills",
+    "slug": "vu-sydney-effective-communication-skills-thaav",
+    "url": "https://www.vu.edu.au/courses/effective-communication-skills-thaav",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAY Building the Team",
+    "slug": "vu-sydney-building-the-team-thaay",
+    "url": "https://www.vu.edu.au/courses/building-the-team-thaay",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THAAZ Communicate with Influence",
+    "slug": "vu-sydney-communicate-with-influence-thaaz",
+    "url": "https://www.vu.edu.au/courses/communicate-with-influence-thaaz",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABA Effective Time Management",
+    "slug": "vu-sydney-effective-time-management-thaba",
+    "url": "https://www.vu.edu.au/courses/effective-time-management-thaba",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABB Introduction to Cybersecurity",
+    "slug": "vu-sydney-introduction-to-cybersecurity-thabb",
+    "url": "https://www.vu.edu.au/courses/introduction-to-cybersecurity-thabb",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABC Cybersecurity Essentials",
+    "slug": "vu-sydney-cybersecurity-essentials-thabc",
+    "url": "https://www.vu.edu.au/courses/cybersecurity-essentials-thabc",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABD Introduction to Internet of Things (IoT)",
+    "slug": "vu-sydney-introduction-to-internet-of-things-iot-thabd",
+    "url": "https://www.vu.edu.au/courses/introduction-to-internet-of-things-iot-thabd",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12740,
+    "annualUSD": 8281,
+    "totalAUD": 12740,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABK Introduction to Change Management",
+    "slug": "vu-sydney-introduction-to-change-management-thabk",
+    "url": "https://www.vu.edu.au/courses/introduction-to-change-management-thabk",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABM Introduction to Effective Teamwork",
+    "slug": "vu-sydney-introduction-to-effective-teamwork-thabm",
+    "url": "https://www.vu.edu.au/courses/introduction-to-effective-teamwork-thabm",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABS Microsoft Word - Intermediate",
+    "slug": "vu-sydney-microsoft-word-intermediate-thabs",
+    "url": "https://www.vu.edu.au/courses/microsoft-word-intermediate-thabs",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABT Microsoft PowerPoint - Introduction",
+    "slug": "vu-sydney-microsoft-powerpoint-introduction-thabt",
+    "url": "https://www.vu.edu.au/courses/microsoft-powerpoint-introduction-thabt",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABU Microsoft Excel - Beginner",
+    "slug": "vu-sydney-microsoft-excel-beginner-thabu",
+    "url": "https://www.vu.edu.au/courses/microsoft-excel-beginner-thabu",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABV Microsoft Excel - Intermediate",
+    "slug": "vu-sydney-microsoft-excel-intermediate-thabv",
+    "url": "https://www.vu.edu.au/courses/microsoft-excel-intermediate-thabv",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THABW Microsoft Excel - Advanced",
+    "slug": "vu-sydney-microsoft-excel-advanced-thabw",
+    "url": "https://www.vu.edu.au/courses/microsoft-excel-advanced-thabw",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THACA Furniture Making for Hobbyists",
+    "slug": "vu-sydney-furniture-making-for-hobbyists-thaca",
+    "url": "https://www.vu.edu.au/courses/furniture-making-for-hobbyists-thaca",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 21320,
+    "annualUSD": 13858,
+    "totalAUD": 42640,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THACF Continuing Professional Development (CPD)",
+    "slug": "vu-sydney-continuing-professional-development-cpd-thacf",
+    "url": "https://www.vu.edu.au/courses/continuing-professional-development-cpd-thacf",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THACJ Essential Eight Assessment",
+    "slug": "vu-sydney-essential-eight-assessment-thacj",
+    "url": "https://www.vu.edu.au/courses/essential-eight-assessment-thacj",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THACL Restricted Electrical Workers Licence - Class 1 Assessment",
+    "slug": "vu-sydney-restricted-electrical-workers-licence-class-1-assessment-thacl",
+    "url": "https://www.vu.edu.au/courses/restricted-electrical-workers-licence-class-1-assessment-thacl",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 18975,
+    "annualUSD": 12334,
+    "totalAUD": 75900,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THACM Restricted Electrical Workers Licence - Class 2 Assessment",
+    "slug": "vu-sydney-restricted-electrical-workers-licence-class-2-assessment-thacm",
+    "url": "https://www.vu.edu.au/courses/restricted-electrical-workers-licence-class-2-assessment-thacm",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 18975,
+    "annualUSD": 12334,
+    "totalAUD": 75900,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNAAH Safe Operation of an Elevating Work Platform",
+    "slug": "vu-sydney-safe-operation-of-an-elevating-work-platform-tnaah",
+    "url": "https://www.vu.edu.au/courses/safe-operation-of-an-elevating-work-platform-tnaah",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 14000,
+    "annualUSD": 9100,
+    "totalAUD": 7000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABD Emergency First Aid in Childcare and Education",
+    "slug": "vu-sydney-emergency-first-aid-in-childcare-and-education-tnabd",
+    "url": "https://www.vu.edu.au/courses/emergency-first-aid-in-childcare-and-education-tnabd",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 13975,
+    "annualUSD": 9084,
+    "totalAUD": 13975,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABG CPR (Refresher)",
+    "slug": "vu-sydney-cpr-refresher-tnabg",
+    "url": "https://www.vu.edu.au/courses/cpr-refresher-tnabg",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 81000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABJ Level II First Aid",
+    "slug": "vu-sydney-level-ii-first-aid-tnabj",
+    "url": "https://www.vu.edu.au/courses/level-ii-first-aid-tnabj",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 81000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABL Solar Grid Connect - Design and Install",
+    "slug": "vu-sydney-solar-grid-connect-design-and-install-tnabl",
+    "url": "https://www.vu.edu.au/courses/solar-grid-connect-design-and-install-tnabl",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABM Solar Grid Connect - Design",
+    "slug": "vu-sydney-solar-grid-connect-design-tnabm",
+    "url": "https://www.vu.edu.au/courses/solar-grid-connect-design-tnabm",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABN Solar Grid Connect - Install",
+    "slug": "vu-sydney-solar-grid-connect-install-tnabn",
+    "url": "https://www.vu.edu.au/courses/solar-grid-connect-install-tnabn",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9080,
+    "annualUSD": 5902,
+    "totalAUD": 18160,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABQ Working at Heights Safely in the Resources and Infrastructure Industry",
+    "slug": "vu-sydney-working-at-heights-safely-in-the-resources-and-infrastructure-industry-tnabq",
+    "url": "https://www.vu.edu.au/courses/working-at-heights-safely-in-the-resources-and-infrastructure-industry-tnabq",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12740,
+    "annualUSD": 8281,
+    "totalAUD": 6370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNABY Domestic Builders Limited",
+    "slug": "vu-sydney-domestic-builders-limited-tnaby",
+    "url": "https://www.vu.edu.au/courses/domestic-builders-limited-tnaby",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNCL1 Class 1 Restricted Electrical Fault Finding Licence",
+    "slug": "vu-sydney-class-1-restricted-electrical-fault-finding-licence-tncl1",
+    "url": "https://www.vu.edu.au/courses/class-1-restricted-electrical-fault-finding-licence-tncl1",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNREC Registered Electrical Contractor (REC)",
+    "slug": "vu-sydney-registered-electrical-contractor-rec-tnrec",
+    "url": "https://www.vu.edu.au/courses/registered-electrical-contractor-rec-tnrec",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9080,
+    "annualUSD": 5902,
+    "totalAUD": 36320,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNSCF Basic Scaffolding",
+    "slug": "vu-sydney-basic-scaffolding-tnscf",
+    "url": "https://www.vu.edu.au/courses/basic-scaffolding-tnscf",
+    "level": "Postgraduate",
+    "duration": "18 years",
+    "durationYears": 18,
+    "annualAUD": 9322,
+    "annualUSD": 6059,
+    "totalAUD": 167796,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "UEE30820 Certificate III in Electrotechnology Electrician",
+    "slug": "vu-sydney-certificate-iii-in-electrotechnology-electrician-uee30820",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-electrotechnology-electrician-uee30820",
+    "level": "Certificate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 18975,
+    "annualUSD": 12334,
+    "totalAUD": 75900,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "UEESS00133 Restricted - Disconnection/Reconnection of Fixed Wired Low Voltage Electrical Equipment",
+    "slug": "vu-sydney-restricted-disconnection-reconnection-of-fixed-wired-low-voltage-electrical-equipment-ueess00133",
+    "url": "https://www.vu.edu.au/courses/restricted-disconnection-reconnection-of-fixed-wired-low-voltage-electrical-equipment-ueess00133",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "UEESS00174 Electrical Safety Testing of Electrical Cord Connected Equipment and Cord Assemblies Skill Set",
+    "slug": "vu-sydney-electrical-safety-testing-of-electrical-cord-connected-equipment-and-cord-assemblies-skill-set-ueess00174",
+    "url": "https://www.vu.edu.au/courses/electrical-safety-testing-of-electrical-cord-connected-equipment-and-cord-assemblies-skill-set-ueess00174",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Doctor of Philosophy",
+    "slug": "vu-sydney-doctor-of-philosophy-upad",
+    "url": "https://www.vu.edu.au/courses/doctor-of-philosophy-upad",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 24000,
+    "annualUSD": 15600,
+    "totalAUD": 96000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (Integrated)",
+    "slug": "vu-sydney-doctor-of-philosophy-integrated-upae",
+    "url": "https://www.vu.edu.au/courses/doctor-of-philosophy-integrated-upae",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 24000,
+    "annualUSD": 15600,
+    "totalAUD": 96000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Applied Research",
+    "slug": "vu-sydney-master-of-applied-research-urap",
+    "url": "https://www.vu.edu.au/courses/master-of-applied-research-urap",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 60000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Research",
+    "slug": "vu-sydney-master-of-research-urre",
+    "url": "https://www.vu.edu.au/courses/master-of-research-urre",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Associate Degree in Hospitality and Hotel Management",
+    "slug": "vu-sydney-associate-degree-in-hospitality-and-hotel-management-vahh",
+    "url": "https://www.vu.edu.au/courses/associate-degree-in-hospitality-and-hotel-management-vahh",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 34798,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Diploma of Business (Enterprise)",
+    "slug": "vu-sydney-diploma-of-business-enterprise-vdbe",
+    "url": "https://www.vu.edu.au/courses/diploma-of-business-enterprise-vdbe",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 17399,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Diploma of Information Technology",
+    "slug": "vu-sydney-diploma-of-information-technology-vdit",
+    "url": "https://www.vu.edu.au/courses/diploma-of-information-technology-vdit",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "English for Academic Purposes (EAP)",
+    "slug": "vu-sydney-english-for-academic-purposes-eap-vneli",
+    "url": "https://www.vu.edu.au/courses/english-for-academic-purposes-eap-vneli",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "General English",
+    "slug": "vu-sydney-general-english-vngen",
+    "url": "https://www.vu.edu.au/courses/general-english-vngen",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Web Development and Programming",
+    "slug": "vu-sydney-undergraduate-certificate-in-web-development-and-programming-vuwd",
+    "url": "https://www.vu.edu.au/courses/undergraduate-certificate-in-web-development-and-programming-vuwd",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 4769,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22631VIC Certificate II in Work Education",
+    "slug": "vu-sydney-certificate-ii-in-work-education-22631vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-work-education-22631vic",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15340,
+    "annualUSD": 9971,
+    "totalAUD": 15340,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22632VIC Certificate II in Engineering Studies",
+    "slug": "vu-sydney-certificate-ii-in-engineering-studies-22632vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-engineering-studies-22632vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 6105,
+    "annualUSD": 3968,
+    "totalAUD": 3053,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT43021 Certificate IV in Allied Health Assistance",
+    "slug": "vu-sydney-certificate-iv-in-allied-health-assistance-hlt43021",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-allied-health-assistance-hlt43021",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 20130,
+    "annualUSD": 13085,
+    "totalAUD": 20130,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT52021 Diploma of Remedial Massage",
+    "slug": "vu-sydney-diploma-of-remedial-massage-hlt52021",
+    "url": "https://www.vu.edu.au/courses/diploma-of-remedial-massage-hlt52021",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25452,
+    "annualUSD": 16544,
+    "totalAUD": 25452,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Countering Violent Extremism",
+    "slug": "vu-sydney-graduate-certificate-in-countering-violent-extremism-ltcv",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-countering-violent-extremism-ltcv",
+    "level": "Graduate Certificate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 14500,
+    "annualUSD": 9425,
+    "totalAUD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Nursing Informatics Leadership",
+    "slug": "vu-sydney-graduate-certificate-in-nursing-informatics-leadership-htni",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-nursing-informatics-leadership-htni",
+    "level": "Graduate Certificate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 11800,
+    "annualUSD": 7670,
+    "totalAUD": 59000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CHC50421 Diploma of Youth Work",
+    "slug": "vu-sydney-diploma-of-youth-work-chc50421",
+    "url": "https://www.vu.edu.au/courses/diploma-of-youth-work-chc50421",
+    "level": "Diploma",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 21770,
+    "annualUSD": 14151,
+    "totalAUD": 32655,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Diploma in Construction Management",
+    "slug": "vu-sydney-graduate-diploma-in-construction-management-ngcm",
+    "url": "https://www.vu.edu.au/courses/graduate-diploma-in-construction-management-ngcm",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 34500,
+    "annualUSD": 22425,
+    "totalAUD": 34500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Master of Construction Management",
+    "slug": "vu-sydney-master-of-construction-management-nmcm",
+    "url": "https://www.vu.edu.au/courses/master-of-construction-management-nmcm",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Construction Management",
+    "slug": "vu-sydney-graduate-certificate-in-construction-management-ntcm",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-construction-management-ntcm",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 8625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Construction Management",
+    "slug": "vu-sydney-graduate-certificate-in-digital-construction-management-ntdc",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-digital-construction-management-ntdc",
+    "level": "Graduate Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 34500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Sustainable Construction Management",
+    "slug": "vu-sydney-graduate-certificate-in-sustainable-construction-management-ntsc",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-sustainable-construction-management-ntsc",
+    "level": "Graduate Certificate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17250,
+    "annualUSD": 11213,
+    "totalAUD": 69000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIT31021 Certificate III in Patisserie",
+    "slug": "vu-sydney-certificate-iii-in-patisserie-sit31021",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-patisserie-sit31021",
+    "level": "Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14580,
+    "annualUSD": 9477,
+    "totalAUD": 14580,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Global Health Leadership",
+    "slug": "vu-sydney-graduate-certificate-in-global-health-leadership-htgl",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-global-health-leadership-htgl",
+    "level": "Graduate Certificate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 12800,
+    "annualUSD": 8320,
+    "totalAUD": 64000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Graduate Certificate in Health Promotion",
+    "slug": "vu-sydney-graduate-certificate-in-health-promotion-hthp",
+    "url": "https://www.vu.edu.au/courses/graduate-certificate-in-health-promotion-hthp",
+    "level": "Graduate Certificate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 12800,
+    "annualUSD": 8320,
+    "totalAUD": 64000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Architectural Design",
+    "slug": "vu-sydney-bachelor-of-architectural-design-nbad",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-architectural-design-nbad",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22660VIC Course in Identifying and Responding to Family Violence Risk",
+    "slug": "vu-sydney-course-in-identifying-and-responding-to-family-violence-risk-22660vic",
+    "url": "https://www.vu.edu.au/courses/course-in-identifying-and-responding-to-family-violence-risk-22660vic",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 10737,
+    "annualUSD": 6979,
+    "totalAUD": 10737,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "CONISS014 Enter and work in confined spaces",
+    "slug": "vu-sydney-enter-and-work-in-confined-spaces-coniss014",
+    "url": "https://www.vu.edu.au/courses/enter-and-work-in-confined-spaces-coniss014",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT33021 Certificate III in Allied Health Assistance",
+    "slug": "vu-sydney-certificate-iii-in-allied-health-assistance-hlt33021",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-allied-health-assistance-hlt33021",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8596,
+    "annualUSD": 5587,
+    "totalAUD": 4298,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNACB Plumber Essential Mechanical Skills",
+    "slug": "vu-sydney-plumber-essential-mechanical-skills-tnacb",
+    "url": "https://www.vu.edu.au/courses/plumber-essential-mechanical-skills-tnacb",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9513,
+    "annualUSD": 6183,
+    "totalAUD": 38052,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Diploma of Cyber Security",
+    "slug": "vu-sydney-diploma-of-cyber-security-vdcs",
+    "url": "https://www.vu.edu.au/courses/diploma-of-cyber-security-vdcs",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22682VIC Certificate II in Electrotechnology (Pre-vocational)",
+    "slug": "vu-sydney-certificate-ii-in-electrotechnology-pre-vocational-22682vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-electrotechnology-pre-vocational-22682vic",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9080,
+    "annualUSD": 5902,
+    "totalAUD": 18160,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS1 Plumbing Licence for Common Units Skill Set",
+    "slug": "vu-sydney-plumbing-licence-for-common-units-skill-set-plumlicss1",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-for-common-units-skill-set-plumlicss1",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS2 Plumbing Licence in Drainage Work Skill Set",
+    "slug": "vu-sydney-plumbing-licence-in-drainage-work-skill-set-plumlicss2",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-in-drainage-work-skill-set-plumlicss2",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS3 Plumbing Licence in Gasfitting Work Skill Set",
+    "slug": "vu-sydney-plumbing-licence-in-gasfitting-work-skill-set-plumlicss3",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-in-gasfitting-work-skill-set-plumlicss3",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS4 Plumbing Licence in Mechanical Services Skill Set",
+    "slug": "vu-sydney-plumbing-licence-in-mechanical-services-skill-set-plumlicss4",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-in-mechanical-services-skill-set-plumlicss4",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS5 Plumbing Licence in Roofing (Stormwater) Work Skill Set",
+    "slug": "vu-sydney-plumbing-licence-in-roofing-stormwater-work-skill-set-plumlicss5",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-in-roofing-stormwater-work-skill-set-plumlicss5",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS6 Plumbing Licence in Sanitary Work Skill Set",
+    "slug": "vu-sydney-plumbing-licence-in-sanitary-work-skill-set-plumlicss6",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-in-sanitary-work-skill-set-plumlicss6",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "PLUMLICSS7 Plumbing Licence in Water Supply Work Skill Set",
+    "slug": "vu-sydney-plumbing-licence-in-water-supply-work-skill-set-plumlicss7",
+    "url": "https://www.vu.edu.au/courses/plumbing-licence-in-water-supply-work-skill-set-plumlicss7",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 33460,
+    "annualUSD": 21749,
+    "totalAUD": 133840,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Exercise and Sport Science",
+    "slug": "vu-sydney-bachelor-of-exercise-and-sport-science-sbec",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-exercise-and-sport-science-sbec",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TAE40122 Certificate IV in Training and Assessment",
+    "slug": "vu-sydney-certificate-iv-in-training-and-assessment-tae40122",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-training-and-assessment-tae40122",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 7837,
+    "annualUSD": 5094,
+    "totalAUD": 3919,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNSSS00005 Commercial Law for Tax Agents Skill Set",
+    "slug": "vu-sydney-commercial-law-for-tax-agents-skill-set-fnsss00005",
+    "url": "https://www.vu.edu.au/courses/commercial-law-for-tax-agents-skill-set-fnsss00005",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 9240,
+    "annualUSD": 6006,
+    "totalAUD": 4620,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Chiropractic Science",
+    "slug": "vu-sydney-bachelor-of-chiropractic-science-hbcs",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-chiropractic-science-hbcs",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Bachelor of Applied Music",
+    "slug": "vu-sydney-bachelor-of-applied-music-abam",
+    "url": "https://www.vu.edu.au/courses/bachelor-of-applied-music-abam",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSB50720 Diploma of Paralegal Services",
+    "slug": "vu-sydney-diploma-of-paralegal-services-bsb50720",
+    "url": "https://www.vu.edu.au/courses/diploma-of-paralegal-services-bsb50720",
+    "level": "Diploma",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12500,
+    "annualUSD": 8125,
+    "totalAUD": 6250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSBSS00106 Introduction to Paralegal Services Skill Set",
+    "slug": "vu-sydney-introduction-to-paralegal-services-skill-set-bsbss00106",
+    "url": "https://www.vu.edu.au/courses/introduction-to-paralegal-services-skill-set-bsbss00106",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 17399,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "FNSSS00012 Payroll Administrator Skill Set",
+    "slug": "vu-sydney-payroll-administrator-skill-set-fnsss00012",
+    "url": "https://www.vu.edu.au/courses/payroll-administrator-skill-set-fnsss00012",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "HLT47321 Certificate IV in Health Administration",
+    "slug": "vu-sydney-certificate-iv-in-health-administration-hlt47321",
+    "url": "https://www.vu.edu.au/courses/certificate-iv-in-health-administration-hlt47321",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 5865,
+    "annualUSD": 3812,
+    "totalAUD": 2933,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22690VIC Certificate I in General Education for Adults",
+    "slug": "vu-sydney-certificate-i-in-general-education-for-adults-22690vic",
+    "url": "https://www.vu.edu.au/courses/certificate-i-in-general-education-for-adults-22690vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 5250,
+    "annualUSD": 3413,
+    "totalAUD": 2625,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22689VIC Certificate I in General Education for Adults (Introductory)",
+    "slug": "vu-sydney-certificate-i-in-general-education-for-adults-introductory-22689vic",
+    "url": "https://www.vu.edu.au/courses/certificate-i-in-general-education-for-adults-introductory-22689vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22691VIC Certificate II in General Education for Adults",
+    "slug": "vu-sydney-certificate-ii-in-general-education-for-adults-22691vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-general-education-for-adults-22691vic",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15340,
+    "annualUSD": 9971,
+    "totalAUD": 7670,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22692VIC Certificate III in General Education for Adults",
+    "slug": "vu-sydney-certificate-iii-in-general-education-for-adults-22692vic",
+    "url": "https://www.vu.edu.au/courses/certificate-iii-in-general-education-for-adults-22692vic",
+    "level": "Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 21000,
+    "annualUSD": 13650,
+    "totalAUD": 10500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22701VIC Certificate II in Plumbing (Pre-apprenticeship)",
+    "slug": "vu-sydney-certificate-ii-in-plumbing-pre-apprenticeship-22701vic",
+    "url": "https://www.vu.edu.au/courses/certificate-ii-in-plumbing-pre-apprenticeship-22701vic",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9840,
+    "annualUSD": 6396,
+    "totalAUD": 19680,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "THACR Critical Environment Technician",
+    "slug": "vu-sydney-critical-environment-technician-thacr",
+    "url": "https://www.vu.edu.au/courses/critical-environment-technician-thacr",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "TNACD Provide advanced resuscitation and oxygen therapy",
+    "slug": "vu-sydney-provide-advanced-resuscitation-and-oxygen-therapy-tnacd",
+    "url": "https://www.vu.edu.au/courses/provide-advanced-resuscitation-and-oxygen-therapy-tnacd",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 27000,
+    "annualUSD": 17550,
+    "totalAUD": 81000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22705VIC Certificate I in Transition Education",
+    "slug": "vu-sydney-certificate-i-in-transition-education-22705vic",
+    "url": "https://www.vu.edu.au/courses/certificate-i-in-transition-education-22705vic",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 22000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "22706VIC Certificate I in Work Education",
+    "slug": "vu-sydney-certificate-i-in-work-education-22706vic",
+    "url": "https://www.vu.edu.au/courses/certificate-i-in-work-education-22706vic",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 21000,
+    "annualUSD": 13650,
+    "totalAUD": 21000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "SIS50321 Diploma of Sport",
+    "slug": "vu-sydney-diploma-of-sport-sis50321",
+    "url": "https://www.vu.edu.au/courses/diploma-of-sport-sis50321",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 20520,
+    "annualUSD": 13338,
+    "totalAUD": 20520,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Sydney Campus"
+  }
+]

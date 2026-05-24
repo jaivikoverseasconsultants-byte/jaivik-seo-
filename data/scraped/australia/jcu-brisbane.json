@@ -1,0 +1,903 @@
+[
+  {
+    "name": "Bachelor of Business",
+    "slug": "jcu-brisbane-bachelor-of-business",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Business (Accounting)",
+    "slug": "jcu-brisbane-bachelor-of-business-accounting",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Business (Marketing)",
+    "slug": "jcu-brisbane-bachelor-of-business-marketing",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Business (Tourism, Hospitality and Events)",
+    "slug": "jcu-brisbane-bachelor-of-business-tourism-hospitality-and-events",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Computer Science",
+    "slug": "jcu-brisbane-bachelor-of-computer-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Education (Early Childhood)",
+    "slug": "jcu-brisbane-bachelor-of-education-early-childhood",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Education (Primary)",
+    "slug": "jcu-brisbane-bachelor-of-education-primary",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) - Civil",
+    "slug": "jcu-brisbane-bachelor-of-engineering-honours-civil",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 37500,
+    "annualUSD": 24375,
+    "totalAUD": 150000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) - Electrical and Electronic",
+    "slug": "jcu-brisbane-bachelor-of-engineering-honours-electrical-and-electronic",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 37500,
+    "annualUSD": 24375,
+    "totalAUD": 150000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) - Mechanical",
+    "slug": "jcu-brisbane-bachelor-of-engineering-honours-mechanical",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 37500,
+    "annualUSD": 24375,
+    "totalAUD": 150000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) - Software",
+    "slug": "jcu-brisbane-bachelor-of-engineering-honours-software",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 37500,
+    "annualUSD": 24375,
+    "totalAUD": 150000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Environmental Science",
+    "slug": "jcu-brisbane-bachelor-of-environmental-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology",
+    "slug": "jcu-brisbane-bachelor-of-information-technology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Laws",
+    "slug": "jcu-brisbane-bachelor-of-laws",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Nursing",
+    "slug": "jcu-brisbane-bachelor-of-nursing",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Science",
+    "slug": "jcu-brisbane-bachelor-of-psychological-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Science (Marine Biology)",
+    "slug": "jcu-brisbane-bachelor-of-science-marine-biology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Social Work",
+    "slug": "jcu-brisbane-bachelor-of-social-work",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Bachelor of Sport and Exercise Science",
+    "slug": "jcu-brisbane-bachelor-of-sport-and-exercise-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Accounting",
+    "slug": "jcu-brisbane-master-of-accounting",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Business Administration",
+    "slug": "jcu-brisbane-master-of-business-administration",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36000,
+    "annualUSD": 23400,
+    "totalAUD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Business Administration (Hospitality Management)",
+    "slug": "jcu-brisbane-master-of-business-administration-hospitality-management",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36000,
+    "annualUSD": 23400,
+    "totalAUD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Business Administration (Tourism Management)",
+    "slug": "jcu-brisbane-master-of-business-administration-tourism-management",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36000,
+    "annualUSD": 23400,
+    "totalAUD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Clinical Psychology",
+    "slug": "jcu-brisbane-master-of-clinical-psychology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Data Science",
+    "slug": "jcu-brisbane-master-of-data-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Education",
+    "slug": "jcu-brisbane-master-of-education",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Engineering Science",
+    "slug": "jcu-brisbane-master-of-engineering-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36000,
+    "annualUSD": 23400,
+    "totalAUD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Environmental Science",
+    "slug": "jcu-brisbane-master-of-environmental-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Health Management",
+    "slug": "jcu-brisbane-master-of-health-management",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Information Technology",
+    "slug": "jcu-brisbane-master-of-information-technology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of International Hospitality and Tourism Management",
+    "slug": "jcu-brisbane-master-of-international-hospitality-and-tourism-management",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Laws",
+    "slug": "jcu-brisbane-master-of-laws",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Learning and Teaching",
+    "slug": "jcu-brisbane-master-of-learning-and-teaching",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Nursing Science",
+    "slug": "jcu-brisbane-master-of-nursing-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Professional Accounting",
+    "slug": "jcu-brisbane-master-of-professional-accounting",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Psychology",
+    "slug": "jcu-brisbane-master-of-psychology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Public Health",
+    "slug": "jcu-brisbane-master-of-public-health",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Science (Tropical and Environmental Marine Biology)",
+    "slug": "jcu-brisbane-master-of-science-tropical-and-environmental-marine-biology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Social Work",
+    "slug": "jcu-brisbane-master-of-social-work",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33500,
+    "annualUSD": 21775,
+    "totalAUD": 67000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Master of Veterinary Studies",
+    "slug": "jcu-brisbane-master-of-veterinary-studies",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 40000,
+    "annualUSD": 26000,
+    "totalAUD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Diploma in Business Administration",
+    "slug": "jcu-brisbane-graduate-diploma-in-business-administration",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 24000,
+    "annualUSD": 15600,
+    "totalAUD": 24000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Diploma in Educational Studies",
+    "slug": "jcu-brisbane-graduate-diploma-in-educational-studies",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 24000,
+    "annualUSD": 15600,
+    "totalAUD": 24000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Diploma in Nursing",
+    "slug": "jcu-brisbane-graduate-diploma-in-nursing",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 24000,
+    "annualUSD": 15600,
+    "totalAUD": 24000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Diploma in Public Health",
+    "slug": "jcu-brisbane-graduate-diploma-in-public-health",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 24000,
+    "annualUSD": 15600,
+    "totalAUD": 24000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business",
+    "slug": "jcu-brisbane-graduate-certificate-in-business",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Science",
+    "slug": "jcu-brisbane-graduate-certificate-in-data-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Education",
+    "slug": "jcu-brisbane-graduate-certificate-in-education",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Environmental Science",
+    "slug": "jcu-brisbane-graduate-certificate-in-environmental-science",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Health Management",
+    "slug": "jcu-brisbane-graduate-certificate-in-health-management",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Information Technology",
+    "slug": "jcu-brisbane-graduate-certificate-in-information-technology",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Nursing",
+    "slug": "jcu-brisbane-graduate-certificate-in-nursing",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Graduate Certificate in Public Health",
+    "slug": "jcu-brisbane-graduate-certificate-in-public-health",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  },
+  {
+    "name": "Doctor of Philosophy",
+    "slug": "jcu-brisbane-doctor-of-philosophy",
+    "url": "https://www.jcu.edu.au/courses",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 28000,
+    "annualUSD": 18200,
+    "totalAUD": 84000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Brisbane Campus"
+  }
+]

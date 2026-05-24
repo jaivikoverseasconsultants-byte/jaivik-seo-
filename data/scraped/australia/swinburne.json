@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Student visas",
+    "slug": "swinburne-",
+    "url": "https://www.swinburne.edu.au/courses/visas/",
+    "level": "Postgraduate",
+    "duration": "18 years",
+    "durationYears": 18,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 576000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Hawthorn Campus"
+  },
+  {
+    "name": "Enrolling",
+    "slug": "swinburne-",
+    "url": "https://www.swinburne.edu.au/courses/enrolling/",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Hawthorn Campus"
+  },
+  {
+    "name": "Orientation",
+    "slug": "swinburne-",
+    "url": "https://www.swinburne.edu.au/courses/orientation/",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Hawthorn Campus"
+  },
+  {
+    "name": "Swinburne intakes",
+    "slug": "swinburne-",
+    "url": "https://www.swinburne.edu.au/courses/intakes/",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Hawthorn Campus"
+  },
+  {
+    "name": "Study levels and options",
+    "slug": "swinburne-",
+    "url": "https://www.swinburne.edu.au/courses/study-levels-explained/",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Hawthorn Campus"
+  },
+  {
+    "name": "Course delivery options",
+    "slug": "swinburne-",
+    "url": "https://www.swinburne.edu.au/courses/course-delivery-options/",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Hawthorn Campus"
+  }
+]

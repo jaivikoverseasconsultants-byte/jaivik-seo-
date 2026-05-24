@@ -1,0 +1,5748 @@
+[
+  {
+    "name": "Bachelor of Computing and Mathematical Sciences (Honours)",
+    "slug": "flinders-bachelor-computing-mathematical-sciences-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-computing-mathematical-sciences-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 43500,
+    "annualUSD": 28275,
+    "totalAUD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Clinical Epidemiology",
+    "slug": "flinders-master-clinical-epidemiology",
+    "url": "https://www.flinders.edu.au/study/courses/master-clinical-epidemiology",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9314,
+    "annualUSD": 6054,
+    "totalAUD": 9314,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "slug": "flinders-graduate-certificate-project-management",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-project-management",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 17800,
+    "annualUSD": 11570,
+    "totalAUD": 8900,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Digital Heritage",
+    "slug": "flinders-major-digital-heritage",
+    "url": "https://www.flinders.edu.au/study/courses/major-digital-heritage",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Public Health",
+    "slug": "flinders-master-public-health",
+    "url": "https://www.flinders.edu.au/study/courses/master-public-health",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 9314,
+    "annualUSD": 6054,
+    "totalAUD": 13971,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Public Health",
+    "slug": "flinders-graduate-certificate-public-health",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-public-health",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 14400,
+    "annualUSD": 9360,
+    "totalAUD": 7200,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Project Management",
+    "slug": "flinders-master-project-management",
+    "url": "https://www.flinders.edu.au/study/courses/master-project-management",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 34798,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Palliative Care and End of Life",
+    "slug": "flinders-doctor-philosophy-phd-palliative-care",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-palliative-care",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Nursing or Midwifery",
+    "slug": "flinders-doctor-philosophy-phd-nursing-midwifery",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-nursing-midwifery",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Health Sciences and Allied Health",
+    "slug": "flinders-doctor-philosophy-phd-health-sciences-allied-health",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-health-sciences-allied-health",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Disability and Community Inclusion",
+    "slug": "flinders-doctor-philosophy-phd-disability-community-inclusion",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-disability-community-inclusion",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Healthy Ageing and Aged Care",
+    "slug": "flinders-doctor-philosophy-phd-healthy-ageing-aged-care",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-healthy-ageing-aged-care",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Criminology",
+    "slug": "flinders-diploma-criminology",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-criminology",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 17399,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Inherent requirements for the Bachelor of Paramedicine",
+    "slug": "flinders-inherent-requirements-paramedicine",
+    "url": "https://www.flinders.edu.au/study/courses/inherent-requirements-paramedicine",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in History, Archaeology, Geography and Indigenous Studies",
+    "slug": "flinders-doctor-philosophy-phd-history-archaeology-geography-indigenous",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-history-archaeology-geography-indigenous",
+    "level": "PhD",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Postgraduate Nursing",
+    "slug": "flinders-postgraduate-nursing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 41200,
+    "annualUSD": 26780,
+    "totalAUD": 41200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Critical Care Nursing",
+    "slug": "flinders-postgraduate-critical-care-nursing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-critical-care-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14100,
+    "annualUSD": 9165,
+    "totalAUD": 14100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Emergency Nursing",
+    "slug": "flinders-postgraduate-emergency-nursing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-emergency-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14100,
+    "annualUSD": 9165,
+    "totalAUD": 14100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Mental Health Nursing",
+    "slug": "flinders-postgraduate-mental-health-nursing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-mental-health-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14100,
+    "annualUSD": 9165,
+    "totalAUD": 14100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Child and Family Health Nursing",
+    "slug": "flinders-postgraduate-child-family-health-nursing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-child-family-health-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14100,
+    "annualUSD": 9165,
+    "totalAUD": 14100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diabetes Management and Education",
+    "slug": "flinders-postgraduate-diabetes-management-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-diabetes-management-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14100,
+    "annualUSD": 9165,
+    "totalAUD": 14100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Paramedicine (Northern Territory)",
+    "slug": "flinders-bachelor-paramedicine-nt",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-paramedicine-nt",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9314,
+    "annualUSD": 6054,
+    "totalAUD": 27942,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Medical Biosciences",
+    "slug": "flinders-doctor-philosophy-phd-medical-biosciences",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-medical-biosciences",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 170800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Clinical",
+    "slug": "flinders-doctor-philosophy-phd-clinical",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-clinical",
+    "level": "PhD",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 85400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Public Health and Rural and Remote Health",
+    "slug": "flinders-doctor-philosophy-phd-public-rural-remote-health",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-public-rural-remote-health",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 170800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Mental Health and Wellbeing (Workplace and Community)",
+    "slug": "flinders-undergraduate-certificate-mental-health-wellbeing",
+    "url": "https://www.flinders.edu.au/study/courses/undergraduate-certificate-mental-health-wellbeing",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Leading Mental Health and Wellbeing (Workplace and Community)",
+    "slug": "flinders-postgraduate-mental-health-wellbeing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-mental-health-wellbeing",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 16050,
+    "annualUSD": 10433,
+    "totalAUD": 8025,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Allied Health (Speech Pathology)",
+    "slug": "flinders-bachelor-allied-health-speech-pathology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-allied-health-speech-pathology",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Allied Health (Physiotherapy)",
+    "slug": "flinders-bachelor-allied-health-physiotherapy",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-allied-health-physiotherapy",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Allied Health (Occupational Therapy)",
+    "slug": "flinders-bachelor-allied-health-occupational-therapy",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-allied-health-occupational-therapy",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Geospatial Information Systems / Bachelor of Surveying",
+    "slug": "flinders-bachelor-geospatial-information-systems-bachelor-surveying",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-geospatial-information-systems-bachelor-surveying",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Older Adult Care and Wellbeing",
+    "slug": "flinders-postgraduate-older-adult-care-wellbeing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-older-adult-care-wellbeing",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15850,
+    "annualUSD": 10303,
+    "totalAUD": 7925,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Research and Evaluation for Practice",
+    "slug": "flinders-postgraduate-education-research",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-education-research",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16050,
+    "annualUSD": 10433,
+    "totalAUD": 16050,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Student Inclusion",
+    "slug": "flinders-postgraduate-student-inclusion",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-student-inclusion",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "STEM Education",
+    "slug": "flinders-postgraduate-stem-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-stem-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Education Pedagogy and Practice",
+    "slug": "flinders-postgraduate-education-pedagogy-practice",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-education-pedagogy-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Autism and Complex Disabilities",
+    "slug": "flinders-postgraduate-autism-complex-disabilities",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-autism-complex-disabilities",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Student Wellbeing",
+    "slug": "flinders-postgraduate-student-wellbeing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-student-wellbeing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Digital Innovation and Artificial Intelligence in Education",
+    "slug": "flinders-postgraduate-digital-innovation-artificial-intelligence",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-digital-innovation-artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Accounting and Social Impact",
+    "slug": "flinders-postgraduate-accounting-social-impact",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-accounting-social-impact",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 16992,
+    "annualUSD": 11045,
+    "totalAUD": 33984,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Public Administration",
+    "slug": "flinders-postgraduate-public-administration",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-public-administration",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15850,
+    "annualUSD": 10303,
+    "totalAUD": 15850,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Health Sciences",
+    "slug": "flinders-diploma-health-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-health-sciences",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12484,
+    "annualUSD": 8115,
+    "totalAUD": 12484,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Associate Degree in Health Sciences",
+    "slug": "flinders-associate-degree-health-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/associate-degree-health-sciences",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 11233,
+    "annualUSD": 7301,
+    "totalAUD": 22466,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Inherent requirements for undergraduate psychology courses",
+    "slug": "flinders-inherent-requirements-undergraduate-psychology-courses",
+    "url": "https://www.flinders.edu.au/study/courses/inherent-requirements-undergraduate-psychology-courses",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 60000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Sport, Health and Physical Activity (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-sport-health-physical-activity",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-sport-health-physical-activity",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Creative and Performing Arts",
+    "slug": "flinders-doctor-philosophy-phd-creative-performing-arts",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-creative-performing-arts",
+    "level": "PhD",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Social Sciences",
+    "slug": "flinders-doctor-philosophy-phd-social-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-social-sciences",
+    "level": "PhD",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Government and International Relations",
+    "slug": "flinders-doctor-philosophy-phd-government-international-relations",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-government-international-relations",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 152400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Business",
+    "slug": "flinders-doctor-philosophy-phd-business",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-business",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 37400,
+    "annualUSD": 24310,
+    "totalAUD": 149600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Law",
+    "slug": "flinders-doctor-philosophy-phd-law",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-law",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 152400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Criminology",
+    "slug": "flinders-doctor-philosophy-phd-criminology",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-criminology",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 152400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Language, Literature and Culture",
+    "slug": "flinders-doctor-philosophy-phd-language-literature-culture",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-language-literature-culture",
+    "level": "PhD",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Information Technology (Network and Cybersecurity Systems)",
+    "slug": "flinders-postgraduate-information-technology-network-cybersecurity-systems",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-information-technology-network-cybersecurity-systems",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34722,
+    "annualUSD": 22569,
+    "totalAUD": 69444,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Positive Behaviour Support",
+    "slug": "flinders-postgraduate-positive-behaviour-support",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-positive-behaviour-support",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15850,
+    "annualUSD": 10303,
+    "totalAUD": 15850,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Letters (Archaeology) (Graduate entry)",
+    "slug": "flinders-bachelor-letters-archaeology-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-letters-archaeology-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16032,
+    "annualUSD": 10421,
+    "totalAUD": 16032,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Letters (History) (Graduate entry)",
+    "slug": "flinders-bachelor-letters-history-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-letters-history-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16992,
+    "annualUSD": 11045,
+    "totalAUD": 16992,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Applied Geographical Information Systems (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-applied-geographical-information-systems",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-applied-geographical-information-systems",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-creative-arts",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-creative-arts",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Archaeology (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-archaeology",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-archaeology",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Arts (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-arts",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-arts",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Society and the Individual",
+    "slug": "flinders-postgraduate-society-individual",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-society-individual",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 14150,
+    "annualUSD": 9198,
+    "totalAUD": 28300,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Critical Indigenous Studies",
+    "slug": "flinders-major-indigenous-australian-studies",
+    "url": "https://www.flinders.edu.au/study/courses/major-indigenous-australian-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Psychology (Advanced)",
+    "slug": "flinders-postgraduate-psychology-advanced",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-psychology-advanced",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 26000,
+    "annualUSD": 16900,
+    "totalAUD": 26000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering Science",
+    "slug": "flinders-postgraduate-engineering-science-biomedical",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-science-biomedical",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 39100,
+    "annualUSD": 25415,
+    "totalAUD": 78200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Biomedical) (Honours) / Master of Engineering (Biomedical)",
+    "slug": "flinders-bachelor-engineering-biomedical-honours-master-engineering-biomedical",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-biomedical-honours-master-engineering-biomedical",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Mechanical) (Honours) / Master of Engineering (Biomedical)",
+    "slug": "flinders-bachelor-engineering-mechanical-honours-master-engineering-biomedical",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-mechanical-honours-master-engineering-biomedical",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Human Nutrition",
+    "slug": "flinders-bachelor-human-nutrition",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-human-nutrition",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 11503,
+    "annualUSD": 7477,
+    "totalAUD": 34509,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Media and Communication",
+    "slug": "flinders-bachelor-communication-professional-writing",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-communication-professional-writing",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Game Development)",
+    "slug": "flinders-bachelor-computer-science-simulation-serious-games",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-computer-science-simulation-serious-games",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Study Computer Science and Information Technology",
+    "slug": "flinders-bachelor-design-technology-innovation",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-design-technology-innovation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering Science",
+    "slug": "flinders-bachelor-engineering-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Education (Primary)",
+    "slug": "flinders-bachelor-education-primary-bachelor-general-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-education-primary-bachelor-general-sciences",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 35700,
+    "annualUSD": 23205,
+    "totalAUD": 142800,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Teaching (Primary)",
+    "slug": "flinders-bachelor-general-science-master-teaching-primary",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-general-science-master-teaching-primary",
+    "level": "Postgraduate",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 57150,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Teaching (Secondary)",
+    "slug": "flinders-bachelor-science-master-teaching-secondary",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-master-teaching-secondary",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 57150,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science",
+    "slug": "flinders-bachelor-science-chemical-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-chemical-sciences",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Marine Biology)",
+    "slug": "flinders-bachelor-science-marine-biology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-marine-biology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "International Relations",
+    "slug": "flinders-postgraduate-international-relations",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-international-relations",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15700,
+    "annualUSD": 10205,
+    "totalAUD": 15700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Gender Mainstreaming Policy and Analysis",
+    "slug": "flinders-postgraduate-gender-mainstreaming-policy-analysis",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-gender-mainstreaming-policy-analysis",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14700,
+    "annualUSD": 9555,
+    "totalAUD": 14700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Postgraduate Women's and Gender Studies",
+    "slug": "flinders-postgraduate-women-gender-studies",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-women-gender-studies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 14700,
+    "annualUSD": 9555,
+    "totalAUD": 14700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Science (Computer Science)",
+    "slug": "flinders-postgraduate-computer-science",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-computer-science",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32184,
+    "annualUSD": 20920,
+    "totalAUD": 64368,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Information Technology",
+    "slug": "flinders-postgraduate-information-technology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-information-technology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 34700,
+    "annualUSD": 22555,
+    "totalAUD": 34700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering (Biomedical)",
+    "slug": "flinders-postgraduate-engineering-biomedical",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-biomedical",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 39100,
+    "annualUSD": 25415,
+    "totalAUD": 78200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering (Civil)",
+    "slug": "flinders-postgraduate-engineering-civil",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-civil",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 39100,
+    "annualUSD": 25415,
+    "totalAUD": 78200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering Science (Software)",
+    "slug": "flinders-postgraduate-engineering-science-software",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-science-software",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 32600,
+    "annualUSD": 21190,
+    "totalAUD": 65200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Teaching (Early Childhood)",
+    "slug": "flinders-postgraduate-teaching-early-childhood",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-teaching-early-childhood",
+    "level": "Postgraduate",
+    "duration": "8 years",
+    "durationYears": 8,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 304800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Teaching English to Speakers of Other Languages (TESOL)",
+    "slug": "flinders-postgraduate-teaching-english-as-a-second-language",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-teaching-english-as-a-second-language",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 13850,
+    "annualUSD": 9003,
+    "totalAUD": 27700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Public Policy",
+    "slug": "flinders-postgraduate-public-administration-management-public-policy",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-public-administration-management-public-policy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15700,
+    "annualUSD": 10205,
+    "totalAUD": 15700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Juris Doctor",
+    "slug": "flinders-postgraduate-juris-doctor",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-juris-doctor",
+    "level": "Masters",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 35500,
+    "annualUSD": 23075,
+    "totalAUD": 106500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Medicine",
+    "slug": "flinders-postgraduate-doctor-medicine",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-doctor-medicine",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 13558,
+    "annualUSD": 8813,
+    "totalAUD": 54232,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Psychology (Clinical)",
+    "slug": "flinders-postgraduate-psychology-clinical",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-psychology-clinical",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 47300,
+    "annualUSD": 30745,
+    "totalAUD": 94600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Health Administration",
+    "slug": "flinders-postgraduate-health-administration",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-health-administration",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 10750,
+    "annualUSD": 6988,
+    "totalAUD": 10750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Study Health",
+    "slug": "flinders-postgraduate-health-international-development",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-health-international-development",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Nutrition and Dietetics",
+    "slug": "flinders-postgraduate-nutrition-dietetics",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-nutrition-dietetics",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Occupational Therapy",
+    "slug": "flinders-postgraduate-occupational-therapy",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-occupational-therapy",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Physiotherapy",
+    "slug": "flinders-postgraduate-physiotherapy",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-physiotherapy",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Speech Pathology",
+    "slug": "flinders-postgraduate-speech-pathology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-speech-pathology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 39200,
+    "annualUSD": 25480,
+    "totalAUD": 78400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Research methods",
+    "slug": "flinders-postgraduate-research-methods",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-research-methods",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 35640,
+    "annualUSD": 23166,
+    "totalAUD": 35640,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Biotechnology",
+    "slug": "flinders-postgraduate-biotechnology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-biotechnology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38800,
+    "annualUSD": 25220,
+    "totalAUD": 77600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Environmental Management and Sustainability",
+    "slug": "flinders-postgraduate-environmental-management-sustainability",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-environmental-management-sustainability",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35400,
+    "annualUSD": 23010,
+    "totalAUD": 70800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Social Work (Graduate Entry)",
+    "slug": "flinders-master-social-work-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/master-social-work-graduate-entry",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Accounting",
+    "slug": "flinders-postgraduate-accounting",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-accounting",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 34798,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Accounting and Finance",
+    "slug": "flinders-postgraduate-accounting-finance",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-accounting-finance",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 34798,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Business (International Business)",
+    "slug": "flinders-postgraduate-business-international-business",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-international-business",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 37500,
+    "annualUSD": 24375,
+    "totalAUD": 75000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Archaeology and Heritage Management",
+    "slug": "flinders-postgraduate-archaeology-heritage-management",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-archaeology-heritage-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12750,
+    "annualUSD": 8288,
+    "totalAUD": 12750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Maritime Archaeology",
+    "slug": "flinders-postgraduate-maritime-archaeology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-maritime-archaeology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Mathematics",
+    "slug": "flinders-postgraduate-mathematics",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-mathematics",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34700,
+    "annualUSD": 22555,
+    "totalAUD": 69400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Education",
+    "slug": "flinders-master-education",
+    "url": "https://www.flinders.edu.au/study/courses/master-education",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 24500,
+    "annualUSD": 15925,
+    "totalAUD": 49000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Inclusive and Specialised Education",
+    "slug": "flinders-postgraduate-education-gifted-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-education-gifted-education",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 24500,
+    "annualUSD": 15925,
+    "totalAUD": 49000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Teaching (Special Education)",
+    "slug": "flinders-postgraduate-teaching-special-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-teaching-special-education",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33000,
+    "annualUSD": 21450,
+    "totalAUD": 66000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Clinical Education",
+    "slug": "flinders-postgraduate-clinical-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-clinical-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Clinical Rehabilitation",
+    "slug": "flinders-postgraduate-clinical-rehabilitation",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-clinical-rehabilitation",
+    "level": "Postgraduate",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 9536,
+    "annualUSD": 6198,
+    "totalAUD": 14304,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Public Health",
+    "slug": "flinders-postgraduate-public-health",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-public-health",
+    "level": "Postgraduate",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 15100,
+    "annualUSD": 9815,
+    "totalAUD": 22650,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Intensive Care Paramedicine",
+    "slug": "flinders-postgraduate-intensive-care-paramedicine",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-intensive-care-paramedicine",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9535,
+    "annualUSD": 6198,
+    "totalAUD": 9535,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Palliative and End-of-Life Care",
+    "slug": "flinders-master-palliative-care",
+    "url": "https://www.flinders.edu.au/study/courses/master-palliative-care",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9536,
+    "annualUSD": 6198,
+    "totalAUD": 19072,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Remote Health Practice",
+    "slug": "flinders-postgraduate-remote-health-practice",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-remote-health-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 8699,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Nurse Practitioner",
+    "slug": "flinders-postgraduate-nursing-nurse-practitioner",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-nursing-nurse-practitioner",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 28200,
+    "annualUSD": 18330,
+    "totalAUD": 56400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Aquaculture",
+    "slug": "flinders-postgraduate-aquaculture",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-aquaculture",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 19200,
+    "annualUSD": 12480,
+    "totalAUD": 19200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Chemistry",
+    "slug": "flinders-postgraduate-chemistry",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-chemistry",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38400,
+    "annualUSD": 24960,
+    "totalAUD": 76800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Groundwater Hydrology",
+    "slug": "flinders-postgraduate-groundwater-hydrology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-groundwater-hydrology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Physics",
+    "slug": "flinders-postgraduate-physics",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-physics",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38400,
+    "annualUSD": 24960,
+    "totalAUD": 76800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Water Resources Management",
+    "slug": "flinders-postgraduate-water-resources-management",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-water-resources-management",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 19200,
+    "annualUSD": 12480,
+    "totalAUD": 9600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Environmental Health",
+    "slug": "flinders-postgraduate-environmental-health",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-environmental-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (Clinical Psychology)",
+    "slug": "flinders-postgraduate-doctor-philosophy-clinical-psychology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-doctor-philosophy-clinical-psychology",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 45500,
+    "annualUSD": 29575,
+    "totalAUD": 182000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Audiology",
+    "slug": "flinders-postgraduate-audiology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-audiology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Letters (Creative Writing) (Graduate entry)",
+    "slug": "flinders-bachelor-letters-creative-writing-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-letters-creative-writing-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9102,
+    "annualUSD": 5916,
+    "totalAUD": 18204,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Letters (Modern Greek) (Graduate entry)",
+    "slug": "flinders-bachelor-letters-modern-greek-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-letters-modern-greek-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Midwifery (Post Registration) (Registered Midwife)",
+    "slug": "flinders-bachelor-midwifery-post-registration-registered-midwife",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-midwifery-post-registration-registered-midwife",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Letters (Health) (Graduate entry)",
+    "slug": "flinders-bachelor-letters-health-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-letters-health-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 11234,
+    "annualUSD": 7302,
+    "totalAUD": 11234,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Fashion) (VET pathway)",
+    "slug": "flinders-bachelor-creative-arts-fashion-vet-pathway",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-arts-fashion-vet-pathway",
+    "level": "Undergraduate",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 10518,
+    "annualUSD": 6837,
+    "totalAUD": 15777,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Health Sciences / Master of Physiotherapy",
+    "slug": "flinders-bachelor-health-sciences-master-physiotherapy",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-health-sciences-master-physiotherapy",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 10520,
+    "annualUSD": 6838,
+    "totalAUD": 52600,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Biodiversity and Conservation)",
+    "slug": "flinders-bachelor-science-honours-biodiversity-conservation",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-biodiversity-conservation",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Honours) (Coasts and Oceans)",
+    "slug": "flinders-bachelor-science-honours-coasts-oceans",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-coasts-oceans",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9500,
+    "annualUSD": 6175,
+    "totalAUD": 38000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Biotechnology)",
+    "slug": "flinders-bachelor-science-honours-biotechnology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-biotechnology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Forensic and Analytical Science)",
+    "slug": "flinders-bachelor-science-honours-forensic-analytical-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-forensic-analytical-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Environmental Science)",
+    "slug": "flinders-bachelor-science-honours-environmental-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-environmental-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Animal Behaviour)",
+    "slug": "flinders-bachelor-science-honours-animal-behaviour",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-animal-behaviour",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Mathematical Sciences",
+    "slug": "flinders-bachelor-mathematical-sciences-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-mathematical-sciences-honours",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Nursing (Preregistration)",
+    "slug": "flinders-bachelor-nursing-preregistration-riverland",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-nursing-preregistration-riverland",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 44300,
+    "annualUSD": 28795,
+    "totalAUD": 132900,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Network and Cybersecurity Systems)",
+    "slug": "flinders-bachelor-information-technology-network-cybersecurity-systems-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-information-technology-network-cybersecurity-systems-honours",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Game Development) (Honours)",
+    "slug": "flinders-bachelor-computer-science-simulation-serious-games-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-computer-science-simulation-serious-games-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Studies (Graduate Entry)",
+    "slug": "flinders-bachelor-psychological-studies-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-psychological-studies-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 37200,
+    "annualUSD": 24180,
+    "totalAUD": 37200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Palaeontology)",
+    "slug": "flinders-bachelor-science-honours-palaeontology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-honours-palaeontology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in History",
+    "slug": "flinders-major-history-old",
+    "url": "https://www.flinders.edu.au/study/courses/major-history-old",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Gender Studies",
+    "slug": "flinders-major-womens-studies",
+    "url": "https://www.flinders.edu.au/study/courses/major-womens-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Statistics",
+    "slug": "flinders-major-statistics",
+    "url": "https://www.flinders.edu.au/study/courses/major-statistics",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 60000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Psychology",
+    "slug": "flinders-major-psychology",
+    "url": "https://www.flinders.edu.au/study/courses/major-psychology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 60000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Clinical Exercise Physiology",
+    "slug": "flinders-postgraduate-clinical-exercise-physiology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-clinical-exercise-physiology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31700,
+    "annualUSD": 20605,
+    "totalAUD": 63400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Social Work and Master of Social Work inherent requirements",
+    "slug": "flinders-social-work-inherent-requirements",
+    "url": "https://www.flinders.edu.au/study/courses/social-work-inherent-requirements",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 33000,
+    "annualUSD": 21450,
+    "totalAUD": 66000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Laws (Honours) - Legal Practice Entry",
+    "slug": "flinders-bachelor-laws-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-laws-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 69596,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering (Mechanical)",
+    "slug": "flinders-postgraduate-engineering-mechanical",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-mechanical",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 39100,
+    "annualUSD": 25415,
+    "totalAUD": 39100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Engineering",
+    "slug": "flinders-doctor-philosophy-phd-engineering",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-engineering",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Computing, Information Technology or Mathematical Sciences",
+    "slug": "flinders-doctor-philosophy-phd-computing-information-technology-mathematical-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-computing-information-technology-mathematical-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Environmental Sciences",
+    "slug": "flinders-doctor-philosophy-phd-environmental-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-environmental-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Honours)",
+    "slug": "flinders-honours-bachelor-science",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-science",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Biological Sciences",
+    "slug": "flinders-doctor-philosophy-phd-biological-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-biological-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Chemical or Physical Sciences",
+    "slug": "flinders-doctor-philosophy-phd-chemical-physical-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-chemical-physical-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Health and Clinical Research",
+    "slug": "flinders-master-health-clinical-research",
+    "url": "https://www.flinders.edu.au/study/courses/master-health-clinical-research",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 64050,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) in Health Emergencies and Health Security",
+    "slug": "flinders-doctor-philosophy-phd-health-emergencies-security",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-health-emergencies-security",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 42700,
+    "annualUSD": 27755,
+    "totalAUD": 128100,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering Technology (Systems and Security) / Bachelor of Science (Physics)",
+    "slug": "flinders-bachelor-engineering-technology-electronic-systems-security-bachelor-science-physics",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-technology-electronic-systems-security-bachelor-science-physics",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Visual Effects and Entertainment Design",
+    "slug": "flinders-bachelor-creative-industries-interactive-design",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-industries-interactive-design",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 11502,
+    "annualUSD": 7476,
+    "totalAUD": 34506,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering Technology (Systems and Security)",
+    "slug": "flinders-bachelor-engineering-technology-electronic-systems-security",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-technology-electronic-systems-security",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9314,
+    "annualUSD": 6054,
+    "totalAUD": 27942,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Health Sciences",
+    "slug": "flinders-bachelor-health-sciences-physiology-neuroscience",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-health-sciences-physiology-neuroscience",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10520,
+    "annualUSD": 6838,
+    "totalAUD": 31560,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Robotics) (Honours) / Master of Engineering (Electrical and Electronic)",
+    "slug": "flinders-bachelor-engineering-robotics-honours-master-engineering-electrical-electronic",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-robotics-honours-master-engineering-electrical-electronic",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Professional Psychology",
+    "slug": "flinders-postgraduate-professional-psychology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-professional-psychology",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 32000,
+    "annualUSD": 20800,
+    "totalAUD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering Management",
+    "slug": "flinders-postgraduate-engineering-management",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 19550,
+    "annualUSD": 12708,
+    "totalAUD": 19550,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Engineering (Electrical and Electronic)",
+    "slug": "flinders-postgraduate-engineering-electrical-electronic",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-engineering-electrical-electronic",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 39100,
+    "annualUSD": 25415,
+    "totalAUD": 78200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Business (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-business",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-business",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Criminology (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-criminology",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-criminology",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of International Relations and Political Science (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-international-relations-political-science",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-international-relations-political-science",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Data Science",
+    "slug": "flinders-postgraduate-data-science",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-data-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 8937,
+    "annualUSD": 5809,
+    "totalAUD": 8937,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Computer Science (Artificial Intelligence)",
+    "slug": "flinders-computer-science-artificial-intelligence",
+    "url": "https://www.flinders.edu.au/study/courses/computer-science-artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34700,
+    "annualUSD": 22555,
+    "totalAUD": 69400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Computer Science",
+    "slug": "flinders-postgraduate-master-computer-science",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-master-computer-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 34700,
+    "annualUSD": 22555,
+    "totalAUD": 34700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Study Postgraduate Education",
+    "slug": "flinders-postgraduate-international-baccalaureate-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-international-baccalaureate-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Leadership in Education",
+    "slug": "flinders-postgraduate-leadership-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-leadership-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 12250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Disability and Community Practice",
+    "slug": "flinders-diploma-disability-community-practice",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-disability-community-practice",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16992,
+    "annualUSD": 11045,
+    "totalAUD": 16992,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Associate Degree in Disability and Community Practice",
+    "slug": "flinders-associate-degree-disability-community-practice",
+    "url": "https://www.flinders.edu.au/study/courses/associate-degree-disability-community-practice",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 15073,
+    "annualUSD": 9797,
+    "totalAUD": 30146,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Language",
+    "slug": "flinders-undergraduate-certificate-french",
+    "url": "https://www.flinders.edu.au/study/courses/undergraduate-certificate-french",
+    "level": "Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 66000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Business",
+    "slug": "flinders-diploma-business",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-business",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 22000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Electrical and Electronic) (Honours), Master of Engineering (Mechanical)",
+    "slug": "flinders-bachelor-engineering-electrical-electronic-honours-master-engineering-mechanical",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-electrical-electronic-honours-master-engineering-mechanical",
+    "level": "Masters",
+    "duration": "5.5 years",
+    "durationYears": 5.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 52454,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Environmental) (Honours), Master of Engineering (Civil)",
+    "slug": "flinders-bachelor-engineering-environmental-honours-master-engineering-civil",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-environmental-honours-master-engineering-civil",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Inherent requirements for postgraduate psychology courses",
+    "slug": "flinders-inherent-requirements-postgraduate-psychology-courses",
+    "url": "https://www.flinders.edu.au/study/courses/inherent-requirements-postgraduate-psychology-courses",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 60000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Counselling (Behavioural Health)",
+    "slug": "flinders-postgraduate-behavioural-health-counselling",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-behavioural-health-counselling",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 4350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration (Marketing)",
+    "slug": "flinders-postgraduate-business-administration-marketing",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-marketing",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration (Healthcare Management)",
+    "slug": "flinders-postgraduate-business-administration-health-management",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-health-management",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration (International Business)",
+    "slug": "flinders-postgraduate-business-administration-international-business",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-international-business",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration (Human Resource Management)",
+    "slug": "flinders-postgraduate-business-administration-human-resource-management",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-human-resource-management",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration Future Business",
+    "slug": "flinders-postgraduate-business-administration-future-business",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-future-business",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 18700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration (Business Analytics)",
+    "slug": "flinders-postgraduate-business-administration-business-analytics",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-business-analytics",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration (Finance)",
+    "slug": "flinders-postgraduate-business-administration-finance",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-finance",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Business Administration Industry Focused",
+    "slug": "flinders-postgraduate-business-administration-industry-focused",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-business-administration-industry-focused",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 37400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Trauma Responsive Practice",
+    "slug": "flinders-postgraduate-trauma-responsive-practice",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-trauma-responsive-practice",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 14150,
+    "annualUSD": 9198,
+    "totalAUD": 28300,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Laws",
+    "slug": "flinders-diploma-laws",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-laws",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 22000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Arts by Research in Language, Literature and Culture",
+    "slug": "flinders-master-arts-research-language-literature-culture",
+    "url": "https://www.flinders.edu.au/study/courses/master-arts-research-language-literature-culture",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Arts by Research in Creative and Performing Arts",
+    "slug": "flinders-master-arts-research-creative-performing-arts",
+    "url": "https://www.flinders.edu.au/study/courses/master-arts-research-creative-performing-arts",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Arts by Research in History and Archaeology",
+    "slug": "flinders-master-arts-research-history-archaeology",
+    "url": "https://www.flinders.edu.au/study/courses/master-arts-research-history-archaeology",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Arts by Research in Social Sciences",
+    "slug": "flinders-master-arts-research-social-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/master-arts-research-social-sciences",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38100,
+    "annualUSD": 24765,
+    "totalAUD": 76200,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Virtual Production",
+    "slug": "flinders-postgraduate-virtual-production",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-virtual-production",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 19950,
+    "annualUSD": 12968,
+    "totalAUD": 9975,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Health Sciences (Vision Science) / Master of Optometry",
+    "slug": "flinders-bachelor-health-science-vision-science-master-optometry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-health-science-vision-science-master-optometry",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 10520,
+    "annualUSD": 6838,
+    "totalAUD": 52600,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Science (Biology)",
+    "slug": "flinders-postgraduate-biology",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-biology",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38400,
+    "annualUSD": 24960,
+    "totalAUD": 76800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Science (Environmental Science)",
+    "slug": "flinders-postgraduate-environmental-science",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-environmental-science",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38400,
+    "annualUSD": 24960,
+    "totalAUD": 76800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Forensic Science",
+    "slug": "flinders-postgraduate-forensic-science",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-forensic-science",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34700,
+    "annualUSD": 22555,
+    "totalAUD": 69400,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Mechanical) (Honours)/ Master of Engineering Management",
+    "slug": "flinders-bachelor-engineering-mechanical-honours-master-engineering-management",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-mechanical-honours-master-engineering-management",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Civil) (Honours)/ Master of Engineering Management",
+    "slug": "flinders-bachelor-engineering-civil-honours-master-engineering-management",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-civil-honours-master-engineering-management",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Electrical and Electronic) (Honours)/Master of Engineering Management",
+    "slug": "flinders-bachelor-engineering-electrical-electronic-honours-master-engineering-management",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-electrical-electronic-honours-master-engineering-management",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 47685,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering Technology (Advanced Manufacturing and Digital Design)",
+    "slug": "flinders-bachelor-engineering-technology-advanced-manufacturing-digital-design",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-technology-advanced-manufacturing-digital-design",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Digital Forensics)",
+    "slug": "flinders-bachelor-information-technology-digital-forensics-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-information-technology-digital-forensics-honours",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Geospatial Information Systems",
+    "slug": "flinders-postgraduate-geospatial-information-systems",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-geospatial-information-systems",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 19700,
+    "annualUSD": 12805,
+    "totalAUD": 19700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Business and Information Systems)",
+    "slug": "flinders-bachelor-information-technology-business-information-systems-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-information-technology-business-information-systems-honours",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology (Machine Learning)",
+    "slug": "flinders-bachelor-information-technology-machine-learning-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-information-technology-machine-learning-honours",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Sustainable Development",
+    "slug": "flinders-postgraduate-sustainable-development",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-sustainable-development",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 13850,
+    "annualUSD": 9003,
+    "totalAUD": 6925,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Disability Policy and Leadership",
+    "slug": "flinders-postgraduate-disability-policy-leadership",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-disability-policy-leadership",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 4350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Disability Practice",
+    "slug": "flinders-postgraduate-disability-practice",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-disability-practice",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 4350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Disability Practice and Leadership",
+    "slug": "flinders-postgraduate-disability-practice-leadership",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-disability-practice-leadership",
+    "level": "Masters",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 16416,
+    "annualUSD": 10670,
+    "totalAUD": 24624,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Disability Practice and Leadership (Developmental Education)",
+    "slug": "flinders-postgraduate-disability-practice-leadership-developmental-education",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-disability-practice-leadership-developmental-education",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 34798,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Social Scientific Data Analysis and Communication",
+    "slug": "flinders-postgraduate-social-scientific-data-analysis-communication",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-social-scientific-data-analysis-communication",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12500,
+    "annualUSD": 8125,
+    "totalAUD": 6250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Arts",
+    "slug": "flinders-bachelor-arts-professional-futures",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-arts-professional-futures",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Medical Science (Laboratory Medicine) (Regional External Program)",
+    "slug": "flinders-bachelor-of-medical-science-laboratory-medicine-regional-external-program",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-of-medical-science-laboratory-medicine-regional-external-program",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Medical Science (Honours)",
+    "slug": "flinders-bachelor-medical-science-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-medical-science-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering Science majoring in Design and User Experience",
+    "slug": "flinders-honours-bachelor-design-technology",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-design-technology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9314,
+    "annualUSD": 6054,
+    "totalAUD": 27942,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Doctor of Philosophy (PhD) / Master of Business Administration (MBA)",
+    "slug": "flinders-doctor-philosophy-phd-mba",
+    "url": "https://www.flinders.edu.au/study/courses/doctor-philosophy-phd-mba",
+    "level": "PhD",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 44040,
+    "annualUSD": 28626,
+    "totalAUD": 176160,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Dementia Care and Leadership",
+    "slug": "flinders-postgraduate-dementia-care-leadership",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-dementia-care-leadership",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15850,
+    "annualUSD": 10303,
+    "totalAUD": 15850,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Digital Health Management",
+    "slug": "flinders-postgraduate-digital-health-management",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-digital-health-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 10750,
+    "annualUSD": 6988,
+    "totalAUD": 10750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Social Impact",
+    "slug": "flinders-postgraduate-social-impact",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-social-impact",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 18700,
+    "annualUSD": 12155,
+    "totalAUD": 9350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Nutrition and Exercise",
+    "slug": "flinders-bachelor-nutrition-exercise",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-nutrition-exercise",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12485,
+    "annualUSD": 8115,
+    "totalAUD": 37455,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Study Business",
+    "slug": "flinders-postgraduate-entrepreneurial-growth",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-entrepreneurial-growth",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Study Creative Arts and Media",
+    "slug": "flinders-honours-bachelor-creative-industries",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-creative-industries",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Electronic Warfare",
+    "slug": "flinders-postgraduate-electronic-warfare",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-electronic-warfare",
+    "level": "Postgraduate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8937,
+    "annualUSD": 5809,
+    "totalAUD": 4469,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Commerce (Honours) 1 year",
+    "slug": "flinders-honours-bachelor-commerce",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-commerce",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Applied Business Analytics",
+    "slug": "flinders-postgraduate-applied-business-analytics",
+    "url": "https://www.flinders.edu.au/study/courses/postgraduate-applied-business-analytics",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 37400,
+    "annualUSD": 24310,
+    "totalAUD": 74800,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Paramedicine (Honours)",
+    "slug": "flinders-honours-bachelor-paramedicine",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-paramedicine",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Early Childhood Education (Birth to 5)",
+    "slug": "flinders-graduate-certificate-early-childhood-education-birth-to-5-old",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-early-childhood-education-birth-to-5-old",
+    "level": "Graduate Certificate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 11656,
+    "annualUSD": 7576,
+    "totalAUD": 23312,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Teaching (Birth - 5)",
+    "slug": "flinders-master-teaching-birth-to-5",
+    "url": "https://www.flinders.edu.au/study/courses/master-teaching-birth-to-5",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36300,
+    "annualUSD": 23595,
+    "totalAUD": 72600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Diploma in Palliative and End-of-Life Care",
+    "slug": "flinders-graduate-diploma-palliative-end-of-life-care",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-diploma-palliative-end-of-life-care",
+    "level": "Graduate Diploma",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Speech Pathology",
+    "slug": "flinders-bachelor-speech-pathology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-speech-pathology",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Midwifery (Post-Registration) (Registered Nurse)",
+    "slug": "flinders-bachelor-midwifery-post-registration",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-midwifery-post-registration",
+    "level": "Undergraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Midwifery (Preregistration)",
+    "slug": "flinders-bachelor-midwifery-preregistration",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-midwifery-preregistration",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 44300,
+    "annualUSD": 28795,
+    "totalAUD": 132900,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Nursing (Graduate Entry)",
+    "slug": "flinders-bachelor-nursing-graduate-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-nursing-graduate-entry",
+    "level": "Undergraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 44300,
+    "annualUSD": 28795,
+    "totalAUD": 88600,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Exercise and Sport Science",
+    "slug": "flinders-bachelor-exercise-sport-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-exercise-sport-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10310,
+    "annualUSD": 6702,
+    "totalAUD": 30930,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Nutrition and Dietetics",
+    "slug": "flinders-bachelor-nutrition-dietetics",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-nutrition-dietetics",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 11503,
+    "annualUSD": 7477,
+    "totalAUD": 46012,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Education (Inclusive Education)",
+    "slug": "flinders-bachelor-education-inclusive",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-education-inclusive",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 35700,
+    "annualUSD": 23205,
+    "totalAUD": 142800,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Paramedicine",
+    "slug": "flinders-bachelor-paramedicine",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-paramedicine",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Accounting",
+    "slug": "flinders-bachelor-accounting",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-accounting",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Business Analytics",
+    "slug": "flinders-bachelor-business-analytics",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-business-analytics",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 39000,
+    "annualUSD": 25350,
+    "totalAUD": 117000,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of International Relations and Political Science",
+    "slug": "flinders-bachelor-international-relations-political-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-international-relations-political-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Education (Secondary Health and Physical Education)",
+    "slug": "flinders-bachelor-education-secondary-health-physical-education",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-education-secondary-health-physical-education",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 35700,
+    "annualUSD": 23205,
+    "totalAUD": 142800,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Education (Secondary)",
+    "slug": "flinders-bachelor-education-secondary",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-education-secondary",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 35700,
+    "annualUSD": 23205,
+    "totalAUD": 142800,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Disability and Community Inclusion",
+    "slug": "flinders-bachelor-disability-community-inclusion",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-disability-community-inclusion",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 15433,
+    "annualUSD": 10031,
+    "totalAUD": 46299,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Disability and Developmental Education",
+    "slug": "flinders-bachelor-disability-developmental-education",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-disability-developmental-education",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 15433,
+    "annualUSD": 10031,
+    "totalAUD": 61732,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Software) (Honours)",
+    "slug": "flinders-bachelor-engineering-software-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-software-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Science",
+    "slug": "flinders-bachelor-psychological-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-psychological-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Public Health",
+    "slug": "flinders-bachelor-public-health",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-public-health",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12485,
+    "annualUSD": 8115,
+    "totalAUD": 37455,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Psychology (Honours)",
+    "slug": "flinders-bachelor-psychology-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-psychology-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 27500,
+    "annualUSD": 17875,
+    "totalAUD": 110000,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Archaeology",
+    "slug": "flinders-bachelor-archaeology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-archaeology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 14450,
+    "annualUSD": 9393,
+    "totalAUD": 43350,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Criminology",
+    "slug": "flinders-bachelor-criminology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-criminology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Medical Science",
+    "slug": "flinders-bachelor-medical-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-medical-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Medical Science (Laboratory Medicine)",
+    "slug": "flinders-bachelor-of-medical-science-laboratory-medicine",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-of-medical-science-laboratory-medicine",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Social Work",
+    "slug": "flinders-bachelor-social-work",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-social-work",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Urban and Regional Planning",
+    "slug": "flinders-bachelor-urban-regional-planning",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-urban-regional-planning",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12485,
+    "annualUSD": 8115,
+    "totalAUD": 37455,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Performance (Directing)",
+    "slug": "flinders-bachelor-performance-directing",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-performance-directing",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10520,
+    "annualUSD": 6838,
+    "totalAUD": 31560,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Laws - Legal Practice Entry",
+    "slug": "flinders-bachelor-laws",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-laws",
+    "level": "Undergraduate",
+    "duration": "3.5 years",
+    "durationYears": 3.5,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 60897,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Early Childhood Education (Birth to 5)",
+    "slug": "flinders-bachelor-early-childhood-education-birth-5",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-early-childhood-education-birth-5",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 30000,
+    "annualUSD": 19500,
+    "totalAUD": 90000,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Early Childhood Education (Birth to 8)",
+    "slug": "flinders-bachelor-early-childhood-education-birth-8",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-early-childhood-education-birth-8",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 22500,
+    "annualUSD": 14625,
+    "totalAUD": 90000,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Sport and Active Recreation",
+    "slug": "flinders-bachelor-sport-active-recreation",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-sport-active-recreation",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 13251,
+    "annualUSD": 8613,
+    "totalAUD": 39753,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Languages",
+    "slug": "flinders-bachelor-languages",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-languages",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 35500,
+    "annualUSD": 23075,
+    "totalAUD": 106500,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Commerce",
+    "slug": "flinders-bachelor-commerce",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-commerce",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Performance (Theatre Making)",
+    "slug": "flinders-bachelor-performance-theatre-making",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-performance-theatre-making",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10520,
+    "annualUSD": 6838,
+    "totalAUD": 31560,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Game Design",
+    "slug": "flinders-bachelor-game-design",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-game-design",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 11502,
+    "annualUSD": 7476,
+    "totalAUD": 34506,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Writing",
+    "slug": "flinders-bachelor-creative-writing",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-writing",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10303,
+    "annualUSD": 6697,
+    "totalAUD": 30909,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Film and Television (Screen Production)",
+    "slug": "flinders-bachelor-film-television-screen-production",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-film-television-screen-production",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 16417,
+    "annualUSD": 10671,
+    "totalAUD": 49251,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Film and Television (Screen Industries)",
+    "slug": "flinders-bachelor-film-television-screen-industries",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-film-television-screen-industries",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 16417,
+    "annualUSD": 10671,
+    "totalAUD": 49251,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Business",
+    "slug": "flinders-bachelor-business",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-business",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Performance (Acting)",
+    "slug": "flinders-bachelor-performance-acting",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-performance-acting",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10520,
+    "annualUSD": 6838,
+    "totalAUD": 31560,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Mechanical) (Honours)",
+    "slug": "flinders-bachelor-engineering-mechanical-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-mechanical-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Electrical & Electronic) (Honours)",
+    "slug": "flinders-bachelor-engineering-electrical-electronic-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-electrical-electronic-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Environmental) (Honours)",
+    "slug": "flinders-bachelor-engineering-environmental-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-environmental-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Biomedical) (Honours)",
+    "slug": "flinders-bachelor-engineering-biomedical-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-biomedical-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 47300,
+    "annualUSD": 30745,
+    "totalAUD": 189200,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Civil) (Honours)",
+    "slug": "flinders-bachelor-engineering-civil-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-civil-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resource Management",
+    "slug": "flinders-graduate-certificate-human-resource-management",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-human-resource-management",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 8699,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "slug": "flinders-graduate-certificate-business-analytics",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-business-analytics",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 8699,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Robotics) (Honours)",
+    "slug": "flinders-bachelor-engineering-robotics-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-robotics-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Maritime) (Honours)",
+    "slug": "flinders-bachelor-engineering-maritime-honours",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-maritime-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 38148,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology",
+    "slug": "flinders-bachelor-information-technology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-information-technology",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Computer Science",
+    "slug": "flinders-bachelor-computer-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-computer-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Paramedicine (Regional External Program)",
+    "slug": "flinders-bachelor-paramedicine-regional-external-program",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-paramedicine-regional-external-program",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Medical Science / Engineering (Biomedical) (Honours)",
+    "slug": "flinders-medical-science-engineering-biomedical-science-honours",
+    "url": "https://www.flinders.edu.au/study/courses/medical-science-engineering-biomedical-science-honours",
+    "level": "Undergraduate (Honours)",
+    "duration": "6 years",
+    "durationYears": 6,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 186000,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Midwifery Prescribing and Primary Care",
+    "slug": "flinders-graduate-certificate-midwifery-prescribing-and-primary-care",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-midwifery-prescribing-and-primary-care",
+    "level": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Forensic and Analytical Science Pathway)",
+    "slug": "flinders-bachelor-science-forensic-analytical-science-pathway",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-forensic-analytical-science-pathway",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Computer Science (Artificial Intelligence)",
+    "slug": "flinders-bachelor-computer-science-artificial-intelligence",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-computer-science-artificial-intelligence",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Exercise and Sport Science / Master of Clinical Exercise Physiology",
+    "slug": "flinders-bachelor-exercise-sport-science-master-clinical-exercise-physiology",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-exercise-sport-science-master-clinical-exercise-physiology",
+    "level": "Masters",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 10310,
+    "annualUSD": 6702,
+    "totalAUD": 51550,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) - General Entry",
+    "slug": "flinders-bachelor-engineering-honours-general-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-honours-general-entry",
+    "level": "Undergraduate (Honours)",
+    "duration": "1.5 years",
+    "durationYears": 1.5,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 14306,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) - Flexible Entry",
+    "slug": "flinders-bachelor-engineering-honours-flexible-entry",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-engineering-honours-flexible-entry",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Visual Arts)",
+    "slug": "flinders-bachelor-creative-arts-visual-arts",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-arts-visual-arts",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12103,
+    "annualUSD": 7867,
+    "totalAUD": 36309,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Science (Advanced Science)",
+    "slug": "flinders-bachelor-science-advanced-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-science-advanced-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Arts and Science",
+    "slug": "flinders-bachelor-arts-science",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-arts-science",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 12867,
+    "annualUSD": 8364,
+    "totalAUD": 38601,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Employment Pathways",
+    "slug": "flinders-diploma-employment-pathways",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-employment-pathways",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 22000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Interior Design)",
+    "slug": "flinders-bachelor-creative-arts-interior-design",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-arts-interior-design",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10518,
+    "annualUSD": 6837,
+    "totalAUD": 31554,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Clinical Sciences / Doctor of Medicine",
+    "slug": "flinders-bachelor-clinical-sciences-doctor-medicine",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-clinical-sciences-doctor-medicine",
+    "level": "Undergraduate",
+    "duration": "6 years",
+    "durationYears": 6,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 57222,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Geospatial Information Systems",
+    "slug": "flinders-bachelor-geospatial-information-systems",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-geospatial-information-systems",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 28611,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Fashion)",
+    "slug": "flinders-bachelor-creative-arts-fashion",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-arts-fashion",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10518,
+    "annualUSD": 6837,
+    "totalAUD": 31554,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Costume Design)",
+    "slug": "flinders-bachelor-creative-arts-costume-design",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-arts-costume-design",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10518,
+    "annualUSD": 6837,
+    "totalAUD": 31554,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Public Health (Honours)",
+    "slug": "flinders-honours-bachelor-public-health",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-public-health",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Diploma in Project Management",
+    "slug": "flinders-graduate-diploma-project-management",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-diploma-project-management",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 17399,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Master of Advanced Social Work Practice",
+    "slug": "flinders-master-of-advanced-social-work-practice",
+    "url": "https://www.flinders.edu.au/study/courses/master-of-advanced-social-work-practice",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 28300,
+    "annualUSD": 18395,
+    "totalAUD": 56600,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Political Science",
+    "slug": "flinders-major-political-science",
+    "url": "https://www.flinders.edu.au/study/courses/major-political-science",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Applied Linguistics",
+    "slug": "flinders-major-applied-linguistics",
+    "url": "https://www.flinders.edu.au/study/courses/major-applied-linguistics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Archaeology",
+    "slug": "flinders-major-archaeology",
+    "url": "https://www.flinders.edu.au/study/courses/major-archaeology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Creative Writing",
+    "slug": "flinders-major-creative-writing",
+    "url": "https://www.flinders.edu.au/study/courses/major-creative-writing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Drama",
+    "slug": "flinders-major-drama",
+    "url": "https://www.flinders.edu.au/study/courses/major-drama",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in English",
+    "slug": "flinders-major-english",
+    "url": "https://www.flinders.edu.au/study/courses/major-english",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in French",
+    "slug": "flinders-major-french",
+    "url": "https://www.flinders.edu.au/study/courses/major-french",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Geography and Environmental Studies",
+    "slug": "flinders-major-geography-environmental-studies",
+    "url": "https://www.flinders.edu.au/study/courses/major-geography-environmental-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Indonesian",
+    "slug": "flinders-major-indonesian",
+    "url": "https://www.flinders.edu.au/study/courses/major-indonesian",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Italian",
+    "slug": "flinders-major-italian",
+    "url": "https://www.flinders.edu.au/study/courses/major-italian",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Philosophy",
+    "slug": "flinders-major-philosophy",
+    "url": "https://www.flinders.edu.au/study/courses/major-philosophy",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Sociology",
+    "slug": "flinders-major-sociology",
+    "url": "https://www.flinders.edu.au/study/courses/major-sociology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Spanish",
+    "slug": "flinders-major-spanish",
+    "url": "https://www.flinders.edu.au/study/courses/major-spanish",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Visual Arts",
+    "slug": "flinders-major-visual-arts",
+    "url": "https://www.flinders.edu.au/study/courses/major-visual-arts",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 17399,
+    "annualUSD": 11309,
+    "totalAUD": 52197,
+    "ieltsMin": 3,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts (Dance)",
+    "slug": "flinders-bachelor-creative-arts-dance",
+    "url": "https://www.flinders.edu.au/study/courses/bachelor-creative-arts-dance",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 10518,
+    "annualUSD": 6837,
+    "totalAUD": 31554,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Teaching Studies",
+    "slug": "flinders-graduate-certificate-teaching-studies",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-teaching-studies",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 6125,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Health Promotion",
+    "slug": "flinders-graduate-certificate-health-promotion",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-health-promotion",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15100,
+    "annualUSD": 9815,
+    "totalAUD": 7550,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Nuclear Engineering",
+    "slug": "flinders-major-nuclear-engineering",
+    "url": "https://www.flinders.edu.au/study/courses/major-nuclear-engineering",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 27500,
+    "annualUSD": 17875,
+    "totalAUD": 110000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Health Sciences (Honours)",
+    "slug": "flinders-honours-bachelor-health-sciences",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-health-sciences",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Physics",
+    "slug": "flinders-major-physics",
+    "url": "https://www.flinders.edu.au/study/courses/major-physics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25000,
+    "annualUSD": 16250,
+    "totalAUD": 25000,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Education (Honours)",
+    "slug": "flinders-honours-bachelor-education",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-education",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 35700,
+    "annualUSD": 23205,
+    "totalAUD": 35700,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Arts",
+    "slug": "flinders-diploma-arts",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-arts",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 16992,
+    "annualUSD": 11045,
+    "totalAUD": 16992,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Undergraduate Certificate in Acting",
+    "slug": "flinders-undergraduate-certificate-acting",
+    "url": "https://www.flinders.edu.au/study/courses/undergraduate-certificate-acting",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15000,
+    "annualUSD": 9750,
+    "totalAUD": 7500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Associate Degree in Medical Science (Laboratory Medicine)",
+    "slug": "flinders-associate-degree-medical-science-laboratory-medicine",
+    "url": "https://www.flinders.edu.au/study/courses/associate-degree-medical-science-laboratory-medicine",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 19074,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Wireless Systems Security",
+    "slug": "flinders-major-wireless-systems-security",
+    "url": "https://www.flinders.edu.au/study/courses/major-wireless-systems-security",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 27500,
+    "annualUSD": 17875,
+    "totalAUD": 110000,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Molecular Biology",
+    "slug": "flinders-major-molecular-biology",
+    "url": "https://www.flinders.edu.au/study/courses/major-molecular-biology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 26250,
+    "annualUSD": 17063,
+    "totalAUD": 26250,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Sustainability",
+    "slug": "flinders-major-sustainability",
+    "url": "https://www.flinders.edu.au/study/courses/major-sustainability",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31667,
+    "annualUSD": 20584,
+    "totalAUD": 95001,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Major in Mathematics",
+    "slug": "flinders-major-mathematics",
+    "url": "https://www.flinders.edu.au/study/courses/major-mathematics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 23750,
+    "annualUSD": 15438,
+    "totalAUD": 23750,
+    "ieltsMin": 500,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Sports Management",
+    "slug": "flinders-diploma-sports-management",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-sports-management",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 20950,
+    "annualUSD": 13618,
+    "totalAUD": 20950,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Administration",
+    "slug": "flinders-graduate-certificate-business-administration",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-business-administration",
+    "level": "Graduate Certificate",
+    "duration": "0.25 years",
+    "durationYears": 0.25,
+    "annualAUD": 18350,
+    "annualUSD": 11928,
+    "totalAUD": 4588,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Diploma in Business Administration",
+    "slug": "flinders-graduate-diploma-business-administration",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-diploma-business-administration",
+    "level": "Graduate Diploma",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 36700,
+    "annualUSD": 23855,
+    "totalAUD": 18350,
+    "ieltsMin": 1,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Diploma in Sports Management (Cricket)",
+    "slug": "flinders-diploma-sports-management-cricket",
+    "url": "https://www.flinders.edu.au/study/courses/diploma-sports-management-cricket",
+    "level": "Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 19950,
+    "annualUSD": 12968,
+    "totalAUD": 19950,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Indigenous Education, Leadership and Pedagogy",
+    "slug": "flinders-graduate-certificate-indigenous-education-pedagogy-leadership",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-indigenous-education-pedagogy-leadership",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 12250,
+    "annualUSD": 7963,
+    "totalAUD": 6125,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Science (Honours)",
+    "slug": "flinders-honours-bachelor-psychological-science",
+    "url": "https://www.flinders.edu.au/study/courses/honours-bachelor-psychological-science",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 9537,
+    "annualUSD": 6199,
+    "totalAUD": 9537,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  },
+  {
+    "name": "Graduate Certificate in Marketing",
+    "slug": "flinders-graduate-certificate-marketing",
+    "url": "https://www.flinders.edu.au/study/courses/graduate-certificate-marketing",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 8699,
+    "annualUSD": 5654,
+    "totalAUD": 4350,
+    "ieltsMin": 7,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bedford Park Campus"
+  }
+]

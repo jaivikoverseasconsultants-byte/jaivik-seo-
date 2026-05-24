@@ -1,0 +1,1988 @@
+[
+  {
+    "name": "Browse interest areas",
+    "slug": "latrobe-a-z",
+    "url": "https://www.latrobe.edu.au/courses/a-z",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Arts, social sciences and communications",
+    "slug": "latrobe-study-arts-social-sciences-and-communications",
+    "url": "https://www.latrobe.edu.au/courses/study-arts-social-sciences-and-communications",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Business and commerce",
+    "slug": "latrobe-study-business-and-commerce",
+    "url": "https://www.latrobe.edu.au/courses/study-business-and-commerce",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Criminology",
+    "slug": "latrobe-study-criminology",
+    "url": "https://www.latrobe.edu.au/courses/study-criminology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Education and teaching",
+    "slug": "latrobe-study-education-teaching",
+    "url": "https://www.latrobe.edu.au/courses/study-education-teaching",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Engineering",
+    "slug": "latrobe-study-engineering",
+    "url": "https://www.latrobe.edu.au/courses/study-engineering",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health",
+    "slug": "latrobe-study-health",
+    "url": "https://www.latrobe.edu.au/courses/study-health",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Information technology",
+    "slug": "latrobe-study-information-technology",
+    "url": "https://www.latrobe.edu.au/courses/study-information-technology",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Science",
+    "slug": "latrobe-study-science",
+    "url": "https://www.latrobe.edu.au/courses/study-science",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Diploma courses",
+    "slug": "latrobe-diplomas",
+    "url": "https://www.latrobe.edu.au/courses/diplomas",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 22000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Packaged offers",
+    "slug": "latrobe-packages",
+    "url": "https://www.latrobe.edu.au/courses/packages",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Aboriginal studies",
+    "slug": "latrobe-aboriginal-studies",
+    "url": "https://www.latrobe.edu.au/courses/aboriginal-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Ancient societies and human origins",
+    "slug": "latrobe-ancient-societies-and-human-origins",
+    "url": "https://www.latrobe.edu.au/courses/ancient-societies-and-human-origins",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Anthropology",
+    "slug": "latrobe-anthropology",
+    "url": "https://www.latrobe.edu.au/courses/anthropology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Archaeology",
+    "slug": "latrobe-archaeology",
+    "url": "https://www.latrobe.edu.au/courses/archaeology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Asian studies",
+    "slug": "latrobe-asian-studies",
+    "url": "https://www.latrobe.edu.au/courses/asian-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Auslan",
+    "slug": "latrobe-auslan",
+    "url": "https://www.latrobe.edu.au/courses/auslan",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Chinese studies",
+    "slug": "latrobe-chinese-studies",
+    "url": "https://www.latrobe.edu.au/courses/chinese-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Classics and ancient history",
+    "slug": "latrobe-classics-and-ancient-history",
+    "url": "https://www.latrobe.edu.au/courses/classics-and-ancient-history",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Creative and professional writing",
+    "slug": "latrobe-creative-and-professional-writing",
+    "url": "https://www.latrobe.edu.au/courses/creative-and-professional-writing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "English",
+    "slug": "latrobe-english",
+    "url": "https://www.latrobe.edu.au/courses/english",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Environmental humanities",
+    "slug": "latrobe-environmental-humanities",
+    "url": "https://www.latrobe.edu.au/courses/environmental-humanities",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Environment and sustainability",
+    "slug": "latrobe-environment-and-sustainability",
+    "url": "https://www.latrobe.edu.au/courses/environment-and-sustainability",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Ethics and social justice",
+    "slug": "latrobe-ethics-and-social-justice",
+    "url": "https://www.latrobe.edu.au/courses/ethics-and-social-justice",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "French studies",
+    "slug": "latrobe-french-studies",
+    "url": "https://www.latrobe.edu.au/courses/french-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Gender, sexuality and diversity studies",
+    "slug": "latrobe-gender-sexuality-and-diversity-studies",
+    "url": "https://www.latrobe.edu.au/courses/gender-sexuality-and-diversity-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Hindi studies",
+    "slug": "latrobe-hindi-studies",
+    "url": "https://www.latrobe.edu.au/courses/hindi-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "History",
+    "slug": "latrobe-history",
+    "url": "https://www.latrobe.edu.au/courses/history",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Indonesian studies",
+    "slug": "latrobe-indonesian-studies",
+    "url": "https://www.latrobe.edu.au/courses/indonesian-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "International studies",
+    "slug": "latrobe-international-studies",
+    "url": "https://www.latrobe.edu.au/courses/international-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Italian studies",
+    "slug": "latrobe-italian-studies",
+    "url": "https://www.latrobe.edu.au/courses/italian-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Japanese studies",
+    "slug": "latrobe-japanese-studies",
+    "url": "https://www.latrobe.edu.au/courses/japanese-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Journalism",
+    "slug": "latrobe-journalism",
+    "url": "https://www.latrobe.edu.au/courses/journalism",
+    "level": "Postgraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 155000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Linguistics",
+    "slug": "latrobe-linguistics",
+    "url": "https://www.latrobe.edu.au/courses/linguistics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Media industries",
+    "slug": "latrobe-media-industries",
+    "url": "https://www.latrobe.edu.au/courses/media-industries",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Greek studies",
+    "slug": "latrobe-greek-studies",
+    "url": "https://www.latrobe.edu.au/courses/greek-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Philosophy",
+    "slug": "latrobe-philosophy",
+    "url": "https://www.latrobe.edu.au/courses/philosophy",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Politics",
+    "slug": "latrobe-politics",
+    "url": "https://www.latrobe.edu.au/courses/politics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Social media",
+    "slug": "latrobe-social-media",
+    "url": "https://www.latrobe.edu.au/courses/social-media",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Sociology",
+    "slug": "latrobe-sociology",
+    "url": "https://www.latrobe.edu.au/courses/sociology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Spanish studies",
+    "slug": "latrobe-spanish-studies",
+    "url": "https://www.latrobe.edu.au/courses/spanish-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Sports media",
+    "slug": "latrobe-sports-media",
+    "url": "https://www.latrobe.edu.au/courses/sports-media",
+    "level": "Postgraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 155000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Strategic communication",
+    "slug": "latrobe-strategic-communication",
+    "url": "https://www.latrobe.edu.au/courses/strategic-communication",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Sustainability and development",
+    "slug": "latrobe-sustainability-and-development",
+    "url": "https://www.latrobe.edu.au/courses/sustainability-and-development",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Theatre",
+    "slug": "latrobe-theatre",
+    "url": "https://www.latrobe.edu.au/courses/theatre",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Visual arts",
+    "slug": "latrobe-visual-arts",
+    "url": "https://www.latrobe.edu.au/courses/visual-arts",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Visual cultures",
+    "slug": "latrobe-visual-cultures",
+    "url": "https://www.latrobe.edu.au/courses/visual-cultures",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Writing",
+    "slug": "latrobe-writing",
+    "url": "https://www.latrobe.edu.au/courses/writing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Accounting",
+    "slug": "latrobe-accounting",
+    "url": "https://www.latrobe.edu.au/courses/accounting",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Agribusiness",
+    "slug": "latrobe-agribusiness",
+    "url": "https://www.latrobe.edu.au/courses/agribusiness",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "The La Trobe MBA",
+    "slug": "latrobe-mba",
+    "url": "https://www.latrobe.edu.au/courses/mba",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Business analytics",
+    "slug": "latrobe-business-analytics",
+    "url": "https://www.latrobe.edu.au/courses/business-analytics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Corporate finance",
+    "slug": "latrobe-corporate-finance",
+    "url": "https://www.latrobe.edu.au/courses/corporate-finance",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Digital business",
+    "slug": "latrobe-digital-business",
+    "url": "https://www.latrobe.edu.au/courses/digital-business",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Digital marketing",
+    "slug": "latrobe-digital-marketing",
+    "url": "https://www.latrobe.edu.au/courses/digital-marketing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Economics",
+    "slug": "latrobe-economics",
+    "url": "https://www.latrobe.edu.au/courses/economics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Environmental management",
+    "slug": "latrobe-environmental-management",
+    "url": "https://www.latrobe.edu.au/courses/environmental-management",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Event management",
+    "slug": "latrobe-event-management",
+    "url": "https://www.latrobe.edu.au/courses/event-management",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Finance",
+    "slug": "latrobe-finance",
+    "url": "https://www.latrobe.edu.au/courses/finance",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Forensic accounting",
+    "slug": "latrobe-forensic-accounting",
+    "url": "https://www.latrobe.edu.au/courses/forensic-accounting",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Human resource management",
+    "slug": "latrobe-human-resource-management",
+    "url": "https://www.latrobe.edu.au/courses/human-resource-management",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "International business",
+    "slug": "latrobe-international-business",
+    "url": "https://www.latrobe.edu.au/courses/international-business",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Management",
+    "slug": "latrobe-management",
+    "url": "https://www.latrobe.edu.au/courses/management",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Management and marketing",
+    "slug": "latrobe-management-and-marketing",
+    "url": "https://www.latrobe.edu.au/courses/management-and-marketing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Marketing",
+    "slug": "latrobe-marketing",
+    "url": "https://www.latrobe.edu.au/courses/marketing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Public relations",
+    "slug": "latrobe-public-relations",
+    "url": "https://www.latrobe.edu.au/courses/public-relations",
+    "level": "Postgraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 155000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Sport management",
+    "slug": "latrobe-sport-management",
+    "url": "https://www.latrobe.edu.au/courses/sport-management",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Tourism and hospitality",
+    "slug": "latrobe-tourism-and-hospitality",
+    "url": "https://www.latrobe.edu.au/courses/tourism-and-hospitality",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Crime, justice and legal studies",
+    "slug": "latrobe-crime-justice-and-legal-studies",
+    "url": "https://www.latrobe.edu.au/courses/crime-justice-and-legal-studies",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Educational nature tourism",
+    "slug": "latrobe-educational-nature-tourism",
+    "url": "https://www.latrobe.edu.au/courses/educational-nature-tourism",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Outdoor education",
+    "slug": "latrobe-outdoor-education",
+    "url": "https://www.latrobe.edu.au/courses/outdoor-education",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Physical education",
+    "slug": "latrobe-physical-education",
+    "url": "https://www.latrobe.edu.au/courses/physical-education",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Special education and student welfare",
+    "slug": "latrobe-special-education-and-student-welfare",
+    "url": "https://www.latrobe.edu.au/courses/special-education-and-student-welfare",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Civil engineering",
+    "slug": "latrobe-civil-engineering",
+    "url": "https://www.latrobe.edu.au/courses/civil-engineering",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Electronics engineering",
+    "slug": "latrobe-electronics-engineering",
+    "url": "https://www.latrobe.edu.au/courses/electronics-engineering",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Manufacturing engineering",
+    "slug": "latrobe-manufacturing-engineering",
+    "url": "https://www.latrobe.edu.au/courses/manufacturing-engineering",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Software engineering",
+    "slug": "latrobe-software-engineering",
+    "url": "https://www.latrobe.edu.au/courses/software-engineering",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Telecommunication and network engineering",
+    "slug": "latrobe-telecommunication-and-network-engineering",
+    "url": "https://www.latrobe.edu.au/courses/telecommunication-and-network-engineering",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Art therapy",
+    "slug": "latrobe-art-therapy",
+    "url": "https://www.latrobe.edu.au/courses/art-therapy",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Digital health",
+    "slug": "latrobe-digital-health",
+    "url": "https://www.latrobe.edu.au/courses/digital-health",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Disability practice",
+    "slug": "latrobe-disability-practice",
+    "url": "https://www.latrobe.edu.au/courses/disability-practice",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Food, nutrition and dietetics",
+    "slug": "latrobe-food-nutrition-and-dietetics",
+    "url": "https://www.latrobe.edu.au/courses/food-nutrition-and-dietetics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health administration",
+    "slug": "latrobe-health-administration",
+    "url": "https://www.latrobe.edu.au/courses/health-administration",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health and medical sciences",
+    "slug": "latrobe-health-and-medical-sciences",
+    "url": "https://www.latrobe.edu.au/courses/health-and-medical-sciences",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health and sustainability",
+    "slug": "latrobe-health-and-sustainability",
+    "url": "https://www.latrobe.edu.au/courses/health-and-sustainability",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "June"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health information management",
+    "slug": "latrobe-health-information-management",
+    "url": "https://www.latrobe.edu.au/courses/health-information-management",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health policy",
+    "slug": "latrobe-health-policy",
+    "url": "https://www.latrobe.edu.au/courses/health-policy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health promotion",
+    "slug": "latrobe-health-promotion",
+    "url": "https://www.latrobe.edu.au/courses/health-promotion",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Health, wellbeing and performance",
+    "slug": "latrobe-health-wellbeing-and-performance",
+    "url": "https://www.latrobe.edu.au/courses/health-wellbeing-and-performance",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Midwifery",
+    "slug": "latrobe-midwifery",
+    "url": "https://www.latrobe.edu.au/courses/midwifery",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Nursing",
+    "slug": "latrobe-nursing",
+    "url": "https://www.latrobe.edu.au/courses/nursing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Psychology",
+    "slug": "latrobe-psychology",
+    "url": "https://www.latrobe.edu.au/courses/psychology",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Public health",
+    "slug": "latrobe-public-health",
+    "url": "https://www.latrobe.edu.au/courses/public-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Rehabilitation counselling",
+    "slug": "latrobe-rehabilitation-counselling",
+    "url": "https://www.latrobe.edu.au/courses/rehabilitation-counselling",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Social work",
+    "slug": "latrobe-social-work",
+    "url": "https://www.latrobe.edu.au/courses/social-work",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "March"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Sport",
+    "slug": "latrobe-sport",
+    "url": "https://www.latrobe.edu.au/courses/sport",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Artificial intelligence",
+    "slug": "latrobe-artificial-intelligence",
+    "url": "https://www.latrobe.edu.au/courses/artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Cloud analytics",
+    "slug": "latrobe-cloud-analytics",
+    "url": "https://www.latrobe.edu.au/courses/cloud-analytics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Computer science",
+    "slug": "latrobe-computer-science",
+    "url": "https://www.latrobe.edu.au/courses/computer-science",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "slug": "latrobe-cybersecurity",
+    "url": "https://www.latrobe.edu.au/courses/cybersecurity",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Information systems",
+    "slug": "latrobe-information-systems",
+    "url": "https://www.latrobe.edu.au/courses/information-systems",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Agriculture",
+    "slug": "latrobe-agricultural-sciences",
+    "url": "https://www.latrobe.edu.au/courses/agricultural-sciences",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Biochemistry",
+    "slug": "latrobe-biochemistry",
+    "url": "https://www.latrobe.edu.au/courses/biochemistry",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Biomedical science",
+    "slug": "latrobe-biomedical-science",
+    "url": "https://www.latrobe.edu.au/courses/biomedical-science",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Biotechnology",
+    "slug": "latrobe-biotechnology",
+    "url": "https://www.latrobe.edu.au/courses/biotechnology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Botany",
+    "slug": "latrobe-botany",
+    "url": "https://www.latrobe.edu.au/courses/botany",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Chemistry",
+    "slug": "latrobe-chemistry",
+    "url": "https://www.latrobe.edu.au/courses/chemistry",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Discrete mathematics",
+    "slug": "latrobe-discrete-mathematics",
+    "url": "https://www.latrobe.edu.au/courses/discrete-mathematics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Ecological genetics and evolution",
+    "slug": "latrobe-ecological-genetics-and-evolution",
+    "url": "https://www.latrobe.edu.au/courses/ecological-genetics-and-evolution",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Environmental geoscience",
+    "slug": "latrobe-environmental-geoscience",
+    "url": "https://www.latrobe.edu.au/courses/environmental-geoscience",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Genetics",
+    "slug": "latrobe-genetics",
+    "url": "https://www.latrobe.edu.au/courses/genetics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Mathematics",
+    "slug": "latrobe-mathematics",
+    "url": "https://www.latrobe.edu.au/courses/mathematics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Microbiology",
+    "slug": "latrobe-microbiology",
+    "url": "https://www.latrobe.edu.au/courses/microbiology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Molecular biology",
+    "slug": "latrobe-molecular-biology",
+    "url": "https://www.latrobe.edu.au/courses/molecular-biology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Neuroscience",
+    "slug": "latrobe-neuroscience",
+    "url": "https://www.latrobe.edu.au/courses/neuroscience",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Pharmaceutical chemistry",
+    "slug": "latrobe-pharmaceutical-chemistry",
+    "url": "https://www.latrobe.edu.au/courses/pharmaceutical-chemistry",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "October"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Physics",
+    "slug": "latrobe-physics",
+    "url": "https://www.latrobe.edu.au/courses/physics",
+    "level": "Postgraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 124000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Statistics",
+    "slug": "latrobe-statistics",
+    "url": "https://www.latrobe.edu.au/courses/statistics",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Zoology",
+    "slug": "latrobe-zoology",
+    "url": "https://www.latrobe.edu.au/courses/zoology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 93000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "StudyFlex",
+    "slug": "latrobe-studyflex",
+    "url": "https://www.latrobe.edu.au/courses/studyflex",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February"
+    ],
+    "campus": "Bundoora Campus"
+  },
+  {
+    "name": "Open access majors and minors",
+    "slug": "latrobe-undergraduate-open-access-majors-and-minors",
+    "url": "https://www.latrobe.edu.au/courses/undergraduate-open-access-majors-and-minors",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 31000,
+    "annualUSD": 20150,
+    "totalAUD": 62000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February"
+    ],
+    "campus": "Bundoora Campus"
+  }
+]

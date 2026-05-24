@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Business Administration",
+    "slug": "kaplan-english-for-academic-purposes",
+    "url": "https://www.kbs.edu.au/courses/english-for-academic-purposes",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 20000,
+    "annualUSD": 13000,
+    "totalAUD": 40000,
+    "ieltsMin": 2,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Non-Award Single Subject Enrolment",
+    "slug": "kaplan-non-award-single-subject-enrolment",
+    "url": "https://www.kbs.edu.au/courses/non-award-single-subject-enrolment",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 20000,
+    "annualUSD": 13000,
+    "totalAUD": 40000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "IT Specialisations and System Requirements",
+    "slug": "kaplan-it-specialisations-system-requirements",
+    "url": "https://www.kbs.edu.au/courses/master-of-information-technology/it-specialisations-system-requirements",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 20000,
+    "annualUSD": 13000,
+    "totalAUD": 40000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MBA – Two Specialisations",
+    "slug": "kaplan-two-specialisations",
+    "url": "https://www.kbs.edu.au/courses/mba-master-of-business-administration/two-specialisations",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 22000,
+    "annualUSD": 14300,
+    "totalAUD": 44000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Study Abroad Program",
+    "slug": "kaplan-study-abroad-program",
+    "url": "https://www.kbs.edu.au/courses/study-abroad-program",
+    "level": "Postgraduate",
+    "duration": "18 years",
+    "durationYears": 18,
+    "annualAUD": 8640,
+    "annualUSD": 5616,
+    "totalAUD": 155520,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus"
+  }
+]

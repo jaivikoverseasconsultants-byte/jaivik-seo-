@@ -1,0 +1,1379 @@
+[
+  {
+    "name": "Bachelor of Arts",
+    "slug": "griffith-bachelor-of-arts",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Business",
+    "slug": "griffith-bachelor-of-business",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Commerce",
+    "slug": "griffith-bachelor-of-commerce",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Business / Bachelor of Arts",
+    "slug": "griffith-bachelor-of-business-bachelor-of-arts",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Criminology and Criminal Justice",
+    "slug": "griffith-bachelor-of-criminology-and-criminal-justice",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Criminology / Bachelor of Laws",
+    "slug": "griffith-bachelor-of-criminology-bachelor-of-laws",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 157500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Education (Primary)",
+    "slug": "griffith-bachelor-of-education-primary",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Education (Secondary)",
+    "slug": "griffith-bachelor-of-education-secondary",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Engineering (Honours)",
+    "slug": "griffith-bachelor-of-engineering-honours",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 38000,
+    "annualUSD": 24700,
+    "totalAUD": 152000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Environmental Science",
+    "slug": "griffith-bachelor-of-environmental-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Film, Screen and New Media",
+    "slug": "griffith-bachelor-of-film-screen-and-new-media",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Health Science",
+    "slug": "griffith-bachelor-of-health-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Human Services",
+    "slug": "griffith-bachelor-of-human-services",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology",
+    "slug": "griffith-bachelor-of-information-technology",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of International Tourism and Hospitality Management",
+    "slug": "griffith-bachelor-of-international-tourism-and-hospitality-management",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Laws",
+    "slug": "griffith-bachelor-of-laws",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Medical Laboratory Science (Honours)",
+    "slug": "griffith-bachelor-of-medical-laboratory-science-honours",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Music",
+    "slug": "griffith-bachelor-of-music",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Nursing",
+    "slug": "griffith-bachelor-of-nursing",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Pharmacy (Honours)",
+    "slug": "griffith-bachelor-of-pharmacy-honours",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate (Honours)",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Psychological Science",
+    "slug": "griffith-bachelor-of-psychological-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Public Health",
+    "slug": "griffith-bachelor-of-public-health",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Science",
+    "slug": "griffith-bachelor-of-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Social Work",
+    "slug": "griffith-bachelor-of-social-work",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Sport and Exercise Science",
+    "slug": "griffith-bachelor-of-sport-and-exercise-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Biomedicine",
+    "slug": "griffith-bachelor-of-biomedicine",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Aviation",
+    "slug": "griffith-bachelor-of-aviation",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Business / Bachelor of Information Technology",
+    "slug": "griffith-bachelor-of-business-bachelor-of-information-technology",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Criminal Justice / Bachelor of Psychological Science",
+    "slug": "griffith-bachelor-of-criminal-justice-bachelor-of-psychological-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 126000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Accounting",
+    "slug": "griffith-bachelor-of-accounting",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Marketing",
+    "slug": "griffith-bachelor-of-marketing",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Applied Data Analytics",
+    "slug": "griffith-bachelor-of-applied-data-analytics",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Bachelor of Cyber Security",
+    "slug": "griffith-bachelor-of-cyber-security",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 31500,
+    "annualUSD": 20475,
+    "totalAUD": 94500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Architecture",
+    "slug": "griffith-master-of-architecture",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36000,
+    "annualUSD": 23400,
+    "totalAUD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Arts",
+    "slug": "griffith-master-of-arts",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Business Administration",
+    "slug": "griffith-master-of-business-administration",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 37500,
+    "annualUSD": 24375,
+    "totalAUD": 75000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Business Analytics",
+    "slug": "griffith-master-of-business-analytics",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 36000,
+    "annualUSD": 23400,
+    "totalAUD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Commerce",
+    "slug": "griffith-master-of-commerce",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Criminal Justice",
+    "slug": "griffith-master-of-criminal-justice",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Criminology",
+    "slug": "griffith-master-of-criminology",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Cyber Security",
+    "slug": "griffith-master-of-cyber-security",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35000,
+    "annualUSD": 22750,
+    "totalAUD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Data Science",
+    "slug": "griffith-master-of-data-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35000,
+    "annualUSD": 22750,
+    "totalAUD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Education",
+    "slug": "griffith-master-of-education",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Engineering Science",
+    "slug": "griffith-master-of-engineering-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38000,
+    "annualUSD": 24700,
+    "totalAUD": 76000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Environment and Sustainability",
+    "slug": "griffith-master-of-environment-and-sustainability",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Health",
+    "slug": "griffith-master-of-health",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Information Technology",
+    "slug": "griffith-master-of-information-technology",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 35000,
+    "annualUSD": 22750,
+    "totalAUD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of International Tourism and Hospitality Management",
+    "slug": "griffith-master-of-international-tourism-and-hospitality-management",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Laws",
+    "slug": "griffith-master-of-laws",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Nursing (Graduate Entry)",
+    "slug": "griffith-master-of-nursing-graduate-entry",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Pharmacy",
+    "slug": "griffith-master-of-pharmacy",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 38000,
+    "annualUSD": 24700,
+    "totalAUD": 76000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Professional Accounting",
+    "slug": "griffith-master-of-professional-accounting",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Psychology (Clinical)",
+    "slug": "griffith-master-of-psychology-clinical",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Public Health",
+    "slug": "griffith-master-of-public-health",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Social Work",
+    "slug": "griffith-master-of-social-work",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Teaching (Primary)",
+    "slug": "griffith-master-of-teaching-primary",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Teaching (Secondary)",
+    "slug": "griffith-master-of-teaching-secondary",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Urban and Regional Planning",
+    "slug": "griffith-master-of-urban-and-regional-planning",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Applied Finance",
+    "slug": "griffith-master-of-applied-finance",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Financial Planning",
+    "slug": "griffith-master-of-financial-planning",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Human Resource Management",
+    "slug": "griffith-master-of-human-resource-management",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Marketing",
+    "slug": "griffith-master-of-marketing",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Master of Project Management",
+    "slug": "griffith-master-of-project-management",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualAUD": 34000,
+    "annualUSD": 22100,
+    "totalAUD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Diploma of Business Administration",
+    "slug": "griffith-graduate-diploma-of-business-administration",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Diploma of Education (Secondary)",
+    "slug": "griffith-graduate-diploma-of-education-secondary",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Diploma of Psychology",
+    "slug": "griffith-graduate-diploma-of-psychology",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Diploma of Public Health",
+    "slug": "griffith-graduate-diploma-of-public-health",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Diploma of Urban and Regional Planning",
+    "slug": "griffith-graduate-diploma-of-urban-and-regional-planning",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualAUD": 25500,
+    "annualUSD": 16575,
+    "totalAUD": 25500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business",
+    "slug": "griffith-graduate-certificate-in-business",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "slug": "griffith-graduate-certificate-in-business-analytics",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Criminal Justice",
+    "slug": "griffith-graduate-certificate-in-criminal-justice",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cyber Security",
+    "slug": "griffith-graduate-certificate-in-cyber-security",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Science",
+    "slug": "griffith-graduate-certificate-in-data-science",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Education",
+    "slug": "griffith-graduate-certificate-in-education",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Engineering",
+    "slug": "griffith-graduate-certificate-in-engineering",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Health",
+    "slug": "griffith-graduate-certificate-in-health",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Information Technology",
+    "slug": "griffith-graduate-certificate-in-information-technology",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "slug": "griffith-graduate-certificate-in-project-management",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Public Health",
+    "slug": "griffith-graduate-certificate-in-public-health",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Graduate Certificate in Sustainability",
+    "slug": "griffith-graduate-certificate-in-sustainability",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "Graduate Certificate",
+    "duration": "0.5 years",
+    "durationYears": 0.5,
+    "annualAUD": 15500,
+    "annualUSD": 10075,
+    "totalAUD": 7750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  },
+  {
+    "name": "Doctor of Philosophy",
+    "slug": "griffith-doctor-of-philosophy",
+    "url": "https://www.griffith.edu.au/courses",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualAUD": 28500,
+    "annualUSD": 18525,
+    "totalAUD": 85500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "February",
+      "July"
+    ],
+    "campus": "Nathan Campus"
+  }
+]

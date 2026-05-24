@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JOC Bookmarklet Installer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; padding: 40px 20px; }
+    .container { max-width: 680px; margin: 0 auto; }
+    h1 { font-size: 28px; font-weight: 800; color: #1e3a5f; margin-bottom: 6px; }
+    .sub { color: #64748b; font-size: 15px; margin-bottom: 32px; }
+    .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 24px; margin-bottom: 20px; }
+    .card h2 { font-size: 16px; font-weight: 700; color: #1e3a5f; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .step { display: flex; gap: 12px; margin-bottom: 12px; align-items: flex-start; }
+    .step-num { background: #1e3a5f; color: #fff; width: 24px; height: 24px; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .step p { font-size: 14px; line-height: 1.5; color: #374151; }
+    code { background: #f1f5f9; padding: 2px 7px; border-radius: 5px; font-family: 'Courier New', monospace; font-size: 13px; color: #0f172a; }
+    .bookmarklet-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, #1e3a5f, #2563eb);
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: grab;
+      box-shadow: 0 4px 16px rgba(30,58,95,.3);
+      transition: transform .15s, box-shadow .15s;
+      user-select: none;
+      margin: 8px 0 16px;
+      display: block;
+      text-align: center;
+    }
+    .bookmarklet-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(30,58,95,.35); }
+    .bookmarklet-btn:active { cursor: grabbing; }
+    .drag-hint { font-size: 12px; color: #94a3b8; text-align: center; margin-bottom: 16px; }
+    .divider { text-align: center; color: #94a3b8; font-size: 12px; font-weight: 600; margin: 12px 0; }
+    .manual-install { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 16px; }
+    .manual-install p { font-size: 13px; color: #64748b; margin-bottom: 8px; }
+    textarea { width: 100%; font-family: 'Courier New', monospace; font-size: 10px; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px; resize: none; color: #374151; }
+    .copy-btn { margin-top: 8px; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px 16px; font-size: 13px; font-weight: 600; cursor: pointer; color: #1e3a5f; }
+    .copy-btn:hover { background: #e2e8f0; }
+    .status-bar { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 14px 18px; display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+    .status-dot { width: 10px; height: 10px; border-radius: 50%; background: #86efac; flex-shrink: 0; }
+    .status-dot.online { background: #22c55e; box-shadow: 0 0 0 3px rgba(34,197,94,.2); }
+    .status-dot.offline { background: #f87171; }
+    .status-text { font-size: 13px; }
+    .highlight { background: #fef9c3; border-left: 3px solid #fbbf24; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 12px 0; font-size: 13px; line-height: 1.6; }
+    .fields-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+    .field-tag { background: #eff6ff; color: #1d4ed8; font-size: 12px; padding: 4px 10px; border-radius: 6px; font-weight: 500; }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>📊 JOC Data Collector</h1>
+  <p class="sub">One-click university data extraction from any web page</p>
+
+  <!-- Server status -->
+  <div class="status-bar" id="status-bar">
+    <div class="status-dot" id="status-dot"></div>
+    <div class="status-text" id="status-text">Checking server status...</div>
+  </div>
+
+  <!-- Step 1: Start server -->
+  <div class="card">
+    <h2>⚙️ Step 1 — Start the Local Server</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <p>Open a terminal in your project folder and run:</p>
+    </div>
+    <div style="background:#0f172a;color:#e2e8f0;border-radius:10px;padding:14px 18px;font-family:'Courier New',monospace;font-size:13px;margin:8px 0 12px;">
+      cd C:\Users\Harshita\jaivik-seo<br>node scripts/data-collector.js
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <p>Leave that terminal open. The server runs at <code>localhost:3456</code> and writes to <code>data/universities-scraped.json</code>.</p>
+    </div>
+    <div class="highlight">
+      💡 You only need to start the server once per session. You can keep it running in the background while you browse.
+    </div>
+  </div>
+
+  <!-- Step 2: Install bookmarklet -->
+  <div class="card">
+    <h2>🔖 Step 2 — Install the Bookmarklet</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <p>Make sure your browser shows the <strong>Bookmarks Bar</strong> (Ctrl+Shift+B in Chrome/Edge).</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <p>Drag this button to your bookmarks bar:</p>
+    </div>
+
+    <a id="bookmarklet-link" href="#" class="bookmarklet-btn" title="Drag me to your bookmarks bar">
+      📊 JOC Save University
+    </a>
+    <p class="drag-hint">☝️ Drag this to your bookmarks bar — don't click it here</p>
+
+    <div class="divider">— OR manually install —</div>
+
+    <div class="manual-install">
+      <p>Right-click bookmarks bar → Add page manually → paste this as the URL:</p>
+      <textarea id="bookmarklet-code" rows="4" readonly></textarea>
+      <button class="copy-btn" onclick="copyCode()">📋 Copy Bookmarklet Code</button>
+    </div>
+  </div>
+
+  <!-- Step 3: Use it -->
+  <div class="card">
+    <h2>🚀 Step 3 — Use It</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <p>Go to any university website or KC portal (e.g., <code>findamasters.com</code>, <code>mastersportal.eu</code>, university official site).</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <p>Click <strong>📊 JOC Save University</strong> in your bookmarks bar.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <p>A panel slides in from the right with auto-extracted data. Review and correct any fields.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <p>Click <strong>💾 Save to JSON</strong>. Data is written to <code>data/universities-scraped.json</code>.</p>
+    </div>
+
+    <h3 style="font-size:13px;font-weight:700;color:#374151;margin:14px 0 8px;">Auto-extracted fields:</h3>
+    <div class="fields-grid">
+      <span class="field-tag">✓ University Name</span>
+      <span class="field-tag">✓ Country &amp; City</span>
+      <span class="field-tag">✓ Course Name</span>
+      <span class="field-tag">✓ Duration</span>
+      <span class="field-tag">✓ Tuition Fees</span>
+      <span class="field-tag">✓ IELTS / PTE Min</span>
+      <span class="field-tag">✓ Intake Months</span>
+      <span class="field-tag">✓ Entry Requirements</span>
+      <span class="field-tag">✓ Application Deadline</span>
+      <span class="field-tag">✓ Source URL</span>
+    </div>
+  </div>
+
+  <!-- Step 4: Use data -->
+  <div class="card">
+    <h2>📁 Step 4 — Using the Saved Data</h2>
+    <div class="step">
+      <div class="step-num">1</div>
+      <p>All entries are saved to <code>data/universities-scraped.json</code> in a format compatible with your Next.js data structure.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <p>View all collected data at: <a href="http://localhost:3456" target="_blank" style="color:#1e3a5f">http://localhost:3456</a></p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <p>Re-visiting the same university (same name + country) will <strong>update</strong> the existing entry, not create a duplicate.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  const BOOKMARKLET = `javascript:(function(){var s=document.createElement('script');s.src='http://localhost:3456/collector.js?t='+Date.now();document.head.appendChild(s);})();`;
+
+  // Set bookmarklet href
+  document.getElementById('bookmarklet-link').href = BOOKMARKLET;
+  document.getElementById('bookmarklet-code').value = BOOKMARKLET;
+
+  // Check server status
+  fetch('http://localhost:3456/status')
+    .then(r => r.json())
+    .then(d => {
+      document.getElementById('status-dot').className = 'status-dot online';
+      document.getElementById('status-text').innerHTML =
+        `✅ Server is running &nbsp;·&nbsp; <strong>${d.total}</strong> universities saved &nbsp;·&nbsp; <a href="http://localhost:3456" target="_blank" style="color:#15803d">View dashboard →</a>`;
+    })
+    .catch(() => {
+      document.getElementById('status-dot').className = 'status-dot offline';
+      document.getElementById('status-text').innerHTML =
+        '❌ Server not running — run <code style="background:#fee2e2;padding:2px 6px;border-radius:4px;">node scripts/data-collector.js</code> first';
+    });
+
+  function copyCode() {
+    navigator.clipboard.writeText(document.getElementById('bookmarklet-code').value);
+    event.target.textContent = '✅ Copied!';
+    setTimeout(() => event.target.textContent = '📋 Copy Bookmarklet Code', 2000);
+  }
+</script>
+</body>
+</html>

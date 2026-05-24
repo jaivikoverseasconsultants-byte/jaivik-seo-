@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u_1779555248575",
+    "name": "coursefinder.studies-overseas.com",
+    "shortName": "c",
+    "slug": "coursefinderstudies-overseascom",
+    "country": "UK",
+    "city": "",
+    "qsRanking": 9,
+    "courseName": "Hello Mr. Gaurav Katyal",
+    "duration": "36 Month(s)",
+    "tuitionFees": "GBP 26,950",
+    "applicationFee": "GBP 29",
+    "ieltsMin": 7,
+    "pteMin": 76,
+    "toeflMin": 100,
+    "intakeMonths": [
+      "Sep"
+    ],
+    "applicationDeadline": "Sep: ASAP",
+    "programUrl": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2025/comparative-literature-and-film/",
+    "entryRequirements": "As a minimum requirement, students who have taken Central Board/State Board examinations and achieved in the range of 65% to 75% will be considered for first year entry.",
+    "sourceUrl": "https://www.coursefinder.ai/SearchProgram/CourseDetail?uid=NzYxMjI=&year=2026",
+    "scrapedAt": "2026-05-23T16:54:08.575Z"
+  }
+]

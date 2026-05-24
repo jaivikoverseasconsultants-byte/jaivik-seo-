@@ -1,0 +1,367 @@
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+import { universities, getUniversityBySlug } from '@/data/universities';
+import LeadForm from '@/components/LeadForm';
+import JsonLd from '@/components/JsonLd';
+import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
+import { fetchUnsplashImage } from '@/lib/unsplash';
+
+const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
+const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
+const SalaryChart = dynamic(() => import('@/components/charts/SalaryChart'), { ssr: false });
+
+export async function generateStaticParams() {
+  return universities.map(u => ({ slug: u.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const u = getUniversityBySlug(slug);
+  if (!u) return {} as Metadata;
+  return buildMetadata({
+    title: `${u.name} | Fees, Rankings, Courses & Admissions 2025`,
+    description: `${u.name} (${u.shortName}) – QS Rank #${u.qsRanking}. Annual tuition ${formatUSD(u.annualTuitionUSD)} (${formatINR(u.annualTuitionINR)}). Visa approval rate ${u.visaApprovalRate}%. Intake: ${u.intakeMonths.join(', ')}. Get free admission guidance from Jaivik Overseas Consultants.`,
+    path: `/universities/${slug}`,
+    keywords: [u.name, u.shortName, u.country, 'university fees', 'study abroad', 'admissions 2025'],
+  });
+}
+
+export default async function UniversityPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const found = getUniversityBySlug(slug);
+  if (!found) notFound();
+  const u = found;
+
+  const campusImage = await fetchUnsplashImage(`${u.shortName} university campus`);
+
+  const salaryData = [
+    { country: u.country, avgSalaryUSD: u.avgSalaryUSD },
+  ];
+
+  const collegeSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollegeOrUniversity',
+    name: u.name,
+    url: `https://jaivikoverseasconsultants.com/universities/${u.slug}`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: u.city,
+      addressRegion: u.state,
+      addressCountry: u.countryCode,
+    },
+    foundingDate: String(u.establishedYear),
+    description: u.description,
+    numberOfStudents: u.totalStudents,
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What is the tuition fee at ${u.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Annual tuition at ${u.name} is ${formatUSD(u.annualTuitionUSD)} (approximately ${formatINR(u.annualTuitionINR)}) for international students.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the QS ranking of ${u.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${u.name} is ranked #${u.qsRanking} in the QS World University Rankings 2025.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the visa approval rate for ${u.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The student visa approval rate for ${u.country} is approximately ${u.visaApprovalRate}% for Indian students with strong academic profiles.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What intake does ${u.name} offer?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${u.name} offers intake in ${u.intakeMonths.join(' and ')} each year.`,
+        },
+      },
+    ],
+  };
+
+  return (
+    <>
+      <JsonLd data={collegeSchema} />
+      <JsonLd data={faqSchema} />
+
+      {/* Hero */}
+      <section className="relative text-white py-10 px-4 overflow-hidden">
+        {campusImage ? (
+          <>
+            <Image
+              src={campusImage.url}
+              alt={`${u.name} campus`}
+              fill
+              priority
+              className="object-cover"
+              sizes="100vw"
+            />
+            <div className="absolute inset-0 bg-brand-900/80" />
+            <a
+              href={campusImage.credit.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="absolute bottom-2 right-3 z-10 text-white/50 text-xs hover:text-white/80 transition-colors"
+            >
+              📸 {campusImage.credit.name} / Unsplash
+            </a>
+          </>
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-brand-700 to-brand-900" />
+        )}
+        <div className="relative z-10 max-w-7xl mx-auto">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-3">
+            <Link href="/" className="hover:text-white">Home</Link> /
+            <Link href="/universities" className="hover:text-white">Universities</Link> /
+            <span>{u.shortName}</span>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+            <div className="lg:col-span-2">
+              <div className="flex flex-wrap gap-2 mb-3">
+                <span className="badge bg-gold-500 text-white">QS #{u.qsRanking}</span>
+                <span className="badge bg-white/20 text-white">{u.country}</span>
+                <span className="badge bg-white/20 text-white">Est. {u.establishedYear}</span>
+              </div>
+              <h1 className="text-3xl md:text-4xl font-bold mb-2">{u.name}</h1>
+              <p className="text-blue-200 text-lg mb-4">{u.city}, {u.state}, {u.country}</p>
+              <p className="text-blue-100 leading-relaxed mb-5 max-w-2xl">{u.description}</p>
+              <div className="flex flex-wrap gap-2">
+                {u.highlights.map(h => (
+                  <span key={h} className="text-xs bg-white/10 text-white px-3 py-1.5 rounded-full">✓ {h}</span>
+                ))}
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl p-5">
+              <LeadForm source={`university-${u.slug}`} defaultCourse={u.popularCourses[0]} defaultCountry={u.country} compact />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Stats */}
+      <section className="bg-white border-b border-gray-100 py-8 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4">
+            <div className="stat-card col-span-1">
+              <p className="text-2xl font-bold text-brand-700">${(u.annualTuitionUSD / 1000).toFixed(0)}K</p>
+              <p className="text-xs text-gray-500 mt-1">Annual Tuition</p>
+              <p className="text-xs text-gray-400">{formatINR(u.annualTuitionINR)}</p>
+            </div>
+            <div className="stat-card">
+              <p className="text-2xl font-bold text-green-600">{u.visaApprovalRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Visa Success</p>
+            </div>
+            <div className="stat-card">
+              <p className="text-2xl font-bold text-brand-700">{u.acceptanceRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Acceptance Rate</p>
+            </div>
+            <div className="stat-card">
+              <p className="text-2xl font-bold text-purple-600">#{u.qsRanking}</p>
+              <p className="text-xs text-gray-500 mt-1">QS Ranking</p>
+            </div>
+            <div className="stat-card">
+              <p className="text-2xl font-bold text-orange-500">{u.employmentRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Employment Rate</p>
+            </div>
+            <div className="stat-card">
+              <p className="text-2xl font-bold text-brand-700">${(u.avgSalaryUSD / 1000).toFixed(0)}K</p>
+              <p className="text-xs text-gray-500 mt-1">Avg Grad Salary</p>
+            </div>
+            <div className="stat-card">
+              <p className="text-sm font-bold text-gray-800">{u.intakeMonths.join(', ')}</p>
+              <p className="text-xs text-gray-500 mt-1">Intake</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-10 px-4">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left: Main content */}
+          <div className="lg:col-span-2 space-y-8">
+
+            {/* Charts */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              <FeesChart data={u.feeHistory} />
+              <RankingChart data={u.rankingHistory} />
+            </div>
+
+            {/* Fees Breakdown */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Complete Cost Breakdown for Indian Students</h2>
+              <p className="text-gray-500 text-sm mb-5">Annual cost of studying at {u.shortName} (2025–26)</p>
+              <div className="space-y-3">
+                {[
+                  { label: 'Annual Tuition Fee', usd: u.annualTuitionUSD, inr: u.annualTuitionINR },
+                  { label: 'Living Cost (Accommodation + Food)', usd: u.livingCostUSD, inr: u.livingCostINR },
+                  { label: 'Application Fee (one-time)', usd: u.applicationFeeUSD, inr: u.applicationFeeUSD * 84 },
+                ].map(item => (
+                  <div key={item.label} className="flex items-center justify-between py-3 border-b border-gray-50">
+                    <span className="text-sm text-gray-700">{item.label}</span>
+                    <div className="text-right">
+                      <p className="font-semibold text-gray-900">{formatUSD(item.usd)}</p>
+                      <p className="text-xs text-gray-400">{formatINR(item.inr)}</p>
+                    </div>
+                  </div>
+                ))}
+                <div className="flex items-center justify-between py-3 bg-brand-50 rounded-xl px-3">
+                  <span className="text-sm font-bold text-brand-900">Total Annual Cost</span>
+                  <div className="text-right">
+                    <p className="font-bold text-brand-700">{formatUSD(u.annualTuitionUSD + u.livingCostUSD)}</p>
+                    <p className="text-xs text-brand-500">{formatINR(u.annualTuitionINR + u.livingCostINR)}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Requirements */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Admission Requirements</h2>
+              <p className="text-gray-500 text-sm mb-5">Minimum eligibility for Indian students at {u.shortName}</p>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                {[
+                  { label: 'IELTS Score', value: `${u.requirements.ieltsMin}+` },
+                  { label: 'TOEFL Score', value: `${u.requirements.toeflMin}+` },
+                  { label: 'GRE Score', value: u.requirements.greMin ? `${u.requirements.greMin}+` : 'Not required' },
+                  { label: 'GMAT Score', value: u.requirements.gmatMin ? `${u.requirements.gmatMin}+` : 'Not required' },
+                  { label: 'Min GPA (10pt)', value: `${u.requirements.gpaMin}/10` },
+                  { label: 'Backlogs Allowed', value: u.requirements.backlogs === 0 ? 'None (clean record)' : `Up to ${u.requirements.backlogs}` },
+                ].map(req => (
+                  <div key={req.label} className="bg-gray-50 rounded-xl p-4 text-center">
+                    <p className="text-lg font-bold text-brand-700">{req.value}</p>
+                    <p className="text-xs text-gray-500 mt-1">{req.label}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Popular Courses */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Popular Courses at {u.shortName} for Indian Students</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                {u.popularCourses.map(course => (
+                  <div key={course} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl">
+                    <div className="w-8 h-8 bg-brand-100 rounded-lg flex items-center justify-center text-brand-700 text-xs font-bold">
+                      {course.slice(0, 2)}
+                    </div>
+                    <span className="text-sm font-medium text-gray-800">{course}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Scholarships */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Scholarships for Indian Students</h2>
+              <div className="space-y-4 mt-4">
+                {u.scholarships.map(s => (
+                  <div key={s.name} className="p-4 border border-gold-200 bg-gold-50 rounded-xl">
+                    <div className="flex items-start justify-between gap-3">
+                      <div>
+                        <p className="font-semibold text-gray-900 text-sm">{s.name}</p>
+                        <p className="text-xs text-gray-500 mt-1">{s.eligibility}</p>
+                      </div>
+                      <span className="text-gold-700 font-bold text-sm whitespace-nowrap">{s.amount}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Top Employers */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Top Employers of {u.shortName} Graduates</h2>
+              <div className="flex flex-wrap gap-3 mt-4">
+                {u.topEmployers.map(emp => (
+                  <span key={emp} className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm font-medium">{emp}</span>
+                ))}
+              </div>
+            </div>
+
+            {/* FAQ */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Frequently Asked Questions</h2>
+              <div className="space-y-5 mt-4">
+                {[
+                  {
+                    q: `What is the tuition fee at ${u.name}?`,
+                    a: `Annual tuition at ${u.name} is ${formatUSD(u.annualTuitionUSD)} (approximately ${formatINR(u.annualTuitionINR)}) for international students in 2025–26. This does not include living expenses of approximately ${formatUSD(u.livingCostUSD)}/year.`,
+                  },
+                  {
+                    q: `What is the acceptance rate at ${u.shortName}?`,
+                    a: `${u.name} has an acceptance rate of approximately ${u.acceptanceRate}% for international students. Indian students with strong GRE/GMAT scores and GPA above ${u.requirements.gpaMin}/10 have a higher chance of admission.`,
+                  },
+                  {
+                    q: `What are the IELTS requirements for ${u.shortName}?`,
+                    a: `${u.name} requires a minimum IELTS score of ${u.requirements.ieltsMin} overall. TOEFL iBT minimum is ${u.requirements.toeflMin}.`,
+                  },
+                  {
+                    q: `When is the application deadline for ${u.shortName}?`,
+                    a: `${u.name} has intake in ${u.intakeMonths.join(' and ')}. Application deadlines are typically 3–6 months before the intake. Contact Jaivik Overseas Consultants for exact deadlines and application support.`,
+                  },
+                ].map((faq) => (
+                  <div key={faq.q} className="border-b border-gray-50 pb-4">
+                    <p className="font-semibold text-gray-900 text-sm mb-1">Q: {faq.q}</p>
+                    <p className="text-gray-600 text-sm leading-relaxed">{faq.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Right: Sidebar */}
+          <div className="space-y-6">
+            <div className="sticky top-20">
+              <LeadForm source={`university-${u.slug}-sidebar`} defaultCourse={u.popularCourses[0]} defaultCountry={u.country} />
+
+              <div className="mt-5 bg-brand-50 rounded-2xl p-5 border border-brand-100">
+                <h3 className="font-semibold text-brand-900 mb-3 text-sm">Quick Facts</h3>
+                <div className="space-y-2 text-sm">
+                  {[
+                    { label: 'Founded', value: u.establishedYear },
+                    { label: 'Total Students', value: u.totalStudents.toLocaleString() },
+                    { label: 'International %', value: `${u.internationalStudentPercent}%` },
+                    { label: 'Campus Type', value: u.campusType },
+                    { label: 'Avg Salary (Grad)', value: formatUSD(u.avgSalaryUSD) },
+                  ].map(f => (
+                    <div key={f.label} className="flex justify-between">
+                      <span className="text-gray-600">{f.label}</span>
+                      <span className="font-medium text-gray-900">{f.value}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Salary Chart full width */}
+      <section className="bg-white py-8 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="section-title mb-5">Average Graduate Salary After {u.shortName}</h2>
+          <div className="max-w-xl">
+            <SalaryChart data={salaryData} title={`Avg Grad Salary in ${u.country}`} />
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
