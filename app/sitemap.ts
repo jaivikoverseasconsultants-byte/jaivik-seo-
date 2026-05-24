@@ -61,6 +61,63 @@ try { demontfortCourses = require('@/data/demontfort-courses').demontfortCourses
 try { nottinghamtrentCourses = require('@/data/nottinghamtrent-courses').nottinghamtrentCourses as any[]; } catch {}
 try { westlondonCourses = require('@/data/westlondon-courses').westlondonCourses as any[]; } catch {}
 
+// CA university/college course imports
+let windsorCourses: any[] = [];
+let trentCourses: any[] = [];
+let conestogaCourses: any[] = [];
+let humberCourses: any[] = [];
+let sheridanCourses: any[] = [];
+let georgeBrownCourses: any[] = [];
+let algonquinCourses: any[] = [];
+let mohawkCourses: any[] = [];
+let truCourses: any[] = [];
+let unbcCourses: any[] = [];
+let capilanoCourses: any[] = [];
+let saitCourses: any[] = [];
+let concordiaEdmontonCourses: any[] = [];
+let acadiaCourses: any[] = [];
+let cbuCourses: any[] = [];
+let urCourses: any[] = [];
+let saskPolyCourses: any[] = [];
+
+try { windsorCourses = require('@/data/windsor-courses').windsorCourses as any[]; } catch {}
+try { trentCourses = require('@/data/trent-courses').trentCourses as any[]; } catch {}
+try { conestogaCourses = require('@/data/conestoga-courses').conestogaCourses as any[]; } catch {}
+try { humberCourses = require('@/data/humber-courses').humberCourses as any[]; } catch {}
+try { sheridanCourses = require('@/data/sheridan-courses').sheridanCourses as any[]; } catch {}
+try { georgeBrownCourses = require('@/data/george-brown-courses').george_brownCourses as any[]; } catch {}
+try { algonquinCourses = require('@/data/algonquin-courses').algonquinCourses as any[]; } catch {}
+try { mohawkCourses = require('@/data/mohawk-courses').mohawkCourses as any[]; } catch {}
+try { truCourses = require('@/data/tru-courses').truCourses as any[]; } catch {}
+try { unbcCourses = require('@/data/unbc-courses').unbcCourses as any[]; } catch {}
+try { capilanoCourses = require('@/data/capilano-courses').capilanoCourses as any[]; } catch {}
+try { saitCourses = require('@/data/sait-courses').saitCourses as any[]; } catch {}
+try { concordiaEdmontonCourses = require('@/data/concordia-edmonton-courses').concordia_edmontonCourses as any[]; } catch {}
+try { acadiaCourses = require('@/data/acadia-courses').acadiaCourses as any[]; } catch {}
+try { cbuCourses = require('@/data/cbu-courses').cbuCourses as any[]; } catch {}
+try { urCourses = require('@/data/ur-courses').urCourses as any[]; } catch {}
+try { saskPolyCourses = require('@/data/sask-poly-courses').sask_polyCourses as any[]; } catch {}
+
+const CA_UNI_COURSES: Array<{ slug: string; courses: any[] }> = [
+  { slug: 'university-of-windsor',         courses: windsorCourses },
+  { slug: 'trent-university',              courses: trentCourses },
+  { slug: 'conestoga-college',             courses: conestogaCourses },
+  { slug: 'humber-college',               courses: humberCourses },
+  { slug: 'sheridan-college',              courses: sheridanCourses },
+  { slug: 'george-brown-college',         courses: georgeBrownCourses },
+  { slug: 'algonquin-college',            courses: algonquinCourses },
+  { slug: 'mohawk-college',               courses: mohawkCourses },
+  { slug: 'thompson-rivers-university',   courses: truCourses },
+  { slug: 'university-of-northern-bc',    courses: unbcCourses },
+  { slug: 'capilano-university',          courses: capilanoCourses },
+  { slug: 'sait',                         courses: saitCourses },
+  { slug: 'concordia-university-edmonton', courses: concordiaEdmontonCourses },
+  { slug: 'acadia-university',            courses: acadiaCourses },
+  { slug: 'cape-breton-university',       courses: cbuCourses },
+  { slug: 'university-of-regina',         courses: urCourses },
+  { slug: 'saskatchewan-polytechnic',     courses: saskPolyCourses },
+];
+
 const UK_UNI_COURSES: Array<{ slug: string; courses: any[] }> = [
   { slug: 'university-of-manchester',    courses: manchesterCourses },
   { slug: 'university-of-birmingham',    courses: birminghamCourses },
@@ -155,6 +212,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  // CA university/college course index pages
+  const caCourseIndexPages = CA_UNI_COURSES
+    .filter(u => u.courses.length > 0)
+    .map(u => ({
+      url: `${BASE}/universities/${u.slug}/courses`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }));
+
+  // CA individual course detail pages
+  const caCourseDetailPages = CA_UNI_COURSES.flatMap(u =>
+    u.courses.map((c: any) => ({
+      url: `${BASE}/universities/${u.slug}/courses/${c.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
+
   // UK university course index pages
   const ukCourseIndexPages = UK_UNI_COURSES
     .filter(u => u.courses.length > 0)
@@ -183,6 +260,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryPages,
     ...auCourseIndexPages,
     ...auCourseDetailPages,
+    ...caCourseIndexPages,
+    ...caCourseDetailPages,
     ...ukCourseIndexPages,
     ...ukCourseDetailPages,
   ];

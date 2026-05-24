@@ -157,7 +157,7 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
           <div>
             <h2 className="section-title mb-4">Top Universities in {country} for Indian Students</h2>
             <div className="space-y-4">
-              {unis.sort((a, b) => a.qsRanking - b.qsRanking).map((u, i) => (
+              {unis.sort((a, b) => (a.qsRanking ?? 9999) - (b.qsRanking ?? 9999)).map((u, i) => (
                 <div key={u.id} className="bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all">
                   <div className="flex items-start gap-4">
                     <div className="w-8 h-8 bg-brand-50 rounded-full flex items-center justify-center text-brand-700 font-bold text-sm flex-shrink-0 mt-0.5">

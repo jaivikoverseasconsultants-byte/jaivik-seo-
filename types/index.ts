@@ -21,7 +21,7 @@ export interface University {
   country: string;
   state: string;
   city: string;
-  qsRanking: number;
+  qsRanking?: number;
   theRanking?: number;
   annualTuitionUSD: number;
   annualTuitionINR: number;
