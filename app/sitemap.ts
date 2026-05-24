@@ -77,7 +77,7 @@ const UK_UNI_COURSES: Array<{ slug: string; courses: any[] }> = [
   { slug: 'university-of-west-london',   courses: westlondonCourses },
 ];
 
-const BASE = 'https://jaivikoverseasconsultants.com';
+const BASE = 'https://study.jaivikoverseasconsultants.com';
 
 const AU_UNI_COURSES: Array<{ slug: string; courses: any[] }> = [
   { slug: 'uts-sydney',                  courses: utsCourses as any[] },
