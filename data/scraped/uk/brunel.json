@@ -1,0 +1,733 @@
+[
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "brunel-beng-mechanical-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "brunel-beng-civil-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electronic and Electrical Engineering",
+    "level": "Undergraduate",
+    "slug": "brunel-beng-electronic-and-electrical-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Chemical Engineering",
+    "level": "Undergraduate",
+    "slug": "brunel-beng-chemical-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Aerospace Engineering",
+    "level": "Undergraduate",
+    "slug": "brunel-beng-aerospace-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Computer Science",
+    "level": "Undergraduate",
+    "slug": "brunel-beng-computer-science",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "brunel-meng-mechanical-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 76000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Civil Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "brunel-meng-civil-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 76000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Mechanical Engineering",
+    "level": "Masters",
+    "slug": "brunel-msc-advanced-mechanical-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Engineering Management",
+    "level": "Masters",
+    "slug": "brunel-msc-advanced-engineering-management",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Structural Engineering with Management",
+    "level": "Masters",
+    "slug": "brunel-msc-structural-engineering-with-management",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Electronic and Electrical Engineering",
+    "level": "Masters",
+    "slug": "brunel-msc-electronic-and-electrical-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Aerospace Engineering",
+    "level": "Masters",
+    "slug": "brunel-msc-aerospace-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business and Management",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-business-and-management",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-accounting-and-finance",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Economics and Finance",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-economics-and-finance",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Accounting",
+    "level": "Masters",
+    "slug": "brunel-msc-finance-and-accounting",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business",
+    "level": "Masters",
+    "slug": "brunel-msc-international-business",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing Management",
+    "level": "Masters",
+    "slug": "brunel-msc-marketing-management",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "brunel-mba-master-of-business-administration",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 24000,
+    "annualUSD": 30480,
+    "totalGBP": 24000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-computer-science",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cyber Security",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-cyber-security",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science and Analytics",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-data-science-and-analytics",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "brunel-msc-computer-science",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "brunel-msc-artificial-intelligence",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "brunel-msc-cybersecurity",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science and Analytics",
+    "level": "Masters",
+    "slug": "brunel-msc-data-science-and-analytics",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Design",
+    "level": "Undergraduate",
+    "slug": "brunel-ba-design",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Industrial Design and Technology",
+    "level": "Undergraduate",
+    "slug": "brunel-ba-industrial-design-and-technology",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Design Strategy and Innovation",
+    "level": "Masters",
+    "slug": "brunel-ma-design-strategy-and-innovation",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Digital Media",
+    "level": "Masters",
+    "slug": "brunel-ma-digital-media",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-nursing",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-biomedical-sciences",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Clinical Practice",
+    "level": "Masters",
+    "slug": "brunel-msc-advanced-clinical-practice",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "brunel-msc-public-health",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "brunel-llb-law",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "brunel-llm-international-law",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-psychology",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "brunel-msc-psychology",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 20000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Sport Sciences",
+    "level": "Undergraduate",
+    "slug": "brunel-bsc-sport-sciences",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "brunel-phd-engineering",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "brunel-phd-computer-science",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "brunel-phd-business",
+    "url": "https://www.brunel.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Uxbridge Campus",
+    "currency": "GBP"
+  }
+]

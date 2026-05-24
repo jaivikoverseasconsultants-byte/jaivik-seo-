@@ -1,0 +1,5221 @@
+[
+  {
+    "name": "Benefits of postgraduate study",
+    "slug": "aru-benefits-of-postgraduate-study",
+    "url": "https://www.aru.ac.uk/study/postgraduate/benefits-of-postgraduate-study",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Postgraduate subject areas",
+    "slug": "aru-subject-areas",
+    "url": "https://www.aru.ac.uk/study/postgraduate/subject-areas",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Undergraduate subject areas",
+    "slug": "aru-subject-areas",
+    "url": "https://www.aru.ac.uk/study/undergraduate/subject-areas",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clearing",
+    "slug": "aru-clearing",
+    "url": "https://www.aru.ac.uk/study/undergraduate/clearing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation years",
+    "slug": "aru-foundation-years",
+    "url": "https://www.aru.ac.uk/study/undergraduate/foundation-years",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applicant Days at ARU",
+    "slug": "aru-applicants",
+    "url": "https://www.aru.ac.uk/study/undergraduate/applicants",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Artificial Intelligence",
+    "slug": "aru-applied-artificial-intelligence",
+    "url": "https://www.aru.ac.uk/study/postgraduate/applied-artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "slug": "aru-artificial-intelligence",
+    "url": "https://www.aru.ac.uk/study/postgraduate/artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Embedded Computing on Arm",
+    "slug": "aru-embedded-computing-on-arm",
+    "url": "https://www.aru.ac.uk/study/postgraduate/embedded-computing-on-arm",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Embedded Computing and Machine Learning",
+    "slug": "aru-embedded-computing-and-machine-learning",
+    "url": "https://www.aru.ac.uk/study/postgraduate/embedded-computing-and-machine-learning",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Engineering and the Built Environment MPhil, PhD",
+    "slug": "aru-built-environment",
+    "url": "https://www.aru.ac.uk/study/postgraduate/built-environment",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business & Artificial Intelligence",
+    "slug": "aru-international-business-and-artificial-intelligence",
+    "url": "https://www.aru.ac.uk/study/undergraduate/international-business-and-artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Theology MPhil, PhD",
+    "slug": "aru-theology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/theology",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Allied Health and Social Care MPhil, PhD",
+    "slug": "aru-school-of-allied-health",
+    "url": "https://www.aru.ac.uk/study/postgraduate/school-of-allied-health",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business PhD - School of Economics, Finance and Law MPhil, PhD",
+    "slug": "aru-business-economics-finance-and-law",
+    "url": "https://www.aru.ac.uk/study/postgraduate/business-economics-finance-and-law",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Film Studies and Media Studies MPhil, PhD",
+    "slug": "aru-film-studies-and-media-studies",
+    "url": "https://www.aru.ac.uk/study/postgraduate/film-studies-and-media-studies",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Doctorate in Science and Engineering DProf",
+    "slug": "aru-professional-doctorate-in-science-and-technology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/professional-doctorate-in-science-and-technology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biology MPhil, PhD",
+    "slug": "aru-animal-and-environmental-sciences",
+    "url": "https://www.aru.ac.uk/study/postgraduate/animal-and-environmental-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Doctorate in Health and Social Care DProf",
+    "slug": "aru-professional-doctorate-in-health-and-social-care",
+    "url": "https://www.aru.ac.uk/study/postgraduate/professional-doctorate-in-health-and-social-care",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Optometry and Vision Sciences MPhil, PhD",
+    "slug": "aru-optometry-and-vision-sciences",
+    "url": "https://www.aru.ac.uk/study/postgraduate/optometry-and-vision-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "School of Education MPhil, PhD",
+    "slug": "aru-school-of-education",
+    "url": "https://www.aru.ac.uk/study/postgraduate/school-of-education",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Midwifery and Community Health MPhil, PhD",
+    "slug": "aru-midwifery-and-community-health",
+    "url": "https://www.aru.ac.uk/study/postgraduate/midwifery-and-community-health",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Writtle School of Agriculture, Animal and Environmental Sciences MPhil, PhD",
+    "slug": "aru-writtle-school-of-agriculture-animal-and-environmental-sciences",
+    "url": "https://www.aru.ac.uk/study/postgraduate/writtle-school-of-agriculture-animal-and-environmental-sciences",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business PhD - School of Management MPhil, PhD",
+    "slug": "aru-business-and-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/business-and-management",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Doctorate in Education EdD",
+    "slug": "aru-professional-doctorate-in-education",
+    "url": "https://www.aru.ac.uk/study/postgraduate/professional-doctorate-in-education",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology MPhil, PhD",
+    "slug": "aru-psychology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/psychology",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Doctorate in Practical Theology DProf",
+    "slug": "aru-professional-doctorate-in-practical-theology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/professional-doctorate-in-practical-theology",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Doctorate in Business and Management DBA",
+    "slug": "aru-professional-doctorate-in-business-and-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/professional-doctorate-in-business-and-management",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing MPhil, PhD",
+    "slug": "aru-school-of-nursing-and-midwifery",
+    "url": "https://www.aru.ac.uk/study/postgraduate/school-of-nursing-and-midwifery",
+    "level": "PhD",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Information and Communication Technology (Conversion)",
+    "slug": "aru-information-and-communication-technology-conversion",
+    "url": "https://www.aru.ac.uk/study/postgraduate/information-and-communication-technology-conversion",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Master of Business Administration MBA - International",
+    "slug": "aru-master-of-business-administration-international",
+    "url": "https://www.aru.ac.uk/study/postgraduate/master-of-business-administration-international",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Master of Public Health",
+    "slug": "aru-master-of-public-health-london",
+    "url": "https://www.aru.ac.uk/study/postgraduate/master-of-public-health-london",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Master of Business Administration MBA - Health and Social Care",
+    "slug": "aru-master-of-business-administration-health-and-social-care",
+    "url": "https://www.aru.ac.uk/study/postgraduate/master-of-business-administration-health-and-social-care",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Law",
+    "slug": "aru-international-law-london",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-law-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Project Management",
+    "slug": "aru-international-project-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-project-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Hospitality and Tourism Management",
+    "slug": "aru-international-hospitality-and-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-hospitality-and-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Christian Spirituality East and West",
+    "slug": "aru-christian-spirituality-east-and-west",
+    "url": "https://www.aru.ac.uk/study/postgraduate/christian-spirituality-east-and-west",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Marketing",
+    "slug": "aru-international-marketing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-marketing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Chaplaincy and Pastoral Care",
+    "slug": "aru-chaplaincy-and-pastoral-care",
+    "url": "https://www.aru.ac.uk/study/postgraduate/chaplaincy-and-pastoral-care",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Christian Theology and the Contemporary World",
+    "slug": "aru-christian-theology-in-the-contemporary-world",
+    "url": "https://www.aru.ac.uk/study/postgraduate/christian-theology-in-the-contemporary-world",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Relations",
+    "slug": "aru-international-relations",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-relations",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Children's Book Illustration",
+    "slug": "aru-childrens-book-illustration",
+    "url": "https://www.aru.ac.uk/study/postgraduate/childrens-book-illustration",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Development",
+    "slug": "aru-international-development",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-development",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Social Welfare and Social Policy",
+    "slug": "aru-international-social-welfare-and-social-policy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-social-welfare-and-social-policy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graphic Design",
+    "slug": "aru-graphic-design",
+    "url": "https://www.aru.ac.uk/study/postgraduate/graphic-design",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology, Digital Marketing and Business",
+    "slug": "aru-psychology-digital-marketing-and-business",
+    "url": "https://www.aru.ac.uk/study/postgraduate/psychology-digital-marketing-and-business",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Film and Television Production",
+    "slug": "aru-film-and-television-production",
+    "url": "https://www.aru.ac.uk/study/postgraduate/film-and-television-production",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Games Development (Programming)",
+    "slug": "aru-computer-games-development-computing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-computing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Games Development (Art)",
+    "slug": "aru-computer-games-development-art",
+    "url": "https://www.aru.ac.uk/study/postgraduate/computer-games-development-art",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Intercultural Communication",
+    "slug": "aru-intercultural-communication",
+    "url": "https://www.aru.ac.uk/study/postgraduate/intercultural-communication",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sociology",
+    "slug": "aru-sociology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/sociology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Educational Leadership and Management MBA",
+    "slug": "aru-educational-leadership-and-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/educational-leadership-and-management",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Dramatherapy",
+    "slug": "aru-dramatherapy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/dramatherapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Learning and Teaching in Higher Education (non FHEA)",
+    "slug": "aru-learning-and-teaching-higher-education",
+    "url": "https://www.aru.ac.uk/study/postgraduate/learning-and-teaching-higher-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Social Work Practice – Step Up to Social Work",
+    "slug": "aru-professional-social-work-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/professional-social-work-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Postgraduate Certificate in Education (PGCE) without QTS",
+    "slug": "aru-pgce",
+    "url": "https://www.aru.ac.uk/study/postgraduate/pgce",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 7000,
+    "annualUSD": 8890,
+    "totalGBP": 3500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology",
+    "slug": "aru-criminology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/criminology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cyber Security",
+    "slug": "aru-cyber-security",
+    "url": "https://www.aru.ac.uk/study/postgraduate/cyber-security",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education",
+    "slug": "aru-education-pgdip",
+    "url": "https://www.aru.ac.uk/study/postgraduate/education-pgdip",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature",
+    "slug": "aru-english-literature",
+    "url": "https://www.aru.ac.uk/study/postgraduate/english-literature",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology (Conversion)",
+    "slug": "aru-psychology-msc",
+    "url": "https://www.aru.ac.uk/study/postgraduate/psychology-msc",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative Writing and Publishing",
+    "slug": "aru-creative-writing-and-publishing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/creative-writing-and-publishing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clinical Child Psychology",
+    "slug": "aru-clinical-child-psychology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/clinical-child-psychology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Art, Health and Wellbeing",
+    "slug": "aru-art-health-and-wellbeing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/art-health-and-wellbeing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Illustration",
+    "slug": "aru-illustration",
+    "url": "https://www.aru.ac.uk/study/postgraduate/illustration",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative Writing",
+    "slug": "aru-creative-writing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/creative-writing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science",
+    "slug": "aru-computer-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/computer-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fine Art",
+    "slug": "aru-fine-art",
+    "url": "https://www.aru.ac.uk/study/postgraduate/fine-art",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Public Health and Community Wellbeing",
+    "slug": "aru-public-health-and-community-wellbeing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/public-health-and-community-wellbeing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Public Health",
+    "slug": "aru-global-public-health",
+    "url": "https://www.aru.ac.uk/study/postgraduate/global-public-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Linguistics and TESOL",
+    "slug": "aru-applied-linguistics-and-tesol",
+    "url": "https://www.aru.ac.uk/study/postgraduate/applied-linguistics-and-tesol",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Financial Management",
+    "slug": "aru-accounting-and-financial-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-financial-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Contemporary Ethics",
+    "slug": "aru-contemporary-ethics",
+    "url": "https://www.aru.ac.uk/study/postgraduate/contemporary-ethics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Music Therapy",
+    "slug": "aru-music-therapy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/music-therapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History",
+    "slug": "aru-history",
+    "url": "https://www.aru.ac.uk/study/postgraduate/history",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cognitive and Clinical Neuroscience",
+    "slug": "aru-cognitive-and-clinical-neuroscience",
+    "url": "https://www.aru.ac.uk/study/postgraduate/cognitive-and-clinical-neuroscience",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Data Science (Conversion)",
+    "slug": "aru-applied-data-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/applied-data-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Marketing",
+    "slug": "aru-marketing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/marketing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "FinTech and Data Analytics MBA",
+    "slug": "aru-fintech-and-data-analytics",
+    "url": "https://www.aru.ac.uk/study/postgraduate/fintech-and-data-analytics",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance and Financial Technologies",
+    "slug": "aru-finance-and-financial-technologies",
+    "url": "https://www.aru.ac.uk/study/postgraduate/finance-and-financial-technologies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Child and Adolescent Mental Wellbeing",
+    "slug": "aru-child-and-adolescent-mental-wellbeing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/child-and-adolescent-mental-wellbeing",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Human Resource Management",
+    "slug": "aru-human-resource-management-ma",
+    "url": "https://www.aru.ac.uk/study/postgraduate/human-resource-management-ma",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Master of Business Administration MBA",
+    "slug": "aru-master-of-business-administration-mba",
+    "url": "https://www.aru.ac.uk/study/postgraduate/master-of-business-administration-mba",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "SQE Professional Legal Practice",
+    "slug": "aru-sqe-professional-legal-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/sqe-professional-legal-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business and Commercial Law",
+    "slug": "aru-international-business-and-commercial-law",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business-and-commercial-law",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Practice",
+    "slug": "aru-advanced-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/advanced-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clinical Nursing",
+    "slug": "aru-clinical-nursing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/clinical-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Critical Care Practitioner",
+    "slug": "aru-advanced-critical-care-practitioner",
+    "url": "https://www.aru.ac.uk/study/postgraduate/advanced-critical-care-practitioner",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Entrepreneurship MBA",
+    "slug": "aru-entrepreneurship",
+    "url": "https://www.aru.ac.uk/study/postgraduate/entrepreneurship",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Banking and Finance",
+    "slug": "aru-banking-and-finance-mba",
+    "url": "https://www.aru.ac.uk/study/postgraduate/banking-and-finance-mba",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Brand Management",
+    "slug": "aru-brand-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/brand-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Higher Midwifery Practice",
+    "slug": "aru-higher-midwifery-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/higher-midwifery-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Social Work",
+    "slug": "aru-social-work",
+    "url": "https://www.aru.ac.uk/study/postgraduate/social-work",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Physician Associate",
+    "slug": "aru-physician-associate",
+    "url": "https://www.aru.ac.uk/study/postgraduate/physician-associate",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Critical Care",
+    "slug": "aru-critical-care",
+    "url": "https://www.aru.ac.uk/study/postgraduate/critical-care",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Surgical Care Practice",
+    "slug": "aru-surgical-care-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/surgical-care-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Physiotherapy (Pre-Reg)",
+    "slug": "aru-physiotherapy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/physiotherapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Practice Educator (Social Work)",
+    "slug": "aru-practice-educator-social-work",
+    "url": "https://www.aru.ac.uk/study/postgraduate/practice-educator-social-work",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Occupational Therapy (Pre-Reg)",
+    "slug": "aru-occupational-therapy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/occupational-therapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Professional Practice",
+    "slug": "aru-applied-professional-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/applied-professional-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mental Health",
+    "slug": "aru-mental-health",
+    "url": "https://www.aru.ac.uk/study/postgraduate/mental-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Robotic Surgery (Simulation)",
+    "slug": "aru-robotic-surgery-simulation",
+    "url": "https://www.aru.ac.uk/study/postgraduate/robotic-surgery-simulation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Core Concepts in Robotic Surgery",
+    "slug": "aru-core-concepts-in-robotic-surgery",
+    "url": "https://www.aru.ac.uk/study/postgraduate/core-concepts-in-robotic-surgery",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Finance",
+    "slug": "aru-accounting-and-finance",
+    "url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-finance",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Design Innovation",
+    "slug": "aru-interior-design-innovation",
+    "url": "https://www.aru.ac.uk/study/postgraduate/interior-design-innovation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Human-Centred Design",
+    "slug": "aru-human-centred-design",
+    "url": "https://www.aru.ac.uk/study/postgraduate/human-centred-design",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animal Welfare and Conservation",
+    "slug": "aru-animal-welfare-and-conservation",
+    "url": "https://www.aru.ac.uk/study/postgraduate/animal-welfare-and-conservation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Crop Production",
+    "slug": "aru-crop-production",
+    "url": "https://www.aru.ac.uk/study/postgraduate/crop-production",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Agribusiness MBA",
+    "slug": "aru-agribusiness",
+    "url": "https://www.aru.ac.uk/study/postgraduate/agribusiness",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Conservation Education and Engagement",
+    "slug": "aru-conservation-education-and-engagement",
+    "url": "https://www.aru.ac.uk/study/postgraduate/conservation-education-and-engagement",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electronic and Electrical Engineering",
+    "slug": "aru-electronic-and-electrical-engineering",
+    "url": "https://www.aru.ac.uk/study/postgraduate/electronic-and-electrical-engineering",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Town Planning",
+    "slug": "aru-town-planning",
+    "url": "https://www.aru.ac.uk/study/postgraduate/town-planning",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animal Behaviour Applications for Conservation",
+    "slug": "aru-animal-behaviour-applications-for-conservation",
+    "url": "https://www.aru.ac.uk/study/postgraduate/animal-behaviour-applications-for-conservation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Wildlife Conservation",
+    "slug": "aru-applied-wildlife-conservation",
+    "url": "https://www.aru.ac.uk/study/postgraduate/applied-wildlife-conservation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Architecture",
+    "slug": "aru-architecture",
+    "url": "https://www.aru.ac.uk/study/postgraduate/architecture",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Veterinary Physiotherapy",
+    "slug": "aru-veterinary-physiotherapy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/veterinary-physiotherapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Equine Performance Science",
+    "slug": "aru-equine-performance-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/equine-performance-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Engineering Management",
+    "slug": "aru-engineering-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/engineering-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "slug": "aru-mechanical-engineering-old",
+    "url": "https://www.aru.ac.uk/study/postgraduate/mechanical-engineering-old",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sustainability",
+    "slug": "aru-sustainability",
+    "url": "https://www.aru.ac.uk/study/postgraduate/sustainability",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Pharmaceutical Science",
+    "slug": "aru-pharmaceutical-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/pharmaceutical-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Bioscience",
+    "slug": "aru-applied-bioscience",
+    "url": "https://www.aru.ac.uk/study/postgraduate/applied-bioscience",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Science",
+    "slug": "aru-forensic-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/forensic-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science",
+    "slug": "aru-biomedical-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/biomedical-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biotechnology",
+    "slug": "aru-biotechnology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/biotechnology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Biomedical Science",
+    "slug": "aru-advanced-biomedical-science",
+    "url": "https://www.aru.ac.uk/study/postgraduate/advanced-biomedical-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Molecular Microbiology",
+    "slug": "aru-molecular-microbiology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/molecular-microbiology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Automation and Robotics",
+    "slug": "aru-automation-and-robotics",
+    "url": "https://www.aru.ac.uk/study/postgraduate/automation-and-robotics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business",
+    "slug": "aru-international-business",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Logistics and Supply Chain Management",
+    "slug": "aru-supply-chain-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/supply-chain-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business with Business Analytics",
+    "slug": "aru-international-business-with-business-analytics",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business-with-business-analytics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business with Innovation and Technology Management",
+    "slug": "aru-international-business-with-innovation-and-technology-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business-with-innovation-and-technology-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business with Economics",
+    "slug": "aru-international-business-with-economics",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business-with-economics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business with Sustainability",
+    "slug": "aru-international-business-with-sustainability",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business-with-sustainability",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sustainable Supply Chain Management",
+    "slug": "aru-sustainable-supply-chain-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/sustainable-supply-chain-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Healthcare Leadership and Management",
+    "slug": "aru-healthcare-leadership-and-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/healthcare-leadership-and-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Data Analytics",
+    "slug": "aru-business-data-analytics",
+    "url": "https://www.aru.ac.uk/study/postgraduate/business-data-analytics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Public Health Promotion",
+    "slug": "aru-public-health-promotion",
+    "url": "https://www.aru.ac.uk/study/postgraduate/public-health-promotion",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management",
+    "slug": "aru-international-business-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-business-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Postgraduate Diploma Nursing (Mental Health)",
+    "slug": "aru-postgraduate-diploma-nursing-mental-health",
+    "url": "https://www.aru.ac.uk/study/postgraduate/postgraduate-diploma-nursing-mental-health",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Postgraduate Diploma Nursing (Adult)",
+    "slug": "aru-postgraduate-diploma-nursing-adult",
+    "url": "https://www.aru.ac.uk/study/postgraduate/postgraduate-diploma-nursing-adult",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Postgraduate Diploma Nursing (Children)",
+    "slug": "aru-postgraduate-diploma-nursing-children",
+    "url": "https://www.aru.ac.uk/study/postgraduate/postgraduate-diploma-nursing-children",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Healthcare Management MBA",
+    "slug": "aru-healthcare-management-mba",
+    "url": "https://www.aru.ac.uk/study/postgraduate/healthcare-management-mba",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Project Management",
+    "slug": "aru-construction-project-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/construction-project-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction and Civil Engineering Management",
+    "slug": "aru-construction-and-civil-engineering-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/construction-and-civil-engineering-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Urology",
+    "slug": "aru-urology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/urology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Medical and Healthcare Education",
+    "slug": "aru-medical-and-healthcare-education",
+    "url": "https://www.aru.ac.uk/study/postgraduate/medical-and-healthcare-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Simulation in Medical and Healthcare Education",
+    "slug": "aru-simulation-in-medical-and-health",
+    "url": "https://www.aru.ac.uk/study/postgraduate/simulation-in-medical-and-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Human Anatomy",
+    "slug": "aru-human-anatomy",
+    "url": "https://www.aru.ac.uk/study/postgraduate/human-anatomy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clinical Applications of Psychology",
+    "slug": "aru-clinical-applications-of-psychology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/clinical-applications-of-psychology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (District Nursing)",
+    "slug": "aru-community-specialist-practitioner-district-nursing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/community-specialist-practitioner-district-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Specialist Community Public Health Nursing (Health Visiting or School Nursing)",
+    "slug": "aru-specialist-community-public-health-nursing-health-visiting-or-school-nursing",
+    "url": "https://www.aru.ac.uk/study/postgraduate/specialist-community-public-health-nursing-health-visiting-or-school-nursing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Human Rights and Criminal Justice",
+    "slug": "aru-international-human-rights-and-criminal-justice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/international-human-rights-and-criminal-justice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with International Business",
+    "slug": "aru-law-with-international-business",
+    "url": "https://www.aru.ac.uk/study/postgraduate/law-with-international-business",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law, Technology and Artificial Intelligence",
+    "slug": "aru-law-technology-and-artificial-intelligence",
+    "url": "https://www.aru.ac.uk/study/postgraduate/law-technology-and-artificial-intelligence",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Environmental Justice and Sustainability",
+    "slug": "aru-environmental-justice-and-sustainability",
+    "url": "https://www.aru.ac.uk/study/postgraduate/environmental-justice-and-sustainability",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Marketing MBA",
+    "slug": "aru-digital-marketing-mba",
+    "url": "https://www.aru.ac.uk/study/postgraduate/digital-marketing-mba",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Project Management with Artificial Intelligence MBA",
+    "slug": "aru-project-management-with-artificial-intelligence",
+    "url": "https://www.aru.ac.uk/study/postgraduate/project-management-with-artificial-intelligence",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport and Exercise Psychology",
+    "slug": "aru-sport-and-exercise-psychology",
+    "url": "https://www.aru.ac.uk/study/postgraduate/sport-and-exercise-psychology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Policing Practice",
+    "slug": "aru-advanced-policing-practice",
+    "url": "https://www.aru.ac.uk/study/postgraduate/advanced-policing-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Continuing Healthcare",
+    "slug": "aru-continuing-healthcare",
+    "url": "https://www.aru.ac.uk/study/postgraduate/continuing-healthcare",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Healthcare Management",
+    "slug": "aru-healthcare-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/healthcare-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Project Management",
+    "slug": "aru-project-management",
+    "url": "https://www.aru.ac.uk/study/postgraduate/project-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History and English",
+    "slug": "aru-history-and-sociology-west-anglia",
+    "url": "https://www.aru.ac.uk/study/undergraduate/history-and-sociology-west-anglia",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Law",
+    "slug": "aru-business-and-law-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-and-law-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Counselling and Psychotherapy (Top-Up)",
+    "slug": "aru-counselling-and-psychotherapy",
+    "url": "https://www.aru.ac.uk/study/undergraduate/counselling-and-psychotherapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Financial Management",
+    "slug": "aru-business-and-financial-management-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-and-financial-management-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Counselling (Child and Young Person)",
+    "slug": "aru-counselling-child-and-young-person",
+    "url": "https://www.aru.ac.uk/study/undergraduate/counselling-child-and-young-person",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Computer Science",
+    "slug": "aru-applied-computer-science-west-anglia",
+    "url": "https://www.aru.ac.uk/study/undergraduate/applied-computer-science-west-anglia",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Computer Science (Top-up)",
+    "slug": "aru-applied-computer-science-top-up",
+    "url": "https://www.aru.ac.uk/study/undergraduate/applied-computer-science-top-up",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Marketing",
+    "slug": "aru-digital-marketing",
+    "url": "https://www.aru.ac.uk/study/undergraduate/digital-marketing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Psychology",
+    "slug": "aru-applied-and-clinical-psychology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/applied-and-clinical-psychology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management",
+    "slug": "aru-business-management-west-anglia",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-west-anglia",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Equine Business Management",
+    "slug": "aru-equine-business-management",
+    "url": "https://www.aru.ac.uk/study/undergraduate/equine-business-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Agriculture",
+    "slug": "aru-agriculture",
+    "url": "https://www.aru.ac.uk/study/undergraduate/agriculture",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Sport Science and Coaching (Top Up)",
+    "slug": "aru-applied-sport-science-and-coaching-top-up",
+    "url": "https://www.aru.ac.uk/study/undergraduate/applied-sport-science-and-coaching-top-up",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Politics and International Relations",
+    "slug": "aru-politics-and-international-relations",
+    "url": "https://www.aru.ac.uk/study/undergraduate/politics-and-international-relations",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Horticulture",
+    "slug": "aru-horticulture",
+    "url": "https://www.aru.ac.uk/study/undergraduate/horticulture",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sports Therapy",
+    "slug": "aru-sports-therapy",
+    "url": "https://www.aru.ac.uk/study/undergraduate/sports-therapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Strength and Conditioning with Rehabilitation",
+    "slug": "aru-strength-and-conditioning-with-rehabilitation",
+    "url": "https://www.aru.ac.uk/study/undergraduate/strength-and-conditioning-with-rehabilitation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Optometry",
+    "slug": "aru-optometry",
+    "url": "https://www.aru.ac.uk/study/undergraduate/optometry",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Working with Children, Families and Communities",
+    "slug": "aru-working-with-children-families-and-communities",
+    "url": "https://www.aru.ac.uk/study/undergraduate/working-with-children-families-and-communities",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Civil Engineering",
+    "slug": "aru-civil-engineering-beng",
+    "url": "https://www.aru.ac.uk/study/undergraduate/civil-engineering-beng",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Medical Science",
+    "slug": "aru-medical-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/medical-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Hearing Care Assistant",
+    "slug": "aru-hearing-care-assistant-university-certificate",
+    "url": "https://www.aru.ac.uk/study/undergraduate/hearing-care-assistant-university-certificate",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Drama",
+    "slug": "aru-drama",
+    "url": "https://www.aru.ac.uk/study/undergraduate/drama",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Early Years and Education",
+    "slug": "aru-early-years-and-education",
+    "url": "https://www.aru.ac.uk/study/undergraduate/early-years-and-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Game Design and Development",
+    "slug": "aru-game-design-and-development",
+    "url": "https://www.aru.ac.uk/study/undergraduate/game-design-and-development",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Game Design and Digital Art",
+    "slug": "aru-game-design-and-digital-art",
+    "url": "https://www.aru.ac.uk/study/undergraduate/game-design-and-digital-art",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management (Top-Up)",
+    "slug": "aru-international-business-management-top-up",
+    "url": "https://www.aru.ac.uk/study/undergraduate/international-business-management-top-up",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Management and Leadership in Health and Social Care (Top-Up)",
+    "slug": "aru-management-and-leadership-in-health-and-social-care",
+    "url": "https://www.aru.ac.uk/study/undergraduate/management-and-leadership-in-health-and-social-care",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Zoology",
+    "slug": "aru-zoology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/zoology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Quantity Surveying",
+    "slug": "aru-quantity-surveying",
+    "url": "https://www.aru.ac.uk/study/undergraduate/quantity-surveying",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Software Development",
+    "slug": "aru-software-development",
+    "url": "https://www.aru.ac.uk/study/undergraduate/software-development",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Management",
+    "slug": "aru-construction-management",
+    "url": "https://www.aru.ac.uk/study/undergraduate/construction-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Networking",
+    "slug": "aru-computer-networking",
+    "url": "https://www.aru.ac.uk/study/undergraduate/computer-networking",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computing",
+    "slug": "aru-computing",
+    "url": "https://www.aru.ac.uk/study/undergraduate/computing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cyber Security and Forensic Computing",
+    "slug": "aru-cyber-security-with-forensic-computing",
+    "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-with-forensic-computing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Building Surveying",
+    "slug": "aru-building-surveying",
+    "url": "https://www.aru.ac.uk/study/undergraduate/building-surveying",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Sciences",
+    "slug": "aru-biomedical-sciences",
+    "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-sciences",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biology",
+    "slug": "aru-biology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/biology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Media Production",
+    "slug": "aru-digital-media",
+    "url": "https://www.aru.ac.uk/study/undergraduate/digital-media",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animal Management (Zoo and Wildlife Conservation)",
+    "slug": "aru-animal-management-zoo-and-wildlife-conservation",
+    "url": "https://www.aru.ac.uk/study/undergraduate/animal-management-zoo-and-wildlife-conservation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Marketing and Management",
+    "slug": "aru-digital-marketing-and-management-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/digital-marketing-and-management-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Human Resource Management",
+    "slug": "aru-business-and-human-resource-management-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-and-human-resource-management-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Tourism Management",
+    "slug": "aru-business-and-tourism-management-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-and-tourism-management-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance and Accounting",
+    "slug": "aru-finance-and-accounting-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/finance-and-accounting-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology with Clinical Applications",
+    "slug": "aru-psychology-with-clinical-applications",
+    "url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-clinical-applications",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with Business Management — LLB (Hons)",
+    "slug": "aru-law-with-business-management",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law-with-business-management",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Nursing Studies (Top-Up)",
+    "slug": "aru-international-nursing-studies",
+    "url": "https://www.aru.ac.uk/study/undergraduate/international-nursing-studies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology",
+    "slug": "aru-psychology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/psychology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management",
+    "slug": "aru-business-and-management",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-and-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Health and Social Care",
+    "slug": "aru-health-and-social-care-london",
+    "url": "https://www.aru.ac.uk/study/undergraduate/health-and-social-care-london",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Public Health",
+    "slug": "aru-public-health",
+    "url": "https://www.aru.ac.uk/study/undergraduate/public-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education with Inclusive Practice",
+    "slug": "aru-education-with-inclusive-practice",
+    "url": "https://www.aru.ac.uk/study/undergraduate/education-with-inclusive-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education with Sustainability",
+    "slug": "aru-education-with-sustainability",
+    "url": "https://www.aru.ac.uk/study/undergraduate/education-with-sustainability",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management and Entrepreneurship and Innovation",
+    "slug": "aru-business-management-and-entrepreneurship-and-innovation",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-and-entrepreneurship-and-innovation",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management and Tourism",
+    "slug": "aru-business-management-and-tourism",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-and-tourism",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management and Digital Marketing",
+    "slug": "aru-business-management-and-digital-marketing",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-and-digital-marketing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Banking, Finance and Fintech",
+    "slug": "aru-banking-finance-and-fintech",
+    "url": "https://www.aru.ac.uk/study/undergraduate/banking-finance-and-fintech",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport and Exercise Science",
+    "slug": "aru-sport-and-exercise-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/sport-and-exercise-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychosocial Studies",
+    "slug": "aru-psychosocial-studies-west-anglia",
+    "url": "https://www.aru.ac.uk/study/undergraduate/psychosocial-studies-west-anglia",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Music Performance",
+    "slug": "aru-music-performance",
+    "url": "https://www.aru.ac.uk/study/undergraduate/music-performance",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Photography",
+    "slug": "aru-photography",
+    "url": "https://www.aru.ac.uk/study/undergraduate/photography",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Exercise and Health Science",
+    "slug": "aru-exercise-and-health-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/exercise-and-health-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Philosophy",
+    "slug": "aru-philosophy",
+    "url": "https://www.aru.ac.uk/study/undergraduate/philosophy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Philosophy and English Literature",
+    "slug": "aru-philosophy-and-english-literature",
+    "url": "https://www.aru.ac.uk/study/undergraduate/philosophy-and-english-literature",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Design",
+    "slug": "aru-fashion-design",
+    "url": "https://www.aru.ac.uk/study/undergraduate/fashion-design",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Acting",
+    "slug": "aru-acting",
+    "url": "https://www.aru.ac.uk/study/undergraduate/acting",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Musical Theatre",
+    "slug": "aru-musical-theatre",
+    "url": "https://www.aru.ac.uk/study/undergraduate/musical-theatre",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Drama and Film",
+    "slug": "aru-drama-and-film",
+    "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-film",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Drama and English Literature",
+    "slug": "aru-drama-and-english-literature",
+    "url": "https://www.aru.ac.uk/study/undergraduate/drama-and-english-literature",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport Coaching and Physical Education",
+    "slug": "aru-sport-coaching-and-physical-education",
+    "url": "https://www.aru.ac.uk/study/undergraduate/sport-coaching-and-physical-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Sport Science",
+    "slug": "aru-applied-sport-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/applied-sport-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Integrated Health and Social Care",
+    "slug": "aru-integrated-health-and-social-care",
+    "url": "https://www.aru.ac.uk/study/undergraduate/integrated-health-and-social-care",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English",
+    "slug": "aru-english",
+    "url": "https://www.aru.ac.uk/study/undergraduate/english",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Audio and Music Technology",
+    "slug": "aru-audio-and-music-technology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/audio-and-music-technology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Language and Communication",
+    "slug": "aru-english-language-and-communication",
+    "url": "https://www.aru.ac.uk/study/undergraduate/english-language-and-communication",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Dispensing Optician Registerable Award",
+    "slug": "aru-dispensing-optician-registerable-award",
+    "url": "https://www.aru.ac.uk/study/undergraduate/dispensing-optician-registerable-award",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Hearing Aid Audiology",
+    "slug": "aru-hearing-aid-audiology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/hearing-aid-audiology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cyber Security and Digital Forensics",
+    "slug": "aru-cyber-security-and-digital-forensics",
+    "url": "https://www.aru.ac.uk/study/undergraduate/cyber-security-and-digital-forensics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Agriculture with Business",
+    "slug": "aru-agriculture-with-business",
+    "url": "https://www.aru.ac.uk/study/undergraduate/agriculture-with-business",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Communication and Branding",
+    "slug": "aru-fashion-communication-and-branding",
+    "url": "https://www.aru.ac.uk/study/undergraduate/fashion-communication-and-branding",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animation and Illustration",
+    "slug": "aru-animation-and-illustration",
+    "url": "https://www.aru.ac.uk/study/undergraduate/animation-and-illustration",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Liberal Arts",
+    "slug": "aru-liberal-arts",
+    "url": "https://www.aru.ac.uk/study/undergraduate/liberal-arts",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Writing and Film",
+    "slug": "aru-writing-and-film",
+    "url": "https://www.aru.ac.uk/study/undergraduate/writing-and-film",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animal Science",
+    "slug": "aru-animal-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/animal-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Conservation and Community Engagement",
+    "slug": "aru-conservation-and-community-engagement",
+    "url": "https://www.aru.ac.uk/study/undergraduate/conservation-and-community-engagement",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Primary Education with Qualified Teacher Status (QTS)",
+    "slug": "aru-primary-education-with-qts",
+    "url": "https://www.aru.ac.uk/study/undergraduate/primary-education-with-qts",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Music Production",
+    "slug": "aru-music-production",
+    "url": "https://www.aru.ac.uk/study/undergraduate/music-production",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Writing and English Literature",
+    "slug": "aru-writing-and-english-literature",
+    "url": "https://www.aru.ac.uk/study/undergraduate/writing-and-english-literature",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Policing and Criminology",
+    "slug": "aru-policing-and-criminology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/policing-and-criminology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Equine Therapy, Rehabilitation and Performance",
+    "slug": "aru-equine-therapy-rehabilitation-and-performance",
+    "url": "https://www.aru.ac.uk/study/undergraduate/equine-therapy-rehabilitation-and-performance",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animal Therapy, Rehabilitation and Performance",
+    "slug": "aru-animal-therapy-rehabilitation-and-performance",
+    "url": "https://www.aru.ac.uk/study/undergraduate/animal-therapy-rehabilitation-and-performance",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Canine Therapy, Rehabilitation and Performance",
+    "slug": "aru-canine-therapy-rehabilitation-and-performance",
+    "url": "https://www.aru.ac.uk/study/undergraduate/canine-therapy-rehabilitation-and-performance",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Games Art",
+    "slug": "aru-computer-games-art",
+    "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-art",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Engineering",
+    "slug": "aru-biomedical-engineering",
+    "url": "https://www.aru.ac.uk/study/undergraduate/biomedical-engineering",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance with Economics",
+    "slug": "aru-finance-with-economics",
+    "url": "https://www.aru.ac.uk/study/undergraduate/finance-with-economics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Canine Veterinary Physiotherapy",
+    "slug": "aru-canine-veterinary-physiotherapy",
+    "url": "https://www.aru.ac.uk/study/undergraduate/canine-veterinary-physiotherapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Equine Veterinary Physiotherapy",
+    "slug": "aru-equine-veterinary-physiotherapy",
+    "url": "https://www.aru.ac.uk/study/undergraduate/equine-veterinary-physiotherapy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mechatronics and Robotics Engineering",
+    "slug": "aru-mechatronics-and-robotics-engineering-beng",
+    "url": "https://www.aru.ac.uk/study/undergraduate/mechatronics-and-robotics-engineering-beng",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Economics",
+    "slug": "aru-business-economics",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-economics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Equine Science",
+    "slug": "aru-equine-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/equine-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Strategic Business and Project Management",
+    "slug": "aru-strategic-business-and-project-management",
+    "url": "https://www.aru.ac.uk/study/undergraduate/strategic-business-and-project-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Supply Chain Management and International Business",
+    "slug": "aru-supply-chain-management-and-international-business",
+    "url": "https://www.aru.ac.uk/study/undergraduate/supply-chain-management-and-international-business",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Children)",
+    "slug": "aru-nursing-child",
+    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-child",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology with Criminology",
+    "slug": "aru-psychology-with-criminology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-criminology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology with Education",
+    "slug": "aru-psychology-with-education",
+    "url": "https://www.aru.ac.uk/study/undergraduate/psychology-with-education",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Adult and Children)",
+    "slug": "aru-nursing-adult-and-children",
+    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-children",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Children and Mental Health)",
+    "slug": "aru-nursing-children-and-mental-health",
+    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-children-and-mental-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Adult and Mental Health)",
+    "slug": "aru-nursing-adult-and-mental-health",
+    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult-and-mental-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management and Human Resource Management",
+    "slug": "aru-business-management-and-human-resource-management",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-and-human-resource-management",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graduate Diploma Nursing (Adult)",
+    "slug": "aru-graduate-diploma-nursing-adult",
+    "url": "https://www.aru.ac.uk/study/undergraduate/graduate-diploma-nursing-adult",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graduate Diploma Nursing (Mental Health)",
+    "slug": "aru-graduate-diploma-nursing-mental-health",
+    "url": "https://www.aru.ac.uk/study/undergraduate/graduate-diploma-nursing-mental-health",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graduate Diploma Nursing (Children)",
+    "slug": "aru-graduate-diploma-nursing-children",
+    "url": "https://www.aru.ac.uk/study/undergraduate/graduate-diploma-nursing-children",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management and Business Analytics",
+    "slug": "aru-business-management-and-business-analytics",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-and-business-analytics",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Games Design",
+    "slug": "aru-computer-games-design",
+    "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-design",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Design",
+    "slug": "aru-interior-design",
+    "url": "https://www.aru.ac.uk/study/undergraduate/interior-design",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Artificial Intelligence and Data Science",
+    "slug": "aru-artificial-intelligence-and-data-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/artificial-intelligence-and-data-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Film and Media",
+    "slug": "aru-film-and-media",
+    "url": "https://www.aru.ac.uk/study/undergraduate/film-and-media",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Medicine",
+    "slug": "aru-medicine",
+    "url": "https://www.aru.ac.uk/study/undergraduate/medicine",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Policing",
+    "slug": "aru-criminology-and-policing",
+    "url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-policing",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Adult)",
+    "slug": "aru-nursing-adult",
+    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-adult",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law — LLB (Hons)",
+    "slug": "aru-law",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Sociology",
+    "slug": "aru-criminology-and-sociology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/criminology-and-sociology",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Audiology Top-up",
+    "slug": "aru-audiology-top-up",
+    "url": "https://www.aru.ac.uk/study/undergraduate/audiology-top-up",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Hearing Sciences (Top-Up)",
+    "slug": "aru-hearing-sciences-top-up",
+    "url": "https://www.aru.ac.uk/study/undergraduate/hearing-sciences-top-up",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Early Childhood Studies (Graduate Practitioner)",
+    "slug": "aru-early-childhood-studies",
+    "url": "https://www.aru.ac.uk/study/undergraduate/early-childhood-studies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Osteopathy",
+    "slug": "aru-osteopathy",
+    "url": "https://www.aru.ac.uk/study/undergraduate/osteopathy",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Games Programming",
+    "slug": "aru-computer-games-programming",
+    "url": "https://www.aru.ac.uk/study/undergraduate/computer-games-programming",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Crime and Investigative Studies",
+    "slug": "aru-crime-and-investigative-studies",
+    "url": "https://www.aru.ac.uk/study/undergraduate/crime-and-investigative-studies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with Sociology — LLB (Hons)",
+    "slug": "aru-law-with-sociology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law-with-sociology",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with Politics and International Relations — LLB (Hons)",
+    "slug": "aru-law-with-politics-and-international-relations",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law-with-politics-and-international-relations",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Commercial Law — LLB (Hons)",
+    "slug": "aru-commercial-law",
+    "url": "https://www.aru.ac.uk/study/undergraduate/commercial-law",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with Criminal Justice — LLB (Hons)",
+    "slug": "aru-law-with-criminal-justice",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law-with-criminal-justice",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with Criminology — LLB (Hons)",
+    "slug": "aru-law-with-criminology",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law-with-criminology",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Operating Department Practice (ODP)",
+    "slug": "aru-operating-department-practice",
+    "url": "https://www.aru.ac.uk/study/undergraduate/operating-department-practice",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Paramedic Science",
+    "slug": "aru-paramedic-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/paramedic-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Montessori Early Childhood Studies (Graduate Practitioner)",
+    "slug": "aru-montessori-early-childhood-studies",
+    "url": "https://www.aru.ac.uk/study/undergraduate/montessori-early-childhood-studies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport, Exercise and Health Science",
+    "slug": "aru-sport-exercise-and-health-science",
+    "url": "https://www.aru.ac.uk/study/undergraduate/sport-exercise-and-health-science",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management and Finance",
+    "slug": "aru-business-management-and-finance",
+    "url": "https://www.aru.ac.uk/study/undergraduate/business-management-and-finance",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law with Business — LLB (Hons)",
+    "slug": "aru-law-with-business",
+    "url": "https://www.aru.ac.uk/study/undergraduate/law-with-business",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Primary Education Studies",
+    "slug": "aru-primary-education-studies",
+    "url": "https://www.aru.ac.uk/study/undergraduate/primary-education-studies",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Mental Health)",
+    "slug": "aru-nursing-mental-health",
+    "url": "https://www.aru.ac.uk/study/undergraduate/nursing-mental-health",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animal Management (Pet Behaviour and Welfare)",
+    "slug": "aru-animal-management-pet-behaviour-and-welfare",
+    "url": "https://www.aru.ac.uk/study/undergraduate/animal-management-pet-behaviour-and-welfare",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Midwifery",
+    "slug": "aru-midwifery",
+    "url": "https://www.aru.ac.uk/study/undergraduate/midwifery",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Software Engineering",
+    "slug": "aru-software-engineering",
+    "url": "https://www.aru.ac.uk/study/undergraduate/software-engineering",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Cambridge Campus",
+    "currency": "GBP"
+  }
+]

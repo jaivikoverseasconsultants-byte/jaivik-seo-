@@ -1,0 +1,722 @@
+[
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Artificial Intelligence and Robotics",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-artificial-intelligence-and-robotics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "demontfort-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "demontfort-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Analytics",
+    "level": "Masters",
+    "slug": "demontfort-msc-data-analytics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "demontfort-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Software Engineering",
+    "level": "Masters",
+    "slug": "demontfort-msc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "demontfort-beng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electrical and Electronic Engineering",
+    "level": "Undergraduate",
+    "slug": "demontfort-beng-electrical-and-electronic-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "demontfort-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Aerospace Technology",
+    "level": "Undergraduate",
+    "slug": "demontfort-beng-aerospace-technology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Engineering Management",
+    "level": "Masters",
+    "slug": "demontfort-msc-engineering-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Mechanical Engineering",
+    "level": "Masters",
+    "slug": "demontfort-msc-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Administration",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc International Business",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Marketing",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "demontfort-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business",
+    "level": "Masters",
+    "slug": "demontfort-msc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Investment",
+    "level": "Masters",
+    "slug": "demontfort-msc-finance-and-investment",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing",
+    "level": "Masters",
+    "slug": "demontfort-msc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "demontfort-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-nursing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "demontfort-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "demontfort-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "demontfort-llm-international-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Undergraduate",
+    "slug": "demontfort-ba-criminology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Fashion Design",
+    "level": "Undergraduate",
+    "slug": "demontfort-ba-fashion-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Graphic Design",
+    "level": "Undergraduate",
+    "slug": "demontfort-ba-graphic-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Fashion Design",
+    "level": "Masters",
+    "slug": "demontfort-ma-fashion-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Architecture",
+    "level": "Undergraduate",
+    "slug": "demontfort-bsc-architecture",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Architecture (ARB/RIBA Part 2)",
+    "level": "Masters",
+    "slug": "demontfort-msc-architecture-arb-riba-part-2",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computing",
+    "level": "PhD",
+    "slug": "demontfort-phd-computing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12500,
+    "annualUSD": 15875,
+    "totalGBP": 37500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "demontfort-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12500,
+    "annualUSD": 15875,
+    "totalGBP": 37500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "demontfort-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12500,
+    "annualUSD": 15875,
+    "totalGBP": 37500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Leicester Campus",
+    "currency": "GBP"
+  }
+]

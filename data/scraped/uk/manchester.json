@@ -1,0 +1,818 @@
+[
+  {
+    "name": "Master of Business Administration (MBA)",
+    "level": "Masters",
+    "slug": "manchester-master-of-business-administration-mba",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 33000,
+    "annualUSD": 41910,
+    "totalGBP": 33000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "manchester-msc-management",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "manchester-msc-finance",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Accounting",
+    "level": "Masters",
+    "slug": "manchester-msc-accounting",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing",
+    "level": "Masters",
+    "slug": "manchester-msc-marketing",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business",
+    "level": "Masters",
+    "slug": "manchester-msc-international-business",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Human Resource Management",
+    "level": "Masters",
+    "slug": "manchester-msc-human-resource-management",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Digital Marketing",
+    "level": "Masters",
+    "slug": "manchester-msc-digital-marketing",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "manchester-msc-project-management",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "manchester-msc-computer-science",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "manchester-msc-data-science",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "manchester-msc-artificial-intelligence",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Computer Science",
+    "level": "Masters",
+    "slug": "manchester-msc-advanced-computer-science",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "manchester-msc-cybersecurity",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Software Engineering",
+    "level": "Masters",
+    "slug": "manchester-msc-software-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Engineering",
+    "level": "Masters",
+    "slug": "manchester-msc-data-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Electrical and Electronic Engineering",
+    "level": "Masters",
+    "slug": "manchester-msc-electrical-and-electronic-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Mechanical Engineering Design",
+    "level": "Masters",
+    "slug": "manchester-msc-mechanical-engineering-design",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Chemical Engineering",
+    "level": "Masters",
+    "slug": "manchester-msc-chemical-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Civil Engineering",
+    "level": "Masters",
+    "slug": "manchester-msc-civil-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Aerospace Engineering",
+    "level": "Masters",
+    "slug": "manchester-msc-aerospace-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Electrical and Electronic Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "manchester-meng-electrical-and-electronic-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 21000,
+    "annualUSD": 26670,
+    "totalGBP": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "manchester-beng-mechanical-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 21000,
+    "annualUSD": 26670,
+    "totalGBP": 63000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "manchester-bsc-computer-science",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 21000,
+    "annualUSD": 26670,
+    "totalGBP": 63000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "manchester-msc-public-health",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Nursing (Advanced Practice)",
+    "level": "Masters",
+    "slug": "manchester-msc-nursing-advanced-practice",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Health",
+    "level": "Masters",
+    "slug": "manchester-msc-global-health",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Nutrition and Dietetics",
+    "level": "Masters",
+    "slug": "manchester-msc-nutrition-and-dietetics",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "manchester-llm-international-law",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM Corporate Law",
+    "level": "Masters",
+    "slug": "manchester-llm-corporate-law",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "manchester-llb-law",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 21000,
+    "annualUSD": 26670,
+    "totalGBP": 63000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Economics",
+    "level": "Masters",
+    "slug": "manchester-msc-economics",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Education",
+    "level": "Masters",
+    "slug": "manchester-ma-education",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "manchester-msc-psychology",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Social Work",
+    "level": "Masters",
+    "slug": "manchester-ma-social-work",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Linguistics",
+    "level": "Masters",
+    "slug": "manchester-ma-linguistics",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "manchester-msc-chemistry",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "manchester-msc-physics",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Biotechnology",
+    "level": "Masters",
+    "slug": "manchester-msc-biotechnology",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Environmental Science",
+    "level": "Masters",
+    "slug": "manchester-msc-environmental-science",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "manchester-bsc-biomedical-sciences",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 21000,
+    "annualUSD": 26670,
+    "totalGBP": 63000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Art History",
+    "level": "Masters",
+    "slug": "manchester-ma-art-history",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Media and Cultural Studies",
+    "level": "Masters",
+    "slug": "manchester-ma-media-and-cultural-studies",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Creative Writing",
+    "level": "Masters",
+    "slug": "manchester-ma-creative-writing",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "manchester-phd-computer-science",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "manchester-phd-engineering",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business and Management",
+    "level": "PhD",
+    "slug": "manchester-phd-business-and-management",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Biomedical Sciences",
+    "level": "PhD",
+    "slug": "manchester-phd-biomedical-sciences",
+    "url": "https://www.manchester.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Oxford Road Campus",
+    "currency": "GBP"
+  }
+]

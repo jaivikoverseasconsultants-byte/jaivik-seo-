@@ -1,0 +1,650 @@
+[
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science and Analytics",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-data-science-and-analytics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "westlondon-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "westlondon-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "westlondon-msc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "westlondon-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Undergraduate",
+    "slug": "westlondon-beng-electrical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Administration",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc International Business",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Marketing",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Hospitality Management",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-hospitality-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Aviation Management",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-aviation-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "westlondon-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 17000,
+    "annualUSD": 21590,
+    "totalGBP": 17000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business Management",
+    "level": "Masters",
+    "slug": "westlondon-msc-international-business-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Accounting",
+    "level": "Masters",
+    "slug": "westlondon-msc-finance-and-accounting",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing Management",
+    "level": "Masters",
+    "slug": "westlondon-msc-marketing-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "westlondon-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Human Resource Management",
+    "level": "Masters",
+    "slug": "westlondon-msc-human-resource-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-nursing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Midwifery",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-midwifery",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "westlondon-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Healthcare Management",
+    "level": "Masters",
+    "slug": "westlondon-msc-healthcare-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "westlondon-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Undergraduate",
+    "slug": "westlondon-ba-criminology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Music Production",
+    "level": "Undergraduate",
+    "slug": "westlondon-ba-music-production",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Film Production",
+    "level": "Undergraduate",
+    "slug": "westlondon-ba-film-production",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Sport and Exercise Science",
+    "level": "Undergraduate",
+    "slug": "westlondon-bsc-sport-and-exercise-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Sports Management",
+    "level": "Masters",
+    "slug": "westlondon-msc-sports-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14000,
+    "annualUSD": 17780,
+    "totalGBP": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Performing Arts",
+    "level": "Undergraduate",
+    "slug": "westlondon-ba-performing-arts",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computing",
+    "level": "PhD",
+    "slug": "westlondon-phd-computing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "westlondon-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Ealing Campus",
+    "currency": "GBP"
+  }
+]

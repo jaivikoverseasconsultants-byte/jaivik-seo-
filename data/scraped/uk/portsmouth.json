@@ -1,0 +1,776 @@
+[
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Artificial Intelligence",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "portsmouth-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "portsmouth-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "portsmouth-msc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "portsmouth-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Software Engineering",
+    "level": "Masters",
+    "slug": "portsmouth-msc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "portsmouth-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "portsmouth-beng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Undergraduate",
+    "slug": "portsmouth-beng-electrical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Aerospace Engineering",
+    "level": "Undergraduate",
+    "slug": "portsmouth-beng-aerospace-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Civil Engineering",
+    "level": "Masters",
+    "slug": "portsmouth-msc-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Mechanical Engineering",
+    "level": "Masters",
+    "slug": "portsmouth-msc-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Structural Engineering",
+    "level": "Masters",
+    "slug": "portsmouth-msc-structural-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Administration",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc International Business",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Marketing",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-economics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "portsmouth-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 19000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business Management",
+    "level": "Masters",
+    "slug": "portsmouth-msc-international-business-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Accounting",
+    "level": "Masters",
+    "slug": "portsmouth-msc-finance-and-accounting",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing Management",
+    "level": "Masters",
+    "slug": "portsmouth-msc-marketing-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "portsmouth-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-nursing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Midwifery",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-midwifery",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "portsmouth-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Healthcare Management",
+    "level": "Masters",
+    "slug": "portsmouth-msc-healthcare-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "portsmouth-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "portsmouth-llm-international-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Undergraduate",
+    "slug": "portsmouth-ba-criminology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Sport and Exercise Science",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-sport-and-exercise-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Journalism",
+    "level": "Undergraduate",
+    "slug": "portsmouth-ba-journalism",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Undergraduate",
+    "slug": "portsmouth-bsc-environmental-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Environmental Management",
+    "level": "Masters",
+    "slug": "portsmouth-msc-environmental-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computing",
+    "level": "PhD",
+    "slug": "portsmouth-phd-computing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "portsmouth-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "portsmouth-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Guildhall Campus",
+    "currency": "GBP"
+  }
+]

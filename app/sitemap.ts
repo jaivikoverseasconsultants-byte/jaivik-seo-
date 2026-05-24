@@ -32,6 +32,51 @@ try { griffithCourses = require('@/data/griffith-courses').griffithCourses as an
 try { latrobeCourses = require('@/data/latrobe-courses').latrobeCourses as any[]; } catch {}
 try { deakinCourses = require('@/data/deakin-courses').deakinCourses as any[]; } catch {}
 
+// UK university course imports
+let manchesterCourses: any[] = [];
+let birminghamCourses: any[] = [];
+let leedsCourses: any[] = [];
+let coventryCourses: any[] = [];
+let middlesexCourses: any[] = [];
+let brunelCourses: any[] = [];
+let hertfordshireCourses: any[] = [];
+let aruCourses: any[] = [];
+let portsmouthCourses: any[] = [];
+let northumbriaCourses: any[] = [];
+let demontfortCourses: any[] = [];
+let nottinghamtrentCourses: any[] = [];
+let westlondonCourses: any[] = [];
+
+try { manchesterCourses = require('@/data/manchester-courses').manchesterCourses as any[]; } catch {}
+try { birminghamCourses = require('@/data/birmingham-courses').birminghamCourses as any[]; } catch {}
+try { leedsCourses = require('@/data/leeds-courses').leedsCourses as any[]; } catch {}
+try { coventryCourses = require('@/data/coventry-courses').coventryCourses as any[]; } catch {}
+try { middlesexCourses = require('@/data/middlesex-courses').middlesexCourses as any[]; } catch {}
+try { brunelCourses = require('@/data/brunel-courses').brunelCourses as any[]; } catch {}
+try { hertfordshireCourses = require('@/data/hertfordshire-courses').hertfordshireCourses as any[]; } catch {}
+try { aruCourses = require('@/data/aru-courses').aruCourses as any[]; } catch {}
+try { portsmouthCourses = require('@/data/portsmouth-courses').portsmouthCourses as any[]; } catch {}
+try { northumbriaCourses = require('@/data/northumbria-courses').northumbriaCourses as any[]; } catch {}
+try { demontfortCourses = require('@/data/demontfort-courses').demontfortCourses as any[]; } catch {}
+try { nottinghamtrentCourses = require('@/data/nottinghamtrent-courses').nottinghamtrentCourses as any[]; } catch {}
+try { westlondonCourses = require('@/data/westlondon-courses').westlondonCourses as any[]; } catch {}
+
+const UK_UNI_COURSES: Array<{ slug: string; courses: any[] }> = [
+  { slug: 'university-of-manchester',    courses: manchesterCourses },
+  { slug: 'university-of-birmingham',    courses: birminghamCourses },
+  { slug: 'university-of-leeds',         courses: leedsCourses },
+  { slug: 'coventry-university',         courses: coventryCourses },
+  { slug: 'middlesex-university',        courses: middlesexCourses },
+  { slug: 'brunel-university-london',    courses: brunelCourses },
+  { slug: 'university-of-hertfordshire', courses: hertfordshireCourses },
+  { slug: 'anglia-ruskin-university',    courses: aruCourses },
+  { slug: 'university-of-portsmouth',    courses: portsmouthCourses },
+  { slug: 'northumbria-university',      courses: northumbriaCourses },
+  { slug: 'de-montfort-university',      courses: demontfortCourses },
+  { slug: 'nottingham-trent-university', courses: nottinghamtrentCourses },
+  { slug: 'university-of-west-london',   courses: westlondonCourses },
+];
+
 const BASE = 'https://jaivikoverseasconsultants.com';
 
 const AU_UNI_COURSES: Array<{ slug: string; courses: any[] }> = [
@@ -110,6 +155,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }))
   );
 
+  // UK university course index pages
+  const ukCourseIndexPages = UK_UNI_COURSES
+    .filter(u => u.courses.length > 0)
+    .map(u => ({
+      url: `${BASE}/universities/${u.slug}/courses`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    }));
+
+  // UK individual course detail pages
+  const ukCourseDetailPages = UK_UNI_COURSES.flatMap(u =>
+    u.courses.map((c: any) => ({
+      url: `${BASE}/universities/${u.slug}/courses/${c.slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    }))
+  );
+
   return [
     ...staticPages,
     ...universityPages,
@@ -118,5 +183,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryPages,
     ...auCourseIndexPages,
     ...auCourseDetailPages,
+    ...ukCourseIndexPages,
+    ...ukCourseDetailPages,
   ];
 }

@@ -1,0 +1,3402 @@
+[
+  {
+    "name": "Interior Design BA Honours",
+    "slug": "middlesex-interior-design-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/interior-design-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mechatronic Systems Engineering MSc",
+    "slug": "middlesex-mechatronic-systems-engineering-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/mechatronic-systems-engineering-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Architecture BA Honours",
+    "slug": "middlesex-interior-architecture-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/interior-architecture-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "20 years",
+    "durationYears": 20,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 300000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science BSc Honours",
+    "slug": "middlesex-biomedical-science-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/biomedical-science-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interiors Architecture and Design MA",
+    "slug": "middlesex-interiors-architecture-and-design-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/interiors-architecture-and-design-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law with International Relations",
+    "slug": "middlesex-llb-law-with-international-relations",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/llb-law-with-international-relations/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Innovation Management and Entrepreneurship MSc",
+    "slug": "middlesex-innovation-management-and-entrepreneurship-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/innovation-management-and-entrepreneurship-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Computing and Data Analytics BSc",
+    "slug": "middlesex-business-computing-data-analytics-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-computing--data-analytics-bsc/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Professional Studies - Transdisciplinary",
+    "slug": "middlesex-doctor-of-professional-studies-transdisciplinary",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/doctor-of-professional-studies-transdisciplinary/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business BA Honours",
+    "slug": "middlesex-international-business-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/international-business-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Law LLB",
+    "slug": "middlesex-law-llb",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/law-llb/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Economics BSc Honours",
+    "slug": "middlesex-business-economics-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-economics-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Primary Education (QTS)",
+    "slug": "middlesex-pgce-primary-education-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-primary-education-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Veterinary Nursing BSc Honours",
+    "slug": "middlesex-veterinary-nursing-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/veterinary-nursing-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology with Counselling Skills BSc Honours",
+    "slug": "middlesex-psychology-with-counselling-skills-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/psychology-with-counselling-skills-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Economics BSc Honours",
+    "slug": "middlesex-economics-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/economics-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Child) BSc Honours",
+    "slug": "middlesex-nursing-child-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/nursing-child-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Illustration BA Honours",
+    "slug": "middlesex-illustration-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/illustration-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Banking and Investment Finance BSc Honours",
+    "slug": "middlesex-banking-and-finance-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/banking-and-finance-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Hospitality and Tourism Management (Top-up) BSc Honours",
+    "slug": "middlesex-international-hospitality-and-tourism-management-top-up-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/international-hospitality-and-tourism-management-top-up-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Mental Health) BSc Honours",
+    "slug": "middlesex-nursing-mental-health-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/nursing-mental-health-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Science",
+    "slug": "middlesex-foundation-year-in-science",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-science/",
+    "level": "Foundation",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management (1 year top-up) BA",
+    "slug": "middlesex-business-management-1-year-top-up-ba",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-1-year-top-up-ba/",
+    "level": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Masters/Doctor of professional studies - HSCE/S&T",
+    "slug": "middlesex-mastersdoctor-of-professional-studies-mprofdprof",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/mastersdoctor-of-professional-studies-mprofdprof/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychological Therapies and Interventions MSc/ PGDip",
+    "slug": "middlesex-psychological-therapies-and-interventions-msc-pgdip",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/psychological-therapies-and-interventions-msc--pgdip-/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science MSc",
+    "slug": "middlesex-computer-science-msc-honours",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/computer-science-msc-honours/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Banking and Finance MSc",
+    "slug": "middlesex-banking-and-finance-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/banking-and-finance-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology with Forensic Psychology MSc",
+    "slug": "middlesex-criminology-with-forensic-psychology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/criminology-with-forensic-psychology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Veterinary Nursing (Top-up) BSc Honours",
+    "slug": "middlesex-veterinary-nursing-top-up-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/veterinary-nursing-top-up-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport and Exercise Rehabilitation BSc Honours",
+    "slug": "middlesex-sport-and-exercise-rehabilitation-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/sport-and-exercise-rehabilitation-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Clinical Practice (Paediatrics and Child Health) MSc",
+    "slug": "middlesex-advanced-clinical-practice-paediatrics-child-health-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/advanced-clinical-practice-paediatrics--child-health-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electronic Engineering BEng",
+    "slug": "middlesex-electronic-engineering-beng",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/electronic-engineering-beng/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology Conversion MSc",
+    "slug": "middlesex-psychology-conversion-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/psychology-conversion-msc/",
+    "level": "Masters",
+    "duration": "50 years",
+    "durationYears": 50,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 800000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport Performance Analysis MSc",
+    "slug": "middlesex-sport-performance-analysis-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/sport-performance-analysis-msc--/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Midwifery BSc Honours",
+    "slug": "middlesex-midwifery-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/midwifery-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Shipping and Logistics MBA",
+    "slug": "middlesex-shipping-and-logistics-mba",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/shipping-and-logistics-mba/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graphic Design BA Honours",
+    "slug": "middlesex-graphic-design-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/graphic-design-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Marketing BA Honours",
+    "slug": "middlesex-fashion-marketing-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/fashion-marketing-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Nursing (Adult) BSc Honours",
+    "slug": "middlesex-nursing-adult-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/nursing-adult-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Game and Level Design BA Honours",
+    "slug": "middlesex-game-and-level-design-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/game-and-level-design-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Social Work MA",
+    "slug": "middlesex-social-work-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/social-work-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Environmental Health BSc",
+    "slug": "middlesex-environmental-health-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/environmental-health-bsc/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA (Master of Business Administration)",
+    "slug": "middlesex-master-of-business-administration-mba",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/master-of-business-administration-mba/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Neuroscience BSc Honours",
+    "slug": "middlesex-neuroscience-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/neuroscience-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport and Exercise Nutrition MSc",
+    "slug": "middlesex-sport-and-exercise-nutrition-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/sport-and-exercise-nutrition-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport and Exercise Science BSc Honours",
+    "slug": "middlesex-sport-and-exercise-science-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/sport-and-exercise-science-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Veterinary Nursing with Foundation Year BSc",
+    "slug": "middlesex-veterinary-nursing-with-foundation-year-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/veterinary-nursing-with-foundation-year-bsc/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE English (QTS)",
+    "slug": "middlesex-pgce-english-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-english-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clinical Health Psychology and Wellbeing MSc",
+    "slug": "middlesex-clinical-health-psychology-and-wellbeing-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/clinical-health-psychology-and-wellbeing-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Psychology MSc",
+    "slug": "middlesex-applied-psychology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/applied-psychology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Information Systems (Top-up) (Online Distance Learning) BSc Honours",
+    "slug": "middlesex-information-systems-top-up-online-distance-learning-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/information-systems-top-up-online-distance-learning-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Paediatrics and Child Healthcare Practice MSc",
+    "slug": "middlesex-paediatrics-and-child-healthcare-practice-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/paediatrics-and-child-healthcare-practice-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Drama QTS",
+    "slug": "middlesex-pgce-drama-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-drama-qts/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science (Cellular Pathology) MSc",
+    "slug": "middlesex-biomedical-science-cellular-pathology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-cellular-pathology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology with Criminology BSc Honours",
+    "slug": "middlesex-psychology-with-criminology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/psychology-with-criminology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Social Work Practice Practice Education PGCert",
+    "slug": "middlesex-advanced-social-work-practice-education-pgcert",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/advanced-social-work-practice-education-pgcert/",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 9000,
+    "annualUSD": 11430,
+    "totalGBP": 4500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science BSc",
+    "slug": "middlesex-computer-science-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/computer-science-bsc/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Governance and Sustainable Development MA",
+    "slug": "middlesex-global-governance-and-sustainable-development-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/global-governance-and-sustainable-development-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Social Work BA Honours",
+    "slug": "middlesex-social-work-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/social-work-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Employment-based postgraduate Initial Teacher Training (ITT)",
+    "slug": "middlesex-employment-based-postgraduate-initial-teacher-training-itt",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/employment-based-postgraduate-initial-teacher-training-itt/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Finance BA Honours",
+    "slug": "middlesex-accounting-and-finance-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/accounting-and-finance-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Psychology",
+    "slug": "middlesex-foundation-year-in-psychology",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-psychology/",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Marine Operations Management MSc",
+    "slug": "middlesex-marine-operations-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/marine-operations-management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Product Design BA",
+    "slug": "middlesex-product-design-ba",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/product-design-ba/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport and Exercise Science (Physical Education and Coaching) BSc Honours",
+    "slug": "middlesex-sport-and-exercise-science-physical-education-and-coaching-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/sport-and-exercise-science-physical-education-and-coaching-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Diploma in Private Sector Housing Interventions",
+    "slug": "middlesex-diploma-in-private-sector-housing-interventions",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/diploma-in-private-sector-housing-interventions/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Environmental Health MSc",
+    "slug": "middlesex-environmental-health-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/environmental-health-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Marketing MSc",
+    "slug": "middlesex-digital-marketing-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/digital-marketing-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE History with Humanities (QTS)",
+    "slug": "middlesex-pgce-history-with-humanities-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-history-with-humanities-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management (Human Resource Management) BA Honours",
+    "slug": "middlesex-business-management-human-resource-management-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-human-resource-management-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Film BA Honours",
+    "slug": "middlesex-film-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/film-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology BSc Honours",
+    "slug": "middlesex-psychology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/psychology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Business Administration DBA",
+    "slug": "middlesex-doctor-of-business-administration-dba",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/doctor-of-business-administration-dba/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education MA",
+    "slug": "middlesex-education-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/education-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Administration (Top-up) BA Honours",
+    "slug": "middlesex-international-business-administration-top-up-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/international-business-administration-top-up-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law with Criminology",
+    "slug": "middlesex-llb-law-with-criminology",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/llb-law-with-criminology/",
+    "level": "Undergraduate",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Network Management and Cloud Computing MSc",
+    "slug": "middlesex-network-management-and-cloud-computing-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/network-management-and-cloud-computing-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Law and Social Sciences",
+    "slug": "middlesex-foundation-year-in-law-and-social-sciences",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-law-and-social-sciences/",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Information Technology BSc Honours",
+    "slug": "middlesex-information-technology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/information-technology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Games Design and Development BSc Honours",
+    "slug": "middlesex-games-design-and-development-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/games-design-and-development-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management (2 year top-up) BA",
+    "slug": "middlesex-business-management-2-year-top-up-ba",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-2-year-top-up-ba/",
+    "level": "Undergraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Computing and Engineering",
+    "slug": "middlesex-foundation-year-in-computing-and-engineering",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-computing-and-engineering/",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cognitive and Clinical Neuroscience MSc",
+    "slug": "middlesex-cognitive-and-clinical-neuroscience-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/cognitive-and-clinical-neuroscience-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Social Work (Top up) MA",
+    "slug": "middlesex-social-work-top-up-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/social-work-top-up-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education Studies BA Honours",
+    "slug": "middlesex-education-studies-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/education-studies-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Strength and Conditioning MSc Online Distance Learning",
+    "slug": "middlesex-strength-and-conditioning-msc-online-distance-learning",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/strength-and-conditioning-msc-online-distance-learning/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Investment and Finance MSc",
+    "slug": "middlesex-investment-and-finance-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/investment-and-finance-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Sport",
+    "slug": "middlesex-foundation-year-in-sport",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-sport/",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sustainability and Environmental Management MSc",
+    "slug": "middlesex-sustainability-and-environmental-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/sustainability-and-environmental-management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Early Childhood Studies BA Honours",
+    "slug": "middlesex-early-childhood-studies-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/early-childhood-studies-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Psychology with Neuroscience BSc Honours",
+    "slug": "middlesex-psychology-with-neuroscience-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/psychology-with-neuroscience-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animation BA Honours",
+    "slug": "middlesex-animation-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/animation-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Mathematics (QTS)",
+    "slug": "middlesex-pgce-mathematics-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-mathematics-qts-/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Primary Education QTS BA Honours",
+    "slug": "middlesex-primary-education-qts-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/primary-education-qts-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Midwifery with Professional Registration (Shortened Programme for Registered Adult Nurses) BSc Honours",
+    "slug": "middlesex-midwifery-with-professional-registration-shortened-programme-for-registered-adul",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/midwifery-with-professional-registration-shortened-programme-for-registered-adult-nurses-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Design Engineering BEng",
+    "slug": "middlesex-design-engineering-beng",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/design-engineering-beng/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE English with Drama (QTS)",
+    "slug": "middlesex-pgce-english-with-drama-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-english-with-drama-qts/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Accounting BSc Honours",
+    "slug": "middlesex-business-accounting-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-accounting-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Supply Chain Management MSc",
+    "slug": "middlesex-global-supply-chain-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/global-supply-chain-management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Arts Practice BA Honours",
+    "slug": "middlesex-professional-arts-practice-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/professional-arts-practice-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science (Medical Microbiology) MSc",
+    "slug": "middlesex-biomedical-science-medical-microbiology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-medical-microbiology-msc-/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Medical Science BSc (Hons)",
+    "slug": "middlesex-medical-science-bsc-hons",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/medical-science-bsc-hons/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cyber Security and Digital Forensics BSc",
+    "slug": "middlesex-cyber-security-and-digital-forensics-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/cyber-security-and-digital-forensics-bsc/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Social Work PGDip",
+    "slug": "middlesex-social-work-pgdip",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/social-work-pgdip/",
+    "level": "Graduate Diploma",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Information Technology and Business Information Systems (Top-up) BSc Honours",
+    "slug": "middlesex-information-technology-and-business-information-systems-top-up-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/information-technology-and-business-information-systems-top-up-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Communication and Styling BA Honours",
+    "slug": "middlesex-fashion-communication-and-styling-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/fashion-communication-and-styling-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Geography with Humanities (QTS)",
+    "slug": "middlesex-pgce-geography-with-humanities-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-geography-with-humanities-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Tourism Management BSc Honours",
+    "slug": "middlesex-international-tourism-management-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/international-tourism-management-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science - Medical Immunology MSc",
+    "slug": "middlesex-biomedical-science-medical-immunology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-medical-immunology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCert Paediatric Enhanced Clinical Practice (Specialism)",
+    "slug": "middlesex-pgcert-paediatric-enhanced-clinical-practice-specialism",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgcert-paediatric-enhanced-clinical-practice-specialism/",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 9000,
+    "annualUSD": 11430,
+    "totalGBP": 4500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Business",
+    "slug": "middlesex-foundation-year-in-business",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-business/",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management (Marketing) BA Honours",
+    "slug": "middlesex-business-management-marketing-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-marketing-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Healthcare Science (Cardiac Physiology) BSc Honours",
+    "slug": "middlesex-healthcare-science-cardiac-physiology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/healthcare-science-cardiac-physiology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Financial Services (Top-up) BSc Honours",
+    "slug": "middlesex-financial-services-top-up-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/financial-services-top-up-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Music BA Honours",
+    "slug": "middlesex-music-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/music-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Systems Engineering BEng",
+    "slug": "middlesex-computer-systems-engineering-beng",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/computer-systems-engineering-beng-/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management BA Honours",
+    "slug": "middlesex-business-management-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Medical Physiology BSc Honours",
+    "slug": "middlesex-medical-physiology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/medical-physiology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management Finance BA Honours",
+    "slug": "middlesex-business-management-finance-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-finance-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Public Health MSc",
+    "slug": "middlesex-public-health-mscpgdip",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/public-health-mscpgdip/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science (Haematology and Transfusion Science) MSc",
+    "slug": "middlesex-biomedical-science-haematology-and-transfusion-science-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-haematology-and-transfusion-science-msc-/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Engineering Management MSc",
+    "slug": "middlesex-engineering-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/engineering-management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Management MSc",
+    "slug": "middlesex-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Thank you for signing up",
+    "slug": "middlesex-thank-you",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/thank-you/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "We’ll be in touch soon",
+    "slug": "middlesex-thank-you",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/thank-you/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Teaching PGCert",
+    "slug": "middlesex-teaching-pgcert",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/teaching-pgcert/",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 9000,
+    "annualUSD": 11430,
+    "totalGBP": 4500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Robotics MSc",
+    "slug": "middlesex-robotics-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/robotics-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science - Clinical Biochemistry MSc",
+    "slug": "middlesex-biomedical-science-clinical-biochemistry-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-clinical-biochemistry-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Strength and Conditioning MSc",
+    "slug": "middlesex-strength-and-conditioning-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/strength-and-conditioning-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management (Innovation and Entrepreneurship) BA Honours",
+    "slug": "middlesex-business-management-innovation-and-entrepreneurship-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/business-management-innovation-and-entrepreneurship-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Clinical Practice MSc",
+    "slug": "middlesex-advanced-clinical-practice-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/advanced-clinical-practice-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology BSc Honours",
+    "slug": "middlesex-criminology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/criminology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Arts and Creative Industries",
+    "slug": "middlesex-foundation-year-in-arts-and-creative-industries",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-arts-and-creative-industries/",
+    "level": "Foundation",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 60000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology with Policing and Investigations BSc Honours",
+    "slug": "middlesex-criminology-policing-and-investigations-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/criminology-policing-and-investigations-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology with Psychology BSc Honours",
+    "slug": "middlesex-criminology-with-psychology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/criminology-with-psychology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sociology with Criminology BSc Honours",
+    "slug": "middlesex-sociology-with-criminology-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/sociology-with-criminology-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Professional Practice in Healthcare (Negotiated Specialism) MSc",
+    "slug": "middlesex-professional-practice-in-healthcare-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/professional-practice-in-healthcare-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Football Coaching and Performance BSc",
+    "slug": "middlesex-football-coaching-and-performance-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/football-coaching-and-performance-bsc-/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Executive MBA",
+    "slug": "middlesex-executive-master-of-business-administration-mba",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/executive-master-of-business-administration-mba/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Biology with Science (QTS)",
+    "slug": "middlesex-pgce-biology-with-science-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-biology-with-science-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Chemistry with Science (QTS)",
+    "slug": "middlesex-pgce-chemistry-with-science-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-chemistry-with-science-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PGCE Physics with Science (QTS)",
+    "slug": "middlesex-pgce-physics-with-science-qts",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pgce-physics-with-science-qts/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fine Art BA Honours",
+    "slug": "middlesex-fine-art-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/fine-art-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mental Health Nursing MSc (with NMC Registration)",
+    "slug": "middlesex-mental-health-nursing-msc-with-nmc-registration",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/mental-health-nursing-msc-with-nmc-registration/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport Performance Analysis MSc - Distance Education",
+    "slug": "middlesex-sport-performance-analysis-msc-distance-education",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/sport-performance-analysis-msc-distance-education/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "3D Animation for Games and Film BA Honours",
+    "slug": "middlesex-3d-animation-for-games-and-film-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/3d-animation-for-games-and-film-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cardiology MSc",
+    "slug": "middlesex-cardiology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/cardiology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electronic Engineering MSc",
+    "slug": "middlesex-electronic-engineering-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/electronic-engineering-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Legal Technology MSc",
+    "slug": "middlesex-legal-technology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/legal-technology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Financial Technology MSc",
+    "slug": "middlesex-financial-technology-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/financial-technology-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Marketing and Digital Communications BA Honours",
+    "slug": "middlesex-marketing-and-digital-communications-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/marketing-and-digital-communications-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Artificial Intelligence and Data Science BSc Honours",
+    "slug": "middlesex-artificial-intelligence-and-data-science-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/artificial-intelligence-and-data-science-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mechatronics and Robotics Engineering BEng Honours",
+    "slug": "middlesex-mechatronics-and-robotics-engineering-beng-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/mechatronics-and-robotics-engineering-beng-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Foundation Year in Accounting, Finance and Economics",
+    "slug": "middlesex-foundation-year-in-accounting-finance-and-economics",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/foundation-year-in-accounting-finance-and-economics/",
+    "level": "Foundation",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Social Work Practice MA/PGDip/PGCert",
+    "slug": "middlesex-advanced-social-work-practice-ma-pgdip-pgcert",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/advanced-social-work-practice-ma-pgdip-pgcert/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Qualified Teacher Status - Assessment Only (Primary and Secondary)",
+    "slug": "middlesex-qualified-teacher-status-qts-primary-and-secondary",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/qualified-teacher-status-qts-primary-and-secondary/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Financial Management MSc",
+    "slug": "middlesex-international-financial-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/international-financial-management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management (Enhanced) MSc",
+    "slug": "middlesex-international-business-management-enhanced-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/international-business-management-enhanced-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management MSc",
+    "slug": "middlesex-international-business-management-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/international-business-management-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Criminal Justice MSc",
+    "slug": "middlesex-criminology-and-criminal-justice-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/criminology-and-criminal-justice-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM Advanced Legal Practice (SQE Pathway)",
+    "slug": "middlesex-llm-advanced-legal-practice-sqe-pathway",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/llm-advanced-legal-practice-sqe-pathway-/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Human Resource Management MA (CIPD Accredited)",
+    "slug": "middlesex-human-resource-management-ma-cipd-accredited",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/human-resource-management-ma-cipd-accredited/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Strategic Leadership in Occupational Safety and Health MSc",
+    "slug": "middlesex-strategic-leadership-in-occupational-safety-and-health",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/strategic-leadership-in-occupational-safety-and-health/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Branding and Marketing Communications MSc",
+    "slug": "middlesex-branding-and-marketing-communications-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/branding-and-marketing-communications-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Relations and Diplomacy MA",
+    "slug": "middlesex-international-relations-and-diplomacy-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/international-relations-and-diplomacy-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Law and Human Rights LLM",
+    "slug": "middlesex-international-law-and-human-rights-llm",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/international-law-and-human-rights-llm/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mental Health and Addiction Studies MSc (Distance Education)",
+    "slug": "middlesex-mental-health-and-addiction-studies-msc-distance-education",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/mental-health-and-addiction-studies-msc-distance-education/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business and Commercial Law LLM",
+    "slug": "middlesex-international-business-and-commercial-law-llm",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/international-business-and-commercial-law-llm/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Pharmaceutical Sciences MSc",
+    "slug": "middlesex-pharmaceutical-sciences-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/pharmaceutical-sciences-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Information Systems and Data Management for Business MSc",
+    "slug": "middlesex-information-systems-and-data-management-for-business-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/information-systems-and-data-management-for-business-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Sport Rehabilitation and Soft Tissue Therapy MSc",
+    "slug": "middlesex-sport-rehabilitation-and-soft-tissue-therapy-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/sport-rehabilitation-and-soft-tissue-therapy-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Marketing Management MSc",
+    "slug": "middlesex-global-marketing-management-msc-honours",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/global-marketing-management-msc-honours/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science MSc",
+    "slug": "middlesex-biomedical-science-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cyber Security and Emerging Threats MSc",
+    "slug": "middlesex-cyber-security-and-emerging-threats-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/cyber-security-and-emerging-threats-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Building Information Modelling Management and Sustainable Digital Delivery MSc",
+    "slug": "middlesex-building-information-modelling-management-and-sustainable-digital-delivery-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/building-information-modelling-management-and-sustainable-digital-delivery-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Cybercrime and Digital Investigations MSc",
+    "slug": "middlesex-cybercrime-and-digital-investigations-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/cybercrime-and-digital-investigations-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM (General)",
+    "slug": "middlesex-llm-general",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/llm-general/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science (Medical Genomics) MSc",
+    "slug": "middlesex-biomedical-science-medical-genomics-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/biomedical-science-medical-genomics-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Pharmaceutical Sciences BSc Honours",
+    "slug": "middlesex-pharmaceutical-sciences-bsc-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/pharmaceutical-sciences-bsc-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Adult Nursing MSc (with NMC Registration)",
+    "slug": "middlesex-adult-nursing-msc-with-nmc-registration",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/adult-nursing-msc-with-nmc-registration/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative Media, Branding and Advertising BA Honours",
+    "slug": "middlesex-creative-media-branding-and-advertising-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/creative-media-branding-and-advertising-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Media Production BA Honours",
+    "slug": "middlesex-digital-media-production-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/digital-media-production-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Football Coaching and Performance with Foundation Year BSc",
+    "slug": "middlesex-football-coaching-and-performance-with-foundation-year-bsc",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/football-coaching-and-performance-with-foundation-year-bsc/",
+    "level": "Undergraduate",
+    "duration": "145 years",
+    "durationYears": 145,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 2175000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Audio and Podcasting MA",
+    "slug": "middlesex-audio-and-podcasting-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/audio-and-podcasting-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Music and Sound for Screen MA",
+    "slug": "middlesex-music-and-sound-for-screen-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/music-and-sound-for-screen-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Audio Production MA",
+    "slug": "middlesex-audio-production-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/audio-production-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Film Production MA",
+    "slug": "middlesex-film-production-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/film-production-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Production Design MA",
+    "slug": "middlesex-production-design-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/production-design-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Animation MA",
+    "slug": "middlesex-animation-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/animation-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graphic Design and Creative AI MA",
+    "slug": "middlesex-graphic-design-and-creative-ai-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/graphic-design-and-creative-ai-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Games Design MA",
+    "slug": "middlesex-games-design-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/games-design-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interactive Experience Design MA",
+    "slug": "middlesex-interactive-experience-design-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/interactive-experience-design-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Virtual Production MA",
+    "slug": "middlesex-virtual-production-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/virtual-production-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Fashion, Innovation and AI MA",
+    "slug": "middlesex-digital-fashion-innovation-and-ai-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/digital-fashion-innovation-and-ai-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "User Interface and User Experience (UI/UX) Design MA",
+    "slug": "middlesex-user-interface-and-user-experience-uiux-design-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/user-interface-and-user-experience-uiux-design-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Media and Content Creation MA",
+    "slug": "middlesex-digital-media-and-content-creation-ma",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/digital-media-and-content-creation-ma/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Mental Health Studies MSc",
+    "slug": "middlesex-mental-health-studies-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/mental-health-studies-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Content Creation BA Honours",
+    "slug": "middlesex-content-creation-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/content-creation-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "User Interface and User Experience (UI/UX) Design BA Honours",
+    "slug": "middlesex-user-interface-and-user-experience-design-ba-honours",
+    "url": "https://www.mdx.ac.uk/courses/undergraduate/user-interface-and-user-experience-design-ba-honours/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied AI and Data Science MSc",
+    "slug": "middlesex-applied-ai-and-data-science-msc",
+    "url": "https://www.mdx.ac.uk/courses/postgraduate/applied-ai-and-data-science-msc/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Hendon Campus",
+    "currency": "GBP"
+  }
+]

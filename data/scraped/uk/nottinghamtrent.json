@@ -1,0 +1,740 @@
+[
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Games Technology",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-games-technology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-beng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electrical and Electronic Engineering",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-beng-electrical-and-electronic-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Architecture Engineering",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-beng-architecture-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Construction Management",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-construction-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Administration",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc International Business",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Marketing",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Fashion Management",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-fashion-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "nottinghamtrent-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 19500,
+    "annualUSD": 24765,
+    "totalGBP": 19500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business Management",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-international-business-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Investment",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-finance-and-investment",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing Management",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-marketing-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Human Resource Management",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-human-resource-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-nursing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Paramedic Science",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-paramedic-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "nottinghamtrent-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "nottinghamtrent-llm-international-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-ba-criminology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Fashion Design",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-ba-fashion-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Graphic Design",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-ba-graphic-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Fine Art",
+    "level": "Undergraduate",
+    "slug": "nottinghamtrent-ba-fine-art",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Fashion Design",
+    "level": "Masters",
+    "slug": "nottinghamtrent-ma-fashion-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Architecture",
+    "level": "Masters",
+    "slug": "nottinghamtrent-ma-architecture",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "nottinghamtrent-phd-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "nottinghamtrent-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "nottinghamtrent-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  }
+]

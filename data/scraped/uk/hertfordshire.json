@@ -1,0 +1,794 @@
+[
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cyber Security",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-cyber-security",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Artificial Intelligence",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity and Digital Forensics",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-cybersecurity-and-digital-forensics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc IT Management",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-it-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Aerospace Engineering",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-beng-aerospace-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-beng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electronic Engineering",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-beng-electronic-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Automotive Engineering",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-beng-automotive-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Aerospace Engineering",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-aerospace-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Mechanical Engineering",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-advanced-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Administration",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc International Business",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Marketing",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "hertfordshire-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 17500,
+    "annualUSD": 22225,
+    "totalGBP": 17500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Management",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-international-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Accounting",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-finance-and-accounting",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-nursing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Pharmacy",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-pharmacy",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 54000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Paramedic Science",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-paramedic-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Clinical Practice",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-advanced-clinical-practice",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Pharmaceutical Sciences",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-pharmaceutical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Law",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-ba-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-ba-criminology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Education Studies",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-ba-education-studies",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "hertfordshire-msc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM Law",
+    "level": "Masters",
+    "slug": "hertfordshire-llm-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Animation",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-ba-animation",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Graphic Design",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-ba-graphic-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Film and Television Production",
+    "level": "Undergraduate",
+    "slug": "hertfordshire-ba-film-and-television-production",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13500,
+    "annualUSD": 17145,
+    "totalGBP": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Animation",
+    "level": "Masters",
+    "slug": "hertfordshire-ma-animation",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 14500,
+    "annualUSD": 18415,
+    "totalGBP": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "hertfordshire-phd-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "hertfordshire-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "hertfordshire-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "de Havilland Campus",
+    "currency": "GBP"
+  }
+]

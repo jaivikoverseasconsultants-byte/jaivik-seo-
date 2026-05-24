@@ -1,0 +1,830 @@
+[
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Artificial Intelligence",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "coventry-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science and Computational Intelligence",
+    "level": "Masters",
+    "slug": "coventry-msc-data-science-and-computational-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "coventry-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "coventry-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc IT Management",
+    "level": "Masters",
+    "slug": "coventry-msc-it-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Automotive Engineering",
+    "level": "Undergraduate",
+    "slug": "coventry-beng-automotive-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Aerospace Engineering",
+    "level": "Undergraduate",
+    "slug": "coventry-beng-aerospace-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "coventry-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "coventry-beng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Undergraduate",
+    "slug": "coventry-beng-electrical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Mechanical Engineering",
+    "level": "Masters",
+    "slug": "coventry-msc-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Aerospace Engineering",
+    "level": "Masters",
+    "slug": "coventry-msc-aerospace-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Construction Project Management",
+    "level": "Masters",
+    "slug": "coventry-msc-construction-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Structural Engineering",
+    "level": "Masters",
+    "slug": "coventry-msc-structural-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Administration",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc International Business",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Marketing",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Economics",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-business-economics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "coventry-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business Management",
+    "level": "Masters",
+    "slug": "coventry-msc-international-business-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance and Investment",
+    "level": "Masters",
+    "slug": "coventry-msc-finance-and-investment",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing Management",
+    "level": "Masters",
+    "slug": "coventry-msc-marketing-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Human Resource Management",
+    "level": "Masters",
+    "slug": "coventry-msc-human-resource-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "coventry-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-nursing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Paramedic Science",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-paramedic-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Midwifery",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-midwifery",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Physiotherapy",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-physiotherapy",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "coventry-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "coventry-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Health and Social Care Management",
+    "level": "Masters",
+    "slug": "coventry-msc-health-and-social-care-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "coventry-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Commercial Law",
+    "level": "Masters",
+    "slug": "coventry-llm-international-commercial-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Undergraduate",
+    "slug": "coventry-ba-criminology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA English",
+    "level": "Undergraduate",
+    "slug": "coventry-ba-english",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Architecture",
+    "level": "Masters",
+    "slug": "coventry-msc-architecture",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA Interior Design",
+    "level": "Undergraduate",
+    "slug": "coventry-ba-interior-design",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "coventry-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "coventry-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computing",
+    "level": "PhD",
+    "slug": "coventry-phd-computing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "totalGBP": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "City of Coventry Campus",
+    "currency": "GBP"
+  }
+]

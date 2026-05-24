@@ -1,0 +1,5544 @@
+[
+  {
+    "name": "Accounting (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-accounting-extended-degree-uusxci1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-accounting-extended-degree-uusxci1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Finance (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-accounting-and-finance-completion-award-newcastle-uufatf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-accounting-and-finance-completion-award-newcastle-uufatf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Finance (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-accounting-and-finance-newcastle-uusatf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-accounting-and-finance-newcastle-uusatf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Accounting and Finance (Top-Up)",
+    "slug": "northumbria-bsc-hons-accounting-and-finance-completion-award-london-subject-to-validation-uu",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-accounting-and-finance-completion-award-london-subject-to-validation-uufatl1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9790,
+    "annualUSD": 12433,
+    "totalGBP": 29370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Finance MSc",
+    "slug": "northumbria-msc-accounting-and-finance-dtfaaf6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-accounting-and-finance-dtfaaf6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting and Finance MSc",
+    "slug": "northumbria-msc-accounting-and-finance-newcastle-dtfaaj6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-accounting-and-finance-newcastle-dtfaaj6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Accounting BSc (Hons)",
+    "slug": "northumbria-bsc-hons-accounting-uusaci1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-accounting-uusaci1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Computer Science MSc",
+    "slug": "northumbria-msc-advanced-computer-science-dtfava6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-advanced-computer-science-dtfava6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Computer Science with Advanced Practice MSc",
+    "slug": "northumbria-master-of-science-advanced-computer-science-with-advanced-practice-dtsavf6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-science-advanced-computer-science-with-advanced-practice-dtsavf6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Computer Science MSc",
+    "slug": "northumbria-msc-advanced-computer-science-16-months-dtfavb6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-advanced-computer-science-16-months-dtfavb6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Advanced Musculoskeletal Physiotherapy Practice",
+    "slug": "northumbria-advanced-musculoskeletal-physiotherapy-practice-dtpssk8",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/advanced-musculoskeletal-physiotherapy-practice-dtpssk8/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Aerospace Satellite Engineering (Extended Degree) BEng (Hons)",
+    "slug": "northumbria-beng-hons-aerospace-satellite-engineering-extended-degree-uusxes1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-aerospace-satellite-engineering-extended-degree---uusxes1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Aerospace Satellite Engineering (with Advanced Practice) MSc",
+    "slug": "northumbria-msc-aerospace-satellite-engineering-with-advanced-practice-dtsaea6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-aerospace-satellite-engineering-with-advanced-practice-dtsaea6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Aerospace Satellite Engineering BEng (Hons)",
+    "slug": "northumbria-beng-hons-aerospace-satellite-engineering-uusaes1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-aerospace-satellite-engineering---uusaes1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Aerospace Satellite Engineering MEng (Hons)",
+    "slug": "northumbria-meng-hons-aerospace-satellite-engineering-uusaet1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/meng-hons-aerospace-satellite-engineering---uusaet1/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Aerospace Satellite Engineering MSc",
+    "slug": "northumbria-msc-aerospace-satellite-engineering-dtfaes6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-aerospace-satellite-engineering-dtfaes6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Aerospace Satellite Engineering MSc",
+    "slug": "northumbria-msc-aerospace-satellite-engineering-dtfaet6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-aerospace-satellite-engineering---dtfaet6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Linguistics for TESOL MA",
+    "slug": "northumbria-applied-linguistics-for-tesol-dtfalt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/applied-linguistics-for-tesol-dtfalt6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Applied Linguistics for TESOL MA",
+    "slug": "northumbria-applied-linguistics-for-tesol-dtpalt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/applied-linguistics-for-tesol-dtpalt6/",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Architecture (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-architecture-extended-degree-uufxhe1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-architecture-extended-degree-uufxhe1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Architecture BA (Hons)",
+    "slug": "northumbria-architecture-ba-hons-uufahe1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/architecture-ba-hons-uufahe1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Architecture MArch",
+    "slug": "northumbria-architecture-march-ft-dufaht1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/architecture-march-ft-dufaht1/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Artificial Intelligence (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-artificial-intelligence-extended-degree-bsc-hons-uusxri1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/artificial-intelligence-extended-degree-bsc-hons-uusxri1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Artificial Intelligence BSc (Hons)",
+    "slug": "northumbria-bsc-hons-artificial-intelligence-uusari1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-artificial-intelligence-uusari1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Artificial Intelligence MSc",
+    "slug": "northumbria-msc-artificial-intelligence-dtfari6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-artificial-intelligence-dtfari6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence Technology (with Advanced Practice)",
+    "slug": "northumbria-msc-artificial-intelligence-technology-full-time-london-subject-to-validation-dt",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-artificial-intelligence-technology-full-time-london-subject-to-validation-dtfarn6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence Technology (with Advanced Practice)",
+    "slug": "northumbria-msc-artificial-intelligence-technology-with-advanced-practice-london-subject-to-",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-artificial-intelligence-technology-with-advanced-practice--london-subject-to-validation-dtsait6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Arts MRes",
+    "slug": "northumbria-arts-dtfaar6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/arts-dtfaar6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Arts MRes",
+    "slug": "northumbria-arts-dtpaar6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/arts-dtpaar6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Automotive Engineering (Extended Degree) BEng (Hons)",
+    "slug": "northumbria-automotive-engineering-extended-degree-uusxuv1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/automotive-engineering-extended-degree-uusxuv1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Automotive Engineering BEng (Hons)",
+    "slug": "northumbria-beng-hons-automotive-engineering-uusauv1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-automotive-engineering-uusauv1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Automotive Engineering MEng (Hons)",
+    "slug": "northumbria-meng-automotive-engineering-uusauo1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/meng-automotive-engineering-uusauo1/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Bar Course",
+    "slug": "northumbria-bar-course-ft-dtfbtc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bar-course-ft-dtfbtc6/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Bar Course",
+    "slug": "northumbria-bar-course-pt-dtpbtc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bar-course-pt-dtpbtc6/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Bar Course LLM",
+    "slug": "northumbria-masters-of-law-bar-course-llm-ft-dtfbte6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/masters-of-law-bar-course-llm-ft-dtfbte6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Bar Course LLM",
+    "slug": "northumbria-master-of-law-bar-course-llm-dtpbte6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-law-bar-course-llm-dtpbte6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Bar Knowledge Course",
+    "slug": "northumbria-bar-knowledge-course-dtpbkt8",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bar-knowledge-course-dtpbkt8/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Bar Skills Course",
+    "slug": "northumbria-bar-skills-course-dtpbsk6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bar-skills-course-dtpbsk6/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Big Data and Data Science Technology (with Advanced Practice)",
+    "slug": "northumbria-msc-big-data-and-data-science-with-advanced-practice-london-subject-to-validatio",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-big-data-and-data-science-with-advanced-practice--london-subject-to-validation-dtsbdd6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Big Data and Data Science Technology (with Advanced Practice)",
+    "slug": "northumbria-msc-big-data-and-data-science-technology-full-time-london-subject-to-validation-",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-big-data-and-data-science-technology-full-time-london-subject-to-validation-dtfbgd6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biochemistry (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-biochemistry-extended-degree-uusxch1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-biochemistry-extended-degree-uusxch1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biochemistry BSc (Hons)",
+    "slug": "northumbria-biochemistry-bsc-hons-uusbch1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/biochemistry-bsc-hons-uusbch1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biological Sciences (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-biological-sciences-extended-degree-uusxbb1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-biological-sciences-extended-degree-uusxbb1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biological Sciences BSc (Hons)",
+    "slug": "northumbria-bsc-hons-biological-sciences-uuscbb1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-biological-sciences-uuscbb1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-biomedical-science-extended-degree-uusxom1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-biomedical-science-extended-degree-uusxom1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science BSc (Hons)",
+    "slug": "northumbria-biomedical-science-uusbom1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/biomedical-science-uusbom1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biomedical Science BSc (Hons)",
+    "slug": "northumbria-biomedical-science-pt-bsc-hons-dupbom1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/biomedical-science-pt-bsc-hons-dupbom1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biotechnology MSc",
+    "slug": "northumbria-biotechnology-dtfbty6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/biotechnology-dtfbty6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Biotechnology MSc",
+    "slug": "northumbria-biotechnology-dtpbty6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/biotechnology-dtpbty6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Occupational Therapy | Degree Apprenticeship BSC (Hons)",
+    "slug": "northumbria-bsc-hons-occupational-therapy-degree-apprenticeship-dufoyd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-occupational-therapy-degree-apprenticeship-dufoyd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Building Surveying (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-building-surveying-extended-degree-uusxdv1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-building-surveying-extended-degree-uusxdv1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Building Surveying BSc (Hons)",
+    "slug": "northumbria-building-surveying-bsc-ft-uusbdv1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/building-surveying-bsc-ft-uusbdv1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Analytics MSc",
+    "slug": "northumbria-business-analytics-msc-dtfbna6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-analytics-msc-dtfbna6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Analytics MSc",
+    "slug": "northumbria-business-analytics-msc-with-advanced-practice-dtsbnl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-analytics-msc-with-advanced-practice-dtsbnl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Analytics (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-business-and-analytics-extended-degree-uusxaa1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-business-and-analytics-extended-degree-uusxaa1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Business and Analytics",
+    "slug": "northumbria-bsc-hons-business-and-analytics-uusbaa1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-business-and-analytics-uusbaa1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Entrepreneurship (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-business-and-entrepreneurship-extended-degree-uusxer1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-entrepreneurship-extended-degree-uusxer1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA (Hons) Business and Entrepreneurship",
+    "slug": "northumbria-ba-hons-business-and-entrepreneurship-uusber1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-entrepreneurship-uusber1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Human Resource Management (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-business-and-human-resource-management-extended-degree-uusxrm1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-human-resource-management-extended-degree-uusxrm1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Human Resource Management BA (Hons)",
+    "slug": "northumbria-ba-hons-business-and-human-resource-management-uusbrm1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-human-resource-management-uusbrm1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management BA (Hons)",
+    "slug": "northumbria-ba-hons-business-and-management-distance-learning-dupbde1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-management-distance-learning-dupbde1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management BA (Hons) Top Up",
+    "slug": "northumbria-ba-hons-business-and-management-distance-learning-dudbmi1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-management-distance-learning-dudbmi1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "NaN years",
+    "durationYears": null,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": null,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management MSc",
+    "slug": "northumbria-msc-business-and-management-dtfbdn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-and-management-dtfbdn6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management MSc",
+    "slug": "northumbria-msc-business-and-management-with-advanced-practice-dtsbdn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-and-management-with-advanced-practice-dtsbdn6/",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management MSc",
+    "slug": "northumbria-msc-business-and-management-dtfbdj6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-and-management-dtfbdj6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Management MSc",
+    "slug": "northumbria-msc-business-and-management-distance-learning-dtdbnt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-and-management-distance-learning-dtdbnt6/",
+    "level": "Masters",
+    "duration": "NaN years",
+    "durationYears": null,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": null,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Marketing (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-business-and-marketing-extended-degree-uusxmr2mrn",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-marketing-extended-degree-uusxmr2mrn/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Marketing BA (Hons)",
+    "slug": "northumbria-business-and-marketing-ba-hons-uusbmr2mrn",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-and-marketing-ba-hons-uusbmr2mrn/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business and Supply Chain Management (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-business-and-supply-chain-management-extended-degree-uusxmt1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-supply-chain-management-extended-degree-uusxmt1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA (Hons) Business and Supply Chain Management",
+    "slug": "northumbria-ba-hons-business-and-supply-chain-management-uuscmt1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-and-supply-chain-management-uuscmt1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Computing (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-business-computing-extended-degree-uusxcp1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-business-computing-extended-degree-uusxcp1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Computing BSc (Hons)",
+    "slug": "northumbria-bsc-hons-business-computing-uusbcp1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-business-computing-uusbcp1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-business-management-extended-degree-uusxnb1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-management-extended-degree-uusxnb1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management BA (Hons)",
+    "slug": "northumbria-ba-hons-business-management-uusbnb1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-management-uusbnb1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Business Management BA (Hons)",
+    "slug": "northumbria-ba-hons-business-management-i2i-sports-dufbni1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-business-management-i2i-sports-dufbni1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Business Analytics (with Advanced Practice)",
+    "slug": "northumbria-msc-business-with-business-analytics-london-dtfbla6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-with-business-analytics-london-dtfbla6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Business Analytics (with Advanced Practice)",
+    "slug": "northumbria-msc-business-with-business-analytics-with-advanced-practice-london-dtsbbl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-with-business-analytics-with-advanced-practice-london-dtsbbl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Entrepreneurship (with Advanced Practice)",
+    "slug": "northumbria-business-with-entrepreneurship-with-advanced-practice-london-dtsenq6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-with-entrepreneurship-with-advanced-practice-london-dtsenq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Entrepreneurship (with Advanced Practice)",
+    "slug": "northumbria-msc-business-with-entrepreneurship-london-dtfenz6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-with-entrepreneurship-london-dtfenz6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Financial Management (with Advanced Practice)",
+    "slug": "northumbria-london-business-with-financial-management-dtfbfl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/london-business-with-financial-management-dtfbfl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Financial Management (with Advanced Practice)",
+    "slug": "northumbria-business-with-financial-management-with-advanced-practice-london-campus-dtsbfq6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-with-financial-management-with-advanced-practice-london-campus-dtsbfq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Hospitality and Tourism Management (with Advanced Practice)",
+    "slug": "northumbria-msc-business-with-hospitality-and-tourism-management-london-dtfbhl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-with-hospitality-and-tourism-management-london-dtfbhl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Hospitality and Tourism Management (with Advanced Practice)",
+    "slug": "northumbria-msc-business-with-hospitality-and-tourism-management-with-advanced-practice-lond",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-with-hospitality-and-tourism-management-with-advanced-practice-london-dtsbhl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Human Resource Management (with Advanced Practice)",
+    "slug": "northumbria-business-with-human-resource-management-london-dtfbrz6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-with-human-resource-management-london-dtfbrz6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Human Resource Management (with Advanced Practice)",
+    "slug": "northumbria-business-with-human-resource-management-with-advanced-practice-london-campus-dts",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-with-human-resource-management-with-advanced-practice-london-campus-dtsbrq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with International Management (with Advanced Practice)",
+    "slug": "northumbria-business-with-international-management-london-dtfbiq6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-with-international-management-london-dtfbiq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with International Management (with Advanced Practice)",
+    "slug": "northumbria-business-with-international-management-with-advanced-practice-london-campus-dtsb",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-with-international-management-with-advanced-practice-london-campus-dtsbiq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Business with Marketing Management (with Advanced Practice)",
+    "slug": "northumbria-msc-business-with-marketing-management-london-dtfbal6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-business-with-marketing-management-london-dtfbal6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Business Enterprise and Innovation Management (Top-Up)",
+    "slug": "northumbria-bsc-hons-business-enterprise-and-innovation-management-top-up-london-dufbecdl",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-business-enterprise-and-innovation-management-top-up--london-dufbecdl/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9535,
+    "annualUSD": 12109,
+    "totalGBP": 28605,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Chartered Manager Degree Apprenticeship | Business Leadership and Management Practice BA (Hons)",
+    "slug": "northumbria-business-leadership-and-management-practice-duplmp1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/business-leadership-and-management-practice-duplmp1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Chartered Surveyor Degree Apprenticeship | Quantity Surveying BSc (Hons)",
+    "slug": "northumbria-bsc-hons-quantity-surveying-dupqys1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-quantity-surveying-dupqys1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Chemistry (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-chemistry-extended-degree-uusxhy1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-chemistry-extended-degree-uusxhy1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Chemistry BSc (Hons)",
+    "slug": "northumbria-chemistry-uuschy1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/chemistry-uuschy1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Chemistry MChem",
+    "slug": "northumbria-chemistry-uusmch1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/chemistry-uusmch1/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Childhood And Early Years Studies MA",
+    "slug": "northumbria-ma-childhood-and-early-year-studies-dtfcew6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-childhood-and-early-year-studies-dtfcew6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Childhood and Early Years Studies (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-ba-hons-childhood-and-early-years-studies-extended-degree-uufxes1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-childhood-and-early-years-studies-extended-degree-uufxes1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Childhood and Early Years Studies BA (Hons)",
+    "slug": "northumbria-childhood-and-early-years-studies-ba-hons-uufces1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/childhood-and-early-years-studies-ba-hons-uufces1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Civil Engineering (Extended Degree) BEng (Hons)",
+    "slug": "northumbria-beng-hons-civil-engineering-extended-degree-uusxie1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-civil-engineering-extended-degree-uusxie1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Civil Engineering BEng (Hons)",
+    "slug": "northumbria-civil-engineering-beng-ft-uuscie1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/civil-engineering-beng-ft-uuscie1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Civil Engineering Degree Apprenticeship | Civil Engineering BEng (Hons)",
+    "slug": "northumbria-beng-hons-civil-engineering-degree-apprenticeship-dupcig1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-civil-engineering-degree-apprenticeship-dupcig1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Civil Engineering MEng (Hons)",
+    "slug": "northumbria-civil-engineering-meng-ft-uusciv1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/civil-engineering-meng-ft-uusciv1/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clinical Exercise Physiology MSc",
+    "slug": "northumbria-msc-clinical-exercise-physiology-dtfcxp6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-clinical-exercise-physiology--dtfcxp6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Clinical Exercise Physiology MSc",
+    "slug": "northumbria-msc-clinical-exercise-physiology-dtpcxp6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-clinical-exercise-physiology-dtpcxp6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Communication Design",
+    "slug": "northumbria-communication-design-ma-dtfcdg6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/communication-design-ma-dtfcdg6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (Adult Social Care Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-adult-social-care-nursing-postgraduate-diploma",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-adult-social-care-nursing-postgraduate-diploma-dtfnas6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (Adult Social Care Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-adult-social-care-nursing-postgraduate-diploma",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-adult-social-care-nursing-postgraduate-diploma-dtpnas6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (Children's Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-community-childrens-nursing-postgraduate-diplo",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-community-childrens-nursing-postgraduate-diploma-dtfncg6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (Children's Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-community-childrens-nursing-postgraduate-diplo",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-community-childrens-nursing-postgraduate-diploma-dtpncg6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (District Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-district-nursing-postgraduate-diploma-dtfndr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-district-nursing-postgraduate-diploma-dtfndr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (District Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-district-nursing-postgraduate-diploma-dtpndr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-district-nursing-postgraduate-diploma-dtpndr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (General Practice Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-general-practice-nursing-postgraduate-diploma-",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-general-practice-nursing-postgraduate-diploma-dtfngl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner (General Practice Nursing) Postgraduate Diploma",
+    "slug": "northumbria-community-specialist-practitioner-general-practice-nursing-postgraduate-diploma-",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/community-specialist-practitioner-general-practice-nursing-postgraduate-diploma-dtpngl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Community Specialist Practitioner Higher Apprenticeship",
+    "slug": "northumbria-higher-apprenticeship-in-community-specialist-practitioner-dtpcpc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/higher-apprenticeship-in-community-specialist-practitioner-dtpcpc6/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-computer-science-extended-degree-uusxms1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computer-science-extended-degree-uusxms1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science BSc (Hons)",
+    "slug": "northumbria-bsc-hons-computer-science-uuscms1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computer-science-uuscms1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science with Advanced Practice MSc",
+    "slug": "northumbria-msc-computer-science-with-advanced-practice-dtscsm6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-computer-science-with-advanced-practice--dtscsm6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science MSc",
+    "slug": "northumbria-msc-computer-science-dtfcsd6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-computer-science-dtfcsd6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science MSc",
+    "slug": "northumbria-msc-computer-science-16-months-dtfmcs6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-computer-science-16-months-dtfmcs6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science with Artificial Intelligence MSc",
+    "slug": "northumbria-msc-computer-science-with-artificial-intelligence-distance-learning-dtdsar6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-computer-science-with-artificial-intelligence-distance-learning-dtdsar6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computer Science with Data Analytics MSc",
+    "slug": "northumbria-msc-computer-science-with-data-analytics-distance-learning-dtdcda6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-computer-science-with-data-analytics-distance-learning-dtdcda6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Computing (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-computing-top-up-award-uufcou1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computing-top-up-award-uufcou1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computing and Technology (with Advanced Practice)",
+    "slug": "northumbria-msc-computing-and-technology-london-dtfctc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-computing-and-technology-london-dtfctc6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computing and Technology (with Advanced Practice)",
+    "slug": "northumbria-master-of-science-computing-and-technology-with-advanced-practice-london-dtscot6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-science-computing-and-technology-with-advanced-practice-london-dtscot6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Computing with Artificial Intelligence Technology",
+    "slug": "northumbria-bsc-hons-computing-with-artificial-intelligence-technology-full-time-london-subj",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computing-with-artificial-intelligence-technology-full-time-london-subject-uufctg3arn/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9790,
+    "annualUSD": 12433,
+    "totalGBP": 29370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Computing with Cyber Security Technology",
+    "slug": "northumbria-bsc-hons-computing-with-cyber-security-technology-full-time-london-subject-to-va",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computing-with-cyber-security-technology--full-time-london-subject-to-validation-uufctg3cyt/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9790,
+    "annualUSD": 12433,
+    "totalGBP": 29370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Computing with Data Science and Big Data Technology",
+    "slug": "northumbria-bsc-hons-computing-with-data-science-and-big-data-technology-full-time-london-uu",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computing-with-data-science-and-big-data-technology-full-time-london-uufctg3dsb/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9790,
+    "annualUSD": 12433,
+    "totalGBP": 29370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Computing with Information Technology Management",
+    "slug": "northumbria-bsc-hons-computing-with-information-technology-management-full-time-london-subje",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computing-with-information-technology-management-full-time-london-subject-to-validation-uuf/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9790,
+    "annualUSD": 12433,
+    "totalGBP": 29370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Computing with Technology",
+    "slug": "northumbria-bsc-hons-computing-with-technology-full-time-london-subject-to-validation-uufctg",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-computing-with-technology-full-time-london-subject-to-validation-uufctg1tcn/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 9790,
+    "annualUSD": 12433,
+    "totalGBP": 29370,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Conservation of Fine Art (Easel Paintings) MA",
+    "slug": "northumbria-ma-conservation-of-fine-art-easel-paintings-dtfcfp6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-conservation-of-fine-art-easel-paintings-dtfcfp6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Conservation of Fine Art (Works of Art on Paper) MA",
+    "slug": "northumbria-ma-conservation-of-fine-art-works-of-art-on-paper-dtfcfq6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-conservation-of-fine-art-works-of-art-on-paper-dtfcfq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc (Hons) Construction Management (Extended Degree)",
+    "slug": "northumbria-bsc-hons-construction-management-extended-degree-uusxum1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-construction-management-extended-degree-uusxum1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Management BSc (Hons)",
+    "slug": "northumbria-bsc-hons-construction-management-uuscum1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-construction-management-uuscum1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Project Management with BIM MSc",
+    "slug": "northumbria-construction-project-management-with-bim-msc-ft-dtfcpj6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/construction-project-management-with-bim-msc-ft-dtfcpj6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Project Management with BIM MSc",
+    "slug": "northumbria-construction-project-management-with-bim-with-advanced-practice-msc-ft-dtscjp6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/construction-project-management-with-bim-with-advanced-practice-msc-ft-dtscjp6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Project Management with BIM MSc",
+    "slug": "northumbria-construction-project-management-with-bim-dtfcpf6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/construction-project-management-with-bim-dtfcpf6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Construction Quantity Surveyor Degree Apprenticeship | Quantity Surveying (Construction) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-quantity-surveying-construction-degree-apprenticeship-dupqss1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-quantity-surveying-construction-degree-apprenticeship-dupqss1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative and Cultural Industries Management MA",
+    "slug": "northumbria-creative-and-cultural-industries-management-dtfcci6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/creative-and-cultural-industries-management-dtfcci6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative and Cultural Industries Management MA",
+    "slug": "northumbria-creative-and-cultural-industries-management-dtpcci6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/creative-and-cultural-industries-management-dtpcci6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative Writing MA",
+    "slug": "northumbria-creative-writing-dtfcwr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/creative-writing-dtfcwr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Creative Writing MA",
+    "slug": "northumbria-creative-writing-dtpcwr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/creative-writing-dtpcwr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-criminology-extended-degree-uusxmg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-criminology-extended-degree-uusxmg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Criminal Justice MA",
+    "slug": "northumbria-criminology-and-criminal-justice-dtfscr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/criminology-and-criminal-justice-dtfscr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Criminal Justice MA",
+    "slug": "northumbria-criminology-and-criminal-justice-dtpscz6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/criminology-and-criminal-justice-dtpscz6/",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Forensic Science (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-criminology-and-forensic-science-extended-degree-uusxmg2frs",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-criminology-and-forensic-science-extended-degree-uusxmg2frs/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Forensic Science BSc (Hons)",
+    "slug": "northumbria-criminology-and-forensic-science-uuscmg2frs",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/criminology-and-forensic-science-uuscmg2frs/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Sociology (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-criminology-and-sociology-extended-degree-uusxso2scg",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-criminology-and-sociology-extended-degree-uusxso2scg/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology and Sociology BSc (Hons)",
+    "slug": "northumbria-criminology-and-sociology-uuscmg2scg",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/criminology-and-sociology-uuscmg2scg/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Criminology BSc (Hons)",
+    "slug": "northumbria-criminology-uuscmg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/criminology-uuscmg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cyber Security (with Advanced Practice)",
+    "slug": "northumbria-cyber-security-london-campus-dtfcyz6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/cyber-security-london-campus-dtfcyz6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cyber Security Technology (with Advanced Practice)",
+    "slug": "northumbria-master-of-science-cyber-security-technology-with-advanced-practice-london-dtscyy",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-science-cyber-security-technology-with-advanced-practice-london-dtscyy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cyber Security Technology (with Advanced Practice)",
+    "slug": "northumbria-msc-cyber-security-technology-london-dtfcyt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-cyber-security-technology-london-dtfcyt6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cyber Security Technology (Part-Time)",
+    "slug": "northumbria-msc-cyber-technology-london-part-time-dtpcyt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-cyber-technology-london-part-time-dtpcyt6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11250,
+    "annualUSD": 14288,
+    "totalGBP": 11250,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Protection Law and Information Governance Postgraduate Certificate",
+    "slug": "northumbria-data-protection-law-and-information-governance-dtpdpg6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/data-protection-law-and-information-governance-dtpdpg6/",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 9500,
+    "annualUSD": 12065,
+    "totalGBP": 4750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Science (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-data-science-extended-degree-uusxsc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-data-science-extended-degree-uusxsc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Science BSc (Hons)",
+    "slug": "northumbria-bsc-hons-data-science-uusdsc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-data-science-uusdsc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Science MSc",
+    "slug": "northumbria-data-science-msc-16-months-dtfdas6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/data-science-msc-16-months-dtfdas6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Science MSc",
+    "slug": "northumbria-data-science-msc-dtfdsc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/data-science-msc-dtfdsc6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Science MSc",
+    "slug": "northumbria-msc-data-science-dtfdsj6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-data-science-dtfdsj6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Data Science MSc",
+    "slug": "northumbria-data-science-advance-practice-msc-dtsdsc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/data-science-advance-practice-msc-dtsdsc6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Design MRes",
+    "slug": "northumbria-design-dtfdey6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/design-dtfdey6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Design MRes",
+    "slug": "northumbria-design-dtpdey6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/design-dtpdey6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital and Immersive Arts MA",
+    "slug": "northumbria-ma-digital-and-immersive-arts-dtfdii6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-digital-and-immersive-arts-dtfdii6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Design (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-digital-design-extended-degree-newcastle-uusxid1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-digital-design-extended-degree-newcastle-uusxid1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Design BA (Hons)",
+    "slug": "northumbria-ba-hons-digital-design-uusdid1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-digital-design-uusdid1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Marketing MSc",
+    "slug": "northumbria-digital-marketing-msc-ft-dtfdgm6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/digital-marketing-msc-ft-dtfdgm6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Digital Marketing MSc",
+    "slug": "northumbria-msc-digital-marketing-distance-learning-dtddmk6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-digital-marketing-distance-learning-dtddmk6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Digital Marketing (with Advanced Practice)",
+    "slug": "northumbria-digital-marketing-london-dtfdgz6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/digital-marketing-london-dtfdgz6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Digital Marketing (with Advanced Practice)",
+    "slug": "northumbria-digital-marketing-with-advanced-practice-london-campus-dtsdgq6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/digital-marketing-with-advanced-practice-london-campus-dtsdgq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 12350,
+    "annualUSD": 15685,
+    "totalGBP": 12350,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Disaster Management and Sustainable Development MSc",
+    "slug": "northumbria-disaster-management-and-sustainable-development-with-advanced-practice-msc-ft-dt",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/disaster-management-and-sustainable-development-with-advanced-practice-msc-ft-dtsdds6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Disaster Management and Sustainable Development MSc",
+    "slug": "northumbria-disaster-management-and-sustainable-development-msc-ft-dtfdsd6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/disaster-management-and-sustainable-development-msc-ft-dtfdsd6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Business Administration (DBA)",
+    "slug": "northumbria-doctor-of-business-administration-dtfbad7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctor-of-business-administration-dtfbad7/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Business Administration (DBA) Part-Time",
+    "slug": "northumbria-doctor-of-business-administration-dtpbad7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctor-of-business-administration-dtpbad7/",
+    "level": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Sport",
+    "slug": "northumbria-doctor-of-sport-drfdsp7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctor-of-sport-drfdsp7/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Sport",
+    "slug": "northumbria-doctor-of-sport-drpdsp7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctor-of-sport-drpdsp7/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Sport and Exercise Psychology",
+    "slug": "northumbria-doctor-of-sport-and-exercise-psychology-drfsep7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctor-of-sport-and-exercise-psychology-drfsep7/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctor of Sport and Exercise Psychology",
+    "slug": "northumbria-doctor-of-sport-and-exercise-psychology-drpsep7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctor-of-sport-and-exercise-psychology-drpsep7/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctorate of Design",
+    "slug": "northumbria-doctorate-of-design-drfdde7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctorate-of-design-drfdde7/",
+    "level": "Postgraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 33000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Doctorate of Design",
+    "slug": "northumbria-doctorate-of-design-drpdde7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/doctorate-of-design-drpdde7/",
+    "level": "Postgraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Economics (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-economics-extended-degree-uusxic1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-economics-extended-degree-uusxic1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Economics and Finance (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-economics-and-finance-extended-degree-uusxcf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-economics-and-finance-extended-degree-uusxcf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Economics and Finance BSc (Hons)",
+    "slug": "northumbria-bsc-hons-economics-and-finance-uusecf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-economics-and-finance-uusecf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Economics BSc (Hons)",
+    "slug": "northumbria-economics-bsc-hons-uuseic1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/economics-bsc-hons-uuseic1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education – Learning and Leadership MA",
+    "slug": "northumbria-ma-education-leadership-and-learning-dtdmll6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-education-leadership-and-learning-dtdmll6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education (Leadership and Management) MA",
+    "slug": "northumbria-ma-education-leadership-and-management-dtfldt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-education-leadership-and-management-dtfldt6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education (Leadership and Management) MA",
+    "slug": "northumbria-education-leadership-and-management-ma-dtpldt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/education-leadership-and-management-ma-dtpldt6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education (Teaching and Learning) MA",
+    "slug": "northumbria-ma-education-teaching-and-learning-dtftcl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-education-teaching-and-learning-dtftcl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education (Teaching and Learning) MA",
+    "slug": "northumbria-education-teaching-and-learning-ma-dtptcl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/education-teaching-and-learning-ma-dtptcl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education MA",
+    "slug": "northumbria-education-ma-dtfect6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/education-ma-dtfect6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Education MA",
+    "slug": "northumbria-education-ma-dtpect6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/education-ma-dtpect6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical and Electronic Engineering (Extended Degree) BEng (Hons)",
+    "slug": "northumbria-beng-hons-electrical-and-electronic-engineering-extended-degree-uusxeg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-electrical-and-electronic-engineering-extended-degree-uusxeg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical and Electronic Engineering (with Advanced Practice) MSc",
+    "slug": "northumbria-msc-electrical-and-electronic-engineering-with-advanced-practice-dtseea6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-electrical-and-electronic-engineering-with-advanced-practice-dtseea6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical and Electronic Engineering BEng (Hons)",
+    "slug": "northumbria-beng-hons-electrical-and-electronic-engineering-uuseeg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-electrical-and-electronic-engineering-uuseeg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng (Hons) Electrical and Electronic Engineering",
+    "slug": "northumbria-meng-hons-electrical-and-electronic-engineering-uusmge1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/meng-hons-electrical-and-electronic-engineering-uusmge1/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical and Electronic Engineering MSc",
+    "slug": "northumbria-msc-electrical-and-electronic-engineering-dtfeea6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-electrical-and-electronic-engineering-dtfeea6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical and Electronic Engineering MSc",
+    "slug": "northumbria-msc-electrical-and-electronic-engineering-dtfeel6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-electrical-and-electronic-engineering-dtfeel6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical Engineering (Top-Up) BEng (Hons)",
+    "slug": "northumbria-beng-hons-electrical-engineering-top-up-award-uufeei1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/beng-hons-electrical-engineering-top-up-award-uufeei1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical Power Engineering MSc",
+    "slug": "northumbria-electrical-power-engineering-with-advanced-practice-dtseen6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/electrical-power-engineering-with-advanced-practice-dtseen6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical Power Engineering MSc",
+    "slug": "northumbria-electrical-power-engineering-msc-ft-dtfepz6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/electrical-power-engineering-msc-ft-dtfepz6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Electrical Power Engineering MSc",
+    "slug": "northumbria-msc-electrical-power-engineering-dtfepn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-electrical-power-engineering-dtfepn6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Engineering Management MSc",
+    "slug": "northumbria-msc-engineering-management-dtfemn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-engineering-management-dtfemn6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Engineering Management MSc",
+    "slug": "northumbria-msc-engineering-management-dtfemi6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-engineering-management-dtfemi6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Engineering Management with Advanced Practice MSc",
+    "slug": "northumbria-master-of-science-engineering-management-with-advanced-practice-dtsemd6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-science-engineering-management-with-advanced-practice-dtsemd6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Language (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-english-language-extended-degree-uusxan1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-language-extended-degree-uusxan1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Language and Linguistics MA",
+    "slug": "northumbria-ma-english-language-and-linguistics-newcastle-dtfelu6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ma-english-language-and-linguistics-newcastle-dtfelu6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Language and Literature (Extended Degree) (BA Hons)",
+    "slug": "northumbria-ba-hons-english-language-and-literature-extended-degree-uusxst2egl",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-language-and-literature-extended-degree-uusxst2egl/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Language and Literature BA (Hons)",
+    "slug": "northumbria-english-language-and-literature-ba-hons-uuslst2egl",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-language-and-literature-ba-hons-uuslst2egl/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Language BA (Hons)",
+    "slug": "northumbria-ba-hons-english-language-uuslan1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-language-uuslan1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-english-literature-extended-degree-uusxgl1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-literature-extended-degree-uusxgl1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature and American Studies (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-english-literature-and-american-studies-extended-degree-uusxgl2ast",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-literature-and-american-studies-extended-degree-uusxgl2ast/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature and American Studies BA (Hons)",
+    "slug": "northumbria-ba-hons-english-literature-and-american-studies-newcastle-uusegl2ast",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-literature-and-american-studies-newcastle-uusegl2ast/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature and Creative Writing (Extended Degree) BA (Hons)",
+    "slug": "northumbria-english-literature-and-creative-writing-extended-degree-ba-hons-uusxgl2cwr",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-and-creative-writing-extended-degree-ba-hons-uusxgl2cwr/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature and Creative Writing BA (Hons)",
+    "slug": "northumbria-english-literature-and-creative-writing-uusegl2cwr",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-and-creative-writing-uusegl2cwr/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature and History (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-english-literature-and-history-extended-degree-uusxgl2htr",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-english-literature-and-history-extended-degree-uusxgl2htr/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature and History BA (Hons)",
+    "slug": "northumbria-english-literature-and-history-ba-hons-uusegl2htr",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-and-history-ba-hons-uusegl2htr/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature BA (Hons)",
+    "slug": "northumbria-english-literature-ba-hons-uusegl1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-ba-hons-uusegl1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature MA",
+    "slug": "northumbria-english-literature-dtfegl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-dtfegl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature MA",
+    "slug": "northumbria-english-literature-dtpegl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-dtpegl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature MA",
+    "slug": "northumbria-english-literature-dtpegld6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-dtpegld6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature MA",
+    "slug": "northumbria-english-literature-dtdegl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-dtdegl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature MRes",
+    "slug": "northumbria-english-literature-mres-dtfeli7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-mres-dtfeli7/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "English Literature MRes",
+    "slug": "northumbria-english-literature-dtpeli7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/english-literature-dtpeli7/",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Entrepreneurship and Innovation Management MSc",
+    "slug": "northumbria-msc-entrepreneurship-and-innovation-management-with-advanced-practice-dtseim6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-entrepreneurship-and-innovation-management-with-advanced-practice-dtseim6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Entrepreneurship and Innovation Management MSc",
+    "slug": "northumbria-msc-entrepreneurship-and-innovation-management-dtfeim6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-entrepreneurship-and-innovation-management-dtfeim6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Environmental Science (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-environmental-science-extended-degree-uusxse1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-environmental-science-extended-degree-uusxse1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Environmental Science BSc (Hons)",
+    "slug": "northumbria-bsc-hons-environmental-science-uusese1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-environmental-science-uusese1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "EMBA - Executive Master of Business Administration",
+    "slug": "northumbria-master-of-business-administration-dtpmbn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-business-administration-dtpmbn6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Eye Movement Desensitisation & Reprocessing (EMDR) Therapy - Postgraduate Certificate",
+    "slug": "northumbria-pg-cert-eye-movement-desensitisation-and-reprocessing-dtpeym6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/pg-cert-eye-movement-desensitisation-and-reprocessing-dtpeym6/",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 9500,
+    "annualUSD": 12065,
+    "totalGBP": 4750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-extended-degree-newcastle-uusxfh1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-extended-degree-newcastle-uusxfh1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-uusfhi1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-uusfhi1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Business (Top-Up) BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-business-top-up-award-uuffbz1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-business-top-up-award-uuffbz1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Communication (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-communication-extended-degree-uusxco1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-communication-extended-degree-uusxco1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Communication BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-communication-uusfco1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-communication-uusfco1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Design and Marketing (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-design-and-marketing-extended-degree-uusxmd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-design-and-marketing-extended-degree-uusxmd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fashion Design and Marketing BA (Hons)",
+    "slug": "northumbria-ba-hons-fashion-design-and-marketing-uusfmd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fashion-design-and-marketing-uusfmd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Fashion Design",
+    "slug": "northumbria-fashion-design-ma-dtffnd6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/fashion-design-ma-dtffnd6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Film (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-film-extended-degree-newcastle-uusxli1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-film-extended-degree-newcastle-uusxli1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA (Hons) Film",
+    "slug": "northumbria-ba-hons-film-uusfli1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-film-uusfli1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance and Investment Management (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-finance-and-investment-management-extended-degree-uusxvg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-finance-and-investment-management-extended-degree-uusxvg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance and Investment Management BSc (Hons)",
+    "slug": "northumbria-finance-and-investment-management-bsc-hons-uusfvg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/finance-and-investment-management-bsc-hons-uusfvg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance MSc",
+    "slug": "northumbria-msc-finance-dtffce6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-finance-dtffce6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Finance MSc",
+    "slug": "northumbria-finance-msc-with-advanced-practice-dtsfcn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/finance-msc-with-advanced-practice-dtsfcn6/",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Financial Mathematics (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-financial-mathematics-extended-degree-uusxcm1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-financial-mathematics-extended-degree-uusxcm1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Financial Mathematics BSc (Hons)",
+    "slug": "northumbria-bsc-hons-financial-mathematics-uusfcm1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-financial-mathematics-uusfcm1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Fine Art (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-fine-art-extended-degree-uusxnt1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fine-art-extended-degree-uusxnt1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BA (Hons) Fine Art",
+    "slug": "northumbria-ba-hons-fine-art-uusfnt1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-fine-art-uusfnt1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Food Science and Nutrition (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-food-science-and-nutrition-extended-degree-uusxsu1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-food-science-and-nutrition-extended-degree-uusxsu1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Food Science and Nutrition BSc (Hons)",
+    "slug": "northumbria-food-science-and-nutrition-uusfsu1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/food-science-and-nutrition-uusfsu1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Football Coaching and Performance (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-football-coaching-and-performance-extended-degree-uusxbc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-football-coaching-and-performance-extended-degree-uusxbc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Football Coaching and Performance (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-football-coaching-and-performance-extended-degree-i2i-dufxbi1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-football-coaching-and-performance-extended-degree-i2i-dufxbi1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Football Coaching and Performance BSc (Hons)",
+    "slug": "northumbria-bsc-hons-football-coaching-and-performance-uusfbc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-football-coaching-and-performance-uusfbc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Football Coaching and Performance BSc (Hons)",
+    "slug": "northumbria-bsc-hons-football-coaching-and-performance-i2i-duffbi1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-football-coaching-and-performance-i2i-duffbi1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Accounting MSc",
+    "slug": "northumbria-forensic-accounting-dtffra6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/forensic-accounting-dtffra6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Psychology MSc",
+    "slug": "northumbria-msc-forensic-psychology-dtffsy6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-forensic-psychology-dtffsy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Psychology MSc",
+    "slug": "northumbria-msc-forensic-psychology-dtpfsy6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-forensic-psychology-dtpfsy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Science (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-forensic-science-extended-degree-uusxrs1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-forensic-science-extended-degree-uusxrs1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Science BSc (Hons)",
+    "slug": "northumbria-forensic-science-uusfrs1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/forensic-science-uusfrs1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Science MSc",
+    "slug": "northumbria-forensic-science-dtffrs6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/forensic-science-dtffrs6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Forensic Science MSc",
+    "slug": "northumbria-forensic-science-dtpfrs6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/forensic-science-dtpfrs6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Furniture and Product Design (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-furniture-and-product-design-extended-degree-uusxpd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-furniture-and-product-design-extended-degree-uusxpd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Furniture and Product Design BA (Hons)",
+    "slug": "northumbria-ba-hons-furniture-and-product-design-uusfpd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-furniture-and-product-design-uusfpd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Games Computing (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-games-computing-extended-degree-uusxxo1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-games-computing-extended-degree-uusxxo1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Games Computing BSc (Hons)",
+    "slug": "northumbria-bsc-hons-games-computing-uusgco1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-games-computing-uusgco1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Geography (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-geography-extended-degree-uusxey1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-geography-extended-degree-uusxey1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Geography (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-geography-extended-degree-uusxgg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-geography-extended-degree-uusxgg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Geography BA (Hons)",
+    "slug": "northumbria-geography-ba-ft-uusgey1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/geography-ba-ft-uusgey1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Geography BSc (Hons)",
+    "slug": "northumbria-bsc-hons-geography-uusgeg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-geography-uusgeg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Finance) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-finance-newcastle-uusgbf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-finance-newcastle-uusgbf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Finance) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-finance-completion-award-newcastle-uufgbf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-finance-completion-award-newcastle-uufgbf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Human Resources) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-human-resources-completion-award-newcastle-u",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-human-resources-completion-award-newcastle--uufgbh1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Human Resources) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-human-resources-newcastle-uusgbh1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-human-resources-newcastle-uusgbh1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Logistics and Supply Chain) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-logistics-and-supply-chain-newcastle-uusgbs1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-logistics-and-supply-chain-newcastle-uusgbs1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Logistics and Supply Chain) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-logistics-and-supply-chain-completion-award-",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-logistics-and-supply-chain-completion-award-newcastle-uufgbs1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Marketing) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-marketing-newcastle-uusgbk1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-marketing-newcastle-uusgbk1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Marketing) (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-marketing-completion-award-newcastle-uufgbk1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-marketing-completion-award-newcastle-uufgbk1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-newcastle-uusgbn1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-newcastle-uusgbn1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Business Management (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-global-business-management-completion-award-newcastle-uufgbn1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-global-business-management-completion-award-newcastle-uufgbn1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Development",
+    "slug": "northumbria-msc-global-development-dtfglb6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-development-dtfglb6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Development with Advanced Practice",
+    "slug": "northumbria-msc-global-development-with-advanced-practice-dtsgdp6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-development-with-advanced-practice-dtsgdp6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Development",
+    "slug": "northumbria-msc-global-development-dtfglv6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-development-dtfglv6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Human Resource Management MSc",
+    "slug": "northumbria-msc-global-human-resource-management-dtfghr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-human-resource-management-dtfghr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Logistics Operations and Supply Chain Management (with Advanced Practice)",
+    "slug": "northumbria-msc-global-logistics-operations-and-supply-chain-management-london-dtfgsl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-logistics-operations-and-supply-chain-management-london-dtfgsl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Logistics Operations and Supply Chain Management (with Advanced Practice)",
+    "slug": "northumbria-msc-global-logistics-operations-and-supply-chain-management-london-dtsgsl6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-logistics-operations-and-supply-chain-management-london-dtsgsl6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 11000,
+    "annualUSD": 13970,
+    "totalGBP": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "May"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Logistics Operations and Supply Chain Management",
+    "slug": "northumbria-msc-global-logistics-and-supply-chain-management-dtfgsc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-logistics-and-supply-chain-management-dtfgsc6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Logistics, Operations and Supply Chain Management MSc",
+    "slug": "northumbria-msc-global-logistics-and-supply-chain-management-with-advanced-practice-dtsgsc6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-logistics-and-supply-chain-management-with-advanced-practice-dtsgsc6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Logistics, Operations and Supply Chain Management MSc",
+    "slug": "northumbria-msc-global-logistics-operations-and-supply-chain-management-dtfgsj6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-logistics-operations-and-supply-chain-management-dtfgsj6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Global Sustainable Business Management MSc",
+    "slug": "northumbria-msc-global-sustainable-business-management-dtfgbs6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-global-sustainable-business-management-dtfgbs6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graphic and Digital Design (Top-Up) BA (Hons)",
+    "slug": "northumbria-ba-hons-graphic-and-digital-design-top-up-uufgdd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-graphic-and-digital-design-top-up-uufgdd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graphic Design (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-graphic-design-extended-degree-newcastle-uusxsn1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-graphic-design-extended-degree-newcastle-uusxsn1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Graphic Design BA (Hons)",
+    "slug": "northumbria-ba-hons-graphic-design-uusgsn1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-graphic-design-uusgsn1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Guidance and Counselling BA (Hons)",
+    "slug": "northumbria-guidance-and-counselling-ba-hons-uusguc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/guidance-and-counselling-ba-hons-uusguc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Health and Social Care (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-health-and-social-care-extended-degree-uusxlc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-health-and-social-care-extended-degree-uusxlc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Health and Social Care BSc (Hons)",
+    "slug": "northumbria-bsc-hons-health-and-social-care-uushlc1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-health-and-social-care-uushlc1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Health Psychology MSc",
+    "slug": "northumbria-health-psychology-dtfhpy6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/health-psychology-dtfhpy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Health Psychology MSc",
+    "slug": "northumbria-health-psychology-dtphpy6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/health-psychology-dtphpy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Healthcare Leadership and Management",
+    "slug": "northumbria-msc-healthcare-leadership-and-management-dtfhlt6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-healthcare-leadership-and-management-dtfhlt6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Healthcare Leadership and Management",
+    "slug": "northumbria-msc-healthcare-leadership-and-management-dtfhld6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-healthcare-leadership-and-management-dtfhld6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-history-extended-degree-uusxtr1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-history-extended-degree-uusxtr1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History and American Studies (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-history-and-american-studies-extended-degree-uusxtr2ast",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-history-and-american-studies-extended-degree-uusxtr2ast/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History and American Studies BA (Hons)",
+    "slug": "northumbria-ba-hons-history-and-american-studies-newcastle-uushtr2ast",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-history-and-american-studies-newcastle-uushtr2ast/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History and Politics (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-history-and-politics-extended-degree-newcastle-uusxtr2plt",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-history-and-politics-extended-degree-newcastle-uusxtr2plt/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History and Politics BA (Hons)",
+    "slug": "northumbria-history-and-politics-ba-hons-uushtr2plt",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-and-politics-ba-hons-uushtr2plt/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History BA (Hons)",
+    "slug": "northumbria-history-ba-hons-uushtr1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-ba-hons-uushtr1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History MA",
+    "slug": "northumbria-history-ma-dtfhtr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-ma-dtfhtr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History MA",
+    "slug": "northumbria-history-dtphtr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-dtphtr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History MA",
+    "slug": "northumbria-history-dtdhty6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-dtdhty6/",
+    "level": "Masters",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History MA",
+    "slug": "northumbria-history-ma-ft-dl-dtdhtr6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-ma-ft-dl-dtdhtr6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History MRes",
+    "slug": "northumbria-history-dtfhtr7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-dtfhtr7/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "History MRes",
+    "slug": "northumbria-history-dtphtr7",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/history-dtphtr7/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Human-Computer Interaction MSc",
+    "slug": "northumbria-msc-human-computer-interaction-dtfhct6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-human-computer-interaction-dtfhct6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Courses",
+    "slug": "northumbria-msc-information-security-management-london-part-time-dtpise6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-information-security-management-london-part-time-dtpise6/",
+    "level": "Postgraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 16500,
+    "annualUSD": 20955,
+    "totalGBP": 16500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Architecture (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-interior-architecture-extended-degree-uusxah1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-interior-architecture-extended-degree-uusxah1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Architecture BA (Hons)",
+    "slug": "northumbria-ba-hons-interior-architecture-uusiah1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-interior-architecture-uusiah1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Architecture Postgraduate Certificate",
+    "slug": "northumbria-interior-architecture-pg-cert-dtfiah6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/interior-architecture-pg-cert-dtfiah6/",
+    "level": "Graduate Certificate",
+    "duration": "6 months",
+    "durationYears": 0.5,
+    "annualGBP": 9500,
+    "annualUSD": 12065,
+    "totalGBP": 4750,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Design (Extended Degree) BA (Hons)",
+    "slug": "northumbria-ba-hons-interior-design-extended-degree-uusxrd1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-interior-design-extended-degree-uusxrd1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "Interior Design BA (Hons)",
+    "slug": "northumbria-ba-hons-interior-design-uusird1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/ba-hons-interior-design-uusird1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Banking and Finance (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-international-banking-and-finance-completion-award-newcastle-uufikf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-international-banking-and-finance-completion-award-newcastle-uufikf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Banking and Finance (Top-Up) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-international-banking-and-finance-newcastle-uusikf1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-international-banking-and-finance-newcastle-uusikf1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management (Extended Degree) BSc (Hons)",
+    "slug": "northumbria-bsc-hons-international-business-management-extended-degree-uusxbg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-international-business-management-extended-degree-uusxbg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management BSc (Hons)",
+    "slug": "northumbria-bsc-hons-international-business-management-uusibg1",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-international-business-management-uusibg1/",
+    "level": "Undergraduate (Honours)",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 16000,
+    "annualUSD": 20320,
+    "totalGBP": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management MSc",
+    "slug": "northumbria-international-business-management-dtfinb6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/international-business-management-dtfinb6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management MSc",
+    "slug": "northumbria-master-of-science-international-business-management-with-advanced-practice-dtsin",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/master-of-science-international-business-management-with-advanced-practice-dtsinq6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Business Management MSc",
+    "slug": "northumbria-msc-international-business-management-dtfijb6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-international-business-management-dtfijb6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "January"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Finance and Investment MSc",
+    "slug": "northumbria-international-finance-and-investment-msc-ft-dtfifi6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/international-finance-and-investment-msc-ft-dtfifi6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Finance and Investment MSc",
+    "slug": "northumbria-international-finance-and-investment-msc-with-advanced-practice-dtsifn6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/international-finance-and-investment-msc-with-advanced-practice-dtsifn6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Hospitality and Tourism Management MSc",
+    "slug": "northumbria-international-hospitality-and-tourism-management-msc-dtsihy6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/international-hospitality-and-tourism-management-msc-dtsihy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "International Hospitality and Tourism Management MSc",
+    "slug": "northumbria-msc-international-hospitality-and-tourism-management-dtfihy6",
+    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-international-hospitality-and-tourism-management-dtfihy6/",
+    "level": "Masters",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 18000,
+    "annualUSD": 22860,
+    "totalGBP": 18000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "City Campus",
+    "currency": "GBP"
+  }
+]

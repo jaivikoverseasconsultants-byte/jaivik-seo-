@@ -1,0 +1,812 @@
+[
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "birmingham-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "birmingham-msc-data-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "birmingham-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "birmingham-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Software Engineering",
+    "level": "Masters",
+    "slug": "birmingham-msc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electronic Engineering",
+    "level": "Undergraduate",
+    "slug": "birmingham-beng-electronic-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "birmingham-meng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "birmingham-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Chemical Engineering",
+    "level": "Masters",
+    "slug": "birmingham-msc-advanced-chemical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "birmingham-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 30000,
+    "annualUSD": 38100,
+    "totalGBP": 30000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business",
+    "level": "Masters",
+    "slug": "birmingham-msc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "birmingham-msc-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Accounting and Finance",
+    "level": "Masters",
+    "slug": "birmingham-msc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing",
+    "level": "Masters",
+    "slug": "birmingham-msc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Human Resource Management",
+    "level": "Masters",
+    "slug": "birmingham-msc-human-resource-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Management",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-business-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-economics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Economics",
+    "level": "Masters",
+    "slug": "birmingham-msc-economics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "birmingham-llm-international-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM Commercial Law",
+    "level": "Masters",
+    "slug": "birmingham-llm-commercial-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "birmingham-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "birmingham-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Health",
+    "level": "Masters",
+    "slug": "birmingham-msc-global-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Nursing (Advanced Practice)",
+    "level": "Masters",
+    "slug": "birmingham-msc-nursing-advanced-practice",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Biosciences",
+    "level": "Masters",
+    "slug": "birmingham-msc-biosciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "birmingham-msc-chemistry",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "birmingham-msc-physics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "birmingham-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "birmingham-msc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Education",
+    "level": "Masters",
+    "slug": "birmingham-ma-education",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA English Literature",
+    "level": "Masters",
+    "slug": "birmingham-ma-english-literature",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Social Policy",
+    "level": "Masters",
+    "slug": "birmingham-ma-social-policy",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Environmental Management",
+    "level": "Masters",
+    "slug": "birmingham-msc-environmental-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Chemical Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "birmingham-meng-chemical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 20000,
+    "annualUSD": 25400,
+    "totalGBP": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "birmingham-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Construction Management",
+    "level": "Masters",
+    "slug": "birmingham-msc-construction-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 25000,
+    "annualUSD": 31750,
+    "totalGBP": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "birmingham-phd-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "birmingham-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "birmingham-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Biomedical Sciences",
+    "level": "PhD",
+    "slug": "birmingham-phd-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Law",
+    "level": "PhD",
+    "slug": "birmingham-phd-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15500,
+    "annualUSD": 19685,
+    "totalGBP": 46500,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edgbaston Campus",
+    "currency": "GBP"
+  }
+]

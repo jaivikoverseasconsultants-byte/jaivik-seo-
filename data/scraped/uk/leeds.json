@@ -1,0 +1,801 @@
+[
+  {
+    "name": "MSc Data Science and Analytics",
+    "level": "Masters",
+    "slug": "leeds-msc-data-science-and-analytics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Artificial Intelligence",
+    "level": "Masters",
+    "slug": "leeds-msc-artificial-intelligence",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "leeds-msc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "leeds-msc-cybersecurity",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-software-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Undergraduate",
+    "slug": "leeds-beng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "leeds-meng-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 76000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Undergraduate",
+    "slug": "leeds-beng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MEng Civil Engineering",
+    "level": "Undergraduate (Honours)",
+    "slug": "leeds-meng-civil-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 76000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BEng Electrical and Electronic Engineering",
+    "level": "Undergraduate",
+    "slug": "leeds-beng-electrical-and-electronic-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Structural Engineering",
+    "level": "Masters",
+    "slug": "leeds-msc-structural-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Advanced Mechanical Engineering",
+    "level": "Masters",
+    "slug": "leeds-msc-advanced-mechanical-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MBA Master of Business Administration",
+    "level": "Masters",
+    "slug": "leeds-mba-master-of-business-administration",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "totalGBP": 31000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc International Business",
+    "level": "Masters",
+    "slug": "leeds-msc-international-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "leeds-msc-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Accounting and Finance",
+    "level": "Masters",
+    "slug": "leeds-msc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Marketing",
+    "level": "Masters",
+    "slug": "leeds-msc-marketing",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Supply Chain Management",
+    "level": "Masters",
+    "slug": "leeds-msc-supply-chain-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Business Management",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-business-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Accounting and Finance",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-accounting-and-finance",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-economics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Economics",
+    "level": "Masters",
+    "slug": "leeds-msc-economics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLM International Law",
+    "level": "Masters",
+    "slug": "leeds-llm-international-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "LLB Law",
+    "level": "Undergraduate",
+    "slug": "leeds-llb-law",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "leeds-msc-public-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Global Health",
+    "level": "Masters",
+    "slug": "leeds-msc-global-health",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Biomedical Sciences",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Biosciences",
+    "level": "Masters",
+    "slug": "leeds-msc-biosciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Undergraduate",
+    "slug": "leeds-bsc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 19000,
+    "annualUSD": 24130,
+    "totalGBP": 57000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "leeds-msc-psychology",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Education",
+    "level": "Masters",
+    "slug": "leeds-ma-education",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA TESOL",
+    "level": "Masters",
+    "slug": "leeds-ma-tesol",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Environmental Management",
+    "level": "Masters",
+    "slug": "leeds-msc-environmental-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Sustainability",
+    "level": "Masters",
+    "slug": "leeds-msc-sustainability",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "leeds-msc-project-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Media and Communications",
+    "level": "Masters",
+    "slug": "leeds-ma-media-and-communications",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MA Translation Studies",
+    "level": "Masters",
+    "slug": "leeds-ma-translation-studies",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "leeds-msc-chemistry",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "leeds-msc-physics",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Food Science",
+    "level": "Masters",
+    "slug": "leeds-msc-food-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Textile Engineering",
+    "level": "Masters",
+    "slug": "leeds-msc-textile-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "MSc Healthcare Management",
+    "level": "Masters",
+    "slug": "leeds-msc-healthcare-management",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 26000,
+    "annualUSD": 33020,
+    "totalGBP": 26000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "leeds-phd-computer-science",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "leeds-phd-engineering",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "leeds-phd-business",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  },
+  {
+    "name": "PhD Biomedical Sciences",
+    "level": "PhD",
+    "slug": "leeds-phd-biomedical-sciences",
+    "url": "https://www.herts.ac.uk/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 15000,
+    "annualUSD": 19050,
+    "totalGBP": 45000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "University of Leeds Campus",
+    "currency": "GBP"
+  }
+]
