@@ -387,37 +387,6 @@ export const conestogaCourses = [
   },
   {
     "id": "conestoga-13",
-    "name": "Computer Systems Technician",
-    "slug": "conestoga-computer-systems-technician",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-14",
     "name": "Computer Engineering Technology",
     "slug": "conestoga-computer-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -448,7 +417,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-15",
+    "id": "conestoga-14",
     "name": "Software Engineering Technology",
     "slug": "conestoga-software-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -479,7 +448,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-16",
+    "id": "conestoga-15",
     "name": "Network Engineering Technology",
     "slug": "conestoga-network-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -510,7 +479,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-17",
+    "id": "conestoga-16",
     "name": "Cybersecurity and Threat Management",
     "slug": "conestoga-cybersecurity-and-threat-management",
     "url": "https://www.conestoga.ca/",
@@ -541,7 +510,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-18",
+    "id": "conestoga-17",
     "name": "Data Analytics",
     "slug": "conestoga-data-analytics",
     "url": "https://www.conestoga.ca/",
@@ -572,7 +541,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-19",
+    "id": "conestoga-18",
     "name": "Cloud Computing Architecture",
     "slug": "conestoga-cloud-computing-architecture",
     "url": "https://www.conestoga.ca/",
@@ -603,7 +572,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-20",
+    "id": "conestoga-19",
     "name": "Artificial Intelligence and Machine Learning",
     "slug": "conestoga-artificial-intelligence-and-machine-learning",
     "url": "https://www.conestoga.ca/",
@@ -634,7 +603,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-21",
+    "id": "conestoga-20",
     "name": "Internet of Things",
     "slug": "conestoga-internet-of-things",
     "url": "https://www.conestoga.ca/",
@@ -665,7 +634,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-22",
+    "id": "conestoga-21",
     "name": "Mobile Application Development",
     "slug": "conestoga-mobile-application-development",
     "url": "https://www.conestoga.ca/",
@@ -696,7 +665,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-23",
+    "id": "conestoga-22",
     "name": "Game Development",
     "slug": "conestoga-game-development",
     "url": "https://www.conestoga.ca/",
@@ -727,7 +696,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-24",
+    "id": "conestoga-23",
     "name": "Mechanical Engineering Technology",
     "slug": "conestoga-mechanical-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -758,7 +727,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-25",
+    "id": "conestoga-24",
     "name": "Electrical Engineering Technology",
     "slug": "conestoga-electrical-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -789,7 +758,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-26",
+    "id": "conestoga-25",
     "name": "Civil Engineering Technology",
     "slug": "conestoga-civil-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -820,38 +789,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-27",
-    "name": "Environmental Engineering Technology",
-    "slug": "conestoga-environmental-engineering-technology",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-28",
+    "id": "conestoga-26",
     "name": "Automation and Robotics",
     "slug": "conestoga-automation-and-robotics",
     "url": "https://www.conestoga.ca/",
@@ -882,7 +820,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-29",
+    "id": "conestoga-27",
     "name": "Welding Engineering Technology",
     "slug": "conestoga-welding-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -913,38 +851,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-30",
-    "name": "Heating, Refrigeration and Air Conditioning",
-    "slug": "conestoga-heating-refrigeration-and-air-conditioning",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-31",
+    "id": "conestoga-28",
     "name": "Graphic Design",
     "slug": "conestoga-graphic-design",
     "url": "https://www.conestoga.ca/",
@@ -975,7 +882,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-32",
+    "id": "conestoga-29",
     "name": "Interior Design",
     "slug": "conestoga-interior-design",
     "url": "https://www.conestoga.ca/",
@@ -1006,7 +913,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-33",
+    "id": "conestoga-30",
     "name": "Interaction Design",
     "slug": "conestoga-interaction-design",
     "url": "https://www.conestoga.ca/",
@@ -1037,7 +944,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-34",
+    "id": "conestoga-31",
     "name": "Media Design",
     "slug": "conestoga-media-design",
     "url": "https://www.conestoga.ca/",
@@ -1068,69 +975,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-35",
-    "name": "Practical Nursing",
-    "slug": "conestoga-practical-nursing",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-36",
-    "name": "Pharmacy Technician",
-    "slug": "conestoga-pharmacy-technician",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-37",
+    "id": "conestoga-32",
     "name": "Dental Hygiene",
     "slug": "conestoga-dental-hygiene",
     "url": "https://www.conestoga.ca/",
@@ -1161,38 +1006,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-38",
-    "name": "Medical Device Reprocessing Technician",
-    "slug": "conestoga-medical-device-reprocessing-technician",
-    "url": "https://www.conestoga.ca/",
-    "level": "Certificate",
-    "studyLevel": "Certificate",
-    "duration": "1 year",
-    "durationYears": 1,
-    "annualCAD": 12000,
-    "annualUSD": 8760,
-    "annualINR": 732000,
-    "totalCAD": 12000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-39",
+    "id": "conestoga-33",
     "name": "Health Informatics",
     "slug": "conestoga-health-informatics",
     "url": "https://www.conestoga.ca/",
@@ -1223,69 +1037,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-40",
-    "name": "Culinary Management",
-    "slug": "conestoga-culinary-management",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-41",
-    "name": "Hospitality and Tourism Management",
-    "slug": "conestoga-hospitality-and-tourism-management",
-    "url": "https://www.conestoga.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Doon Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Kitchener",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "conestoga-42",
+    "id": "conestoga-34",
     "name": "Event Management",
     "slug": "conestoga-event-management",
     "url": "https://www.conestoga.ca/",
@@ -1316,7 +1068,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-43",
+    "id": "conestoga-35",
     "name": "Architectural Technology",
     "slug": "conestoga-architectural-technology",
     "url": "https://www.conestoga.ca/",
@@ -1347,7 +1099,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-44",
+    "id": "conestoga-36",
     "name": "Construction Engineering Technology",
     "slug": "conestoga-construction-engineering-technology",
     "url": "https://www.conestoga.ca/",
@@ -1378,7 +1130,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-45",
+    "id": "conestoga-37",
     "name": "Construction Project Management",
     "slug": "conestoga-construction-project-management",
     "url": "https://www.conestoga.ca/",
@@ -1409,7 +1161,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-46",
+    "id": "conestoga-38",
     "name": "Bachelor of Business Administration",
     "slug": "conestoga-bachelor-of-business-administration",
     "url": "https://www.conestoga.ca/",
@@ -1440,7 +1192,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-47",
+    "id": "conestoga-39",
     "name": "Bachelor of Applied Computer Science",
     "slug": "conestoga-bachelor-of-applied-computer-science",
     "url": "https://www.conestoga.ca/",
@@ -1471,7 +1223,7 @@ export const conestogaCourses = [
     "pgwp": true
   },
   {
-    "id": "conestoga-48",
+    "id": "conestoga-40",
     "name": "Bachelor of Interior Design",
     "slug": "conestoga-bachelor-of-interior-design",
     "url": "https://www.conestoga.ca/",

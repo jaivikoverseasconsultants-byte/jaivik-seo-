@@ -135,36 +135,6 @@ export const mohawkCourses = [
   },
   {
     "id": "mohawk-5",
-    "name": "Marketing Management",
-    "slug": "mohawk-marketing-management",
-    "url": "https://www.mohawk.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13500,
-    "annualUSD": 9855,
-    "annualINR": 823500,
-    "totalCAD": 27000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Fennell Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Hamilton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "mohawk-6",
     "name": "Global Business Management",
     "slug": "mohawk-global-business-management",
     "url": "https://www.mohawk.ca/",
@@ -194,7 +164,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-7",
+    "id": "mohawk-6",
     "name": "Supply Chain and Logistics",
     "slug": "mohawk-supply-chain-and-logistics",
     "url": "https://www.mohawk.ca/",
@@ -224,7 +194,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-8",
+    "id": "mohawk-7",
     "name": "Computer Systems Technology",
     "slug": "mohawk-computer-systems-technology",
     "url": "https://www.mohawk.ca/",
@@ -254,7 +224,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-9",
+    "id": "mohawk-8",
     "name": "Software Development",
     "slug": "mohawk-software-development",
     "url": "https://www.mohawk.ca/",
@@ -284,7 +254,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-10",
+    "id": "mohawk-9",
     "name": "Cybersecurity",
     "slug": "mohawk-cybersecurity",
     "url": "https://www.mohawk.ca/",
@@ -314,7 +284,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-11",
+    "id": "mohawk-10",
     "name": "Data Analytics",
     "slug": "mohawk-data-analytics",
     "url": "https://www.mohawk.ca/",
@@ -344,7 +314,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-12",
+    "id": "mohawk-11",
     "name": "Artificial Intelligence",
     "slug": "mohawk-artificial-intelligence",
     "url": "https://www.mohawk.ca/",
@@ -374,7 +344,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-13",
+    "id": "mohawk-12",
     "name": "Electrical Engineering Technology",
     "slug": "mohawk-electrical-engineering-technology",
     "url": "https://www.mohawk.ca/",
@@ -404,7 +374,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-14",
+    "id": "mohawk-13",
     "name": "Mechanical Engineering Technology",
     "slug": "mohawk-mechanical-engineering-technology",
     "url": "https://www.mohawk.ca/",
@@ -434,7 +404,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-15",
+    "id": "mohawk-14",
     "name": "Civil Engineering Technology",
     "slug": "mohawk-civil-engineering-technology",
     "url": "https://www.mohawk.ca/",
@@ -464,7 +434,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-16",
+    "id": "mohawk-15",
     "name": "Chemical Engineering Technology",
     "slug": "mohawk-chemical-engineering-technology",
     "url": "https://www.mohawk.ca/",
@@ -494,7 +464,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-17",
+    "id": "mohawk-16",
     "name": "Energy Systems Engineering Technology",
     "slug": "mohawk-energy-systems-engineering-technology",
     "url": "https://www.mohawk.ca/",
@@ -524,67 +494,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-18",
-    "name": "Welding Engineering Technology",
-    "slug": "mohawk-welding-engineering-technology",
-    "url": "https://www.mohawk.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13500,
-    "annualUSD": 9855,
-    "annualINR": 823500,
-    "totalCAD": 27000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Fennell Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Hamilton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "mohawk-19",
-    "name": "Practical Nursing",
-    "slug": "mohawk-practical-nursing",
-    "url": "https://www.mohawk.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13500,
-    "annualUSD": 9855,
-    "annualINR": 823500,
-    "totalCAD": 27000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Fennell Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Hamilton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "mohawk-20",
+    "id": "mohawk-17",
     "name": "Respiratory Therapy",
     "slug": "mohawk-respiratory-therapy",
     "url": "https://www.mohawk.ca/",
@@ -614,7 +524,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-21",
+    "id": "mohawk-18",
     "name": "Diagnostic Medical Sonography",
     "slug": "mohawk-diagnostic-medical-sonography",
     "url": "https://www.mohawk.ca/",
@@ -644,7 +554,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-22",
+    "id": "mohawk-19",
     "name": "Medical Radiation Technology",
     "slug": "mohawk-medical-radiation-technology",
     "url": "https://www.mohawk.ca/",
@@ -674,67 +584,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-23",
-    "name": "Social Service Worker",
-    "slug": "mohawk-social-service-worker",
-    "url": "https://www.mohawk.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13500,
-    "annualUSD": 9855,
-    "annualINR": 823500,
-    "totalCAD": 27000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Fennell Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Hamilton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "mohawk-24",
-    "name": "Early Childhood Education",
-    "slug": "mohawk-early-childhood-education",
-    "url": "https://www.mohawk.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13500,
-    "annualUSD": 9855,
-    "annualINR": 823500,
-    "totalCAD": 27000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Fennell Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Hamilton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "mohawk-25",
+    "id": "mohawk-20",
     "name": "Graphic Design",
     "slug": "mohawk-graphic-design",
     "url": "https://www.mohawk.ca/",
@@ -764,7 +614,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-26",
+    "id": "mohawk-21",
     "name": "Interior Design",
     "slug": "mohawk-interior-design",
     "url": "https://www.mohawk.ca/",
@@ -794,7 +644,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-27",
+    "id": "mohawk-22",
     "name": "Architectural Technology",
     "slug": "mohawk-architectural-technology",
     "url": "https://www.mohawk.ca/",
@@ -824,7 +674,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-28",
+    "id": "mohawk-23",
     "name": "Construction Engineering Technology",
     "slug": "mohawk-construction-engineering-technology",
     "url": "https://www.mohawk.ca/",
@@ -854,7 +704,7 @@ export const mohawkCourses = [
     "pgwp": true
   },
   {
-    "id": "mohawk-29",
+    "id": "mohawk-24",
     "name": "Honours Bachelor of Technology — Building Science",
     "slug": "mohawk-honours-bachelor-of-technology-building-science",
     "url": "https://www.mohawk.ca/",

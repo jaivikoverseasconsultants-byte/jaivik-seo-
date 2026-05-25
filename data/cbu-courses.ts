@@ -345,36 +345,6 @@ export const cbuCourses = [
   },
   {
     "id": "cbu-12",
-    "name": "Diploma in Computer Information Technology",
-    "slug": "cbu-diploma-in-computer-information-technology",
-    "url": "https://www.cbu.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13000,
-    "annualUSD": 9490,
-    "annualINR": 793000,
-    "totalCAD": 26000,
-    "livingCostCAD": 13000,
-    "livingCostUSD": 9490,
-    "livingCostINR": 793000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Sydney Campus",
-    "country": "Canada",
-    "province": "Nova Scotia",
-    "city": "Sydney",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "cbu-13",
     "name": "BSc Biology",
     "slug": "cbu-bsc-biology",
     "url": "https://www.cbu.ca/",
@@ -404,7 +374,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-14",
+    "id": "cbu-13",
     "name": "BSc Chemistry",
     "slug": "cbu-bsc-chemistry",
     "url": "https://www.cbu.ca/",
@@ -434,7 +404,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-15",
+    "id": "cbu-14",
     "name": "BSc Mathematics",
     "slug": "cbu-bsc-mathematics",
     "url": "https://www.cbu.ca/",
@@ -464,7 +434,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-16",
+    "id": "cbu-15",
     "name": "BSc Psychology",
     "slug": "cbu-bsc-psychology",
     "url": "https://www.cbu.ca/",
@@ -494,7 +464,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-17",
+    "id": "cbu-16",
     "name": "BSc Environmental Science",
     "slug": "cbu-bsc-environmental-science",
     "url": "https://www.cbu.ca/",
@@ -524,7 +494,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-18",
+    "id": "cbu-17",
     "name": "BScN Nursing",
     "slug": "cbu-bscn-nursing",
     "url": "https://www.cbu.ca/",
@@ -554,7 +524,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-19",
+    "id": "cbu-18",
     "name": "BSc Kinesiology",
     "slug": "cbu-bsc-kinesiology",
     "url": "https://www.cbu.ca/",
@@ -584,7 +554,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-20",
+    "id": "cbu-19",
     "name": "MSc Public Health",
     "slug": "cbu-msc-public-health",
     "url": "https://www.cbu.ca/",
@@ -614,7 +584,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-21",
+    "id": "cbu-20",
     "name": "BA Psychology",
     "slug": "cbu-ba-psychology",
     "url": "https://www.cbu.ca/",
@@ -644,7 +614,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-22",
+    "id": "cbu-21",
     "name": "BA Sociology",
     "slug": "cbu-ba-sociology",
     "url": "https://www.cbu.ca/",
@@ -674,7 +644,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-23",
+    "id": "cbu-22",
     "name": "BA Political Science",
     "slug": "cbu-ba-political-science",
     "url": "https://www.cbu.ca/",
@@ -704,7 +674,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-24",
+    "id": "cbu-23",
     "name": "BA History",
     "slug": "cbu-ba-history",
     "url": "https://www.cbu.ca/",
@@ -734,7 +704,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-25",
+    "id": "cbu-24",
     "name": "BA English",
     "slug": "cbu-ba-english",
     "url": "https://www.cbu.ca/",
@@ -764,7 +734,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-26",
+    "id": "cbu-25",
     "name": "BA Indigenous Studies",
     "slug": "cbu-ba-indigenous-studies",
     "url": "https://www.cbu.ca/",
@@ -794,7 +764,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-27",
+    "id": "cbu-26",
     "name": "MA Cape Breton Studies",
     "slug": "cbu-ma-cape-breton-studies",
     "url": "https://www.cbu.ca/",
@@ -824,7 +794,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-28",
+    "id": "cbu-27",
     "name": "BEd Education",
     "slug": "cbu-bed-education",
     "url": "https://www.cbu.ca/",
@@ -854,7 +824,7 @@ export const cbuCourses = [
     "pgwp": true
   },
   {
-    "id": "cbu-29",
+    "id": "cbu-28",
     "name": "BSW Social Work",
     "slug": "cbu-bsw-social-work",
     "url": "https://www.cbu.ca/",
@@ -866,36 +836,6 @@ export const cbuCourses = [
     "annualUSD": 13140,
     "annualINR": 1098000,
     "totalCAD": 72000,
-    "livingCostCAD": 13000,
-    "livingCostUSD": 9490,
-    "livingCostINR": 793000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Sydney Campus",
-    "country": "Canada",
-    "province": "Nova Scotia",
-    "city": "Sydney",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "cbu-30",
-    "name": "Diploma in Trades and Technology",
-    "slug": "cbu-diploma-in-trades-and-technology",
-    "url": "https://www.cbu.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 13000,
-    "annualUSD": 9490,
-    "annualINR": 793000,
-    "totalCAD": 26000,
     "livingCostCAD": 13000,
     "livingCostUSD": 9490,
     "livingCostINR": 793000,

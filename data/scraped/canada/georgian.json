@@ -1,0 +1,338 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "georgian-business-administration",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "georgian-accounting",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "georgian-human-resources-management",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "georgian-project-management",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "georgian-digital-marketing",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "International Business",
+    "level": "Graduate Certificate",
+    "slug": "georgian-international-business",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "georgian-supply-chain-management",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Hospitality and Tourism Management",
+    "level": "Advanced Diploma",
+    "slug": "georgian-hospitality-and-tourism-management",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Event Management",
+    "level": "Graduate Certificate",
+    "slug": "georgian-event-management",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "georgian-computer-systems-technology",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "georgian-software-development",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "georgian-cybersecurity",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "georgian-data-analytics",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Automotive Business",
+    "level": "Graduate Certificate",
+    "slug": "georgian-automotive-business",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "georgian-electrical-engineering-technology",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "georgian-mechanical-engineering-technology",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "georgian-civil-engineering-technology",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "georgian-environmental-technology",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "georgian-architectural-technology",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "georgian-health-care-administration",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  },
+  {
+    "name": "Honours Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "georgian-honours-bachelor-of-business-administration",
+    "url": "https://www.georgiancollege.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Barrie Campus"
+  }
+]

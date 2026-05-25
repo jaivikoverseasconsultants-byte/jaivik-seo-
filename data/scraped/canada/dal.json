@@ -1,0 +1,834 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "dal-mba-business-administration",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 24000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "dal-msc-management",
+    "url": "https://www.dal.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 21000,
+    "totalCAD": 21000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "dal-msc-finance",
+    "url": "https://www.dal.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 21000,
+    "totalCAD": 21000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "dal-msc-computer-science",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MEng Civil Engineering",
+    "level": "Masters",
+    "slug": "dal-meng-civil-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MEng Electrical Engineering",
+    "level": "Masters",
+    "slug": "dal-meng-electrical-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Masters",
+    "slug": "dal-meng-mechanical-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MEng Industrial Engineering",
+    "level": "Masters",
+    "slug": "dal-meng-industrial-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "dal-msc-biology",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "dal-msc-chemistry",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "dal-msc-physics",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Mathematics",
+    "level": "Masters",
+    "slug": "dal-msc-mathematics",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Oceanography",
+    "level": "Masters",
+    "slug": "dal-msc-oceanography",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Environmental Sciences",
+    "level": "Masters",
+    "slug": "dal-msc-environmental-sciences",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Health Sciences",
+    "level": "Masters",
+    "slug": "dal-msc-health-sciences",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "MSc Nursing",
+    "level": "Masters",
+    "slug": "dal-msc-nursing",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "LLM Law",
+    "level": "Masters",
+    "slug": "dal-llm-law",
+    "url": "https://www.dal.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "dal-bcom-business-administration",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "dal-bcom-accounting",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "dal-bcom-finance",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "dal-bcom-marketing",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-civil-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-electrical-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-mechanical-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Chemical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-chemical-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Computer Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-computer-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Industrial Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-industrial-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEng Materials Engineering",
+    "level": "Honours Bachelor",
+    "slug": "dal-beng-materials-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-computer-science",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-biology",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-chemistry",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-physics",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-mathematics",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-environmental-science",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-nursing",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-kinesiology",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsc-psychology",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "dal-ba-psychology",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "dal-ba-sociology",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "dal-ba-political-science",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "dal-ba-history",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BA International Development Studies",
+    "level": "Honours Bachelor",
+    "slug": "dal-ba-international-development-studies",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "dal-bed-education",
+    "url": "https://www.dal.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "dal-bsw-social-work",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "dal-graduate-certificate-in-data-analytics",
+    "url": "https://www.dal.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "dal-graduate-certificate-in-business-analytics",
+    "url": "https://www.dal.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "dal-phd-computer-science",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "dal-phd-engineering",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "dal-phd-business",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "dal-phd-biology",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "dal-phd-chemistry",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  },
+  {
+    "name": "PhD Oceanography",
+    "level": "PhD",
+    "slug": "dal-phd-oceanography",
+    "url": "https://www.dal.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Studley Campus"
+  }
+]

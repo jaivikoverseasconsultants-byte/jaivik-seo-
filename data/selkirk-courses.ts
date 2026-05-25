@@ -1,0 +1,290 @@
+// Auto-generated — do not edit manually
+// Source: data/scraped/canada/selkirk.json
+
+export interface SelkirkCourse {
+  id: string; name: string; slug: string; url: string;
+  level: string; studyLevel: string; duration: string; durationYears: number;
+  annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
+  livingCostCAD: number; livingCostUSD: number; livingCostINR: number;
+  ieltsMin: number; toeflMin: number; pteMin: number;
+  intakeMonths: string[]; campus: string;
+  country: string; province: string; city: string; countryCode: string;
+  pgwp: boolean;
+}
+
+export const selkirkCourses = [
+  {
+    "id": "selkirk-1",
+    "name": "Business Administration",
+    "slug": "selkirk-business-administration",
+    "url": "https://www.selkirk.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-2",
+    "name": "Accounting",
+    "slug": "selkirk-accounting",
+    "url": "https://www.selkirk.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-3",
+    "name": "Graduate Certificate in Human Resources Management",
+    "slug": "selkirk-graduate-certificate-in-human-resources-management",
+    "url": "https://www.selkirk.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-4",
+    "name": "Graduate Certificate in Project Management",
+    "slug": "selkirk-graduate-certificate-in-project-management",
+    "url": "https://www.selkirk.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-5",
+    "name": "Computer Systems Technology",
+    "slug": "selkirk-computer-systems-technology",
+    "url": "https://www.selkirk.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-6",
+    "name": "Graduate Certificate in Data Analytics",
+    "slug": "selkirk-graduate-certificate-in-data-analytics",
+    "url": "https://www.selkirk.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-7",
+    "name": "Environmental Technology",
+    "slug": "selkirk-environmental-technology",
+    "url": "https://www.selkirk.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-8",
+    "name": "Graduate Certificate in Environmental Management",
+    "slug": "selkirk-graduate-certificate-in-environmental-management",
+    "url": "https://www.selkirk.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "selkirk-9",
+    "name": "Graduate Certificate in Healthcare Administration",
+    "slug": "selkirk-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.selkirk.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 14000,
+    "livingCostUSD": 10220,
+    "livingCostINR": 854000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Castlegar Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "Castlegar",
+    "countryCode": "CA",
+    "pgwp": true
+  }
+] as const;
+
+export function getSelkirkCoursesBySlug(slug: string) {
+  return (selkirkCourses as unknown as any[]).find((c: any) => c.slug === slug) ?? null;
+}

@@ -387,37 +387,6 @@ export const truCourses = [
   },
   {
     "id": "tru-13",
-    "name": "Diploma in Computer Information Systems",
-    "slug": "tru-diploma-in-computer-information-systems",
-    "url": "https://www.tru.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 15500,
-    "annualUSD": 11315,
-    "annualINR": 945500,
-    "totalCAD": 31000,
-    "livingCostCAD": 16000,
-    "livingCostUSD": 11680,
-    "livingCostINR": 976000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 58,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Kamloops Campus",
-    "country": "Canada",
-    "province": "British Columbia",
-    "city": "Kamloops",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "tru-14",
     "name": "Graduate Certificate in Data Analytics",
     "slug": "tru-graduate-certificate-in-data-analytics",
     "url": "https://www.tru.ca/",
@@ -448,7 +417,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-15",
+    "id": "tru-14",
     "name": "BEng Mechanical Engineering",
     "slug": "tru-beng-mechanical-engineering",
     "url": "https://www.tru.ca/",
@@ -479,7 +448,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-16",
+    "id": "tru-15",
     "name": "BEng Electrical Engineering",
     "slug": "tru-beng-electrical-engineering",
     "url": "https://www.tru.ca/",
@@ -510,7 +479,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-17",
+    "id": "tru-16",
     "name": "BEng Environmental Engineering",
     "slug": "tru-beng-environmental-engineering",
     "url": "https://www.tru.ca/",
@@ -541,38 +510,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-18",
-    "name": "Diploma in Electronic and Computer Engineering Technology",
-    "slug": "tru-diploma-in-electronic-and-computer-engineering-technology",
-    "url": "https://www.tru.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 15500,
-    "annualUSD": 11315,
-    "annualINR": 945500,
-    "totalCAD": 31000,
-    "livingCostCAD": 16000,
-    "livingCostUSD": 11680,
-    "livingCostINR": 976000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 58,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Kamloops Campus",
-    "country": "Canada",
-    "province": "British Columbia",
-    "city": "Kamloops",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "tru-19",
+    "id": "tru-17",
     "name": "BScN Nursing",
     "slug": "tru-bscn-nursing",
     "url": "https://www.tru.ca/",
@@ -603,7 +541,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-20",
+    "id": "tru-18",
     "name": "BSc Psychology",
     "slug": "tru-bsc-psychology",
     "url": "https://www.tru.ca/",
@@ -634,7 +572,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-21",
+    "id": "tru-19",
     "name": "BSc Kinesiology",
     "slug": "tru-bsc-kinesiology",
     "url": "https://www.tru.ca/",
@@ -665,7 +603,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-22",
+    "id": "tru-20",
     "name": "Graduate Certificate in Healthcare Management",
     "slug": "tru-graduate-certificate-in-healthcare-management",
     "url": "https://www.tru.ca/",
@@ -696,7 +634,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-23",
+    "id": "tru-21",
     "name": "BA Psychology",
     "slug": "tru-ba-psychology",
     "url": "https://www.tru.ca/",
@@ -727,7 +665,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-24",
+    "id": "tru-22",
     "name": "BA Sociology",
     "slug": "tru-ba-sociology",
     "url": "https://www.tru.ca/",
@@ -758,7 +696,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-25",
+    "id": "tru-23",
     "name": "BA Environmental Studies",
     "slug": "tru-ba-environmental-studies",
     "url": "https://www.tru.ca/",
@@ -789,7 +727,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-26",
+    "id": "tru-24",
     "name": "BA Communications",
     "slug": "tru-ba-communications",
     "url": "https://www.tru.ca/",
@@ -820,7 +758,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-27",
+    "id": "tru-25",
     "name": "BA Indigenous Studies",
     "slug": "tru-ba-indigenous-studies",
     "url": "https://www.tru.ca/",
@@ -851,7 +789,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-28",
+    "id": "tru-26",
     "name": "BA History",
     "slug": "tru-ba-history",
     "url": "https://www.tru.ca/",
@@ -882,7 +820,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-29",
+    "id": "tru-27",
     "name": "BA Political Science",
     "slug": "tru-ba-political-science",
     "url": "https://www.tru.ca/",
@@ -913,7 +851,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-30",
+    "id": "tru-28",
     "name": "BSc Biology",
     "slug": "tru-bsc-biology",
     "url": "https://www.tru.ca/",
@@ -944,7 +882,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-31",
+    "id": "tru-29",
     "name": "BSc Chemistry",
     "slug": "tru-bsc-chemistry",
     "url": "https://www.tru.ca/",
@@ -975,7 +913,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-32",
+    "id": "tru-30",
     "name": "BSc Mathematics",
     "slug": "tru-bsc-mathematics",
     "url": "https://www.tru.ca/",
@@ -1006,7 +944,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-33",
+    "id": "tru-31",
     "name": "BSc Criminal Justice",
     "slug": "tru-bsc-criminal-justice",
     "url": "https://www.tru.ca/",
@@ -1037,7 +975,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-34",
+    "id": "tru-32",
     "name": "Bachelor of Laws (LLB)",
     "slug": "tru-bachelor-of-laws-llb",
     "url": "https://www.tru.ca/",
@@ -1068,7 +1006,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-35",
+    "id": "tru-33",
     "name": "BTM Tourism Management",
     "slug": "tru-btm-tourism-management",
     "url": "https://www.tru.ca/",
@@ -1099,38 +1037,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-36",
-    "name": "Diploma in Hospitality Management",
-    "slug": "tru-diploma-in-hospitality-management",
-    "url": "https://www.tru.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 15500,
-    "annualUSD": 11315,
-    "annualINR": 945500,
-    "totalCAD": 31000,
-    "livingCostCAD": 16000,
-    "livingCostUSD": 11680,
-    "livingCostINR": 976000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 58,
-    "intakeMonths": [
-      "September",
-      "January",
-      "May"
-    ],
-    "campus": "Kamloops Campus",
-    "country": "Canada",
-    "province": "British Columbia",
-    "city": "Kamloops",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "tru-37",
+    "id": "tru-34",
     "name": "BEd Education",
     "slug": "tru-bed-education",
     "url": "https://www.tru.ca/",
@@ -1161,7 +1068,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-38",
+    "id": "tru-35",
     "name": "MEd Educational Leadership",
     "slug": "tru-med-educational-leadership",
     "url": "https://www.tru.ca/",
@@ -1192,7 +1099,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-39",
+    "id": "tru-36",
     "name": "Graduate Certificate in Trades Management",
     "slug": "tru-graduate-certificate-in-trades-management",
     "url": "https://www.tru.ca/",
@@ -1223,7 +1130,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-40",
+    "id": "tru-37",
     "name": "Graduate Certificate in Supply Chain Management",
     "slug": "tru-graduate-certificate-in-supply-chain-management",
     "url": "https://www.tru.ca/",
@@ -1254,7 +1161,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-41",
+    "id": "tru-38",
     "name": "Graduate Certificate in Digital Marketing",
     "slug": "tru-graduate-certificate-in-digital-marketing",
     "url": "https://www.tru.ca/",
@@ -1285,7 +1192,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-42",
+    "id": "tru-39",
     "name": "PhD Education",
     "slug": "tru-phd-education",
     "url": "https://www.tru.ca/",
@@ -1316,7 +1223,7 @@ export const truCourses = [
     "pgwp": true
   },
   {
-    "id": "tru-43",
+    "id": "tru-40",
     "name": "PhD Computing Science",
     "slug": "tru-phd-computing-science",
     "url": "https://www.tru.ca/",

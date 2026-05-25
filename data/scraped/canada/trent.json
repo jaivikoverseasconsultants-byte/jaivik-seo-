@@ -1,0 +1,530 @@
+[
+  {
+    "name": "MSc Environmental and Life Sciences",
+    "level": "Masters",
+    "slug": "trent-msc-environmental-and-life-sciences",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "trent-msc-biology",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "trent-msc-chemistry",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MSc Geography",
+    "level": "Masters",
+    "slug": "trent-msc-geography",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-biology",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-chemistry",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-environmental-science",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Geography",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-geography",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Forensic Science",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-forensic-science",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Biochemistry",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-biochemistry",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MBA (Trent-Durham GTA)",
+    "level": "Masters",
+    "slug": "trent-mba-trent-durham-gta",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BBA Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "trent-bba-business-administration",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-economics",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "trent-bcom-accounting",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-computer-science",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-data-science",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MSc Applied Modelling and Quantitative Methods",
+    "level": "Masters",
+    "slug": "trent-msc-applied-modelling-and-quantitative-methods",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MA Psychology",
+    "level": "Masters",
+    "slug": "trent-ma-psychology",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MA Cultural Studies",
+    "level": "Masters",
+    "slug": "trent-ma-cultural-studies",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "trent-bsc-psychology",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "trent-ba-sociology",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BA Political Studies",
+    "level": "Honours Bachelor",
+    "slug": "trent-ba-political-studies",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BA Philosophy",
+    "level": "Honours Bachelor",
+    "slug": "trent-ba-philosophy",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "trent-ba-history",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BA English Literature",
+    "level": "Honours Bachelor",
+    "slug": "trent-ba-english-literature",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "trent-ba-indigenous-studies",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MA Indigenous Studies",
+    "level": "Masters",
+    "slug": "trent-ma-indigenous-studies",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "MEd Sustainability Education",
+    "level": "Masters",
+    "slug": "trent-med-sustainability-education",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "trent-bed-education",
+    "url": "https://www.trent.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "BScN Nursing",
+    "level": "Honours Bachelor",
+    "slug": "trent-bscn-nursing",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "PhD Environmental and Life Sciences",
+    "level": "PhD",
+    "slug": "trent-phd-environmental-and-life-sciences",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "trent-phd-psychology",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  },
+  {
+    "name": "PhD Indigenous Studies",
+    "level": "PhD",
+    "slug": "trent-phd-indigenous-studies",
+    "url": "https://www.trent.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Symons Campus"
+  }
+]

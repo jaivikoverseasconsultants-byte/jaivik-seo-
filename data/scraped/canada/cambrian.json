@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-business-administration",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-accounting",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-human-resources-management",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-project-management",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-digital-marketing",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-computer-systems-technology",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-software-development",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-cybersecurity",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-data-analytics",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-electrical-engineering-technology",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-mechanical-engineering-technology",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Mining Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-mining-engineering-technology",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-environmental-technology",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "cambrian-health-care-administration",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "Occupational Therapist and Physiotherapist Assistant",
+    "level": "Advanced Diploma",
+    "slug": "cambrian-occupational-therapist-and-physiotherapist-assistant",
+    "url": "https://www.cambriancollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  }
+]

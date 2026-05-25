@@ -1,0 +1,733 @@
+[
+  {
+    "name": "Master of Business Administration (MBA)",
+    "level": "Masters",
+    "slug": "tru-master-of-business-administration-mba",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "MSc Environmental Science",
+    "level": "Masters",
+    "slug": "tru-msc-environmental-science",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BBA Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "tru-bba-business-administration",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "tru-bcom-accounting",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-economics",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Finance",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-finance",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Management",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-management",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Innovation and Entrepreneurship",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-innovation-and-entrepreneurship",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-computer-science",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-software-engineering",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-data-science",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-cybersecurity",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Diploma in Computer Information Systems",
+    "level": "Diploma",
+    "slug": "tru-diploma-in-computer-information-systems",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-data-analytics",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tru-beng-mechanical-engineering",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tru-beng-electrical-engineering",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BEng Environmental Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tru-beng-environmental-engineering",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Diploma in Electronic and Computer Engineering Technology",
+    "level": "Diploma",
+    "slug": "tru-diploma-in-electronic-and-computer-engineering-technology",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BScN Nursing",
+    "level": "Honours Bachelor",
+    "slug": "tru-bscn-nursing",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-psychology",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-kinesiology",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Management",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-healthcare-management",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-psychology",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-sociology",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA Environmental Studies",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-environmental-studies",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA Communications",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-communications",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-indigenous-studies",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-history",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "tru-ba-political-science",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-biology",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-chemistry",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-mathematics",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BSc Criminal Justice",
+    "level": "Honours Bachelor",
+    "slug": "tru-bsc-criminal-justice",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Bachelor of Laws (LLB)",
+    "level": "Honours Bachelor",
+    "slug": "tru-bachelor-of-laws-llb",
+    "url": "https://www.tru.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 22000,
+    "totalCAD": 66000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BTM Tourism Management",
+    "level": "Honours Bachelor",
+    "slug": "tru-btm-tourism-management",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Diploma in Hospitality Management",
+    "level": "Diploma",
+    "slug": "tru-diploma-in-hospitality-management",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "tru-bed-education",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "MEd Educational Leadership",
+    "level": "Masters",
+    "slug": "tru-med-educational-leadership",
+    "url": "https://www.tru.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Trades Management",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-trades-management",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-supply-chain-management",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "tru-graduate-certificate-in-digital-marketing",
+    "url": "https://www.tru.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "PhD Education",
+    "level": "PhD",
+    "slug": "tru-phd-education",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  },
+  {
+    "name": "PhD Computing Science",
+    "level": "PhD",
+    "slug": "tru-phd-computing-science",
+    "url": "https://www.tru.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Kamloops Campus"
+  }
+]

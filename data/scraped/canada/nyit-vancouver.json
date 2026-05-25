@@ -1,0 +1,194 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "nyit-vancouver-mba-business-administration",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 24000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "nyit-vancouver-msc-computer-science",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "MSc Cybersecurity",
+    "level": "Masters",
+    "slug": "nyit-vancouver-msc-cybersecurity",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "nyit-vancouver-bachelor-of-science-in-business-administration",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "nyit-vancouver-bachelor-of-science-in-computer-science",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Electrical and Computer Engineering",
+    "level": "Honours Bachelor",
+    "slug": "nyit-vancouver-bachelor-of-science-in-electrical-and-computer-engineering",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "nyit-vancouver-bachelor-of-science-in-mechanical-engineering",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Architecture",
+    "level": "Honours Bachelor",
+    "slug": "nyit-vancouver-bachelor-of-science-in-architecture",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "nyit-vancouver-graduate-certificate-in-business-analytics",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "nyit-vancouver-graduate-certificate-in-cybersecurity",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Science",
+    "level": "Graduate Certificate",
+    "slug": "nyit-vancouver-graduate-certificate-in-data-science",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "nyit-vancouver-graduate-certificate-in-project-management",
+    "url": "https://www.nyit.edu/locations/vancouver",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  }
+]

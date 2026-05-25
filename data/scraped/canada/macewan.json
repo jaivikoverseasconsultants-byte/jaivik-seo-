@@ -1,0 +1,338 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "macewan-mba-business-administration",
+    "url": "https://www.macewan.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bcom-accounting",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bcom-finance",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bcom-marketing",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bcom-human-resources",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BCom International Business",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bcom-international-business",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BCom Supply Chain Management",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bcom-supply-chain-management",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bsc-computer-science",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bsc-nursing",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bsc-psychology",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bsc-biology",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bsc-kinesiology",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "macewan-ba-psychology",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "macewan-ba-sociology",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "macewan-ba-political-science",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "macewan-ba-english",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BA Anthropology",
+    "level": "Honours Bachelor",
+    "slug": "macewan-ba-anthropology",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BFA Music",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bfa-music",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "macewan-bsw-social-work",
+    "url": "https://www.macewan.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "macewan-graduate-certificate-in-business-analytics",
+    "url": "https://www.macewan.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "macewan-graduate-certificate-in-cybersecurity",
+    "url": "https://www.macewan.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  }
+]

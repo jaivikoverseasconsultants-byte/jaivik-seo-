@@ -465,36 +465,6 @@ export const sheridanCourses = [
   },
   {
     "id": "sheridan-16",
-    "name": "Digital Photography",
-    "slug": "sheridan-digital-photography",
-    "url": "https://www.sheridan.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Hazel McCallion Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Brampton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sheridan-17",
     "name": "Film and Television",
     "slug": "sheridan-film-and-television",
     "url": "https://www.sheridan.ca/",
@@ -524,7 +494,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-18",
+    "id": "sheridan-17",
     "name": "Music Theatre Performance",
     "slug": "sheridan-music-theatre-performance",
     "url": "https://www.sheridan.ca/",
@@ -554,7 +524,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-19",
+    "id": "sheridan-18",
     "name": "Computer Systems Technology",
     "slug": "sheridan-computer-systems-technology",
     "url": "https://www.sheridan.ca/",
@@ -584,7 +554,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-20",
+    "id": "sheridan-19",
     "name": "Software Development",
     "slug": "sheridan-software-development",
     "url": "https://www.sheridan.ca/",
@@ -614,7 +584,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-21",
+    "id": "sheridan-20",
     "name": "Cybersecurity",
     "slug": "sheridan-cybersecurity",
     "url": "https://www.sheridan.ca/",
@@ -644,7 +614,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-22",
+    "id": "sheridan-21",
     "name": "Data Analytics",
     "slug": "sheridan-data-analytics",
     "url": "https://www.sheridan.ca/",
@@ -674,7 +644,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-23",
+    "id": "sheridan-22",
     "name": "Cloud Computing",
     "slug": "sheridan-cloud-computing",
     "url": "https://www.sheridan.ca/",
@@ -704,7 +674,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-24",
+    "id": "sheridan-23",
     "name": "User Experience Design",
     "slug": "sheridan-user-experience-design",
     "url": "https://www.sheridan.ca/",
@@ -734,7 +704,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-25",
+    "id": "sheridan-24",
     "name": "Artificial Intelligence",
     "slug": "sheridan-artificial-intelligence",
     "url": "https://www.sheridan.ca/",
@@ -764,7 +734,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-26",
+    "id": "sheridan-25",
     "name": "Electrical Engineering Technology",
     "slug": "sheridan-electrical-engineering-technology",
     "url": "https://www.sheridan.ca/",
@@ -794,7 +764,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-27",
+    "id": "sheridan-26",
     "name": "Mechanical Engineering Technology",
     "slug": "sheridan-mechanical-engineering-technology",
     "url": "https://www.sheridan.ca/",
@@ -824,7 +794,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-28",
+    "id": "sheridan-27",
     "name": "Civil Engineering Technology",
     "slug": "sheridan-civil-engineering-technology",
     "url": "https://www.sheridan.ca/",
@@ -854,7 +824,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-29",
+    "id": "sheridan-28",
     "name": "Chemical Engineering Technology",
     "slug": "sheridan-chemical-engineering-technology",
     "url": "https://www.sheridan.ca/",
@@ -884,7 +854,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-30",
+    "id": "sheridan-29",
     "name": "Interior Design",
     "slug": "sheridan-interior-design",
     "url": "https://www.sheridan.ca/",
@@ -914,7 +884,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-31",
+    "id": "sheridan-30",
     "name": "Architectural Technology",
     "slug": "sheridan-architectural-technology",
     "url": "https://www.sheridan.ca/",
@@ -944,7 +914,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-32",
+    "id": "sheridan-31",
     "name": "Fashion Design",
     "slug": "sheridan-fashion-design",
     "url": "https://www.sheridan.ca/",
@@ -974,7 +944,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-33",
+    "id": "sheridan-32",
     "name": "Jewellery Design and Metalsmithing",
     "slug": "sheridan-jewellery-design-and-metalsmithing",
     "url": "https://www.sheridan.ca/",
@@ -1004,97 +974,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-34",
-    "name": "Social Service Worker",
-    "slug": "sheridan-social-service-worker",
-    "url": "https://www.sheridan.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Hazel McCallion Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Brampton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sheridan-35",
-    "name": "Early Childhood Education",
-    "slug": "sheridan-early-childhood-education",
-    "url": "https://www.sheridan.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Hazel McCallion Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Brampton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sheridan-36",
-    "name": "Practical Nursing",
-    "slug": "sheridan-practical-nursing",
-    "url": "https://www.sheridan.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Hazel McCallion Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Brampton",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sheridan-37",
+    "id": "sheridan-33",
     "name": "Bachelor of Animation",
     "slug": "sheridan-bachelor-of-animation",
     "url": "https://www.sheridan.ca/",
@@ -1124,7 +1004,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-38",
+    "id": "sheridan-34",
     "name": "Bachelor of Game Design",
     "slug": "sheridan-bachelor-of-game-design",
     "url": "https://www.sheridan.ca/",
@@ -1154,7 +1034,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-39",
+    "id": "sheridan-35",
     "name": "Bachelor of Business Administration",
     "slug": "sheridan-bachelor-of-business-administration",
     "url": "https://www.sheridan.ca/",
@@ -1184,7 +1064,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-40",
+    "id": "sheridan-36",
     "name": "Bachelor of Illustration",
     "slug": "sheridan-bachelor-of-illustration",
     "url": "https://www.sheridan.ca/",
@@ -1214,7 +1094,7 @@ export const sheridanCourses = [
     "pgwp": true
   },
   {
-    "id": "sheridan-41",
+    "id": "sheridan-37",
     "name": "Bachelor of Interior Design",
     "slug": "sheridan-bachelor-of-interior-design",
     "url": "https://www.sheridan.ca/",

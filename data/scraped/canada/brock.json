@@ -1,0 +1,562 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "brock-mba-business-administration",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Accounting",
+    "level": "Masters",
+    "slug": "brock-msc-accounting",
+    "url": "https://www.brocku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 21000,
+    "totalCAD": 21000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Business Analytics",
+    "level": "Masters",
+    "slug": "brock-msc-business-analytics",
+    "url": "https://www.brocku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 21000,
+    "totalCAD": 21000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "brock-msc-computer-science",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Engineering",
+    "level": "Masters",
+    "slug": "brock-meng-engineering",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "brock-msc-psychology",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "brock-msc-biology",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "brock-msc-chemistry",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "brock-bcom-business-administration",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "brock-bcom-accounting",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "brock-bcom-finance",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "brock-bcom-marketing",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "brock-bcom-human-resources",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Tourism and Environment",
+    "level": "Honours Bachelor",
+    "slug": "brock-bcom-tourism-and-environment",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-computer-science",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Integrated Engineering",
+    "level": "Honours Bachelor",
+    "slug": "brock-beng-integrated-engineering",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-biology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-chemistry",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-physics",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biotechnology",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-biotechnology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-nursing",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-kinesiology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Child and Youth Studies",
+    "level": "Honours Bachelor",
+    "slug": "brock-bsc-child-and-youth-studies",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "brock-ba-psychology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "brock-ba-sociology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "brock-ba-political-science",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Communication Studies",
+    "level": "Honours Bachelor",
+    "slug": "brock-ba-communication-studies",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "brock-ba-history",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "brock-bed-education",
+    "url": "https://www.brocku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 25000,
+    "totalCAD": 50000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BFA Fine Arts",
+    "level": "Honours Bachelor",
+    "slug": "brock-bfa-fine-arts",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BMus Music",
+    "level": "Honours Bachelor",
+    "slug": "brock-bmus-music",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "brock-graduate-certificate-in-digital-marketing",
+    "url": "https://www.brocku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "brock-phd-psychology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "brock-phd-biology",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "brock-phd-business",
+    "url": "https://www.brocku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "medicine-hat-business-administration",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "medicine-hat-accounting",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "medicine-hat-graduate-certificate-in-human-resources-management",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "medicine-hat-graduate-certificate-in-project-management",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "medicine-hat-computer-systems-technology",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "medicine-hat-graduate-certificate-in-cybersecurity",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "medicine-hat-electrical-engineering-technology",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "medicine-hat-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.mhc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Medicine Hat Campus"
+  }
+]

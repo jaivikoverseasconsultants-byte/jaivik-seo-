@@ -1,0 +1,226 @@
+[
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-bcom-business-administration",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-bsc-computer-science",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-bsc-biology",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-indigenous-studies",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-psychology",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-sociology",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA Political Studies",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-political-studies",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-history",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-english",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BA Fine Arts",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-ba-fine-arts",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-bed-education",
+    "url": "https://www.fnuniv.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "fnuniv-bsw-social-work",
+    "url": "https://www.fnuniv.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "MSc Indigenous Social Work",
+    "level": "Masters",
+    "slug": "fnuniv-msc-indigenous-social-work",
+    "url": "https://www.fnuniv.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  },
+  {
+    "name": "Graduate Certificate in Indigenous Business",
+    "level": "Graduate Certificate",
+    "slug": "fnuniv-graduate-certificate-in-indigenous-business",
+    "url": "https://www.fnuniv.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 11000,
+    "totalCAD": 11000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Regina Campus"
+  }
+]

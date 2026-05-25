@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-business-administration",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Bachelor of Accounting",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-accounting",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Bachelor of Marketing Management",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-marketing-management",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Bachelor of Computer Information Systems",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-computer-information-systems",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Bachelor of Design — Fashion",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-design-fashion",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Bachelor of Design — Interior Design",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-design-interior-design",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Bachelor of Horticulture Science",
+    "level": "Honours Bachelor",
+    "slug": "kpu-bachelor-of-horticulture-science",
+    "url": "https://www.kpu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-human-resources-management",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-project-management",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-digital-marketing",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-business-analytics",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-supply-chain-management",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-cybersecurity",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-data-analytics",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "kpu-graduate-certificate-in-cloud-computing",
+    "url": "https://www.kpu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "kpu-business-administration",
+    "url": "https://www.kpu.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 17000,
+    "totalCAD": 51000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "kpu-computer-systems-technology",
+    "url": "https://www.kpu.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 17000,
+    "totalCAD": 51000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "kpu-electrical-engineering-technology",
+    "url": "https://www.kpu.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 17000,
+    "totalCAD": 51000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Surrey Campus"
+  }
+]

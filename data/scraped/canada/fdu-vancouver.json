@@ -1,0 +1,162 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "fdu-vancouver-mba-business-administration",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "MSc Hospitality Management Studies",
+    "level": "Masters",
+    "slug": "fdu-vancouver-msc-hospitality-management-studies",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 21000,
+    "totalCAD": 21000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "MSc Electrical and Computer Engineering",
+    "level": "Masters",
+    "slug": "fdu-vancouver-msc-electrical-and-computer-engineering",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "fdu-vancouver-bachelor-of-science-in-business-administration",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "fdu-vancouver-bachelor-of-science-in-computer-science",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Science in Information Technology",
+    "level": "Honours Bachelor",
+    "slug": "fdu-vancouver-bachelor-of-science-in-information-technology",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Administration",
+    "level": "Graduate Certificate",
+    "slug": "fdu-vancouver-graduate-certificate-in-business-administration",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "fdu-vancouver-graduate-certificate-in-digital-marketing",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "fdu-vancouver-graduate-certificate-in-data-analytics",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "fdu-vancouver-graduate-certificate-in-cybersecurity",
+    "url": "https://www.fdu.edu/campuses/vancouver/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vancouver Campus"
+  }
+]

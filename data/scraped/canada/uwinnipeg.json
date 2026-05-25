@@ -1,0 +1,322 @@
+[
+  {
+    "name": "MBA Applied Economics",
+    "level": "Masters",
+    "slug": "uwinnipeg-mba-applied-economics",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Applied Computer Science",
+    "level": "Masters",
+    "slug": "uwinnipeg-msc-applied-computer-science",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-computer-science",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bcom-business-administration",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bcom-accounting",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bcom-finance",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-biology",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-chemistry",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-physics",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-mathematics",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-psychology",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bsc-kinesiology",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-ba-psychology",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-ba-sociology",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-ba-political-science",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-ba-history",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-ba-english",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-ba-indigenous-studies",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "uwinnipeg-bed-education",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "uwinnipeg-graduate-certificate-in-business-analytics",
+    "url": "https://www.uwinnipeg.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  }
+]

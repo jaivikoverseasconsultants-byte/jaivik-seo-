@@ -1,0 +1,642 @@
+[
+  {
+    "name": "MBA Global Management",
+    "level": "Masters",
+    "slug": "unbc-mba-global-management",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Community Health Science",
+    "level": "Masters",
+    "slug": "unbc-msc-community-health-science",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BComm Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bcomm-business-administration",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-economics",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "unbc-msc-biology",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "unbc-msc-chemistry",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Environmental Science",
+    "level": "Masters",
+    "slug": "unbc-msc-environmental-science",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Nursing",
+    "level": "Masters",
+    "slug": "unbc-msc-nursing",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "unbc-msc-psychology",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Mathematics",
+    "level": "Masters",
+    "slug": "unbc-msc-mathematics",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-biology",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-chemistry",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-physics",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-mathematics",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-environmental-science",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Biomedical Studies",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-biomedical-studies",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-computer-science",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsc-kinesiology",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BEng Environmental Engineering",
+    "level": "Honours Bachelor",
+    "slug": "unbc-beng-environmental-engineering",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BEng Geomatics Engineering",
+    "level": "Honours Bachelor",
+    "slug": "unbc-beng-geomatics-engineering",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSc Engineering",
+    "level": "Masters",
+    "slug": "unbc-msc-engineering",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-political-science",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-history",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-english",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-psychology",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-sociology",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA Gender Studies",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-gender-studies",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BA First Nations Studies",
+    "level": "Honours Bachelor",
+    "slug": "unbc-ba-first-nations-studies",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MA First Nations Studies",
+    "level": "Masters",
+    "slug": "unbc-ma-first-nations-studies",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MA History",
+    "level": "Masters",
+    "slug": "unbc-ma-history",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BScN Nursing",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bscn-nursing",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bed-education",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MEd Education",
+    "level": "Masters",
+    "slug": "unbc-med-education",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "unbc-bsw-social-work",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "MSW Social Work",
+    "level": "Masters",
+    "slug": "unbc-msw-social-work",
+    "url": "https://www.unbc.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 19000,
+    "totalCAD": 38000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "PhD Community Health Science",
+    "level": "PhD",
+    "slug": "unbc-phd-community-health-science",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 15000,
+    "totalCAD": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "unbc-phd-biology",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 15000,
+    "totalCAD": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "unbc-phd-chemistry",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 15000,
+    "totalCAD": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "unbc-phd-engineering",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 15000,
+    "totalCAD": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  },
+  {
+    "name": "PhD Nursing",
+    "level": "PhD",
+    "slug": "unbc-phd-nursing",
+    "url": "https://www.unbc.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 15000,
+    "totalCAD": 60000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Prince George Campus"
+  }
+]

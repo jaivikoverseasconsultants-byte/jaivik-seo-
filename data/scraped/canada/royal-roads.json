@@ -1,0 +1,306 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "royal-roads-mba-business-administration",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 26000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MA Leadership",
+    "level": "Masters",
+    "slug": "royal-roads-ma-leadership",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MA Conflict Analysis and Management",
+    "level": "Masters",
+    "slug": "royal-roads-ma-conflict-analysis-and-management",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MA Environmental Education and Communication",
+    "level": "Masters",
+    "slug": "royal-roads-ma-environmental-education-and-communication",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MSc Environment and Management",
+    "level": "Masters",
+    "slug": "royal-roads-msc-environment-and-management",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MSc Disaster and Emergency Management",
+    "level": "Masters",
+    "slug": "royal-roads-msc-disaster-and-emergency-management",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MSc Data Analytics",
+    "level": "Masters",
+    "slug": "royal-roads-msc-data-analytics",
+    "url": "https://www.royalroads.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 23000,
+    "totalCAD": 23000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MSc Healthcare Management",
+    "level": "Masters",
+    "slug": "royal-roads-msc-healthcare-management",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "MSc Tourism Management",
+    "level": "Masters",
+    "slug": "royal-roads-msc-tourism-management",
+    "url": "https://www.royalroads.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Bachelor of Commerce — Entrepreneurship",
+    "level": "Honours Bachelor",
+    "slug": "royal-roads-bachelor-of-commerce-entrepreneurship",
+    "url": "https://www.royalroads.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Bachelor of Arts in Global Communication",
+    "level": "Honours Bachelor",
+    "slug": "royal-roads-bachelor-of-arts-in-global-communication",
+    "url": "https://www.royalroads.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Bachelor of Science in Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "royal-roads-bachelor-of-science-in-environmental-science",
+    "url": "https://www.royalroads.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Graduate Certificate in Leadership",
+    "level": "Graduate Certificate",
+    "slug": "royal-roads-graduate-certificate-in-leadership",
+    "url": "https://www.royalroads.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "royal-roads-graduate-certificate-in-project-management",
+    "url": "https://www.royalroads.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "royal-roads-graduate-certificate-in-digital-marketing",
+    "url": "https://www.royalroads.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "royal-roads-graduate-certificate-in-data-analytics",
+    "url": "https://www.royalroads.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Development",
+    "level": "Graduate Certificate",
+    "slug": "royal-roads-graduate-certificate-in-business-development",
+    "url": "https://www.royalroads.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "PhD Leadership",
+    "level": "PhD",
+    "slug": "royal-roads-phd-leadership",
+    "url": "https://www.royalroads.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  },
+  {
+    "name": "PhD Interdisciplinary Studies",
+    "level": "PhD",
+    "slug": "royal-roads-phd-interdisciplinary-studies",
+    "url": "https://www.royalroads.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16000,
+    "totalCAD": 64000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Colwood Campus"
+  }
+]

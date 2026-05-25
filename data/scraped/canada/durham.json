@@ -1,0 +1,370 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "durham-business-administration",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "durham-accounting",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "durham-human-resources-management",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "durham-project-management",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "durham-digital-marketing",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "durham-supply-chain-management",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "International Business",
+    "level": "Graduate Certificate",
+    "slug": "durham-international-business",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "durham-computer-systems-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "durham-software-development",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "durham-cybersecurity",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "durham-data-analytics",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "durham-artificial-intelligence",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Game Development",
+    "level": "Advanced Diploma",
+    "slug": "durham-game-development",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "durham-graphic-design",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "durham-electrical-engineering-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "durham-mechanical-engineering-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "durham-civil-engineering-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Construction Project Management",
+    "level": "Graduate Certificate",
+    "slug": "durham-construction-project-management",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "durham-architectural-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Medical Laboratory Technology",
+    "level": "Advanced Diploma",
+    "slug": "durham-medical-laboratory-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "durham-health-care-administration",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "durham-bachelor-of-business-administration",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17500,
+    "totalCAD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  },
+  {
+    "name": "Bachelor of Information Technology",
+    "level": "Honours Bachelor",
+    "slug": "durham-bachelor-of-information-technology",
+    "url": "https://www.durhamcollege.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17500,
+    "totalCAD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Oshawa Campus"
+  }
+]

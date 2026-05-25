@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "red-river-business-administration",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "red-river-accounting",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-human-resources-management",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-project-management",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-digital-marketing",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-supply-chain-management",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in International Business",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-international-business",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-river-computer-systems-technology",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-cybersecurity",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-data-analytics",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-cloud-computing",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Software Development",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-software-development",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-river-electrical-engineering-technology",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-river-mechanical-engineering-technology",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-river-civil-engineering-technology",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-river-architectural-technology",
+    "url": "https://www.rrc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Construction Management",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-construction-management",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "red-river-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.rrc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Bachelor of Applied Management",
+    "level": "Honours Bachelor",
+    "slug": "red-river-bachelor-of-applied-management",
+    "url": "https://www.rrc.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16500,
+    "totalCAD": 66000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  },
+  {
+    "name": "Bachelor of Technology — Information Technology",
+    "level": "Honours Bachelor",
+    "slug": "red-river-bachelor-of-technology-information-technology",
+    "url": "https://www.rrc.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16500,
+    "totalCAD": 66000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Notre Dame Campus"
+  }
+]

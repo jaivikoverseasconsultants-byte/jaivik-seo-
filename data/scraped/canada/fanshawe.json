@@ -1,0 +1,444 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-business-administration",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-accounting",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-human-resources-management",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-project-management",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-digital-marketing",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-international-business-management",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-supply-chain-management",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Event Management",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-event-management",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-computer-systems-technology",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-software-development",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-cybersecurity",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-data-analytics",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-artificial-intelligence",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Game Development",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-game-development",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-graphic-design",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Animation",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-animation",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-interior-design",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-electrical-engineering-technology",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-mechanical-engineering-technology",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-civil-engineering-technology",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-environmental-technology",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Respiratory Therapy",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-respiratory-therapy",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Medical Radiation Technology",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-medical-radiation-technology",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Occupational Therapist Assistant",
+    "level": "Advanced Diploma",
+    "slug": "fanshawe-occupational-therapist-assistant",
+    "url": "https://www.fanshawec.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "fanshawe-health-care-administration",
+    "url": "https://www.fanshawec.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  },
+  {
+    "name": "Bachelor of Commerce — Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "fanshawe-bachelor-of-commerce-human-resources",
+    "url": "https://www.fanshawec.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17500,
+    "totalCAD": 70000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "London Campus"
+  }
+]

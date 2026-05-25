@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "canadore-business-administration",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "canadore-accounting",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "canadore-human-resources-management",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "canadore-project-management",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "canadore-digital-marketing",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Aviation Technology",
+    "level": "Advanced Diploma",
+    "slug": "canadore-aviation-technology",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Aviation Management",
+    "level": "Graduate Certificate",
+    "slug": "canadore-aviation-management",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "canadore-computer-systems-technology",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "canadore-software-development",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "canadore-cybersecurity",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "canadore-electrical-engineering-technology",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "canadore-environmental-technology",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "canadore-health-care-administration",
+    "url": "https://www.canadorecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Bay Campus"
+  }
+]

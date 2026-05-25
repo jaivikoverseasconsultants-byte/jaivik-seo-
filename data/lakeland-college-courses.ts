@@ -1,0 +1,290 @@
+// Auto-generated — do not edit manually
+// Source: data/scraped/canada/lakeland-college.json
+
+export interface LakelandcollegeCourse {
+  id: string; name: string; slug: string; url: string;
+  level: string; studyLevel: string; duration: string; durationYears: number;
+  annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
+  livingCostCAD: number; livingCostUSD: number; livingCostINR: number;
+  ieltsMin: number; toeflMin: number; pteMin: number;
+  intakeMonths: string[]; campus: string;
+  country: string; province: string; city: string; countryCode: string;
+  pgwp: boolean;
+}
+
+export const lakeland_collegeCourses = [
+  {
+    "id": "lakeland-college-1",
+    "name": "Business Administration",
+    "slug": "lakeland-college-business-administration",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "annualUSD": 10220,
+    "annualINR": 854000,
+    "totalCAD": 42000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-2",
+    "name": "Accounting",
+    "slug": "lakeland-college-accounting",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "annualUSD": 10220,
+    "annualINR": 854000,
+    "totalCAD": 42000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-3",
+    "name": "Graduate Certificate in Agribusiness Management",
+    "slug": "lakeland-college-graduate-certificate-in-agribusiness-management",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 13500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-4",
+    "name": "Graduate Certificate in Environmental Management",
+    "slug": "lakeland-college-graduate-certificate-in-environmental-management",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 13500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-5",
+    "name": "Graduate Certificate in Project Management",
+    "slug": "lakeland-college-graduate-certificate-in-project-management",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 13500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-6",
+    "name": "Computer Systems Technology",
+    "slug": "lakeland-college-computer-systems-technology",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "annualUSD": 10220,
+    "annualINR": 854000,
+    "totalCAD": 42000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-7",
+    "name": "Graduate Certificate in Cybersecurity",
+    "slug": "lakeland-college-graduate-certificate-in-cybersecurity",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 13500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-8",
+    "name": "Environmental Technology",
+    "slug": "lakeland-college-environmental-technology",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "annualUSD": 10220,
+    "annualINR": 854000,
+    "totalCAD": 42000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "lakeland-college-9",
+    "name": "Agriculture Management Technology",
+    "slug": "lakeland-college-agriculture-management-technology",
+    "url": "https://www.lakelandcollege.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "annualUSD": 10220,
+    "annualINR": 854000,
+    "totalCAD": 42000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Vermilion Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Vermilion",
+    "countryCode": "CA",
+    "pgwp": true
+  }
+] as const;
+
+export function getLakeland_collegeCoursesBySlug(slug: string) {
+  return (lakeland_collegeCourses as unknown as any[]).find((c: any) => c.slug === slug) ?? null;
+}

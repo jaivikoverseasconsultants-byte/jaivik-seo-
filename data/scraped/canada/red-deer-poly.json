@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "red-deer-poly-business-administration",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "red-deer-poly-accounting",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "red-deer-poly-graduate-certificate-in-human-resources-management",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "red-deer-poly-graduate-certificate-in-project-management",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "red-deer-poly-graduate-certificate-in-digital-marketing",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-deer-poly-computer-systems-technology",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "red-deer-poly-graduate-certificate-in-cybersecurity",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "red-deer-poly-graduate-certificate-in-data-analytics",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-deer-poly-electrical-engineering-technology",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-deer-poly-mechanical-engineering-technology",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "red-deer-poly-civil-engineering-technology",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "red-deer-poly-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  },
+  {
+    "name": "Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "red-deer-poly-bachelor-of-business-administration",
+    "url": "https://www.rdc.ab.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Red Deer Campus"
+  }
+]

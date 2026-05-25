@@ -1,0 +1,290 @@
+// Auto-generated — do not edit manually
+// Source: data/scraped/canada/gprc.json
+
+export interface GprcCourse {
+  id: string; name: string; slug: string; url: string;
+  level: string; studyLevel: string; duration: string; durationYears: number;
+  annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
+  livingCostCAD: number; livingCostUSD: number; livingCostINR: number;
+  ieltsMin: number; toeflMin: number; pteMin: number;
+  intakeMonths: string[]; campus: string;
+  country: string; province: string; city: string; countryCode: string;
+  pgwp: boolean;
+}
+
+export const gprcCourses = [
+  {
+    "id": "gprc-1",
+    "name": "Business Administration",
+    "slug": "gprc-business-administration",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-2",
+    "name": "Accounting",
+    "slug": "gprc-accounting",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-3",
+    "name": "Graduate Certificate in Human Resources Management",
+    "slug": "gprc-graduate-certificate-in-human-resources-management",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-4",
+    "name": "Graduate Certificate in Project Management",
+    "slug": "gprc-graduate-certificate-in-project-management",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-5",
+    "name": "Computer Systems Technology",
+    "slug": "gprc-computer-systems-technology",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-6",
+    "name": "Graduate Certificate in Cybersecurity",
+    "slug": "gprc-graduate-certificate-in-cybersecurity",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-7",
+    "name": "Electrical Engineering Technology",
+    "slug": "gprc-electrical-engineering-technology",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-8",
+    "name": "Environmental Technology",
+    "slug": "gprc-environmental-technology",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "gprc-9",
+    "name": "Graduate Certificate in Healthcare Administration",
+    "slug": "gprc-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.gprc.ab.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 13000,
+    "livingCostUSD": 9490,
+    "livingCostINR": 793000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus",
+    "country": "Canada",
+    "province": "Alberta",
+    "city": "Grande Prairie",
+    "countryCode": "CA",
+    "pgwp": true
+  }
+] as const;
+
+export function getGprcCoursesBySlug(slug: string) {
+  return (gprcCourses as unknown as any[]).find((c: any) => c.slug === slug) ?? null;
+}

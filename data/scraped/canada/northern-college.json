@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "northern-college-business-administration",
+    "url": "https://www.northernc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "northern-college-accounting",
+    "url": "https://www.northernc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "northern-college-human-resources-management",
+    "url": "https://www.northernc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "northern-college-project-management",
+    "url": "https://www.northernc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "northern-college-digital-marketing",
+    "url": "https://www.northernc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Mining Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "northern-college-mining-engineering-technology",
+    "url": "https://www.northernc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "northern-college-environmental-technology",
+    "url": "https://www.northernc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "northern-college-computer-systems-technology",
+    "url": "https://www.northernc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "northern-college-electrical-engineering-technology",
+    "url": "https://www.northernc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "northern-college-health-care-administration",
+    "url": "https://www.northernc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Timmins Campus"
+  }
+]

@@ -1,0 +1,1106 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "ur-mba-business-administration",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Business (Applied Economics)",
+    "level": "Masters",
+    "slug": "ur-msc-business-applied-economics",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-accounting",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-finance",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-marketing",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Management",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-management",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-human-resources",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom International Business",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-international-business",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Supply Chain Management",
+    "level": "Honours Bachelor",
+    "slug": "ur-bcom-supply-chain-management",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-economics",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "ur-msc-computer-science",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Systems Engineering",
+    "level": "Masters",
+    "slug": "ur-meng-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-computer-science",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Software Systems Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-software-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Industrial Systems Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ur-beng-industrial-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Electronic Systems Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ur-beng-electronic-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Environmental Systems Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ur-beng-environmental-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Process Systems Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ur-beng-process-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "ur-msc-biology",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "ur-msc-chemistry",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "ur-msc-physics",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Mathematics",
+    "level": "Masters",
+    "slug": "ur-msc-mathematics",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Statistics",
+    "level": "Masters",
+    "slug": "ur-msc-statistics",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Environmental Systems Engineering",
+    "level": "Masters",
+    "slug": "ur-msc-environmental-systems-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-biology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-chemistry",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-physics",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-mathematics",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Statistics",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-statistics",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-environmental-science",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Geology",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-geology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biochemistry",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-biochemistry",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Kinesiology and Health Studies",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-kinesiology-and-health-studies",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Psychology",
+    "level": "Masters",
+    "slug": "ur-ma-psychology",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Sociology",
+    "level": "Masters",
+    "slug": "ur-ma-sociology",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Political Studies",
+    "level": "Masters",
+    "slug": "ur-ma-political-studies",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA History",
+    "level": "Masters",
+    "slug": "ur-ma-history",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA English",
+    "level": "Masters",
+    "slug": "ur-ma-english",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Indigenous Studies",
+    "level": "Masters",
+    "slug": "ur-ma-indigenous-studies",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-psychology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-sociology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-political-science",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-history",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-english",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Philosophy",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-philosophy",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-indigenous-studies",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Geography",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-geography",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Media, Film, and Communications",
+    "level": "Honours Bachelor",
+    "slug": "ur-ba-media-film-and-communications",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Health",
+    "level": "Masters",
+    "slug": "ur-msc-health",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSW Social Work",
+    "level": "Masters",
+    "slug": "ur-msw-social-work",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsc-nursing",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "ur-bsw-social-work",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEd Education",
+    "level": "Masters",
+    "slug": "ur-med-education",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "ur-bed-education",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "Juris Doctor (JD)",
+    "level": "Masters",
+    "slug": "ur-juris-doctor-jd",
+    "url": "https://www.ur.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 22000,
+    "totalCAD": 66000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "LLM Law",
+    "level": "Masters",
+    "slug": "ur-llm-law",
+    "url": "https://www.ur.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 18000,
+    "totalCAD": 18000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BFA Fine Arts",
+    "level": "Honours Bachelor",
+    "slug": "ur-bfa-fine-arts",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BFA Film Production",
+    "level": "Honours Bachelor",
+    "slug": "ur-bfa-film-production",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BMus Music",
+    "level": "Honours Bachelor",
+    "slug": "ur-bmus-music",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Visual Arts",
+    "level": "Masters",
+    "slug": "ur-ma-visual-arts",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Media Studies",
+    "level": "Masters",
+    "slug": "ur-ma-media-studies",
+    "url": "https://www.ur.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "ur-phd-computer-science",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "ur-phd-engineering",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "ur-phd-business",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "ur-phd-psychology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "ur-phd-chemistry",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "ur-phd-biology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Education",
+    "level": "PhD",
+    "slug": "ur-phd-education",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Sociology",
+    "level": "PhD",
+    "slug": "ur-phd-sociology",
+    "url": "https://www.ur.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  }
+]

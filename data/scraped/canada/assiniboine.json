@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "assiniboine-business-administration",
+    "url": "https://www.assiniboine.net",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "assiniboine-accounting",
+    "url": "https://www.assiniboine.net",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "assiniboine-graduate-certificate-in-human-resources-management",
+    "url": "https://www.assiniboine.net",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "assiniboine-graduate-certificate-in-project-management",
+    "url": "https://www.assiniboine.net",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "assiniboine-graduate-certificate-in-digital-marketing",
+    "url": "https://www.assiniboine.net",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Hospitality and Tourism Management",
+    "level": "Advanced Diploma",
+    "slug": "assiniboine-hospitality-and-tourism-management",
+    "url": "https://www.assiniboine.net",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Culinary Management",
+    "level": "Advanced Diploma",
+    "slug": "assiniboine-culinary-management",
+    "url": "https://www.assiniboine.net",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "assiniboine-computer-systems-technology",
+    "url": "https://www.assiniboine.net",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "assiniboine-graduate-certificate-in-cybersecurity",
+    "url": "https://www.assiniboine.net",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "assiniboine-environmental-technology",
+    "url": "https://www.assiniboine.net",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "assiniboine-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.assiniboine.net",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Brandon Campus"
+  }
+]

@@ -1,0 +1,498 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "u-lethbridge-mba-business-administration",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "u-lethbridge-msc-management",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 18000,
+    "totalCAD": 18000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "u-lethbridge-msc-computer-science",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "u-lethbridge-msc-biology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "u-lethbridge-msc-chemistry",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "u-lethbridge-msc-psychology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bcom-accounting",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bcom-finance",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bcom-marketing",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bcom-human-resources",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BCom Agricultural Studies",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bcom-agricultural-studies",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-computer-science",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-biology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-chemistry",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-physics",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-mathematics",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Biochemistry",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-biochemistry",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-nursing",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bsc-kinesiology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-ba-psychology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-ba-sociology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-ba-political-science",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-ba-history",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bed-education",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BFA Fine Arts",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bfa-fine-arts",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "BMus Music",
+    "level": "Honours Bachelor",
+    "slug": "u-lethbridge-bmus-music",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "u-lethbridge-graduate-certificate-in-data-analytics",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "u-lethbridge-phd-biology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "u-lethbridge-phd-chemistry",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "u-lethbridge-phd-psychology",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "u-lethbridge-phd-computer-science",
+    "url": "https://www.ulethbridge.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "University Campus"
+  }
+]

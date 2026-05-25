@@ -1,0 +1,466 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-business-administration",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-accounting",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-human-resources-management",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-project-management",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Marketing Management",
+    "level": "Diploma",
+    "slug": "mohawk-marketing-management",
+    "url": "https://www.mohawk.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13500,
+    "totalCAD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Global Business Management",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-global-business-management",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Supply Chain and Logistics",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-supply-chain-and-logistics",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-computer-systems-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-software-development",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-cybersecurity",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-data-analytics",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "mohawk-artificial-intelligence",
+    "url": "https://www.mohawk.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-electrical-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-mechanical-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-civil-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Chemical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-chemical-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Energy Systems Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-energy-systems-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Welding Engineering Technology",
+    "level": "Diploma",
+    "slug": "mohawk-welding-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13500,
+    "totalCAD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "mohawk-practical-nursing",
+    "url": "https://www.mohawk.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13500,
+    "totalCAD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Respiratory Therapy",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-respiratory-therapy",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Diagnostic Medical Sonography",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-diagnostic-medical-sonography",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Medical Radiation Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-medical-radiation-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Social Service Worker",
+    "level": "Diploma",
+    "slug": "mohawk-social-service-worker",
+    "url": "https://www.mohawk.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13500,
+    "totalCAD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Early Childhood Education",
+    "level": "Diploma",
+    "slug": "mohawk-early-childhood-education",
+    "url": "https://www.mohawk.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13500,
+    "totalCAD": 27000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-graphic-design",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-interior-design",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-architectural-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Construction Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "mohawk-construction-engineering-technology",
+    "url": "https://www.mohawk.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  },
+  {
+    "name": "Honours Bachelor of Technology — Building Science",
+    "level": "Honours Bachelor",
+    "slug": "mohawk-honours-bachelor-of-technology-building-science",
+    "url": "https://www.mohawk.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 16500,
+    "totalCAD": 66000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fennell Campus"
+  }
+]

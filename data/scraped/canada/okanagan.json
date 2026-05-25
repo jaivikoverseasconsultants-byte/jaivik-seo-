@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-business-administration",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-accounting",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-human-resources-management",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-project-management",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-digital-marketing",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-supply-chain-management",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-computer-systems-technology",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-cybersecurity",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-data-analytics",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-electrical-engineering-technology",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-mechanical-engineering-technology",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-civil-engineering-technology",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-environmental-technology",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "okanagan-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Dental Hygiene",
+    "level": "Advanced Diploma",
+    "slug": "okanagan-dental-hygiene",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  },
+  {
+    "name": "Bachelor of Science in Nursing",
+    "level": "Honours Bachelor",
+    "slug": "okanagan-bachelor-of-science-in-nursing",
+    "url": "https://www.okanagan.bc.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 19000,
+    "totalCAD": 76000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kelowna Campus"
+  }
+]

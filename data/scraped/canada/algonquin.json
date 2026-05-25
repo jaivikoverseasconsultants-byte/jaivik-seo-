@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-business-administration",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-accounting",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-human-resources-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-project-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-digital-marketing",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-international-business-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-supply-chain-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Financial Management",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-financial-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Computer Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-computer-engineering-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Computer Systems Technician",
+    "level": "Diploma",
+    "slug": "algonquin-computer-systems-technician",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-cybersecurity",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Artificial Intelligence and Machine Learning",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-artificial-intelligence-and-machine-learning",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-data-analytics",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Cloud Development and Operations",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-cloud-development-and-operations",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Interactive Media Design",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-interactive-media-design",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Video Game Design",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-video-game-design",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-electrical-engineering-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-mechanical-engineering-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-civil-engineering-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Electronics Engineering Technology",
+    "level": "Diploma",
+    "slug": "algonquin-electronics-engineering-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-graphic-design",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Journalism",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-journalism",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Public Relations",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-public-relations",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Photography",
+    "level": "Diploma",
+    "slug": "algonquin-photography",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "algonquin-practical-nursing",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Pharmacy Technician",
+    "level": "Diploma",
+    "slug": "algonquin-pharmacy-technician",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Health Care Admin",
+    "level": "Graduate Certificate",
+    "slug": "algonquin-health-care-admin",
+    "url": "https://www.algonquin.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Social Service Worker",
+    "level": "Diploma",
+    "slug": "algonquin-social-service-worker",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Early Childhood Education",
+    "level": "Diploma",
+    "slug": "algonquin-early-childhood-education",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Police Foundations",
+    "level": "Diploma",
+    "slug": "algonquin-police-foundations",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Culinary Management",
+    "level": "Diploma",
+    "slug": "algonquin-culinary-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Tourism Management",
+    "level": "Diploma",
+    "slug": "algonquin-tourism-management",
+    "url": "https://www.algonquin.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-architectural-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Construction Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-construction-engineering-technology",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "algonquin-interior-design",
+    "url": "https://www.algonquin.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  },
+  {
+    "name": "Honours Bachelor of Architectural Studies",
+    "level": "Honours Bachelor",
+    "slug": "algonquin-honours-bachelor-of-architectural-studies",
+    "url": "https://www.algonquin.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Woodroffe Campus"
+  }
+]

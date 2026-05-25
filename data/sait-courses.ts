@@ -465,36 +465,6 @@ export const saitCourses = [
   },
   {
     "id": "sait-16",
-    "name": "Network Infrastructure",
-    "slug": "sait-network-infrastructure",
-    "url": "https://www.sait.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 14000,
-    "livingCostUSD": 10220,
-    "livingCostINR": 854000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "SAIT Campus",
-    "country": "Canada",
-    "province": "Alberta",
-    "city": "Calgary",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sait-17",
     "name": "Electrical Engineering Technology",
     "slug": "sait-electrical-engineering-technology",
     "url": "https://www.sait.ca/",
@@ -524,7 +494,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-18",
+    "id": "sait-17",
     "name": "Mechanical Engineering Technology",
     "slug": "sait-mechanical-engineering-technology",
     "url": "https://www.sait.ca/",
@@ -554,7 +524,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-19",
+    "id": "sait-18",
     "name": "Civil Engineering Technology",
     "slug": "sait-civil-engineering-technology",
     "url": "https://www.sait.ca/",
@@ -584,7 +554,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-20",
+    "id": "sait-19",
     "name": "Chemical Engineering Technology",
     "slug": "sait-chemical-engineering-technology",
     "url": "https://www.sait.ca/",
@@ -614,7 +584,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-21",
+    "id": "sait-20",
     "name": "Petroleum Engineering Technology",
     "slug": "sait-petroleum-engineering-technology",
     "url": "https://www.sait.ca/",
@@ -644,37 +614,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-22",
-    "name": "Environmental Engineering Technology",
-    "slug": "sait-environmental-engineering-technology",
-    "url": "https://www.sait.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 14000,
-    "livingCostUSD": 10220,
-    "livingCostINR": 854000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "SAIT Campus",
-    "country": "Canada",
-    "province": "Alberta",
-    "city": "Calgary",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sait-23",
+    "id": "sait-21",
     "name": "Architectural Technology",
     "slug": "sait-architectural-technology",
     "url": "https://www.sait.ca/",
@@ -704,7 +644,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-24",
+    "id": "sait-22",
     "name": "Construction Project Management",
     "slug": "sait-construction-project-management",
     "url": "https://www.sait.ca/",
@@ -734,7 +674,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-25",
+    "id": "sait-23",
     "name": "Welding Engineering Technology",
     "slug": "sait-welding-engineering-technology",
     "url": "https://www.sait.ca/",
@@ -764,7 +704,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-26",
+    "id": "sait-24",
     "name": "Energy Management",
     "slug": "sait-energy-management",
     "url": "https://www.sait.ca/",
@@ -794,7 +734,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-27",
+    "id": "sait-25",
     "name": "Health Information Management",
     "slug": "sait-health-information-management",
     "url": "https://www.sait.ca/",
@@ -824,67 +764,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-28",
-    "name": "Medical Device Reprocessing",
-    "slug": "sait-medical-device-reprocessing",
-    "url": "https://www.sait.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "1 year",
-    "durationYears": 1,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 14000,
-    "livingCostCAD": 14000,
-    "livingCostUSD": 10220,
-    "livingCostINR": 854000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "SAIT Campus",
-    "country": "Canada",
-    "province": "Alberta",
-    "city": "Calgary",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sait-29",
-    "name": "Culinary Arts",
-    "slug": "sait-culinary-arts",
-    "url": "https://www.sait.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 14000,
-    "livingCostUSD": 10220,
-    "livingCostINR": 854000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "SAIT Campus",
-    "country": "Canada",
-    "province": "Alberta",
-    "city": "Calgary",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "sait-30",
+    "id": "sait-26",
     "name": "Hospitality Management",
     "slug": "sait-hospitality-management",
     "url": "https://www.sait.ca/",
@@ -914,7 +794,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-31",
+    "id": "sait-27",
     "name": "Graphic Design Technology",
     "slug": "sait-graphic-design-technology",
     "url": "https://www.sait.ca/",
@@ -944,7 +824,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-32",
+    "id": "sait-28",
     "name": "Film and Video Production",
     "slug": "sait-film-and-video-production",
     "url": "https://www.sait.ca/",
@@ -974,7 +854,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-33",
+    "id": "sait-29",
     "name": "Safety Management",
     "slug": "sait-safety-management",
     "url": "https://www.sait.ca/",
@@ -1004,7 +884,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-34",
+    "id": "sait-30",
     "name": "Bachelor of Applied Business Administration",
     "slug": "sait-bachelor-of-applied-business-administration",
     "url": "https://www.sait.ca/",
@@ -1034,7 +914,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-35",
+    "id": "sait-31",
     "name": "Bachelor of Applied Technology — Integrated Energy",
     "slug": "sait-bachelor-of-applied-technology-integrated-energy",
     "url": "https://www.sait.ca/",
@@ -1064,7 +944,7 @@ export const saitCourses = [
     "pgwp": true
   },
   {
-    "id": "sait-36",
+    "id": "sait-32",
     "name": "Bachelor of Health Sciences",
     "slug": "sait-bachelor-of-health-sciences",
     "url": "https://www.sait.ca/",

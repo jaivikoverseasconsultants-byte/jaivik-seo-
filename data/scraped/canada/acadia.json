@@ -1,0 +1,594 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "acadia-mba-business-administration",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "acadia-msc-computer-science",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MSc Applied Geomatics",
+    "level": "Masters",
+    "slug": "acadia-msc-applied-geomatics",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BBA Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bba-business-administration",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BBA Accounting",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bba-accounting",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BBA Finance",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bba-finance",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BBA Marketing",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bba-marketing",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BBA Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bba-human-resources",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Economics",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-economics",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-biology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-chemistry",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-physics",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-mathematics",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-computer-science",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-environmental-science",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Geology",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-geology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-kinesiology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BSc Nutrition",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bsc-nutrition",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "acadia-msc-biology",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "acadia-msc-chemistry",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "acadia-msc-psychology",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-psychology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-sociology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-political-science",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-history",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-english",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA Philosophy",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-philosophy",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA Music",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-music",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA French",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-french",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BA Theology",
+    "level": "Honours Bachelor",
+    "slug": "acadia-ba-theology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MA Education",
+    "level": "Masters",
+    "slug": "acadia-ma-education",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "MA Social and Political Thought",
+    "level": "Masters",
+    "slug": "acadia-ma-social-and-political-thought",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "acadia-bed-education",
+    "url": "https://www.acadia.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "acadia-phd-biology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "acadia-phd-chemistry",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "acadia-phd-computer-science",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "acadia-phd-psychology",
+    "url": "https://www.acadia.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Wolfville Campus"
+  }
+]

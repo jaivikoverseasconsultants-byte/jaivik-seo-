@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "columbia-college-bc-business-administration",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Management",
+    "level": "Graduate Certificate",
+    "slug": "columbia-college-bc-graduate-certificate-in-business-management",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in International Business",
+    "level": "Graduate Certificate",
+    "slug": "columbia-college-bc-graduate-certificate-in-international-business",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "columbia-college-bc-graduate-certificate-in-digital-marketing",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "columbia-college-bc-graduate-certificate-in-human-resources-management",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "columbia-college-bc-graduate-certificate-in-supply-chain-management",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "columbia-college-bc-graduate-certificate-in-data-analytics",
+    "url": "https://www.columbiacollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 5.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Vancouver Campus"
+  }
+]

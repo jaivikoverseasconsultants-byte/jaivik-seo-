@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-business-administration",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-accounting",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-human-resources-management",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-project-management",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-digital-marketing",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-supply-chain-management",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-computer-systems-technology",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-software-development",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-cybersecurity",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-data-analytics",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-electrical-engineering-technology",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-mechanical-engineering-technology",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-civil-engineering-technology",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-environmental-technology",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "st-lawrence-health-care-administration",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  },
+  {
+    "name": "Occupational Therapist Assistant",
+    "level": "Advanced Diploma",
+    "slug": "st-lawrence-occupational-therapist-assistant",
+    "url": "https://www.stlawrencecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Kingston Campus"
+  }
+]

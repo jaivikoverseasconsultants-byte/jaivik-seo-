@@ -1,0 +1,852 @@
+[
+  {
+    "name": "Master of Business Administration (MBA)",
+    "level": "Masters",
+    "slug": "windsor-master-of-business-administration-mba",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 28000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "windsor-msc-management",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "windsor-msc-finance",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Accounting",
+    "level": "Masters",
+    "slug": "windsor-msc-accounting",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Marketing",
+    "level": "Masters",
+    "slug": "windsor-msc-marketing",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Human Resource Management",
+    "level": "Masters",
+    "slug": "windsor-msc-human-resource-management",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc International Business",
+    "level": "Masters",
+    "slug": "windsor-msc-international-business",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Project Management",
+    "level": "Masters",
+    "slug": "windsor-msc-project-management",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bcom-accounting",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bcom-finance",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bcom-marketing",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Management",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bcom-management",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom International Business",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bcom-international-business",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "windsor-msc-computer-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Computer Engineering",
+    "level": "Masters",
+    "slug": "windsor-meng-computer-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Electrical Engineering",
+    "level": "Masters",
+    "slug": "windsor-meng-electrical-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Masters",
+    "slug": "windsor-meng-mechanical-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Civil Engineering",
+    "level": "Masters",
+    "slug": "windsor-meng-civil-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Industrial Engineering",
+    "level": "Masters",
+    "slug": "windsor-meng-industrial-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEng Environmental Engineering",
+    "level": "Masters",
+    "slug": "windsor-meng-environmental-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "windsor-msc-data-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bsc-computer-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bsc-software-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "windsor-beng-mechanical-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "windsor-beng-electrical-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "windsor-beng-civil-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Chemical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "windsor-beng-chemical-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEng Industrial Engineering",
+    "level": "Honours Bachelor",
+    "slug": "windsor-beng-industrial-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "Juris Doctor (JD)",
+    "level": "Masters",
+    "slug": "windsor-juris-doctor-jd",
+    "url": "https://www.windsor.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 24000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "LLM International Business Law",
+    "level": "Masters",
+    "slug": "windsor-llm-international-business-law",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEd Educational Leadership",
+    "level": "Masters",
+    "slug": "windsor-med-educational-leadership",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEd Counselling",
+    "level": "Masters",
+    "slug": "windsor-med-counselling",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSW Social Work",
+    "level": "Masters",
+    "slug": "windsor-msw-social-work",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Communication",
+    "level": "Masters",
+    "slug": "windsor-ma-communication",
+    "url": "https://www.windsor.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA Political Science",
+    "level": "Masters",
+    "slug": "windsor-ma-political-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MA History",
+    "level": "Masters",
+    "slug": "windsor-ma-history",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "windsor-ba-psychology",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "windsor-ba-sociology",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "windsor-ba-political-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "windsor-msc-chemistry",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "windsor-msc-biology",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "windsor-msc-physics",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Environmental Science",
+    "level": "Masters",
+    "slug": "windsor-msc-environmental-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bsc-biology",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bsc-chemistry",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biomedical Science",
+    "level": "Honours Bachelor",
+    "slug": "windsor-bsc-biomedical-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 24000,
+    "totalCAD": 96000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "windsor-phd-computer-science",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "windsor-phd-engineering",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Business Administration",
+    "level": "PhD",
+    "slug": "windsor-phd-business-administration",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "windsor-phd-chemistry",
+    "url": "https://www.windsor.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Main Campus"
+  }
+]

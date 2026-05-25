@@ -1,0 +1,290 @@
+// Auto-generated — do not edit manually
+// Source: data/scraped/canada/jibc.json
+
+export interface JibcCourse {
+  id: string; name: string; slug: string; url: string;
+  level: string; studyLevel: string; duration: string; durationYears: number;
+  annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
+  livingCostCAD: number; livingCostUSD: number; livingCostINR: number;
+  ieltsMin: number; toeflMin: number; pteMin: number;
+  intakeMonths: string[]; campus: string;
+  country: string; province: string; city: string; countryCode: string;
+  pgwp: boolean;
+}
+
+export const jibcCourses = [
+  {
+    "id": "jibc-1",
+    "name": "Bachelor of Emergency and Security Management Studies",
+    "slug": "jibc-bachelor-of-emergency-and-security-management-studies",
+    "url": "https://www.jibc.ca",
+    "level": "Honours Bachelor",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "annualUSD": 15330,
+    "annualINR": 1281000,
+    "totalCAD": 84000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-2",
+    "name": "Bachelor of Law Enforcement Studies",
+    "slug": "jibc-bachelor-of-law-enforcement-studies",
+    "url": "https://www.jibc.ca",
+    "level": "Honours Bachelor",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "annualUSD": 15330,
+    "annualINR": 1281000,
+    "totalCAD": 84000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-3",
+    "name": "Graduate Certificate in Leadership",
+    "slug": "jibc-graduate-certificate-in-leadership",
+    "url": "https://www.jibc.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "annualUSD": 10950,
+    "annualINR": 915000,
+    "totalCAD": 15000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-4",
+    "name": "Graduate Certificate in Public Safety Management",
+    "slug": "jibc-graduate-certificate-in-public-safety-management",
+    "url": "https://www.jibc.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "annualUSD": 10950,
+    "annualINR": 915000,
+    "totalCAD": 15000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-5",
+    "name": "Graduate Certificate in Conflict Resolution",
+    "slug": "jibc-graduate-certificate-in-conflict-resolution",
+    "url": "https://www.jibc.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "annualUSD": 10950,
+    "annualINR": 915000,
+    "totalCAD": 15000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-6",
+    "name": "Graduate Certificate in Emergency Management",
+    "slug": "jibc-graduate-certificate-in-emergency-management",
+    "url": "https://www.jibc.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "annualUSD": 10950,
+    "annualINR": 915000,
+    "totalCAD": 15000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-7",
+    "name": "Graduate Certificate in Healthcare Administration",
+    "slug": "jibc-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.jibc.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "annualUSD": 10950,
+    "annualINR": 915000,
+    "totalCAD": 15000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-8",
+    "name": "Graduate Certificate in Restorative Justice",
+    "slug": "jibc-graduate-certificate-in-restorative-justice",
+    "url": "https://www.jibc.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "annualUSD": 10950,
+    "annualINR": 915000,
+    "totalCAD": 15000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "jibc-9",
+    "name": "Advanced Diploma in Community and Social Justice",
+    "slug": "jibc-advanced-diploma-in-community-and-social-justice",
+    "url": "https://www.jibc.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "annualUSD": 11680,
+    "annualINR": 976000,
+    "totalCAD": 48000,
+    "livingCostCAD": 16000,
+    "livingCostUSD": 11680,
+    "livingCostINR": 976000,
+    "ieltsMin": 6.5,
+    "toeflMin": 86,
+    "pteMin": 57,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus",
+    "country": "Canada",
+    "province": "British Columbia",
+    "city": "New Westminster",
+    "countryCode": "CA",
+    "pgwp": true
+  }
+] as const;
+
+export function getJibcCoursesBySlug(slug: string) {
+  return (jibcCourses as unknown as any[]).find((c: any) => c.slug === slug) ?? null;
+}

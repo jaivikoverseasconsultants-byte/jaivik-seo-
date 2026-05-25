@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Bachelor of Emergency and Security Management Studies",
+    "level": "Honours Bachelor",
+    "slug": "jibc-bachelor-of-emergency-and-security-management-studies",
+    "url": "https://www.jibc.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Bachelor of Law Enforcement Studies",
+    "level": "Honours Bachelor",
+    "slug": "jibc-bachelor-of-law-enforcement-studies",
+    "url": "https://www.jibc.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Graduate Certificate in Leadership",
+    "level": "Graduate Certificate",
+    "slug": "jibc-graduate-certificate-in-leadership",
+    "url": "https://www.jibc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Graduate Certificate in Public Safety Management",
+    "level": "Graduate Certificate",
+    "slug": "jibc-graduate-certificate-in-public-safety-management",
+    "url": "https://www.jibc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Graduate Certificate in Conflict Resolution",
+    "level": "Graduate Certificate",
+    "slug": "jibc-graduate-certificate-in-conflict-resolution",
+    "url": "https://www.jibc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Graduate Certificate in Emergency Management",
+    "level": "Graduate Certificate",
+    "slug": "jibc-graduate-certificate-in-emergency-management",
+    "url": "https://www.jibc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "jibc-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.jibc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Graduate Certificate in Restorative Justice",
+    "level": "Graduate Certificate",
+    "slug": "jibc-graduate-certificate-in-restorative-justice",
+    "url": "https://www.jibc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  },
+  {
+    "name": "Advanced Diploma in Community and Social Justice",
+    "level": "Advanced Diploma",
+    "slug": "jibc-advanced-diploma-in-community-and-social-justice",
+    "url": "https://www.jibc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "New Westminster Campus"
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "lakehead-mba-business-administration",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "lakehead-msc-management",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 20000,
+    "totalCAD": 20000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bcom-business-administration",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bcom-accounting",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bcom-finance",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-computer-science",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-software-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-beng-civil-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-beng-electrical-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-beng-mechanical-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BEng Environmental Engineering",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-beng-environmental-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BEng Chemical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-beng-chemical-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MSc Engineering",
+    "level": "Masters",
+    "slug": "lakehead-msc-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-biology",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-chemistry",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-physics",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-environmental-science",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-kinesiology",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsc-nursing",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "lakehead-msc-biology",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "lakehead-msc-chemistry",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-ba-psychology",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-ba-sociology",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-ba-political-science",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-ba-history",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BA Indigenous Learning",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-ba-indigenous-learning",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MA Indigenous Learning",
+    "level": "Masters",
+    "slug": "lakehead-ma-indigenous-learning",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bed-education",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 23000,
+    "totalCAD": 46000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MEd Education",
+    "level": "Masters",
+    "slug": "lakehead-med-education",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "lakehead-bsw-social-work",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 23000,
+    "totalCAD": 92000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "MSW Social Work",
+    "level": "Masters",
+    "slug": "lakehead-msw-social-work",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "lakehead-graduate-certificate-in-business-analytics",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "lakehead-phd-biology",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "lakehead-phd-chemistry",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "PhD Education",
+    "level": "PhD",
+    "slug": "lakehead-phd-education",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "lakehead-phd-engineering",
+    "url": "https://www.lakeheadu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Thunder Bay Campus"
+  }
+]

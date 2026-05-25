@@ -1,0 +1,562 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-business-administration",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Accounting and Finance",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-accounting-and-finance",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-human-resources-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Marketing Management",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-marketing-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-project-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-international-business-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Financial Planning",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-financial-planning",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Event Planning",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-event-planning",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-computer-systems-technology",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-cybersecurity",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-data-analytics",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-artificial-intelligence",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-cloud-computing",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Dental Hygiene",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-dental-hygiene",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Dental Assisting",
+    "level": "Certificate",
+    "slug": "george-brown-dental-assisting",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "george-brown-practical-nursing",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Personal Support Worker",
+    "level": "Certificate",
+    "slug": "george-brown-personal-support-worker",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Pharmacy Technician",
+    "level": "Diploma",
+    "slug": "george-brown-pharmacy-technician",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Medical Laboratory Technology",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-medical-laboratory-technology",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Hearing Instrument Specialist",
+    "level": "Diploma",
+    "slug": "george-brown-hearing-instrument-specialist",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Opticianry",
+    "level": "Diploma",
+    "slug": "george-brown-opticianry",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Culinary Management",
+    "level": "Diploma",
+    "slug": "george-brown-culinary-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Baking and Pastry Arts Management",
+    "level": "Diploma",
+    "slug": "george-brown-baking-and-pastry-arts-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Food and Nutrition Management",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-food-and-nutrition-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Hotel Operations Management",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-hotel-operations-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Tourism Management",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-tourism-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Event Planning",
+    "level": "Diploma",
+    "slug": "george-brown-event-planning",
+    "url": "https://www.george-brown.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Construction Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-construction-engineering-technology",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-architectural-technology",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-interior-design",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Green Architecture",
+    "level": "Graduate Certificate",
+    "slug": "george-brown-green-architecture",
+    "url": "https://www.george-brown.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-graphic-design",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Interactive Media Design",
+    "level": "Advanced Diploma",
+    "slug": "george-brown-interactive-media-design",
+    "url": "https://www.george-brown.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Bachelor of Applied Business — Hospitality Operations",
+    "level": "Honours Bachelor",
+    "slug": "george-brown-bachelor-of-applied-business-hospitality-operations",
+    "url": "https://www.george-brown.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  },
+  {
+    "name": "Bachelor of Technology — Construction Management",
+    "level": "Honours Bachelor",
+    "slug": "george-brown-bachelor-of-technology-construction-management",
+    "url": "https://www.george-brown.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "St. James Campus"
+  }
+]

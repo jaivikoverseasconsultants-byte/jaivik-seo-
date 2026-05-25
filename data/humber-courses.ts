@@ -465,36 +465,6 @@ export const humberCourses = [
   },
   {
     "id": "humber-16",
-    "name": "Computer Systems Technician",
-    "slug": "humber-computer-systems-technician",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-17",
     "name": "Software Development",
     "slug": "humber-software-development",
     "url": "https://www.humber.ca/",
@@ -524,7 +494,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-18",
+    "id": "humber-17",
     "name": "Artificial Intelligence",
     "slug": "humber-artificial-intelligence",
     "url": "https://www.humber.ca/",
@@ -554,7 +524,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-19",
+    "id": "humber-18",
     "name": "Cybersecurity",
     "slug": "humber-cybersecurity",
     "url": "https://www.humber.ca/",
@@ -584,7 +554,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-20",
+    "id": "humber-19",
     "name": "Data Science",
     "slug": "humber-data-science",
     "url": "https://www.humber.ca/",
@@ -614,7 +584,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-21",
+    "id": "humber-20",
     "name": "Cloud Computing",
     "slug": "humber-cloud-computing",
     "url": "https://www.humber.ca/",
@@ -644,7 +614,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-22",
+    "id": "humber-21",
     "name": "Network and Telecommunications Engineering Technology",
     "slug": "humber-network-and-telecommunications-engineering-technology",
     "url": "https://www.humber.ca/",
@@ -674,7 +644,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-23",
+    "id": "humber-22",
     "name": "Game Programming",
     "slug": "humber-game-programming",
     "url": "https://www.humber.ca/",
@@ -704,7 +674,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-24",
+    "id": "humber-23",
     "name": "User Experience Design",
     "slug": "humber-user-experience-design",
     "url": "https://www.humber.ca/",
@@ -734,7 +704,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-25",
+    "id": "humber-24",
     "name": "Media Communications",
     "slug": "humber-media-communications",
     "url": "https://www.humber.ca/",
@@ -764,37 +734,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-26",
-    "name": "Broadcasting — Radio, Television and Film",
-    "slug": "humber-broadcasting-radio-television-and-film",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-27",
+    "id": "humber-25",
     "name": "Journalism",
     "slug": "humber-journalism",
     "url": "https://www.humber.ca/",
@@ -824,7 +764,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-28",
+    "id": "humber-26",
     "name": "Film and Television Production",
     "slug": "humber-film-and-television-production",
     "url": "https://www.humber.ca/",
@@ -854,7 +794,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-29",
+    "id": "humber-27",
     "name": "Advertising and Graphic Design",
     "slug": "humber-advertising-and-graphic-design",
     "url": "https://www.humber.ca/",
@@ -884,7 +824,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-30",
+    "id": "humber-28",
     "name": "Animation",
     "slug": "humber-animation",
     "url": "https://www.humber.ca/",
@@ -914,37 +854,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-31",
-    "name": "Practical Nursing",
-    "slug": "humber-practical-nursing",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-32",
+    "id": "humber-29",
     "name": "Paramedic",
     "slug": "humber-paramedic",
     "url": "https://www.humber.ca/",
@@ -974,7 +884,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-33",
+    "id": "humber-30",
     "name": "Dental Hygiene",
     "slug": "humber-dental-hygiene",
     "url": "https://www.humber.ca/",
@@ -1004,67 +914,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-34",
-    "name": "Fitness and Health Promotion",
-    "slug": "humber-fitness-and-health-promotion",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-35",
-    "name": "Personal Support Worker",
-    "slug": "humber-personal-support-worker",
-    "url": "https://www.humber.ca/",
-    "level": "Certificate",
-    "studyLevel": "Certificate",
-    "duration": "1 year",
-    "durationYears": 1,
-    "annualCAD": 12500,
-    "annualUSD": 9125,
-    "annualINR": 762500,
-    "totalCAD": 12500,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-36",
+    "id": "humber-31",
     "name": "Health Sciences",
     "slug": "humber-health-sciences",
     "url": "https://www.humber.ca/",
@@ -1094,7 +944,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-37",
+    "id": "humber-32",
     "name": "Healthcare Administration",
     "slug": "humber-healthcare-administration",
     "url": "https://www.humber.ca/",
@@ -1124,7 +974,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-38",
+    "id": "humber-33",
     "name": "Tourism and Hospitality Management",
     "slug": "humber-tourism-and-hospitality-management",
     "url": "https://www.humber.ca/",
@@ -1154,7 +1004,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-39",
+    "id": "humber-34",
     "name": "Hotel and Restaurant Management",
     "slug": "humber-hotel-and-restaurant-management",
     "url": "https://www.humber.ca/",
@@ -1184,67 +1034,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-40",
-    "name": "Culinary Management",
-    "slug": "humber-culinary-management",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-41",
-    "name": "Baking and Pastry Arts Management",
-    "slug": "humber-baking-and-pastry-arts-management",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-42",
+    "id": "humber-35",
     "name": "Interior Decoration",
     "slug": "humber-interior-decoration",
     "url": "https://www.humber.ca/",
@@ -1274,7 +1064,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-43",
+    "id": "humber-36",
     "name": "Fashion Arts",
     "slug": "humber-fashion-arts",
     "url": "https://www.humber.ca/",
@@ -1304,37 +1094,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-44",
-    "name": "Carpentry and Renovation Technician",
-    "slug": "humber-carpentry-and-renovation-technician",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-45",
+    "id": "humber-37",
     "name": "Electrical Engineering Technology",
     "slug": "humber-electrical-engineering-technology",
     "url": "https://www.humber.ca/",
@@ -1364,7 +1124,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-46",
+    "id": "humber-38",
     "name": "Mechanical Engineering Technology",
     "slug": "humber-mechanical-engineering-technology",
     "url": "https://www.humber.ca/",
@@ -1394,97 +1154,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-47",
-    "name": "Police Foundations",
-    "slug": "humber-police-foundations",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-48",
-    "name": "Community and Justice Services",
-    "slug": "humber-community-and-justice-services",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-49",
-    "name": "Protection, Security and Investigation",
-    "slug": "humber-protection-security-and-investigation",
-    "url": "https://www.humber.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14500,
-    "annualUSD": 10585,
-    "annualINR": 884500,
-    "totalCAD": 29000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "North Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Toronto",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "humber-50",
+    "id": "humber-39",
     "name": "Bachelor of Creative Arts",
     "slug": "humber-bachelor-of-creative-arts",
     "url": "https://www.humber.ca/",
@@ -1514,7 +1184,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-51",
+    "id": "humber-40",
     "name": "Bachelor of Commerce — Financial Services",
     "slug": "humber-bachelor-of-commerce-financial-services",
     "url": "https://www.humber.ca/",
@@ -1544,7 +1214,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-52",
+    "id": "humber-41",
     "name": "Bachelor of Applied Technology — Computer Systems",
     "slug": "humber-bachelor-of-applied-technology-computer-systems",
     "url": "https://www.humber.ca/",
@@ -1574,7 +1244,7 @@ export const humberCourses = [
     "pgwp": true
   },
   {
-    "id": "humber-53",
+    "id": "humber-42",
     "name": "Bachelor of Nursing",
     "slug": "humber-bachelor-of-nursing",
     "url": "https://www.humber.ca/",

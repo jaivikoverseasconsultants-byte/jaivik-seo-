@@ -1,0 +1,338 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "concordia-edmonton-mba-business-administration",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bcom-accounting",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bcom-finance",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BCom Management",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bcom-management",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bcom-marketing",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BCom International Business",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bcom-international-business",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bcom-human-resources",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-biology",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-chemistry",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-physics",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-computer-science",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-mathematics",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-psychology",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bsc-environmental-science",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-ba-psychology",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-ba-sociology",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-ba-english",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-ba-history",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-ba-political-science",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BA Philosophy",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-ba-philosophy",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 22000,
+    "totalCAD": 88000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "concordia-edmonton-bed-education",
+    "url": "https://www.concordia-edmonton.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Edmonton Campus"
+  }
+]

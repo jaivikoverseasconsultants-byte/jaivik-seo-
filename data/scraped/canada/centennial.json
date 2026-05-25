@@ -1,0 +1,450 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "centennial-business-administration",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Accounting and Finance",
+    "level": "Advanced Diploma",
+    "slug": "centennial-accounting-and-finance",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "centennial-human-resources-management",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "centennial-project-management",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "centennial-digital-marketing",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "centennial-international-business-management",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "centennial-supply-chain-management",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Global Business Management",
+    "level": "Graduate Certificate",
+    "slug": "centennial-global-business-management",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-computer-systems-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Software Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-software-engineering-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "centennial-cybersecurity",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "centennial-data-analytics",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "centennial-artificial-intelligence",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "centennial-cloud-computing",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Aviation Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-aviation-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-electrical-engineering-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-mechanical-engineering-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-civil-engineering-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "centennial-architectural-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Construction Project Management",
+    "level": "Graduate Certificate",
+    "slug": "centennial-construction-project-management",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Journalism",
+    "level": "Advanced Diploma",
+    "slug": "centennial-journalism",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Public Relations",
+    "level": "Graduate Certificate",
+    "slug": "centennial-public-relations",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "centennial-graphic-design",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Interactive Media Design",
+    "level": "Advanced Diploma",
+    "slug": "centennial-interactive-media-design",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "centennial-health-care-administration",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Developmental Services Worker",
+    "level": "Advanced Diploma",
+    "slug": "centennial-developmental-services-worker",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Honours Bachelor of Commerce",
+    "level": "Honours Bachelor",
+    "slug": "centennial-honours-bachelor-of-commerce",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  },
+  {
+    "name": "Honours Bachelor of Information Technology",
+    "level": "Honours Bachelor",
+    "slug": "centennial-honours-bachelor-of-information-technology",
+    "url": "https://www.centennialcollege.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Progress Campus"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "lambton-business-administration",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "lambton-accounting",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "lambton-human-resources-management",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "lambton-project-management",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "lambton-digital-marketing",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "lambton-supply-chain-management",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "International Business",
+    "level": "Graduate Certificate",
+    "slug": "lambton-international-business",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "lambton-computer-systems-technology",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "lambton-software-development",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "lambton-cybersecurity",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "lambton-data-analytics",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "lambton-cloud-computing",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "lambton-artificial-intelligence",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Chemical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "lambton-chemical-engineering-technology",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "lambton-electrical-engineering-technology",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "lambton-mechanical-engineering-technology",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Environmental Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "lambton-environmental-engineering-technology",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Oil and Gas Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "lambton-oil-and-gas-engineering-technology",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14500,
+    "totalCAD": 43500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "lambton-health-care-administration",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  },
+  {
+    "name": "Honours Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "lambton-honours-bachelor-of-business-administration",
+    "url": "https://www.lambtoncollege.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Sarnia Campus"
+  }
+]

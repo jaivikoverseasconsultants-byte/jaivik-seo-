@@ -1,0 +1,338 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "upei-mba-business-administration",
+    "url": "https://www.upei.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "upei-msc-biology",
+    "url": "https://www.upei.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "upei-msc-chemistry",
+    "url": "https://www.upei.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "upei-bcom-business-administration",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "upei-bcom-accounting",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "upei-bcom-finance",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "upei-bcom-marketing",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-computer-science",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-biology",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-chemistry",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-mathematics",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-psychology",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-nursing",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "upei-bsc-kinesiology",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "upei-ba-psychology",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "upei-ba-sociology",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "upei-ba-political-science",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "upei-ba-history",
+    "url": "https://www.upei.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "upei-bed-education",
+    "url": "https://www.upei.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "upei-graduate-certificate-in-business-analytics",
+    "url": "https://www.upei.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "upei-graduate-certificate-in-data-analytics",
+    "url": "https://www.upei.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Charlottetown Campus"
+  }
+]

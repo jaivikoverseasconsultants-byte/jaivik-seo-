@@ -1,0 +1,290 @@
+[
+  {
+    "name": "MSc Rural Development",
+    "level": "Masters",
+    "slug": "brandon-university-msc-rural-development",
+    "url": "https://www.brandonu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Environmental and Life Sciences",
+    "level": "Masters",
+    "slug": "brandon-university-msc-environmental-and-life-sciences",
+    "url": "https://www.brandonu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "brandon-university-msc-psychology",
+    "url": "https://www.brandonu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "MEd Education",
+    "level": "Masters",
+    "slug": "brandon-university-med-education",
+    "url": "https://www.brandonu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bcom-business-administration",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bsc-computer-science",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bsc-biology",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bsc-chemistry",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bsc-mathematics",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bsc-psychology",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bsc-nursing",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-ba-psychology",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-ba-sociology",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-ba-history",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-ba-indigenous-studies",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bed-education",
+    "url": "https://www.brandonu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "BMus Music",
+    "level": "Honours Bachelor",
+    "slug": "brandon-university-bmus-music",
+    "url": "https://www.brandonu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  },
+  {
+    "name": "Graduate Certificate in Rural Development",
+    "level": "Graduate Certificate",
+    "slug": "brandon-university-graduate-certificate-in-rural-development",
+    "url": "https://www.brandonu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 11000,
+    "totalCAD": 11000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Main Campus"
+  }
+]

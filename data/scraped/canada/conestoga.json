@@ -1,0 +1,818 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-business-administration",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Business Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-business-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-accounting",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Finance",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-finance",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-human-resources-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-project-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Supply Chain and Operations Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-supply-chain-and-operations-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Digital Marketing Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-digital-marketing-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Entrepreneurship and Small Business",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-entrepreneurship-and-small-business",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-international-business-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Marketing Management",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-marketing-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Business — Financial Services",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-business-financial-services",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Computer Systems Technician",
+    "level": "Diploma",
+    "slug": "conestoga-computer-systems-technician",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Computer Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-computer-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Software Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-software-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Network Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-network-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Cybersecurity and Threat Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-cybersecurity-and-threat-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-data-analytics",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Cloud Computing Architecture",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-cloud-computing-architecture",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Artificial Intelligence and Machine Learning",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-artificial-intelligence-and-machine-learning",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Internet of Things",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-internet-of-things",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Mobile Application Development",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-mobile-application-development",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Game Development",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-game-development",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-mechanical-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-electrical-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-civil-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Environmental Engineering Technology",
+    "level": "Diploma",
+    "slug": "conestoga-environmental-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Automation and Robotics",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-automation-and-robotics",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Welding Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-welding-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Heating, Refrigeration and Air Conditioning",
+    "level": "Diploma",
+    "slug": "conestoga-heating-refrigeration-and-air-conditioning",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-graphic-design",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-interior-design",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Interaction Design",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-interaction-design",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Media Design",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-media-design",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "conestoga-practical-nursing",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Pharmacy Technician",
+    "level": "Diploma",
+    "slug": "conestoga-pharmacy-technician",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Dental Hygiene",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-dental-hygiene",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Medical Device Reprocessing Technician",
+    "level": "Certificate",
+    "slug": "conestoga-medical-device-reprocessing-technician",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Health Informatics",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-health-informatics",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Culinary Management",
+    "level": "Diploma",
+    "slug": "conestoga-culinary-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Hospitality and Tourism Management",
+    "level": "Diploma",
+    "slug": "conestoga-hospitality-and-tourism-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Event Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-event-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-architectural-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Construction Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "conestoga-construction-engineering-technology",
+    "url": "https://www.conestoga.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15000,
+    "totalCAD": 45000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Construction Project Management",
+    "level": "Graduate Certificate",
+    "slug": "conestoga-construction-project-management",
+    "url": "https://www.conestoga.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "conestoga-bachelor-of-business-administration",
+    "url": "https://www.conestoga.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Bachelor of Applied Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "conestoga-bachelor-of-applied-computer-science",
+    "url": "https://www.conestoga.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  },
+  {
+    "name": "Bachelor of Interior Design",
+    "level": "Honours Bachelor",
+    "slug": "conestoga-bachelor-of-interior-design",
+    "url": "https://www.conestoga.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 17000,
+    "totalCAD": 68000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "Doon Campus"
+  }
+]

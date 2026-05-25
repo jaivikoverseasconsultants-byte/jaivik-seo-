@@ -1,0 +1,418 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "laurentian-mba-business-administration",
+    "url": "https://www.laurentian.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "laurentian-msc-biology",
+    "url": "https://www.laurentian.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "laurentian-msc-chemistry",
+    "url": "https://www.laurentian.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "MSc Geology",
+    "level": "Masters",
+    "slug": "laurentian-msc-geology",
+    "url": "https://www.laurentian.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "MSc Engineering",
+    "level": "Masters",
+    "slug": "laurentian-msc-engineering",
+    "url": "https://www.laurentian.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bcom-business-administration",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bcom-accounting",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BEng Mining Engineering",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-beng-mining-engineering",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-beng-civil-engineering",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-beng-electrical-engineering",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-beng-mechanical-engineering",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-computer-science",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-biology",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-chemistry",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Geology",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-geology",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-mathematics",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-nursing",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsc-kinesiology",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-ba-psychology",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-ba-sociology",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-ba-indigenous-studies",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bed-education",
+    "url": "https://www.laurentian.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 21000,
+    "totalCAD": 42000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "laurentian-bsw-social-work",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 21000,
+    "totalCAD": 84000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "laurentian-phd-biology",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "laurentian-phd-chemistry",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "laurentian-phd-engineering",
+    "url": "https://www.laurentian.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus"
+  }
+]

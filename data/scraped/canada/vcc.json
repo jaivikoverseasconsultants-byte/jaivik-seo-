@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "vcc-business-administration",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "vcc-accounting",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-digital-marketing",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-supply-chain-management",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-business-analytics",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-project-management",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "vcc-computer-systems-technology",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-cybersecurity",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-data-analytics",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-cloud-computing",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Culinary Arts Management",
+    "level": "Advanced Diploma",
+    "slug": "vcc-culinary-arts-management",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Hospitality Management",
+    "level": "Advanced Diploma",
+    "slug": "vcc-hospitality-management",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Fashion Design and Technology",
+    "level": "Advanced Diploma",
+    "slug": "vcc-fashion-design-and-technology",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "vcc-interior-design",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "vcc-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.vcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 16000,
+    "totalCAD": 16000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  },
+  {
+    "name": "Dental Hygiene",
+    "level": "Advanced Diploma",
+    "slug": "vcc-dental-hygiene",
+    "url": "https://www.vcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16500,
+    "totalCAD": 49500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Downtown Campus"
+  }
+]

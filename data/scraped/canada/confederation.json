@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "confederation-business-administration",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "confederation-accounting",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "confederation-human-resources-management",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "confederation-project-management",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "confederation-digital-marketing",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Aviation Technology",
+    "level": "Advanced Diploma",
+    "slug": "confederation-aviation-technology",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "confederation-computer-systems-technology",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "confederation-software-development",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "confederation-cybersecurity",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "confederation-electrical-engineering-technology",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "confederation-mechanical-engineering-technology",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "confederation-environmental-technology",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 14000,
+    "totalCAD": 42000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  },
+  {
+    "name": "Health Care Administration",
+    "level": "Graduate Certificate",
+    "slug": "confederation-health-care-administration",
+    "url": "https://www.confederationc.on.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13500,
+    "totalCAD": 13500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Shuniah Campus"
+  }
+]

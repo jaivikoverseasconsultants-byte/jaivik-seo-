@@ -1,0 +1,290 @@
+// Auto-generated — do not edit manually
+// Source: data/scraped/canada/boreal.json
+
+export interface BorealCourse {
+  id: string; name: string; slug: string; url: string;
+  level: string; studyLevel: string; duration: string; durationYears: number;
+  annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
+  livingCostCAD: number; livingCostUSD: number; livingCostINR: number;
+  ieltsMin: number; toeflMin: number; pteMin: number;
+  intakeMonths: string[]; campus: string;
+  country: string; province: string; city: string; countryCode: string;
+  pgwp: boolean;
+}
+
+export const borealCourses = [
+  {
+    "id": "boreal-1",
+    "name": "Business Administration",
+    "slug": "boreal-business-administration",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-2",
+    "name": "Accounting",
+    "slug": "boreal-accounting",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-3",
+    "name": "Human Resources Management",
+    "slug": "boreal-human-resources-management",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-4",
+    "name": "Project Management",
+    "slug": "boreal-project-management",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-5",
+    "name": "Computer Systems Technology",
+    "slug": "boreal-computer-systems-technology",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-6",
+    "name": "Software Development",
+    "slug": "boreal-software-development",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-7",
+    "name": "Cybersecurity",
+    "slug": "boreal-cybersecurity",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-8",
+    "name": "Electrical Engineering Technology",
+    "slug": "boreal-electrical-engineering-technology",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Advanced Diploma",
+    "studyLevel": "Advanced Diploma",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "annualUSD": 9855,
+    "annualINR": 823500,
+    "totalCAD": 40500,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  },
+  {
+    "id": "boreal-9",
+    "name": "Health Care Administration",
+    "slug": "boreal-health-care-administration",
+    "url": "https://www.collegeboreal.ca",
+    "level": "Graduate Certificate",
+    "studyLevel": "Graduate Certificate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "annualUSD": 9490,
+    "annualINR": 793000,
+    "totalCAD": 13000,
+    "livingCostCAD": 15000,
+    "livingCostUSD": 10950,
+    "livingCostINR": 915000,
+    "ieltsMin": 6,
+    "toeflMin": 79,
+    "pteMin": 53,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sudbury Campus",
+    "country": "Canada",
+    "province": "Ontario",
+    "city": "Sudbury",
+    "countryCode": "CA",
+    "pgwp": true
+  }
+] as const;
+
+export function getBorealCoursesBySlug(slug: string) {
+  return (borealCourses as unknown as any[]).find((c: any) => c.slug === slug) ?? null;
+}

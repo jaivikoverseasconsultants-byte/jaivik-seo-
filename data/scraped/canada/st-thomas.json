@@ -1,0 +1,210 @@
+[
+  {
+    "name": "MSW Social Work",
+    "level": "Masters",
+    "slug": "st-thomas-msw-social-work",
+    "url": "https://www.stu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "MA Human Rights and Social Justice",
+    "level": "Masters",
+    "slug": "st-thomas-ma-human-rights-and-social-justice",
+    "url": "https://www.stu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15000,
+    "totalCAD": 30000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-psychology",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-sociology",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-political-science",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-history",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-english",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-criminology",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA Economics",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-economics",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BA Philosophy",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-ba-philosophy",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-bsw-social-work",
+    "url": "https://www.stu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "st-thomas-bed-education",
+    "url": "https://www.stu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Rights and Social Justice",
+    "level": "Graduate Certificate",
+    "slug": "st-thomas-graduate-certificate-in-human-rights-and-social-justice",
+    "url": "https://www.stu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 11000,
+    "totalCAD": 11000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  }
+]

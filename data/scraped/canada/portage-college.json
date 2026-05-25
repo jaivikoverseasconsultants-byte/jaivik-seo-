@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "portage-college-business-administration",
+    "url": "https://www.portagecollege.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13000,
+    "totalCAD": 39000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Lac La Biche Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "portage-college-graduate-certificate-in-human-resources-management",
+    "url": "https://www.portagecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12500,
+    "totalCAD": 12500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Lac La Biche Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "portage-college-graduate-certificate-in-project-management",
+    "url": "https://www.portagecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12500,
+    "totalCAD": 12500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Lac La Biche Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "portage-college-graduate-certificate-in-digital-marketing",
+    "url": "https://www.portagecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12500,
+    "totalCAD": 12500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Lac La Biche Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "portage-college-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.portagecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12500,
+    "totalCAD": 12500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Lac La Biche Campus"
+  },
+  {
+    "name": "Graduate Certificate in Environmental Management",
+    "level": "Graduate Certificate",
+    "slug": "portage-college-graduate-certificate-in-environmental-management",
+    "url": "https://www.portagecollege.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12500,
+    "totalCAD": 12500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Lac La Biche Campus"
+  }
+]

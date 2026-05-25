@@ -1,0 +1,818 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "mun-mba-business-administration",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "mun-msc-management",
+    "url": "https://www.mun.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12000,
+    "totalCAD": 12000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "mun-msc-computer-science",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MEng Civil Engineering",
+    "level": "Masters",
+    "slug": "mun-meng-civil-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MEng Electrical Engineering",
+    "level": "Masters",
+    "slug": "mun-meng-electrical-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Masters",
+    "slug": "mun-meng-mechanical-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MEng Ocean and Naval Architecture",
+    "level": "Masters",
+    "slug": "mun-meng-ocean-and-naval-architecture",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MEng Process Engineering",
+    "level": "Masters",
+    "slug": "mun-meng-process-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "mun-msc-biology",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "mun-msc-chemistry",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Physics",
+    "level": "Masters",
+    "slug": "mun-msc-physics",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Mathematics",
+    "level": "Masters",
+    "slug": "mun-msc-mathematics",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Nursing",
+    "level": "Masters",
+    "slug": "mun-msc-nursing",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "mun-msc-psychology",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "mun-bcom-business-administration",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "mun-bcom-accounting",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "mun-bcom-finance",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "mun-bcom-marketing",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "mun-beng-civil-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "mun-beng-electrical-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "mun-beng-mechanical-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEng Ocean and Naval Architecture",
+    "level": "Honours Bachelor",
+    "slug": "mun-beng-ocean-and-naval-architecture",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEng Process Engineering",
+    "level": "Honours Bachelor",
+    "slug": "mun-beng-process-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEng Computer Engineering",
+    "level": "Honours Bachelor",
+    "slug": "mun-beng-computer-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-computer-science",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-biology",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-chemistry",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-physics",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-mathematics",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-environmental-science",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-nursing",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-kinesiology",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsc-psychology",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "mun-ba-psychology",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "mun-ba-sociology",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "mun-ba-political-science",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "mun-ba-history",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "mun-ba-indigenous-studies",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "mun-bed-education",
+    "url": "https://www.mun.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 12000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "mun-bsw-social-work",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "Graduate Certificate in Ocean Technology",
+    "level": "Graduate Certificate",
+    "slug": "mun-graduate-certificate-in-ocean-technology",
+    "url": "https://www.mun.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 10000,
+    "totalCAD": 10000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "mun-graduate-certificate-in-data-analytics",
+    "url": "https://www.mun.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 10000,
+    "totalCAD": 10000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "mun-phd-computer-science",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 6000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "mun-phd-engineering",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 6000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "PhD Biology",
+    "level": "PhD",
+    "slug": "mun-phd-biology",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 6000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "PhD Chemistry",
+    "level": "PhD",
+    "slug": "mun-phd-chemistry",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 6000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "mun-phd-business",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 6000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  },
+  {
+    "name": "PhD Nursing",
+    "level": "PhD",
+    "slug": "mun-phd-nursing",
+    "url": "https://www.mun.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 6000,
+    "totalCAD": 24000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "St. John's Campus"
+  }
+]

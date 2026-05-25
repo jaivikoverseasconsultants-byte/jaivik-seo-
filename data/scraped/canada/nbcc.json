@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "nbcc-business-administration",
+    "url": "https://www.nbcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "nbcc-accounting",
+    "url": "https://www.nbcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "nbcc-graduate-certificate-in-human-resources-management",
+    "url": "https://www.nbcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "nbcc-graduate-certificate-in-project-management",
+    "url": "https://www.nbcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "nbcc-graduate-certificate-in-digital-marketing",
+    "url": "https://www.nbcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "nbcc-computer-systems-technology",
+    "url": "https://www.nbcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "nbcc-graduate-certificate-in-cybersecurity",
+    "url": "https://www.nbcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "nbcc-graduate-certificate-in-data-analytics",
+    "url": "https://www.nbcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "nbcc-electrical-engineering-technology",
+    "url": "https://www.nbcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "nbcc-mechanical-engineering-technology",
+    "url": "https://www.nbcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "nbcc-civil-engineering-technology",
+    "url": "https://www.nbcc.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "nbcc-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.nbcc.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Fredericton Campus"
+  }
+]

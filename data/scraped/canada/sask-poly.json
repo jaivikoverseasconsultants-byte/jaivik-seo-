@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "sask-poly-business-administration",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "sask-poly-project-management",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "sask-poly-human-resources-management",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "sask-poly-supply-chain-management",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "sask-poly-digital-marketing",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Information Technology",
+    "level": "Advanced Diploma",
+    "slug": "sask-poly-information-technology",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "sask-poly-cybersecurity",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "sask-poly-data-analytics",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sask-poly-electrical-engineering-technology",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sask-poly-mechanical-engineering-technology",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sask-poly-civil-engineering-technology",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 15500,
+    "totalCAD": 31000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Environmental Engineering Technology",
+    "level": "Diploma",
+    "slug": "sask-poly-environmental-engineering-technology",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "sask-poly-practical-nursing",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Medical Radiologic Technology",
+    "level": "Advanced Diploma",
+    "slug": "sask-poly-medical-radiologic-technology",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  },
+  {
+    "name": "Culinary Arts",
+    "level": "Diploma",
+    "slug": "sask-poly-culinary-arts",
+    "url": "https://www.sask-poly.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Saskatoon Campus"
+  }
+]

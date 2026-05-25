@@ -1,0 +1,562 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "laurier-mba-business-administration",
+    "url": "https://www.wlu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 25000,
+    "totalCAD": 50000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "MSc Accounting",
+    "level": "Masters",
+    "slug": "laurier-msc-accounting",
+    "url": "https://www.wlu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "laurier-msc-finance",
+    "url": "https://www.wlu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "MSc Business Technology Management",
+    "level": "Masters",
+    "slug": "laurier-msc-business-technology-management",
+    "url": "https://www.wlu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "laurier-msc-computer-science",
+    "url": "https://www.wlu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "laurier-msc-psychology",
+    "url": "https://www.wlu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "laurier-msc-biology",
+    "url": "https://www.wlu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-business-administration",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-accounting",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-finance",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-marketing",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-human-resources",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom International Business",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-international-business",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BCom Financial Management",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bcom-financial-management",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-computer-science",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-data-science",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-biology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-chemistry",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-physics",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-mathematics",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-psychology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsc-kinesiology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-psychology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-sociology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-political-science",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-history",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-english",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA Communication Studies",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-communication-studies",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Honours Bachelor",
+    "slug": "laurier-ba-criminology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bed-education",
+    "url": "https://www.wlu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 26000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BMus Music",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bmus-music",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "laurier-bsw-social-work",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "laurier-graduate-certificate-in-business-analytics",
+    "url": "https://www.wlu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "laurier-phd-psychology",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "laurier-phd-business",
+    "url": "https://www.wlu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Waterloo Campus"
+  }
+]

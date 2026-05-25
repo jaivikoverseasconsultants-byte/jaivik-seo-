@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-business-administration",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Business Administration — Accounting",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-business-administration-accounting",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Administration",
+    "level": "Graduate Certificate",
+    "slug": "capilano-graduate-certificate-in-business-administration",
+    "url": "https://www.capilano.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "capilano-graduate-certificate-in-digital-marketing",
+    "url": "https://www.capilano.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Management",
+    "level": "Graduate Certificate",
+    "slug": "capilano-graduate-certificate-in-management",
+    "url": "https://www.capilano.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Business Management",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-business-management",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Tourism Management",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-tourism-management",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Tourism Management",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-tourism-management",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Motion Picture Arts",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-motion-picture-arts",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Communication Studies",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-communication-studies",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Music",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-music",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Music",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-music",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Screen Arts",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-screen-arts",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Visual Effects and Animation",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-visual-effects-and-animation",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Computing",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-computing",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "capilano-graduate-certificate-in-data-analytics",
+    "url": "https://www.capilano.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Kinesiology",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-kinesiology",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Health Sciences",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-health-sciences",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Early Childhood Education",
+    "level": "Graduate Certificate",
+    "slug": "capilano-graduate-certificate-in-early-childhood-education",
+    "url": "https://www.capilano.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Bachelor of Design",
+    "level": "Honours Bachelor",
+    "slug": "capilano-bachelor-of-design",
+    "url": "https://www.capilano.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 20000,
+    "totalCAD": 80000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Design",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-design",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Legal Studies",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-legal-studies",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Graduate Certificate in Legal Administration",
+    "level": "Graduate Certificate",
+    "slug": "capilano-graduate-certificate-in-legal-administration",
+    "url": "https://www.capilano.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  },
+  {
+    "name": "Diploma in Applied Linguistics",
+    "level": "Diploma",
+    "slug": "capilano-diploma-in-applied-linguistics",
+    "url": "https://www.capilano.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January",
+      "May"
+    ],
+    "campus": "North Vancouver Campus"
+  }
+]

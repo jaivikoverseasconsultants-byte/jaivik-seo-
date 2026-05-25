@@ -1,0 +1,482 @@
+[
+  {
+    "name": "MBA Global Leadership",
+    "level": "Masters",
+    "slug": "cbu-mba-global-leadership",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MSc Community Economic Development",
+    "level": "Masters",
+    "slug": "cbu-msc-community-economic-development",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BBA Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bba-business-administration",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BBA Accounting",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bba-accounting",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BBA Finance",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bba-finance",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BBA Marketing",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bba-marketing",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BBA Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bba-human-resources",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BBA Tourism and Hospitality",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bba-tourism-and-hospitality",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BEng Engineering",
+    "level": "Honours Bachelor",
+    "slug": "cbu-beng-engineering",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BTechnology — Engineering Technology",
+    "level": "Honours Bachelor",
+    "slug": "cbu-btechnology-engineering-technology",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-computer-science",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Diploma in Computer Information Technology",
+    "level": "Diploma",
+    "slug": "cbu-diploma-in-computer-information-technology",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13000,
+    "totalCAD": 26000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-biology",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-chemistry",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-mathematics",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-psychology",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Environmental Science",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-environmental-science",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BScN Nursing",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bscn-nursing",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsc-kinesiology",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MSc Public Health",
+    "level": "Masters",
+    "slug": "cbu-msc-public-health",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "cbu-ba-psychology",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "cbu-ba-sociology",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "cbu-ba-political-science",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "cbu-ba-history",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "cbu-ba-english",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BA Indigenous Studies",
+    "level": "Honours Bachelor",
+    "slug": "cbu-ba-indigenous-studies",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "MA Cape Breton Studies",
+    "level": "Masters",
+    "slug": "cbu-ma-cape-breton-studies",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bed-education",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 18000,
+    "totalCAD": 36000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "BSW Social Work",
+    "level": "Honours Bachelor",
+    "slug": "cbu-bsw-social-work",
+    "url": "https://www.cbu.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  },
+  {
+    "name": "Diploma in Trades and Technology",
+    "level": "Diploma",
+    "slug": "cbu-diploma-in-trades-and-technology",
+    "url": "https://www.cbu.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 13000,
+    "totalCAD": 26000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sydney Campus"
+  }
+]

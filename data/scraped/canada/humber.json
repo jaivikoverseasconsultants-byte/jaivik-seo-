@@ -1,0 +1,850 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "humber-business-administration",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "humber-accounting",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Finance",
+    "level": "Advanced Diploma",
+    "slug": "humber-finance",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Marketing",
+    "level": "Advanced Diploma",
+    "slug": "humber-marketing",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-human-resources-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-supply-chain-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-project-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "humber-digital-marketing",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-international-business-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Event Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-event-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Entrepreneurship and Innovation Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-entrepreneurship-and-innovation-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Global Business Management",
+    "level": "Graduate Certificate",
+    "slug": "humber-global-business-management",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Logistics and Supply Chain Management",
+    "level": "Advanced Diploma",
+    "slug": "humber-logistics-and-supply-chain-management",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Public Relations",
+    "level": "Advanced Diploma",
+    "slug": "humber-public-relations",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Computer Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "humber-computer-engineering-technology",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Computer Systems Technician",
+    "level": "Diploma",
+    "slug": "humber-computer-systems-technician",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "humber-software-development",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "humber-artificial-intelligence",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "humber-cybersecurity",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Data Science",
+    "level": "Graduate Certificate",
+    "slug": "humber-data-science",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "humber-cloud-computing",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Network and Telecommunications Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "humber-network-and-telecommunications-engineering-technology",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Game Programming",
+    "level": "Advanced Diploma",
+    "slug": "humber-game-programming",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "User Experience Design",
+    "level": "Graduate Certificate",
+    "slug": "humber-user-experience-design",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Media Communications",
+    "level": "Graduate Certificate",
+    "slug": "humber-media-communications",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Broadcasting — Radio, Television and Film",
+    "level": "Diploma",
+    "slug": "humber-broadcasting-radio-television-and-film",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Journalism",
+    "level": "Advanced Diploma",
+    "slug": "humber-journalism",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Film and Television Production",
+    "level": "Advanced Diploma",
+    "slug": "humber-film-and-television-production",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Advertising and Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "humber-advertising-and-graphic-design",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Animation",
+    "level": "Advanced Diploma",
+    "slug": "humber-animation",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "humber-practical-nursing",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Paramedic",
+    "level": "Advanced Diploma",
+    "slug": "humber-paramedic",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Dental Hygiene",
+    "level": "Advanced Diploma",
+    "slug": "humber-dental-hygiene",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Fitness and Health Promotion",
+    "level": "Diploma",
+    "slug": "humber-fitness-and-health-promotion",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Personal Support Worker",
+    "level": "Certificate",
+    "slug": "humber-personal-support-worker",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 12500,
+    "totalCAD": 12500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Health Sciences",
+    "level": "Graduate Certificate",
+    "slug": "humber-health-sciences",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "humber-healthcare-administration",
+    "url": "https://www.humber.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Tourism and Hospitality Management",
+    "level": "Advanced Diploma",
+    "slug": "humber-tourism-and-hospitality-management",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Hotel and Restaurant Management",
+    "level": "Advanced Diploma",
+    "slug": "humber-hotel-and-restaurant-management",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Culinary Management",
+    "level": "Diploma",
+    "slug": "humber-culinary-management",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Baking and Pastry Arts Management",
+    "level": "Diploma",
+    "slug": "humber-baking-and-pastry-arts-management",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Interior Decoration",
+    "level": "Advanced Diploma",
+    "slug": "humber-interior-decoration",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Fashion Arts",
+    "level": "Advanced Diploma",
+    "slug": "humber-fashion-arts",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Carpentry and Renovation Technician",
+    "level": "Diploma",
+    "slug": "humber-carpentry-and-renovation-technician",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "humber-electrical-engineering-technology",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "humber-mechanical-engineering-technology",
+    "url": "https://www.humber.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Police Foundations",
+    "level": "Diploma",
+    "slug": "humber-police-foundations",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Community and Justice Services",
+    "level": "Diploma",
+    "slug": "humber-community-and-justice-services",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Protection, Security and Investigation",
+    "level": "Diploma",
+    "slug": "humber-protection-security-and-investigation",
+    "url": "https://www.humber.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Bachelor of Creative Arts",
+    "level": "Honours Bachelor",
+    "slug": "humber-bachelor-of-creative-arts",
+    "url": "https://www.humber.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Bachelor of Commerce — Financial Services",
+    "level": "Honours Bachelor",
+    "slug": "humber-bachelor-of-commerce-financial-services",
+    "url": "https://www.humber.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Bachelor of Applied Technology — Computer Systems",
+    "level": "Honours Bachelor",
+    "slug": "humber-bachelor-of-applied-technology-computer-systems",
+    "url": "https://www.humber.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  },
+  {
+    "name": "Bachelor of Nursing",
+    "level": "Honours Bachelor",
+    "slug": "humber-bachelor-of-nursing",
+    "url": "https://www.humber.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Campus"
+  }
+]

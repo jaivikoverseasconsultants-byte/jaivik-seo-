@@ -1,0 +1,482 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "ontario-tech-mba-business-administration",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "ontario-tech-msc-computer-science",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MEng Electrical Engineering",
+    "level": "Masters",
+    "slug": "ontario-tech-meng-electrical-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MEng Mechanical Engineering",
+    "level": "Masters",
+    "slug": "ontario-tech-meng-mechanical-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MEng Nuclear Engineering",
+    "level": "Masters",
+    "slug": "ontario-tech-meng-nuclear-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MEng Automotive Engineering",
+    "level": "Masters",
+    "slug": "ontario-tech-meng-automotive-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MSc Data Science",
+    "level": "Masters",
+    "slug": "ontario-tech-msc-data-science",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "MSc Health Sciences",
+    "level": "Masters",
+    "slug": "ontario-tech-msc-health-sciences",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 20000,
+    "totalCAD": 40000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bcom-business-administration",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bcom-accounting",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bcom-finance",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-computer-science",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Software Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-software-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-data-science",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Cybersecurity",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-cybersecurity",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-beng-electrical-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-beng-mechanical-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BEng Nuclear Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-beng-nuclear-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BEng Automotive Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-beng-automotive-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-beng-civil-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Health Sciences",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-health-sciences",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-nursing",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-bsc-biology",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-ba-psychology",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Honours Bachelor",
+    "slug": "ontario-tech-ba-criminology",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 25000,
+    "totalCAD": 100000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "Graduate Certificate in Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "ontario-tech-graduate-certificate-in-data-analytics",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "ontario-tech-graduate-certificate-in-cybersecurity",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "ontario-tech-phd-computer-science",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "ontario-tech-phd-engineering",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  },
+  {
+    "name": "PhD Health Sciences",
+    "level": "PhD",
+    "slug": "ontario-tech-phd-health-sciences",
+    "url": "https://www.ontariotechu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 13000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "North Oshawa Campus"
+  }
+]

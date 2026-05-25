@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "gprc-business-administration",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "gprc-accounting",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Graduate Certificate in Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "gprc-graduate-certificate-in-human-resources-management",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "gprc-graduate-certificate-in-project-management",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "gprc-computer-systems-technology",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Graduate Certificate in Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "gprc-graduate-certificate-in-cybersecurity",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "gprc-electrical-engineering-technology",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Environmental Technology",
+    "level": "Advanced Diploma",
+    "slug": "gprc-environmental-technology",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 13500,
+    "totalCAD": 40500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  },
+  {
+    "name": "Graduate Certificate in Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "gprc-graduate-certificate-in-healthcare-administration",
+    "url": "https://www.gprc.ab.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 13000,
+    "totalCAD": 13000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Grande Prairie Campus"
+  }
+]

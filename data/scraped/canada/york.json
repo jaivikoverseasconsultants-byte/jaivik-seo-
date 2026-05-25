@@ -1,0 +1,706 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "york-mba-business-administration",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 24000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Financial Engineering",
+    "level": "Masters",
+    "slug": "york-msc-financial-engineering",
+    "url": "https://www.yorku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Analytics",
+    "level": "Masters",
+    "slug": "york-msc-analytics",
+    "url": "https://www.yorku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 22000,
+    "totalCAD": 22000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "york-msc-computer-science",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Engineering",
+    "level": "Masters",
+    "slug": "york-msc-engineering",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Psychology",
+    "level": "Masters",
+    "slug": "york-msc-psychology",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Geography",
+    "level": "Masters",
+    "slug": "york-msc-geography",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Biology",
+    "level": "Masters",
+    "slug": "york-msc-biology",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "MSc Chemistry",
+    "level": "Masters",
+    "slug": "york-msc-chemistry",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 22000,
+    "totalCAD": 44000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "LLM Law",
+    "level": "Masters",
+    "slug": "york-llm-law",
+    "url": "https://www.yorku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 23000,
+    "totalCAD": 23000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BCom Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "york-bcom-business-administration",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BCom Accounting",
+    "level": "Honours Bachelor",
+    "slug": "york-bcom-accounting",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BCom Finance",
+    "level": "Honours Bachelor",
+    "slug": "york-bcom-finance",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BCom Marketing",
+    "level": "Honours Bachelor",
+    "slug": "york-bcom-marketing",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BCom Human Resources",
+    "level": "Honours Bachelor",
+    "slug": "york-bcom-human-resources",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BCom International Business",
+    "level": "Honours Bachelor",
+    "slug": "york-bcom-international-business",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-computer-science",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-data-science",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "york-beng-civil-engineering",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "york-beng-electrical-engineering",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "york-beng-mechanical-engineering",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Biology",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-biology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Chemistry",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-chemistry",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Physics",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-physics",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Mathematics",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-mathematics",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Psychology",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-psychology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Kinesiology",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-kinesiology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "york-bsc-nursing",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-psychology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA Political Science",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-political-science",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA Sociology",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-sociology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA History",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-history",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA English",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-english",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA Communication Studies",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-communication-studies",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Honours Bachelor",
+    "slug": "york-ba-criminology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BEd Education",
+    "level": "Honours Bachelor",
+    "slug": "york-bed-education",
+    "url": "https://www.yorku.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 26000,
+    "totalCAD": 52000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BFA Film",
+    "level": "Honours Bachelor",
+    "slug": "york-bfa-film",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "BMus Music",
+    "level": "Honours Bachelor",
+    "slug": "york-bmus-music",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 26000,
+    "totalCAD": 104000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "Graduate Certificate in Business Analytics",
+    "level": "Graduate Certificate",
+    "slug": "york-graduate-certificate-in-business-analytics",
+    "url": "https://www.yorku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "Graduate Certificate in Project Management",
+    "level": "Graduate Certificate",
+    "slug": "york-graduate-certificate-in-project-management",
+    "url": "https://www.yorku.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "york-phd-computer-science",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "york-phd-engineering",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "york-phd-business",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  },
+  {
+    "name": "PhD Psychology",
+    "level": "PhD",
+    "slug": "york-phd-psychology",
+    "url": "https://www.yorku.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 12000,
+    "totalCAD": 48000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Keele Campus"
+  }
+]

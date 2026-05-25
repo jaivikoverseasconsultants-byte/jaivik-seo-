@@ -42,7 +42,9 @@ function generatePages(uniId) {
   const raw = JSON.parse(fs.readFileSync(inFile, 'utf8'));
   console.log(`\nGenerating pages for ${config.name} (${raw.length} raw courses)…`);
 
-  const courses = raw.filter(c => c.name && c.name.length > 3);
+  // Exclude basic Diplomas and Certificates — Indian students need PGWP-eligible programs
+  const EXCLUDED_LEVELS = new Set(['Diploma', 'Certificate']);
+  const courses = raw.filter(c => c.name && c.name.length > 3 && !EXCLUDED_LEVELS.has(c.level));
   console.log(`After filtering: ${courses.length} courses`);
 
   const varName = uniId.replace(/-/g, '_') + 'Courses';

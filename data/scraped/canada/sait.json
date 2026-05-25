@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "sait-business-administration",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "sait-accounting",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "sait-human-resources-management",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "sait-project-management",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "sait-digital-marketing",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "sait-supply-chain-management",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "International Business",
+    "level": "Graduate Certificate",
+    "slug": "sait-international-business",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Financial Services",
+    "level": "Graduate Certificate",
+    "slug": "sait-financial-services",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Entrepreneurship",
+    "level": "Graduate Certificate",
+    "slug": "sait-entrepreneurship",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Information Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-information-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "sait-cybersecurity",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "sait-data-analytics",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "sait-artificial-intelligence",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "sait-cloud-computing",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "sait-software-development",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Network Infrastructure",
+    "level": "Diploma",
+    "slug": "sait-network-infrastructure",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-electrical-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-mechanical-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-civil-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Chemical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-chemical-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Petroleum Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-petroleum-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Environmental Engineering Technology",
+    "level": "Diploma",
+    "slug": "sait-environmental-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-architectural-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Construction Project Management",
+    "level": "Graduate Certificate",
+    "slug": "sait-construction-project-management",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Welding Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-welding-engineering-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Energy Management",
+    "level": "Graduate Certificate",
+    "slug": "sait-energy-management",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Health Information Management",
+    "level": "Advanced Diploma",
+    "slug": "sait-health-information-management",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Medical Device Reprocessing",
+    "level": "Diploma",
+    "slug": "sait-medical-device-reprocessing",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Culinary Arts",
+    "level": "Diploma",
+    "slug": "sait-culinary-arts",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14000,
+    "totalCAD": 28000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Hospitality Management",
+    "level": "Advanced Diploma",
+    "slug": "sait-hospitality-management",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Graphic Design Technology",
+    "level": "Advanced Diploma",
+    "slug": "sait-graphic-design-technology",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Film and Video Production",
+    "level": "Advanced Diploma",
+    "slug": "sait-film-and-video-production",
+    "url": "https://www.sait.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 16000,
+    "totalCAD": 32000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Safety Management",
+    "level": "Graduate Certificate",
+    "slug": "sait-safety-management",
+    "url": "https://www.sait.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14500,
+    "totalCAD": 14500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Bachelor of Applied Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "sait-bachelor-of-applied-business-administration",
+    "url": "https://www.sait.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Bachelor of Applied Technology — Integrated Energy",
+    "level": "Honours Bachelor",
+    "slug": "sait-bachelor-of-applied-technology-integrated-energy",
+    "url": "https://www.sait.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  },
+  {
+    "name": "Bachelor of Health Sciences",
+    "level": "Honours Bachelor",
+    "slug": "sait-bachelor-of-health-sciences",
+    "url": "https://www.sait.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "SAIT Campus"
+  }
+]

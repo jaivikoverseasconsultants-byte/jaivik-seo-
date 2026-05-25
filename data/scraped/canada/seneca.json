@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "seneca-business-administration",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Accounting and Finance",
+    "level": "Advanced Diploma",
+    "slug": "seneca-accounting-and-finance",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "seneca-human-resources-management",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "seneca-project-management",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "seneca-international-business-management",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "seneca-digital-marketing",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "seneca-supply-chain-management",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Financial Planning",
+    "level": "Graduate Certificate",
+    "slug": "seneca-financial-planning",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Marketing Management",
+    "level": "Advanced Diploma",
+    "slug": "seneca-marketing-management",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Entrepreneurship and Innovation",
+    "level": "Graduate Certificate",
+    "slug": "seneca-entrepreneurship-and-innovation",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-computer-systems-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "seneca-cybersecurity",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "seneca-data-analytics",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "seneca-artificial-intelligence",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "seneca-cloud-computing",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "seneca-software-development",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Network Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-network-engineering-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Game Programming",
+    "level": "Advanced Diploma",
+    "slug": "seneca-game-programming",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Animation",
+    "level": "Advanced Diploma",
+    "slug": "seneca-animation",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "seneca-graphic-design",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Film and Television Production",
+    "level": "Advanced Diploma",
+    "slug": "seneca-film-and-television-production",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Journalism",
+    "level": "Advanced Diploma",
+    "slug": "seneca-journalism",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Public Relations",
+    "level": "Graduate Certificate",
+    "slug": "seneca-public-relations",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-electrical-engineering-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-mechanical-engineering-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-civil-engineering-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Environmental Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-environmental-engineering-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "seneca-architectural-technology",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Health Sciences",
+    "level": "Graduate Certificate",
+    "slug": "seneca-health-sciences",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Healthcare Administration",
+    "level": "Graduate Certificate",
+    "slug": "seneca-healthcare-administration",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15500,
+    "totalCAD": 15500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Social Service Worker",
+    "level": "Advanced Diploma",
+    "slug": "seneca-social-service-worker",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 16000,
+    "totalCAD": 48000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Bachelor of Commerce",
+    "level": "Honours Bachelor",
+    "slug": "seneca-bachelor-of-commerce",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  },
+  {
+    "name": "Bachelor of Technology — Software Development",
+    "level": "Honours Bachelor",
+    "slug": "seneca-bachelor-of-technology-software-development",
+    "url": "https://www.senecapolytechnic.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18500,
+    "totalCAD": 74000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Newnham Campus"
+  }
+]

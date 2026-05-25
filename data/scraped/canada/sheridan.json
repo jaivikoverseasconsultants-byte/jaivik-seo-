@@ -1,0 +1,658 @@
+[
+  {
+    "name": "Business Administration",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-business-administration",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Accounting",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-accounting",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Human Resources Management",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-human-resources-management",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Project Management",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-project-management",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "International Business Management",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-international-business-management",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Marketing Management",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-marketing-management",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Supply Chain Management",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-supply-chain-management",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Event Management",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-event-management",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Animation",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-animation",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Computer Animation",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-computer-animation",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Illustration",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-illustration",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Graphic Design",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-graphic-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Game Design",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-game-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Visual Effects",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-visual-effects",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Interactive Media Design",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-interactive-media-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Digital Photography",
+    "level": "Diploma",
+    "slug": "sheridan-digital-photography",
+    "url": "https://www.sheridan.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Film and Television",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-film-and-television",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Music Theatre Performance",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-music-theatre-performance",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Computer Systems Technology",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-computer-systems-technology",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Software Development",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-software-development",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Cybersecurity",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-cybersecurity",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Data Analytics",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-data-analytics",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Cloud Computing",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-cloud-computing",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "User Experience Design",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-user-experience-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Artificial Intelligence",
+    "level": "Graduate Certificate",
+    "slug": "sheridan-artificial-intelligence",
+    "url": "https://www.sheridan.ca/",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 15000,
+    "totalCAD": 15000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Electrical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-electrical-engineering-technology",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Mechanical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-mechanical-engineering-technology",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Civil Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-civil-engineering-technology",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Chemical Engineering Technology",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-chemical-engineering-technology",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Interior Design",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-interior-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Architectural Technology",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-architectural-technology",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Fashion Design",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-fashion-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Jewellery Design and Metalsmithing",
+    "level": "Advanced Diploma",
+    "slug": "sheridan-jewellery-design-and-metalsmithing",
+    "url": "https://www.sheridan.ca/",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualCAD": 15500,
+    "totalCAD": 46500,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Social Service Worker",
+    "level": "Diploma",
+    "slug": "sheridan-social-service-worker",
+    "url": "https://www.sheridan.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Early Childhood Education",
+    "level": "Diploma",
+    "slug": "sheridan-early-childhood-education",
+    "url": "https://www.sheridan.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Practical Nursing",
+    "level": "Diploma",
+    "slug": "sheridan-practical-nursing",
+    "url": "https://www.sheridan.ca/",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 14500,
+    "totalCAD": 29000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Bachelor of Animation",
+    "level": "Honours Bachelor",
+    "slug": "sheridan-bachelor-of-animation",
+    "url": "https://www.sheridan.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Bachelor of Game Design",
+    "level": "Honours Bachelor",
+    "slug": "sheridan-bachelor-of-game-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Bachelor of Business Administration",
+    "level": "Honours Bachelor",
+    "slug": "sheridan-bachelor-of-business-administration",
+    "url": "https://www.sheridan.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Bachelor of Illustration",
+    "level": "Honours Bachelor",
+    "slug": "sheridan-bachelor-of-illustration",
+    "url": "https://www.sheridan.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  },
+  {
+    "name": "Bachelor of Interior Design",
+    "level": "Honours Bachelor",
+    "slug": "sheridan-bachelor-of-interior-design",
+    "url": "https://www.sheridan.ca/",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 18000,
+    "totalCAD": 72000,
+    "ieltsMin": 6,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Hazel McCallion Campus"
+  }
+]

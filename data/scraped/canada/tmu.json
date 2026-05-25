@@ -1,0 +1,512 @@
+[
+  {
+    "name": "MBA Business Administration",
+    "level": "Masters",
+    "slug": "tmu-mba-business-administration",
+    "url": "https://www.torontomu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 28000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "MSc Management",
+    "level": "Masters",
+    "slug": "tmu-msc-management",
+    "url": "https://www.torontomu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 25000,
+    "totalCAD": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "MSc Finance",
+    "level": "Masters",
+    "slug": "tmu-msc-finance",
+    "url": "https://www.torontomu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 25000,
+    "totalCAD": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "MSc Data Science and Analytics",
+    "level": "Masters",
+    "slug": "tmu-msc-data-science-and-analytics",
+    "url": "https://www.torontomu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 25000,
+    "totalCAD": 25000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "MSc Computer Science",
+    "level": "Masters",
+    "slug": "tmu-msc-computer-science",
+    "url": "https://www.torontomu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 25000,
+    "totalCAD": 50000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "MSc Engineering",
+    "level": "Masters",
+    "slug": "tmu-msc-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualCAD": 25000,
+    "totalCAD": 50000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BCom Business Management",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bcom-business-management",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BCom Accounting and Finance",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bcom-accounting-and-finance",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BCom Marketing Management",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bcom-marketing-management",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BCom Human Resources Management",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bcom-human-resources-management",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BCom Global Management Studies",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bcom-global-management-studies",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BCom Information Technology Management",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bcom-information-technology-management",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BSc Computer Science",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bsc-computer-science",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BSc Data Science",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bsc-data-science",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BEng Electrical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tmu-beng-electrical-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BEng Mechanical Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tmu-beng-mechanical-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BEng Industrial Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tmu-beng-industrial-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BEng Computer Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tmu-beng-computer-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BEng Civil Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tmu-beng-civil-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BEng Aerospace Engineering",
+    "level": "Honours Bachelor",
+    "slug": "tmu-beng-aerospace-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BSc Nursing",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bsc-nursing",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BA Journalism",
+    "level": "Honours Bachelor",
+    "slug": "tmu-ba-journalism",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BA Communication and Digital Media Studies",
+    "level": "Honours Bachelor",
+    "slug": "tmu-ba-communication-and-digital-media-studies",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BA Criminology",
+    "level": "Honours Bachelor",
+    "slug": "tmu-ba-criminology",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BA Psychology",
+    "level": "Honours Bachelor",
+    "slug": "tmu-ba-psychology",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BA Politics and Governance",
+    "level": "Honours Bachelor",
+    "slug": "tmu-ba-politics-and-governance",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BDes Interior Design",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bdes-interior-design",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BDes Fashion",
+    "level": "Honours Bachelor",
+    "slug": "tmu-bdes-fashion",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 29000,
+    "totalCAD": 116000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "BArch Architecture",
+    "level": "Honours Bachelor",
+    "slug": "tmu-barch-architecture",
+    "url": "https://www.torontomu.ca",
+    "duration": "5 years",
+    "durationYears": 5,
+    "annualCAD": 29000,
+    "totalCAD": 145000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "Graduate Certificate in Digital Marketing",
+    "level": "Graduate Certificate",
+    "slug": "tmu-graduate-certificate-in-digital-marketing",
+    "url": "https://www.torontomu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "Graduate Certificate in Financial Technology",
+    "level": "Graduate Certificate",
+    "slug": "tmu-graduate-certificate-in-financial-technology",
+    "url": "https://www.torontomu.ca",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualCAD": 14000,
+    "totalCAD": 14000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "PhD Computer Science",
+    "level": "PhD",
+    "slug": "tmu-phd-computer-science",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "PhD Engineering",
+    "level": "PhD",
+    "slug": "tmu-phd-engineering",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  },
+  {
+    "name": "PhD Business",
+    "level": "PhD",
+    "slug": "tmu-phd-business",
+    "url": "https://www.torontomu.ca",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualCAD": 14000,
+    "totalCAD": 56000,
+    "ieltsMin": 6.5,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Toronto Campus"
+  }
+]

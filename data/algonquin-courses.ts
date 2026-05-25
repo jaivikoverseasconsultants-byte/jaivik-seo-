@@ -285,36 +285,6 @@ export const algonquinCourses = [
   },
   {
     "id": "algonquin-10",
-    "name": "Computer Systems Technician",
-    "slug": "algonquin-computer-systems-technician",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-11",
     "name": "Cybersecurity",
     "slug": "algonquin-cybersecurity",
     "url": "https://www.algonquin.ca/",
@@ -344,7 +314,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-12",
+    "id": "algonquin-11",
     "name": "Artificial Intelligence and Machine Learning",
     "slug": "algonquin-artificial-intelligence-and-machine-learning",
     "url": "https://www.algonquin.ca/",
@@ -374,7 +344,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-13",
+    "id": "algonquin-12",
     "name": "Data Analytics",
     "slug": "algonquin-data-analytics",
     "url": "https://www.algonquin.ca/",
@@ -404,7 +374,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-14",
+    "id": "algonquin-13",
     "name": "Cloud Development and Operations",
     "slug": "algonquin-cloud-development-and-operations",
     "url": "https://www.algonquin.ca/",
@@ -434,7 +404,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-15",
+    "id": "algonquin-14",
     "name": "Interactive Media Design",
     "slug": "algonquin-interactive-media-design",
     "url": "https://www.algonquin.ca/",
@@ -464,7 +434,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-16",
+    "id": "algonquin-15",
     "name": "Video Game Design",
     "slug": "algonquin-video-game-design",
     "url": "https://www.algonquin.ca/",
@@ -494,7 +464,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-17",
+    "id": "algonquin-16",
     "name": "Electrical Engineering Technology",
     "slug": "algonquin-electrical-engineering-technology",
     "url": "https://www.algonquin.ca/",
@@ -524,7 +494,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-18",
+    "id": "algonquin-17",
     "name": "Mechanical Engineering Technology",
     "slug": "algonquin-mechanical-engineering-technology",
     "url": "https://www.algonquin.ca/",
@@ -554,7 +524,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-19",
+    "id": "algonquin-18",
     "name": "Civil Engineering Technology",
     "slug": "algonquin-civil-engineering-technology",
     "url": "https://www.algonquin.ca/",
@@ -584,37 +554,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-20",
-    "name": "Electronics Engineering Technology",
-    "slug": "algonquin-electronics-engineering-technology",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-21",
+    "id": "algonquin-19",
     "name": "Graphic Design",
     "slug": "algonquin-graphic-design",
     "url": "https://www.algonquin.ca/",
@@ -644,7 +584,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-22",
+    "id": "algonquin-20",
     "name": "Journalism",
     "slug": "algonquin-journalism",
     "url": "https://www.algonquin.ca/",
@@ -674,7 +614,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-23",
+    "id": "algonquin-21",
     "name": "Public Relations",
     "slug": "algonquin-public-relations",
     "url": "https://www.algonquin.ca/",
@@ -704,97 +644,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-24",
-    "name": "Photography",
-    "slug": "algonquin-photography",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-25",
-    "name": "Practical Nursing",
-    "slug": "algonquin-practical-nursing",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-26",
-    "name": "Pharmacy Technician",
-    "slug": "algonquin-pharmacy-technician",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-27",
+    "id": "algonquin-22",
     "name": "Health Care Admin",
     "slug": "algonquin-health-care-admin",
     "url": "https://www.algonquin.ca/",
@@ -824,157 +674,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-28",
-    "name": "Social Service Worker",
-    "slug": "algonquin-social-service-worker",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-29",
-    "name": "Early Childhood Education",
-    "slug": "algonquin-early-childhood-education",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-30",
-    "name": "Police Foundations",
-    "slug": "algonquin-police-foundations",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-31",
-    "name": "Culinary Management",
-    "slug": "algonquin-culinary-management",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-32",
-    "name": "Tourism Management",
-    "slug": "algonquin-tourism-management",
-    "url": "https://www.algonquin.ca/",
-    "level": "Diploma",
-    "studyLevel": "Diploma",
-    "duration": "2 years",
-    "durationYears": 2,
-    "annualCAD": 14000,
-    "annualUSD": 10220,
-    "annualINR": 854000,
-    "totalCAD": 28000,
-    "livingCostCAD": 15000,
-    "livingCostUSD": 10950,
-    "livingCostINR": 915000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 53,
-    "intakeMonths": [
-      "September",
-      "January"
-    ],
-    "campus": "Woodroffe Campus",
-    "country": "Canada",
-    "province": "Ontario",
-    "city": "Ottawa",
-    "countryCode": "CA",
-    "pgwp": true
-  },
-  {
-    "id": "algonquin-33",
+    "id": "algonquin-23",
     "name": "Architectural Technology",
     "slug": "algonquin-architectural-technology",
     "url": "https://www.algonquin.ca/",
@@ -1004,7 +704,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-34",
+    "id": "algonquin-24",
     "name": "Construction Engineering Technology",
     "slug": "algonquin-construction-engineering-technology",
     "url": "https://www.algonquin.ca/",
@@ -1034,7 +734,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-35",
+    "id": "algonquin-25",
     "name": "Interior Design",
     "slug": "algonquin-interior-design",
     "url": "https://www.algonquin.ca/",
@@ -1064,7 +764,7 @@ export const algonquinCourses = [
     "pgwp": true
   },
   {
-    "id": "algonquin-36",
+    "id": "algonquin-26",
     "name": "Honours Bachelor of Architectural Studies",
     "slug": "algonquin-honours-bachelor-of-architectural-studies",
     "url": "https://www.algonquin.ca/",
