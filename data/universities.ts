@@ -2881,3 +2881,7 @@ export function getUniversitiesByCountry(country: string): University[] {
 }
 
 export const countries = Array.from(new Set(universities.map(u => u.country)));
+
+export function getUniversitiesByCity(cityNames: string[]): University[] {
+  return universities.filter(u => u.country === 'Canada' && cityNames.includes(u.city));
+}

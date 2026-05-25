@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { universities, countries } from '@/data/universities';
 import { courses, courseCategories } from '@/data/courses';
+import { CANADA_CITY_SLUGS } from '@/data/canada-cities';
 
 const BASE = 'https://study.jaivikoverseasconsultants.com';
 
@@ -192,12 +193,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }))
   );
 
+  const cityPages: MetadataRoute.Sitemap = CANADA_CITY_SLUGS.map(city => ({
+    url: `${BASE}/universities/city/${city}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
   return [
     ...staticPages,
     ...universityPages,
     ...countryPages,
     ...coursePages,
     ...categoryPages,
+    ...cityPages,
     ...uniCourseIndexPages,
     ...uniCourseDetailPages,
   ];
