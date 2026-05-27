@@ -124,6 +124,9 @@ export function get${varName.replace(/\b\w/g,c=>c.toUpperCase())}BySlug(slug: st
   const avgFee = Math.round(mapped.reduce((s, c) => s + c.annualCAD, 0) / (mapped.length || 1));
   const rankingBadge = config.qsRanking && config.qsRanking < 1400 ? ` · #${config.qsRanking} QS` : '';
   const pgwpNote = config.pgwp ? 'PGWP Eligible · ' : '';
+  // Escape apostrophes so names like "Queen's" don't break single-quoted TS strings
+  const safeName = config.name.replace(/'/g, "\\'");
+  const safeShortName = config.shortName.replace(/'/g, "\\'");
 
   // courses/[slug]/page.tsx
   const slugPageContent = `import { notFound } from 'next/navigation';
@@ -148,7 +151,7 @@ export async function generateMetadata(
     title: \`\${course.name} | ${config.shortName} – Fees, IELTS & Intake 2025\`,
     description: \`\${course.name} at ${config.name}. Annual fee CAD $\${course.annualCAD.toLocaleString()} (\${course.durationYears} year\${course.durationYears !== 1 ? 's' : ''}). IELTS \${course.ieltsMin}+. Intake: \${course.intakeMonths.join(' & ')}. ${config.pgwp ? 'PGWP eligible. ' : ''}Free guidance from Jaivik Overseas Consultants.\`,
     path: \`/universities/${config.slug}/courses/\${slug}\`,
-    keywords: [course.name, '${config.shortName}', '${config.name}', 'study in Canada', course.level, 'PGWP'],
+    keywords: [course.name, '${safeShortName}', '${safeName}', 'study in Canada', course.level, 'PGWP'],
   });
 }
 
@@ -165,7 +168,7 @@ export default async function CoursePage(
     name: course.name,
     provider: {
       '@type': 'CollegeOrUniversity',
-      name: '${config.name}',
+      name: '${safeName}',
       sameAs: '${config.sameAs}',
     },
     courseMode: 'full-time',
@@ -346,10 +349,10 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: '${config.shortName} International Courses – All Programs, Fees & IELTS 2025',
+  title: '${safeShortName} International Courses – All Programs, Fees & IELTS 2025',
   description: \`${config.name} — \${(${varName} as unknown as any[]).length} courses for international students. ${pgwpNote}IELTS ${config.ieltsDefault}+. ${intakesStr} intakes. Free admission guidance from Jaivik Overseas Consultants.\`,
   path: '/universities/${config.slug}/courses',
-  keywords: ['${config.shortName} courses', '${config.name} international', '${config.shortName} fees', 'study in Canada', 'Canada university', 'PGWP'],
+  keywords: ['${safeShortName} courses', '${safeName} international', '${safeShortName} fees', 'study in Canada', 'Canada university', 'PGWP'],
 });
 
 const levelOrder = ${JSON.stringify(levelOrder)};
@@ -373,7 +376,7 @@ export default function CoursesPage() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollegeOrUniversity',
-    name: '${config.name}',
+    name: '${safeName}',
     sameAs: '${config.sameAs}',
     address: { '@type': 'PostalAddress', addressLocality: '${config.city}', addressRegion: '${config.province}', addressCountry: 'CA' },
   };
