@@ -151,17 +151,19 @@ export default async function CityPage(
                 {unis
                   .sort((a, b) => (a.qsRanking ?? 9999) - (b.qsRanking ?? 9999))
                   .map((u, i) => (
-                  <div key={u.id} className="bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all">
-                    <div className="flex items-start gap-4">
+                  <div key={u.id} className="relative bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all group cursor-pointer">
+                    {/* Full-card clickable overlay → university overview */}
+                    <Link href={`/universities/${u.slug}`} className="absolute inset-0 rounded-2xl z-0" aria-label={`View ${u.name}`} />
+                    <div className="relative z-10 flex items-start gap-4">
                       <div className="w-8 h-8 bg-brand-50 rounded-full flex items-center justify-center text-brand-700 font-bold text-sm flex-shrink-0 mt-0.5">
                         {i + 1}
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-start justify-between gap-2 flex-wrap">
                           <div>
-                            <Link href={`/universities/${u.slug}`} className="font-bold text-gray-900 hover:text-brand-700 text-sm leading-snug">
+                            <span className="font-bold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">
                               {u.name}
-                            </Link>
+                            </span>
                             <p className="text-xs text-gray-500 mt-0.5">
                               {u.city}, {u.state}
                               {u.qsRanking ? ` · QS #${u.qsRanking}` : ''}
@@ -187,12 +189,9 @@ export default async function CityPage(
                           </span>
                         </div>
                         <div className="flex gap-3 mt-3 flex-wrap">
-                          <Link href={`/universities/${u.slug}`}
-                            className="text-xs text-brand-700 font-medium hover:underline">
-                            University Profile →
-                          </Link>
+                          <span className="text-xs text-brand-700 font-medium">University Profile →</span>
                           <Link href={`/universities/${u.slug}/courses`}
-                            className="text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors">
+                            className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors">
                             Browse Degree Programs →
                           </Link>
                         </div>
