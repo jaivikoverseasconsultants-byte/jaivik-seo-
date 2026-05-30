@@ -1,4 +1,4 @@
-// Auto-generated — do not edit manually
+﻿// Auto-generated — do not edit manually
 // University: University of Lincoln
 
 export interface LincolnCourse {
