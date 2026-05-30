@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   if (!category) return {};
   const catCourses = courses.filter(c => c.category === category);
   return buildMetadata({
-    title: `${category} Courses Abroad – Fees, Eligibility & Jobs 2025`,
+    title: `${category} Courses Abroad – Fees, Eligibility & Jobs 2026`,
     description: `Explore ${catCourses.length} ${category} programs available to study abroad from India. Compare fees, job growth, salary, and eligibility. Free guidance from Jaivik Overseas Consultants.`,
     path: `/courses/category/${slug}`,
     keywords: [category, 'courses abroad', 'study abroad India'],

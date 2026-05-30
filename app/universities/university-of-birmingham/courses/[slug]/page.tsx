@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBirminghamCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Birmingham – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Birmingham – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Birmingham. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-birmingham/courses/${slug}`,
     keywords: [course.name, 'Birmingham', 'University of Birmingham', 'study in UK', course.level],

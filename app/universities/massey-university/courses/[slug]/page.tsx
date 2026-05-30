@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getMasseyCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Massey – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Massey – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Massey University. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/massey-university/courses/${slug}`,
     keywords: [course.name, 'Massey', 'Massey University', 'study in New Zealand', course.level],

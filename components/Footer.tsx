@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="/joc-logo-circle.jpeg" alt="Jaivik Overseas Consultants" className="h-12 w-12 rounded-full" />
             </div>
             <p className="text-sm text-blue-200 leading-relaxed">
-              Trusted study abroad consultancy helping students across India achieve their international education dreams since 2015.
+              Trusted study abroad consultancy helping students across India achieve their international education dreams since 2012.
             </p>
             <div className="mt-4 space-y-1.5 text-sm">
               <p>📍 333 Orbit Plaza, Crossing Republik,<br />
@@ -86,7 +86,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-blue-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-blue-300">
-          <p>© 2025 Jaivik Overseas Consultants. All rights reserved.</p>
+          <p>© 2026 Jaivik Overseas Consultants. All rights reserved.</p>
           <p>Registered Study Abroad Consultancy | Ghaziabad, Uttar Pradesh, India</p>
         </div>
       </div>

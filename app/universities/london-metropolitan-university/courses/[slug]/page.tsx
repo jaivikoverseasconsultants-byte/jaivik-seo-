@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLondonmetCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | London Met – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | London Met – Fees, IELTS & Intake 2026`,
     description: `${course.name} at London Metropolitan University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/london-metropolitan-university/courses/${slug}`,
     keywords: [course.name, 'London Met', 'London Metropolitan University', 'study in UK', course.level],

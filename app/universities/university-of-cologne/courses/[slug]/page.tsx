@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUcologneCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Cologne – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Cologne – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Cologne. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/university-of-cologne/courses/${slug}`,
     keywords: [course.name, 'Cologne', 'University of Cologne', 'study in Germany', course.level],

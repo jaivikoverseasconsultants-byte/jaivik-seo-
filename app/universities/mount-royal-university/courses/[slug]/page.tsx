@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getMruCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | MRU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | MRU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Mount Royal University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/mount-royal-university/courses/${slug}`,
     keywords: [course.name, 'MRU', 'Mount Royal University', 'study in Canada', course.level, 'PGWP'],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getYorkCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | York – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | York – Fees, IELTS & Intake 2026`,
     description: `${course.name} at York University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/york-university/courses/${slug}`,
     keywords: [course.name, 'York', 'York University', 'study in Canada', course.level, 'PGWP'],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getFlindersCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Flinders – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Flinders – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Flinders University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/flinders-university/courses/${slug}`,
     keywords: [course.name, 'Flinders', 'Flinders University', 'study in Australia', course.level],

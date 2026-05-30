@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getQmulCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | QMUL – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | QMUL – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Queen Mary University of London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/queen-mary-university-london/courses/${slug}`,
     keywords: [course.name, 'QMUL', 'Queen Mary University of London', 'study in UK', course.level],

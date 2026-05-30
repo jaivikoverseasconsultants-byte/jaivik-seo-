@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getSalfordCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Salford – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Salford – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Salford. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-salford/courses/${slug}`,
     keywords: [course.name, 'Salford', 'University of Salford', 'study in UK', course.level],

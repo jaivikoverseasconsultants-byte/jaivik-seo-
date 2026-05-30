@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getJcu_brisbaneCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | JCU Brisbane – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | JCU Brisbane – Fees, IELTS & Intake 2026`,
     description: `${course.name} at James Cook University Brisbane. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/jcu-brisbane/courses/${slug}`,
     keywords: [course.name, 'JCU Brisbane', 'James Cook University Brisbane', 'study in Australia', course.level],

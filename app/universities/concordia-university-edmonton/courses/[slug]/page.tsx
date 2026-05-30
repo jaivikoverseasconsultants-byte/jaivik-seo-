@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getConcordia_edmontonCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | CUE – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | CUE – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Concordia University of Edmonton. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/concordia-university-edmonton/courses/${slug}`,
     keywords: [course.name, 'CUE', 'Concordia University of Edmonton', 'study in Canada', course.level, 'PGWP'],

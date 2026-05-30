@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUneCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UNE – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UNE – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of New England. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-new-england-australia/courses/${slug}`,
     keywords: [course.name, 'UNE', 'University of New England', 'study in Australia', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUmanitobaCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UManitoba – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UManitoba – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Manitoba. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-manitoba/courses/${slug}`,
     keywords: [course.name, 'UManitoba', 'University of Manitoba', 'study in Canada', course.level, 'PGWP'],

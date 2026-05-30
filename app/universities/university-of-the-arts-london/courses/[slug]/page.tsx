@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUalCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UAL – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UAL – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of the Arts London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-the-arts-london/courses/${slug}`,
     keywords: [course.name, 'UAL', 'University of the Arts London', 'study in UK', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getCbuCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | CBU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | CBU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Cape Breton University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/cape-breton-university/courses/${slug}`,
     keywords: [course.name, 'CBU', 'Cape Breton University', 'study in Canada', course.level, 'PGWP'],

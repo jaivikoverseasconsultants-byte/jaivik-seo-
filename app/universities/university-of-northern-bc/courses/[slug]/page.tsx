@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUnbcCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UNBC – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UNBC – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Northern British Columbia. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-northern-bc/courses/${slug}`,
     keywords: [course.name, 'UNBC', 'University of Northern British Columbia', 'study in Canada', course.level, 'PGWP'],

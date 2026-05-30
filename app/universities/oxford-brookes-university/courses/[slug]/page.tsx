@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBrookesCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Oxford Brookes – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Oxford Brookes – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Oxford Brookes University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/oxford-brookes-university/courses/${slug}`,
     keywords: [course.name, 'Oxford Brookes', 'Oxford Brookes University', 'study in UK', course.level],

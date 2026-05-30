@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getYorkuniCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | York – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | York – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of York. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-york/courses/${slug}`,
     keywords: [course.name, 'York', 'University of York', 'study in UK', course.level],

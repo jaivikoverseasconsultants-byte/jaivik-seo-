@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLboroCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Loughborough – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Loughborough – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Loughborough University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/loughborough-university/courses/${slug}`,
     keywords: [course.name, 'Loughborough', 'Loughborough University', 'study in UK', course.level],

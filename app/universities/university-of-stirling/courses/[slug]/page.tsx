@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getStirlingCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Stirling – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Stirling – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Stirling. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-stirling/courses/${slug}`,
     keywords: [course.name, 'Stirling', 'University of Stirling', 'study in UK', course.level],

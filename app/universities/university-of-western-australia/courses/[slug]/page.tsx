@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUwaCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UWA – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UWA – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Western Australia. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-western-australia/courses/${slug}`,
     keywords: [course.name, 'UWA', 'University of Western Australia', 'study in Australia', course.level],

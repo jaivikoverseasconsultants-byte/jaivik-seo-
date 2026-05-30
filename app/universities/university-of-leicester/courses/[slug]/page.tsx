@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLeicesterCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Leicester – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Leicester – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Leicester. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-leicester/courses/${slug}`,
     keywords: [course.name, 'Leicester', 'University of Leicester', 'study in UK', course.level],

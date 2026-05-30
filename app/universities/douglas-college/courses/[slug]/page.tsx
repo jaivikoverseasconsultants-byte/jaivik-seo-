@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getDouglasCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Douglas – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Douglas – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Douglas College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/douglas-college/courses/${slug}`,
     keywords: [course.name, 'Douglas', 'Douglas College', 'study in Canada', course.level, 'PGWP'],

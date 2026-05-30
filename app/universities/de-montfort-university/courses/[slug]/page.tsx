@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getDemontfortCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | DMU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | DMU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at De Montfort University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/de-montfort-university/courses/${slug}`,
     keywords: [course.name, 'DMU', 'De Montfort University', 'study in UK', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getCityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | City London – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | City London – Fees, IELTS & Intake 2026`,
     description: `${course.name} at City, University of London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/city-university-london/courses/${slug}`,
     keywords: [course.name, 'City London', 'City, University of London', 'study in UK', course.level],

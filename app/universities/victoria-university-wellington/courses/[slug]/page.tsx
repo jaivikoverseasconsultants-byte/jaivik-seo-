@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getVuwCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Victoria – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Victoria – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Victoria University of Wellington. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/victoria-university-wellington/courses/${slug}`,
     keywords: [course.name, 'Victoria', 'Victoria University of Wellington', 'study in New Zealand', course.level],

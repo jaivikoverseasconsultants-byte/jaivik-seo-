@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getWaterlooCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Waterloo – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Waterloo – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Waterloo. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-waterloo/courses/${slug}`,
     keywords: [course.name, 'Waterloo', 'University of Waterloo', 'study in Canada', course.level, 'PGWP'],

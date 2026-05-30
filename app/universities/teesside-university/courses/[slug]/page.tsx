@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getTeesCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Teesside – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Teesside – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Teesside University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/teesside-university/courses/${slug}`,
     keywords: [course.name, 'Teesside', 'Teesside University', 'study in UK', course.level],

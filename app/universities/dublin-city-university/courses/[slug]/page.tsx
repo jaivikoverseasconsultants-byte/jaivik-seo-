@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getDcuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | DCU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | DCU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Dublin City University. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/dublin-city-university/courses/${slug}`,
     keywords: [course.name, 'DCU', 'Dublin City University', 'study in Ireland', course.level],

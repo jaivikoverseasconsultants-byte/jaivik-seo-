@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBedsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Bedfordshire – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Bedfordshire – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Bedfordshire. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-bedfordshire/courses/${slug}`,
     keywords: [course.name, 'Bedfordshire', 'University of Bedfordshire', 'study in UK', course.level],

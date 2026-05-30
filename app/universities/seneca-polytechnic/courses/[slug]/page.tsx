@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getSenecaCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Seneca – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Seneca – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Seneca Polytechnic. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/seneca-polytechnic/courses/${slug}`,
     keywords: [course.name, 'Seneca', 'Seneca Polytechnic', 'study in Canada', course.level, 'PGWP'],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUswCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | USW – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | USW – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of South Wales. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-south-wales/courses/${slug}`,
     keywords: [course.name, 'USW', 'University of South Wales', 'study in UK', course.level],

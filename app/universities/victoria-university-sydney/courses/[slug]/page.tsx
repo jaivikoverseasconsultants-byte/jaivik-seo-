@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getVu_sydneyCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | VU Sydney – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | VU Sydney – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Victoria University Sydney. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/victoria-university-sydney/courses/${slug}`,
     keywords: [course.name, 'VU Sydney', 'Victoria University Sydney', 'study in Australia', course.level],

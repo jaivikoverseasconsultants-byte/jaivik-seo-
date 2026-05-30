@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getMannheimCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Mannheim – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Mannheim – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Mannheim. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/university-of-mannheim/courses/${slug}`,
     keywords: [course.name, 'Mannheim', 'University of Mannheim', 'study in Germany', course.level],

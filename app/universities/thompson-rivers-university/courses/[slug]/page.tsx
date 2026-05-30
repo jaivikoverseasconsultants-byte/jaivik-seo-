@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getTruCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | TRU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | TRU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Thompson Rivers University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/thompson-rivers-university/courses/${slug}`,
     keywords: [course.name, 'TRU', 'Thompson Rivers University', 'study in Canada', course.level, 'PGWP'],

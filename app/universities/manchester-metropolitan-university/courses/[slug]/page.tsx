@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getMmuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | MMU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | MMU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Manchester Metropolitan University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/manchester-metropolitan-university/courses/${slug}`,
     keywords: [course.name, 'MMU', 'Manchester Metropolitan University', 'study in UK', course.level],

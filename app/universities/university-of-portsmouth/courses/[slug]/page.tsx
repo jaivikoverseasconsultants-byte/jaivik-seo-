@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getPortsmouthCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Portsmouth – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Portsmouth – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Portsmouth. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-portsmouth/courses/${slug}`,
     keywords: [course.name, 'Portsmouth', 'University of Portsmouth', 'study in UK', course.level],

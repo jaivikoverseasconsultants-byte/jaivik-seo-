@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getNiagara_universityCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | NU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | NU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Niagara University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/niagara-university/courses/${slug}`,
     keywords: [course.name, 'NU', 'Niagara University', 'study in Canada', course.level, 'PGWP'],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUtsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UTS Sydney – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UTS Sydney – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Technology Sydney. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants, Ghaziabad.`,
     path: `/universities/uts-sydney/courses/${slug}`,
     keywords: [course.name, 'UTS Sydney', 'University of Technology Sydney', 'study in Australia', course.level],

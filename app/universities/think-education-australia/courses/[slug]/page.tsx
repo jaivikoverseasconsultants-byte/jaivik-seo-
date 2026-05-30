@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getThinkCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Think – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Think – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Think Education. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/think-education-australia/courses/${slug}`,
     keywords: [course.name, 'Think', 'Think Education', 'study in Australia', course.level],

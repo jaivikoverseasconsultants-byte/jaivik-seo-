@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLincolnCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Lincoln – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Lincoln – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Lincoln. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-lincoln/courses/${slug}`,
     keywords: [course.name, 'Lincoln', 'University of Lincoln', 'study in UK', course.level],

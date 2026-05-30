@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getJibcCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | JIBC – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | JIBC – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Justice Institute of BC. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/justice-institute-of-bc/courses/${slug}`,
     keywords: [course.name, 'JIBC', 'Justice Institute of BC', 'study in Canada', course.level, 'PGWP'],

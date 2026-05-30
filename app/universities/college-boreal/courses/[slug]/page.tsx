@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBorealCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Boréal – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Boréal – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Collège Boréal. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/college-boreal/courses/${slug}`,
     keywords: [course.name, 'Boréal', 'Collège Boréal', 'study in Canada', course.level, 'PGWP'],

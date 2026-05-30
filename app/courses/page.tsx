@@ -1,10 +1,10 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import type { Metadata } from 'next';
 import { courses, courseCategories } from '@/data/courses';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Courses to Study Abroad from India – Fees, Jobs & ROI 2025',
+  title: 'Courses to Study Abroad from India â€“ Fees, Jobs & ROI 2026',
   description: `Explore ${courses.length}+ courses available to study abroad. Compare fees, job growth rates, salary, and eligibility. Find the best course for your profile. Free guidance from Jaivik Overseas Consultants, Ghaziabad.`,
   path: '/courses',
   keywords: ['courses to study abroad', 'best courses for Indian students abroad', 'MS MBA courses abroad'],
@@ -74,7 +74,7 @@ export default function CoursesPage() {
                       <p className="text-gray-400">Job Growth</p>
                     </div>
                     <div className="bg-gray-50 rounded-lg p-2 text-center">
-                      <p className="font-bold text-orange-500">{c.duration.split('–')[0]}yr</p>
+                      <p className="font-bold text-orange-500">{c.duration.split('â€“')[0]}yr</p>
                       <p className="text-gray-400">Duration</p>
                     </div>
                   </div>
@@ -95,3 +95,4 @@ export default function CoursesPage() {
     </div>
   );
 }
+

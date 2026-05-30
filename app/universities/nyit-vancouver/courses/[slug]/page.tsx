@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getNyit_vancouverCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | NYIT – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | NYIT – Fees, IELTS & Intake 2026`,
     description: `${course.name} at NYIT Vancouver. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/nyit-vancouver/courses/${slug}`,
     keywords: [course.name, 'NYIT', 'NYIT Vancouver', 'study in Canada', course.level, 'PGWP'],

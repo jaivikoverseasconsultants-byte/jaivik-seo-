@@ -19,7 +19,7 @@ export async function generateMetadata(
   if (!cityData) return {};
   const unis = getUniversitiesByCity(cityData.cityNames);
   return buildMetadata({
-    title: `Study in ${cityData.name}, ${cityData.province} – Universities, Fees & Living Cost 2025`,
+    title: `Study in ${cityData.name}, ${cityData.province} – Universities, Fees & Living Cost 2026`,
     description: `${unis.length} colleges & universities in ${cityData.name} for Indian students. Living cost ~CAD $${cityData.costOfLiving.toLocaleString()}/month. PGWP eligible. Compare programs, fees & intakes. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/city/${slug}`,
     keywords: [
@@ -74,7 +74,7 @@ export default async function CityPage(
                 🇨🇦 {cityData.name}, {cityData.province} · PGWP Eligible
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                Study in {cityData.name} — Universities & Colleges 2025
+                Study in {cityData.name} — Universities & Colleges 2026
               </h1>
               <p className="text-blue-200 text-lg mb-5">
                 {unis.length > 0

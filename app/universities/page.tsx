@@ -1,10 +1,10 @@
-import Link from 'next/link';
+﻿import Link from 'next/link';
 import type { Metadata } from 'next';
 import { universities, countries } from '@/data/universities';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Top Universities Abroad for Indian Students 2025',
+  title: 'Top Universities Abroad for Indian Students 2026',
   description: 'Explore 50+ top universities in USA, UK, Canada, Australia, Germany & Singapore. Compare fees, rankings, visa rates, and intake dates. Free admission guidance from Jaivik Overseas Consultants, Ghaziabad.',
   path: '/universities',
   keywords: ['top universities abroad', 'best universities for Indian students', 'study abroad universities'],
@@ -62,7 +62,7 @@ export default function UniversitiesPage() {
                   <span key={m} className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{m}</span>
                 ))}
               </div>
-              <span className="text-xs text-brand-700 font-medium">View Details →</span>
+              <span className="text-xs text-brand-700 font-medium">View Details â†’</span>
             </div>
           </Link>
         ))}
@@ -70,3 +70,4 @@ export default function UniversitiesPage() {
     </div>
   );
 }
+

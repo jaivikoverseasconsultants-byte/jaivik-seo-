@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getAnuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | ANU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | ANU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Australian National University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/australian-national-university/courses/${slug}`,
     keywords: [course.name, 'ANU', 'Australian National University', 'study in Australia', course.level],

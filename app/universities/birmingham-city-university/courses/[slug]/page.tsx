@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBcuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | BCU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | BCU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Birmingham City University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/birmingham-city-university/courses/${slug}`,
     keywords: [course.name, 'BCU', 'Birmingham City University', 'study in UK', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getDeakinCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Deakin – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Deakin – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Deakin University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/deakin-university/courses/${slug}`,
     keywords: [course.name, 'Deakin', 'Deakin University', 'study in Australia', course.level],

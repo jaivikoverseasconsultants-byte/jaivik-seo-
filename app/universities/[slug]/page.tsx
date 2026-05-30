@@ -22,10 +22,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const u = getUniversityBySlug(slug);
   if (!u) return {} as Metadata;
   return buildMetadata({
-    title: `${u.name} | Fees, Rankings, Courses & Admissions 2025`,
+    title: `${u.name} | Fees, Rankings, Courses & Admissions 2026`,
     description: `${u.name} (${u.shortName}) – QS Rank #${u.qsRanking}. Annual tuition ${formatUSD(u.annualTuitionUSD)} (${formatINR(u.annualTuitionINR)}). Visa approval rate ${u.visaApprovalRate}%. Intake: ${u.intakeMonths.join(', ')}. Get free admission guidance from Jaivik Overseas Consultants.`,
     path: `/universities/${slug}`,
-    keywords: [u.name, u.shortName, u.country, 'university fees', 'study abroad', 'admissions 2025'],
+    keywords: [u.name, u.shortName, u.country, 'university fees', 'study abroad', 'admissions 2026'],
   });
 }
 
@@ -74,7 +74,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
         name: `What is the QS ranking of ${u.name}?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `${u.name} is ranked #${u.qsRanking} in the QS World University Rankings 2025.`,
+          text: `${u.name} is ranked #${u.qsRanking} in the QS World University Rankings 2026.`,
         },
       },
       {
@@ -206,7 +206,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
             {/* Fees Breakdown */}
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
               <h2 className="section-title">Complete Cost Breakdown for Indian Students</h2>
-              <p className="text-gray-500 text-sm mb-5">Annual cost of studying at {u.shortName} (2025–26)</p>
+              <p className="text-gray-500 text-sm mb-5">Annual cost of studying at {u.shortName} (2026–27)</p>
               <div className="space-y-3">
                 {[
                   { label: 'Annual Tuition Fee', usd: u.annualTuitionUSD, inr: u.annualTuitionINR },
@@ -249,6 +249,57 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                     <p className="text-xs text-gray-500 mt-1">{req.label}</p>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            {/* Campus Info */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Campus & Location</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                <div className="p-4 bg-blue-50 rounded-xl">
+                  <p className="text-xs text-blue-600 font-medium mb-1">📍 Main Campus Location</p>
+                  <p className="font-bold text-gray-900">{u.city}</p>
+                  <p className="text-sm text-gray-600">{u.state}, {u.country}</p>
+                </div>
+                <div className="p-4 bg-green-50 rounded-xl">
+                  <p className="text-xs text-green-600 font-medium mb-1">🏛️ Campus Type</p>
+                  <p className="font-bold text-gray-900">{u.campusType}</p>
+                  <p className="text-sm text-gray-600">
+                    {u.campusType === 'Urban' ? 'City-centre location, great transport links' :
+                     u.campusType === 'Suburban' ? 'Residential area, quieter campus life' :
+                     'Green campus with spacious grounds'}
+                  </p>
+                </div>
+                <div className="p-4 bg-purple-50 rounded-xl">
+                  <p className="text-xs text-purple-600 font-medium mb-1">👥 Total Students</p>
+                  <p className="font-bold text-gray-900">{u.totalStudents.toLocaleString()}+</p>
+                  <p className="text-sm text-gray-600">{u.internationalStudentPercent}% international students</p>
+                </div>
+                <div className="p-4 bg-orange-50 rounded-xl">
+                  <p className="text-xs text-orange-600 font-medium mb-1">🌍 International Community</p>
+                  <p className="font-bold text-gray-900">{Math.round(u.totalStudents * u.internationalStudentPercent / 100).toLocaleString()}+</p>
+                  <p className="text-sm text-gray-600">international students on campus</p>
+                </div>
+              </div>
+              <div className="mt-4">
+                <p className="text-sm font-semibold text-gray-800 mb-3">Campus Facilities</p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                  {[
+                    '🏠 On-campus Accommodation',
+                    '📚 Research Libraries',
+                    '🏋️ Sports & Recreation Centre',
+                    '🖥️ Computer Labs & Co-working',
+                    '🍽️ International Dining Options',
+                    '🤝 International Student Office',
+                    '🏥 Student Health Services',
+                    '🎓 Career & Placement Centre',
+                    u.campusType === 'Urban' ? '🚇 Near Public Transport' : '🚌 Campus Shuttle Service',
+                  ].map((facility, i) => (
+                    <div key={i} className="flex items-center gap-2 text-xs text-gray-700 bg-gray-50 rounded-lg px-2.5 py-2">
+                      {facility}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
 
@@ -302,7 +353,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 {[
                   {
                     q: `What is the tuition fee at ${u.name}?`,
-                    a: `Annual tuition at ${u.name} is ${formatUSD(u.annualTuitionUSD)} (approximately ${formatINR(u.annualTuitionINR)}) for international students in 2025–26. This does not include living expenses of approximately ${formatUSD(u.livingCostUSD)}/year.`,
+                    a: `Annual tuition at ${u.name} is ${formatUSD(u.annualTuitionUSD)} (approximately ${formatINR(u.annualTuitionINR)}) for international students in 2026–26. This does not include living expenses of approximately ${formatUSD(u.livingCostUSD)}/year.`,
                   },
                   {
                     q: `What is the acceptance rate at ${u.shortName}?`,

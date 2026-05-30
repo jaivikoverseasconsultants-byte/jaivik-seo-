@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getHwCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Heriot-Watt – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Heriot-Watt – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Heriot-Watt University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/heriot-watt-university/courses/${slug}`,
     keywords: [course.name, 'Heriot-Watt', 'Heriot-Watt University', 'study in UK', course.level],

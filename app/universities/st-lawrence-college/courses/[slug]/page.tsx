@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getSt_lawrenceCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | SLC – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | SLC – Fees, IELTS & Intake 2026`,
     description: `${course.name} at St. Lawrence College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/st-lawrence-college/courses/${slug}`,
     keywords: [course.name, 'SLC', 'St. Lawrence College', 'study in Canada', course.level, 'PGWP'],

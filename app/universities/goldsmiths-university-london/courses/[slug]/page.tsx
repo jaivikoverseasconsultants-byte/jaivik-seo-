@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getGoldCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Goldsmiths – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Goldsmiths – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Goldsmiths, University of London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/goldsmiths-university-london/courses/${slug}`,
     keywords: [course.name, 'Goldsmiths', 'Goldsmiths, University of London', 'study in UK', course.level],

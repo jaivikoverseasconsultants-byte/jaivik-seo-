@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getCardiffCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Cardiff – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Cardiff – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Cardiff University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/cardiff-university/courses/${slug}`,
     keywords: [course.name, 'Cardiff', 'Cardiff University', 'study in UK', course.level],

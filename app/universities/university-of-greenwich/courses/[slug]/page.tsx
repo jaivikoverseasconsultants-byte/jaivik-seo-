@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getGreenwichCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Greenwich – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Greenwich – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Greenwich. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-greenwich/courses/${slug}`,
     keywords: [course.name, 'Greenwich', 'University of Greenwich', 'study in UK', course.level],

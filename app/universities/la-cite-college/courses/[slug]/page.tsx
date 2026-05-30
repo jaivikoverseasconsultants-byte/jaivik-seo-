@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLa_citeCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | La Cité – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | La Cité – Fees, IELTS & Intake 2026`,
     description: `${course.name} at La Cité College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/la-cite-college/courses/${slug}`,
     keywords: [course.name, 'La Cité', 'La Cité College', 'study in Canada', course.level, 'PGWP'],

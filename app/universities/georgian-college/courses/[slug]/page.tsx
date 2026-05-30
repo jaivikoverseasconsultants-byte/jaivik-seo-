@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getGeorgianCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Georgian – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Georgian – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Georgian College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/georgian-college/courses/${slug}`,
     keywords: [course.name, 'Georgian', 'Georgian College', 'study in Canada', course.level, 'PGWP'],

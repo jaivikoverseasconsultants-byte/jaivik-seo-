@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getHuddsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Huddersfield – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Huddersfield – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Huddersfield. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-huddersfield/courses/${slug}`,
     keywords: [course.name, 'Huddersfield', 'University of Huddersfield', 'study in UK', course.level],

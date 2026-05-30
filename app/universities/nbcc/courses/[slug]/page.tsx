@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getNbccCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | NBCC – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | NBCC – Fees, IELTS & Intake 2026`,
     description: `${course.name} at New Brunswick Community College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/nbcc/courses/${slug}`,
     keywords: [course.name, 'NBCC', 'New Brunswick Community College', 'study in Canada', course.level, 'PGWP'],

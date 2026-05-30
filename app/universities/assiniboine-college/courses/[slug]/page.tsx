@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getAssiniboineCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Assiniboine – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Assiniboine – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Assiniboine College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/assiniboine-college/courses/${slug}`,
     keywords: [course.name, 'Assiniboine', 'Assiniboine College', 'study in Canada', course.level, 'PGWP'],

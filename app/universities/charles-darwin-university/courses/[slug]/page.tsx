@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getCduCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | CDU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | CDU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Charles Darwin University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/charles-darwin-university/courses/${slug}`,
     keywords: [course.name, 'CDU', 'Charles Darwin University', 'study in Australia', course.level],

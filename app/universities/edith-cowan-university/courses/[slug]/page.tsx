@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getEcuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | ECU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | ECU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Edith Cowan University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/edith-cowan-university/courses/${slug}`,
     keywords: [course.name, 'ECU', 'Edith Cowan University', 'study in Australia', course.level],

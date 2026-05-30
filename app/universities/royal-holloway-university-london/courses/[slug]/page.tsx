@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getRhulCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Royal Holloway – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Royal Holloway – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Royal Holloway, University of London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/royal-holloway-university-london/courses/${slug}`,
     keywords: [course.name, 'Royal Holloway', 'Royal Holloway, University of London', 'study in UK', course.level],

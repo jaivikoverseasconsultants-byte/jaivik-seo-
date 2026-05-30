@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getDundeeCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Dundee – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Dundee – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Dundee. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-dundee/courses/${slug}`,
     keywords: [course.name, 'Dundee', 'University of Dundee', 'study in UK', course.level],

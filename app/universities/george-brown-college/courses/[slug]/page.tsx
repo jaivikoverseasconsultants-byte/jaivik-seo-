@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getGeorge_brownCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | George Brown – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | George Brown – Fees, IELTS & Intake 2026`,
     description: `${course.name} at George Brown College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/george-brown-college/courses/${slug}`,
     keywords: [course.name, 'George Brown', 'George Brown College', 'study in Canada', course.level, 'PGWP'],

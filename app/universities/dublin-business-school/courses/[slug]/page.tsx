@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getDbsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | DBS – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | DBS – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Dublin Business School. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/dublin-business-school/courses/${slug}`,
     keywords: [course.name, 'DBS', 'Dublin Business School', 'study in Ireland', course.level],

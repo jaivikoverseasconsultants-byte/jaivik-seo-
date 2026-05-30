@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getAutCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | AUT – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | AUT – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Auckland University of Technology. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/auckland-university-of-technology/courses/${slug}`,
     keywords: [course.name, 'AUT', 'Auckland University of Technology', 'study in New Zealand', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLmuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | LMU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | LMU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at LMU Munich. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/lmu-munich/courses/${slug}`,
     keywords: [course.name, 'LMU', 'LMU Munich', 'study in Germany', course.level],

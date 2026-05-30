@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getScuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | SCU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | SCU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Southern Cross University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/southern-cross-university/courses/${slug}`,
     keywords: [course.name, 'SCU', 'Southern Cross University', 'study in Australia', course.level],

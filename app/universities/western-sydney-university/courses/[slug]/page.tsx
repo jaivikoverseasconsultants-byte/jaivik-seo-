@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getWsuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | WSU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | WSU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Western Sydney University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/western-sydney-university/courses/${slug}`,
     keywords: [course.name, 'WSU', 'Western Sydney University', 'study in Australia', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getSwanseaCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Swansea – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Swansea – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Swansea University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/swansea-university/courses/${slug}`,
     keywords: [course.name, 'Swansea', 'Swansea University', 'study in UK', course.level],

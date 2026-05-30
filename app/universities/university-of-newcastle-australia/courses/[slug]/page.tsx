@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUonCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UoN – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UoN – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Newcastle. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-newcastle-australia/courses/${slug}`,
     keywords: [course.name, 'UoN', 'University of Newcastle', 'study in Australia', course.level],

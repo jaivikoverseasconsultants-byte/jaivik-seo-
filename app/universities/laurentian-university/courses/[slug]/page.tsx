@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLaurentianCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Laurentian – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Laurentian – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Laurentian University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/laurentian-university/courses/${slug}`,
     keywords: [course.name, 'Laurentian', 'Laurentian University', 'study in Canada', course.level, 'PGWP'],

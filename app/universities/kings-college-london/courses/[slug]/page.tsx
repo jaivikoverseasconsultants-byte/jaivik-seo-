@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getKclCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | KCL – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | KCL – Fees, IELTS & Intake 2026`,
     description: `${course.name} at King\'s College London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/kings-college-london/courses/${slug}`,
     keywords: [course.name, 'KCL', 'King\'s College London', 'study in UK', course.level],

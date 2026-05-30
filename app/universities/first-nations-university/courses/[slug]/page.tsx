@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getFnunivCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | FNUniv – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | FNUniv – Fees, IELTS & Intake 2026`,
     description: `${course.name} at First Nations University of Canada. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/first-nations-university/courses/${slug}`,
     keywords: [course.name, 'FNUniv', 'First Nations University of Canada', 'study in Canada', course.level, 'PGWP'],

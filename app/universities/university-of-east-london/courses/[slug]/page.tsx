@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUelCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UEL – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UEL – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of East London. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-east-london/courses/${slug}`,
     keywords: [course.name, 'UEL', 'University of East London', 'study in UK', course.level],

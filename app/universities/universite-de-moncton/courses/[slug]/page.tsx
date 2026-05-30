@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUmonctonCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UMoncton – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UMoncton – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Université de Moncton. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/universite-de-moncton/courses/${slug}`,
     keywords: [course.name, 'UMoncton', 'Université de Moncton', 'study in Canada', course.level, 'PGWP'],

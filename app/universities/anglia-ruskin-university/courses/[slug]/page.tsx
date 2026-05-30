@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getAruCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | ARU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | ARU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Anglia Ruskin University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/anglia-ruskin-university/courses/${slug}`,
     keywords: [course.name, 'ARU', 'Anglia Ruskin University', 'study in UK', course.level],

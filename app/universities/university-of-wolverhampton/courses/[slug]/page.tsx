@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getWolvesCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Wolverhampton – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Wolverhampton – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Wolverhampton. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-wolverhampton/courses/${slug}`,
     keywords: [course.name, 'Wolverhampton', 'University of Wolverhampton', 'study in UK', course.level],

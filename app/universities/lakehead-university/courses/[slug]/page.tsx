@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getLakeheadCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Lakehead – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Lakehead – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Lakehead University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/lakehead-university/courses/${slug}`,
     keywords: [course.name, 'Lakehead', 'Lakehead University', 'study in Canada', course.level, 'PGWP'],

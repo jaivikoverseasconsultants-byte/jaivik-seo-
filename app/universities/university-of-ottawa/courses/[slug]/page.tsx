@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUottawaCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | uOttawa – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | uOttawa – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Ottawa. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-ottawa/courses/${slug}`,
     keywords: [course.name, 'uOttawa', 'University of Ottawa', 'study in Canada', course.level, 'PGWP'],

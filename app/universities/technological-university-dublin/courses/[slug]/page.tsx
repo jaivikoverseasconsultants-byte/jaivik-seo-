@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getTudCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | TU Dublin – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | TU Dublin – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Technological University Dublin. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/technological-university-dublin/courses/${slug}`,
     keywords: [course.name, 'TU Dublin', 'Technological University Dublin', 'study in Ireland', course.level],

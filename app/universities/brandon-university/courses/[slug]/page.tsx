@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBrandon_universityCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | BU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | BU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Brandon University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/brandon-university/courses/${slug}`,
     keywords: [course.name, 'BU', 'Brandon University', 'study in Canada', course.level, 'PGWP'],

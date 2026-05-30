@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getFederationCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Federation – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Federation – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Federation University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/federation-university/courses/${slug}`,
     keywords: [course.name, 'Federation', 'Federation University', 'study in Australia', course.level],

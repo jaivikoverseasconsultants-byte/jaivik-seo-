@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getSt_thomasCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | STU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | STU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at St. Thomas University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/st-thomas-university/courses/${slug}`,
     keywords: [course.name, 'STU', 'St. Thomas University', 'study in Canada', course.level, 'PGWP'],

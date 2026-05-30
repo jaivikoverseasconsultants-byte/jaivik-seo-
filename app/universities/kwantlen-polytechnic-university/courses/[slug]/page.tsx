@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getKpuCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | KPU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | KPU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Kwantlen Polytechnic University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/kwantlen-polytechnic-university/courses/${slug}`,
     keywords: [course.name, 'KPU', 'Kwantlen Polytechnic University', 'study in Canada', course.level, 'PGWP'],

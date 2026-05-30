@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getHeidelbergCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Heidelberg – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Heidelberg – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Heidelberg University. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/heidelberg-university/courses/${slug}`,
     keywords: [course.name, 'Heidelberg', 'Heidelberg University', 'study in Germany', course.level],

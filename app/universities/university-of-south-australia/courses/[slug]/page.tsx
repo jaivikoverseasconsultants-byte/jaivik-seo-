@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUnisaCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UniSA – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UniSA – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of South Australia. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-south-australia/courses/${slug}`,
     keywords: [course.name, 'UniSA', 'University of South Australia', 'study in Australia', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getHumboldtCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | HU Berlin – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | HU Berlin – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Humboldt University of Berlin. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/humboldt-university-berlin/courses/${slug}`,
     keywords: [course.name, 'HU Berlin', 'Humboldt University of Berlin', 'study in Germany', course.level],

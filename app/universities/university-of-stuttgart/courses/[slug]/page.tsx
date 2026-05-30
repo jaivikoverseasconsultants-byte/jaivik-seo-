@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUstuttgartCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Stuttgart – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Stuttgart – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Stuttgart. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/university-of-stuttgart/courses/${slug}`,
     keywords: [course.name, 'Stuttgart', 'University of Stuttgart', 'study in Germany', course.level],

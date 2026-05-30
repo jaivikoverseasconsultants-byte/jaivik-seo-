@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getBrockCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Brock – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Brock – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Brock University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/brock-university/courses/${slug}`,
     keywords: [course.name, 'Brock', 'Brock University', 'study in Canada', course.level, 'PGWP'],

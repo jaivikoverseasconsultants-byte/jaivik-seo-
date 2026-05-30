@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUbcCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UBC – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UBC – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of British Columbia. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-british-columbia/courses/${slug}`,
     keywords: [course.name, 'UBC', 'University of British Columbia', 'study in Canada', course.level, 'PGWP'],

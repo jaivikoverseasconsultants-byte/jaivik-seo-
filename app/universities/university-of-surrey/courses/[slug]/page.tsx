@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getSurreyCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Surrey – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Surrey – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Surrey. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-surrey/courses/${slug}`,
     keywords: [course.name, 'Surrey', 'University of Surrey', 'study in UK', course.level],

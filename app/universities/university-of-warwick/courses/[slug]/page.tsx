@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getWarwickCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Warwick – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Warwick – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Warwick. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-warwick/courses/${slug}`,
     keywords: [course.name, 'Warwick', 'University of Warwick', 'study in UK', course.level],

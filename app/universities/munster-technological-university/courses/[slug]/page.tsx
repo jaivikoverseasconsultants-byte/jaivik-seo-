@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getMtuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | MTU – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | MTU – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Munster Technological University. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/munster-technological-university/courses/${slug}`,
     keywords: [course.name, 'MTU', 'Munster Technological University', 'study in Ireland', course.level],

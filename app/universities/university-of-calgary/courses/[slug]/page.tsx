@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUcalgaryCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UCalgary – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UCalgary – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Calgary. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-calgary/courses/${slug}`,
     keywords: [course.name, 'UCalgary', 'University of Calgary', 'study in Canada', course.level, 'PGWP'],

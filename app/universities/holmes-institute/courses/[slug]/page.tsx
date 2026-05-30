@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getHolmesCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Holmes – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Holmes – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Holmes Institute. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/holmes-institute/courses/${slug}`,
     keywords: [course.name, 'Holmes', 'Holmes Institute', 'study in Australia', course.level],

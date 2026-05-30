@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getConcordiaCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Concordia – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Concordia – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Concordia University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/concordia-university/courses/${slug}`,
     keywords: [course.name, 'Concordia', 'Concordia University', 'study in Canada', course.level, 'PGWP'],

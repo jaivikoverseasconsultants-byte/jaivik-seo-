@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { kaplanCourses } from '@/data/kaplan-courses';
@@ -6,8 +6,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Kaplan International Courses – All Programs, Fees & IELTS 2025',
-  description: `Kaplan Business School — ${(kaplanCourses as unknown as any[]).length} courses for international students. IELTS 6+. January & April & July & October intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: 'Kaplan International Courses â€“ All Programs, Fees & IELTS 2026',
+  description: `Kaplan Business School â€” ${(kaplanCourses as unknown as any[]).length} courses for international students. IELTS 6+. January & April & July & October intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/kaplan-business-school/courses',
   keywords: ['Kaplan courses', 'Kaplan Business School international', 'Kaplan fees', 'study in Australia'],
 });
@@ -52,13 +52,13 @@ export default function CoursesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇦🇺 Sydney, Australia
+                ðŸ‡¦ðŸ‡º Sydney, Australia
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                Kaplan Business School — International Courses
+                Kaplan Business School â€” International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg A${avgFee.toLocaleString()}/yr · IELTS 6+ · January & April & July & October intakes
+                {totalCourses} programs Â· Avg A${avgFee.toLocaleString()}/yr Â· IELTS 6+ Â· January & April & July & October intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
@@ -97,7 +97,7 @@ export default function CoursesPage() {
                     className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
+                      <p className="text-xs text-gray-500 mt-1">{c.duration} Â· {c.intakeMonths.join(' & ')} Â· {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">{`A$${c.annualAUD.toLocaleString()}/yr`}</p>
@@ -114,7 +114,7 @@ export default function CoursesPage() {
           <div className="sticky top-20 space-y-5">
             <LeadForm source="kaplan-courses-sidebar" defaultCountry="Australia" />
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts — Kaplan</h3>
+              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts â€” Kaplan</h3>
               {[
                 ['Established', '2000'],
                 ['Location', 'Sydney, New South Wales'],
@@ -122,7 +122,7 @@ export default function CoursesPage() {
                 ['IELTS Min', '6 overall'],
                 ['Intakes', 'January & April & July & October'],
                 ['Work Rights', '48 hrs/fortnight'],
-                ['Post-Study', 'Grad Visa 2–4 years'],
+                ['Post-Study', 'Grad Visa 2â€“4 years'],
               ].map(([k, v]) => (
                 <div key={k} className="flex justify-between py-2 border-b border-gray-50 last:border-0 text-xs">
                   <span className="text-gray-500">{k}</span>
@@ -136,3 +136,4 @@ export default function CoursesPage() {
     </>
   );
 }
+

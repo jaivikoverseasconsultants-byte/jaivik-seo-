@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUcCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UC – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UC – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Canberra. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-canberra/courses/${slug}`,
     keywords: [course.name, 'UC', 'University of Canberra', 'study in Australia', course.level],

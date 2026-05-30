@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUbonnCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Bonn – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Bonn – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Bonn. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/university-of-bonn/courses/${slug}`,
     keywords: [course.name, 'Bonn', 'University of Bonn', 'study in Germany', course.level],

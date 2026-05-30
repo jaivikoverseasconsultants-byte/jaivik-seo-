@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUpeiCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UPEI – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UPEI – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Prince Edward Island. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/upei/courses/${slug}`,
     keywords: [course.name, 'UPEI', 'University of Prince Edward Island', 'study in Canada', course.level, 'PGWP'],

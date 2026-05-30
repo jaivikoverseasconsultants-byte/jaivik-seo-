@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getWesternCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Western – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Western – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Western University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/western-university/courses/${slug}`,
     keywords: [course.name, 'Western', 'Western University', 'study in Canada', course.level, 'PGWP'],

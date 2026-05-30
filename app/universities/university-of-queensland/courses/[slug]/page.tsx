@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getUqCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UQ – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | UQ – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Queensland. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-queensland/courses/${slug}`,
     keywords: [course.name, 'UQ', 'University of Queensland', 'study in Australia', course.level],

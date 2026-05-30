@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getNciCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | NCI – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | NCI – Fees, IELTS & Intake 2026`,
     description: `${course.name} at National College of Ireland. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/national-college-of-ireland/courses/${slug}`,
     keywords: [course.name, 'NCI', 'National College of Ireland', 'study in Ireland', course.level],

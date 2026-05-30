@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const c = getCourseBySlug(slug);
   if (!c) return {} as Metadata;
   return buildMetadata({
-    title: `${c.name} Abroad – Fees, Salary, Eligibility & Top Universities 2025`,
+    title: `${c.name} Abroad – Fees, Salary, Eligibility & Top Universities 2026`,
     description: `${c.name} abroad – Duration: ${c.duration}. Avg fees: ${formatUSD(c.avgFeesUSD)} (${formatINR(c.avgFeesINR)}). Avg salary after graduation: ${formatUSD(c.avgSalaryUSD)}/year. Job growth: ${c.roi.jobGrowthRate}%. Available in ${c.countriesOffered.slice(0, 3).join(', ')}.`,
     path: `/courses/${slug}`,
     keywords: [c.name, c.category, 'study abroad', 'fees', 'eligibility', 'salary'],

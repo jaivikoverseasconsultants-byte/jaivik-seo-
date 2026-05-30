@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getRcsiCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | RCSI – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | RCSI – Fees, IELTS & Intake 2026`,
     description: `${course.name} at RCSI University of Medicine. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/rcsi-university-of-medicine/courses/${slug}`,
     keywords: [course.name, 'RCSI', 'RCSI University of Medicine', 'study in Ireland', course.level],

@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getMuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Maynooth – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Maynooth – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Maynooth University. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/maynooth-university/courses/${slug}`,
     keywords: [course.name, 'Maynooth', 'Maynooth University', 'study in Ireland', course.level],

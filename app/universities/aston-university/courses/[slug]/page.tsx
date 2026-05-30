@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getAstonCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Aston – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Aston – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Aston University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/aston-university/courses/${slug}`,
     keywords: [course.name, 'Aston', 'Aston University', 'study in UK', course.level],

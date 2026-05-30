@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getKaplanCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Kaplan – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Kaplan – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Kaplan Business School. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/kaplan-business-school/courses/${slug}`,
     keywords: [course.name, 'Kaplan', 'Kaplan Business School', 'study in Australia', course.level],

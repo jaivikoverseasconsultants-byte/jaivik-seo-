@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getEssexCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Essex – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | Essex – Fees, IELTS & Intake 2026`,
     description: `${course.name} at University of Essex. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/university-of-essex/courses/${slug}`,
     keywords: [course.name, 'Essex', 'University of Essex', 'study in UK', course.level],

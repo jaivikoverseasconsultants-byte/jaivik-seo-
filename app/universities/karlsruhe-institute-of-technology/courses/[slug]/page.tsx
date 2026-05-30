@@ -17,7 +17,7 @@ export async function generateMetadata(
   const course = getKitCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | KIT – Fees, IELTS & Intake 2025`,
+    title: `${course.name} | KIT – Fees, IELTS & Intake 2026`,
     description: `${course.name} at Karlsruhe Institute of Technology. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/karlsruhe-institute-of-technology/courses/${slug}`,
     keywords: [course.name, 'KIT', 'Karlsruhe Institute of Technology', 'study in Germany', course.level],
