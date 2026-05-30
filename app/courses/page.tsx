@@ -1,98 +1,112 @@
-﻿import Link from 'next/link';
-import type { Metadata } from 'next';
-import { courses, courseCategories } from '@/data/courses';
-import { buildMetadata } from '@/lib/seo';
+﻿import Link from "next/link";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import COURSE_CATEGORIES from "@/data/course-categories";
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Courses to Study Abroad from India â€“ Fees, Jobs & ROI 2026',
-  description: `Explore ${courses.length}+ courses available to study abroad. Compare fees, job growth rates, salary, and eligibility. Find the best course for your profile. Free guidance from Jaivik Overseas Consultants, Ghaziabad.`,
-  path: '/courses',
-  keywords: ['courses to study abroad', 'best courses for Indian students abroad', 'MS MBA courses abroad'],
+  title: "Courses Abroad for Indian Students 2026 – All Subjects",
+  description: "Browse 100+ degree programs abroad. MBA, MS Computer Science, Engineering, Medicine, Law, Data Science. Fees, IELTS requirements, top universities for every course stream.",
+  path: "/courses",
 });
 
-const categoryColors: Record<string, string> = {
-  'Engineering & Technology': 'bg-blue-50 text-blue-700',
-  'Business & Management': 'bg-purple-50 text-purple-700',
-  'Healthcare & Medicine': 'bg-green-50 text-green-700',
-  'Law & Social Sciences': 'bg-yellow-50 text-yellow-700',
-  'PhD & Research': 'bg-red-50 text-red-700',
-  'Undergraduate': 'bg-orange-50 text-orange-700',
+const FEATURED = ["ms-computer-science","mba","data-science","cybersecurity","engineering-electrical-electronic","ms-finance","nursing","law","psychology","public-health","engineering-mechanical-aeronautical","accounting-finance","business-analytics","sustainable-development","computer-science-information-systems"];
+
+const GROUPS: Record<string, string[]> = {
+  "Engineering": ["engineering-mechanical-aeronautical","engineering-electrical-electronic","engineering-aerospace","engineering-aeronautical","engineering-chemical","engineering-civil-structural","engineering-biomedical","engineering-general","engineering-management","engineering-materials","engineering-mechatronics","engineering-manufacturing","engineering-mineral-mining","engineering-petroleum","engineering-automotive","engineering-product-design"],
+  "Computer Science & IT": ["computer-science-information-systems","ms-computer-science","data-science","cybersecurity","information-technology","business-analytics","statistics-operational-research"],
+  "Business & Management": ["business-management","mba","accounting-finance","finance-accounting","ms-finance","marketing","human-resources-management","logistics-supply-chain","public-relations","real-estate"],
+  "Medicine & Health": ["medicine","medical-school","nursing","pharmacy-pharmacology","public-health","health-healthcare","health-sciences","medicine-related-studies","anatomy-physiology","dentistry","veterinary-science","immunology","toxicology"],
+  "Sciences": ["biological-sciences","chemistry","physics-astronomy","mathematics","genetics","life-sciences-medicine","materials-sciences","astronomy","geology","geophysics","food-science","zoology"],
+  "Social Sciences & Humanities": ["psychology","sociology","anthropology","history-archaeology","philosophy","linguistics","politics","international-relations","global-affairs","area-studies","classics-ancient-history","english-language-literature","modern-languages","theology-religion","ethnicity-gender-diversity"],
+  "Arts, Design & Media": ["art-design","architecture","fashion","music","performing-arts","digital-media","media-studies","art-history","communication-media-studies","journalism"],
+  "Environment & Sustainability": ["environmental-sciences","sustainable-development","energy","earth-environmental-sciences","earth-marine-sciences","geography","urban-planning","agriculture-forestry"],
+  "Law & Policy": ["law","social-work","social-policy","public-policy","criminology","development-studies","social-sciences-management","community-development","industrial-relations"],
+  "Other Subjects": ["hospitality-leisure-management","sports-related","built-environment","library-information-management","education-training","textile"],
 };
 
 export default function CoursesPage() {
-  const grouped = courseCategories.map(cat => ({
-    category: cat,
-    courses: courses.filter(c => c.category === cat),
-  }));
+  const featured = FEATURED.map(s => COURSE_CATEGORIES.find(c => c.slug === s)).filter(Boolean) as typeof COURSE_CATEGORIES;
+  const total = COURSE_CATEGORIES.length;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-10">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Courses to Study Abroad from India</h1>
-        <p className="text-gray-500">Compare {courses.length} programs across {courseCategories.length} categories. Find your perfect course by fees, salary, and job growth.</p>
-      </div>
-
-      {/* Category filters */}
-      <div className="flex flex-wrap gap-2 mb-8">
-        {courseCategories.map(cat => (
-          <Link key={cat}
-            href={`/courses/category/${cat.toLowerCase().replace(/\s+/g, '-').replace(/[&]/g, 'and')}`}
-            className="px-4 py-2 bg-white border border-gray-200 text-gray-700 rounded-full text-sm font-medium hover:border-brand-300 hover:text-brand-700 transition-colors">
-            {cat}
-          </Link>
-        ))}
-      </div>
-
-      {/* Grouped by category */}
-      <div className="space-y-12">
-        {grouped.map(({ category, courses: cats }) => (
-          <div key={category}>
-            <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-              <span>{category}</span>
-              <span className="text-sm font-normal text-gray-400">({cats.length} courses)</span>
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {cats.map(c => (
-                <Link key={c.id} href={`/courses/${c.slug}`}
-                  className="bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all group">
-                  <div className="flex items-start justify-between mb-3">
-                    <span className={`badge text-xs ${categoryColors[c.category] || 'bg-gray-100 text-gray-600'}`}>
-                      {c.level}
-                    </span>
-                    <span className={`badge text-xs ${c.demandLevel === 'Very High' ? 'bg-red-50 text-red-600' : c.demandLevel === 'High' ? 'bg-orange-50 text-orange-600' : 'bg-gray-50 text-gray-600'}`}>
-                      {c.demandLevel} Demand
-                    </span>
-                  </div>
-                  <h3 className="font-bold text-gray-900 group-hover:text-brand-700 mb-2 text-sm leading-tight">{c.name}</h3>
-                  <div className="grid grid-cols-3 gap-2 text-xs mb-3">
-                    <div className="bg-gray-50 rounded-lg p-2 text-center">
-                      <p className="font-bold text-brand-700">${(c.avgFeesUSD / 1000).toFixed(0)}K</p>
-                      <p className="text-gray-400">Avg Fees</p>
-                    </div>
-                    <div className="bg-gray-50 rounded-lg p-2 text-center">
-                      <p className="font-bold text-green-600">+{c.roi.jobGrowthRate}%</p>
-                      <p className="text-gray-400">Job Growth</p>
-                    </div>
-                    <div className="bg-gray-50 rounded-lg p-2 text-center">
-                      <p className="font-bold text-orange-500">{c.duration.split('â€“')[0]}yr</p>
-                      <p className="text-gray-400">Duration</p>
-                    </div>
-                  </div>
-                  <div className="flex flex-wrap gap-1">
-                    {c.countriesOffered.slice(0, 3).map(country => (
-                      <span key={country} className="text-xs bg-blue-50 text-blue-600 px-2 py-0.5 rounded-full">{country}</span>
-                    ))}
-                    {c.countriesOffered.length > 3 && (
-                      <span className="text-xs text-gray-400">+{c.countriesOffered.length - 3} more</span>
-                    )}
-                  </div>
-                </Link>
-              ))}
-            </div>
+    <div className="min-h-screen bg-gray-50">
+      <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
+        <div className="max-w-7xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
+            {total}+ Course Streams — 13 Countries
           </div>
-        ))}
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">Courses Abroad for Indian Students 2026</h1>
+          <p className="text-blue-200 text-lg max-w-2xl mx-auto mb-6">
+            Every degree stream — MBA to Medicine, Engineering to Environmental Science. Compare fees, IELTS requirements and top universities across 13 countries.
+          </p>
+          <Link href="/book-counselling" className="btn-gold inline-block">Free Counselling →</Link>
+        </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 py-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
+          {[[`${total}+`,"Course Streams"],["500+","Universities"],["13","Countries"],["10,000+","Course Pages"]].map(([v,l])=>(
+            <div key={l} className="bg-white rounded-2xl p-4 text-center border border-gray-100 shadow-sm">
+              <p className="text-2xl font-bold text-brand-700">{v}</p>
+              <p className="text-xs text-gray-500 mt-1">{l}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mb-10">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Most Popular Courses for Indian Students</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+            {featured.map(c => (
+              <Link key={c!.slug} href={`/courses/${c!.slug}`}
+                className="bg-white rounded-2xl p-4 border border-gray-100 hover:border-brand-200 hover:shadow-md transition-all text-center group">
+                <span className="text-2xl">{c!.emoji}</span>
+                <p className="text-xs font-semibold text-gray-900 group-hover:text-brand-700 mt-2 leading-snug">{c!.name}</p>
+                <p className="text-xs text-gray-500 mt-1">${Math.round(c!.avgFeeUSD/1000)}K/yr avg</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div className="space-y-8">
+          {Object.entries(GROUPS).map(([group, slugs]) => {
+            const cats = slugs.map(s => COURSE_CATEGORIES.find(c => c.slug === s)).filter(Boolean) as typeof COURSE_CATEGORIES;
+            if (!cats.length) return null;
+            return (
+              <div key={group}>
+                <h2 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <span className="w-1 h-5 bg-brand-600 rounded-full inline-block" />
+                  {group}
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                  {cats.map(c => (
+                    <Link key={c.slug} href={`/courses/${c.slug}`}
+                      className="bg-white rounded-2xl p-4 border border-gray-100 hover:border-brand-200 hover:shadow-md transition-all group flex items-start gap-3">
+                      <span className="text-xl flex-shrink-0 mt-0.5">{c.emoji}</span>
+                      <div className="min-w-0">
+                        <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700 leading-snug">{c.name}</p>
+                        <div className="flex items-center gap-2 mt-1 flex-wrap">
+                          <span className="text-xs text-brand-700 font-medium">${Math.round(c.avgFeeUSD/1000)}K/yr</span>
+                          <span className="text-xs text-gray-400">IELTS {c.ieltsTypical}+</span>
+                          <span className="text-xs text-gray-400">{c.topCountries.slice(0,2).join(", ")}</span>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="mt-12 bg-brand-700 rounded-2xl p-8 text-white text-center">
+          <h2 className="text-2xl font-bold mb-2">Not Sure Which Course Suits You?</h2>
+          <p className="text-blue-200 mb-5 max-w-xl mx-auto">Our counsellors have guided 500+ Indian students to the right course and university. Free 30-minute session.</p>
+          <div className="flex flex-wrap gap-3 justify-center">
+            <Link href="/book-counselling" className="btn-gold">Book Free Counselling →</Link>
+            <Link href="/course-finder" className="bg-white/10 hover:bg-white/20 text-white px-5 py-3 rounded-xl font-semibold text-sm transition-colors">Use Course Finder →</Link>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-
