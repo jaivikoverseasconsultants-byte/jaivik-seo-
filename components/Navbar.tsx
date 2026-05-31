@@ -8,7 +8,8 @@ const navLinks = [
   { href: '/courses', label: 'Courses' },
   { href: '/course-finder', label: 'Course Finder' },
   { href: '/compare', label: 'Compare Options' },
-  { href: '/ielts-mock-test', label: 'IELTS Mock Test' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/mock-test', label: 'IELTS Mock Test' },
 ];
 
 export default function Navbar() {

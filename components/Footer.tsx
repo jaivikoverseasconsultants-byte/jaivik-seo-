@@ -73,6 +73,8 @@ export default function Footer() {
               <li><Link href="/universities" className="hover:text-white">All Universities</Link></li>
               <li><Link href="/courses" className="hover:text-white">All Courses</Link></li>
               <li><Link href="/course-finder" className="hover:text-white">Course Finder Tool</Link></li>
+              <li><Link href="/blog" className="hover:text-white">Study Abroad Blog</Link></li>
+              <li><Link href="/mock-test" className="hover:text-white">Free IELTS Mock Test</Link></li>
               <li><Link href="/book-counselling" className="hover:text-white">Book Free Counselling</Link></li>
             </ul>
             <div className="mt-4 p-3 bg-gold-500 rounded-lg">
