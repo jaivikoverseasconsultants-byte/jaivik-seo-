@@ -44,4 +44,11 @@ export const COUNTRY_QUERIES: Record<string, string> = {
   Ireland: 'Dublin university campus Ireland',
   Singapore: 'National University Singapore campus',
   'New Zealand': 'New Zealand university campus',
+  France: 'Paris Sorbonne university campus France',
+  Netherlands: 'Amsterdam university campus Netherlands',
+  Sweden: 'Stockholm university campus Sweden',
+  UAE: 'Dubai university campus UAE',
+  Denmark: 'Copenhagen university campus Denmark',
+  Italy: 'Rome Bologna university campus Italy',
+  Spain: 'Madrid Barcelona university campus Spain',
 };

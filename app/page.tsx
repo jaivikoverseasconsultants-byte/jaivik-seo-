@@ -9,9 +9,14 @@ import { fetchUnsplashImage, COUNTRY_QUERIES, type UnsplashImage } from '@/lib/u
 const countryFlags: Record<string, string> = {
   USA: '🇺🇸', UK: '🇬🇧', Canada: '🇨🇦', Australia: '🇦🇺',
   Germany: '🇩🇪', Ireland: '🇮🇪', Singapore: '🇸🇬', 'New Zealand': '🇳🇿',
+  France: '🇫🇷', Netherlands: '🇳🇱', Sweden: '🇸🇪', UAE: '🇦🇪',
+  Denmark: '🇩🇰', Italy: '🇮🇹', Spain: '🇪🇸',
 };
 
-const destinations = ['USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand'];
+const destinations = [
+  'USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand',
+  'France', 'Netherlands', 'Sweden', 'UAE', 'Denmark', 'Italy', 'Spain',
+];
 
 const orgSchema = {
   '@context': 'https://schema.org',
@@ -70,7 +75,7 @@ export default async function HomePage() {
               Jaivik Overseas Consultants has helped 500+ students from across India get admissions in top universities in USA, UK, Canada, Australia, Germany & Singapore.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
-              {['500+ Successful Students', 'Free Counselling', '95% Visa Success', '50+ Partner Universities'].map(tag => (
+              {['500+ Successful Students', 'Free Counselling', '95% Visa Success', '300+ Universities'].map(tag => (
                 <span key={tag} className="bg-white/10 text-white text-xs px-3 py-1.5 rounded-full font-medium">✓ {tag}</span>
               ))}
             </div>
@@ -93,9 +98,9 @@ export default async function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { stat: '500+', label: 'Students Placed' },
-              { stat: '50+', label: 'Partner Universities' },
+              { stat: '300+', label: 'Partner Universities' },
               { stat: '95%', label: 'Visa Success Rate' },
-              { stat: '10+', label: 'Years Experience' },
+              { stat: '13+', label: 'Years Experience' },
             ].map(s => (
               <div key={s.label}>
                 <p className="text-3xl font-bold text-brand-700">{s.stat}</p>
@@ -113,7 +118,7 @@ export default async function HomePage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-2">Study Abroad Destinations</h2>
             <p className="text-gray-500">Explore top study destinations from India</p>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {destinations.map(country => {
               const img = destImgMap[country];
               return (
@@ -125,7 +130,7 @@ export default async function HomePage() {
                       alt={`Study in ${country}`}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 50vw, 25vw"
+                      sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                     />
                   ) : (
                     <div className="absolute inset-0 bg-gradient-to-br from-brand-700 to-brand-900" />
