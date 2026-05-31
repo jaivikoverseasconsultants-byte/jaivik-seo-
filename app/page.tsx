@@ -4,6 +4,7 @@ import { universities } from '@/data/universities';
 import { courses } from '@/data/courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import HeroSearch from '@/components/HeroSearch';
 import { fetchUnsplashImage, COUNTRY_QUERIES, type UnsplashImage } from '@/lib/unsplash';
 
 const countryFlags: Record<string, string> = {
@@ -62,32 +63,72 @@ export default async function HomePage() {
       <JsonLd data={orgSchema} />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-brand-700 via-brand-800 to-brand-900 text-white py-20 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-              ⭐ Trusted Study Abroad Consultancy | Pan India
+      <section className="relative bg-brand-900 text-white overflow-hidden">
+        {/* Background decoration */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute -top-32 -right-32 w-96 h-96 bg-brand-700/30 rounded-full blur-3xl" />
+          <div className="absolute top-1/2 -left-24 w-72 h-72 bg-gold-500/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-1/3 w-64 h-64 bg-blue-600/10 rounded-full blur-3xl" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+
+            {/* Left: Copy + Search */}
+            <div>
+              <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-5">
+                ⭐ India&apos;s Trusted Study Abroad Consultancy · Since 2012
+              </div>
+              <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                Study Abroad from India —{' '}
+                <span className="text-gold-400">Your Dream University</span>{' '}
+                is One Step Away
+              </h1>
+              <p className="text-blue-200 text-lg mb-7 leading-relaxed">
+                Jaivik Overseas Consultants has helped <span className="text-white font-semibold">5,000+ students</span> from across India get admissions in top universities in USA, UK, Canada, Australia, Germany &amp; Singapore.
+              </p>
+
+              {/* Search bar */}
+              <div className="mb-7">
+                <HeroSearch />
+              </div>
+
+              {/* CTAs */}
+              <div className="flex flex-wrap gap-3">
+                <Link href="/find-my-course" className="btn-gold">
+                  🎯 Find My Course →
+                </Link>
+                <Link href="/book-counselling" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold transition-colors border border-white/20">
+                  Book Free Counselling
+                </Link>
+              </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-              Study Abroad from India — <span className="text-gold-400">Your Dream University</span> is One Step Away
-            </h1>
-            <p className="text-blue-200 text-lg mb-6 leading-relaxed">
-              Jaivik Overseas Consultants has helped 5,000+ students from across India get admissions in top universities in USA, UK, Canada, Australia, Germany & Singapore.
-            </p>
-            <div className="flex flex-wrap gap-3 mb-8">
-              {['5,000+ Successful Students', 'Free Counselling', '95% Visa Success', '300+ Universities'].map(tag => (
-                <span key={tag} className="bg-white/10 text-white text-xs px-3 py-1.5 rounded-full font-medium">✓ {tag}</span>
+
+            {/* Right: 5 feature cards */}
+            <div className="grid grid-cols-2 gap-3">
+              {[
+                { icon: '🎓', stat: '5,000+', label: 'Students Placed', color: 'from-blue-600/30 to-blue-700/20' },
+                { icon: '🏛️', stat: '300+', label: 'Partner Universities', color: 'from-purple-600/30 to-purple-700/20' },
+                { icon: '✅', stat: '95%', label: 'Visa Success Rate', color: 'from-green-600/30 to-green-700/20' },
+                { icon: '🌍', stat: '15+', label: 'Countries Covered', color: 'from-orange-500/30 to-orange-600/20' },
+              ].map(card => (
+                <div key={card.label} className={`bg-gradient-to-br ${card.color} border border-white/10 rounded-2xl p-5 backdrop-blur-sm`}>
+                  <div className="text-3xl mb-2">{card.icon}</div>
+                  <p className="text-2xl font-bold text-white">{card.stat}</p>
+                  <p className="text-blue-200 text-sm mt-0.5">{card.label}</p>
+                </div>
               ))}
+              {/* Wide card: Free Counselling */}
+              <div className="col-span-2 bg-gradient-to-r from-gold-500/25 to-gold-600/15 border border-gold-500/30 rounded-2xl p-5 flex items-center justify-between">
+                <div>
+                  <p className="text-white font-bold text-lg">🆓 Free Counselling</p>
+                  <p className="text-blue-200 text-sm">30-min 1-on-1 expert session — no cost, no obligation</p>
+                </div>
+                <Link href="/book-counselling" className="bg-gold-500 hover:bg-gold-600 text-white font-semibold px-4 py-2 rounded-xl text-sm transition-colors whitespace-nowrap ml-4">
+                  Book Now →
+                </Link>
+              </div>
             </div>
-            <div className="flex flex-wrap gap-3">
-              <Link href="/course-finder" className="btn-gold">Find Your Course →</Link>
-              <Link href="/universities" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold transition-colors">
-                Explore Universities
-              </Link>
-            </div>
-          </div>
-          <div>
-            <LeadForm source="homepage-hero" compact />
           </div>
         </div>
       </section>
