@@ -7,7 +7,7 @@ import { universities, getUniversityBySlug } from '@/data/universities';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
-import { fetchUnsplashImage } from '@/lib/unsplash';
+import { fetchUnsplashImage, fetchUnsplashImages } from '@/lib/unsplash';
 
 const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
 const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
@@ -35,7 +35,10 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   if (!found) notFound();
   const u = found;
 
-  const campusImage = await fetchUnsplashImage(`${u.shortName} university campus`);
+  const [campusImage, galleryImages] = await Promise.all([
+    fetchUnsplashImage(`${u.shortName} university campus`),
+    fetchUnsplashImages(`${u.city} university campus student life`, 5),
+  ]);
 
   const salaryData = [
     { country: u.country, avgSalaryUSD: u.avgSalaryUSD },
@@ -302,6 +305,59 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 </div>
               </div>
             </div>
+
+            {/* Campus Life Gallery */}
+            {galleryImages.length > 0 && (
+              <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                <h2 className="section-title">Campus Life at {u.shortName}</h2>
+                <p className="text-gray-500 text-sm mb-4">A glimpse of student life at {u.name}</p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                  {galleryImages.map((img, i) => (
+                    <div key={i} className={`relative overflow-hidden rounded-xl ${i === 0 ? 'col-span-2 row-span-2 h-52' : 'h-28'}`}>
+                      <Image
+                        src={img.thumb}
+                        alt={img.alt || `${u.name} campus`}
+                        fill
+                        className="object-cover hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 640px) 50vw, 33vw"
+                      />
+                      {i === 0 && (
+                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-3">
+                          <p className="text-white text-xs font-medium">{u.name}</p>
+                          <p className="text-white/70 text-xs">{u.city}, {u.country}</p>
+                        </div>
+                      )}
+                      <a
+                        href={img.credit.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="absolute top-1 right-1 bg-black/40 text-white/70 text-xs px-1.5 py-0.5 rounded-full hover:text-white transition-colors"
+                      >
+                        📸
+                      </a>
+                    </div>
+                  ))}
+                </div>
+                {/* Google Maps Embed */}
+                <div className="mt-4">
+                  <p className="text-sm font-semibold text-gray-800 mb-2">📍 Campus Location</p>
+                  <div className="rounded-xl overflow-hidden border border-gray-100 h-48">
+                    <iframe
+                      title={`${u.name} campus map`}
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      src={`https://maps.google.com/maps?q=${encodeURIComponent(u.name + ' ' + u.city + ' ' + u.country)}&output=embed&z=14`}
+                    />
+                  </div>
+                  <p className="text-xs text-gray-400 mt-1">
+                    {u.name} · {u.city}, {u.state}, {u.country}
+                  </p>
+                </div>
+              </div>
+            )}
 
             {/* Popular Courses */}
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">

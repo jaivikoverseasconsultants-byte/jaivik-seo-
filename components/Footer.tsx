@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3">Top Destinations</h3>
             <ul className="space-y-2 text-sm">
-              {['USA', 'UK', 'Canada', 'Australia', 'Germany', 'Singapore', 'Ireland', 'New Zealand'].map(c => (
+              {['USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'France', 'Netherlands', 'Sweden', 'UAE', 'Denmark', 'Italy', 'Spain'].map(c => (
                 <li key={c}>
                   <Link href={`/universities/country/${c.toLowerCase().replace(' ', '-')}`}
                     className="hover:text-white transition-colors">
@@ -72,6 +72,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li><Link href="/universities" className="hover:text-white">All Universities</Link></li>
               <li><Link href="/courses" className="hover:text-white">All Courses</Link></li>
+              <li><Link href="/find-my-course" className="hover:text-white">Find My Course</Link></li>
+              <li><Link href="/scholarships" className="hover:text-white">Scholarships</Link></li>
               <li><Link href="/course-finder" className="hover:text-white">Course Finder Tool</Link></li>
               <li><Link href="/blog" className="hover:text-white">Study Abroad Blog</Link></li>
               <li><Link href="/mock-test" className="hover:text-white">Free IELTS Mock Test</Link></li>

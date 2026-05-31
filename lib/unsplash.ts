@@ -34,6 +34,38 @@ export async function fetchUnsplashImage(query: string): Promise<UnsplashImage |
   }
 }
 
+export async function fetchUnsplashImages(query: string, count: number = 6): Promise<UnsplashImage[]> {
+  const key = process.env.UNSPLASH_ACCESS_KEY;
+  if (!key) return [];
+  try {
+    const res = await fetch(
+      `https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=${count}&orientation=landscape&content_filter=high`,
+      {
+        headers: { Authorization: `Client-ID ${key}` },
+        next: { revalidate: 2592000 }, // 30 days
+      }
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    return (data.results || []).map((photo: Record<string, unknown>) => {
+      const user = photo.user as Record<string, unknown>;
+      const links = user?.links as Record<string, string>;
+      const urls = photo.urls as Record<string, string>;
+      return {
+        url: urls.regular,
+        thumb: urls.small,
+        alt: (photo.alt_description as string) || query,
+        credit: {
+          name: user?.name as string,
+          link: `${links?.html}?utm_source=jaivik_overseas_consultants&utm_medium=referral`,
+        },
+      };
+    });
+  } catch {
+    return [];
+  }
+}
+
 // Country-specific search queries for relevant landscape/campus shots
 export const COUNTRY_QUERIES: Record<string, string> = {
   USA: 'American university campus autumn',

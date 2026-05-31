@@ -72,10 +72,10 @@ export default async function HomePage() {
               Study Abroad from India — <span className="text-gold-400">Your Dream University</span> is One Step Away
             </h1>
             <p className="text-blue-200 text-lg mb-6 leading-relaxed">
-              Jaivik Overseas Consultants has helped 500+ students from across India get admissions in top universities in USA, UK, Canada, Australia, Germany & Singapore.
+              Jaivik Overseas Consultants has helped 5,000+ students from across India get admissions in top universities in USA, UK, Canada, Australia, Germany & Singapore.
             </p>
             <div className="flex flex-wrap gap-3 mb-8">
-              {['500+ Successful Students', 'Free Counselling', '95% Visa Success', '300+ Universities'].map(tag => (
+              {['5,000+ Successful Students', 'Free Counselling', '95% Visa Success', '300+ Universities'].map(tag => (
                 <span key={tag} className="bg-white/10 text-white text-xs px-3 py-1.5 rounded-full font-medium">✓ {tag}</span>
               ))}
             </div>
@@ -97,7 +97,7 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { stat: '500+', label: 'Students Placed' },
+              { stat: '5,000+', label: 'Students Placed' },
               { stat: '300+', label: 'Partner Universities' },
               { stat: '95%', label: 'Visa Success Rate' },
               { stat: '13+', label: 'Years Experience' },
