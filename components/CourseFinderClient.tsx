@@ -9,7 +9,10 @@ interface Props {
   universities: University[];
 }
 
-const COUNTRIES = ['USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand'];
+const COUNTRIES = [
+  'USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand',
+  'France', 'Netherlands', 'Sweden', 'UAE', 'Denmark', 'Italy', 'Spain',
+];
 
 const FEE_RANGES = [
   { label: 'Any Budget', min: 0, max: Infinity },

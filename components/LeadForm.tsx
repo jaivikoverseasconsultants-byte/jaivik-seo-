@@ -11,7 +11,10 @@ interface LeadFormProps {
   compact?: boolean;
 }
 
-const countries = ['USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'France', 'Netherlands'];
+const countries = [
+  'USA', 'UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand',
+  'France', 'Netherlands', 'Sweden', 'UAE', 'Denmark', 'Italy', 'Spain',
+];
 const budgets = ['Under ₹20 Lakhs', '₹20–40 Lakhs', '₹40–60 Lakhs', '₹60–80 Lakhs', 'Above ₹80 Lakhs'];
 
 export default function LeadForm({ source = 'website', defaultCourse = '', defaultCountry = '', compact = false }: LeadFormProps) {
@@ -51,6 +54,8 @@ export default function LeadForm({ source = 'website', defaultCourse = '', defau
       });
       if (!res.ok) throw new Error('Failed');
       setStatus('success');
+      // Redirect to thank-you page with WhatsApp CTA
+      window.location.href = '/thank-you';
     } catch {
       setStatus('error');
     }
