@@ -105,6 +105,31 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
       ],
     };
 
+    const courseSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Course',
+      name: `${cat.name} Abroad for Indian Students`,
+      description: cat.description,
+      url: `https://study.jaivikoverseasconsultants.com/courses/${slug}`,
+      provider: {
+        '@type': 'Organization',
+        name: 'Jaivik Overseas Consultants',
+        url: 'https://study.jaivikoverseasconsultants.com',
+      },
+      educationalLevel: cat.level === 'UG' ? 'Undergraduate' : cat.level === 'PG' ? 'Postgraduate' : 'Undergraduate and Postgraduate',
+      offers: {
+        '@type': 'Offer',
+        price: cat.avgFeeUSD,
+        priceCurrency: 'USD',
+        description: `Average annual tuition for ${cat.name} programmes at partner universities`,
+      },
+      hasCourseInstance: cat.topCountries.map(country => ({
+        '@type': 'CourseInstance',
+        courseMode: 'full-time',
+        location: { '@type': 'Place', address: { '@type': 'PostalAddress', addressCountry: country } },
+      })),
+    };
+
     const faq = {
       '@context': 'https://schema.org', '@type': 'FAQPage',
       mainEntity: [
@@ -139,6 +164,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
       <>
         <JsonLd data={breadcrumb} />
         <JsonLd data={faq} />
+        <JsonLd data={courseSchema} />
 
         {/* Hero */}
         <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
@@ -180,6 +206,72 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
 
         <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-8">
+
+            {/* ── SEO: Rich Overview (300+ words unique prose per course stream) ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">
+                {cat.name} Abroad — Complete Guide for Indian Students (2026)
+              </h2>
+              <div className="prose prose-sm max-w-none text-gray-700 space-y-4">
+                <p className="leading-relaxed">
+                  {cat.name} is one of the most sought-after fields of study for Indian students planning to study abroad in 2026.
+                  With {matchingUnis.length}+ partner universities across {countryStats.length} countries — including
+                  {' '}{countryStats.slice(0, 3).map(c => c.country).join(', ')} — the options have never been more accessible.
+                  Average annual tuition ranges from $8,000 in Germany to $65,000 at elite US institutions,
+                  with an overall average of ${Math.round(cat.avgFeeUSD / 1000)}K/year across all destinations.
+                </p>
+                <p className="leading-relaxed">
+                  A {cat.level === 'UG' ? 'bachelor\'s' : cat.level === 'PG' ? 'master\'s' : 'degree'} in {cat.name} from a recognised foreign university
+                  opens doors to an average graduate salary of ${Math.round(cat.avgSalaryUSD / 1000)}K–${Math.round(cat.avgSalaryUSD * 1.4 / 1000)}K per year internationally.
+                  In India, professionals with an overseas {cat.name} qualification earn premium packages from
+                  MNCs, tech firms, research institutions, and consulting companies.
+                  Key career outcomes include: {cat.careerOptions.slice(0, 5).join(', ')}.
+                </p>
+                <p className="leading-relaxed">
+                  To be eligible, most universities require a minimum IELTS score of {cat.ieltsTypical}
+                  (some accept {cat.ieltsTypical - 0.5}+ for conditional admission) and a strong academic
+                  background. {cat.level === 'PG' && 'For postgraduate programmes, a relevant undergraduate degree is typically required.'}
+                  {' '}Application deadlines for {countryStats[0]?.country || 'top destinations'} typically fall between
+                  October and February for September intake. Working with a trusted study abroad consultant
+                  like Jaivik Overseas significantly improves your chances of securing admission and scholarship funding.
+                </p>
+                <p className="leading-relaxed">
+                  {cat.topCountries[0]} remains the most popular destination for {cat.name} among Indian students,
+                  offering world-class faculty, cutting-edge research facilities, and a strong alumni network.
+                  {cat.topCountries[1] && ` ${cat.topCountries[1]} is the second most popular choice, offering excellent value for money with competitive tuition fees and strong post-study work pathways.`}
+                  {cat.topCountries[2] && ` ${cat.topCountries[2]} is increasingly popular due to its favourable immigration policies and growing job market for {cat.name} graduates.`}
+                </p>
+                <p className="leading-relaxed">
+                  Students who complete {cat.name} abroad benefit from exposure to international research,
+                  diverse classroom discussions, and global professional networks — advantages that are
+                  difficult to replicate in a domestic setting. With Jaivik Overseas Consultants, over 5,000
+                  Indian students have successfully enrolled in top {cat.name} programmes worldwide, from
+                  Tier-1 universities to affordable institutions with strong employment outcomes.
+                </p>
+              </div>
+            </div>
+
+            {/* ── What You Will Learn ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="text-xl font-bold text-gray-900 mb-2">What You Will Study in {cat.name}</h2>
+              <p className="text-gray-500 text-sm mb-4">
+                Core subjects and specialisations typically covered in {cat.name} programmes abroad
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {cat.careerOptions.concat(
+                  cat.keywords.slice(0, Math.max(0, 6 - cat.careerOptions.length)).map(k =>
+                    k.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+                  )
+                ).slice(0, 6).map((subject, i) => (
+                  <div key={subject} className="flex items-center gap-3 p-3 bg-brand-50 rounded-xl">
+                    <span className="w-6 h-6 bg-brand-600 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">
+                      {i + 1}
+                    </span>
+                    <span className="text-sm font-medium text-gray-800">{subject}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
 
             {/* Country Comparison */}
             {countryStats.length > 0 && (
@@ -262,16 +354,42 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
 
             {/* Career Outcomes */}
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Career Outcomes After {cat.name}</h2>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
-                {cat.careerOptions.map(c => (
-                  <div key={c} className="flex items-center gap-2 p-3 bg-brand-50 rounded-xl">
-                    <span className="text-brand-600 font-bold text-lg">✓</span>
-                    <span className="text-sm text-gray-800 font-medium">{c}</span>
-                  </div>
-                ))}
+              <h2 className="text-xl font-bold text-gray-900 mb-2">Career Outcomes After {cat.name}</h2>
+              <p className="text-gray-500 text-sm mb-4">
+                Typical roles and salaries for {cat.name} graduates from overseas universities
+              </p>
+
+              {/* Jobs with salary estimates */}
+              <div className="space-y-3 mb-5">
+                {cat.careerOptions.slice(0, 4).map((role, i) => {
+                  // Generate salary estimates based on position in career ladder
+                  const baseUSD = cat.avgSalaryUSD;
+                  const salaries = [
+                    Math.round(baseUSD * 1.15 / 1000),
+                    Math.round(baseUSD / 1000),
+                    Math.round(baseUSD * 0.92 / 1000),
+                    Math.round(baseUSD * 0.85 / 1000),
+                  ];
+                  const sal = salaries[i] || Math.round(baseUSD / 1000);
+                  return (
+                    <div key={role} className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
+                      <div className="flex items-center gap-3">
+                        <span className="w-8 h-8 bg-green-100 text-green-700 rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                        <div>
+                          <p className="font-semibold text-gray-900 text-sm">{role}</p>
+                          <p className="text-xs text-gray-500">International market · Entry–Mid level</p>
+                        </div>
+                      </div>
+                      <div className="text-right">
+                        <p className="font-bold text-green-600 text-sm">${sal}K/yr</p>
+                        <p className="text-xs text-gray-400">≈ ₹{(sal * 84 / 100).toFixed(0)}L/yr</p>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
-              <div className="grid grid-cols-2 gap-4">
+
+              <div className="grid grid-cols-3 gap-3">
                 <div className="p-4 bg-green-50 rounded-xl text-center">
                   <p className="text-2xl font-bold text-green-700">${Math.round(cat.avgSalaryUSD / 1000)}K</p>
                   <p className="text-xs text-green-600 mt-1">Avg Starting Salary (USD)</p>
@@ -279,6 +397,10 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                 <div className="p-4 bg-blue-50 rounded-xl text-center">
                   <p className="text-2xl font-bold text-blue-700">₹{(cat.avgSalaryUSD * 84 / 100000).toFixed(0)}L</p>
                   <p className="text-xs text-blue-600 mt-1">Approx. in Indian Rupees</p>
+                </div>
+                <div className="p-4 bg-purple-50 rounded-xl text-center">
+                  <p className="text-2xl font-bold text-purple-700">{cat.careerOptions.length}+</p>
+                  <p className="text-xs text-purple-600 mt-1">Career Paths</p>
                 </div>
               </div>
             </div>

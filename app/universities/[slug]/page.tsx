@@ -8,6 +8,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
 import { fetchUnsplashImage, fetchUnsplashImages } from '@/lib/unsplash';
+import { generateUniversityAbout, generateWhyIndianStudents, generateApplicationProcess, generateNotableAlumni } from '@/lib/content-gen';
 
 const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
 const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
@@ -39,6 +40,12 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
     fetchUnsplashImage(`${u.shortName} university campus`),
     fetchUnsplashImages(`${u.city} university campus student life`, 5),
   ]);
+
+  // Pre-generate rich prose content for SEO (300+ words per page)
+  const aboutText = generateUniversityAbout(u);
+  const whyIndianText = generateWhyIndianStudents(u);
+  const appProcess = generateApplicationProcess(u);
+  const alumniText = generateNotableAlumni(u);
 
   const salaryData = [
     { country: u.country, avgSalaryUSD: u.avgSalaryUSD },
@@ -199,6 +206,39 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left: Main content */}
           <div className="lg:col-span-2 space-y-8">
+
+            {/* ── ABOUT (SEO: 300+ word prose, unique per university) ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">About {u.name}</h2>
+              <div className="prose prose-sm max-w-none text-gray-700 mt-4 space-y-4">
+                {aboutText.split('\n\n').map((para, i) => (
+                  <p key={i} className="leading-relaxed">{para}</p>
+                ))}
+              </div>
+            </div>
+
+            {/* ── WHY INDIAN STUDENTS CHOOSE ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Why Indian Students Choose {u.shortName}</h2>
+              <div className="mt-4 space-y-4">
+                {whyIndianText.split('\n\n').map((block, i) => {
+                  if (block.startsWith('**') && block.includes(':**')) {
+                    const [titlePart, ...rest] = block.split(':**');
+                    const title = titlePart.replace(/\*\*/g, '');
+                    return (
+                      <div key={i} className="flex items-start gap-3 p-4 bg-brand-50 rounded-xl">
+                        <span className="text-brand-600 font-bold text-lg flex-shrink-0">✓</span>
+                        <div>
+                          <p className="font-bold text-brand-800 text-sm">{title}</p>
+                          <p className="text-gray-600 text-sm mt-1 leading-relaxed">{rest.join(':**').replace(/\*\*/g, '')}</p>
+                        </div>
+                      </div>
+                    );
+                  }
+                  return <p key={i} className="text-gray-700 text-sm leading-relaxed">{block}</p>;
+                })}
+              </div>
+            </div>
 
             {/* Charts */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -399,6 +439,46 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 {u.topEmployers.map(emp => (
                   <span key={emp} className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm font-medium">{emp}</span>
                 ))}
+              </div>
+            </div>
+
+            {/* ── NOTABLE ALUMNI ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Alumni Network & Career Impact</h2>
+              <p className="text-gray-700 text-sm leading-relaxed mt-3">{alumniText}</p>
+              <div className="mt-4 grid grid-cols-3 gap-3">
+                {[
+                  { label: 'Graduate Salary', value: `$${(u.avgSalaryUSD / 1000).toFixed(0)}K/yr` },
+                  { label: 'Employment Rate', value: `${u.employmentRate}%` },
+                  { label: 'Top Employer', value: u.topEmployers[0] },
+                ].map(stat => (
+                  <div key={stat.label} className="bg-brand-50 rounded-xl p-3 text-center">
+                    <p className="font-bold text-brand-700 text-sm">{stat.value}</p>
+                    <p className="text-xs text-gray-500 mt-0.5">{stat.label}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* ── APPLICATION PROCESS ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">How to Apply to {u.shortName} from India</h2>
+              <p className="text-gray-500 text-sm mb-5">Step-by-step application guide for Indian students</p>
+              <div className="space-y-4">
+                {appProcess.steps.map(step => (
+                  <div key={step.step} className="flex items-start gap-4">
+                    <div className="w-8 h-8 rounded-full bg-brand-600 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">
+                      {step.step}
+                    </div>
+                    <div className="flex-1 pb-4 border-b border-gray-50 last:border-0">
+                      <p className="font-semibold text-gray-900 text-sm">{step.title}</p>
+                      <p className="text-gray-600 text-sm mt-0.5 leading-relaxed">{step.detail}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-4 bg-gold-50 border border-gold-200 rounded-xl p-4">
+                <p className="text-gold-800 text-sm font-medium">💡 {appProcess.note}</p>
               </div>
             </div>
 
