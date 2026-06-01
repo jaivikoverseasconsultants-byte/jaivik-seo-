@@ -332,9 +332,9 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                             <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded-full">{u.intakeMonths?.join(' & ')} intake</span>
                           </div>
                           <div className="flex gap-3 mt-2">
-                            <span className="text-xs text-brand-700 font-medium">View Profile →</span>
                             <Link href={`/universities/${u.slug}/courses`}
-                              className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors">
+                              className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors"
+                              onClick={(e) => e.stopPropagation()}>
                               Browse Courses →
                             </Link>
                           </div>

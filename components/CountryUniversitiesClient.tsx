@@ -209,9 +209,9 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
                     <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded-full">IELTS {u.requirements.ieltsMin}+</span>
                   </div>
                   <div className="flex gap-3 mt-3">
-                    <span className="text-xs text-brand-700 font-medium">View Overview →</span>
                     <Link href={`/universities/${u.slug}/courses`}
-                      className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800">
+                      className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800"
+                      onClick={(e) => e.stopPropagation()}>
                       Browse Courses →
                     </Link>
                   </div>
