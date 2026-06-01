@@ -42,47 +42,18 @@ const COURSE_STREAMS = [
   { label: 'Media & Design',    icon: '🎨', href: '/courses?stream=media' },
 ];
 
-const EXAMS = [
-  {
-    name: 'IELTS',
-    icon: '🇬🇧',
-    desc: 'Most accepted exam for UK, Canada, Australia',
-    band: 'Bands 6.0–8.0',
-    href: '/mock-test',
-    highlight: true,
-  },
-  {
-    name: 'PTE Academic',
-    icon: '🖥️',
-    desc: 'Computer-based; results in 48 hrs',
-    band: 'Score 50–90',
-    href: '/mock-test',
-    highlight: false,
-  },
-  {
-    name: 'TOEFL iBT',
-    icon: '🇺🇸',
-    desc: 'Preferred by US & European universities',
-    band: 'Score 80–120',
-    href: '/mock-test',
-    highlight: false,
-  },
-  {
-    name: 'GRE',
-    icon: '📐',
-    desc: 'Required for most US/Canada Master\'s',
-    band: 'Score 300–340',
-    href: '/course-finder',
-    highlight: false,
-  },
-  {
-    name: 'GMAT',
-    icon: '📈',
-    desc: 'MBA & business school admissions',
-    band: 'Score 600–750',
-    href: '/course-finder',
-    highlight: false,
-  },
+const IELTS_LEVELS = [
+  { key: 'beginner',     label: 'Beginner',     band: 'Band 4.0–5.5', icon: '🌱', color: 'text-green-400' },
+  { key: 'intermediate', label: 'Intermediate', band: 'Band 5.5–7.0', icon: '📈', color: 'text-blue-400'  },
+  { key: 'advanced',     label: 'Advanced',     band: 'Band 7.0–9.0', icon: '🏆', color: 'text-purple-400' },
+];
+
+const IELTS_SECTIONS = [
+  { key: 'full',     label: 'Full Test',  icon: '📋', time: '2h 45min' },
+  { key: 'reading',  label: 'Reading',    icon: '📖', time: '60 min'   },
+  { key: 'listening',label: 'Listening',  icon: '🎧', time: '30 min'   },
+  { key: 'writing',  label: 'Writing',    icon: '✍️',  time: '60 min'   },
+  { key: 'speaking', label: 'Speaking',   icon: '🎤', time: '14 min'   },
 ];
 
 const SIMPLE_LINKS = [
@@ -268,37 +239,53 @@ export default function Navbar() {
                 <Chevron open={activeMenu === 'exams'} />
               </button>
 
-              <MegaPanel id="exams">
+              <MegaPanel id="exams" wide>
                 <div className="p-5">
-                  <p className="text-[10px] font-bold text-blue-400/70 uppercase tracking-widest mb-4">Study Abroad Exams</p>
+                  {/* IELTS header */}
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-2">
+                      <span className="text-xl">🇬🇧</span>
+                      <div>
+                        <p className="text-sm font-black text-white">IELTS Mock Tests</p>
+                        <p className="text-[10px] text-blue-400/60">Free · Auto-scored · Band prediction</p>
+                      </div>
+                    </div>
+                    <Link href="/mock-test" onClick={closeAll}
+                      className="text-xs text-gold-400 hover:text-gold-300 font-semibold transition-colors">
+                      All Tests →
+                    </Link>
+                  </div>
 
-                  {/* Exam cards */}
-                  <div className="space-y-1.5 mb-4">
-                    {EXAMS.map(ex => (
-                      <Link key={ex.name} href={ex.href} onClick={closeAll}
-                        className={[
-                          'flex items-center gap-3.5 px-3.5 py-3 rounded-xl transition-all group',
-                          ex.highlight ? 'bg-gold-500/15 hover:bg-gold-500/25 border border-gold-500/20' : 'hover:bg-white/8',
-                        ].join(' ')}>
-                        <span className="text-xl w-7 text-center">{ex.icon}</span>
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-2">
-                            <p className="text-sm font-bold text-white group-hover:text-white leading-tight">{ex.name}</p>
-                            {ex.highlight && (
-                              <span className="text-[10px] bg-gold-500 text-white px-1.5 py-0.5 rounded-full font-semibold">Most Popular</span>
-                            )}
-                          </div>
-                          <p className="text-[11px] text-blue-300/70 mt-0.5 truncate">{ex.desc}</p>
-                        </div>
-                        <span className="text-[11px] text-blue-400/60 whitespace-nowrap shrink-0">{ex.band}</span>
+                  {/* Level selector */}
+                  <p className="text-[10px] font-bold text-blue-400/70 uppercase tracking-widest mb-2">Choose Level</p>
+                  <div className="grid grid-cols-3 gap-2 mb-4">
+                    {IELTS_LEVELS.map(lvl => (
+                      <Link key={lvl.key} href={`/mock-test/${lvl.key}/full`} onClick={closeAll}
+                        className="flex flex-col items-center gap-1 p-3 rounded-xl hover:bg-white/8 transition-all group border border-white/5 hover:border-white/15">
+                        <span className="text-2xl">{lvl.icon}</span>
+                        <p className={`text-sm font-bold ${lvl.color}`}>{lvl.label}</p>
+                        <p className="text-[10px] text-blue-400/50">{lvl.band}</p>
+                      </Link>
+                    ))}
+                  </div>
+
+                  {/* Section selector */}
+                  <p className="text-[10px] font-bold text-blue-400/70 uppercase tracking-widest mb-2">Choose Section</p>
+                  <div className="grid grid-cols-5 gap-1.5 mb-4">
+                    {IELTS_SECTIONS.map(sec => (
+                      <Link key={sec.key} href={`/mock-test/intermediate/${sec.key}`} onClick={closeAll}
+                        className="flex flex-col items-center gap-1 p-2.5 rounded-xl hover:bg-white/8 transition-all group border border-white/5 hover:border-white/15">
+                        <span className="text-xl">{sec.icon}</span>
+                        <p className="text-[11px] font-semibold text-white/80 group-hover:text-white">{sec.label}</p>
+                        <p className="text-[10px] text-blue-400/50">{sec.time}</p>
                       </Link>
                     ))}
                   </div>
 
                   {/* Gold CTA */}
                   <Link href="/mock-test" onClick={closeAll}
-                    className="flex items-center justify-center gap-2 w-full py-3 bg-gold-500 hover:bg-gold-600 text-white font-semibold text-sm rounded-xl transition-colors shadow-lg shadow-gold-500/20">
-                    ✏️ Take Free IELTS Mock Test →
+                    className="flex items-center justify-center gap-2 w-full py-2.5 bg-gold-500 hover:bg-gold-600 text-white font-semibold text-sm rounded-xl transition-colors shadow-lg shadow-gold-500/20">
+                    ✏️ Start Free IELTS Mock Test →
                   </Link>
                 </div>
               </MegaPanel>
@@ -392,23 +379,31 @@ export default function Navbar() {
 
             {/* Exams */}
             <MobileAccordion
-              label="Exams"
+              label="IELTS Mock Tests"
               isOpen={mobileExpanded === 'exams'}
               onToggle={() => setMobileExpanded(v => v === 'exams' ? '' : 'exams')}
             >
-              <div className="space-y-1 mb-3">
-                {EXAMS.map(ex => (
-                  <Link key={ex.name} href={ex.href} onClick={closeAll}
-                    className="flex items-center gap-2 text-xs text-blue-200/80 hover:text-white py-1">
-                    <span>{ex.icon}</span>
-                    <span className="font-semibold">{ex.name}</span>
-                    <span className="text-blue-400/50 text-[10px]">— {ex.desc.split(';')[0]}</span>
+              <p className="text-[10px] text-blue-400/60 uppercase font-bold tracking-wider mb-1.5">By Level</p>
+              <div className="grid grid-cols-3 gap-x-3 gap-y-1 mb-3">
+                {IELTS_LEVELS.map(lvl => (
+                  <Link key={lvl.key} href={`/mock-test/${lvl.key}/full`} onClick={closeAll}
+                    className="flex items-center gap-1.5 text-xs text-blue-200/80 hover:text-white py-1.5">
+                    <span>{lvl.icon}</span><span>{lvl.label}</span>
+                  </Link>
+                ))}
+              </div>
+              <p className="text-[10px] text-blue-400/60 uppercase font-bold tracking-wider mb-1.5">By Section</p>
+              <div className="grid grid-cols-3 gap-x-3 gap-y-1 mb-3">
+                {IELTS_SECTIONS.map(sec => (
+                  <Link key={sec.key} href={`/mock-test/intermediate/${sec.key}`} onClick={closeAll}
+                    className="flex items-center gap-1.5 text-xs text-blue-200/80 hover:text-white py-1.5">
+                    <span>{sec.icon}</span><span>{sec.label}</span>
                   </Link>
                 ))}
               </div>
               <Link href="/mock-test" onClick={closeAll}
                 className="block text-center py-2 bg-gold-500 text-white text-xs font-semibold rounded-lg">
-                ✏️ Take Free IELTS Mock Test
+                ✏️ All IELTS Mock Tests
               </Link>
             </MobileAccordion>
 
