@@ -37,6 +37,27 @@ const WORK_RIGHTS: Record<string, string> = {
   Spain: 'Job-seeker 12 months',
 };
 
+const WHY_BEST: Record<string, string> = {
+  USA: 'Highest graduate salaries, STEM OPT 3 yrs, Silicon Valley & Wall Street access',
+  UK: '1–2 year degrees save cost, Russell Group prestige, Graduate Route 2 yrs',
+  Canada: 'PGWP up to 3 yrs, Express Entry PR pathway, lower cost than USA',
+  Australia: 'Graduate visa 2–4 yrs, skills shortage lists, multicultural campuses',
+  Germany: 'Zero tuition at public unis, strong engineering/research industry',
+  France: 'Grandes Écoles, affordable fees, APS 12-month stay-back',
+  Netherlands: '2,000+ English programs, EU access, Orientation Year permit',
+  Singapore: 'Asia top-20 rankings (NUS/NTU), Employment Pass, global finance hub',
+  Ireland: 'Only English-speaking EU country, 2-yr graduate stay-back, tech hub',
+  'New Zealand': '3-yr post-study work visa, 20 hrs/wk during study, clean environment',
+  Sweden: 'Research excellence, 6-month job-seeker visa, Scandinavian quality of life',
+  UAE: 'Tax-free salaries, Western university campuses, Gulf career access',
+  Denmark: 'Top research, 6-month job-seeker permit, Scandinavian lifestyle',
+  Italy: 'Low tuition, world-class design/architecture, Bologna University heritage',
+  Spain: 'Affordable living, EU access, growing startup ecosystem',
+};
+
+const BUSINESS_SLUGS = new Set(['business-management','mba','ms-finance','finance-accounting','accounting-finance','marketing','public-policy','business-analytics','human-resources-management','economics-econometrics','logistics-supply-chain','real-estate']);
+const STEM_SLUGS = new Set(['computer-science-information-systems','data-science','engineering-mechanical-aeronautical','engineering-electrical-electronic','cybersecurity','ms-computer-science','information-technology','engineering-aerospace','engineering-aeronautical','engineering-biomedical','engineering-chemical','engineering-civil-structural','engineering-materials','engineering-mechatronics','engineering-petroleum','engineering-automotive','engineering-manufacturing','engineering-mineral-mining','engineering-product-design','engineering-general','engineering-management','biological-sciences','chemistry','genetics','physics-astronomy','statistics-operational-research','mathematics','astronomy','geophysics','geology','earth-environmental-sciences','earth-marine-sciences','immunology','toxicology']);
+
 // ── Metadata ──────────────────────────────────────────────────────────────────
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
@@ -257,7 +278,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
               <p className="text-gray-500 text-sm mb-4">
                 Core subjects and specialisations typically covered in {cat.name} programmes abroad
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
                 {cat.careerOptions.concat(
                   cat.keywords.slice(0, Math.max(0, 6 - cat.careerOptions.length)).map(k =>
                     k.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
@@ -271,25 +292,46 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                   </div>
                 ))}
               </div>
+              {/* Specialization chips */}
+              {(() => {
+                const SHORT = new Set(['ms','msc','bsc','ba','cs','it','llb','jd','md','me','be','bt','eee','ece','bme','mph','mba','llm']);
+                const chips = cat.keywords
+                  .filter(k => k.length > 3 && !SHORT.has(k.toLowerCase()))
+                  .slice(0, 10)
+                  .map(k => k.split(' ').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1)).join(' '));
+                if (chips.length < 2) return null;
+                return (
+                  <div>
+                    <p className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-2">Popular Specialisations</p>
+                    <div className="flex flex-wrap gap-2">
+                      {chips.map(chip => (
+                        <span key={chip} className="text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full font-medium">{chip}</span>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
             </div>
 
-            {/* Country Comparison */}
+            {/* ── Which Country is Best ── */}
             {countryStats.length > 0 && (
               <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">Best Countries for {cat.name}</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-1">Which Country is Best for {cat.name}?</h2>
+                <p className="text-gray-500 text-sm mb-4">Ranked by number of partner universities. Click to explore universities in each country.</p>
                 <div className="space-y-3">
-                  {countryStats.map(cs => (
+                  {countryStats.map((cs, idx) => (
                     <Link key={cs.country}
                       href={`/universities/country/${cs.country.toLowerCase().replace(/ /g, '-')}`}
-                      className="flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-brand-50 hover:text-brand-700 transition-colors group">
+                      className="flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-brand-50 transition-colors group">
                       <div className="flex items-center gap-3">
+                        <span className="w-6 h-6 bg-brand-100 text-brand-700 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">{idx + 1}</span>
                         <span className="text-xl">{FLAGS[cs.country] || '🌍'}</span>
                         <div>
                           <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm">{cs.country}</p>
-                          <p className="text-xs text-gray-500">{WORK_RIGHTS[cs.country] || 'Post-study work available'}</p>
+                          <p className="text-xs text-gray-500 max-w-[220px] leading-snug">{WHY_BEST[cs.country] || WORK_RIGHTS[cs.country] || 'Post-study work available'}</p>
                         </div>
                       </div>
-                      <div className="text-right">
+                      <div className="text-right flex-shrink-0">
                         <p className="text-sm font-bold text-brand-700">${Math.round(cs.avgFee / 1000)}K/yr avg</p>
                         <p className="text-xs text-gray-500">{cs.count} unis · IELTS {cs.minIelts}+</p>
                       </div>
@@ -298,6 +340,119 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                 </div>
               </div>
             )}
+
+            {/* ── Top 10 Universities Comparison Table ── */}
+            {matchingUnis.length >= 3 && (
+              <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                <h2 className="text-xl font-bold text-gray-900 mb-1">
+                  Top {Math.min(10, matchingUnis.length)} Universities for {cat.name} — Fees Comparison
+                </h2>
+                <p className="text-gray-500 text-sm mb-5">Sorted by QS World University Ranking 2026</p>
+                <div className="overflow-x-auto -mx-2">
+                  <table className="w-full text-sm min-w-[560px]">
+                    <thead>
+                      <tr className="bg-brand-50 text-brand-900 text-xs">
+                        <th className="text-left px-3 py-2.5 rounded-tl-xl w-8">#</th>
+                        <th className="text-left px-3 py-2.5">University</th>
+                        <th className="text-left px-3 py-2.5">Country</th>
+                        <th className="text-right px-3 py-2.5">Annual Fee</th>
+                        <th className="text-right px-3 py-2.5">IELTS</th>
+                        <th className="text-right px-3 py-2.5 rounded-tr-xl">Post-Study Work</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {matchingUnis.slice(0, 10).map((u, i) => (
+                        <tr key={u.id} className="border-b border-gray-50 hover:bg-gray-50 transition-colors">
+                          <td className="px-3 py-3 text-gray-400 font-medium text-xs">{i + 1}</td>
+                          <td className="px-3 py-3">
+                            <Link href={`/universities/${u.slug}`} className="font-semibold text-brand-700 hover:underline text-sm leading-tight block">
+                              {u.name}
+                            </Link>
+                            <span className="text-xs text-gray-400">{u.qsRanking ? `QS #${u.qsRanking}` : u.city}</span>
+                          </td>
+                          <td className="px-3 py-3 text-sm text-gray-700">
+                            {FLAGS[u.country] || ''} {u.country}
+                          </td>
+                          <td className="px-3 py-3 text-right font-semibold text-gray-900">
+                            ${Math.round(u.annualTuitionUSD / 1000)}K
+                            <div className="text-xs text-gray-400 font-normal">≈ ₹{(u.annualTuitionUSD * 84 / 100000).toFixed(1)}L</div>
+                          </td>
+                          <td className="px-3 py-3 text-right text-gray-700 text-sm">{u.requirements?.ieltsMin}+</td>
+                          <td className="px-3 py-3 text-right text-xs text-gray-500">{WORK_RIGHTS[u.country] || '—'}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="text-xs text-gray-400 mt-3 text-center">
+                  Fees are approximate annual tuition in USD. INR equivalent at ₹84/USD.
+                  {matchingUnis.length > 10 && ` ${matchingUnis.length - 10} more universities below.`}
+                </p>
+              </div>
+            )}
+
+            {/* ── Entry Requirements ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="text-xl font-bold text-gray-900 mb-1">Entry Requirements for {cat.name}</h2>
+              <p className="text-gray-500 text-sm mb-5">Typical admission criteria across our partner universities</p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  {
+                    label: '🗣 IELTS Score',
+                    value: `${cat.ieltsTypical}+ overall`,
+                    note: `${Math.max(5.5, cat.ieltsTypical - 0.5)}+ for conditional / pathway entry. No band below ${Math.max(5.0, cat.ieltsTypical - 1.0)}.`,
+                  },
+                  {
+                    label: '📝 TOEFL iBT',
+                    value: `${cat.ieltsTypical <= 6.0 ? 79 : cat.ieltsTypical <= 6.5 ? 90 : cat.ieltsTypical <= 7.0 ? 100 : 110}+`,
+                    note: 'Accepted instead of IELTS at most universities worldwide.',
+                  },
+                  {
+                    label: '🎓 Academic GPA',
+                    value: cat.level === 'UG' ? '60–65% (Class 12)' : '7.0–7.5 / 10 (UG degree)',
+                    note: cat.level === 'UG' ? 'Some universities accept 55%+ for foundation / pathway programs.' : 'Equivalent to 3.3+ on a US 4.0 GPA scale. Top universities: 8.0+.',
+                  },
+                  {
+                    label: '📋 Backlogs',
+                    value: cat.ieltsTypical >= 7.0 ? 'Zero backlogs preferred' : 'Up to 2 backlogs',
+                    note: 'Top-50 QS universities typically require a clean academic record.',
+                  },
+                  {
+                    label: '💼 Work Experience',
+                    value: cat.level === 'PG'
+                      ? BUSINESS_SLUGS.has(cat.slug) ? '2–5 years (MBA); 0–2 years (MSc)' : 'Not required'
+                      : 'Not applicable (UG entry)',
+                    note: cat.level === 'PG' ? '0–2 years relevant experience strengthens MS/MSc applications.' : 'Direct entry from Class 12 or equivalent.',
+                  },
+                  {
+                    label: '📎 Documents Required',
+                    value: 'SOP, LORs (×2–3), Transcripts',
+                    note: 'Plus CV/résumé, passport copy' + (BUSINESS_SLUGS.has(cat.slug) && cat.level !== 'UG' ? ', GMAT/GRE scorecard' : STEM_SLUGS.has(cat.slug) && cat.level !== 'UG' ? ', GRE scorecard (USA/Canada)' : '') + '.',
+                  },
+                ].map(item => (
+                  <div key={item.label} className="p-4 bg-gray-50 rounded-xl">
+                    <p className="text-xs font-semibold text-gray-400 mb-1">{item.label}</p>
+                    <p className="font-bold text-gray-900 text-sm">{item.value}</p>
+                    <p className="text-xs text-gray-400 mt-1 leading-snug">{item.note}</p>
+                  </div>
+                ))}
+              </div>
+              {cat.level !== 'UG' && (
+                <div className="mt-4 p-4 bg-blue-50 rounded-xl text-sm">
+                  <p className="font-semibold text-blue-800 mb-1">
+                    {BUSINESS_SLUGS.has(cat.slug) ? '📊 GMAT / GRE Requirement' : STEM_SLUGS.has(cat.slug) ? '🔬 GRE Requirement (USA & Canada)' : '📌 Standardised Test Note'}
+                  </p>
+                  <p className="text-blue-700 leading-relaxed">
+                    {BUSINESS_SLUGS.has(cat.slug)
+                      ? `Most top-10 MBA programs require GMAT 600–700+ (or equivalent GRE). Many MSc Business programs now waive GMAT. Executive MBA programs often waive tests for senior professionals with 5+ years experience.`
+                      : STEM_SLUGS.has(cat.slug)
+                      ? `Several US and Canadian universities require GRE General 310–325 for ${cat.name} postgraduate programs. UK, Australian, German, and most European universities do not require GRE. Always verify on the university's official admissions page.`
+                      : `Some universities may require standardised tests (GMAT/GRE/SAT) depending on program level. Jaivik Overseas will confirm exact requirements when preparing your application.`
+                    }
+                  </p>
+                </div>
+              )}
+            </div>
 
             {/* University List */}
             {matchingUnis.length > 0 && (
@@ -361,20 +516,22 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
 
               {/* Jobs with salary estimates */}
               <div className="space-y-3 mb-5">
-                {cat.careerOptions.slice(0, 4).map((role, i) => {
+                {cat.careerOptions.slice(0, 5).map((role, i) => {
                   // Generate salary estimates based on position in career ladder
                   const baseUSD = cat.avgSalaryUSD;
                   const salaries = [
-                    Math.round(baseUSD * 1.15 / 1000),
+                    Math.round(baseUSD * 1.20 / 1000),
+                    Math.round(baseUSD * 1.08 / 1000),
                     Math.round(baseUSD / 1000),
-                    Math.round(baseUSD * 0.92 / 1000),
-                    Math.round(baseUSD * 0.85 / 1000),
+                    Math.round(baseUSD * 0.90 / 1000),
+                    Math.round(baseUSD * 0.82 / 1000),
                   ];
-                  const sal = salaries[i] || Math.round(baseUSD / 1000);
+                  const sal = salaries[i] ?? Math.round(baseUSD / 1000);
+                  const inrL = (sal * 84 / 100).toFixed(0);
                   return (
                     <div key={role} className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
                       <div className="flex items-center gap-3">
-                        <span className="w-8 h-8 bg-green-100 text-green-700 rounded-full flex items-center justify-center text-sm font-bold">{i + 1}</span>
+                        <span className="w-8 h-8 bg-green-100 text-green-700 rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">{i + 1}</span>
                         <div>
                           <p className="font-semibold text-gray-900 text-sm">{role}</p>
                           <p className="text-xs text-gray-500">International market · Entry–Mid level</p>
@@ -382,7 +539,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                       </div>
                       <div className="text-right">
                         <p className="font-bold text-green-600 text-sm">${sal}K/yr</p>
-                        <p className="text-xs text-gray-400">≈ ₹{(sal * 84 / 100).toFixed(0)}L/yr</p>
+                        <p className="text-xs text-gray-400">≈ ₹{inrL}L/yr in India</p>
                       </div>
                     </div>
                   );
@@ -402,6 +559,51 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                   <p className="text-2xl font-bold text-purple-700">{cat.careerOptions.length}+</p>
                   <p className="text-xs text-purple-600 mt-1">Career Paths</p>
                 </div>
+              </div>
+            </div>
+
+            {/* ── Why Study Abroad vs India ── */}
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="text-xl font-bold text-gray-900 mb-1">Why Study {cat.name} Abroad Instead of India?</h2>
+              <p className="text-gray-500 text-sm mb-5">
+                Key advantages that an international {cat.name} degree provides for Indian students
+              </p>
+              <div className="space-y-4">
+                {[
+                  {
+                    icon: '💰',
+                    title: 'Significantly Higher Graduate Salary',
+                    text: `${cat.name} graduates from overseas universities earn $${Math.round(cat.avgSalaryUSD / 1000)}K–$${Math.round(cat.avgSalaryUSD * 1.25 / 1000)}K per year internationally — approximately ₹${(cat.avgSalaryUSD * 84 / 100000).toFixed(0)}L–₹${(cat.avgSalaryUSD * 1.25 * 84 / 100000).toFixed(0)}L per year. This typically represents a 3–5× premium over a comparable Indian degree after 3–5 years of work experience.`,
+                  },
+                  {
+                    icon: '🌐',
+                    title: 'Global Brand Recognition & Alumni Network',
+                    text: `Degrees from top-ranked universities in ${cat.topCountries.slice(0, 2).join(' and ')} are recognised by employers worldwide. An international ${cat.name} credential opens doors at global MNCs, research institutions, and startups that a domestic degree alone may not unlock.`,
+                  },
+                  {
+                    icon: '🛂',
+                    title: 'Post-Study Work Rights & Immigration Pathway',
+                    text: `Countries like Canada (PGWP up to 3 years → Express Entry PR), Australia (Temporary Graduate Visa 2–4 years), and the UK (Graduate Route 2 years) let you work — and potentially settle — after your ${cat.name} degree. This immigration advantage is unavailable with an Indian degree.`,
+                  },
+                  {
+                    icon: '🔬',
+                    title: 'Better Research Infrastructure & Industry Access',
+                    text: `The best global universities for ${cat.name} are directly embedded in their industries. Internships, paid placements, research labs, and live project collaborations with top employers are built into most programs. This produces a much stronger CV before graduation than most Indian institutions offer.`,
+                  },
+                  {
+                    icon: '🎓',
+                    title: 'Scholarships & Positive ROI Within 2–3 Years',
+                    text: `While tuition appears high, scholarships, part-time work (20 hrs/week during term), and competitive post-study salaries mean most international ${cat.name} students recover their full investment within 2–3 years of graduating. Jaivik Overseas helps every student identify and apply for relevant scholarships before committing to a program.`,
+                  },
+                ].map(item => (
+                  <div key={item.title} className="flex items-start gap-4 p-4 bg-gray-50 rounded-xl">
+                    <span className="text-2xl flex-shrink-0 mt-0.5">{item.icon}</span>
+                    <div>
+                      <p className="font-semibold text-gray-900 text-sm mb-1">{item.title}</p>
+                      <p className="text-sm text-gray-600 leading-relaxed">{item.text}</p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
 
