@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 interface University {
   id: string; name: string; slug: string; city: string; state: string; country: string;
@@ -30,6 +31,7 @@ const IELTS_OPTIONS = [
 ];
 
 export default function CountryUniversitiesClient({ unis, country }: Props) {
+  const router = useRouter();
   const [cityFilter, setCityFilter] = useState('');
   const [feeRange, setFeeRange] = useState('All Fees');
   const [ieltsFilter, setIeltsFilter] = useState('Any IELTS');
@@ -183,10 +185,12 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
       ) : (
         <div className="space-y-4">
           {displayed.map((u, i) => (
-            <div key={u.id} className="relative bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all group cursor-pointer">
-              {/* Full-card clickable overlay → university overview */}
-              <Link href={`/universities/${u.slug}`} className="absolute inset-0 rounded-2xl z-0" aria-label={`View ${u.name}`} />
-              <div className="relative z-10 flex items-start gap-4">
+            <div
+              key={u.id}
+              className="bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all group cursor-pointer"
+              onClick={() => router.push(`/universities/${u.slug}`)}
+            >
+              <div className="flex items-start gap-4">
                 <div className="w-8 h-8 bg-brand-50 rounded-full flex items-center justify-center text-brand-700 font-bold text-sm flex-shrink-0 mt-0.5">
                   {i + 1}
                 </div>
@@ -209,11 +213,12 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
                     <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded-full">IELTS {u.requirements.ieltsMin}+</span>
                   </div>
                   <div className="flex gap-3 mt-3">
-                    <Link href={`/universities/${u.slug}/courses`}
-                      className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800"
-                      onClick={(e) => e.stopPropagation()}>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); router.push(`/universities/${u.slug}/courses`); }}
+                      className="text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors"
+                    >
                       Browse Courses →
-                    </Link>
+                    </button>
                   </div>
                 </div>
               </div>
