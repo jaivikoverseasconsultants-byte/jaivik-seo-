@@ -190,8 +190,7 @@ export default async function CityPage(
                         </div>
                         <div className="flex gap-3 mt-3 flex-wrap">
                           <Link href={`/universities/${u.slug}/courses`}
-                            className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors"
-                            onClick={(e) => e.stopPropagation()}>
+                            className="relative z-10 text-xs bg-brand-700 text-white px-3 py-1 rounded-full font-medium hover:bg-brand-800 transition-colors">
                             Browse Degree Programs →
                           </Link>
                         </div>
