@@ -1,130 +1,123 @@
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
 import type { Metadata } from 'next';
-import { smuCourses } from '@/data/smu-courses';
+import Link from 'next/link';
+import { smuCourses, getSmuCourseBySlug } from '@/data/smu-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
+import JsonLd from '@/components/JsonLd';
 
-export function generateStaticParams() {
-  return smuCourses.map(c => ({ slug: c.slug }));
+export async function generateStaticParams() {
+  return (smuCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const c = smuCourses.find(x => x.slug === slug);
-  if (!c) return {};
+  const course = getSmuCourseBySlug(slug);
+  if (!course) return {};
+  const fee = (course as any).annualSGD || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${c.name} at Singapore Management University 2026 – Fees, IELTS & Requirements`,
-    description: `${c.name} at Singapore Management University: ${c.duration}, S$${(c.annualSGD/1000).toFixed(0)}K SGD/yr. IELTS ${c.ieltsMin}+. Apply via Jaivik Overseas Consultants.`,
+    title: `${course.name} | SMU Singapore – Fees, IELTS & Intake 2026`,
+    description: `${course.name} at Singapore Management University. Annual fee S$${fee.toLocaleString()}. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/singapore-management-university/courses/${slug}`,
+    keywords: [course.name, 'SMU Singapore', 'Singapore Management University', 'study in Singapore', course.level],
   });
 }
 
-export default async function CourseDetailPage(
-  { params }: { params: Promise<{ slug: string }> }
-) {
+export default async function CoursePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const c = smuCourses.find(x => x.slug === slug);
-  if (!c) notFound();
+  const course = getSmuCourseBySlug(slug);
+  if (!course) notFound();
+
+  const fee = (course as any).annualSGD || (course as any).annualUSD || 0;
+  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const totalFee = (course as any).totalSGD || fee * course.durationYears;
+
+  const schema = { '@context': 'https://schema.org', '@type': 'Course', name: course.name, provider: { '@type': 'CollegeOrUniversity', name: 'Singapore Management University', sameAs: 'https://www.smu.edu.sg' }, courseMode: 'full-time', educationalLevel: course.studyLevel };
+
+  const fieldKey = course.name.toLowerCase();
+  const careerMap: Record<string, { roles: string[], avgUSD: number }> = {
+    default: { roles: ['Industry Professional', 'Research Associate', 'Consultant', 'Manager'], avgUSD: 85000 },
+    'computer science': { roles: ['Software Engineer', 'Data Scientist', 'ML Engineer', 'Technical Lead'], avgUSD: 120000 },
+    'data science': { roles: ['Data Scientist', 'ML Engineer', 'Data Analyst', 'AI Researcher'], avgUSD: 115000 },
+    'artificial intelligence': { roles: ['AI Engineer', 'ML Researcher', 'Data Scientist', 'AI Product Manager'], avgUSD: 125000 },
+    'business': { roles: ['Business Analyst', 'Management Consultant', 'Strategy Manager', 'Operations Director'], avgUSD: 95000 },
+    'finance': { roles: ['Financial Analyst', 'Investment Banker', 'Portfolio Manager', 'CFO'], avgUSD: 110000 },
+    'engineering': { roles: ['Design Engineer', 'Project Engineer', 'Engineering Manager', 'Technical Director'], avgUSD: 100000 },
+    'mba': { roles: ['Product Manager', 'Strategy Consultant', 'Business Development Manager', 'CEO'], avgUSD: 130000 },
+  };
+  let career = careerMap.default;
+  for (const [key, val] of Object.entries(careerMap)) { if (fieldKey.includes(key)) { career = val; break; } }
+  const avgINRLakh = (career.avgUSD * 83.5 / 100000).toFixed(1);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
-      <div className="flex items-center gap-2 text-xs text-gray-500 mb-6 flex-wrap">
-        <Link href="/" className="hover:text-brand-700">Home</Link> /
-        <Link href="/universities" className="hover:text-brand-700">Universities</Link> /
-        <Link href="/universities/singapore-management-university" className="hover:text-brand-700">Singapore Management University</Link> /
-        <Link href="/universities/singapore-management-university/courses" className="hover:text-brand-700">Courses</Link> /
-        <span className="text-gray-800 font-medium">{c.name}</span>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2 space-y-6">
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-              🇸🇬 Singapore · {c.level}
-            </div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">{c.name}</h1>
-            <p className="text-gray-500 text-sm">Singapore Management University · {c.city}, {c.state}</p>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
-              {[
-                { label: 'Duration', value: c.duration },
-                { label: 'Level', value: c.level },
-                { label: 'Annual Fee (SGD)', value: 'S$${(c.annualSGD/1000).toFixed(0)}K' },
-                { label: 'Annual Fee (INR)', value: `₹${(c.annualINR/100000).toFixed(1)}L` },
-              ].map(s => (
-                <div key={s.label} className="bg-brand-50 rounded-xl p-3 text-center">
-                  <p className="text-lg font-bold text-brand-700">{s.value}</p>
-                  <p className="text-xs text-gray-500 mt-1">{s.label}</p>
-                </div>
-              ))}
-            </div>
+    <>
+      <JsonLd data={schema} />
+      <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 flex-wrap">
+            <Link href="/" className="hover:text-white">Home</Link> /
+            <Link href="/universities" className="hover:text-white">Universities</Link> /
+            <Link href="/universities/singapore-management-university" className="hover:text-white">SMU Singapore</Link> /
+            <Link href="/universities/singapore-management-university/courses" className="hover:text-white">Courses</Link> /
+            <span>{course.name}</span>
           </div>
-
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Admission Requirements</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {[
-                { label: 'IELTS', value: `${c.ieltsMin}+ overall` },
-                { label: 'TOEFL', value: `${c.toeflMin}+ iBT` },
-                { label: 'PTE', value: `${c.pteMin}+` },
-                { label: 'Intake', value: c.intakeMonths.join(' & ') },
-                { label: 'Living Cost', value: '~S$${(c.livingCostSGD).toLocaleString()}/mo' },
-                { label: 'Work Rights', value: '16 hrs/wk (with approval)' },
-              ].map(r => (
-                <div key={r.label} className="p-4 bg-gray-50 rounded-xl">
-                  <p className="text-xs text-gray-500 font-medium mb-1">{r.label}</p>
-                  <p className="text-sm font-semibold text-gray-900">{r.value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Cost Summary (Full Course)</h2>
-            <div className="space-y-3">
-              {[
-                ['Tuition (Total)', 'S$${Math.round(c.totalSGD/1000)}K SGD'],
-                ['Living Cost (Total)', '~S$${Math.round(c.livingCostSGD*12*c.durationYears/1000)}K SGD'],
-                ['Approx. Total in INR', `≈ ₹${((c.annualINR * c.durationYears)/100000).toFixed(1)}L`],
-              ].map(([k,v])=>(
-                <div key={k} className="flex justify-between items-center py-3 border-b border-gray-50 last:border-0">
-                  <span className="text-sm text-gray-600">{k}</span>
-                  <span className="font-bold text-gray-900">{v}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
-            <h2 className="text-lg font-bold mb-2">Apply for {c.name} at Singapore Management University</h2>
-            <p className="text-blue-200 text-sm mb-4">Our experts guide you from application to visa. 500+ students placed.</p>
-            <Link href="/book-counselling" className="btn-gold inline-block">Book Free Counselling →</Link>
-          </div>
+          <div className="inline-block bg-white/10 text-blue-100 text-xs px-3 py-1 rounded-full mb-3">{course.level} · {course.studyLevel}</div>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+          <p className="text-blue-100 text-lg">Singapore Management University · Singapore, Singapore · {course.duration}</p>
         </div>
-
-        <div>
-          <div className="sticky top-20 space-y-5">
-            <LeadForm source="singapore-management-university-course" defaultCountry="Singapore" />
-            <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">More Programs at Singapore Management University</h3>
-              <div className="space-y-2">
-                {smuCourses.filter(x=>x.slug!==slug).slice(0,6).map(x=>(
-                  <Link key={x.id} href={`/universities/singapore-management-university/courses/${x.slug}`}
-                    className="block text-sm text-brand-700 hover:underline">
-                    {x.name} →
-                  </Link>
+      </section>
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2 space-y-8">
+            <div className="bg-white rounded-2xl border border-gray-100 p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-5">Program Overview</h2>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                {[
+                  { label: 'Annual Fee', value: `S$${fee.toLocaleString()}`, sub: `₹${feeINRLakh}L/year` },
+                  { label: 'Total Fees', value: `S$${totalFee.toLocaleString()}`, sub: `${course.durationYears} year(s)` },
+                  { label: 'IELTS', value: `${course.ieltsMin}+`, sub: `TOEFL ${course.toeflMin}+` },
+                  { label: 'Duration', value: course.duration, sub: course.studyLevel },
+                  { label: 'Intake', value: (course.intakeMonths || []).join(' & '), sub: 'Annual' },
+                  { label: 'Campus', value: 'Singapore', sub: 'Singapore' },
+                ].map(({ label, value, sub }) => (
+                  <div key={label} className="bg-gray-50 rounded-xl p-4">
+                    <div className="text-xs text-gray-500 mb-1">{label}</div>
+                    <div className="font-bold text-gray-900">{value}</div>
+                    {sub && <div className="text-xs text-gray-400 mt-0.5">{sub}</div>}
+                  </div>
                 ))}
               </div>
-              <Link href="/universities/singapore-management-university/courses" className="block text-xs text-gray-500 hover:underline mt-3">
-                All Singapore Management University programs →
-              </Link>
+            </div>
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-100 p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Career Outcomes</h2>
+              <div className="grid grid-cols-2 gap-4 mb-5">
+                <div className="bg-white rounded-xl p-4 text-center"><div className="text-2xl font-bold text-green-700">${career.avgUSD.toLocaleString()}</div><div className="text-xs text-gray-500">Avg Salary (USD)</div></div>
+                <div className="bg-white rounded-xl p-4 text-center"><div className="text-2xl font-bold text-green-700">₹{avgINRLakh}L</div><div className="text-xs text-gray-500">Avg Salary (INR)</div></div>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {career.roles.map((role: string) => (<span key={role} className="bg-white text-green-800 text-xs px-3 py-1 rounded-full border border-green-200">{role}</span>))}
+              </div>
             </div>
           </div>
+          <div className="space-y-6">
+            <div className="bg-brand-700 text-white rounded-2xl p-6">
+              <h3 className="text-lg font-bold mb-2">Apply to {course.name}</h3>
+              <p className="text-blue-100 text-sm mb-4">Get free expert guidance</p>
+              <Link href="/thank-you" className="block w-full bg-white text-brand-700 text-center font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">Apply Now – Free Guidance</Link>
+            </div>
+            <div className="bg-white rounded-2xl border border-gray-100 p-5">
+              <h3 className="font-bold text-gray-900 mb-3">Eligibility</h3>
+              <div className="space-y-2 text-sm">
+                <div className="flex justify-between"><span className="text-gray-500">IELTS</span><span className="font-medium">{course.ieltsMin}+</span></div>
+                <div className="flex justify-between"><span className="text-gray-500">TOEFL</span><span className="font-medium">{course.toeflMin}+</span></div>
+                <div className="flex justify-between"><span className="text-gray-500">PTE</span><span className="font-medium">{course.pteMin}+</span></div>
+              </div>
+            </div>
+            <Link href="/universities/singapore-management-university/courses" className="flex items-center gap-2 text-brand-700 hover:text-brand-900 font-medium text-sm">← All SMU Singapore Courses</Link>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+      <section className="bg-brand-50 py-12 px-4 mt-4"><div className="max-w-2xl mx-auto"><h2 className="text-2xl font-bold text-center text-brand-900 mb-2">Ready to Apply?</h2><p className="text-center text-gray-600 mb-6">Get personalised guidance from our expert counsellors</p><LeadForm /></div></section>
+    </>
   );
 }

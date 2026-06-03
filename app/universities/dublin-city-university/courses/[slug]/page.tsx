@@ -10,176 +10,114 @@ export async function generateStaticParams() {
   return (dcuCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
-export async function generateMetadata(
-  { params }: { params: Promise<{ slug: string }> }
-): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const course = getDcuCourseBySlug(slug);
   if (!course) return {};
+  const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
     title: `${course.name} | DCU – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Dublin City University. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    description: `${course.name} at Dublin City University. Annual fee €${fee.toLocaleString()}. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/dublin-city-university/courses/${slug}`,
     keywords: [course.name, 'DCU', 'Dublin City University', 'study in Ireland', course.level],
   });
 }
 
-export default async function CoursePage(
-  { params }: { params: Promise<{ slug: string }> }
-) {
+export default async function CoursePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const course = getDcuCourseBySlug(slug);
   if (!course) notFound();
 
-  const schema = {
-    '@context': 'https://schema.org', '@type': 'Course',
-    name: course.name,
-    provider: { '@type': 'CollegeOrUniversity', name: 'Dublin City University', sameAs: 'https://www.dcu.ie' },
-    courseMode: 'full-time',
-    educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
-    url: course.url,
-  };
-
+  const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const totalFee = (course as any).totalEUR || fee * course.durationYears;
+
+  const schema = { '@context': 'https://schema.org', '@type': 'Course', name: course.name, provider: { '@type': 'CollegeOrUniversity', name: 'Dublin City University', sameAs: 'https://www.dcu.ie' }, courseMode: 'full-time', educationalLevel: course.studyLevel };
+
+  const fieldKey = course.name.toLowerCase();
+  const careerMap: Record<string, { roles: string[], avgUSD: number }> = {
+    default: { roles: ['Industry Professional', 'Research Associate', 'Consultant', 'Manager'], avgUSD: 85000 },
+    'computer science': { roles: ['Software Engineer', 'Data Scientist', 'ML Engineer', 'Technical Lead'], avgUSD: 120000 },
+    'data science': { roles: ['Data Scientist', 'ML Engineer', 'Data Analyst', 'AI Researcher'], avgUSD: 115000 },
+    'artificial intelligence': { roles: ['AI Engineer', 'ML Researcher', 'Data Scientist', 'AI Product Manager'], avgUSD: 125000 },
+    'business': { roles: ['Business Analyst', 'Management Consultant', 'Strategy Manager', 'Operations Director'], avgUSD: 95000 },
+    'finance': { roles: ['Financial Analyst', 'Investment Banker', 'Portfolio Manager', 'CFO'], avgUSD: 110000 },
+    'engineering': { roles: ['Design Engineer', 'Project Engineer', 'Engineering Manager', 'Technical Director'], avgUSD: 100000 },
+    'mba': { roles: ['Product Manager', 'Strategy Consultant', 'Business Development Manager', 'CEO'], avgUSD: 130000 },
+  };
+  let career = careerMap.default;
+  for (const [key, val] of Object.entries(careerMap)) { if (fieldKey.includes(key)) { career = val; break; } }
+  const avgINRLakh = (career.avgUSD * 83.5 / 100000).toFixed(1);
 
   return (
     <>
       <JsonLd data={schema} />
       <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 flex-wrap">
             <Link href="/" className="hover:text-white">Home</Link> /
             <Link href="/universities" className="hover:text-white">Universities</Link> /
             <Link href="/universities/dublin-city-university" className="hover:text-white">DCU</Link> /
             <Link href="/universities/dublin-city-university/courses" className="hover:text-white">Courses</Link> /
-            <span className="text-white">{course.name}</span>
+            <span>{course.name}</span>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-            <div className="lg:col-span-2">
-              <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇮🇪 Dublin City University · Dublin, Ireland
-              </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
-              <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className="inline-block bg-white/10 text-blue-100 text-xs px-3 py-1 rounded-full mb-3">{course.level} · {course.studyLevel}</div>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+          <p className="text-blue-100 text-lg">Dublin City University · Dublin, Ireland · {course.duration}</p>
+        </div>
+      </section>
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="lg:col-span-2 space-y-8">
+            <div className="bg-white rounded-2xl border border-gray-100 p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-5">Program Overview</h2>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {[
-                  { label: 'Annual Fee (EUR)', value: `€${course.annualEUR.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
-                  { label: 'IELTS Minimum', value: `${course.ieltsMin}+` },
-                  { label: 'Duration', value: course.duration },
-                ].map(s => (
-                  <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
-                    <p className="text-lg font-bold">{s.value}</p>
-                    <p className="text-xs text-blue-200 mt-1">{s.label}</p>
+                  { label: 'Annual Fee', value: `€${fee.toLocaleString()}`, sub: `₹${feeINRLakh}L/year` },
+                  { label: 'Total Fees', value: `€${totalFee.toLocaleString()}`, sub: `${course.durationYears} year(s)` },
+                  { label: 'IELTS', value: `${course.ieltsMin}+`, sub: `TOEFL ${course.toeflMin}+` },
+                  { label: 'Duration', value: course.duration, sub: course.studyLevel },
+                  { label: 'Intake', value: (course.intakeMonths || []).join(' & '), sub: 'Annual' },
+                  { label: 'Campus', value: 'Dublin', sub: 'Ireland' },
+                ].map(({ label, value, sub }) => (
+                  <div key={label} className="bg-gray-50 rounded-xl p-4">
+                    <div className="text-xs text-gray-500 mb-1">{label}</div>
+                    <div className="font-bold text-gray-900">{value}</div>
+                    {sub && <div className="text-xs text-gray-400 mt-0.5">{sub}</div>}
                   </div>
                 ))}
               </div>
             </div>
-            <div className="bg-white rounded-2xl p-5">
-              <LeadForm source={`dcu-course-${slug}`} defaultCountry="Ireland" compact />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2 space-y-6">
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Course Overview</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {[
-                { label: 'Qualification', value: course.level },
-                { label: 'Duration', value: course.duration + ' full-time' },
-                { label: 'Campus', value: course.campus },
-                { label: 'Intakes', value: course.intakeMonths.join(' & ') },
-                { label: 'Annual Tuition (EUR)', value: `€${course.annualEUR.toLocaleString()}` },
-                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
-                { label: 'Living Cost (EUR/yr)', value: `€${course.livingCostEUR.toLocaleString()}` },
-                { label: 'Total Course Fee', value: `€${course.totalEUR.toLocaleString()}` },
-              ].map(f => (
-                <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
-                  <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
-                  <p className="text-sm font-semibold text-gray-900">{f.value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            <div className="grid grid-cols-3 gap-4">
-              {[
-                { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'No band below 5.5' },
-                { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 21+' },
-                { label: 'PTE Academic', value: `${course.pteMin}+`, sub: 'No band below 51' },
-              ].map(e => (
-                <div key={e.label} className="bg-blue-50 rounded-xl p-4 text-center">
-                  <p className="text-xl font-bold text-brand-700">{e.value}</p>
-                  <p className="text-xs font-semibold text-gray-700 mt-1">{e.label}</p>
-                  <p className="text-xs text-gray-500 mt-0.5">{e.sub}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
-            <div className="space-y-3">
-              {[
-                { label: `Tuition × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}`, value: `€${course.totalEUR.toLocaleString()}`, hi: true },
-                { label: `Living × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}`, value: `€${(course.livingCostEUR * course.durationYears).toLocaleString()}` },
-                { label: 'Total Estimated Cost', value: `€${(course.totalEUR + course.livingCostEUR * course.durationYears).toLocaleString()}`, hi: true },
-                { label: 'In Indian Rupees (₹)', value: `₹${((course.totalEUR + course.livingCostEUR * course.durationYears) * 1.08 * 84 / 100000).toFixed(1)} Lakh`, hi: true },
-              ].map(r => (
-                <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.hi ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
-                  <span className="text-sm text-gray-700">{r.label}</span>
-                  <span className={`text-sm ${r.hi ? 'text-brand-700' : 'text-gray-900'}`}>{r.value}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Visa & Work Rights — Ireland</h2>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { label: 'Student Visa', value: 'Ireland Student Visa' },
-                { label: 'Work Rights (Term)', value: '20 hrs/week' },
-                { label: 'Work Rights (Vacation)', value: 'Full-time' },
-                { label: 'Post-Study Visa', value: 'Ireland Graduate Visa – 2 years' },
-              ].map(f => (
-                <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
-                  <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
-                  <p className="text-sm font-semibold text-gray-900">{f.value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
-            <h2 className="text-xl font-bold mb-2">Interested in {course.name}?</h2>
-            <p className="text-blue-200 text-sm mb-4">
-              Book a free counselling session. Our Ireland admissions advisors help Indian students every step of the way.
-            </p>
-            <Link href="/book-counselling" className="btn-gold inline-block">Get Free Guidance →</Link>
-          </div>
-        </div>
-
-        <div className="space-y-5">
-          <div className="sticky top-20">
-            <LeadForm source={`dcu-course-${slug}-sidebar`} defaultCountry="Ireland" />
-            <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
-              <div className="space-y-2">
-                <a href={course.url} target="_blank" rel="noopener noreferrer" className="block text-sm text-brand-700 hover:underline">Official Course Page ↗</a>
-                <Link href="/universities/dublin-city-university/courses" className="block text-sm text-brand-700 hover:underline">All DCU Courses →</Link>
-                <Link href="/universities/country/ireland" className="block text-sm text-brand-700 hover:underline">Study in Ireland Guide →</Link>
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl border border-green-100 p-6">
+              <h2 className="text-xl font-bold text-gray-900 mb-4">Career Outcomes</h2>
+              <div className="grid grid-cols-2 gap-4 mb-5">
+                <div className="bg-white rounded-xl p-4 text-center"><div className="text-2xl font-bold text-green-700">${career.avgUSD.toLocaleString()}</div><div className="text-xs text-gray-500">Avg Salary (USD)</div></div>
+                <div className="bg-white rounded-xl p-4 text-center"><div className="text-2xl font-bold text-green-700">₹{avgINRLakh}L</div><div className="text-xs text-gray-500">Avg Salary (INR)</div></div>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {career.roles.map((role: string) => (<span key={role} className="bg-white text-green-800 text-xs px-3 py-1 rounded-full border border-green-200">{role}</span>))}
               </div>
             </div>
           </div>
+          <div className="space-y-6">
+            <div className="bg-brand-700 text-white rounded-2xl p-6">
+              <h3 className="text-lg font-bold mb-2">Apply to {course.name}</h3>
+              <p className="text-blue-100 text-sm mb-4">Get free expert guidance</p>
+              <Link href="/thank-you" className="block w-full bg-white text-brand-700 text-center font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">Apply Now – Free Guidance</Link>
+            </div>
+            <div className="bg-white rounded-2xl border border-gray-100 p-5">
+              <h3 className="font-bold text-gray-900 mb-3">Eligibility</h3>
+              <div className="space-y-2 text-sm">
+                <div className="flex justify-between"><span className="text-gray-500">IELTS</span><span className="font-medium">{course.ieltsMin}+</span></div>
+                <div className="flex justify-between"><span className="text-gray-500">TOEFL</span><span className="font-medium">{course.toeflMin}+</span></div>
+                <div className="flex justify-between"><span className="text-gray-500">PTE</span><span className="font-medium">{course.pteMin}+</span></div>
+              </div>
+            </div>
+            <Link href="/universities/dublin-city-university/courses" className="flex items-center gap-2 text-brand-700 hover:text-brand-900 font-medium text-sm">← All DCU Courses</Link>
+          </div>
         </div>
-      </div>
+      </section>
+      <section className="bg-brand-50 py-12 px-4 mt-4"><div className="max-w-2xl mx-auto"><h2 className="text-2xl font-bold text-center text-brand-900 mb-2">Ready to Apply?</h2><p className="text-center text-gray-600 mb-6">Get personalised guidance from our expert counsellors</p><LeadForm /></div></section>
     </>
   );
 }

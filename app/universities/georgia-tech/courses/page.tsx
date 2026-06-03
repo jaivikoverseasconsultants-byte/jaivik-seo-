@@ -1,80 +1,90 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
-import { gatechCourses } from '@/data/gatech-courses';
+import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
+import { gatechCourses } from '@/data/gatech-courses';
+import LeadForm from '@/components/LeadForm';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Georgia Institute of Technology Courses & Programs 2026 – Fees, IELTS & Intakes',
-  description: '50 programs at Georgia Institute of Technology for Indian students. Tuition, IELTS requirements, intake dates. Free counselling by Jaivik Overseas.',
+  title: 'Georgia Institute of Technology International Courses – All Programs, Fees & IELTS 2026',
+  description: `Georgia Institute of Technology – ${(gatechCourses as unknown as any[]).length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/georgia-tech/courses',
+  keywords: ['Georgia Tech courses', 'Georgia Institute of Technology international', 'study in USA'],
 });
 
-const levels = ['All', 'Bachelor', 'Master', 'Doctoral', 'Diploma'];
+const levelOrder = ['Undergraduate', 'Foundation', 'Graduate Certificate', 'Graduate Diploma', 'Masters', 'MBA', 'PhD', 'Postgraduate'];
 
-export default function GatechCoursesPage() {
-  const courses = gatechCourses;
-  const avgFee = Math.round(courses.reduce((s,c)=>s+c.annualUSD,0)/courses.length);
+function groupByLevel(courses: any[]) {
+  const groups: Record<string, any[]> = {};
+  courses.forEach((c: any) => { const lv = c.level || 'Other'; if (!groups[lv]) groups[lv] = []; groups[lv].push(c); });
+  return groups;
+}
+
+export default function CoursesPage() {
+  const courses = gatechCourses as unknown as any[];
+  const groups = groupByLevel(courses);
+  const totalCourses = courses.length;
+  const pgCourses = courses.filter((c: any) => c.studyLevel !== 'Undergraduate');
+  const avgFee = pgCourses.length
+    ? Math.round(pgCourses.reduce((s: number, c: any) => s + (c.annualUSD || c.annualUSD || 0), 0) / pgCourses.length)
+    : Math.round(courses.reduce((s: number, c: any) => s + (c.annualUSD || c.annualUSD || 0), 0) / (totalCourses || 1));
+  const feeINRLakh = (avgFee * 1 / 100000).toFixed(1);
+
+  const schema = {
+    '@context': 'https://schema.org', '@type': 'CollegeOrUniversity',
+    name: 'Georgia Institute of Technology', sameAs: 'https://www.gatech.edu', url: 'https://www.gatech.edu',
+  };
+  const orderedGroups = levelOrder.filter(l => groups[l]).map(l => [l, groups[l]]);
+  const allGroups = [...orderedGroups, ...Object.keys(groups).filter(l => !levelOrder.includes(l)).map(l => [l, groups[l]])] as [string, any[]][];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
-      {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-xs text-gray-500 mb-6">
-        <Link href="/" className="hover:text-brand-700">Home</Link> /
-        <Link href="/universities" className="hover:text-brand-700">Universities</Link> /
-        <Link href="/universities/georgia-tech" className="hover:text-brand-700">Georgia Institute of Technology</Link> /
-        <span className="text-gray-800 font-medium">Courses</span>
-      </div>
-
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Georgia Institute of Technology — All Courses & Programs 2026</h1>
-        <p className="text-gray-500">{courses.length} programs listed · Avg ~$${Math.round(avgFee/1000)}K USD/yr</p>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        <div className="lg:col-span-1">
-          <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm sticky top-20">
-            <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts</h3>
-            {[
-              ['Programs', courses.length.toString()],
-              ['Min IELTS', courses[0]?.ieltsMin + '+'],
-              ['Intake', 'Aug & Jan'],
-              ['Country', 'USA'],
-              ['Work Rights', '20 hrs/wk on-campus'],
-              ['Post-Study', 'OPT 12–36 months'],
-            ].map(([k,v])=>(
-              <div key={k} className="flex justify-between py-2 border-b border-gray-50 last:border-0 text-xs">
-                <span className="text-gray-500">{k}</span>
-                <span className="font-semibold text-gray-900 text-right">{v}</span>
-              </div>
-            ))}
-            <Link href="/book-counselling" className="btn-primary w-full text-center mt-4 block text-sm">
-              Free Counselling →
-            </Link>
+    <>
+      <JsonLd data={schema} />
+      <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4">
+            <Link href="/" className="hover:text-white">Home</Link> /
+            <Link href="/universities" className="hover:text-white">Universities</Link> /
+            <Link href="/universities/georgia-tech" className="hover:text-white">Georgia Tech</Link> /
+            <span>Courses</span>
+          </div>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">Georgia Institute of Technology</h1>
+          <p className="text-blue-100 text-lg mb-6">{totalCourses} Programs · Atlanta, USA · IELTS 6.0–7.0+</p>
+          <div className="flex flex-wrap gap-4">
+            <div className="bg-white/10 rounded-xl px-5 py-3 text-center"><div className="text-2xl font-bold">{totalCourses}</div><div className="text-blue-200 text-xs">Courses</div></div>
+            <div className="bg-white/10 rounded-xl px-5 py-3 text-center"><div className="text-2xl font-bold">${avgFee.toLocaleString()}</div><div className="text-blue-200 text-xs">Avg PG Fee/year</div></div>
+            <div className="bg-white/10 rounded-xl px-5 py-3 text-center"><div className="text-2xl font-bold">₹{feeINRLakh}L</div><div className="text-blue-200 text-xs">Avg Fee (INR)</div></div>
           </div>
         </div>
-
-        <div className="lg:col-span-3 space-y-3">
-          {courses.map(c => (
-            <Link key={c.id} href={`/universities/georgia-tech/courses/${c.slug}`}
-              className="block bg-white rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all">
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="font-bold text-gray-900 hover:text-brand-700 text-sm">{c.name}</h3>
-                  <p className="text-xs text-gray-500 mt-1">{c.level} · {c.duration} · {c.campus}</p>
-                  <div className="flex flex-wrap gap-2 mt-2">
-                    <span className="text-xs bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {c.ieltsMin}+</span>
-                    <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{c.intakeMonths.join(' & ')}</span>
-                  </div>
-                </div>
-                <div className="text-right whitespace-nowrap">
-                  <p className="font-bold text-brand-700 text-sm">$${(c.annualUSD/1000).toFixed(0)}K/yr</p>
-                  <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </div>
+      </section>
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        {allGroups.map(([level, levelCourses]) => (
+          <div key={level} className="mb-10">
+            <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <span className="bg-brand-100 text-brand-700 px-3 py-1 rounded-full text-sm">{level}</span>
+              <span className="text-gray-500 text-sm font-normal">{levelCourses.length} programs</span>
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {levelCourses.map((course: any) => {
+                const fee = course.annualUSD || course.annualUSD || 0;
+                return (
+                  <Link key={course.id} href={`/universities/georgia-tech/courses/${course.slug}`}
+                    className="block bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md hover:border-brand-200 transition-all group">
+                    <h3 className="font-semibold text-gray-900 group-hover:text-brand-700 transition-colors mb-2 text-sm leading-snug">{course.name}</h3>
+                    <div className="flex flex-wrap gap-2 text-xs">
+                      <span className="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{course.level}</span>
+                      <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">${fee.toLocaleString()}/yr</span>
+                      <span className="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {course.ieltsMin}+</span>
+                      <span className="bg-orange-50 text-orange-700 px-2 py-0.5 rounded-full">{course.duration}</span>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </section>
+      <section className="bg-brand-50 py-12 px-4"><div className="max-w-2xl mx-auto"><h2 className="text-2xl font-bold text-center text-brand-900 mb-2">Apply to Georgia Tech</h2><p className="text-center text-gray-600 mb-6">Get free expert guidance from Jaivik Overseas Consultants</p><LeadForm /></div></section>
+    </>
   );
 }

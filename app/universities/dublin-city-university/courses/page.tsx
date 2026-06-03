@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { dcuCourses } from '@/data/dcu-courses';
@@ -6,17 +6,17 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Dublin City University International Courses â€“ All Programs, Fees & IELTS 2026',
-  description: `Dublin City University â€” ${(dcuCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: 'Dublin City University International Courses – All Programs, Fees & IELTS 2026',
+  description: `Dublin City University – ${(dcuCourses as unknown as any[]).length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/dublin-city-university/courses',
-  keywords: ['DCU courses', 'Dublin City University international', 'DCU fees', 'study in Ireland', 'Ireland university'],
+  keywords: ['DCU courses', 'Dublin City University international', 'study in Ireland'],
 });
 
-const levelOrder = ["Undergraduate","Foundation","Graduate Certificate","Graduate Diploma","Masters","PhD","Postgraduate"];
+const levelOrder = ['Undergraduate', 'Foundation', 'Graduate Certificate', 'Graduate Diploma', 'Masters', 'MBA', 'PhD', 'Postgraduate'];
 
 function groupByLevel(courses: any[]) {
   const groups: Record<string, any[]> = {};
-  courses.forEach((c: any) => { if (!groups[c.level]) groups[c.level] = []; groups[c.level].push(c); });
+  courses.forEach((c: any) => { const lv = c.level || 'Other'; if (!groups[lv]) groups[lv] = []; groups[lv].push(c); });
   return groups;
 }
 
@@ -24,16 +24,18 @@ export default function CoursesPage() {
   const courses = dcuCourses as unknown as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const pgCourses = courses.filter((c: any) => c.studyLevel === 'Masters' || c.studyLevel === 'Postgraduate');
+  const pgCourses = courses.filter((c: any) => c.studyLevel !== 'Undergraduate');
   const avgFee = pgCourses.length
-    ? Math.round(pgCourses.reduce((s: number, c: any) => s + c.annualEUR, 0) / pgCourses.length)
-    : Math.round(courses.reduce((s: number, c: any) => s + c.annualEUR, 0) / (totalCourses || 1));
+    ? Math.round(pgCourses.reduce((s: number, c: any) => s + (c.annualEUR || c.annualUSD || 0), 0) / pgCourses.length)
+    : Math.round(courses.reduce((s: number, c: any) => s + (c.annualEUR || c.annualUSD || 0), 0) / (totalCourses || 1));
+  const feeINRLakh = (avgFee * 90 / 100000).toFixed(1);
 
   const schema = {
     '@context': 'https://schema.org', '@type': 'CollegeOrUniversity',
-    name: 'Dublin City University', sameAs: 'https://www.dcu.ie',
-    address: { '@type': 'PostalAddress', addressLocality: 'Dublin', addressRegion: 'Leinster', addressCountry: 'IE' },
+    name: 'Dublin City University', sameAs: 'https://www.dcu.ie', url: 'https://www.dcu.ie',
   };
+  const orderedGroups = levelOrder.filter(l => groups[l]).map(l => [l, groups[l]]);
+  const allGroups = [...orderedGroups, ...Object.keys(groups).filter(l => !levelOrder.includes(l)).map(l => [l, groups[l]])] as [string, any[]][];
 
   return (
     <>
@@ -43,92 +45,46 @@ export default function CoursesPage() {
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4">
             <Link href="/" className="hover:text-white">Home</Link> /
             <Link href="/universities" className="hover:text-white">Universities</Link> /
-            <Link href="/universities/country/ireland" className="hover:text-white">Ireland</Link> /
-            <span className="text-white">DCU</span>
+            <Link href="/universities/dublin-city-university" className="hover:text-white">DCU</Link> /
+            <span>Courses</span>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
-            <div className="lg:col-span-2">
-              <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                ðŸ‡®ðŸ‡ª Dublin, Ireland Â· QS 501+ World Ranking
-              </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                Dublin City University â€” International Courses
-              </h1>
-              <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs Â· Avg â‚¬{avgFee.toLocaleString()}/yr Â· IELTS 6+ Â· September intakes
-              </p>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                {[
-                  { label: 'Total Courses', value: totalCourses },
-                  { label: 'QS Ranking', value: 'QS 501+' },
-                  { label: 'Avg PG Fee', value: `â‚¬${Math.round(avgFee/1000)}K` },
-                  { label: 'Campus', value: 'Dublin' },
-                ].map(s => (
-                  <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
-                    <p className="text-xl font-bold">{s.value}</p>
-                    <p className="text-xs text-blue-200 mt-1">{s.label}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="bg-white rounded-2xl p-5">
-              <LeadForm source="dcu-courses-index" defaultCountry="Ireland" compact />
-            </div>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">Dublin City University</h1>
+          <p className="text-blue-100 text-lg mb-6">{totalCourses} Programs · Dublin, Ireland · IELTS 6.0–7.0+</p>
+          <div className="flex flex-wrap gap-4">
+            <div className="bg-white/10 rounded-xl px-5 py-3 text-center"><div className="text-2xl font-bold">{totalCourses}</div><div className="text-blue-200 text-xs">Courses</div></div>
+            <div className="bg-white/10 rounded-xl px-5 py-3 text-center"><div className="text-2xl font-bold">€{avgFee.toLocaleString()}</div><div className="text-blue-200 text-xs">Avg PG Fee/year</div></div>
+            <div className="bg-white/10 rounded-xl px-5 py-3 text-center"><div className="text-2xl font-bold">₹{feeINRLakh}L</div><div className="text-blue-200 text-xs">Avg Fee (INR)</div></div>
           </div>
         </div>
       </section>
-
-      <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-4 gap-8">
-        <div className="lg:col-span-3 space-y-10">
-          {Object.entries(groups)
-            .sort(([a], [b]) => levelOrder.indexOf(a) - levelOrder.indexOf(b))
-            .map(([level, lvCourses]) => (
-            <div key={level}>
-              <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                {level} Programs
-                <span className="text-xs bg-brand-100 text-brand-700 px-2 py-1 rounded-full font-normal">{(lvCourses as any[]).length}</span>
-              </h2>
-              <div className="space-y-3">
-                {(lvCourses as any[]).sort((a: any, b: any) => a.name.localeCompare(b.name)).map((c: any) => (
-                  <Link key={c.slug} href={`/universities/dublin-city-university/courses/${c.slug}`}
-                    className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
-                    <div className="flex-1 min-w-0">
-                      <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{c.duration} Â· {c.intakeMonths.join(' & ')} Â· {c.campus}</p>
-                    </div>
-                    <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">{`â‚¬${c.annualEUR.toLocaleString()}/yr`}</p>
-                      <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        {allGroups.map(([level, levelCourses]) => (
+          <div key={level} className="mb-10">
+            <h2 className="text-xl font-bold text-gray-900 mb-4 flex items-center gap-3">
+              <span className="bg-brand-100 text-brand-700 px-3 py-1 rounded-full text-sm">{level}</span>
+              <span className="text-gray-500 text-sm font-normal">{levelCourses.length} programs</span>
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {levelCourses.map((course: any) => {
+                const fee = course.annualEUR || course.annualUSD || 0;
+                return (
+                  <Link key={course.id} href={`/universities/dublin-city-university/courses/${course.slug}`}
+                    className="block bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md hover:border-brand-200 transition-all group">
+                    <h3 className="font-semibold text-gray-900 group-hover:text-brand-700 transition-colors mb-2 text-sm leading-snug">{course.name}</h3>
+                    <div className="flex flex-wrap gap-2 text-xs">
+                      <span className="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{course.level}</span>
+                      <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">€{fee.toLocaleString()}/yr</span>
+                      <span className="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {course.ieltsMin}+</span>
+                      <span className="bg-orange-50 text-orange-700 px-2 py-0.5 rounded-full">{course.duration}</span>
                     </div>
                   </Link>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-        <div>
-          <div className="sticky top-20 space-y-5">
-            <LeadForm source="dcu-courses-sidebar" defaultCountry="Ireland" />
-            <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts â€” DCU</h3>
-              {[
-                ['Established', '1989'],
-                ['Location', 'Dublin, Ireland'],
-                ['IELTS Min', '6 overall'],
-                ['Intakes', 'September'],
-                ['Work Rights', '20 hrs/week (term)'],
-                ['Post-Study Visa', 'Ireland Graduate Visa (2 yrs)'],
-              ].map(([k, v]) => (
-                <div key={k} className="flex justify-between py-2 border-b border-gray-50 last:border-0 text-xs">
-                  <span className="text-gray-500">{k}</span>
-                  <span className="font-semibold text-gray-900">{v}</span>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
-        </div>
-      </div>
+        ))}
+      </section>
+      <section className="bg-brand-50 py-12 px-4"><div className="max-w-2xl mx-auto"><h2 className="text-2xl font-bold text-center text-brand-900 mb-2">Apply to DCU</h2><p className="text-center text-gray-600 mb-6">Get free expert guidance from Jaivik Overseas Consultants</p><LeadForm /></div></section>
     </>
   );
 }
-
