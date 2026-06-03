@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for Sorbonne University
 // Generated: 2026-06-03
 
-export interface SorbonneUniversityCourse {
+export interface SorbonneCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,7 +11,7 @@ export interface SorbonneUniversityCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const sorbonneUniversityCourses: SorbonneUniversityCourse[] = [
+export const sorbonneCourses: SorbonneCourse[] = [
   {
     "id": "sorbonne-1",
     "name": "MSc Mathematics",
@@ -1050,6 +1050,6 @@ export const sorbonneUniversityCourses: SorbonneUniversityCourse[] = [
   }
 ];
 
-export function getSorbonneUniversityCourseBySlug(slug: string): SorbonneUniversityCourse | undefined {
-  return sorbonneUniversityCourses.find(c => c.slug === slug);
+export function getSorbonneCourseBySlug(slug: string): SorbonneCourse | undefined {
+  return sorbonneCourses.find(c => c.slug === slug);
 }

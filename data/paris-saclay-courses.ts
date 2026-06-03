@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for Université Paris-Saclay
 // Generated: 2026-06-03
 
-export interface UniversityOfParisSaclayCourse {
+export interface ParisSaclayCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,9 +11,9 @@ export interface UniversityOfParisSaclayCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
+export const parissaclayCourses: ParisSaclayCourse[] = [
   {
-    "id": "parissaclay-1",
+    "id": "paris-saclay-1",
     "name": "MSc Computer Science",
     "slug": "paris-saclay-msc-computer-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -41,7 +41,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-2",
+    "id": "paris-saclay-2",
     "name": "MSc Advanced Computer Science",
     "slug": "paris-saclay-msc-advanced-computer-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -69,7 +69,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-3",
+    "id": "paris-saclay-3",
     "name": "MSc Data Science",
     "slug": "paris-saclay-msc-data-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -97,7 +97,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-4",
+    "id": "paris-saclay-4",
     "name": "MSc Artificial Intelligence",
     "slug": "paris-saclay-msc-artificial-intelligence",
     "url": "https://www.universite-paris-saclay.fr",
@@ -125,7 +125,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-5",
+    "id": "paris-saclay-5",
     "name": "MSc Machine Learning",
     "slug": "paris-saclay-msc-machine-learning",
     "url": "https://www.universite-paris-saclay.fr",
@@ -153,7 +153,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-6",
+    "id": "paris-saclay-6",
     "name": "MSc Cyber Security",
     "slug": "paris-saclay-msc-cyber-security",
     "url": "https://www.universite-paris-saclay.fr",
@@ -181,7 +181,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-7",
+    "id": "paris-saclay-7",
     "name": "MSc Software Engineering",
     "slug": "paris-saclay-msc-software-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -209,7 +209,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-8",
+    "id": "paris-saclay-8",
     "name": "MSc Cloud Computing",
     "slug": "paris-saclay-msc-cloud-computing",
     "url": "https://www.universite-paris-saclay.fr",
@@ -237,7 +237,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-9",
+    "id": "paris-saclay-9",
     "name": "MSc Human Computer Interaction",
     "slug": "paris-saclay-msc-human-computer-interaction",
     "url": "https://www.universite-paris-saclay.fr",
@@ -265,7 +265,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-10",
+    "id": "paris-saclay-10",
     "name": "MSc Information Systems Management",
     "slug": "paris-saclay-msc-information-systems-management",
     "url": "https://www.universite-paris-saclay.fr",
@@ -293,7 +293,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-11",
+    "id": "paris-saclay-11",
     "name": "MSc Digital Innovation",
     "slug": "paris-saclay-msc-digital-innovation",
     "url": "https://www.universite-paris-saclay.fr",
@@ -321,7 +321,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-12",
+    "id": "paris-saclay-12",
     "name": "MSc Applied Data Science",
     "slug": "paris-saclay-msc-applied-data-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -349,7 +349,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-13",
+    "id": "paris-saclay-13",
     "name": "MSc Mechanical Engineering",
     "slug": "paris-saclay-msc-mechanical-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -377,7 +377,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-14",
+    "id": "paris-saclay-14",
     "name": "MSc Civil Engineering",
     "slug": "paris-saclay-msc-civil-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -405,7 +405,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-15",
+    "id": "paris-saclay-15",
     "name": "MSc Electrical Engineering",
     "slug": "paris-saclay-msc-electrical-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -433,7 +433,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-16",
+    "id": "paris-saclay-16",
     "name": "MSc Chemical Engineering",
     "slug": "paris-saclay-msc-chemical-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -461,7 +461,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-17",
+    "id": "paris-saclay-17",
     "name": "MSc Biomedical Engineering",
     "slug": "paris-saclay-msc-biomedical-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -489,7 +489,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-18",
+    "id": "paris-saclay-18",
     "name": "MSc Environmental Engineering",
     "slug": "paris-saclay-msc-environmental-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -517,7 +517,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-19",
+    "id": "paris-saclay-19",
     "name": "MSc Materials Science",
     "slug": "paris-saclay-msc-materials-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -545,7 +545,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-20",
+    "id": "paris-saclay-20",
     "name": "MSc Sustainable Energy Systems",
     "slug": "paris-saclay-msc-sustainable-energy-systems",
     "url": "https://www.universite-paris-saclay.fr",
@@ -573,7 +573,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-21",
+    "id": "paris-saclay-21",
     "name": "MSc Robotics and Automation",
     "slug": "paris-saclay-msc-robotics-and-automation",
     "url": "https://www.universite-paris-saclay.fr",
@@ -601,7 +601,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-22",
+    "id": "paris-saclay-22",
     "name": "MSc Engineering Management",
     "slug": "paris-saclay-msc-engineering-management",
     "url": "https://www.universite-paris-saclay.fr",
@@ -629,7 +629,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-23",
+    "id": "paris-saclay-23",
     "name": "MSc Aerospace Engineering",
     "slug": "paris-saclay-msc-aerospace-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -657,7 +657,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-24",
+    "id": "paris-saclay-24",
     "name": "MSc Mathematics",
     "slug": "paris-saclay-msc-mathematics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -685,7 +685,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-25",
+    "id": "paris-saclay-25",
     "name": "MSc Applied Mathematics",
     "slug": "paris-saclay-msc-applied-mathematics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -713,7 +713,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-26",
+    "id": "paris-saclay-26",
     "name": "MSc Statistics",
     "slug": "paris-saclay-msc-statistics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -741,7 +741,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-27",
+    "id": "paris-saclay-27",
     "name": "MSc Physics",
     "slug": "paris-saclay-msc-physics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -769,7 +769,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-28",
+    "id": "paris-saclay-28",
     "name": "MSc Chemistry",
     "slug": "paris-saclay-msc-chemistry",
     "url": "https://www.universite-paris-saclay.fr",
@@ -797,7 +797,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-29",
+    "id": "paris-saclay-29",
     "name": "MSc Biochemistry",
     "slug": "paris-saclay-msc-biochemistry",
     "url": "https://www.universite-paris-saclay.fr",
@@ -825,7 +825,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-30",
+    "id": "paris-saclay-30",
     "name": "MSc Environmental Science",
     "slug": "paris-saclay-msc-environmental-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -853,7 +853,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-31",
+    "id": "paris-saclay-31",
     "name": "MSc Bioinformatics",
     "slug": "paris-saclay-msc-bioinformatics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -881,7 +881,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-32",
+    "id": "paris-saclay-32",
     "name": "MSc Marine Science",
     "slug": "paris-saclay-msc-marine-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -909,7 +909,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-33",
+    "id": "paris-saclay-33",
     "name": "MSc Genetics",
     "slug": "paris-saclay-msc-genetics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -937,7 +937,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-34",
+    "id": "paris-saclay-34",
     "name": "MSc Nanotechnology",
     "slug": "paris-saclay-msc-nanotechnology",
     "url": "https://www.universite-paris-saclay.fr",
@@ -965,7 +965,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-35",
+    "id": "paris-saclay-35",
     "name": "MSc Photonics",
     "slug": "paris-saclay-msc-photonics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -993,7 +993,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-36",
+    "id": "paris-saclay-36",
     "name": "MSc Mathematics and Applications",
     "slug": "paris-saclay-msc-mathematics-and-applications",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1021,7 +1021,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-37",
+    "id": "paris-saclay-37",
     "name": "MSc Theoretical Physics",
     "slug": "paris-saclay-msc-theoretical-physics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1049,7 +1049,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-38",
+    "id": "paris-saclay-38",
     "name": "BSc Computer Science",
     "slug": "paris-saclay-bsc-computer-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1077,7 +1077,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-39",
+    "id": "paris-saclay-39",
     "name": "BSc Data Science",
     "slug": "paris-saclay-bsc-data-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1105,7 +1105,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-40",
+    "id": "paris-saclay-40",
     "name": "BSc Artificial Intelligence",
     "slug": "paris-saclay-bsc-artificial-intelligence",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1133,7 +1133,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-41",
+    "id": "paris-saclay-41",
     "name": "BSc Cyber Security",
     "slug": "paris-saclay-bsc-cyber-security",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1161,7 +1161,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-42",
+    "id": "paris-saclay-42",
     "name": "BSc Software Engineering",
     "slug": "paris-saclay-bsc-software-engineering",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1189,7 +1189,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-43",
+    "id": "paris-saclay-43",
     "name": "BSc Mathematics",
     "slug": "paris-saclay-bsc-mathematics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1217,7 +1217,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-44",
+    "id": "paris-saclay-44",
     "name": "BSc Physics",
     "slug": "paris-saclay-bsc-physics",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1245,7 +1245,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-45",
+    "id": "paris-saclay-45",
     "name": "BSc Chemistry",
     "slug": "paris-saclay-bsc-chemistry",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1273,7 +1273,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-46",
+    "id": "paris-saclay-46",
     "name": "BSc Biology",
     "slug": "paris-saclay-bsc-biology",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1301,7 +1301,7 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
     "livingCostUSD": 16200
   },
   {
-    "id": "parissaclay-47",
+    "id": "paris-saclay-47",
     "name": "BSc Environmental Science",
     "slug": "paris-saclay-bsc-environmental-science",
     "url": "https://www.universite-paris-saclay.fr",
@@ -1330,6 +1330,6 @@ export const universityOfParisSaclayCourses: UniversityOfParisSaclayCourse[] = [
   }
 ];
 
-export function getUniversityOfParisSaclayCourseBySlug(slug: string): UniversityOfParisSaclayCourse | undefined {
-  return universityOfParisSaclayCourses.find(c => c.slug === slug);
+export function getParisSaclayCourseBySlug(slug: string): ParisSaclayCourse | undefined {
+  return parissaclayCourses.find(c => c.slug === slug);
 }

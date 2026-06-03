@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for University of Amsterdam
 // Generated: 2026-06-03
 
-export interface UniversityOfAmsterdamCourse {
+export interface AmsterdamCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,7 +11,7 @@ export interface UniversityOfAmsterdamCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const universityOfAmsterdamCourses: UniversityOfAmsterdamCourse[] = [
+export const amsterdamCourses: AmsterdamCourse[] = [
   {
     "id": "amsterdam-1",
     "name": "MSc Computer Science",
@@ -1658,6 +1658,6 @@ export const universityOfAmsterdamCourses: UniversityOfAmsterdamCourse[] = [
   }
 ];
 
-export function getUniversityOfAmsterdamCourseBySlug(slug: string): UniversityOfAmsterdamCourse | undefined {
-  return universityOfAmsterdamCourses.find(c => c.slug === slug);
+export function getAmsterdamCourseBySlug(slug: string): AmsterdamCourse | undefined {
+  return amsterdamCourses.find(c => c.slug === slug);
 }

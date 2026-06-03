@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for Khalifa University
 // Generated: 2026-06-03
 
-export interface KhalifaUniversityCourse {
+export interface KhalifaCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualUSD: number; annualINR: number; totalUSD: number;
@@ -11,7 +11,7 @@ export interface KhalifaUniversityCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const khalifaUniversityCourses: KhalifaUniversityCourse[] = [
+export const khalifaCourses: KhalifaCourse[] = [
   {
     "id": "khalifa-1",
     "name": "MSc Mechanical Engineering",
@@ -922,6 +922,6 @@ export const khalifaUniversityCourses: KhalifaUniversityCourse[] = [
   }
 ];
 
-export function getKhalifaUniversityCourseBySlug(slug: string): KhalifaUniversityCourse | undefined {
-  return khalifaUniversityCourses.find(c => c.slug === slug);
+export function getKhalifaCourseBySlug(slug: string): KhalifaCourse | undefined {
+  return khalifaCourses.find(c => c.slug === slug);
 }

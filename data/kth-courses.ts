@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for KTH Royal Institute of Technology
 // Generated: 2026-06-03
 
-export interface KthRoyalInstituteOfTechnologyCourse {
+export interface KthCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,7 +11,7 @@ export interface KthRoyalInstituteOfTechnologyCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const kthRoyalInstituteOfTechnologyCourses: KthRoyalInstituteOfTechnologyCourse[] = [
+export const kthCourses: KthCourse[] = [
   {
     "id": "kth-1",
     "name": "MSc Mechanical Engineering",
@@ -1078,6 +1078,6 @@ export const kthRoyalInstituteOfTechnologyCourses: KthRoyalInstituteOfTechnology
   }
 ];
 
-export function getKthRoyalInstituteOfTechnologyCourseBySlug(slug: string): KthRoyalInstituteOfTechnologyCourse | undefined {
-  return kthRoyalInstituteOfTechnologyCourses.find(c => c.slug === slug);
+export function getKthCourseBySlug(slug: string): KthCourse | undefined {
+  return kthCourses.find(c => c.slug === slug);
 }

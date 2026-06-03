@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for Lund University
 // Generated: 2026-06-03
 
-export interface LundUniversityCourse {
+export interface LundCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,7 +11,7 @@ export interface LundUniversityCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const lundUniversityCourses: LundUniversityCourse[] = [
+export const lundCourses: LundCourse[] = [
   {
     "id": "lund-1",
     "name": "MSc Computer Science",
@@ -1666,6 +1666,6 @@ export const lundUniversityCourses: LundUniversityCourse[] = [
   }
 ];
 
-export function getLundUniversityCourseBySlug(slug: string): LundUniversityCourse | undefined {
-  return lundUniversityCourses.find(c => c.slug === slug);
+export function getLundCourseBySlug(slug: string): LundCourse | undefined {
+  return lundCourses.find(c => c.slug === slug);
 }

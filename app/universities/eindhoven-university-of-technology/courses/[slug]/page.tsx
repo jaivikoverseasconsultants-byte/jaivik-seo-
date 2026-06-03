@@ -1,26 +1,26 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { technicalUniversityOfDenmarkCourses, getTechnicalUniversityOfDenmarkCourseBySlug } from '@/data/technical-university-of-denmark-courses';
+import { eindhovenCourses, getEindhovenCourseBySlug } from '@/data/eindhoven-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export function generateStaticParams() {
-  return technicalUniversityOfDenmarkCourses.map(c => ({ slug: c.slug }));
+  return eindhovenCourses.map(c => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const course = getTechnicalUniversityOfDenmarkCourseBySlug(slug);
+  const course = getEindhovenCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Technical University of Denmark 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Technical University of Denmark: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
-    path: `/universities/technical-university-of-denmark/courses/${slug}`,
-    keywords: [course.name, 'Technical University of Denmark', 'study in Denmark', course.level],
+    title: `${course.name} at Eindhoven University of Technology 2026 – Fees, IELTS & Requirements`,
+    description: `${course.name} at Eindhoven University of Technology: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    path: `/universities/eindhoven-university-of-technology/courses/${slug}`,
+    keywords: [course.name, 'Eindhoven University of Technology', 'study in Netherlands', course.level],
   });
 }
 
@@ -28,7 +28,7 @@ export default async function CourseDetailPage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const course = getTechnicalUniversityOfDenmarkCourseBySlug(slug);
+  const course = getEindhovenCourseBySlug(slug);
   if (!course) notFound();
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -37,7 +37,7 @@ export default async function CourseDetailPage(
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: course.name,
-    provider: { '@type': 'CollegeOrUniversity', name: 'Technical University of Denmark', sameAs: 'https://www.dtu.dk' },
+    provider: { '@type': 'CollegeOrUniversity', name: 'Eindhoven University of Technology' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
@@ -50,13 +50,13 @@ export default async function CourseDetailPage(
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 flex-wrap">
             <Link href="/" className="hover:text-white">Home</Link> /
-            <Link href="/universities/technical-university-of-denmark/courses" className="hover:text-white">DTU</Link> /
+            <Link href="/universities/eindhoven-university-of-technology/courses" className="hover:text-white">TU/e</Link> /
             <span className="text-white">{course.name}</span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇩🇰 Technical University of Denmark · Kongens Lyngby, Denmark
+                🇳🇱 Eindhoven University of Technology · Eindhoven, Netherlands
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
@@ -74,7 +74,7 @@ export default async function CourseDetailPage(
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source="technical-university-of-denmark-${slug}" defaultCountry="Denmark" compact />
+              <LeadForm source="eindhoven-university-of-technology-${slug}" defaultCountry="Netherlands" compact />
             </div>
           </div>
         </div>
@@ -86,11 +86,11 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {[
-                ['University', 'Technical University of Denmark'],
+                ['University', 'Eindhoven University of Technology'],
                 ['Level', course.level],
                 ['Duration', course.duration],
                 ['Campus', course.campus],
-                ['Country', 'Denmark'],
+                ['Country', 'Netherlands'],
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['IELTS Minimum', `${course.ieltsMin} overall`],
                 ['TOEFL Minimum', `${course.toeflMin}+`],
@@ -108,14 +108,14 @@ export default async function CourseDetailPage(
 
           <div className="bg-brand-50 rounded-2xl p-6">
             <h2 className="font-bold text-gray-900 mb-3">Need Help Applying?</h2>
-            <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Denmark. Free 30-min session.</p>
+            <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Netherlands. Free 30-min session.</p>
             <Link href="/book-counselling" className="btn-gold inline-block">Book Free Counselling →</Link>
           </div>
         </div>
 
         <div>
           <div className="sticky top-20">
-            <LeadForm source="technical-university-of-denmark-detail-sidebar" defaultCountry="Denmark" />
+            <LeadForm source="eindhoven-university-of-technology-detail-sidebar" defaultCountry="Netherlands" />
           </div>
         </div>
       </div>

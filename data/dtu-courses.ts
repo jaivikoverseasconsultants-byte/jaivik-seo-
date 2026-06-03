@@ -1,7 +1,7 @@
-// Real course data
+// Real course data for Technical University of Denmark
 // Generated: 2026-06-03
 
-export interface TechnicalUniversityOfDenmarkCourse {
+export interface DtuCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,7 +11,7 @@ export interface TechnicalUniversityOfDenmarkCourse {
   country: string; state: string; city: string; countryCode: string;
 }
 
-export const technicalUniversityOfDenmarkCourses: TechnicalUniversityOfDenmarkCourse[] = [
+export const dtuCourses: DtuCourse[] = [
   {
     "id": "dtu-1",
     "name": "MSc Mechanical Engineering",
@@ -1022,6 +1022,6 @@ export const technicalUniversityOfDenmarkCourses: TechnicalUniversityOfDenmarkCo
   }
 ];
 
-export function getTechnicalUniversityOfDenmarkCourseBySlug(slug: string): TechnicalUniversityOfDenmarkCourse | undefined {
-  return technicalUniversityOfDenmarkCourses.find(c => c.slug === slug);
+export function getDtuCourseBySlug(slug: string): DtuCourse | undefined {
+  return dtuCourses.find(c => c.slug === slug);
 }

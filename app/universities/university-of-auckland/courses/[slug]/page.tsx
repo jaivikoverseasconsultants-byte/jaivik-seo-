@@ -1,26 +1,26 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { technicalUniversityOfDenmarkCourses, getTechnicalUniversityOfDenmarkCourseBySlug } from '@/data/technical-university-of-denmark-courses';
+import { aucklandCourses, getAucklandCourseBySlug } from '@/data/auckland-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export function generateStaticParams() {
-  return technicalUniversityOfDenmarkCourses.map(c => ({ slug: c.slug }));
+  return aucklandCourses.map(c => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const course = getTechnicalUniversityOfDenmarkCourseBySlug(slug);
+  const course = getAucklandCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Technical University of Denmark 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Technical University of Denmark: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
-    path: `/universities/technical-university-of-denmark/courses/${slug}`,
-    keywords: [course.name, 'Technical University of Denmark', 'study in Denmark', course.level],
+    title: `${course.name} at University of Auckland 2026 – Fees, IELTS & Requirements`,
+    description: `${course.name} at University of Auckland: ${course.duration}, NZ$${course.annualNZD.toLocaleString()}/NZD/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    path: `/universities/university-of-auckland/courses/${slug}`,
+    keywords: [course.name, 'University of Auckland', 'study in New Zealand', course.level],
   });
 }
 
@@ -28,7 +28,7 @@ export default async function CourseDetailPage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const course = getTechnicalUniversityOfDenmarkCourseBySlug(slug);
+  const course = getAucklandCourseBySlug(slug);
   if (!course) notFound();
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -37,7 +37,7 @@ export default async function CourseDetailPage(
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: course.name,
-    provider: { '@type': 'CollegeOrUniversity', name: 'Technical University of Denmark', sameAs: 'https://www.dtu.dk' },
+    provider: { '@type': 'CollegeOrUniversity', name: 'University of Auckland' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
@@ -50,18 +50,18 @@ export default async function CourseDetailPage(
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 flex-wrap">
             <Link href="/" className="hover:text-white">Home</Link> /
-            <Link href="/universities/technical-university-of-denmark/courses" className="hover:text-white">DTU</Link> /
+            <Link href="/universities/university-of-auckland/courses" className="hover:text-white">UoA</Link> /
             <span className="text-white">{course.name}</span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇩🇰 Technical University of Denmark · Kongens Lyngby, Denmark
+                🇳🇿 University of Auckland · Auckland, New Zealand
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
                 {[
-                  { label: 'Annual Fee', value: `€${course.annualEUR.toLocaleString()}` },
+                  { label: 'Annual Fee', value: `NZ$${course.annualNZD.toLocaleString()}` },
                   { label: 'Fee (INR)', value: `₹${feeINRLakh}L/yr` },
                   { label: 'Duration', value: course.duration },
                   { label: 'IELTS Min', value: `${course.ieltsMin}+` },
@@ -74,7 +74,7 @@ export default async function CourseDetailPage(
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source="technical-university-of-denmark-${slug}" defaultCountry="Denmark" compact />
+              <LeadForm source="university-of-auckland-${slug}" defaultCountry="New Zealand" compact />
             </div>
           </div>
         </div>
@@ -86,15 +86,15 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {[
-                ['University', 'Technical University of Denmark'],
+                ['University', 'University of Auckland'],
                 ['Level', course.level],
                 ['Duration', course.duration],
                 ['Campus', course.campus],
-                ['Country', 'Denmark'],
+                ['Country', 'New Zealand'],
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['IELTS Minimum', `${course.ieltsMin} overall`],
                 ['TOEFL Minimum', `${course.toeflMin}+`],
-                ['Annual Fee (EUR)', `€${course.annualEUR.toLocaleString()}`],
+                ['Annual Fee (NZD)', `NZ$${course.annualNZD.toLocaleString()}`],
                 ['Annual Fee (USD)', `$${course.annualUSD.toLocaleString()}`],
                 ['Annual Fee (INR)', `₹${(course.annualINR/100000).toFixed(1)}L`],
               ].map(([k, v]) => (
@@ -108,14 +108,14 @@ export default async function CourseDetailPage(
 
           <div className="bg-brand-50 rounded-2xl p-6">
             <h2 className="font-bold text-gray-900 mb-3">Need Help Applying?</h2>
-            <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Denmark. Free 30-min session.</p>
+            <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in New Zealand. Free 30-min session.</p>
             <Link href="/book-counselling" className="btn-gold inline-block">Book Free Counselling →</Link>
           </div>
         </div>
 
         <div>
           <div className="sticky top-20">
-            <LeadForm source="technical-university-of-denmark-detail-sidebar" defaultCountry="Denmark" />
+            <LeadForm source="university-of-auckland-detail-sidebar" defaultCountry="New Zealand" />
           </div>
         </div>
       </div>
