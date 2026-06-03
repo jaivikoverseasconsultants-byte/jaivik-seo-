@@ -28,7 +28,7 @@ export default function CoursesPage() {
   const courses = halmstadUniversityCourses as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualSEK, 0) / totalCourses);
+  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualUSD, 0) / totalCourses);
 
   const schema = {
     '@context': 'https://schema.org',
@@ -62,7 +62,7 @@ export default function CoursesPage() {
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: 'Top University' },
-                  { label: 'Avg Fee', value: `SEK ${Math.round(avgFee / 1000)}K` },
+                  { label: 'Avg Fee', value: `USD ${Math.round(avgFee / 1000)}K` },
                   { label: 'Campus', value: 'Halmstad' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -98,7 +98,7 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">SEK {c.annualSEK.toLocaleString()}/yr</p>
+                      <p className="text-sm font-bold text-brand-700">${c.annualUSD.toLocaleString()}/yr</p>
                       <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                     </div>
                   </Link>

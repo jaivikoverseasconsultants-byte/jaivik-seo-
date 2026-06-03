@@ -18,7 +18,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at Mälardalen University 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Mälardalen University: ${course.duration}, SEK ${course.annualSEK.toLocaleString()}/SEK/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    description: `${course.name} at Mälardalen University: ${course.duration}, $${course.annualUSD.toLocaleString()}/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/malardalen-university/courses/${slug}`,
     keywords: [course.name, 'Mälardalen University', 'study in Sweden', course.level],
   });
@@ -61,7 +61,7 @@ export default async function CourseDetailPage(
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
                 {[
-                  { label: 'Annual Fee', value: `SEK ${course.annualSEK.toLocaleString()}` },
+                  { label: 'Annual Fee', value: `$${course.annualUSD.toLocaleString()}` },
                   { label: 'Fee (INR)', value: `₹${feeINRLakh}L/yr` },
                   { label: 'Duration', value: course.duration },
                   { label: 'IELTS Min', value: `${course.ieltsMin}+` },
@@ -94,7 +94,7 @@ export default async function CourseDetailPage(
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['IELTS Minimum', `${course.ieltsMin} overall`],
                 ['TOEFL Minimum', `${course.toeflMin}+`],
-                ['Annual Fee (SEK)', `SEK ${course.annualSEK.toLocaleString()}`],
+                ['Annual Fee (USD)', `$${course.annualUSD.toLocaleString()}`],
                 ['Annual Fee (USD)', `$${course.annualUSD.toLocaleString()}`],
                 ['Annual Fee (INR)', `₹${(course.annualINR/100000).toFixed(1)}L`],
               ].map(([k, v]) => (
