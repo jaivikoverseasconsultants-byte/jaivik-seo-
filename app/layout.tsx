@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ExitIntentPopup from '@/components/ExitIntentPopup';
 
 export const metadata: Metadata = {
   title: 'Jaivik Overseas Consultants | Study Abroad from India',
@@ -27,6 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+
+        <ExitIntentPopup />
 
         {/* Floating WhatsApp button */}
         <a
