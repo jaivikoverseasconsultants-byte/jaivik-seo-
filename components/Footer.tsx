@@ -76,6 +76,8 @@ export default function Footer() {
               <li><Link href="/scholarships" className="hover:text-white">Scholarships</Link></li>
               <li><Link href="/course-finder" className="hover:text-white">Course Finder Tool</Link></li>
               <li><Link href="/blog" className="hover:text-white">Study Abroad Blog</Link></li>
+              <li><Link href="/visa-guide" className="hover:text-white">Visa Guides 2026</Link></li>
+              <li><Link href="/cost-of-living" className="hover:text-white">Cost of Living Abroad</Link></li>
               <li><Link href="/mock-test" className="hover:text-white">Free IELTS Mock Test</Link></li>
               <li><Link href="/book-counselling" className="hover:text-white">Book Free Counselling</Link></li>
             </ul>
