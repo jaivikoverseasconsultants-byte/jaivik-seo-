@@ -1,5 +1,5 @@
 // Real course data
-// Generated: 2026-06-03
+// Generated: 2026-06-04 (rebuild)
 
 export interface TechnicalUniversityOfDenmarkCourse {
   id: string; name: string; slug: string; url: string;

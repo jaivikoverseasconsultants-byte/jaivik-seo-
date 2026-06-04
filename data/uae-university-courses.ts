@@ -1,5 +1,5 @@
 // Real course data for United Arab Emirates University
-// Generated: 2026-06-03
+// Generated: 2026-06-04 (rebuild)
 
 export interface UaeUniversityCourse {
   id: string; name: string; slug: string; url: string;
