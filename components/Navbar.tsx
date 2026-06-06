@@ -304,8 +304,15 @@ export default function Navbar() {
               <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
               +91 99712 26347
             </a>
+            <Link href="/student-login"
+              className="ml-3 flex items-center gap-1.5 text-blue-100/80 hover:text-white text-sm font-medium px-3 py-2 rounded-xl hover:bg-white/8 transition-all border border-white/10 hover:border-white/20 whitespace-nowrap">
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+              Student Login
+            </Link>
             <Link href="/book-counselling"
-              className="ml-3 bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors whitespace-nowrap shadow-md shadow-gold-500/20">
+              className="ml-2 bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors whitespace-nowrap shadow-md shadow-gold-500/20">
               Book Free Counselling
             </Link>
           </nav>
@@ -421,11 +428,18 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <Link href="/book-counselling"
-              className="block mx-3 mt-3 text-center py-2.5 bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold rounded-xl transition-colors"
-              onClick={closeAll}>
-              Book Free Counselling →
-            </Link>
+            <div className="mx-3 mt-3 grid grid-cols-2 gap-2">
+              <Link href="/student-login"
+                className="text-center py-2.5 border border-white/15 hover:bg-white/8 text-blue-200 text-sm font-semibold rounded-xl transition-colors"
+                onClick={closeAll}>
+                👤 Student Login
+              </Link>
+              <Link href="/book-counselling"
+                className="text-center py-2.5 bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold rounded-xl transition-colors"
+                onClick={closeAll}>
+                Book Counselling
+              </Link>
+            </div>
           </div>
         )}
       </div>
