@@ -6,8 +6,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Heidelberg University International Courses â€“ Programs, Fees & IELTS 2026',
-  description: `Heidelberg University â€” ${(heidelbergCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. October & April intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: 'Heidelberg University International Courses – Programs, Fees & IELTS 2026',
+  description: `Heidelberg University — ${(heidelbergCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. October & April intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/heidelberg-university/courses',
   keywords: ['Heidelberg courses', 'Heidelberg University international', 'study in Germany', 'Germany university'],
 });
@@ -32,7 +32,7 @@ export default function CoursesPage() {
   const schema = {
     '@context': 'https://schema.org', '@type': 'CollegeOrUniversity',
     name: 'Heidelberg University', sameAs: 'https://www.uni-heidelberg.de/en/',
-    address: { '@type': 'PostalAddress', addressLocality: 'Heidelberg', addressRegion: 'Baden-WÃ¼rttemberg', addressCountry: 'DE' },
+    address: { '@type': 'PostalAddress', addressLocality: 'Heidelberg', addressRegion: 'Baden-Württemberg', addressCountry: 'DE' },
   };
 
   return (
@@ -49,19 +49,19 @@ export default function CoursesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                ðŸ‡©ðŸ‡ª Heidelberg, Germany Â· #87 QS World Ranking
+                🇩🇪 Heidelberg, Germany · #87 QS World Ranking
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                Heidelberg University â€” International Courses
+                Heidelberg University — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {total} programs Â· Avg â‚¬{avgFee.toLocaleString()}/yr Â· IELTS 6.5+ Â· October & April intakes
+                {total} programs · Avg €{avgFee.toLocaleString()}/yr · IELTS 6.5+ · October & April intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: total },
                   { label: 'QS Ranking', value: '#87 QS' },
-                  { label: 'Avg PG Fee', value: `â‚¬${Math.round(avgFee/1000)}K` },
+                  { label: 'Avg PG Fee', value: `€${Math.round(avgFee/1000)}K` },
                   { label: 'Campus', value: 'Heidelberg' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -94,10 +94,10 @@ export default function CoursesPage() {
                     className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{c.duration} Â· {c.intakeMonths.join(' & ')} Â· {c.campus}</p>
+                      <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">{`â‚¬${c.annualEUR.toLocaleString()}/yr`}</p>
+                      <p className="text-sm font-bold text-brand-700">{`€${c.annualEUR.toLocaleString()}/yr`}</p>
                       <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                     </div>
                   </Link>
@@ -110,7 +110,7 @@ export default function CoursesPage() {
           <div className="sticky top-20 space-y-5">
             <LeadForm source="heidelberg-courses-sidebar" defaultCountry="Germany" />
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts â€” Heidelberg</h3>
+              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts — Heidelberg</h3>
               {[
                 ['Established', '1386'],
                 ['Location', 'Heidelberg, Germany'],

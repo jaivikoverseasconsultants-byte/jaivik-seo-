@@ -6,10 +6,10 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UMoncton International Courses â€“ All Programs, Fees & IELTS 2026',
-  description: `UniversitÃ© de Moncton â€” ${(umonctonCourses as unknown as any[]).length} courses for international students. PGWP Eligible Â· IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: 'UMoncton International Courses – All Programs, Fees & IELTS 2026',
+  description: `Université de Moncton — ${(umonctonCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/universite-de-moncton/courses',
-  keywords: ['UMoncton courses', 'UniversitÃ© de Moncton international', 'UMoncton fees', 'study in Canada', 'Canada university', 'PGWP'],
+  keywords: ['UMoncton courses', 'Université de Moncton international', 'UMoncton fees', 'study in Canada', 'Canada university', 'PGWP'],
 });
 
 const levelOrder = ["Undergraduate","Honours Bachelor","Advanced Diploma","Graduate Certificate","Masters","Graduate Diploma","Diploma","Certificate","Foundation","PhD","Postgraduate"];
@@ -33,7 +33,7 @@ export default function CoursesPage() {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollegeOrUniversity',
-    name: 'UniversitÃ© de Moncton',
+    name: 'Université de Moncton',
     sameAs: 'https://www.umoncton.ca',
     address: { '@type': 'PostalAddress', addressLocality: 'Moncton', addressRegion: 'New Brunswick', addressCountry: 'CA' },
   };
@@ -53,20 +53,20 @@ export default function CoursesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                ðŸ‡¨ðŸ‡¦ Moncton, Canada Â· PGWP Eligible
+                🇨🇦 Moncton, Canada · PGWP Eligible
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                UniversitÃ© de Moncton â€” International Courses
+                Université de Moncton — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs Â· Avg CAD $${avgFee.toLocaleString()}/yr Â· IELTS 6+ Â· September & January intakes
+                {totalCourses} programs · Avg CAD $${avgFee.toLocaleString()}/yr · IELTS 6+ · September & January intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: 'N/A' },
                   { label: 'Avg Annual Fee', value: `$${Math.round(avgFee/1000)}K CAD` },
-                  { label: 'PGWP', value: 'Eligible âœ…' },
+                  { label: 'PGWP', value: 'Eligible ✅' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
                     <p className="text-xl font-bold">{s.value}</p>
@@ -102,7 +102,7 @@ export default function CoursesPage() {
                     className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{c.duration} Â· {c.intakeMonths.join(' & ')} Â· {c.campus}</p>
+                      <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">{`$${c.annualCAD.toLocaleString()} CAD/yr`}</p>
@@ -119,7 +119,7 @@ export default function CoursesPage() {
           <div className="sticky top-20 space-y-5">
             <LeadForm source="umoncton-courses-sidebar" defaultCountry="Canada" />
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts â€” UMoncton</h3>
+              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts — UMoncton</h3>
               {[
                 ['Established', '1963'],
                 ['Location', 'Moncton, New Brunswick'],
@@ -127,7 +127,7 @@ export default function CoursesPage() {
                 ['IELTS Min', '6 overall'],
                 ['Intakes', 'September & January'],
                 ['Work Rights', '24 hrs/week (term)'],
-                ['PGWP', 'Eligible â€” up to 3 years'],
+                ['PGWP', 'Eligible — up to 3 years'],
               ].map(([k, v]) => (
                 <div key={k} className="flex justify-between py-2 border-b border-gray-50 last:border-0 text-xs">
                   <span className="text-gray-500">{k}</span>

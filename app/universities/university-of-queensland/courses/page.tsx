@@ -6,8 +6,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Queensland International Courses â€“ All Programs, Fees & IELTS 2026',
-  description: `University of Queensland â€” ${(uqCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: 'University of Queensland International Courses – All Programs, Fees & IELTS 2026',
+  description: `University of Queensland — ${(uqCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-queensland/courses',
   keywords: ['UQ courses', 'University of Queensland international', 'UQ fees', 'study in Australia', 'Australia university'],
 });
@@ -49,13 +49,13 @@ export default function CoursesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                ðŸ‡¦ðŸ‡º Brisbane, Australia Â· #40 QS World Ranking
+                🇦🇺 Brisbane, Australia · #40 QS World Ranking
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                University of Queensland â€” International Courses
+                University of Queensland — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs Â· Avg A${avgFee.toLocaleString()}/yr Â· IELTS 6.5+ Â· February & July intakes
+                {totalCourses} programs · Avg A${avgFee.toLocaleString()}/yr · IELTS 6.5+ · February & July intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
@@ -94,7 +94,7 @@ export default function CoursesPage() {
                     className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{c.duration} Â· {c.intakeMonths.join(' & ')} Â· {c.campus}</p>
+                      <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">{`A$${c.annualAUD.toLocaleString()}/yr`}</p>
@@ -110,14 +110,14 @@ export default function CoursesPage() {
           <div className="sticky top-20 space-y-5">
             <LeadForm source="uq-courses-sidebar" defaultCountry="Australia" />
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts â€” UQ</h3>
+              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts — UQ</h3>
               {[
                 ['Established', '1909'],
                 ['Location', 'Brisbane, Australia'],
                 ['IELTS Min', '6.5 overall'],
                 ['Intakes', 'February & July'],
                 ['Work Rights', '48 hrs/fortnight (term)'],
-                ['Post-Study Visa', '485 Post-Study Work Visa (2â€“4 yrs)'],
+                ['Post-Study Visa', '485 Post-Study Work Visa (2–4 yrs)'],
               ].map(([k, v]) => (
                 <div key={k} className="flex justify-between py-2 border-b border-gray-50 last:border-0 text-xs">
                   <span className="text-gray-500">{k}</span>

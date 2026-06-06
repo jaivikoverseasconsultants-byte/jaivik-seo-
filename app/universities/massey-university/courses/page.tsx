@@ -6,8 +6,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Massey University International Courses â€“ Programs, Fees & IELTS 2026',
-  description: `Massey University â€” ${(masseyCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: 'Massey University International Courses – Programs, Fees & IELTS 2026',
+  description: `Massey University — ${(masseyCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/massey-university/courses',
   keywords: ['Massey courses', 'Massey University international', 'study in New Zealand', 'New Zealand university'],
 });
@@ -49,13 +49,13 @@ export default function CoursesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                ðŸ‡³ðŸ‡¿ Palmerston North, New Zealand Â· #401 QS World Ranking
+                🇳🇿 Palmerston North, New Zealand · #401 QS World Ranking
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                Massey University â€” International Courses
+                Massey University — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {total} programs Â· Avg NZ${avgFee.toLocaleString()}/yr Â· IELTS 6+ Â· February & July intakes
+                {total} programs · Avg NZ${avgFee.toLocaleString()}/yr · IELTS 6+ · February & July intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
@@ -94,7 +94,7 @@ export default function CoursesPage() {
                     className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
-                      <p className="text-xs text-gray-500 mt-1">{c.duration} Â· {c.intakeMonths.join(' & ')} Â· {c.campus}</p>
+                      <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">{`NZ$${c.annualNZD.toLocaleString()}/yr`}</p>
@@ -110,7 +110,7 @@ export default function CoursesPage() {
           <div className="sticky top-20 space-y-5">
             <LeadForm source="massey-courses-sidebar" defaultCountry="New Zealand" />
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
-              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts â€” Massey</h3>
+              <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts — Massey</h3>
               {[
                 ['Established', '1927'],
                 ['Location', 'Palmerston North, New Zealand'],
