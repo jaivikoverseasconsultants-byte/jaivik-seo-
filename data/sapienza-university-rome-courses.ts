@@ -1215,7 +1215,63 @@ export const sapienzaUniversityRomeCourses: SapienzaUniversityRomeCourse[] = [
     "livingCostEUR": 12500,
     "livingCostUSD": 13375,
     "livingCostINR": 1100000
-  }
+  },
+{
+  "id": "sapienza-44",
+  "name": "MSc Robotics and AI",
+  "slug": "sapienza-msc-robotics-and-ai",
+  "url": "https://www.uniroma1.it",
+  "level": "Masters",
+  "studyLevel": "Postgraduate",
+  "duration": "1 year",
+  "durationYears": 1,
+  "annualINR": 308000,
+  "ieltsMin": 6,
+  "toeflMin": 80,
+  "pteMin": 58,
+  "intakeMonths": [
+    "October"
+  ],
+  "campus": "Rome Campus",
+  "country": "Italy",
+  "state": "Lazio",
+  "city": "Rome",
+  "countryCode": "IT",
+  "annualEUR": 3500,
+  "annualUSD": 3780,
+  "totalEUR": 3500,
+  "livingCostEUR": 12500,
+  "livingCostUSD": 13500,
+  "livingCostINR": 1100000
+},
+{
+  "id": "sapienza-45",
+  "name": "MSc Natural Language Processing",
+  "slug": "sapienza-msc-natural-language-processing",
+  "url": "https://www.uniroma1.it",
+  "level": "Masters",
+  "studyLevel": "Postgraduate",
+  "duration": "1 year",
+  "durationYears": 1,
+  "annualINR": 308000,
+  "ieltsMin": 6,
+  "toeflMin": 80,
+  "pteMin": 58,
+  "intakeMonths": [
+    "October"
+  ],
+  "campus": "Rome Campus",
+  "country": "Italy",
+  "state": "Lazio",
+  "city": "Rome",
+  "countryCode": "IT",
+  "annualEUR": 3500,
+  "annualUSD": 3780,
+  "totalEUR": 3500,
+  "livingCostEUR": 12500,
+  "livingCostUSD": 13500,
+  "livingCostINR": 1100000
+}
 ];
 
 export function getSapienzaUniversityRomeCourseBySlug(slug: string): SapienzaUniversityRomeCourse | undefined {

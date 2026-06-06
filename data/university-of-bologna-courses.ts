@@ -1187,7 +1187,91 @@ export const universityOfBolognaCourses: UniversityOfBolognaCourse[] = [
     "livingCostEUR": 11000,
     "livingCostUSD": 11770,
     "livingCostINR": 968000
-  }
+  },
+{
+  "id": "unibo-43",
+  "name": "MSc Big Data Analytics",
+  "slug": "unibo-msc-big-data-analytics",
+  "url": "https://www.unibo.it",
+  "level": "Masters",
+  "studyLevel": "Postgraduate",
+  "duration": "1 year",
+  "durationYears": 1,
+  "annualINR": 334400,
+  "ieltsMin": 6,
+  "toeflMin": 80,
+  "pteMin": 58,
+  "intakeMonths": [
+    "October"
+  ],
+  "campus": "Bologna Campus",
+  "country": "Italy",
+  "state": "Emilia-Romagna",
+  "city": "Bologna",
+  "countryCode": "IT",
+  "annualEUR": 3800,
+  "annualUSD": 4104,
+  "totalEUR": 3800,
+  "livingCostEUR": 11000,
+  "livingCostUSD": 11880,
+  "livingCostINR": 968000
+},
+{
+  "id": "unibo-44",
+  "name": "MSc Computer Networks",
+  "slug": "unibo-msc-computer-networks",
+  "url": "https://www.unibo.it",
+  "level": "Masters",
+  "studyLevel": "Postgraduate",
+  "duration": "1 year",
+  "durationYears": 1,
+  "annualINR": 334400,
+  "ieltsMin": 6,
+  "toeflMin": 80,
+  "pteMin": 58,
+  "intakeMonths": [
+    "October"
+  ],
+  "campus": "Bologna Campus",
+  "country": "Italy",
+  "state": "Emilia-Romagna",
+  "city": "Bologna",
+  "countryCode": "IT",
+  "annualEUR": 3800,
+  "annualUSD": 4104,
+  "totalEUR": 3800,
+  "livingCostEUR": 11000,
+  "livingCostUSD": 11880,
+  "livingCostINR": 968000
+},
+{
+  "id": "unibo-45",
+  "name": "MSc Robotics and AI",
+  "slug": "unibo-msc-robotics-and-ai",
+  "url": "https://www.unibo.it",
+  "level": "Masters",
+  "studyLevel": "Postgraduate",
+  "duration": "1 year",
+  "durationYears": 1,
+  "annualINR": 334400,
+  "ieltsMin": 6,
+  "toeflMin": 80,
+  "pteMin": 58,
+  "intakeMonths": [
+    "October"
+  ],
+  "campus": "Bologna Campus",
+  "country": "Italy",
+  "state": "Emilia-Romagna",
+  "city": "Bologna",
+  "countryCode": "IT",
+  "annualEUR": 3800,
+  "annualUSD": 4104,
+  "totalEUR": 3800,
+  "livingCostEUR": 11000,
+  "livingCostUSD": 11880,
+  "livingCostINR": 968000
+}
 ];
 
 export function getUniversityOfBolognaCourseBySlug(slug: string): UniversityOfBolognaCourse | undefined {

@@ -1,4 +1,4 @@
-// Real course data for United Arab Emirates University
+﻿// Real course data for United Arab Emirates University
 // Generated: 2026-06-04 (rebuild)
 
 export interface UaeUniversityCourse {
@@ -976,9 +976,8 @@ export const uaeuniversityCourses: UaeUniversityCourse[] = [
   }
 ];
 
+export const uaeUniversityCourses = uaeuniversityCourses;
+
 export function getUaeUniversityCourseBySlug(slug: string): UaeUniversityCourse | undefined {
   return uaeuniversityCourses.find(c => c.slug === slug);
 }
-
-// Backward-compat alias
-export const uaeUniversityCourses = uaeuniversityCourses;

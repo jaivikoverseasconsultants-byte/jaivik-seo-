@@ -1,4 +1,4 @@
-// Real course data
+﻿// Real course data
 // Generated: 2026-06-04 (rebuild)
 
 export interface TechnicalUniversityOfDenmarkCourse {

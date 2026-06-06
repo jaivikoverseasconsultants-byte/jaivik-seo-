@@ -1287,7 +1287,36 @@ export const hertfordshireCourses = [
     "state": "England",
     "city": "Hatfield",
     "countryCode": "GB"
-  }
+  },
+{
+  "id": "herts-1",
+  "name": "MSc Advanced Computer Science",
+  "slug": "herts-msc-advanced-computer-science",
+  "url": "https://www.herts.ac.uk",
+  "level": "Masters",
+  "studyLevel": "Postgraduate",
+  "duration": "1 year",
+  "durationYears": 1,
+  "annualGBP": 14000,
+  "annualUSD": 17780,
+  "annualINR": 1484000,
+  "totalGBP": 14000,
+  "livingCostGBP": 10500,
+  "livingCostUSD": 13335,
+  "livingCostINR": 1113000,
+  "ieltsMin": 6,
+  "toeflMin": 79,
+  "pteMin": 51,
+  "intakeMonths": [
+    "September",
+    "January"
+  ],
+  "campus": "College Lane Campus",
+  "country": "United Kingdom",
+  "state": "England",
+  "city": "Hatfield",
+  "countryCode": "GB"
+}
 ] as const;
 
 export function getHertfordshireCoursesBySlug(slug: string) {

@@ -1,4 +1,4 @@
-// Real course data for Technical University of Denmark
+﻿// Real course data for Technical University of Denmark
 // Generated: 2026-06-03
 
 export interface DtuCourse {

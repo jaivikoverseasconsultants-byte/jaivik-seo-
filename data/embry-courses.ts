@@ -1,4 +1,4 @@
-export interface EmbryCourse {
+﻿export interface EmbryCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualSGD: number; annualUSD: number; annualINR: number; totalSGD: number;
@@ -359,6 +359,7 @@ export const embryCourses: EmbryCourse[] = [
     ieltsMin: 6, toeflMin: 80, pteMin: 50,
     intakeMonths: ['August', 'January'], campus: 'Singapore',
     country: 'Singapore', state: 'Singapore', city: 'Singapore', countryCode: 'SG',
-  },
+  }
 ];
+
 export default embryCourses;
