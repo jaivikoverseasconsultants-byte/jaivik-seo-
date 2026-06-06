@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import IELTSCoachingTab from '@/components/IELTSCoachingTab';
 
 // ── Demo data ────────────────────────────────────────────────────────────────
 
@@ -141,9 +142,10 @@ function IELTSChart({ data }: { data: typeof DEMO.ielts }) {
 
 // ── Tabs definition ───────────────────────────────────────────────────────────
 
-type TabKey = 'applications'|'offers'|'visa'|'payments'|'non_enrolled'|'deferrals'|'ielts'|'shortlisted';
+type TabKey = 'ielts_coaching'|'applications'|'offers'|'visa'|'payments'|'non_enrolled'|'deferrals'|'ielts'|'shortlisted';
 
 const TABS: { key: TabKey; label: string; icon: string; badge?: number }[] = [
+  { key: 'ielts_coaching', label: 'IELTS Coaching',         icon: '🎯' },
   { key: 'applications', label: 'My Applications',       icon: '📋', badge: DEMO.applications.length },
   { key: 'offers',       label: 'Offers Received',        icon: '📩', badge: DEMO.applications.filter(a => a.offerType).length },
   { key: 'visa',         label: 'Visa Status',            icon: '🛂' },
@@ -160,7 +162,7 @@ export default function StudentDashboardNew() {
   const router = useRouter();
   const [authChecked, setAuthChecked] = useState(false);
   const [student, setStudent] = useState<{ name: string; email: string } | null>(null);
-  const [activeTab, setActiveTab] = useState<TabKey>('applications');
+  const [activeTab, setActiveTab] = useState<TabKey>('ielts_coaching');
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
 
   useEffect(() => {
@@ -289,6 +291,9 @@ export default function StudentDashboardNew() {
             <span className="text-2xl">{TABS.find(t => t.key === activeTab)?.icon}</span>
             <h2 className="text-xl font-black text-white">{TABS.find(t => t.key === activeTab)?.label}</h2>
           </div>
+
+          {/* ── IELTS COACHING ──────────────────────────────────────────── */}
+          {activeTab === 'ielts_coaching' && <IELTSCoachingTab />}
 
           {/* ── MY APPLICATIONS ─────────────────────────────────────────── */}
           {activeTab === 'applications' && (

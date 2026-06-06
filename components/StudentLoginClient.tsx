@@ -182,9 +182,17 @@ export default function StudentLoginClient() {
           </svg>
           Back to site
         </Link>
-        <div className="flex items-center gap-2">
-          <img src="/joc-logo-circle.jpeg" alt="Jaivik Overseas" className="h-8 w-8 rounded-full ring-2 ring-[#F5A623]/40" />
-          <span className="text-sm font-semibold text-white">Jaivik Overseas</span>
+        <div className="flex items-center gap-3">
+          <Link
+            href="/dashboard/trainer"
+            className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-[#F5A623]/40 text-[#F5A623] hover:bg-[#F5A623]/10 transition-colors"
+          >
+            Trainer Login
+          </Link>
+          <div className="flex items-center gap-2">
+            <img src="/joc-logo-circle.jpeg" alt="Jaivik Overseas" className="h-8 w-8 rounded-full ring-2 ring-[#F5A623]/40" />
+            <span className="text-sm font-semibold text-white">Jaivik Overseas</span>
+          </div>
         </div>
       </div>
 
