@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { northeasternCourses } from '@/data/northeastern-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export function generateStaticParams() {
   return northeasternCourses.map(c => ({ slug: c.slug }));
@@ -98,6 +99,8 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
+
+          <CourseRichContent course={c as any} universityName="Northeastern University" universitySlug="northeastern-university" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-lg font-bold mb-2">Apply for {c.name} at Northeastern University</h2>
             <p className="text-blue-200 text-sm mb-4">Our experts guide you from application to visa. 500+ students placed.</p>

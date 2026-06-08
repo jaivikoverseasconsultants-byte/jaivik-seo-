@@ -5,6 +5,7 @@ import { gatechCourses, getGatechCourseBySlug } from '@/data/gatech-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export async function generateStaticParams() {
   return (gatechCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -171,7 +172,9 @@ export default async function CoursePage(
 
           {/* Sidebar */}
           <div className="space-y-6">
-            <div className="bg-brand-700 text-white rounded-2xl p-6">
+  
+          <CourseRichContent course={course as any} universityName="Georgia Institute of Technology" universitySlug="georgia-institute-of-technology" />
+          <div className="bg-brand-700 text-white rounded-2xl p-6">
               <h3 className="text-lg font-bold mb-2">Apply to {course.name}</h3>
               <p className="text-blue-100 text-sm mb-4">Get free expert guidance for your application</p>
               <Link href="/thank-you" className="block w-full bg-white text-brand-700 text-center font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">

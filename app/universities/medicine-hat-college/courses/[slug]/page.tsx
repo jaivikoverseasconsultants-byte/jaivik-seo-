@@ -5,6 +5,7 @@ import { medicine_hatCourses, getMedicine_hatCoursesBySlug } from '@/data/medici
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export async function generateStaticParams() {
   return (medicine_hatCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -170,6 +171,8 @@ export default async function CoursePage(
             </div>
           </div>
 
+
+          <CourseRichContent course={course as any} universityName="Medicine Hat College" universitySlug="medicine-hat-college" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-xl font-bold mb-2">Interested in {course.name}?</h2>
             <p className="text-blue-200 text-sm mb-4">

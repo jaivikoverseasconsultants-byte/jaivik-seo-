@@ -5,6 +5,7 @@ import { uclCourses, getUclCourseBySlug } from '@/data/ucl-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export async function generateStaticParams() {
   return uclCourses.map(c => ({ slug: c.slug }));
@@ -249,6 +250,8 @@ export default async function CoursePage(
           </div>
 
           {/* CTA */}
+
+          <CourseRichContent course={course as any} universityName="University College London" universitySlug="university-college-london" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-xl font-bold mb-2">Ready to Apply for {course.name} at UCL?</h2>
             <p className="text-blue-200 text-sm mb-5">Our UK admissions advisors guide Indian students through the entire UCL application process — from SOP writing to visa filing.</p>

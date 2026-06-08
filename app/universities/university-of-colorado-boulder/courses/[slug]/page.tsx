@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { cuboulderCourses } from '@/data/cuboulder-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export function generateStaticParams() {
   return cuboulderCourses.map(c => ({ slug: c.slug }));
@@ -98,6 +99,8 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
+
+          <CourseRichContent course={c as any} universityName="University of Colorado Boulder" universitySlug="university-of-colorado-boulder" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-lg font-bold mb-2">Apply for {c.name} at University of Colorado Boulder</h2>
             <p className="text-blue-200 text-sm mb-4">Our experts guide you from application to visa. 500+ students placed.</p>

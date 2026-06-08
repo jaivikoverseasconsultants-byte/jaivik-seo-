@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { iowastateCourses } from '@/data/iowastate-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export function generateStaticParams() {
   return iowastateCourses.map(c => ({ slug: c.slug }));
@@ -98,6 +99,8 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
+
+          <CourseRichContent course={c as any} universityName="Iowa State University" universitySlug="iowa-state-university" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-lg font-bold mb-2">Apply for {c.name} at Iowa State University</h2>
             <p className="text-blue-200 text-sm mb-4">Our experts guide you from application to visa. 500+ students placed.</p>

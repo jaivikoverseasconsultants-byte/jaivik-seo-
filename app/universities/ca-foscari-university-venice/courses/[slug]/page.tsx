@@ -5,6 +5,7 @@ import { caFoscariUniversityVeniceCourses, getCaFoscariUniversityVeniceCourseByS
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 const UNI_NAME = "Ca' Foscari University of Venice";
 
@@ -107,6 +108,8 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
+
+          <CourseRichContent course={course as any} universityName="Ca Foscari University Venice" universitySlug="ca-foscari-university-venice" />
           <div className="bg-brand-50 rounded-2xl p-6">
             <h2 className="font-bold text-gray-900 mb-3">Need Help Applying?</h2>
             <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Italy. Free 30-min session.</p>

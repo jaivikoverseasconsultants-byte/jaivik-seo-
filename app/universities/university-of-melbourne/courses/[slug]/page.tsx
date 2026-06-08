@@ -5,6 +5,7 @@ import { uomCourses, getUomCourseBySlug } from '@/data/uom-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export async function generateStaticParams() {
   return uomCourses.map(c => ({ slug: c.slug }));
@@ -249,6 +250,8 @@ export default async function CoursePage(
           </div>
 
           {/* CTA */}
+
+          <CourseRichContent course={course as any} universityName="University of Melbourne" universitySlug="university-of-melbourne" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-xl font-bold mb-2">Ready to Apply for {course.name}?</h2>
             <p className="text-blue-200 text-sm mb-5">Our Australia admissions experts help Indian students with everything from selecting the right course to visa application.</p>

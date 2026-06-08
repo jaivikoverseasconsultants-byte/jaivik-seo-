@@ -5,6 +5,7 @@ import { roskildeUniversityCourses, getRoskildeUniversityCourseBySlug } from '@/
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export function generateStaticParams() {
   return roskildeUniversityCourses.map(c => ({ slug: c.slug }));
@@ -106,6 +107,8 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
+
+          <CourseRichContent course={course as any} universityName="Roskilde University" universitySlug="roskilde-university" />
           <div className="bg-brand-50 rounded-2xl p-6">
             <h2 className="font-bold text-gray-900 mb-3">Need Help Applying?</h2>
             <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Denmark. Free 30-min session.</p>

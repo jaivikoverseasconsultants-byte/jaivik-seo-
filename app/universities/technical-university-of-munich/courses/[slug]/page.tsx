@@ -5,6 +5,7 @@ import { tuMunichCourses, getTuMunichCourseBySlug } from '@/data/tu-munich-cours
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import CourseRichContent from '@/components/CourseRichContent';
 
 export async function generateStaticParams() {
   return tuMunichCourses.map(c => ({ slug: c.slug }));
@@ -248,6 +249,8 @@ export default async function CoursePage(
           </div>
 
           {/* CTA */}
+
+          <CourseRichContent course={course as any} universityName="Technical University of Munich" universitySlug="technical-university-of-munich" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-xl font-bold mb-2">Ready to Apply for {course.name}?</h2>
             <p className="text-blue-200 text-sm mb-5">Our Germany admissions advisors give free, personalised guidance to Indian students. We have helped 200+ students secure admissions in German universities.</p>
