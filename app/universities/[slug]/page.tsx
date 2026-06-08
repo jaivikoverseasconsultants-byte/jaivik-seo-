@@ -13,6 +13,7 @@ import { generateUniversityAbout, generateWhyIndianStudents, generateApplication
 const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
 const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
 const SalaryChart = dynamic(() => import('@/components/charts/SalaryChart'), { ssr: false });
+const UniversityCoursesSection = dynamic(() => import('@/components/UniversityCoursesSection'), { ssr: false });
 
 export async function generateStaticParams() {
   return universities.map(u => ({ slug: u.slug }));
@@ -399,19 +400,24 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               </div>
             )}
 
-            {/* Popular Courses */}
+            {/* Courses Offered */}
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-              <h2 className="section-title">Popular Courses at {u.shortName} for Indian Students</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
-                {u.popularCourses.map(course => (
-                  <div key={course} className="flex items-center gap-3 p-3 bg-gray-50 rounded-xl">
-                    <div className="w-8 h-8 bg-brand-100 rounded-lg flex items-center justify-center text-brand-700 text-xs font-bold">
-                      {course.slice(0, 2)}
-                    </div>
-                    <span className="text-sm font-medium text-gray-800">{course}</span>
-                  </div>
-                ))}
+              <div className="flex items-center justify-between mb-5">
+                <h2 className="section-title">Courses Offered at {u.shortName}</h2>
+                <Link
+                  href={`/universities/${u.slug}/courses`}
+                  className="text-xs text-brand-700 font-semibold hover:text-brand-900 underline"
+                >
+                  View All Courses →
+                </Link>
               </div>
+              <UniversityCoursesSection
+                popularCourses={u.popularCourses}
+                uniSlug={u.slug}
+                uniName={u.shortName}
+                annualTuitionUSD={u.annualTuitionUSD}
+                ieltsMin={u.requirements.ieltsMin}
+              />
             </div>
 
             {/* Scholarships */}

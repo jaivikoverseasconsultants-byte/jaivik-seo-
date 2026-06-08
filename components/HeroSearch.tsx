@@ -4,9 +4,19 @@ import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
+interface CourseAtUni {
+  courseName: string;
+  universityName: string;
+  universitySlug: string;
+  country: string;
+  ielts: number;
+  fee: number;
+}
+
 interface SearchResult {
+  courseAtUni: CourseAtUni[];
+  categories: { name: string; slug: string; emoji: string }[];
   unis: { name: string; slug: string; country: string; city: string }[];
-  courses: { name: string; slug: string; emoji: string }[];
   countries: string[];
 }
 
@@ -36,7 +46,7 @@ export default function HeroSearch() {
         const res = await fetch(`/api/search?q=${encodeURIComponent(q.trim())}`);
         const data: SearchResult = await res.json();
         setResults(data);
-        const hasAny = data.unis.length > 0 || data.courses.length > 0 || data.countries.length > 0;
+        const hasAny = data.courseAtUni.length > 0 || data.categories.length > 0 || data.unis.length > 0 || data.countries.length > 0;
         setOpen(hasAny);
       } catch { /* ignore */ } finally {
         setLoading(false);
@@ -45,11 +55,12 @@ export default function HeroSearch() {
     return () => { if (debounceRef.current) clearTimeout(debounceRef.current); };
   }, [q]);
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     function handler(e: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node) &&
-          inputRef.current && !inputRef.current.contains(e.target as Node)) {
+      if (
+        dropdownRef.current && !dropdownRef.current.contains(e.target as Node) &&
+        inputRef.current && !inputRef.current.contains(e.target as Node)
+      ) {
         setOpen(false);
       }
     }
@@ -67,9 +78,13 @@ export default function HeroSearch() {
     }
   };
 
-  const quickSearches = ['MS Computer Science USA', 'MBA Canada', 'Energy Engineering', 'Digital Marketing UK', 'Nursing Australia'];
+  const quickSearches = ['MS Computer Science USA', 'MBA Canada', 'Nursing UK', 'Energy Engineering Germany', 'Digital Marketing'];
 
-  const total = results ? results.unis.length + results.courses.length + results.countries.length : 0;
+  const total = results
+    ? results.courseAtUni.length + results.categories.length + results.unis.length + results.countries.length
+    : 0;
+
+  const divider = 'border-t border-gray-100';
 
   return (
     <div className="w-full relative">
@@ -90,9 +105,9 @@ export default function HeroSearch() {
           ref={inputRef}
           type="text"
           value={q}
-          onChange={e => { setQ(e.target.value); }}
+          onChange={e => setQ(e.target.value)}
           onFocus={() => { if (results && total > 0) setOpen(true); }}
-          placeholder="Search university, course or country…"
+          placeholder="Search course, university or country…"
           className="w-full pl-12 pr-32 py-4 rounded-2xl text-gray-900 text-base placeholder-gray-400 bg-white shadow-xl border-2 border-transparent focus:border-gold-400 focus:outline-none transition-all"
           autoComplete="off"
         />
@@ -108,11 +123,60 @@ export default function HeroSearch() {
       {open && results && total > 0 && (
         <div
           ref={dropdownRef}
-          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden"
+          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden max-h-[480px] overflow-y-auto"
         >
-          {/* Universities */}
-          {results.unis.length > 0 && (
+          {/* 1st: Courses at specific universities */}
+          {results.courseAtUni.length > 0 && (
             <div>
+              <div className="px-4 pt-3 pb-1 flex items-center justify-between">
+                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                  Courses ({results.courseAtUni.length})
+                </span>
+              </div>
+              {results.courseAtUni.map((c, i) => (
+                <Link
+                  key={`${c.universitySlug}-${c.courseName}-${i}`}
+                  href={`/universities/${c.universitySlug}/courses`}
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-3 px-4 py-2.5 hover:bg-brand-50 transition-colors"
+                >
+                  <span className="text-xl flex-shrink-0">🎓</span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-sm font-semibold text-gray-900 truncate">{c.courseName}</p>
+                    <p className="text-xs text-gray-500">
+                      {c.universityName} · {COUNTRY_FLAGS[c.country] ?? ''} {c.country} · ${(c.fee / 1000).toFixed(0)}K/yr · IELTS {c.ielts}+
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {/* 2nd: Course streams/categories */}
+          {results.categories.length > 0 && (
+            <div className={results.courseAtUni.length > 0 ? divider : ''}>
+              <div className="px-4 pt-3 pb-1">
+                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                  Course Streams ({results.categories.length})
+                </span>
+              </div>
+              {results.categories.map(c => (
+                <Link
+                  key={c.slug}
+                  href={`/courses/${c.slug}`}
+                  onClick={() => setOpen(false)}
+                  className="flex items-center gap-3 px-4 py-2.5 hover:bg-brand-50 transition-colors"
+                >
+                  <span className="text-xl flex-shrink-0">{c.emoji}</span>
+                  <p className="text-sm font-semibold text-gray-900">{c.name}</p>
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {/* 3rd: Universities (name/city match) */}
+          {results.unis.length > 0 && (
+            <div className={(results.courseAtUni.length > 0 || results.categories.length > 0) ? divider : ''}>
               <div className="px-4 pt-3 pb-1">
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
                   Universities ({results.unis.length})
@@ -125,7 +189,7 @@ export default function HeroSearch() {
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 px-4 py-2.5 hover:bg-brand-50 transition-colors"
                 >
-                  <span className="text-lg">{COUNTRY_FLAGS[u.country] ?? '🏫'}</span>
+                  <span className="text-xl">{COUNTRY_FLAGS[u.country] ?? '🏫'}</span>
                   <div className="min-w-0">
                     <p className="text-sm font-semibold text-gray-900 truncate">{u.name}</p>
                     <p className="text-xs text-gray-500">{u.city}, {u.country}</p>
@@ -135,31 +199,9 @@ export default function HeroSearch() {
             </div>
           )}
 
-          {/* Courses */}
-          {results.courses.length > 0 && (
-            <div className={results.unis.length > 0 ? 'border-t border-gray-100' : ''}>
-              <div className="px-4 pt-3 pb-1">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
-                  Courses ({results.courses.length})
-                </span>
-              </div>
-              {results.courses.map(c => (
-                <Link
-                  key={c.slug}
-                  href={`/courses/${c.slug}`}
-                  onClick={() => setOpen(false)}
-                  className="flex items-center gap-3 px-4 py-2.5 hover:bg-brand-50 transition-colors"
-                >
-                  <span className="text-lg">{c.emoji}</span>
-                  <p className="text-sm font-semibold text-gray-900">{c.name}</p>
-                </Link>
-              ))}
-            </div>
-          )}
-
-          {/* Countries */}
+          {/* 4th: Countries */}
           {results.countries.length > 0 && (
-            <div className={(results.unis.length > 0 || results.courses.length > 0) ? 'border-t border-gray-100' : ''}>
+            <div className={(results.courseAtUni.length > 0 || results.categories.length > 0 || results.unis.length > 0) ? divider : ''}>
               <div className="px-4 pt-3 pb-1">
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
                   Countries ({results.countries.length})
@@ -172,19 +214,19 @@ export default function HeroSearch() {
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 px-4 py-2.5 hover:bg-brand-50 transition-colors"
                 >
-                  <span className="text-lg">{COUNTRY_FLAGS[c] ?? '🌍'}</span>
+                  <span className="text-xl">{COUNTRY_FLAGS[c] ?? '🌍'}</span>
                   <p className="text-sm font-semibold text-gray-900">Study in {c}</p>
                 </Link>
               ))}
             </div>
           )}
 
-          {/* See all results */}
+          {/* See all */}
           <div className="border-t border-gray-100 px-4 py-3 bg-gray-50">
             <Link
               href={`/universities?q=${encodeURIComponent(q.trim())}`}
               onClick={() => setOpen(false)}
-              className="text-sm text-brand-700 font-semibold hover:text-brand-900 flex items-center gap-1"
+              className="text-sm text-brand-700 font-semibold hover:text-brand-900"
             >
               See all results for &ldquo;{q}&rdquo; →
             </Link>
