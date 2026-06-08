@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://study.jaivikoverseasconsultants.com/sitemap.xml
+Sitemap: https://study.jaivikoverseasconsultants.com/sitemap-courses.xml
