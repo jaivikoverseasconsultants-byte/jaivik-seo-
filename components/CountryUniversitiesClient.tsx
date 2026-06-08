@@ -9,7 +9,19 @@ interface University {
   qsRanking: number; annualTuitionUSD: number; visaApprovalRate: number;
   intakeMonths: string[]; requirements: { ieltsMin: number };
   popularAmongIndians: boolean;
+  popularCourses: string[];
 }
+
+const STUDY_AREAS: Record<string, string[]> = {
+  'Computer Science & IT': ['Computer Science','Software Engineering','AI','Machine Learning','Data Science','Cybersecurity','Information Technology','Computing'],
+  'Business & Management': ['MBA','Business','Management','Finance','Accounting','Marketing','Economics','Commerce','Analytics'],
+  'Engineering': ['Engineering','Mechanical','Civil','Electrical','Chemical','Aerospace','Robotics','Energy','Renewable','Petroleum','Mining'],
+  'Health Sciences': ['Medicine','Nursing','Public Health','Pharmacy','Biomedical','Healthcare','Dentistry','Physiotherapy','Medical','Health','Anatomy','Physiology'],
+  'Law & Social Sciences': ['Law','LLM','LLB','Political Science','International Relations','Sociology','Criminology','Psychology'],
+  'Sciences': ['Physics','Chemistry','Mathematics','Biology','Statistics','Environmental','Genetics','Biotechnology'],
+  'Arts & Humanities': ['Arts','Humanities','History','Philosophy','Literature','Media','Communication','Journalism','Design','Architecture'],
+  'Education': ['Education','Teaching','PGCE'],
+};
 
 interface Props {
   unis: University[];
@@ -36,6 +48,8 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
   const [feeRange, setFeeRange] = useState('All Fees');
   const [ieltsFilter, setIeltsFilter] = useState('Any IELTS');
   const [intakeFilter, setIntakeFilter] = useState('');
+  const [courseSearch, setCourseSearch] = useState('');
+  const [studyArea, setStudyArea] = useState('');
   const [showAll, setShowAll] = useState(false);
 
   // Derive unique cities and intakes
@@ -58,12 +72,22 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
         if (u.annualTuitionUSD < feeRangeObj.min || u.annualTuitionUSD > feeRangeObj.max) return false;
         if (u.requirements.ieltsMin > ieltsObj.max) return false;
         if (intakeFilter && !u.intakeMonths.includes(intakeFilter)) return false;
+        if (courseSearch.trim()) {
+          const q = courseSearch.trim().toLowerCase();
+          const match = u.popularCourses.some(c => c.toLowerCase().includes(q)) || u.name.toLowerCase().includes(q);
+          if (!match) return false;
+        }
+        if (studyArea) {
+          const terms = STUDY_AREAS[studyArea] ?? [];
+          const match = u.popularCourses.some(c => terms.some(t => c.toLowerCase().includes(t.toLowerCase())));
+          if (!match) return false;
+        }
         return true;
       })
       .sort((a, b) => (a.qsRanking ?? 9999) - (b.qsRanking ?? 9999));
-  }, [unis, cityFilter, feeRangeObj, ieltsObj, intakeFilter]);
+  }, [unis, cityFilter, feeRangeObj, ieltsObj, intakeFilter, courseSearch, studyArea]);
 
-  const hasFilters = cityFilter || feeRange !== 'All Fees' || ieltsFilter !== 'Any IELTS' || intakeFilter;
+  const hasFilters = cityFilter || feeRange !== 'All Fees' || ieltsFilter !== 'Any IELTS' || intakeFilter || courseSearch || studyArea;
   const displayed = showAll ? filtered : filtered.slice(0, 20);
 
   function clearFilters() {
@@ -71,6 +95,8 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
     setFeeRange('All Fees');
     setIeltsFilter('Any IELTS');
     setIntakeFilter('');
+    setCourseSearch('');
+    setStudyArea('');
     setShowAll(false);
   }
 
@@ -86,7 +112,32 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
             </button>
           )}
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {/* Course search */}
+        <div className="mb-3">
+          <label className="block text-xs text-gray-500 mb-1">Search by Course</label>
+          <input
+            type="text"
+            value={courseSearch}
+            onChange={e => { setCourseSearch(e.target.value); setShowAll(false); }}
+            placeholder="e.g. Nursing, Energy Engineering, Digital Marketing…"
+            className="input-field text-sm py-2 w-full"
+          />
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
+          {/* Study Area */}
+          <div className="col-span-2 sm:col-span-1">
+            <label className="block text-xs text-gray-500 mb-1">Study Area</label>
+            <select
+              value={studyArea}
+              onChange={e => { setStudyArea(e.target.value); setShowAll(false); }}
+              className="input-field text-sm py-2"
+            >
+              <option value="">All Areas</option>
+              {Object.keys(STUDY_AREAS).map(a => <option key={a} value={a}>{a}</option>)}
+            </select>
+          </div>
+
           {/* City */}
           <div>
             <label className="block text-xs text-gray-500 mb-1">City</label>
@@ -163,6 +214,18 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
               <span className="inline-flex items-center gap-1 text-xs bg-orange-50 text-orange-700 px-2.5 py-1 rounded-full">
                 🗓 {intakeFilter}
                 <button onClick={() => setIntakeFilter('')} className="ml-0.5 hover:text-orange-900">✕</button>
+              </span>
+            )}
+            {courseSearch && (
+              <span className="inline-flex items-center gap-1 text-xs bg-teal-50 text-teal-700 px-2.5 py-1 rounded-full">
+                🎓 Course: {courseSearch}
+                <button onClick={() => setCourseSearch('')} className="ml-0.5 hover:text-teal-900">✕</button>
+              </span>
+            )}
+            {studyArea && (
+              <span className="inline-flex items-center gap-1 text-xs bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-full">
+                📚 {studyArea}
+                <button onClick={() => setStudyArea('')} className="ml-0.5 hover:text-indigo-900">✕</button>
               </span>
             )}
           </div>

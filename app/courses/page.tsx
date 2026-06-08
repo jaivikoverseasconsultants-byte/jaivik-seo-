@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/seo";
 import COURSE_CATEGORIES from "@/data/course-categories";
+import CoursesSearch from "@/components/CoursesSearch";
 
 export const metadata: Metadata = buildMetadata({
   title: "Courses Abroad for Indian Students 2026 – All Subjects",
@@ -67,36 +68,7 @@ export default function CoursesPage() {
           </div>
         </div>
 
-        <div className="space-y-8">
-          {Object.entries(GROUPS).map(([group, slugs]) => {
-            const cats = slugs.map(s => COURSE_CATEGORIES.find(c => c.slug === s)).filter(Boolean) as typeof COURSE_CATEGORIES;
-            if (!cats.length) return null;
-            return (
-              <div key={group}>
-                <h2 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <span className="w-1 h-5 bg-brand-600 rounded-full inline-block" />
-                  {group}
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {cats.map(c => (
-                    <Link key={c.slug} href={`/courses/${c.slug}`}
-                      className="bg-white rounded-2xl p-4 border border-gray-100 hover:border-brand-200 hover:shadow-md transition-all group flex items-start gap-3">
-                      <span className="text-xl flex-shrink-0 mt-0.5">{c.emoji}</span>
-                      <div className="min-w-0">
-                        <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700 leading-snug">{c.name}</p>
-                        <div className="flex items-center gap-2 mt-1 flex-wrap">
-                          <span className="text-xs text-brand-700 font-medium">${Math.round(c.avgFeeUSD/1000)}K/yr</span>
-                          <span className="text-xs text-gray-400">IELTS {c.ieltsTypical}+</span>
-                          <span className="text-xs text-gray-400">{c.topCountries.slice(0,2).join(", ")}</span>
-                        </div>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        <CoursesSearch categories={COURSE_CATEGORIES} groups={GROUPS} />
 
         <div className="mt-12 bg-brand-700 rounded-2xl p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-2">Not Sure Which Course Suits You?</h2>
