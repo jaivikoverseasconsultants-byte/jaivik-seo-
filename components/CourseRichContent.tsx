@@ -1,4 +1,5 @@
 import { generateCourseContent, type CourseForContent } from '@/lib/courseContent';
+import CurrencyConverter from '@/components/CurrencyConverter';
 
 interface Props {
   course: CourseForContent;
@@ -17,6 +18,17 @@ export default function CourseRichContent({ course, universityName, universitySl
 
   return (
     <>
+      {/* INR Disclaimer */}
+      <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-2.5 flex items-start gap-2">
+        <span className="text-amber-500 mt-0.5 flex-shrink-0">ℹ</span>
+        <p className="text-xs text-amber-800">
+          <strong>Currency note:</strong> INR figures are indicative (1 USD ≈ ₹83.5). Actual amount may vary with exchange rates.
+          Use the converter below for a live estimate.
+        </p>
+      </div>
+
+      {/* Live Currency Converter */}
+      <CurrencyConverter />
       {/* About This Program */}
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">About {course.name}</h2>
@@ -86,6 +98,11 @@ export default function CourseRichContent({ course, universityName, universitySl
             Jaivik Overseas Consultants offers a free eligibility check — we review your academic profile and English scores against current entry requirements and advise on your application strategy at no cost.
           </p>
         </div>
+      </div>
+
+      {/* Global currency disclaimer footer */}
+      <div className="text-xs text-gray-400 border-t border-gray-100 pt-3 px-1">
+        Currency conversions are indicative only. Rates updated periodically. Contact us for current fee estimates in INR.
       </div>
     </>
   );

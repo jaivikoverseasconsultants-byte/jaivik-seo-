@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import type { University } from '@/types';
+import CurrencyConverter from '@/components/CurrencyConverter';
 
 const RUSSELL_GROUP = new Set([
   'University of Birmingham','University of Bristol','University of Cambridge',
@@ -223,6 +224,8 @@ export default function UniversityListingClient({ universities, countries, initi
           </div>
         </div>
 
+        <div className="lg:flex lg:gap-6 lg:items-start">
+        <div className="flex-1 min-w-0">
         {results.length === 0 ? (
           <div className="bg-white rounded-2xl p-12 text-center border border-gray-100">
             <p className="text-4xl mb-3">🔍</p>
@@ -315,6 +318,13 @@ export default function UniversityListingClient({ universities, countries, initi
             )}
           </>
         )}
+        </div>
+        <div className="hidden lg:block w-72 flex-shrink-0">
+          <div className="sticky top-20">
+            <CurrencyConverter />
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   );
