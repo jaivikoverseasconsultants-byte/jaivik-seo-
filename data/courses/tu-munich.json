@@ -1,0 +1,23 @@
+{
+  "slug": "tu-munich",
+  "sourceUrl": "https://www.tum.de/en/studies/degree-programs",
+  "fetchedAt": "2026-06-08T10:52:57.948Z",
+  "totalCourses": 1,
+  "courses": [
+    {
+      "name": "Continuing education",
+      "slug": "continuing-education",
+      "level": "postgraduate",
+      "department": "Education",
+      "duration": "1-2 years",
+      "link": "https://www.tum.de/en/lifelong-learning",
+      "annualFeeUSD": 0,
+      "ieltsMin": 6.5,
+      "intakes": [
+        "October",
+        "April"
+      ],
+      "source": "scraped"
+    }
+  ]
+}

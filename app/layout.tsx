@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
+import NoRightClick from '@/components/NoRightClick';
 
 export const metadata: Metadata = {
   title: 'Jaivik Overseas Consultants | Study Abroad from India',
@@ -17,6 +18,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'pVbnr8z859QrFqCJMWYwgJJ101qfp1zXLfo8WvktayM',
   },
+  other: {
+    copyright: '© 2025 Jaivik Overseas Consultants. All rights reserved.',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -30,6 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
 
         <ExitIntentPopup />
+        <NoRightClick />
 
         {/* Floating WhatsApp button */}
         <a

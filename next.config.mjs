@@ -12,6 +12,15 @@ const nextConfig = {
           { key: "X-Frame-Options", value: "DENY" },
         ],
       },
+      {
+        source: "/api/:path*",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex" },
+          { key: "Access-Control-Allow-Origin", value: "https://study.jaivikoverseasconsultants.com" },
+          { key: "Access-Control-Allow-Methods", value: "GET, POST, OPTIONS" },
+          { key: "Access-Control-Allow-Headers", value: "Content-Type" },
+        ],
+      },
     ];
   },
 };

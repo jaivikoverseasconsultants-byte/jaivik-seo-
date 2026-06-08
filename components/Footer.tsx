@@ -92,8 +92,11 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-blue-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-blue-300">
-          <p>© 2026 Jaivik Overseas Consultants. All rights reserved.</p>
-          <p>Registered Study Abroad Consultancy | Ghaziabad, Uttar Pradesh, India</p>
+          <p>© 2026 Jaivik Overseas Consultants. Data curated in-house.</p>
+          <div className="flex items-center gap-4">
+            <p>Registered Study Abroad Consultancy | Ghaziabad, Uttar Pradesh, India</p>
+            <Link href="/terms" className="hover:text-white underline">Terms of Use</Link>
+          </div>
         </div>
       </div>
     </footer>

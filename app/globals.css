@@ -9,6 +9,14 @@
   body { font-family: 'Inter', system-ui, sans-serif; }
 }
 
+/* ── Content protection ─────────────────────────────────────────── */
+.course-card,
+.university-card,
+[data-protected] {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 @layer components {
   .stat-card {
     @apply bg-white rounded-2xl p-5 shadow-sm border border-gray-100 text-center;
