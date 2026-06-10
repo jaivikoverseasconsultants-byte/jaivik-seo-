@@ -6,10 +6,10 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'King\'s College London International Courses – All Programs, Fees & IELTS 2026',
-  description: `King\'s College London — ${(kclCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  title: "King's College London International Courses – All Programs, Fees & IELTS 2026",
+  description: `King's College London — ${(kclCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/kings-college-london/courses',
-  keywords: ['KCL courses', 'King\'s College London international', 'KCL fees', 'study in UK', 'UK university'],
+  keywords: ['KCL courses', "King's College London international", 'KCL fees', 'study in UK', 'UK university'],
 });
 
 const levelOrder = ["Undergraduate","Foundation","Graduate Certificate","Graduate Diploma","Masters","PhD","Postgraduate"];
@@ -33,10 +33,85 @@ export default function CoursesPage() {
     ? Math.round(pgCourses.reduce((s: number, c: any) => s + c.annualGBP, 0) / pgCourses.length)
     : Math.round(courses.reduce((s: number, c: any) => s + c.annualGBP, 0) / (totalCourses || 1));
 
+  
+  const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
+  const _avgFeeUSD = courses.length
+    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+    : 0;
+  const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
+  const _intakesText = _intakeSample.join(' and ');
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `How many courses does King's College London offer for international students?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `King's College London offers ${courses.length} programs for international students including Undergraduate, Master's, and PhD degrees.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the minimum IELTS score required at King's College London?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The minimum IELTS score at King's College London is ${_minIelts}+. High-demand programs may require up to 7.0.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the average tuition fee at King's College London?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The average annual tuition at King's College London is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What intake options does King's College London offer?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `King's College London offers ${_intakesText} intake${_intakeSample.length > 1 ? 's' : ''}. Apply 3–6 months before the intake opening.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How can Indian students apply to King's College London?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Indian students can apply to King's College London in United Kingdom through Jaivik Overseas Consultants — free application guidance, SOP writing, and visa assistance included.`,
+        },
+      },
+    ],
+  };
+
+  const courseListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `King's College London — Courses for International Students`,
+    description: `${courses.length} programs at King's College London, United Kingdom. Min IELTS ${_minIelts}+.`,
+    numberOfItems: courses.length,
+    itemListElement: courses.slice(0, 5).map((c: any, i: number) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Course',
+        name: c.name,
+        provider: { '@type': 'CollegeOrUniversity', name: `King's College London` },
+        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
+      },
+    })),
+  };
+
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollegeOrUniversity',
-    name: 'King\'s College London',
+    name: `King's College London`,
     sameAs: 'https://www.kcl.ac.uk',
     address: { '@type': 'PostalAddress', addressLocality: 'London', addressRegion: 'England', addressCountry: 'GB' },
   };
@@ -44,6 +119,8 @@ export default function CoursesPage() {
   return (
     <>
       <JsonLd data={schema} />
+      <JsonLd data={faqSchema} />
+      <JsonLd data={courseListSchema} />
 
       <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
         <div className="max-w-7xl mx-auto">
@@ -59,7 +136,7 @@ export default function CoursesPage() {
                 🇬🇧 London, United Kingdom · #40 QS World Ranking
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
-                King\'s College London — International Courses
+                King's College London — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
                 {totalCourses} programs · Avg £{avgFee.toLocaleString()}/yr · IELTS 6.5+ · September intakes

@@ -1,5 +1,6 @@
 import { generateCourseContent, type CourseForContent } from '@/lib/courseContent';
 import CurrencyConverter from '@/components/CurrencyConverter';
+import JsonLd from '@/components/JsonLd';
 
 interface Props {
   course: CourseForContent;
@@ -15,9 +16,90 @@ export default function CourseRichContent({ course, universityName, universitySl
   );
 
   const countrySlug = course.country.toLowerCase().replace(/\s+/g, '-');
+  const inrLakh = (course.annualINR / 100000).toFixed(1);
+  const intakesText = course.intakeMonths.join(' and ');
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What is the tuition fee for ${course.name} at ${universityName}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The annual tuition fee for ${course.name} at ${universityName} is $${course.annualUSD.toLocaleString()} USD (approximately ₹${inrLakh}L INR).`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What IELTS score is required for ${course.name} at ${universityName}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `A minimum IELTS score of ${course.ieltsMin} overall is required for ${course.name} at ${universityName}. TOEFL iBT ${course.toeflMin}+ is also accepted.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How long is ${course.name} at ${universityName}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${course.name} at ${universityName} is a ${course.duration} ${course.level} program${course.durationYears > 1 ? ` (${course.durationYears} years)` : ''}.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What are the intakes for ${course.name} at ${universityName}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${universityName} offers ${intakesText} intake${course.intakeMonths.length > 1 ? 's' : ''} for ${course.name}. We recommend applying at least 3–4 months before the intake deadline.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `Can Indian students apply for ${course.name} at ${universityName}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Yes, Indian students can apply for ${course.name} at ${universityName} in ${course.country}. Jaivik Overseas Consultants provides free application assistance, SOP guidance, and visa support for Indian students.`,
+        },
+      },
+    ],
+  };
+
+  const courseSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Course',
+    name: `${course.name} at ${universityName}`,
+    description: `${course.level} program in ${course.name} at ${universityName}, ${course.country}. Duration: ${course.duration}. Annual fee: $${course.annualUSD.toLocaleString()} USD.`,
+    provider: {
+      '@type': 'CollegeOrUniversity',
+      name: universityName,
+      sameAs: `https://study.jaivikoverseasconsultants.com/universities/${universitySlug}`,
+    },
+    offers: {
+      '@type': 'Offer',
+      price: course.annualUSD,
+      priceCurrency: 'USD',
+      description: `Annual tuition fee for ${course.name}`,
+    },
+    educationalLevel: course.level,
+    timeToComplete: `P${course.durationYears}Y`,
+    inLanguage: 'en',
+    hasCourseInstance: course.intakeMonths.map(month => ({
+      '@type': 'CourseInstance',
+      courseMode: 'full-time',
+      startDate: month,
+      location: {
+        '@type': 'Place',
+        address: { '@type': 'PostalAddress', addressCountry: course.country },
+      },
+    })),
+  };
 
   return (
     <>
+      <JsonLd data={faqSchema} />
+      <JsonLd data={courseSchema} />
       {/* INR Disclaimer */}
       <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-2.5 flex items-start gap-2">
         <span className="text-amber-500 mt-0.5 flex-shrink-0">ℹ</span>

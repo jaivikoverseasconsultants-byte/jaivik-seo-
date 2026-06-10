@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { umnCourses } from '@/data/umn-courses';
 import { buildMetadata } from '@/lib/seo';
+import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Minnesota Courses & Programs 2026 – Fees, IELTS & Intakes',
@@ -15,8 +16,85 @@ export default function UmnCoursesPage() {
   const courses = umnCourses;
   const avgFee = Math.round(courses.reduce((s,c)=>s+c.annualUSD,0)/courses.length);
 
+  
+  const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
+  const _avgFeeUSD = courses.length
+    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+    : 0;
+  const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
+  const _intakesText = _intakeSample.join(' and ');
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `How many courses does University of Minnesota offer for international students?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `University of Minnesota offers ${courses.length} programs for international students including Undergraduate, Master's, and PhD degrees.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the minimum IELTS score required at University of Minnesota?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The minimum IELTS score at University of Minnesota is ${_minIelts}+. High-demand programs may require up to 7.0.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the average tuition fee at University of Minnesota?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The average annual tuition at University of Minnesota is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What intake options does University of Minnesota offer?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `University of Minnesota offers ${_intakesText} intake${_intakeSample.length > 1 ? 's' : ''}. Apply 3–6 months before the intake opening.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How can Indian students apply to University of Minnesota?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Indian students can apply to University of Minnesota in USA through Jaivik Overseas Consultants — free application guidance, SOP writing, and visa assistance included.`,
+        },
+      },
+    ],
+  };
+
+  const courseListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `University of Minnesota — Courses for International Students`,
+    description: `${courses.length} programs at University of Minnesota, USA. Min IELTS ${_minIelts}+.`,
+    numberOfItems: courses.length,
+    itemListElement: courses.slice(0, 5).map((c: any, i: number) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Course',
+        name: c.name,
+        provider: { '@type': 'CollegeOrUniversity', name: 'University of Minnesota' },
+        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
+      },
+    })),
+  };
+
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <>
+      <JsonLd data={faqSchema} />
+      <JsonLd data={courseListSchema} />
+      <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-gray-500 mb-6">
         <Link href="/" className="hover:text-brand-700">Home</Link> /
@@ -76,5 +154,6 @@ export default function UmnCoursesPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

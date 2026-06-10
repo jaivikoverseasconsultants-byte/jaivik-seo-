@@ -30,6 +30,81 @@ export default function CoursesPage() {
   const totalCourses = courses.length;
   const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualEUR, 0) / totalCourses);
 
+  
+  const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
+  const _avgFeeUSD = courses.length
+    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+    : 0;
+  const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
+  const _intakesText = _intakeSample.join(' and ');
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `How many courses does University of Bordeaux offer for international students?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `University of Bordeaux offers ${courses.length} programs for international students including Undergraduate, Master's, and PhD degrees.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the minimum IELTS score required at University of Bordeaux?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The minimum IELTS score at University of Bordeaux is ${_minIelts}+. High-demand programs may require up to 7.0.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What is the average tuition fee at University of Bordeaux?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The average annual tuition at University of Bordeaux is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What intake options does University of Bordeaux offer?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `University of Bordeaux offers ${_intakesText} intake${_intakeSample.length > 1 ? 's' : ''}. Apply 3–6 months before the intake opening.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `How can Indian students apply to University of Bordeaux?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Indian students can apply to University of Bordeaux in France through Jaivik Overseas Consultants — free application guidance, SOP writing, and visa assistance included.`,
+        },
+      },
+    ],
+  };
+
+  const courseListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `University of Bordeaux — Courses for International Students`,
+    description: `${courses.length} programs at University of Bordeaux, France. Min IELTS ${_minIelts}+.`,
+    numberOfItems: courses.length,
+    itemListElement: courses.slice(0, 5).map((c: any, i: number) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Course',
+        name: c.name,
+        provider: { '@type': 'CollegeOrUniversity', name: 'University of Bordeaux' },
+        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
+      },
+    })),
+  };
+
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'CollegeOrUniversity',
@@ -41,6 +116,8 @@ export default function CoursesPage() {
   return (
     <>
       <JsonLd data={schema} />
+      <JsonLd data={faqSchema} />
+      <JsonLd data={courseListSchema} />
       <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4">
