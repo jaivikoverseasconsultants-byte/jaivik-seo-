@@ -1,0 +1,29 @@
+{
+  "slug": "university-of-melbourne",
+  "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-arts/",
+  "country": "Australia",
+  "level": "Graduate",
+  "coursesFound": 0,
+  "courses": [],
+  "headings": [
+    "H4: Cloud vars",
+    "H1: Page not found",
+    "H2: What now?",
+    "H2: Problem report"
+  ],
+  "diagLinks": [
+    {
+      "name": "page you were on",
+      "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-arts/"
+    },
+    {
+      "name": "careers, study areas, courses or specialisations search",
+      "url": "https://study.unimelb.edu.au/find"
+    },
+    {
+      "name": "Study home page",
+      "url": "https://study.unimelb.edu.au/"
+    }
+  ],
+  "crawledAt": "2026-06-11T09:56:22.926Z"
+}
