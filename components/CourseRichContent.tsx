@@ -183,7 +183,7 @@ export default function CourseRichContent({ course, universityName, universitySl
       </div>
 
       {/* Global currency disclaimer footer */}
-      <div className="text-xs text-gray-400 border-t border-gray-100 pt-3 px-1">
+      <div className="text-xs text-gray-600 border-t border-gray-100 pt-3 px-1">
         Currency conversions are indicative only. Rates updated periodically. Contact us for current fee estimates in INR.
       </div>
     </>

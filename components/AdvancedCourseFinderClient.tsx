@@ -144,7 +144,7 @@ function FeeSlider({ min, max, onMin, onMax }: { min: number; max: number; onMin
             [&::-webkit-slider-thumb]:shadow [&::-webkit-slider-thumb]:cursor-pointer"
           style={{ zIndex: 4 }} />
       </div>
-      <div className="flex justify-between text-xs text-gray-400 mt-1">
+      <div className="flex justify-between text-xs text-gray-600 mt-1">
         <span>$5K</span><span>$80K</span>
       </div>
     </div>
@@ -518,7 +518,7 @@ export default function AdvancedCourseFinderClient({ universities }: { universit
                             <p className="text-xs text-gray-500 mt-0.5">{u.city}, {u.country}{u.state ? ` · ${u.state}` : ''}</p>
                           </div>
                           <div className="text-right flex-shrink-0">
-                            <p className="text-xs text-gray-400">QS</p>
+                            <p className="text-xs text-gray-600">QS</p>
                             <p className="text-base font-bold text-brand-700">#{u.qsRanking ?? '—'}</p>
                           </div>
                         </div>
@@ -526,15 +526,15 @@ export default function AdvancedCourseFinderClient({ universities }: { universit
                         <div className="grid grid-cols-3 gap-2 text-center text-xs mb-3">
                           <div className="bg-blue-50 rounded-lg p-2">
                             <p className="font-bold text-blue-700">${(u.annualTuitionUSD/1000).toFixed(0)}K</p>
-                            <p className="text-gray-400 mt-0.5">Tuition/yr</p>
+                            <p className="text-gray-600 mt-0.5">Tuition/yr</p>
                           </div>
                           <div className="bg-green-50 rounded-lg p-2">
                             <p className="font-bold text-green-700">{u.requirements.ieltsMin}+</p>
-                            <p className="text-gray-400 mt-0.5">IELTS</p>
+                            <p className="text-gray-600 mt-0.5">IELTS</p>
                           </div>
                           <div className="bg-purple-50 rounded-lg p-2">
                             <p className="font-bold text-purple-700">{u.acceptanceRate}%</p>
-                            <p className="text-gray-400 mt-0.5">Accept</p>
+                            <p className="text-gray-600 mt-0.5">Accept</p>
                           </div>
                         </div>
 
@@ -545,7 +545,7 @@ export default function AdvancedCourseFinderClient({ universities }: { universit
                           ))}
                         </div>
 
-                        <p className="text-xs text-gray-400 mb-3">📅 {u.intakeMonths.join(' · ')} · {u.acceptanceRate}% accept</p>
+                        <p className="text-xs text-gray-600 mb-3">📅 {u.intakeMonths.join(' · ')} · {u.acceptanceRate}% accept</p>
 
                         <div className="flex gap-2 mt-auto">
                           <Link href={`/universities/${u.slug}`}
@@ -600,7 +600,7 @@ export default function AdvancedCourseFinderClient({ universities }: { universit
                 <button type="submit" disabled={leadSt === 'submitting'} className="btn-gold w-full text-center">
                   {leadSt === 'submitting' ? 'Sending…' : 'Get Free Guidance →'}
                 </button>
-                <p className="text-xs text-gray-400 text-center">Free · No spam</p>
+                <p className="text-xs text-gray-600 text-center">Free · No spam</p>
               </form>
             )}
             <button onClick={() => setShowLeadModal(false)} className="absolute top-3 right-4 text-white/70 hover:text-white text-xl font-bold">×</button>

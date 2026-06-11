@@ -272,7 +272,7 @@ export default function CourseFinderClient({ universities }: Props) {
                   ? 'No universities match your filters'
                   : `${results.length} ${results.length === 1 ? 'university' : 'universities'} found`}
                 {hasFilters && results.length > 0 && (
-                  <span className="text-gray-400 font-normal"> — showing best matches first</span>
+                  <span className="text-gray-600 font-normal"> — showing best matches first</span>
                 )}
               </p>
               {hasFilters && (
@@ -350,7 +350,7 @@ export default function CourseFinderClient({ universities }: Props) {
                           <p className="text-xs text-gray-500 mt-0.5">{u.city}, {u.country}</p>
                         </div>
                         <div className="text-right flex-shrink-0">
-                          <p className="text-xs text-gray-400">QS</p>
+                          <p className="text-xs text-gray-600">QS</p>
                           <p className="text-lg font-bold text-brand-700">#{u.qsRanking}</p>
                         </div>
                       </div>
@@ -358,15 +358,15 @@ export default function CourseFinderClient({ universities }: Props) {
                       <div className="grid grid-cols-3 gap-2 text-center text-xs mb-3">
                         <div className="bg-blue-50 rounded-lg p-2">
                           <p className="font-bold text-blue-700">₹{Math.round((u.annualTuitionINR + u.livingCostINR) / 100_000)}L</p>
-                          <p className="text-gray-400 mt-0.5">Total/yr</p>
+                          <p className="text-gray-600 mt-0.5">Total/yr</p>
                         </div>
                         <div className="bg-green-50 rounded-lg p-2">
                           <p className="font-bold text-green-700">{u.requirements.ieltsMin}+</p>
-                          <p className="text-gray-400 mt-0.5">IELTS</p>
+                          <p className="text-gray-600 mt-0.5">IELTS</p>
                         </div>
                         <div className="bg-purple-50 rounded-lg p-2">
                           <p className="font-bold text-purple-700">{u.employmentRate}%</p>
-                          <p className="text-gray-400 mt-0.5">Jobs</p>
+                          <p className="text-gray-600 mt-0.5">Jobs</p>
                         </div>
                       </div>
 
@@ -432,7 +432,7 @@ export default function CourseFinderClient({ universities }: Props) {
                   className="block text-center text-sm bg-green-600 hover:bg-green-700 text-white px-5 py-2.5 rounded-xl font-semibold transition-colors mb-3">
                   WhatsApp Us Now →
                 </a>
-                <button onClick={() => { setShowLeadModal(false); setLeadStatus('idle'); }} className="text-xs text-gray-400 hover:text-gray-600 underline">
+                <button onClick={() => { setShowLeadModal(false); setLeadStatus('idle'); }} className="text-xs text-gray-600 hover:text-gray-800 underline">
                   Close
                 </button>
               </div>
@@ -459,7 +459,7 @@ export default function CourseFinderClient({ universities }: Props) {
                   className="btn-gold w-full text-center disabled:opacity-60">
                   {leadStatus === 'submitting' ? 'Sending...' : 'Get Free Counselling →'}
                 </button>
-                <p className="text-xs text-gray-400 text-center">100% free · No spam · We never share your data</p>
+                <p className="text-xs text-gray-600 text-center">100% free · No spam · We never share your data</p>
               </form>
             )}
 

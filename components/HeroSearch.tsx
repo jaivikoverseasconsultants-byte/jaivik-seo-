@@ -129,7 +129,7 @@ export default function HeroSearch() {
           {results.courseAtUni.length > 0 && (
             <div>
               <div className="px-4 pt-3 pb-1 flex items-center justify-between">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gray-600 uppercase tracking-wider">
                   Courses ({results.courseAtUni.length})
                 </span>
               </div>
@@ -156,7 +156,7 @@ export default function HeroSearch() {
           {results.categories.length > 0 && (
             <div className={results.courseAtUni.length > 0 ? divider : ''}>
               <div className="px-4 pt-3 pb-1">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gray-600 uppercase tracking-wider">
                   Course Streams ({results.categories.length})
                 </span>
               </div>
@@ -178,7 +178,7 @@ export default function HeroSearch() {
           {results.unis.length > 0 && (
             <div className={(results.courseAtUni.length > 0 || results.categories.length > 0) ? divider : ''}>
               <div className="px-4 pt-3 pb-1">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gray-600 uppercase tracking-wider">
                   Universities ({results.unis.length})
                 </span>
               </div>
@@ -203,7 +203,7 @@ export default function HeroSearch() {
           {results.countries.length > 0 && (
             <div className={(results.courseAtUni.length > 0 || results.categories.length > 0 || results.unis.length > 0) ? divider : ''}>
               <div className="px-4 pt-3 pb-1">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">
+                <span className="text-xs font-bold text-gray-600 uppercase tracking-wider">
                   Countries ({results.countries.length})
                 </span>
               </div>

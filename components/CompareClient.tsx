@@ -213,8 +213,8 @@ function CountryStep({ profile, onNext }: { profile: Profile; onNext: (c: Countr
 
   const TABLE_ROWS: { label: string; render: (c: typeof ranked[0]) => React.ReactNode }[] = [
     { label: 'Visa Success Rate', render: c => <span className="font-semibold">{c.visaSuccessRate}%</span> },
-    { label: 'Avg Tuition/yr', render: c => <>{usdLabel(c.avgTuitionUSD)}<br /><span className="text-xs text-gray-400">{inrLabel(usdToInr(c.avgTuitionUSD))}</span></> },
-    { label: 'Avg Living Cost/yr', render: c => <>{usdLabel(c.avgLivingCostUSD)}<br /><span className="text-xs text-gray-400">{inrLabel(usdToInr(c.avgLivingCostUSD))}</span></> },
+    { label: 'Avg Tuition/yr', render: c => <>{usdLabel(c.avgTuitionUSD)}<br /><span className="text-xs text-gray-600">{inrLabel(usdToInr(c.avgTuitionUSD))}</span></> },
+    { label: 'Avg Living Cost/yr', render: c => <>{usdLabel(c.avgLivingCostUSD)}<br /><span className="text-xs text-gray-600">{inrLabel(usdToInr(c.avgLivingCostUSD))}</span></> },
     { label: 'Post-Study Work', render: c => `${c.postStudyWorkYears} years` },
     { label: 'PR Pathway', render: c => c.prPathway ? <span className="text-green-600 font-semibold">✓ Yes<br /><span className="text-xs font-normal text-gray-500">{c.prTimeline}</span></span> : <span className="text-red-500">✗ No</span> },
     { label: 'Part-Time Hours/wk', render: c => `${c.partTimeHours} hrs` },
@@ -318,7 +318,7 @@ function UniversityStep({ profile, countries, onNext }: { profile: Profile; coun
 
   const TABLE_ROWS: { label: string; render: (u: CompareUniversity) => React.ReactNode }[] = [
     { label: 'QS Ranking', render: u => `#${u.qsRanking}` },
-    { label: 'Fees/yr', render: u => <>{usdLabel(u.feesPerYearUSD)}<br /><span className="text-xs text-gray-400">{inrLabel(usdToInr(u.feesPerYearUSD))}</span></> },
+    { label: 'Fees/yr', render: u => <>{usdLabel(u.feesPerYearUSD)}<br /><span className="text-xs text-gray-600">{inrLabel(usdToInr(u.feesPerYearUSD))}</span></> },
     { label: 'Scholarship', render: u => u.scholarship },
     { label: 'IELTS Min', render: u => `${u.ieltsMin}` },
     { label: 'Acceptance Rate', render: u => `${u.acceptanceRate}%` },
@@ -326,7 +326,7 @@ function UniversityStep({ profile, countries, onNext }: { profile: Profile; coun
     { label: 'Location', render: u => `${u.city}, ${u.country}` },
     { label: 'Campus Size', render: u => u.campusSize },
     { label: 'Notable Alumni', render: u => u.notableAlumni.slice(0, 2).join(', ') },
-    { label: 'JOC Partner', render: u => u.jocPartner ? <span className="text-green-600 font-semibold">✓ Yes</span> : <span className="text-gray-400">No</span> },
+    { label: 'JOC Partner', render: u => u.jocPartner ? <span className="text-green-600 font-semibold">✓ Yes</span> : <span className="text-gray-600">No</span> },
   ];
 
   return (
@@ -417,10 +417,10 @@ function CourseStep({ profile, onNext }: { profile: Profile; onNext: (c: Compare
   const selectedData = COMPARE_COURSES.filter(c => selected.includes(c.name));
 
   const TABLE_ROWS: { label: string; render: (c: CompareCourse) => React.ReactNode }[] = [
-    { label: 'Avg Fees', render: c => <>{usdLabel(c.avgFeesUSD)}<br /><span className="text-xs text-gray-400">{inrLabel(usdToInr(c.avgFeesUSD))}</span></> },
+    { label: 'Avg Fees', render: c => <>{usdLabel(c.avgFeesUSD)}<br /><span className="text-xs text-gray-600">{inrLabel(usdToInr(c.avgFeesUSD))}</span></> },
     { label: 'Duration', render: c => `${c.durationYears} ${c.durationYears === 1 ? 'year' : 'years'}` },
     { label: 'Job Growth', render: c => <span className={c.jobGrowthPct >= 25 ? 'text-green-600 font-bold' : 'text-gray-700'}>{c.jobGrowthPct}%</span> },
-    { label: 'Avg Salary After', render: c => <>{usdLabel(c.avgSalaryAfterUSD)}/yr<br /><span className="text-xs text-gray-400">{inrLabel(usdToInr(c.avgSalaryAfterUSD))}</span></> },
+    { label: 'Avg Salary After', render: c => <>{usdLabel(c.avgSalaryAfterUSD)}/yr<br /><span className="text-xs text-gray-600">{inrLabel(usdToInr(c.avgSalaryAfterUSD))}</span></> },
     { label: 'Top Companies', render: c => c.topCompanies.slice(0, 3).join(', ') },
     { label: 'PR Eligible', render: c => c.prEligible ? <span className="text-green-600 font-semibold">✓ Yes</span> : <span className="text-red-500">✗ No</span> },
     { label: 'IELTS Min', render: c => `${c.ieltsMin}` },
@@ -441,7 +441,7 @@ function CourseStep({ profile, onNext }: { profile: Profile; onNext: (c: Compare
               className={`relative p-3 rounded-xl border-2 text-left transition-all ${isSelected ? 'border-brand-700 bg-brand-50 shadow-md' : disabled ? 'border-gray-100 opacity-40 cursor-not-allowed' : 'border-gray-100 hover:border-brand-300 bg-white'}`}>
               {isSelected && <span className="absolute top-2 right-2 w-4 h-4 bg-brand-700 text-white rounded-full text-xs flex items-center justify-center">✓</span>}
               <p className="font-semibold text-xs text-gray-800 pr-5">{c.name}</p>
-              <p className="text-xs text-gray-400 mt-1">{c.level}</p>
+              <p className="text-xs text-gray-600 mt-1">{c.level}</p>
               <ScoreBadge score={c.roiScore} />
             </button>
           );
@@ -582,7 +582,7 @@ function ReportStep({
               { label: 'Best Course', value: bestCourse?.name ?? '—', sub: `ROI ${bestCourse?.roiScore}/10` },
             ].map(card => (
               <div key={card.label} className="bg-white rounded-xl border border-gray-100 p-4 text-center">
-                <p className="text-xs text-gray-400 mb-1">{card.label}</p>
+                <p className="text-xs text-gray-600 mb-1">{card.label}</p>
                 <p className="font-bold text-sm text-brand-700">{card.value}</p>
                 <p className="text-xs text-gray-500 mt-0.5">{card.sub}</p>
               </div>
@@ -644,7 +644,7 @@ function ReportStep({
                   <button type="submit" className="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold py-3 rounded-xl text-sm transition-colors">
                     Unlock My Free Report 🔓
                   </button>
-                  <p className="text-center text-xs text-gray-400">No spam. Our counsellor will contact you within 2 hours.</p>
+                  <p className="text-center text-xs text-gray-600">No spam. Our counsellor will contact you within 2 hours.</p>
                 </form>
               ) : (
                 <p className="text-center text-green-600 font-semibold text-sm">✓ Report unlocked!</p>
@@ -682,10 +682,10 @@ function ProgressBar({ phase }: { phase: Phase }) {
     <div className="flex items-center gap-1 mb-8">
       {STEPS.map((s, i) => (
         <div key={s} className="flex items-center flex-1">
-          <div className={`flex items-center justify-center w-7 h-7 rounded-full text-xs font-bold shrink-0 transition-colors ${i <= idx ? 'bg-brand-700 text-white' : 'bg-gray-100 text-gray-400'}`}>
+          <div className={`flex items-center justify-center w-7 h-7 rounded-full text-xs font-bold shrink-0 transition-colors ${i <= idx ? 'bg-brand-700 text-white' : 'bg-gray-100 text-gray-600'}`}>
             {i < idx ? '✓' : i + 1}
           </div>
-          <span className={`ml-1 text-xs hidden sm:block whitespace-nowrap ${i <= idx ? 'text-brand-700 font-semibold' : 'text-gray-400'}`}>{STEP_LABELS[i]}</span>
+          <span className={`ml-1 text-xs hidden sm:block whitespace-nowrap ${i <= idx ? 'text-brand-700 font-semibold' : 'text-gray-600'}`}>{STEP_LABELS[i]}</span>
           {i < STEPS.length - 1 && <div className={`h-0.5 flex-1 mx-2 ${i < idx ? 'bg-brand-700' : 'bg-gray-200'}`} />}
         </div>
       ))}

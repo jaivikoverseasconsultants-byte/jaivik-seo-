@@ -133,7 +133,7 @@ export default function ExitIntentPopup() {
                 </button>
               </form>
 
-              <p className="text-center text-xs text-gray-400 mt-3">
+              <p className="text-center text-xs text-gray-600 mt-3">
                 🔒 No spam. Our counsellors respond within 2 hours.
               </p>
             </>

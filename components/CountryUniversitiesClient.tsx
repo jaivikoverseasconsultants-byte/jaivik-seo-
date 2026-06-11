@@ -231,7 +231,7 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
           </div>
         )}
 
-        <p className="text-xs text-gray-400 mt-2">
+        <p className="text-xs text-gray-600 mt-2">
           {filtered.length} {filtered.length === 1 ? 'university' : 'universities'} found
           {hasFilters ? ` (filtered from ${unis.length})` : ''}
         </p>

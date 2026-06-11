@@ -4,6 +4,8 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { courseIndex, CourseEntry } from '@/data/course-index';
 
+// ── Constants ─────────────────────────────────────────────────────────────────
+
 const FIELDS = ['Computer Science', 'MBA', 'Data Science', 'Nursing', 'Engineering', 'Law', 'Psychology', 'Finance', 'Other'] as const;
 const COUNTRIES = ['Canada', 'UK', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'Netherlands', 'UAE', 'France'] as const;
 const BUDGETS = ['Under 20L', '20-40L', '40-60L', '60-80L', 'Above 80L'] as const;
@@ -13,8 +15,10 @@ const QUALIFICATIONS = ['12th Pass', "Bachelor's", "Master's", 'Working Professi
 const COUNTRY_FLAGS: Record<string, string> = {
   Canada: '🇨🇦', UK: '🇬🇧', Australia: '🇦🇺', Germany: '🇩🇪',
   Ireland: '🇮🇪', Singapore: '🇸🇬', 'New Zealand': '🇳🇿',
-  Netherlands: '🇳🇱', UAE: '🇦🇪', France: '🇫🇷',
+  Netherlands: '🇳🇱', UAE: '🇦🇪', France: '🇫🇷', USA: '🇺🇸',
 };
+
+// ── Scoring ───────────────────────────────────────────────────────────────────
 
 function ieltsToNumber(val: string): number {
   if (val === 'Below 6') return 5.5;
@@ -25,68 +29,48 @@ function ieltsToNumber(val: string): number {
 
 function budgetMaxINR(val: string): number {
   switch (val) {
-    case 'Under 20L': return 2000000;
-    case '20-40L': return 4000000;
-    case '40-60L': return 6000000;
-    case '60-80L': return 8000000;
-    default: return Infinity;
+    case 'Under 20L': return 2_000_000;
+    case '20-40L':   return 4_000_000;
+    case '40-60L':   return 6_000_000;
+    case '60-80L':   return 8_000_000;
+    default:         return Infinity;
   }
 }
 
-function budgetMinINR(val: string): number {
-  switch (val) {
-    case '20-40L': return 2000000;
-    case '40-60L': return 4000000;
-    case '60-80L': return 6000000;
-    case 'Above 80L': return 8000000;
-    default: return 0;
-  }
-}
-
-function scoreCourse(course: CourseEntry, budget: string, countries: string[], ieltsVal: string): number {
+function scoreCourse(
+  course: CourseEntry,
+  budget: string,
+  countries: string[],
+  ieltsVal: string,
+): number {
   let score = 0;
 
-  // Budget: 40 pts
-  const maxBudget = budgetMaxINR(budget);
-  const minBudget = budgetMinINR(budget);
-  const inRange = course.annualINR <= maxBudget && course.annualINR >= minBudget;
-  const nearRange = course.annualINR <= maxBudget * 1.3 && course.annualINR >= minBudget * 0.7;
-  if (budget === 'Above 80L' && course.annualINR >= minBudget) {
+  // Budget: 40 pts within budget, 20 pts within 20% over, 0 otherwise
+  if (budget === 'Above 80L') {
     score += 40;
-  } else if (inRange) {
-    score += 40;
-  } else if (nearRange) {
-    score += 20;
+  } else {
+    const max = budgetMaxINR(budget);
+    if (course.annualINR <= max) score += 40;
+    else if (course.annualINR <= max * 1.2) score += 20;
   }
 
-  // IELTS: 30 pts
+  // IELTS: 15 pts not given yet, 30 pts meets requirement, 0 pts below
   const studentIelts = ieltsToNumber(ieltsVal);
-  if (studentIelts === 99) {
-    score += 15;
-  } else if (studentIelts >= course.ieltsMin) {
-    score += 30;
-  } else if (studentIelts >= course.ieltsMin - 0.5) {
-    score += 15;
-  }
+  if (studentIelts === 99) score += 15;
+  else if (studentIelts >= course.ieltsMin) score += 30;
 
-  // Country: 20 pts
-  if (countries.length === 0 || countries.includes(course.country)) {
-    score += 20;
-  }
+  // Country: 20 pts if country in selection (or no preference)
+  if (countries.length === 0 || countries.includes(course.country)) score += 20;
 
-  // QS Ranking: 10 pts
-  const qs = course.qsRanking;
-  if (qs <= 10) score += 10;
-  else if (qs <= 50) score += 8;
-  else if (qs <= 100) score += 6;
-  else if (qs <= 200) score += 4;
-  else score += 2;
+  // QS rank: <200 = 10 pts, <500 = 5 pts, unranked/0 = 0 pts
+  if (course.qsRanking > 0 && course.qsRanking < 200) score += 10;
+  else if (course.qsRanking > 0 && course.qsRanking < 500) score += 5;
 
-  return score;
+  return score; // max 100
 }
 
 function matchPercent(score: number): number {
-  return Math.min(99, Math.round((score / 100) * 100));
+  return Math.min(99, score);
 }
 
 function badgeColor(pct: number): string {
@@ -97,10 +81,39 @@ function badgeColor(pct: number): string {
 }
 
 function formatINR(inr: number): string {
-  if (inr < 100000) return `₹${Math.round(inr / 1000)}K`;
-  const lakhs = inr / 100000;
+  if (inr < 100_000) return `₹${Math.round(inr / 1000)}K`;
+  const lakhs = inr / 100_000;
   return `₹${lakhs % 1 === 0 ? lakhs.toFixed(0) : lakhs.toFixed(1)}L`;
 }
+
+function downloadCSV(courses: (CourseEntry & { score: number })[], studentName: string) {
+  const headers = ['Rank', 'Course', 'University', 'City', 'Country', 'Annual Fee (INR)', 'IELTS Min', 'QS Ranking', 'Match %'];
+  const rows = courses.map((c, i) => [
+    String(i + 1),
+    c.courseName,
+    c.universityName,
+    c.city,
+    c.country,
+    formatINR(c.annualINR),
+    String(c.ieltsMin),
+    c.qsRanking > 0 ? `#${c.qsRanking}` : 'Unranked',
+    `${matchPercent(c.score)}%`,
+  ]);
+  const csv = [headers, ...rows]
+    .map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(','))
+    .join('\n');
+  const blob = new Blob(['﻿' + csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `jaivik-course-matches-${(studentName || 'student').replace(/\s+/g, '-').toLowerCase()}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ── Types ─────────────────────────────────────────────────────────────────────
 
 interface FormState {
   field: string;
@@ -110,39 +123,50 @@ interface FormState {
   qualification: string;
 }
 
-interface LeadState {
+interface LeadInfo {
   name: string;
-  phone: string;
-  submitted: boolean;
-  submitting: boolean;
+  mobile: string;
+  email: string;
 }
+
+type Phase = 'wizard' | 'lead-gate' | 'results';
+
+// ── Component ─────────────────────────────────────────────────────────────────
 
 export default function CourseMatcherClient() {
   const [form, setForm] = useState<FormState>({
-    field: '',
-    countries: [],
-    budget: '',
-    ielts: '',
-    qualification: '',
+    field: '', countries: [], budget: '', ielts: '', qualification: '',
   });
-  const [searched, setSearched] = useState(false);
-  const [lead, setLead] = useState<LeadState>({ name: '', phone: '', submitted: false, submitting: false });
+  const [phase, setPhase] = useState<Phase>('wizard');
+  const [leadInfo, setLeadInfo] = useState<LeadInfo>({ name: '', mobile: '', email: '' });
+  const [leadSubmitting, setLeadSubmitting] = useState(false);
+  const [selected, setSelected] = useState<Set<string>>(new Set());
 
+  // ── Scored + diversified results ─────────────────────────────────────────────
   const results = useMemo(() => {
-    if (!searched || !form.field || !form.budget || !form.ielts) return [];
+    if (phase !== 'results' || !form.field || !form.budget || !form.ielts) return [];
 
-    const filtered = courseIndex.filter(c =>
-      c.fields.includes(form.field) &&
-      (form.countries.length === 0 || form.countries.includes(c.country))
-    );
-
-    return filtered
+    const scored = courseIndex
+      .filter(c => form.field === 'Other' || c.fields.includes(form.field))
       .map(c => ({ ...c, score: scoreCourse(c, form.budget, form.countries, form.ielts) }))
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 10);
-  }, [searched, form]);
+      .sort((a, b) => b.score - a.score);
+
+    // Max 2 courses per university in top 10
+    const top: typeof scored = [];
+    const uniCount: Record<string, number> = {};
+    for (const c of scored) {
+      const n = uniCount[c.uniSlug] ?? 0;
+      if (n < 2) {
+        top.push(c);
+        uniCount[c.uniSlug] = n + 1;
+      }
+      if (top.length >= 10) break;
+    }
+    return top;
+  }, [phase, form]);
 
   const canSearch = Boolean(form.field && form.budget && form.ielts && form.qualification);
+  const selectedCourses = results.filter(r => selected.has(r.id));
 
   function toggleCountry(c: string) {
     setForm(prev => ({
@@ -153,45 +177,67 @@ export default function CourseMatcherClient() {
     }));
   }
 
+  function toggleSelect(id: string) {
+    setSelected(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id); else next.add(id);
+      return next;
+    });
+  }
+
+  function handleWizardSubmit() {
+    if (!canSearch) return;
+    if (phase === 'results') {
+      // Already got lead info — just refresh results and clear selections
+      setSelected(new Set());
+    } else {
+      setPhase('lead-gate');
+    }
+  }
+
   async function handleLeadSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!lead.name || !lead.phone) return;
-    setLead(prev => ({ ...prev, submitting: true }));
-
-    const topMatches = results.slice(0, 3)
-      .map(r => `${r.courseName} at ${r.universityName} (${matchPercent(r.score)}% match)`)
-      .join('; ');
-
+    setLeadSubmitting(true);
     try {
-      await fetch('https://formspree.io/f/xgoqzezk', {
+      await fetch('/api/course-matcher/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: lead.name,
-          phone: lead.phone,
+          name: leadInfo.name,
+          mobile: leadInfo.mobile,
+          email: leadInfo.email,
           field: form.field,
           countries: form.countries.join(', ') || 'Any',
           budget: form.budget,
           ielts: form.ielts,
           qualification: form.qualification,
-          topMatches,
-          source: 'AI Course Matcher',
         }),
       });
-      setLead(prev => ({ ...prev, submitted: true, submitting: false }));
-      const msg = encodeURIComponent(
-        `Hi Gaurav! I used the AI Course Matcher on Jaivik Overseas. My top match is ${results[0]?.courseName} at ${results[0]?.universityName}. I'd love a free counselling session. My name is ${lead.name}.`
-      );
-      window.open(`https://wa.me/919971226347?text=${msg}`, '_blank');
     } catch {
-      setLead(prev => ({ ...prev, submitting: false }));
+      // Proceed regardless
     }
+    setLeadSubmitting(false);
+    setPhase('results');
   }
+
+  function handleEmailCourses() {
+    if (selectedCourses.length === 0) return;
+    const lines = selectedCourses
+      .map((c, i) => `${i + 1}. ${c.courseName} – ${c.universityName}, ${c.country} | ${formatINR(c.annualINR)}/yr | IELTS ${c.ieltsMin}+`)
+      .join('\n');
+    const subject = encodeURIComponent('My Course Shortlist – Jaivik Overseas');
+    const body = encodeURIComponent(
+      `Hi Jaivik Overseas Team,\n\nI used your AI Course Matcher and shortlisted the following courses:\n\n${lines}\n\nPlease help me with the next steps.\n\nName: ${leadInfo.name}\nMobile: ${leadInfo.mobile}\nEmail: ${leadInfo.email}`
+    );
+    window.location.href = `mailto:enquiry@jaivikoverseasconsultants.com?subject=${subject}&body=${body}`;
+  }
+
+  // ── Render ────────────────────────────────────────────────────────────────────
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
 
-      {/* Profile Form Card */}
+      {/* ── Wizard card ─────────────────────────────────────────────────────── */}
       <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 md:p-8 mb-8">
         <div className="flex items-center gap-3 mb-6">
           <div className="w-10 h-10 bg-brand-700 rounded-xl flex items-center justify-center text-white font-bold text-lg">AI</div>
@@ -202,47 +248,39 @@ export default function CourseMatcherClient() {
         </div>
 
         <div className="space-y-5">
-          {/* Field of Interest */}
+          {/* Field */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
               Field of Interest <span className="text-red-500">*</span>
             </label>
             <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
               {FIELDS.map(f => (
-                <button
-                  key={f}
-                  type="button"
-                  onClick={() => setForm(prev => ({ ...prev, field: f }))}
+                <button key={f} type="button" onClick={() => setForm(prev => ({ ...prev, field: f }))}
                   className={`text-xs px-2 py-2 rounded-lg border transition-all font-medium text-center ${
                     form.field === f
                       ? 'bg-brand-700 text-white border-brand-700'
                       : 'bg-white text-gray-600 border-gray-200 hover:border-brand-300 hover:text-brand-700'
-                  }`}
-                >
+                  }`}>
                   {f}
                 </button>
               ))}
             </div>
           </div>
 
-          {/* Target Countries */}
+          {/* Countries */}
           <div>
             <label className="block text-sm font-semibold text-gray-700 mb-2">
               Target Country{' '}
-              <span className="text-xs font-normal text-gray-400">(optional — select multiple or leave blank for all)</span>
+              <span className="text-xs font-normal text-gray-500">(optional — select multiple or leave blank for all)</span>
             </label>
             <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
               {COUNTRIES.map(c => (
-                <button
-                  key={c}
-                  type="button"
-                  onClick={() => toggleCountry(c)}
+                <button key={c} type="button" onClick={() => toggleCountry(c)}
                   className={`text-xs px-2 py-2 rounded-lg border transition-all font-medium flex items-center justify-center gap-1 ${
                     form.countries.includes(c)
                       ? 'bg-brand-700 text-white border-brand-700'
                       : 'bg-white text-gray-600 border-gray-200 hover:border-brand-300 hover:text-brand-700'
-                  }`}
-                >
+                  }`}>
                   <span>{COUNTRY_FLAGS[c]}</span>
                   <span>{c === 'New Zealand' ? 'NZ' : c}</span>
                 </button>
@@ -256,63 +294,95 @@ export default function CourseMatcherClient() {
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Budget / Year (INR) <span className="text-red-500">*</span>
               </label>
-              <select
-                value={form.budget}
-                onChange={e => setForm(prev => ({ ...prev, budget: e.target.value }))}
-                className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white"
-              >
+              <select value={form.budget} onChange={e => setForm(prev => ({ ...prev, budget: e.target.value }))}
+                className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
                 <option value="">Select budget</option>
                 {BUDGETS.map(b => <option key={b} value={b}>{b}</option>)}
               </select>
             </div>
-
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 IELTS Score <span className="text-red-500">*</span>
               </label>
-              <select
-                value={form.ielts}
-                onChange={e => setForm(prev => ({ ...prev, ielts: e.target.value }))}
-                className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white"
-              >
+              <select value={form.ielts} onChange={e => setForm(prev => ({ ...prev, ielts: e.target.value }))}
+                className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
                 <option value="">Select IELTS</option>
                 {IELTS_OPTIONS.map(i => <option key={i} value={i}>{i}</option>)}
               </select>
             </div>
-
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Your Qualification <span className="text-red-500">*</span>
               </label>
-              <select
-                value={form.qualification}
-                onChange={e => setForm(prev => ({ ...prev, qualification: e.target.value }))}
-                className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white"
-              >
+              <select value={form.qualification} onChange={e => setForm(prev => ({ ...prev, qualification: e.target.value }))}
+                className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 bg-white">
                 <option value="">Select qualification</option>
                 {QUALIFICATIONS.map(q => <option key={q} value={q}>{q}</option>)}
               </select>
             </div>
           </div>
 
-          {/* CTA Button */}
-          <button
-            type="button"
-            disabled={!canSearch}
-            onClick={() => setSearched(true)}
+          {/* Submit */}
+          <button type="button" disabled={!canSearch} onClick={handleWizardSubmit}
             className={`w-full py-3.5 rounded-xl font-bold text-base transition-all ${
               canSearch
                 ? 'bg-brand-700 hover:bg-brand-800 text-white shadow-lg shadow-brand-200/50 cursor-pointer'
                 : 'bg-gray-100 text-gray-400 cursor-not-allowed'
-            }`}
-          >
-            {searched ? '🔄 Update My Matches' : '🎯 Find My Best Course Matches'}
+            }`}>
+            {phase === 'results' ? '🔄 Update My Matches' : '🎯 Find My Best Course Matches'}
           </button>
         </div>
       </div>
 
-      {/* Results */}
-      {searched && (
+      {/* ── Lead gate ────────────────────────────────────────────────────────── */}
+      {phase === 'lead-gate' && (
+        <div className="bg-white rounded-2xl shadow-lg border border-brand-100 p-6 md:p-10 mb-8">
+          <div className="max-w-md mx-auto text-center">
+            <div className="w-16 h-16 bg-brand-50 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-4">🎓</div>
+            <h2 className="text-2xl font-bold text-gray-900 mb-1">Almost there!</h2>
+            <p className="text-gray-500 text-sm mb-6">
+              Enter your details to unlock your personalised course matches — free, no spam.
+            </p>
+
+            <form onSubmit={handleLeadSubmit} className="space-y-3 text-left">
+              <div>
+                <label className="block text-xs font-semibold text-gray-700 mb-1.5">
+                  Full Name <span className="text-red-500">*</span>
+                </label>
+                <input type="text" required placeholder="e.g. Rahul Sharma"
+                  value={leadInfo.name} onChange={e => setLeadInfo(prev => ({ ...prev, name: e.target.value }))}
+                  className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+              </div>
+              <div>
+                <label className="block text-xs font-semibold text-gray-700 mb-1.5">
+                  Mobile Number <span className="text-red-500">*</span>
+                </label>
+                <input type="tel" required placeholder="e.g. 9876543210"
+                  value={leadInfo.mobile} onChange={e => setLeadInfo(prev => ({ ...prev, mobile: e.target.value }))}
+                  className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+              </div>
+              <div>
+                <label className="block text-xs font-semibold text-gray-700 mb-1.5">
+                  Email Address <span className="text-red-500">*</span>
+                </label>
+                <input type="email" required placeholder="e.g. rahul@email.com"
+                  value={leadInfo.email} onChange={e => setLeadInfo(prev => ({ ...prev, email: e.target.value }))}
+                  className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+              </div>
+              <button type="submit" disabled={leadSubmitting}
+                className="w-full bg-brand-700 hover:bg-brand-800 text-white font-bold py-3.5 rounded-xl transition-colors text-base disabled:opacity-60">
+                {leadSubmitting ? 'Please wait...' : 'Unlock Your Matches →'}
+              </button>
+              <p className="text-center text-xs text-gray-600 pt-1">
+                Your data is secure · No spam · We contact you only if you want counselling
+              </p>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* ── Results ──────────────────────────────────────────────────────────── */}
+      {phase === 'results' && (
         <div>
           {results.length === 0 ? (
             <div className="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 text-center">
@@ -320,12 +390,8 @@ export default function CourseMatcherClient() {
               <p className="text-sm text-yellow-600 mb-4">
                 Try deselecting specific countries, or book a free counselling session — Gaurav will find the right fit personally.
               </p>
-              <a
-                href="https://wa.me/919971226347"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-green-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-green-700 transition-colors"
-              >
+              <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
+                className="inline-block bg-green-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-green-700 transition-colors">
                 💬 WhatsApp Gaurav Now
               </a>
             </div>
@@ -336,23 +402,34 @@ export default function CourseMatcherClient() {
                   Your Top {results.length} Matches
                   <span className="ml-2 text-sm font-normal text-gray-500">for {form.field}</span>
                 </h2>
-                <span className="hidden sm:inline text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded-full">
+                <span className="hidden sm:inline text-xs text-gray-600 bg-gray-100 px-2 py-1 rounded-full">
                   Ranked by budget · IELTS · QS ranking
                 </span>
               </div>
+
+              <p className="text-xs text-gray-600 mb-3">Select courses below to download or email your shortlist.</p>
 
               <div className="space-y-3 mb-10">
                 {results.map((course, idx) => {
                   const pct = matchPercent(course.score);
                   const courseUrl = `/universities/${course.uniSlug}/courses/${course.courseSlug}`;
+                  const isChecked = selected.has(course.id);
+                  const flag = COUNTRY_FLAGS[course.country] ?? course.flag;
 
                   return (
-                    <div
-                      key={course.id}
-                      className="bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md hover:border-brand-200 transition-all"
-                    >
+                    <div key={course.id}
+                      className={`bg-white rounded-xl border p-4 hover:shadow-md transition-all course-card ${
+                        isChecked ? 'border-brand-400 ring-1 ring-brand-200' : 'border-gray-100 hover:border-brand-200'
+                      }`}>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                        {/* Rank */}
+
+                        {/* Checkbox */}
+                        <label className="flex-shrink-0 cursor-pointer" title="Select for download">
+                          <input type="checkbox" checked={isChecked} onChange={() => toggleSelect(course.id)}
+                            className="w-4 h-4 rounded border-gray-300 text-brand-700 cursor-pointer" />
+                        </label>
+
+                        {/* Rank badge */}
                         <div className="flex-shrink-0 w-8 h-8 bg-brand-50 rounded-full flex items-center justify-center text-brand-700 font-bold text-sm">
                           {idx + 1}
                         </div>
@@ -366,8 +443,8 @@ export default function CourseMatcherClient() {
                             </span>
                           </div>
                           <p className="text-xs text-gray-500">
-                            {course.flag} {course.universityName} &middot; {course.city}, {course.country}
-                            {course.qsRanking <= 200 && (
+                            {flag} {course.universityName} &middot; {course.city}, {course.country}
+                            {course.qsRanking > 0 && course.qsRanking <= 500 && (
                               <span className="ml-2 text-amber-600 font-semibold">QS #{course.qsRanking}</span>
                             )}
                           </p>
@@ -376,23 +453,17 @@ export default function CourseMatcherClient() {
                         {/* Fee + IELTS */}
                         <div className="flex sm:flex-col items-center sm:items-end gap-4 sm:gap-0.5 flex-shrink-0">
                           <p className="text-sm font-bold text-brand-700">{formatINR(course.annualINR)}/yr</p>
-                          <p className="text-xs text-gray-400">IELTS {course.ieltsMin}+</p>
+                          <p className="text-xs text-gray-600">IELTS {course.ieltsMin}+</p>
                         </div>
 
-                        {/* Action buttons */}
+                        {/* Actions */}
                         <div className="flex gap-2 flex-shrink-0">
-                          <Link
-                            href={courseUrl}
-                            className="text-xs bg-brand-700 text-white px-3 py-2 rounded-lg font-semibold hover:bg-brand-800 transition-colors whitespace-nowrap"
-                          >
+                          <Link href={courseUrl}
+                            className="text-xs bg-brand-700 text-white px-3 py-2 rounded-lg font-semibold hover:bg-brand-800 transition-colors whitespace-nowrap">
                             View Course →
                           </Link>
-                          <a
-                            href="https://wa.me/919971226347"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs bg-green-600 text-white px-3 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors whitespace-nowrap"
-                          >
+                          <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
+                            className="text-xs bg-green-600 text-white px-3 py-2 rounded-lg font-semibold hover:bg-green-700 transition-colors whitespace-nowrap">
                             Book Counselling
                           </a>
                         </div>
@@ -402,56 +473,16 @@ export default function CourseMatcherClient() {
                 })}
               </div>
 
-              {/* Lead Capture Banner */}
-              <div className="bg-gradient-to-br from-brand-700 to-brand-900 rounded-2xl p-6 md:p-8 text-white">
+              {/* Counselling CTA */}
+              <div className="bg-gradient-to-br from-brand-700 to-brand-900 rounded-2xl p-6 md:p-8 text-white mb-24">
                 <div className="max-w-lg mx-auto text-center">
                   <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-3xl mx-auto mb-3">👨‍💼</div>
-                  <h3 className="text-xl font-bold mb-1">
-                    Want Gaurav Katyal to personally review your matches?
-                  </h3>
-                  <p className="text-blue-200 text-sm mb-5">
-                    13 years experience · 500+ students placed · Completely free
-                  </p>
-
-                  {lead.submitted ? (
-                    <div className="bg-white/10 rounded-xl p-5 text-center">
-                      <p className="text-xl font-bold mb-1">🎉 Thanks, {lead.name}!</p>
-                      <p className="text-blue-200 text-sm">
-                        WhatsApp opened — Gaurav will reply within a few hours.
-                      </p>
-                    </div>
-                  ) : (
-                    <form onSubmit={handleLeadSubmit} className="space-y-3">
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        <input
-                          type="text"
-                          placeholder="Your Name"
-                          required
-                          value={lead.name}
-                          onChange={e => setLead(prev => ({ ...prev, name: e.target.value }))}
-                          className="bg-white/10 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-blue-300 text-sm focus:outline-none focus:ring-2 focus:ring-white/40"
-                        />
-                        <input
-                          type="tel"
-                          placeholder="Phone / WhatsApp Number"
-                          required
-                          value={lead.phone}
-                          onChange={e => setLead(prev => ({ ...prev, phone: e.target.value }))}
-                          className="bg-white/10 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-blue-300 text-sm focus:outline-none focus:ring-2 focus:ring-white/40"
-                        />
-                      </div>
-                      <button
-                        type="submit"
-                        disabled={lead.submitting}
-                        className="w-full bg-gold-500 hover:bg-gold-600 text-white font-bold py-3 rounded-xl transition-colors disabled:opacity-60"
-                      >
-                        {lead.submitting ? 'Sending...' : '💬 Book Free Counselling with Gaurav Katyal'}
-                      </button>
-                      <p className="text-xs text-blue-300">
-                        Zero spam · WhatsApp only · 100% free
-                      </p>
-                    </form>
-                  )}
+                  <h3 className="text-xl font-bold mb-1">Want Gaurav Katyal to personally review your matches?</h3>
+                  <p className="text-blue-200 text-sm mb-5">13 years experience · 500+ students placed · Completely free</p>
+                  <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
+                    className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
+                    💬 Book Free Counselling with Gaurav Katyal
+                  </a>
                 </div>
               </div>
             </>
@@ -459,8 +490,8 @@ export default function CourseMatcherClient() {
         </div>
       )}
 
-      {/* Info tiles shown before search */}
-      {!searched && (
+      {/* ── Info tiles (pre-search) ──────────────────────────────────────────── */}
+      {phase === 'wizard' && (
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-2">
           {[
             { icon: '🎯', title: '170+ Courses', desc: 'Curated across 12 top universities' },
@@ -473,6 +504,34 @@ export default function CourseMatcherClient() {
               <p className="text-xs text-gray-500 mt-1">{item.desc}</p>
             </div>
           ))}
+        </div>
+      )}
+
+      {/* ── Sticky selection bar ─────────────────────────────────────────────── */}
+      {selected.size > 0 && (
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 shadow-2xl">
+          <div className="max-w-4xl mx-auto px-4 py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <p className="text-sm font-semibold text-gray-700">
+              {selected.size} course{selected.size !== 1 ? 's' : ''} selected
+            </p>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => downloadCSV(selectedCourses, leadInfo.name)}
+                className="flex items-center gap-1.5 bg-brand-700 hover:bg-brand-800 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors">
+                ⬇ Download Selected (Excel)
+              </button>
+              <button
+                onClick={handleEmailCourses}
+                className="flex items-center gap-1.5 bg-green-600 hover:bg-green-700 text-white text-sm font-semibold px-4 py-2.5 rounded-lg transition-colors">
+                ✉ Email My Courses
+              </button>
+              <button
+                onClick={() => setSelected(new Set())}
+                className="text-xs text-gray-500 hover:text-gray-700 px-2 py-2">
+                Clear
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>

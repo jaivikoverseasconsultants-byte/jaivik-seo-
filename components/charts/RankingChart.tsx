@@ -22,7 +22,7 @@ export default function RankingChart({ data }: RankingChartProps) {
             dot={{ fill: '#f59e0b', r: 4 }} name="QS Rank" />
         </LineChart>
       </ResponsiveContainer>
-      <p className="text-xs text-gray-400 mt-2 text-center">Lower rank number = better position</p>
+      <p className="text-xs text-gray-600 mt-2 text-center">Lower rank number = better position</p>
     </div>
   );
 }

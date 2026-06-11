@@ -133,7 +133,7 @@ export default function BookCounsellingClient() {
               </div>
             ))}
           </div>
-          <p className="text-xs text-gray-400 mb-4">Need immediate help? WhatsApp us at +91-9971226347</p>
+          <p className="text-xs text-gray-600 mb-4">Need immediate help? WhatsApp us at +91-9971226347</p>
           <a
             href="https://wa.me/919971226347"
             target="_blank" rel="noopener noreferrer"
@@ -162,7 +162,7 @@ export default function BookCounsellingClient() {
           <div className="mb-6">
             <div className="flex items-center justify-between mb-2">
               <p className="text-xs font-semibold text-brand-700">Step {step} of 5: {STEP_LABELS[step - 1]}</p>
-              <p className="text-xs text-gray-400">{Math.round((step / 5) * 100)}% complete</p>
+              <p className="text-xs text-gray-600">{Math.round((step / 5) * 100)}% complete</p>
             </div>
             <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
               <div className="h-full bg-brand-700 rounded-full transition-all duration-500" style={{ width: `${(step / 5) * 100}%` }} />
@@ -256,11 +256,11 @@ export default function BookCounsellingClient() {
                           ? 'bg-brand-700 text-white font-bold shadow-md'
                           : 'bg-gray-50 border border-gray-200 hover:border-brand-400 hover:bg-brand-50 text-gray-700'
                       }`}>
-                      <p className={`font-medium ${isSun ? 'text-gray-300' : isSel ? 'text-blue-200' : 'text-gray-400'}`}>
+                      <p className={`font-medium ${isSun ? 'text-gray-300' : isSel ? 'text-blue-200' : 'text-gray-700'}`}>
                         {DAY_NAMES[d.getDay()]}
                       </p>
                       <p className="font-bold text-sm mt-0.5">{d.getDate()}</p>
-                      <p className={`text-xs ${isSun ? 'text-gray-300' : isSel ? 'text-blue-200' : 'text-gray-400'}`}>
+                      <p className={`text-xs ${isSun ? 'text-gray-300' : isSel ? 'text-blue-200' : 'text-gray-700'}`}>
                         {MONTH_NAMES[d.getMonth()]}
                       </p>
                     </button>
@@ -289,7 +289,7 @@ export default function BookCounsellingClient() {
             <div>
               <h2 className="font-bold text-gray-900 text-base mb-1">Choose your time slot</h2>
               {booking.date && (
-                <p className="text-xs text-gray-400 mb-4">{formatDate(booking.date)}</p>
+                <p className="text-xs text-gray-600 mb-4">{formatDate(booking.date)}</p>
               )}
               <div className="space-y-5 mb-5">
                 {TIME_GROUPS.map(group => (
@@ -349,7 +349,7 @@ export default function BookCounsellingClient() {
                   ['Time', booking.time],
                 ].map(([label, val]) => (
                   <div key={label} className="flex justify-between items-start gap-3 text-sm">
-                    <span className="text-gray-400 flex-shrink-0">{label}</span>
+                    <span className="text-gray-600 flex-shrink-0">{label}</span>
                     <span className="font-semibold text-gray-900 text-right">{val}</span>
                   </div>
                 ))}
@@ -366,7 +366,7 @@ export default function BookCounsellingClient() {
                   Something went wrong. WhatsApp us at +91-9971226347.
                 </p>
               )}
-              <button onClick={back} className="w-full text-center text-sm text-gray-400 hover:text-gray-600 py-2 transition-colors">
+              <button onClick={back} className="w-full text-center text-sm text-gray-600 hover:text-gray-800 py-2 transition-colors">
                 ← Go Back
               </button>
             </div>
