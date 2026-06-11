@@ -5,6 +5,7 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { universities, getUniversityBySlug } from '@/data/universities';
 import { universityWebsites } from '@/data/university-websites';
+import { getCoursesBySlug } from '@/data/university-course-registry';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
@@ -38,6 +39,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   if (!found) notFound();
   const u = found;
   const officialWebsite = u.website || universityWebsites[u.slug];
+  const uniCourses = getCoursesBySlug(u.slug);
 
   const [campusImage, galleryImages] = await Promise.all([
     fetchUnsplashImage(`${u.shortName} university campus`),
@@ -426,6 +428,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 </Link>
               </div>
               <UniversityCoursesSection
+                courses={uniCourses.length > 0 ? uniCourses : undefined}
                 popularCourses={u.popularCourses}
                 uniSlug={u.slug}
                 uniName={u.shortName}
