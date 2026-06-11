@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { universities, getUniversityBySlug } from '@/data/universities';
+import { universityWebsites } from '@/data/university-websites';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
@@ -36,6 +37,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   const found = getUniversityBySlug(slug);
   if (!found) notFound();
   const u = found;
+  const officialWebsite = u.website || universityWebsites[u.slug];
 
   const [campusImage, galleryImages] = await Promise.all([
     fetchUnsplashImage(`${u.shortName} university campus`),
@@ -158,6 +160,18 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                   <span key={h} className="text-xs bg-white/10 text-white px-3 py-1.5 rounded-full">✓ {h}</span>
                 ))}
               </div>
+              {officialWebsite && (
+                <div className="mt-4">
+                  <a
+                    href={officialWebsite}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 border border-white/40 text-white hover:bg-white/10 text-sm font-semibold px-4 py-2 rounded-xl transition-colors"
+                  >
+                    Official University Website →
+                  </a>
+                </div>
+              )}
             </div>
             <div className="bg-white rounded-2xl p-5">
               <LeadForm source={`university-${u.slug}`} defaultCourse={u.popularCourses[0]} defaultCountry={u.country} compact />

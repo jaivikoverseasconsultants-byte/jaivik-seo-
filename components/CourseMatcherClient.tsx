@@ -454,6 +454,9 @@ export default function CourseMatcherClient() {
                         <div className="flex sm:flex-col items-center sm:items-end gap-4 sm:gap-0.5 flex-shrink-0">
                           <p className="text-sm font-bold text-brand-700">{formatINR(course.annualINR)}/yr</p>
                           <p className="text-xs text-gray-600">IELTS {course.ieltsMin}+</p>
+                          {course.applicationFee && (
+                            <p className="text-xs text-gray-500">App Fee: {course.applicationFee}</p>
+                          )}
                         </div>
 
                         {/* Actions */}
@@ -468,6 +471,27 @@ export default function CourseMatcherClient() {
                           </a>
                         </div>
                       </div>
+
+                      {/* Secondary row: English Waiver + Official Course link */}
+                      {(course.englishWaiver || course.officialCourseUrl) && (
+                        <div className="flex flex-wrap items-center gap-3 mt-2 pt-2 border-t border-gray-50">
+                          {course.englishWaiver && (
+                            <span className="inline-flex items-center gap-1 text-xs bg-green-50 text-green-700 font-medium px-2.5 py-1 rounded-full border border-green-200">
+                              ✓ English Waiver Available
+                            </span>
+                          )}
+                          {course.officialCourseUrl && (
+                            <a
+                              href={course.officialCourseUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-xs text-brand-700 font-semibold hover:underline"
+                            >
+                              View Official Course →
+                            </a>
+                          )}
+                        </div>
+                      )}
                     </div>
                   );
                 })}

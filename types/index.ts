@@ -48,6 +48,7 @@ export interface University {
   rankingHistory: { year: number; rank: number }[];
   topEmployers: string[];
   countryCode: string;
+  website?: string;
 }
 
 export interface ROIData {

@@ -16,6 +16,9 @@ export interface CourseEntry {
   level: string;
   fields: string[];
   qsRanking: number;
+  applicationFee?: string;
+  officialCourseUrl?: string;
+  englishWaiver?: boolean;
 }
 
 export const courseIndex: CourseEntry[] = [

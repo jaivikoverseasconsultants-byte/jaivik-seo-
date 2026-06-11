@@ -182,6 +182,49 @@ export default function CourseRichContent({ course, universityName, universitySl
         </div>
       </div>
 
+      {/* Application Details & Official Links */}
+      {((course as any).url || (course as any).applicationFee || (course as any).englishWaiver || (course as any).applicationMode) && (
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Application Details</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {(course as any).applicationFee && (
+              <div className="p-4 bg-gray-50 rounded-xl">
+                <p className="text-xs text-gray-500 font-medium mb-1">Application Fee</p>
+                <p className="text-sm font-semibold text-gray-900">{(course as any).applicationFee}</p>
+              </div>
+            )}
+            {(course as any).applicationMode && (
+              <div className="p-4 bg-gray-50 rounded-xl">
+                <p className="text-xs text-gray-500 font-medium mb-1">Application Mode</p>
+                <p className="text-sm font-semibold text-gray-900">{(course as any).applicationMode}</p>
+              </div>
+            )}
+            {(course as any).englishWaiver === true && (
+              <div className="p-4 bg-green-50 rounded-xl flex items-center gap-3">
+                <span className="text-green-600 text-xl">✓</span>
+                <div>
+                  <p className="text-xs text-green-700 font-medium mb-0.5">English Waiver Available</p>
+                  <p className="text-xs text-green-600">Students from English-medium schools may be exempt from IELTS/TOEFL</p>
+                </div>
+              </div>
+            )}
+          </div>
+          {(course as any).url && (
+            <div className="mt-4">
+              <a
+                href={(course as any).url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 border border-brand-700 text-brand-700 hover:bg-brand-50 text-sm font-semibold px-5 py-2.5 rounded-xl transition-colors"
+              >
+                View Official Course Page →
+              </a>
+              <p className="text-xs text-gray-500 mt-2">Opens the university&apos;s official course page in a new tab</p>
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Global currency disclaimer footer */}
       <div className="text-xs text-gray-600 border-t border-gray-100 pt-3 px-1">
         Currency conversions are indicative only. Rates updated periodically. Contact us for current fee estimates in INR.
