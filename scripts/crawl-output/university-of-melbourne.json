@@ -1,29 +1,103 @@
 {
   "slug": "university-of-melbourne",
-  "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-arts/",
-  "country": "Australia",
-  "level": "Graduate",
-  "coursesFound": 0,
-  "courses": [],
-  "headings": [
-    "H4: Cloud vars",
-    "H1: Page not found",
-    "H2: What now?",
-    "H2: Problem report"
-  ],
-  "diagLinks": [
+  "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses",
+  "courses": [
     {
-      "name": "page you were on",
-      "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-arts/"
+      "name": "The Melbourne Curriculum",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#curriculum"
     },
     {
-      "name": "careers, study areas, courses or specialisations search",
-      "url": "https://study.unimelb.edu.au/find"
+      "name": "Discover graduate courses",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#discover-your-course"
     },
     {
-      "name": "Study home page",
-      "url": "https://study.unimelb.edu.au/"
+      "name": "Events and tours",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#events"
+    },
+    {
+      "name": "Ready to apply?",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#ready_to_apply"
+    },
+    {
+      "name": "Quick links",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#resources-for-graduate-students"
+    },
+    {
+      "name": "Student stories",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#the-student-experience"
+    },
+    {
+      "name": "Agricultural and veterinary sciences",
+      "url": "https://study.unimelb.edu.au/find/study-areas/agricultural-and-veterinary-sciences/"
+    },
+    {
+      "name": "Arts, humanities and social sciences",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/arts-humanities-and-social-sciences"
+    },
+    {
+      "name": "Architecture, building, planning and design",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/built-environment"
+    },
+    {
+      "name": "Business and economics",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/study-business"
+    },
+    {
+      "name": "Education",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/study-education"
+    },
+    {
+      "name": "Engineering",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/engineering"
+    },
+    {
+      "name": "Environment",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/environment"
+    },
+    {
+      "name": "Fine arts and music",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/fine-arts-and-music"
+    },
+    {
+      "name": "Information technology and computer science",
+      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/information-technology-and-computer-science"
+    },
+    {
+      "name": "Download our course guides Arrow-right",
+      "url": "https://study.unimelb.edu.au/connect-with-us/view-our-brochures#navigation-graduate"
+    },
+    {
+      "name": "Student accommodation Arrow-right",
+      "url": "https://study.unimelb.edu.au/accommodation"
+    },
+    {
+      "name": "Campuses and facilities Arrow-right",
+      "url": "https://study.unimelb.edu.au/student-life/campus-and-facilities"
+    },
+    {
+      "name": "Important dates Arrow-right",
+      "url": "https://www.unimelb.edu.au/dates"
+    },
+    {
+      "name": "International exchange and study abroad Arrow-right",
+      "url": "https://study.unimelb.edu.au/how-to-apply/international-exchange-and-study-abroad-applications"
+    },
+    {
+      "name": "Student support services Arrow-right",
+      "url": "https://services.unimelb.edu.au/finder/home"
     }
   ],
-  "crawledAt": "2026-06-11T09:56:22.926Z"
+  "headings": [
+    "H1: Graduate courses",
+    "H1: You're almost finished!",
+    "H1: You're almost finished!",
+    "H1: Where can a Melbourne graduate degree take you?​",
+    "H1: Graduate courses",
+    "H1: Graduate courses",
+    "H2: Discover your course",
+    "H2: Search for a graduate course",
+    "H2: Browse courses by study area",
+    "H2: Innovative online courses"
+  ],
+  "crawledAt": "2026-06-11T10:25:07.081Z"
 }

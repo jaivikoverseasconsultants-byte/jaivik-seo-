@@ -1,20 +1,363 @@
 {
   "slug": "mcmaster-university",
   "url": "https://gs.mcmaster.ca/programs/",
-  "country": "Canada",
-  "level": "Graduate",
-  "mcmasterMode": true,
-  "coursesFound": 0,
-  "courses": [],
-  "headings": [
-    "Student Support",
-    "Tools",
-    "Faculties",
-    "On Campus",
-    "Graduate Studies",
-    "Programs",
-    "Graduate Studies"
+  "courses": [
+    {
+      "name": "AI and Analytics",
+      "url": "https://gs.mcmaster.ca/program/ai-and-analytics/"
+    },
+    {
+      "name": "Anthropology",
+      "url": "https://gs.mcmaster.ca/program/anthropology/"
+    },
+    {
+      "name": "Applied AI and Data-Driven Decision-Making",
+      "url": "https://gs.mcmaster.ca/program/applied-ai-and-data-driven-decision-making/"
+    },
+    {
+      "name": "Astrobiology (Collaborative Program)",
+      "url": "https://gs.mcmaster.ca/program/astrobiology-collaborative-program/"
+    },
+    {
+      "name": "Biochemistry and Biomedical Sciences",
+      "url": "https://gs.mcmaster.ca/program/biochemistry-and-biomedical-sciences/"
+    },
+    {
+      "name": "Biology",
+      "url": "https://gs.mcmaster.ca/program/biology/"
+    },
+    {
+      "name": "Biomedical Discovery and Commercialization",
+      "url": "https://gs.mcmaster.ca/program/biomedical-discovery-and-commercialization/"
+    },
+    {
+      "name": "Biomedical Engineering",
+      "url": "https://gs.mcmaster.ca/program/biomedical-engineering/"
+    },
+    {
+      "name": "Biomedical Innovation",
+      "url": "https://gs.mcmaster.ca/program/biomedical-innovation/"
+    },
+    {
+      "name": "Business Administration",
+      "url": "https://gs.mcmaster.ca/program/business-administration/"
+    },
+    {
+      "name": "Business Administration (EMBA)",
+      "url": "https://gs.mcmaster.ca/program/business-administration-emba/"
+    },
+    {
+      "name": "Business Administration (MBA)",
+      "url": "https://gs.mcmaster.ca/program/business-administration-mba/"
+    },
+    {
+      "name": "Chemical Biology",
+      "url": "https://gs.mcmaster.ca/program/chemical-biology-2/"
+    },
+    {
+      "name": "Chemical Engineering",
+      "url": "https://gs.mcmaster.ca/program/chemical-engineering/"
+    },
+    {
+      "name": "Chemistry",
+      "url": "https://gs.mcmaster.ca/program/chemistry/"
+    },
+    {
+      "name": "Child Life and Pediatric Psychosocial Care",
+      "url": "https://gs.mcmaster.ca/program/child-life-and-pediatric-psychosocial-care/"
+    },
+    {
+      "name": "Civil Engineering",
+      "url": "https://gs.mcmaster.ca/program/civil-engineering/"
+    },
+    {
+      "name": "Clinical Behavioural Sciences",
+      "url": "https://gs.mcmaster.ca/program/clinical-behavioural-sciences/"
+    },
+    {
+      "name": "Clinical Epidemiology",
+      "url": "https://gs.mcmaster.ca/program/clinical-epidemiology/"
+    },
+    {
+      "name": "Cognitive Science of Language",
+      "url": "https://gs.mcmaster.ca/program/cognitive-science-of-language/"
+    },
+    {
+      "name": "Communication and New Media",
+      "url": "https://gs.mcmaster.ca/program/communication-and-new-media/"
+    },
+    {
+      "name": "Communication, New Media, and Cultural Studies",
+      "url": "https://gs.mcmaster.ca/program/communication-new-media-and-cultural-studies/"
+    },
+    {
+      "name": "Communications Management",
+      "url": "https://gs.mcmaster.ca/program/communications-management/"
+    },
+    {
+      "name": "Community and Public Health",
+      "url": "https://gs.mcmaster.ca/program/community-and-public-health/"
+    },
+    {
+      "name": "Computational Science and Engineering",
+      "url": "https://gs.mcmaster.ca/program/computational-science-and-engineering/"
+    },
+    {
+      "name": "Computing and Software",
+      "url": "https://gs.mcmaster.ca/program/computing-and-software/"
+    },
+    {
+      "name": "Earth and Environmental Sciences",
+      "url": "https://gs.mcmaster.ca/program/earth-and-environmental-sciences/"
+    },
+    {
+      "name": "Economic Policy",
+      "url": "https://gs.mcmaster.ca/program/economic-policy/"
+    },
+    {
+      "name": "Economics",
+      "url": "https://gs.mcmaster.ca/program/economics/"
+    },
+    {
+      "name": "eHealth",
+      "url": "https://gs.mcmaster.ca/program/ehealth/"
+    },
+    {
+      "name": "Electrical and Computer Engineering",
+      "url": "https://gs.mcmaster.ca/program/electrical-and-computer-engineering/"
+    },
+    {
+      "name": "Engineering and Public Policy",
+      "url": "https://gs.mcmaster.ca/program/engineering-and-public-policy/"
+    },
+    {
+      "name": "Engineering Design",
+      "url": "https://gs.mcmaster.ca/program/engineering-design/"
+    },
+    {
+      "name": "Engineering Entrepreneurship and Innovation",
+      "url": "https://gs.mcmaster.ca/program/engineering-entrepreneurship-and-innovation/"
+    },
+    {
+      "name": "Engineering Physics",
+      "url": "https://gs.mcmaster.ca/program/engineering-physics/"
+    },
+    {
+      "name": "English and Cultural Studies",
+      "url": "https://gs.mcmaster.ca/program/english-and-cultural-studies/"
+    },
+    {
+      "name": "Finance",
+      "url": "https://gs.mcmaster.ca/program/finance/"
+    },
+    {
+      "name": "French",
+      "url": "https://gs.mcmaster.ca/program/french/"
+    },
+    {
+      "name": "Gender and Social Justice",
+      "url": "https://gs.mcmaster.ca/program/gender-and-social-justice/"
+    },
+    {
+      "name": "Geography",
+      "url": "https://gs.mcmaster.ca/program/geography/"
+    },
+    {
+      "name": "Global Health",
+      "url": "https://gs.mcmaster.ca/program/global-health/"
+    },
+    {
+      "name": "Global Politics",
+      "url": "https://gs.mcmaster.ca/program/global-politics/"
+    },
+    {
+      "name": "Global Surgery",
+      "url": "https://gs.mcmaster.ca/program/global-surgery/"
+    },
+    {
+      "name": "Globalization",
+      "url": "https://gs.mcmaster.ca/program/globalization/"
+    },
+    {
+      "name": "Greek and Roman Studies",
+      "url": "https://gs.mcmaster.ca/program/classics/"
+    },
+    {
+      "name": "Health and Aging",
+      "url": "https://gs.mcmaster.ca/program/health-and-aging/"
+    },
+    {
+      "name": "Health and Radiation Physics",
+      "url": "https://gs.mcmaster.ca/program/health-and-radiation-physics/"
+    },
+    {
+      "name": "Health and Society",
+      "url": "https://gs.mcmaster.ca/program/health-and-society/"
+    },
+    {
+      "name": "Health Management",
+      "url": "https://gs.mcmaster.ca/program/health-management/"
+    },
+    {
+      "name": "Health Policy",
+      "url": "https://gs.mcmaster.ca/program/health-policy/"
+    },
+    {
+      "name": "Health Research Methodology",
+      "url": "https://gs.mcmaster.ca/program/health-research-methodology/"
+    },
+    {
+      "name": "Health Science Education",
+      "url": "https://gs.mcmaster.ca/program/health-science-education/"
+    },
+    {
+      "name": "History",
+      "url": "https://gs.mcmaster.ca/program/history/"
+    },
+    {
+      "name": "Indigenous Studies",
+      "url": "https://gs.mcmaster.ca/program/indigenous-studies/"
+    },
+    {
+      "name": "Kinesiology",
+      "url": "https://gs.mcmaster.ca/program/kinesiology/"
+    },
+    {
+      "name": "Labour Studies",
+      "url": "https://gs.mcmaster.ca/program/labour-studies/"
+    },
+    {
+      "name": "Manufacturing Engineering",
+      "url": "https://gs.mcmaster.ca/program/manufacturing-engineering/"
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "url": "https://gs.mcmaster.ca/program/materials-science-and-engineering/"
+    },
+    {
+      "name": "Mathematics",
+      "url": "https://gs.mcmaster.ca/program/mathematics/"
+    },
+    {
+      "name": "MD/PhD",
+      "url": "https://gs.mcmaster.ca/program/md-ph-d/"
+    },
+    {
+      "name": "Mechanical Engineering",
+      "url": "https://gs.mcmaster.ca/program/mechanical-engineering/"
+    },
+    {
+      "name": "Medical Sciences",
+      "url": "https://gs.mcmaster.ca/program/medical-sciences/"
+    },
+    {
+      "name": "Midwifery",
+      "url": "https://gs.mcmaster.ca/program/midwifery/"
+    },
+    {
+      "name": "Neuroscience",
+      "url": "https://gs.mcmaster.ca/program/neuroscience/"
+    },
+    {
+      "name": "Nursing",
+      "url": "https://gs.mcmaster.ca/program/nursing/"
+    },
+    {
+      "name": "Occupational Therapy",
+      "url": "https://gs.mcmaster.ca/program/occupational-therapy/"
+    },
+    {
+      "name": "Philosophy",
+      "url": "https://gs.mcmaster.ca/program/philosophy/"
+    },
+    {
+      "name": "Physics and Astronomy",
+      "url": "https://gs.mcmaster.ca/program/physics-and-astronomy/"
+    },
+    {
+      "name": "Physiotherapy",
+      "url": "https://gs.mcmaster.ca/program/physiotherapy/"
+    },
+    {
+      "name": "Political Science",
+      "url": "https://gs.mcmaster.ca/program/political-science/"
+    },
+    {
+      "name": "Professional Accountancy",
+      "url": "https://gs.mcmaster.ca/program/professional-accountancy/"
+    },
+    {
+      "name": "Psychology",
+      "url": "https://gs.mcmaster.ca/program/psychology/"
+    },
+    {
+      "name": "Psychotherapy",
+      "url": "https://gs.mcmaster.ca/program/psychotherapy/"
+    },
+    {
+      "name": "Public Health",
+      "url": "https://gs.mcmaster.ca/program/public-health/"
+    },
+    {
+      "name": "Public Policy",
+      "url": "https://gs.mcmaster.ca/program/public-policy/"
+    },
+    {
+      "name": "Radiation Sciences (Medical Physics/Radiation Biology)",
+      "url": "https://gs.mcmaster.ca/program/radiation-sciences-medical-physics-radiation-biology/"
+    },
+    {
+      "name": "Rehabilitation Science",
+      "url": "https://gs.mcmaster.ca/program/rehabilitation-science/"
+    },
+    {
+      "name": "Religious Studies",
+      "url": "https://gs.mcmaster.ca/program/religious-studies/"
+    },
+    {
+      "name": "Social Gerontology",
+      "url": "https://gs.mcmaster.ca/program/social-gerontology/"
+    },
+    {
+      "name": "Social Work",
+      "url": "https://gs.mcmaster.ca/program/social-work/"
+    },
+    {
+      "name": "Sociology",
+      "url": "https://gs.mcmaster.ca/program/sociology/"
+    },
+    {
+      "name": "Speech-Language Pathology",
+      "url": "https://gs.mcmaster.ca/program/speech-language-pathology/"
+    },
+    {
+      "name": "Statistics",
+      "url": "https://gs.mcmaster.ca/program/statistics/"
+    },
+    {
+      "name": "Systems and Technology",
+      "url": "https://gs.mcmaster.ca/program/systems-and-technology/"
+    },
+    {
+      "name": "Technology Entrepreneurship and Innovation",
+      "url": "https://gs.mcmaster.ca/program/technology-entrepreneurship-and-innovation/"
+    },
+    {
+      "name": "UNENE Nuclear Engineering",
+      "url": "https://gs.mcmaster.ca/program/unene-nuclear-engineering/"
+    }
   ],
-  "diagLinks": [],
-  "crawledAt": "2026-06-11T09:56:37.860Z"
+  "headings": [
+    "H2: Student Support",
+    "H2: Tools",
+    "H2: Faculties",
+    "H2: On Campus",
+    "H1: Graduate Studies",
+    "H1: Programs",
+    "H3: What is the Graduate Calendar?",
+    "H3: AI and Analytics",
+    "H3: AI and Analytics",
+    "H3: Anthropology"
+  ],
+  "crawledAt": "2026-06-11T10:22:20.950Z"
 }

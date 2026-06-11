@@ -1,12 +1,1139 @@
 {
   "slug": "university-of-edinburgh",
-  "url": "https://www.ed.ac.uk/studying/postgraduate/degrees/index.php?r=site/search&programme_type=pg_taught&limit=200",
-  "country": "UK",
-  "level": "Masters",
-  "extraWait": 8000,
-  "coursesFound": 0,
-  "courses": [],
-  "headings": [],
-  "diagLinks": [],
-  "crawledAt": "2026-06-11T09:56:08.757Z"
+  "url": "https://study.ed.ac.uk/programmes/postgraduate-taught-a-z",
+  "courses": [
+    {
+      "name": "Accounting and Financial Management MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management"
+    },
+    {
+      "name": "Acoustics and Music Technology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/478-acoustics-and-music-technology"
+    },
+    {
+      "name": "Advanced Chemical Engineering MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/913-advanced-chemical-engineering"
+    },
+    {
+      "name": "Advanced Clinical Practice (Online Learning) MVetSci, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/910-advanced-clinical-practice-online-learning"
+    },
+    {
+      "name": "Advanced Nursing MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/419-advanced-nursing"
+    },
+    {
+      "name": "Advanced Power Engineering MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/960-advanced-power-engineering"
+    },
+    {
+      "name": "Advanced Social Work Studies (Mental Health Officer Award) PgCert",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/634-advanced-social-work-studies-mental-health-officer-award"
+    },
+    {
+      "name": "Advanced Sustainable Design MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/417-advanced-sustainable-design"
+    },
+    {
+      "name": "Africa and International Development MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/622-africa-and-international-development"
+    },
+    {
+      "name": "AI for Business MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1138-ai-for-business"
+    },
+    {
+      "name": "Analytical Chemistry MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1004-analytical-chemistry"
+    },
+    {
+      "name": "Anatomical Sciences (Online Learning) PgDip (ICL), PgCert (ICL), PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/890-anatomical-sciences-online-learning"
+    },
+    {
+      "name": "Ancient History MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/917-ancient-history"
+    },
+    {
+      "name": "Ancient Worlds (Archaeology and Classics) (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/986-ancient-worlds-archaeology-and-classics-online-learning"
+    },
+    {
+      "name": "Animal Breeding and Genetics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/763-animal-breeding-and-genetics"
+    },
+    {
+      "name": "Applied Animal Behaviour and Animal Welfare MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/238-applied-animal-behaviour-and-animal-welfare"
+    },
+    {
+      "name": "Applied Conservation Genetics with Wildlife Forensics (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/954-applied-conservation-genetics-with-wildlife-forensics-online"
+    },
+    {
+      "name": "Applied Data Science (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1149-applied-data-science-online-learning"
+    },
+    {
+      "name": "Applied Linguistics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/280-applied-linguistics"
+    },
+    {
+      "name": "Applied Psychology (Healthcare) for Children and Young People MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/129-applied-psychology-healthcare-for-children-and-young-people"
+    },
+    {
+      "name": "Archaeology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/34-archaeology"
+    },
+    {
+      "name": "Architectural and Urban Design MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/636-architectural-and-urban-design"
+    },
+    {
+      "name": "Architectural Conservation MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/746-architectural-conservation"
+    },
+    {
+      "name": "Architecture, Landscape and Environment MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1096-architecture-landscape-and-environment"
+    },
+    {
+      "name": "Architecture, Master of (ARB/RIBA Part 2) MArch ARB Pt 2",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/420-architecture-master-of-arbriba-part-2"
+    },
+    {
+      "name": "Artificial Intelligence MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+    },
+    {
+      "name": "Astrobiology and Planetary Sciences MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1097-astrobiology-and-planetary-sciences"
+    },
+    {
+      "name": "Back to top",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught-a-z#glossary"
+    },
+    {
+      "name": "Banking Innovation and Risk Analytics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/756-banking-innovation-and-risk-analytics"
+    },
+    {
+      "name": "Biblical Studies MTh, MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/57-biblical-studies"
+    },
+    {
+      "name": "Biochemistry MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/856-biochemistry"
+    },
+    {
+      "name": "Biodiversity and Taxonomy of Plants MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1-biodiversity-and-taxonomy-of-plants"
+    },
+    {
+      "name": "Biodiversity, Wildlife and Ecosystem Health (Online Learning) PgCert, PgDip, MSc, PgCert (ICL), PgDip (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/646-biodiversity-wildlife-and-ecosystem-health-online-learning"
+    },
+    {
+      "name": "Bioinformatics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/2-bioinformatics"
+    },
+    {
+      "name": "Biomedical Engineering MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1135-biomedical-engineering"
+    },
+    {
+      "name": "Biotechnology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/676-biotechnology"
+    },
+    {
+      "name": "Buddhist Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1127-buddhist-studies"
+    },
+    {
+      "name": "Business Administration, Master of (Online Learning) MBA",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1076-business-administration-master-of-online-learning"
+    },
+    {
+      "name": "Business Administration, Master of MBA",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/267-business-administration-master-of"
+    },
+    {
+      "name": "Business Analytics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/929-business-analytics"
+    },
+    {
+      "name": "Cancer Biology and Precision Oncology (Online Learning) MSc, PgCert, PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1073-cancer-biology-and-precision-oncology-online-learning"
+    },
+    {
+      "name": "Circular Economy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1091-circular-economy"
+    },
+    {
+      "name": "Classical Art and Archaeology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/141-classical-art-and-archaeology"
+    },
+    {
+      "name": "Classics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/140-classics"
+    },
+    {
+      "name": "Climate Change Finance and Investment MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/671-climate-change-finance-and-investment"
+    },
+    {
+      "name": "Climate Change Management (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/899-climate-change-management-online-learning"
+    },
+    {
+      "name": "Climate Change Management MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/412-climate-change-management"
+    },
+    {
+      "name": "Clinical Anatomy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1000-clinical-anatomy"
+    },
+    {
+      "name": "Clinical Animal Behaviour (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/911-clinical-animal-behaviour-online-learning"
+    },
+    {
+      "name": "Clinical Education (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/246-clinical-education-online-learning"
+    },
+    {
+      "name": "Clinical Management of Pain (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/820-clinical-management-of-pain-online-learning"
+    },
+    {
+      "name": "Clinical Microbiology and Infectious Diseases (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/891-clinical-microbiology-and-infectious-diseases-online-learning"
+    },
+    {
+      "name": "Clinical Psychology DClinPsychol",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/136-clinical-psychology"
+    },
+    {
+      "name": "Clinical Trials (Online Learning) MSc, PgDip, PgCert, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/809-clinical-trials-online-learning"
+    },
+    {
+      "name": "Cognitive Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/108-cognitive-science"
+    },
+    {
+      "name": "Commercial Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law"
+    },
+    {
+      "name": "Comparative Education and International Development (CEID) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1045-comparative-education-and-international-development-ceid"
+    },
+    {
+      "name": "Comparative Literature MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/173-comparative-literature"
+    },
+    {
+      "name": "Comparative Private Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/684-comparative-private-law"
+    },
+    {
+      "name": "Comparative Public Policy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/301-comparative-public-policy"
+    },
+    {
+      "name": "Composition MMus",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1095-composition"
+    },
+    {
+      "name": "Computational Applied Mathematics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/935-computational-applied-mathematics"
+    },
+    {
+      "name": "Computational Mathematical Finance MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/894-computational-mathematical-finance"
+    },
+    {
+      "name": "Computer Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+    },
+    {
+      "name": "Conflict, Security and Development MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1112-conflict-security-and-development"
+    },
+    {
+      "name": "Conservation Medicine (Online Learning) MVetSci, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/786-conservation-medicine-online-learning"
+    },
+    {
+      "name": "Contemporary Art Practice MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/747-contemporary-art-practice"
+    },
+    {
+      "name": "Contemporary Art Theory MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/748-contemporary-art-theory"
+    },
+    {
+      "name": "Contemporary History MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/776-contemporary-history"
+    },
+    {
+      "name": "Corporate Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/787-corporate-law"
+    },
+    {
+      "name": "Counselling (Interpersonal Dialogue) MCouns",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/520-counselling-interpersonal-dialogue"
+    },
+    {
+      "name": "Counselling MCouns, PgCert, PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/130-counselling"
+    },
+    {
+      "name": "Counselling Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/131-counselling-studies"
+    },
+    {
+      "name": "Craft MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1131-craft"
+    },
+    {
+      "name": "Creative Industries MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1058-creative-industries"
+    },
+    {
+      "name": "Creative Writing MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/175-creative-writing"
+    },
+    {
+      "name": "Criminal Law and Criminal Justice LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/772-criminal-law-and-criminal-justice"
+    },
+    {
+      "name": "Criminology and Criminal Justice MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/162-criminology-and-criminal-justice"
+    },
+    {
+      "name": "Critical Care (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/975-critical-care-online-learning"
+    },
+    {
+      "name": "Cultural Heritage Futures MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1106-cultural-heritage-futures"
+    },
+    {
+      "name": "Cyber Security, Privacy and Trust MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/971-cyber-security-privacy-and-trust"
+    },
+    {
+      "name": "Dance Science and Education MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/421-dance-science-and-education"
+    },
+    {
+      "name": "Data and Artificial Intelligence Ethics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1092-data-and-artificial-intelligence-ethics"
+    },
+    {
+      "name": "Data and Decision Analytics (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1081-data-and-decision-analytics-online-learning"
+    },
+    {
+      "name": "Data Driven Sustainability (Online Learning) PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1119-data-driven-sustainability-online-learning"
+    },
+    {
+      "name": "Data Science for Biology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1099-data-science-for-biology"
+    },
+    {
+      "name": "Data Science for Health and Social Care (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1041-data-science-for-health-and-social-care-online-learning"
+    },
+    {
+      "name": "Data Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science"
+    },
+    {
+      "name": "Data Science Technologies (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1136-data-science-technologies-online-learning"
+    },
+    {
+      "name": "Data, Inequality and Society MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1059-data-inequality-and-society"
+    },
+    {
+      "name": "Data-Driven Breeding and Genetics (Online Learning) MSc, PgDip, PgCert, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1134-data-driven-breeding-and-genetics-online-learning"
+    },
+    {
+      "name": "Design and Digital Media MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/37-design-and-digital-media"
+    },
+    {
+      "name": "Design for Change MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/951-design-for-change"
+    },
+    {
+      "name": "Design Informatics MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/821-design-informatics"
+    },
+    {
+      "name": "Design Informatics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/803-design-informatics"
+    },
+    {
+      "name": "Developmental Linguistics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/281-developmental-linguistics"
+    },
+    {
+      "name": "Developmental Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1053-developmental-science"
+    },
+    {
+      "name": "Digital Design and Manufacture MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1040-digital-design-and-manufacture"
+    },
+    {
+      "name": "Digital Education (Online Learning) MSc, PgDip (ICL), PgCert (ICL)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/106-digital-education-online-learning"
+    },
+    {
+      "name": "Digital Sociology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/936-digital-sociology"
+    },
+    {
+      "name": "Doctor of Veterinary Medicine DVetMed",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/950-doctor-of-veterinary-medicine"
+    },
+    {
+      "name": "Drug Discovery and Translational Biology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/3-drug-discovery-and-translational-biology"
+    },
+    {
+      "name": "East Asian Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1114-east-asian-studies"
+    },
+    {
+      "name": "Ecological Economics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/29-ecological-economics"
+    },
+    {
+      "name": "Ecology, Evolution and Biodiversity MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1080-ecology-evolution-and-biodiversity"
+    },
+    {
+      "name": "Economics / Economics (Econometrics) / Economics (Finance) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/272-economics-economics-econometrics-economics-finance"
+    },
+    {
+      "name": "Education Futures MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1061-education-futures"
+    },
+    {
+      "name": "Education MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/98-education"
+    },
+    {
+      "name": "Electrical Power Engineering MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/937-electrical-power-engineering"
+    },
+    {
+      "name": "Electronics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics"
+    },
+    {
+      "name": "Energy, Society and Sustainability MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/934-energy-society-and-sustainability"
+    },
+    {
+      "name": "English Language MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/282-english-language"
+    },
+    {
+      "name": "English Literature: Literature and Modernity: 1900 to the Present MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/177-english-literature-literature-and-modernity-1900-to-the-present"
+    },
+    {
+      "name": "English Literature: Literature and Society: Enlightenment, Romantic and Victorian MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/426-english-literature-literature-and-society-enlightenment-romantic"
+    },
+    {
+      "name": "Entrepreneurship and Innovation MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/897-entrepreneurship-and-innovation"
+    },
+    {
+      "name": "Environment and Development MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/30-environment-and-development"
+    },
+    {
+      "name": "Environment, Culture and Society MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/395-environment-culture-and-society"
+    },
+    {
+      "name": "Environmental Protection and Management MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/31-environmental-protection-and-management"
+    },
+    {
+      "name": "Environmental Sustainability MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/32-environmental-sustainability"
+    },
+    {
+      "name": "Epidemiology (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1042-epidemiology-online-learning"
+    },
+    {
+      "name": "Epistemology, Ethics and Mind (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/844-epistemology-ethics-and-mind-online-learning"
+    },
+    {
+      "name": "Equine Science (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/239-equine-science-online-learning"
+    },
+    {
+      "name": "European Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/163-european-law"
+    },
+    {
+      "name": "Evolution of Language and Cognition MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/283-evolution-of-language-and-cognition"
+    },
+    {
+      "name": "Evolutionary Genetics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/764-evolutionary-genetics"
+    },
+    {
+      "name": "Family Medicine (Online Learning) MFM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/870-family-medicine-online-learning"
+    },
+    {
+      "name": "Fetal Alcohol Spectrum Disorder (FASD) (Online Learning) PgCert (ICL)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1105-fetal-alcohol-spectrum-disorder-fasd-online-learning"
+    },
+    {
+      "name": "Film Art MFA",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1148-film-art"
+    },
+    {
+      "name": "Film Directing MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/733-film-directing"
+    },
+    {
+      "name": "Film Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/179-film-studies"
+    },
+    {
+      "name": "Film, Exhibition and Curation MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/658-film-exhibition-and-curation"
+    },
+    {
+      "name": "Finance and Investment MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1128-finance-and-investment"
+    },
+    {
+      "name": "Finance, Technology and Policy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/966-finance-technology-and-policy"
+    },
+    {
+      "name": "Financial Modelling and Optimization MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/640-financial-modelling-and-optimization"
+    },
+    {
+      "name": "Fire Engineering Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1082-fire-engineering-science"
+    },
+    {
+      "name": "Food Security MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/668-food-security"
+    },
+    {
+      "name": "Future Governance MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1063-future-governance"
+    },
+    {
+      "name": "Future Infrastructure, Climate Change and Sustainability MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1110-future-infrastructure-climate-change-and-sustainability"
+    },
+    {
+      "name": "GeoEnergy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/944-geoenergy"
+    },
+    {
+      "name": "Geographical Information Science and Earth Observation MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1146-geographical-information-science-and-earth-observation"
+    },
+    {
+      "name": "Global Challenges (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/923-global-challenges-online-learning"
+    },
+    {
+      "name": "Global Crime, Justice and Security MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/621-global-crime-justice-and-security"
+    },
+    {
+      "name": "Global Environment and Climate Change Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/642-global-environment-and-climate-change-law"
+    },
+    {
+      "name": "Global Environment, Politics and Society MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/811-global-environment-politics-and-society"
+    },
+    {
+      "name": "Global Food Security and Nutrition (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/959-global-food-security-and-nutrition-online-learning"
+    },
+    {
+      "name": "Global Health and Infectious Diseases (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/413-global-health-and-infectious-diseases-online-learning"
+    },
+    {
+      "name": "Global Health Policy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/384-global-health-policy"
+    },
+    {
+      "name": "Global Health Studies (Online Learning) PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/702-global-health-studies-online-learning"
+    },
+    {
+      "name": "Global Mental Health and Society MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/991-global-mental-health-and-society"
+    },
+    {
+      "name": "Global Premodern Art: History, Heritage and Curation MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1037-global-premodern-art-history-heritage-and-curation"
+    },
+    {
+      "name": "Global Strategy and Sustainability MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1044-global-strategy-and-sustainability"
+    },
+    {
+      "name": "Graphic Design MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/735-graphic-design"
+    },
+    {
+      "name": "High Performance Computing (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/997-high-performance-computing-online-learning"
+    },
+    {
+      "name": "High Performance Computing MSc, PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/187-high-performance-computing"
+    },
+    {
+      "name": "High Performance Computing with Data Science (Online Learning) MSc, PgDip (ICL)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/996-high-performance-computing-with-data-science-online-learning"
+    },
+    {
+      "name": "High Performance Computing with Data Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/871-high-performance-computing-with-data-science"
+    },
+    {
+      "name": "History (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/816-history-online-learning"
+    },
+    {
+      "name": "History MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/616-history"
+    },
+    {
+      "name": "History of Art, Theory and Display MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/41-history-of-art-theory-and-display"
+    },
+    {
+      "name": "Human Anatomy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/648-human-anatomy"
+    },
+    {
+      "name": "Human Cognitive Neuropsychology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1054-human-cognitive-neuropsychology"
+    },
+    {
+      "name": "Human Complex Trait Genetics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/765-human-complex-trait-genetics"
+    },
+    {
+      "name": "Human Osteoarchaeology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/42-human-osteoarchaeology"
+    },
+    {
+      "name": "Human Resource Management MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/755-human-resource-management"
+    },
+    {
+      "name": "Human Rights LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/845-human-rights"
+    },
+    {
+      "name": "Illustration MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/736-illustration"
+    },
+    {
+      "name": "Imaging, Vision and High Performance Computing MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1123-imaging-vision-and-high-performance-computing"
+    },
+    {
+      "name": "Inclusive Education MSc, PgDip (ICL)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/378-inclusive-education"
+    },
+    {
+      "name": "Information Technology Law (Online Learning) LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/502-information-technology-law-online-learning"
+    },
+    {
+      "name": "Innovation, Technology and the Law (Online Learning) LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/164-innovation-technology-and-the-law-online-learning"
+    },
+    {
+      "name": "Innovation, Technology and the Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/503-innovation-technology-and-the-law"
+    },
+    {
+      "name": "Intellectual History MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/374-intellectual-history"
+    },
+    {
+      "name": "Intellectual Property Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/641-intellectual-property-law"
+    },
+    {
+      "name": "Interior, Architectural and Spatial Design MA (eca)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/737-interior-architectural-and-spatial-design"
+    },
+    {
+      "name": "Intermediality: Literature, Film and the Arts in Dialogue MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/987-intermediality-literature-film-and-the-arts-in-dialogue"
+    },
+    {
+      "name": "Internal Medicine (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/692-internal-medicine-online-learning"
+    },
+    {
+      "name": "International and Cross-Cultural Counselling Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1113-international-and-cross-cultural-counselling-studies"
+    },
+    {
+      "name": "International and European Politics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/303-international-and-european-politics"
+    },
+    {
+      "name": "International Animal Health (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/241-international-animal-health-online-learning"
+    },
+    {
+      "name": "International Animal Welfare, Ethics and Law (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/788-international-animal-welfare-ethics-and-law-online-learning"
+    },
+    {
+      "name": "International Banking Law and Finance LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/859-international-banking-law-and-finance"
+    },
+    {
+      "name": "International Commercial Law and Practice (Online Learning) LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/825-international-commercial-law-and-practice-online-learning"
+    },
+    {
+      "name": "International Development (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/945-international-development-online-learning"
+    },
+    {
+      "name": "International Development MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/681-international-development"
+    },
+    {
+      "name": "International Economic Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/686-international-economic-law"
+    },
+    {
+      "name": "International Human Resource Management MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/880-international-human-resource-management"
+    },
+    {
+      "name": "International Law LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/166-international-law"
+    },
+    {
+      "name": "International Master of Science in Fire Safety Engineering MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/806-international-master-of-science-in-fire-safety-engineering"
+    },
+    {
+      "name": "International Relations MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/687-international-relations"
+    },
+    {
+      "name": "Islamic and Middle Eastern Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/181-islamic-and-middle-eastern-studies"
+    },
+    {
+      "name": "Landscape and Wellbeing MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/920-landscape-and-wellbeing"
+    },
+    {
+      "name": "Landscape Architecture MLA",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/749-landscape-architecture"
+    },
+    {
+      "name": "Language and Intercultural Communication MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1006-language-and-intercultural-communication"
+    },
+    {
+      "name": "Language Education MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/285-language-education"
+    },
+    {
+      "name": "Law (Online Learning) LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/767-law-online-learning"
+    },
+    {
+      "name": "Law (Online Learning) PgCert",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/782-law-online-learning"
+    },
+    {
+      "name": "Leadership and Learning MEd",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/976-leadership-and-learning"
+    },
+    {
+      "name": "Linguistics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/908-linguistics"
+    },
+    {
+      "name": "Management MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/277-management"
+    },
+    {
+      "name": "Management of Bioeconomy, Innovation and Governance MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/769-management-of-bioeconomy-innovation-and-governance"
+    },
+    {
+      "name": "Marine Systems and Policies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/872-marine-systems-and-policies"
+    },
+    {
+      "name": "Marketing MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/638-marketing"
+    },
+    {
+      "name": "Materials Chemistry MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/448-materials-chemistry"
+    },
+    {
+      "name": "Mathematical Economics and Econometrics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1003-mathematical-economics-and-econometrics"
+    },
+    {
+      "name": "Mathematical Physics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/817-mathematical-physics"
+    },
+    {
+      "name": "Medical Anthropology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/299-medical-anthropology"
+    },
+    {
+      "name": "Medical Law and Ethics (Online Learning) LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/505-medical-law-and-ethics-online-learning"
+    },
+    {
+      "name": "Medical Law and Ethics LLM",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/867-medical-law-and-ethics"
+    },
+    {
+      "name": "Medicinal and Biological Chemistry MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/450-medicinal-and-biological-chemistry"
+    },
+    {
+      "name": "Medieval History MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/149-medieval-history"
+    },
+    {
+      "name": "Mental Health in Children and Young People: Psychological Approaches (Online Learning) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/841-mental-health-in-children-and-young-people-psychological"
+    },
+    {
+      "name": "Mental Health in Children and Young People: Psychological Approaches MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/654-mental-health-in-children-and-young-people-psychological"
+    },
+    {
+      "name": "Mind, Language and Embodied Cognition MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/655-mind-language-and-embodied-cognition"
+    },
+    {
+      "name": "Modern and Contemporary Art: History, Curating and Criticism MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/424-modern-and-contemporary-art-history-curating-and-criticism"
+    },
+    {
+      "name": "Musicology MMus",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/47-musicology"
+    },
+    {
+      "name": "Narrative Futures: Art, Data, Society MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1065-narrative-futures-art-data-society"
+    },
+    {
+      "name": "Nursing with Pre-Registration (Adult) MN(T)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1008-nursing-with-pre-registration-adult"
+    },
+    {
+      "name": "One Health (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/814-one-health-online-learning"
+    },
+    {
+      "name": "Operational Research MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research"
+    },
+    {
+      "name": "Operational Research with Computational Optimization MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/499-operational-research-with-computational-optimization"
+    },
+    {
+      "name": "Operational Research with Data Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/915-operational-research-with-data-science"
+    },
+    {
+      "name": "Operational Research with Risk MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/498-operational-research-with-risk"
+    },
+    {
+      "name": "Outdoor and Environmental Education MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1133-outdoor-and-environmental-education"
+    },
+    {
+      "name": "Paediatric Emergency Medicine (Online Learning) MSc, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/667-paediatric-emergency-medicine-online-learning"
+    },
+    {
+      "name": "Particle and Nuclear Physics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/946-particle-and-nuclear-physics"
+    },
+    {
+      "name": "Patient Safety and Clinical Human Factors (Online Learning) MSc, PgCert, PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/962-patient-safety-and-clinical-human-factors-online-learning"
+    },
+    {
+      "name": "Philosophy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/286-philosophy"
+    },
+    {
+      "name": "Philosophy, Science and Religion (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/941-philosophy-science-and-religion-online-learning"
+    },
+    {
+      "name": "Physical Activity for Health MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/824-physical-activity-for-health"
+    },
+    {
+      "name": "Planetary Health MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1086-planetary-health"
+    },
+    {
+      "name": "Primary Care Ophthalmology (Online Learning) MSc, PgDip, PgCert",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/862-primary-care-ophthalmology-online-learning"
+    },
+    {
+      "name": "Professional Graduate Diploma in Education (Primary) PGDE",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/121-professional-graduate-diploma-in-education-primary"
+    },
+    {
+      "name": "Professional Graduate Diploma in Education (Secondary) PGDE",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/123-professional-graduate-diploma-in-education-secondary"
+    },
+    {
+      "name": "Professional Legal Practice Diploma",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/675-professional-legal-practice"
+    },
+    {
+      "name": "Psychological Research MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1035-psychological-research"
+    },
+    {
+      "name": "Psychological Therapies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/931-psychological-therapies"
+    },
+    {
+      "name": "Psychology of Individual Differences MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1055-psychology-of-individual-differences"
+    },
+    {
+      "name": "Psychology of Language MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1056-psychology-of-language"
+    },
+    {
+      "name": "Psychology of Mental Health (Conversion) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/883-psychology-of-mental-health-conversion"
+    },
+    {
+      "name": "Psychotherapy and Counselling DPsychotherapy",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/942-psychotherapy-and-counselling"
+    },
+    {
+      "name": "Public Health (part-time) (Online Learning) MPH, PgCert, PgDip, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/886-public-health-part-time-online-learning"
+    },
+    {
+      "name": "Public Health, Master of MPH",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/203-public-health-master-of"
+    },
+    {
+      "name": "Public Policy MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/306-public-policy"
+    },
+    {
+      "name": "Quantitative Genetics and Genome Analysis MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/6-quantitative-genetics-and-genome-analysis"
+    },
+    {
+      "name": "RCVS Certificate in Advanced Veterinary Practice (Online Learning) PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/888-rcvs-certificate-in-advanced-veterinary-practice-online-learning"
+    },
+    {
+      "name": "Religion and Literature MTh, MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1005-religion-and-literature"
+    },
+    {
+      "name": "Religious Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/611-religious-studies"
+    },
+    {
+      "name": "Science and Religion MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/653-science-and-religion"
+    },
+    {
+      "name": "Science and Technology in Society MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/796-science-and-technology-in-society"
+    },
+    {
+      "name": "Science Communication and Public Engagement (Online Learning) MSc, PgCert, PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/819-science-communication-and-public-engagement-online-learning"
+    },
+    {
+      "name": "Science Communication and Public Engagement MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/790-science-communication-and-public-engagement"
+    },
+    {
+      "name": "Sensor and Imaging Systems MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/882-sensor-and-imaging-systems"
+    },
+    {
+      "name": "Service Management and Design MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1067-service-management-and-design"
+    },
+    {
+      "name": "Signal Processing and Communications MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/20-signal-processing-and-communications"
+    },
+    {
+      "name": "Simulation Based Clinical Education (Online Learning) PgCert",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1075-simulation-based-clinical-education-online-learning"
+    },
+    {
+      "name": "Social Anthropology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/310-social-anthropology"
+    },
+    {
+      "name": "Social Justice and Community Action (Online Learning) MSc, PgDip (ICL), PgCert (ICL)",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/878-social-justice-and-community-action-online-learning"
+    },
+    {
+      "name": "Social Psychology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1057-social-psychology"
+    },
+    {
+      "name": "Social Research MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/313-social-research"
+    },
+    {
+      "name": "Social Work, Master of MSW",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/314-social-work-master-of"
+    },
+    {
+      "name": "Sociology and Global Change MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/643-sociology-and-global-change"
+    },
+    {
+      "name": "Sound Design MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/51-sound-design"
+    },
+    {
+      "name": "Speech and Language Processing MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/290-speech-and-language-processing"
+    },
+    {
+      "name": "Sport and Performance Psychology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/117-sport-and-performance-psychology"
+    },
+    {
+      "name": "Sport Policy, Management and International Development MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/828-sport-policy-management-and-international-development"
+    },
+    {
+      "name": "Statistics and Operational Research MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/660-statistics-and-operational-research"
+    },
+    {
+      "name": "Statistics with Data Science MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science"
+    },
+    {
+      "name": "Strength and Conditioning MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/127-strength-and-conditioning"
+    },
+    {
+      "name": "Surgical Sciences (Online Learning) MSc, PgCert, PgDip",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/404-surgical-sciences-online-learning"
+    },
+    {
+      "name": "Surgical Writing and Evidence Based Practice (Online Learning) PgCert, PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1098-surgical-writing-and-evidence-based-practice-online-learning"
+    },
+    {
+      "name": "Sustainable Energy Systems MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/22-sustainable-energy-systems"
+    },
+    {
+      "name": "Sustainable Lands and Cities MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1088-sustainable-lands-and-cities"
+    },
+    {
+      "name": "Synthetic Biology and Biotechnology MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/857-synthetic-biology-and-biotechnology"
+    },
+    {
+      "name": "Teaching English to Speakers of Other Languages (TESOL) MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/128-teaching-english-to-speakers-of-other-languages-tesol"
+    },
+    {
+      "name": "Theology in History MTh",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/61-theology-in-history"
+    },
+    {
+      "name": "Theoretical Physics MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/818-theoretical-physics"
+    },
+    {
+      "name": "Translation Studies MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/251-translation-studies"
+    },
+    {
+      "name": "Urban Strategies and Design MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/822-urban-strategies-and-design"
+    },
+    {
+      "name": "Veterinary Anaesthesia and Analgesia (Online Learning) MSc, PgDip (ICL), PgCert (ICL), PgProfDev",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/914-veterinary-anaesthesia-and-analgesia-online-learning"
+    },
+    {
+      "name": "World Christianity MSc",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/58-world-christianity"
+    }
+  ],
+  "headings": [
+    "H1: Postgraduate taught degree programmes A to Z",
+    "H3: Accounting and Financial Management MSc",
+    "H3: Acoustics and Music Technology MSc",
+    "H3: Advanced Chemical Engineering MSc",
+    "H3: Advanced Clinical Practice (Online Learning) MVetSci, PgDip (ICL), PgCert (ICL), PgProfDev",
+    "H3: Advanced Nursing MSc",
+    "H3: Advanced Power Engineering MSc",
+    "H3: Advanced Social Work Studies (Mental Health Officer Award) PgCert",
+    "H3: Advanced Sustainable Design MSc",
+    "H3: Africa and International Development MSc"
+  ],
+  "crawledAt": "2026-06-11T10:24:52.390Z"
 }

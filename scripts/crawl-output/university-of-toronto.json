@@ -1,0 +1,1009 @@
+{
+  "slug": "university-of-toronto",
+  "url": "https://sgs.calendar.utoronto.ca/graduate-programs-at-a-glance",
+  "courses": [
+    {
+      "name": "Aerospace Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Aerospace-Studies"
+    },
+    {
+      "name": "Anthropology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Anthropology"
+    },
+    {
+      "name": "Applied Psychology and Human Development",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Applied-Psychology-and-Human-Development"
+    },
+    {
+      "name": "Architecture, Landscape, and Design",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Architecture,-Landscape,-and-Design"
+    },
+    {
+      "name": "Art History",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Art-History"
+    },
+    {
+      "name": "Astronomy and Astrophysics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Astronomy-and-Astrophysics"
+    },
+    {
+      "name": "Biochemistry",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Biochemistry"
+    },
+    {
+      "name": "Biomedical Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Biomedical-Engineering"
+    },
+    {
+      "name": "Cell and Systems Biology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Cell-and-Systems-Biology"
+    },
+    {
+      "name": "Chemical Engineering and Applied Chemistry",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Chemical-Engineering-and-Applied-Chemistry"
+    },
+    {
+      "name": "Chemistry",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Chemistry"
+    },
+    {
+      "name": "Cinema Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Cinema-Studies"
+    },
+    {
+      "name": "Civil and Mineral Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Civil-and-Mineral-Engineering"
+    },
+    {
+      "name": "Comparative Literature",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Comparative-Literature"
+    },
+    {
+      "name": "Computer Science",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Computer-Science"
+    },
+    {
+      "name": "Criminology and Sociolegal Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Criminology-and-Sociolegal-Studies"
+    },
+    {
+      "name": "Curriculum, Teaching and Learning",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Curriculum,-Teaching-and-Learning"
+    },
+    {
+      "name": "Dentistry",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Dentistry"
+    },
+    {
+      "name": "Drama, Theatre and Performance Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Drama,-Theatre-and-Performance-Studies"
+    },
+    {
+      "name": "Earth Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Earth-Sciences"
+    },
+    {
+      "name": "East Asian Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/East-Asian-Studies"
+    },
+    {
+      "name": "Ecology and Evolutionary Biology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Ecology-and-Evolutionary-Biology"
+    },
+    {
+      "name": "Economics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Economics"
+    },
+    {
+      "name": "Electrical and Computer Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Electrical-and-Computer-Engineering"
+    },
+    {
+      "name": "Environment",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Environment"
+    },
+    {
+      "name": "European and Eurasian Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/European-and-Eurasian-Studies"
+    },
+    {
+      "name": "Financial Economics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Financial-Economics"
+    },
+    {
+      "name": "French Language and Literature",
+      "url": "https://sgs.calendar.utoronto.ca/degree/French-Language-and-Literature"
+    },
+    {
+      "name": "Geography and Planning",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Geography-and-Planning"
+    },
+    {
+      "name": "Germanic Languages and Literatures",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Germanic-Languages-and-Literatures"
+    },
+    {
+      "name": "Global Affairs and Public Policy",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Global-Affairs-and-Public-Policy"
+    },
+    {
+      "name": "Health Policy, Management and Evaluation",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Health-Policy,-Management-and-Evaluation"
+    },
+    {
+      "name": "History and Philosophy of Science and Technology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/History-and-Philosophy-of-Science-and-Technology"
+    },
+    {
+      "name": "Immunology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Immunology"
+    },
+    {
+      "name": "Industrial Relations and Human Resources",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Industrial-Relations-and-Human-Resources"
+    },
+    {
+      "name": "Information",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Information"
+    },
+    {
+      "name": "Italian and Spanish Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Italian-and-Spanish-Studies"
+    },
+    {
+      "name": "Kinesiology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Kinesiology"
+    },
+    {
+      "name": "Laboratory Medicine and Pathobiology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Laboratory-Medicine-and-Pathobiology"
+    },
+    {
+      "name": "Leadership, Higher and Adult Education",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Leadership,-Higher-and-Adult-Education"
+    },
+    {
+      "name": "Linguistics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Linguistics"
+    },
+    {
+      "name": "Management & Innovation",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Management-and-Innovation"
+    },
+    {
+      "name": "Management, Rotman School of",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Management,-Rotman-School-of-Management"
+    },
+    {
+      "name": "Management, Tri-campus",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Management,-Tri~campus"
+    },
+    {
+      "name": "Management, University of Toronto Scarborough",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Management,-University-of-Toronto-Scarborough"
+    },
+    {
+      "name": "Materials Science and Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Materials-Science-and-Engineering"
+    },
+    {
+      "name": "Mathematical Finance",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Mathematical-Finance"
+    },
+    {
+      "name": "Mathematics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Mathematics"
+    },
+    {
+      "name": "Mechanical and Industrial Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Mechanical-and-Industrial-Engineering"
+    },
+    {
+      "name": "Medical Biophysics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Medical-Biophysics"
+    },
+    {
+      "name": "Medical Science",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Medical-Science"
+    },
+    {
+      "name": "Medieval Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Medieval-Studies"
+    },
+    {
+      "name": "Molecular Genetics",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Molecular-Genetics"
+    },
+    {
+      "name": "Near and Middle Eastern Civilizations",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Near-and-Middle-Eastern-Civilizations"
+    },
+    {
+      "name": "Nursing Science",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Nursing-Science"
+    },
+    {
+      "name": "Nutritional Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Nutritional-Sciences"
+    },
+    {
+      "name": "Occupational Science and Occupational Therapy",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Occupational-Science-and-Occupational-Therapy"
+    },
+    {
+      "name": "Pharmaceutical Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Pharmaceutical-Sciences"
+    },
+    {
+      "name": "Pharmacology and Toxicology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Pharmacology-and-Toxicology"
+    },
+    {
+      "name": "Philosophy",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Philosophy"
+    },
+    {
+      "name": "Physical and Environmental Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Physical-and-Environmental-Sciences"
+    },
+    {
+      "name": "Physical Therapy",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Physical-Therapy"
+    },
+    {
+      "name": "Physiology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Physiology"
+    },
+    {
+      "name": "Political Science",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Political-Science"
+    },
+    {
+      "name": "Psychological Clinical Science",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Psychological-Clinical-Science"
+    },
+    {
+      "name": "Psychology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Psychology"
+    },
+    {
+      "name": "Public Health Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Public-Health-Sciences"
+    },
+    {
+      "name": "Rehabilitation Sciences​",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Rehabilitation-Sciences"
+    },
+    {
+      "name": "Slavic and East European Languages and Cultures",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Slavic-and-East-European-Languages-and-Cultures"
+    },
+    {
+      "name": "Social Justice Education",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Social-Justice-Education"
+    },
+    {
+      "name": "Social Work",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Social-Work"
+    },
+    {
+      "name": "Sociology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Sociology"
+    },
+    {
+      "name": "Speech-Language Pathology",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Speech~Language-Pathology"
+    },
+    {
+      "name": "Statistical Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Statistical-Sciences"
+    },
+    {
+      "name": "Women and Gender Studies",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Women-and-Gender-Studies"
+    },
+    {
+      "name": "ST​G, The Jeffrey Skoll Combined Bachelor of Applied Science in Engineering /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Eng-BASc~MBA"
+    },
+    {
+      "name": "Management, Master of Business Administration",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Eng-BASc~MBA"
+    },
+    {
+      "name": "UTSC, Bachelor of Business Administration, Specialist in Management and Accounting /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mgt-Acc-(Spec)-BBA~MAccFin"
+    },
+    {
+      "name": "Master of Accounting and Finance",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mgt-Acc-(Spec)-BBA~MAccFin"
+    },
+    {
+      "name": "UTSC, Bachelor of Business Administration, Specialist Co-op in Management and Accounting /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mgt-Acc-(Spec-Co~op)-BBA~MAccFin"
+    },
+    {
+      "name": "STG, Bachelor of Kinesiology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Kin-BKin~MT"
+    },
+    {
+      "name": "Master of Teaching",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Kin-BKin~MT"
+    },
+    {
+      "name": "STG, Honours Bachelor of Arts, Minor in Education and Society /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-ES-(Min)-HBA~CSE-MA"
+    },
+    {
+      "name": "Child Study and Education, Master of Arts",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-ES-(Min)-HBA~CSE-MA"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Arts, Major in Environmental Management /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Env-Mgt-(Maj)-HBA~Sust-Mgt-MSc"
+    },
+    {
+      "name": "Master of Science in Sustainability Management",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Env-Mgt-(Maj)-HBA~Sust-Mgt-MSc"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Arts, Specialist in Environmental Management /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Env-Mgt-(Spec)-HBA~Sust-Mgt-MSc"
+    },
+    {
+      "name": "STG, Honours Bachelor of Arts, Major in English /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Eng-(Maj)-HBA~MT"
+    },
+    {
+      "name": "STG, Honours Bachelor of Arts, Major in History /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-His-(Maj)-HBA~MT"
+    },
+    {
+      "name": "Master of Teaching​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-His-(Maj)-HBA~MT"
+    },
+    {
+      "name": "STG, Honours Bachelor of Arts, Major in Sociology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Soc-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Arts, Major in French Studies /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Fre-St-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Arts, Major in Language Teaching and Learning: French /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Lang-Teach-Learn-Fre-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Arts, Specialist in French Studies /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Fre-St-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Arts, Specialist in Language Teaching and Learning: French and Italian /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Lang-Teach-Learn-Fre-Ita-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in English /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Eng-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major Co-op in English /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Eng-(Maj-Co~op)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in French /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Fre-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major Co-op in French /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Fre-(Maj-Co~op)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in History /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-His-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in Human Geography /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Hum-Ggr-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in Socio-Cultural Anthropology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Soc-Ant-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in Sociology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Soc-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Major in Theatre and Performance /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Thtr-Per-(Maj)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist in English /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Eng-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist Co-op in English /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Eng-(Spec-Co~op)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist in French /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Fre-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist Co-op in French /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Fre-(Spec-Co~op)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist in History /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-His-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist in Human Geography /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Hum-Ggr-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist in Socio-Cultural Anthropology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Soc-Ant-(Spec)-HBA~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Arts, Specialist in Sociology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Soc-(Spec)-HBA~MT"
+    },
+    {
+      "name": "STG, Honours Bachelor of Science, Minor in Education and Society /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-ES-(Min)-HBSc~CSE-MA"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Psychology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Psy-(Maj)-HBSc~CSE-MA"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Exceptionality in Human Learning /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-EHL-(Spec)-HBSc~CSE-MA"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Psychology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Psy-(Spec)-HBSc~CSE-MA"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in​ Global Environmental Change /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Glbl-Env-Change-(Spec)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "Chemical Engineering and Applied Chemistry, Master of Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Glbl-Env-Change-(Spec)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Global Environmental Change /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Glbl-Env-Change-(Spec-Co~op)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Global Environmental Change /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Glbl-Env-Change-(Spec)-HBSc~Civ-MEng"
+    },
+    {
+      "name": "Civil Engineering, Master of Engineering​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Glbl-Env-Change-(Spec)-HBSc~Civ-MEng"
+    },
+    {
+      "name": "Civil Engineering, Master of Engineering​​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Glbl-Env-Change-(Spec-Co~op)-HBSc~Civ-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Environmental Chemistry​ /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "Chemical Engineering ​and Applied Chemistry, Master of Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Environmental Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec-Co~op)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "Chemical Engineering and Applied Chemistry, Master of Engineering​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec-Co~op)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Environmental Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec)-HBSc~Civ-MEng"
+    },
+    {
+      "name": "Civil Engineering, Master of Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec-Co~op)-HBSc~Civ-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Environmental Geoscience /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Geo-(Spec)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Environmental Geoscience /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Geo-(Spec-Co~op)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Environmental Physics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Phy-(Spec)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Environmental Physics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Phy-(Spec-Co~op)-HBSc~Chem-MEng"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Conservation and Biodiversity /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Cons-Bio-(Spec)-HBSc~MEnvSc"
+    },
+    {
+      "name": "Master of Environmental Science",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Cons-Bio-(Spec)-HBSc~MEnvSc"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Integrative Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Int-Bio-(Spec)-HBSc~MEnvSc"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Environmental Science /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Env-Sci-(Maj)-HBSc~Sust-Mgt-MSc"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Environmental Science /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Env-Sci-(Spec)-HBSc~Sust-Mgt-MSc"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Mental Health Studies /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-MHS-(Spec)-HBSc~MSW"
+    },
+    {
+      "name": "Master of Social Work​​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-MHS-(Spec)-HBSc~MSW"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Mental Health Studies /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-MHS-(Spec-Co~op)-HBSc~MSW"
+    },
+    {
+      "name": "Master of Social Work​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-MHS-(Spec-Co~op)-HBSc~MSW"
+    },
+    {
+      "name": "STG, Honours Bachelor of Science, Major in Mathematics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Mat-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "STG, Honours Bachelor of Science, Major in Psychology​ /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Psy-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Bio-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Biology for Health Sciences /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Bio-Health-Sci-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Chm-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Mathematical Sciences /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Mat-Sci-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Major in Physics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Phy-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Astronomical Sciences /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Ast-Sci-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Biological Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Bio-Chm-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Bio-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Chm-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Comparative Physiology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Comp-Psl-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Ecology and Evolution /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Eco-Evo-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Forensic Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-For-Bio-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Forensic Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-For-Chm-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Mathematical Sciences /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Mat-Sci-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTM, Honours Bachelor of Science, Specialist in Molecular Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTM-Mol-Bio-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Biochemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Bch-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major Co-op in Biochemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Bch-(Maj-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Bio-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Chm-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major Co-op in Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Chm-(Maj-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Conservation and Biodiversity /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Cons-Bio-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Evolutionary Anthropology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Evo-Ant-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Human Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Hum-Bio-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Mathematics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mat-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major Co-op in Mathematics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mat-(Maj-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Molecular Biology, Immunology and Disease /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mol-Bio-Imm-Dis-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Physics and ​Astrophysics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Phy-Ast-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Major in Plant Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Pla-Bio-(Maj)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Chm-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Chm-(Spec-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "Master of Teaching​​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Env-Chm-(Spec-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Evolutionary Anthropology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Evo-Ant-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Human Biology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Hum-Bio-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Mathematics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mat-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Mathematics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mat-(Spec-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Medicinal and Biological Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Med-Bio-Chm-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Medicinal and Biological Chemistry /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Med-Bio-Chm-(Spec-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Molecular Biology and Biotechnology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mol-Bio-Biotech-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist Co-op in Molecular Biology and Biotechnology /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Mol-Bio-Biotech-(Spec-Co~op)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Physical and Mathematical Sciences /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Phy-Mat-Sci-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "UTSC, Honours Bachelor of Science, Specialist in Physics and ​Astrophysics /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/UTSC-Phy-Ast-(Spec)-HBSc~MT"
+    },
+    {
+      "name": "STG, Bachelor of Music, Music, Stream in Music Education /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-Mus-MusEd-MusBac~MT"
+    },
+    {
+      "name": "Medicine, Doctor of /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/MD~MBA"
+    },
+    {
+      "name": "Dentistry, Master of Science, Oral and Maxillofacial Surgery Specialty (Full-Time, Coursework-Only Option)",
+      "url": "https://sgs.calendar.utoronto.ca/combined/MD~MSc"
+    },
+    {
+      "name": "STG, Law, Ju​ris Doctor /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Cri-MA"
+    },
+    {
+      "name": "Criminology and Sociolegal Studies, Master of Arts",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Cri-MA"
+    },
+    {
+      "name": "STG, Law, Juris Doctor /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Eco-MA"
+    },
+    {
+      "name": "Economics, Master of Arts",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Eco-MA"
+    },
+    {
+      "name": "English, Master of Arts",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Eng-MA"
+    },
+    {
+      "name": "European and Eurasian Studies, Master of Arts",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~EES-MA"
+    },
+    {
+      "name": "Master of Global Affairs",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~MGA"
+    },
+    {
+      "name": "Master of Information",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~MI"
+    },
+    {
+      "name": "Master of Public Policy",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~MPP"
+    },
+    {
+      "name": "Master of Social Work",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~MSW"
+    },
+    {
+      "name": "STG, Pharmacy, Doctor​ of /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-PharmD~MBA"
+    },
+    {
+      "name": "​​Management, Master of Business Administration​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-PharmD~MBA"
+    },
+    {
+      "name": "Doctor of Philosophy​​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/MD~PhD"
+    },
+    {
+      "name": "Criminology and Sociolegal Studies, Doctor of Philosophy",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Cri-PhD"
+    },
+    {
+      "name": "Economics, Doctor of Philosophy​",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Eco-PhD"
+    },
+    {
+      "name": "Philosophy, Doctor of Philosophy",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Phl-PhD"
+    },
+    {
+      "name": "Political Science, Doctor of Philosophy",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-JD~Pol-PhD"
+    },
+    {
+      "name": "STG, Management, M​aster of Business Administration /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-MBA~MGA"
+    },
+    {
+      "name": "STG, Master of Information /",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-MI~MMSt"
+    },
+    {
+      "name": "Master of Museum Studies",
+      "url": "https://sgs.calendar.utoronto.ca/combined/STG-MI~MMSt"
+    },
+    {
+      "name": "Management, Rotman School of Management",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Management,-Rotman-School-of-Management"
+    },
+    {
+      "name": "Addiction Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Addiction-Studies"
+    },
+    {
+      "name": "Aging, Palliative and Supportive Care Across the Life Course",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Aging,-Palliative-and-Supportive-Care-Across-the-Life-Course"
+    },
+    {
+      "name": "Ancient and Medieval Philosophy",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Ancient-and-Medieval-Philosophy"
+    },
+    {
+      "name": "Bioethics",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Bioethics"
+    },
+    {
+      "name": "Book History and Print Culture",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Book-History-and-Print-Culture"
+    },
+    {
+      "name": "Cardiovascular Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Cardiovascular-Sciences"
+    },
+    {
+      "name": "Community Development",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Community-Development"
+    },
+    {
+      "name": "Comparative, International and Development Education",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Comparative,-International-and-Development-Education"
+    },
+    {
+      "name": "Contemporary East and Southeast Asian Studies",
+      "url": "https://sgs.calendar.utoronto.ca/Collaborative/Contemporary-East-and-Southeast-Asian-Studies"
+    },
+    {
+      "name": "Developmental Biology",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Developmental-Biology"
+    },
+    {
+      "name": "Development Policy and Power",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Development-Policy-and-Power"
+    },
+    {
+      "name": "Diaspora and Transnational Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Diaspora-and-Transnational-Studies"
+    },
+    {
+      "name": "Editing Ancient and Medieval Texts",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Editing-Ancient-and-Medieval-Texts"
+    },
+    {
+      "name": "Education, Francophonies and Diversity",
+      "url": "https://sgs.calendar.utoronto.ca/Collaborative/Education,-Francophonies-and-Diversity"
+    },
+    {
+      "name": "Educational Policy",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Educational-Policy"
+    },
+    {
+      "name": "Engineering Education",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Engineering-Education"
+    },
+    {
+      "name": "Environmental Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Environmental-Studies"
+    },
+    {
+      "name": "Environment and Health",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Environment-and-Health"
+    },
+    {
+      "name": "Ethnic, Immigration and Pluralism Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Ethnic,-Immigration-and-Pluralism-Studies"
+    },
+    {
+      "name": "Food Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Food-Studies"
+    },
+    {
+      "name": "Genome Biology and Bioinformatics",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Genome-Biology-and-Bioinformatics"
+    },
+    {
+      "name": "Global Health (U of T Global Scholar)",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Global-Health"
+    },
+    {
+      "name": "Health Services and Policy Research",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Health-Services-and-Policy-Research"
+    },
+    {
+      "name": "Indigenous Health",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Indigenous-Health"
+    },
+    {
+      "name": "Jewish Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Jewish-Studies"
+    },
+    {
+      "name": "Knowledge Media Design",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Knowledge-Media-Design"
+    },
+    {
+      "name": "Mediterranean Archaeology",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Mediterranean-Archaeology"
+    },
+    {
+      "name": "Musculoskeletal Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Musculoskeletal-Sciences"
+    },
+    {
+      "name": "Neuromodulation",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Neuromodulation"
+    },
+    {
+      "name": "Neuroscience",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Neuroscience"
+    },
+    {
+      "name": "Next-Generation Precision Medicine",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Next~Generation-Precision-Medicine"
+    },
+    {
+      "name": "Psychology, Psychiatry and Engineering",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Psychology,-Psychiatry-and-Engineering"
+    },
+    {
+      "name": "Public Health Policy",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Public-Health-Policy"
+    },
+    {
+      "name": "Resuscitation Sciences",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Resuscitation-Sciences"
+    },
+    {
+      "name": "Sexual Diversity Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Sexual-Diversity-Studies"
+    },
+    {
+      "name": "South Asian Studies",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/South-Asian-Studies"
+    },
+    {
+      "name": "Toxicology",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Toxicology"
+    },
+    {
+      "name": "Women's Health",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Women's-Health"
+    },
+    {
+      "name": "Workplace Learning and Social Change",
+      "url": "https://sgs.calendar.utoronto.ca/collaborative/Workplace-Learning-and-Social-Change"
+    },
+    {
+      "name": "Management",
+      "url": "https://sgs.calendar.utoronto.ca/degree/Management,-Rotman-School-of-Management"
+    }
+  ],
+  "headings": [
+    "H1: Graduate Programs at a Glance",
+    "H3: Degree Programs",
+    "H3: Legend",
+    "H3: Combined Degree Programs",
+    "H3: Dual Degree Programs",
+    "H3: Collaborative Specializations",
+    "H3: Diploma Programs",
+    "H3: Legend"
+  ],
+  "crawledAt": "2026-06-11T10:25:22.159Z"
+}
