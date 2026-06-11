@@ -74,6 +74,153 @@ const CONFIGS = {
     cadUsd: 0.74, cadInr: 62,
     includeCAD: true,
   },
+  // ── Batch 2 ──────────────────────────────────────────────────────────────
+  'kings-college-london': {
+    outFile: 'kcl-courses.ts',
+    interfaceName: 'KclCourse',
+    arrayName: 'kclCourses',
+    helperName: 'getKclCourseBySlug',
+    country: 'United Kingdom', state: 'England', city: 'London', countryCode: 'GB',
+    currency: 'GBP',
+    campus: 'Strand, London',
+    feeGBP: { MBA: 40000, MSc: 25000, MA: 17000, MEng: 24000, MRes: 16000, MPhil: 15000, LLM: 22000, default: 23000 },
+    ielts: 6.5, toefl: 92, pte: 70,
+    intakes: ['September'],
+    gbpUsd: 1.27, gbpInr: 107,
+  },
+  'university-of-warwick': {
+    outFile: 'warwick-courses.ts',
+    interfaceName: 'WarwickCourse',
+    arrayName: 'warwickCourses',
+    helperName: 'getWarwickCourseBySlug',
+    country: 'United Kingdom', state: 'England', city: 'Coventry', countryCode: 'GB',
+    currency: 'GBP',
+    campus: 'Gibbet Hill Road, Coventry',
+    feeGBP: { MBA: 44000, MSc: 24000, MA: 16500, MEng: 23000, MRes: 16000, MPhil: 15000, default: 22000 },
+    ielts: 6.5, toefl: 90, pte: 70,
+    intakes: ['September', 'January'],
+    gbpUsd: 1.27, gbpInr: 107,
+  },
+  'university-of-melbourne': {
+    outFile: 'uom-courses.ts',
+    interfaceName: 'UomCourse',
+    arrayName: 'uomCourses',
+    helperName: 'getUomCourseBySlug',
+    country: 'Australia', state: 'Victoria', city: 'Melbourne', countryCode: 'AU',
+    currency: 'AUD',
+    campus: 'Parkville, Melbourne',
+    feeAUD: { MBA: 74000, MSc: 50000, MA: 38000, MEng: 48000, MRes: 36000, default: 44000 },
+    livingCostAUD: 22000,
+    ielts: 6.5, toefl: 94, pte: 65,
+    intakes: ['March', 'July'],
+    audUsd: 0.65, audInr: 54,
+    includeAUD: true,
+  },
+  'university-of-sydney': {
+    outFile: 'usyd-courses.ts',
+    interfaceName: 'UsydCourse',
+    arrayName: 'usydCourses',
+    helperName: 'getUsydCourseBySlug',
+    country: 'Australia', state: 'New South Wales', city: 'Sydney', countryCode: 'AU',
+    currency: 'AUD',
+    campus: 'Camperdown, Sydney',
+    feeAUD: { MBA: 72000, MSc: 47000, MA: 36000, MEng: 46000, MRes: 34000, default: 42000 },
+    livingCostAUD: 24000,
+    ielts: 6.5, toefl: 85, pte: 64,
+    intakes: ['February', 'July'],
+    audUsd: 0.65, audInr: 54,
+    includeAUD: true,
+  },
+  'australian-national-university': {
+    outFile: 'anu-courses.ts',
+    interfaceName: 'AnuCourse',
+    arrayName: 'anuCourses',
+    helperName: 'getAnuCourseBySlug',
+    country: 'Australia', state: 'Australian Capital Territory', city: 'Canberra', countryCode: 'AU',
+    currency: 'AUD',
+    campus: 'Acton, Canberra',
+    feeAUD: { MBA: 68000, MSc: 44000, MA: 34000, MEng: 42000, MRes: 32000, default: 40000 },
+    livingCostAUD: 20000,
+    ielts: 6.5, toefl: 90, pte: 64,
+    intakes: ['February', 'July'],
+    audUsd: 0.65, audInr: 54,
+    includeAUD: true,
+  },
+  'monash-university': {
+    outFile: 'monash-courses.ts',
+    interfaceName: 'MonashCourse',
+    arrayName: 'monashCourses',
+    helperName: 'getMonashCourseBySlug',
+    country: 'Australia', state: 'Victoria', city: 'Melbourne', countryCode: 'AU',
+    currency: 'AUD',
+    campus: 'Clayton, Melbourne',
+    feeAUD: { MBA: 68000, MSc: 44000, MA: 34000, MEng: 42000, MRes: 32000, default: 40000 },
+    livingCostAUD: 22000,
+    ielts: 6.5, toefl: 79, pte: 58,
+    intakes: ['February', 'July'],
+    audUsd: 0.65, audInr: 54,
+    includeAUD: true,
+  },
+  'university-of-queensland': {
+    outFile: 'uq-courses.ts',
+    interfaceName: 'UqCourse',
+    arrayName: 'uqCourses',
+    helperName: 'getUqCourseBySlug',
+    country: 'Australia', state: 'Queensland', city: 'Brisbane', countryCode: 'AU',
+    currency: 'AUD',
+    campus: 'St Lucia, Brisbane',
+    feeAUD: { MBA: 65000, MSc: 43000, MA: 33000, MEng: 41000, MRes: 31000, default: 39000 },
+    livingCostAUD: 21000,
+    ielts: 6.5, toefl: 87, pte: 64,
+    intakes: ['February', 'July', 'November'],
+    audUsd: 0.65, audInr: 54,
+    includeAUD: true,
+  },
+  'university-of-british-columbia': {
+    outFile: 'ubc-courses.ts',
+    interfaceName: 'UbcCourse',
+    arrayName: 'ubcCourses',
+    helperName: 'getUbcCoursesBySlug',
+    country: 'Canada', state: 'British Columbia', city: 'Vancouver', countryCode: 'CA',
+    currency: 'CAD',
+    campus: 'Point Grey, Vancouver',
+    feeCAD: { MBA: 62000, MSc: 24000, MA: 20000, MEng: 26000, MPhil: 18000, default: 22000 },
+    livingCostCAD: 16000,
+    ielts: 6.5, toefl: 90, pte: 65,
+    intakes: ['September'],
+    cadUsd: 0.74, cadInr: 62,
+    includeCAD: true,
+  },
+  'mcgill-university': {
+    outFile: 'mcgill-courses.ts',
+    interfaceName: 'McgillCourse',
+    arrayName: 'mcgillCourses',
+    helperName: 'getMcgillCoursesBySlug',
+    country: 'Canada', state: 'Quebec', city: 'Montreal', countryCode: 'CA',
+    currency: 'CAD',
+    campus: 'Sherbrooke Street, Montreal',
+    feeCAD: { MBA: 55000, MSc: 22000, MA: 18000, MEng: 24000, MPhil: 17000, default: 20000 },
+    livingCostCAD: 14000,
+    ielts: 6.5, toefl: 90, pte: 65,
+    intakes: ['September'],
+    cadUsd: 0.74, cadInr: 62,
+    includeCAD: true,
+  },
+  'university-of-waterloo': {
+    outFile: 'waterloo-courses.ts',
+    interfaceName: 'WaterlooCourse',
+    arrayName: 'waterlooCourses',
+    helperName: 'getWaterlooCoursesBySlug',
+    country: 'Canada', state: 'Ontario', city: 'Waterloo', countryCode: 'CA',
+    currency: 'CAD',
+    campus: '200 University Avenue West, Waterloo',
+    feeCAD: { MBA: 50000, MSc: 20000, MA: 17000, MEng: 22000, MPhil: 16000, default: 19000 },
+    livingCostCAD: 12000,
+    ielts: 6.5, toefl: 90, pte: 65,
+    intakes: ['September'],
+    cadUsd: 0.74, cadInr: 62,
+    includeCAD: true,
+  },
   'national-university-of-singapore': {
     outFile: 'nus-courses.ts',
     interfaceName: 'NusCourse',
@@ -192,6 +339,12 @@ function convertEntry(cfg, raw, idx) {
     entry.totalCAD = Math.round(annualLocal * durationYears);
   }
 
+  if (cfg.includeAUD) {
+    entry.annualAUD = annualLocal;
+    entry.livingCostAUD = cfg.livingCostAUD || 22000;
+    entry.totalAUD = Math.round(annualLocal * durationYears);
+  }
+
   return entry;
 }
 
@@ -211,6 +364,8 @@ function convert(slug) {
   const prefix = cfg.arrayName.replace('Courses', '');
   const cadFields = cfg.includeCAD
     ? `\n  annualCAD: number; livingCostCAD: number; totalCAD: number;`
+    : cfg.includeAUD
+    ? `\n  annualAUD: number; livingCostAUD: number; totalAUD: number;`
     : '';
 
   const lines = [

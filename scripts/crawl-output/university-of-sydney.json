@@ -1,0 +1,29 @@
+{
+  "slug": "university-of-sydney",
+  "url": "https://www.sydney.edu.au/courses/search.html?search_type=course&level=postgraduate",
+  "courses": [
+    {
+      "name": "Your privacy choices",
+      "url": ""
+    },
+    {
+      "name": "Search tips",
+      "url": "mailto:student.info@sydney.edu.au"
+    },
+    {
+      "name": "Qualification",
+      "url": "https://www.sydney.edu.au/courses/search.html?search_type=course&level=postgraduate#compare-courses"
+    }
+  ],
+  "headings": [
+    "H3: Your privacy choices",
+    "H1: Find a course",
+    "H3: Search tips",
+    "H2: Explore by field of study",
+    "H2: Stay informed",
+    "H2: Media",
+    "H2: Student links",
+    "H2: About us"
+  ],
+  "crawledAt": "2026-06-11T10:54:23.695Z"
+}

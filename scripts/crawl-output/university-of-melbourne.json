@@ -1,103 +1,91 @@
 {
   "slug": "university-of-melbourne",
-  "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses",
+  "url": "https://study.unimelb.edu.au/find/?collection=find-a-course&profile=_default&query=%21null&f.Level%7CstudyLevel=graduate",
   "courses": [
     {
-      "name": "The Melbourne Curriculum",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#curriculum"
+      "name": "Juris Doctor",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fjuris-doctor%2F&auth=tEFa9HOi%2BxJUot9cYVzbLA&profile=_default&rank=1&query=%21null"
     },
     {
-      "name": "Discover graduate courses",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#discover-your-course"
+      "name": "Master of Public Health",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fmaster-of-public-health%2F&auth=9tCxvC1JUZYVkh5v%2FT0CBA&profile=_default&rank=2&query=%21null"
     },
     {
-      "name": "Events and tours",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#events"
+      "name": "Master of Software Engineering",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fmaster-of-software-engineering%2F&auth=YnoLmFCoNgY2X1Wi1kCU%2FQ&profile=_default&rank=3&query=%21null"
     },
     {
-      "name": "Ready to apply?",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#ready_to_apply"
+      "name": "Bachelor of Agriculture",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fundergraduate%2Fbachelor-of-agriculture%2F&auth=o0wP6ekhU%2Fb7S0d5Jj5v6Q&profile=_default&rank=4&query=%21null"
     },
     {
-      "name": "Quick links",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#resources-for-graduate-students"
+      "name": "Doctor of Dental Surgery",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fdoctor-of-dental-surgery%2F&auth=HmYTQ%2FwvWMCNnnMnyih63g&profile=_default&rank=5&query=%21null"
     },
     {
-      "name": "Student stories",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses#the-student-experience"
+      "name": "Master of Education",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fmaster-of-education%2F&auth=T3C0%2FufGGFqoyBAnSznNGg&profile=_default&rank=6&query=%21null"
     },
     {
-      "name": "Agricultural and veterinary sciences",
-      "url": "https://study.unimelb.edu.au/find/study-areas/agricultural-and-veterinary-sciences/"
+      "name": "Master of Teaching (Early Childhood and Primary)",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fmaster-of-teaching-early-childhood-and-primary%2F&auth=3ICieAlAsk2HpInnOOzOaw&profile=_default&rank=7&query=%21null"
     },
     {
-      "name": "Arts, humanities and social sciences",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/arts-humanities-and-social-sciences"
+      "name": "Bachelor of Arts",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fundergraduate%2Fbachelor-of-arts%2F&auth=rBGFK7bmIYe4srm3zTN4Qg&profile=_default&rank=8&query=%21null"
     },
     {
-      "name": "Architecture, building, planning and design",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/built-environment"
+      "name": "Bachelor of Commerce",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fundergraduate%2Fbachelor-of-commerce%2F&auth=upZlL1J1BGr3WJBAql3aqA&profile=_default&rank=9&query=%21null"
     },
     {
-      "name": "Business and economics",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/study-business"
+      "name": "Diploma in General Studies",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fundergraduate%2Fdiploma-in-general-studies%2F&auth=GDhIzW3%2FVEzyfyxRs6z64w&profile=_default&rank=10&query=%21null"
     },
     {
-      "name": "Education",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/study-education"
+      "name": "Master of Applied Positive Psychology",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fmaster-of-applied-positive-psychology%2F&auth=Ki2oMSnvUkw9XOp7nBZOlA&profile=_default&rank=11&query=%21null"
     },
     {
-      "name": "Engineering",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/engineering"
+      "name": "Master of Clinical Audiology",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fstudy.unimelb.edu.au%2Ffind%2Fcourses%2Fgraduate%2Fmaster-of-clinical-audiology%2F&auth=8qUAHXQUoOx14ART3TM%2FsA&profile=_default&rank=12&query=%21null"
     },
     {
-      "name": "Environment",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/environment"
+      "name": "Looking for a specific subject?",
+      "url": "https://uom-search.funnelback.squiz.cloud/s/redirect?collection=uom~sp-courses&url=https%3A%2F%2Fhandbook.unimelb.edu.au%2Fsearch%3Ftypes%255B%255D%3Dsubject%26level_type%255B%255D%3Dall%26campus_and_attendance_mode%255B%255D%3Dall%26org_unit%255B%255D%3Dall%26page%3D1%26sort%3D_score%257Cdesc&auth=jDrl%2BnfAgGq1lOKqlXFDuA&profile=_default&type=FP"
     },
     {
-      "name": "Fine arts and music",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/fine-arts-and-music"
+      "name": "Refine courses by",
+      "url": ""
     },
     {
-      "name": "Information technology and computer science",
-      "url": "https://study.unimelb.edu.au/study-with-us/graduate-courses/information-technology-and-computer-science"
+      "name": "Study level",
+      "url": "https://study.unimelb.edu.au/find/?collection=uom%7Esp-courses&profile=_default&query=%21null&num_ranks=12&start_rank=1&f.Tabs%7CtypeCourse=Courses#"
     },
     {
-      "name": "Download our course guides Arrow-right",
-      "url": "https://study.unimelb.edu.au/connect-with-us/view-our-brochures#navigation-graduate"
+      "name": "Study area",
+      "url": "https://study.unimelb.edu.au/find/?collection=uom%7Esp-courses&profile=_default&query=%21null&num_ranks=12&start_rank=1&f.Tabs%7CtypeCourse=Courses#"
     },
     {
-      "name": "Student accommodation Arrow-right",
-      "url": "https://study.unimelb.edu.au/accommodation"
+      "name": "Duration",
+      "url": "https://study.unimelb.edu.au/find/?collection=uom%7Esp-courses&profile=_default&query=%21null&num_ranks=12&start_rank=1&f.Tabs%7CtypeCourse=Courses#"
     },
     {
-      "name": "Campuses and facilities Arrow-right",
-      "url": "https://study.unimelb.edu.au/student-life/campus-and-facilities"
+      "name": "Study mode",
+      "url": "https://study.unimelb.edu.au/find/?collection=uom%7Esp-courses&profile=_default&query=%21null&num_ranks=12&start_rank=1&f.Tabs%7CtypeCourse=Courses#"
     },
     {
-      "name": "Important dates Arrow-right",
-      "url": "https://www.unimelb.edu.au/dates"
+      "name": "Available start dates",
+      "url": "https://study.unimelb.edu.au/find/?collection=uom%7Esp-courses&profile=_default&query=%21null&num_ranks=12&start_rank=1&f.Tabs%7CtypeCourse=Courses#"
     },
     {
-      "name": "International exchange and study abroad Arrow-right",
-      "url": "https://study.unimelb.edu.au/how-to-apply/international-exchange-and-study-abroad-applications"
-    },
-    {
-      "name": "Student support services Arrow-right",
-      "url": "https://services.unimelb.edu.au/finder/home"
+      "name": "Location",
+      "url": "https://study.unimelb.edu.au/find/?collection=uom%7Esp-courses&profile=_default&query=%21null&num_ranks=12&start_rank=1&f.Tabs%7CtypeCourse=Courses#"
     }
   ],
   "headings": [
-    "H1: Graduate courses",
-    "H1: You're almost finished!",
-    "H1: You're almost finished!",
-    "H1: Where can a Melbourne graduate degree take you?​",
-    "H1: Graduate courses",
-    "H1: Graduate courses",
-    "H2: Discover your course",
-    "H2: Search for a graduate course",
-    "H2: Browse courses by study area",
-    "H2: Innovative online courses"
+    "H2: Find a course",
+    "H3: Refine courses by"
   ],
-  "crawledAt": "2026-06-11T10:25:07.081Z"
+  "crawledAt": "2026-06-11T10:47:32.009Z"
 }

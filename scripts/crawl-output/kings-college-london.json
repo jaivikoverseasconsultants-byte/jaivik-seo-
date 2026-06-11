@@ -1,0 +1,41 @@
+{
+  "slug": "kings-college-london",
+  "url": "https://www.kcl.ac.uk/study/postgraduate-taught",
+  "courses": [
+    {
+      "name": "Prospective students",
+      "url": "https://www.kcl.ac.uk/study/postgraduate-taught/prospective"
+    },
+    {
+      "name": "Information for applicants",
+      "url": "https://www.kcl.ac.uk/study/postgraduate-taught/how-to-apply/post-application"
+    },
+    {
+      "name": "Offer holders",
+      "url": "https://www.kcl.ac.uk/study/postgraduate-taught/offer-holders"
+    },
+    {
+      "name": "Register your interest",
+      "url": "https://www.kcl.ac.uk/study/register-your-interest"
+    },
+    {
+      "name": "Chat to students and staff",
+      "url": "https://www.kcl.ac.uk/study/unibuddy"
+    },
+    {
+      "name": "Contact us",
+      "url": "https://www.kcl.ac.uk/study/contact-us"
+    }
+  ],
+  "headings": [
+    "H1: Postgraduate taught",
+    "H1: Search for courses",
+    "H2: Discover more about postgraduate study at King's",
+    "H3: Prospective students",
+    "H3: Information for applicants",
+    "H3: Offer holders",
+    "H2: Next Steps",
+    "H3: Register your interest"
+  ],
+  "crawledAt": "2026-06-11T10:57:40.268Z"
+}

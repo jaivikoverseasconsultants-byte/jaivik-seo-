@@ -1,0 +1,803 @@
+{
+  "slug": "university-of-warwick",
+  "url": "https://warwick.ac.uk/study/postgraduate/taught/",
+  "courses": [
+    {
+      "name": "Accounting and Finance (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/accountingandfinance"
+    },
+    {
+      "name": "Advanced Clinical Practice (Critical Care) (PGCert/PGDip/MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/criticalcarepractice"
+    },
+    {
+      "name": "Advanced Clinical Practice (PGCert/PGDip/MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/clinicalpractice"
+    },
+    {
+      "name": "Advanced Legal Studies (LLM)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/advancedlegalstudies"
+    },
+    {
+      "name": "Advanced Mechanical Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/advancedmechengineering"
+    },
+    {
+      "name": "Analytical and Polymer Science (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/analyticalpolymerscience"
+    },
+    {
+      "name": "Analytical Sciences and Instrumentation (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/analyticalsciencesinstrumentation"
+    },
+    {
+      "name": "Ancient Literature and Thought (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/ancientlitandthought"
+    },
+    {
+      "name": "Ancient Visual and Material Culture (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/ancientvmc"
+    },
+    {
+      "name": "Applied Linguistics (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/appliedlinguisticsmphilphd"
+    },
+    {
+      "name": "Applied Theatre: Arts, Action, Change (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/appliedtheatre"
+    },
+    {
+      "name": "Arts, Enterprise and Development (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/artsenterprisedevelopment"
+    },
+    {
+      "name": "Behavioural and Data Science (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/behaviouraldatascience"
+    },
+    {
+      "name": "Behavioural and Economic Science (Economics) (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/behaviouraleconomics"
+    },
+    {
+      "name": "Behavioural and Economic Science (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/behaviouraleconomicscience"
+    },
+    {
+      "name": "Big Data and Digital Futures (MSc/PGDip)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/bigdatadigitalfutures"
+    },
+    {
+      "name": "Biomedical Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/biomedengineering"
+    },
+    {
+      "name": "Biotechnology, Bioprocessing and Business Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/bbbusinessmanagement"
+    },
+    {
+      "name": "Business Administration (MBA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/bafulltime"
+    },
+    {
+      "name": "Business Administration (Executive) (MBA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/baexecutive"
+    },
+    {
+      "name": "Business Administration (Global Online) (MBA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/global-online/"
+    },
+    {
+      "name": "Business Analytics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/businessanalytics"
+    },
+    {
+      "name": "Business and Finance (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/businessfinance"
+    },
+    {
+      "name": "Business and Management (MRes/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/businessmanagement"
+    },
+    {
+      "name": "Business with Marketing (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/businessmarketing"
+    },
+    {
+      "name": "Business with Operations Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/businessoperationsmanagement"
+    },
+    {
+      "name": "Career Development and Coaching Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/careerdevelopmentma"
+    },
+    {
+      "name": "Career Education, Information and Guidance in HE (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/careereducationma"
+    },
+    {
+      "name": "Caribbean Studies (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/caribbeanstudies"
+    },
+    {
+      "name": "Caribbean Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/caribbeanstudiesmphilphd"
+    },
+    {
+      "name": "Chemistry (MSc by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/chemistrybyresearch"
+    },
+    {
+      "name": "Chemistry with Scientific Writing (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/chemistryscientificwriting"
+    },
+    {
+      "name": "Childhood in Society (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/childhoodinsoc"
+    },
+    {
+      "name": "Classics and Ancient History (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/classicsresearch"
+    },
+    {
+      "name": "Classics and Ancient History (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mphilphdclassics"
+    },
+    {
+      "name": "Clinical Applications of Psychology (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/clinicalapplicationpsychology"
+    },
+    {
+      "name": "Coaching (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/coachingma/"
+    },
+    {
+      "name": "Communications and Information Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/communicationsinfoengineering"
+    },
+    {
+      "name": "Computer Science (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/compscience"
+    },
+    {
+      "name": "Computer Science (MSc by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/compscienceresearch/"
+    },
+    {
+      "name": "Continental Philosophy (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/continentalphilosophy"
+    },
+    {
+      "name": "Creative and Media Enterprises (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/creativemediaenterprises"
+    },
+    {
+      "name": "Critical and Cultural Theory (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/criticalculturaltheory"
+    },
+    {
+      "name": "Cultural Policy Studies/Creative Industries/Media and Communication (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/culturalpolicymphilphd"
+    },
+    {
+      "name": "Culture of the European Renaissance (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/europeanrenaissance"
+    },
+    {
+      "name": "Cyber Security Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/cybersecurityengineering"
+    },
+    {
+      "name": "Cyber Security Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/cybersecuritymanagement"
+    },
+    {
+      "name": "Data Analytics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/dataanalytics"
+    },
+    {
+      "name": "Diagnostics, Data and Digital Health (MSc/PGDip/PGCert)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/diagnosticsdatadigitalhealth/"
+    },
+    {
+      "name": "Diagnostics, Data and Digital Health (Medical Diagnostics) (MSc/PGDip/PGCert)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/diagnosticsdatadigitalhealth-meddiag/"
+    },
+    {
+      "name": "Diagnostics, Data and Digital Health (Medical Imaging) (MSc/PGDip/PGCert)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/diagnosticsdatadigitalhealth-medimg/"
+    },
+    {
+      "name": "Digital Media and Culture (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/digitalmediaculture"
+    },
+    {
+      "name": "Discourse Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mphilphddiscoursestudies"
+    },
+    {
+      "name": "Drama and Theatre Education (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/dramatheatreed"
+    },
+    {
+      "name": "Drama Education and English Language Teaching (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/dramaeducationelt"
+    },
+    {
+      "name": "e-Business Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/ebusinessmanagement"
+    },
+    {
+      "name": "Early Modern History (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/earlymodhistory"
+    },
+    {
+      "name": "Economics (Diploma plus MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/economicsdiplomamsc"
+    },
+    {
+      "name": "Economics (MRes/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/economicsmresphd"
+    },
+    {
+      "name": "Economics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/economicsmsc"
+    },
+    {
+      "name": "Economics and International Financial Economics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/internationaleconomics"
+    },
+    {
+      "name": "Education (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/educationma"
+    },
+    {
+      "name": "Education (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/educationmphilphd"
+    },
+    {
+      "name": "Education and Psychology (PhD/MPhil)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/educationpsychology"
+    },
+    {
+      "name": "Educational Innovation (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/educationalinnovation"
+    },
+    {
+      "name": "Educational Leadership and Management (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/educationalleadership"
+    },
+    {
+      "name": "Electrical and Electronic Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/electricalelectronicengineering"
+    },
+    {
+      "name": "Electrical Power Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/electricalpowerengineering"
+    },
+    {
+      "name": "Engineering (MSc by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/engineeringmscr"
+    },
+    {
+      "name": "Engineering (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/engineeringmphilphd"
+    },
+    {
+      "name": "Engineering (PhD/MPhil)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/engineeringphd"
+    },
+    {
+      "name": "Engineering Business Leadership (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/engineeringbusinessleadership"
+    },
+    {
+      "name": "Engineering Business Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/engineeringbusinessmanagement"
+    },
+    {
+      "name": "English and Comparative Literary Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/englishmphilphd"
+    },
+    {
+      "name": "English and Drama (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/englishanddrama"
+    },
+    {
+      "name": "English Language Teaching (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mphilphdenglishlt"
+    },
+    {
+      "name": "English Language Teaching and Applied Linguistics (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mphilphdeltappliedling"
+    },
+    {
+      "name": "English Literature (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/englishlit"
+    },
+    {
+      "name": "Environmental Bioscience in a Changing Climate (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/environmentalbioscience"
+    },
+    {
+      "name": "Environmental Humanities (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/environmental-humanities/"
+    },
+    {
+      "name": "Film and Television Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/filmandtv"
+    },
+    {
+      "name": "Film and Television Studies (MA for Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/filmandtvresearch"
+    },
+    {
+      "name": "Film and/or Television Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/filmandtvmphilphd"
+    },
+    {
+      "name": "Finance (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/finance"
+    },
+    {
+      "name": "Finance and Economics (MRes/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/financeeconomicsmresphd"
+    },
+    {
+      "name": "Finance and Economics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/financeeconomics"
+    },
+    {
+      "name": "Food Security (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/foodsecurity"
+    },
+    {
+      "name": "French Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/frenchstudiesmphilphd"
+    },
+    {
+      "name": "Research in French and Francophone Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/frenchstudiesresearch"
+    },
+    {
+      "name": "Games Engineering (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/games-engineering"
+    },
+    {
+      "name": "Gender and International Development (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/genderdevelopment"
+    },
+    {
+      "name": "German Studies (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/germanstudiesresearch"
+    },
+    {
+      "name": "German Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/germanstudiesmphilphd"
+    },
+    {
+      "name": "Research in German Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/researchgermanstudies"
+    },
+    {
+      "name": "Global and Comparative History (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/globalhistory"
+    },
+    {
+      "name": "Global Central Banking and Financial Regulation (MSc/PGDip/PGCert/PGA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/gcbandfr"
+    },
+    {
+      "name": "Global Decarbonisation and Climate Change (MSc/PGDip/PGCert)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/climate-change/"
+    },
+    {
+      "name": "Global Decarbonisation and Climate Change (Policy) (MSc/PGDip/PGCert)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/climate-change-policy/"
+    },
+    {
+      "name": "Global Decarbonisation and Climate Change (Science) (MSc/PGDip/PGCert)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/climate-change-science/"
+    },
+    {
+      "name": "Global Education and International Development (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/globaleducation"
+    },
+    {
+      "name": "Global Media and Communication (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/globalmediacommunication"
+    },
+    {
+      "name": "Global Sustainable Development (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/gsdmphilphd"
+    },
+    {
+      "name": "Health Research (PGCert/PGDip/MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/healthresearch"
+    },
+    {
+      "name": "Healthcare Operational Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/healthcaremanagement"
+    },
+    {
+      "name": "Hispanic Studies (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/hispanicstudiesresearch"
+    },
+    {
+      "name": "Hispanic Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/hispanicstudiesmphilphd"
+    },
+    {
+      "name": "Research in Hispanic Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/researchhispanicstudies"
+    },
+    {
+      "name": "History (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/historyresearch"
+    },
+    {
+      "name": "History (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/historymphilphd"
+    },
+    {
+      "name": "History of Art (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/historyofartresearch"
+    },
+    {
+      "name": "History of Art (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/historyofartmphilphd"
+    },
+    {
+      "name": "History of Art and Visual Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/historyofartavs"
+    },
+    {
+      "name": "History of Medicine (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/historymedicine"
+    },
+    {
+      "name": "Humanitarian Engineering (MSc/PGDip/PGCert/PGA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/humengineering"
+    },
+    {
+      "name": "Humanitarian Engineering (with Management) (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/humengineeringmanagement"
+    },
+    {
+      "name": "Humanitarian Engineering (with Sustainability) (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/humengineeringsustainability"
+    },
+    {
+      "name": "Innovation and Entrepreneurship (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/innovationentrepreneurship"
+    },
+    {
+      "name": "Intelligent Manufacturing Systems (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/manufacturingsystems/"
+    },
+    {
+      "name": "Intercultural Communication (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mphilphdinterculturalcomm"
+    },
+    {
+      "name": "Intercultural Communication for Business and the Professions (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/interculturalcommunication"
+    },
+    {
+      "name": "Interdisciplinary Biomedical Research (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/biomedicalresearch"
+    },
+    {
+      "name": "Interdisciplinary Mathematics (Diploma plus MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/interdisciplinarymaths"
+    },
+    {
+      "name": "Interdisciplinary Mathematics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/interdisciplinarymathsmsc"
+    },
+    {
+      "name": "Interdisciplinary Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/interdisciplinarystudies"
+    },
+    {
+      "name": "International Business (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/internationalbusiness"
+    },
+    {
+      "name": "International Commercial Law (LLM)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/commerciallaw"
+    },
+    {
+      "name": "International Corporate Governance and Financial Regulation (LLM)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/financialregllm"
+    },
+    {
+      "name": "International Development (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/internationaldevelopment"
+    },
+    {
+      "name": "International Development Law and Human Rights (LLM)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/developmentlawandhr"
+    },
+    {
+      "name": "International Economic Law (LLM)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/economiclaw"
+    },
+    {
+      "name": "International Political Economy (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/intpoliticaleconomy"
+    },
+    {
+      "name": "International Politics and East Asia (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/intpoliticseastasia"
+    },
+    {
+      "name": "International Politics and Europe (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/intpoliticseurope"
+    },
+    {
+      "name": "International Relations (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/internationalrelations"
+    },
+    {
+      "name": "International Security (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/internationalsecurity"
+    },
+    {
+      "name": "International Trade, Strategy and Operations (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/internationaltrade"
+    },
+    {
+      "name": "Islamic Education: Theory and Practice (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/islamiceducationma"
+    },
+    {
+      "name": "Italian (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/italianresearch"
+    },
+    {
+      "name": "Italian (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/italianmphilphd"
+    },
+    {
+      "name": "Law (LLM by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/llmresearch"
+    },
+    {
+      "name": "Law (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/lawmphilphd"
+    },
+    {
+      "name": "Life Sciences (MSc by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/lifesciencesresearch"
+    },
+    {
+      "name": "Linguistics (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/phdlinguistics"
+    },
+    {
+      "name": "Literary Translation Studies (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/literarystudies"
+    },
+    {
+      "name": "Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/management"
+    },
+    {
+      "name": "Management of Information Systems and Digital Innovation (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/managementdigitalinnovation"
+    },
+    {
+      "name": "Marketing and Strategy (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/marketingstrategy"
+    },
+    {
+      "name": "Mathematical Finance (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mathematicalfinance"
+    },
+    {
+      "name": "Mathematics (Diploma plus MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mathematicsdiploma"
+    },
+    {
+      "name": "Mathematics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mathematicsmsc"
+    },
+    {
+      "name": "Mathematics of Systems (MSc leading to PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mathematicsofsystems"
+    },
+    {
+      "name": "Media and Communication (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/culturalpolicymphilphd"
+    },
+    {
+      "name": "Medical Biotechnology and Business Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/medicalbiotech"
+    },
+    {
+      "name": "Mental Health and Wellbeing (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mentalhealthwellbeing"
+    },
+    {
+      "name": "Modern History (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/modernhistory"
+    },
+    {
+      "name": "Molecular Analytical Science (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/molecularanalyticalscience"
+    },
+    {
+      "name": "MSc by Research (Warwick Medical School) (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mscresearchwms"
+    },
+    {
+      "name": "MSc by Research (WMG) (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/mscresearchwmg"
+    },
+    {
+      "name": "Philosophy (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/philosophyma"
+    },
+    {
+      "name": "Philosophy (MPhil)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/philosophymphil"
+    },
+    {
+      "name": "Philosophy and the Arts (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/philosophythearts"
+    },
+    {
+      "name": "Physics (MSc by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/physicsmsc"
+    },
+    {
+      "name": "Political and Legal Theory (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/politicallegaltheory"
+    },
+    {
+      "name": "Politics, Big Data and Quantitative Methods (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/politicsquantitativemethods"
+    },
+    {
+      "name": "Polymer Chemistry (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/polymerchemistry"
+    },
+    {
+      "name": "Polymer Science (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/polymerscience"
+    },
+    {
+      "name": "Predictive Modelling and Scientific Computing (MSc/PGDip/PGCert/PGA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/predictivemodellingscientificcomputing"
+    },
+    {
+      "name": "Professional Education (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/professionaleducation"
+    },
+    {
+      "name": "Programme and Project Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/projectmanagement"
+    },
+    {
+      "name": "Psychological Research (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/psychologicalresearch"
+    },
+    {
+      "name": "Psychology (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/psychologymphilphd"
+    },
+    {
+      "name": "Psychology (MSc by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/psychologyresearch"
+    },
+    {
+      "name": "Psychology and Education (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/psychologyeducation"
+    },
+    {
+      "name": "Psychotherapy and Counselling (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/psychotherapycounselling"
+    },
+    {
+      "name": "Public Health (PGCert/PGDip/MPH)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/publichealth"
+    },
+    {
+      "name": "Public Policy (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/publicpolicy"
+    },
+    {
+      "name": "Renaissance Studies (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/renaissancestudiesresearch"
+    },
+    {
+      "name": "Renaissance Studies (PhD/MPhil)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/renaissancestudiesmphilphd"
+    },
+    {
+      "name": "Scientific Research and Communication (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/scientificresearchcommunication"
+    },
+    {
+      "name": "Smart, Connected and Autonomous Vehicles (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/intelligentvehicles"
+    },
+    {
+      "name": "Social and Political Thought (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/socialpoliticalthought"
+    },
+    {
+      "name": "Social Inequalities and Research Methods (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/social-inequalities-and-research-methods"
+    },
+    {
+      "name": "Sociology (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/sociology"
+    },
+    {
+      "name": "Statistics (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/statisticsphdmphil"
+    },
+    {
+      "name": "Statistics (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/statistics"
+    },
+    {
+      "name": "Supply Chain and Logistics Management (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/supplychainmanagement"
+    },
+    {
+      "name": "Supply Chain Leadership (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/supply-chain-leadership/"
+    },
+    {
+      "name": "Sustainable Automotive Electrification (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/sustainableautomotiveelectrification/"
+    },
+    {
+      "name": "Sustainable Crop Production: Agronomy for the 21st Century (MSc)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/sustainablecropproduction"
+    },
+    {
+      "name": "Teaching English to Speakers of Other Languages (TESOL) (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/tesolma"
+    },
+    {
+      "name": "Theatre and Performance Studies (MA by Research)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/theatreresearch"
+    },
+    {
+      "name": "Theatre and Performance Studies (MPhil/PhD)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/theatremphilphd"
+    },
+    {
+      "name": "Translation and Cultures (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/translationandcultures"
+    },
+    {
+      "name": "United States Foreign Policy (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/usforeignpolicy"
+    },
+    {
+      "name": "Visual and Material Culture of Ancient Greece (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/vmcancientgreece"
+    },
+    {
+      "name": "Visual and Material Culture of Ancient Rome (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/vmcancientrome"
+    },
+    {
+      "name": "World Literature (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/worldliterature"
+    },
+    {
+      "name": "Writing (MA)",
+      "url": "https://warwick.ac.uk/study/postgraduate/courses-2023/writing"
+    }
+  ],
+  "headings": [
+    "H1: Our courses (2023)",
+    "H2: Search A-Z"
+  ],
+  "crawledAt": "2026-06-11T10:47:06.175Z"
+}

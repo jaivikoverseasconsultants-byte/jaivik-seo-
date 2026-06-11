@@ -1,0 +1,32 @@
+{
+  "slug": "university-of-waterloo",
+  "url": "https://uwaterloo.ca/future-students/programs",
+  "courses": [
+    {
+      "name": "How to choose a program",
+      "url": "https://uwaterloo.ca/future-students/programs#all"
+    },
+    {
+      "name": "Study multiple interests",
+      "url": "https://uwaterloo.ca/future-students/programs#all"
+    },
+    {
+      "name": "Business programs",
+      "url": "https://uwaterloo.ca/future-students/programs#all"
+    },
+    {
+      "name": "Subscribe to our monthly newsletter",
+      "url": "https://uwaterloo.ca/future-students/programs#all"
+    }
+  ],
+  "headings": [
+    "H1: Programs",
+    "H2: Not sure what to study?",
+    "H3: How to choose a program",
+    "H3: Study multiple interests",
+    "H3: Business programs",
+    "H2: All programs",
+    "H3: Subscribe to our monthly newsletter"
+  ],
+  "crawledAt": "2026-06-11T10:53:39.781Z"
+}
