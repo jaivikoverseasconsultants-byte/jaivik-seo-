@@ -74,6 +74,7 @@ export default function Footer() {
               <li><Link href="/courses" className="hover:text-white">All Courses</Link></li>
               <li><Link href="/find-my-course" className="hover:text-white">Find My Course</Link></li>
               <li><Link href="/scholarships" className="hover:text-white">Scholarships</Link></li>
+              <li><Link href="/scholarships-and-low-budget-guide" className="hover:text-white">Low Budget Study Abroad</Link></li>
               <li><Link href="/course-finder" className="hover:text-white">Course Finder Tool</Link></li>
               <li><Link href="/blog" className="hover:text-white">Study Abroad Blog</Link></li>
               <li><Link href="/visa-guide" className="hover:text-white">Visa Guides 2026</Link></li>

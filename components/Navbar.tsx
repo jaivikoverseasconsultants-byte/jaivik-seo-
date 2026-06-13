@@ -57,9 +57,10 @@ const IELTS_SECTIONS = [
 ];
 
 const SIMPLE_LINKS = [
-  { href: '/find-my-course', label: 'Find My Course' },
-  { href: '/scholarships',   label: 'Scholarships'   },
-  { href: '/blog',           label: 'Blog'            },
+  { href: '/find-my-course',                  label: 'Find My Course'   },
+  { href: '/scholarships-and-low-budget-guide', label: 'Low Budget Guide' },
+  { href: '/scholarships',                    label: 'Scholarships'     },
+  { href: '/blog',                            label: 'Blog'             },
 ];
 
 // ─── Component ───────────────────────────────────────────────────────────────
