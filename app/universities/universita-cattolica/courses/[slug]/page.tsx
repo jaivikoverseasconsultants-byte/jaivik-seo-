@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUniversitaCattolicaCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Università Cattolica del Sacro Cuore 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Università Cattolica del Sacro Cuore: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Università Cattolica del Sacro Cuore — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Università Cattolica del Sacro Cuore, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/universita-cattolica/courses/${slug}`,
     keywords: [course.name, 'Università Cattolica del Sacro Cuore', 'study in Italy', course.level],
   });

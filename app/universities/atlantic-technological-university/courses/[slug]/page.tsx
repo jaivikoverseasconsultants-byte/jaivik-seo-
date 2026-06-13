@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getAtuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | ATU – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Atlantic Technological University. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Atlantic Technological University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Atlantic Technological University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/atlantic-technological-university/courses/${slug}`,
     keywords: [course.name, 'ATU', 'Atlantic Technological University', 'study in Ireland', course.level],
   });

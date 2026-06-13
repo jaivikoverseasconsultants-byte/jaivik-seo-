@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUcologneCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Cologne – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Cologne. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University of Cologne — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Cologne, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-cologne/courses/${slug}`,
     keywords: [course.name, 'Cologne', 'University of Cologne', 'study in Germany', course.level],
   });

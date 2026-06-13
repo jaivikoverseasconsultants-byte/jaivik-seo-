@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUtasCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UTAS – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Tasmania. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at University of Tasmania — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Tasmania, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-tasmania/courses/${slug}`,
     keywords: [course.name, 'UTAS', 'University of Tasmania', 'study in Australia', course.level],
   });

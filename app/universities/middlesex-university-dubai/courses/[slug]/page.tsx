@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getMiddlesexUniversityDubaiCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Middlesex University Dubai 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Middlesex University Dubai: ${course.duration}, AED ${course.annualAED.toLocaleString()}/AED/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Middlesex University Dubai — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Middlesex University Dubai, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/middlesex-university-dubai/courses/${slug}`,
     keywords: [course.name, 'Middlesex University Dubai', 'study in UAE', course.level],
   });

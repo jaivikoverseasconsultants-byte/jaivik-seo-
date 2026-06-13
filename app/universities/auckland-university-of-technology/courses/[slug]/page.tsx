@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getAutCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | AUT – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Auckland University of Technology. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Auckland University of Technology — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Auckland University of Technology, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/auckland-university-of-technology/courses/${slug}`,
     keywords: [course.name, 'AUT', 'Auckland University of Technology', 'study in New Zealand', course.level],
   });

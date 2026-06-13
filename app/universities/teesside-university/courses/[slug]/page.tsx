@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getTeesCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Teesside – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Teesside University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Teesside University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Teesside University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/teesside-university/courses/${slug}`,
     keywords: [course.name, 'Teesside', 'Teesside University', 'study in UK', course.level],
   });

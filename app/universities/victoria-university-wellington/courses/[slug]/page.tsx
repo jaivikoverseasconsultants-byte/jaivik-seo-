@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getVuwCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Victoria – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Victoria University of Wellington. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Victoria University of Wellington — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Victoria University of Wellington, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/victoria-university-wellington/courses/${slug}`,
     keywords: [course.name, 'Victoria', 'Victoria University of Wellington', 'study in New Zealand', course.level],
   });

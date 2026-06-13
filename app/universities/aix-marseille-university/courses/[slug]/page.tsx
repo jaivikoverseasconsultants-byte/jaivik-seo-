@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getAixMarseilleUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Aix-Marseille University 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Aix-Marseille University: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Aix-Marseille University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Aix-Marseille University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/aix-marseille-university/courses/${slug}`,
     keywords: [course.name, 'Aix-Marseille University', 'study in France', course.level],
   });

@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getChalmersUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Chalmers University of Technology 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Chalmers University of Technology: ${course.duration}, $${course.annualUSD.toLocaleString()}/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Chalmers University of Technology — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Chalmers University of Technology, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/chalmers-university/courses/${slug}`,
     keywords: [course.name, 'Chalmers University of Technology', 'study in Sweden', course.level],
   });

@@ -19,8 +19,8 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualUSD || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} | Georgia Tech – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Georgia Institute of Technology. Annual fee $${fee.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Georgia Institute of Technology — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Georgia Institute of Technology, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/georgia-institute-of-technology/courses/${slug}`,
     keywords: [course.name, 'Georgia Tech', 'Georgia Institute of Technology', 'study in USA', course.level],
   });

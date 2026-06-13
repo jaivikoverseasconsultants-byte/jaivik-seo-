@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getViaUniversityCollegeCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at VIA University College 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at VIA University College: ${course.duration}, DKK ${course.annualDKK.toLocaleString()}/DKK/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at VIA University College — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at VIA University College, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/via-university-college/courses/${slug}`,
     keywords: [course.name, 'VIA University College', 'study in Denmark', course.level],
   });

@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getGreenwichCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Greenwich – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Greenwich. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at University of Greenwich — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Greenwich, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-greenwich/courses/${slug}`,
     keywords: [course.name, 'Greenwich', 'University of Greenwich', 'study in UK', course.level],
   });

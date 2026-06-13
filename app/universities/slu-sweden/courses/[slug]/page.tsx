@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getSluSwedenCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Swedish University of Agricultural Sciences 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Swedish University of Agricultural Sciences: ${course.duration}, $${course.annualUSD.toLocaleString()}/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Swedish University of Agricultural Sciences — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Swedish University of Agricultural Sciences, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/slu-sweden/courses/${slug}`,
     keywords: [course.name, 'Swedish University of Agricultural Sciences', 'study in Sweden', course.level],
   });

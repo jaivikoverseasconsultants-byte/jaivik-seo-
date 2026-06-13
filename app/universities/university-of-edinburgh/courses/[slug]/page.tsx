@@ -19,8 +19,8 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualGBP || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} | Edinburgh – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Edinburgh. Annual fee £${fee.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at University of Edinburgh — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Edinburgh, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-edinburgh/courses/${slug}`,
     keywords: [course.name, 'Edinburgh', 'University of Edinburgh', 'study in UK', course.level],
   });

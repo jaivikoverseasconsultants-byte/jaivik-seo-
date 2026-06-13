@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getSault_collegeCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Sault – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Sault College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Sault College — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Sault College, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/sault-college/courses/${slug}`,
     keywords: [course.name, 'Sault', 'Sault College', 'study in Canada', course.level, 'PGWP'],
   });

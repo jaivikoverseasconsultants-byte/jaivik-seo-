@@ -17,8 +17,8 @@ export async function generateMetadata(
   const c = ucsbCourses.find(x => x.slug === slug);
   if (!c) return {};
   return buildMetadata({
-    title: `${c.name} at UC Santa Barbara 2026 – Fees, IELTS & Requirements`,
-    description: `${c.name} at UC Santa Barbara: ${c.duration}, $${(c.annualUSD/1000).toFixed(0)}K USD/yr. IELTS ${c.ieltsMin}+. Apply via Jaivik Overseas Consultants.`,
+    title: `${c.name} at Uc Santa Barbara — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${c.name} at Uc Santa Barbara, ${(c as any).city || c.country} costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/uc-santa-barbara/courses/${slug}`,
   });
 }

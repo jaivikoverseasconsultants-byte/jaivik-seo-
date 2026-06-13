@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getAstonCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Aston – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Aston University. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Aston University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Aston University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/aston-university/courses/${slug}`,
     keywords: [course.name, 'Aston', 'Aston University', 'study in UK', course.level],
   });

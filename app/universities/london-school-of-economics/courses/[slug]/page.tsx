@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getLseCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | LSE – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at London School of Economics. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at London School of Economics — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at London School of Economics, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/london-school-of-economics/courses/${slug}`,
     keywords: [course.name, 'LSE', 'London School of Economics', 'study in UK', course.level],
   });

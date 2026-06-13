@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUtsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UTS Sydney – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Technology Sydney. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants, Ghaziabad.`,
+    title: `${course.name} at University of Technology Sydney — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Technology Sydney, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/uts-sydney/courses/${slug}`,
     keywords: [course.name, 'UTS Sydney', 'University of Technology Sydney', 'study in Australia', course.level],
   });

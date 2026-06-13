@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getSapienzaUniversityRomeCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Sapienza University of Rome 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Sapienza University of Rome: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Sapienza University of Rome — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Sapienza University of Rome, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/sapienza-university-rome/courses/${slug}`,
     keywords: [course.name, 'Sapienza University of Rome', 'study in Italy', course.level],
   });

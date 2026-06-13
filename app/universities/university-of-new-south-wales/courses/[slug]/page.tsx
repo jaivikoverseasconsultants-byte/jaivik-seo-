@@ -19,8 +19,8 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualAUD || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} | UNSW – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at UNSW Sydney. Annual fee A$${fee.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at UNSW Sydney — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at UNSW Sydney, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-new-south-wales/courses/${slug}`,
     keywords: [course.name, 'UNSW', 'UNSW Sydney', 'study in Australia', course.level],
   });

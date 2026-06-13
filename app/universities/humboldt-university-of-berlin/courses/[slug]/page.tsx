@@ -19,8 +19,8 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} | Humboldt – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Humboldt University of Berlin. Annual fee €${fee.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Humboldt University of Berlin — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Humboldt University of Berlin, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/humboldt-university-of-berlin/courses/${slug}`,
     keywords: [course.name, 'Humboldt', 'Humboldt University of Berlin', 'study in Germany', course.level],
   });

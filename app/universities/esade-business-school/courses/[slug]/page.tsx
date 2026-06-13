@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getEsadeBusinessSchoolCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at ESADE Business School 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at ESADE Business School: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at ESADE Business School — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at ESADE Business School, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/esade-business-school/courses/${slug}`,
     keywords: [course.name, 'ESADE Business School', 'study in Spain', course.level],
   });

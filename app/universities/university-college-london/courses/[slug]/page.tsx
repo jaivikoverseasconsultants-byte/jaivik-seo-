@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUclCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UCL London — Fees, IELTS & Intake 2026`,
-    description: `${course.name} at UCL (University College London). Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. 2-yr Graduate Route. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University College London — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University College London, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-college-london/courses/${slug}`,
     keywords: [course.name, 'UCL', 'University College London', 'study in London UK', course.level],
   });

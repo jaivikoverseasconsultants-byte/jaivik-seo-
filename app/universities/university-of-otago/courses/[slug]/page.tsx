@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getOtagoCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Otago – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Otago. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University of Otago — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Otago, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-otago/courses/${slug}`,
     keywords: [course.name, 'Otago', 'University of Otago', 'study in New Zealand', course.level],
   });

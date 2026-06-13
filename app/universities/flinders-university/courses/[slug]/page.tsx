@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getFlindersCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Flinders – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Flinders University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Flinders University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Flinders University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/flinders-university/courses/${slug}`,
     keywords: [course.name, 'Flinders', 'Flinders University', 'study in Australia', course.level],
   });

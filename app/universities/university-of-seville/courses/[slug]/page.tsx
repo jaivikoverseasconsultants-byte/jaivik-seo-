@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUniversityOfSevilleCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Seville 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at University of Seville: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University of Seville — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Seville, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-seville/courses/${slug}`,
     keywords: [course.name, 'University of Seville', 'study in Spain', course.level],
   });

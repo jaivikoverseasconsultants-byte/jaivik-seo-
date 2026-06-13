@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUomCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | University of Melbourne — Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Melbourne. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Graduate Visa 2–4 yrs. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University of Melbourne — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Melbourne, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-melbourne/courses/${slug}`,
     keywords: [course.name, 'UniMelb', 'University of Melbourne', 'study in Australia', course.level],
   });

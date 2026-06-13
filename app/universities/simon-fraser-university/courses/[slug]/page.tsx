@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getSfuCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | SFU – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Simon Fraser University. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Simon Fraser University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Simon Fraser University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/simon-fraser-university/courses/${slug}`,
     keywords: [course.name, 'SFU', 'Simon Fraser University', 'study in Canada', course.level, 'PGWP'],
   });

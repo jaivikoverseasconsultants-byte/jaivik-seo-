@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUbonnCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Bonn – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Bonn. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University of Bonn — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Bonn, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-bonn/courses/${slug}`,
     keywords: [course.name, 'Bonn', 'University of Bonn', 'study in Germany', course.level],
   });

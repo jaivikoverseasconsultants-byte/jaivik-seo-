@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUstuttgartCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Stuttgart – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Stuttgart. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at University of Stuttgart — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Stuttgart, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-stuttgart/courses/${slug}`,
     keywords: [course.name, 'Stuttgart', 'University of Stuttgart', 'study in Germany', course.level],
   });

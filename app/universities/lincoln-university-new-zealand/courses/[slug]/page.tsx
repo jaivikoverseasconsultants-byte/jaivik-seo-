@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getLincolnnzCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Lincoln NZ – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Lincoln University New Zealand. Annual fee NZ$${course.annualNZD.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Lincoln University New Zealand — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Lincoln University New Zealand, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/lincoln-university-new-zealand/courses/${slug}`,
     keywords: [course.name, 'Lincoln NZ', 'Lincoln University New Zealand', 'study in New Zealand', course.level],
   });

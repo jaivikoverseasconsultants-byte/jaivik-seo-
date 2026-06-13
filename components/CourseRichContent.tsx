@@ -1,11 +1,31 @@
 import { generateCourseContent, type CourseForContent } from '@/lib/courseContent';
 import CurrencyConverter from '@/components/CurrencyConverter';
 import JsonLd from '@/components/JsonLd';
+import Link from 'next/link';
+import { getCoursesBySlug } from '@/data/university-course-registry';
 
 interface Props {
   course: CourseForContent;
   universityName: string;
   universitySlug: string;
+}
+
+function detectFieldLabel(name: string): string {
+  const n = name.toLowerCase();
+  if (/\b(artificial intelligence|machine learning|deep learning)\b/.test(n)) return 'AI & Machine Learning';
+  if (/\b(data science|data analytics|big data)\b/.test(n)) return 'Data Science';
+  if (/\b(computer science|software engineering|computing|cyber)\b/.test(n)) return 'Computer Science';
+  if (/\b(mechanical|electrical|civil|chemical|aerospace) engineering\b/.test(n)) return 'Engineering';
+  if (/\b(mba|business administration|business management)\b/.test(n)) return 'Business & Management';
+  if (/\b(finance|accounting|economics|banking|actuarial)\b/.test(n)) return 'Finance';
+  if (/\b(public health|nursing|biomedical|clinical|pharmacy)\b/.test(n)) return 'Health Sciences';
+  if (/\b(law|legal|llm)\b/.test(n)) return 'Law';
+  if (/\b(education|teaching|pedagogy)\b/.test(n)) return 'Education';
+  if (/\b(psychology|social work|mental health)\b/.test(n)) return 'Psychology';
+  if (/\b(architecture|urban design|interior design)\b/.test(n)) return 'Architecture & Design';
+  if (/\b(marketing|communications|journalism|digital marketing)\b/.test(n)) return 'Marketing & Communications';
+  if (/\b(biology|chemistry|physics|mathematics|statistics|biotechnology)\b/.test(n)) return 'Sciences';
+  return 'Postgraduate Studies';
 }
 
 export default function CourseRichContent({ course, universityName, universitySlug }: Props) {
@@ -18,6 +38,11 @@ export default function CourseRichContent({ course, universityName, universitySl
   const countrySlug = course.country.toLowerCase().replace(/\s+/g, '-');
   const inrLakh = (course.annualINR / 100000).toFixed(1);
   const intakesText = course.intakeMonths.join(' and ');
+  const fieldLabel = detectFieldLabel(course.name);
+  const currentSlug = (course as any).slug as string | undefined;
+  const relatedCourses = getCoursesBySlug(universitySlug)
+    .filter(c => c.slug !== currentSlug)
+    .slice(0, 3);
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -182,6 +207,69 @@ export default function CourseRichContent({ course, universityName, universitySl
         </div>
       </div>
 
+      {/* Indian Students: Fees, Eligibility & Application */}
+      <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
+          {course.name} for Indian Students: Fees, Eligibility &amp; Application
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          <p>
+            The <strong>tuition fee for Indian students</strong> pursuing {course.name} at {universityName} is approximately ₹{inrLakh}L per year (USD ${course.annualUSD.toLocaleString()}). Total programme costs vary depending on duration — Indian students should also budget for living expenses, health insurance, and one-time application fees when planning finances.
+          </p>
+          <p>
+            The <strong>IELTS requirement for Indian students</strong> applying to {course.name} at {universityName} is a minimum overall band of {course.ieltsMin}. Most universities require no individual sub-band below 6.0. TOEFL iBT {course.toeflMin}+ is typically accepted as an alternative, and PTE Academic scores may also be considered.
+          </p>
+          <p>
+            For the <strong>intake for Indian students</strong>, {universityName} accepts applications for the {intakesText} intake{course.intakeMonths.length > 1 ? 's' : ''}. Starting your application 4–6 months before the deadline is strongly recommended to allow adequate time for document preparation, statement of purpose drafting, reference letters, and student visa processing.
+          </p>
+          <p>
+            There are several <strong>scholarship for Indian students at {universityName}</strong> worth exploring — including merit-based university awards, government-sponsored scholarships (such as Commonwealth Scholarships and GREAT Scholarships for UK universities), and country-specific funding for students from India. Jaivik Overseas can help you identify and apply for scholarships you qualify for at no extra cost.
+          </p>
+        </div>
+        <div className="mt-4 p-4 bg-brand-50 border border-brand-200 rounded-xl">
+          <p className="text-xs text-brand-800 font-semibold mb-1">Free Scholarship &amp; Application Guidance</p>
+          <p className="text-xs text-brand-700">
+            Our counsellors have 13 years of experience and 99% visa success helping Indian students secure admissions and scholarships at {universityName}. Book a free session today.
+          </p>
+          <Link href="/book-counselling" className="inline-block mt-2 text-xs font-semibold text-brand-700 underline">
+            Book Free Counselling →
+          </Link>
+        </div>
+      </div>
+
+      {/* How Does This University Compare */}
+      <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
+          How Does {universityName} Compare for {fieldLabel}?
+        </h2>
+        <p className="text-sm text-gray-700 leading-relaxed mb-4">
+          {universityName} charges USD ${course.annualUSD.toLocaleString()} per year for {course.name}, with an IELTS minimum of {course.ieltsMin} and {intakesText} intake{course.intakeMonths.length > 1 ? 's' : ''}. For Indian students evaluating options in {course.country}, this places {universityName} among the universities offering competitive {fieldLabel} programmes with strong graduate outcomes and post-study work rights.
+        </p>
+        <div className="grid grid-cols-3 gap-3 mb-4">
+          <div className="bg-gray-50 rounded-xl p-3 text-center">
+            <p className="text-base font-bold text-gray-900">${course.annualUSD.toLocaleString()}</p>
+            <p className="text-xs text-gray-500 mt-0.5">Annual Tuition (USD)</p>
+          </div>
+          <div className="bg-gray-50 rounded-xl p-3 text-center">
+            <p className="text-base font-bold text-gray-900">{course.ieltsMin}+</p>
+            <p className="text-xs text-gray-500 mt-0.5">IELTS Required</p>
+          </div>
+          <div className="bg-gray-50 rounded-xl p-3 text-center">
+            <p className="text-base font-bold text-gray-900">₹{inrLakh}L</p>
+            <p className="text-xs text-gray-500 mt-0.5">Approx. in INR/yr</p>
+          </div>
+        </div>
+        <p className="text-xs text-gray-500 mb-3">
+          Want a side-by-side comparison of {universityName} vs other universities for {fieldLabel} in {course.country}? Our advisors provide personalised shortlists based on your profile, budget, and career goals.
+        </p>
+        <Link
+          href="/book-counselling"
+          className="text-sm text-brand-700 font-semibold hover:underline"
+        >
+          Compare {universityName} with other universities →
+        </Link>
+      </div>
+
       {/* Application Details & Official Links */}
       {((course as any).url || (course as any).applicationFee || (course as any).englishWaiver || (course as any).applicationMode) && (
         <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
@@ -222,6 +310,34 @@ export default function CourseRichContent({ course, universityName, universitySl
               <p className="text-xs text-gray-500 mt-2">Opens the university&apos;s official course page in a new tab</p>
             </div>
           )}
+        </div>
+      )}
+
+      {/* Related Courses from Same University */}
+      {relatedCourses.length > 0 && (
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Other Courses at {universityName}</h2>
+          <div className="space-y-3">
+            {relatedCourses.map(rc => (
+              <Link
+                key={rc.slug}
+                href={`/universities/${universitySlug}/courses/${rc.slug}`}
+                className="flex items-center justify-between p-4 bg-gray-50 rounded-xl hover:bg-brand-50 hover:border-brand-200 border border-transparent transition-colors group"
+              >
+                <div>
+                  <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700">{rc.name}</p>
+                  <p className="text-xs text-gray-500 mt-0.5">{rc.level} · {rc.duration} · IELTS {rc.ieltsMin}+</p>
+                </div>
+                <span className="text-brand-700 text-sm font-bold ml-4 flex-shrink-0">→</span>
+              </Link>
+            ))}
+          </div>
+          <Link
+            href={`/universities/${universitySlug}/courses`}
+            className="block text-sm text-center text-brand-700 font-semibold mt-4 hover:underline"
+          >
+            View All {universityName} Courses →
+          </Link>
         </div>
       )}
 

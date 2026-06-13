@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getMurdochCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | Murdoch – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Murdoch University. Annual fee A$${course.annualAUD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at Murdoch University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Murdoch University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/murdoch-university/courses/${slug}`,
     keywords: [course.name, 'Murdoch', 'Murdoch University', 'study in Australia', course.level],
   });

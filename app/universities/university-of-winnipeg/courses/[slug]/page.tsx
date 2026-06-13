@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUwinnipegCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UWinnipeg – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of Winnipeg. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at University of Winnipeg — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Winnipeg, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-winnipeg/courses/${slug}`,
     keywords: [course.name, 'UWinnipeg', 'University of Winnipeg', 'study in Canada', course.level, 'PGWP'],
   });

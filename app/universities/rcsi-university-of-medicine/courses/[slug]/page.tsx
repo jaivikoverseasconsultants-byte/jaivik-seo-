@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getRcsiCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | RCSI – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at RCSI University of Medicine. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at RCSI University of Medicine — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at RCSI University of Medicine, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/rcsi-university-of-medicine/courses/${slug}`,
     keywords: [course.name, 'RCSI', 'RCSI University of Medicine', 'study in Ireland', course.level],
   });

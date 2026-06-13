@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getNorquestCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | NorQuest – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at NorQuest College. Annual fee CAD $${course.annualCAD.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. PGWP eligible. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at NorQuest College — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at NorQuest College, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/norquest-college/courses/${slug}`,
     keywords: [course.name, 'NorQuest', 'NorQuest College', 'study in Canada', course.level, 'PGWP'],
   });

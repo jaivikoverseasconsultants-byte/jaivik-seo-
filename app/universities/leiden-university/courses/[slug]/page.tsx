@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getLeidenUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Leiden University 2026 – Fees, IELTS & Requirements`,
-    description: `${course.name} at Leiden University: ${course.duration}, €${course.annualEUR.toLocaleString()}/EUR/yr. IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Leiden University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Leiden University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/leiden-university/courses/${slug}`,
     keywords: [course.name, 'Leiden University', 'study in Netherlands', course.level],
   });

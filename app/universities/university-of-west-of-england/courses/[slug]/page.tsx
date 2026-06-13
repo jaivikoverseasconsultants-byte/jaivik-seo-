@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getUweCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | UWE Bristol – Fees, IELTS & Intake 2026`,
-    description: `${course.name} at University of the West of England. Annual fee £${course.annualGBP.toLocaleString()} (${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Free guidance from Jaivik Overseas Consultants.`,
+    title: `${course.name} at University of the West of England — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of the West of England, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-west-of-england/courses/${slug}`,
     keywords: [course.name, 'UWE Bristol', 'University of the West of England', 'study in UK', course.level],
   });

@@ -18,8 +18,8 @@ export async function generateMetadata(
   const course = getTuMunichCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} | TU Munich — Fees, IELTS & Intake 2026`,
-    description: `${course.name} at Technical University of Munich. Annual fee €${course.annualEUR.toLocaleString()} (${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}). IELTS ${course.ieltsMin}+. Intake: ${course.intakeMonths.join(' & ')}. Germany's #37 university. Free guidance from Jaivik Overseas.`,
+    title: `${course.name} at Technical University of Munich — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at Technical University of Munich, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/technical-university-of-munich/courses/${slug}`,
     keywords: [course.name, 'TU Munich', 'Technical University Munich', 'study in Germany', course.level],
   });
