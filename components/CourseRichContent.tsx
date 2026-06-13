@@ -2,7 +2,8 @@ import { generateCourseContent, type CourseForContent } from '@/lib/courseConten
 import CurrencyConverter from '@/components/CurrencyConverter';
 import JsonLd from '@/components/JsonLd';
 import Link from 'next/link';
-import { getCoursesBySlug } from '@/data/university-course-registry';
+import { getCoursesBySlug, findAlternativeCourses } from '@/data/university-course-registry';
+import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 
 interface Props {
   course: CourseForContent;
@@ -28,6 +29,80 @@ function detectFieldLabel(name: string): string {
   return 'Postgraduate Studies';
 }
 
+function getFieldKeywords(fieldLabel: string): string[] {
+  const map: Record<string, string[]> = {
+    'AI & Machine Learning': ['artificial intelligence', 'machine learning', 'deep learning'],
+    'Data Science': ['data science', 'data analytics', 'big data'],
+    'Computer Science': ['computer science', 'software engineering', 'computing'],
+    'Engineering': ['mechanical engineering', 'electrical engineering', 'civil engineering', 'chemical engineering', 'aerospace'],
+    'Business & Management': ['mba', 'business administration', 'business management', 'management'],
+    'Finance': ['finance', 'accounting', 'economics', 'banking'],
+    'Health Sciences': ['public health', 'nursing', 'biomedical', 'clinical'],
+    'Law': ['law', 'llm', 'legal'],
+    'Education': ['education', 'teaching'],
+    'Psychology': ['psychology', 'social work'],
+    'Architecture & Design': ['architecture', 'urban design'],
+    'Marketing & Communications': ['marketing', 'communications', 'journalism'],
+    'Sciences': ['biology', 'chemistry', 'physics', 'mathematics', 'statistics'],
+  };
+  return map[fieldLabel] ?? [];
+}
+
+function slugToUniName(slug: string): string {
+  const NAMES: Record<string, string> = {
+    'university-college-london': 'UCL',
+    'unsw-sydney': 'UNSW Sydney',
+    'uts-sydney': 'UTS Sydney',
+    'national-university-of-singapore': 'NUS',
+    'nanyang-technological-university': 'NTU',
+    'mcmaster-university': 'McMaster',
+    'university-of-manchester': 'Manchester',
+    'university-of-edinburgh': 'Edinburgh',
+    'university-of-warwick': 'Warwick',
+    'university-of-british-columbia': 'UBC',
+    'university-of-toronto': 'U of Toronto',
+    'university-of-glasgow': 'Glasgow',
+    'university-of-waterloo': 'Waterloo',
+    'london-school-of-economics': 'LSE',
+    'university-of-sheffield': 'Sheffield',
+    'university-of-bristol': 'Bristol',
+    'university-of-leeds': 'Leeds',
+    'university-of-birmingham': 'Birmingham',
+    'kings-college-london': "King's College London",
+    'university-of-auckland': 'Auckland',
+    'university-of-queensland': 'UQ',
+    'monash-university': 'Monash',
+  };
+  return NAMES[slug] || slug.split('-').map(w => w[0]?.toUpperCase() + w.slice(1)).join(' ');
+}
+
+const MONTH_MAP: Record<string, number> = {
+  January: 1, February: 2, March: 3, April: 4, May: 5, June: 6,
+  July: 7, August: 8, September: 9, October: 10, November: 11, December: 12,
+};
+const MONTH_NAMES = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+];
+const REF_MONTH = 6;
+const REF_YEAR = 2026;
+
+function computeIntakeStatus(month: string) {
+  const mNum = MONTH_MAP[month] ?? 9;
+  let diff = mNum - REF_MONTH;
+  let year = REF_YEAR;
+  if (diff <= 0) { diff += 12; year += 1; }
+
+  const status: 'open' | 'soon' | 'upcoming' = diff <= 3 ? 'open' : diff <= 6 ? 'soon' : 'upcoming';
+
+  let deadlineMNum = mNum - 3;
+  let deadlineYear = year;
+  if (deadlineMNum <= 0) { deadlineMNum += 12; deadlineYear -= 1; }
+  const deadlineStr = `${MONTH_NAMES[deadlineMNum - 1]} ${deadlineYear}`;
+
+  return { month, year, monthsAway: diff, deadlineStr, status };
+}
+
 export default function CourseRichContent({ course, universityName, universitySlug }: Props) {
   const { about, careerOutcomes, whyStudyHere, requirements } = generateCourseContent(
     course,
@@ -40,9 +115,19 @@ export default function CourseRichContent({ course, universityName, universitySl
   const intakesText = course.intakeMonths.join(' and ');
   const fieldLabel = detectFieldLabel(course.name);
   const currentSlug = (course as any).slug as string | undefined;
+
   const relatedCourses = getCoursesBySlug(universitySlug)
     .filter(c => c.slug !== currentSlug)
     .slice(0, 3);
+
+  const trendingContext = getTrendingContext(course.country);
+  const localGuidance = getLocalGuidance(course.country);
+
+  const intakeStatuses = course.intakeMonths.slice(0, 2).map(computeIntakeStatus);
+
+  const fieldKeywords = getFieldKeywords(fieldLabel);
+  const ieltsAlternatives = findAlternativeCourses(fieldKeywords, universitySlug, course.ieltsMin - 1, 2);
+  const similarPrograms = findAlternativeCourses(fieldKeywords, universitySlug, undefined, 2);
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -121,10 +206,34 @@ export default function CourseRichContent({ course, universityName, universitySl
     })),
   };
 
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType: `Study Abroad Counselling for ${course.name}`,
+    provider: {
+      '@type': 'EducationalOrganization',
+      name: 'Jaivik Overseas Consultants',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '333 Orbit Plaza, Crossing Republik',
+        addressLocality: 'Ghaziabad',
+        addressRegion: 'Uttar Pradesh',
+        postalCode: '201016',
+        addressCountry: 'IN',
+      },
+    },
+    areaServed: [
+      'Ghaziabad', 'Noida', 'Delhi', 'Karnal', 'Kaithal',
+      'Ambala', 'Panipat', 'Meerut', 'Gurgaon', 'Faridabad',
+    ].map(city => ({ '@type': 'City', name: city })),
+  };
+
   return (
     <>
       <JsonLd data={faqSchema} />
       <JsonLd data={courseSchema} />
+      <JsonLd data={serviceSchema} />
+
       {/* INR Disclaimer */}
       <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-2.5 flex items-start gap-2">
         <span className="text-amber-500 mt-0.5 flex-shrink-0">ℹ</span>
@@ -136,6 +245,7 @@ export default function CourseRichContent({ course, universityName, universitySl
 
       {/* Live Currency Converter */}
       <CurrencyConverter />
+
       {/* About This Program */}
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">About {course.name}</h2>
@@ -167,9 +277,16 @@ export default function CourseRichContent({ course, universityName, universitySl
       {/* Why Study Here */}
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">
-          Why Study {course.level === 'Bachelors' || course.level === 'Bachelor' ? course.name : `${course.name}`} in {course.country}?
+          Why Study {course.name} in {course.country}?
         </h2>
         <p className="text-gray-700 text-sm leading-relaxed">{whyStudyHere}</p>
+        {trendingContext && (
+          <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-xl">
+            <p className="text-xs text-blue-800">
+              <strong>📰 2026 Update:</strong> {trendingContext} — ask our counsellors how this affects your application.
+            </p>
+          </div>
+        )}
         <div className="mt-4">
           <a
             href={`/universities/country/${countrySlug}`}
@@ -198,13 +315,52 @@ export default function CourseRichContent({ course, universityName, universitySl
           ))}
         </ul>
         <div className="mt-5 p-4 bg-gold-50 border border-gold-200 rounded-xl">
-          <p className="text-xs text-gold-800 font-semibold mb-1">
-            Not sure if you qualify?
-          </p>
+          <p className="text-xs text-gold-800 font-semibold mb-1">Not sure if you qualify?</p>
           <p className="text-xs text-gold-700">
             Jaivik Overseas Consultants offers a free eligibility check — we review your academic profile and English scores against current entry requirements and advise on your application strategy at no cost.
           </p>
         </div>
+      </div>
+
+      {/* Section A — Live Intake Status */}
+      <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">Live Intake Status — 2026/27</h2>
+        <div className="space-y-3">
+          {intakeStatuses.map((intake, i) => (
+            <div
+              key={i}
+              className={`flex items-start gap-3 p-4 rounded-xl border ${
+                intake.status === 'open'
+                  ? 'bg-green-50 border-green-200'
+                  : intake.status === 'soon'
+                  ? 'bg-yellow-50 border-yellow-200'
+                  : 'bg-gray-50 border-gray-200'
+              }`}
+            >
+              <span className="text-lg flex-shrink-0 mt-0.5">
+                {intake.status === 'open' ? '🟢' : intake.status === 'soon' ? '🟡' : '🔵'}
+              </span>
+              <div>
+                <p className="text-sm font-semibold text-gray-900">
+                  {intake.month} {intake.year} —{' '}
+                  {intake.status === 'open'
+                    ? 'Applications OPEN'
+                    : intake.status === 'soon'
+                    ? `Opens in ~${intake.monthsAway} months`
+                    : 'Next cycle upcoming'}
+                </p>
+                <p className="text-xs text-gray-600 mt-0.5">
+                  {intake.status === 'open'
+                    ? `Apply now — intake in ${intake.monthsAway} month${intake.monthsAway !== 1 ? 's' : ''}. Estimated deadline: ${intake.deadlineStr}`
+                    : `Estimated application deadline: ${intake.deadlineStr}. Apply early — strong profiles fill fast.`}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <Link href="/book-counselling" className="block text-sm text-center text-brand-700 font-semibold mt-4 hover:underline">
+          Confirm Your Application Deadline →
+        </Link>
       </div>
 
       {/* Indian Students: Fees, Eligibility & Application */}
@@ -237,6 +393,64 @@ export default function CourseRichContent({ course, universityName, universitySl
         </div>
       </div>
 
+      {/* Section B — IELTS Score Match */}
+      <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">Does Your IELTS Score Qualify?</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3 p-4 bg-green-50 border border-green-200 rounded-xl">
+            <span className="text-green-600 text-lg flex-shrink-0 mt-0.5">✅</span>
+            <div>
+              <p className="text-sm font-semibold text-green-800">IELTS {course.ieltsMin}+ — You qualify directly</p>
+              <p className="text-xs text-green-700 mt-0.5">
+                Your score meets the minimum requirement for {course.name} at {universityName}. Proceed with your application — contact us for SOP and document guidance.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3 p-4 bg-yellow-50 border border-yellow-200 rounded-xl">
+            <span className="text-yellow-600 text-lg flex-shrink-0 mt-0.5">⚠️</span>
+            <div>
+              <p className="text-sm font-semibold text-yellow-800">
+                IELTS {(course.ieltsMin - 0.5).toFixed(1)} — Pathway or pre-sessional programs may apply
+              </p>
+              <p className="text-xs text-yellow-700 mt-0.5">
+                You may be eligible for a pre-sessional English course or conditional offer leading to direct entry. Ask us about {universityName}&apos;s pathway options.
+              </p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3 p-4 bg-red-50 border border-red-200 rounded-xl">
+            <span className="text-red-500 text-lg flex-shrink-0 mt-0.5">❌</span>
+            <div>
+              <p className="text-sm font-semibold text-red-800">
+                Below IELTS {(course.ieltsMin - 1).toFixed(1)} — Consider lower-threshold alternatives
+              </p>
+              <p className="text-xs text-red-700 mt-0.5 mb-2">
+                Your score may not yet meet the requirement. Consider improving your IELTS or exploring similar {fieldLabel} programs with lower requirements:
+              </p>
+              {ieltsAlternatives.length > 0 ? (
+                <div className="space-y-1.5">
+                  {ieltsAlternatives.map(alt => (
+                    <Link
+                      key={alt.slug}
+                      href={`/universities/${alt.universitySlug}/courses/${alt.slug}`}
+                      className="block text-xs text-red-700 underline hover:text-red-900 font-medium"
+                    >
+                      {alt.name} at {slugToUniName(alt.universitySlug)} — IELTS {alt.ieltsMin}+ →
+                    </Link>
+                  ))}
+                </div>
+              ) : (
+                <Link href="/book-counselling" className="text-xs text-red-700 underline font-medium">
+                  Ask us about suitable alternatives →
+                </Link>
+              )}
+            </div>
+          </div>
+        </div>
+        <p className="text-xs text-gray-500 mt-3">
+          PTE Academic {course.pteMin ?? Math.round(course.ieltsMin * 10 - 2)}+ and TOEFL iBT {course.toeflMin}+ are also accepted as IELTS equivalents at most institutions.
+        </p>
+      </div>
+
       {/* How Does This University Compare */}
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">
@@ -259,16 +473,65 @@ export default function CourseRichContent({ course, universityName, universitySl
             <p className="text-xs text-gray-500 mt-0.5">Approx. in INR/yr</p>
           </div>
         </div>
-        <p className="text-xs text-gray-500 mb-3">
-          Want a side-by-side comparison of {universityName} vs other universities for {fieldLabel} in {course.country}? Our advisors provide personalised shortlists based on your profile, budget, and career goals.
-        </p>
-        <Link
-          href="/book-counselling"
-          className="text-sm text-brand-700 font-semibold hover:underline"
-        >
+        <Link href="/book-counselling" className="text-sm text-brand-700 font-semibold hover:underline">
           Compare {universityName} with other universities →
         </Link>
       </div>
+
+      {/* Section D — Compare Similar Programs */}
+      {similarPrograms.length > 0 && (
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">
+            Compare Similar {fieldLabel} Programs
+          </h2>
+          <p className="text-sm text-gray-600 mb-4">
+            How {universityName}&apos;s {course.name} compares to similar programs at other top universities:
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-xs">
+              <thead>
+                <tr className="border-b border-gray-200">
+                  <th className="text-left py-2 pr-3 font-semibold text-gray-700">University</th>
+                  <th className="text-right py-2 px-2 font-semibold text-gray-700">Fee/yr (INR)</th>
+                  <th className="text-right py-2 px-2 font-semibold text-gray-700">IELTS</th>
+                  <th className="text-right py-2 px-2 font-semibold text-gray-700">Duration</th>
+                  <th className="text-right py-2 pl-2 font-semibold text-gray-700">Intake</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-brand-100 bg-brand-50">
+                  <td className="py-2.5 pr-3 font-semibold text-brand-800">{universityName} ★</td>
+                  <td className="text-right py-2.5 px-2 text-brand-700">₹{inrLakh}L</td>
+                  <td className="text-right py-2.5 px-2 text-brand-700">{course.ieltsMin}+</td>
+                  <td className="text-right py-2.5 px-2 text-brand-700">{course.duration}</td>
+                  <td className="text-right py-2.5 pl-2 text-brand-700">{course.intakeMonths[0]}</td>
+                </tr>
+                {similarPrograms.map(prog => (
+                  <tr key={prog.slug} className="border-b border-gray-100">
+                    <td className="py-2.5 pr-3">
+                      <Link
+                        href={`/universities/${prog.universitySlug}/courses/${prog.slug}`}
+                        className="text-brand-700 hover:underline font-medium"
+                      >
+                        {slugToUniName(prog.universitySlug)}
+                      </Link>
+                    </td>
+                    <td className="text-right py-2.5 px-2 text-gray-700">
+                      ₹{(prog.annualINR / 100000).toFixed(1)}L
+                    </td>
+                    <td className="text-right py-2.5 px-2 text-gray-700">{prog.ieltsMin}+</td>
+                    <td className="text-right py-2.5 px-2 text-gray-700">{prog.duration}</td>
+                    <td className="text-right py-2.5 pl-2 text-gray-700">{prog.intakeMonths[0]}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            ★ Currently viewing. Fees are indicative. <Link href="/book-counselling" className="text-brand-700 underline">Ask Jaivik Overseas</Link> for exact current fees and personalised shortlists.
+          </p>
+        </div>
+      )}
 
       {/* Application Details & Official Links */}
       {((course as any).url || (course as any).applicationFee || (course as any).englishWaiver || (course as any).applicationMode) && (
@@ -312,6 +575,28 @@ export default function CourseRichContent({ course, universityName, universitySl
           )}
         </div>
       )}
+
+      {/* Section C — For Students from Delhi NCR / Ghaziabad */}
+      <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">
+          For Students from Delhi NCR &amp; Ghaziabad — Local Visa Guidance
+        </h2>
+        <div className="space-y-3 text-sm text-gray-700 leading-relaxed">
+          {localGuidance.map((para, i) => (
+            <p key={i}>{para}</p>
+          ))}
+        </div>
+        <div className="mt-4 flex items-start gap-3 p-4 bg-brand-50 border border-brand-200 rounded-xl">
+          <span className="text-brand-700 text-2xl flex-shrink-0">📍</span>
+          <div>
+            <p className="text-sm font-semibold text-brand-800">Jaivik Overseas Consultants — Ghaziabad</p>
+            <p className="text-xs text-brand-700 mt-0.5">333 Orbit Plaza, Crossing Republik, Ghaziabad · 13 years experience · 99% visa success rate</p>
+            <Link href="/book-counselling" className="text-xs font-semibold text-brand-700 underline mt-1.5 block">
+              Book a Free Counselling Session →
+            </Link>
+          </div>
+        </div>
+      </div>
 
       {/* Related Courses from Same University */}
       {relatedCourses.length > 0 && (

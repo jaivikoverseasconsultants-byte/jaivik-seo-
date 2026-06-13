@@ -91,6 +91,7 @@ export interface RegistryCourse {
   annualUSD: number;
   annualINR: number;
   ieltsMin: number;
+  intakeMonths: string[];
 }
 
 function n(c: any): RegistryCourse {
@@ -102,6 +103,7 @@ function n(c: any): RegistryCourse {
     annualUSD: Number(c.annualUSD) || 0,
     annualINR: Number(c.annualINR) || 0,
     ieltsMin: Number(c.ieltsMin) || 6.0,
+    intakeMonths: Array.isArray(c.intakeMonths) ? c.intakeMonths : ['September'],
   };
 }
 
@@ -193,4 +195,30 @@ export function getCoursesBySlug(slug: string): RegistryCourse[] {
   const raw = REGISTRY[slug];
   if (!raw || raw.length === 0) return [];
   return (raw as any[]).map(n);
+}
+
+export function findAlternativeCourses(
+  fieldKeywords: string[],
+  currentUniSlug: string,
+  ieltsMax: number | undefined,
+  limit = 2
+): Array<RegistryCourse & { universitySlug: string }> {
+  if (fieldKeywords.length === 0) return [];
+  const results: Array<RegistryCourse & { universitySlug: string }> = [];
+  const seenUnis = new Set<string>();
+
+  for (const [slug, courses] of Object.entries(REGISTRY)) {
+    if (slug === currentUniSlug || seenUnis.has(slug)) continue;
+    for (const raw of courses as any[]) {
+      const c = n(raw);
+      if (ieltsMax !== undefined && c.ieltsMin > ieltsMax) continue;
+      const nameLower = c.name.toLowerCase();
+      if (!fieldKeywords.some(kw => nameLower.includes(kw))) continue;
+      seenUnis.add(slug);
+      results.push({ ...c, universitySlug: slug });
+      break;
+    }
+    if (results.length >= limit) break;
+  }
+  return results;
 }
