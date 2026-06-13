@@ -80,6 +80,11 @@ export default function Footer() {
               <li><Link href="/cost-of-living" className="hover:text-white">Cost of Living Abroad</Link></li>
               <li><Link href="/mock-test" className="hover:text-white">Free IELTS Mock Test</Link></li>
               <li><Link href="/book-counselling" className="hover:text-white">Book Free Counselling</Link></li>
+              <li>
+                <a href="https://jaivikoverseasconsultants.com" target="_blank" rel="noopener noreferrer" className="hover:text-white font-semibold text-gold-400">
+                  Main Website ↗
+                </a>
+              </li>
             </ul>
             <div className="mt-4 p-3 bg-gold-500 rounded-lg">
               <p className="text-white text-xs font-semibold">Book a Free Session</p>

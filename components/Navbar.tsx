@@ -311,6 +311,10 @@ export default function Navbar() {
               </svg>
               Student Login
             </Link>
+            <a href="https://jaivikoverseasconsultants.com" target="_blank" rel="noopener"
+              className="ml-2 hidden xl:flex items-center gap-1 text-blue-300/70 hover:text-blue-200 text-xs font-medium transition-colors whitespace-nowrap">
+              Main Site ↗
+            </a>
             <Link href="/book-counselling"
               className="ml-2 bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors whitespace-nowrap shadow-md shadow-gold-500/20">
               Book Free Counselling
