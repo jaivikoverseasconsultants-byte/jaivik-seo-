@@ -1,15 +1,7 @@
 {
   "slug": "monash-university",
-  "url": "https://handbook.monash.edu/current/courses?types=postgraduate",
+  "url": "https://handbook.monash.edu/current/courses?types=postgraduate&layout=list",
   "courses": [
-    {
-      "name": "open_in_newAdmissions and fees (Australia)Find-a-course",
-      "url": "https://www.monash.edu/study/courses/find-a-course"
-    },
-    {
-      "name": "Overview",
-      "url": ""
-    },
     {
       "name": "Mode and location",
       "url": ""
@@ -27,39 +19,7 @@
       "url": ""
     },
     {
-      "name": "Alternative exit(s)",
-      "url": ""
-    },
-    {
-      "name": "Progression to further studies",
-      "url": ""
-    },
-    {
-      "name": "Organisational contact information",
-      "url": ""
-    },
-    {
-      "name": "On campus",
-      "url": ""
-    },
-    {
-      "name": "Requirements48 credit points",
-      "url": ""
-    },
-    {
-      "name": "Film, television and screen studies",
-      "url": ""
-    },
-    {
-      "name": "Gender studies",
-      "url": ""
-    },
-    {
-      "name": "Psychology studies",
-      "url": ""
-    },
-    {
-      "name": "Accountancy major studies",
+      "name": "Course director(s)",
       "url": ""
     },
     {
@@ -69,6 +29,10 @@
     {
       "name": "open_in_newTechnology RequirementsBring your own device (BYOD) specifications",
       "url": "https://www.monash.edu/esolutions/students/bring-your-own-device-byod"
+    },
+    {
+      "name": "open_in_newAdmissions and fees (Australia)Find-a-course",
+      "url": "https://www.monash.edu/study/courses/find-a-course"
     },
     {
       "name": "open_in_newAdmissions, fees and timetable (Indonesia)Course and study options",
@@ -81,41 +45,15 @@
     {
       "name": "open_in_newTimetable informationUnit timetable information",
       "url": "https://www.monash.edu/timetables"
-    },
-    {
-      "name": "Managing faculty:",
-      "url": ""
-    },
-    {
-      "name": "Credit points:",
-      "url": ""
-    },
-    {
-      "name": "Full time duration:",
-      "url": ""
-    },
-    {
-      "name": "Monash course type:",
-      "url": ""
-    },
-    {
-      "name": "Award title:",
-      "url": ""
-    },
-    {
-      "name": "AQF Level:",
-      "url": ""
     }
   ],
   "headings": [
-    "H2: A0503 - Diploma of Higher Education Studies",
+    "H2: M4019 - Graduate Certificate of Magnetic Resonance Imaging",
     "H3: Overview",
     "H3: Mode and location",
     "H3: Learning outcomes",
     "H3: Structure",
-    "H3: Requirements48 credit points",
-    "H3: Alternative exit(s)",
-    "H3: Progression to further studies"
+    "H3: Requirements24 credit points"
   ],
-  "crawledAt": "2026-06-11T10:58:00.453Z"
+  "crawledAt": "2026-06-13T07:51:41.516Z"
 }

@@ -3,43 +3,23 @@
   "url": "https://www.mcgill.ca/gradapplicants/programs/az",
   "courses": [
     {
-      "name": "Graduate programs",
-      "url": "https://www.mcgill.ca/gradapplicants/programs"
-    },
-    {
-      "name": "How to apply",
-      "url": "https://www.mcgill.ca/gradapplicants/how-apply"
-    },
-    {
-      "name": "Research & supervision",
-      "url": "https://www.mcgill.ca/gradapplicants/research-supervision"
-    },
-    {
-      "name": "Funding",
-      "url": "https://www.mcgill.ca/gradapplicants/funding"
-    },
-    {
-      "name": "Student experience",
-      "url": "https://www.mcgill.ca/gradapplicants/gradlife"
-    },
-    {
-      "name": "Events",
-      "url": "https://www.mcgill.ca/gradapplicants/events"
-    },
-    {
-      "name": "Connect with us",
-      "url": "https://www.mcgill.ca/gradapplicants/connect-us"
-    },
-    {
-      "name": "Apply Now",
-      "url": "https://www.mcgill.ca/gradapplicants/apply-now"
-    },
-    {
       "name": "Agricultural and Environmental Sciences",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A14"
     },
     {
+      "name": "Agricultural and Environmental Sciences programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A14"
+    },
+    {
+      "name": "Arts programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A15"
+    },
+    {
       "name": "Dental Medicine and Oral Health Sciences",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A16"
+    },
+    {
+      "name": "Dental Medicine and Oral Health Sciences programs",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A16"
     },
     {
@@ -47,7 +27,15 @@
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A25"
     },
     {
+      "name": "Desautels Faculty of Management programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A25"
+    },
+    {
       "name": "Education",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A22"
+    },
+    {
+      "name": "Education programs",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A22"
     },
     {
@@ -55,11 +43,27 @@
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A23"
     },
     {
+      "name": "Engineering programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A23"
+    },
+    {
       "name": "Interfaculty Studies",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A30"
     },
     {
+      "name": "Interfaculty Studies programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A30"
+    },
+    {
+      "name": "Law programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A24"
+    },
+    {
       "name": "Medicine and Health Sciences",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A26"
+    },
+    {
+      "name": "Medicine and Health Sciences programs",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A26"
     },
     {
@@ -67,23 +71,31 @@
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A31"
     },
     {
+      "name": "School of Continuing Studies programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A31"
+    },
+    {
       "name": "Schulich School of Music",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A27"
     },
     {
-      "name": "Science",
+      "name": "Schulich School of Music programs",
+      "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A27"
+    },
+    {
+      "name": "Science programs",
       "url": "https://www.mcgill.ca/gradapplicants/programs?f%5B0%5D=field_faculty_interest%3A28"
     }
   ],
   "headings": [
-    "H2: Main navigation",
     "H2: Browse programs by faculty:",
     "H3: Agricultural and Environmental Sciences",
     "H3: Arts",
     "H3: Dental Medicine and Oral Health Sciences",
     "H3: Desautels Faculty of Management",
     "H3: Education",
-    "H3: Engineering"
+    "H3: Engineering",
+    "H3: Interfaculty Studies"
   ],
-  "crawledAt": "2026-06-11T10:57:47.998Z"
+  "crawledAt": "2026-06-13T07:40:41.164Z"
 }

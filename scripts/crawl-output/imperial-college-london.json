@@ -1,0 +1,91 @@
+{
+  "slug": "imperial-college-london",
+  "url": "https://www.imperial.ac.uk/study/courses/",
+  "courses": [
+    {
+      "name": "Advanced Aeronautical Engineering",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/advanced-aeronautical-engineering/"
+    },
+    {
+      "name": "Advanced Chemical Engineering",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/advanced-chemical-engineering/"
+    },
+    {
+      "name": "Advanced Chemical Engineering with Biotechnology",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/chemical-engineering-biotechnology/"
+    },
+    {
+      "name": "Advanced Computational Methods for Aeronautics, Flow Management and Fluid-Structure Interaction",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/computational-methods/"
+    },
+    {
+      "name": "Advanced Computing",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/advanced-computing/"
+    },
+    {
+      "name": "Advanced Materials for Sustainable Infrastructure",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/advanced-materials-sustainable-infrastructure/"
+    },
+    {
+      "name": "Advanced Materials Science and Engineering",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/advanced-materials/"
+    },
+    {
+      "name": "Advanced Mechanical Engineering",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/advanced-mechanical-engineering/"
+    },
+    {
+      "name": "Advanced Molecular Synthesis",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/molecular-synthesis/"
+    },
+    {
+      "name": "Aeronautical Engineering",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/aeronautical-engineering/"
+    },
+    {
+      "name": "Aeronautics with Spacecraft Engineering",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/aeronautics-spacecraft-engineering/"
+    },
+    {
+      "name": "Aerospace Sciences",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/2026/aerospace-sciences/"
+    },
+    {
+      "name": "Aeronautical Engineering with an Integrated Year Abroad",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/aeronautical-engineering/#OptionA"
+    },
+    {
+      "name": "Aeronautical Engineering with a Year Abroad",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/aeronautical-engineering/#OptionB"
+    },
+    {
+      "name": "Aeronautical Engineering with a Year in Industry",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/2027/aeronautical-engineering/#OptionC"
+    },
+    {
+      "name": "Aeronautical EngineeringAdd to Course Compare",
+      "url": "https://www.imperial.ac.uk/study/courses/?addCourse=1699807"
+    },
+    {
+      "name": "Aeronautical Engineering with an Integrated Year AbroadAdd to Course Compare",
+      "url": "https://www.imperial.ac.uk/study/courses/?addCourse=1215803"
+    },
+    {
+      "name": "Aeronautical Engineering with a Year AbroadAdd to Course Compare",
+      "url": "https://www.imperial.ac.uk/study/courses/?addCourse=1215804"
+    },
+    {
+      "name": "Aeronautical Engineering with a Year in IndustryAdd to Course Compare",
+      "url": "https://www.imperial.ac.uk/study/courses/?addCourse=1215805"
+    }
+  ],
+  "headings": [
+    "H1: Find a course",
+    "H2: Filter Courses",
+    "H3: Study level",
+    "H3: Subject area",
+    "H3: Study options",
+    "H3: Study mode"
+  ],
+  "crawledAt": "2026-06-13T07:47:54.117Z"
+}

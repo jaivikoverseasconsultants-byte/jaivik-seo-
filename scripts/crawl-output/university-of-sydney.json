@@ -1,18 +1,102 @@
 {
   "slug": "university-of-sydney",
-  "url": "https://www.sydney.edu.au/courses/search.html?search_type=course&level=postgraduate",
+  "url": "https://www.sydney.edu.au/courses/search.html?search_type=course&level=postgraduate-coursework&faculty=all",
   "courses": [
     {
-      "name": "Your privacy choices",
-      "url": ""
+      "name": "Compare courses (0)",
+      "url": "https://www.sydney.edu.au/courses/search.html?search_type=course&level=postgraduate-coursework&faculty=all#compare-courses"
     },
     {
-      "name": "Search tips",
+      "name": "Contact us",
       "url": "mailto:student.info@sydney.edu.au"
     },
     {
-      "name": "Qualification",
-      "url": "https://www.sydney.edu.au/courses/search.html?search_type=course&level=postgraduate#compare-courses"
+      "name": "Current students",
+      "url": "https://www.sydney.edu.au/students/home.html"
+    },
+    {
+      "name": "Staff intranet",
+      "url": "https://intranet.sydney.edu.au/"
+    },
+    {
+      "name": "Find an event",
+      "url": "https://whatson.sydney.edu.au/"
+    },
+    {
+      "name": "Architecture, Design and Planning",
+      "url": "https://www.sydney.edu.au/courses/field-of-study/architecture.html"
+    },
+    {
+      "name": "Arts and Social Sciences",
+      "url": "https://www.sydney.edu.au/courses/field-of-study/arts.html"
+    },
+    {
+      "name": "Economics",
+      "url": "https://www.sydney.edu.au/courses/field-of-study/economics.html"
+    },
+    {
+      "name": "Education and Social Work",
+      "url": "https://www.sydney.edu.au/courses/field-of-study/education-and-social-work.html"
+    },
+    {
+      "name": "Engineering and Computer Science",
+      "url": "https://www.sydney.edu.au/courses/field-of-study/engineering-and-computer-science.html"
+    },
+    {
+      "name": "Medicine and Health",
+      "url": "https://www.sydney.edu.au/courses/field-of-study/medicine-and-health.html"
+    },
+    {
+      "name": "Find an expert",
+      "url": "https://www.sydney.edu.au/news-opinion/find-an-expert.html"
+    },
+    {
+      "name": "Media contacts",
+      "url": "https://www.sydney.edu.au/news-opinion/media-contacts.html"
+    },
+    {
+      "name": "How to log in to University systems",
+      "url": "https://www.sydney.edu.au/students/log-in-to-university-systems.html"
+    },
+    {
+      "name": "Key dates",
+      "url": "https://www.sydney.edu.au/students/key-dates.html"
+    },
+    {
+      "name": "Class timetables",
+      "url": "https://www.sydney.edu.au/students/timetables.html"
+    },
+    {
+      "name": "Our world university rankings",
+      "url": "https://www.sydney.edu.au/about-us/our-world-rankings.html"
+    },
+    {
+      "name": "Faculties and schools",
+      "url": "https://www.sydney.edu.au/about-us/faculties-and-schools.html"
+    },
+    {
+      "name": "Research centres",
+      "url": "https://www.sydney.edu.au/research/our-research/centres.html"
+    },
+    {
+      "name": "Campus locations",
+      "url": "https://www.sydney.edu.au/about-us/campuses/campus-locations.html"
+    },
+    {
+      "name": "Find a staff member",
+      "url": "https://www.sydney.edu.au/about-us/governance-and-structure/staff-directory.html"
+    },
+    {
+      "name": "Careers at Sydney",
+      "url": "https://www.sydney.edu.au/about-us/careers-at-sydney.html"
+    },
+    {
+      "name": "Emergencies and personal safety",
+      "url": "https://www.sydney.edu.au/about-us/campuses/emergencies-and-personal-safety.html"
+    },
+    {
+      "name": "Feedback, concerns and complaints",
+      "url": "https://www.sydney.edu.au/about-us/governance-and-structure/feedback-concerns-and-complaints.html"
     }
   ],
   "headings": [
@@ -21,9 +105,7 @@
     "H3: Search tips",
     "H2: Explore by field of study",
     "H2: Stay informed",
-    "H2: Media",
-    "H2: Student links",
-    "H2: About us"
+    "H2: Media"
   ],
-  "crawledAt": "2026-06-11T10:54:23.695Z"
+  "crawledAt": "2026-06-13T07:52:14.157Z"
 }

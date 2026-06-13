@@ -1,32 +1,385 @@
 {
   "slug": "university-of-waterloo",
-  "url": "https://uwaterloo.ca/future-students/programs",
+  "url": "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/future-students/programs",
   "courses": [
     {
-      "name": "How to choose a program",
-      "url": "https://uwaterloo.ca/future-students/programs#all"
+      "name": "Actuarial Science - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/actuarial-science-master-math-mmath"
     },
     {
-      "name": "Study multiple interests",
-      "url": "https://uwaterloo.ca/future-students/programs#all"
+      "name": "Anthropology (Public Issues) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/anthropology-public-issues-master-arts-ma"
     },
     {
-      "name": "Business programs",
-      "url": "https://uwaterloo.ca/future-students/programs#all"
+      "name": "Applied Mathematics - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-master-math-mmath"
     },
     {
-      "name": "Subscribe to our monthly newsletter",
-      "url": "https://uwaterloo.ca/future-students/programs#all"
+      "name": "Applied Mathematics (Aeronautics) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-aeronautics-master-math-mmath"
+    },
+    {
+      "name": "Applied Mathematics (Quantum Information) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-quantum-information-master-math-mmath"
+    },
+    {
+      "name": "Applied Mathematics (Water) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/applied-mathematics-water-master-math-mmath"
+    },
+    {
+      "name": "Architecture - Master of Architecture (MArch)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/architecture-master-architecture-march"
+    },
+    {
+      "name": "Architecture (Water) - Master of Architecture (MArch)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/architecture-water-master-architecture-march"
+    },
+    {
+      "name": "Biology - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/biology-master-science-msc"
+    },
+    {
+      "name": "Biology (Water) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/biology-water-master-science-msc"
+    },
+    {
+      "name": "Biostatistics - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/biostatistics-master-math-mmath"
+    },
+    {
+      "name": "Chemical Engineering - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-master-engineering-meng"
+    },
+    {
+      "name": "Chemical Engineering (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-co-op-master-engineering-meng"
+    },
+    {
+      "name": "Chemical Engineering (Health Technologies) (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/chemical-engineering-health-technologies-co-op-master"
+    },
+    {
+      "name": "Chemistry - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-master-science-msc"
+    },
+    {
+      "name": "Chemistry (Co-op) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-co-op-master-science-msc"
+    },
+    {
+      "name": "Chemistry (Nanotechnology) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-nanotechnology-master-science-msc"
+    },
+    {
+      "name": "Chemistry (Quantum Information) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/chemistry-quantum-information-master-science-msc"
+    },
+    {
+      "name": "Civil Engineering - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-master-engineering-meng"
+    },
+    {
+      "name": "Civil Engineering (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-co-op-master-engineering-meng"
+    },
+    {
+      "name": "Civil Engineering (Health Technologies) (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-health-technologies-co-op-master"
+    },
+    {
+      "name": "Civil Engineering (Nuclear Engineering) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/civil-engineering-nuclear-engineering-master-engineering"
+    },
+    {
+      "name": "Classical Studies - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/classical-studies-master-arts-ma"
+    },
+    {
+      "name": "Combinatorics and Optimization - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-master-math-mmath"
+    },
+    {
+      "name": "Combinatorics and Optimization (Co-op) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-co-op-master-mathematics"
+    },
+    {
+      "name": "Combinatorics and Optimization (Quantum Information) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/combinatorics-and-optimization-quantum-information-master"
+    },
+    {
+      "name": "Computational Mathematics - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computational-mathematics-master-mathematics-mmath"
+    },
+    {
+      "name": "Computational Mathematics (Co-op) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computational-mathematics-co-op-master-mathematics-mmath"
+    },
+    {
+      "name": "Computer Science - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-master-math-mmath"
+    },
+    {
+      "name": "Computer Science (Quantum Information) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/computer-science-quantum-information-master-math-mmath"
+    },
+    {
+      "name": "Data Science - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/data-science-master-math-mmath"
+    },
+    {
+      "name": "Earth Sciences - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/earth-sciences-master-science-msc"
+    },
+    {
+      "name": "Earth Sciences (Water) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/earth-sciences-water-master-science-msc"
+    },
+    {
+      "name": "Economics - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-master-arts-ma"
+    },
+    {
+      "name": "Economics (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-co-op-master-arts-ma"
+    },
+    {
+      "name": "Economics (Water) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-water-master-arts-ma"
+    },
+    {
+      "name": "Economics (Water) (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/economics-water-co-op-master-arts-ma"
+    },
+    {
+      "name": "Electrical and Computer Engineering - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-master-engineering-meng"
+    },
+    {
+      "name": "Electrical and Computer Engineering (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-co-op-master-engineering"
+    },
+    {
+      "name": "Electrical and Computer Engineering (Health Technologies) (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-health-technologies-co"
+    },
+    {
+      "name": "Electrical and Computer Engineering (Electric Power Engineering) - Master of Engineering (MEng) (Online)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/electrical-and-computer-engineering-electric-power"
+    },
+    {
+      "name": "English (Critical Media Studies)- Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-critical-media-studies-master-arts-ma"
+    },
+    {
+      "name": "English (Critical Media Studies) (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-critical-media-studies-co-op-master-arts-ma"
+    },
+    {
+      "name": "English (Literary Studies) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-literary-studies-master-arts-ma"
+    },
+    {
+      "name": "English (Literary Studies) (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-literary-studies-co-op-master-arts-ma"
+    },
+    {
+      "name": "English (Rhetoric and Communication Design) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-rhetoric-and-communication-design-master-arts-ma"
+    },
+    {
+      "name": "English (Rhetoric and Communication Design) (Co-op)- Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/english-rhetoric-and-communication-design-co-op-master-arts"
+    },
+    {
+      "name": "Fine Arts (Studio Art) - Master of Fine Arts (MFA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/fine-arts-studio-art-master-fine-arts-mfa"
+    },
+    {
+      "name": "French Studies - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/french-studies-master-arts-ma"
+    },
+    {
+      "name": "Geography - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-master-arts-ma"
+    },
+    {
+      "name": "Geography (Aeronautics) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-aeronautics-master-arts-ma"
+    },
+    {
+      "name": "Geography (Water) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-water-master-arts-ma"
+    },
+    {
+      "name": "Geography - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-master-science-msc"
+    },
+    {
+      "name": "Geography (Aeronautics) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-aeronautics-master-science-msc"
+    },
+    {
+      "name": "Geography (Water) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/geography-water-master-science-msc"
+    },
+    {
+      "name": "German - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/german-master-arts-ma"
+    },
+    {
+      "name": "German (Intercultural German Studies) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/german-intercultural-german-studies-master-arts-ma"
+    },
+    {
+      "name": "Global Governance - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/global-governance-master-arts-ma"
+    },
+    {
+      "name": "Global Governance (Aeronautics) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/global-governance-aeronautics-master-arts-ma"
+    },
+    {
+      "name": "History - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/history-master-arts-ma"
+    },
+    {
+      "name": "Kinesiology and Health Sciences - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-master-science-msc"
+    },
+    {
+      "name": "Kinesiology and Health Sciences (Aeronautics) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/kinesiology-and-health-sciences-aeronautics-master-science"
+    },
+    {
+      "name": "Mechanical and Mechatronics Engineering - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-master-engineering"
+    },
+    {
+      "name": "Mechanical and Mechatronics Engineering (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-co-op-master"
+    },
+    {
+      "name": "Mechanical and Mechatronics Engineering (Health Technologies) (Co-op) – Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/mechanical-and-mechatronics-engineering-health-technologies"
+    },
+    {
+      "name": "Pharmacy - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/pharmacy-master-science-msc"
+    },
+    {
+      "name": "Philosophy - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/philosophy-master-arts-ma"
+    },
+    {
+      "name": "Physics - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-master-science-msc"
+    },
+    {
+      "name": "Physics (Nanotechnology) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-nanotechnology-master-science-msc"
+    },
+    {
+      "name": "Physics (Quantum Information) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/physics-quantum-information-master-science-msc"
+    },
+    {
+      "name": "Planning - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-master-arts-ma"
+    },
+    {
+      "name": "Planning (Aeronautics) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/environment/planning-aeronautics-master-arts-ma"
+    },
+    {
+      "name": "Political Science - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/political-science-master-arts-ma"
+    },
+    {
+      "name": "Political Science (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/political-science-co-op-master-arts-ma"
+    },
+    {
+      "name": "Psychology - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-master-arts-ma"
+    },
+    {
+      "name": "Psychology (Aeronautics) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/psychology-aeronautics-master-arts-ma"
+    },
+    {
+      "name": "Public Health - Master of Public Health (MPH) (Online)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-master-public-health-mph-online"
+    },
+    {
+      "name": "Public Health Sciences - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-master-science-msc"
+    },
+    {
+      "name": "Public Health Sciences (Water) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/public-health-sciences-water-master-science-msc"
+    },
+    {
+      "name": "Pure Mathematics - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-master-mathematics-mmath"
+    },
+    {
+      "name": "Pure Mathematics (Quantum Information) - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-quantum-information-master-mathematics"
+    },
+    {
+      "name": "Recreation and Leisure Studies - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/recreation-and-leisure-studies-master-arts-ma"
+    },
+    {
+      "name": "Social and Legal Studies - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/social-and-legal-studies-master-arts-ma"
+    },
+    {
+      "name": "Social and Legal Studies (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/social-and-legal-studies-co-op-master-arts-ma"
+    },
+    {
+      "name": "Sociology - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/sociology-master-arts-ma"
+    },
+    {
+      "name": "Sociology (Co-op) - Master of Arts (MA)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/arts/sociology-co-op-master-arts-ma"
+    },
+    {
+      "name": "Sport and Recreation Leadership - Master of Arts (MA) (Online)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/health/sport-and-recreation-leadership-master-arts-ma-online"
+    },
+    {
+      "name": "Statistics - Master of Math (MMath)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/statistics-master-math-mmath"
+    },
+    {
+      "name": "Systems Design Engineering - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-master-engineering-meng"
+    },
+    {
+      "name": "Systems Design Engineering (Health Technologies) (Co-op) - Master of Engineering (MEng)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/engineering/systems-design-engineering-health-technologies-co-op-master"
+    },
+    {
+      "name": "Vision Science - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/vision-science-master-science-msc"
+    },
+    {
+      "name": "Vision Science (Aeronautics) - Master of Science (MSc)",
+      "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/science/vision-science-aeronautics-master-science-msc"
     }
   ],
   "headings": [
     "H1: Programs",
-    "H2: Not sure what to study?",
-    "H3: How to choose a program",
-    "H3: Study multiple interests",
-    "H3: Business programs",
-    "H2: All programs",
-    "H3: Subscribe to our monthly newsletter"
+    "H2: Discover Waterloo graduate studies programs",
+    "H2: Masters degrees, doctoral and graduate diploma programs",
+    "H2: Arts, engineering, environment, health, math and science",
+    "H2: Online degree and diploma programs",
+    "H2: All graduate programs listing",
+    "H2: Explore research opportunities for prospective graduate students",
+    "H3: Finding the right fit: a guide for prospective graduate students"
   ],
-  "crawledAt": "2026-06-11T10:53:39.781Z"
+  "crawledAt": "2026-06-13T07:41:35.098Z"
 }
