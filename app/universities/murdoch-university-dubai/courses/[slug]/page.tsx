@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at Murdoch University Dubai, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/murdoch-university-dubai/courses/${slug}`,
     keywords: [course.name, 'Murdoch University Dubai', 'study in UAE', course.level],
+    noIndex: true
   });
 }
 

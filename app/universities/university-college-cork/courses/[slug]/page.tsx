@@ -21,6 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: `${course.name} at University College Cork, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-college-cork/courses/${slug}`,
     keywords: [course.name, 'UCC', 'University College Cork', 'study in Ireland', course.level],
+    noIndex: true
   });
 }
 

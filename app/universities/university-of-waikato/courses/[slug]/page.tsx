@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at University of Waikato, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-waikato/courses/${slug}`,
     keywords: [course.name, 'Waikato', 'University of Waikato', 'study in New Zealand', course.level],
+    noIndex: true
   });
 }
 

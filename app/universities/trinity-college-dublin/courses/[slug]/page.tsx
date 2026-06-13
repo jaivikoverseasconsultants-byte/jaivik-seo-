@@ -23,6 +23,7 @@ export async function generateMetadata(
     description: `${course.name} at Trinity College Dublin, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/trinity-college-dublin/courses/${slug}`,
     keywords: [course.name, 'Trinity Dublin', 'Trinity College Dublin', 'study in Ireland', course.level],
+    noIndex: true
   });
 }
 

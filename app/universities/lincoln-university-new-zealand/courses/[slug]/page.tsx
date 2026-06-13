@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at Lincoln University New Zealand, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/lincoln-university-new-zealand/courses/${slug}`,
     keywords: [course.name, 'Lincoln NZ', 'Lincoln University New Zealand', 'study in New Zealand', course.level],
+    noIndex: true
   });
 }
 

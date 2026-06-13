@@ -20,6 +20,7 @@ export async function generateMetadata(
     title: `${c.name} at Stony Brook University — Fees, IELTS & Intake for Indian Students 2026`,
     description: `${c.name} at Stony Brook University, ${(c as any).city || c.country} costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/stony-brook-university/courses/${slug}`,
+    noIndex: true
   });
 }
 

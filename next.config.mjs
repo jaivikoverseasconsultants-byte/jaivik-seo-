@@ -9,7 +9,7 @@ const nextConfig = {
       { source: '/universities/tu-munich/courses', destination: '/universities/technical-university-of-munich/courses', permanent: true },
       { source: '/universities/nus', destination: '/universities/national-university-of-singapore', permanent: true },
       { source: '/universities/nus/courses', destination: '/universities/national-university-of-singapore/courses', permanent: true },
-      { source: '/universities/ucl', destination: '/universities/university-of-london', permanent: true },
+      { source: '/universities/ucl', destination: '/universities/university-college-london', permanent: true },
       { source: '/universities/ucl/courses', destination: '/universities/university-college-london/courses', permanent: true },
       { source: '/universities/lse', destination: '/universities/london-school-of-economics', permanent: true },
       { source: '/universities/lse/courses', destination: '/universities/london-school-of-economics/courses', permanent: true },

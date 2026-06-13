@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at Rochester Institute of Technology Dubai, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/rit-dubai/courses/${slug}`,
     keywords: [course.name, 'Rochester Institute of Technology Dubai', 'study in UAE', course.level],
+    noIndex: true
   });
 }
 

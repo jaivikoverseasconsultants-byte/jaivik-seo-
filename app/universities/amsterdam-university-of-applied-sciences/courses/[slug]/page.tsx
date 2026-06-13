@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at Amsterdam University of Applied Sciences, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/amsterdam-university-of-applied-sciences/courses/${slug}`,
     keywords: [course.name, 'Amsterdam University of Applied Sciences', 'study in Netherlands', course.level],
+    noIndex: true
   });
 }
 

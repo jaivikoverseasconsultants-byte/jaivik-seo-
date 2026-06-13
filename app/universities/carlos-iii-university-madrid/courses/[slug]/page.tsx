@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at Carlos III University of Madrid, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/carlos-iii-university-madrid/courses/${slug}`,
     keywords: [course.name, 'Carlos III University of Madrid', 'study in Spain', course.level],
+    noIndex: true
   });
 }
 

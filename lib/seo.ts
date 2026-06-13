@@ -32,7 +32,7 @@ export function buildMetadata({
       ...keywords,
     ],
     authors: [{ name: SITE_NAME }],
-    robots: noIndex ? { index: false, follow: false } : { index: true, follow: true },
+    robots: noIndex ? { index: false, follow: true } : { index: true, follow: true },
     alternates: { canonical: url },
     openGraph: {
       title: fullTitle,

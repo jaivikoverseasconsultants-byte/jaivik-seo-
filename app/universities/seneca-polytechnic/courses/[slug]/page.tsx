@@ -22,6 +22,7 @@ export async function generateMetadata(
     description: `${course.name} at Seneca Polytechnic, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/seneca-polytechnic/courses/${slug}`,
     keywords: [course.name, 'Seneca', 'Seneca Polytechnic', 'study in Canada', course.level, 'PGWP'],
+    noIndex: true
   });
 }
 
