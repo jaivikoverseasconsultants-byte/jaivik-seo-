@@ -7,8 +7,11 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export async function generateStaticParams() {
-  return (durhamCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
+export const dynamicParams = true;
+export const revalidate = 86400;
+
+export function generateStaticParams() {
+  return [];
 }
 
 export async function generateMetadata(

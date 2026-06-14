@@ -9,8 +9,11 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 const UNI_NAME = "Ca' Foscari University of Venice";
 
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 export function generateStaticParams() {
-  return caFoscariUniversityVeniceCourses.map(c => ({ slug: c.slug }));
+  return [];
 }
 
 export async function generateMetadata(

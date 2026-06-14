@@ -7,8 +7,11 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 export function generateStaticParams() {
-  return americanUniversityDubaiCourses.map(c => ({ slug: c.slug }));
+  return [];
 }
 
 export async function generateMetadata(
