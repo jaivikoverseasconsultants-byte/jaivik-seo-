@@ -56,11 +56,14 @@ const IELTS_SECTIONS = [
   { key: 'speaking', label: 'Speaking',   icon: '🎤', time: '14 min'   },
 ];
 
+const TOOLS_GUIDES = [
+  { label: 'Find My Course',    icon: '🎯', href: '/find-my-course',                    gold: true  },
+  { label: 'Low Budget Guide',  icon: '💰', href: '/scholarships-and-low-budget-guide', gold: false },
+  { label: 'Scholarships',      icon: '🎓', href: '/scholarships',                      gold: false },
+];
+
 const SIMPLE_LINKS = [
-  { href: '/find-my-course',                  label: 'Find My Course'   },
-  { href: '/scholarships-and-low-budget-guide', label: 'Low Budget Guide' },
-  { href: '/scholarships',                    label: 'Scholarships'     },
-  { href: '/blog',                            label: 'Blog'             },
+  { href: '/blog', label: 'Blog' },
 ];
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -217,7 +220,28 @@ export default function Navbar() {
                     </div>
                   </div>
 
-                  <div className="border-t border-white/8 pt-3 mt-4 flex items-center gap-2">
+                  {/* Tools & Guides */}
+                  <div className="border-t border-white/8 pt-3 mt-4">
+                    <p className="text-[10px] font-bold text-blue-400/70 uppercase tracking-widest mb-2">Tools &amp; Guides</p>
+                    <div className="grid grid-cols-3 gap-1.5">
+                      {TOOLS_GUIDES.map(t => (
+                        <Link key={t.href} href={t.href} onClick={closeAll}
+                          className={[
+                            'flex items-center gap-2 px-3 py-2 rounded-xl transition-all group',
+                            t.gold
+                              ? 'border border-gold-500/30 hover:border-gold-500/60 hover:bg-gold-500/10'
+                              : 'hover:bg-white/8',
+                          ].join(' ')}>
+                          <span className="text-sm">{t.icon}</span>
+                          <span className={`text-xs font-semibold leading-tight ${t.gold ? 'text-gold-400 group-hover:text-gold-300' : 'text-white/80 group-hover:text-white'}`}>
+                            {t.label}
+                          </span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="border-t border-white/8 pt-3 mt-3 flex items-center gap-2">
                     <Link href="/courses" onClick={closeAll}
                       className="flex-1 text-center px-3 py-2 rounded-lg hover:bg-white/8 text-xs text-white/70 hover:text-white font-medium transition-all">
                       📚 Browse All Courses
@@ -300,11 +324,6 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <a href="tel:+919971226347"
-              className="ml-3 hidden xl:flex items-center gap-1.5 text-blue-100/80 hover:text-white text-sm font-medium transition-colors">
-              <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/></svg>
-              +91 99712 26347
-            </a>
             <Link href="/student-login"
               className="ml-3 flex items-center gap-1.5 text-blue-100/80 hover:text-white text-sm font-medium px-3 py-2 rounded-xl hover:bg-white/8 transition-all border border-white/10 hover:border-white/20 whitespace-nowrap">
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -312,10 +331,6 @@ export default function Navbar() {
               </svg>
               Student Login
             </Link>
-            <a href="https://jaivikoverseasconsultants.com" target="_blank" rel="noopener"
-              className="ml-2 hidden xl:flex items-center gap-1 text-blue-300/70 hover:text-blue-200 text-xs font-medium transition-colors whitespace-nowrap">
-              Main Site ↗
-            </a>
             <Link href="/book-counselling"
               className="ml-2 bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors whitespace-nowrap shadow-md shadow-gold-500/20">
               Book Free Counselling
@@ -384,6 +399,17 @@ export default function Navbar() {
                     <Link key={s.href} href={s.href} onClick={closeAll}
                       className="text-xs text-blue-200/80 hover:text-white flex items-center gap-1.5 py-1">
                       <span>{s.icon}</span><span>{s.label}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div className="mt-2 pt-2 border-t border-white/10">
+                <p className="text-[10px] text-blue-400/60 uppercase font-bold tracking-wider mb-1.5">Tools &amp; Guides</p>
+                <div className="grid grid-cols-3 gap-x-2 gap-y-1 mb-2">
+                  {TOOLS_GUIDES.map(t => (
+                    <Link key={t.href} href={t.href} onClick={closeAll}
+                      className={`text-xs flex items-center gap-1 py-1 ${t.gold ? 'text-gold-400 font-semibold' : 'text-blue-200/80 hover:text-white'}`}>
+                      <span>{t.icon}</span><span>{t.label}</span>
                     </Link>
                   ))}
                 </div>
