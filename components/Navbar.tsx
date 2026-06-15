@@ -57,9 +57,11 @@ const IELTS_SECTIONS = [
 ];
 
 const TOOLS_GUIDES = [
-  { label: 'Find My Course',    icon: '🎯', href: '/find-my-course',                    gold: true  },
-  { label: 'Low Budget Guide',  icon: '💰', href: '/scholarships-and-low-budget-guide', gold: false },
-  { label: 'Scholarships',      icon: '🎓', href: '/scholarships',                      gold: false },
+  { label: 'Find My Course',      icon: '🎯', href: '/find-my-course',                    gold: true  },
+  { label: 'Cost Calculator',     icon: '🧮', href: '/cost-calculator',                   gold: false },
+  { label: 'Eligibility Checker', icon: '✅', href: '/eligibility-checker',               gold: false },
+  { label: 'Low Budget Guide',    icon: '💰', href: '/scholarships-and-low-budget-guide', gold: false },
+  { label: 'Scholarships',        icon: '🎓', href: '/scholarships',                      gold: false },
 ];
 
 const SIMPLE_LINKS = [

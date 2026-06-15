@@ -82,6 +82,43 @@ export default function TermsPage() {
         </section>
 
         <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-3">6A. Visa Outcome Disclaimer</h2>
+          <p>
+            Jaivik Overseas Consultants assists students in preparing student visa applications
+            but does <strong>not guarantee visa approval</strong>. Visa decisions are made exclusively
+            by the immigration authorities of the destination country. Our stated visa success rate
+            reflects historical outcomes for students we have assisted and is not a guarantee of
+            future results. Students with prior visa refusals, complex immigration histories, or
+            incomplete documentation may have different outcomes. We are not liable for visa
+            refusals, delays, or additional requirements imposed by immigration authorities.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-3">6B. Service Fees — Non-Refundable Policy</h2>
+          <p>
+            Service fees charged by Jaivik Overseas Consultants for counselling, application
+            assistance, SOP writing, visa documentation support, and pre-departure orientation
+            are <strong>non-refundable</strong> once the respective service has been delivered. Specific
+            fee structures are communicated in writing and must be agreed upon before commencement
+            of services. University application fees, visa application fees, exam fees, and other
+            third-party charges are separate and borne directly by the student.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-3">6C. Third-Party University Policies</h2>
+          <p>
+            Universities listed on this Portal are independent institutions with their own
+            admission policies, fee structures, scholarship criteria, and intake schedules. These
+            may change without notice. Jaivik Overseas Consultants is not affiliated with, endorsed
+            by, or acting as an official agent of any university unless expressly stated in writing.
+            Students must verify all admission and fee details directly with the institution before
+            making any financial commitment.
+          </p>
+        </section>
+
+        <section>
           <h2 className="text-xl font-semibold text-gray-900 mb-3">7. Privacy</h2>
           <p>
             Personal data collected through forms is used solely to provide counselling services

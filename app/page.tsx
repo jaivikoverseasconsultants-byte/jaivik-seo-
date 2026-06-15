@@ -5,6 +5,7 @@ import { courses } from '@/data/courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import HeroSearch from '@/components/HeroSearch';
+import SuccessStories from '@/components/SuccessStories';
 import { fetchUnsplashImage, COUNTRY_QUERIES, type UnsplashImage } from '@/lib/unsplash';
 
 const countryFlags: Record<string, string> = {
@@ -85,7 +86,7 @@ export default async function HomePage() {
                 is One Step Away
               </h1>
               <p className="text-blue-200 text-lg mb-7 leading-relaxed">
-                Jaivik Overseas Consultants has helped <span className="text-white font-semibold">5,000+ students</span> from across India get admissions in top universities in USA, UK, Canada, Australia, Germany &amp; Singapore.
+                Jaivik Overseas Consultants has helped <span className="text-white font-semibold">500+ students</span> from across India get admissions in top universities in USA, UK, Canada, Australia, Germany &amp; Singapore.
               </p>
 
               {/* Search bar */}
@@ -107,10 +108,10 @@ export default async function HomePage() {
             {/* Right: 5 feature cards */}
             <div className="grid grid-cols-2 gap-3">
               {[
-                { icon: '🎓', stat: '5,000+', label: 'Students Placed', color: 'from-blue-600/30 to-blue-700/20' },
-                { icon: '🏛️', stat: '300+', label: 'Partner Universities', color: 'from-purple-600/30 to-purple-700/20' },
-                { icon: '✅', stat: '95%', label: 'Visa Success Rate', color: 'from-green-600/30 to-green-700/20' },
-                { icon: '🌍', stat: '15+', label: 'Countries Covered', color: 'from-orange-500/30 to-orange-600/20' },
+                { icon: '📅', stat: '13+', label: 'Years Experience', color: 'from-blue-600/30 to-blue-700/20' },
+                { icon: '🎓', stat: '500+', label: 'Students Placed', color: 'from-purple-600/30 to-purple-700/20' },
+                { icon: '✅', stat: '99%', label: 'Visa Success Rate', color: 'from-green-600/30 to-green-700/20' },
+                { icon: '📚', stat: '5,400+', label: 'Courses Listed', color: 'from-orange-500/30 to-orange-600/20' },
               ].map(card => (
                 <div key={card.label} className={`bg-gradient-to-br ${card.color} border border-white/10 rounded-2xl p-5 backdrop-blur-sm`}>
                   <div className="text-3xl mb-2">{card.icon}</div>
@@ -138,10 +139,10 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { stat: '5,000+', label: 'Students Placed' },
-              { stat: '300+', label: 'Partner Universities' },
-              { stat: '95%', label: 'Visa Success Rate' },
               { stat: '13+', label: 'Years Experience' },
+              { stat: '500+', label: 'Students Placed' },
+              { stat: '99%', label: 'Visa Success Rate' },
+              { stat: '5,400+', label: 'Courses Listed' },
             ].map(s => (
               <div key={s.label}>
                 <p className="text-3xl font-bold text-brand-700">{s.stat}</p>
@@ -151,6 +152,9 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Success Stories */}
+      <SuccessStories />
 
       {/* Destinations */}
       <section className="py-14 px-4">
