@@ -1,13 +1,13 @@
 ﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
-import { uoaCourses } from '@/data/uoa-courses';
+import { adelaideCourses } from '@/data/adelaide-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Adelaide International Courses – All Programs, Fees & IELTS 2026',
-  description: `University of Adelaide — ${(uoaCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  description: `University of Adelaide — ${(adelaideCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-adelaide/courses',
   keywords: ['Adelaide courses', 'University of Adelaide international', 'Adelaide fees', 'study in Australia', 'Australia university'],
 });
@@ -21,7 +21,7 @@ function groupByLevel(courses: any[]) {
 }
 
 export default function CoursesPage() {
-  const courses = uoaCourses as unknown as any[];
+  const courses = adelaideCourses as unknown as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
   const pgCourses = courses.filter((c: any) => c.studyLevel === 'Masters' || c.studyLevel === 'Postgraduate');
@@ -149,7 +149,7 @@ export default function CoursesPage() {
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source="uoa-courses-index" defaultCountry="Australia" compact />
+              <LeadForm source="adelaide-courses-index" defaultCountry="Australia" compact />
             </div>
           </div>
         </div>
@@ -185,7 +185,7 @@ export default function CoursesPage() {
         </div>
         <div>
           <div className="sticky top-20 space-y-5">
-            <LeadForm source="uoa-courses-sidebar" defaultCountry="Australia" />
+            <LeadForm source="adelaide-courses-sidebar" defaultCountry="Australia" />
             <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Quick Facts — Adelaide</h3>
               {[

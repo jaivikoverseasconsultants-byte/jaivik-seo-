@@ -102,17 +102,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8,
     });
 
-    // Find the data file via the import in courses/page.tsx
-    const coursesPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', 'page.tsx');
-    const dataFilePath = findDataFile(coursesPagePath);
+    // Skip course detail pages for stub universities (dynamicParams = true → noIndex courses)
+    const slugPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', '[slug]', 'page.tsx');
+    let isStub = false;
+    try {
+      const slugPageContent = fs.readFileSync(slugPagePath, 'utf-8');
+      isStub = slugPageContent.includes('export const dynamicParams = true');
+    } catch {}
 
-    if (dataFilePath && fs.existsSync(dataFilePath)) {
-      const slugs = extractSlugsFromTs(dataFilePath);
-      for (const slug of slugs) {
-        courseDetailPages.push({
-          url: `${BASE}/universities/${uniSlug}/courses/${slug}`,
-          lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7,
-        });
+    if (!isStub) {
+      // Find the data file via the import in courses/page.tsx
+      const coursesPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', 'page.tsx');
+      const dataFilePath = findDataFile(coursesPagePath);
+
+      if (dataFilePath && fs.existsSync(dataFilePath)) {
+        const slugs = extractSlugsFromTs(dataFilePath);
+        for (const slug of slugs) {
+          courseDetailPages.push({
+            url: `${BASE}/universities/${uniSlug}/courses/${slug}`,
+            lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7,
+          });
+        }
       }
     }
   }

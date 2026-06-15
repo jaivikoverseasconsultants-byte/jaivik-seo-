@@ -15,7 +15,7 @@ const nextConfig = {
       { source: '/universities/lse/courses', destination: '/universities/london-school-of-economics/courses', permanent: true },
       { source: '/universities/ubc', destination: '/universities/university-of-british-columbia', permanent: true },
       { source: '/universities/ubc/courses', destination: '/universities/university-of-british-columbia/courses', permanent: true },
-      { source: '/universities/mit', destination: '/universities/massachusetts-institute-of-technology', permanent: true },
+      { source: '/universities/mit', destination: '/universities/mit-massachusetts', permanent: true },
       { source: '/universities/ntu', destination: '/universities/nanyang-technological-university', permanent: true },
     ];
   },
