@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { WritingTest, WritingTask } from '@/data/ielts-writing';
+import WritingChart from '@/components/WritingChart';
 
 interface Props {
   test: WritingTest;
@@ -27,13 +28,14 @@ function TaskPanel({ task, onSave }: { task: WritingTask; onSave: (text: string)
 
       <div className="p-5">
         {/* Prompt */}
+        {/* Task 1 chart — rendered ABOVE the amber prompt box */}
+        {task.chartKey && (
+          <WritingChart
+            chartKey={task.chartKey}
+            className="mb-4 bg-white border border-gray-200 rounded-xl p-3 shadow-sm"
+          />
+        )}
         <div className="bg-amber-50 border-l-4 border-amber-400 p-4 rounded-r-lg mb-4">
-          {task.graphDescription && (
-            <div className="mb-3 p-3 bg-white border border-amber-200 rounded-lg">
-              <p className="text-xs font-semibold text-amber-700 mb-1">📊 Chart Data (simulate the visual)</p>
-              <p className="text-sm text-gray-700 font-mono leading-relaxed">{task.graphDescription}</p>
-            </div>
-          )}
           <p className="text-sm text-gray-800 leading-relaxed">{task.prompt}</p>
         </div>
 

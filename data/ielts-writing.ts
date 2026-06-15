@@ -4,7 +4,8 @@ export interface WritingTask {
   prompt: string;
   minWords: number;
   timeMinutes: number;
-  graphDescription?: string; // For Task 1
+  graphDescription?: string; // For Task 1 (kept for fallback)
+  chartKey?: 'library-bar' | 'renewable-line' | 'urban-combo'; // SVG chart selector
   sampleAnswer: string;
   bandTips: string[];
   keyVocabulary?: string[];
@@ -26,6 +27,7 @@ const beginnerWriting: WritingTest = {
       title: 'Bar Chart – Library Visits',
       prompt: 'The bar chart below shows the number of people who visited a public library each month from January to June. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.',
       graphDescription: 'Bar chart showing monthly library visits: Jan: 1,200 | Feb: 950 | Mar: 1,400 | Apr: 1,800 | May: 2,100 | Jun: 1,600',
+      chartKey: 'library-bar',
       minWords: 150,
       timeMinutes: 20,
       sampleAnswer: `The bar chart illustrates the number of visitors to a public library over a six-month period from January to June.
@@ -85,6 +87,7 @@ const intermediateWriting: WritingTest = {
       title: 'Line Graph – Renewable Energy Production',
       prompt: 'The line graph below shows the percentage of electricity generated from renewable sources in four countries between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.',
       graphDescription: 'Line graph: Germany: 5%→45% (steady rise) | UK: 2%→38% (sharp rise after 2010) | India: 1%→22% (gradual rise) | Brazil: 60%→72% (relatively stable, slight increase)',
+      chartKey: 'renewable-line',
       minWords: 150,
       timeMinutes: 20,
       sampleAnswer: `The line graph compares the proportion of electricity produced from renewable sources in Germany, the UK, India, and Brazil over a twenty-year period from 2000 to 2020.
@@ -140,6 +143,7 @@ const advancedWriting: WritingTest = {
       title: 'Mixed Chart – Urban Population and Infrastructure Spending',
       prompt: 'The chart below shows the urban population growth and government infrastructure spending in three Asian cities between 2005 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.',
       graphDescription: 'Combined bar (infrastructure spending $bn) and line (population millions) chart. Singapore: population stable ~5.5-5.9M, spending rose from $8bn to $22bn. Mumbai: population 18M→22M, spending from $3bn to $9bn. Bangkok: population 10M→12M, spending from $2bn to $7bn.',
+      chartKey: 'urban-combo',
       minWords: 150,
       timeMinutes: 20,
       sampleAnswer: `The combined chart presents data on urban population growth and infrastructure investment across three Asian cities — Singapore, Mumbai, and Bangkok — over a twenty-year period from 2005 to 2025.
