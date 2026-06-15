@@ -156,8 +156,8 @@ export default function TermsPage() {
           <h2 className="text-xl font-semibold text-gray-900 mb-3">11. Contact</h2>
           <p>
             For any questions regarding these terms, write to us at{' '}
-            <a href="mailto:info@jaivikoverseasconsultants.com" className="text-brand-700 underline">
-              info@jaivikoverseasconsultants.com
+            <a href="mailto:jaivikoverseasconsultants@gmail.com" className="text-brand-700 underline">
+              jaivikoverseasconsultants@gmail.com
             </a>{' '}
             or call <a href="tel:+919971226347" className="text-brand-700 underline">+91-9971226347</a>.
           </p>

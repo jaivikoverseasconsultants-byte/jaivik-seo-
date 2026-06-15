@@ -673,7 +673,7 @@ export default function IELTSMockTest() {
                   ))}
                 </div>
                 <p className="text-xs text-gray-500 mt-4">This is a practice test result. For official IELTS, register at ielts.org.</p>
-                <p className="text-xs text-gray-500">For expert guidance: +91-9971226347 | info@jaivikoverseasconsultants.com</p>
+                <p className="text-xs text-gray-500">For expert guidance: +91-9971226347 | jaivikoverseasconsultants@gmail.com</p>
                 <p className="text-xs text-gray-500">333 Orbit Plaza, Crossing Republik, Ghaziabad, UP</p>
               </div>
             </>

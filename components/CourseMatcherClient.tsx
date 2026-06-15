@@ -229,7 +229,7 @@ export default function CourseMatcherClient() {
     const body = encodeURIComponent(
       `Hi Jaivik Overseas Team,\n\nI used your AI Course Matcher and shortlisted the following courses:\n\n${lines}\n\nPlease help me with the next steps.\n\nName: ${leadInfo.name}\nMobile: ${leadInfo.mobile}\nEmail: ${leadInfo.email}`
     );
-    window.location.href = `mailto:info@jaivikoverseasconsultants.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:jaivikoverseasconsultants@gmail.com?subject=${subject}&body=${body}`;
   }
 
   // ── Render ────────────────────────────────────────────────────────────────────

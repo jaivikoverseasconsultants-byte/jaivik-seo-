@@ -93,8 +93,8 @@ export default function ContactPage() {
               <span className="text-xl flex-shrink-0 mt-0.5">✉️</span>
               <div>
                 <p className="font-semibold text-gray-900 text-sm">Email</p>
-                <a href="mailto:info@jaivikoverseasconsultants.com" className="text-sm text-brand-700 hover:underline mt-0.5 block">
-                  info@jaivikoverseasconsultants.com
+                <a href="mailto:jaivikoverseasconsultants@gmail.com" className="text-sm text-brand-700 hover:underline mt-0.5 block">
+                  jaivikoverseasconsultants@gmail.com
                 </a>
               </div>
             </div>

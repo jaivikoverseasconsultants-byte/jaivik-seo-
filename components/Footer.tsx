@@ -20,7 +20,7 @@ export default function Footer() {
               <p>📞 <a href="tel:+919971881347" className="hover:text-white">+91-9971881347</a></p>
               <p>📞 <a href="tel:+917428222100" className="hover:text-white">+91-7428222100</a></p>
               <p>☎️ <a href="tel:01204115882" className="hover:text-white">0120-4115882</a></p>
-              <p>✉️ <a href="mailto:info@jaivikoverseasconsultants.com" className="hover:text-white">info@jaivikoverseasconsultants.com</a></p>
+              <p>✉️ <a href="mailto:jaivikoverseasconsultants@gmail.com" className="hover:text-white">jaivikoverseasconsultants@gmail.com</a></p>
               <p>
                 <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 bg-green-600 hover:bg-green-700 text-white text-xs px-3 py-1.5 rounded-full transition-colors mt-1">

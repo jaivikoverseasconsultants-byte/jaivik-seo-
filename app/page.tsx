@@ -35,7 +35,7 @@ const orgSchema = {
     addressCountry: 'IN',
   },
   telephone: ['+91-9971226347', '+91-9971881347', '+91-7428222100', '0120-4115882'],
-  email: 'info@jaivikoverseasconsultants.com',
+  email: 'jaivikoverseasconsultants@gmail.com',
   areaServed: 'IN',
 };
 

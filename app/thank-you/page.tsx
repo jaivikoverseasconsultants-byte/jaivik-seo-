@@ -83,7 +83,7 @@ export default function ThankYouPage() {
         </div>
 
         <p className="mt-4 text-xs text-gray-400">
-          📞 +91-9971226347 &nbsp;|&nbsp; +91-9971881347 &nbsp;|&nbsp; info@jaivikoverseasconsultants.com
+          📞 +91-9971226347 &nbsp;|&nbsp; +91-9971881347 &nbsp;|&nbsp; jaivikoverseasconsultants@gmail.com
         </p>
       </div>
     </div>
