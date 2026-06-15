@@ -133,9 +133,9 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               href={campusImage.credit.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute bottom-2 right-3 z-10 text-white/50 text-xs hover:text-white/80 transition-colors"
+              className="sr-only"
             >
-              📸 {campusImage.credit.name} / Unsplash
+              Photo by {campusImage.credit.name} on Unsplash
             </a>
           </>
         ) : (

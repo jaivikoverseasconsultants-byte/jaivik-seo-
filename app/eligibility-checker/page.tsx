@@ -36,7 +36,19 @@ const UNI_REQS: UniReq[] = [
   { name: 'La Trobe University',          slug: 'la-trobe-university',              country: 'Australia', flag: '🇦🇺', qsRank: 351, ieltsMin: 6.0, gpaMin: 6.0, backlogs: 5, gapAllowed: 4, annualINRL: 19 },
   { name: 'TU Munich',                    slug: 'technical-university-of-munich',   country: 'Germany',   flag: '🇩🇪', qsRank: 37,  ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 1, annualINRL: 1  },
   { name: 'RWTH Aachen University',       slug: 'rwth-aachen-university',           country: 'Germany',   flag: '🇩🇪', qsRank: 106, ieltsMin: 6.5, gpaMin: 7.5, backlogs: 1, gapAllowed: 2, annualINRL: 1  },
-  { name: 'NUS Singapore',               slug: 'national-university-of-singapore', country: 'Singapore', flag: '🇸🇬', qsRank: 8,   ieltsMin: 7.0, gpaMin: 8.5, backlogs: 0, gapAllowed: 0, annualINRL: 35 },
+  { name: 'NUS Singapore',               slug: 'national-university-of-singapore', country: 'Singapore', flag: '🇸🇬', qsRank: 8,   ieltsMin: 6.5, gpaMin: 7.0, backlogs: 0, gapAllowed: 0, annualINRL: 35 },
+  { name: 'Nanyang Technological Univ.', slug: 'nanyang-technological-university',  country: 'Singapore', flag: '🇸🇬', qsRank: 15,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 1, gapAllowed: 1, annualINRL: 30 },
+  { name: 'University College Dublin',   slug: 'university-college-dublin',         country: 'Ireland',   flag: '🇮🇪', qsRank: 171, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 2, gapAllowed: 2, annualINRL: 18 },
+  { name: 'Trinity College Dublin',      slug: 'trinity-college-dublin',            country: 'Ireland',   flag: '🇮🇪', qsRank: 98,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 1, gapAllowed: 2, annualINRL: 20 },
+  { name: 'University of Auckland',      slug: 'university-of-auckland',            country: 'New Zealand', flag: '🇳🇿', qsRank: 68, ieltsMin: 6.0, gpaMin: 5.5, backlogs: 3, gapAllowed: 3, annualINRL: 16 },
+  { name: 'Victoria Univ. Wellington',   slug: 'victoria-university-of-wellington', country: 'New Zealand', flag: '🇳🇿', qsRank: 244, ieltsMin: 6.0, gpaMin: 5.0, backlogs: 3, gapAllowed: 3, annualINRL: 14 },
+  { name: 'MIT',                         slug: 'massachusetts-institute-of-technology', country: 'USA',  flag: '🇺🇸', qsRank: 1,   ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 0, annualINRL: 55 },
+  { name: 'Georgia Tech',                slug: 'georgia-institute-of-technology',   country: 'USA',       flag: '🇺🇸', qsRank: 35,  ieltsMin: 7.0, gpaMin: 7.5, backlogs: 0, gapAllowed: 1, annualINRL: 30 },
+  { name: 'Northeastern University',     slug: 'northeastern-university',           country: 'USA',       flag: '🇺🇸', qsRank: 300, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 35 },
+  { name: 'Arizona State University',    slug: 'arizona-state-university',          country: 'USA',       flag: '🇺🇸', qsRank: 201, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 3, gapAllowed: 3, annualINRL: 25 },
+  { name: 'TU Delft',                    slug: 'delft-university-of-technology',    country: 'Netherlands', flag: '🇳🇱', qsRank: 57, ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 2, annualINRL: 12 },
+  { name: 'Wageningen University',       slug: 'wageningen-university',             country: 'Netherlands', flag: '🇳🇱', qsRank: 64, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 10 },
+  { name: 'University of Dubai',         slug: 'university-of-dubai',               country: 'UAE',       flag: '🇦🇪', qsRank: 800, ieltsMin: 6.0, gpaMin: 5.5, backlogs: 3, gapAllowed: 4, annualINRL: 15 },
 ];
 
 const COUNTRIES = ['UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'USA', 'Netherlands', 'France'];
@@ -89,14 +101,14 @@ export default function EligibilityCheckerPage() {
   const [gap, setGap] = useState('None');
   const [ielts, setIelts] = useState('');
   const [budget, setBudget] = useState('');
-  const [countries, setCountries] = useState<string[]>([]);
+  const [countries, setCountries] = useState<string[]>(['UK']);
   const [name, setNameV] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
   const backlogNum = backlogs === '5+' ? 6 : parseInt(backlogs) || 0;
-  const gapNum = gap === 'None' ? 0 : parseInt(gap) || 0;
+  const gapNum = gap === 'None' ? 0 : gap === '3+ years' ? 3 : parseInt(gap) || 0;
   const ieltsNum = parseFloat(ielts) || 0;
   const pctNum = parseFloat(pct) || 0;
   const gpaNum = percentToGPA(pctNum);
@@ -124,12 +136,25 @@ export default function EligibilityCheckerPage() {
   }
 
   return (
+    <>
+    <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2e4a] text-white py-12 px-4">
+      <div className="max-w-4xl mx-auto text-center">
+        <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
+          ✅ Free · Instant Results · No Sign-up Required
+        </div>
+        <h1 className="text-3xl md:text-4xl font-bold mb-3">University Eligibility Checker 2026</h1>
+        <p className="text-blue-200 max-w-xl mx-auto">
+          Check your eligibility for 30+ universities across UK, Canada, Australia, USA &amp; more. Get your personalised shortlist in 60 seconds.
+        </p>
+        <div className="flex flex-wrap justify-center gap-5 mt-5 text-sm text-blue-300">
+          <span>✓ Instant Results</span>
+          <span>✓ 30+ Universities</span>
+          <span>✓ Strong / Possible / Stretch tiers</span>
+        </div>
+      </div>
+    </section>
     <div className="max-w-4xl mx-auto px-4 py-10">
       <div className="text-center mb-10">
-        <div className="inline-flex items-center gap-2 bg-green-50 text-green-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-3">
-          ✅ Free · Instant Results · No Sign-up
-        </div>
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">Check Your Study Abroad Eligibility</h1>
         <p className="text-gray-500">Answer 6 questions — get your personalised university shortlist in seconds</p>
       </div>
 
@@ -331,5 +356,6 @@ export default function EligibilityCheckerPage() {
         </div>
       )}
     </div>
+    </>
   );
 }

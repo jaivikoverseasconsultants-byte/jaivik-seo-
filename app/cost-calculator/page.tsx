@@ -129,6 +129,7 @@ export default function CostCalculatorPage() {
   const [duration, setDuration] = useState(2);
   const [accomm, setAccomm] = useState('On-campus');
   const [customTuition, setCustomTuition] = useState('');
+  const [scholarship, setScholarship] = useState('');
 
   const selected = COUNTRIES.find(c => c.name === country);
   const unis = country ? (UNIS[country] ?? []) : [];
@@ -147,9 +148,11 @@ export default function CostCalculatorPage() {
     const visaFee = selected.visa;
     const flight = FLIGHT_INR;
     const total = totalTuition + totalLiving + visaFee + flight;
+    const scholarshipAmt = Math.min(parseFloat(scholarship || '0') * 100000, total);
+    const netTotal = total - scholarshipAmt;
     const monthly = Math.round(livingPerYear / 12);
-    return { tuitionPerYear, livingPerYear, totalTuition, totalLiving, visaFee, flight, total, monthly };
-  }, [selected, selectedUni, customTuition, duration, accomm]);
+    return { tuitionPerYear, livingPerYear, totalTuition, totalLiving, visaFee, flight, total, scholarshipAmt, netTotal, monthly };
+  }, [selected, selectedUni, customTuition, duration, accomm, scholarship]);
 
   return (
     <>
@@ -259,6 +262,19 @@ export default function CostCalculatorPage() {
                     ))}
                   </div>
                 </div>
+
+                <div>
+                  <label className="block text-xs font-semibold text-gray-700 mb-2 uppercase tracking-wide">Scholarship / Grant (₹ Lakh)</label>
+                  <input
+                    type="number"
+                    min="0"
+                    placeholder="e.g. 5 (leave blank if none)"
+                    value={scholarship}
+                    onChange={e => setScholarship(e.target.value)}
+                    className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-500"
+                  />
+                  <p className="text-xs text-gray-400 mt-1">Enter total scholarship amount in lakhs</p>
+                </div>
               </div>
             </div>
           </div>
@@ -284,10 +300,22 @@ export default function CostCalculatorPage() {
                         <span className="text-sm font-semibold text-gray-900">{formatINR(row.value)}</span>
                       </div>
                     ))}
+                    {result.scholarshipAmt > 0 && (
+                      <div className="flex justify-between items-center py-2 border-b border-gray-50">
+                        <span className="text-sm text-green-600">Scholarship / Grant</span>
+                        <span className="text-sm font-semibold text-green-600">− {formatINR(result.scholarshipAmt)}</span>
+                      </div>
+                    )}
                     <div className="flex justify-between items-center pt-3 mt-1">
                       <span className="font-bold text-gray-900">TOTAL ESTIMATED COST</span>
                       <span className="text-2xl font-black text-brand-700">{formatINR(result.total)}</span>
                     </div>
+                    {result.scholarshipAmt > 0 && (
+                      <div className="flex justify-between items-center pt-2 bg-green-50 -mx-2 px-2 py-2 rounded-xl mt-1">
+                        <span className="font-bold text-green-800">AFTER SCHOLARSHIP</span>
+                        <span className="text-2xl font-black text-green-700">{formatINR(result.netTotal)}</span>
+                      </div>
+                    )}
                   </div>
                 </div>
 

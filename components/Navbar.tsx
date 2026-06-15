@@ -66,6 +66,7 @@ const TOOLS_GUIDES = [
 
 const SIMPLE_LINKS = [
   { href: '/blog', label: 'Blog' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 // ─── Component ───────────────────────────────────────────────────────────────
@@ -356,6 +357,13 @@ export default function Navbar() {
         {/* ── Mobile menu ───────────────────────────────────────────────── */}
         {mobileOpen && (
           <div className="lg:hidden border-t border-white/8 py-3 space-y-0.5">
+
+            {/* Book Counselling — top of mobile menu */}
+            <Link href="/book-counselling"
+              className="mx-3 mb-2 flex items-center justify-center gap-2 py-3 bg-gold-500 hover:bg-gold-600 text-white text-sm font-bold rounded-xl transition-colors"
+              onClick={closeAll}>
+              📅 Book Free Counselling
+            </Link>
 
             {/* Universities */}
             <MobileAccordion

@@ -254,7 +254,7 @@ export default async function MockTestPage({
             <h2 className="text-2xl font-black mb-2">Want a Personalised IELTS Study Plan?</h2>
             <p className="text-brand-200 mb-5">Our experts analyse your mock test results and create a targeted preparation strategy.</p>
             <div className="flex flex-wrap justify-center gap-3">
-              <a href="https://wa.me/919510603038?text=Hi!%20I'd%20like%20help%20with%20IELTS%20preparation"
+              <a href="https://wa.me/919971226347?text=Hi!%20I'd%20like%20help%20with%20IELTS%20preparation"
                 target="_blank" rel="noopener noreferrer"
                 className="bg-white text-brand-700 font-bold px-6 py-3 rounded-xl hover:bg-brand-50 transition-colors">
                 📞 Book Free Counselling

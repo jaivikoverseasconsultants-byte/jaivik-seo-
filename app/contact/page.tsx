@@ -109,9 +109,9 @@ export default function ContactPage() {
           </div>
 
           {/* Google Maps embed */}
-          <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm h-64">
+          <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.2!2d77.452!3d28.635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sOrbit%20Plaza%2C%20Crossing%20Republik%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.2!2d77.4350!3d28.6359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1b0e4d5c3a7%3A0x8f2e3b4c1d6a9e5f!2s333%20Orbit%20Plaza%2C%20Crossing%20Republik%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201016!5e0!3m2!1sen!2sin!4v1234567890!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -133,6 +133,25 @@ export default function ContactPage() {
             <a href="/eligibility-checker" className="text-xs bg-white border border-gray-200 text-gray-700 px-3 py-2 rounded-lg font-semibold hover:bg-gray-50 transition-colors">
               Eligibility Checker
             </a>
+          </div>
+
+          {/* Social media */}
+          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5">
+            <p className="font-semibold text-gray-900 text-sm mb-3">Follow Us</p>
+            <div className="grid grid-cols-2 gap-3">
+              {[
+                { href: 'https://facebook.com/jaivikoverseasconsultants', label: 'Facebook', icon: '📘', hover: 'hover:bg-blue-50 hover:border-blue-200' },
+                { href: 'https://instagram.com/jaivikoverseasconsultants', label: 'Instagram', icon: '📸', hover: 'hover:bg-pink-50 hover:border-pink-200' },
+                { href: 'https://linkedin.com/company/jaivik-overseas-consultants', label: 'LinkedIn', icon: '💼', hover: 'hover:bg-blue-50 hover:border-blue-200' },
+                { href: 'https://youtube.com/@jaivikoverseasconsultants', label: 'YouTube', icon: '▶️', hover: 'hover:bg-red-50 hover:border-red-200' },
+              ].map(s => (
+                <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
+                  className={`flex items-center gap-2 p-2.5 border border-gray-100 rounded-xl transition-colors ${s.hover}`}>
+                  <span className="text-xl">{s.icon}</span>
+                  <span className="text-sm font-medium text-gray-700">{s.label}</span>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
 

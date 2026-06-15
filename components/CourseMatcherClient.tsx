@@ -7,7 +7,7 @@ import { courseIndex, CourseEntry } from '@/data/course-index';
 // ── Constants ─────────────────────────────────────────────────────────────────
 
 const FIELDS = ['Computer Science', 'MBA', 'Data Science', 'Nursing', 'Engineering', 'Law', 'Psychology', 'Finance', 'Other'] as const;
-const COUNTRIES = ['Canada', 'UK', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'Netherlands', 'UAE', 'France'] as const;
+const COUNTRIES = ['Canada', 'UK', 'USA', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'Netherlands', 'UAE', 'France'] as const;
 const BUDGETS = ['Under 20L', '20-40L', '40-60L', '60-80L', 'Above 80L'] as const;
 const IELTS_OPTIONS = ['Below 6', '6.0', '6.5', '7.0', '7.5+', 'Not given yet'] as const;
 const QUALIFICATIONS = ['12th Pass', "Bachelor's", "Master's", 'Working Professional'] as const;
@@ -229,7 +229,7 @@ export default function CourseMatcherClient() {
     const body = encodeURIComponent(
       `Hi Jaivik Overseas Team,\n\nI used your AI Course Matcher and shortlisted the following courses:\n\n${lines}\n\nPlease help me with the next steps.\n\nName: ${leadInfo.name}\nMobile: ${leadInfo.mobile}\nEmail: ${leadInfo.email}`
     );
-    window.location.href = `mailto:enquiry@jaivikoverseasconsultants.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:info@jaivikoverseasconsultants.com?subject=${subject}&body=${body}`;
   }
 
   // ── Render ────────────────────────────────────────────────────────────────────
@@ -518,7 +518,7 @@ export default function CourseMatcherClient() {
       {phase === 'wizard' && (
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-2">
           {[
-            { icon: '🎯', title: '170+ Courses', desc: 'Curated across 12 top universities' },
+            { icon: '🎯', title: '5,400+ Verified Courses', desc: 'Across 300+ top universities worldwide' },
             { icon: '⚡', title: 'Instant Matches', desc: 'Scored by budget, IELTS & QS rank' },
             { icon: '🆓', title: '100% Free', desc: 'No signup required to see results' },
           ].map(item => (

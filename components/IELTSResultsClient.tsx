@@ -148,7 +148,7 @@ export default function IELTSResultsClient({ level, section, results, overallBan
         {/* WhatsApp CTA */}
         <div className="flex gap-3">
           <a
-            href={`https://wa.me/919510603038?text=Hi!%20I%20just%20completed%20the%20IELTS%20Mock%20Test%20(${encodeURIComponent(level + ' ' + section)})%20and%20got%20Band%20${overallBand}.%20I'd%20like%20to%20discuss%20my%20score.`}
+            href={`https://wa.me/919971226347?text=Hi!%20I%20just%20completed%20the%20IELTS%20Mock%20Test%20(${encodeURIComponent(level + ' ' + section)})%20and%20got%20Band%20${overallBand}.%20I'd%20like%20to%20discuss%20my%20score.`}
             target="_blank" rel="noopener noreferrer"
             className="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-3.5 rounded-xl text-center transition-colors flex items-center justify-center gap-2"
           >

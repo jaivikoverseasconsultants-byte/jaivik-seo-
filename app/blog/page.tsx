@@ -40,9 +40,78 @@ const CATEGORY_ICONS: Record<string, string> = {
   'Country Comparison': '⚖️',
 };
 
-export default function BlogPage() {
-  const featured = blogPosts[0];
-  const rest = blogPosts.slice(1);
+interface PostCard {
+  id: string;
+  href: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  category: string;
+  readTime: number;
+  tags: string[];
+  imageUrl?: string;
+}
+
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]*>/g, '').trim();
+}
+
+async function fetchWpPosts(): Promise<PostCard[] | null> {
+  try {
+    const res = await fetch(
+      'https://jaivikoverseasconsultants.com/wp-json/wp/v2/posts?per_page=9&_embed',
+      { next: { revalidate: 3600 } }
+    );
+    if (!res.ok) return null;
+    const posts = await res.json();
+    if (!Array.isArray(posts) || posts.length === 0) return null;
+    return posts.map((p: Record<string, unknown>) => {
+      const terms = (p._embedded as Record<string, unknown[][]>)?.['wp:term'] ?? [];
+      const cats = (terms[0] ?? []) as { name: string }[];
+      const tags = (terms[1] ?? []) as { name: string }[];
+      const media = ((p._embedded as Record<string, unknown[]>)?.['wp:featuredmedia'] ?? []) as { source_url?: string }[];
+      const contentText = stripHtml(((p.content as Record<string, string>)?.rendered) ?? '');
+      return {
+        id: String(p.id),
+        href: String(p.link),
+        title: stripHtml(String((p.title as Record<string, string>)?.rendered ?? '')),
+        excerpt: stripHtml(String((p.excerpt as Record<string, string>)?.rendered ?? '')).slice(0, 200),
+        date: String(p.date ?? ''),
+        category: cats[0]?.name ?? 'Study Abroad',
+        readTime: Math.max(2, Math.round(contentText.split(/\s+/).length / 200)),
+        tags: tags.slice(0, 4).map(t => t.name),
+        imageUrl: media[0]?.source_url,
+      };
+    });
+  } catch {
+    return null;
+  }
+}
+
+function localToCard(p: typeof blogPosts[0]): PostCard {
+  return {
+    id: p.slug,
+    href: `/blog/${p.slug}`,
+    title: p.title,
+    excerpt: p.excerpt,
+    date: p.publishedAt,
+    category: p.category,
+    readTime: p.readTime,
+    tags: p.tags,
+  };
+}
+
+export default async function BlogPage() {
+  const wpPosts = await fetchWpPosts();
+  const usingWp = wpPosts !== null && wpPosts.length > 0;
+  const posts: PostCard[] = usingWp ? wpPosts! : blogPosts.map(localToCard);
+  const seenCats = new Set<string>();
+  const allCategories = usingWp
+    ? posts.map(p => p.category).filter(c => { if (seenCats.has(c)) return false; seenCats.add(c); return true; })
+    : blogCategories;
+
+  const featured = posts[0];
+  const rest = posts.slice(1);
 
   return (
     <>
@@ -65,7 +134,7 @@ export default function BlogPage() {
         {/* Category filter chips */}
         <div className="flex flex-wrap gap-2 mb-8">
           <span className="text-xs font-semibold text-gray-600 self-center mr-1">Browse by:</span>
-          {blogCategories.map(cat => (
+          {allCategories.map(cat => (
             <Link
               key={cat}
               href={`/blog?category=${encodeURIComponent(cat)}`}
@@ -77,45 +146,62 @@ export default function BlogPage() {
         </div>
 
         {/* Featured post */}
-        <div className="mb-10">
-          <Link href={`/blog/${featured.slug}`} className="group block bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:border-brand-200 transition-all">
-            <div className="grid grid-cols-1 lg:grid-cols-5">
-              <div className="lg:col-span-2 bg-gradient-to-br from-brand-700 to-blue-900 p-10 flex items-center justify-center min-h-[180px]">
-                <div className="text-center text-white">
-                  <p className="text-5xl mb-3">{CATEGORY_ICONS[featured.category] || '📌'}</p>
-                  <span className="text-xs bg-white/20 px-2 py-1 rounded-full">{featured.category}</span>
+        {featured && (
+          <div className="mb-10">
+            <a href={featured.href} target={usingWp ? '_blank' : undefined} rel={usingWp ? 'noopener noreferrer' : undefined}
+              className="group block bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg hover:border-brand-200 transition-all">
+              <div className="grid grid-cols-1 lg:grid-cols-5">
+                <div className="lg:col-span-2 min-h-[180px] relative overflow-hidden">
+                  {featured.imageUrl ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={featured.imageUrl} alt={featured.title} className="w-full h-full object-cover absolute inset-0" />
+                  ) : (
+                    <div className="bg-gradient-to-br from-brand-700 to-blue-900 w-full h-full flex items-center justify-center p-10">
+                      <div className="text-center text-white">
+                        <p className="text-5xl mb-3">{CATEGORY_ICONS[featured.category] || '📌'}</p>
+                        <span className="text-xs bg-white/20 px-2 py-1 rounded-full">{featured.category}</span>
+                      </div>
+                    </div>
+                  )}
                 </div>
-              </div>
-              <div className="lg:col-span-3 p-7 flex flex-col justify-between">
-                <div>
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xs bg-gold-50 text-gold-700 font-semibold px-2.5 py-1 rounded-full">⭐ Featured</span>
-                    <span className="text-xs text-gray-400">{featured.readTime} min read</span>
-                    <span className="text-xs text-gray-400">{new Date(featured.publishedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                <div className="lg:col-span-3 p-7 flex flex-col justify-between">
+                  <div>
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-xs bg-gold-50 text-gold-700 font-semibold px-2.5 py-1 rounded-full">⭐ Featured</span>
+                      <span className="text-xs text-gray-400">{featured.readTime} min read</span>
+                      <span className="text-xs text-gray-400">{new Date(featured.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                    </div>
+                    <h2 className="text-xl font-bold text-gray-900 group-hover:text-brand-700 mb-2 leading-snug">{featured.title}</h2>
+                    <p className="text-gray-500 text-sm leading-relaxed">{featured.excerpt}</p>
                   </div>
-                  <h2 className="text-xl font-bold text-gray-900 group-hover:text-brand-700 mb-2 leading-snug">{featured.title}</h2>
-                  <p className="text-gray-500 text-sm leading-relaxed">{featured.excerpt}</p>
-                </div>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {featured.tags.slice(0, 4).map(tag => (
-                    <span key={tag} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{tag}</span>
-                  ))}
-                  <span className="text-xs text-brand-700 font-semibold ml-auto self-center">Read article →</span>
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {featured.tags.slice(0, 4).map(tag => (
+                      <span key={tag} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">{tag}</span>
+                    ))}
+                    <span className="text-xs text-brand-700 font-semibold ml-auto self-center">Read article →</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
-        </div>
+            </a>
+          </div>
+        )}
 
         {/* All posts grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {rest.map(post => (
-            <Link key={post.slug} href={`/blog/${post.slug}`}
+            <a key={post.id} href={post.href} target={usingWp ? '_blank' : undefined} rel={usingWp ? 'noopener noreferrer' : undefined}
               className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex flex-col">
               {/* Card header */}
-              <div className="bg-gradient-to-br from-brand-50 to-blue-50 px-6 py-8 flex items-center justify-center">
-                <span className="text-4xl">{CATEGORY_ICONS[post.category] || '📌'}</span>
-              </div>
+              {post.imageUrl ? (
+                <div className="h-40 overflow-hidden relative">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={post.imageUrl} alt={post.title} className="w-full h-full object-cover" />
+                </div>
+              ) : (
+                <div className="bg-gradient-to-br from-brand-50 to-blue-50 px-6 py-8 flex items-center justify-center">
+                  <span className="text-4xl">{CATEGORY_ICONS[post.category] || '📌'}</span>
+                </div>
+              )}
               <div className="p-5 flex flex-col flex-1">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="text-xs bg-brand-50 text-brand-700 font-medium px-2 py-0.5 rounded-full">{post.category}</span>
@@ -124,11 +210,11 @@ export default function BlogPage() {
                 <h2 className="font-bold text-gray-900 group-hover:text-brand-700 text-sm leading-snug mb-2 flex-1">{post.title}</h2>
                 <p className="text-xs text-gray-500 leading-relaxed mb-3 line-clamp-2">{post.excerpt}</p>
                 <div className="flex items-center justify-between mt-auto pt-3 border-t border-gray-50">
-                  <span className="text-xs text-gray-400">{new Date(post.publishedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
-                  <span className="text-xs text-brand-700 font-semibold">Read →</span>
+                  <span className="text-xs text-gray-400">{new Date(post.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</span>
+                  <span className="text-xs text-brand-700 font-semibold">Read More →</span>
                 </div>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
 
