@@ -1,31 +1,27 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { uoaCourses, getUoaCourseBySlug } from '@/data/uoa-courses';
+import { adelaideCourses, getAdelaideCourseBySlug } from '@/data/adelaide-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = true;
-export const revalidate = 86400;
-
-export function generateStaticParams() {
-  return [];
+export async function generateStaticParams() {
+  return (adelaideCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const course = getUoaCourseBySlug(slug);
+  const course = getAdelaideCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at University of Adelaide — Fees, IELTS & Intake for Indian Students 2026`,
     description: `${course.name} at University of Adelaide, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-adelaide/courses/${slug}`,
     keywords: [course.name, 'Adelaide', 'University of Adelaide', 'study in Australia', course.level],
-    noIndex: true
   });
 }
 
@@ -33,7 +29,7 @@ export default async function CoursePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const course = getUoaCourseBySlug(slug);
+  const course = getAdelaideCourseBySlug(slug);
   if (!course) notFound();
 
   const schema = {
@@ -82,7 +78,7 @@ export default async function CoursePage(
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source={`uoa-course-${slug}`} defaultCountry="Australia" compact />
+              <LeadForm source={`adelaide-course-${slug}`} defaultCountry="Australia" compact />
             </div>
           </div>
         </div>
@@ -175,7 +171,7 @@ export default async function CoursePage(
 
         <div className="space-y-5">
           <div className="sticky top-20">
-            <LeadForm source={`uoa-course-${slug}-sidebar`} defaultCountry="Australia" />
+            <LeadForm source={`adelaide-course-${slug}-sidebar`} defaultCountry="Australia" />
             <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
               <div className="space-y-2">

@@ -51,6 +51,8 @@ import { lancsCourses } from './lancs-courses';
 import { qmulCourses } from './qmul-courses';
 import { yorkuniCourses } from './yorkuni-courses';
 import { uoaCourses } from './uoa-courses';
+import { adelaideCourses } from './adelaide-courses';
+import { rmitCourses } from './rmit-courses';
 import { kitCourses } from './kit-courses';
 import { cardiffCourses } from './cardiff-courses';
 import { kclCourses } from './kcl-courses';
@@ -158,7 +160,8 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'lancaster-university': lancsCourses,
   'queen-mary-university-london': qmulCourses,
   'university-of-york': yorkuniCourses,
-  'university-of-adelaide': uoaCourses,
+  'university-of-adelaide': adelaideCourses,
+  'rmit-university': rmitCourses,
   'karlsruhe-institute-of-technology': kitCourses,
   'cardiff-university': cardiffCourses,
   'kings-college-london': kclCourses,
