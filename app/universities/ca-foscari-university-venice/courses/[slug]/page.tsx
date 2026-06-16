@@ -9,8 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 const UNI_NAME = "Ca' Foscari University of Venice";
 
-export const dynamicParams = true;
-export const revalidate = 86400;
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return [];
