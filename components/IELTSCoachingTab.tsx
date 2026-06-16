@@ -1,18 +1,55 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { collection, getDocs, addDoc, serverTimestamp } from 'firebase/firestore';
+import { db } from '@/lib/firebase';
+import { useAuth } from '@/lib/auth-context';
 
-// ── Data ──────────────────────────────────────────────────────────────────────
+// ── Types ─────────────────────────────────────────────────────────────────────
 
-const TRAINERS = [
-  { id: 1, name: 'Priya Sharma', city: 'Delhi', experience: '6 years', examTypes: ['IELTS Academic', 'IELTS General'], timing: ['Morning 6–10am', 'Evening 6–10pm'], avgImprovement: '1.5 bands in 60 days', fee: 4500, rating: 4.9, reviews: 127, students: 340, demoAvailable: true, bio: 'Ex-British Council examiner. Specialized in Writing Task 2 and Speaking fluency. 95% students achieve target band.', slots: ['Mon 7am', 'Wed 7am', 'Fri 7am', 'Tue 7pm', 'Thu 7pm'], results: [{ student: 'Rahul M', from: 5.5, to: 7.0, days: 60 }, { student: 'Sneha K', from: 6.0, to: 7.5, days: 45 }, { student: 'Amit P', from: 5.0, to: 6.5, days: 75 }] },
-  { id: 2, name: 'Rajesh Kumar', city: 'Noida', experience: '4 years', examTypes: ['IELTS Academic', 'PTE Academic'], timing: ['Afternoon 12–4pm', 'Evening 6–10pm'], avgImprovement: '1.0 band in 45 days', fee: 3500, rating: 4.7, reviews: 89, students: 210, demoAvailable: true, bio: 'PTE and IELTS specialist. Focus on exam strategy and time management. Flexible batch sizes.', slots: ['Mon 2pm', 'Wed 2pm', 'Sat 2pm', 'Tue 7pm', 'Sun 7pm'], results: [{ student: 'Pooja S', from: 5.0, to: 6.0, days: 45 }, { student: 'Karan T', from: 6.0, to: 7.0, days: 60 }] },
-  { id: 3, name: 'Anita Verma', city: 'Ghaziabad', experience: '8 years', examTypes: ['IELTS Academic', 'IELTS General', 'TOEFL'], timing: ['Morning 6–10am', 'Afternoon 12–4pm'], avgImprovement: '2.0 bands in 90 days', fee: 6000, rating: 5.0, reviews: 203, students: 520, demoAvailable: true, bio: 'Senior IELTS trainer with 8 years experience. Expert in all 4 modules. Personalized study plans for every student.', slots: ['Mon 8am', 'Tue 8am', 'Wed 8am', 'Thu 8am', 'Fri 8am', 'Mon 1pm', 'Wed 1pm'], results: [{ student: 'Divya R', from: 5.5, to: 7.5, days: 90 }, { student: 'Rohit M', from: 6.0, to: 8.0, days: 75 }, { student: 'Priya K', from: 5.0, to: 7.0, days: 60 }] },
-  { id: 4, name: 'Mohammed Irfan', city: 'Delhi', experience: '3 years', examTypes: ['IELTS General', 'PTE Academic'], timing: ['Evening 6–10pm', 'Flexible'], avgImprovement: '1.0 band in 30 days', fee: 2800, rating: 4.6, reviews: 54, students: 98, demoAvailable: false, bio: 'Affordable and result-oriented coaching. Specializes in IELTS General for Canada PR pathway students.', slots: ['Mon 7pm', 'Tue 7pm', 'Wed 7pm', 'Thu 7pm', 'Fri 7pm'], results: [{ student: 'Salman K', from: 5.5, to: 6.5, days: 30 }] },
-  { id: 5, name: 'Sunita Rawat', city: 'Noida', experience: '5 years', examTypes: ['IELTS Academic', 'IELTS General'], timing: ['Morning 6–10am', 'Flexible'], avgImprovement: '1.5 bands in 60 days', fee: 4000, rating: 4.8, reviews: 112, students: 280, demoAvailable: true, bio: 'Dedicated IELTS coach with focus on Reading and Listening strategies. Small batch sizes for personalized attention.', slots: ['Mon 6am', 'Wed 6am', 'Fri 6am', 'Sat 9am', 'Sun 9am'], results: [{ student: 'Neha G', from: 6.0, to: 7.5, days: 60 }, { student: 'Vikram S', from: 5.5, to: 7.0, days: 75 }] },
-];
+interface Trainer {
+  id: string;
+  name: string;
+  city: string;
+  experience: string;
+  examTypes: string[];
+  timing: string[];
+  avgImprovement: string;
+  fee: number;
+  rating: number;
+  reviews: number;
+  students: number;
+  demoAvailable: boolean;
+  bio: string;
+  slots: string[];
+  results: { student: string; from: number; to: number; days: number }[];
+}
 
-type Trainer = typeof TRAINERS[0];
+function mapTrainerDoc(id: string, data: Record<string, unknown>): Trainer {
+  const availability = (data.availability as Record<string, boolean>) || {};
+  const activeSlots = Object.entries(availability).filter(([, v]) => v).map(([k]) => k);
+  const timing = Array.from(new Set(activeSlots.map(k => k.split('-').slice(1).join('-'))));
+
+  return {
+    id,
+    name: (data.name as string) || 'Trainer',
+    city: (data.city as string) || '',
+    experience: data.experience ? `${data.experience} years` : '',
+    examTypes: typeof data.specialization === 'string'
+      ? data.specialization.split(',').map(s => s.trim()).filter(Boolean)
+      : [],
+    timing,
+    avgImprovement: (data.avgImprovement as string) || '',
+    fee: Number(data.rate) || 0,
+    rating: typeof data.rating === 'number' ? data.rating : 5.0,
+    reviews: Number(data.reviews) || 0,
+    students: Number(data.students) || 0,
+    demoAvailable: data.demoAvailable !== false,
+    bio: (data.bio as string) || '',
+    slots: activeSlots.map(k => k.replace('-', ' ')),
+    results: Array.isArray(data.results) ? (data.results as Trainer['results']) : [],
+  };
+}
 
 const WIZARD = [
   { q: 'Which exam are you preparing for?', key: 'exam', options: ['IELTS Academic', 'IELTS General', 'PTE Academic', 'TOEFL'] },
@@ -21,12 +58,6 @@ const WIZARD = [
   { q: 'Which timing do you prefer for classes?', key: 'timing', options: ['Morning 6–10am', 'Afternoon 12–4pm', 'Evening 6–10pm', 'Flexible'] },
   { q: 'What type of coaching do you need?', key: 'classType', options: ['Full Course (all 4 modules)', 'Speaking only', 'Writing only', 'Reading + Listening'] },
   { q: 'What is your monthly budget?', key: 'budget', options: ['Under ₹3,000', '₹3,000–5,000', '₹5,000–8,000', '₹8,000+'] },
-];
-
-const DUMMY_REVIEWS = [
-  { name: 'Meera S.', rating: 5, date: 'Mar 2026', text: 'Excellent coaching! My band improved from 6.0 to 7.5 in just 45 days. The mock tests were very similar to the actual exam.' },
-  { name: 'Arjun P.', rating: 5, date: 'Feb 2026', text: 'Very professional and dedicated trainer. Writing Task 2 strategies were a game changer for me. Highly recommended!' },
-  { name: 'Kavya R.', rating: 4, date: 'Jan 2026', text: 'Good classes, very punctual and organized. Speaking modules especially helped me gain confidence. Would enroll again.' },
 ];
 
 type Phase = 'wizard' | 'results' | 'profile' | 'enroll' | 'success';
@@ -38,11 +69,11 @@ function budgetMax(b: string): number {
   return Infinity;
 }
 
-function filterTrainers(answers: Record<string, string>): Trainer[] {
-  return TRAINERS.filter(t => {
+function filterTrainers(trainers: Trainer[], answers: Record<string, string>): Trainer[] {
+  return trainers.filter(t => {
     const examOk = !answers.exam || t.examTypes.includes(answers.exam);
-    const timingOk = !answers.timing || answers.timing === 'Flexible' || t.timing.includes(answers.timing) || t.timing.includes('Flexible');
-    const budgetOk = !answers.budget || t.fee <= budgetMax(answers.budget);
+    const timingOk = !answers.timing || answers.timing === 'Flexible' || t.timing.length === 0 || t.timing.some(x => x.includes(answers.timing));
+    const budgetOk = !answers.budget || t.fee === 0 || t.fee <= budgetMax(answers.budget);
     return examOk && timingOk && budgetOk;
   });
 }
@@ -66,6 +97,11 @@ function Stars({ rating }: { rating: number }) {
 // ── Main component ────────────────────────────────────────────────────────────
 
 export default function IELTSCoachingTab() {
+  const { currentUser, userProfile } = useAuth();
+
+  const [trainers, setTrainers] = useState<Trainer[]>([]);
+  const [loadingTrainers, setLoadingTrainers] = useState(true);
+
   const [phase, setPhase] = useState<Phase>('wizard');
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
@@ -75,6 +111,18 @@ export default function IELTSCoachingTab() {
   const [trainer, setTrainer] = useState<Trainer | null>(null);
   const [selectedSlots, setSelectedSlots] = useState<string[]>([]);
   const [enrollNum, setEnrollNum] = useState('');
+  const [enrolling, setEnrolling] = useState(false);
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const snap = await getDocs(collection(db, 'trainers'));
+        setTrainers(snap.docs.map(d => mapTrainerDoc(d.id, d.data())));
+      } finally {
+        setLoadingTrainers(false);
+      }
+    })();
+  }, []);
 
   function pickAnswer(key: string, val: string) {
     const next = { ...answers, [key]: val };
@@ -83,8 +131,7 @@ export default function IELTSCoachingTab() {
       setAnimKey(k => k + 1);
       setStep(s => s + 1);
     } else {
-      // Last step — go to results
-      setMatched(filterTrainers(next));
+      setMatched(filterTrainers(trainers, next));
       setPhase('results');
     }
   }
@@ -100,23 +147,50 @@ export default function IELTSCoachingTab() {
     setPhase('enroll');
   }
 
-  function confirmEnroll() {
-    if (!trainer) return;
-    const data = {
-      enrollmentNumber: enrollNum,
-      trainer: trainer.name,
-      slots: selectedSlots,
-      startDate: new Date(Date.now() + 7 * 86400000).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
-      enrolledAt: new Date().toISOString(),
-    };
-    const prev = JSON.parse(localStorage.getItem('joc_ielts_enrollments') || '[]');
-    localStorage.setItem('joc_ielts_enrollments', JSON.stringify([...prev, data]));
-    setPhase('success');
+  async function confirmEnroll() {
+    if (!trainer || !currentUser) return;
+    setEnrolling(true);
+    const startDate = new Date(Date.now() + 7 * 86400000).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+    try {
+      await addDoc(collection(db, 'bookings'), {
+        studentUid: currentUser.uid,
+        studentName: userProfile?.name || currentUser.email || 'Student',
+        studentPhone: userProfile?.phone || '',
+        trainerId: trainer.id,
+        trainerName: trainer.name,
+        examType: answers.exam || trainer.examTypes[0] || '',
+        slots: selectedSlots,
+        startDate,
+        status: 'Pending',
+        enrollNum,
+        createdAt: serverTimestamp(),
+      });
+
+      const formData = new FormData();
+      formData.append('Student', userProfile?.name || currentUser.email || 'Student');
+      formData.append('Trainer', trainer.name);
+      formData.append('Exam Type', answers.exam || trainer.examTypes[0] || '');
+      formData.append('Enrollment Number', enrollNum);
+      formData.append('Source', 'IELTS Coaching Enrollment');
+      fetch('https://formspree.io/f/xgoqzezk', { method: 'POST', body: formData, headers: { Accept: 'application/json' } }).catch(() => {});
+
+      setPhase('success');
+    } finally {
+      setEnrolling(false);
+    }
   }
 
   function resetWizard() {
     setStep(0); setAnswers({}); setAnimKey(k => k + 1);
     setPhase('wizard'); setTrainer(null); setSelectedSlots([]);
+  }
+
+  if (loadingTrainers) {
+    return (
+      <div className="flex items-center justify-center py-20">
+        <div className="w-10 h-10 border-2 border-[#F5A623] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
   }
 
   // ── WIZARD ─────────────────────────────────────────────────────────────────
@@ -130,7 +204,6 @@ export default function IELTSCoachingTab() {
           .slide-q { animation: slideQ 0.28s cubic-bezier(.4,0,.2,1) forwards; }
         `}</style>
 
-        {/* Header */}
         <div className="mb-6">
           <div className="flex items-center justify-between mb-2">
             <p className="text-xs font-bold text-[#00C9A7] uppercase tracking-widest">Find Your Ideal Trainer</p>
@@ -142,7 +215,6 @@ export default function IELTSCoachingTab() {
           </div>
         </div>
 
-        {/* Question */}
         <div key={animKey} className="slide-q">
           <h2 className="text-xl font-black text-white mb-6 leading-snug">{q.q}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -160,7 +232,6 @@ export default function IELTSCoachingTab() {
           </div>
         </div>
 
-        {/* Back */}
         {step > 0 && (
           <button onClick={goBack}
             className="mt-6 flex items-center gap-1.5 text-sm text-blue-400/60 hover:text-blue-200 transition-colors">
@@ -221,7 +292,6 @@ export default function IELTSCoachingTab() {
     return (
       <div className="fixed inset-0 z-50 overflow-y-auto" style={{ background: 'rgba(6,14,31,0.97)' }}>
         <div className="min-h-screen flex flex-col">
-          {/* Header */}
           <div className="sticky top-0 z-10 border-b border-white/8 px-4 sm:px-8 py-4 flex items-center gap-3"
             style={{ background: '#0B1437' }}>
             <button onClick={() => setPhase('results')}
@@ -235,7 +305,6 @@ export default function IELTSCoachingTab() {
           </div>
 
           <div className="flex-1 max-w-2xl mx-auto w-full px-4 sm:px-6 py-6 pb-28">
-            {/* Avatar + basic info */}
             <div className="flex items-start gap-4 mb-6">
               <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#F5A623]/30 to-[#00C9A7]/30 border-2 border-[#F5A623]/60 flex items-center justify-center text-2xl font-black text-white shrink-0">
                 {initials(trainer.name)}
@@ -249,7 +318,7 @@ export default function IELTSCoachingTab() {
                     </span>
                   )}
                 </div>
-                <p className="text-sm text-blue-300/70 mt-0.5">{trainer.city} · {trainer.experience} experience</p>
+                <p className="text-sm text-blue-300/70 mt-0.5">{[trainer.city, trainer.experience].filter(Boolean).join(' · ')}</p>
                 <div className="flex items-center gap-2 mt-1.5">
                   <Stars rating={trainer.rating} />
                   <span className="text-sm font-bold text-[#F5A623]">{trainer.rating}</span>
@@ -258,13 +327,12 @@ export default function IELTSCoachingTab() {
               </div>
             </div>
 
-            {/* Stats */}
             <div className="grid grid-cols-4 gap-3 mb-6">
               {[
                 { label: 'Students', value: trainer.students },
                 { label: 'Rating', value: trainer.rating },
                 { label: 'Reviews', value: trainer.reviews },
-                { label: 'Experience', value: trainer.experience.replace(' years', 'y') },
+                { label: 'Experience', value: trainer.experience.replace(' years', 'y') || '–' },
               ].map(s => (
                 <div key={s.label} className="rounded-xl border border-white/8 bg-white/3 p-3 text-center">
                   <p className="text-lg font-black text-[#F5A623]">{s.value}</p>
@@ -273,106 +341,67 @@ export default function IELTSCoachingTab() {
               ))}
             </div>
 
-            {/* Exam types + avg improvement */}
             <div className="flex flex-wrap gap-2 mb-4">
               {trainer.examTypes.map(e => (
                 <span key={e} className="px-3 py-1 text-xs font-semibold bg-[#F5A623]/10 text-[#F5A623] border border-[#F5A623]/25 rounded-full">
                   {e}
                 </span>
               ))}
-              <span className="px-3 py-1 text-xs font-semibold bg-[#00C9A7]/10 text-[#00C9A7] border border-[#00C9A7]/25 rounded-full">
-                📈 {trainer.avgImprovement}
-              </span>
+              {trainer.avgImprovement && (
+                <span className="px-3 py-1 text-xs font-semibold bg-[#00C9A7]/10 text-[#00C9A7] border border-[#00C9A7]/25 rounded-full">
+                  📈 {trainer.avgImprovement}
+                </span>
+              )}
             </div>
 
-            {/* Bio */}
-            <div className="rounded-xl border border-white/8 bg-white/3 p-4 mb-4">
-              <p className="text-sm font-bold text-white mb-2">About</p>
-              <p className="text-sm text-blue-200/70 leading-relaxed">{trainer.bio}</p>
-            </div>
-
-            {/* Past Results */}
-            <div className="rounded-xl border border-white/8 bg-white/3 overflow-hidden mb-4">
-              <div className="px-4 py-3 border-b border-white/8">
-                <p className="text-sm font-bold text-white">Past Student Results</p>
-              </div>
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-white/5">
-                    {['Student', 'From', 'To', 'Days'].map(h => (
-                      <th key={h} className="px-4 py-2.5 text-left text-[11px] font-bold text-blue-400/50 uppercase tracking-wider">{h}</th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {trainer.results.map((r, i) => (
-                    <tr key={i} className="border-b border-white/5 hover:bg-white/3 transition-colors">
-                      <td className="px-4 py-3 text-white font-medium">{r.student}</td>
-                      <td className="px-4 py-3 text-blue-300/70">{r.from}</td>
-                      <td className="px-4 py-3"><span className="text-[#00C9A7] font-bold">{r.to}</span></td>
-                      <td className="px-4 py-3 text-blue-300/70">{r.days}d</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-
-            {/* Available Slots */}
-            <div className="rounded-xl border border-white/8 bg-white/3 p-4 mb-4">
-              <p className="text-sm font-bold text-white mb-3">Available Slots</p>
-              <div className="flex flex-wrap gap-2">
-                {trainer.slots.map(s => (
-                  <span key={s} className="px-3 py-1.5 text-xs font-semibold bg-[#00C9A7]/10 text-[#00C9A7] border border-[#00C9A7]/25 rounded-lg">
-                    {s}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Demo Class */}
-            {trainer.demoAvailable && (
+            {trainer.bio && (
               <div className="rounded-xl border border-white/8 bg-white/3 p-4 mb-4">
-                <p className="text-sm font-bold text-white mb-3">Demo Class Preview</p>
-                <div className="relative rounded-xl overflow-hidden bg-black/40 aspect-video flex items-center justify-center border border-white/8">
-                  <div className="text-center">
-                    <div className="w-14 h-14 rounded-full bg-[#F5A623]/20 border-2 border-[#F5A623]/60 flex items-center justify-center mx-auto mb-2 cursor-pointer hover:bg-[#F5A623]/30 transition-colors">
-                      <svg className="w-6 h-6 text-[#F5A623] ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                    <p className="text-sm font-semibold text-white">Watch Demo Class (Sample)</p>
-                    <p className="text-xs text-blue-400/50 mt-1">Full demo available on enrollment</p>
-                  </div>
-                </div>
+                <p className="text-sm font-bold text-white mb-2">About</p>
+                <p className="text-sm text-blue-200/70 leading-relaxed">{trainer.bio}</p>
               </div>
             )}
 
-            {/* Reviews */}
-            <div className="rounded-xl border border-white/8 bg-white/3 p-4 mb-4">
-              <p className="text-sm font-bold text-white mb-4">Student Reviews</p>
-              <div className="space-y-4">
-                {DUMMY_REVIEWS.map((r, i) => (
-                  <div key={i} className="border-b border-white/5 pb-4 last:border-0 last:pb-0">
-                    <div className="flex items-center justify-between mb-1.5">
-                      <div className="flex items-center gap-2">
-                        <div className="w-7 h-7 rounded-full bg-[#F5A623]/20 flex items-center justify-center text-xs font-bold text-[#F5A623]">
-                          {r.name[0]}
-                        </div>
-                        <span className="text-sm font-semibold text-white">{r.name}</span>
-                      </div>
-                      <div className="flex items-center gap-1.5">
-                        <Stars rating={r.rating} />
-                        <span className="text-xs text-blue-400/50">{r.date}</span>
-                      </div>
-                    </div>
-                    <p className="text-sm text-blue-200/70 leading-relaxed">{r.text}</p>
-                  </div>
-                ))}
+            {trainer.results.length > 0 && (
+              <div className="rounded-xl border border-white/8 bg-white/3 overflow-hidden mb-4">
+                <div className="px-4 py-3 border-b border-white/8">
+                  <p className="text-sm font-bold text-white">Past Student Results</p>
+                </div>
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-white/5">
+                      {['Student', 'From', 'To', 'Days'].map(h => (
+                        <th key={h} className="px-4 py-2.5 text-left text-[11px] font-bold text-blue-400/50 uppercase tracking-wider">{h}</th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {trainer.results.map((r, i) => (
+                      <tr key={i} className="border-b border-white/5 hover:bg-white/3 transition-colors">
+                        <td className="px-4 py-3 text-white font-medium">{r.student}</td>
+                        <td className="px-4 py-3 text-blue-300/70">{r.from}</td>
+                        <td className="px-4 py-3"><span className="text-[#00C9A7] font-bold">{r.to}</span></td>
+                        <td className="px-4 py-3 text-blue-300/70">{r.days}d</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
-            </div>
+            )}
+
+            {trainer.slots.length > 0 && (
+              <div className="rounded-xl border border-white/8 bg-white/3 p-4 mb-4">
+                <p className="text-sm font-bold text-white mb-3">Available Slots</p>
+                <div className="flex flex-wrap gap-2">
+                  {trainer.slots.map(s => (
+                    <span key={s} className="px-3 py-1.5 text-xs font-semibold bg-[#00C9A7]/10 text-[#00C9A7] border border-[#00C9A7]/25 rounded-lg">
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
-          {/* Sticky bottom bar */}
           <div className="fixed bottom-0 left-0 right-0 border-t border-white/10 px-4 py-3 flex items-center justify-between gap-4"
             style={{ background: '#0B1437' }}>
             <div>
@@ -400,7 +429,6 @@ export default function IELTSCoachingTab() {
         style={{ background: 'rgba(6,14,31,0.95)' }}>
         <div className="w-full max-w-md rounded-2xl border border-white/10 shadow-2xl overflow-hidden"
           style={{ background: '#0B1437' }}>
-          {/* Header */}
           <div className="px-6 pt-6 pb-4 border-b border-white/8 flex items-center justify-between">
             <h2 className="text-lg font-black text-white">Confirm Enrollment</h2>
             <button onClick={() => setPhase(trainer ? 'profile' : 'results')}
@@ -412,43 +440,41 @@ export default function IELTSCoachingTab() {
           </div>
 
           <div className="px-6 py-5 space-y-4">
-            {/* Enrollment number */}
             <div className="rounded-xl bg-[#F5A623]/8 border border-[#F5A623]/25 p-4 text-center">
               <p className="text-xs text-[#F5A623]/70 font-semibold uppercase tracking-widest mb-1">Enrollment Number</p>
               <p className="text-xl font-black text-[#F5A623] tracking-wider">{enrollNum}</p>
             </div>
 
-            {/* Details */}
             <div className="space-y-3">
-              <DetailRow label="Trainer" value={`${trainer.name} · ${trainer.city}`} />
-              <DetailRow label="Exam" value={answers.exam || trainer.examTypes[0]} />
+              <DetailRow label="Trainer" value={[trainer.name, trainer.city].filter(Boolean).join(' · ')} />
+              <DetailRow label="Exam" value={answers.exam || trainer.examTypes[0] || '–'} />
               <DetailRow label="Start Date" value={startDate} highlight />
               <DetailRow label="Monthly Fee" value={`₹${trainer.fee.toLocaleString()}`} highlight />
             </div>
 
-            {/* Slot selection */}
-            <div>
-              <p className="text-xs font-bold text-blue-300/70 uppercase tracking-wider mb-2">Select Your Slots</p>
-              <div className="flex flex-wrap gap-2">
-                {trainer.slots.map(s => {
-                  const sel = selectedSlots.includes(s);
-                  return (
-                    <button key={s} type="button"
-                      onClick={() => setSelectedSlots(prev =>
-                        sel ? prev.filter(x => x !== s) : [...prev, s]
-                      )}
-                      className={`px-3 py-1.5 text-xs font-semibold rounded-lg border transition-all ${sel
-                        ? 'bg-[#00C9A7]/20 border-[#00C9A7]/60 text-[#00C9A7]'
-                        : 'bg-white/4 border-white/10 text-blue-300/70 hover:border-white/25'
-                        }`}>
-                      {s}
-                    </button>
-                  );
-                })}
+            {trainer.slots.length > 0 && (
+              <div>
+                <p className="text-xs font-bold text-blue-300/70 uppercase tracking-wider mb-2">Select Your Slots</p>
+                <div className="flex flex-wrap gap-2">
+                  {trainer.slots.map(s => {
+                    const sel = selectedSlots.includes(s);
+                    return (
+                      <button key={s} type="button"
+                        onClick={() => setSelectedSlots(prev =>
+                          sel ? prev.filter(x => x !== s) : [...prev, s]
+                        )}
+                        className={`px-3 py-1.5 text-xs font-semibold rounded-lg border transition-all ${sel
+                          ? 'bg-[#00C9A7]/20 border-[#00C9A7]/60 text-[#00C9A7]'
+                          : 'bg-white/4 border-white/10 text-blue-300/70 hover:border-white/25'
+                          }`}>
+                        {s}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
+            )}
 
-            {/* Razorpay placeholder */}
             <div className="rounded-xl border border-white/8 bg-white/3 p-3 flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-blue-600/20 flex items-center justify-center text-xs font-black text-blue-400">₹</div>
               <div>
@@ -458,10 +484,10 @@ export default function IELTSCoachingTab() {
             </div>
 
             <button onClick={confirmEnroll}
-              disabled={selectedSlots.length === 0}
+              disabled={enrolling}
               className="w-full py-3.5 rounded-xl font-bold text-sm text-white transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               style={{ background: '#F5A623', boxShadow: '0 4px 20px rgba(245,166,35,0.25)' }}>
-              ✓ Confirm Enrollment (Demo)
+              {enrolling ? 'Submitting…' : '✓ Confirm Enrollment'}
             </button>
           </div>
         </div>
@@ -512,7 +538,6 @@ export default function IELTSCoachingTab() {
 function TrainerCard({ trainer, onView, onEnroll }: { trainer: Trainer; onView: () => void; onEnroll: () => void }) {
   return (
     <div className="rounded-2xl border border-white/8 bg-white/3 p-5 hover:border-[#F5A623]/40 hover:bg-[#F5A623]/4 transition-all group">
-      {/* Top row */}
       <div className="flex items-start gap-3 mb-4">
         <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#F5A623]/25 to-[#00C9A7]/25 border-2 border-[#F5A623]/50 flex items-center justify-center text-sm font-black text-white shrink-0 group-hover:border-[#F5A623] transition-colors">
           {initials(trainer.name)}
@@ -521,7 +546,7 @@ function TrainerCard({ trainer, onView, onEnroll }: { trainer: Trainer; onView: 
           <div className="flex items-start justify-between gap-2">
             <div>
               <p className="font-bold text-white leading-tight">{trainer.name}</p>
-              <p className="text-xs text-blue-300/60">{trainer.city} · {trainer.experience}</p>
+              <p className="text-xs text-blue-300/60">{[trainer.city, trainer.experience].filter(Boolean).join(' · ')}</p>
             </div>
             {trainer.demoAvailable && (
               <span className="text-[10px] font-bold bg-green-500/15 text-green-400 border border-green-500/25 px-2 py-0.5 rounded-full shrink-0">
@@ -537,7 +562,6 @@ function TrainerCard({ trainer, onView, onEnroll }: { trainer: Trainer; onView: 
         </div>
       </div>
 
-      {/* Exam types */}
       <div className="flex flex-wrap gap-1.5 mb-3">
         {trainer.examTypes.map(e => (
           <span key={e} className="px-2 py-0.5 text-[11px] font-semibold bg-white/6 text-blue-300/80 border border-white/10 rounded-md">
@@ -546,34 +570,34 @@ function TrainerCard({ trainer, onView, onEnroll }: { trainer: Trainer; onView: 
         ))}
       </div>
 
-      {/* Slots */}
-      <div className="flex flex-wrap gap-1 mb-3">
-        {trainer.slots.slice(0, 4).map(s => (
-          <span key={s} className="px-2 py-0.5 text-[11px] bg-[#00C9A7]/8 text-[#00C9A7] border border-[#00C9A7]/20 rounded-md">
-            {s}
-          </span>
-        ))}
-        {trainer.slots.length > 4 && (
-          <span className="px-2 py-0.5 text-[11px] text-blue-400/50">+{trainer.slots.length - 4}</span>
-        )}
-      </div>
-
-      {/* Improvement + fee */}
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-1.5">
-          <span className="text-[#00C9A7] text-sm">📈</span>
-          <span className="text-xs font-semibold text-[#00C9A7]">{trainer.avgImprovement}</span>
+      {trainer.slots.length > 0 && (
+        <div className="flex flex-wrap gap-1 mb-3">
+          {trainer.slots.slice(0, 4).map(s => (
+            <span key={s} className="px-2 py-0.5 text-[11px] bg-[#00C9A7]/8 text-[#00C9A7] border border-[#00C9A7]/20 rounded-md">
+              {s}
+            </span>
+          ))}
+          {trainer.slots.length > 4 && (
+            <span className="px-2 py-0.5 text-[11px] text-blue-400/50">+{trainer.slots.length - 4}</span>
+          )}
         </div>
+      )}
+
+      <div className="flex items-center justify-between mb-4">
+        {trainer.avgImprovement ? (
+          <div className="flex items-center gap-1.5">
+            <span className="text-[#00C9A7] text-sm">📈</span>
+            <span className="text-xs font-semibold text-[#00C9A7]">{trainer.avgImprovement}</span>
+          </div>
+        ) : <span />}
         <div className="text-right">
           <p className="text-[10px] text-blue-400/50">Monthly</p>
           <p className="text-lg font-black text-[#F5A623]">₹{trainer.fee.toLocaleString()}</p>
         </div>
       </div>
 
-      {/* Students count */}
       <p className="text-[11px] text-blue-400/50 mb-4">👥 {trainer.students} students trained</p>
 
-      {/* Buttons */}
       <div className="flex gap-2">
         <button onClick={onView}
           className="flex-1 py-2.5 text-xs font-bold border border-white/15 text-blue-200 hover:border-white/30 hover:text-white rounded-xl transition-all">

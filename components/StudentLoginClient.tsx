@@ -1,11 +1,22 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import {
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  signInWithPhoneNumber,
+  RecaptchaVerifier,
+  type ConfirmationResult,
+} from 'firebase/auth';
+import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
+import { auth, db } from '@/lib/firebase';
+import { useAuth } from '@/lib/auth-context';
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 type Tab = 'password' | 'otp' | 'register';
+type OtpPhase = 'phone' | 'verify';
 
 const COUNTRIES = ['Canada', 'UK', 'Australia', 'USA', 'Germany', 'Ireland', 'New Zealand', 'Singapore'];
 const BUDGETS   = [
@@ -29,9 +40,41 @@ const SELECT_CLS =
   'border border-white/15 focus:border-[#F5A623] ' +
   'bg-[#0B1437] appearance-none cursor-pointer';
 
+// ── Firebase error → Hindi/English message ─────────────────────────────────────
+function mapAuthError(err: unknown): string {
+  const code = (err as { code?: string })?.code || '';
+  switch (code) {
+    case 'auth/wrong-password':
+    case 'auth/invalid-credential':
+    case 'auth/invalid-login-credentials':
+      return 'Galat password. Dobara try karein.';
+    case 'auth/user-not-found':
+      return 'Account nahi mila. Register karein.';
+    case 'auth/too-many-requests':
+      return 'Bahut zyada attempts ho gaye. Kuch der baad try karein.';
+    case 'auth/invalid-email':
+      return 'Email sahi format mein nahi hai.';
+    case 'auth/email-already-in-use':
+      return 'Yeh email already registered hai. Login karein.';
+    case 'auth/weak-password':
+      return 'Password kam se kam 6 characters ka hona chahiye.';
+    case 'auth/invalid-phone-number':
+      return 'Phone number sahi format mein nahi hai. Try: +91 98765 43210';
+    case 'auth/invalid-verification-code':
+      return 'Galat OTP. Dobara try karein.';
+    case 'auth/code-expired':
+      return 'OTP expire ho gaya. Naya OTP bhejein.';
+    default:
+      return (err as { message?: string })?.message || 'Kuch error hua. Dobara try karein.';
+  }
+}
+
 // ── Component ─────────────────────────────────────────────────────────────────
 export default function StudentLoginClient() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const returnUrl = searchParams.get('returnUrl') || '/dashboard/student';
+  const { currentUser, loading: authLoading } = useAuth();
   const [tab, setTab] = useState<Tab>('password');
 
   // ── Password state
@@ -40,14 +83,19 @@ export default function StudentLoginClient() {
   const [showPwd, setShowPwd]   = useState(false);
 
   // ── OTP state
+  const [otpPhase, setOtpPhase] = useState<OtpPhase>('phone');
+  const [phone, setPhone] = useState('');
   const [otpVal, setOtpVal] = useState(['', '', '', '', '', '']);
   const otpRefs = useRef<(HTMLInputElement | null)[]>([]);
+  const recaptchaRef = useRef<RecaptchaVerifier | null>(null);
+  const confirmationRef = useRef<ConfirmationResult | null>(null);
 
   // ── Register state
   const [reg, setReg] = useState({
-    fullName: '', email: '', phone: '',
+    fullName: '', email: '', password: '', phone: '',
     country: '', course: '', budget: '',
   });
+  const [showRegPwd, setShowRegPwd] = useState(false);
   const [checks, setChecks] = useState({ c1: false, c2: false, c3: false });
   const [regSuccess, setRegSuccess] = useState(false);
 
@@ -57,41 +105,73 @@ export default function StudentLoginClient() {
 
   // Redirect if already logged in
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      if (localStorage.getItem('joc_student_auth')) router.replace('/dashboard/student');
-    }
-  }, [router]);
+    if (!authLoading && currentUser) router.replace(returnUrl);
+  }, [authLoading, currentUser, router, returnUrl]);
 
-  // ── Password login ─────────────────────────────────────────────────────────
-  function handlePasswordLogin(e: React.FormEvent) {
-    e.preventDefault();
+  function switchTab(t: Tab) {
+    setTab(t);
     setError('');
-    setLoading(true);
-    setTimeout(() => {
-      if (email === 'student@demo.com' && password === 'demo123') {
-        localStorage.setItem('joc_student_auth', JSON.stringify({ email, name: 'Rahul Sharma', loginTime: Date.now() }));
-        router.push('/dashboard/student');
-      } else {
-        setError('Invalid credentials. Try student@demo.com / demo123');
-        setLoading(false);
-      }
-    }, 800);
+    setOtpPhase('phone');
+    setOtpVal(['', '', '', '', '', '']);
   }
 
-  // ── OTP login ──────────────────────────────────────────────────────────────
-  function handleOTPLogin(e: React.FormEvent) {
+  // ── Password login ─────────────────────────────────────────────────────────
+  async function handlePasswordLogin(e: React.FormEvent) {
     e.preventDefault();
     setError('');
     setLoading(true);
-    setTimeout(() => {
-      if (otpVal.join('') === '123456') {
-        localStorage.setItem('joc_student_auth', JSON.stringify({ email: 'student@demo.com', name: 'Rahul Sharma', loginTime: Date.now() }));
-        router.push('/dashboard/student');
-      } else {
-        setError('Invalid OTP. Demo OTP is 123456');
-        setLoading(false);
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      router.push(returnUrl);
+    } catch (err) {
+      setError(mapAuthError(err));
+      setLoading(false);
+    }
+  }
+
+  // ── OTP: send code ────────────────────────────────────────────────────────
+  async function handleSendOtp(e: React.FormEvent) {
+    e.preventDefault();
+    setError('');
+    setLoading(true);
+    try {
+      if (!recaptchaRef.current) {
+        recaptchaRef.current = new RecaptchaVerifier(auth, 'recaptcha-container', { size: 'invisible' });
       }
-    }, 800);
+      const digits = phone.replace(/\D/g, '');
+      const fullPhone = phone.trim().startsWith('+') ? phone.trim() : `+91${digits}`;
+      const result = await signInWithPhoneNumber(auth, fullPhone, recaptchaRef.current);
+      confirmationRef.current = result;
+      setOtpPhase('verify');
+    } catch (err) {
+      setError(mapAuthError(err));
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  // ── OTP: verify code ──────────────────────────────────────────────────────
+  async function handleVerifyOtp(e: React.FormEvent) {
+    e.preventDefault();
+    setError('');
+    setLoading(true);
+    try {
+      if (!confirmationRef.current) throw new Error('Send OTP dobara try karein.');
+      const cred = await confirmationRef.current.confirm(otpVal.join(''));
+      const uid = cred.user.uid;
+      const snap = await getDoc(doc(db, 'users', uid));
+      if (!snap.exists()) {
+        await setDoc(doc(db, 'users', uid), {
+          name: '', email: '', phone: cred.user.phoneNumber || phone,
+          targetCountry: '', budget: '', interestedCourse: '',
+          role: 'student', createdAt: serverTimestamp(),
+        });
+      }
+      router.push(returnUrl);
+    } catch (err) {
+      setError(mapAuthError(err));
+      setLoading(false);
+    }
   }
 
   function handleOtpInput(i: number, v: string) {
@@ -130,7 +210,20 @@ export default function StudentLoginClient() {
     setLoading(true);
 
     try {
-      // Submit to Formspree
+      const cred = await createUserWithEmailAndPassword(auth, reg.email, reg.password);
+
+      await setDoc(doc(db, 'users', cred.user.uid), {
+        name: reg.fullName,
+        email: reg.email,
+        phone: reg.phone,
+        targetCountry: reg.country,
+        budget: reg.budget,
+        interestedCourse: reg.course,
+        role: 'student',
+        createdAt: serverTimestamp(),
+      });
+
+      // Admin notification backup (Formspree) — fire and forget
       const formData = new FormData();
       formData.append('Full Name',        reg.fullName);
       formData.append('Email',            reg.email);
@@ -139,24 +232,16 @@ export default function StudentLoginClient() {
       formData.append('Interested Course',reg.course);
       formData.append('Budget Range',     reg.budget);
       formData.append('Source',           'Student Portal Registration');
-
-      await fetch('https://formspree.io/f/xgoqzezk', {
+      fetch('https://formspree.io/f/xgoqzezk', {
         method: 'POST',
         body: formData,
         headers: { Accept: 'application/json' },
-      });
-
-      // Save to localStorage & auto-login
-      const authPayload = { email: reg.email, name: reg.fullName, phone: reg.phone, country: reg.country, loginTime: Date.now(), isNewUser: true };
-      localStorage.setItem('joc_student_auth', JSON.stringify(authPayload));
-
-      // Save registration data separately for dashboard use
-      localStorage.setItem('joc_student_profile', JSON.stringify({ ...reg, registeredAt: new Date().toISOString() }));
+      }).catch(() => {});
 
       setRegSuccess(true);
-      setTimeout(() => router.push('/dashboard/student'), 1500);
-    } catch {
-      setError('Submission failed. Please try again.');
+      setTimeout(() => router.push(returnUrl), 1500);
+    } catch (err) {
+      setError(mapAuthError(err));
       setLoading(false);
     }
   }
@@ -184,7 +269,7 @@ export default function StudentLoginClient() {
         </Link>
         <div className="flex items-center gap-3">
           <Link
-            href="/dashboard/trainer"
+            href="/trainer-dashboard"
             className="text-xs font-semibold px-3 py-1.5 rounded-lg border border-[#F5A623]/40 text-[#F5A623] hover:bg-[#F5A623]/10 transition-colors"
           >
             Trainer Login
@@ -219,7 +304,7 @@ export default function StudentLoginClient() {
           {TABS.map(t => (
             <button
               key={t.key}
-              onClick={() => { setTab(t.key); setError(''); }}
+              onClick={() => switchTab(t.key)}
               className={[
                 'flex-1 py-3.5 text-sm font-semibold transition-all',
                 tab === t.key
@@ -239,7 +324,7 @@ export default function StudentLoginClient() {
             <form onSubmit={handlePasswordLogin} className="space-y-5">
               <Field label="Email Address">
                 <input type="email" value={email} onChange={e => setEmail(e.target.value)}
-                  placeholder="student@demo.com" required className={INPUT_CLS} />
+                  placeholder="you@example.com" required className={INPUT_CLS} />
               </Field>
 
               <Field label="Password">
@@ -263,21 +348,36 @@ export default function StudentLoginClient() {
 
               <SubmitBtn loading={loading} label="🔐 Sign In to Dashboard" loadingLabel="Signing in…" />
 
-              <DemoHint />
+              <p className="text-center text-xs text-blue-400/40 pt-1">
+                New here?{' '}
+                <button type="button" onClick={() => switchTab('register')}
+                  className="text-[#F5A623] hover:underline">
+                  Create an account
+                </button>
+              </p>
             </form>
           )}
 
           {/* ── OTP ──────────────────────────────────────────────────────── */}
-          {tab === 'otp' && (
-            <form onSubmit={handleOTPLogin} className="space-y-6">
-              <Field label="Registered Mobile / Email">
-                <input type="text" placeholder="+91 98765 43210 or email" className={INPUT_CLS} />
+          {tab === 'otp' && otpPhase === 'phone' && (
+            <form onSubmit={handleSendOtp} className="space-y-6">
+              <Field label="Registered Mobile Number">
+                <input type="tel" value={phone} onChange={e => setPhone(e.target.value)}
+                  placeholder="+91 98765 43210" required className={INPUT_CLS} />
               </Field>
 
+              <ErrorBox msg={error} />
+
+              <SubmitBtn loading={loading} label="📲 Send OTP" loadingLabel="Sending OTP…" />
+            </form>
+          )}
+
+          {tab === 'otp' && otpPhase === 'verify' && (
+            <form onSubmit={handleVerifyOtp} className="space-y-6">
               <div>
                 <label className="block text-xs font-semibold text-blue-300/80 mb-3 uppercase tracking-wider">
                   Enter 6-Digit OTP
-                  <span className="ml-2 text-blue-400/45 normal-case font-normal">(Demo: 123456)</span>
+                  <span className="ml-2 text-blue-400/45 normal-case font-normal">sent to {phone}</span>
                 </label>
                 <div className="flex gap-2 justify-between">
                   {otpVal.map((v, i) => (
@@ -291,7 +391,6 @@ export default function StudentLoginClient() {
                       onChange={e => handleOtpInput(i, e.target.value)}
                       onKeyDown={e => handleOtpKey(i, e)}
                       style={{
-                        /* Explicit styles so Tailwind purge can't strip them */
                         background: '#0B1437',
                         color: '#ffffff',
                         border: v ? '2px solid #F5A623' : '1px solid rgba(255,255,255,0.2)',
@@ -316,7 +415,12 @@ export default function StudentLoginClient() {
                 loadingLabel="Verifying…"
               />
 
-              <DemoHint />
+              <p className="text-center text-xs text-blue-400/40 pt-1">
+                <button type="button" onClick={() => { setOtpPhase('phone'); setOtpVal(['', '', '', '', '', '']); setError(''); }}
+                  className="text-[#F5A623] hover:underline">
+                  Change number / resend OTP
+                </button>
+              </p>
             </form>
           )}
 
@@ -353,6 +457,22 @@ export default function StudentLoginClient() {
                       placeholder="rahul@example.com"
                       className={INPUT_CLS}
                     />
+                  </Field>
+
+                  {/* Password */}
+                  <Field label="Password *">
+                    <div className="relative">
+                      <input
+                        type={showRegPwd ? 'text' : 'password'} required minLength={6}
+                        value={reg.password} onChange={e => setRegField('password', e.target.value)}
+                        placeholder="At least 6 characters"
+                        className={INPUT_CLS + ' pr-11'}
+                      />
+                      <button type="button" onClick={() => setShowRegPwd(v => !v)}
+                        className="absolute right-3.5 top-1/2 -translate-y-1/2 text-blue-400/60 hover:text-blue-200 transition-colors">
+                        <EyeIcon open={showRegPwd} />
+                      </button>
+                    </div>
                   </Field>
 
                   {/* Phone */}
@@ -475,7 +595,7 @@ export default function StudentLoginClient() {
 
                   <p className="text-center text-xs text-blue-400/40 pt-1">
                     Already registered?{' '}
-                    <button type="button" onClick={() => setTab('password')}
+                    <button type="button" onClick={() => switchTab('password')}
                       className="text-[#F5A623] hover:underline">
                       Sign in here
                     </button>
@@ -488,9 +608,11 @@ export default function StudentLoginClient() {
         </div>
       </div>
 
+      {/* Invisible reCAPTCHA container for phone auth */}
+      <div id="recaptcha-container" />
+
       {/* Footer */}
       <p className="mt-6 text-xs text-blue-400/35 text-center max-w-sm">
-        Demo portal · Data stored locally in this browser ·{' '}
         <Link href="/book-counselling" className="text-[#F5A623]/60 hover:text-[#F5A623]">
           Book free counselling
         </Link>
@@ -536,19 +658,6 @@ function SubmitBtn({ loading, disabled = false, label, loadingLabel }: {
     >
       {loading ? <><SpinnerIcon />{loadingLabel}</> : label}
     </button>
-  );
-}
-
-function DemoHint() {
-  return (
-    <div className="p-3.5 rounded-xl bg-[#F5A623]/8 border border-[#F5A623]/20">
-      <p className="text-[11px] text-[#F5A623]/80 font-semibold mb-1.5">📌 Demo Credentials</p>
-      <div className="grid grid-cols-2 gap-y-1 text-[11px] text-blue-300/70">
-        <span>Email:</span>    <span className="text-[#F5A623] font-mono">student@demo.com</span>
-        <span>Password:</span> <span className="text-[#F5A623] font-mono">demo123</span>
-        <span>OTP:</span>      <span className="text-[#F5A623] font-mono">123456</span>
-      </div>
-    </div>
   );
 }
 

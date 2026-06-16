@@ -1,127 +1,208 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import {
+  signInWithEmailAndPassword, createUserWithEmailAndPassword,
+} from 'firebase/auth';
+import {
+  doc, getDoc, setDoc, updateDoc, addDoc, getDocs,
+  collection, query, where, serverTimestamp,
+} from 'firebase/firestore';
+import { auth, db } from '@/lib/firebase';
+import { useAuth } from '@/lib/auth-context';
 
-// ── Demo trainer data ─────────────────────────────────────────────────────────
+// ── Types ─────────────────────────────────────────────────────────────────────
 
-const TRAINER_PROFILE_DEFAULT = {
-  name: 'Priya Sharma', city: 'Delhi', bio: 'Ex-British Council examiner. Specialized in Writing Task 2 and Speaking fluency. 95% students achieve target band.',
-  experience: '6', fee: 4500, examTypes: ['IELTS Academic', 'IELTS General'],
-};
+interface TrainerProfile {
+  name: string; email: string; phone: string; specialization: string;
+  bandScore: string; experience: string; rate: string; bio: string;
+  rating?: number; availability?: Record<string, boolean>;
+}
 
-const DEMO_STUDENTS = [
-  { enrollNo: 'JO-IELTS-2026-3421', name: 'Rahul M.', exam: 'IELTS Academic', startDate: '15 Jun 2026', status: 'Active', from: 5.5, target: 7.0 },
-  { enrollNo: 'JO-IELTS-2026-7832', name: 'Sneha K.', exam: 'IELTS General',  startDate: '20 May 2026', status: 'Active', from: 6.0, target: 7.0 },
-  { enrollNo: 'JO-IELTS-2026-1205', name: 'Amit P.',  exam: 'IELTS Academic', startDate: '10 Apr 2026', status: 'Completed', from: 5.0, target: 6.5 },
-  { enrollNo: 'JO-IELTS-2026-5510', name: 'Divya R.', exam: 'IELTS Academic', startDate: '01 Jun 2026', status: 'Active', from: 6.5, target: 7.5 },
-];
+interface Booking {
+  id: string;
+  studentName: string;
+  studentPhone?: string;
+  examType: string;
+  startDate: string;
+  status: string;
+}
 
-const DEMO_BATCHES = [
-  { id: 1, name: 'Morning Batch A', schedule: 'Mon · Wed · Fri · 7:00 AM', students: 4, nextClass: 'Mon 7am', level: 'IELTS Academic 7.0+' },
-  { id: 2, name: 'Evening Batch B', schedule: 'Tue · Thu · 7:00 PM', students: 3, nextClass: 'Tue 7pm', level: 'IELTS General 6.5+' },
-  { id: 3, name: 'Weekend Batch C', schedule: 'Sat · 10:00 AM', students: 5, nextClass: 'Sat 10am', level: 'PTE Academic' },
-];
+interface EarningEntry {
+  id: string;
+  desc: string;
+  amount: number;
+  date: string;
+}
 
 const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
 const TIMES = ['Morning 6–10am', 'Afternoon 12–4pm', 'Evening 6–10pm'];
 
-const DEFAULT_AVAIL: Record<string, boolean> = {
-  'Mon-Morning 6–10am': true, 'Wed-Morning 6–10am': true, 'Fri-Morning 6–10am': true,
-  'Tue-Evening 6–10pm': true, 'Thu-Evening 6–10pm': true,
-};
-
-type TrainerTab = 'availability' | 'students' | 'batches' | 'earnings' | 'profile';
+type TrainerTab = 'availability' | 'students' | 'earnings' | 'profile';
 
 const TABS: { key: TrainerTab; label: string; icon: string }[] = [
   { key: 'availability', label: 'My Availability', icon: '📅' },
   { key: 'students',     label: 'My Students',     icon: '👥' },
-  { key: 'batches',      label: 'My Batches',       icon: '🎓' },
   { key: 'earnings',     label: 'Earnings',         icon: '💰' },
   { key: 'profile',      label: 'My Profile',       icon: '👤' },
 ];
 
 const INPUT = 'w-full px-4 py-3 rounded-xl text-white text-sm placeholder-blue-400/40 focus:outline-none transition-all border border-white/15 focus:border-[#F5A623] bg-[#0B1437]';
 
-// ── Status chip ───────────────────────────────────────────────────────────────
-function Chip({ label, color }: { label: string; color: string }) {
+function mapAuthError(err: unknown): string {
+  const code = (err as { code?: string })?.code || '';
+  switch (code) {
+    case 'auth/wrong-password':
+    case 'auth/invalid-credential':
+    case 'auth/invalid-login-credentials':
+      return 'Galat password. Dobara try karein.';
+    case 'auth/user-not-found':
+      return 'Account nahi mila. Register karein.';
+    case 'auth/email-already-in-use':
+      return 'Yeh email already registered hai. Login karein.';
+    case 'auth/weak-password':
+      return 'Password kam se kam 6 characters ka hona chahiye.';
+    case 'auth/invalid-email':
+      return 'Email sahi format mein nahi hai.';
+    case 'auth/too-many-requests':
+      return 'Bahut zyada attempts ho gaye. Kuch der baad try karein.';
+    default:
+      return (err as { message?: string })?.message || 'Kuch error hua. Dobara try karein.';
+  }
+}
+
+function Chip({ label }: { label: string }) {
   const map: Record<string, string> = {
-    Active:    'bg-green-500/15 text-green-400 border-green-500/25',
+    Confirmed: 'bg-green-500/15 text-green-400 border-green-500/25',
     Completed: 'bg-blue-500/15 text-blue-400 border-blue-500/25',
     Pending:   'bg-yellow-500/15 text-yellow-400 border-yellow-500/25',
   };
-  return <span className={`px-2.5 py-0.5 text-xs font-semibold rounded-full border ${map[color] ?? 'bg-gray-500/15 text-gray-400 border-gray-500/25'}`}>{label}</span>;
+  return <span className={`px-2.5 py-0.5 text-xs font-semibold rounded-full border ${map[label] ?? 'bg-gray-500/15 text-gray-400 border-gray-500/25'}`}>{label}</span>;
+}
+
+function Spinner() {
+  return (
+    <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
+      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+    </svg>
+  );
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
 export default function TrainerDashboardClient() {
   const router = useRouter();
-  const [authed, setAuthed]   = useState<boolean | null>(null);
-  const [loginEmail, setLE]   = useState('');
-  const [loginPwd, setLP]     = useState('');
-  const [loginErr, setLErr]   = useState('');
-  const [logging, setLogging] = useState(false);
+  const { currentUser, userProfile, loading: authLoading, signOut, refreshProfile } = useAuth();
+
+  // Auth form state
+  const [authTab, setAuthTab] = useState<'login' | 'register'>('login');
+  const [loginEmail, setLoginEmail] = useState('');
+  const [loginPwd, setLoginPwd] = useState('');
   const [showPwd, setShowPwd] = useState(false);
+  const [authBusy, setAuthBusy] = useState(false);
+  const [authErr, setAuthErr] = useState('');
 
-  const [activeTab, setActiveTab]           = useState<TrainerTab>('availability');
-  const [mobileSidebar, setMobileSidebar]   = useState(false);
-  const [savedBanner, setSavedBanner]       = useState('');
+  const [reg, setReg] = useState({
+    name: '', email: '', password: '', phone: '',
+    specialization: '', bandScore: '', experience: '', rate: '', bio: '',
+  });
 
-  // Availability state
+  // Dashboard state
+  const [activeTab, setActiveTab] = useState<TrainerTab>('availability');
+  const [mobileSidebar, setMobileSidebar] = useState(false);
+  const [savedBanner, setSavedBanner] = useState('');
+  const [dataLoading, setDataLoading] = useState(true);
+
   const [avail, setAvail] = useState<Record<string, boolean>>({});
-
-  // Profile state
-  const [profile, setProfile] = useState(TRAINER_PROFILE_DEFAULT);
-  const [examTypesInput, setExamTypesInput] = useState(TRAINER_PROFILE_DEFAULT.examTypes.join(', '));
-
-  useEffect(() => {
-    const raw = localStorage.getItem('joc_trainer_auth');
-    if (raw) {
-      setAuthed(true);
-      const savedAvail = localStorage.getItem('joc_trainer_avail');
-      setAvail(savedAvail ? JSON.parse(savedAvail) : DEFAULT_AVAIL);
-      const savedProfile = localStorage.getItem('joc_trainer_profile');
-      if (savedProfile) { const p = JSON.parse(savedProfile); setProfile(p); setExamTypesInput(p.examTypes.join(', ')); }
-    } else {
-      setAuthed(false);
-    }
-  }, []);
-
-  // ── Login ──────────────────────────────────────────────────────────────────
-  function handleLogin(e: React.FormEvent) {
-    e.preventDefault(); setLErr(''); setLogging(true);
-    setTimeout(() => {
-      if (loginEmail === 'trainer@demo.com' && loginPwd === 'trainer123') {
-        localStorage.setItem('joc_trainer_auth', JSON.stringify({ email: loginEmail, name: 'Priya Sharma', loginTime: Date.now() }));
-        const savedAvail = localStorage.getItem('joc_trainer_avail');
-        setAvail(savedAvail ? JSON.parse(savedAvail) : DEFAULT_AVAIL);
-        setAuthed(true);
-      } else {
-        setLErr('Invalid credentials. Use trainer@demo.com / trainer123');
-        setLogging(false);
-      }
-    }, 800);
-  }
-
-  function handleLogout() { localStorage.removeItem('joc_trainer_auth'); router.push('/'); }
-
-  function saveAvail() {
-    localStorage.setItem('joc_trainer_avail', JSON.stringify(avail));
-    flash('✅ Availability saved!');
-  }
-
-  function saveProfile() {
-    const p = { ...profile, examTypes: examTypesInput.split(',').map(s => s.trim()).filter(Boolean) };
-    localStorage.setItem('joc_trainer_profile', JSON.stringify(p));
-    setProfile(p);
-    flash('✅ Profile saved!');
-  }
+  const [profile, setProfile] = useState<TrainerProfile | null>(null);
+  const [bookings, setBookings] = useState<Booking[]>([]);
+  const [earnings, setEarnings] = useState<EarningEntry[]>([]);
 
   function flash(msg: string) { setSavedBanner(msg); setTimeout(() => setSavedBanner(''), 2500); }
 
+  // Redirect away if logged in but not a trainer
+  useEffect(() => {
+    if (!authLoading && currentUser && userProfile && userProfile.role !== 'trainer') {
+      router.replace('/student-login');
+    }
+  }, [authLoading, currentUser, userProfile, router]);
+
+  const loadDashboardData = useCallback(async (uid: string) => {
+    setDataLoading(true);
+    try {
+      const [trainerSnap, bookingsSnap, earningsSnap] = await Promise.all([
+        getDoc(doc(db, 'trainers', uid)),
+        getDocs(query(collection(db, 'bookings'), where('trainerId', '==', uid))),
+        getDocs(collection(db, 'trainers', uid, 'earnings')),
+      ]);
+      if (trainerSnap.exists()) setProfile(trainerSnap.data() as TrainerProfile);
+      setAvail((trainerSnap.data()?.availability as Record<string, boolean>) ?? {});
+      setBookings(bookingsSnap.docs.map(d => ({ id: d.id, ...(d.data() as Omit<Booking, 'id'>) })));
+      setEarnings(earningsSnap.docs.map(d => ({ id: d.id, ...(d.data() as Omit<EarningEntry, 'id'>) })));
+    } finally {
+      setDataLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (currentUser && userProfile?.role === 'trainer') loadDashboardData(currentUser.uid);
+  }, [currentUser, userProfile, loadDashboardData]);
+
+  // ── Auth handlers ────────────────────────────────────────────────────────
+  async function handleLogin(e: React.FormEvent) {
+    e.preventDefault();
+    setAuthErr('');
+    setAuthBusy(true);
+    try {
+      await signInWithEmailAndPassword(auth, loginEmail, loginPwd);
+    } catch (err) {
+      setAuthErr(mapAuthError(err));
+    } finally {
+      setAuthBusy(false);
+    }
+  }
+
+  async function handleRegister(e: React.FormEvent) {
+    e.preventDefault();
+    setAuthErr('');
+    setAuthBusy(true);
+    try {
+      const cred = await createUserWithEmailAndPassword(auth, reg.email, reg.password);
+      await setDoc(doc(db, 'trainers', cred.user.uid), {
+        name: reg.name, email: reg.email, phone: reg.phone,
+        specialization: reg.specialization, bandScore: reg.bandScore,
+        experience: reg.experience, rate: reg.rate, bio: reg.bio,
+        rating: 5.0, availability: {}, createdAt: serverTimestamp(),
+      });
+    } catch (err) {
+      setAuthErr(mapAuthError(err));
+    } finally {
+      setAuthBusy(false);
+    }
+  }
+
+  async function handleLogout() {
+    await signOut();
+    router.push('/');
+  }
+
+  async function saveAvail() {
+    if (!currentUser) return;
+    await updateDoc(doc(db, 'trainers', currentUser.uid), { availability: avail });
+    flash('✅ Availability saved!');
+  }
+
+  async function saveProfile() {
+    if (!currentUser || !profile) return;
+    await updateDoc(doc(db, 'trainers', currentUser.uid), { ...profile });
+    await refreshProfile();
+    flash('✅ Profile saved!');
+  }
+
   // ── Loading ────────────────────────────────────────────────────────────────
-  if (authed === null) {
+  if (authLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center" style={{ background: '#0B1437' }}>
         <div className="w-10 h-10 border-2 border-[#F5A623] border-t-transparent rounded-full animate-spin" />
@@ -129,8 +210,8 @@ export default function TrainerDashboardClient() {
     );
   }
 
-  // ── LOGIN SCREEN ───────────────────────────────────────────────────────────
-  if (!authed) {
+  // ── LOGIN / REGISTER SCREEN ──────────────────────────────────────────────
+  if (!currentUser || userProfile?.role !== 'trainer') {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center px-4 py-10"
         style={{ background: 'linear-gradient(135deg,#060e1f 0%,#0b1437 50%,#0d1e3a 100%)' }}>
@@ -149,45 +230,76 @@ export default function TrainerDashboardClient() {
           style={{ background: 'rgba(11,20,55,0.9)', backdropFilter: 'blur(16px)' }}>
           <div className="px-8 pt-7 pb-5 border-b border-white/8">
             <div className="flex items-center gap-3 mb-1">
-              <h1 className="text-2xl font-black text-white">Trainer Login</h1>
+              <h1 className="text-2xl font-black text-white">Trainer Portal</h1>
               <span className="px-2 py-0.5 text-[10px] font-bold bg-[#00C9A7]/20 text-[#00C9A7] rounded-full border border-[#00C9A7]/30 uppercase tracking-widest">BETA</span>
             </div>
-            <p className="text-sm text-blue-300/60">Manage your students, batches & availability</p>
+            <p className="text-sm text-blue-300/60">Manage your students, batches &amp; availability</p>
           </div>
 
-          <form onSubmit={handleLogin} className="px-8 py-7 space-y-5">
-            <div>
-              <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Email</label>
-              <input type="email" required value={loginEmail} onChange={e => setLE(e.target.value)} placeholder="trainer@demo.com" className={INPUT} />
-            </div>
-            <div>
-              <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Password</label>
-              <div className="relative">
-                <input type={showPwd ? 'text' : 'password'} required value={loginPwd} onChange={e => setLP(e.target.value)} placeholder="••••••••" className={INPUT + ' pr-11'} />
-                <button type="button" onClick={() => setShowPwd(v => !v)} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-blue-400/60 hover:text-blue-200">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
-                </button>
+          <div className="flex border-b border-white/8">
+            {(['login', 'register'] as const).map(t => (
+              <button key={t} onClick={() => { setAuthTab(t); setAuthErr(''); }}
+                className={[
+                  'flex-1 py-3 text-sm font-semibold transition-all',
+                  authTab === t ? 'text-[#00C9A7] border-b-2 border-[#00C9A7] bg-[#00C9A7]/5' : 'text-blue-300/55 hover:text-blue-200',
+                ].join(' ')}>
+                {t === 'login' ? '🔑 Sign In' : '✨ Register'}
+              </button>
+            ))}
+          </div>
+
+          {authTab === 'login' ? (
+            <form onSubmit={handleLogin} className="px-8 py-7 space-y-5">
+              <div>
+                <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Email</label>
+                <input type="email" required value={loginEmail} onChange={e => setLoginEmail(e.target.value)} placeholder="you@example.com" className={INPUT} />
               </div>
-            </div>
-            {loginErr && (
-              <div className="px-3 py-2.5 bg-red-500/10 border border-red-500/20 rounded-lg text-red-300 text-sm">{loginErr}</div>
-            )}
-            <button type="submit" disabled={logging}
-              className="w-full py-3.5 rounded-xl font-bold text-sm text-white flex items-center justify-center gap-2 disabled:opacity-60"
-              style={{ background: '#F5A623', boxShadow: '0 4px 20px rgba(245,166,35,0.25)' }}>
-              {logging ? <><Spinner /> Signing in…</> : '🎯 Sign In to Trainer Portal'}
-            </button>
-            <div className="p-3 rounded-xl bg-[#00C9A7]/8 border border-[#00C9A7]/20 text-[11px] text-center">
-              <p className="text-[#00C9A7]/80 font-semibold mb-1">Demo Credentials</p>
-              <p className="text-blue-300/60">trainer@demo.com / trainer123</p>
-            </div>
-          </form>
+              <div>
+                <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Password</label>
+                <div className="relative">
+                  <input type={showPwd ? 'text' : 'password'} required value={loginPwd} onChange={e => setLoginPwd(e.target.value)} placeholder="••••••••" className={INPUT + ' pr-11'} />
+                  <button type="button" onClick={() => setShowPwd(v => !v)} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-blue-400/60 hover:text-blue-200">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
+                  </button>
+                </div>
+              </div>
+              {authErr && <div className="px-3 py-2.5 bg-red-500/10 border border-red-500/20 rounded-lg text-red-300 text-sm">{authErr}</div>}
+              <button type="submit" disabled={authBusy}
+                className="w-full py-3.5 rounded-xl font-bold text-sm text-white flex items-center justify-center gap-2 disabled:opacity-60"
+                style={{ background: '#F5A623', boxShadow: '0 4px 20px rgba(245,166,35,0.25)' }}>
+                {authBusy ? <><Spinner /> Signing in…</> : '🎯 Sign In to Trainer Portal'}
+              </button>
+            </form>
+          ) : (
+            <form onSubmit={handleRegister} className="px-8 py-7 space-y-4">
+              <input required placeholder="Full Name" value={reg.name} onChange={e => setReg(r => ({ ...r, name: e.target.value }))} className={INPUT} />
+              <input required type="email" placeholder="Email" value={reg.email} onChange={e => setReg(r => ({ ...r, email: e.target.value }))} className={INPUT} />
+              <input required type="password" minLength={6} placeholder="Password (min 6 characters)" value={reg.password} onChange={e => setReg(r => ({ ...r, password: e.target.value }))} className={INPUT} />
+              <input required placeholder="Phone / WhatsApp" value={reg.phone} onChange={e => setReg(r => ({ ...r, phone: e.target.value }))} className={INPUT} />
+              <input required placeholder="Specialization (e.g. IELTS Academic, Writing Task 2)" value={reg.specialization} onChange={e => setReg(r => ({ ...r, specialization: e.target.value }))} className={INPUT} />
+              <div className="grid grid-cols-2 gap-3">
+                <input required placeholder="Your Band Score" value={reg.bandScore} onChange={e => setReg(r => ({ ...r, bandScore: e.target.value }))} className={INPUT} />
+                <input required placeholder="Experience (yrs)" value={reg.experience} onChange={e => setReg(r => ({ ...r, experience: e.target.value }))} className={INPUT} />
+              </div>
+              <input required placeholder="Rate (₹/month)" value={reg.rate} onChange={e => setReg(r => ({ ...r, rate: e.target.value }))} className={INPUT} />
+              <textarea placeholder="Short bio" rows={2} value={reg.bio} onChange={e => setReg(r => ({ ...r, bio: e.target.value }))} className={INPUT + ' resize-none'} />
+              {authErr && <div className="px-3 py-2.5 bg-red-500/10 border border-red-500/20 rounded-lg text-red-300 text-sm">{authErr}</div>}
+              <button type="submit" disabled={authBusy}
+                className="w-full py-3.5 rounded-xl font-bold text-sm text-white flex items-center justify-center gap-2 disabled:opacity-60"
+                style={{ background: '#00C9A7', boxShadow: '0 4px 20px rgba(0,201,167,0.25)' }}>
+                {authBusy ? <><Spinner /> Creating account…</> : '✨ Create Trainer Account'}
+              </button>
+            </form>
+          )}
         </div>
       </div>
     );
   }
 
   // ── DASHBOARD ──────────────────────────────────────────────────────────────
+  const p = profile ?? { name: userProfile?.name ?? 'Trainer', email: userProfile?.email ?? '', phone: '', specialization: '', bandScore: '', experience: '', rate: '', bio: '', rating: 5.0 };
+  const totalEarned = earnings.reduce((sum, e) => sum + (Number(e.amount) || 0), 0);
+
   return (
     <div className="min-h-screen" style={{ background: 'linear-gradient(135deg,#060e1f 0%,#0b1437 100%)' }}>
       {savedBanner && (
@@ -195,7 +307,6 @@ export default function TrainerDashboardClient() {
           style={{ background: '#00C9A7' }}>{savedBanner}</div>
       )}
 
-      {/* Top bar */}
       <header className="border-b border-white/8 bg-[#060e1f]/80 sticky top-0 z-40 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -210,11 +321,11 @@ export default function TrainerDashboardClient() {
           </div>
           <div className="flex items-center gap-3">
             <div className="hidden sm:flex flex-col items-end">
-              <p className="text-sm font-semibold text-white leading-tight">{profile.name}</p>
-              <p className="text-[11px] text-[#00C9A7]/70">{profile.examTypes.join(' · ')}</p>
+              <p className="text-sm font-semibold text-white leading-tight">{p.name}</p>
+              <p className="text-[11px] text-[#00C9A7]/70">{p.specialization}</p>
             </div>
             <div className="w-8 h-8 rounded-full bg-[#00C9A7]/20 border border-[#00C9A7]/40 flex items-center justify-center text-[#00C9A7] font-bold text-sm">
-              {profile.name[0]}
+              {p.name[0]?.toUpperCase() ?? 'T'}
             </div>
             <button onClick={handleLogout} className="text-[11px] text-blue-400/60 hover:text-red-400 transition-colors px-2 py-1 rounded hover:bg-red-500/10">
               Sign Out
@@ -224,7 +335,6 @@ export default function TrainerDashboardClient() {
       </header>
 
       <div className="max-w-7xl mx-auto px-4 py-6 flex gap-6">
-        {/* Sidebar */}
         {mobileSidebar && <div className="fixed inset-0 z-40 bg-black/50 lg:hidden" onClick={() => setMobileSidebar(false)} />}
         <aside className={[
           'shrink-0 w-52 space-y-0.5',
@@ -240,10 +350,13 @@ export default function TrainerDashboardClient() {
             </button>
           ))}
 
-          {/* Quick stats */}
           <div className="mt-5 p-3.5 rounded-xl bg-white/4 border border-white/8 space-y-2">
             <p className="text-[10px] font-bold text-blue-400/50 uppercase tracking-widest mb-2">Quick Stats</p>
-            {[{ l: 'Active Students', v: '7' }, { l: 'Batches', v: '3' }, { l: 'Rating', v: '4.9 ⭐' }, { l: 'This Month', v: '₹31,500' }].map(s => (
+            {[
+              { l: 'Active Students', v: String(bookings.length) },
+              { l: 'Rating', v: `${(p.rating ?? 5.0).toFixed(1)} ⭐` },
+              { l: 'Total Earned', v: `₹${totalEarned.toLocaleString('en-IN')}` },
+            ].map(s => (
               <div key={s.l} className="flex justify-between">
                 <span className="text-xs text-blue-300/50">{s.l}</span>
                 <span className="text-xs font-bold text-white">{s.v}</span>
@@ -252,11 +365,11 @@ export default function TrainerDashboardClient() {
           </div>
         </aside>
 
-        {/* Main */}
         <main className="flex-1 min-w-0">
           <div className="flex items-center gap-3 mb-5">
             <span className="text-2xl">{TABS.find(t => t.key === activeTab)?.icon}</span>
             <h2 className="text-xl font-black text-white">{TABS.find(t => t.key === activeTab)?.label}</h2>
+            {dataLoading && <span className="text-xs text-blue-400/40">Loading…</span>}
           </div>
 
           {/* ── AVAILABILITY ─────────────────────────────────────────────── */}
@@ -264,7 +377,6 @@ export default function TrainerDashboardClient() {
             <div className="space-y-4">
               <p className="text-sm text-blue-300/60">Toggle your available slots. Students can only book times you mark as available.</p>
               <div className="rounded-xl border border-white/8 bg-white/3 overflow-hidden">
-                {/* Header row */}
                 <div className="grid grid-cols-8 border-b border-white/8">
                   <div className="px-3 py-3 text-[11px] font-bold text-blue-400/50 uppercase tracking-wider">Slot</div>
                   {DAYS.map(d => (
@@ -303,57 +415,31 @@ export default function TrainerDashboardClient() {
           {/* ── STUDENTS ─────────────────────────────────────────────────── */}
           {activeTab === 'students' && (
             <div className="space-y-3">
-              {/* Pull from localStorage enrollments too */}
-              {[...DEMO_STUDENTS].map((s, i) => (
-                <div key={i} className="rounded-xl border border-white/8 bg-white/3 p-4 flex items-start justify-between gap-3 flex-wrap">
+              {!dataLoading && bookings.length === 0 && (
+                <div className="rounded-xl border border-white/8 bg-white/3 p-12 text-center">
+                  <p className="text-5xl mb-3">👥</p>
+                  <p className="text-white font-bold mb-1">No students yet</p>
+                  <p className="text-sm text-blue-400/50">Students who book a demo class with you will appear here.</p>
+                </div>
+              )}
+              {bookings.map(b => (
+                <div key={b.id} className="rounded-xl border border-white/8 bg-white/3 p-4 flex items-start justify-between gap-3 flex-wrap">
                   <div>
                     <div className="flex items-center gap-2 mb-1">
                       <div className="w-8 h-8 rounded-full bg-[#F5A623]/20 border border-[#F5A623]/40 flex items-center justify-center text-xs font-bold text-[#F5A623]">
-                        {s.name[0]}
+                        {b.studentName?.[0]?.toUpperCase() ?? 'S'}
                       </div>
                       <div>
-                        <p className="text-sm font-bold text-white">{s.name}</p>
-                        <p className="text-[11px] text-blue-400/50">{s.enrollNo}</p>
+                        <p className="text-sm font-bold text-white">{b.studentName}</p>
+                        {b.studentPhone && <p className="text-[11px] text-blue-400/50">{b.studentPhone}</p>}
                       </div>
                     </div>
                     <div className="flex flex-wrap gap-2 mt-2">
-                      <span className="text-[11px] text-blue-300/70 bg-white/5 px-2 py-0.5 rounded">{s.exam}</span>
-                      <span className="text-[11px] text-blue-300/70 bg-white/5 px-2 py-0.5 rounded">Start: {s.startDate}</span>
-                      <span className="text-[11px] text-[#00C9A7] bg-[#00C9A7]/8 px-2 py-0.5 rounded">Band {s.from} → {s.target}</span>
+                      <span className="text-[11px] text-blue-300/70 bg-white/5 px-2 py-0.5 rounded">{b.examType}</span>
+                      <span className="text-[11px] text-blue-300/70 bg-white/5 px-2 py-0.5 rounded">Start: {b.startDate}</span>
                     </div>
                   </div>
-                  <Chip label={s.status} color={s.status} />
-                </div>
-              ))}
-            </div>
-          )}
-
-          {/* ── BATCHES ──────────────────────────────────────────────────── */}
-          {activeTab === 'batches' && (
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {DEMO_BATCHES.map(b => (
-                <div key={b.id} className="rounded-xl border border-white/8 bg-white/3 p-5">
-                  <div className="flex items-center justify-between mb-3">
-                    <p className="font-bold text-white">{b.name}</p>
-                    <span className="text-xs bg-[#00C9A7]/10 text-[#00C9A7] border border-[#00C9A7]/25 px-2 py-0.5 rounded-full">{b.students} students</span>
-                  </div>
-                  <div className="space-y-2 text-xs">
-                    <div className="flex justify-between">
-                      <span className="text-blue-400/50">Schedule</span>
-                      <span className="text-white font-medium">{b.schedule}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-blue-400/50">Level</span>
-                      <span className="text-white font-medium">{b.level}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-blue-400/50">Next Class</span>
-                      <span className="text-[#F5A623] font-bold">{b.nextClass}</span>
-                    </div>
-                  </div>
-                  <button className="mt-4 w-full py-2 text-xs font-semibold border border-white/12 text-blue-200 hover:bg-white/6 rounded-lg transition-colors">
-                    View Students
-                  </button>
+                  <Chip label={b.status} />
                 </div>
               ))}
             </div>
@@ -361,52 +447,8 @@ export default function TrainerDashboardClient() {
 
           {/* ── EARNINGS ─────────────────────────────────────────────────── */}
           {activeTab === 'earnings' && (
-            <div className="space-y-5">
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                {[
-                  { label: 'This Week', value: '₹13,500', sub: '3 active students', color: 'text-[#00C9A7]' },
-                  { label: 'This Month', value: '₹31,500', sub: '7 active students', color: 'text-[#F5A623]' },
-                  { label: 'Total Earned', value: '₹1,87,500', sub: 'Since joining Apr 2024', color: 'text-white' },
-                ].map(s => (
-                  <div key={s.label} className="rounded-xl border border-white/8 bg-white/3 p-5 text-center">
-                    <p className={`text-2xl font-black ${s.color}`}>{s.value}</p>
-                    <p className="text-xs text-white font-semibold mt-1">{s.label}</p>
-                    <p className="text-[11px] text-blue-400/50 mt-0.5">{s.sub}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="rounded-xl border border-white/8 bg-white/3 p-5">
-                <p className="text-sm font-bold text-white mb-4">Recent Transactions</p>
-                <div className="space-y-3">
-                  {[
-                    { desc: 'Rahul M. – IELTS Academic', date: '1 Jun 2026', amount: '+₹4,500', status: 'Paid' },
-                    { desc: 'Sneha K. – IELTS General', date: '1 Jun 2026', amount: '+₹4,500', status: 'Paid' },
-                    { desc: 'Divya R. – IELTS Academic', date: '1 Jun 2026', amount: '+₹4,500', status: 'Paid' },
-                    { desc: 'Amit P. – Completion Bonus', date: '15 May 2026', amount: '+₹2,000', status: 'Paid' },
-                  ].map((t, i) => (
-                    <div key={i} className="flex items-center justify-between text-sm border-b border-white/5 pb-3 last:border-0 last:pb-0">
-                      <div>
-                        <p className="text-white font-medium">{t.desc}</p>
-                        <p className="text-[11px] text-blue-400/50">{t.date}</p>
-                      </div>
-                      <div className="text-right">
-                        <p className="text-green-400 font-bold">{t.amount}</p>
-                        <p className="text-[11px] text-green-400/60">{t.status}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="rounded-xl border border-[#F5A623]/20 bg-[#F5A623]/6 p-4 flex items-center gap-3">
-                <span className="text-2xl">💸</span>
-                <div>
-                  <p className="text-sm font-bold text-[#F5A623]">Weekly Payouts Every Monday</p>
-                  <p className="text-xs text-blue-300/60">Next payout: Monday 9 Jun 2026 · Estimated ₹13,500</p>
-                </div>
-              </div>
-            </div>
+            <EarningsTab uid={currentUser.uid} earnings={earnings} totalEarned={totalEarned} loading={dataLoading}
+              onChange={() => loadDashboardData(currentUser.uid)} />
           )}
 
           {/* ── PROFILE ──────────────────────────────────────────────────── */}
@@ -415,35 +457,39 @@ export default function TrainerDashboardClient() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Full Name</label>
-                  <input value={profile.name} onChange={e => setProfile(p => ({ ...p, name: e.target.value }))} className={INPUT} />
+                  <input value={p.name} onChange={e => setProfile({ ...p, name: e.target.value })} className={INPUT} />
                 </div>
                 <div>
-                  <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">City</label>
-                  <input value={profile.city} onChange={e => setProfile(p => ({ ...p, city: e.target.value }))} className={INPUT} />
+                  <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Phone</label>
+                  <input value={p.phone} onChange={e => setProfile({ ...p, phone: e.target.value })} className={INPUT} />
                 </div>
               </div>
 
               <div>
                 <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Bio</label>
-                <textarea rows={3} value={profile.bio} onChange={e => setProfile(p => ({ ...p, bio: e.target.value }))}
+                <textarea rows={3} value={p.bio} onChange={e => setProfile({ ...p, bio: e.target.value })}
                   className={INPUT + ' resize-none'} />
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Experience (years)</label>
-                  <input type="number" value={profile.experience} onChange={e => setProfile(p => ({ ...p, experience: e.target.value }))} className={INPUT} />
+                  <input value={p.experience} onChange={e => setProfile({ ...p, experience: e.target.value })} className={INPUT} />
                 </div>
                 <div>
-                  <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Monthly Fee (₹)</label>
-                  <input type="number" value={profile.fee} onChange={e => setProfile(p => ({ ...p, fee: Number(e.target.value) }))} className={INPUT} />
+                  <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Rate (₹/month)</label>
+                  <input value={p.rate} onChange={e => setProfile({ ...p, rate: e.target.value })} className={INPUT} />
                 </div>
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Exam Types (comma separated)</label>
-                <input value={examTypesInput} onChange={e => setExamTypesInput(e.target.value)}
-                  placeholder="IELTS Academic, IELTS General, PTE Academic" className={INPUT} />
+                <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Specialization</label>
+                <input value={p.specialization} onChange={e => setProfile({ ...p, specialization: e.target.value })} className={INPUT} />
+              </div>
+
+              <div>
+                <label className="block text-xs font-semibold text-blue-300/80 mb-2 uppercase tracking-wider">Band Score</label>
+                <input value={p.bandScore} onChange={e => setProfile({ ...p, bandScore: e.target.value })} className={INPUT} />
               </div>
 
               <button onClick={saveProfile}
@@ -459,11 +505,86 @@ export default function TrainerDashboardClient() {
   );
 }
 
-function Spinner() {
+// ── Earnings (manual entry) ───────────────────────────────────────────────────
+
+function EarningsTab({ uid, earnings, totalEarned, loading, onChange }: {
+  uid: string; earnings: EarningEntry[]; totalEarned: number; loading: boolean; onChange: () => void;
+}) {
+  const [showForm, setShowForm] = useState(false);
+  const [saving, setSaving] = useState(false);
+  const [form, setForm] = useState({ desc: '', amount: '', date: new Date().toISOString().slice(0, 10) });
+
+  async function handleAdd(e: React.FormEvent) {
+    e.preventDefault();
+    setSaving(true);
+    try {
+      await addDoc(collection(db, 'trainers', uid, 'earnings'), {
+        desc: form.desc, amount: parseFloat(form.amount) || 0, date: form.date, createdAt: serverTimestamp(),
+      });
+      setForm({ desc: '', amount: '', date: new Date().toISOString().slice(0, 10) });
+      setShowForm(false);
+      onChange();
+    } finally {
+      setSaving(false);
+    }
+  }
+
   return (
-    <svg className="animate-spin w-4 h-4" fill="none" viewBox="0 0 24 24">
-      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-    </svg>
+    <div className="space-y-5">
+      <div className="rounded-xl border border-white/8 bg-white/3 p-5 text-center max-w-xs">
+        <p className="text-2xl font-black text-white">₹{totalEarned.toLocaleString('en-IN')}</p>
+        <p className="text-xs text-blue-400/50 mt-1">Total Earned (manual entries)</p>
+      </div>
+
+      <div className="flex justify-end">
+        <button onClick={() => setShowForm(v => !v)}
+          className="px-4 py-2 text-xs font-semibold text-white rounded-lg transition-colors"
+          style={{ background: '#00C9A7' }}>
+          {showForm ? 'Cancel' : '+ Add Earning Entry'}
+        </button>
+      </div>
+
+      {showForm && (
+        <form onSubmit={handleAdd} className="rounded-xl border border-white/8 bg-white/3 p-4 space-y-3">
+          <input required placeholder="Description (e.g. Rahul M. — IELTS Academic)" value={form.desc}
+            onChange={e => setForm(f => ({ ...f, desc: e.target.value }))} className={INPUT} />
+          <div className="grid grid-cols-2 gap-3">
+            <input required type="number" placeholder="Amount (₹)" value={form.amount}
+              onChange={e => setForm(f => ({ ...f, amount: e.target.value }))} className={INPUT} />
+            <input type="date" value={form.date} onChange={e => setForm(f => ({ ...f, date: e.target.value }))} className={INPUT} />
+          </div>
+          <button type="submit" disabled={saving}
+            className="px-4 py-2 text-xs font-semibold text-white rounded-lg transition-colors disabled:opacity-50"
+            style={{ background: '#00C9A7' }}>
+            {saving ? 'Saving…' : 'Save Entry'}
+          </button>
+        </form>
+      )}
+
+      {!loading && earnings.length === 0 && (
+        <div className="rounded-xl border border-white/8 bg-white/3 p-12 text-center">
+          <p className="text-5xl mb-3">💰</p>
+          <p className="text-white font-bold mb-1">No earnings recorded yet</p>
+          <p className="text-sm text-blue-400/50">Add your first entry above.</p>
+        </div>
+      )}
+
+      {earnings.length > 0 && (
+        <div className="rounded-xl border border-white/8 bg-white/3 p-5">
+          <p className="text-sm font-bold text-white mb-4">Entries</p>
+          <div className="space-y-3">
+            {[...earnings].reverse().map(e => (
+              <div key={e.id} className="flex items-center justify-between text-sm border-b border-white/5 pb-3 last:border-0 last:pb-0">
+                <div>
+                  <p className="text-white font-medium">{e.desc}</p>
+                  <p className="text-[11px] text-blue-400/50">{e.date}</p>
+                </div>
+                <p className="text-green-400 font-bold">+₹{Number(e.amount).toLocaleString('en-IN')}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
   );
 }

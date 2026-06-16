@@ -6,6 +6,7 @@ import COURSE_CATEGORIES, { COURSE_CATEGORY_SLUGS } from '@/data/course-categori
 import { courses, getCourseBySlug } from '@/data/courses';
 import { universities } from '@/data/universities';
 import LeadForm from '@/components/LeadForm';
+import SaveCourseButton from '@/components/SaveCourseButton';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
 
@@ -761,11 +762,17 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
               <h1 className="text-3xl md:text-4xl font-bold mb-2">{c.name}</h1>
               <p className="text-blue-200 mb-4">{c.duration} · {c.level} · Available in {c.countriesOffered.slice(0, 4).join(', ')}</p>
               <p className="text-blue-100 leading-relaxed max-w-2xl mb-5">{c.description}</p>
-              <div className="flex flex-wrap gap-2">
+              <div className="flex flex-wrap gap-2 mb-5">
                 {c.highlights.map(h => (
                   <span key={h} className="text-xs bg-white/10 text-white px-3 py-1.5 rounded-full">✓ {h}</span>
                 ))}
               </div>
+              <SaveCourseButton
+                slug={c.slug}
+                name={c.name}
+                fee={`${formatUSD(c.avgFeesUSD)} (${formatINR(c.avgFeesINR)})`}
+                ielts={`${c.eligibility.minIELTS}`}
+              />
             </div>
             <div className="bg-white rounded-2xl p-5">
               <LeadForm source={`course-${c.slug}`} defaultCourse={c.name} compact />
