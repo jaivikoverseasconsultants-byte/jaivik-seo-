@@ -9,7 +9,7 @@ export const universities: University[] = [
     livingCostUSD: 20000, livingCostINR: 1680000,
     intakeMonths: ['September'],
     visaApprovalRate: 78, acceptanceRate: 4,
-    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MS Data Science', 'PhD Engineering'],
+    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MS Data Science', 'PhD Engineering', 'MS Supply Chain Management', 'MS Cybersecurity'],
     scholarships: [
       { name: 'MIT Fellowship', amount: 'Full Tuition', eligibility: 'Exceptional research profile' },
       { name: 'IPPF Award', amount: '$25,000/year', eligibility: 'International students' },
@@ -32,7 +32,7 @@ export const universities: University[] = [
     livingCostUSD: 22000, livingCostINR: 1848000,
     intakeMonths: ['September'],
     visaApprovalRate: 76, acceptanceRate: 4,
-    popularCourses: ['MS Computer Science', 'MBA', 'MS Data Science', 'MS Electrical Engineering'],
+    popularCourses: ['MS Computer Science', 'MBA', 'MS Data Science', 'MS Electrical Engineering', 'MS UX Design', 'MS Cybersecurity'],
     scholarships: [
       { name: 'Knight-Hennessy Scholars', amount: 'Full Funding', eligibility: 'Leadership + Academic Excellence' },
       { name: 'Graduate Fellowship', amount: 'Up to $45,000', eligibility: 'PhD students' },
@@ -55,7 +55,7 @@ export const universities: University[] = [
     livingCostUSD: 21000, livingCostINR: 1764000,
     intakeMonths: ['September'],
     visaApprovalRate: 77, acceptanceRate: 4,
-    popularCourses: ['MBA', 'LLM', 'MPH', 'MS Data Science', 'MA Economics'],
+    popularCourses: ['MBA', 'LLM', 'MPH', 'MS Data Science', 'MA Economics', 'MS Healthcare Management', 'MS Human Resource Management'],
     scholarships: [
       { name: 'Harvard Griffin GSAS Fellowship', amount: 'Up to Full Tuition', eligibility: 'PhD applicants' },
       { name: 'HBS Fellowship', amount: '$40,000–60,000', eligibility: 'Demonstrated need' },
@@ -78,7 +78,7 @@ export const universities: University[] = [
     livingCostUSD: 23000, livingCostINR: 1932000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 75, acceptanceRate: 14,
-    popularCourses: ['MS EECS', 'MS Data Science', 'MS Business Analytics', 'MBA (Haas)'],
+    popularCourses: ['MS EECS', 'MS Data Science', 'MS Business Analytics', 'MBA (Haas)', 'MS UX Design', 'MS Cybersecurity'],
     scholarships: [
       { name: 'Berkeley Fellowship', amount: '$25,000/year', eligibility: 'Top 10% applicants' },
       { name: 'Fung Fellowship', amount: '$15,000', eligibility: 'Innovation focus' },
@@ -101,7 +101,7 @@ export const universities: University[] = [
     livingCostUSD: 18000, livingCostINR: 1512000,
     intakeMonths: ['September'],
     visaApprovalRate: 76, acceptanceRate: 15,
-    popularCourses: ['MS Computer Science', 'MS Software Engineering', 'MS AI', 'MS Robotics', 'MBA (Tepper)'],
+    popularCourses: ['MS Computer Science', 'MS Software Engineering', 'MS AI', 'MS Robotics', 'MBA (Tepper)', 'MS Human-Computer Interaction', 'MS UX Design', 'MS Cybersecurity'],
     scholarships: [
       { name: 'CMU Presidential Fellowship', amount: 'Full Tuition + Stipend', eligibility: 'PhD students' },
       { name: 'Dean\'s Fellowship', amount: '$20,000', eligibility: 'Merit-based' },
@@ -124,7 +124,7 @@ export const universities: University[] = [
     livingCostUSD: 16000, livingCostINR: 1344000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 74, acceptanceRate: 21,
-    popularCourses: ['MS CS (OMSCS)', 'MS Electrical Engineering', 'MS Industrial Engineering', 'MBA'],
+    popularCourses: ['MS CS (OMSCS)', 'MS Electrical Engineering', 'MS Industrial Engineering', 'MBA', 'MS Supply Chain Management', 'MS Cybersecurity', 'MS Construction Management'],
     scholarships: [
       { name: 'President\'s Fellowship', amount: '$18,000/year', eligibility: 'Outstanding research' },
       { name: 'GT Fellowship', amount: '$12,000/year', eligibility: 'Undergraduate research' },
@@ -147,7 +147,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 72, acceptanceRate: 62,
-    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MS Aeronautics', 'MS Agricultural Sciences'],
+    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MS Aeronautics', 'MS Agricultural Sciences', 'MS Construction Management', 'MS Cybersecurity'],
     scholarships: [
       { name: 'Purdue Graduate School Excellence', amount: '$16,000/year', eligibility: 'Top 15% applicants' },
     ],
@@ -169,7 +169,7 @@ export const universities: University[] = [
     livingCostUSD: 20000, livingCostINR: 1680000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 73, acceptanceRate: 20,
-    popularCourses: ['MS CS', 'MS Data Science', 'MS Information Systems', 'MS Cybersecurity', 'MBA'],
+    popularCourses: ['MS CS', 'MS Data Science', 'MS Information Systems', 'MS Cybersecurity', 'MBA', 'MS Healthcare Management', 'MS Human Resource Management'],
     scholarships: [
       { name: 'NU Merit Award', amount: 'Up to $25,000', eligibility: 'GRE 320+' },
     ],
@@ -191,7 +191,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 70, acceptanceRate: 88,
-    popularCourses: ['MS CS', 'MS Software Engineering', 'MS Data Science', 'MBA', 'MS Electrical Engineering'],
+    popularCourses: ['MS CS', 'MS Software Engineering', 'MS Data Science', 'MBA', 'MS Electrical Engineering', 'MS Supply Chain Management', 'MS Digital Marketing', 'MS UX Design'],
     scholarships: [
       { name: 'ASU Dean\'s Excellence Award', amount: '$10,000', eligibility: 'GPA 3.5+' },
     ],
@@ -213,7 +213,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 74, acceptanceRate: 45,
-    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MBA (Gies)', 'MS Finance', 'MS MCS'],
+    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MBA (Gies)', 'MS Finance', 'MS MCS', 'MS Supply Chain Management'],
     scholarships: [
       { name: 'Graduate College Fellowship', amount: '$18,000/year', eligibility: 'Outstanding academics' },
     ],
@@ -237,7 +237,7 @@ export const universities: University[] = [
     livingCostUSD: 18000, livingCostINR: 1512000,
     intakeMonths: ['October'],
     visaApprovalRate: 82, acceptanceRate: 17,
-    popularCourses: ['MBA (Said)', 'LLM', 'MSc Computer Science', 'MSc Financial Economics', 'MPP'],
+    popularCourses: ['MBA (Said)', 'LLM', 'MSc Computer Science', 'MSc Financial Economics', 'MPP', 'MSc Digital Marketing', 'MSc Healthcare Management'],
     scholarships: [
       { name: 'Rhodes Scholarship', amount: 'Full Funding', eligibility: 'Exceptional academic + leadership' },
       { name: 'Clarendon Fund', amount: 'Full Fee + Stipend', eligibility: 'Outstanding academics' },
@@ -260,7 +260,7 @@ export const universities: University[] = [
     livingCostUSD: 20000, livingCostINR: 1680000,
     intakeMonths: ['October'],
     visaApprovalRate: 80, acceptanceRate: 14,
-    popularCourses: ['MSc Computing', 'MSc Machine Learning', 'MSc Biomedical Engineering', 'MBA (Imperial)', 'MSc Finance'],
+    popularCourses: ['MSc Computing', 'MSc Machine Learning', 'MSc Biomedical Engineering', 'MBA (Imperial)', 'MSc Finance', 'MSc Renewable Energy', 'MSc Cybersecurity'],
     scholarships: [
       { name: 'President\'s PhD Scholarship', amount: 'Full Funding', eligibility: 'PhD applicants' },
       { name: 'Imperial Bursary', amount: '£5,000–10,000', eligibility: 'Need-based' },
@@ -283,7 +283,7 @@ export const universities: University[] = [
     livingCostUSD: 20000, livingCostINR: 1680000,
     intakeMonths: ['September'],
     visaApprovalRate: 79, acceptanceRate: 27,
-    popularCourses: ['MSc Computer Science', 'MSc Data Science', 'LLM', 'MSc Architecture', 'MSc Finance'],
+    popularCourses: ['MSc Computer Science', 'MSc Data Science', 'LLM', 'MSc Architecture', 'MSc Finance', 'MSc UX Design', 'MSc Digital Marketing', 'MSc Cybersecurity', 'MSc Human Resource Management'],
     scholarships: [
       { name: 'UCL Graduate Research Scholarship', amount: 'Full Funding', eligibility: 'PhD students' },
     ],
@@ -305,7 +305,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['September'],
     visaApprovalRate: 81, acceptanceRate: 35,
-    popularCourses: ['MSc Data Science', 'MSc Computer Science', 'MSc Finance', 'MBA', 'MSc Information Systems'],
+    popularCourses: ['MSc Data Science', 'MSc Computer Science', 'MSc Finance', 'MBA', 'MSc Information Systems', 'MSc Digital Marketing', 'MSc Cybersecurity', 'MSc Healthcare Management', 'MSc Human Resource Management', 'MSc Supply Chain Management'],
     scholarships: [
       { name: 'President\'s Doctoral Scholar Award', amount: '£17,000/year', eligibility: 'PhD students' },
     ],
@@ -327,7 +327,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['September'],
     visaApprovalRate: 82, acceptanceRate: 43,
-    popularCourses: ['MSc Artificial Intelligence', 'MSc Data Science', 'MSc Finance & Investment', 'LLM', 'MSc Software Engineering'],
+    popularCourses: ['MSc Artificial Intelligence', 'MSc Data Science', 'MSc Finance & Investment', 'LLM', 'MSc Software Engineering', 'MSc Renewable Energy', 'MSc Cybersecurity', 'MSc Digital Marketing', 'MSc Human Resource Management'],
     scholarships: [
       { name: 'Edinburgh Global Research Scholarship', amount: 'Tuition reduction', eligibility: 'International students' },
     ],
@@ -351,7 +351,7 @@ export const universities: University[] = [
     livingCostUSD: 15000, livingCostINR: 1260000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 80, acceptanceRate: 35,
-    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'LLM', 'MSc Finance'],
+    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'LLM', 'MSc Finance', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Human Resource Management', 'MSc Cybersecurity', 'MSc Supply Chain Management'],
     scholarships: [
       { name: 'Birmingham International Excellence Scholarship', amount: '£5,000', eligibility: 'International students with academic merit' },
     ],
@@ -373,7 +373,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['September'],
     visaApprovalRate: 80, acceptanceRate: 30,
-    popularCourses: ['MSc Data Science', 'MBA', 'MSc Finance', 'MSc Computer Science', 'LLM'],
+    popularCourses: ['MSc Data Science', 'MBA', 'MSc Finance', 'MSc Computer Science', 'LLM', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Human Resource Management', 'MSc Supply Chain Management', 'MSc Cybersecurity'],
     scholarships: [
       { name: 'Leeds Taught Scholarship', amount: '£2,500', eligibility: 'International master\'s students with 1st class equivalent' },
     ],
@@ -395,7 +395,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 78, acceptanceRate: 65,
-    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'MSc Business Analytics', 'BSc Computer Science'],
+    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'MSc Business Analytics', 'BSc Computer Science', 'MSc Digital Marketing', 'MSc Cybersecurity', 'MSc Construction Management', 'MSc Human Resource Management'],
     scholarships: [
       { name: 'Coventry International Scholarship', amount: '£2,000', eligibility: 'International students with strong academics' },
     ],
@@ -417,7 +417,7 @@ export const universities: University[] = [
     livingCostUSD: 18000, livingCostINR: 1512000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 78, acceptanceRate: 70,
-    popularCourses: ['MSc Computer Science', 'MBA', 'MSc Data Science', 'MSc Cybersecurity', 'BSc Business Management'],
+    popularCourses: ['MSc Computer Science', 'MBA', 'MSc Data Science', 'MSc Cybersecurity', 'BSc Business Management', 'MSc Digital Marketing', 'MSc Human Resource Management', 'MSc UX Design', 'MSc Strength & Conditioning'],
     scholarships: [
       { name: 'Middlesex University International Scholarship', amount: '£3,000', eligibility: 'Merit-based for international students' },
     ],
@@ -439,7 +439,7 @@ export const universities: University[] = [
     livingCostUSD: 16500, livingCostINR: 1386000,
     intakeMonths: ['September'],
     visaApprovalRate: 79, acceptanceRate: 60,
-    popularCourses: ['MSc Data Science', 'MEng Mechanical Engineering', 'MBA', 'MSc Computer Science', 'BSc Business Management'],
+    popularCourses: ['MSc Data Science', 'MEng Mechanical Engineering', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Digital Marketing', 'MSc Construction Management', 'MSc Human Resource Management', 'MSc Healthcare Management'],
     scholarships: [
       { name: 'Brunel International Excellence Scholarship', amount: '£4,000', eligibility: 'International students with strong academics' },
     ],
@@ -461,7 +461,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 77, acceptanceRate: 72,
-    popularCourses: ['MSc Computer Science', 'MBA', 'MSc Data Science', 'BSc Business Management', 'MSc Cybersecurity'],
+    popularCourses: ['MSc Computer Science', 'MBA', 'MSc Data Science', 'BSc Business Management', 'MSc Cybersecurity', 'MSc Digital Marketing', 'MSc Supply Chain Management'],
     scholarships: [
       { name: 'Hertfordshire International Scholarship', amount: '£3,000', eligibility: 'International students with merit' },
     ],
@@ -505,7 +505,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 78, acceptanceRate: 65,
-    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Cybersecurity'],
+    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Cybersecurity', 'MSc Digital Marketing', 'MSc Construction Management'],
     scholarships: [
       { name: 'Portsmouth Global Excellence Scholarship', amount: '£2,000', eligibility: 'International students with merit' },
     ],
@@ -527,7 +527,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 79, acceptanceRate: 60,
-    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Cybersecurity'],
+    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Cybersecurity', 'MSc Digital Marketing', 'MSc Strength & Conditioning', 'MSc Construction Management'],
     scholarships: [
       { name: 'Northumbria Excellence Award', amount: '£3,000', eligibility: 'International students with strong academics' },
     ],
@@ -549,7 +549,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 77, acceptanceRate: 70,
-    popularCourses: ['MSc Computer Science', 'MBA', 'MSc Data Science', 'BSc Business Management', 'MSc Cybersecurity'],
+    popularCourses: ['MSc Computer Science', 'MBA', 'MSc Data Science', 'BSc Business Management', 'MSc Cybersecurity', 'MSc Digital Marketing', 'MSc Human Resource Management'],
     scholarships: [
       { name: 'DMU Global Scholarship', amount: '£2,000', eligibility: 'International students with merit' },
     ],
@@ -571,7 +571,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 78, acceptanceRate: 65,
-    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Fashion Management'],
+    popularCourses: ['MSc Data Science', 'MBA', 'MSc Computer Science', 'BSc Business Management', 'MSc Fashion Management', 'MSc Digital Marketing', 'MSc Supply Chain Management', 'MSc Healthcare Management'],
     scholarships: [
       { name: 'NTU Excellence Scholarship', amount: '£3,000', eligibility: 'International students with strong academics' },
     ],
@@ -617,7 +617,7 @@ export const universities: University[] = [
     livingCostUSD: 17000, livingCostINR: 1428000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 62, acceptanceRate: 43,
-    popularCourses: ['MS Computer Science', 'MBA (Rotman)', 'MS Data Science', 'LLM', 'MS Engineering'],
+    popularCourses: ['MS Computer Science', 'MBA (Rotman)', 'MS Data Science', 'LLM', 'MS Engineering', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Human Resource Management', 'MSc Supply Chain Management'],
     scholarships: [
       { name: 'SGS Fellowships', amount: 'CAD 15,000/year', eligibility: 'PhD students' },
     ],
@@ -639,7 +639,7 @@ export const universities: University[] = [
     livingCostUSD: 19000, livingCostINR: 1596000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 63, acceptanceRate: 53,
-    popularCourses: ['MS Computer Science', 'MBA (Sauder)', 'MS Data Science', 'MS Mining Engineering', 'MSc Statistics'],
+    popularCourses: ['MS Computer Science', 'MBA (Sauder)', 'MS Data Science', 'MS Mining Engineering', 'MSc Statistics', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Supply Chain Management'],
     scholarships: [
       { name: 'International Tuition Award', amount: 'CAD 3,200/year', eligibility: 'International students' },
     ],
@@ -661,7 +661,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 61, acceptanceRate: 53,
-    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MS Data Science', 'MS Mathematics', 'MBA'],
+    popularCourses: ['MS Computer Science', 'MS Electrical Engineering', 'MS Data Science', 'MS Mathematics', 'MBA', 'MS Cybersecurity', 'MS Digital Marketing', 'MS Supply Chain Management'],
     scholarships: [
       { name: 'International Master\'s Award of Excellence', amount: 'CAD 12,500', eligibility: 'Academic excellence' },
     ],
@@ -683,7 +683,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['September', 'January'],
     visaApprovalRate: 62, acceptanceRate: 46,
-    popularCourses: ['MSc Computer Science', 'MBA (Desautels)', 'LLM', 'MSc Economics', 'MSc Finance'],
+    popularCourses: ['MSc Computer Science', 'MBA (Desautels)', 'LLM', 'MSc Economics', 'MSc Finance', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Human Resource Management'],
     scholarships: [
       { name: 'Principal\'s Excellence Scholarship', amount: 'CAD 10,000/year', eligibility: 'Top 5% applicants' },
     ],
@@ -2649,7 +2649,7 @@ export const universities: University[] = [
     livingCostUSD: 17000, livingCostINR: 1428000,
     intakeMonths: ['February', 'July'],
     visaApprovalRate: 85, acceptanceRate: 70,
-    popularCourses: ['Master of CS', 'Master of Data Science', 'MBA', 'Master of Finance', 'Master of Engineering'],
+    popularCourses: ['Master of CS', 'Master of Data Science', 'MBA', 'Master of Finance', 'Master of Engineering', 'Master of Digital Marketing', 'Master of Renewable Energy', 'Master of Construction Management', 'Master of Healthcare Management', 'Master of Human Resource Management'],
     scholarships: [
       { name: 'Melbourne Research Scholarship', amount: 'Full Fees + AUD 32,000/year', eligibility: 'PhD students' },
       { name: 'Graduate Access Melbourne', amount: 'AUD 10,000', eligibility: 'Need-based' },
@@ -2672,7 +2672,7 @@ export const universities: University[] = [
     livingCostUSD: 19000, livingCostINR: 1596000,
     intakeMonths: ['February', 'July'],
     visaApprovalRate: 84, acceptanceRate: 65,
-    popularCourses: ['Master of IT', 'Master of Data Science', 'MBA (AGSM)', 'Master of Engineering', 'Master of Finance'],
+    popularCourses: ['Master of IT', 'Master of Data Science', 'MBA (AGSM)', 'Master of Engineering', 'Master of Finance', 'Master of Digital Marketing', 'Master of Renewable Energy', 'Master of Construction Management', 'Master of Healthcare Management', 'Master of Supply Chain Management'],
     scholarships: [
       { name: 'UNSW Scientia PhD Scholarship', amount: 'Full Tuition + AUD 41,000/year', eligibility: 'PhD students' },
     ],
@@ -2694,7 +2694,7 @@ export const universities: University[] = [
     livingCostUSD: 16000, livingCostINR: 1344000,
     intakeMonths: ['February', 'July'],
     visaApprovalRate: 85, acceptanceRate: 73,
-    popularCourses: ['Master of IT', 'Master of Data Science', 'MBA', 'Master of Pharmacy', 'Master of Finance'],
+    popularCourses: ['Master of IT', 'Master of Data Science', 'MBA', 'Master of Pharmacy', 'Master of Finance', 'Master of Digital Marketing', 'Master of Cybersecurity', 'Master of Construction Management', 'Master of Healthcare Management', 'Master of Human Resource Management'],
     scholarships: [
       { name: 'Monash International Leadership Scholarship', amount: 'AUD 10,000–50% fee reduction', eligibility: 'Leadership + academic merit' },
     ],
@@ -2716,7 +2716,7 @@ export const universities: University[] = [
     livingCostUSD: 13650, livingCostINR: 1146600,
     intakeMonths: ['February', 'July'],
     visaApprovalRate: 85, acceptanceRate: 70,
-    popularCourses: ['Master of IT', 'Master of Engineering', 'Master of Business Analytics', 'Master of Data Science', 'Master of Professional Accounting', 'Bachelor of Engineering (Honours)'],
+    popularCourses: ['Master of IT', 'Master of Engineering', 'Master of Business Analytics', 'Master of Data Science', 'Master of Professional Accounting', 'Bachelor of Engineering (Honours)', 'Master of Cybersecurity', 'Master of Digital Marketing', 'Master of UX Design', 'Master of Construction Management', 'Master of Supply Chain Management'],
     scholarships: [
       { name: 'UTS International Excellence Scholarship', amount: 'AUD 6,000–15,000', eligibility: 'Academic merit' },
       { name: 'UTS President\'s Scholarship', amount: 'AUD 10,000', eligibility: 'High-achieving international students' },
@@ -2923,7 +2923,7 @@ export const universities: University[] = [
     livingCostUSD: 12000, livingCostINR: 1008000,
     intakeMonths: ['February', 'July'],
     visaApprovalRate: 85, acceptanceRate: 65,
-    popularCourses: ['Bachelor of Business', 'Master of Business Administration', 'Bachelor of IT', 'Master of Data Science', 'Bachelor of Laws'],
+    popularCourses: ['Bachelor of Business', 'Master of Business Administration', 'Bachelor of IT', 'Master of Data Science', 'Bachelor of Laws', 'Master of Digital Marketing', 'Master of Healthcare Management', 'Master of Supply Chain Management'],
     scholarships: [
       { name: 'Griffith Remarkable Scholarship', amount: '50% tuition reduction', eligibility: 'Exceptional academic merit — min 85%' },
       { name: 'Griffith International Student Excellence Scholarship', amount: '25% tuition reduction', eligibility: 'Academic merit — min 75%' },
@@ -2971,7 +2971,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ['October', 'April'],
     visaApprovalRate: 72, acceptanceRate: 8,
-    popularCourses: ['MSc Computer Science', 'MSc Data Engineering', 'MSc Mechanical Engineering', 'MSc Aerospace', 'MBA'],
+    popularCourses: ['MSc Computer Science', 'MSc Data Engineering', 'MSc Mechanical Engineering', 'MSc Aerospace', 'MBA', 'MSc Renewable Energy Systems'],
     scholarships: [
       { name: 'DAAD Scholarship', amount: '€861/month', eligibility: 'Academic excellence + German language' },
       { name: 'TUM IGSSE', amount: 'Full PhD Funding', eligibility: 'PhD applicants' },
@@ -3018,7 +3018,7 @@ export const universities: University[] = [
     livingCostUSD: 15000, livingCostINR: 1260000,
     intakeMonths: ['September'],
     visaApprovalRate: 88, acceptanceRate: 30,
-    popularCourses: ['MSc Computer Science', 'MSc Data Analytics', 'MBA', 'LLM', 'MSc Finance'],
+    popularCourses: ['MSc Computer Science', 'MSc Data Analytics', 'MBA', 'LLM', 'MSc Finance', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Human Resource Management', 'MSc Cybersecurity'],
     scholarships: [
       { name: 'Trinity Scholarship', amount: '€5,000 fee reduction', eligibility: 'Merit-based' },
     ],
@@ -3042,7 +3042,7 @@ export const universities: University[] = [
     livingCostUSD: 18000, livingCostINR: 1512000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 90, acceptanceRate: 11,
-    popularCourses: ['MSc Computer Science', 'MBA (NUS)', 'MSc Data Science & ML', 'MSc Finance', 'MSc Information Systems'],
+    popularCourses: ['MSc Computer Science', 'MBA (NUS)', 'MSc Data Science & ML', 'MSc Finance', 'MSc Information Systems', 'MSc Digital Marketing', 'MSc Healthcare Management', 'MSc Supply Chain Management'],
     scholarships: [
       { name: 'NUS Research Scholarship', amount: 'Full Tuition + SGD 2,200/month', eligibility: 'PhD/research track' },
       { name: 'SINGA Scholarship', amount: 'Full Funding', eligibility: 'Top research students' },
@@ -3065,7 +3065,7 @@ export const universities: University[] = [
     livingCostUSD: 17000, livingCostINR: 1428000,
     intakeMonths: ['August', 'January'],
     visaApprovalRate: 89, acceptanceRate: 13,
-    popularCourses: ['MSc Computer Control & Automation', 'MBA', 'MSc Financial Engineering', 'MSc Data Science', 'MSc Civil Engineering'],
+    popularCourses: ['MSc Computer Control & Automation', 'MBA', 'MSc Financial Engineering', 'MSc Data Science', 'MSc Civil Engineering', 'MSc Digital Marketing', 'MSc Supply Chain Management', 'MSc Construction Management'],
     scholarships: [
       { name: 'NTU Research Scholarship', amount: 'Tuition + SGD 2,000/month', eligibility: 'PhD students' },
     ],
@@ -3089,7 +3089,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['February', 'July'],
     visaApprovalRate: 92, acceptanceRate: 60,
-    popularCourses: ['Master of IT', 'MBA', 'Master of Engineering', 'MSc Data Science', 'LLM'],
+    popularCourses: ['Master of IT', 'MBA', 'Master of Engineering', 'MSc Data Science', 'LLM', 'Master of Digital Marketing', 'Master of Healthcare Management', 'Master of Human Resource Management'],
     scholarships: [
       { name: 'University of Auckland Doctoral Scholarship', amount: 'Full Fees + NZD 28,000/year', eligibility: 'PhD students' },
     ],
@@ -3137,7 +3137,7 @@ export const universities: University[] = [
     livingCostUSD: 14000, livingCostINR: 1176000,
     intakeMonths: ['September'],
     visaApprovalRate: 80, acceptanceRate: 25,
-    popularCourses: ['MSc Computer Science', 'MSc Aerospace Engineering', 'MSc Civil Engineering', 'MSc Electrical Engineering', 'MSc Data Science'],
+    popularCourses: ['MSc Computer Science', 'MSc Aerospace Engineering', 'MSc Civil Engineering', 'MSc Electrical Engineering', 'MSc Data Science', 'MSc Renewable Energy Technology', 'MSc Construction Management'],
     scholarships: [
       { name: 'TU Delft Excellence Scholarship', amount: 'Up to €25,000', eligibility: 'Top 5% applicants' },
     ],
@@ -3209,7 +3209,7 @@ export const universities: University[] = [
     livingCostUSD: 17780, livingCostINR: 1493520,
     intakeMonths: ["September"],
     visaApprovalRate: 80, acceptanceRate: 32,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Healthcare Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'Bristol Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3233,7 +3233,7 @@ export const universities: University[] = [
     livingCostUSD: 16510, livingCostINR: 1386840,
     intakeMonths: ["October"],
     visaApprovalRate: 81, acceptanceRate: 35,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Supply Chain Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'Warwick Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3281,7 +3281,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["September"],
     visaApprovalRate: 80, acceptanceRate: 38,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Healthcare Management","MSc Renewable Energy","MSc Human Resource Management"],
     scholarships: [
       { name: 'Glasgow Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3305,7 +3305,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["September"],
     visaApprovalRate: 80, acceptanceRate: 40,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Healthcare Management","MSc Construction Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'Sheffield Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3329,7 +3329,7 @@ export const universities: University[] = [
     livingCostUSD: 16510, livingCostINR: 1386840,
     intakeMonths: ["September"],
     visaApprovalRate: 81, acceptanceRate: 36,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Human Resource Management","MSc Supply Chain Management"],
     scholarships: [
       { name: 'Southampton Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3353,7 +3353,7 @@ export const universities: University[] = [
     livingCostUSD: 15875, livingCostINR: 1333500,
     intakeMonths: ["September"],
     visaApprovalRate: 80, acceptanceRate: 40,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Renewable Energy","MSc Human Resource Management"],
     scholarships: [
       { name: 'Exeter Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3377,7 +3377,7 @@ export const universities: University[] = [
     livingCostUSD: 17145, livingCostINR: 1440180,
     intakeMonths: ["September"],
     visaApprovalRate: 81, acceptanceRate: 38,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Human Resource Management","MSc Supply Chain Management","MSc Construction Management"],
     scholarships: [
       { name: 'Bath Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3401,7 +3401,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["September"],
     visaApprovalRate: 81, acceptanceRate: 42,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Human Resource Management","MSc Supply Chain Management","MSc Healthcare Management"],
     scholarships: [
       { name: 'Nottingham Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3449,7 +3449,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["September"],
     visaApprovalRate: 80, acceptanceRate: 38,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Renewable Energy","MSc Construction Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'Newcastle Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3521,7 +3521,7 @@ export const universities: University[] = [
     livingCostUSD: 14605, livingCostINR: 1226820,
     intakeMonths: ["October"],
     visaApprovalRate: 80, acceptanceRate: 44,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc Artificial Intelligence","LLM","MSc Cybersecurity","MSc Digital Marketing","MSc Human Resource Management"],
     scholarships: [
       { name: 'York Excellence Scholarship', amount: '£5,000–10,000', eligibility: 'Outstanding academic merit' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3617,7 +3617,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["October"],
     visaApprovalRate: 80, acceptanceRate: 44,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Strength & Conditioning","MSc Construction Management","MSc Digital Marketing","MSc Supply Chain Management"],
     scholarships: [
       { name: 'Loughborough International Scholarship', amount: '£3,000–5,000', eligibility: 'Merit-based for international students' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3737,7 +3737,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["September"],
     visaApprovalRate: 79, acceptanceRate: 55,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Renewable Energy","MSc Construction Management","MSc Digital Marketing","MSc Supply Chain Management"],
     scholarships: [
       { name: 'Heriot-Watt International Scholarship', amount: '£3,000–5,000', eligibility: 'Merit-based for international students' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -3761,7 +3761,7 @@ export const universities: University[] = [
     livingCostUSD: 15240, livingCostINR: 1280160,
     intakeMonths: ["September"],
     visaApprovalRate: 79, acceptanceRate: 50,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Renewable Energy","MSc Construction Management","MSc Digital Marketing","MSc Human Resource Management","MSc Healthcare Management"],
     scholarships: [
       { name: 'Strathclyde International Scholarship', amount: '£3,000–5,000', eligibility: 'Merit-based for international students' },
       { name: 'Chevening Scholarship', amount: 'Full Funding', eligibility: 'Outstanding leadership potential' },
@@ -4674,7 +4674,7 @@ export const universities: University[] = [
     livingCostUSD: 15120, livingCostINR: 1270080,
     intakeMonths: ["September"],
     visaApprovalRate: 81, acceptanceRate: 42,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc AI","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc AI","LLM","MSc Digital Marketing","MSc Healthcare Management","MSc Human Resource Management","MSc Supply Chain Management"],
     scholarships: [
       { name: 'UCD International Excellence Scholarship', amount: '€5,000–10,000', eligibility: 'Merit-based for international students' },
       { name: 'Government of Ireland International Education Scholarship', amount: '€10,000/year', eligibility: 'High-achieving international students' },
@@ -4746,7 +4746,7 @@ export const universities: University[] = [
     livingCostUSD: 15120, livingCostINR: 1270080,
     intakeMonths: ["September"],
     visaApprovalRate: 80, acceptanceRate: 55,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Digital Marketing","MSc Healthcare Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'DCU International Excellence Scholarship', amount: '€2,000–5,000', eligibility: 'Merit-based for international students' },
       { name: 'Government of Ireland International Education Scholarship', amount: '€10,000/year', eligibility: 'High-achieving international students' },
@@ -4986,7 +4986,7 @@ export const universities: University[] = [
     livingCostUSD: 12420, livingCostINR: 1043280,
     intakeMonths: ["September"],
     visaApprovalRate: 79, acceptanceRate: 55,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Digital Marketing","MSc Human Resource Management","MSc Healthcare Management"],
     scholarships: [
       { name: 'UL International Excellence Scholarship', amount: '€2,000–5,000', eligibility: 'Merit-based for international students' },
       { name: 'Government of Ireland International Education Scholarship', amount: '€10,000/year', eligibility: 'High-achieving international students' },
@@ -5012,7 +5012,7 @@ export const universities: University[] = [
     livingCostUSD: 13000, livingCostINR: 1092000,
     intakeMonths: ["February","July"],
     visaApprovalRate: 82, acceptanceRate: 40,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc AI","LLM"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Finance","MSc AI","LLM","MSc Digital Marketing","MSc Construction Management","MSc Healthcare Management","MSc Renewable Energy","MSc Human Resource Management"],
     scholarships: [
       { name: 'UQ International Excellence Scholarship', amount: 'AUD 10,000–20,000', eligibility: 'Merit-based for international students' },
       { name: 'Australia Awards Scholarship', amount: 'Full Funding', eligibility: 'Developing country nationals, competitive' },
@@ -5156,7 +5156,7 @@ export const universities: University[] = [
     livingCostUSD: 12350, livingCostINR: 1037400,
     intakeMonths: ["February","July"],
     visaApprovalRate: 80, acceptanceRate: 48,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Digital Marketing","MSc Construction Management","MSc UX Design"],
     scholarships: [
       { name: 'RMIT International Excellence Scholarship', amount: 'AUD 10,000–20,000', eligibility: 'Merit-based for international students' },
       { name: 'Australia Awards Scholarship', amount: 'Full Funding', eligibility: 'Developing country nationals, competitive' },
@@ -5276,7 +5276,7 @@ export const universities: University[] = [
     livingCostUSD: 11050, livingCostINR: 928200,
     intakeMonths: ["February","July"],
     visaApprovalRate: 80, acceptanceRate: 48,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Digital Marketing","MSc Construction Management","MSc Supply Chain Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'Curtin International Excellence Scholarship', amount: 'AUD 10,000–20,000', eligibility: 'Merit-based for international students' },
       { name: 'Australia Awards Scholarship', amount: 'Full Funding', eligibility: 'Developing country nationals, competitive' },
@@ -5300,7 +5300,7 @@ export const universities: University[] = [
     livingCostUSD: 11700, livingCostINR: 982800,
     intakeMonths: ["February","July"],
     visaApprovalRate: 80, acceptanceRate: 50,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MBA","MSc Project Management","MSc Cybersecurity","MSc Digital Marketing","MSc Construction Management","MSc Healthcare Management","MSc Human Resource Management"],
     scholarships: [
       { name: 'Deakin International Excellence Scholarship', amount: 'AUD 5,000–10,000', eligibility: 'Merit-based for international students' },
       { name: 'Australia Awards Scholarship', amount: 'Full Funding', eligibility: 'Developing country nationals, competitive' },
@@ -5733,7 +5733,7 @@ export const universities: University[] = [
     livingCostUSD: 16200, livingCostINR: 1360800,
     intakeMonths: ["October","April"],
     visaApprovalRate: 73, acceptanceRate: 22,
-    popularCourses: ["MSc Computer Science","MSc Mechanical Engineering","MSc Data Science","MSc Electrical Engineering","MBA"],
+    popularCourses: ["MSc Computer Science","MSc Mechanical Engineering","MSc Data Science","MSc Electrical Engineering","MBA","MSc Renewable Energy Systems","MSc Construction Management"],
     scholarships: [
       { name: 'DAAD Scholarship', amount: 'â‚¬861/month', eligibility: 'Academic excellence â€“ open to Indian students' },
       { name: 'Deutschlandstipendium', amount: 'â‚¬300/month', eligibility: 'Top academic performance' },
@@ -8677,7 +8677,7 @@ export const universities: University[] = [
     livingCostUSD: 11040, livingCostINR: 936000,
     intakeMonths: ["August"],
     visaApprovalRate: 75, acceptanceRate: 30,
-    popularCourses: ["MSc Computer Science","MSc Electrical Engineering","MSc Data Science","MSc AI","MSc Aerospace Engineering"],
+    popularCourses: ["MSc Computer Science","MSc Electrical Engineering","MSc Data Science","MSc AI","MSc Aerospace Engineering","MSc Renewable Energy","MSc UX Design","MSc Cybersecurity","MSc Construction Management"],
     scholarships: [
       { name: 'Merit Scholarship', amount: 'Up to 25% tuition', eligibility: 'Academic excellence' },
       { name: 'International Student Award', amount: 'Partial funding', eligibility: 'International applicants' },
@@ -8746,7 +8746,7 @@ export const universities: University[] = [
     livingCostUSD: 11040, livingCostINR: 936000,
     intakeMonths: ["August","January"],
     visaApprovalRate: 75, acceptanceRate: 42,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MSc Economics","MSc Psychology","MSc Environmental Science"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MSc Economics","MSc Psychology","MSc Environmental Science","MSc Digital Marketing","MSc Human Resource Management","MSc Healthcare Management"],
     scholarships: [
       { name: 'Merit Scholarship', amount: 'Up to 25% tuition', eligibility: 'Academic excellence' },
       { name: 'International Student Award', amount: 'Partial funding', eligibility: 'International applicants' },
@@ -9367,7 +9367,7 @@ export const universities: University[] = [
     livingCostUSD: 15730, livingCostINR: 1298000,
     intakeMonths: ["September"],
     visaApprovalRate: 75, acceptanceRate: 40,
-    popularCourses: ["MSc Computer Science","MSc Data Science","MSc Electrical Engineering","MSc AI","MSc Energy"],
+    popularCourses: ["MSc Computer Science","MSc Data Science","MSc Electrical Engineering","MSc AI","MSc Energy","MSc Renewable Energy","MSc Construction Management","MSc Cybersecurity","MSc Digital Marketing"],
     scholarships: [
       { name: 'Merit Scholarship', amount: 'Up to 25% tuition', eligibility: 'Academic excellence' },
       { name: 'International Student Award', amount: 'Partial funding', eligibility: 'International applicants' },

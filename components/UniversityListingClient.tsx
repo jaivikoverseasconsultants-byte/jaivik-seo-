@@ -78,11 +78,13 @@ export default function UniversityListingClient({ universities, countries, initi
       if (province && u.state !== province) return false;
       if (search) {
         const q = search.toLowerCase();
-        const nameMatch = u.name.toLowerCase().includes(q);
+        const nameMatch = u.name.toLowerCase().includes(q) || u.shortName.toLowerCase().includes(q);
         const cityMatch = u.city.toLowerCase().includes(q);
         const countryMatch = u.country.toLowerCase().includes(q);
         const courseMatch = u.popularCourses.some(c => c.toLowerCase().includes(q));
-        if (!nameMatch && !cityMatch && !countryMatch && !courseMatch) return false;
+        const descMatch = u.description.toLowerCase().includes(q);
+        const highlightMatch = u.highlights.some(h => h.toLowerCase().includes(q));
+        if (!nameMatch && !cityMatch && !countryMatch && !courseMatch && !descMatch && !highlightMatch) return false;
       }
       if (u.annualTuitionUSD < minFee || u.annualTuitionUSD > maxFee) return false;
       if (show48hr && !(u.acceptanceRate > 65 && ['Canada','Ireland','UK'].includes(u.country))) return false;
