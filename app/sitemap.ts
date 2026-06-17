@@ -41,43 +41,43 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ── Static pages ────────────────────────────────────────────────────────────
   const staticPages: MetadataRoute.Sitemap = [
     { url: BASE,                       lastModified: now, changeFrequency: 'daily',   priority: 1.0 },
-    { url: `${BASE}/universities`,     lastModified: now, changeFrequency: 'daily',   priority: 0.9 },
-    { url: `${BASE}/courses`,          lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${BASE}/course-finder`,    lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
-    { url: `${BASE}/book-counselling`, lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${BASE}/compare`,          lastModified: now, changeFrequency: 'weekly',  priority: 0.7 },
-    { url: `${BASE}/ielts-mock-test`,  lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
+    { url: `${BASE}/universities`,     lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/courses`,          lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/course-finder`,    lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/book-counselling`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/compare`,          lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/ielts-mock-test`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
   ];
 
   // ── University overview pages ────────────────────────────────────────────────
   const universityPages = universities.map(u => ({
     url: `${BASE}/universities/${u.slug}`,
-    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8,
+    lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9,
   }));
 
   // ── Country pages ────────────────────────────────────────────────────────────
   const countryPages = countries.map(c => ({
     url: `${BASE}/universities/country/${c.toLowerCase().replace(/ /g, '-')}`,
-    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8,
+    lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
   }));
 
   // ── General course + category pages ─────────────────────────────────────────
   const coursePages = courses.map(c => ({
     url: `${BASE}/courses/${c.slug}`,
-    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8,
+    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6,
   }));
 
   const categoryPages = courseCategories.map(cat => ({
     url: `${BASE}/courses/category/${encodeURIComponent(
       cat.toLowerCase().replace(/\s+/g, '-').replace(/&/g, 'and')
     )}`,
-    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7,
+    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6,
   }));
 
   // ── Canada city pages ────────────────────────────────────────────────────────
   const cityPages: MetadataRoute.Sitemap = CANADA_CITY_SLUGS.map(city => ({
     url: `${BASE}/universities/city/${city}`,
-    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8,
+    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6,
   }));
 
   // ── University course index + detail pages (fully dynamic) ───────────────────
@@ -96,33 +96,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const d of uniDirs) {
     const uniSlug = d.name;
 
-    // Course listing page
+    // Course listing page (all universities)
     courseIndexPages.push({
       url: `${BASE}/universities/${uniSlug}/courses`,
-      lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8,
+      lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6,
     });
 
-    // Skip course detail pages for stub universities (dynamicParams = true → noIndex courses)
-    const slugPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', '[slug]', 'page.tsx');
-    let isStub = false;
-    try {
-      const slugPageContent = fs.readFileSync(slugPagePath, 'utf-8');
-      isStub = slugPageContent.includes('export const dynamicParams = true');
-    } catch {}
+    // Stub detection: no real data file → skip course detail pages
+    const coursesPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', 'page.tsx');
+    const dataFilePath = findDataFile(coursesPagePath);
 
-    if (!isStub) {
-      // Find the data file via the import in courses/page.tsx
-      const coursesPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', 'page.tsx');
-      const dataFilePath = findDataFile(coursesPagePath);
-
-      if (dataFilePath && fs.existsSync(dataFilePath)) {
-        const slugs = extractSlugsFromTs(dataFilePath);
-        for (const slug of slugs) {
-          courseDetailPages.push({
-            url: `${BASE}/universities/${uniSlug}/courses/${slug}`,
-            lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7,
-          });
-        }
+    if (dataFilePath && fs.existsSync(dataFilePath)) {
+      const slugs = extractSlugsFromTs(dataFilePath);
+      for (const slug of slugs) {
+        courseDetailPages.push({
+          url: `${BASE}/universities/${uniSlug}/courses/${slug}`,
+          lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8,
+        });
       }
     }
   }
@@ -134,7 +124,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...coursePages,       // ~20
     ...categoryPages,     // ~20
     ...cityPages,         // 28
-    ...courseIndexPages,  // 107
-    ...courseDetailPages, // ~3,700–4,000+
+    ...courseIndexPages,  // ~447
+    ...courseDetailPages, // ~5,400+ (real-data only)
   ];
 }
