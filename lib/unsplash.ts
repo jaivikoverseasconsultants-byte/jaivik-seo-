@@ -2,7 +2,7 @@ export interface UnsplashImage {
   url: string;
   thumb: string;
   alt: string;
-  credit: { name: string; link: string };
+  credit?: { name: string; link: string };
 }
 
 export async function fetchUnsplashImage(query: string): Promise<UnsplashImage | null> {
@@ -66,21 +66,21 @@ export async function fetchUnsplashImages(query: string, count: number = 6): Pro
   }
 }
 
-// Country-specific search queries for relevant landscape/campus shots
+// Country-specific search queries for relevant landmark/campus shots
 export const COUNTRY_QUERIES: Record<string, string> = {
-  USA: 'American university campus autumn',
-  UK: 'Oxford Cambridge university campus UK',
-  Canada: 'Canadian university campus Toronto',
-  Australia: 'Australian university campus Sydney',
-  Germany: 'German university campus Berlin',
-  Ireland: 'Dublin university campus Ireland',
-  Singapore: 'National University Singapore campus',
-  'New Zealand': 'New Zealand university campus',
-  France: 'Paris Sorbonne university campus France',
-  Netherlands: 'Amsterdam university campus Netherlands',
-  Sweden: 'Stockholm university campus Sweden',
-  UAE: 'Dubai university campus UAE',
-  Denmark: 'Copenhagen university campus Denmark',
-  Italy: 'Rome Bologna university campus Italy',
-  Spain: 'Madrid Barcelona university campus Spain',
+  USA: 'Harvard MIT campus Boston Massachusetts aerial',
+  UK: 'Oxford University Bodleian Library England',
+  Canada: 'University of Toronto campus Ontario Canada',
+  Australia: 'University of Sydney Opera House harbour aerial',
+  Germany: 'Heidelberg University castle Germany campus',
+  Ireland: 'Trinity College Dublin Ireland campus library',
+  Singapore: 'National University Singapore NUS campus aerial',
+  'New Zealand': 'University of Auckland city campus New Zealand',
+  France: 'Sorbonne Paris Eiffel Tower university France',
+  Netherlands: 'Leiden University Amsterdam canal Netherlands',
+  Sweden: 'Stockholm University campus Sweden autumn',
+  UAE: 'Dubai skyline university campus aerial UAE',
+  Denmark: 'Copenhagen University Denmark campus',
+  Italy: 'Bologna University Rome Colosseum Italy',
+  Spain: 'Madrid Complutense University Spain campus',
 };
