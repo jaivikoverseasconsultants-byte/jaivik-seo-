@@ -129,14 +129,16 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               sizes="100vw"
             />
             <div className="absolute inset-0 bg-brand-900/80" />
-            <a
-              href={campusImage.credit.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="sr-only"
-            >
-              Photo by {campusImage.credit.name} on Unsplash
-            </a>
+            {campusImage.credit && (
+              <a
+                href={campusImage.credit.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="sr-only"
+              >
+                Photo by {campusImage.credit.name} on Unsplash
+              </a>
+            )}
           </>
         ) : (
           <div className="absolute inset-0 bg-gradient-to-br from-brand-700 to-brand-900" />
@@ -395,14 +397,16 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                           <p className="text-white/70 text-xs">{u.city}, {u.country}</p>
                         </div>
                       )}
-                      <a
-                        href={img.credit.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="absolute top-1 right-1 bg-black/40 text-white/70 text-xs px-1.5 py-0.5 rounded-full hover:text-white transition-colors"
-                      >
-                        📸
-                      </a>
+                      {img.credit && (
+                        <a
+                          href={img.credit.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="absolute top-1 right-1 bg-black/40 text-white/70 text-xs px-1.5 py-0.5 rounded-full hover:text-white transition-colors"
+                        >
+                          📸
+                        </a>
+                      )}
                     </div>
                   ))}
                 </div>

@@ -332,10 +332,12 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
           <>
             <Image src={countryImage.url} alt={`Study in ${country}`} fill priority className="object-cover" sizes="100vw" />
             <div className="absolute inset-0 bg-brand-900/80" />
-            <a href={countryImage.credit.link} target="_blank" rel="noopener noreferrer"
-              className="absolute bottom-2 right-3 z-10 text-white/50 text-xs hover:text-white/80 transition-colors">
-              📸 {countryImage.credit.name} / Unsplash
-            </a>
+            {countryImage.credit && (
+              <a href={countryImage.credit.link} target="_blank" rel="noopener noreferrer"
+                className="absolute bottom-2 right-3 z-10 text-white/50 text-xs hover:text-white/80 transition-colors">
+                📸 {countryImage.credit.name} / Unsplash
+              </a>
+            )}
           </>
         ) : (
           <div className="absolute inset-0 bg-gradient-to-br from-brand-700 to-brand-900" />
