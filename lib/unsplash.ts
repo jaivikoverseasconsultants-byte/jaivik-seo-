@@ -15,8 +15,8 @@ const FALLBACK_IMAGES: Record<string, { url: string; thumb: string }> = {
     thumb: 'https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?w=400&q=80',
   },
   'University of Toronto campus Ontario Canada': {
-    url: 'https://images.unsplash.com/photo-1569534403882-f68d74a31ea4?w=1080&q=80',
-    thumb: 'https://images.unsplash.com/photo-1569534403882-f68d74a31ea4?w=400&q=80',
+    url: 'https://images.unsplash.com/photo-1580541832626-2a7131ee809f?w=1080&q=80',
+    thumb: 'https://images.unsplash.com/photo-1580541832626-2a7131ee809f?w=400&q=80',
   },
   'University of Sydney Opera House harbour aerial': {
     url: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1080&q=80',
