@@ -86,7 +86,7 @@ export default async function HomePage() {
                 is One Step Away
               </h1>
               <p className="text-blue-200 text-lg mb-7 leading-relaxed">
-                Jaivik Overseas Consultants has helped <span className="text-white font-semibold">500+ students</span> from across India get admissions in top universities in USA, UK, Canada, Australia, Germany &amp; Singapore.
+                Jaivik Overseas Consultants has helped <span className="text-white font-semibold">1,400+ students</span> from across India get admissions in top universities in USA, UK, Canada, Australia, Germany &amp; Singapore.
               </p>
 
               {/* Search bar */}
@@ -109,7 +109,7 @@ export default async function HomePage() {
             <div className="grid grid-cols-2 gap-3">
               {[
                 { icon: '📅', stat: '13+', label: 'Years Experience', color: 'from-blue-600/30 to-blue-700/20' },
-                { icon: '🎓', stat: '500+', label: 'Students Placed', color: 'from-purple-600/30 to-purple-700/20' },
+                { icon: '🎓', stat: '1,400+', label: 'Students Placed', color: 'from-purple-600/30 to-purple-700/20' },
                 { icon: '✅', stat: '99%', label: 'Visa Success Rate', color: 'from-green-600/30 to-green-700/20' },
                 { icon: '📚', stat: '5,400+', label: 'Courses Listed', color: 'from-orange-500/30 to-orange-600/20' },
               ].map(card => (
@@ -140,7 +140,7 @@ export default async function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { stat: '13+', label: 'Years Experience' },
-              { stat: '500+', label: 'Students Placed' },
+              { stat: '1,400+', label: 'Students Placed' },
               { stat: '99%', label: 'Visa Success Rate' },
               { stat: '5,400+', label: 'Courses Listed' },
             ].map(s => (
@@ -170,12 +170,11 @@ export default async function HomePage() {
                 <Link key={country} href={`/universities/country/${country.toLowerCase().replace(' ', '-')}`}
                   className="relative overflow-hidden rounded-2xl h-40 shadow-sm hover:shadow-lg transition-all group">
                   {img ? (
-                    <Image
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
                       src={img.url}
                       alt={`Study in ${country}`}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
+                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   ) : (
                     <div className="absolute inset-0 bg-gradient-to-br from-brand-700 to-brand-900" />
