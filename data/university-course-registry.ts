@@ -203,6 +203,47 @@ export function getCourseIndex(): Record<string, string[]> {
   return index;
 }
 
+export interface CourseSearchEntry {
+  name: string;
+  slug: string;
+  level: string;        // 'UG' | 'PG' | 'MBA' | 'PhD'
+  universitySlug: string;
+}
+
+export function classifyLevel(name: string, studyLevelRaw = '', levelRaw = ''): string {
+  const n = name.toLowerCase();
+  const sl = (studyLevelRaw + ' ' + levelRaw).toLowerCase();
+  if (/^(phd|dphil|doctorate)/.test(n) || sl.includes('phd') || sl.includes('doctoral')) return 'PhD';
+  if (/\bmba\b/.test(n) || sl.includes('mba')) return 'MBA';
+  if (
+    /^(bsc|beng|ba |bed |barch|bcom|bba|bhsc|bbus|bfin|blaw|bmus|bfa|bachelor|b\.sc|b\.eng)/.test(n) ||
+    sl.includes('bachelor') || sl.includes('undergraduate')
+  ) return 'UG';
+  return 'PG';
+}
+
+let _searchCache: CourseSearchEntry[] | null = null;
+
+/** Flat list of every course in the registry — used by the search API. */
+export function getCourseSearchEntries(): CourseSearchEntry[] {
+  if (_searchCache) return _searchCache;
+  const entries: CourseSearchEntry[] = [];
+  for (const [uniSlug, courses] of Object.entries(REGISTRY)) {
+    for (const raw of courses as any[]) {
+      const name: string = raw.name ?? '';
+      if (!name) continue;
+      entries.push({
+        name,
+        slug: raw.slug ?? '',
+        level: classifyLevel(name, raw.studyLevel ?? '', raw.level ?? ''),
+        universitySlug: uniSlug,
+      });
+    }
+  }
+  _searchCache = entries;
+  return entries;
+}
+
 export function getCoursesBySlug(slug: string): RegistryCourse[] {
   const raw = REGISTRY[slug];
   if (!raw || raw.length === 0) return [];

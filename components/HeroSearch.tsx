@@ -11,6 +11,7 @@ interface CourseAtUni {
   country: string;
   ielts: number;
   fee: number;
+  level?: string;
 }
 
 interface SearchResult {
@@ -123,7 +124,7 @@ export default function HeroSearch() {
       {open && results && total > 0 && (
         <div
           ref={dropdownRef}
-          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden max-h-[480px] overflow-y-auto"
+          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden max-h-[400px] overflow-y-auto"
         >
           {/* 1st: Courses at specific universities */}
           {results.courseAtUni.length > 0 && (
@@ -142,7 +143,12 @@ export default function HeroSearch() {
                 >
                   <span className="text-xl flex-shrink-0">🎓</span>
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm font-semibold text-gray-900 truncate">{c.courseName}</p>
+                    <p className="text-sm font-semibold text-gray-900 truncate flex items-center gap-2">
+                      {c.courseName}
+                      {c.level && (
+                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-brand-100 text-brand-700 flex-shrink-0">{c.level}</span>
+                      )}
+                    </p>
                     <p className="text-xs text-gray-500">
                       {c.universityName} · {COUNTRY_FLAGS[c.country] ?? ''} {c.country} · ${(c.fee / 1000).toFixed(0)}K/yr · IELTS {c.ielts}+
                     </p>
