@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import { universities, countries } from '@/data/universities';
+import { getCourseIndex } from '@/data/university-course-registry';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 
@@ -38,10 +39,11 @@ const schema = {
 
 export default async function UniversitiesPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
   const { q } = await searchParams;
+  const courseIndex = getCourseIndex();
   return (
     <>
       <JsonLd data={schema} />
-      <UniversityListingClient universities={universities} countries={countries} initialSearch={q ?? ''} />
+      <UniversityListingClient universities={universities} countries={countries} initialSearch={q ?? ''} courseIndex={courseIndex} />
     </>
   );
 }

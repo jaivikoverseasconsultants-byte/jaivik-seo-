@@ -47,14 +47,49 @@ const FEE_MAX = 100000;
 
 type SortKey = 'rank' | 'fee_asc' | 'fee_desc' | 'accept' | 'popular';
 
+// Synonym map: each key expands the search to related course terms.
+// Only used for matching course names (popularCourses + courseIndex).
+// Direct text fields (name/description/highlights) still match the raw query too.
+const SEARCH_SYNONYMS: Record<string, string[]> = {
+  'renewable energy': ['energy systems', 'sustainable resource', 'power engineering', 'environmental engineering', 'energy engineering'],
+  'digital marketing': ['marketing', 'business analytics', 'media management', 'digital communications'],
+  'human resources': ['human resource', 'organisational', 'organizational', 'people management', 'hr management'],
+  'human resource': ['human resources', 'organisational', 'organizational', 'people management', 'hr management'],
+  'human resource management': ['human resources', 'organisational', 'organizational', 'people management'],
+  'cybersecurity': ['cyber security', 'information security', 'network security', 'computer security', 'cyber'],
+  'supply chain': ['logistics', 'operations management', 'procurement', 'supply chain management'],
+  'supply chain management': ['logistics', 'operations management', 'procurement'],
+  'healthcare': ['health management', 'public health', 'biomedical', 'health informatics'],
+  'healthcare management': ['health management', 'public health', 'health informatics', 'health sciences'],
+  'artificial intelligence': ['machine learning', 'data science', 'deep learning', 'neural networks'],
+  'finance': ['financial', 'accounting', 'economics', 'banking'],
+  'construction management': ['civil engineering', 'project management', 'structural engineering', 'quantity surveying'],
+  'construction': ['civil engineering', 'structural engineering', 'quantity surveying', 'architecture'],
+  'ux design': ['human computer interaction', 'interaction design', 'product design', 'user experience', 'hci'],
+  'strength conditioning': ['sports science', 'exercise science', 'kinesiology', 'sport and exercise'],
+  'strength & conditioning': ['sports science', 'exercise science', 'kinesiology', 'sport and exercise'],
+};
+
+function getSearchTerms(raw: string): string[] {
+  const q = raw.toLowerCase().trim();
+  const terms = new Set([q]);
+  for (const [key, syns] of Object.entries(SEARCH_SYNONYMS)) {
+    if (q === key || q.includes(key) || key.includes(q)) {
+      syns.forEach(s => terms.add(s));
+    }
+  }
+  return Array.from(terms);
+}
+
 interface Props {
   universities: University[];
   countries: string[];
   initialCountry?: string;
   initialSearch?: string;
+  courseIndex?: Record<string, string[]>;
 }
 
-export default function UniversityListingClient({ universities, countries, initialCountry = '', initialSearch = '' }: Props) {
+export default function UniversityListingClient({ universities, countries, initialCountry = '', initialSearch = '', courseIndex = {} }: Props) {
   const [country, setCountry]   = useState(initialCountry);
   const [province, setProvince] = useState('');
   const [search, setSearch]     = useState(initialSearch);
@@ -72,20 +107,53 @@ export default function UniversityListingClient({ universities, countries, initi
     )).sort() as string[];
   }, [country, universities]);
 
-  const results = useMemo(() => {
+  // Returns filtered+sorted list AND a map of uni.id → matched course names for display
+  const { results, matchedCourseMap } = useMemo(() => {
+    const searchTerms = search ? getSearchTerms(search) : [];
+    const rawQuery    = search.toLowerCase().trim();
+    const matchedCourseMap: Record<string, string[]> = {};
+
     let list = universities.filter(u => {
       if (country && u.country !== country) return false;
       if (province && u.state !== province) return false;
+
       if (search) {
-        const q = search.toLowerCase();
-        const nameMatch = u.name.toLowerCase().includes(q) || u.shortName.toLowerCase().includes(q);
-        const cityMatch = u.city.toLowerCase().includes(q);
-        const countryMatch = u.country.toLowerCase().includes(q);
-        const courseMatch = u.popularCourses.some(c => c.toLowerCase().includes(q));
-        const descMatch = u.description.toLowerCase().includes(q);
-        const highlightMatch = u.highlights.some(h => h.toLowerCase().includes(q));
-        if (!nameMatch && !cityMatch && !countryMatch && !courseMatch && !descMatch && !highlightMatch) return false;
+        // Direct match on text fields using the raw query only
+        const textHit =
+          u.name.toLowerCase().includes(rawQuery) ||
+          u.shortName.toLowerCase().includes(rawQuery) ||
+          u.city.toLowerCase().includes(rawQuery) ||
+          u.country.toLowerCase().includes(rawQuery) ||
+          u.description.toLowerCase().includes(rawQuery) ||
+          u.highlights.some(h => h.toLowerCase().includes(rawQuery));
+
+        // Course match using all synonym-expanded terms
+        const allCourseNames = [...u.popularCourses, ...(courseIndex[u.slug] ?? [])];
+        const coursesHit: string[] = [];
+        for (const term of searchTerms) {
+          for (const cn of allCourseNames) {
+            if (cn.toLowerCase().includes(term)) coursesHit.push(cn);
+          }
+        }
+
+        if (!textHit && coursesHit.length === 0) return false;
+
+        if (coursesHit.length > 0) {
+          // Deduplicate, prefer exact-query matches first, cap at 3
+          const seen = new Set<string>();
+          const deduped: string[] = [];
+          // exact matches first
+          for (const cn of coursesHit) {
+            if (!seen.has(cn) && cn.toLowerCase().includes(rawQuery)) { seen.add(cn); deduped.push(cn); }
+          }
+          // then synonym matches
+          for (const cn of coursesHit) {
+            if (!seen.has(cn)) { seen.add(cn); deduped.push(cn); }
+          }
+          matchedCourseMap[u.id] = deduped.slice(0, 3);
+        }
       }
+
       if (u.annualTuitionUSD < minFee || u.annualTuitionUSD > maxFee) return false;
       if (show48hr && !(u.acceptanceRate > 65 && ['Canada','Ireland','UK'].includes(u.country))) return false;
       if (showSchol && !(u.scholarships.length > 0)) return false;
@@ -101,8 +169,9 @@ export default function UniversityListingClient({ universities, countries, initi
       if (!a.popularAmongIndians && b.popularAmongIndians) return 1;
       return (a.qsRanking ?? 9999) - (b.qsRanking ?? 9999);
     });
-    return list;
-  }, [universities, country, province, search, minFee, maxFee, sortBy, show48hr, showSchol]);
+
+    return { results: list, matchedCourseMap };
+  }, [universities, country, province, search, minFee, maxFee, sortBy, show48hr, showSchol, courseIndex]);
 
   const displayed = showAll ? results : results.slice(0, 24);
   const feePct = (v: number) => (v / FEE_MAX) * 100;
@@ -280,7 +349,14 @@ export default function UniversityListingClient({ universities, countries, initi
                       )}
 
                       <p className="font-bold text-gray-900 group-hover:text-brand-700 text-sm leading-snug mb-1 line-clamp-2">{u.name}</p>
-                      <p className="text-xs text-gray-400 mb-3">{u.campusType} campus · Est. {u.establishedYear}</p>
+                      <p className="text-xs text-gray-400 mb-2">{u.campusType} campus · Est. {u.establishedYear}</p>
+
+                      {/* Matched courses — only shown when a search is active */}
+                      {search && matchedCourseMap[u.id] && (
+                        <p className="text-xs text-emerald-700 bg-emerald-50 border border-emerald-100 rounded-lg px-2 py-1.5 mb-2 leading-snug">
+                          ✓ Offers: {matchedCourseMap[u.id].join(' · ')}
+                        </p>
+                      )}
 
                       {/* Stats */}
                       <div className="grid grid-cols-3 gap-1.5 text-xs mb-3">

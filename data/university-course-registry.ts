@@ -194,6 +194,15 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-amsterdam': universityOfAmsterdamCourses,
 };
 
+/** Returns a lightweight slug→courseNames map for client-side search. */
+export function getCourseIndex(): Record<string, string[]> {
+  const index: Record<string, string[]> = {};
+  for (const [slug, courses] of Object.entries(REGISTRY)) {
+    index[slug] = (courses as any[]).map((c: any) => c.name ?? '').filter(Boolean);
+  }
+  return index;
+}
+
 export function getCoursesBySlug(slug: string): RegistryCourse[] {
   const raw = REGISTRY[slug];
   if (!raw || raw.length === 0) return [];
