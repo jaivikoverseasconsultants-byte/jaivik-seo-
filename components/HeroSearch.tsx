@@ -88,7 +88,7 @@ export default function HeroSearch() {
   const divider = 'border-t border-gray-100';
 
   return (
-    <div className="w-full relative">
+    <div className="w-full relative z-[1]">
       <form onSubmit={handleSearch} className="relative flex items-center">
         <div className="absolute left-4 text-gray-400">
           {loading ? (
@@ -124,7 +124,7 @@ export default function HeroSearch() {
       {open && results && total > 0 && (
         <div
           ref={dropdownRef}
-          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 z-50 overflow-hidden max-h-[400px] overflow-y-auto"
+          className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-2xl border border-gray-100 z-[9999] overflow-hidden max-h-[400px] overflow-y-auto"
         >
           {/* 1st: Courses at specific universities */}
           {results.courseAtUni.length > 0 && (
