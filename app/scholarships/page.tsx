@@ -31,6 +31,11 @@ export default function ScholarshipsPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-700 via-brand-800 to-brand-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 justify-center">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span>/</span>
+            <span className="text-white">Scholarships</span>
+          </div>
           <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
             🎓 Updated for 2026 Intake
           </div>

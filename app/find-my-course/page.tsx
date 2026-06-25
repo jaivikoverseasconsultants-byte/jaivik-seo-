@@ -1,7 +1,15 @@
 import type { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 
-const CourseMatcherClient = dynamic(() => import('@/components/CourseMatcherClient'), { ssr: false });
+const CourseMatcherClient = dynamic(() => import('@/components/CourseMatcherClient'), {
+  ssr: false,
+  loading: () => (
+    <div className="flex flex-col items-center justify-center py-24 text-gray-500">
+      <div className="w-10 h-10 border-4 border-brand-700 border-t-transparent rounded-full animate-spin mb-4" />
+      <p className="text-sm">Loading course finder…</p>
+    </div>
+  ),
+});
 
 export const metadata: Metadata = {
   title: 'Find My Course | 5-Step University Matcher for Indian Students',
@@ -15,6 +23,11 @@ export default function FindMyCoursePage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-700 via-brand-800 to-brand-900 text-white py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 justify-center">
+            <a href="/" className="hover:text-white">Home</a>
+            <span>/</span>
+            <span className="text-white">Find My Course</span>
+          </div>
           <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
             🎯 Free 5-Step Course Matching Tool
           </div>

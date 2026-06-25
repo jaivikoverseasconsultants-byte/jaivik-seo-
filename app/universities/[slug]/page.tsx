@@ -14,7 +14,6 @@ import { generateUniversityAbout, generateWhyIndianStudents, generateApplication
 
 const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
 const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
-const SalaryChart = dynamic(() => import('@/components/charts/SalaryChart'), { ssr: false });
 const UniversityCoursesSection = dynamic(() => import('@/components/UniversityCoursesSection'), { ssr: false });
 
 export async function generateStaticParams() {
@@ -51,10 +50,6 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   const whyIndianText = generateWhyIndianStudents(u);
   const appProcess = generateApplicationProcess(u);
   const alumniText = generateNotableAlumni(u);
-
-  const salaryData = [
-    { country: u.country, avgSalaryUSD: u.avgSalaryUSD },
-  ];
 
   const collegeSchema = {
     '@context': 'https://schema.org',
@@ -554,9 +549,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           {/* Right: Sidebar */}
           <div className="space-y-6">
             <div className="sticky top-20">
-              <LeadForm source={`university-${u.slug}-sidebar`} defaultCourse={u.popularCourses[0]} defaultCountry={u.country} />
-
-              <div className="mt-5 bg-brand-50 rounded-2xl p-5 border border-brand-100">
+              <div className="bg-brand-50 rounded-2xl p-5 border border-brand-100">
                 <h3 className="font-semibold text-brand-900 mb-3 text-sm">Quick Facts</h3>
                 <div className="space-y-2 text-sm">
                   {[
@@ -578,15 +571,24 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
         </div>
       </section>
 
-      {/* Salary Chart full width */}
-      <section className="bg-white py-8 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="section-title mb-5">Average Graduate Salary After {u.shortName}</h2>
-          <div className="max-w-xl">
-            <SalaryChart data={salaryData} title={`Avg Grad Salary in ${u.country}`} />
+      {/* Average Graduate Salary */}
+      {u.avgSalaryUSD > 0 && (
+        <section className="bg-white py-8 px-4">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="section-title mb-5">Average Graduate Salary After {u.shortName}</h2>
+            <div className="max-w-xl">
+              <div className="bg-brand-50 border border-brand-100 rounded-2xl p-6 flex items-center justify-between">
+                <div>
+                  <p className="text-3xl font-bold text-brand-700">${(u.avgSalaryUSD / 1000).toFixed(0)}K/year</p>
+                  <p className="text-sm text-gray-600 mt-1">Average graduate salary in {u.country}</p>
+                  <p className="text-xs text-gray-400 mt-1">Employment Rate: {u.employmentRate}%</p>
+                </div>
+                <div className="text-6xl">💼</div>
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }

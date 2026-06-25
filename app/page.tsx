@@ -99,8 +99,8 @@ export default async function HomePage() {
                 <Link href="/find-my-course" className="btn-gold">
                   🎯 Find My Course →
                 </Link>
-                <Link href="/book-counselling" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold transition-colors border border-white/20">
-                  Book Free Counselling
+                <Link href="/eligibility-checker" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-xl font-semibold transition-colors border border-white/20">
+                  Check Eligibility
                 </Link>
               </div>
             </div>

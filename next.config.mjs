@@ -8,6 +8,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/student-portal/login', destination: '/student-portal', permanent: false },
+      { source: '/student-portal/register', destination: '/student-portal', permanent: false },
       { source: '/universities/tu-munich', destination: '/universities/technical-university-of-munich', permanent: true },
       { source: '/universities/tu-munich/courses', destination: '/universities/technical-university-of-munich/courses', permanent: true },
       { source: '/universities/nus', destination: '/universities/national-university-of-singapore', permanent: true },

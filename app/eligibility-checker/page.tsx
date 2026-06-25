@@ -139,6 +139,11 @@ export default function EligibilityCheckerPage() {
     <>
     <section className="bg-gradient-to-br from-[#0a1628] to-[#1a2e4a] text-white py-12 px-4">
       <div className="max-w-4xl mx-auto text-center">
+        <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 justify-center">
+          <Link href="/" className="hover:text-white">Home</Link>
+          <span>/</span>
+          <span className="text-white">Eligibility Checker</span>
+        </div>
         <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
           ✅ Free · Instant Results · No Sign-up Required
         </div>
@@ -155,7 +160,7 @@ export default function EligibilityCheckerPage() {
     </section>
     <div className="max-w-4xl mx-auto px-4 py-10">
       <div className="text-center mb-10">
-        <p className="text-gray-500">Answer 6 questions — get your personalised university shortlist in seconds</p>
+        <p className="text-gray-500">Answer 7 questions — get your personalised university shortlist in seconds</p>
       </div>
 
       {step === 1 && (

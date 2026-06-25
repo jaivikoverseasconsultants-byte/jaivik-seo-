@@ -102,13 +102,11 @@ function localToCard(p: typeof blogPosts[0]): PostCard {
 }
 
 export default async function BlogPage() {
-  const wpPosts = await fetchWpPosts();
-  const usingWp = wpPosts !== null && wpPosts.length > 0;
-  const posts: PostCard[] = usingWp ? wpPosts! : blogPosts.map(localToCard);
-  const seenCats = new Set<string>();
-  const allCategories = usingWp
-    ? posts.map(p => p.category).filter(c => { if (seenCats.has(c)) return false; seenCats.add(c); return true; })
-    : blogCategories;
+  // Use local blog posts (varied dates, curated content for Indian students)
+  // WP API posts all share the same publish date, so local data is preferred
+  const posts: PostCard[] = blogPosts.map(localToCard);
+  const allCategories = blogCategories;
+  const usingWp = false;
 
   const featured = posts[0];
   const rest = posts.slice(1);
@@ -120,6 +118,11 @@ export default async function BlogPage() {
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white py-14 px-4">
         <div className="max-w-7xl mx-auto text-center">
+          <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 justify-center">
+            <Link href="/" className="hover:text-white">Home</Link>
+            <span>/</span>
+            <span className="text-white">Blog</span>
+          </div>
           <span className="inline-block bg-white/15 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
             📖 Study Abroad Knowledge Hub
           </span>

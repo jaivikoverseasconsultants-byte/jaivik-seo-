@@ -181,8 +181,7 @@ export default async function CoursePage(
 
         <div className="space-y-5">
           <div className="sticky top-20">
-            <LeadForm source={`manchester-course-${slug}-sidebar`} defaultCountry="UK" />
-            <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
+            <div className="bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
               <div className="space-y-2">
                 <a href={course.url} target="_blank" rel="noopener noreferrer"
