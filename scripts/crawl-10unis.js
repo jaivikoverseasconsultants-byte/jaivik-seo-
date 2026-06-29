@@ -157,14 +157,16 @@ const UNIVERSITIES = [
     sitemapUrl: 'https://www.rmit.edu.au/sitemap.xml',
     urlFilter: function(u) {
       var p = new URL(u).pathname;
-      // Must be /study-with-us/levels-of-study/[level]/[course-slug]
       var segs = p.split('/').filter(Boolean);
+      // /study-with-us/levels-of-study/[level]/[slug] (4 segs)
+      // OR /study-with-us/levels-of-study/[type]/[sub]/[slug] (5 segs — research programs)
       return (
         segs[0] === 'study-with-us' &&
         segs[1] === 'levels-of-study' &&
-        segs.length === 4 &&
+        segs.length >= 4 && segs.length <= 5 &&
         !p.includes('/short-courses/') && !p.includes('/tafe/') &&
-        !p.endsWith('/levels-of-study/') && !segs[3].endsWith('apply-now')
+        !p.endsWith('/levels-of-study/') &&
+        !segs[segs.length - 1].match(/^(apply-now|maintenance|online|postgraduate-study|research-programs|undergraduate-study)$/)
       );
     },
     slugPrefix: 'rmit',
@@ -232,10 +234,11 @@ const UNIVERSITIES = [
     urlFilter: function(u) {
       try {
         var p = new URL(u).pathname;
+        var segs = p.split('/').filter(Boolean);
         return (
           p.includes('/explore-programs/') &&
           !p.endsWith('/explore-programs/') &&
-          p.split('/').filter(Boolean).length >= 6
+          segs.length >= 5
         );
       } catch { return false; }
     },
