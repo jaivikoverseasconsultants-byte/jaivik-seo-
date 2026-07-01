@@ -1,7 +1,7 @@
 // Auto-generated — sitemap crawl
 // 104 courses
 
-export interface MaastrichtUniversityCourse {
+export interface MaastrichtCourse {
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number;
@@ -11,7 +11,7 @@ export interface MaastrichtUniversityCourse {
   campus: string; country: string; state: string; city: string; countryCode: string;
 }
 
-export const maastrichtUniversityCourses: MaastrichtUniversityCourse[] = [
+export const maastrichtCourses: MaastrichtCourse[] = [
   {"id":"maastricht-1","name":"Arts and Culture","slug":"maastricht-arts-and-culture","url":"https://www.maastrichtuniversity.nl/education/bachelor/programmes/arts-and-culture","level":"Bachelor","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualEUR":9000,"annualUSD":9720,"annualINR":819000,"totalEUR":27000,"livingCostEUR":11000,"livingCostUSD":11880,"livingCostINR":1001000,"ieltsMin":6.5,"toeflMin":90,"pteMin":62,"intakeMonths":["September"],"campus":"Maastricht","country":"Netherlands","state":"Limburg","city":"Maastricht","countryCode":"NL"},
   {"id":"maastricht-2","name":"University College Venlo","slug":"maastricht-university-college-venlo","url":"https://www.maastrichtuniversity.nl/education/bachelor/programmes/university-college-venlo","level":"Bachelor","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualEUR":9000,"annualUSD":9720,"annualINR":819000,"totalEUR":27000,"livingCostEUR":11000,"livingCostUSD":11880,"livingCostINR":1001000,"ieltsMin":6.5,"toeflMin":90,"pteMin":62,"intakeMonths":["September"],"campus":"Maastricht","country":"Netherlands","state":"Limburg","city":"Maastricht","countryCode":"NL"},
   {"id":"maastricht-3","name":"Computer Science","slug":"maastricht-computer-science","url":"https://www.maastrichtuniversity.nl/education/bachelor/programmes/computer-science","level":"Bachelor","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualEUR":9000,"annualUSD":9720,"annualINR":819000,"totalEUR":27000,"livingCostEUR":11000,"livingCostUSD":11880,"livingCostINR":1001000,"ieltsMin":6.5,"toeflMin":90,"pteMin":62,"intakeMonths":["September"],"campus":"Maastricht","country":"Netherlands","state":"Limburg","city":"Maastricht","countryCode":"NL"},
@@ -118,6 +118,6 @@ export const maastrichtUniversityCourses: MaastrichtUniversityCourse[] = [
   {"id":"maastricht-104","name":"Responsible Data Science","slug":"maastricht-responsible-data-science","url":"https://www.maastrichtuniversity.nl/education/master/programmes/responsible-data-science","level":"Masters","studyLevel":"Postgraduate","duration":"1 year","durationYears":1,"annualEUR":14900,"annualUSD":16092,"annualINR":1355900,"totalEUR":14900,"livingCostEUR":11000,"livingCostUSD":11880,"livingCostINR":1001000,"ieltsMin":6.5,"toeflMin":90,"pteMin":62,"intakeMonths":["September"],"campus":"Maastricht","country":"Netherlands","state":"Limburg","city":"Maastricht","countryCode":"NL"}
 ];
 
-export function getMaastrichtUniversityCourseBySlug(slug: string) {
-  return maastrichtUniversityCourses.find(c => c.slug === slug);
+export function getMaastrichtCourseBySlug(slug: string) {
+  return maastrichtCourses.find(c => c.slug === slug);
 }
