@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { universityOfCopenhagenCourses, getUniversityOfCopenhagenCourseBySlug } from '@/data/university-of-copenhagen-courses';
+import { universityOfHelsinkiCourses, getUniversityOfHelsinkiCourseBySlug } from '@/data/university-of-helsinki-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
@@ -17,13 +17,13 @@ export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const course = getUniversityOfCopenhagenCourseBySlug(slug);
+  const course = getUniversityOfHelsinkiCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Copenhagen — Fees, IELTS & Intake for Indian Students 2026`,
-    description: `${course.name} at University of Copenhagen, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
-    path: `/universities/university-of-copenhagen/courses/${slug}`,
-    keywords: [course.name, 'University of Copenhagen', 'study in Denmark', course.level],
+    title: `${course.name} at University of Helsinki — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at University of Helsinki, Finland costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, September intake. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    path: `/universities/university-of-helsinki/courses/${slug}`,
+    keywords: [course.name, 'University of Helsinki', 'study in Finland', course.level],
     noIndex: true
   });
 }
@@ -32,7 +32,7 @@ export default async function CourseDetailPage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const course = getUniversityOfCopenhagenCourseBySlug(slug);
+  const course = getUniversityOfHelsinkiCourseBySlug(slug);
   if (!course) notFound();
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -41,7 +41,7 @@ export default async function CourseDetailPage(
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: course.name,
-    provider: { '@type': 'CollegeOrUniversity', name: 'University of Copenhagen', sameAs: 'https://www.ku.dk' },
+    provider: { '@type': 'CollegeOrUniversity', name: 'University of Helsinki', sameAs: 'https://www.helsinki.fi' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
@@ -54,13 +54,13 @@ export default async function CourseDetailPage(
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4 flex-wrap">
             <Link href="/" className="hover:text-white">Home</Link> /
-            <Link href="/universities/university-of-copenhagen/courses" className="hover:text-white">UCPH</Link> /
+            <Link href="/universities/university-of-helsinki/courses" className="hover:text-white">Helsinki</Link> /
             <span className="text-white">{course.name}</span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇩🇰 University of Copenhagen · Copenhagen, Denmark
+                🇫🇮 University of Helsinki · Helsinki, Finland
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
@@ -78,7 +78,7 @@ export default async function CourseDetailPage(
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source="university-of-copenhagen-${slug}" defaultCountry="Denmark" compact />
+              <LeadForm source={`university-of-helsinki-${slug}`} defaultCountry="Finland" compact />
             </div>
           </div>
         </div>
@@ -90,11 +90,11 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {[
-                ['University', 'University of Copenhagen'],
+                ['University', 'University of Helsinki'],
                 ['Level', course.level],
                 ['Duration', course.duration],
                 ['Campus', course.campus],
-                ['Country', 'Denmark'],
+                ['Country', 'Finland'],
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['IELTS Minimum', `${course.ieltsMin} overall`],
                 ['TOEFL Minimum', `${course.toeflMin}+`],
@@ -110,18 +110,17 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
-
-          <CourseRichContent course={course as any} universityName="University of Copenhagen" universitySlug="university-of-copenhagen" />
+          <CourseRichContent course={course as any} universityName="University of Helsinki" universitySlug="university-of-helsinki" />
           <div className="bg-brand-50 rounded-2xl p-6">
             <h2 className="font-bold text-gray-900 mb-3">Need Help Applying?</h2>
-            <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Denmark. Free 30-min session.</p>
+            <p className="text-sm text-gray-600 mb-4">Our counsellors have guided 500+ Indian students to {course.level} programs in Finland. Free 30-min session.</p>
             <Link href="/book-counselling" className="btn-gold inline-block">Book Free Counselling →</Link>
           </div>
         </div>
 
         <div>
           <div className="sticky top-20">
-            <LeadForm source="university-of-copenhagen-detail-sidebar" defaultCountry="Denmark" />
+            <LeadForm source="university-of-helsinki-detail-sidebar" defaultCountry="Finland" />
           </div>
         </div>
       </div>
