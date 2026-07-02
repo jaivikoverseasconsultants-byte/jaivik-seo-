@@ -33,3 +33,5 @@ Thumbs.db
 # Scripts logs
 scripts/overnight-run.log
 scripts/*.log
+
+.vercel
