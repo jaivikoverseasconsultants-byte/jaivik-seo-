@@ -28,7 +28,7 @@ export default function CoursesPage() {
   const courses = aarhusUniversityCourses as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualDKK, 0) / totalCourses);
+  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + (c.annualEUR || c.annualDKK || 0), 0) / totalCourses);
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
@@ -175,7 +175,7 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">DKK {c.annualDKK.toLocaleString()}/yr</p>
+                      <p className="text-sm font-bold text-brand-700">€{(c.annualEUR || c.annualDKK || 0).toLocaleString()}/yr</p>
                       <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                     </div>
                   </Link>
