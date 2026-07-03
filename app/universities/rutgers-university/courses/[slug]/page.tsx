@@ -9,7 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [];
+  return rutgersCourses.map(c => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
