@@ -34,6 +34,19 @@ const nextConfig = {
         headers: [
           { key: "X-Content-Type-Options", value: "nosniff" },
           { key: "X-Frame-Options", value: "DENY" },
+          {
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://www.google.com https://apis.google.com",
+              "style-src 'self' 'unsafe-inline'",
+              "img-src 'self' data: blob: https:",
+              "font-src 'self' data:",
+              "connect-src 'self' https://*.googleapis.com https://*.firebase.com wss://*.firebaseio.com https://*.firebaseio.com https://formspree.io",
+              "frame-src 'self' https://*.firebaseapp.com https://www.google.com https://accounts.google.com",
+              "object-src 'none'",
+            ].join('; '),
+          },
         ],
       },
       {
