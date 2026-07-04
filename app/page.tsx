@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { universities } from '@/data/universities';
 import { courses } from '@/data/courses';
+import { blogPosts } from '@/data/blog-posts';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import HeroSearch from '@/components/HeroSearch';
@@ -40,8 +41,14 @@ const orgSchema = {
 };
 
 export default async function HomePage() {
-  const featuredUniversities = universities.filter(u => u.popularAmongIndians).slice(0, 6);
+  const FEATURED_UNI_IDS = ['u14', 'u16', 'u22', 'uk03', 'ca86', 'u20'];
+  const featuredUniversities = FEATURED_UNI_IDS
+    .map(id => universities.find(u => u.id === id))
+    .filter((u): u is NonNullable<typeof u> => u != null);
   const featuredCourses = courses.slice(0, 6);
+  const recentPosts = [...blogPosts]
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 3);
 
   // Fetch destination + university images in parallel at build time
   const [destinationImages, universityImages] = await Promise.all([
@@ -111,7 +118,7 @@ export default async function HomePage() {
                 { icon: '📅', stat: '13+', label: 'Years Experience', color: 'from-blue-600/30 to-blue-700/20' },
                 { icon: '🎓', stat: '1,400+', label: 'Students Placed', color: 'from-purple-600/30 to-purple-700/20' },
                 { icon: '✅', stat: '99%', label: 'Visa Success Rate', color: 'from-green-600/30 to-green-700/20' },
-                { icon: '📚', stat: '5,400+', label: 'Courses Listed', color: 'from-orange-500/30 to-orange-600/20' },
+                { icon: '📚', stat: '35,000+', label: 'Courses Listed', color: 'from-orange-500/30 to-orange-600/20' },
               ].map(card => (
                 <div key={card.label} className={`bg-gradient-to-br ${card.color} border border-white/10 rounded-2xl p-5 backdrop-blur-sm`}>
                   <div className="text-3xl mb-2">{card.icon}</div>
@@ -130,25 +137,6 @@ export default async function HomePage() {
                 </Link>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats */}
-      <section className="bg-white py-10 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {[
-              { stat: '13+', label: 'Years Experience' },
-              { stat: '1,400+', label: 'Students Placed' },
-              { stat: '99%', label: 'Visa Success Rate' },
-              { stat: '5,400+', label: 'Courses Listed' },
-            ].map(s => (
-              <div key={s.label}>
-                <p className="text-3xl font-bold text-brand-700">{s.stat}</p>
-                <p className="text-sm text-gray-500 mt-1">{s.label}</p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -299,6 +287,34 @@ export default async function HomePage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Latest from Blog */}
+      <section className="bg-white py-14 px-4 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex items-center justify-between mb-8">
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900">Latest from Blog</h2>
+              <p className="text-gray-500 mt-1">Expert advice for Indian students studying abroad</p>
+            </div>
+            <Link href="/blog" className="text-brand-700 font-semibold text-sm hover:underline hidden md:block">
+              View All Posts →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+            {recentPosts.map(post => (
+              <Link key={post.slug} href={`/blog/${post.slug}`}
+                className="bg-gray-50 rounded-2xl p-5 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all group">
+                <span className="text-xs bg-brand-50 text-brand-700 font-medium px-2 py-0.5 rounded-full">{post.category}</span>
+                <h3 className="font-bold text-gray-900 group-hover:text-brand-700 text-sm leading-snug mt-3 mb-2">{post.title}</h3>
+                <p className="text-xs text-gray-400">{new Date(post.publishedAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</p>
+              </Link>
+            ))}
+          </div>
+          <Link href="/blog" className="btn-primary w-full text-center block mt-6 md:hidden">
+            View All Blog Posts
+          </Link>
         </div>
       </section>
 
