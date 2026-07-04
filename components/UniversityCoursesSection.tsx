@@ -215,6 +215,7 @@ export default function UniversityCoursesSection({
                 <div>
                   <p className="text-gray-400 mb-0.5">Annual Fee</p>
                   <p className="font-semibold text-brand-700">{formatFee(course)}</p>
+                  {course.annualINR > 0 && <p className="text-gray-400 text-[10px]">≈ ₹{(course.annualINR/100000).toFixed(1)}L</p>}
                 </div>
                 <div>
                   <p className="text-gray-400 mb-0.5">IELTS Min</p>

@@ -43,7 +43,7 @@ const COUNTRY_GRADIENTS: Record<string, string> = {
 };
 
 const FEE_MIN = 0;
-const FEE_MAX = 100000;
+const FEE_MAX = 10000000;
 
 type SortKey = 'rank' | 'fee_asc' | 'fee_desc' | 'accept' | 'popular';
 
@@ -154,7 +154,7 @@ export default function UniversityListingClient({ universities, countries, initi
         }
       }
 
-      if (u.annualTuitionUSD < minFee || u.annualTuitionUSD > maxFee) return false;
+      if (u.annualTuitionINR < minFee || u.annualTuitionINR > maxFee) return false;
       if (show48hr && !(u.acceptanceRate > 65 && ['Canada','Ireland','UK'].includes(u.country))) return false;
       if (showSchol && !(u.scholarships.length > 0)) return false;
       return true;
@@ -245,18 +245,18 @@ export default function UniversityListingClient({ universities, countries, initi
             <span className="text-xs text-gray-600 whitespace-nowrap">💰 Tuition:</span>
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 text-xs text-gray-600 mb-1.5">
-                <span className="font-semibold text-brand-700">${(minFee/1000).toFixed(0)}K – ${maxFee >= FEE_MAX ? '100K+' : `${(maxFee/1000).toFixed(0)}K`}/year</span>
+                <span className="font-semibold text-brand-700">₹{(minFee/100000).toFixed(0)}L – {maxFee >= FEE_MAX ? '₹1Cr+' : `₹${(maxFee/100000).toFixed(0)}L`}/year</span>
               </div>
               <div className="relative h-5 flex items-center">
                 <div className="absolute w-full h-1.5 bg-gray-200 rounded-full">
                   <div className="absolute h-full bg-brand-600 rounded-full" style={{ left: `${feePct(minFee)}%`, width: `${feePct(maxFee)-feePct(minFee)}%` }} />
                 </div>
-                <input type="range" min={0} max={FEE_MAX} step={2000} value={minFee}
-                  onChange={e => setMinFee(Math.min(+e.target.value, maxFee - 2000))}
+                <input type="range" min={0} max={FEE_MAX} step={100000} value={minFee}
+                  onChange={e => setMinFee(Math.min(+e.target.value, maxFee - 100000))}
                   className="absolute w-full h-0 appearance-none pointer-events-none [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-brand-700 [&::-webkit-slider-thumb]:cursor-pointer [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow"
-                  style={{ zIndex: minFee > 90000 ? 5 : 3 }} />
-                <input type="range" min={0} max={FEE_MAX} step={2000} value={maxFee}
-                  onChange={e => setMaxFee(Math.max(+e.target.value, minFee + 2000))}
+                  style={{ zIndex: minFee > 9000000 ? 5 : 3 }} />
+                <input type="range" min={0} max={FEE_MAX} step={100000} value={maxFee}
+                  onChange={e => setMaxFee(Math.max(+e.target.value, minFee + 100000))}
                   className="absolute w-full h-0 appearance-none pointer-events-none [&::-webkit-slider-thumb]:pointer-events-auto [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:h-4 [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-brand-700 [&::-webkit-slider-thumb]:cursor-pointer [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white [&::-webkit-slider-thumb]:shadow"
                   style={{ zIndex: 4 }} />
               </div>
@@ -362,6 +362,7 @@ export default function UniversityListingClient({ universities, countries, initi
                       <div className="grid grid-cols-3 gap-1.5 text-xs mb-3">
                         <div className="bg-gray-50 rounded-lg p-2 text-center">
                           <p className="font-bold text-brand-700">${(u.annualTuitionUSD/1000).toFixed(0)}K</p>
+                          <p className="text-gray-400 text-[10px]">≈ ₹{(u.annualTuitionINR/100000).toFixed(0)}L/yr</p>
                           <p className="text-gray-400 text-xs">Tuition/yr</p>
                         </div>
                         <div className="bg-green-50 rounded-lg p-2 text-center">
