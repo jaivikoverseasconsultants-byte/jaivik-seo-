@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { derbyCourses, getDerbyCourseBySlug } from '@/data/derby-courses';
+import { ljmuCourses, getLjmuCourseBySlug } from '@/data/ljmu-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
@@ -10,20 +10,20 @@ import CourseRichContent from '@/components/CourseRichContent';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return derbyCourses.map(c => ({ slug: c.slug }));
+  return ljmuCourses.map(c => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const course = getDerbyCourseBySlug(slug);
+  const course = getLjmuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Derby — Fees, IELTS & Intake for Indian Students 2026`,
-    description: `${course.name} at University of Derby, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
-    path: `/universities/university-of-derby/courses/${slug}`,
-    keywords: [course.name, 'Derby', 'University of Derby', 'study in UK', course.level],
+    title: `${course.name} at Liverpool John Moores University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at LJMU, Liverpool costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    path: `/universities/liverpool-john-moores-university/courses/${slug}`,
+    keywords: [course.name, 'LJMU', 'Liverpool John Moores University', 'study in UK', course.level],
     noIndex: true
   });
 }
@@ -32,7 +32,7 @@ export default async function CoursePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const course = getDerbyCourseBySlug(slug);
+  const course = getLjmuCourseBySlug(slug);
   if (!course) notFound();
 
   const schema = {
@@ -41,8 +41,8 @@ export default async function CoursePage(
     name: course.name,
     provider: {
       '@type': 'CollegeOrUniversity',
-      name: 'University of Derby',
-      sameAs: 'https://www.derby.ac.uk',
+      name: 'Liverpool John Moores University',
+      sameAs: 'https://www.ljmu.ac.uk',
     },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
@@ -61,14 +61,14 @@ export default async function CoursePage(
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4">
             <Link href="/" className="hover:text-white">Home</Link> /
             <Link href="/universities" className="hover:text-white">Universities</Link> /
-            <Link href="/universities/university-of-derby" className="hover:text-white">Derby</Link> /
-            <Link href="/universities/university-of-derby/courses" className="hover:text-white">Courses</Link> /
+            <Link href="/universities/liverpool-john-moores-university" className="hover:text-white">Liverpool John Moores</Link> /
+            <Link href="/universities/liverpool-john-moores-university/courses" className="hover:text-white">Courses</Link> /
             <span className="text-white">{course.name}</span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇬🇧 University of Derby · Derby, UK
+                🇬🇧 Liverpool John Moores University · Liverpool, UK
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
               <p className="text-blue-200 text-lg mb-5">
@@ -89,7 +89,7 @@ export default async function CoursePage(
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source={`derby-course-${slug}`} defaultCountry="UK" compact />
+              <LeadForm source={`ljmu-course-${slug}`} defaultCountry="UK" compact />
             </div>
           </div>
         </div>
@@ -169,8 +169,7 @@ export default async function CoursePage(
             </div>
           </div>
 
-
-          <CourseRichContent course={course as any} universityName="University of Derby" universitySlug="university-of-derby" />
+          <CourseRichContent course={course as any} universityName="Liverpool John Moores University" universitySlug="liverpool-john-moores-university" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-xl font-bold mb-2">Interested in {course.name}?</h2>
             <p className="text-blue-200 text-sm mb-4">
@@ -184,7 +183,7 @@ export default async function CoursePage(
 
         <div className="space-y-5">
           <div className="sticky top-20">
-            <LeadForm source={`derby-course-${slug}-sidebar`} defaultCountry="UK" />
+            <LeadForm source={`ljmu-course-${slug}-sidebar`} defaultCountry="UK" />
             <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
               <div className="space-y-2">
@@ -192,8 +191,8 @@ export default async function CoursePage(
                   className="block text-sm text-brand-700 hover:underline">
                   Official Course Page ↗
                 </a>
-                <Link href="/universities/university-of-derby/courses" className="block text-sm text-brand-700 hover:underline">
-                  All Derby Courses →
+                <Link href="/universities/liverpool-john-moores-university/courses" className="block text-sm text-brand-700 hover:underline">
+                  All LJMU Courses →
                 </Link>
                 <Link href="/universities/country/uk" className="block text-sm text-brand-700 hover:underline">
                   Study in UK Guide →
