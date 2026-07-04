@@ -9,6 +9,7 @@ import {
 } from 'firebase/firestore';
 import { db } from '@/lib/firebase';
 import { useAuth, type UserProfile } from '@/lib/auth-context';
+import { trackActivity } from '@/lib/activity';
 import IELTSCoachingTab from '@/components/IELTSCoachingTab';
 
 // ── Types ────────────────────────────────────────────────────────────────────
@@ -379,6 +380,7 @@ function ApplicationsTab({ uid, applications, loading, onChange }: {
     setSaving(true);
     try {
       await addDoc(collection(db, 'users', uid, 'applications'), { ...form, createdAt: serverTimestamp() });
+      await trackActivity(uid);
       setForm({ university: '', course: '', status: 'Interested', appliedDate: new Date().toISOString().slice(0, 10), notes: '' });
       setShowForm(false);
       onChange();
@@ -597,6 +599,7 @@ function IeltsTab({ uid, scores, loading, onChange }: {
         speaking: parseFloat(form.speaking),
         createdAt: serverTimestamp(),
       });
+      await trackActivity(uid);
       setForm({ testDate: new Date().toISOString().slice(0, 10), overall: '', listening: '', reading: '', writing: '', speaking: '' });
       setShowForm(false);
       onChange();
@@ -760,6 +763,7 @@ function ProfileTab({ uid, profile, onSaved }: { uid: string; profile: UserProfi
     setSaved(false);
     try {
       await updateDoc(doc(db, 'users', uid), { ...form });
+      await trackActivity(uid);
       await onSaved();
       setSaved(true);
       setTimeout(() => setSaved(false), 2500);

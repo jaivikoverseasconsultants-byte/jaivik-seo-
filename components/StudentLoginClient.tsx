@@ -7,12 +7,14 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signInWithPhoneNumber,
+  signOut as firebaseSignOut,
   RecaptchaVerifier,
   type ConfirmationResult,
 } from 'firebase/auth';
 import { doc, getDoc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { auth, db } from '@/lib/firebase';
 import { useAuth } from '@/lib/auth-context';
+import { trackActivity } from '@/lib/activity';
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 type Tab = 'password' | 'otp' | 'register';
@@ -64,6 +66,8 @@ function mapAuthError(err: unknown): string {
       return 'Galat OTP. Dobara try karein.';
     case 'auth/code-expired':
       return 'OTP expire ho gaya. Naya OTP bhejein.';
+    case 'auth/user-disabled':
+      return 'Aapka account disabled hai. +91-9971226347 par WhatsApp karein.';
     default:
       return (err as { message?: string })?.message || 'Kuch error hua. Dobara try karein.';
   }
@@ -74,7 +78,7 @@ export default function StudentLoginClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const returnUrl = searchParams.get('returnUrl') || '/dashboard/student';
-  const { currentUser, loading: authLoading } = useAuth();
+  const { currentUser, loading: authLoading, isDeactivated } = useAuth();
   const [tab, setTab] = useState<Tab>('password');
 
   // ── Password state
@@ -108,6 +112,13 @@ export default function StudentLoginClient() {
     if (!authLoading && currentUser) router.replace(returnUrl);
   }, [authLoading, currentUser, router, returnUrl]);
 
+  // Propagate session-level deactivation to error state
+  useEffect(() => {
+    if (isDeactivated) {
+      setError('Account deactivated due to inactivity. WhatsApp +91-9971226347 to reactivate.');
+    }
+  }, [isDeactivated]);
+
   function switchTab(t: Tab) {
     setTab(t);
     setError('');
@@ -121,7 +132,15 @@ export default function StudentLoginClient() {
     setError('');
     setLoading(true);
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const cred = await signInWithEmailAndPassword(auth, email, password);
+      const snap = await getDoc(doc(db, 'users', cred.user.uid));
+      if (snap.exists() && snap.data()?.status === 'deactivated') {
+        await firebaseSignOut(auth);
+        setError('Account deactivated due to inactivity. WhatsApp +91-9971226347 to reactivate.');
+        setLoading(false);
+        return;
+      }
+      await trackActivity(cred.user.uid);
       router.push(returnUrl);
     } catch (err) {
       setError(mapAuthError(err));
@@ -160,11 +179,20 @@ export default function StudentLoginClient() {
       const cred = await confirmationRef.current.confirm(otpVal.join(''));
       const uid = cred.user.uid;
       const snap = await getDoc(doc(db, 'users', uid));
-      if (!snap.exists()) {
+      if (snap.exists()) {
+        if (snap.data()?.status === 'deactivated') {
+          await firebaseSignOut(auth);
+          setError('Account deactivated due to inactivity. WhatsApp +91-9971226347 to reactivate.');
+          setLoading(false);
+          return;
+        }
+        await trackActivity(uid);
+      } else {
         await setDoc(doc(db, 'users', uid), {
           name: '', email: '', phone: cred.user.phoneNumber || phone,
           targetCountry: '', budget: '', interestedCourse: '',
-          role: 'student', createdAt: serverTimestamp(),
+          role: 'student', status: 'active',
+          createdAt: serverTimestamp(), lastActivity: serverTimestamp(),
         });
       }
       router.push(returnUrl);
@@ -220,7 +248,9 @@ export default function StudentLoginClient() {
         budget: reg.budget,
         interestedCourse: reg.course,
         role: 'student',
+        status: 'active',
         createdAt: serverTimestamp(),
+        lastActivity: serverTimestamp(),
       });
 
       // Admin notification backup (Formspree) — fire and forget

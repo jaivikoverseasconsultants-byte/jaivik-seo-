@@ -12,6 +12,7 @@ export interface UserProfile {
   targetCountry?: string;
   budget?: string;
   interestedCourse?: string;
+  status?: 'active' | 'deactivated';
   role: 'student' | 'trainer';
   [key: string]: unknown;
 }
@@ -20,6 +21,7 @@ interface AuthContextValue {
   currentUser: User | null;
   userProfile: UserProfile | null;
   loading: boolean;
+  isDeactivated: boolean;
   signOut: () => Promise<void>;
   refreshProfile: () => Promise<void>;
 }
@@ -28,6 +30,7 @@ const AuthContext = createContext<AuthContextValue>({
   currentUser: null,
   userProfile: null,
   loading: true,
+  isDeactivated: false,
   signOut: async () => {},
   refreshProfile: async () => {},
 });
@@ -36,31 +39,46 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isDeactivated, setIsDeactivated] = useState(false);
 
-  async function loadProfile(uid: string) {
+  async function loadProfile(uid: string): Promise<UserProfile | null> {
     try {
       const studentSnap = await getDoc(doc(db, 'users', uid));
       if (studentSnap.exists()) {
-        setUserProfile({ role: 'student', ...(studentSnap.data() as Omit<UserProfile, 'role'>) } as UserProfile);
-        return;
+        const profile = { role: 'student', ...(studentSnap.data() as Omit<UserProfile, 'role'>) } as UserProfile;
+        setUserProfile(profile);
+        return profile;
       }
       const trainerSnap = await getDoc(doc(db, 'trainers', uid));
       if (trainerSnap.exists()) {
-        setUserProfile({ role: 'trainer', ...(trainerSnap.data() as Omit<UserProfile, 'role'>) } as UserProfile);
-        return;
+        const profile = { role: 'trainer', ...(trainerSnap.data() as Omit<UserProfile, 'role'>) } as UserProfile;
+        setUserProfile(profile);
+        return profile;
       }
       setUserProfile(null);
+      return null;
     } catch {
       setUserProfile(null);
+      return null;
     }
   }
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
-      setCurrentUser(user);
       if (user) {
-        await loadProfile(user.uid);
+        const profile = await loadProfile(user.uid);
+        if (profile?.status === 'deactivated') {
+          // Sign out silently; let the login page show the "deactivated" message
+          await firebaseSignOut(auth);
+          setCurrentUser(null);
+          setUserProfile(null);
+          setIsDeactivated(true);
+        } else {
+          setCurrentUser(user);
+          setIsDeactivated(false);
+        }
       } else {
+        setCurrentUser(null);
         setUserProfile(null);
       }
       setLoading(false);
@@ -69,6 +87,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   async function signOut() {
+    setIsDeactivated(false);
     await firebaseSignOut(auth);
     setUserProfile(null);
   }
@@ -78,7 +97,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <AuthContext.Provider value={{ currentUser, userProfile, loading, signOut, refreshProfile }}>
+    <AuthContext.Provider value={{ currentUser, userProfile, loading, isDeactivated, signOut, refreshProfile }}>
       {children}
     </AuthContext.Provider>
   );
