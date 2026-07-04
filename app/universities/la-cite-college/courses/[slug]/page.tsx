@@ -7,10 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return [];
+export async function generateStaticParams() {
+  return (la_citeCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
@@ -24,7 +22,6 @@ export async function generateMetadata(
     description: `${course.name} at La Cité College, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/la-cite-college/courses/${slug}`,
     keywords: [course.name, 'La Cité', 'La Cité College', 'study in Canada', course.level, 'PGWP'],
-    noIndex: true
   });
 }
 

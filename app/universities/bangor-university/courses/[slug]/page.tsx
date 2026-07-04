@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { bangorCourses, getBangorCourseBySlug } from '@/data/bangor-courses';
@@ -24,7 +24,6 @@ export async function generateMetadata(
     description: `${course.name} at Bangor University costs ₹${((course.annualINR || 0) / 100000).toFixed(1)}L/year. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths?.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/bangor-university/courses/${slug}`,
     keywords: [course.name, 'Bangor', 'Bangor University', 'study in United Kingdom', course.level],
-    noIndex: true,
   });
 }
 

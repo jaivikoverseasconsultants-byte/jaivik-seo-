@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { itUniversityOfCopenhagenCourses, getItUniversityOfCopenhagenCourseBySlug } from '@/data/it-university-of-copenhagen-courses';
@@ -7,10 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return [];
+export async function generateStaticParams() {
+  return (itUniversityOfCopenhagenCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
@@ -24,7 +22,6 @@ export async function generateMetadata(
     description: `${course.name} at IT University of Copenhagen, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/it-university-of-copenhagen/courses/${slug}`,
     keywords: [course.name, 'IT University of Copenhagen', 'study in Denmark', course.level],
-    noIndex: true
   });
 }
 

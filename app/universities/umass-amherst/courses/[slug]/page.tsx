@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { umassAmherstCourses, getUmassAmherstCourseBySlug } from '@/data/umass-courses';
@@ -24,7 +24,6 @@ export async function generateMetadata(
     description: `${course.name} at University of Massachusetts Amherst costs ₹${((course.annualINR || 0) / 100000).toFixed(1)}L/year. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths?.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/umass-amherst/courses/${slug}`,
     keywords: [course.name, 'UMass Amherst', 'University of Massachusetts Amherst', 'study in United States', course.level],
-    noIndex: true,
   });
 }
 

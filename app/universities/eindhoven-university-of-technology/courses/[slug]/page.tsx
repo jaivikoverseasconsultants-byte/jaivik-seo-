@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { eindhovenCourses, getEindhovenCourseBySlug } from '@/data/eindhoven-courses';
@@ -7,10 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return [];
+export async function generateStaticParams() {
+  return (eindhovenCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
@@ -24,7 +22,6 @@ export async function generateMetadata(
     description: `${course.name} at Eindhoven University of Technology, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/eindhoven-university-of-technology/courses/${slug}`,
     keywords: [course.name, 'Eindhoven University of Technology', 'study in Netherlands', course.level],
-    noIndex: true
   });
 }
 

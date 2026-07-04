@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { fuberlinCourses, getFuBerlinCourseBySlug } from '@/data/fu-berlin-courses';
@@ -7,10 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return [];
+export async function generateStaticParams() {
+  return (fuberlinCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
@@ -25,7 +23,6 @@ export async function generateMetadata(
     description: `${course.name} at Free University of Berlin, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/free-university-of-berlin/courses/${slug}`,
     keywords: [course.name, 'FU Berlin', 'Free University of Berlin', 'study in Germany', course.level],
-    noIndex: true
   });
 }
 

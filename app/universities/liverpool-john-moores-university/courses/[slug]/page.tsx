@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ljmuCourses, getLjmuCourseBySlug } from '@/data/ljmu-courses';
@@ -24,7 +24,6 @@ export async function generateMetadata(
     description: `${course.name} at LJMU, Liverpool costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/liverpool-john-moores-university/courses/${slug}`,
     keywords: [course.name, 'LJMU', 'Liverpool John Moores University', 'study in UK', course.level],
-    noIndex: true
   });
 }
 

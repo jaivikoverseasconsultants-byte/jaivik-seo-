@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { msuCourses } from '@/data/msu-courses';
@@ -22,7 +22,6 @@ export async function generateMetadata(
     title: `${c.name} at Michigan State University — Fees, IELTS & Intake for Indian Students 2026`,
     description: `${c.name} at Michigan State University, ${(c as any).city || c.country} costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/michigan-state-university/courses/${slug}`,
-    noIndex: true
   });
 }
 

@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { gatechCourses, getGatechCourseBySlug } from '@/data/gatech-courses';
@@ -7,10 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return [];
+export async function generateStaticParams() {
+  return (gatechCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
@@ -25,7 +23,6 @@ export async function generateMetadata(
     description: `${course.name} at Georgia Institute of Technology, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/georgia-institute-of-technology/courses/${slug}`,
     keywords: [course.name, 'Georgia Tech', 'Georgia Institute of Technology', 'study in USA', course.level],
-    noIndex: true
   });
 }
 

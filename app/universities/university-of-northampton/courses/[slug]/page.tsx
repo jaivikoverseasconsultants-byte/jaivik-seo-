@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { northamptonCourses, getNorthamptonCourseBySlug } from '@/data/northampton-courses';
@@ -24,7 +24,6 @@ export async function generateMetadata(
     description: `${course.name} at University of Northampton costs ₹${((course.annualINR || 0) / 100000).toFixed(1)}L/year. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths?.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/university-of-northampton/courses/${slug}`,
     keywords: [course.name, 'Northampton', 'University of Northampton', 'study in United Kingdom', course.level],
-    noIndex: true,
   });
 }
 
