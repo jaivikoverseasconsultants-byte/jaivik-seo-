@@ -15,6 +15,7 @@ import { generateUniversityAbout, generateWhyIndianStudents, generateApplication
 const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
 const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
 const UniversityCoursesSection = dynamic(() => import('@/components/UniversityCoursesSection'), { ssr: false });
+const UniversityLeadCapture = dynamic(() => import('@/components/UniversityLeadCapture'), { ssr: false });
 
 export async function generateStaticParams() {
   return universities.map(u => ({ slug: u.slug }));
@@ -189,6 +190,11 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           </div>
         </div>
       </section>
+
+      {/* Lead capture for universities with few course pages */}
+      {uniCourses.length < 50 && (
+        <UniversityLeadCapture universityName={u.name} />
+      )}
 
       {/* Key Stats */}
       <section className="bg-white border-b border-gray-100 py-8 px-4">

@@ -327,8 +327,14 @@ export default function Navbar() {
               </Link>
             ))}
 
+            <a
+              href="tel:+919971226347"
+              className="ml-1 flex items-center gap-1.5 text-green-400 hover:text-green-300 text-sm font-medium px-3 py-2 rounded-xl hover:bg-white/8 transition-all whitespace-nowrap"
+            >
+              📞 +91 99712 26347
+            </a>
             <Link href="/student-login"
-              className="ml-3 flex items-center gap-1.5 text-blue-100/80 hover:text-white text-sm font-medium px-3 py-2 rounded-xl hover:bg-white/8 transition-all border border-white/10 hover:border-white/20 whitespace-nowrap">
+              className="ml-1 flex items-center gap-1.5 text-blue-100/80 hover:text-white text-sm font-medium px-3 py-2 rounded-xl hover:bg-white/8 transition-all border border-white/10 hover:border-white/20 whitespace-nowrap">
               <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
               </svg>

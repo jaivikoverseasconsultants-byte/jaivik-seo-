@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           {/* Floating WhatsApp button */}
           <a
-            href="https://wa.me/919971226347"
+            href="https://wa.me/919971226347?text=Hi%2C%20I%20found%20your%20study%20abroad%20portal%20and%20need%20guidance"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"

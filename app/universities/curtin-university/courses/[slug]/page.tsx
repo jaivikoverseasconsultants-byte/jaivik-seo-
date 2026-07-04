@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { curtinCourses, getCurtinCourseBySlug } from '@/data/curtin-courses';
@@ -158,6 +158,20 @@ export default async function CoursePage(
                   <p className="text-sm font-semibold text-gray-900">{f.value}</p>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Post-Study Work Rights &amp; PR Pathway</h2>
+            <div className="space-y-4">
+              <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
+                <p className="text-sm font-bold text-blue-900 mb-1">485 Graduate Visa (Temporary Graduate)</p>
+                <p className="text-sm text-blue-800">After completing your degree, apply for the Subclass 485 Post-Study Work Stream. Work full-time anywhere in Australia — 2 years for Bachelor's, 3 years for Honours/Masters, 4 years for PhD.</p>
+              </div>
+              <div className="p-4 bg-green-50 rounded-xl border border-green-100">
+                <p className="text-sm font-bold text-green-900 mb-1">Skilled Independent Visa (Subclass 189) Pathway</p>
+                <p className="text-sm text-green-800">Australian work experience from your 485 Visa contributes to your points for the Skilled Independent Visa (SC 189). Skilled occupations from engineering, IT, healthcare, and accounting fields are in high demand.</p>
+              </div>
             </div>
           </div>
 

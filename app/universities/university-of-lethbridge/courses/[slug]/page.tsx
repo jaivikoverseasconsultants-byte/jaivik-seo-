@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+﻿import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { u_lethbridgeCourses, getU_lethbridgeCoursesBySlug } from '@/data/u-lethbridge-courses';
@@ -171,6 +171,23 @@ export default async function CoursePage(
             <div className="mt-4 p-3 bg-green-50 rounded-xl border border-green-200">
               <p className="text-xs text-green-800 font-semibold">✅ PGWP Eligible Institution</p>
               <p className="text-xs text-green-700 mt-1">Graduates can apply for a Post-Graduation Work Permit valid for up to 3 years, which can lead to Canadian Permanent Residency.</p>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Post-Study Work Rights &amp; PR Pathway</h2>
+            <div className="space-y-4">
+              <div className="p-4 bg-blue-50 rounded-xl border border-blue-100">
+                <p className="text-sm font-bold text-blue-900 mb-1">Post-Graduation Work Permit (PGWP)</p>
+                <p className="text-sm text-blue-800">Graduates from PGWP-eligible institutions can work full-time anywhere in Canada. Duration matches your study length — up to 3 years for programmes of 2+ years.</p>
+              </div>
+              <div className="p-4 bg-green-50 rounded-xl border border-green-100">
+                <p className="text-sm font-bold text-green-900 mb-1">Express Entry PR Pathway</p>
+                <p className="text-sm text-green-800">Canadian work experience gained on PGWP adds +15 CRS points under Express Entry, significantly boosting your Permanent Residency score. Most graduates achieve PR within 1-2 years of completing studies.</p>
+              </div>
+              <div className="p-3 bg-amber-50 rounded-xl border border-amber-200">
+                <p className="text-xs text-amber-800 font-semibold">+15 CRS Points for Canadian Study + Work Experience</p>
+              </div>
             </div>
           </div>
 
