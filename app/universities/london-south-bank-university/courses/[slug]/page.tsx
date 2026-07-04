@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { uweCourses, getUweCourseBySlug } from '@/data/uwe-courses';
+import { lsbuCourses, getLsbuCourseBySlug } from '@/data/lsbu-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
@@ -10,20 +10,20 @@ import CourseRichContent from '@/components/CourseRichContent';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return uweCourses.map(c => ({ slug: c.slug }));
+  return lsbuCourses.map(c => ({ slug: c.slug }));
 }
 
 export async function generateMetadata(
   { params }: { params: Promise<{ slug: string }> }
 ): Promise<Metadata> {
   const { slug } = await params;
-  const course = getUweCourseBySlug(slug);
+  const course = getLsbuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of the West of England — Fees, IELTS & Intake for Indian Students 2026`,
-    description: `${course.name} at University of the West of England, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
-    path: `/universities/university-of-west-of-england/courses/${slug}`,
-    keywords: [course.name, 'UWE Bristol', 'University of the West of England', 'study in UK', course.level],
+    title: `${course.name} at London South Bank University — Fees, IELTS & Intake for Indian Students 2026`,
+    description: `${course.name} at London South Bank University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    path: `/universities/london-south-bank-university/courses/${slug}`,
+    keywords: [course.name, 'LSBU', 'London South Bank University', 'study in UK', course.level],
     noIndex: true
   });
 }
@@ -32,7 +32,7 @@ export default async function CoursePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
   const { slug } = await params;
-  const course = getUweCourseBySlug(slug);
+  const course = getLsbuCourseBySlug(slug);
   if (!course) notFound();
 
   const schema = {
@@ -41,8 +41,8 @@ export default async function CoursePage(
     name: course.name,
     provider: {
       '@type': 'CollegeOrUniversity',
-      name: 'University of the West of England',
-      sameAs: 'https://www.uwe.ac.uk',
+      name: 'London South Bank University',
+      sameAs: 'https://www.lsbu.ac.uk',
     },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
@@ -61,14 +61,14 @@ export default async function CoursePage(
           <div className="flex items-center gap-2 text-blue-200 text-xs mb-4">
             <Link href="/" className="hover:text-white">Home</Link> /
             <Link href="/universities" className="hover:text-white">Universities</Link> /
-            <Link href="/universities/university-of-west-of-england" className="hover:text-white">UWE Bristol</Link> /
-            <Link href="/universities/university-of-west-of-england/courses" className="hover:text-white">Courses</Link> /
+            <Link href="/universities/london-south-bank-university" className="hover:text-white">LSBU</Link> /
+            <Link href="/universities/london-south-bank-university/courses" className="hover:text-white">Courses</Link> /
             <span className="text-white">{course.name}</span>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-                🇬🇧 University of the West of England · Bristol, UK
+                🇬🇧 London South Bank University · London, UK
               </div>
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
               <p className="text-blue-200 text-lg mb-5">
@@ -89,7 +89,7 @@ export default async function CoursePage(
               </div>
             </div>
             <div className="bg-white rounded-2xl p-5">
-              <LeadForm source={`uwe-course-${slug}`} defaultCountry="UK" compact />
+              <LeadForm source={`london_south_bank_university-course-${slug}`} defaultCountry="UK" compact />
             </div>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default async function CoursePage(
             <h2 className="text-xl font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                { label: 'Qualification', value: course.level },
+                { label: 'Qualification', value: course.studyLevel },
                 { label: 'Duration', value: course.duration + ' full-time' },
                 { label: 'Campus', value: course.campus },
                 { label: 'Intakes', value: course.intakeMonths.join(' & ') },
@@ -152,25 +152,8 @@ export default async function CoursePage(
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">UK Student Visa & Work Rights</h2>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { label: 'Visa Type', value: 'UK Student Visa' },
-                { label: 'Work Rights (Term)', value: '20 hrs/week' },
-                { label: 'Work Rights (Vacation)', value: 'Full-time' },
-                { label: 'Graduate Route Visa', value: '2 years (3 for PhD)' },
-              ].map(f => (
-                <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
-                  <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
-                  <p className="text-sm font-semibold text-gray-900">{f.value}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          <CourseRichContent course={course as any} universityName="London South Bank University" universitySlug="london-south-bank-university" />
 
-
-          <CourseRichContent course={course as any} universityName="University of the West of England" universitySlug="university-of-west-of-england" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-xl font-bold mb-2">Interested in {course.name}?</h2>
             <p className="text-blue-200 text-sm mb-4">
@@ -184,7 +167,7 @@ export default async function CoursePage(
 
         <div className="space-y-5">
           <div className="sticky top-20">
-            <LeadForm source={`uwe-course-${slug}-sidebar`} defaultCountry="UK" />
+            <LeadForm source={`london_south_bank_university-course-${slug}-sidebar`} defaultCountry="UK" />
             <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
               <div className="space-y-2">
@@ -192,8 +175,8 @@ export default async function CoursePage(
                   className="block text-sm text-brand-700 hover:underline">
                   Official Course Page ↗
                 </a>
-                <Link href="/universities/university-of-west-of-england/courses" className="block text-sm text-brand-700 hover:underline">
-                  All UWE Bristol Courses →
+                <Link href="/universities/london-south-bank-university/courses" className="block text-sm text-brand-700 hover:underline">
+                  All LSBU Courses →
                 </Link>
                 <Link href="/universities/country/uk" className="block text-sm text-brand-700 hover:underline">
                   Study in UK Guide →
