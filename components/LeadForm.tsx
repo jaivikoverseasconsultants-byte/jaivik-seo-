@@ -2,8 +2,6 @@
 
 import { useState } from 'react';
 
-const FORMSPREE_URL = 'https://formspree.io/f/xgoqzezk';
-
 interface LeadFormProps {
   source?: string;
   defaultCourse?: string;
@@ -34,22 +32,20 @@ export default function LeadForm({ source = 'website', defaultCourse = '', defau
     e.preventDefault();
     setStatus('submitting');
     try {
-      const res = await fetch(FORMSPREE_URL, {
+      const res = await fetch('/api/lead', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          _subject: `New Enquiry – ${form.interestedCourse || 'Study Abroad'} in ${form.targetCountry || 'Unknown'} | ${source}`,
           name: form.name,
           email: form.email,
           phone: form.phone,
-          'Target Country': form.targetCountry,
-          'Interested Course': form.interestedCourse,
-          'Budget': form.budget,
-          'IELTS Score': form.ieltsScore,
-          'GRE/GMAT Score': form.greScore,
-          'Message': form.message,
-          'Source Page': source,
-          'Submitted At': new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
+          targetCountry: form.targetCountry,
+          interestedCourse: form.interestedCourse,
+          budget: form.budget,
+          ieltsScore: form.ieltsScore,
+          greScore: form.greScore,
+          message: form.message,
+          source,
         }),
       });
       if (!res.ok) throw new Error('Failed');
