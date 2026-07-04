@@ -275,7 +275,7 @@ export default async function HomePage() {
                 </div>
                 <div className="grid grid-cols-2 gap-2 text-xs mb-3">
                   <div className="bg-gray-50 rounded-lg p-2 text-center">
-                    <p className="font-bold text-brand-700">${(c.avgFeesUSD / 1000).toFixed(0)}K</p>
+                    <p className="font-bold text-brand-700">${(c.avgFeesUSD / 1000).toFixed(0)}K (≈₹{(c.avgFeesUSD * 84 / 100000).toFixed(1)}L)</p>
                     <p className="text-gray-400">Avg Fees</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-2 text-center">
