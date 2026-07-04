@@ -6,8 +6,6 @@ import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return ucdavisCourses.map(c => ({ slug: c.slug }));
 }

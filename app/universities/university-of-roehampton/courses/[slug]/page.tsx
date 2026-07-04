@@ -7,8 +7,6 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-export const dynamicParams = false;
-
 export function generateStaticParams() {
   return roehamCourses.map(c => ({ slug: c.slug }));
 }
