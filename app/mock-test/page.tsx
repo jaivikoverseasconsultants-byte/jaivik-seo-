@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
+import MockTestRecommend from '@/components/MockTestRecommend';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Free IELTS Mock Test 2026 – Full Test + Reading, Listening, Writing, Speaking | Jaivik Overseas',
@@ -106,13 +107,7 @@ const SECTIONS = [
   },
 ];
 
-export default async function MockTestPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ recommend?: string }>;
-}) {
-  const { recommend } = await searchParams;
-
+export default function MockTestPage() {
   return (
     <>
       <JsonLd data={testSchema} />
@@ -139,19 +134,8 @@ export default async function MockTestPage({
         </section>
 
         <div className="max-w-5xl mx-auto px-4 py-12 space-y-14">
-          {/* Recommended */}
-          {recommend && (
-            <div className="bg-brand-50 border border-brand-200 rounded-2xl p-6">
-              <p className="text-brand-700 font-bold text-lg mb-1">🎯 Recommended for you</p>
-              <p className="text-brand-600 text-sm mb-4">Based on your profile, we recommend starting here:</p>
-              <Link
-                href={`/mock-test/${recommend}/full`}
-                className="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white px-6 py-3 rounded-xl font-bold transition-colors"
-              >
-                Take {recommend.charAt(0).toUpperCase() + recommend.slice(1)} Full Test →
-              </Link>
-            </div>
-          )}
+          {/* Recommended — reads ?recommend= client-side */}
+          <MockTestRecommend />
 
           {/* Step 1: Choose Level */}
           <section>

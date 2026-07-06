@@ -66,14 +66,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
-        const profile = await loadProfile(user.uid);
-        if (profile?.status === 'deactivated') {
-          // Sign out silently; let the login page show the "deactivated" message
-          await firebaseSignOut(auth);
-          setCurrentUser(null);
-          setUserProfile(null);
-          setIsDeactivated(true);
-        } else {
+        try {
+          const profile = await loadProfile(user.uid);
+          if (profile?.status === 'deactivated') {
+            try { await firebaseSignOut(auth); } catch { /* ignore sign-out errors */ }
+            setCurrentUser(null);
+            setUserProfile(null);
+            setIsDeactivated(true);
+          } else {
+            setCurrentUser(user);
+            setIsDeactivated(false);
+          }
+        } catch {
           setCurrentUser(user);
           setIsDeactivated(false);
         }

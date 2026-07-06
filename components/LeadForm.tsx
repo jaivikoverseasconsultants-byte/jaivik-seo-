@@ -32,25 +32,25 @@ export default function LeadForm({ source = 'website', defaultCourse = '', defau
     e.preventDefault();
     setStatus('submitting');
     try {
-      const res = await fetch('/api/lead', {
+      const res = await fetch('https://formspree.io/f/xgoqzezk', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({
+          _subject: `New Enquiry – ${form.interestedCourse} in ${form.targetCountry} | ${source}`,
           name: form.name,
           email: form.email,
           phone: form.phone,
-          targetCountry: form.targetCountry,
-          interestedCourse: form.interestedCourse,
-          budget: form.budget,
-          ieltsScore: form.ieltsScore,
-          greScore: form.greScore,
-          message: form.message,
-          source,
+          'Target Country': form.targetCountry,
+          'Interested Course': form.interestedCourse,
+          'Budget': form.budget,
+          'IELTS Score': form.ieltsScore,
+          'GRE/GMAT Score': form.greScore,
+          'Message': form.message,
+          'Source Page': source,
         }),
       });
       if (!res.ok) throw new Error('Failed');
       setStatus('success');
-      // Redirect to thank-you page with WhatsApp CTA
       window.location.href = '/thank-you';
     } catch {
       setStatus('error');

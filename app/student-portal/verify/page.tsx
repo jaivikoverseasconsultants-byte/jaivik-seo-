@@ -1,12 +1,21 @@
+'use client';
+
+import { Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 import dynamic from 'next/dynamic';
 
 const StudentPortalClient = dynamic(() => import('@/components/StudentPortalClient'), { ssr: false });
 
-export default async function VerifyPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ id?: string }>;
-}) {
-  const { id } = await searchParams;
+function VerifyContent() {
+  const params = useSearchParams();
+  const id = params.get('id') ?? undefined;
   return <StudentPortalClient verifyId={id} />;
+}
+
+export default function VerifyPage() {
+  return (
+    <Suspense fallback={null}>
+      <VerifyContent />
+    </Suspense>
+  );
 }
