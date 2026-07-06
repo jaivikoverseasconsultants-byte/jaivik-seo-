@@ -37,13 +37,12 @@ const schema = {
   })),
 };
 
-export default async function UniversitiesPage({ searchParams }: { searchParams: Promise<{ q?: string }> }) {
-  const { q } = await searchParams;
+export default function UniversitiesPage() {
   const courseIndex = getCourseIndex();
   return (
     <>
       <JsonLd data={schema} />
-      <UniversityListingClient universities={universities} countries={countries} initialSearch={q ?? ''} courseIndex={courseIndex} />
+      <UniversityListingClient universities={universities} countries={countries} initialSearch="" courseIndex={courseIndex} />
     </>
   );
 }

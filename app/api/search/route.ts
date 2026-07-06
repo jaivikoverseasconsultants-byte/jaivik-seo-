@@ -3,6 +3,8 @@ import { universities } from '@/data/universities';
 import { getCourseSearchEntries, classifyLevel } from '@/data/university-course-registry';
 import COURSE_CATEGORIES from '@/data/course-categories';
 
+export const dynamic = 'force-static';
+
 const ALL_COUNTRIES = ['USA','UK','Canada','Australia','Germany','Ireland','Singapore','New Zealand','France','Netherlands','Sweden','UAE','Denmark','Italy','Spain'];
 
 // ── Synonym expansion ────────────────────────────────────────────────────────
