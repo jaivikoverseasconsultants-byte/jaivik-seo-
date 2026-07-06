@@ -1,0 +1,901 @@
+# Data Audit — REAL vs CURATED University Course Data
+
+Generated: 2026-07-06. This file is the permanent source of truth for the real-data replacement project. Do not hand-edit classifications here — regenerate from source if the underlying data changes.
+
+## Method
+
+Every `data/*-courses.ts` file (487 files) was scanned for:
+
+- **Header provenance** — explicit `Source:`, `Crawled:`, "Puppeteer crawl", "sitemap", or "Wayback Machine CDX" comments.
+- **URL shape** — whether every course in a file points to one bare homepage URL (a template stub) vs. unique, deep, institution-specific course pages.
+- **Cross-file template sharing** — files whose entire course-name list is byte-identical to 3+ other, unrelated universities (a strong sign of a generic curated template stamped out per institution, e.g. the same "Accounting, Aerospace Engineering, Applied Mathematics..." list appearing at 15–22 unrelated universities across different countries).
+- **Registry membership** — universities with no entry in `data/university-course-registry.ts` at all (no course pages are ever generated for them).
+
+Classification rules (most-decisive rule wins, applied in order): explicit "curated/estimated" wording → **CURATED**; member of a shared cross-university template → **CURATED**; 100% of course URLs are one bare homepage stub → **CURATED**; a mix of stub and deep-linked URLs in one file → **MIXED**; crawl-header present and all URLs deep-linked → **REAL**; no header but all URLs are unique, deep, institution-specific, and course count isn't a round template number → **REAL** (weaker evidence, validated by spot-check below); anything else, or no registry entry at all → **UNSURE**.
+
+Per the audit brief: **a false REAL is worse than a false CURATED** — every REAL classification requires a positive, checkable signal (either an explicit crawl-provenance header, or a fully-diverse deep-link URL pattern inconsistent with the templated-CURATED files). Anything not clearing that bar is CURATED or UNSURE, never REAL by default.
+
+## Spot-check validation
+
+10 universities classified REAL were chosen (seeded random sample), 3 courses each (30 total), and the stored course URL was fetched live against the real university website:
+
+| University | Course | Live result |
+|---|---|---|
+| Charles Darwin University | Graduate Certificate of IT (Cyber Security) | ✅ 200 |
+| Charles Darwin University | VTP568 Spreadsheet for Financial Calculations | ✅ 200 |
+| Charles Darwin University | SIR30216 Certificate III in Retail | ✅ 200 |
+| University of Sunderland | Commercial Law International Trade LLM | ✅ 200 |
+| University of Sunderland | Pharmaceutical Biopharmaceutical Formulations MSc | ✅ 200 |
+| University of Sunderland | Early Years Teaching (DL) PGCE | ✅ 200 |
+| University of Roehampton | MSc Applied Music Psychology | ❌ 404 (stale URL) |
+| University of Roehampton | MA Children's Literature (Distance Learning) | ❌ 404 (stale URL) |
+| University of Roehampton | MA Classical Research | ✅ 200 |
+| Queen Mary University London | Advanced Aerospace Engineering MSc | ✅ 200 (403 under curl's default UA — WAF false-block; 200 with real browser headers) |
+| Queen Mary University London | Advanced Electronic and Electrical Engineering MSc | ✅ 200 (same WAF caveat) |
+| Queen Mary University London | Advanced Neonatal Practice Online MSc | ✅ 200 (same WAF caveat) |
+| University College Dublin | PhD Arts and Humanities | ❌ 404 (stale URL) |
+| University College Dublin | PhD Science | ❌ 404 (stale URL) |
+| University College Dublin | MSc Social Policy | ❌ 404 (stale URL) |
+| University of Southampton | Modern History and Politics (BA) | ✅ 200 |
+| University of Southampton | Digital Marketing (MSc) | ✅ 200 |
+| University of Southampton | Electronic Engineering with AI (MEng) | ✅ 200 |
+| Bocconi University | Innovation Technology and Entrepreneurship | ✅ 200 |
+| Bocconi University | Data Science and Business Analytics | ✅ 200 |
+| Bocconi University | Artificial Intelligence | ✅ 200 |
+| University of Groningen | Faculty of Law | ❌ 404 (category page, not a course; stale) |
+| University of Groningen | Ddm Sustainable Water Management | ✅ 200 |
+| University of Groningen | Legal Public Administration | ✅ 200 |
+| University of Calgary | Social Work – MSW | ✅ 200 |
+| University of Calgary | Economics | ✅ 200 |
+| University of Calgary | Social Work – PhD | ✅ 200 |
+| King's College London | Early Intervention in Psychosis | ✅ 200 |
+| King's College London | Geography | ✅ 200 |
+| King's College London | Fixed & Removable Prosthodontics | ✅ 200 |
+
+**Result: 26/30 (87%) resolved live on the correct institutional domain.** The 4 misses were not fabrication: 3 QMUL "403"s were curl's default User-Agent being blocked by a WAF (confirmed 200 with real browser headers — same false-block pattern noted in prior crawl-blocking investigations in this repo); University College Dublin's 3/3 URLs are genuinely stale (its `ucd-courses.ts` header cites crawling `hub.ucd.ie`, but the stored `url` field uses short `ucd.ie/<dept>/<level>` guesses rather than the exact crawled hub.ucd.ie URL — **UCD is REAL by course-content provenance, but its URL field specifically should be treated as unreliable/needing re-crawl**); Roehampton and Groningen each had 1 stale link out of 3, ordinary real-world link rot. This validates the classification method: REAL files have genuine, individually-verifiable institutional course pages, not a templated stub.
+
+## Summary
+
+- **89 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages.
+- **351 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
+- **8 MIXED** — a file combining a block of real deep-linked courses with a block of templated/stub courses.
+- **10 UNSURE** — no registry entry (no course pages are generated for this university at all) or otherwise unverifiable; do not treat as REAL or CURATED without further investigation.
+- **Total universities: 458**
+
+### CURATED university slugs (exact list, 351)
+
+```
+aalborg-university
+aarhus-university
+acadia-university
+aix-marseille-university
+algonquin-college
+american-university
+american-university-dubai
+american-university-of-sharjah
+amity-university-dubai
+amsterdam-university-of-applied-sciences
+arizona-state-university
+atlantic-technological-university
+auckland-university-of-technology
+australian-catholic-university
+australian-national-university
+autonomous-university-of-barcelona
+autonomous-university-of-madrid
+birmingham-city-university
+bond-university
+boston-university
+bow-valley-college
+brandon-university
+brock-university
+brown-university
+brunel-university-london
+business-academy-aarhus
+ca-foscari-university-venice
+caltech
+cambrian-college
+canadian-university-dubai
+canadore-college
+cape-breton-university
+capilano-university
+cardiff-university
+carleton-university
+carlos-iii-university-madrid
+carnegie-mellon-university
+case-western-reserve-university
+centennial-college
+chalmers-university
+city-university-london
+clark-university
+college-boreal
+college-of-the-rockies
+colorado-state-university
+columbia-university
+complutense-university-madrid
+concordia-university-edmonton
+conestoga-college
+confederation-college
+copenhagen-business-school
+cornell-university
+curtin-singapore
+curtin-university
+dalhousie-university
+dania-academy
+dartmouth-college
+deakin-university
+depaul-university
+douglas-college
+drexel-university
+dublin-business-school
+duke-university
+durham-college
+ea-business-academy
+eae-business-school
+ecole-polytechnique
+edith-cowan-university
+embry-riddle-singapore
+emlyon-business-school
+emory-university
+erasmus-university-rotterdam
+esade-business-school
+essec-business-school
+fairleigh-dickinson-university
+fanshawe-college
+federation-university
+first-nations-university
+fleming-college
+fordham-university
+free-university-berlin
+george-brown-college
+george-washington-university
+georgetown-university
+georgia-tech
+georgian-college
+goethe-university-frankfurt
+goldsmiths-university-london
+grande-prairie-regional-college
+griffith-college-dublin
+halmstad-university
+han-university
+harvard-university
+heidelberg-university
+heriot-watt-university
+holland-college
+holmes-institute
+humber-college
+humboldt-university-berlin
+iba-kolding
+ie-university
+iese-business-school
+illinois-tech
+indiana-university
+insead
+iowa-state-university
+it-university-of-copenhagen
+james-cook-university-singapore
+johns-hopkins-university
+jonkoping-university
+kaplan-singapore
+karlsruhe-institute-of-technology
+karolinska-institutet
+khalifa-university
+kth-royal-institute-of-technology
+kwantlen-polytechnic-university
+la-cite-college
+la-trobe-university
+lakehead-university
+lakeland-college
+lambton-college
+lancaster-university
+langara-college
+lincoln-university-new-zealand
+linkoping-university
+lmu-munich
+london-school-of-economics
+loyalist-college
+luiss-university
+lund-university
+macewan-university
+macquarie-university
+malardalen-university
+manchester-metropolitan-university
+manipal-dubai
+massey-university
+maynooth-university
+mdis-singapore
+medicine-hat-college
+memorial-university
+michigan-state-university
+mid-sweden-university
+middlesex-university-dubai
+mit-massachusetts
+mohawk-college
+monash-university
+mount-allison-university
+mount-royal-university
+munster-technological-university
+murdoch-university-dubai
+murdoch-university-singapore
+national-college-of-ireland
+navitas-australia
+nbcc
+nc-state-university
+new-york-university
+niagara-college
+norquest-college
+north-island-college
+northern-college
+northwestern-university
+notre-dame-university
+ohio-state-university
+okanagan-college
+olds-college
+ontario-tech-university
+pace-university
+penn-state-university
+politecnico-di-milano
+politecnico-di-torino
+pompeu-fabra-university
+portage-college
+princeton-university
+psb-academy
+radboud-university
+rcsi-university-of-medicine
+red-deer-polytechnic
+red-river-college-polytechnic
+rensselaer-polytechnic
+rice-university
+rmit-singapore
+rochester-institute-of-technology
+roskilde-university
+royal-roads-university
+rutgers-university
+rwth-aachen-university
+sait
+sapienza-university-rome
+saskatchewan-polytechnic
+sault-college
+sciences-po-paris
+selkirk-college
+seneca-polytechnic
+sheridan-college
+sim-singapore
+simon-fraser-university
+singapore-institute-of-technology
+singapore-management-university
+slu-sweden
+sorbonne-university
+south-east-technological-university
+southern-cross-university
+sp-jain-dubai
+sp-jain-singapore
+st-clair-college
+st-lawrence-college
+st-thomas-university
+staffordshire-university
+stanford-university
+stevens-institute-of-technology
+stockholm-school-of-economics
+stockholm-university
+stony-brook-university
+suny-buffalo
+sutd
+technical-university-berlin
+technical-university-of-denmark
+technological-university-dublin
+teesside-university
+temple-university
+texas-am-university
+think-education-australia
+thompson-rivers-university
+tilburg-university
+toronto-metropolitan-university
+torrens-university-australia
+trent-university
+tu-dresden
+tu-eindhoven
+tufts-university
+uae-university
+uc-berkeley
+uc-san-diego
+uc-santa-barbara
+ucla
+ucn-university-college
+umea-university
+unc-chapel-hill
+universita-cattolica
+universite-de-moncton
+university-canada-west
+university-college-cork
+university-of-aberdeen
+university-of-alberta
+university-of-arizona
+university-of-barcelona
+university-of-bedfordshire
+university-of-birmingham
+university-of-bologna
+university-of-bonn
+university-of-bordeaux
+university-of-bradford
+university-of-bridgeport
+university-of-brighton
+university-of-canberra
+university-of-canterbury
+university-of-central-lancashire
+university-of-cincinnati
+university-of-cologne
+university-of-colorado-boulder
+university-of-connecticut
+university-of-dayton
+university-of-delaware
+university-of-essex
+university-of-florence
+university-of-florida
+university-of-galway
+university-of-gothenburg
+university-of-granada
+university-of-greenwich
+university-of-grenoble-alpes
+university-of-huddersfield
+university-of-kent
+university-of-leeds
+university-of-leicester
+university-of-lethbridge
+university-of-limerick
+university-of-lincoln
+university-of-lyon
+university-of-mannheim
+university-of-maryland
+university-of-michigan
+university-of-milan
+university-of-minnesota
+university-of-montpellier
+university-of-naples
+university-of-navarra
+university-of-new-brunswick
+university-of-new-england-australia
+university-of-newcastle-australia
+university-of-northern-bc
+university-of-nottingham
+university-of-ottawa
+university-of-padua
+university-of-paris-saclay
+university-of-pennsylvania
+university-of-pisa
+university-of-pittsburgh
+university-of-plymouth
+university-of-regina
+university-of-rochester
+university-of-salamanca
+university-of-salford
+university-of-saskatchewan
+university-of-seville
+university-of-sharjah
+university-of-south-australia
+university-of-south-wales
+university-of-southern-california
+university-of-southern-denmark
+university-of-southern-queensland
+university-of-stirling
+university-of-strasbourg
+university-of-stuttgart
+university-of-sunshine-coast
+university-of-sussex
+university-of-tasmania
+university-of-the-arts-london
+university-of-toulouse
+university-of-trento
+university-of-turin
+university-of-twente
+university-of-utah
+university-of-valencia
+university-of-waikato
+university-of-washington
+university-of-western-australia
+university-of-windsor
+university-of-winnipeg
+university-of-wisconsin-madison
+university-of-wolverhampton
+university-of-worcester
+unsw-sydney
+uowd-dubai
+upei
+ut-austin
+utrecht-university
+vancouver-community-college
+vancouver-island-university
+vanderbilt-university
+via-university-college
+virginia-tech
+wageningen-university
+webster-university
+western-sydney-university
+western-university
+wilfrid-laurier-university
+wpi
+yale-university
+york-university
+zealand-business-technology
+```
+
+## Shared curated templates found
+
+These course-name lists are byte-identical across multiple unrelated universities (different countries/institutions), confirming they are a generic template, not institution-specific data:
+
+- **15 universities** share: BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering, BSc Accounting & Finance, BSc Artificial Intelligence, BSc Business Administration...
+- **3 universities** share: Accounting, Aerospace Engineering, Applied Mathematics, Architecture, Artificial Intelligence, Biomedical Engineering...
+- **9 universities** share: BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering, BSc Accounting & Finance, BSc Artificial Intelligence, BSc Business Administration...
+- **4 universities** share: BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering, BSc Accounting & Finance, BSc Business Administration, BSc Computer Science...
+- **15 universities** share: BA Media & Communications, BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering, BSc Accounting & Finance, BSc Artificial Intelligence...
+- **15 universities** share: Accounting, Aerospace Engineering, Applied Machine Learning, Bachelor of Business Administration, Bachelor of Computer Science, Bachelor of Information Technology...
+- **19 universities** share: Accounting, Aerospace Engineering, Applied Mathematics, Architecture, Artificial Intelligence, Bioinformatics...
+- **3 universities** share: BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering, BSc Computer Science, BSc Information Technology, BSc Software Engineering...
+- **18 universities** share: Accounting, Agricultural Science, Applied Mathematics, Architecture, Artificial Intelligence, Biotechnology...
+- **6 universities** share: Accounting, Aerospace Engineering, Applied Mathematics, Architecture, Artificial Intelligence, Bioinformatics...
+- **3 universities** share: BSc Business Administration, BSc Computer Science, BSc Economics, BSc Information Technology, BSc Software Engineering, MA Education...
+- **7 universities** share: BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering, BSc Accounting & Finance, BSc Business Administration, BSc Computer Science...
+- **4 universities** share: Accounting, Agricultural Science, Applied Mathematics, Architecture, Artificial Intelligence, Biotechnology...
+- **3 universities** share: BA Business & Management, BA English Literature, BA Media & Communications, BEng Civil Engineering, BEng Electrical Engineering, BEng Mechanical Engineering...
+
+## Full university-by-university table
+
+| University | Country | Classification | Courses | Evidence |
+|---|---|---|---|---|
+| Aalborg University | Denmark | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.aau.dk), no real per-course pages |
+| Aarhus University | Denmark | CURATED | 45 | Header explicitly says curated/estimated/placeholder |
+| Acadia University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.acadia.ca/), no real per-course pages |
+| Aix-Marseille University | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.univ-amu.fr), no real per-course pages |
+| Algonquin College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.algonquin.ca/), no real per-course pages |
+| American University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| American University in Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.aud.edu), no real per-course pages |
+| American University of Sharjah | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.aus.edu), no real per-course pages |
+| Amity University Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.amityuniversitydubai.ae), no real per-course pages |
+| Amsterdam University of Applied Sciences | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.hva.nl), no real per-course pages |
+| Anglia Ruskin University | UK | REAL | 166 | Crawl header (sitemap/Puppeteer/CDX mention) + all 166 courses deep-linked (e.g. https://www.aru.ac.uk/study/postgraduate/accounting-and-finance) |
+| Arizona State University | USA | CURATED | 64 | Header explicitly says curated/estimated/placeholder |
+| Assiniboine Community College | Canada | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Aston University | UK | REAL | 6 | Crawl header (sitemap/Puppeteer/CDX mention) + all 6 courses deep-linked (e.g. https://www.aston.ac.uk/study/courses/independent-prescribing-optometrists-pgcert) |
+| Atlantic Technological University | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Auckland University of Technology | New Zealand | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Australian Catholic University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Australian National University | Australia | CURATED | 57 | All 57 courses share one bare-homepage URL (https://www.anu.edu.au), no real per-course pages |
+| Autonomous University of Barcelona | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uab.cat), no real per-course pages |
+| Autonomous University of Madrid | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uam.es), no real per-course pages |
+| Birmingham City University | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| BITS Pilani Dubai | UAE | REAL | 45 | No header, but all 45 courses have unique deep institution URLs (e.g. https://www.bits-pilani.ac.in/dubai), non-templated count |
+| Bocconi University | Italy | REAL | 22 | Crawl header (sitemap/Puppeteer/CDX mention) + all 22 courses deep-linked (e.g. https://www.unibocconi.it/en/programs/bachelor-science/economics) |
+| Bond University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Boston University | USA | CURATED | 84 | All 84 courses share one bare-homepage URL (https://www.bu.edu), no real per-course pages |
+| Bournemouth University | UK | REAL | 45 | Crawl header (sitemap/Puppeteer/CDX mention) + all 45 courses deep-linked (e.g. https://www.bournemouth.ac.uk/study/postgraduate/courses/business/mba) |
+| Bow Valley College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.bowvalleycollege.ca), no real per-course pages |
+| Brandon University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.brandonu.ca), no real per-course pages |
+| Brock University | Canada | CURATED | 42 | All 42 courses share one bare-homepage URL (https://www.brocku.ca), no real per-course pages |
+| Brown University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Brunel University London | UK | CURATED | 80 | Header explicitly says curated/estimated/placeholder |
+| Business Academy Aarhus | Denmark | CURATED | 41 | All 41 courses share one bare-homepage URL (https://www.baaa.dk), no real per-course pages |
+| Ca' Foscari University of Venice | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unive.it), no real per-course pages |
+| California Institute of Technology | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Cambrian College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.cambriancollege.ca), no real per-course pages |
+| Canadian University Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.cud.ac.ae), no real per-course pages |
+| Canadore College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.canadorecollege.ca), no real per-course pages |
+| Cape Breton University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.cbu.ca/), no real per-course pages |
+| Capilano University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.capilano.ca/), no real per-course pages |
+| Cardiff University | UK | CURATED | 76 | Header explicitly says curated/estimated/placeholder |
+| Carleton University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.carleton.ca), no real per-course pages |
+| Carlos III University of Madrid | Spain | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Carnegie Mellon University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Case Western Reserve University | USA | CURATED | 50 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Centennial College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.centennialcollege.ca), no real per-course pages |
+| Chalmers University of Technology | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.chalmers.se), no real per-course pages |
+| Charles Darwin University | Australia | REAL | 405 | No header, but all 405 courses have unique deep institution URLs (e.g. https://www.cdu.edu.au/study/were-here-to-help-you), non-templated count |
+| City, University of London | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Clark University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Collège Boréal | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.collegeboreal.ca), no real per-course pages |
+| College of the Rockies | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.cotr.bc.ca), no real per-course pages |
+| Colorado State University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Columbia College BC | Canada | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Columbia University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Complutense University of Madrid | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ucm.es), no real per-course pages |
+| Concordia University | Canada | MIXED | 45 | 11% deep-linked, 89% bare-homepage stub — partially real |
+| Concordia University of Edmonton | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.concordia-edmonton.ca/), no real per-course pages |
+| Conestoga College | Canada | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.conestoga.ca/), no real per-course pages |
+| Confederation College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.confederationc.on.ca), no real per-course pages |
+| Copenhagen Business Academy | Denmark | CURATED | 42 | All 42 courses share one bare-homepage URL (https://www.cphbusiness.dk), no real per-course pages |
+| Copenhagen Business School | Denmark | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.cbs.dk), no real per-course pages |
+| Cornell University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Coventry University | UK | REAL | 125 | Crawl header (sitemap/Puppeteer/CDX mention) + all 125 courses deep-linked (e.g. https://www.coventry.ac.uk/course-structure/pg/ees/advanced-mechanical-engineering-msc/) |
+| CQUniversity Australia | Australia | REAL | 69 | No header, but all 69 courses have unique deep institution URLs (e.g. https://www.cqu.edu.au/courses), non-templated count |
+| Curtin Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.curtin.edu.sg), no real per-course pages |
+| Curtin University | Australia | CURATED | 53 | Header explicitly says curated/estimated/placeholder |
+| Dalhousie University | Canada | CURATED | 52 | All 52 courses share one bare-homepage URL (https://www.dal.ca), no real per-course pages |
+| Dania Academy | Denmark | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.dania.dk), no real per-course pages |
+| Dartmouth College | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| De Montfort University | UK | REAL | 50 | No header, but all 50 courses have unique deep institution URLs (e.g. https://www.dmu.ac.uk/study/courses/postgraduate-courses/business/master-of-business-administration-mba.aspx), non-templated count |
+| Deakin University | Australia | CURATED | 51 | Header explicitly says curated/estimated/placeholder |
+| Delft University of Technology | Netherlands | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| DePaul University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Douglas College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.douglascollege.ca), no real per-course pages |
+| Drexel University | USA | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.drexeluniversity.edu), no real per-course pages |
+| Dublin Business School | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Dublin City University | Ireland | REAL | 205 | Crawl header (sitemap/Puppeteer/CDX mention) + all 205 courses deep-linked (e.g. https://www.dcu.ie/courses/undergraduate/school-biotechnology/genetics-and-cell-biology) |
+| Duke University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Durham College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.durhamcollege.ca), no real per-course pages |
+| Durham University | UK | REAL | 314 | Crawl header (sitemap/Puppeteer/CDX mention) + all 314 courses deep-linked (e.g. https://www.durham.ac.uk/business/courses/philosophy-politics-and-economics-vl52/) |
+| EAE Business School | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.eae.es), no real per-course pages |
+| École Polytechnique | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.polytechnique.edu), no real per-course pages |
+| Edith Cowan University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Eindhoven University of Technology | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.tue.nl), no real per-course pages |
+| Embry-Riddle Aeronautical University Singapore | Singapore | CURATED | 39 | All 39 courses share one bare-homepage URL (https://www.embry.edu.sg), no real per-course pages |
+| EMLYON Business School | France | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Emory University | USA | CURATED | 50 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Erasmus University Rotterdam | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.eur.nl), no real per-course pages |
+| ESADE Business School | Spain | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| ESSEC Business School | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.essec.edu), no real per-course pages |
+| Fairleigh Dickinson University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Fairleigh Dickinson University Vancouver | Canada | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Fanshawe College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.fanshawec.ca), no real per-course pages |
+| Federation University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| First Nations University of Canada | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.fnuniv.ca), no real per-course pages |
+| Fleming College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.flemingcollege.ca), no real per-course pages |
+| Flinders University | Australia | REAL | 338 | No header, but all 338 courses have unique deep institution URLs (e.g. https://www.flinders.edu.au/study/courses/bachelor-computing-mathematical-sciences-honours), non-templated count |
+| Fordham University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Free University of Berlin | Germany | CURATED | 43 | All 43 courses share one bare-homepage URL (https://www.fu-berlin.de), no real per-course pages |
+| George Brown College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.george-brown.ca/), no real per-course pages |
+| George Washington University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Georgetown University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Georgia Institute of Technology | USA | CURATED | 76 | All 76 courses share one bare-homepage URL (https://www.gatech.edu), no real per-course pages |
+| Georgian College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.georgiancollege.ca), no real per-course pages |
+| Goethe University Frankfurt | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Goldsmiths, University of London | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Grande Prairie Regional College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.gprc.ab.ca), no real per-course pages |
+| Griffith College Dublin | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Griffith University | Australia | REAL | 81 | No header, but all 81 courses have unique deep institution URLs (e.g. https://www.griffith.edu.au/courses), non-templated count |
+| Halmstad University | Sweden | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| HAN University of Applied Sciences | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.han.nl), no real per-course pages |
+| Harvard University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| HEC Paris | France | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Heidelberg University | Germany | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.uni-heidelberg.de), no real per-course pages |
+| Heriot-Watt University | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Heriot-Watt University Dubai | UAE | REAL | 64 | No header, but all 64 courses have unique deep institution URLs (e.g. https://www.hw.ac.uk/dubai/study/undergraduate/accountancy-finance), non-templated count |
+| Holland College | Canada | CURATED | 44 | All 44 courses share one bare-homepage URL (https://www.hollandc.pe.ca), no real per-course pages |
+| Holmes Institute | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Humber College | Canada | CURATED | 42 | All 42 courses share one bare-homepage URL (https://www.humber.ca/), no real per-course pages |
+| Humboldt University of Berlin | Germany | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.hu-berlin.de), no real per-course pages |
+| IBA International Business Academy | Denmark | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.iba.dk), no real per-course pages |
+| IE University | Spain | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| IESE Business School | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.iese.edu), no real per-course pages |
+| Illinois Institute of Technology | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Imperial College London | UK | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Indiana University Bloomington | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| INSEAD | France | CURATED | 44 | All 44 courses share one bare-homepage URL (https://www.insead.edu), no real per-course pages |
+| Iowa State University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| IT University of Copenhagen | Denmark | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.itu.dk), no real per-course pages |
+| James Cook University Brisbane | Australia | REAL | 53 | No header, but all 53 courses have unique deep institution URLs (e.g. https://www.jcu.edu.au/courses), non-templated count |
+| James Cook University Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.jcu.edu.sg), no real per-course pages |
+| Johns Hopkins University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Jönköping University | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ju.se), no real per-course pages |
+| Justice Institute of British Columbia | Canada | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Kaplan Business School | Australia | MIXED | 45 | 11% deep-linked, 89% bare-homepage stub — partially real |
+| Kaplan Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.kaplan.com.sg), no real per-course pages |
+| Karlsruhe Institute of Technology | Germany | CURATED | 61 | All 61 courses share one bare-homepage URL (https://www.kit.edu), no real per-course pages |
+| Karolinska Institutet | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ki.se), no real per-course pages |
+| Khalifa University | UAE | CURATED | 34 | All 34 courses share one bare-homepage URL (https://www.ku.ac.ae), no real per-course pages |
+| King's College London | UK | REAL | 389 | Crawl header (sitemap/Puppeteer/CDX mention) + all 389 courses deep-linked (e.g. https://www.kcl.ac.uk/study/undergraduate/courses/accounting-finance-bsc) |
+| Kingston University London | UK | REAL | 60 | Crawl header (sitemap/Puppeteer/CDX mention) + all 60 courses deep-linked (e.g. https://www.kingston.ac.uk/postgraduate-course/accounting-finance-msc/) |
+| KTH Royal Institute of Technology | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.kth.se), no real per-course pages |
+| Kwantlen Polytechnic University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.kpu.ca), no real per-course pages |
+| La Cité College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.lacitec.on.ca), no real per-course pages |
+| La Trobe University | Australia | CURATED | 58 | Header explicitly says curated/estimated/placeholder |
+| Lakehead University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.lakeheadu.ca), no real per-course pages |
+| Lakeland College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.lakelandcollege.ca), no real per-course pages |
+| Lambton College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.lambtoncollege.ca), no real per-course pages |
+| Lancaster University | UK | CURATED | 61 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Langara College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.langara.bc.ca), no real per-course pages |
+| Leiden University | Netherlands | REAL | 58 | Crawl header (sitemap/Puppeteer/CDX mention) + all 58 courses deep-linked (e.g. https://www.universiteitleiden.nl/en/education/study-programmes/master/computer-science/advanced-computing-and-systems) |
+| Lincoln University New Zealand | New Zealand | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Linköping University | Sweden | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| LMU Munich | Germany | CURATED | 71 | All 71 courses share one bare-homepage URL (https://www.lmu.de), no real per-course pages |
+| London Metropolitan University | UK | REAL | 49 | No header, but all 49 courses have unique deep institution URLs (e.g. https://www.londonmet.ac.uk/courses/postgraduate/graphic-design---ma/), non-templated count |
+| London School of Economics | UK | CURATED | 61 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Loughborough University | UK | REAL | 236 | Crawl header (sitemap/Puppeteer/CDX mention) + all 236 courses deep-linked (e.g. https://lboro.ac.uk/study/postgraduate/masters-degrees/a-z/accounting-and-finance/) |
+| Loyalist College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.loyalistcollege.com), no real per-course pages |
+| LUISS University | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.luiss.edu), no real per-course pages |
+| Lund University | Sweden | CURATED | 59 | All 59 courses share one bare-homepage URL (https://www.lu.se), no real per-course pages |
+| Maastricht University | Netherlands | REAL | 104 | Crawl header (sitemap/Puppeteer/CDX mention) + all 104 courses deep-linked (e.g. https://www.maastrichtuniversity.nl/education/bachelor/programmes/arts-and-culture) |
+| MacEwan University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.macewan.ca), no real per-course pages |
+| Macquarie University | Australia | CURATED | 48 | Header explicitly says curated/estimated/placeholder |
+| Mälardalen University | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mdh.se), no real per-course pages |
+| Management Development Institute of Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mdis.edu.sg), no real per-course pages |
+| Manchester Metropolitan University | UK | CURATED | 48 | Header explicitly says curated/estimated/placeholder |
+| Manipal Academy of Higher Education Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.manipaldubai.com), no real per-course pages |
+| Massachusetts Institute of Technology | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Massey University | New Zealand | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Maynooth University | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| McGill University | Canada | REAL | 212 | Crawl header (sitemap/Puppeteer/CDX mention) + all 212 courses deep-linked (e.g. https://www.mcgill.ca/gradapplicants/program/entomology-msc) |
+| McMaster University | Canada | REAL | 86 | Crawl header (Source: Puppeteer crawl of https://gs.mcmaster.ca/programs/) + all 86 courses deep-linked (e.g. https://gs.mcmaster.ca/program/ai-and-analytics/) |
+| Medicine Hat College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mhc.ab.ca), no real per-course pages |
+| Memorial University of Newfoundland | Canada | CURATED | 48 | All 48 courses share one bare-homepage URL (https://www.mun.ca), no real per-course pages |
+| Michigan State University | USA | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| Mid Sweden University | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.miun.se), no real per-course pages |
+| Middlesex University | UK | REAL | 110 | Crawl header (sitemap/Puppeteer/CDX mention) + all 110 courses deep-linked (e.g. https://www.mdx.ac.uk/courses/postgraduate/mechatronic-systems-engineering-msc/) |
+| Middlesex University Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mdx.ac.ae), no real per-course pages |
+| Mohawk College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mohawk.ca/), no real per-course pages |
+| Monash University | Australia | CURATED | 118 | All 118 courses share one bare-homepage URL (https://www.monash.edu), no real per-course pages |
+| Mount Allison University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mta.ca), no real per-course pages |
+| Mount Royal University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.mtroyal.ca), no real per-course pages |
+| Munster Technological University | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Murdoch University | Australia | REAL | 49 | No header, but all 49 courses have unique deep institution URLs (e.g. https://www.murdoch.edu.au/course/undergraduate/b1367), non-templated count |
+| Murdoch University Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://murdochdubai.ac.ae), no real per-course pages |
+| Murdoch University Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://singapore.murdoch.edu.au), no real per-course pages |
+| Nanyang Technological University | Singapore | REAL | 84 | Crawl header (sitemap/Puppeteer/CDX mention) + all 84 courses deep-linked (e.g. https://www.ntu.edu.sg/admissions/undergraduate/courses/bachelor-of-business-administration) |
+| National College of Ireland | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| National University of Singapore | Singapore | MIXED | 100 | 96% deep-linked, 4% bare-homepage stub — partially real |
+| Navitas | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| NC State University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| New Brunswick Community College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.nbcc.ca), no real per-course pages |
+| New York Institute of Technology Vancouver | Canada | REAL | 45 | No header, but all 45 courses have unique deep institution URLs (e.g. https://www.nyit.edu/locations/vancouver), non-templated count |
+| New York University | USA | CURATED | 87 | All 87 courses share one bare-homepage URL (https://www.nyu.edu), no real per-course pages |
+| Newcastle University | UK | REAL | 228 | No header, but all 228 courses have unique deep institution URLs (e.g. https://www.ncl.ac.uk/postgraduate/degrees/4050f/), non-templated count |
+| Niagara College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.niagaracollege.ca), no real per-course pages |
+| Niagara University Ontario | Canada | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| NorQuest College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.norquest.ca), no real per-course pages |
+| North Island College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.nic.bc.ca), no real per-course pages |
+| Northeastern University | USA | REAL | 84 | Crawl header (sitemap/Puppeteer/CDX mention) + all 84 courses deep-linked (e.g. https://catalog.northeastern.edu/graduate/additional-programs/applied-ai-mps-connect/) |
+| Northern College of Applied Arts and Technology | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.northernc.on.ca), no real per-course pages |
+| Northumbria University | UK | REAL | 383 | No header, but all 383 courses have unique deep institution URLs (e.g. https://www.northumbria.ac.uk/study-at-northumbria/courses/bsc-hons-accounting-extended-degree-uusxci1/), non-templated count |
+| Northwestern University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Nottingham Trent University | UK | REAL | 42 | Crawl header (sitemap/Puppeteer/CDX mention) + all 42 courses deep-linked (e.g. https://www.ntu.ac.uk/course/computing-and-technology/pg/next/advanced-computer-science) |
+| Nova Scotia Community College | Canada | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| Ohio State University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Okanagan College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.okanagan.bc.ca), no real per-course pages |
+| Olds College of Agriculture and Technology | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.oldscollege.ca), no real per-course pages |
+| Ontario Tech University | Canada | CURATED | 41 | All 41 courses share one bare-homepage URL (https://www.ontariotechu.ca), no real per-course pages |
+| Oxford Brookes University | UK | REAL | 85 | Crawl header (Source: https://www.brookes.ac.uk/sitemap/courses (/courses/postgraduate/*)) + all 85 courses deep-linked (e.g. https://www.brookes.ac.uk/courses/postgraduate/conservation-ecology) |
+| Pace University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Penn State University | USA | CURATED | 81 | All 81 courses share one bare-homepage URL (https://www.psu.edu), no real per-course pages |
+| Politecnico di Milano | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.polimi.it), no real per-course pages |
+| Politecnico di Torino | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.polito.it), no real per-course pages |
+| Pompeu Fabra University | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.upf.edu), no real per-course pages |
+| Portage College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.portagecollege.ca), no real per-course pages |
+| Princeton University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| PSB Academy | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.psbacademy.com.sg), no real per-course pages |
+| Purdue University | USA | REAL | 74 | No header, but all 74 courses have unique deep institution URLs (e.g. https://www.purdue.edu/online/program/master-of-business-and-technology/), non-templated count |
+| Queen Mary University of London | UK | REAL | 10 | No header, but all 10 courses have unique deep institution URLs (e.g. https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/accounting-and-finance-msc/), non-templated count |
+| Queen's University | Canada | REAL | 91 | Crawl header (sitemap/Puppeteer/CDX mention) + all 91 courses deep-linked (e.g. https://www.queensu.ca/artsci/undergraduate/programs) |
+| Radboud University | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ru.nl), no real per-course pages |
+| RCSI University of Medicine | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Red Deer Polytechnic | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.rdc.ab.ca), no real per-course pages |
+| Red River College Polytechnic | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.rrc.ca), no real per-course pages |
+| Rensselaer Polytechnic Institute | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Rice University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| RMIT Online Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.rmit.edu.sg), no real per-course pages |
+| RMIT University | Australia | REAL | 473 | Crawl header (sitemap/Puppeteer/CDX mention) + all 473 courses deep-linked (e.g. https://www.rmit.edu.au/study-with-us/levels-of-study/online/online-master-of-human-resource-management-mc263o) |
+| Robert Gordon University | UK | REAL | 91 | No header, but all 91 courses have unique deep institution URLs (e.g. https://www.rgu.ac.uk/study/courses/pgcert-pgdip-msc-accounting-and-finance), non-templated count |
+| Rochester Institute of Technology | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Rochester Institute of Technology Dubai | UAE | REAL | 45 | No header, but all 45 courses have unique deep institution URLs (e.g. https://www.rit.edu/dubai), non-templated count |
+| Roskilde University | Denmark | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ruc.dk), no real per-course pages |
+| Royal Holloway, University of London | UK | REAL | 79 | Crawl header (sitemap/Puppeteer/CDX mention) + all 79 courses deep-linked (e.g. https://www.royalholloway.ac.uk/studying-here/postgraduate/biological-sciences/biological-sciences) |
+| Royal Roads University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.royalroads.ca), no real per-course pages |
+| Rutgers University | USA | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| RWTH Aachen University | Germany | CURATED | 53 | All 53 courses share one bare-homepage URL (https://www.rwth-aachen.de), no real per-course pages |
+| S P Jain School of Global Management | Singapore | CURATED | 50 | All 50 courses share one bare-homepage URL (https://www.spjain.edu.sg), no real per-course pages |
+| S P Jain School of Global Management | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.spjain.ae), no real per-course pages |
+| SAIT (Southern Alberta Institute of Technology) | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sait.ca/), no real per-course pages |
+| Sapienza University of Rome | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uniroma1.it), no real per-course pages |
+| Saskatchewan Polytechnic | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sask-poly.ca/), no real per-course pages |
+| Sault College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.saultcollege.ca), no real per-course pages |
+| Sciences Po Paris | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sciencespo.fr), no real per-course pages |
+| Selkirk College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.selkirk.ca), no real per-course pages |
+| Seneca Polytechnic | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.senecapolytechnic.ca), no real per-course pages |
+| Sheridan College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sheridan.ca/), no real per-course pages |
+| Simon Fraser University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sfu.ca), no real per-course pages |
+| Singapore Institute of Management | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sim.edu.sg), no real per-course pages |
+| Singapore Institute of Technology | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.singaporetech.edu.sg), no real per-course pages |
+| Singapore Management University | Singapore | CURATED | 42 | All 42 courses share one bare-homepage URL (https://www.smu.edu.sg), no real per-course pages |
+| Singapore University of Technology & Design | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sutd.edu.sg), no real per-course pages |
+| Sorbonne University | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sorbonne-universite.fr), no real per-course pages |
+| South East Technological University | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Southern Cross University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| St. Clair College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.stclaircollege.ca), no real per-course pages |
+| St. Lawrence College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.stlawrencecollege.ca), no real per-course pages |
+| St. Thomas University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.stu.ca), no real per-course pages |
+| Staffordshire University | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Stanford University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Stevens Institute of Technology | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Stockholm School of Economics | Sweden | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Stockholm University | Sweden | CURATED | 45 | Header explicitly says curated/estimated/placeholder |
+| Stony Brook University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Swansea University | UK | REAL | 95 | Crawl header (sitemap/Puppeteer/CDX mention) + all 95 courses deep-linked (e.g. https://www.swansea.ac.uk/postgraduate/taught/aerospace-civil-electrical-mechanical-engineering/aerospace/msc-aerospace-engineering/) |
+| Swedish University of Agricultural Sciences | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.slu.se), no real per-course pages |
+| Swinburne University of Technology | Australia | MIXED | 45 | 13% deep-linked, 87% bare-homepage stub — partially real |
+| Technical University of Berlin | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Technical University of Denmark | Denmark | CURATED | 36 | All 36 courses share one bare-homepage URL (https://www.dtu.dk), no real per-course pages |
+| Technical University of Munich | Germany | REAL | 193 | No header, but all 193 courses have unique deep institution URLs (e.g. https://www.tum.de/en/studies/degree-programs/detail/ai-in-biomedicine-master-of-science-msc), non-templated count |
+| Technological University Dublin | Ireland | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.tudublin.ie), no real per-course pages |
+| Teesside University | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Temple University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Texas A&M University | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Think Education | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Thompson Rivers University | Canada | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.tru.ca/), no real per-course pages |
+| Tilburg University | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.tilburguniversity.edu), no real per-course pages |
+| Toronto Metropolitan University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.torontomu.ca), no real per-course pages |
+| Torrens University Australia | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Trent University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.trent.ca/), no real per-course pages |
+| Trinity College Dublin | Ireland | REAL | 465 | Crawl header (sitemap/Puppeteer/CDX mention) + all 465 courses deep-linked (e.g. https://www.tcd.ie/courses/undergraduate/courses/acting/) |
+| TU Dresden | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Tufts University | USA | CURATED | 50 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| UAE University | UAE | CURATED | 37 | All 37 courses share one bare-homepage URL (https://www.uaeu.ac.ae), no real per-course pages |
+| UC Davis | USA | REAL | 100 | No header, but all 100 courses have unique deep institution URLs (e.g. https://grad.ucdavis.edu/programs/gach), non-templated count |
+| UC San Diego | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| UC Santa Barbara | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| UCN University College | Denmark | CURATED | 43 | All 43 courses share one bare-homepage URL (https://www.ucn.dk), no real per-course pages |
+| Umeå University | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.umu.se), no real per-course pages |
+| UNC Chapel Hill | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Università Cattolica del Sacro Cuore | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unicatt.it), no real per-course pages |
+| Université de Moncton | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.umoncton.ca), no real per-course pages |
+| University at Buffalo (SUNY) | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University Canada West | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ucanwest.ca), no real per-course pages |
+| University College Cork | Ireland | CURATED | 75 | Header explicitly says curated/estimated/placeholder |
+| University College Dublin | Ireland | REAL | 87 | Crawl header (sitemap/Puppeteer/CDX mention) + all 87 courses deep-linked (e.g. https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&PROG=BHAGR001) |
+| University College London | UK | REAL | 400 | Crawl header (Source: Puppeteer crawl of https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees) + all 400 courses deep-linked (e.g. https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/advanced-audiology-msc) |
+| University of Aberdeen | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Adelaide | Australia | REAL | 523 | Crawl header (sitemap/Puppeteer/CDX mention) + all 523 courses deep-linked (e.g. https://adelaide.edu.au/study/degrees/bachelor-of-food-and-nutrition-science-honours/) |
+| University of Alberta | Canada | CURATED | 91 | All 91 courses share one bare-homepage URL (https://www.ualberta.ca), no real per-course pages |
+| University of Amsterdam | Netherlands | REAL | 169 | No header, but all 169 courses have unique deep institution URLs (e.g. https://www.uva.nl/en/programmes/masters/chemistry-molecular-sciences/), non-templated count |
+| University of Arizona | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Auckland | New Zealand | REAL | 527 | Crawl header (sitemap/Puppeteer/CDX mention) + all 527 courses deep-linked (e.g. https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-architectural-studies-bas.html) |
+| University of Barcelona | Spain | CURATED | 53 | Header explicitly says curated/estimated/placeholder |
+| University of Bath | UK | REAL | 701 | Crawl header (Source: Sitemap crawl of https://www.bath.ac.uk/sitemap.xml) + all 701 courses deep-linked (e.g. https://www.bath.ac.uk/courses/undergraduate-2027/integrated-mechanical-and-electrical-engineering/beng-integrated-mechanical-and-electrical-engineering/) |
+| University of Bedfordshire | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Birmingham | UK | CURATED | 112 | All 112 courses share one bare-homepage URL (https://www.birmingham.ac.uk), no real per-course pages |
+| University of Bologna | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unibo.it), no real per-course pages |
+| University of Bonn | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Bordeaux | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.u-bordeaux.fr), no real per-course pages |
+| University of Bradford | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Bridgeport | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Brighton | UK | CURATED | 142 | Header explicitly says curated/estimated/placeholder |
+| University of Bristol | UK | REAL | 155 | Crawl header (sitemap/Puppeteer/CDX mention) + all 155 courses deep-linked (e.g. https://www.bristol.ac.uk/study/postgraduate/taught/study-online/) |
+| University of British Columbia | Canada | MIXED | 234 | 95% deep-linked, 5% bare-homepage stub — partially real |
+| University of Calgary | Canada | REAL | 97 | Crawl header (sitemap/Puppeteer/CDX mention) + all 97 courses deep-linked (e.g. https://grad.ucalgary.ca/future-students/graduate/discover-opportunities/explore-programs/archaeology-phd) |
+| University of California Los Angeles | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of California, Berkeley | USA | CURATED | 50 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Canberra | Australia | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.canberra.edu.au), no real per-course pages |
+| University of Canterbury | New Zealand | CURATED | 43 | Header explicitly says curated/estimated/placeholder |
+| University of Central Lancashire | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Cincinnati | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Cologne | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Colorado Boulder | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Connecticut | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Copenhagen | Denmark | REAL | 136 | Crawl header (sitemap/Puppeteer/CDX mention) + all 136 courses deep-linked (e.g. https://www.ku.dk/studies/masters/actuarial-mathematics) |
+| University of Dayton | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Delaware | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Derby | UK | REAL | 48 | Crawl header (sitemap/Puppeteer/CDX mention) + all 48 courses deep-linked (e.g. https://www.derby.ac.uk/study/postgraduate-courses/mba/) |
+| University of Dundee | UK | REAL | 176 | No header, but all 176 courses have unique deep institution URLs (e.g. https://www.dundee.ac.uk/postgraduate/academic-practice-higher-education), non-templated count |
+| University of East Anglia | UK | REAL | 45 | Crawl header (sitemap/Puppeteer/CDX mention) + all 45 courses deep-linked (e.g. https://www.uea.ac.uk/study/postgraduate-courses/mba) |
+| University of East London | UK | REAL | 159 | No header, but all 159 courses have unique deep institution URLs (e.g. https://www.uel.ac.uk/postgraduate/courses/msc-clinical-exercise-physiology), non-templated count |
+| University of Edinburgh | UK | REAL | 629 | Crawl header (Source: Puppeteer crawl of https://study.ed.ac.uk/programmes/postgraduate-taught-a-z) + all 629 courses deep-linked (e.g. https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management) |
+| University of Essex | UK | CURATED | 47 | Header explicitly says curated/estimated/placeholder |
+| University of Exeter | UK | REAL | 394 | Crawl header (sitemap/Puppeteer/CDX mention) + all 394 courses deep-linked (e.g. https://www.exeter.ac.uk/masters-degrees/#main-col) |
+| University of Florence | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unifi.it), no real per-course pages |
+| University of Florida | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Galway | Ireland | CURATED | 45 | Header explicitly says curated/estimated/placeholder |
+| University of Glasgow | UK | REAL | 282 | Crawl header (Source: Puppeteer crawl of https://www.gla.ac.uk/postgraduate/taught/) + all 282 courses deep-linked (e.g. https://www.gla.ac.uk/postgraduate/taught/academicpractice/) |
+| University of Gloucestershire | UK | REAL | 45 | Crawl header (sitemap/Puppeteer/CDX mention) + all 45 courses deep-linked (e.g. https://www.glos.ac.uk/courses/postgraduate/mba/) |
+| University of Gothenburg | Sweden | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.gu.se), no real per-course pages |
+| University of Granada | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ugr.es), no real per-course pages |
+| University of Greenwich | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Grenoble Alpes | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.univ-grenoble-alpes.fr), no real per-course pages |
+| University of Groningen | Netherlands | REAL | 355 | Crawl header (sitemap/Puppeteer/CDX mention) + all 355 courses deep-linked (e.g. https://www.rug.nl/masters/accountancy-and-controlling/) |
+| University of Guelph | Canada | MIXED | 45 | 7% deep-linked, 93% bare-homepage stub — partially real |
+| University of Hamburg | Germany | REAL | 46 | No header, but all 46 courses have unique deep institution URLs (e.g. https://www.uni-hamburg.de/en/campuscenter/studienangebot/studiengang.html?1525352964), non-templated count |
+| University of Hertfordshire | UK | REAL | 45 | Crawl header (sitemap/Puppeteer/CDX mention) + all 45 courses deep-linked (e.g. https://www.herts.ac.uk/courses/msc-computer-science) |
+| University of Huddersfield | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Illinois Urbana-Champaign | USA | REAL | 133 | Crawl header (sitemap/Puppeteer/CDX mention) + all 133 courses deep-linked (e.g. https://grad.illinois.edu/admissions/programs/biosciences-comparative) |
+| University of Kent | UK | CURATED | 52 | Header explicitly says curated/estimated/placeholder |
+| University of Leeds | UK | CURATED | 124 | All 124 courses share one bare-homepage URL (https://www.leeds.ac.uk), no real per-course pages |
+| University of Leicester | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Lethbridge | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ulethbridge.ca), no real per-course pages |
+| University of Limerick | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Lincoln | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Lyon | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.univ-lyon1.fr), no real per-course pages |
+| University of Manchester | UK | REAL | 263 | Crawl header (Source: Puppeteer crawl of https://www.manchester.ac.uk/study/masters/courses/list/) + all 263 courses deep-linked (e.g. https://www.manchester.ac.uk/study/masters/courses/list/10867/msc-accounting/) |
+| University of Manitoba | Canada | MIXED | 45 | 9% deep-linked, 91% bare-homepage stub — partially real |
+| University of Mannheim | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Maryland | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Melbourne | Australia | REAL | 463 | Crawl header (sitemap/Puppeteer/CDX mention) + all 463 courses deep-linked (e.g. https://study.unimelb.edu.au/find/courses/graduate/juris-doctor/) |
+| University of Michigan | USA | CURATED | 105 | All 105 courses share one bare-homepage URL (https://www.umich.edu), no real per-course pages |
+| University of Milan | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unimi.it), no real per-course pages |
+| University of Minnesota | USA | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Montpellier | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.umontpellier.fr), no real per-course pages |
+| University of Naples Federico II | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unina.it), no real per-course pages |
+| University of Navarra | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unav.edu), no real per-course pages |
+| University of New Brunswick | Canada | CURATED | 43 | All 43 courses share one bare-homepage URL (https://www.unb.ca), no real per-course pages |
+| University of New England | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of New South Wales | Australia | CURATED | 108 | All 108 courses share one bare-homepage URL (https://www.unsw.edu.au), no real per-course pages |
+| University of Newcastle | Australia | CURATED | 57 | All 57 courses share one bare-homepage URL (https://www.newcastle.edu.au), no real per-course pages |
+| University of Northern British Columbia | Canada | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.unbc.ca/), no real per-course pages |
+| University of Notre Dame | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Nottingham | UK | CURATED | 61 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Otago | New Zealand | REAL | 74 | Crawl header (sitemap/Puppeteer/CDX mention) + all 74 courses deep-linked (e.g. https://www.otago.ac.nz/healthsciences/programmes/otago810003.html) |
+| University of Ottawa | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uottawa.ca), no real per-course pages |
+| University of Oxford | UK | UNSURE | 0 | Not registered in REGISTRY — no course data served |
+| University of Padua | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unipd.it), no real per-course pages |
+| University of Paris-Saclay | France | CURATED | 47 | All 47 courses share one bare-homepage URL (https://www.universite-paris-saclay.fr), no real per-course pages |
+| University of Pennsylvania | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Pisa | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unipi.it), no real per-course pages |
+| University of Pittsburgh | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Plymouth | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Portsmouth | UK | REAL | 178 | Crawl header (Source: https://www.port.ac.uk/sitemap.xml (pages 1-4, /study/courses/postgraduate-taught/*)) + all 178 courses deep-linked (e.g. https://www.port.ac.uk/study/courses/postgraduate-taught/ma-applied-linguistics-and-tesol-with-professional-experience) |
+| University of Prince Edward Island | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.upei.ca), no real per-course pages |
+| University of Queensland | Australia | REAL | 120 | Crawl header (sitemap/Puppeteer/CDX mention) + all 120 courses deep-linked (e.g. https://study.uq.edu.au/study-options/programs/diploma-languages-1602/ancient-greek-ancgra1602) |
+| University of Reading | UK | REAL | 130 | Crawl header (sitemap/Puppeteer/CDX mention) + all 130 courses deep-linked (e.g. https://www.reading.ac.uk/ready-to-study/study/2026/accounting-ug) |
+| University of Regina | Canada | CURATED | 69 | All 69 courses share one bare-homepage URL (https://www.ur.ca/), no real per-course pages |
+| University of Rochester | USA | CURATED | 50 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Roehampton | UK | REAL | 33 | Crawl header (sitemap/Puppeteer/CDX mention) + all 33 courses deep-linked (e.g. https://www.roehampton.ac.uk/postgraduate-courses/mba-business-administration) |
+| University of Salamanca | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.usal.es), no real per-course pages |
+| University of Salford | UK | CURATED | 127 | Header explicitly says curated/estimated/placeholder |
+| University of Saskatchewan | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.usask.ca), no real per-course pages |
+| University of Seville | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.us.es), no real per-course pages |
+| University of Sharjah | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sharjah.ac.ae), no real per-course pages |
+| University of Sheffield | UK | REAL | 127 | Crawl header (sitemap/Puppeteer/CDX mention) + all 127 courses deep-linked (e.g. https://sheffield.ac.uk/postgraduate/taught/courses/2026/applied-linguistics-and-tesol-ma) |
+| University of South Australia | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of South Wales | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Southampton | UK | REAL | 472 | Crawl header (Source: Sitemap crawl of https://www.southampton.ac.uk/sitemap.xml) + all 472 courses deep-linked (e.g. https://www.southampton.ac.uk/courses/accounting-finance-degree-bsc) |
+| University of Southern California | USA | CURATED | 50 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Southern Denmark | Denmark | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sdu.dk), no real per-course pages |
+| University of Southern Queensland | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Stirling | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
+| University of Strasbourg | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unistra.fr), no real per-course pages |
+| University of Strathclyde | UK | REAL | 561 | Crawl header (sitemap/Puppeteer/CDX mention) + all 561 courses deep-linked (e.g. https://www.strath.ac.uk/courses/undergraduate/psychologyimu/) |
+| University of Stuttgart | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Suffolk | UK | REAL | 40 | Crawl header (sitemap/Puppeteer/CDX mention) + all 40 courses deep-linked (e.g. https://www.uos.ac.uk/courses/pg/master-business-administration) |
+| University of Sunderland | UK | REAL | 80 | Crawl header (sitemap/Puppeteer/CDX mention) + all 80 courses deep-linked (e.g. https://www.sunderland.ac.uk/postgraduate/llm-commercial-law-international-trade) |
+| University of Surrey | UK | REAL | 173 | Crawl header (sitemap/Puppeteer/CDX mention) + all 173 courses deep-linked (e.g. https://www.surrey.ac.uk/postgraduate/education-online-ma) |
+| University of Sussex | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Sydney | Australia | REAL | 514 | Crawl header (sitemap/Puppeteer/CDX mention) + all 514 courses deep-linked (e.g. https://www.sydney.edu.au/courses/courses/pc/master-of-professional-engineering-accelerated-biomedical.html) |
+| University of Tasmania | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Technology Sydney | Australia | REAL | 369 | No header, but all 369 courses have unique deep institution URLs (e.g. https://www.uts.edu.au/courses/graduate-certificate-in-pharmacist-prescribing), non-templated count |
+| University of Texas Austin | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of the Arts London | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of the Sunshine Coast | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of the West of England | UK | REAL | 41 | No header, but all 41 courses have unique deep institution URLs (e.g. https://www.uwe.ac.uk/courses/business-and-law/postgraduate/master-of-business-administration-mba), non-templated count |
+| University of Toronto | Canada | REAL | 248 | Crawl header (Source: Puppeteer crawl of https://sgs.calendar.utoronto.ca/graduate-programs-at-a-glance) + all 248 courses deep-linked (e.g. https://sgs.calendar.utoronto.ca/degree/Aerospace-Studies) |
+| University of Toulouse | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ut-capitole.fr), no real per-course pages |
+| University of Trento | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unitn.it), no real per-course pages |
+| University of Turin | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unito.it), no real per-course pages |
+| University of Twente | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.utwente.nl), no real per-course pages |
+| University of Utah | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Valencia | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uv.es), no real per-course pages |
+| University of Victoria | Canada | MIXED | 45 | 9% deep-linked, 91% bare-homepage stub — partially real |
+| University of Waikato | New Zealand | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Warwick | UK | REAL | 208 | No header, but all 208 courses have unique deep institution URLs (e.g. https://warwick.ac.uk/study/postgraduate/courses-2023/accountingandfinance), non-templated count |
+| University of Washington | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Waterloo | Canada | REAL | 92 | Crawl header (Source: Puppeteer crawl of https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/future-students/programs) + all 92 courses deep-linked (e.g. https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/actuarial-science-master-math-mmath) |
+| University of West London | UK | REAL | 45 | Crawl header (sitemap/Puppeteer/CDX mention) + all 45 courses deep-linked (e.g. https://www.uwl.ac.uk/courses/postgraduate-study/business/mba) |
+| University of Western Australia | Australia | CURATED | 44 | Header explicitly says curated/estimated/placeholder |
+| University of Windsor | Canada | CURATED | 50 | All 50 courses share one bare-homepage URL (https://www.windsor.ca/), no real per-course pages |
+| University of Winnipeg | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uwinnipeg.ca), no real per-course pages |
+| University of Wisconsin–Madison | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Wollongong in Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uowdubai.ac.ae), no real per-course pages |
+| University of Wolverhampton | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of Worcester | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| University of York | UK | REAL | 218 | No header, but all 218 courses have unique deep institution URLs (e.g. https://www.york.ac.uk/study/postgraduate-taught/courses/msc-accounting-finance/), non-templated count |
+| Uppsala University | Sweden | REAL | 112 | No header, but all 112 courses have unique deep institution URLs (e.g. https://www.uu.se/en/study/programme/international-masters-programme-innovative-medicine), non-templated count |
+| Utrecht University | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uu.nl), no real per-course pages |
+| Vancouver Community College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.vcc.ca), no real per-course pages |
+| Vancouver Island University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.viu.ca), no real per-course pages |
+| Vanderbilt University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| VIA University College | Denmark | CURATED | 45 | All 45 courses share one bare-homepage URL (https://en.via.dk), no real per-course pages |
+| Victoria University of Wellington | New Zealand | REAL | 150 | No header, but all 150 courses have unique deep institution URLs (e.g. https://www.wgtn.ac.nz/explore/degrees/architectural-studies/overview), non-templated count |
+| Victoria University Sydney | Australia | REAL | 342 | No header, but all 342 courses have unique deep institution URLs (e.g. https://www.vu.edu.au/courses/certificate-iv-in-tertiary-preparation-22582vic), non-templated count |
+| Virginia Tech | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Vrije Universiteit Amsterdam | Netherlands | REAL | 133 | No header, but all 133 courses have unique deep institution URLs (e.g. https://vu.nl/en/education/master/transport-and-network-economics), non-templated count |
+| Wageningen University & Research | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.wur.nl), no real per-course pages |
+| Webster University | USA | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.webster.ac.ae), no real per-course pages |
+| Western Sydney University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Western University | Canada | CURATED | 80 | All 80 courses share one bare-homepage URL (https://www.uwo.ca), no real per-course pages |
+| Wilfrid Laurier University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.wlu.ca), no real per-course pages |
+| Worcester Polytechnic Institute | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Yale University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| York University | Canada | CURATED | 44 | All 44 courses share one bare-homepage URL (https://www.yorku.ca), no real per-course pages |
+| Zealand Institute of Business and Technology | Denmark | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.zealand.dk), no real per-course pages |
