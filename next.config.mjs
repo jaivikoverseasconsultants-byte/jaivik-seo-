@@ -42,7 +42,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: blob: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https://*.googleapis.com https://*.firebase.com wss://*.firebaseio.com https://*.firebaseio.com https://formspree.io",
+              "connect-src 'self' https://*.googleapis.com https://*.firebaseapp.com wss://*.firebaseio.com https://*.firebaseio.com https://formspree.io",
               "frame-src 'self' https://*.firebaseapp.com https://www.google.com https://accounts.google.com",
               "object-src 'none'",
             ].join('; '),
