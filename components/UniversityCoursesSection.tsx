@@ -24,30 +24,6 @@ function normalizeFilterLevel(raw: string): Exclude<FilterLevel, 'All'> {
   return 'Postgraduate';
 }
 
-// ── Legacy helpers for popularCourses string fallback ────────────────────────
-
-function deriveLevel(name: string): Exclude<FilterLevel, 'All'> {
-  const n = name.toLowerCase();
-  if (/phd|doctorate|d\.phil|dphil/.test(n)) return 'PhD';
-  if (/\bmba\b|executive mba|master of business admin/.test(n)) return 'MBA';
-  if (/^(bsc|ba\b|beng|bachelor|bba|be\b|llb|bfa|b\.a\.|b\.s\.|btech|b\.tech|honours bachelor|undergraduate)/.test(n)) return 'Undergraduate';
-  if (/^(ms\b|msc|master|ma\b|mphil|mres|meng\b|llm|mpa|mfa|postgrad|pg\b|m\.s\.|m\.eng\.)/.test(n)) return 'Postgraduate';
-  if (/bachelor|undergraduate|bsc|beng/.test(n)) return 'Undergraduate';
-  if (/master|graduate|msc|mphil/.test(n)) return 'Postgraduate';
-  return 'Postgraduate';
-}
-
-function deriveDuration(level: Exclude<FilterLevel, 'All'>): string {
-  if (level === 'PhD') return '3–4 years';
-  if (level === 'MBA') return '1–2 years';
-  if (level === 'Undergraduate') return '3–4 years';
-  return '1–2 years';
-}
-
-function toSlug(name: string) {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-}
-
 // ── Props ──────────────────────────────────────────────────────────────────
 
 interface Props {
@@ -60,14 +36,18 @@ interface Props {
 }
 
 // ── Component ─────────────────────────────────────────────────────────────
+//
+// `courses` must come from data/university-course-registry.ts (REGISTRY), whose
+// slugs are guaranteed to match a real generateStaticParams-built page. There is
+// deliberately no fallback that fabricates links from `popularCourses` — those
+// are just marketing strings with no matching route, and rendering a link for
+// them 404s (see scripts/audit-broken-links.js). A university with no registry
+// entry shows the empty state below instead.
 
 export default function UniversityCoursesSection({
   courses,
-  popularCourses,
   uniSlug,
   uniName,
-  annualTuitionUSD,
-  ieltsMin,
 }: Props) {
   const [activeLevel, setActiveLevel] = useState<FilterLevel>('All');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -85,30 +65,16 @@ export default function UniversityCoursesSection({
     ieltsMin: number;
   }
 
-  const allCourses: DisplayCourse[] = (courses && courses.length > 0)
-    ? courses.map(c => ({
-        name: c.name,
-        slug: c.slug,
-        filterLevel: normalizeFilterLevel(c.level),
-        displayLevel: c.level,
-        duration: c.duration,
-        annualUSD: c.annualUSD,
-        annualINR: c.annualINR,
-        ieltsMin: c.ieltsMin,
-      }))
-    : popularCourses.map(name => {
-        const lv = deriveLevel(name);
-        return {
-          name,
-          slug: toSlug(name),
-          filterLevel: lv,
-          displayLevel: lv,
-          duration: deriveDuration(lv),
-          annualUSD: annualTuitionUSD,
-          annualINR: annualTuitionUSD * 84,
-          ieltsMin,
-        };
-      });
+  const allCourses: DisplayCourse[] = (courses ?? []).map(c => ({
+    name: c.name,
+    slug: c.slug,
+    filterLevel: normalizeFilterLevel(c.level),
+    displayLevel: c.level,
+    duration: c.duration,
+    annualUSD: c.annualUSD,
+    annualINR: c.annualINR,
+    ieltsMin: c.ieltsMin,
+  }));
 
   if (allCourses.length === 0) {
     return (
@@ -140,7 +106,6 @@ export default function UniversityCoursesSection({
   const filtered = activeLevel === 'All' ? allCourses : allCourses.filter(c => c.filterLevel === activeLevel);
   const visible = filtered.slice(0, visibleCount);
   const hasMore = visibleCount < filtered.length;
-  const isRich = !!(courses && courses.length > 0);
 
   const handleTabChange = (level: FilterLevel) => {
     setActiveLevel(level);
@@ -148,7 +113,6 @@ export default function UniversityCoursesSection({
   };
 
   const formatFee = (c: DisplayCourse) => {
-    if (!isRich) return `$${(annualTuitionUSD / 1000).toFixed(0)}K/yr`;
     if (c.annualUSD > 0) return `$${(c.annualUSD / 1000).toFixed(0)}K/yr`;
     return 'View page';
   };
