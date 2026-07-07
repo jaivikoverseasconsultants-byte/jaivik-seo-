@@ -1,0 +1,3300 @@
+{
+  "slug": "dalhousie-university",
+  "sourceUrl": "https://www.dal.ca/study/programs.html",
+  "apiUrl": "https://www.dal.ca/study/programs/_jcr_content/root/maincontent/main/programfinder.model.json",
+  "crawledAt": "2026-07-07T07:46:06.821Z",
+  "courses": [
+    {
+      "name": "Veterinary Technology (DipTech)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/veterinary-technology-diptech.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Agricultural Business (BSc Agr)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/agricultural-business-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Animal Science (BSc Agr)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/animal-science-bsc-agr.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Applied Computer Science (BACS)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/applied-computer-science-bacs.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "Aquaculture (BSc Agr)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/aquaculture-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Accounting (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/accounting-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Actuarial Science (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/actuarial-science-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Agriculture (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/agriculture-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Arctic Nursing (BScN)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/arctic-nursing-bscn.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Online",
+      "faculty": "Health"
+    },
+    {
+      "name": "Arts (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/arts-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Biochemistry (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/biochemistry-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Biology (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/biology-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Bioveterinary Science (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/bioveterinary-science-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Business Management (DipTech)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/business-management-diptech.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Canadian Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/canadian-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Chemical Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/chemical-engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Chemistry (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/chemistry-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Cinema and Media Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/cinema-media-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Civil Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/civil-engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Classics (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/classics-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Commerce (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/commerce-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Community Design (BCD)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/community-design-bcd.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Architecture and Planning"
+    },
+    {
+      "name": "Computer Science (BCS)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-bcs.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "Contemporary Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/contemporary-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Theatre (Costume Studies) (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/costume-studies-ba.html",
+      "types": [
+        "Bachelor",
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Creative Writing (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/creative-writing-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Health Sciences (Diagnostic Medical Ultrasound) (BHSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/diagnostic-medical-ultrasound-bhsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Early Modern Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/early-modern-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Earth Sciences (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/earth-sciences-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Economics (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/economics-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "EHS Management",
+      "url": "https://www.dal.ca/study/programs/undergraduate/ehs-management-diploma.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September, January or summer semester",
+      "location": "Online",
+      "faculty": "Health"
+    },
+    {
+      "name": "Electrical Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/electrical-engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "English (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/english-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Entrepreneurship & Innovation (BMgmt)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/entrepreneurship-innovation-bmgmt.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Environment, Sustainability, and Society (BA)(BSc)(BMgmt)(BCD)(BJH)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/environment-sustainability-society-ba-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "Dependent on degree choice",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Environmental Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/environmental-engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Environmental Science (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/environmental-science-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "European Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/european-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Finance (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/finance-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "French (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/french-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Gender and Women’s Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/gender-womens-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "German (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/german-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Health Promotion (BHP)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/health-promotion-bhp-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Health Sciences (Post Diploma) (BHSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/health-sciences-post-diploma-bhsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September, January",
+      "location": "Online",
+      "faculty": "Health"
+    },
+    {
+      "name": "Health Services Administration",
+      "url": "https://www.dal.ca/study/programs/undergraduate/health-services-administration-diploma.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": null,
+      "location": null,
+      "faculty": "Health"
+    },
+    {
+      "name": "History of Science and Technology (BA)(BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/history-science-technology-ba-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "History (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/history-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Industrial Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/industrial-engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Integrated Environmental Management (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/integrated-environmental-management-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "International Business (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/international-business-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "International Development Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/international-development-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "International Food Business (BAgr)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/international-food-business-bagr.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Kinesiology (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/kinesiology-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Landscape Architecture (BLA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/landscape-architecture-bla.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Landscape Horticulture (Diploma)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/landscape-horticulture-diploma.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Law, Justice, and Society (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/law-justice-society-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Leadership and Organization (BMgmt)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/leadership-organization-bmgmt.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Managed Landscapes (Dip)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/managed-landscapes-diploma.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Management (BMgmt)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/management-bmgmt.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Managing Data and Information (BMgmt)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/managing-data-information-bmgmt.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Managing People & Organizations (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/managing-people-organizations-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Marine Biology (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/marine-biology-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Marketing (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/marketing-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Mathematics (BA)(BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/mathematics-ba-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Mechanical Engineering (BEng)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/mechanical-engineering-beng.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Medical Sciences (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/medical-sciences-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Meteorology (Dip)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/meteorology-diploma.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Microbiology and Immunology (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/microbiology-immunology-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Music (BMus)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/music-bmus-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Neuroscience (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/neuroscience-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Health Sciences (Nuclear Medicine Technology) (BHSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/nuclear-medicine-technology-bhsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Nursing (BScN)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/nursing-bscn.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Ocean Sciences (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Philosophy (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/philosophy-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Physics and Atmospheric Science (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/physics-atmospheric-science-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Plant Science (BSc Agr, DipTech)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr-dip-tech.html",
+      "types": [
+        "Bachelor",
+        "Diploma"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Political Science (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/political-science-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Psychology (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/psychology-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Public Sector Management (BMgmt)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/public-sector-management-bmgmt.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Health Sciences (Radiological Technology) (BHSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/radiological-technology-bhsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Recreation Management (BSc)(BMgmt)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/recreation-management-bsc-bmgmt.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Religious Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/religious-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Health Sciences (Respiratory Therapy) (BHSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/respiratory-therapy-bhsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Russian Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/russian-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Science (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/science-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Small Business Management (BTech)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/small-business-management-btech.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Sociology and Social Anthropology (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/sociology-social-anthropology-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Spanish and Latin American Studies (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/spanish-latin-american-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Theatre (Stage Design and Technical Theatre) (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/stage-design-technical-theatre-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Statistics (BSc)(BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/statistics-bsc-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Supply Chain and Logistics Management (BComm)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/supply-chain-logistics-management-bcomm.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Theatre (Acting) (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/theatre-acting-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Theatre (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/theatre-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Theatre (Theatre Studies) (BA)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/theatre-studies-ba.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Therapeutic Recreation (BScR-TR)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/therapeutic-recreation-bscrtr.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Agricultural Economics (BSc Agr)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/agricultural-economics-bsc-agr.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Social Work (BSW)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/social-work-bsw.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Integrated Science (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/integrated-science-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Architecture (BEDS)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/architecture-beds.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Architecture and Planning"
+    },
+    {
+      "name": "Black and African Diaspora Studies (BA) (BSc)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/black-african-diaspora-studies-ba-bsc.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Environmental Sciences (BSc Agr)",
+      "url": "https://www.dal.ca/study/programs/undergraduate/environmental-sciences-bsc-agr.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Undergraduate",
+      "start": "September and January",
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Agriculture (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/agriculture-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Applied Computer Science (MACSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/applied-computer-science-macsc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "Architecture (MArch)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/architecture-march.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "May",
+      "location": "Halifax",
+      "faculty": "Architecture and Planning"
+    },
+    {
+      "name": "Audiology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/audiology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Biochemistry and Molecular Biology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biochemistry-molecular-biology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Biochemistry and Molecular Biology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biochemistry-molecular-biology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "May, September, January",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Biological Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biological-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Biological Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biological-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Biological Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biological-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Biology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Biology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Biomedical Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biomedical-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Biomedical Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/biomedical-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Chemical Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/chemical-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Chemical Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/chemical-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Chemical Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/chemical-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Chemistry (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/chemistry-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Chemistry (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/chemistry-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Civil Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/civil-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, and/or May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Civil Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/civil-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Civil Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/civil-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, or May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Classics (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/classics-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Classics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/classics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September or January ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Clinical Psychology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/clinical-psychology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Clinical Vision Science (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/clinical-vision-science-msc.html",
+      "types": [
+        "Master",
+        "Diploma"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Computer Science (MCSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/computer-science-mcsc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January ",
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "Computer Science (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/computer-science-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January. May with supervisor and graduate coordinator approval. ",
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "Creative Nonfiction (MFA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/creative-nonfiction-mfa.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "June",
+      "location": "Halifax",
+      "faculty": "King's College"
+    },
+    {
+      "name": "Development Economics (MDE)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/development-economics-mde.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Digital Innovation (MDI)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/digital-innovation-mdi.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "Earth Sciences (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/earth-sciences-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Earth Sciences (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/earth-sciences-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Electrical Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Electrical Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Environmental Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/environmental-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Environmental Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/environmental-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Environmental Studies (MES)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/environmental-studies-mes.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Epidemiology and Applied Health Research (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/epidemiology-applied-health-research-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Epidemiology and Applied Health Research (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/epidemiology-applied-health-research-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Health Administration (MHA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/health-administration-mha.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "History (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/history-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "History (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/history-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Industrial Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/industrial-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Industrial Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/industrial-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Interdisciplinary PhD (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/interdisciplinary-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Graduate Studies"
+    },
+    {
+      "name": "International Development Studies (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/international-development-studies-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September  ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Internetworking (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/internetworking-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January ",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Journalism (MJ)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/journalism-mj.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "King's College"
+    },
+    {
+      "name": "Health Administration combined with JD (JD)(MHA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mha.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Law"
+    },
+    {
+      "name": "Law (LLM)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/law-llm.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Law"
+    },
+    {
+      "name": "Law (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/law-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Law"
+    },
+    {
+      "name": "Leisure Studies (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/leisure-studies-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Marine Management (MMM)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/marine-management-mmm.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Materials Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/materials-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Materials Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/materials-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, May, January ",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Materials Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/materials-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Mechanical Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mechanical-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Mechanical Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mechanical-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Mechanical Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mechanical-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Medical Neuroscience (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/medical-neuroscience-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Medical Neuroscience (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/medical-neuroscience-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Medical Research (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/medical-research-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Medical Research (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/medical-research-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Microbiology and Immunology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/microbiology-immunology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, or May",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Microbiology and Immunology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/microbiology-immunology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Mineral Resource Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mineral-resource-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Mineral Resource Engineering (MEng)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mineral-resource-engineering-meng.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Mineral Resource Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mineral-resource-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Nursing (MN)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/nursing-mn.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Oceanography (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/oceanography-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Oceanography (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/oceanography-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Pathology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/pathology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, and May ",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Pathology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/pathology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Periodontics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/periodontics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "Mid-June",
+      "location": "Halifax",
+      "faculty": "Dentistry"
+    },
+    {
+      "name": "Pharmaceutical Science (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/pharmaceutical-science-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Pharmacology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Pharmacology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January ",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Physician Assistant Studies (MPAS)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physician-assistant-studies-mpas.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "January  ",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Physiology and Biophysics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physiology-biophysics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Physiology and Biophysics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physiology-biophysics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Physiotherapy combined with Rehabilitation Research (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physiotherapy-rehabilitation-research-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Planning (MPlan)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/planning-mplan.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Architecture and Planning"
+    },
+    {
+      "name": "Planning Studies (MPS)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/planning-studies-mps.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Architecture and Planning"
+    },
+    {
+      "name": "Psychiatry Research (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/psychiatry-research-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Rehabilitation Research (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/rehabilitation-research-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Resource and Environmental Management (MREM)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/resource-environmental-management-mrem.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Social Anthropology (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/social-anthropology-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Social Anthropology (Phd)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/social-anthropology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Sociology (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/sociology-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Sociology (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/sociology-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Economics (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/economics-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Economics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/economics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Electrical Engineering (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Engineering Mathematics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/engineering-mathematics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "English (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/english-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Engineering Mathematics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/engineering-mathematics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Fiction (MFA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/fiction-mfa.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "June",
+      "location": "Halifax",
+      "faculty": "King's College"
+    },
+    {
+      "name": "Fisheries Science (MFSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/fisheries-science-mfsc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "French (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/french-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "French (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/french-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Health (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/health-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Health Promotion (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/health-promotion-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September and January",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Industrial Engineering (MASc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/industrial-engineering-masc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Information (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/information-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Kinesiology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/kinesiology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Management (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/management-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Mathematics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mathematics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Medical Physics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/medical-physics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Musicology (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/musicology-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Nursing (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/nursing-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Mathematics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mathematics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Medical Physics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/medical-physics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Nursing (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/nursing-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Occupational Science (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/occupational-science-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Occupational Therapy - Entry level (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/occupational-therapy-entry-level-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Oral and Maxiofacial Surgery combined with MD (MD) (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-md-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "June",
+      "location": "Halifax",
+      "faculty": "Dentistry"
+    },
+    {
+      "name": "Philosophy (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/philosophy-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Physics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Physiotherapy (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physiotherapy-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Political Science (MA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/political-science-ma.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Public Administration (GDPA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/public-administration-gdpa.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September or January",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Psychiatry Research (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/psychiatry-research-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Psychology and Neuroscience (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/psychology-neuroscience-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Public Administration combined with JD (JD)(MPA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mpa.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Law"
+    },
+    {
+      "name": "Physics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/physics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Political Science (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/political-science-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Psychology and Neuroscience (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/psychology-neuroscience-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Social Work (MSW)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/social-work-msw.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Speech Language Pathology (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/speech-language-pathology-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Statistics (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/statistics-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Statistics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/statistics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Doctor of Dental Surgery (DDS)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/dentistry-dds.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Dentistry"
+    },
+    {
+      "name": "Dental Hygiene (BDH) (BDH (Hons))",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/dental-hygiene-ddh-bdh.html",
+      "types": [
+        "Bachelor"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Dentistry"
+    },
+    {
+      "name": "Philosophy (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/philosophy-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Computational Biology and Bioinformatics (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/computational-biology-bioinformatics-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Computer Science"
+    },
+    {
+      "name": "English (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/english-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Arts and Social Sciences"
+    },
+    {
+      "name": "Food Science (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/food-science-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Food Science (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/food-science-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Engineering"
+    },
+    {
+      "name": "Orthoptics and Ophthalmic Medical Technology (GDOMT)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/orthoptics-ophthalmic-medical-technology-graduate-diploma.html",
+      "types": [
+        "Diploma"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Health"
+    },
+    {
+      "name": "Mental Health and Addictions (GradCert)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/mental-health-addictions-graduate-certificate.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Online",
+      "faculty": "Health"
+    },
+    {
+      "name": "Nurse Prescribing (GradCert)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/nurse-prescribing-graduate-certificate.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": null,
+      "faculty": "Health"
+    },
+    {
+      "name": "Clinical Psychiatry and Global Mental Health (MCPGMH)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/clinical-psychiatry-global-mental-health-mcpgmh.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Online",
+      "faculty": "Medicine"
+    },
+    {
+      "name": "Business Administration - Corporate Residency (MBA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/business-administration-mba-corporate-residency.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "June",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Business Administration - Career Advance (MBA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/business-administration-mba-career-advance.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Information (MI)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/information-mi.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Public Administration (MPA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/public-administration-mpa.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Public Administration Management (MPA) (M)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/public-administration-management-mpa-m.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September, January, May",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Business (MSc)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/business-msc.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Agricultural Sciences (PhD)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/agricultural-sciences-phd.html",
+      "types": [
+        "PhD"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Truro and Bible Hill",
+      "faculty": "Agriculture"
+    },
+    {
+      "name": "Information combined with Public Administration (MI) (MPA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-mi-mpa.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September ",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Information combined with Resource and Environmental Management (MI)(MREM)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-mi-mrem.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": null,
+      "location": "Halifax",
+      "faculty": "Science"
+    },
+    {
+      "name": "Information combined with JD (JD)(MI)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mi.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Law"
+    },
+    {
+      "name": "Business Administration combined with JD (JD)(MBA)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mba.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "June",
+      "location": "Halifax",
+      "faculty": "Law"
+    },
+    {
+      "name": "Management (MM)",
+      "url": "https://www.dal.ca/study/programs/graduate-professional/management-mm.html",
+      "types": [
+        "Master"
+      ],
+      "apiLevel": "Graduate & Professional",
+      "start": "September",
+      "location": "Halifax",
+      "faculty": "Management"
+    },
+    {
+      "name": "Certificate in Advanced Fire Service Administration",
+      "url": "https://www.dal.ca/study/programs/non-degree/fire-service-administration-advanced.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in AutoCAD",
+      "url": "https://www.dal.ca/study/programs/non-degree/autoCAD.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Building Positive Workplace Cultures",
+      "url": "https://www.dal.ca/study/programs/non-degree/building-positive-workplace-cultures.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Change Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/change-management-cert.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Construction Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/construction-management-cert.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Data Management for Professionals",
+      "url": "https://www.dal.ca/study/programs/non-degree/data-management-professionals.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Equity, Diversity, and Inclusion",
+      "url": "https://www.dal.ca/study/programs/non-degree/equity-diversity-inclusion-cert.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Ergonomic Program Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/ergonomic-program-management-cert.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Fire Service Administration: Operational Planning",
+      "url": "https://www.dal.ca/study/programs/non-degree/fire-service-administration-operational-planning.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Fire Service Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/fire-service-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Home Inspection",
+      "url": "https://www.dal.ca/study/programs/non-degree/home-inspection-cert.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Human Resource Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/human-resource-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Human Resource Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/human-resource-management.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Local Government Finance",
+      "url": "https://www.dal.ca/study/programs/non-degree/local-government-finance.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Maintenance Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/maintenance-management.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Police Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/police-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Police Supervisory Skills",
+      "url": "https://www.dal.ca/study/programs/non-degree/police-supervisory-skills.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Project Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/project-management.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Technical Writing",
+      "url": "https://www.dal.ca/study/programs/non-degree/technical-writing.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Fire Officer III Certification Track",
+      "url": "https://www.dal.ca/study/programs/non-degree/fire-officer-iii-certification-track.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Fire Officer IV Accreditation Track",
+      "url": "https://www.dal.ca/study/programs/non-degree/fire-officer-iv-accreditation-track.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Adult Education",
+      "url": "https://www.dal.ca/study/programs/non-degree/adult-education.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Equity, Diversity, Inclusion, and Accessibility in the Fire Service",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-equity-diversity-inclusion-and-accessibility-fire-service.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in First Responder Health and Wellness",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-first-responder-health-and-wellness.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Gaming Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-gaming-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in General Fire Service Administration",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-general-fire-service-administration.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Governance and Administration",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-governance-and-administration.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Inclusive Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-inclusive-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": "January",
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Principles of Professional Selling",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-principles-of-professional-selling.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": "January",
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Public Sector Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-public-sector-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": "January",
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Strategic Leadership",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-strategic-leadership.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": "September",
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Training Officer Education",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-training-officer-education.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": "September",
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Student Affairs Program Assessment",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-student-affairs-program-assessment.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": "October",
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Lean Six Sigma Green Belt",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-lean-six-sigma-green-belt.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Business Analysis",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-business-analysis.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": null,
+      "faculty": null
+    },
+    {
+      "name": "Certificate in English-Medium Instruction (EMI)",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-english-medium-instruction--emi-.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": null,
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Heating, Ventilation, and Air Conditioning (HVAC)",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-heating--ventilation--and-air-conditioning--hvac-.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Operational Planning",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-operational-planning.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Fire Service Human Resource Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-fire-service-human-resource-management.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Emergency Management for the Fire Service",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-emergency-management-for-the-fire-service.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Heating, Ventilation, and Air Conditioning (HVAC)",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-heating--ventilation--and-air-conditioning--hvac-0.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Systems Engineering and Complex Project Management",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-systems-engineering-and-complex-project-managemen.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    },
+    {
+      "name": "Certificate in Sustainable Energy Technologies (SET)",
+      "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-sustainable-energy-technologies--set-.html",
+      "types": [
+        "Certificate"
+      ],
+      "apiLevel": "Non-degree",
+      "start": null,
+      "location": "Online",
+      "faculty": "Open Learning and Career Development"
+    }
+  ]
+}

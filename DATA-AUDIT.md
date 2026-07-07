@@ -56,13 +56,17 @@ Per the audit brief: **a false REAL is worse than a false CURATED** — every RE
 
 ## Summary
 
-- **89 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages.
-- **351 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
-- **8 MIXED** — a file combining a block of real deep-linked courses with a block of templated/stub courses.
+- **93 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba.)
+- **348 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
+- **7 MIXED** — a file combining a block of real deep-linked courses with a block of templated/stub courses.
 - **10 UNSURE** — no registry entry (no course pages are generated for this university at all) or otherwise unverifiable; do not treat as REAL or CURATED without further investigation.
 - **Total universities: 458**
 
-### CURATED university slugs (exact list, 351)
+### Wave 1 real-data replacement (2026-07-07)
+
+346 CURATED/MIXED universities were pruned from the index on 2026-07-07 (commit 38674b2c; see "prune" history). Wave 1 of the real-data replacement crawled genuine course data for the 4 highest lead-demand Canadian universities from that batch — Simon Fraser University, Dalhousie University, University of Ottawa, and University of Manitoba — moving all 4 to REAL (see updated rows and evidence below/above). Crawl scripts: `scripts/crawl-sfu-real.js`, `scripts/crawl-dal-real.js`, `scripts/crawl-uottawa-real.js`, `scripts/crawl-umanitoba-real.js` (+ matching `scripts/gen-*-real.js` generators). No estimated/fabricated course names were introduced — every course name and URL was scraped from the university's own site and validated (degree-keyword whitelist + URL-resolution check) before inclusion.
+
+### CURATED university slugs (exact list, 348 — updated 2026-07-07, Wave 1 removed simon-fraser-university, dalhousie-university, university-of-ottawa)
 
 ```
 aalborg-university
@@ -119,7 +123,6 @@ copenhagen-business-school
 cornell-university
 curtin-singapore
 curtin-university
-dalhousie-university
 dania-academy
 dartmouth-college
 deakin-university
@@ -260,7 +263,6 @@ selkirk-college
 seneca-polytechnic
 sheridan-college
 sim-singapore
-simon-fraser-university
 singapore-institute-of-technology
 singapore-management-university
 slu-sweden
@@ -357,7 +359,6 @@ university-of-new-england-australia
 university-of-newcastle-australia
 university-of-northern-bc
 university-of-nottingham
-university-of-ottawa
 university-of-padua
 university-of-paris-saclay
 university-of-pennsylvania
@@ -507,7 +508,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | CQUniversity Australia | Australia | REAL | 69 | No header, but all 69 courses have unique deep institution URLs (e.g. https://www.cqu.edu.au/courses), non-templated count |
 | Curtin Singapore | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.curtin.edu.sg), no real per-course pages |
 | Curtin University | Australia | CURATED | 53 | Header explicitly says curated/estimated/placeholder |
-| Dalhousie University | Canada | CURATED | 52 | All 52 courses share one bare-homepage URL (https://www.dal.ca), no real per-course pages |
+| Dalhousie University | Canada | REAL | 299 | Wave 1 re-crawl (2026-07-07): Dalhousie program-finder AEM API (https://www.dal.ca/study/programs/_jcr_content/root/maincontent/main/programfinder.model.json), 531 total programs filtered to 299 with an official Bachelor/Master/PhD/Diploma/Certificate type tag (Course/Minor/Upgrading-and-Pathways entries excluded); every course has a unique deep-linked URL (e.g. https://www.dal.ca/study/programs/undergraduate/agricultural-business-bsc.html) |
 | Dania Academy | Denmark | CURATED | 40 | All 40 courses share one bare-homepage URL (https://www.dania.dk), no real per-course pages |
 | Dartmouth College | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | De Montfort University | UK | REAL | 50 | No header, but all 50 courses have unique deep institution URLs (e.g. https://www.dmu.ac.uk/study/courses/postgraduate-courses/business/master-of-business-administration-mba.aspx), non-templated count |
@@ -688,7 +689,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | Selkirk College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.selkirk.ca), no real per-course pages |
 | Seneca Polytechnic | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.senecapolytechnic.ca), no real per-course pages |
 | Sheridan College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sheridan.ca/), no real per-course pages |
-| Simon Fraser University | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sfu.ca), no real per-course pages |
+| Simon Fraser University | Canada | REAL | 139 | Wave 1 re-crawl (2026-07-07): SFU undergraduate A-Z program directory (https://www.sfu.ca/students/admission/programs/a-z.html), 208 candidate pages individually fetched and validated against each page's own "Degree:"/"Credential:" field (Bachelor/Certificate/Diploma only; Minor-only and 404 pages excluded) → 139 real per-program pages (e.g. https://www.sfu.ca/students/admission/programs/a-z/a/actuarial-science.html) |
 | Singapore Institute of Management | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sim.edu.sg), no real per-course pages |
 | Singapore Institute of Technology | Singapore | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.singaporetech.edu.sg), no real per-course pages |
 | Singapore Management University | Singapore | CURATED | 42 | All 42 courses share one bare-homepage URL (https://www.smu.edu.sg), no real per-course pages |
@@ -799,7 +800,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | University of Lincoln | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
 | University of Lyon | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.univ-lyon1.fr), no real per-course pages |
 | University of Manchester | UK | REAL | 263 | Crawl header (Source: Puppeteer crawl of https://www.manchester.ac.uk/study/masters/courses/list/) + all 263 courses deep-linked (e.g. https://www.manchester.ac.uk/study/masters/courses/list/10867/msc-accounting/) |
-| University of Manitoba | Canada | MIXED | 45 | 9% deep-linked, 91% bare-homepage stub — partially real |
+| University of Manitoba | Canada | REAL | 340 | Wave 1 re-crawl (2026-07-07): superseded the old MIXED file (whose "real" 9% was actually a shared /asper subsection homepage, not real per-course pages). Re-crawled from the official CourseLeaf academic catalogue A-Z index (https://catalog.umanitoba.ca/azindex/), 627 candidates filtered to 340 by degree-keyword whitelist (Bachelor/Honours/B.Sc/B.A/B.Comm/Master/PhD/Diploma/Certificate; Minor-only and subject-code course-description entries excluded), every URL verified to resolve with real content (e.g. https://catalog.umanitoba.ca/undergraduate-studies/management-business/accounting-bcomm-honours/) |
 | University of Mannheim | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Maryland | USA | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Melbourne | Australia | REAL | 463 | Crawl header (sitemap/Puppeteer/CDX mention) + all 463 courses deep-linked (e.g. https://study.unimelb.edu.au/find/courses/graduate/juris-doctor/) |
@@ -817,7 +818,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | University of Notre Dame | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Nottingham | UK | CURATED | 61 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Otago | New Zealand | REAL | 74 | Crawl header (sitemap/Puppeteer/CDX mention) + all 74 courses deep-linked (e.g. https://www.otago.ac.nz/healthsciences/programmes/otago810003.html) |
-| University of Ottawa | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uottawa.ca), no real per-course pages |
+| University of Ottawa | Canada | REAL | 492 | Wave 1 re-crawl (2026-07-07): official CourseLeaf academic catalogue A-Z index (https://catalogue.uottawa.ca/azindex/), 700 candidates filtered to 492 by degree-keyword whitelist (Bachelor/Honours/BASc/BSc/BA/BSocSc/Juris Doctor/Master/Doctorate/Diploma/Certificate; Minor/Major/Microprogram and subject-code course listings excluded), every URL verified to resolve with real content (e.g. https://catalogue.uottawa.ca/en/undergrad/bachelor-fine-arts-bfa/) |
 | University of Oxford | UK | UNSURE | 0 | Not registered in REGISTRY — no course data served |
 | University of Padua | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unipd.it), no real per-course pages |
 | University of Paris-Saclay | France | CURATED | 47 | All 47 courses share one bare-homepage URL (https://www.universite-paris-saclay.fr), no real per-course pages |

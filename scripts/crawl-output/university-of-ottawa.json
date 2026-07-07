@@ -1,0 +1,2467 @@
+{
+  "slug": "university-of-ottawa",
+  "sourceUrl": "https://catalogue.uottawa.ca/azindex/",
+  "crawledAt": "2026-07-07T08:04:12.026Z",
+  "courses": [
+    {
+      "name": "Baccalauréat spécialisé en sciences de l'activité physique - éducation et coaching et Formation à l'enseignement - cycles intermédiaire/supérieur",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/baccalaureat-specialise-sciences-activite-physique-education-coaching-formation-enseignement-cycles-intermediaire-superieur/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Baccalauréat spécialisé en sciences de l'activité physique - éducation et coaching et Formation à l'enseignement - cycles moyen/intermédiaire",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/baccalaureat-specialise-sciences-activite-physique-education-coaching-formation-enseignement-cycles-moyen-intermediaire/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Baccalauréat spécialisé en sciences de l'activité physique - éducation et coaching et Formation à l'enseignement - cycles primaire/moyen",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/baccalaureat-specialise-sciences-activite-physique-education-coaching-formation-enseignement-cycles-primaire-moyen/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Arts Interdisciplinary Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-arts-interdisciplinary-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Arts Interdisciplinary Studies (online) (Coming in 2027)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-arts-interdisciplinary-studies-online/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Fine Arts (BFA)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-fine-arts-bfa/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Fine Arts in Acting",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-fine-arts-acting/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Multidisciplinary Design - Experiential Learning",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-multidisciplinary-design-experiential-learning/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Music (BMUS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-music/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Social Sciences in Interdisciplinary Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-social-sciences-interdisciplinary-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Social Sciences in Interdisciplinary Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-social-sciences-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Social Sciences in Interdisciplinary Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-social-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Biomedical Mechanical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-biomedical-mechanical-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Biomedical Mechanical Engineering and BSc Computing Technology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-biomedical-mechanical-engineering-bsc-computing-technology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Chemical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-chemical-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Chemical Engineering and BSc Computing Technology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-chemical-engineering-bsc-computing-technology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Chemical Engineering, Engineering Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-chemical-engineering-engineering-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Chemical Engineering, Environmental Engineering Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-chemical-engineering-environmental-engineering-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Civil Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-civil-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Civil Engineering and BSc Computing Technology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-civil-engineering-bsc-computing-technology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Civil Engineering, Engineering Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-civil-engineering-engineering-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Civil Engineering, Environmental and Water Resources Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-civil-engineering-environmental-water-resources-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Civil Engineering, Structural and Geotechnical Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-civil-engineering-structural-geotechnical-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Computer Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-computer-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Computer Engineering, Engineering Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-computer-engineering-engineering-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Electrical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-electrical-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Electrical Engineering and BSc Computing Technology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-electrical-engineering-bsc-computing-technology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Electrical Engineering, Engineering Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-electrical-engineering-engineering-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Mechanical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-mechanical-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Mechanical Engineering and BSc Computing Technology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-mechanical-engineering-bsc-computing-technology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Mechanical Engineering, Engineering Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-mechanical-engineering-engineering-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Multidisciplinary Design Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-multidisciplinary-design-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Software Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-software-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "BASc Software Engineering, Engineering Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/basc-software-engineering-engineering-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "B.A. spécialisé Lettres françaises et Baccalauréat en éducation",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/ba-specialise-lettres-francaises-baccalaureat-education/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "B.Sc. spécialisé Sciences et Baccalauréat en éducation - Cycles intermédiaire/supérieur",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bsc-specialise-sciences-baccalaureat-education-cycles-intermediaire-superieur/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificat/Baccalauréat en éducation - Éducation technologique",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificat-baccalaureat-education-education-technologique/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Creative Writing",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-creative-writing/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Francophone Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-francophone-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Human Resource Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-human-resource-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Indigenous Laws",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-indigenous-laws/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Law",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-law/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate Professional Writing",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-professional-writing/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Certificate translation English-French (Online)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/certificate-translation-english-french/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Doctorate Environmental Sustainability",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-environmental-sustainability/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Advanced Materials and Manufacturing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-advanced-materials-manufacturing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Anthropology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-anthropology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biochemistry",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biochemistry/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biochemistry and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctor-philosophy-biochemistry-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biochemistry and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biochemistry-specialization-human-molecular-genetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biology and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biology-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biology and Specialization Chemical and Environmental Toxicology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biology-specialization-chemical-environmental-toxicology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biomedical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biomedical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Biomedical Engineering and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biomedical-engineering-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Cellular and Molecular Medicine",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-cellular-molecular-medicine/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Cellular and Molecular Medicine and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctor-philosophy-cellular-moleculat-medicine-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Cellular and Molecular Medicine and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-cellular-molecular-medicine-specialization-human-molecular-genetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Chemical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Chemistry",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemistry/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Chemistry and Specialization Chemical and Environmental Toxicology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemistry-specialization-chemical-environmental-toxicology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Chemistry, Concentration in Biomolecular Sciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemistry-concentration-biomolecular-sciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Civil Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-civil-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in philosophy Clinical Science and Translational Medicine",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-clinical-science-translational-medicine/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Communication",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-communication/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Computer Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-computer-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Criminology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-criminology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Digital Transformation and Innovation",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-digital-transformation-innovation/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Earth Sciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-earth-sciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Earth Sciences and Specialization Chemical and Environmental Toxicology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-earth-sciences-specialization-chemical-environmental-toxicology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Economics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-economics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Education",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Education (Educational Counselling)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education-concentration-educational-counselling/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Education (Health Professions Education)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education-concentration-health-professions-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Electrical and Computer Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-electrical-computer-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy English Literature",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-english-literature/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Environmental Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-environmental-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy History",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-history/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Human Kinetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-human-kinetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy in Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy in Geography",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-geography/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy in Spanish",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-spanish/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Interdisciplinary Research in Music",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-interdisciplinary-research-music/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy International Development",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-international-development/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Law",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-law/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Linguistics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-linguistics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Mathematics and Statistics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mathematics-statistics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Mathematics and Statistics and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mathematics-statistics-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Mechanical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mechanical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Microbiology and Immunology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-microbiology-immunology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Microbiology and Immunology and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctor-philosophy-microbiology-immunology-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Neuroscience",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-neuroscience/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Neuroscience and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-neuroscience-specialization-human-molecular-genetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Nursing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-nursing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Nursing - Distance Option",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-nursing-virutal/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Philosophy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-philosophy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Physics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-physics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Political Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-political-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Population Health",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-population-health/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Psychology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-psychology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Public Administration",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-public-administration/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Rehabilitation Sciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-rehabilitation-sciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Rehabilitation Sciences - Distance Option",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-rehabilitation-sciences-virtual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Religious Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-religious-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Social Work",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-social-work/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Sociology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-sociology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate in Philosophy Translation Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-translation-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Doctorate of Philosophy in Epidemiology and Applied Health Research",
+      "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-epidemiology-applied-health-research/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Executive Master of Health Administration (EMHA) (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-health-administration-executive-mha/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Chartered Professional Accountancy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-chartered-professional-accountancy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Complex Project Leadership",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-complex-project-leadership/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Engineering Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-technology-project-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Engineering Management (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-engineering-management-online/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Food Policy and Regulatory Affairs (online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-food-policy-regulatory-affairs-online/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma for Nurse Practitioners",
+      "url": "https://catalogue.uottawa.ca/en/graduate/diploma-nurse-practitioners/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Health Professions Education (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-health-professions-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Information Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-information-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma in Health Education",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-health-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Leadership and Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-leadership-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Music Performance",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-music-performance/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Music Performance (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-music-performance-online/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Organizational Performance Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-organizational-performance-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Piano Pedagogy Research",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-piano-pedagogy-research/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Program Evaluation",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-program-evaluation/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Public Management and Governance",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-public-management-governance/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Diploma Scientific Management and Leadership",
+      "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-scientific-management-leadership/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce and Juris Doctor",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-juris-doctor/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Global Management)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-global-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce in Accounting",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-accounting/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce in Accounting and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-accounting-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce – International Dual Degree",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-international-dual-degree/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Accounting)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-accounting/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Accounting) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-accounting-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Business Analytics)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-business-analytics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Business Analytics) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-business-analytics-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Business Technology Management)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-business-technology-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Business Technology Management) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-business-technology-management-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Entrepreneurship)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-entrepreneurship/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Entrepreneurship) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-entrepreneurship-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Finance)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-finance/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Finance) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-finance-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Healthcare Analytics)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-healthcare-analytics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Healthcare Analytics) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-healthcare-analytics-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Human Resource Management)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-human-resource-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Human Resource Management) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-human-resource-management-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in International Management) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-international-management-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Management)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Management) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-management-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Marketing)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-marketing/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option in Marketing) and Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-marketing-master-science-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Commerce (Option International Management)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-commerce-option-international-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Digital Journalism",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-digital-journalism/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences and Master of Health Sciences Audiology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-master-health-sciences-audiology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences and Master of Health Sciences Occupational Therapy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-master-health-sciences-occupational-therapy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences and Master of Health Sciences Physiotherapy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-master-health-sciences-physiotherapy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences and Master of Health Sciences Speech-Language Pathology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-master-health-sciences-speech-language-pathology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences - Option Integrative Health Biosciences",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-integrative-health-biosciences-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences - Population and Public Health Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-population-and-public-health-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Health Sciences - Technologies and Innovation in Healthcare Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-health-sciences-technologies-and-innovation-in-healthcare-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics and Master of Health Sciences Occupational Therapy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-master-health-sciences-occupational-therapy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics and Master of Health Sciences Physiotherapy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-master-health-sciences-physiotherapy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics - Education and Coaching",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-physical-activity-education-coaching-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics - Education and Coaching - Studies of Social Issues in Sport, Physical Activity and Leisure Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-physical-activity-education-coaching-studies-social-issues-sports-physical-activity-leisure-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics - Recreation and Sport Management",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-recreation-sport-management/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics - Recreation and Sport Management - Studies of Social Issues in Sport, Physical Activity and Leisure Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-recreation-sport-management-studies-social-issues-sports-physical-activity-leisure-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Human Kinetics - Studies of Social Issues in Sport, Physical Activity and Leisure Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-human-kinetics-studies-social-issues-sports-physical-activity-leisure-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Integrated Food Sciences in partnership with Le Cordon Bleu",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-integrated-food-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Multidisciplinary Design – Experiential Learning",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-multidisciplinary-design-experiential-learning/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Public Relations",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-public-relations/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Food Sciences",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-food-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Food Sciences and Master of Science Nutrition and Food Biosciences (Coming Soon)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-food-sciences-master-science-nutrition-food-biosciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Food Sciences - Food Technology Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-food-sciences-food-technology-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Food Sciences - Nutrition Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-food-sciences-nutrition-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Human Kinetics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-human-kinetics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Human Kinetics and Master of Health Sciences Occupational Therapy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-science-human-kinetics-master-health-sciences-occupational-therapy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Human Kinetics and Master of Health Sciences Physiotherapy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-science-human-kinetics-master-health-sciences-physiotherapy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Human Kinetics - Applied Studies in Kinesiology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-human-kinetics-kinesiology-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Nursing",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-science-nursing/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Nursing – Bridging Pathway",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-nursing-bridging-pathway/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Nursing - Second Entry Program",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-science-nursing-second-entry-program/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Nutrition and Dietetics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-nutrition-dietetics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Translational and Molecular Medicine",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-science-translational-molecular-medicine/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Translational and Molecular Medicine and Doctorate of Philosophy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-science-translational-molecular-medicine-doctorate-philosophy-biochemistry/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science in Translational and Molecular Medicine and Master of Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bachelor-science-translational-molecular-medicine-master-science-biochemistry/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours Bachelor of Science Nursing",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-nursing/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Communication",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-communication/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA English",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-english/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Environmental Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-environmental-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Environmental Studies (Bilingual Program)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-environmental-studies-bilingual-program/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Ethics and Political Philosophy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-ethics-political-philosophy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA French-English Translation",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-frenchenglish-translation/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA French-English Translation (two years)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-frenchenglish-translation-two-years/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA French-Spanish-English Translation",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-frenchspanishenglish-translation/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA French-Spanish-English Translation (two years)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-frenchspanishenglish-translation-two-years/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA French Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-french-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Geography",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-geography/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Greek and Roman Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-greek-roman-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA History",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-history/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Linguistics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-linguistics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Music",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-music/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Philosophy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-philosophy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Psychology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-psychology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Religious Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-religious-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Second Language Teaching - Teaching English as a Second Language (ESL)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-second-language-teaching-english-second-language/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Second Language Teaching - Teaching French as a Second Language (FLS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-second-language-teaching-french-second-language/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Spanish",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-spanish/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BA Theatre",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-ba-theatre/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biochemistry",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biochemistry/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biochemistry and BASc Chemical Engineering (Biotechnology)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biochemistry-biotechnology-basc-chemical-engineering-biotechnology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biochemistry - Chemical Biology Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biochemistry-option-chemical-biology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biochemistry - Microbiology and Immunology Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biochemistry-option-microbiology-immunology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biochemistry - Synthetic Biology Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biochemistry-option-synthetic-biology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biology - Cellular Molecular Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biology-cellularmolecular-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biology - Ecology, Evolution, Behaviour Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biology-ecology-evolution-behaviour-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biomedical Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biomedical-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biomedical Science - Biostatistics Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biomedical-scienceoption-biostatistics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biomedical Science - Cellular and Molecular Medicine Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biomedical-scienceoption-cellular-molecular-medicine/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biomedical Science - Neuroscience Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biomedical-scienceoption-neuroscience/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Biopharmaceutical Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biopharmaceutical-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Chemistry",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-chemistry/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Chemistry - EcoChemistry Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-chemistryoption-ecochemistry/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Chemistry - Option Advanced Materials",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-chemistryoption-advanced-materials/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Computer Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-computer-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Computer Science and BSc Mathematics (Data Science)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-computer-science-bsc-mathematics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Computer Science, Data Science Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-computer-science-data-science-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Computer Science, Management and Entrepreneurship Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-computer-science-management-entrepreneurship-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Environmental Geoscience",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-environmentalgeology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Environmental Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-environmental-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Financial Mathematics and Economics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-financial-mathematics-economics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Geology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-geology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Geology-Physics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-geologyphysics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc in Biology - Animal Physiology Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biology-animal-physiology-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc in Biology - Plant Science Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-biology-plant-science-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Mathematics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-mathematics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Ophthalmic Medical Technology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-ophthalmic-medical-technology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Physics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-physics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Physics and BASc Electrical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-physicsbasc-electrical-engineering/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Physics - Biological Physics Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-physics-option-biological-physics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Physics-Mathematics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-physicsmathematics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Physics - Photonics Option",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-physics-option-photonics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Psychology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-psychology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSc Statistics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsc-statistics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Anthropology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-anthropology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Anthropology - In-depth Experiential Learning Stream (IELS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-anthropology-iels/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Conflict Studies and Human Rights",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-conflict-studies-human-rights/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Conflict Studies and Human Rights and Master of Arts in Security and Defence Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-conflict-studies-human-rights-master-arts-security-defence-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Conflict Studies and Human Rights - In-depth Experiential Learning Stream (IELS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-conflict-studies-human-rights-iels/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Criminology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-criminology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Economics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-economics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Economics and Public Policy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-economics-public-policy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Environmental Economics and Public Policy",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-environmental-economics-public-policy/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc International Development and Globalization",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-international-development-globalization/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc International Development and Globalization - In-depth Experiential Learning Stream (IELS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-international-development-globalization-iels/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc International Economics and Development",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-international-economics-development/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc International Studies and Modern Languages",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-international-studies-modern-languages/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc International Studies and Modern Languages – In-depth Experiential Learning Stream (IELS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-international-studies-modern-languages-iels/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Political Science and Juris Doctor (JD)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-political-science-juris-doctor-jd/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Public Administration",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-public-administration/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Public Administration and Master of Arts Public Administration",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-public-administration-master-arts-public-administration/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Social Work - In-depth Experiential Learning Stream (IELS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-social-work-iels/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Honours BSocSc Sociology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/honours-bsocsc-sociology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Indigenous Teacher Education Program - Certificate/BEd (Primary/Junior division)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/indigenous-teacher-education-program-certificate-bed-primary-junior-division/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BA in Communication and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-ba-communication-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BA in Communication and Sociology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-ba-communication-sociology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BA in History and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-ba-history-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BA in Philosophy and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-ba-philosophy-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BA in Psychology and Linguistics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-ba-psychology-linguistics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSc in Computer Science and Mathematics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsc-computer-science-mathematics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSc in Mathematics and Economics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsc-mathematics-economics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Anthropology and Sociology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-anthropology-sociology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Anthropology and Sociology - In-depth Experiential Learning Stream (IELS)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-anthropology-sociology-iels/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Communication and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-communication-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Communication and Sociology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-communication-sociology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Criminology and in Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-criminology-feminist-gender-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Economics and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-economics-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Feminist and Gender Studies and in Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-feminist-gender-studies-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Feminist and Gender Studies and in Sociology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-feminist-gender-studies-sociology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in History and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-history-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Mathematics and Economics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-mathematics-economics/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Philosophy and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-philosophy-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Honours BSocSc in Public Administration and Political Science",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-honours-bsocsc-public-administration-political-science/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Joint Licenciate in Law (LLL) and Master of Business Administration (MBA)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/joint-lllmba-program/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor (JD)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/juris-doctor-jd/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor (JD) / American University, Washington College of Law or Michigan State University, College of Law) - Incoming",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/juris-doctor-jd-american-university-washington-college-law-michigan-state-university-college-law-incoming/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor (JD) / American University, Washington College of Law or Michigan State University, College of Law) - Outgoing",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/juris-doctor-jd-american-university-washington-college-law-michigan-state-university-college-law-outgoing/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor (JD) / Master of Arts (International Affairs) - Carleton University",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/juris-doctor-jd-master-arts-international-affairs-carleton-university/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor (JD) / Master of Business Administration (MBA)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/juris-doctor-jd-master-business-administration/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Licentiate in Law (LLL) and Honours BSocSc in International Development and Globalization",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/licentiate-law-lll-honours-bsocsc-international-development-globalization/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Master of Applied Science Advanced Materials and Manufacturing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-advanced-materials-manufacturing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Anatomical Sciences Education",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-anatomical-sciences-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Biomedical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-biomedical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Biomedical Engineering and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-biomedical-engineering-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Chemical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-chemical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Chemical Engineering and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-chemical-engineering-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Civil Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Civil Engineering and Concentration Sustainable and Resilient Infrastructure",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering-concentration-sustainable-resilient-infrastructure/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Civil Engineering and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Electrical and Computer Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Electrical and Computer Engineering and Concentration Applied Artificial Intelligence",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering-concentration-applied-artificial-intelligence/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Electrical and Computer Engineering and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Environmental Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-environmental-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science in Accessibility in Biomedicine",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-accessibility-biomedicine/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science in Systems Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-systems-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science in Systems Engineering, Concentration in Interdisciplinary Artificial Intelligence",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-systems-engineering-concentration-interdisciplinary-artificial-intelligence/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Applied Science Mechanical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-mechanical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Anthropology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-anthropology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Bilingualism Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-bilingualism-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Classical Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-classical-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Classical Studies and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-classical-studies-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Communication",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-communication/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Communication and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-communication-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Contemporary Art Theory",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-contemporary-art-theory/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Criminology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-criminology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Criminology and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-criminology-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Economics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-economics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of arts Education",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Education and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Education (Counselling Psychology)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education-concentration-counselling-psychology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Education (Health Professions Education)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education-concentration-health-professions-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts English Literature",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts English Literature and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts English Literature and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts English Literature with Concentration in Creative Writing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-concentration-creative-writing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Geography",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-geography/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Geography and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-geography-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts History",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-history/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts History and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-history-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts History and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-history-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Human Kinetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-human-kinetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Human Kinetics with Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-human-kinetics-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts in Security and Defence Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-security-defence-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts International Development and Globalization",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-globalization-international-development/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts International Development and Globalization and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-globalization-international-development-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Linguistics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-linguistics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Music",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-music/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Music and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-music-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Music and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-music-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Philosophy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Philosophy and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Philosophy and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Political Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-political-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Political Science and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-political-science-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Psychedelics and Consciousness Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-psychedelics-consciousness-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Psychology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-psychology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Public Administration",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-administration/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Public Administration and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-administration-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Public Administration and Specialization in Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-administration-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Public and International Affairs",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-international-affairs/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Public and International Affairs and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-international-affairs-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Religious Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-religious-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Religious Studies and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-religious-studies-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Religious Studies and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-religious-studies-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Sociology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-sociology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Sociology and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-sociology-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Spanish",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-spanish/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Spanish and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-spanish-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Theatre",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-theatre/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Theatre and Specialization Medieval and Renaissance Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-theatre-specialization-medieval-renaissance-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Translation Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-translation-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts Translation Studies and Concentration Literary Translation",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-translation-studies-concentration-literary-translation/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Arts World Literatures and Cultures",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-world-literatures-cultures/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Business Administration (MBA)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-business-administration-mba/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Business Complex Project Leadership",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-business-complex-project-leadership/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Communication",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-communication/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Computer Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Computer Science and Concentration Applied Artificial Intelligence",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-artificialintelligence/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Computer Science and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Conference Interpreting",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-conference-interpreting/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Digital Transformation and Innovation",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Digital Transformation and Innovation and Concentration Applied Data Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation-concentration-applied-data-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Digital Transformation and Innovation Concentration UX Design",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation-concentration-ux-deisgn/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Digital Transformation and Innovation (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation-online/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Counselling Psychology)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-counselling-psychology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Educational Leadership, Policy and Evaluation) (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-educational-leadership-policy-evaluation-virtual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Education in Minority Language Contexts and Inclusion)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-education-minority-language-contexts-inclusion/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Education in Minority Language Contexts and Inclusion) (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-education-minority-language-contexts-inclusion-virtual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Health Professions Education) (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-health-professions-education/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Second Language Education) (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-second-language-education-virtual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Societies, Cultures and Languages)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-societies-cultures-languages/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Studies in Teaching and Learning)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-studies-teaching-learning/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Education (Studies in Teaching and Learning) (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-studies-teaching-learning-virtual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Advanced Materials and Manufacturing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-advanced-materials-manufacturing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Biomedical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-biomedical/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Biomedical Engineering and Concentration Clinical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-biomedical-engineering-concentration-clinical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Chemical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-chemical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Civil Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-civil-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Electrical and Computer Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-electrical-computer-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Electrical and Computer Engineering and Concentration Applied Artificial Intelligence",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-electrical-computer-engineering-concentration-applied-artificial-intelligence/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Engineering Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-engineering-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Environmental Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-environmental-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering in Entrepreneurial Engineering Design",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-entrepreneurial-engineering-design/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering in Systems Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-systems-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering in Systems Engineering, Concentration in Interdisciplinary Artificial Intelligence",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-systems-engineering-concentration-interdisciplinary-artificial-intelligence/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Management (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-engineering-management-online/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Engineering Mechanical Engineering",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-mechanical-engineering/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Fine Arts Theatre Directing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-fine-arts-theatre-directing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Fine Arts Visual Arts",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-fine-arts-visual-arts/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Health Administration (MHA)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-health-administration-mha/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Health Sciences Audiology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-audiology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Health Sciences Occupational Therapy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-occupational-therapy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Health Sciences Physiotherapy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-physiotherapy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Health Sciences Speech-Language Pathology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-speechlanguage-pathology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Human Kinetics with Concentration Mental Performance Consulting",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-human-kinetics-concentration-mental-performance-consulting/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Human Kinetics with Concentration Sport Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-human-kinetics-concentration-sport-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Information Studies (Bilingual)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-information-studies-bilingual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Information Studies (Bilingual) and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-information-studies-bilingual-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Interdisciplinary Artificial Intelligence (Online)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-interdisciplinary-applied-artificial-intelligence-online/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM)",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration Global Sustainability and Environmental Law",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-global-sustainability-environmental-law/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration Health Law, Policy and Ethics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-health-law-policy-ethics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration International Humanitarian and Security Law",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-international-humanitarian-security-law/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration International Trade and Foreign Investment",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-international-trade-foreign-investment/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration Law and Social Justice",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-law-social-justice/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration Law and Technology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-law-technology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration Legislative Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-legislative-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Concentration Notarial Law",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-notarial-law/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Laws (LLM) and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Music and Concentration Composition",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-music-concentration-in-composition/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Music and Concentration Performance",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-music-concentration-in-performance/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Public Health, Concentration in Global Health",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-global-health/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Public Health, Concentration in Public Health Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-public-health-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Public Health Concentration in Public Health Practice",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-public-health-practice/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biochemistry",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biochemistry/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biochemistry and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biochemistry-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biochemistry and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biochemistry-specialization-human-molecular-genetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biology and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biology and Specialization Chemical and Environmental Toxicology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology-specialization-chemical-environmental-toxicology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Biology and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Cellular and Molecular Medicine",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Cellular and Molecular Medicine and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Cellular and Molecular Medicine and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine-specialization-human-molecular-genetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Chemistry",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Chemistry and Specialization Chemical and Environmental Toxicology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry-specialization-chemical-environmental-toxicology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Chemistry and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Chemistry Concentration in Biomolecular Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry-concentration-biomolecular-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Clinical Science and Translational Medicine",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-clinical-science-translational-medicine/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Digital Transformation and Innovation",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-digital-transformation-innovation/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Earth Sciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Earth Sciences and Specialization Chemical and Environmental Toxicology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences-specialization-chemical-environmental-toxicology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Earth Sciences and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Environmental Sustainability",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-environmental-sustainability/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Geography",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-geography/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Geography and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-geography-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Health Systems",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-health-systems/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Human Kinetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-human-kinetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Clinical Research",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-clinical-research/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Epidemiology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-epidemiology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Global Health Research",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-global-health-research/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Health Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-health-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Health Technology Assessment",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-health-technology-assessment/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Implementation Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-implementation-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science in Management",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-management/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Interdisciplinary Health Sciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Interdisciplinary Health Sciences with Concentration Integrative Health Biosciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-integrative-health-biosciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Interdisciplinary Health Sciences with Concentration Population and Public Health",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-population-public-health/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Interdisciplinary Health Sciences with Concentration Technologies and Innovation in Health Sciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-technologies-innovation-health-sciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Mathematics and Statistics and Concentration Mathematics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-mathematics-statistics-concentration-mathematics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Mathematics and Statistics and Concentration Statistics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-mathematics-statistics-concentration-statistics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Mathematics and Statistics and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-mathematics-statistics-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Microbiology and Immunology",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-microbiology-immunology/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Microbiology and Immunology and Specialization Bioinformatics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-microbiology-immunology-specialization-bioinformatics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Neuroscience",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-neuroscience/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Neuroscience and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-neuroscience-specialization-human-molecular-genetics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Nursing",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Nursing and Specialization Feminist and Gender Studies",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-specialization-feminist-gender-studies/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Nursing - Distance Option",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-virtual/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Nursing with Graduate Diploma for Nurse Practitioners",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-diploma-nurse-practitioners/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Nutrition and Food Biosciences",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nutrition-food-biosciences/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Physics",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-physics/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Physics and Concentration Quantum Science",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-physics-concentration-quantum-science/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Science Physics and Specialization Science, Society and Policy",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-science-physics-specialization-science-society-policy/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Social Work",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-social-work/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Master of Translation",
+      "url": "https://catalogue.uottawa.ca/en/graduate/master-translation/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Programme de droit canadien – Juris Doctor (J.D.) et Licence en droit (LL.L.)",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/programme-droit-canadien-juris-doctor-jd-licence-droit-lll/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Biochemistry",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-biochemistry-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Biochemistry and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-biochemistry-specialization-human-molecular-genetics-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Biology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-biology-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Cellular and Molecular Medicine",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-cellular-molecular-medicine-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Cellular and Molecular Medicine and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-cellular-molecular-medicine-specialization-human-molecular-genetics-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Microbiology and Immunology",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-microbiology-immunology-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Neuroscience",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-neuroscience-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Undergraduate Medical Education (MD Program) and Doctorate in Philosophy Neuroscience and Specialization Human and Molecular Genetics",
+      "url": "https://catalogue.uottawa.ca/en/undergrad/combined-program-md-phd-neuroscience-specialization-human-molecular-genetics-option/",
+      "level": "Undergraduate"
+    }
+  ]
+}

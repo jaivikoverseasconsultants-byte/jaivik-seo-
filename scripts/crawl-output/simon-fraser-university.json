@@ -1,0 +1,841 @@
+{
+  "slug": "simon-fraser-university",
+  "sourceUrl": "https://www.sfu.ca/students/admission/programs/a-z.html",
+  "crawledAt": "2026-07-07T07:42:47.630Z",
+  "courses": [
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/accounting.html",
+      "name": "Accounting (Business)",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/actuarial-science.html",
+      "name": "Actuarial Science",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/african-studies.html",
+      "name": "African Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/anthropology.html",
+      "name": "Anthropology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/anthropology-archaeology.html",
+      "name": "Anthropology and Archaeology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/anthropology-communication.html",
+      "name": "Anthropology and Communication",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/applied-biology.html",
+      "name": "Applied Biology",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Environment is one of five streams in the Environmental Science major"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/applied-mathematics.html",
+      "name": "Applied Mathematics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/applied-physics.html",
+      "name": "Applied Physics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/archaeology.html",
+      "name": "Archaeology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/a/art-performance-cinema.html",
+      "name": "Art, Performance and Cinema Studies",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/bio-anthro.html",
+      "name": "Biological Anthropology",
+      "degree": "Certificate",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/biological-physics.html",
+      "name": "Biological Physics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/biological-sciences.html",
+      "name": "Biological Sciences",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/biomedical-engineering.html",
+      "name": "Biomedical Engineering",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/biomedical-physiology.html",
+      "name": "Biomedical Physiology",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business.html",
+      "name": "Business",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business-and-decision-making.html",
+      "name": "Business Analytics and Decision Making",
+      "degree": "Certificate",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business-communication.html",
+      "name": "Business and Communication",
+      "degree": "Bachelor of Business Administration or Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business-and-economics.html",
+      "name": "Business and Economics",
+      "degree": "Bachelor of Business Administration or Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business-and-psychology.html",
+      "name": "Business and Psychology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business-philosophy-law.html",
+      "name": "Business, Philosophy and the Law",
+      "degree": "Bachelor of Business Administration or Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/b/business-technology-management.html",
+      "name": "Business Technology Management",
+      "degree": "Certificate",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/chemical-physics.html",
+      "name": "Chemical Physics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/chemistry.html",
+      "name": "Chemistry",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/chemistry-earth-sciences.html",
+      "name": "Chemistry and Earth Sciences",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/chemistry-mbb.html",
+      "name": "Chemistry and Molecular Biology and Biochemistry",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/chinese-studies.html",
+      "name": "Chinese Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/cognitive-science.html",
+      "name": "Cognitive Science",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/communication.html",
+      "name": "Communication",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/comm-iat.html",
+      "name": "Communication and Interactive Arts and Technology",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-science.html",
+      "name": "Computing Science",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Applied Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-science-linguistics.html",
+      "name": "Computing Science and Linguistics",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Applied Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/computing-dualdegree.html",
+      "name": "Computing Science Dual Degree",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Applied Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/contemporary-arts.html",
+      "name": "Contemporary Arts",
+      "degree": "Diploma",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/corporate-env-sustainability.html",
+      "name": "Corporate Environmental and Social Sustainability",
+      "degree": "Certificate",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/correctional-studies.html",
+      "name": "Correctional Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/criminology.html",
+      "name": "Criminology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/c/cultural-res-mgmt.html",
+      "name": "Cultural Resource Management",
+      "degree": "Certificate",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/d/dance.html",
+      "name": "Dance",
+      "degree": "Bachelor of Fine Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/d/data-science.html",
+      "name": "Data Science",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/d/data-science-physics.html",
+      "name": "Data Science in Physics Certificate",
+      "degree": "Certificate",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/earth-sciences.html",
+      "name": "Earth Sciences",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/economics.html",
+      "name": "Economics",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/electronics-engineering.html",
+      "name": "Electronics Engineering",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/engineering-physics.html",
+      "name": "Engineering Physics",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/engineering-science.html",
+      "name": "Engineering Science",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/english.html",
+      "name": "English",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/english-communication.html",
+      "name": "English and Communication",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/entrepreneurship.html",
+      "name": "Entrepreneurship and Innovation",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/environmental-earth-systems.html",
+      "name": "Environmental Earth Systems",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/environmental-and-occupational-health.html",
+      "name": "Environmental and Occupational Health",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/environmental-literacy.html",
+      "name": "Environmental Literacy",
+      "degree": "Certificate",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/environmetrics.html",
+      "name": "Environmetrics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/e/ethics.html",
+      "name": "Ethics",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/fass-one.html",
+      "name": "FASS One (Arts and Social Sciences)",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/film.html",
+      "name": "Film",
+      "degree": "Bachelor of Fine Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/finance.html",
+      "name": "Finance",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/forensic-studies.html",
+      "name": "Forensic Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/french.html",
+      "name": "French",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/french-and-education.html",
+      "name": "French and Education",
+      "degree": "Certificate",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/french-cohort.html",
+      "name": "French Cohort Program",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/f/french-language-proficiency.html",
+      "name": "French",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/gender-sexuality-ws.html",
+      "name": "Gender, Sexuality, and Women's Studies",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/generalstudies-education.html",
+      "name": "General Studies in Education",
+      "degree": "Bachelor of General Studies",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/business-and-geography.html",
+      "name": "Geo Business",
+      "degree": "Bachelor of Business Administration or Bachelor of Arts",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/genomics.html",
+      "name": "Genomics",
+      "degree": "Certificate",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/geographic-infoscience.html",
+      "name": "Geographic Information Science",
+      "degree": "Bachelor of Science or Certificate",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/german-studies.html",
+      "name": "German Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/global-environmental-systems.html",
+      "name": "Global Environmental Systems",
+      "degree": "Bachelor of Environment",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/global-health.html",
+      "name": "Global Health",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/g/humanities.html",
+      "name": "Global Humanities",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/health-care-systems.html",
+      "name": "Health Care Systems",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/health-ethics.html",
+      "name": "Health Ethics",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/health-sciences-ba.html",
+      "name": "Health Sciences BA",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/health-science-bsc.html",
+      "name": "Health Sciences BSc",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/hellenic-studies.html",
+      "name": "Hellenic Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/history.html",
+      "name": "History",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/human-geography.html",
+      "name": "Human Geography",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/h/human-resource-mgmt.html",
+      "name": "Human Resource Management",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/indigenous-language-proficiency.html",
+      "name": "Indigenous Language Proficiency",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/indigenous-studies.html",
+      "name": "Indigenous Studies",
+      "degree": "Bachelor of Arts or Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/information-systems-and-computing-science.html",
+      "name": "Information Systems in Business Administration and Computing Science",
+      "degree": "Bachelor of Business Administration or Bachelor of Science",
+      "faculty": "Faculty of Applied Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/innovation-and-entrepreneurship.html",
+      "name": "Innovation and Entrepreneurship",
+      "degree": "Certificate",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/interactivearts-technology.html",
+      "name": "Interactive Arts and Technology",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/iat-business-ba-bba.html",
+      "name": "Interactive Arts and Technology and Business (BA/BBA)",
+      "degree": "Bachelor of Business Administration or Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/iat-business-bsc.html",
+      "name": "Interactive Arts and Technology and Business (BSc)",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/international-business.html",
+      "name": "International Business",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/international-experiential-learning.html",
+      "name": "International Experiential Learning",
+      "degree": "Certificate",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/i/international-studies.html",
+      "name": "International Studies",
+      "degree": "Bachelor of Arts or Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/k/kinesiology.html",
+      "name": "Kinesiology",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/l/labour-studies.html",
+      "name": "Labour Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/l/legal-studies.html",
+      "name": "Legal Studies",
+      "degree": "Certificate or Diploma",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/l/linguistics.html",
+      "name": "Linguistics",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/l/linguistics-of-speech-science.html",
+      "name": "Linguistics of Speech Science",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/l/literacy-instruction.html",
+      "name": "Literacy Instruction",
+      "degree": "Certificate",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mgmt-info-systems.html",
+      "name": "Management Information Systems",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/marketing.html",
+      "name": "Marketing",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mathematics.html",
+      "name": "Mathematics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mathematical-physics.html",
+      "name": "Mathematical Physics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mechatronic-systemseng.html",
+      "name": "Mechatronic Systems Engineering",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/media-culture.html",
+      "name": "Media and Culture",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/medieval-and-renaissance-studies.html",
+      "name": "Medieval and Renaissance Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mentalhealth-addictions.html",
+      "name": "Mental Health and Addictions",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/molecularbio-biochem.html",
+      "name": "Molecular Biology and Biochemistry",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mbb-business.html",
+      "name": "Molecular Biology and Biochemistry and Business Administration",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/mbb-computing-science.html",
+      "name": "Molecular Biology and Biochemistry and Computing Science",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/m/music.html",
+      "name": "Music and Sound",
+      "degree": "Bachelor of Fine Arts or Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/o/occupational-ergonomics.html",
+      "name": "Occupational Ergonomics",
+      "degree": "Certificate",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/o/operations-mgmt.html",
+      "name": "Operations Management",
+      "degree": "Bachelor of Business Administration",
+      "faculty": null
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/o/operations-research.html",
+      "name": "Operations Research",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/performance-production-design.html",
+      "name": "Performance Production & Design",
+      "degree": "Bachelor of Fine Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/performance-studies.html",
+      "name": "Performance Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/philosophy.html",
+      "name": "Philosophy",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/philosophy-methodology-science.html",
+      "name": "Philosophy and Methodology of Science Certificate",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/physics.html",
+      "name": "Physics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/police-studies.html",
+      "name": "Police Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/political-science.html",
+      "name": "Political Science",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/population-public-health.html",
+      "name": "Population and Public Health",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/professional-practices.html",
+      "name": "Professional Practices",
+      "degree": "Certificate",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/p/psychology.html",
+      "name": "Psychology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/r/religious-studies.html",
+      "name": "Religious Studies",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/social-and-health-policy-sciences.html",
+      "name": "Social and Health Policy Sciences",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/social-inequities-and-health.html",
+      "name": "Social Inequities and Health",
+      "degree": "Bachelor of Science or Bachelor of Arts",
+      "faculty": "Faculty of Health Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/social-justice.html",
+      "name": "Social Justice",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/sociology.html",
+      "name": "Sociology",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/sociology-communication.html",
+      "name": "Sociology and Communication",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/software-systems.html",
+      "name": "Software Systems",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/statistics.html",
+      "name": "Statistics",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/sustainable-business.html",
+      "name": "Sustainable Business",
+      "degree": "Bachelor of Business Administration or Bachelor of Environment",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/sustainable-energy-engineering.html",
+      "name": "Sustainable Energy Engineering",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/s/systems-engineering.html",
+      "name": "Systems Engineering",
+      "degree": "Bachelor of Applied Science",
+      "faculty": "Faculty of Applied Science"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/t/teacher-training.html",
+      "name": "Teacher Training Programs",
+      "degree": "Bachelor of General Studies or Bachelor of Education",
+      "faculty": "Faculty of Education"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/t/technology-society.html",
+      "name": "Technology and Society",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/t/theatre-performance.html",
+      "name": "Theatre and Performance",
+      "degree": "Bachelor of Fine Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/u/urban-worlds.html",
+      "name": "Urban Worlds",
+      "degree": "Bachelor of Arts",
+      "faculty": "Faculty of Arts and Social Sciences"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/v/visual-art.html",
+      "name": "Visual Art",
+      "degree": "Bachelor of Fine Arts",
+      "faculty": "Faculty of Communication, Art and Technology"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/w/water-science.html",
+      "name": "Water Science",
+      "degree": "Bachelor of Science",
+      "faculty": "Faculty of Environment"
+    },
+    {
+      "url": "https://www.sfu.ca/students/admission/programs/a-z/w/writing-and-rhetoric.html",
+      "name": "Writing and Rhetoric",
+      "degree": "Certificate",
+      "faculty": "Faculty of Arts and Social Sciences"
+    }
+  ]
+}

@@ -1,0 +1,1707 @@
+{
+  "slug": "university-of-manitoba",
+  "sourceUrl": "https://catalog.umanitoba.ca/azindex/",
+  "crawledAt": "2026-07-07T10:43:23.526Z",
+  "courses": [
+    {
+      "name": "Accounting, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/accounting-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Actuarial Mathematics, B.Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/actuarial-mathematics-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Actuarial Mathematics, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/actuarial-mathematics/actuarial-mathematics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "After-Degree Bachelor of Education",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/education/after-degree-bachelor-education/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Agribusiness and Agricultural Economics, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/agribusiness-agricultural-economics-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Agribusiness, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/agribusiness-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Agroecology, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/agroecology-bsc-agriculture/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Agronomy, B.Sc. - Agriculture",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/agronomy-bsc-agriculture/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Animal Science, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/animal-science-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Animal Science, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/animal-science-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Animal Systems, B.Sc. - Agriculture",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/animal-systems-bsc-agriculture/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Anthropology, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-double-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Anthropology, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Anthropology, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Anthropology, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Anthropology, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Anthropology, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/anthropology-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Anthropology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/anthropology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Applied Health Sciences, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/applied-health-sciences-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Applied Human Nutrition, M.A.H.N.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/applied-human-nutrition-mahn/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Applied Mathematics with Computer Science Option, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-computer-science-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Applied Mathematics with Economics Option, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-economics-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Applied Mathematics with Statistics Option, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-statistics-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Art and Architectural History, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/art/art-architectural-history-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Art History, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/courses-programs-offered-faculties-schools-credit-arts/art-history-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Art History, B.F.A. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/art/art-history-bfa-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Asian Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/asian-studies/asian-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor of Arts Integrated Studies",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/integrated-studies-ba/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biochemistry and Medical Genetics, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/biochemistry-medical-genetics-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biochemistry and Medical Genetics, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/biochemistry-medical-genetics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biochemistry, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biochemistry/biochemistry-bsc-joint-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biochemistry, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biochemistry/biochemistry-bsc-joint-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biological-sciences/biological-sciences-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biological-sciences/biological-sciences-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/biological-sciences-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biological Sciences, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/biological-sciences-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biomedical Engineering, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/biomedical-engineering-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biomedical Engineering, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/biomedical-engineering-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biosystems Engineering, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/biosystems-engineering/biosystems-engineering-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biosystems Engineering, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/biosystems-engineering-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Biosystems Engineering, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/biosystems-engineering-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Business Administration, M.B.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/business/business-administration-mba/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Business Analytics, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/business-analytics-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Management, Agriculture Diploma",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/business-management-agriculture-diploma/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Canadian Studies, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Canadian Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Canadian Studies, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Central and East European Studies, B.A. Double Advanced",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Central and East European Studies, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Central and East European Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Central and East European Studies, B.A. Single Advanced",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/chemistry/chemistry-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/chemistry/chemistry-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/chemistry-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Chemistry, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/chemistry-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Chemistry - Physics Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/chemistry/chemistry-physics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil Engineering, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/civil-engineering/civil-engineering-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil Engineering, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/civil-engineering-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Civil Engineering, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/civil-engineering-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Classical Studies, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-double-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Classical Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Classical Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-single-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Classics, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/classics-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Collaborative PhD",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/collaborative-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Community Health Sciences, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/community-global-health/community-health-sciences-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Community Health Sciences, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/community-global-health/community-health-sciences-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Computer Engineering, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/electrical-computer-engineering/computer-engineering-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science, B.C.Sc., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-bcsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science - Mathematics Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-mathematics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/computer-science-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Computer Science, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/computer-science-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Computer Science - Physics & Astronomy Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-physics-astronomy-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science - Statistics Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-statistics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Criminology, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/criminology-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Criminology, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/criminology-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Crop Management, Agriculture Diploma",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/crop-management-agriculture-diploma/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Data Science, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/data-science/data-science-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Dental Hygiene, B.Sc.D.Hyg.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/health-sciences/dental-hygiene/dental-hygiene-bscdhyg/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Dentistry, B.Sc. Dent",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/health-sciences/dentistry/dentistry-bscdent/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Design and Planning, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/architecture/design-planning-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Disability Studies, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/disability-studies-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Disability Studies, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/disability-studies-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Earth Sciences, B.Sc. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/earth-sciences-bsc-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Earth Sciences, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/environment-earth-resources/earth-sciences-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Earth Sciences, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/environment-earth-resources/earth-sciences-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Economics, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/economics-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Economics-Mathematics, B.A. Joint Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-mathematics-ba-joint-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/economics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Economics-Statistics, B.A. Joint Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-statistics-ba-joint-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Education, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/education/education-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Electrical and Computer Engineering, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/electrical-computer-engineering-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Electrical and Computer Engineering, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/electrical-computer-engineering-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Electrical Engineering, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/electrical-computer-engineering/electrical-engineering-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, B.A. Single Advanced Major (including Co-Operative Education Option if selected)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, B.A. Single Honours (including Co-operative Education Option if selected)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/english-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "English, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/english-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Entomology, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/entomology-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Entomology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/entomology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Entrepreneurship and Innovation, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/entrepreneurship-innovation-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Design, B.Env.D. Architecture Master Preparation Option (ED AMP 1 and ED AMP 2)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/architecture/environmental-design-benvd-architecture-master-preparation-option/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Geoscience, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/environmental-geoscience-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Geoscience, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/environmental-geoscience-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Science, B.Env.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/environmental-science-benvsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Studies, B.Env.St. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/environmental-studies-benvst-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environment and Geography, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/environment-earth-resources/environment-geography-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Film Studies, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/film-studies-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Film Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/film-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Film Studies, B.A. Single Advanced Major (including Co-operative Education Option if selected)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/film-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Finance B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/finance-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Fine Arts, B.F.A. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/art/fine-arts-bfa-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Industry Option, B.Sc. - Human Nutritional Sciences",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/food-industry-option-bsc-human-nutritional-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Science, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/food-science-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Science, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/food-science-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Food Science, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/food-science-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Foods Option, B.Sc. - Human Nutritional Sciences",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/foods-option-bsc-human-nutritional-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/french-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "French, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/french-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "General Agriculture, Agriculture Diploma",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/general-agriculture-diploma/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "General B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/general-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Generalist, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/generalist-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "General Regulations – Graduate Diploma",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-diploma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "General Regulations – Graduate Micro-Diploma",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-micro-diploma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "General Regulations – Pre-Master’s",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-pre-masters/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Genetic Counselling, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/genetic-counselling-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Genetics, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/genetics/genetics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Genetics, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/genetics/genetics-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography, B.A. Advanced",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography, B.A. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/environment-earth-resources/geography-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Geography, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/environment-earth-resources/geography-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Geology, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geology-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geology, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geology-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geophysics, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geophysics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geophysics, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geophysics-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-double-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-single-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/german-studies-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Global Political Economy, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Global Political Economy, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Global Political Economy, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Graduate Micro-Diploma in Applied Health Services Research",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/community-global-health/micro-diploma-applied-health-services/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Graduate Micro-Diploma in Science Communication",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/micro-diploma-science-communication/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Greek, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/greek-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/history-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "History, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/history-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Human Anatomy and Cell Science, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/human-anatomy-cell-science-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Human Anatomy and Cell Science, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/human-anatomy-cell-science-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Human Nutritional Sciences, B.Sc. - Agreement with Red River College Culinary Arts",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/human-nutritional-sciences-bsc-red-river-cullinary-arts/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Human Nutritional Sciences, B.Sc. - Second Degree Program",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/human-nutritional-sciences-bsc-second-degree-program/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Human Nutritional Sciences, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/human-nutritional-sciences-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Human Nutritional Sciences, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/human-nutritional-sciences-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Human Resources Management/Industrial Relations, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/human-resources-management-industrial-relations-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Icelandic, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Icelandic, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Icelandic, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Icelandic, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/icelandic-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Immunology, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/immunology-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Immunology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/immunology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Indigenous Business Studies, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/indigenous-business-studies-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Indigenous Governance, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/aboriginal-governance-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Indigenous Studies, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-double-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Indigenous Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Indigenous Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Indigenous Studies, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/indigenous-studies-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Indigenous Studies, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/indigenous-studies-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Individual Interdisciplinary Studies, Master's",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/individual-interdisciplinary-studies-masters/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Individual Interdisciplinary Studies, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/individual-interdisciplinary-studies-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Internationally Educated Agrologists Post-Baccalaureate Diploma",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/internationally-educated-agrologists-post-baccalaureate-diploma/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Italian Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/italian-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Italian Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/italian-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Judaic Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/judaic-studies/judaic-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Judaic Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/judaic-studies/judaic-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor, J.D.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/law/juris-doctor-jd/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor/Master of Business Administration Concurrent Degrees",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/law/concurrent-jd-mba/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Juris Doctor/Master of Business Administration Concurrent Degrees",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/business/concurrent-jd-mba/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Kinesiology and Recreation Management, M.A. / M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/kinesiology-recreation-management/kinesiology-recreation-management-ma-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Labour Relations and Workplace Studies, Diploma",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/diploma-labour-relations-workplace-studies/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Labour Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/labour-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Labour Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/labour-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Latin, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/latin-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/linguistics-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Linguistics, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/linguistics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Livestock, Agriculture Diploma",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/livestock-agriculture-diploma/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Management/Assiniboine College Joint Program, B.Comm. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/management-assiniboine-community-college-joint-program-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Management/L'Ecole Technique et Professionnelle Joint Program, B. Comm. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/management-lecole-technique-et-professionnelle-joint-program-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Management, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/business/management-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Management, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/business/management-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Management/University College of the North Joint Program, B. Comm. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/management-university-college-north-joint-program-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Marketing, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/marketing-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Master’s Degrees General Regulations",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/masters-degrees-general-regulations/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Mathematics, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/courses-programs-offered-faculties-schools-credit-arts/mathematics-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/courses-programs-offered-faculties-schools-credit-arts/mathematics-ba-single-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics, B.Sc. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics - Economics Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-economics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/mathematics-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Mathematics, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/mathematics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Mathematics - Physics and Astronomy Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-physics-astronomy-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechanical Engineering, B.Sc.",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/mechanical-engineering/mechanical-engineering-bsc/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechanical Engineering, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/mechanical-engineering-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Mechanical Engineering, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/engineering/mechanical-engineering-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Medical Microbiology and Infectious Diseases, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/medical-microbiology-infectious-diseases-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Medical Microbiology & Infectious Diseases, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/medical-microbiology-infectious-diseases-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Medieval and Early Modern Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/medieval-early-modern-studies/medieval-early-modern-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medieval and Early Modern Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/medieval-early-modern-studies/medieval-early-modern-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Microbiology, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/microbiology/microbiology-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Microbiology, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/microbiology/microbiology-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Microbiology, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/microbiology-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Microbiology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/microbiology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Micro-Diploma in Canadian Private Law",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/law/micro-diploma-canadian-private-law/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Canadian Public Law",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/law/micro-diploma-canadian-public-law/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Introduction to German Language, Life, and Culture",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/micro-diploma-german-language-life-culture/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Introduction to the Anishinaabemowin Language",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/micro-diploma-introduction-anishinaabemowin-language/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Introduction to the Cree Language",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/micro-diploma-introduction-cree-language/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Leadership (Leadership in Action)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/micro-diploma-leadership-in-action/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Mythology and Folktale",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/micro-diploma-mythology-folktale/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Micro-Diploma in Workplace Health and Safety",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/micro-diploma-workplace-health-safety/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music Research, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/music/music-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Natural Resources and Environmental Management, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/environment-earth-resources/natural-resources-environmental-management-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Nursing, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/nursing/nursing-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Nutrition Option, B.Sc. - Human Nutritional Sciences",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/nutrition-option-bsc-human-nutritional-sciences/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Oral Biology, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/dentistry/oral-biology-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Oral Biology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/dentistry/oral-biology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pathology and Laboratory Medicine, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pathology-laboratory-medicine-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pathology, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pathology-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Peace and Conflict Studies, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/peace-conflict-studies-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Peace and Conflict Studies, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/graduate-studies/peace-conflict-studies-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pediatrics and Child Health, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pediatrics-child-health-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pediatrics and Child Health, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pediatrics-child-health-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pharmaceutical Sciences, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/pharmacy/pharmacy-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pharmaceutical Sciences, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/pharmacy/pharmacy-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pharmacology and Therapeutics, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pharmacology-therapeutics-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Pharmacology and Therapeutics, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pharmacology-therapeutics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Philosophy, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/philosophy-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Physical Geography, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/physical-geography-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physical Geography, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/physical-geography-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics and Astronomy, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/physics-astronomy/physics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics and Astronomy, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/physics-astronomy/physics-astronomy-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics and Astronomy, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/physics-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Physics and Astronomy, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/physics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Physiology & Pathophysiology, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/physiology-pathophysiology-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Physiology & Pathophysiology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/physiology-pathophysiology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Plant Biotechnology, B.Sc. - Agriculture",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/agricultural-food-sciences-agriculture/plant-biotechnology-bsc-agriculture/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Plant Science, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/plant-science-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Plant Science, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/plant-science-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Political Science, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Political Science, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Political Science, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Political Science, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Political Science, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/political-studies-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Post Baccalaureate Diploma in Education",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/education/post-baccalaureate-diploma-education/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Post-Baccalaureate Diploma in Medical Physiology and Pathophysiology",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/health-sciences/medicine/post-bacc-medical-physiology-pathophysiology/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Post-Baccalaureate Diploma in Performance (PBDP)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/music/post-baccalaureate-diploma-performance/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/psychology/psychology-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/psychology/psychology-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/psychology-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Psychology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/psychology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Red River College Polytechnic Articulation Agreement B.Comm. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/RRCP-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Rehabilitation Sciences, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/rehabilitation-sciences/rehabilitation-sciences-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Religion, B.A., Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-double-advanced-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Religion, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Religion, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Religion, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Religion, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Religion, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/religion-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Religion, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/religion-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Russian, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/russian-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "School Psychology, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/school-psychology-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Slavic Studies, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/slavic-studies-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Social Work, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/social-work/social-work-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Sociology, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sociology, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sociology, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sociology, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-single-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sociology, M.A.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/sociology-ma/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Sociology, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/arts/sociology-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Soil Science, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/soil-science-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Soil Science, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/agricultural-food-sciences-agriculture/soil-science-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Spanish, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/spanish-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Spanish, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/spanish-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sport, Physical Activity and Recreation in the Community Certificate (SPARC)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/kinesiology-recreation-management/sport-physical-activity-recreation-community-certificate/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Statistics - Actuarial Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-actuarial-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Statistics, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Statistics, B.Sc. Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-bsc-major/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Statistics - Economics Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-economics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Statistics - Mathematics Joint, B.Sc. Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-mathematics-bsc-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Statistics, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/statistics-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Statistics, Ph.D.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/science/statistics-phd/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Strategy and Global Management, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/strategy-global-management-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Supply Chain Management and Logistics, B. Comm., Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/management-business/logistics-supply-chain-management-bcomm-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Surgery, M.Sc.",
+      "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/surgery-msc/",
+      "level": "Graduate"
+    },
+    {
+      "name": "Theatre, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/theatre-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theatre, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/theatre-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theatre, B.A. Single Advanced Major (including Co-Operative Education Option if selected)",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/theatre-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ukrainian, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/ukrainian-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ukrainian Canadian Heritage Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/ukrainian-canadian-heritage-studies/ukrainian-canadian-heritage-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ukrainian Canadian Heritage Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/ukrainian-canadian-heritage-studies/ukrainian-canadian-heritage-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Women's and Gender Studies, B.A. Double Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-double-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Women's and Gender Studies, B.A. Double Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-double-honours/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Women's and Gender Studies, B.A. General",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-general/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Women's and Gender Studies, B.A. Single Advanced Major",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-single-advanced/",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Women's and Gender Studies, B.A. Single Honours",
+      "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-single-honours/",
+      "level": "Undergraduate"
+    }
+  ]
+}
