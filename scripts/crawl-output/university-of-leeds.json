@@ -1,0 +1,3541 @@
+{
+  "slug": "university-of-leeds",
+  "sourceUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+  "crawledAt": "2026-07-07T11:45:54.402Z",
+  "courses": [
+    {
+      "name": "Accounting and Finance BSc",
+      "url": "https://courses.leeds.ac.uk/f834/accounting-and-finance-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Actuarial Mathematics BSc",
+      "url": "https://courses.leeds.ac.uk/f702/actuarial-mathematics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Advanced Psychology MPsyc, BSc",
+      "url": "https://courses.leeds.ac.uk/g492/advanced-psychology-mpsyc-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Aeronautical and Aerospace Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/a225/aeronautical-and-aerospace-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Aeronautical and Aerospace Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f414/aeronautical-and-aerospace-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Aeronautical and Aerospace Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/g662/aeronautical-and-aerospace-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Aeronautical and Aerospace Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g285/aeronautical-and-aerospace-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ancient History BA",
+      "url": "https://courses.leeds.ac.uk/i988/ancient-history-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ancient History and History BA",
+      "url": "https://courses.leeds.ac.uk/g676/ancient-history-and-history-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ancient History and Philosophy BA",
+      "url": "https://courses.leeds.ac.uk/g678/ancient-history-and-philosophy-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Arabic, Islamic, Middle Eastern and North African Studies BA",
+      "url": "https://courses.leeds.ac.uk/j555/arabic-islamic-middle-eastern-and-north-african-studies-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architectural Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/a248/architectural-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architectural Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f416/architectural-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architectural Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/i143/architectural-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architectural Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g652/architectural-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architecture MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g800/architecture-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architecture MArch, MEng",
+      "url": "https://courses.leeds.ac.uk/j930/architecture-march-meng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architecture (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/i870/architecture-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Architecture (Industrial) MArch, MEng",
+      "url": "https://courses.leeds.ac.uk/k126/architecture-industrial-march-meng",
+      "duration": "6 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Art and Design BA",
+      "url": "https://courses.leeds.ac.uk/f254/art-and-design-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Arts and Humanities with Foundation Year BA",
+      "url": "https://courses.leeds.ac.uk/g294/arts-and-humanities-with-foundation-year-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Audiology BSc",
+      "url": "https://courses.leeds.ac.uk/j568/audiology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Automotive Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/4794/automotive-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Automotive Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f413/automotive-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Automotive Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/i038/automotive-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Automotive Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g287/automotive-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor Degree with Integrated International Foundation Year (Arts and Social Science) BA",
+      "url": "https://courses.leeds.ac.uk/j054/bachelor-degree-with-integrated-international-foundation-year-arts-and-social-science-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor Degree with Integrated International Foundation Year (Business) BA",
+      "url": "https://courses.leeds.ac.uk/j055/bachelor-degree-with-integrated-international-foundation-year-business-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor Degree with Integrated International Foundation Year (Design) BA",
+      "url": "https://courses.leeds.ac.uk/j057/bachelor-degree-with-integrated-international-foundation-year-design-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor Degree with Integrated International Foundation Year (Engineering) BEng",
+      "url": "https://courses.leeds.ac.uk/j058/bachelor-degree-with-integrated-international-foundation-year-engineering-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor Degree with Integrated International Foundation Year (Healthcare) BSc",
+      "url": "https://courses.leeds.ac.uk/j059/bachelor-degree-with-integrated-international-foundation-year-healthcare-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Bachelor Degree with Integrated International Foundation Year (Science) BSc",
+      "url": "https://courses.leeds.ac.uk/j061/bachelor-degree-with-integrated-international-foundation-year-science-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Banking and Finance BSc",
+      "url": "https://courses.leeds.ac.uk/g986/banking-and-finance-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biochemistry BSc",
+      "url": "https://courses.leeds.ac.uk/3130/biochemistry-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biochemistry MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g257/biochemistry-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences BSc",
+      "url": "https://courses.leeds.ac.uk/e997/biological-sciences-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g258/biological-sciences-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences (Biotechnology with Enterprise) BSc",
+      "url": "https://courses.leeds.ac.uk/g377/biological-sciences-biotechnology-with-enterprise-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biological Sciences (Biotechnology with Enterprise) MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g378/biological-sciences-biotechnology-with-enterprise-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biology BSc",
+      "url": "https://courses.leeds.ac.uk/3165/biology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biology MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g259/biology-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biology and History and Philosophy of Science BSc",
+      "url": "https://courses.leeds.ac.uk/4028/biology-and-history-and-philosophy-of-science-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biomedical Sciences BSc",
+      "url": "https://courses.leeds.ac.uk/j415/biomedical-sciences-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Biomedical Sciences MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/j416/biomedical-sciences-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business and Intelligent Technologies BSc",
+      "url": "https://courses.leeds.ac.uk/k239/business-and-intelligent-technologies-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Economics BSc",
+      "url": "https://courses.leeds.ac.uk/f835/business-economics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Management BA",
+      "url": "https://courses.leeds.ac.uk/i475/business-management-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Management and Human Resources BA",
+      "url": "https://courses.leeds.ac.uk/k251/business-management-and-human-resources-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Management and Leadership BSc",
+      "url": "https://courses.leeds.ac.uk/i079/business-management-and-leadership-bsc",
+      "duration": "4 Years (Part time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Management with Marketing BA",
+      "url": "https://courses.leeds.ac.uk/i476/business-management-with-marketing-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Business Studies with Foundation Year BSc",
+      "url": "https://courses.leeds.ac.uk/g150/business-studies-with-foundation-year-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chartered Manager (Degree) Apprenticeship BSc",
+      "url": "https://courses.leeds.ac.uk/ap07/chartered-manager-degree-apprenticeship-bsc",
+      "duration": "4 Years (Part time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemical Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/4810/chemical-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemical Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f463/chemical-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemical Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/g832/chemical-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemical Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g702/chemical-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry BSc",
+      "url": "https://courses.leeds.ac.uk/3220/chemistry-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/f422/chemistry-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry and Mathematics BSc",
+      "url": "https://courses.leeds.ac.uk/4187/chemistry-and-mathematics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry and Mathematics MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/i040/chemistry-and-mathematics-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with a Year in Industry MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/f423/chemistry-with-a-year-in-industry-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with Artificial Intelligence BSc",
+      "url": "https://courses.leeds.ac.uk/k048/chemistry-with-artificial-intelligence-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with Artificial Intelligence MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/k049/chemistry-with-artificial-intelligence-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with Artificial Intelligence (International) BSc",
+      "url": "https://courses.leeds.ac.uk/k055/chemistry-with-artificial-intelligence-international-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with Artificial Intelligence (with Industrial Experience) BSc",
+      "url": "https://courses.leeds.ac.uk/k054/chemistry-with-artificial-intelligence-with-industrial-experience-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with Artificial Intelligence (with Industrial Experience) MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/k057/chemistry-with-artificial-intelligence-with-industrial-experience-mchem-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chemistry with Study Abroad MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/i114/chemistry-with-study-abroad-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Child and Family Studies BA",
+      "url": "https://courses.leeds.ac.uk/j554/child-and-family-studies-ba",
+      "duration": "4 Years (Part time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Childhood Studies BA",
+      "url": "https://courses.leeds.ac.uk/115/childhood-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Chinese (Modern) BA",
+      "url": "https://courses.leeds.ac.uk/e315/chinese-modern-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Environmental Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/4836/civil-and-environmental-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Environmental Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f443/civil-and-environmental-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Environmental Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/i064/civil-and-environmental-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Environmental Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g839/civil-and-environmental-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Structural Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/a252/civil-and-structural-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Structural Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f412/civil-and-structural-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Structural Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/i323/civil-and-structural-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil and Structural Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g653/civil-and-structural-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/i444/civil-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/i445/civil-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/j155/civil-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Civil Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/j621/civil-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Classical Civilisation BA",
+      "url": "https://courses.leeds.ac.uk/0090/classical-civilisation-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Classical Literature and English BA",
+      "url": "https://courses.leeds.ac.uk/856/classical-literature-and-english-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Communication and Media BA",
+      "url": "https://courses.leeds.ac.uk/g199/communication-and-media-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science BSc",
+      "url": "https://courses.leeds.ac.uk/3260/computer-science-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science MEng, BSc",
+      "url": "https://courses.leeds.ac.uk/f919/computer-science-meng-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (Artificial Intelligence) BSc",
+      "url": "https://courses.leeds.ac.uk/k108/computer-science-artificial-intelligence-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (Artificial Intelligence) MEng, BSc",
+      "url": "https://courses.leeds.ac.uk/j750/computer-science-artificial-intelligence-meng-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (Artificial Intelligence) (Industrial) MEng, BSc",
+      "url": "https://courses.leeds.ac.uk/i607/computer-science-artificial-intelligence-industrial-meng-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (Artificial Intelligence) (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/k124/computer-science-artificial-intelligence-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (High-Performance Graphics and Games Engineering) MEng, BSc",
+      "url": "https://courses.leeds.ac.uk/j751/computer-science-high-performance-graphics-and-games-engineering-meng-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (High-Performance Graphics and Games Engineering) (Industrial) MEng, BSc",
+      "url": "https://courses.leeds.ac.uk/i698/computer-science-high-performance-graphics-and-games-engineering-industrial-meng-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/3262/computer-science-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Computer Science (Industrial) MEng, BSc",
+      "url": "https://courses.leeds.ac.uk/g098/computer-science-industrial-meng-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Criminal Justice and Criminology BA",
+      "url": "https://courses.leeds.ac.uk/e989/criminal-justice-and-criminology-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Cultural and Media Studies BA",
+      "url": "https://courses.leeds.ac.uk/g641/cultural-and-media-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Data Science BSc",
+      "url": "https://courses.leeds.ac.uk/j747/data-science-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Dental Hygiene and Dental Therapy BSc",
+      "url": "https://courses.leeds.ac.uk/i125/dental-hygiene-and-dental-therapy-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Dental Surgery BChD",
+      "url": "https://courses.leeds.ac.uk/j926/dental-surgery-bchd",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Diagnostic Radiography BSc",
+      "url": "https://courses.leeds.ac.uk/i102/diagnostic-radiography-bsc",
+      "duration": "36 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Digital Media BA",
+      "url": "https://courses.leeds.ac.uk/g856/digital-media-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "East Asian Studies BA",
+      "url": "https://courses.leeds.ac.uk/j762/east-asian-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "East Asian Studies and International Relations BA",
+      "url": "https://courses.leeds.ac.uk/j766/east-asian-studies-and-international-relations-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ecology and Conservation Biology BSc",
+      "url": "https://courses.leeds.ac.uk/i077/ecology-and-conservation-biology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Ecology and Conservation Biology MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/i078/ecology-and-conservation-biology-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics BSc",
+      "url": "https://courses.leeds.ac.uk/f836/economics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics and Finance BSc",
+      "url": "https://courses.leeds.ac.uk/g048/economics-and-finance-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics and Geography BA",
+      "url": "https://courses.leeds.ac.uk/0930/economics-and-geography-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics and History BA",
+      "url": "https://courses.leeds.ac.uk/950/economics-and-history-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics and Mathematics BSc",
+      "url": "https://courses.leeds.ac.uk/4393/economics-and-mathematics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Economics and Politics BA",
+      "url": "https://courses.leeds.ac.uk/1000/economics-and-politics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Education BA",
+      "url": "https://courses.leeds.ac.uk/g971/education-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronic and Electrical Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/5000/electronic-and-electrical-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronic and Electrical Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f456/electronic-and-electrical-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronic and Electrical Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/e917/electronic-and-electrical-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronic and Electrical Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g539/electronic-and-electrical-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronics and Computer Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/j749/electronics-and-computer-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronics and Computer Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/j748/electronics-and-computer-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronics and Computer Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/k000/electronics-and-computer-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Electronics and Computer Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/k001/electronics-and-computer-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and Comparative Literature BA",
+      "url": "https://courses.leeds.ac.uk/g674/english-and-comparative-literature-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and Film Studies BA",
+      "url": "https://courses.leeds.ac.uk/g558/english-and-film-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and History BA",
+      "url": "https://courses.leeds.ac.uk/1100/english-and-history-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and History of Art BA",
+      "url": "https://courses.leeds.ac.uk/1110/english-and-history-of-art-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and Music BA",
+      "url": "https://courses.leeds.ac.uk/1150/english-and-music-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and Philosophy BA",
+      "url": "https://courses.leeds.ac.uk/1160/english-and-philosophy-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English and Sociology BA",
+      "url": "https://courses.leeds.ac.uk/1220/english-and-sociology-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English Language and Linguistics BA",
+      "url": "https://courses.leeds.ac.uk/g326/english-language-and-linguistics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English Language and Literature BA",
+      "url": "https://courses.leeds.ac.uk/290/english-language-and-literature-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English Literature BA",
+      "url": "https://courses.leeds.ac.uk/g153/english-literature-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English Literature with Creative Writing BA",
+      "url": "https://courses.leeds.ac.uk/i438/english-literature-with-creative-writing-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "English, Theatre and Performance BA",
+      "url": "https://courses.leeds.ac.uk/j854/english-theatre-and-performance-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environment and Business BA",
+      "url": "https://courses.leeds.ac.uk/a467/environment-and-business-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Geoscience BSc",
+      "url": "https://courses.leeds.ac.uk/j931/environmental-geoscience-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Environmental Science BSc",
+      "url": "https://courses.leeds.ac.uk/3314/environmental-science-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Fashion Design Innovation BA",
+      "url": "https://courses.leeds.ac.uk/j389/fashion-design-innovation-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Fashion Marketing BA",
+      "url": "https://courses.leeds.ac.uk/g186/fashion-marketing-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Film Studies BA",
+      "url": "https://courses.leeds.ac.uk/j392/film-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Film, Photography and Media BA",
+      "url": "https://courses.leeds.ac.uk/g619/film-photography-and-media-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Financial Mathematics BSc",
+      "url": "https://courses.leeds.ac.uk/g139/financial-mathematics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Fine Art BA",
+      "url": "https://courses.leeds.ac.uk/e134/fine-art-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Fine Art with Contemporary Cultural Theory BA",
+      "url": "https://courses.leeds.ac.uk/g644/fine-art-with-contemporary-cultural-theory-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Fine Art with History of Art BA",
+      "url": "https://courses.leeds.ac.uk/g642/fine-art-with-history-of-art-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Science MSci, BSc",
+      "url": "https://courses.leeds.ac.uk/i254/food-science-msci-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Science BSc",
+      "url": "https://courses.leeds.ac.uk/3335/food-science-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Science and Nutrition BSc",
+      "url": "https://courses.leeds.ac.uk/g414/food-science-and-nutrition-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Food Science and Nutrition MSci, BSc",
+      "url": "https://courses.leeds.ac.uk/i256/food-science-and-nutrition-msci-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "French BA",
+      "url": "https://courses.leeds.ac.uk/315/french-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Gateway Year to Medicine MBChB",
+      "url": "https://courses.leeds.ac.uk/i900/gateway-year-to-medicine-mbchb",
+      "duration": "6 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Genetics BSc",
+      "url": "https://courses.leeds.ac.uk/3360/genetics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Genetics MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g261/genetics-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography BSc",
+      "url": "https://courses.leeds.ac.uk/3380/geography-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography BA",
+      "url": "https://courses.leeds.ac.uk/0330/geography-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography with Environmental Mathematics BSc",
+      "url": "https://courses.leeds.ac.uk/i073/geography-with-environmental-mathematics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geography with Transport Studies BA",
+      "url": "https://courses.leeds.ac.uk/g864/geography-with-transport-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geology BSc",
+      "url": "https://courses.leeds.ac.uk/i683/geology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Geophysical and Atmospheric Sciences BSc",
+      "url": "https://courses.leeds.ac.uk/j932/geophysical-and-atmospheric-sciences-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "German BA",
+      "url": "https://courses.leeds.ac.uk/340/german-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Global Creative Industries BA",
+      "url": "https://courses.leeds.ac.uk/i991/global-creative-industries-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Global Development BA",
+      "url": "https://courses.leeds.ac.uk/k039/global-development-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Graphic and Communication Design BA",
+      "url": "https://courses.leeds.ac.uk/j760/graphic-and-communication-design-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Healthcare Science (Cardiac Physiology) BSc",
+      "url": "https://courses.leeds.ac.uk/i104/healthcare-science-cardiac-physiology-bsc",
+      "duration": "36 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History BA",
+      "url": "https://courses.leeds.ac.uk/370/history-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History and Philosophy BA",
+      "url": "https://courses.leeds.ac.uk/1630/history-and-philosophy-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History and Sociology BA",
+      "url": "https://courses.leeds.ac.uk/1690/history-and-sociology-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History of Art BA",
+      "url": "https://courses.leeds.ac.uk/380/history-of-art-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "History of Art with Cultural Studies BA",
+      "url": "https://courses.leeds.ac.uk/g645/history-of-art-with-cultural-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Interdisciplinary Science with Foundation Year BSc",
+      "url": "https://courses.leeds.ac.uk/3430/interdisciplinary-science-with-foundation-year-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Interdisciplinary Studies with Preparation for Higher Education BA",
+      "url": "https://courses.leeds.ac.uk/g193/interdisciplinary-studies-with-preparation-for-higher-education-ba",
+      "duration": "1 Year (Part time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "International Business BSc",
+      "url": "https://courses.leeds.ac.uk/f831/international-business-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "International Business and Finance BSc",
+      "url": "https://courses.leeds.ac.uk/f833/international-business-and-finance-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "International Business and Marketing BSc",
+      "url": "https://courses.leeds.ac.uk/g295/international-business-and-marketing-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "International History and Politics BA",
+      "url": "https://courses.leeds.ac.uk/410/international-history-and-politics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "International Relations BA",
+      "url": "https://courses.leeds.ac.uk/a753/international-relations-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Islamic, Middle Eastern and North African Studies BA",
+      "url": "https://courses.leeds.ac.uk/j556/islamic-middle-eastern-and-north-african-studies-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Italian BA",
+      "url": "https://courses.leeds.ac.uk/i990/italian-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Japanese BA",
+      "url": "https://courses.leeds.ac.uk/417/japanese-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Journalism BA",
+      "url": "https://courses.leeds.ac.uk/j925/journalism-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Law LLB",
+      "url": "https://courses.leeds.ac.uk/3010/law-llb",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Law (Graduate Programme) LLB",
+      "url": "https://courses.leeds.ac.uk/j771/law-graduate-programme-llb",
+      "duration": "2 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Law with French Law LLB",
+      "url": "https://courses.leeds.ac.uk/g602/law-with-french-law-llb",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Law with German Law LLB",
+      "url": "https://courses.leeds.ac.uk/g946/law-with-german-law-llb",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Law with Hispanic Law LLB",
+      "url": "https://courses.leeds.ac.uk/g947/law-with-hispanic-law-llb",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Learning and Teaching with SEND BA",
+      "url": "https://courses.leeds.ac.uk/j553/learning-and-teaching-with-send-ba",
+      "duration": "4 Years (Part time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Liberal Arts BA",
+      "url": "https://courses.leeds.ac.uk/g809/liberal-arts-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics BA",
+      "url": "https://courses.leeds.ac.uk/j769/linguistics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Linguistics and Philosophy BA",
+      "url": "https://courses.leeds.ac.uk/e119/linguistics-and-philosophy-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Marketing BSc",
+      "url": "https://courses.leeds.ac.uk/k047/marketing-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Materials Science and Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/i984/materials-science-and-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Materials Science and Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/i981/materials-science-and-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Materials Science and Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/j999/materials-science-and-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Materials Science and Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/j955/materials-science-and-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics BSc",
+      "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics MMath, BSc",
+      "url": "https://courses.leeds.ac.uk/f417/mathematics-mmath-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics and Music BSc",
+      "url": "https://courses.leeds.ac.uk/j645/mathematics-and-music-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics and Philosophy BSc",
+      "url": "https://courses.leeds.ac.uk/4586/mathematics-and-philosophy-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics and Physics BSc",
+      "url": "https://courses.leeds.ac.uk/k279/mathematics-and-physics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mathematics and Statistics BSc",
+      "url": "https://courses.leeds.ac.uk/4627/mathematics-and-statistics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechanical Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f411/mechanical-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechanical Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/5200/mechanical-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechanical Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/g894/mechanical-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechanical Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g289/mechanical-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechatronics and Robotics Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/j914/mechatronics-and-robotics-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechatronics and Robotics Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/j915/mechatronics-and-robotics-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechatronics and Robotics Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/k003/mechatronics-and-robotics-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Mechatronics and Robotics Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/k002/mechatronics-and-robotics-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medical Engineering BEng",
+      "url": "https://courses.leeds.ac.uk/a239/medical-engineering-beng",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medical Engineering MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/f447/medical-engineering-meng-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medical Engineering (Industrial) BEng",
+      "url": "https://courses.leeds.ac.uk/g931/medical-engineering-industrial-beng",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medical Engineering (Industrial) MEng, BEng",
+      "url": "https://courses.leeds.ac.uk/g342/medical-engineering-industrial-meng-beng",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medical Ultrasound (Sonography) BSc",
+      "url": "https://courses.leeds.ac.uk/j755/medical-ultrasound-sonography-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medicinal Chemistry BSc",
+      "url": "https://courses.leeds.ac.uk/3497/medicinal-chemistry-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medicinal Chemistry MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/f428/medicinal-chemistry-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medicinal Chemistry with a Year in Industry MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/f429/medicinal-chemistry-with-a-year-in-industry-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medicinal Chemistry with Study Abroad MChem, BSc",
+      "url": "https://courses.leeds.ac.uk/i208/medicinal-chemistry-with-study-abroad-mchem-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Medicine and Surgery MBChB",
+      "url": "https://courses.leeds.ac.uk/5580/medicine-and-surgery-mbchb",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Microbiology BSc",
+      "url": "https://courses.leeds.ac.uk/3500/microbiology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Microbiology MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g266/microbiology-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Middle Eastern Studies and Politics BA",
+      "url": "https://courses.leeds.ac.uk/a571/middle-eastern-studies-and-politics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Midwifery (Blended Learning) BSc",
+      "url": "https://courses.leeds.ac.uk/h824/midwifery-blended-learning-bsc",
+      "duration": "36 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages BA",
+      "url": "https://courses.leeds.ac.uk/j036/modern-languages-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and Business BA",
+      "url": "https://courses.leeds.ac.uk/j037/modern-languages-and-business-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and Economics BA",
+      "url": "https://courses.leeds.ac.uk/j038/modern-languages-and-economics-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and English BA",
+      "url": "https://courses.leeds.ac.uk/j039/modern-languages-and-english-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and Film Studies BA",
+      "url": "https://courses.leeds.ac.uk/j040/modern-languages-and-film-studies-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and History BA",
+      "url": "https://courses.leeds.ac.uk/j041/modern-languages-and-history-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and International Relations BA",
+      "url": "https://courses.leeds.ac.uk/j042/modern-languages-and-international-relations-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and Linguistics BA",
+      "url": "https://courses.leeds.ac.uk/j043/modern-languages-and-linguistics-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and Philosophy BA",
+      "url": "https://courses.leeds.ac.uk/j044/modern-languages-and-philosophy-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Modern Languages and Politics BA",
+      "url": "https://courses.leeds.ac.uk/j045/modern-languages-and-politics-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music BA",
+      "url": "https://courses.leeds.ac.uk/a004/music-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music (Performance) BMus",
+      "url": "https://courses.leeds.ac.uk/j772/music-performance-bmus",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music and Music Psychology BA",
+      "url": "https://courses.leeds.ac.uk/i566/music-and-music-psychology-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music and Music Technology BA",
+      "url": "https://courses.leeds.ac.uk/j543/music-and-music-technology-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music with Enterprise BA",
+      "url": "https://courses.leeds.ac.uk/g549/music-with-enterprise-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Music, Multimedia and Electronics BSc",
+      "url": "https://courses.leeds.ac.uk/a617/music-multimedia-and-electronics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Natural Sciences BSc",
+      "url": "https://courses.leeds.ac.uk/f068/natural-sciences-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Natural Sciences BSc, MNatSc",
+      "url": "https://courses.leeds.ac.uk/f440/natural-sciences-bsc-mnatsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Natural Sciences (International) BSc",
+      "url": "https://courses.leeds.ac.uk/g218/natural-sciences-international-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Natural Sciences (International) MNatSc, BSc",
+      "url": "https://courses.leeds.ac.uk/j071/natural-sciences-international-mnatsc-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Natural Sciences (with Industrial Experience) BSc",
+      "url": "https://courses.leeds.ac.uk/i676/natural-sciences-with-industrial-experience-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Natural Sciences (with Industrial Experience) MNatSc, BSc",
+      "url": "https://courses.leeds.ac.uk/i039/natural-sciences-with-industrial-experience-mnatsc-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Neuroscience BSc",
+      "url": "https://courses.leeds.ac.uk/3539/neuroscience-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Neuroscience MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g269/neuroscience-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Nursing (Adult) BSc",
+      "url": "https://courses.leeds.ac.uk/h820/nursing-adult-bsc",
+      "duration": "36 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Nursing (Child) BSc",
+      "url": "https://courses.leeds.ac.uk/h819/nursing-child-bsc",
+      "duration": "36 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Nursing (Mental Health) BSc",
+      "url": "https://courses.leeds.ac.uk/h818/nursing-mental-health-bsc",
+      "duration": "36 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Nursing Associate (Apprenticeship) FD",
+      "url": "https://courses.leeds.ac.uk/ap06/nursing-associate-apprenticeship-fd",
+      "duration": "24 Months (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Nutrition BSc",
+      "url": "https://courses.leeds.ac.uk/f666/nutrition-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Nutrition MSci, BSc",
+      "url": "https://courses.leeds.ac.uk/i258/nutrition-msci-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Pharmacology BSc",
+      "url": "https://courses.leeds.ac.uk/3560/pharmacology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Pharmacology MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g270/pharmacology-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy BA",
+      "url": "https://courses.leeds.ac.uk/510/philosophy-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy and Politics BA",
+      "url": "https://courses.leeds.ac.uk/2120/philosophy-and-politics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, Ethics and Religion BA",
+      "url": "https://courses.leeds.ac.uk/g184/philosophy-ethics-and-religion-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, Politics and Economics BA",
+      "url": "https://courses.leeds.ac.uk/g460/philosophy-politics-and-economics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Philosophy, Psychology and Scientific Thought BA",
+      "url": "https://courses.leeds.ac.uk/g075/philosophy-psychology-and-scientific-thought-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics BSc",
+      "url": "https://courses.leeds.ac.uk/3580/physics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/f332/physics-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/3631/physics-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics (Industrial) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/g512/physics-industrial-mphys-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics (International) BSc",
+      "url": "https://courses.leeds.ac.uk/g976/physics-international-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics (International) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/g380/physics-international-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Artificial Intelligence BSc",
+      "url": "https://courses.leeds.ac.uk/k050/physics-with-artificial-intelligence-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Artificial Intelligence MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/k051/physics-with-artificial-intelligence-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Artificial Intelligence (Industrial) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/k060/physics-with-artificial-intelligence-industrial-mphys-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Artificial Intelligence (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/k058/physics-with-artificial-intelligence-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Artificial Intelligence (International) BSc",
+      "url": "https://courses.leeds.ac.uk/k059/physics-with-artificial-intelligence-international-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Artificial Intelligence (International) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/k061/physics-with-artificial-intelligence-international-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Astrophysics BSc",
+      "url": "https://courses.leeds.ac.uk/3600/physics-with-astrophysics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Astrophysics MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/f334/physics-with-astrophysics-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Astrophysics (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/3632/physics-with-astrophysics-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Astrophysics (Industrial) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/i587/physics-with-astrophysics-industrial-mphys-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Astrophysics (International) BSc",
+      "url": "https://courses.leeds.ac.uk/g977/physics-with-astrophysics-international-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Physics with Astrophysics (International) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/g381/physics-with-astrophysics-international-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Politics BA",
+      "url": "https://courses.leeds.ac.uk/f552/politics-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Primary Education with Qualified Teacher Status (5-11) BA",
+      "url": "https://courses.leeds.ac.uk/k052/primary-education-with-qualified-teacher-status-5-11-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Product Design BSc",
+      "url": "https://courses.leeds.ac.uk/a602/product-design-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Product Design (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/g893/product-design-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Professional Studies BA",
+      "url": "https://courses.leeds.ac.uk/g835/professional-studies-ba",
+      "duration": "3 Years (Full time), 6 Years (Part time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology BSc",
+      "url": "https://courses.leeds.ac.uk/3670/psychology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Psychology with Education BSc",
+      "url": "https://courses.leeds.ac.uk/i427/psychology-with-education-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Religion, Theology and Society BA",
+      "url": "https://courses.leeds.ac.uk/j939/religion-theology-and-society-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Social and Political Sciences BSc",
+      "url": "https://courses.leeds.ac.uk/j441/social-and-political-sciences-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Social Policy, Sociology & Crime BSc",
+      "url": "https://courses.leeds.ac.uk/j476/social-policy-sociology-crime-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Social Science (foundation year) BA",
+      "url": "https://courses.leeds.ac.uk/a926/social-science-foundation-year-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Social Work BA",
+      "url": "https://courses.leeds.ac.uk/h810/social-work-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sociology BA",
+      "url": "https://courses.leeds.ac.uk/580/sociology-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Spanish BA",
+      "url": "https://courses.leeds.ac.uk/f044/spanish-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Spanish, Portuguese and Latin American Studies BA",
+      "url": "https://courses.leeds.ac.uk/f881/spanish-portuguese-and-latin-american-studies-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sport and Exercise Sciences BSc",
+      "url": "https://courses.leeds.ac.uk/f003/sport-and-exercise-sciences-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sports Science in Relation to Medicine BSc",
+      "url": "https://courses.leeds.ac.uk/a962/sports-science-in-relation-to-medicine-bsc",
+      "duration": "1 Year (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Studies in Science with Foundation Year BSc",
+      "url": "https://courses.leeds.ac.uk/g521/studies-in-science-with-foundation-year-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sustainability and Environmental Management BSc",
+      "url": "https://courses.leeds.ac.uk/g004/sustainability-and-environmental-management-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Sustainable Fashion BA",
+      "url": "https://courses.leeds.ac.uk/j391/sustainable-fashion-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Textile Innovation and Sustainability BSc",
+      "url": "https://courses.leeds.ac.uk/j761/textile-innovation-and-sustainability-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Thai Studies BA",
+      "url": "https://courses.leeds.ac.uk/g727/thai-studies-ba",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theatre and Performance BA",
+      "url": "https://courses.leeds.ac.uk/f007/theatre-and-performance-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theatre and Performance with Enterprise BA",
+      "url": "https://courses.leeds.ac.uk/i264/theatre-and-performance-with-enterprise-ba",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theoretical Physics BSc",
+      "url": "https://courses.leeds.ac.uk/3686/theoretical-physics-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theoretical Physics MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/f400/theoretical-physics-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theoretical Physics (Industrial) BSc",
+      "url": "https://courses.leeds.ac.uk/g959/theoretical-physics-industrial-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theoretical Physics (Industrial) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/g898/theoretical-physics-industrial-mphys-bsc",
+      "duration": "5 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theoretical Physics (International) BSc",
+      "url": "https://courses.leeds.ac.uk/g978/theoretical-physics-international-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Theoretical Physics (International) MPhys, BSc",
+      "url": "https://courses.leeds.ac.uk/g383/theoretical-physics-international-mphys-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Zoology BSc",
+      "url": "https://courses.leeds.ac.uk/3690/zoology-bsc",
+      "duration": "3 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Zoology MBiol, BSc",
+      "url": "https://courses.leeds.ac.uk/g273/zoology-mbiol-bsc",
+      "duration": "4 Years (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Zoology in Relation to Medicine and Veterinary Science BSc",
+      "url": "https://courses.leeds.ac.uk/e057/zoology-in-relation-to-medicine-and-veterinary-science-bsc",
+      "duration": "1 Year (Full time)",
+      "level": "Undergraduate"
+    },
+    {
+      "name": "Accounting and Finance MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f921/accounting-and-finance-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Chemical Engineering MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i239/advanced-chemical-engineering-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Clinical Practice MSc",
+      "url": "https://courses.leeds.ac.uk/202627/h811/advanced-clinical-practice-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Clinical Practice (Apprenticeship) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/ap11/advanced-clinical-practice-apprenticeship-msc",
+      "duration": "36 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Computer Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f753/advanced-computer-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Computer Science (Artificial Intelligence) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i537/advanced-computer-science-artificial-intelligence-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Computer Science (Cloud Computing) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g313/advanced-computer-science-cloud-computing-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Computer Science (Data Analytics) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g314/advanced-computer-science-data-analytics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Manufacturing and Automation MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k068/advanced-manufacturing-and-automation-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advanced Mechanical Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/f360/advanced-mechanical-engineering-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Advertising and Design MA",
+      "url": "https://courses.leeds.ac.uk/202627/f296/advertising-and-design-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Aerospace Engineering MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g600/aerospace-engineering-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "AI Ethics and Society MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k164/ai-ethics-and-society-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "AI for Business MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k198/ai-for-business-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Applied and Professional Ethics PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/f849/applied-and-professional-ethics-pgdip",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Applied and Professional Ethics MA",
+      "url": "https://courses.leeds.ac.uk/202627/f847/applied-and-professional-ethics-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Applied Psychology of Music MA",
+      "url": "https://courses.leeds.ac.uk/202627/g533/applied-psychology-of-music-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Applied Theatre and Social Change MA",
+      "url": "https://courses.leeds.ac.uk/202627/j845/applied-theatre-and-social-change-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Applied Translation Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/8257/applied-translation-studies-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Architecture MArch",
+      "url": "https://courses.leeds.ac.uk/202627/j929/architecture-march",
+      "duration": "24 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Architecture Design MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j928/architecture-design-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Art Gallery and Museum Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/a241/art-gallery-and-museum-studies-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Artificial Intelligence (online) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/d502/artificial-intelligence-online-pgcert",
+      "duration": "8 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Artificial Intelligence (online) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/d500/artificial-intelligence-online-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Arts Fundraising and Philanthropy PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/g739/arts-fundraising-and-philanthropy-pgcert",
+      "duration": "10 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Arts Management and Heritage Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/g646/arts-management-and-heritage-studies-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Astrophysics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j790/astrophysics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Audiences, Engagement, Participation PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/i525/audiences-engagement-participation-pgcert",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Audiences, Engagement, Participation MA",
+      "url": "https://courses.leeds.ac.uk/202627/i521/audiences-engagement-participation-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Audiences, Engagement, Participation PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/i523/audiences-engagement-participation-pgdip",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Audiovisual Translation and Localisation MA",
+      "url": "https://courses.leeds.ac.uk/202627/j548/audiovisual-translation-and-localisation-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Automotive Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/8665/automotive-engineering-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Banking and International Finance MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g146/banking-and-international-finance-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biodiversity and Conservation MSc",
+      "url": "https://courses.leeds.ac.uk/202627/x006/biodiversity-and-conservation-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biodiversity and Conservation with African Field Course MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g363/biodiversity-and-conservation-with-african-field-course-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biomedical and Healthcare Ethics MA",
+      "url": "https://courses.leeds.ac.uk/202627/g607/biomedical-and-healthcare-ethics-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biomedical and Healthcare Ethics PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/g609/biomedical-and-healthcare-ethics-pgdip",
+      "duration": "12 Months (Full time), 18 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biomedical and Healthcare Ethics PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/g556/biomedical-and-healthcare-ethics-pgdip",
+      "duration": "12 Months (Full time), 17 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biomedical and Healthcare Ethics MA",
+      "url": "https://courses.leeds.ac.uk/202627/g554/biomedical-and-healthcare-ethics-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biopharmaceutical Development MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k265/biopharmaceutical-development-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biopharmaceutical Development (Industrial Placement) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k267/biopharmaceutical-development-industrial-placement-msc",
+      "duration": "48 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biopharmaceutical Development (Industrial Placement) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k266/biopharmaceutical-development-industrial-placement-msc",
+      "duration": "20 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Bioscience MSc",
+      "url": "https://courses.leeds.ac.uk/202627/a990/bioscience-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Biotechnology with Business Enterprise MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j480/biotechnology-with-business-enterprise-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Business Analytics and Decision Sciences MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g503/business-analytics-and-decision-sciences-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Chemistry MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i588/chemistry-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Childhood Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/g573/childhood-studies-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Classics and Ancient History MA",
+      "url": "https://courses.leeds.ac.uk/202627/k149/classics-and-ancient-history-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Climate and Atmospheric Science MRes",
+      "url": "https://courses.leeds.ac.uk/202627/g223/climate-and-atmospheric-science-mres",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Climate Change: Science, Society and Policy MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k174/climate-change-science-society-and-policy-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Education PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/f635/clinical-education-pgdip",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Education PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/c023/clinical-education-pgcert",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Education MEd",
+      "url": "https://courses.leeds.ac.uk/202627/c020/clinical-education-med",
+      "duration": "36 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Education (online) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/d070/clinical-education-online-pgcert",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Embryology PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/d321/clinical-embryology-pgdip",
+      "duration": "19 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Embryology MSc",
+      "url": "https://courses.leeds.ac.uk/202627/d027/clinical-embryology-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Embryology and Assisted Reproduction Technology PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/g635/clinical-embryology-and-assisted-reproduction-technology-pgdip",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Clinical Embryology and Assisted Reproduction Technology MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g634/clinical-embryology-and-assisted-reproduction-technology-msc",
+      "duration": "1 Year (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Cognitive Development and Disorders MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i086/cognitive-development-and-disorders-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Communication and Media MA",
+      "url": "https://courses.leeds.ac.uk/202627/g636/communication-and-media-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Communications and Signal Processing MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/g235/communications-and-signal-processing-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Conference Interpreting PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/i412/conference-interpreting-pgdip",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Conference Interpreting and Translation Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/i411/conference-interpreting-and-translation-studies-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Conflict, Development and Peacebuilding MA",
+      "url": "https://courses.leeds.ac.uk/202627/j683/conflict-development-and-peacebuilding-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Consumer Analytics and Marketing Strategy MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g963/consumer-analytics-and-marketing-strategy-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Corporate Communications, Marketing and Public Relations MA",
+      "url": "https://courses.leeds.ac.uk/202627/g921/corporate-communications-marketing-and-public-relations-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Creative Writing MA",
+      "url": "https://courses.leeds.ac.uk/202627/j704/creative-writing-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Criminal Justice and Criminal Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/g665/criminal-justice-and-criminal-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Criminal Justice and Criminology MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i129/criminal-justice-and-criminology-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Critical and Cultural Theory MA",
+      "url": "https://courses.leeds.ac.uk/202627/g528/critical-and-cultural-theory-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Critical and Experimental Composition MMus",
+      "url": "https://courses.leeds.ac.uk/202627/g523/critical-and-experimental-composition-mmus",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Culture, Creativity and Entrepreneurship MA",
+      "url": "https://courses.leeds.ac.uk/202627/f018/culture-creativity-and-entrepreneurship-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Data Analytics and Human Resource Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i693/data-analytics-and-human-resource-management-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Data Science (Statistics) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/d053/data-science-statistics-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Data Science and Analytics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i071/data-science-and-analytics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Data Science and Analytics for Health MRes",
+      "url": "https://courses.leeds.ac.uk/202627/i927/data-science-and-analytics-for-health-mres",
+      "duration": "24 Months (Part time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Deaf Education (Teacher of the Deaf Qualification) PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/d330/deaf-education-teacher-of-the-deaf-qualification-pgdip",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Deaf Education (Teacher of the Deaf Qualification) MA",
+      "url": "https://courses.leeds.ac.uk/202627/d329/deaf-education-teacher-of-the-deaf-qualification-ma",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Dental Public Health MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g579/dental-public-health-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Design MA",
+      "url": "https://courses.leeds.ac.uk/202627/a672/design-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Digital and Automated Chemistry MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j927/digital-and-automated-chemistry-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Digital Design Futures MA",
+      "url": "https://courses.leeds.ac.uk/202627/j440/digital-design-futures-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Digital Humanities and Culture MA",
+      "url": "https://courses.leeds.ac.uk/202627/k087/digital-humanities-and-culture-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Digital Media MA",
+      "url": "https://courses.leeds.ac.uk/202627/j692/digital-media-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Disability Studies, Rights and Inclusion (online) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/d326/disability-studies-rights-and-inclusion-online-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Disability Studies, Rights and Inclusion (online) PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/d327/disability-studies-rights-and-inclusion-online-pgdip",
+      "duration": "16 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Disability Studies, Rights and Inclusion (online) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/d328/disability-studies-rights-and-inclusion-online-pgcert",
+      "duration": "8 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Drug Discovery and Development MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j478/drug-discovery-and-development-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Ecological Economics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g867/ecological-economics-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Economics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f922/economics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Economics and Finance MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f920/economics-and-finance-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Education MA",
+      "url": "https://courses.leeds.ac.uk/202627/a591/education-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Electrical Engineering and Renewable Energy Systems MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/f322/electrical-engineering-and-renewable-energy-systems-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Electronic and Electrical Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/f054/electronic-and-electrical-engineering-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Embedded Systems Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/f310/embedded-systems-engineering-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Energy and Environmental Engineering MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j984/energy-and-environmental-engineering-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Engineering Geology MSc",
+      "url": "https://courses.leeds.ac.uk/202627/8290/engineering-geology-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Engineering Management (online) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/d989/engineering-management-online-pgcert",
+      "duration": "8 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Engineering Management (online) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/d974/engineering-management-online-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Engineering Project Management MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/e430/engineering-project-management-msc-eng-",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Engineering, Technology and Business Management MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/g489/engineering-technology-and-business-management-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "English Literature MA",
+      "url": "https://courses.leeds.ac.uk/202627/7360/english-literature-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Enterprise and Entrepreneurship MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g183/enterprise-and-entrepreneurship-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Environmental Data Science and Analytics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j838/environmental-data-science-and-analytics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Environmental Engineering and Project Management MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/8768/environmental-engineering-and-project-management-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Environmental Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j969/environmental-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Exploration Geophysics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/8310/exploration-geophysics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Fashion, Enterprise and Society MA",
+      "url": "https://courses.leeds.ac.uk/202627/g162/fashion-enterprise-and-society-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Film Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/i898/film-studies-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Film, Photography and Media MA",
+      "url": "https://courses.leeds.ac.uk/202627/g638/film-photography-and-media-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Finance and Investment MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f840/finance-and-investment-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Financial Mathematics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/e383/financial-mathematics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Financial Risk Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f839/financial-risk-management-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Food Product Innovation MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j816/food-product-innovation-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Food Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/8320/food-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Food Science (Food Biotechnology) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/8341/food-science-food-biotechnology-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Food Science and Nutrition MSc",
+      "url": "https://courses.leeds.ac.uk/202627/e811/food-science-and-nutrition-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Full Time MBA MBA",
+      "url": "https://courses.leeds.ac.uk/202627/a992/full-time-mba",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Gender Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/7395/gender-studies-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Genomic Medicine with Data Science (online) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/d067/genomic-medicine-with-data-science-online-pgcert",
+      "duration": "8 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Genomic Medicine with Data Science (online) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/d065/genomic-medicine-with-data-science-online-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Geographical Information Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j965/geographical-information-science-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Geotechnical Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/i581/geotechnical-engineering-msc-eng-",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Geotechnical Engineering Degree Apprenticeship MSc",
+      "url": "https://courses.leeds.ac.uk/202627/ap15/geotechnical-engineering-degree-apprenticeship-msc",
+      "duration": "36 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Conservation Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j479/global-conservation-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Development MA",
+      "url": "https://courses.leeds.ac.uk/202627/f823/global-development-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Development and Education MA",
+      "url": "https://courses.leeds.ac.uk/202627/f825/global-development-and-education-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Fashion Management MA",
+      "url": "https://courses.leeds.ac.uk/202627/i216/global-fashion-management-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Governance and Diplomacy MA",
+      "url": "https://courses.leeds.ac.uk/202627/i628/global-governance-and-diplomacy-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Health (online) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/k074/global-health-online-pgcert",
+      "duration": "8 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Health (online) MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k072/global-health-online-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Performance and Cultural Industries MA",
+      "url": "https://courses.leeds.ac.uk/202627/j137/global-performance-and-cultural-industries-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Political Economy MA",
+      "url": "https://courses.leeds.ac.uk/202627/j387/global-political-economy-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Strategy and Innovation Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i285/global-strategy-and-innovation-management-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Global Supply Chain Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g505/global-supply-chain-management-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Informatics with Data Science PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/j525/health-informatics-with-data-science-pgcert",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Informatics with Data Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j140/health-informatics-with-data-science-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Informatics with Data Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j993/health-informatics-with-data-science-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Informatics with Data Science PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/j523/health-informatics-with-data-science-pgdip",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Research PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/8455/health-research-pgcert",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Research MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k015/health-research-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Health Research PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/8456/health-research-pgdip",
+      "duration": "18 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "High-Performance Graphics and Games Engineering MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i070/high-performance-graphics-and-games-engineering-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Human Resource Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k194/human-resource-management-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Inclusive and Special Education MA",
+      "url": "https://courses.leeds.ac.uk/202627/k175/inclusive-and-special-education-ma",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Inequalities and Social Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i229/inequalities-and-social-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Infection, Immunity and Human Disease MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g813/infection-immunity-and-human-disease-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Intellectual Property Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/f379/intellectual-property-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Banking and Finance Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/f712/international-banking-and-finance-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Business MSc",
+      "url": "https://courses.leeds.ac.uk/202627/e763/international-business-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Business Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/e461/international-business-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Communication MA",
+      "url": "https://courses.leeds.ac.uk/202627/7155/international-communication-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Construction Management and Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/8810/international-construction-management-and-engineering-msc-eng-",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Corporate Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/f375/international-corporate-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Health MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f408/international-health-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International History MA",
+      "url": "https://courses.leeds.ac.uk/202627/j803/international-history-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Human Rights Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/i325/international-human-rights-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Journalism MA",
+      "url": "https://courses.leeds.ac.uk/202627/e135/international-journalism-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Law and Global Governance LLM",
+      "url": "https://courses.leeds.ac.uk/202627/i889/international-law-and-global-governance-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Marketing Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/7652/international-marketing-management-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Relations MA",
+      "url": "https://courses.leeds.ac.uk/202627/f819/international-relations-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Security MA",
+      "url": "https://courses.leeds.ac.uk/202627/k144/international-security-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "International Trade Law LLM",
+      "url": "https://courses.leeds.ac.uk/202627/e775/international-trade-law-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Arts and Humanities ND",
+      "url": "https://courses.leeds.ac.uk/202627/i014/language-for-arts-and-humanities",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Business (10 weeks) ND",
+      "url": "https://courses.leeds.ac.uk/202627/k023/language-for-business-10-weeks-",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Business (6 weeks) ND",
+      "url": "https://courses.leeds.ac.uk/202627/k022/language-for-business-6-weeks-",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Communication and Society ND",
+      "url": "https://courses.leeds.ac.uk/202627/i013/language-for-communication-and-society",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Education and Linguistics (6 weeks) ND",
+      "url": "https://courses.leeds.ac.uk/202627/k157/language-for-education-and-linguistics-6-weeks-",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Engineering ND",
+      "url": "https://courses.leeds.ac.uk/202627/i193/language-for-engineering",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Law ND",
+      "url": "https://courses.leeds.ac.uk/202627/i534/language-for-law",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Politics and Society ND",
+      "url": "https://courses.leeds.ac.uk/202627/i669/language-for-politics-and-society",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Postgraduate Research ND",
+      "url": "https://courses.leeds.ac.uk/202627/i670/language-for-postgraduate-research",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Science ND",
+      "url": "https://courses.leeds.ac.uk/202627/i204/language-for-science",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Science: Engineering ND",
+      "url": "https://courses.leeds.ac.uk/202627/i194/language-for-science-engineering",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Science: General Science ND",
+      "url": "https://courses.leeds.ac.uk/202627/i203/language-for-science-general-science",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Social Science and Arts: Arts and Humanities ND",
+      "url": "https://courses.leeds.ac.uk/202627/i005/language-for-social-science-and-arts-arts-and-humanities",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Social Science and Arts: Communication and Society ND",
+      "url": "https://courses.leeds.ac.uk/202627/i004/language-for-social-science-and-arts-communication-and-society",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Social Science and Arts: Education and Linguistics (10 weeks) ND",
+      "url": "https://courses.leeds.ac.uk/202627/k158/language-for-social-science-and-arts-education-and-linguistics-10-weeks-",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Social Science and Arts: Law ND",
+      "url": "https://courses.leeds.ac.uk/202627/i533/language-for-social-science-and-arts-law",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Language for Social Science and Arts: Politics and Society ND",
+      "url": "https://courses.leeds.ac.uk/202627/i668/language-for-social-science-and-arts-politics-and-society",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Law and Finance MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g085/law-and-finance-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Law and Social Justice LLM",
+      "url": "https://courses.leeds.ac.uk/202627/i415/law-and-social-justice-llm",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Linguistics MA",
+      "url": "https://courses.leeds.ac.uk/202627/7690/linguistics-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Linguistics for English Language Teaching MA",
+      "url": "https://courses.leeds.ac.uk/202627/j846/linguistics-for-english-language-teaching-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Management MSc",
+      "url": "https://courses.leeds.ac.uk/202627/a078/management-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Management Consulting MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g962/management-consulting-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Management of Information Systems and Digital Innovation MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j796/management-of-information-systems-and-digital-innovation-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Marketing Management with Advertising MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j795/marketing-management-with-advertising-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Materials Science and Engineering MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g591/materials-science-and-engineering-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Mathematics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f669/mathematics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Mechatronics and Robotics Engineering MSc(Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/j916/mechatronics-and-robotics-engineering-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Media Industries MA",
+      "url": "https://courses.leeds.ac.uk/202627/f579/media-industries-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Medical Engineering MSc",
+      "url": "https://courses.leeds.ac.uk/202627/e931/medical-engineering-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Medical Imaging PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/a088/medical-imaging-pgcert",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Medical Imaging MSc",
+      "url": "https://courses.leeds.ac.uk/202627/a086/medical-imaging-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Medicine MRes",
+      "url": "https://courses.leeds.ac.uk/202627/g176/medicine-mres",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Medieval Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/7820/medieval-studies-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Modern History MA",
+      "url": "https://courses.leeds.ac.uk/202627/7885/modern-history-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Molecular Medicine MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k163/molecular-medicine-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Musculoskeletal Medicine PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/d999/musculoskeletal-medicine-pgcert",
+      "duration": "9 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Musculoskeletal Ultrasound PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/k183/musculoskeletal-ultrasound-pgcert",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Music and Data Science MA",
+      "url": "https://courses.leeds.ac.uk/202627/k133/music-and-data-science-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Music and Wellbeing PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/i492/music-and-wellbeing-pgcert",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Music and Wellbeing MA",
+      "url": "https://courses.leeds.ac.uk/202627/i488/music-and-wellbeing-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Music and Wellbeing PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/i490/music-and-wellbeing-pgdip",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Music Management MA",
+      "url": "https://courses.leeds.ac.uk/202627/j849/music-management-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Musicology MA",
+      "url": "https://courses.leeds.ac.uk/202627/j842/musicology-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Neuroscience MRes",
+      "url": "https://courses.leeds.ac.uk/202627/i920/neuroscience-mres",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Nutrition MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f884/nutrition-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Online Academic English Presessional (10 weeks) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j614/online-academic-english-presessional-10-weeks-",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Online Academic English Presessional (6 weeks) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j615/online-academic-english-presessional-6-weeks-",
+      "duration": "6 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Oral Surgery MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i603/oral-surgery-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Organizational Psychology and Business MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j630/organizational-psychology-and-business-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Performance MMus",
+      "url": "https://courses.leeds.ac.uk/202627/7957/performance-mmus",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Performance PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/g298/performance-pgdip",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Performance Design MA",
+      "url": "https://courses.leeds.ac.uk/202627/g699/performance-design-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pharmacy Practice MSc",
+      "url": "https://courses.leeds.ac.uk/202627/h390/pharmacy-practice-msc",
+      "duration": "39 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pharmacy Practice PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/h391/pharmacy-practice-pgdip",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Philosophy MA",
+      "url": "https://courses.leeds.ac.uk/202627/7965/philosophy-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Physics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i252/physics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Plant Science and Biotechnology MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g065/plant-science-and-biotechnology-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Political Communication MA",
+      "url": "https://courses.leeds.ac.uk/202627/a920/political-communication-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Political Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i675/political-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Postcolonial Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/j841/postcolonial-studies-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Postgraduate Studies (one semester plus summer) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j403/pre-sessional-academic-english-for-postgraduate-studies-one-semester-plus-summer-",
+      "duration": "35 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Postgraduate Studies (one semester) (January) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j401/pre-sessional-academic-english-for-postgraduate-studies-one-semester-january-",
+      "duration": "17 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Postgraduate Studies (one semester) (September) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j400/pre-sessional-academic-english-for-postgraduate-studies-one-semester-september-",
+      "duration": "17 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Postgraduate Studies (two semesters plus summer) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j404/pre-sessional-academic-english-for-postgraduate-studies-two-semesters-plus-summer-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Postgraduate Studies (two semesters) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j402/pre-sessional-academic-english-for-postgraduate-studies-two-semesters-",
+      "duration": "35 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Undergraduate Studies (one semester plus summer) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j413/pre-sessional-academic-english-for-undergraduate-studies-one-semester-plus-summer-",
+      "duration": "35 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Undergraduate Studies (one semester) (January) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j411/pre-sessional-academic-english-for-undergraduate-studies-one-semester-january-",
+      "duration": "17 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Undergraduate Studies (one semester) (September) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j410/pre-sessional-academic-english-for-undergraduate-studies-one-semester-september-",
+      "duration": "17 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Undergraduate Studies (two semesters plus summer) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j414/pre-sessional-academic-english-for-undergraduate-studies-two-semesters-plus-summer-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Academic English for Undergraduate Studies (two semesters) ND",
+      "url": "https://courses.leeds.ac.uk/202627/j412/pre-sessional-academic-english-for-undergraduate-studies-two-semesters-",
+      "duration": "35 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Language for Research: Postgraduate Research ND",
+      "url": "https://courses.leeds.ac.uk/202627/j375/pre-sessional-language-for-research-postgraduate-research",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Pre-sessional Language for Science: Civil Engineering ND",
+      "url": "https://courses.leeds.ac.uk/202627/j373/pre-sessional-language-for-science-civil-engineering",
+      "duration": "10 Weeks (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Precision Medicine: Genomic Data Science MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j679/precision-medicine-genomic-data-science-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Professional Language and Intercultural Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/f584/professional-language-and-intercultural-studies-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Promotional Media MA",
+      "url": "https://courses.leeds.ac.uk/202627/i321/promotional-media-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Psychological Approaches to Health MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g603/psychological-approaches-to-health-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Psychotherapy PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/j677/psychotherapy-pgcert",
+      "duration": "1 Year (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Psychotherapy and Counselling MA",
+      "url": "https://courses.leeds.ac.uk/202627/j643/psychotherapy-and-counselling-ma",
+      "duration": "36 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Public Health (International) PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/i187/public-health-international-pgdip",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Public Health (International) PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/i188/public-health-international-pgcert",
+      "duration": "4 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Public Health (International) MPH",
+      "url": "https://courses.leeds.ac.uk/202627/i185/public-health-international-mph",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Quantum Technologies MSc",
+      "url": "https://courses.leeds.ac.uk/202627/k147/quantum-technologies-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Religion PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/j549/religion-pgcert",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Religion PGDip",
+      "url": "https://courses.leeds.ac.uk/202627/j551/religion-pgdip",
+      "duration": "9 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Religion MA",
+      "url": "https://courses.leeds.ac.uk/202627/j546/religion-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Social and Public Policy MA",
+      "url": "https://courses.leeds.ac.uk/202627/8111/social-and-public-policy-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Social History of Art MA",
+      "url": "https://courses.leeds.ac.uk/202627/i336/social-history-of-art-ma",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Social Research MA",
+      "url": "https://courses.leeds.ac.uk/202627/8125/social-research-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Society, Culture and Media MA",
+      "url": "https://courses.leeds.ac.uk/202627/i094/society-culture-and-media-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sport and Exercise Medicine MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i210/sport-and-exercise-medicine-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sport, Exercise and Rehabilitation MRes",
+      "url": "https://courses.leeds.ac.uk/202627/i980/sport-exercise-and-rehabilitation-mres",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Statistics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/f038/statistics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Structural Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/f094/structural-engineering-msc-eng-",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainability and Business MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g721/sustainability-and-business-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainability and Consultancy MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g723/sustainability-and-consultancy-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainability in Transport MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g816/sustainability-in-transport-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainability, Environment and Development MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j985/sustainability-environment-and-development-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainable Agriculture and Food Production MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j644/sustainable-agriculture-and-food-production-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainable Cities MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i429/sustainable-cities-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Sustainable Food Systems and Food Security MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j786/sustainable-food-systems-and-food-security-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Systemic Family Therapy MSc",
+      "url": "https://courses.leeds.ac.uk/202627/a792/systemic-family-therapy-msc",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Systemic Practice PGCert",
+      "url": "https://courses.leeds.ac.uk/202627/f805/systemic-practice-pgcert",
+      "duration": "24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Systemic Practice (Foundation) ND",
+      "url": "https://courses.leeds.ac.uk/202627/i423/systemic-practice-foundation-",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Systemic Practice (Intermediate) ND",
+      "url": "https://courses.leeds.ac.uk/202627/i422/systemic-practice-intermediate-",
+      "duration": "12 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Teaching English to Speakers of Other Languages MA",
+      "url": "https://courses.leeds.ac.uk/202627/a613/teaching-english-to-speakers-of-other-languages-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Teaching English to Speakers of Other Languages MA",
+      "url": "https://courses.leeds.ac.uk/202627/a219/teaching-english-to-speakers-of-other-languages-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Terrorism and Insurgency MA",
+      "url": "https://courses.leeds.ac.uk/202627/j684/terrorism-and-insurgency-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "TESOL Studies MA",
+      "url": "https://courses.leeds.ac.uk/202627/e828/tesol-studies-ma",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Textile Sustainability and Innovation MSc",
+      "url": "https://courses.leeds.ac.uk/202627/i888/textile-sustainability-and-innovation-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Transport Economics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/g820/transport-economics-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Transport Infrastructure: Design and Construction MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/i579/transport-infrastructure-design-and-construction-msc-eng-",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Transport Planning MSc",
+      "url": "https://courses.leeds.ac.uk/202627/8968/transport-planning-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Transport Planning and Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/e420/transport-planning-and-engineering-msc-eng-",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Transport Planning and the Environment MSc",
+      "url": "https://courses.leeds.ac.uk/202627/a386/transport-planning-and-the-environment-msc",
+      "duration": "12 Months (Full time), 24 Months (Part time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Urban Data Science and Analytics MSc",
+      "url": "https://courses.leeds.ac.uk/202627/j135/urban-data-science-and-analytics-msc",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    },
+    {
+      "name": "Water, Sanitation and Health Engineering MSc (Eng)",
+      "url": "https://courses.leeds.ac.uk/202627/g062/water-sanitation-and-health-engineering-msc-eng-",
+      "duration": "12 Months (Full time)",
+      "level": "Postgraduate"
+    }
+  ]
+}

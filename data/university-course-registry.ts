@@ -78,6 +78,7 @@ import { uclCourses as m_university_college_london } from './ucl-courses';
 import { adelaideCourses as m_university_of_adelaide } from './adelaide-courses';
 import { universityOfAmsterdamCourses as m_university_of_amsterdam } from './university-of-amsterdam-courses';
 import { aucklandCourses as m_university_of_auckland } from './auckland-courses';
+import { bhamCourses as m_university_of_birmingham } from './bham-courses';
 import { bathCourses as m_university_of_bath } from './bath-courses';
 import { bristolCourses as m_university_of_bristol } from './bristol-courses';
 import { ubcCourses as m_university_of_british_columbia } from './ubc-courses';
@@ -97,6 +98,7 @@ import { uguelphCourses as m_university_of_guelph } from './uguelph-courses';
 import { uhamCourses as m_university_of_hamburg } from './uham-courses';
 import { universityOfHelsinkiCourses as m_university_of_helsinki } from './university-of-helsinki-courses';
 import { hertfordshireCourses as m_university_of_hertfordshire } from './hertfordshire-courses';
+import { leedsCourses as m_university_of_leeds } from './leeds-courses';
 import { manchesterCourses as m_university_of_manchester } from './manchester-courses';
 import { umanitobaCourses as m_university_of_manitoba } from './umanitoba-courses';
 import { uomCourses as m_university_of_melbourne } from './uom-courses';
@@ -207,6 +209,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-adelaide': m_university_of_adelaide,
   'university-of-amsterdam': m_university_of_amsterdam,
   'university-of-auckland': m_university_of_auckland,
+  'university-of-birmingham': m_university_of_birmingham,
   'university-of-bath': m_university_of_bath,
   'university-of-bristol': m_university_of_bristol,
   'university-of-british-columbia': m_university_of_british_columbia,
@@ -226,6 +229,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-hamburg': m_university_of_hamburg,
   'university-of-helsinki': m_university_of_helsinki,
   'university-of-hertfordshire': m_university_of_hertfordshire,
+  'university-of-leeds': m_university_of_leeds,
   'university-of-manchester': m_university_of_manchester,
   'university-of-manitoba': m_university_of_manitoba,
   'university-of-melbourne': m_university_of_melbourne,

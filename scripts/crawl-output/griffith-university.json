@@ -1,0 +1,2988 @@
+{
+  "slug": "griffith-university",
+  "sourceUrl": "https://degrees.griffith.edu.au/rest-api/v3/index/programs",
+  "crawledAt": "2026-07-07T11:25:19.547Z",
+  "courses": [
+    {
+      "name": "Master of Clinical Psychology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5070/Overview",
+      "award": "MClinPsych",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Master of Speech Pathology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5567/Overview",
+      "award": "MSpPath",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Forensic Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1264/Overview",
+      "award": "BForSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1112/Overview",
+      "award": "BCCJ",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Bachelor of Health Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1093/Overview",
+      "award": "BHSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Psychology (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1014/Overview",
+      "award": "BPsych(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1023/Overview",
+      "award": "BA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Psychological Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1012/Overview",
+      "award": "BPsychSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Design (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2043/Overview",
+      "award": "BDes(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Music (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2051/Overview",
+      "award": "BMus(Hons)/BMusHons",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland Conservatorium"
+    },
+    {
+      "name": "Bachelor of Marine Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1328/Overview",
+      "award": "BMarSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Film and Screen Media Production",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1284/Overview",
+      "award": "BFScrMePr",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Film School"
+    },
+    {
+      "name": "Bachelor of Languages and Linguistics",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1116/Overview",
+      "award": "BA/BLangLing",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1189/Overview",
+      "award": "BDes",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Biomedical Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1031/Overview",
+      "award": "BBiomedSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1021/Overview",
+      "award": "BA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Exercise Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1171/Overview",
+      "award": "BExSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Contemporary Australian Indigenous Art",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1187/Overview",
+      "award": "BContempAusIndigA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Diploma of Languages",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8025/Overview",
+      "award": "DipLang",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Graduate Diploma of Health Research",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4161/Overview",
+      "award": "GDipHealthRes",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Information Technology (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2020/Overview",
+      "award": "BIT(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Arts/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1293/Overview",
+      "award": "BA/BBus",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Aviation Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1367/Overview",
+      "award": "BAvnMgt",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Graduate Certificate in Marketing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3068/Overview",
+      "award": "GCertMark",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Business Administration",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3047/Overview",
+      "award": "GCertBusAdmin",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Forensic Mental Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3154/Overview",
+      "award": "GCertForMentH",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Bachelor of Biomedical Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1094/Overview",
+      "award": "BBiomedSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1162/Overview",
+      "award": "BN",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Doctor of Philosophy",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/6001/Overview",
+      "award": "PhD",
+      "academicCareer": "Research",
+      "type": "Doctor",
+      "academicOrgDescr": "Griffith Graduate Research School"
+    },
+    {
+      "name": "Graduate Certificate in International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3142/Overview",
+      "award": "GCertIntRel",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Visual Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3181/Overview",
+      "award": "GCertVA",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Graduate Certificate in Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3152/Overview",
+      "award": "GCertCCJ",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Bachelor of Psychological Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2004/Overview",
+      "award": "BPsychSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Medical Laboratory Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1370/Overview",
+      "award": "BMedLabSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Graduate Certificate in Teaching English to Speakers of Other Languages",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3016/Overview",
+      "award": "GCertTESOL",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Graduate Certificate in Human Services",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3272/Overview",
+      "award": "GCertHuServ",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Graduate Certificate in Health Services Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3082/Overview",
+      "award": "GCertHServMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of International Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5311/Overview",
+      "award": "MIntBus",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Arts (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2007/Overview",
+      "award": "BA(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Advanced Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1330/Overview",
+      "award": "BAdvancedSc (Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Midwifery",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1354/Overview",
+      "award": "BMid",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Graduate Certificate in Aviation Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3112/Overview",
+      "award": "GCertAvnMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Graduate Certificate in Forensic Mental Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3262/Overview",
+      "award": "GCertForMentH",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Graduate Certificate in Policy Analysis",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3210/Overview",
+      "award": "GCertPolicyAnalysis",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Philosophy",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5001/Overview",
+      "award": "MPhil",
+      "academicCareer": "Research",
+      "type": "Masters (Research)",
+      "academicOrgDescr": "Griffith Graduate Research School"
+    },
+    {
+      "name": "Master of Urban and Environmental Planning",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5576/Overview",
+      "award": "MUrbanEnvPlan",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Architecture",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5558/Overview",
+      "award": "MArch",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Public Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5263/Overview",
+      "award": "MPH",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Social Work",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1372/Overview",
+      "award": "BSocWk/BSocWkHons",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Medical Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1280/Overview",
+      "award": "BMedSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Science/Bachelor of Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1045/Overview",
+      "award": "BIT/BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Doctor of Visual Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/6009/Overview",
+      "award": "DVA",
+      "academicCareer": "Research",
+      "type": "Doctor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Graduate Diploma of Research Studies in Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4160/Overview",
+      "award": "GDipResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Autism Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3270/Overview",
+      "award": "GCertAutismSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Psychological Science/Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1115/Overview",
+      "award": "BCCJ/BPsychSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Bachelor of Animation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1179/Overview",
+      "award": "BAnim",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Film School"
+    },
+    {
+      "name": "Bachelor of Psychological Science/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1013/Overview",
+      "award": "BBus/BPsychSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1245/Overview",
+      "award": "BComm",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Graduate Certificate in Research Studies in Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3275/Overview",
+      "award": "GCertResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Business Administration",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5158/Overview",
+      "award": "MBA",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Rehabilitation Counselling",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5578/Overview",
+      "award": "MRehabCounsel",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Human Services",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1394/Overview",
+      "award": "BHuServ",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Doctor of Medicine",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5099/Overview",
+      "award": "MD",
+      "academicCareer": "Postgraduate",
+      "type": "Doctor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Musical Theatre",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1404/Overview",
+      "award": "BMusTheatre",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland Conservatorium"
+    },
+    {
+      "name": "Bachelor of Industrial Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1407/Overview",
+      "award": "BIDes",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Human Services (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2092/Overview",
+      "award": "BHuServ(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Master of Primary Teaching",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5587/Overview",
+      "award": "MPrimaryTeach",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Medical Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2099/Overview",
+      "award": "BMedSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Nursing (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2094/Overview",
+      "award": "BN(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Bachelor of International Tourism and Hotel Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1408/Overview",
+      "award": "BIntTourHoMgt",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Health Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2101/Overview",
+      "award": "BHSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Biomedical Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2100/Overview",
+      "award": "BBiomedSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Exercise Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2096/Overview",
+      "award": "BExSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Midwifery (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2095/Overview",
+      "award": "BMidwifery(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Health Services Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5586/Overview",
+      "award": "MHServMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Finance",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5592/Overview",
+      "award": "MFin",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Diploma of Clinical Physiology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4168/Overview",
+      "award": "GDipClPhysiol",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Clinical Leadership",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3280/Overview",
+      "award": "GCertClinLead",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Acute Care Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3289/Overview",
+      "award": "GCertAcuteCareN",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Advanced Health Services Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5627/Overview",
+      "award": "MAdvHServMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Nutrition and Dietetics (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1436/Overview",
+      "award": "BNutrDiet(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Business (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2088/Overview",
+      "award": "BBus(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Critical Care Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3290/Overview",
+      "award": "GCertCritCareN",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Graduate Certificate in Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3306/Overview",
+      "award": "GCertBus",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Marketing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5629/Overview",
+      "award": "MMark",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Education and Professional Studies Research",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5608/Overview",
+      "award": "MEdProfStRes",
+      "academicCareer": "Research",
+      "type": "Masters (Research)",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Doctor of Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/6022/Overview",
+      "award": "EdD",
+      "academicCareer": "Research",
+      "type": "Doctor",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Social Work (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1416/Overview",
+      "award": "BSocWk(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Sport Development",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1493/Overview",
+      "award": "BSportDev",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Master of Human Services",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5604/Overview",
+      "award": "MHuServ",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Graduate Certificate in Emergency Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3291/Overview",
+      "award": "GCertEmergN",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Environmental Engineering",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5593/Overview",
+      "award": "MEnvEng",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Environment",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5611/Overview",
+      "award": "MEnv",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Creative and Professional Writing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3302/Overview",
+      "award": "GCertCtveProfWriting",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Architectural Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1492/Overview",
+      "award": "BArchDes",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5612/Overview",
+      "award": "MIT",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of International Tourism and Hotel Management/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1482/Overview",
+      "award": "BBus/BIntTourHoMgt",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Safety Leadership",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3298/Overview",
+      "award": "GCertSafLead",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Master of Autism Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5595/Overview",
+      "award": "MAutismSt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Master of Mental Health Practice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5625/Overview",
+      "award": "MMentHPrac",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Master of Environmental Engineering and Pollution Control",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5648/Overview",
+      "award": "MEnvEngPollutionCont",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Engineering Project Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5660/Overview",
+      "award": "MEngProjMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Civil Engineering",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5642/Overview",
+      "award": "MCivilEng",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of International Business/Master of International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5659/Overview",
+      "award": "MIntBus/MIntRel",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Information Systems and Information Technology Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5658/Overview",
+      "award": "MInfSysInfTechMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Graduate Certificate in Infection Prevention and Control",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3293/Overview",
+      "award": "GCertInfecPreventionCont",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Infection Prevention and Control",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5600/Overview",
+      "award": "MInfecPreventionCont",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Graduate Certificate in Primary Maternity Care",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3310/Overview",
+      "award": "GCertPrimaryMaternityCare",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Primary Maternity Care",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5655/Overview",
+      "award": "MPrimaryMaternityCare",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Visual Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5663/Overview",
+      "award": "MVA",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Master of Pharmacy",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5661/Overview",
+      "award": "MPharm",
+      "academicCareer": "Postgraduate",
+      "type": "Doctor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Medical Laboratory Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2116/Overview",
+      "award": "BMedLabSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Graduate Diploma of Research Studies in Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4174/Overview",
+      "award": "GDipResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Graduate Diploma of Research Studies in Engineering",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4176/Overview",
+      "award": "GDipResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Suicidology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5666/Overview",
+      "award": "MSuicidology",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Graduate Diploma of Criminological Research Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4179/Overview",
+      "award": "GDipCrimResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Executive Master of Public Administration",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5669/Overview",
+      "award": "MPA",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Early Childhood Education and Care",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3327/Overview",
+      "award": "GCertEarlyChiEdCare",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Aviation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1517/Overview",
+      "award": "BAvn",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Graduate Diploma of Law Research Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4177/Overview",
+      "award": "GDipLawResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Criminology and Criminal Justice (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2117/Overview",
+      "award": "BCCJ(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Master of Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5667/Overview",
+      "award": "MSc",
+      "academicCareer": "Research",
+      "type": "Masters (Research)",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Diploma of Research Studies in Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4175/Overview",
+      "award": "GDipResSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Leadership and Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3267/Overview",
+      "award": "GCertLeadMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Civil Engineering/Master of Engineering Project Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5682/Overview",
+      "award": "MCivilEng/MEngProjMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Pharmacology and Toxicology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1528/Overview",
+      "award": "BPcolTox",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Pharmacology and Toxicology (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2118/Overview",
+      "award": "BPcolTox(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Computer Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1534/Overview",
+      "award": "BCompSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Master of Professional Accounting",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5683/Overview",
+      "award": "MProfAc",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Paramedicine",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1533/Overview",
+      "award": "BParamed",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Master of Financial Planning",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5686/Overview",
+      "award": "MFinPlan",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Diploma of Financial Planning",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4186/Overview",
+      "award": "GDipFinPlan",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Civil Engineering Advanced",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5692/Overview",
+      "award": "MCivilEngAdv",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Engineering Project Management Advanced",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5693/Overview",
+      "award": "MEngProjMgtAdv",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Biomolecular Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1540/Overview",
+      "award": "BBiomolSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1538/Overview",
+      "award": "BIT",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Environmental Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1547/Overview",
+      "award": "BEnvSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1546/Overview",
+      "award": "BEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Counselling",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1548/Overview",
+      "award": "BCouns",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Information Technology/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1570/Overview",
+      "award": "BBus/BIT",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Design/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1568/Overview",
+      "award": "BBus/BDes",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1567/Overview",
+      "award": "BEd",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1556/Overview",
+      "award": "BBus/BEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1560/Overview",
+      "award": "BEng(Hons)/BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Environmental Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1555/Overview",
+      "award": "BEng(Hons)/BEnvSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Environmental Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1554/Overview",
+      "award": "BEng(Hons)/BEnvSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1558/Overview",
+      "award": "BEng(Hons)/BIT",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Psychological Science/Master of Mental Health Practice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5697/Overview",
+      "award": "BPsychSc/MMentHPrac",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Psychological Science/Master of Rehabilitation Counselling",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5696/Overview",
+      "award": "BPsychSc/MRehabCounsel",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Science/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1572/Overview",
+      "award": "BBus/BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3225/Overview",
+      "award": "GCertCCJ",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Bachelor of Pharmacy (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2119/Overview",
+      "award": "BPharm(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Dental Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1574/Overview",
+      "award": "BDentTech",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Acting",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1575/Overview",
+      "award": "BAct",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland Conservatorium"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Industrial Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1441/Overview",
+      "award": "BEng(Hons)/BIDes",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Environmental Science/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1582/Overview",
+      "award": "BBus/BEnvSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Dental Health Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1577/Overview",
+      "award": "BDentHSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Aviation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1584/Overview",
+      "award": "BAvn/BEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Engineering (Honours)/Bachelor of Computer Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1585/Overview",
+      "award": "BCompSc/BEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Secondary Teaching",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5700/Overview",
+      "award": "MSecTeach",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Master of Clinical Dentistry",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5702/Overview",
+      "award": "MClinDent",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Public Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1440/Overview",
+      "award": "BPH",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Doctor of Clinical Dentistry",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5699/Overview",
+      "award": "DClinDent",
+      "academicCareer": "Postgraduate",
+      "type": "Doctor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Master of Dentistry",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5703/Overview",
+      "award": "MDent",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Dental Technology/Bachelor of Dental Prosthetics",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1580/Overview",
+      "award": "BDentProsthet/BDentTech",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Master of International Tourism and Hospitality Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5709/Overview",
+      "award": "MIntTourHospMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Physiotherapy (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1590/Overview",
+      "award": "BPhty(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Graduate Certificate in International Tourism and Hospitality Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3117/Overview",
+      "award": "GCertIntTourHospMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Diploma of Australian Migration Law and Practice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4190/Overview",
+      "award": "GDipAusMigrationLaw&Prac",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Masters Qualifying Program",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/9354/Overview",
+      "academicCareer": "Non Award",
+      "type": "Non Award",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Sport Development (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2120/Overview",
+      "award": "BSportDev(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Graduate Certificate in Paediatric Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3343/Overview",
+      "award": "GCertPaedN",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5632/Overview",
+      "award": "MBus",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Paramedicine (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2122/Overview",
+      "award": "BParamed(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Health (Honours) in Public Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2121/Overview",
+      "award": "BH(Hons)PH",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Master of Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5720/Overview",
+      "award": "MDes",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Graduate Certificate in Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3344/Overview",
+      "award": "GCertDes",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Graduate Certificate in Professional Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3345/Overview",
+      "award": "GCertProfN",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Advanced Nursing Practice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5721/Overview",
+      "award": "MAdvancedNPrac",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Graduate Diploma of Rotary Wing Flight Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/4195/Overview",
+      "award": "GDipRotaryWFlMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Diploma",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Nursing/Graduate Certificate in Paediatric Nursing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3347/Overview",
+      "award": "BN/GCertPaedN",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Master of Marketing/Master of International Tourism and Hospitality Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5716/Overview",
+      "award": "MIntTourHospMgt/MMark",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Marketing/Master of International Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5717/Overview",
+      "award": "MIntBus/MMark",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Global Development",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5724/Overview",
+      "award": "MGlobalDev",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Construction Management (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1598/Overview",
+      "award": "BConsMgt(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Global Public Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5725/Overview",
+      "award": "MGlobalPH",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Environmental Science/Bachelor of Data Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1600/Overview",
+      "award": "BDataSc/BEnvSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Science/Bachelor of Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1592/Overview",
+      "award": "BA/BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Master of Professional Engineering",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5728/Overview",
+      "award": "MProfEng",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Graduate Certificate in University Learning and Teaching",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3353/Overview",
+      "award": "GCertUnivLearnTeach",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Centre for Collaborative Educational Excellence"
+    },
+    {
+      "name": "Master of Cyber Security",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5726/Overview",
+      "award": "MCybSecurity",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Clinical Exercise Physiology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1604/Overview",
+      "award": "BClinExPhysiol/BExSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Science/Bachelor of Data Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1601/Overview",
+      "award": "BDataSc/BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Master of International Law",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5729/Overview",
+      "award": "MIntLaw",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Applied Financial Advice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1612/Overview",
+      "award": "BAppFinA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Biotechnology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5714/Overview",
+      "award": "MBiotech",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Computer Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2123/Overview",
+      "award": "BCompSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Business/Bachelor of Data Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1605/Overview",
+      "award": "BBus/BDataSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Juris Doctor",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5734/Overview",
+      "award": "JD",
+      "academicCareer": "Postgraduate",
+      "type": "Doctor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Master of Catchment Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5731/Overview",
+      "award": "MChSc",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Catchment Hydrology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3360/Overview",
+      "award": "GCertChHydro",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Dental Hygiene",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1613/Overview",
+      "award": "BDentHyg",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Master of International Law Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5738/Overview",
+      "award": "MIntLawSt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Sport Development/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1615/Overview",
+      "award": "BBus/BSportDev",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Aviation/Bachelor of Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1610/Overview",
+      "award": "BAvn/BIT",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Pharmacy (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1614/Overview",
+      "award": "BPharm(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1620/Overview",
+      "award": "LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1619/Overview",
+      "award": "LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Graduate Certificate in Applied Behaviour Analysis",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3363/Overview",
+      "award": "GCertAppBehAnalysis",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Master of Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5735/Overview",
+      "award": "MEd",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Graduate Certificate in Disability Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3370/Overview",
+      "award": "GCertDisSt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Dental Health Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2126/Overview",
+      "award": "BDentHSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Dental Technology (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2127/Overview",
+      "award": "BDentTech(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Bachelor of Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2125/Overview",
+      "award": "BSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1632/Overview",
+      "award": "BBus",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Advanced Business (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1633/Overview",
+      "award": "BAdvancedBus(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1634/Overview",
+      "award": "BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Master of Applied Behaviour Analysis",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5744/Overview",
+      "award": "MAppBehAnalysis",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1383/Overview",
+      "award": "BBus",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Applied Financial Advice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1630/Overview",
+      "award": "BAppFinA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Global Development",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3373/Overview",
+      "award": "GCertGlobalDev",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Building Services",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5742/Overview",
+      "award": "MBuildServ",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Graduate Certificate in Climate Change Adaptation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3372/Overview",
+      "award": "GCertClimChgAdapt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Building Services",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3374/Overview",
+      "award": "GCertBuildServ",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Urban and Environmental Planning (Honours)/Bachelor of Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1635/Overview",
+      "award": "BSc/BUrbanEnvPlan(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Dental Prosthetics",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1638/Overview",
+      "award": "BDentProsthet",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Medicine and Dentistry"
+    },
+    {
+      "name": "Graduate Certificate in Suicidology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3382/Overview",
+      "award": "GCertSuicidology",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Master of Financial Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5746/Overview",
+      "award": "MFinTech",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Professional Psychology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5747/Overview",
+      "award": "MProfPsych",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Master of Human Resource Management and Employment Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5748/Overview",
+      "award": "MHRMEmpRel",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Human Resource Management and Employment Relations/Master of International Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5749/Overview",
+      "award": "MHRMEmpRel/MIntBus",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Visual Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1651/Overview",
+      "award": "BVA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Undergraduate Certificate in STEM Foundations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8027/Overview",
+      "award": "UCertSTEMFoundations",
+      "academicCareer": "Undergraduate",
+      "type": "Undergraduate Certificate",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Renewable Energy Engineering",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3386/Overview",
+      "award": "GCertRenewEnergyEng",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Visual Arts/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1652/Overview",
+      "award": "BBus/BVA",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Visual Arts (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2130/Overview",
+      "award": "BVA(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Advanced International Tourism and Hotel Management (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1655/Overview",
+      "award": "BAdvancedIntTourHoMgt(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Software Engineering (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1656/Overview",
+      "award": "BSEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Master of Human Resource Management and Employment Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5750/Overview",
+      "award": "MHRMEmpRel",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Advanced Computer Science (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1657/Overview",
+      "award": "BAdvancedCompSc(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Urban Planning (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1658/Overview",
+      "award": "BUrbanPlan(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Urban Planning (Honours)/Bachelor of Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1660/Overview",
+      "award": "BSc/BUrbanPlan(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Occupational Therapy (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1662/Overview",
+      "award": "BOccThy(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Diploma of Computing and Data Analytics",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8032/Overview",
+      "award": "DipCompDataAnalytics",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Doctor of Philosophy in Clinical Psychology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/6028/Overview",
+      "award": "PhDClinPsych",
+      "academicCareer": "Research",
+      "type": "Doctor",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Diploma of Information Technology",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8034/Overview",
+      "award": "DipIT",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Diploma of Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8044/Overview",
+      "award": "DipEd",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Diploma of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8036/Overview",
+      "award": "DipBus",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8040/Overview",
+      "award": "DipA",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Diploma of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8042/Overview",
+      "award": "DipCCJ",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Diploma of Applied Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8035/Overview",
+      "award": "DipAppSc",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Diploma of Engineering",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8046/Overview",
+      "award": "Dip Eng",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Diploma of Music",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8047/Overview",
+      "award": "DipMus",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Queensland Conservatorium"
+    },
+    {
+      "name": "Graduate Certificate in Financial Crime Investigation and Compliance",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3400/Overview",
+      "award": "GCertFCIC",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Clinical Psychology Practice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5753/Overview",
+      "award": "MClPsychPrac",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Bachelor of Industrial Design (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2131/Overview",
+      "award": "BIDes(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Political Science and International Relations/Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1667/Overview",
+      "award": "BCCJ/BPoliSciIntRel",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Political Science and International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1664/Overview",
+      "award": "BPoliSciIntRel",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Advanced Political Science and International Relations (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1665/Overview",
+      "award": "BAdvancedPoliSciIntRel(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Business/Bachelor of Political Science and International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1666/Overview",
+      "award": "BBus/BPoliSciIntRel",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of Political Science and International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8052/Overview",
+      "award": "DipPoliSciIntRel",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of International Tourism and Hotel Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8051/Overview",
+      "award": "DipIntTourHoMgt",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of Applied Financial Advice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8050/Overview",
+      "award": "DipAppFinA",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Political Science and International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1675/Overview",
+      "award": "BPoliSciIntRel/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1672/Overview",
+      "award": "BCCJ/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1670/Overview",
+      "award": "BA/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Environmental Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1673/Overview",
+      "award": "BEnvSc/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1671/Overview",
+      "award": "BBus/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Psychological Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1674/Overview",
+      "award": "BPsychSc/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Cyber Security",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1677/Overview",
+      "award": "BCybSecu",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Diploma of Psychological Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8056/Overview",
+      "award": "DipPsychSc",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Applied Psychology"
+    },
+    {
+      "name": "Master of International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5754/Overview",
+      "award": "MIntRel",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Financial Crime Investigation and Compliance",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5755/Overview",
+      "award": "MFinCIC",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Teaching English to Speakers of Other Languages",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5757/Overview",
+      "award": "MTESOL",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Master of Teaching English to Speakers of Other Languages and Leadership",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5756/Overview",
+      "award": "MTESOLL",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Advanced Commerce (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1676/Overview",
+      "award": "BAdvCom(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Commerce",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1684/Overview",
+      "award": "BCom",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Crime Scene Investigation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3402/Overview",
+      "award": "GCertCSI",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Architectural Design/Master of Architecture",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5759/Overview",
+      "award": "BArchDes/MArch",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1685/Overview",
+      "award": "BComm",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Architectural Design/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1689/Overview",
+      "award": "BArchDes/BBus",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Architectural Design/Bachelor of Construction Management (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1688/Overview",
+      "award": "BArchDes/BConsMgt(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Bachelor of Advanced Engineering (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1690/Overview",
+      "award": "BAdvancedEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Diploma of Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8058/Overview",
+      "award": "DipComm",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Music",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1687/Overview",
+      "award": "BMus",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Queensland Conservatorium"
+    },
+    {
+      "name": "Master of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5761/Overview",
+      "award": "MCCJ",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Bachelor of Advanced Digital Marketing and Analytics (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1686/Overview",
+      "award": "BAdvDigitalMarkAnalyticsH",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Cyber Security/Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1695/Overview",
+      "award": "BCCJ/BCybSecu",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Cyber Security/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1696/Overview",
+      "award": "BBus/BCybSecu",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Diploma of Commerce",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8064/Overview",
+      "award": "DipCom",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of Visual Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8065/Overview",
+      "award": "DipVA",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Political Science and International Relations/Master of International Law",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5767/Overview",
+      "award": "BPoliSciIntRel/MIntLaw",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Business/Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1694/Overview",
+      "award": "BBus/BCCJ",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Public Policy and Leadership",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5762/Overview",
+      "award": "MPP&Lead",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Nursing Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5768/Overview",
+      "award": "MNursingSc",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Diploma of Nursing Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8060/Overview",
+      "award": "DipNrsSc",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Diploma of Social and Human Services",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8073/Overview",
+      "award": "DipSoHuSer",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Diploma of Exercise Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8071/Overview",
+      "award": "DipExSc",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Diploma of Health Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8069/Overview",
+      "award": "DipHthSc",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Bachelor of Game Design and Production",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1697/Overview",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Film School"
+    },
+    {
+      "name": "Graduate Certificate in Employment Relations and Human Resource Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3406/Overview",
+      "award": "GCert ERHR",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Data Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5770/Overview",
+      "award": "MDataSc",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Graduate Certificate in Special Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3409/Overview",
+      "award": "GCSpecEd",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1692/Overview",
+      "award": "BComm/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Graduate Certificate in Commerce",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3408/Overview",
+      "award": "GCCom",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of Design",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8067/Overview",
+      "award": "DipDes",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Bachelor of Communication/Master of Public Policy and Leadership",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5773/Overview",
+      "award": "BComm/MPP&Lead",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Master of Social Work",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5758/Overview",
+      "award": "MSocWk",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Graduate Certificate in Strategic Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3411/Overview",
+      "award": "GCertStrategicComm",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Arts/Master of Public Policy and Leadership",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5772/Overview",
+      "award": "BA/MPP&Lead",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Graduate Certificate in Case Management and Mental Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3404/Overview",
+      "award": "GCertCMMH",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Biomedical Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1700/Overview",
+      "award": "BBiomedSc/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Digital Marketing and Analytics",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1691/Overview",
+      "award": "BDigitalMarkAnalytics",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Communication/Bachelor of Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1704/Overview",
+      "award": "BComm/BSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Communication/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1703/Overview",
+      "award": "BBus/BComm",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Communication/Bachelor of Political Science and International Relations",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1705/Overview",
+      "award": "BComm/BPoliSciIntRel",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Master of Cinematic Arts",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5774/Overview",
+      "award": "MCinArts",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Film School"
+    },
+    {
+      "name": "Bachelor of Exercise Science/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1701/Overview",
+      "award": "BBus/BExSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Master of Climate Change Adaptation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5765/Overview",
+      "award": "MClimChgAd",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Bachelor of Exercise Science/Bachelor of Psychological Science",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1702/Overview",
+      "award": "BExSc/BPsychSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Cyber Security",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1698/Overview",
+      "award": "BCybSecu/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Laws (Honours)/Bachelor of Commerce",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1699/Overview",
+      "award": "BCom/LLB(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Master of Integrated Water Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5766/Overview",
+      "award": "MIntegratedWMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Master of Social Work/Master of Mental Health Practice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5775/Overview",
+      "award": "MMentHPrac/MSocWk",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Allied Health, Sport and Social Work"
+    },
+    {
+      "name": "Bachelor of Cinematic Arts (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/2132/Overview",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Film School"
+    },
+    {
+      "name": "Bachelor of Forensic Science/Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1706/Overview",
+      "award": "BCCJ/BForSc",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Master of Music",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5771/Overview",
+      "award": "MMus",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Queensland Conservatorium"
+    },
+    {
+      "name": "Master of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5777/Overview",
+      "award": "MCCJ",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Master of Health and Medical Research",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5763/Overview",
+      "award": "MHMedRes",
+      "academicCareer": "Research",
+      "type": "Masters (Research)",
+      "academicOrgDescr": "School of Pharmacy and Medical Sciences"
+    },
+    {
+      "name": "Diploma of Contemporary Australian Indigenous Art",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8080/Overview",
+      "award": "DipCAIndAr",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Queensland College of Art and Design"
+    },
+    {
+      "name": "Master of Aviation Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5776/Overview",
+      "award": "MAvnMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Graduate Certificate in Employment Relations and Human Resource Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3407/Overview",
+      "award": "GCert ERHR",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Quantum Electronic Engineering (Honours)",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1714/Overview",
+      "award": "BQuantumElecEng(Hons)",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Engineering and Built Environment"
+    },
+    {
+      "name": "Diploma of Legal Studies",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8081/Overview",
+      "award": "DipLegalSt",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Law School"
+    },
+    {
+      "name": "Bachelor of Commerce/Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1716/Overview",
+      "award": "BBus/BCom/BComm",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Diploma of Technical Screen Production",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8082/Overview",
+      "award": "DipTeScrP",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Film School"
+    },
+    {
+      "name": "Master of Information Technology and Artificial Intelligence",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5782/Overview",
+      "award": "MInfTechAI",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Diploma of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8083/Overview",
+      "award": "DipBus",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Information Technology and Artificial Intelligence",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3418/Overview",
+      "award": "GCertITAI",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1715/Overview",
+      "award": "BCCJ",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Master of Primary Teaching",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5781/Overview",
+      "award": "MPrimaryTeach",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Business in Business Analytics",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1720/Overview",
+      "award": "BBusBusAna",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Business in Marketing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1718/Overview",
+      "award": "BBusMKT",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1717/Overview",
+      "award": "BBus",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Bachelor of Business in Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1719/Overview",
+      "award": "BBusMGT",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Forensic Mental Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5779/Overview",
+      "award": "MForMentH",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Master of Cyber Security and Artificial Intelligence",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5778/Overview",
+      "award": "MCybSecAI",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Diploma of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8095/Overview",
+      "award": "DipCCJ",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Master of Forensic Mental Health",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5780/Overview",
+      "award": "MForMentH",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Graduate Certificate in Information Technology and Artificial Intelligence",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3419/Overview",
+      "award": "GCertITAI",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Information and Communication Technology"
+    },
+    {
+      "name": "Bachelor of Criminology and Criminal Justice",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1713/Overview",
+      "award": "BCCJ",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Criminology and Criminal Justice"
+    },
+    {
+      "name": "Diploma of Journalism",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8092/Overview",
+      "award": "DipJour",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Diploma of Strategic Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8089/Overview",
+      "award": "DipStrategicCom",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Diploma of Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8084/Overview",
+      "award": "DipComm",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Diploma of Creative Writing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8086/Overview",
+      "award": "DipCtveWriting",
+      "academicCareer": "Undergraduate",
+      "type": "Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Advanced Diploma in Creative Writing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8088/Overview",
+      "award": "AdvDipCtvW",
+      "academicCareer": "Undergraduate",
+      "type": "Advanced Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Undergraduate Certificate in Creative Writing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8087/Overview",
+      "award": "UCertCtveWriting",
+      "academicCareer": "Undergraduate",
+      "type": "Undergraduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Undergraduate Certificate in Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8085/Overview",
+      "award": "UCertComm",
+      "academicCareer": "Undergraduate",
+      "type": "Undergraduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Undergraduate Certificate in Journalism",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8093/Overview",
+      "award": "UCertJour",
+      "academicCareer": "Undergraduate",
+      "type": "Undergraduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Advanced Diploma in Journalism",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8094/Overview",
+      "award": "AdvDipJourn",
+      "academicCareer": "Undergraduate",
+      "type": "Advanced Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Advanced Diploma in Strategic Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8091/Overview",
+      "award": "AdvDipStrategicComm",
+      "academicCareer": "Undergraduate",
+      "type": "Advanced Diploma",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Undergraduate Certificate in Strategic Communication",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/8090/Overview",
+      "award": "UCertStrategicComm",
+      "academicCareer": "Undergraduate",
+      "type": "Undergraduate Certificate",
+      "academicOrgDescr": "School of Humanities, Languages and Social Science"
+    },
+    {
+      "name": "Bachelor of Secondary Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1724/Overview",
+      "award": "BSecondaryEd",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Primary Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1723/Overview",
+      "award": "BPrimaryEd",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Bachelor of Early Childhood and Primary Education",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/1722/Overview",
+      "award": "BEarlyChiPrimaryEd",
+      "academicCareer": "Undergraduate",
+      "type": "Bachelor",
+      "academicOrgDescr": "School of Education and Professional Studies"
+    },
+    {
+      "name": "Graduate Certificate in Registered Nurse Prescribing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3420/Overview",
+      "award": "GCertRNP",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Nursing and Midwifery"
+    },
+    {
+      "name": "Graduate Certificate in Leadership and Business Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3416/Overview",
+      "award": "GCertLeadBusMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Leadership and Business Management",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3427/Overview",
+      "award": "GCertLeadBusMgt",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Master of Business Administration",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/5785/Overview",
+      "award": "MBA",
+      "academicCareer": "Postgraduate",
+      "type": "Masters",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Forensic Fingerprint Investigation",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3417/Overview",
+      "award": "GCertForFI",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "School of Environment and Science"
+    },
+    {
+      "name": "Graduate Certificate in Marketing",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3430/Overview",
+      "award": "GCertMark",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Commerce",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3429/Overview",
+      "award": "GCCom",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    },
+    {
+      "name": "Graduate Certificate in Business",
+      "url": "https://www148.griffith.edu.au/programs-courses/Program/3428/Overview",
+      "award": "GCertBus",
+      "academicCareer": "Postgraduate",
+      "type": "Graduate Certificate",
+      "academicOrgDescr": "Griffith Business School"
+    }
+  ]
+}

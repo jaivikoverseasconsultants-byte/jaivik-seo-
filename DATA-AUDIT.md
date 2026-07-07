@@ -56,17 +56,21 @@ Per the audit brief: **a false REAL is worse than a false CURATED** — every RE
 
 ## Summary
 
-- **93 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba.)
-- **348 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
+- **95 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba. Updated 2026-07-08, Wave 2: +University of Birmingham, +University of Leeds; Griffith University corrected from a false REAL to a genuine REAL with fresh evidence.)
+- **346 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
 - **7 MIXED** — a file combining a block of real deep-linked courses with a block of templated/stub courses.
 - **10 UNSURE** — no registry entry (no course pages are generated for this university at all) or otherwise unverifiable; do not treat as REAL or CURATED without further investigation.
 - **Total universities: 458**
+
+### Wave 2 real-data replacement (2026-07-08)
+
+Crawled genuine course data for University of Birmingham (603 courses) and University of Leeds (589 courses), both previously CURATED and pruned from the index in the original prune pass — REGISTRY entries and course routes were recreated from scratch for both. Also corrected Griffith University, which Wave 0's audit had misclassified as REAL: all 81 of its original "courses" actually pointed at the same bare griffith.edu.au/courses homepage (a false REAL — worse than a false CURATED, per the audit brief's own standard). Re-crawled from Griffith's own program REST API for 373 genuine courses. University of Sheffield (already REAL) was re-verified and left untouched — its data is still good. Crawl scripts: `scripts/crawl-griffith-real.js`, `scripts/crawl-bham-real.js`, `scripts/crawl-leeds-real.js` (+ matching `scripts/gen-*-real.js` generators).
 
 ### Wave 1 real-data replacement (2026-07-07)
 
 346 CURATED/MIXED universities were pruned from the index on 2026-07-07 (commit 38674b2c; see "prune" history). Wave 1 of the real-data replacement crawled genuine course data for the 4 highest lead-demand Canadian universities from that batch — Simon Fraser University, Dalhousie University, University of Ottawa, and University of Manitoba — moving all 4 to REAL (see updated rows and evidence below/above). Crawl scripts: `scripts/crawl-sfu-real.js`, `scripts/crawl-dal-real.js`, `scripts/crawl-uottawa-real.js`, `scripts/crawl-umanitoba-real.js` (+ matching `scripts/gen-*-real.js` generators). No estimated/fabricated course names were introduced — every course name and URL was scraped from the university's own site and validated (degree-keyword whitelist + URL-resolution check) before inclusion.
 
-### CURATED university slugs (exact list, 348 — updated 2026-07-07, Wave 1 removed simon-fraser-university, dalhousie-university, university-of-ottawa)
+### CURATED university slugs (exact list, 346 — updated 2026-07-07 Wave 1 removed simon-fraser-university/dalhousie-university/university-of-ottawa; updated 2026-07-08 Wave 2 removed university-of-birmingham/university-of-leeds)
 
 ```
 aalborg-university
@@ -314,7 +318,6 @@ university-of-alberta
 university-of-arizona
 university-of-barcelona
 university-of-bedfordshire
-university-of-birmingham
 university-of-bologna
 university-of-bonn
 university-of-bordeaux
@@ -340,7 +343,6 @@ university-of-greenwich
 university-of-grenoble-alpes
 university-of-huddersfield
 university-of-kent
-university-of-leeds
 university-of-leicester
 university-of-lethbridge
 university-of-limerick
@@ -550,7 +552,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | Goldsmiths, University of London | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | Grande Prairie Regional College | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.gprc.ab.ca), no real per-course pages |
 | Griffith College Dublin | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
-| Griffith University | Australia | REAL | 81 | No header, but all 81 courses have unique deep institution URLs (e.g. https://www.griffith.edu.au/courses), non-templated count |
+| Griffith University | Australia | REAL | 373 | **Correction (2026-07-08, Wave 2)**: this row was a false REAL — the original 81 "courses" all pointed at the exact same bare https://www.griffith.edu.au/courses homepage (verified by direct inspection), i.e. it was CURATED, not REAL. Re-crawled from Griffith's own program REST API (https://degrees.griffith.edu.au/rest-api/v3/index/programs), filtered to currentlyOffered=true with an official degree-type tag; every course has a unique real program overview page (e.g. https://www148.griffith.edu.au/programs-courses/Program/5070/Overview) |
 | Halmstad University | Sweden | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | HAN University of Applied Sciences | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.han.nl), no real per-course pages |
 | Harvard University | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
@@ -748,7 +750,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | University of Barcelona | Spain | CURATED | 53 | Header explicitly says curated/estimated/placeholder |
 | University of Bath | UK | REAL | 701 | Crawl header (Source: Sitemap crawl of https://www.bath.ac.uk/sitemap.xml) + all 701 courses deep-linked (e.g. https://www.bath.ac.uk/courses/undergraduate-2027/integrated-mechanical-and-electrical-engineering/beng-integrated-mechanical-and-electrical-engineering/) |
 | University of Bedfordshire | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
-| University of Birmingham | UK | CURATED | 112 | All 112 courses share one bare-homepage URL (https://www.birmingham.ac.uk), no real per-course pages |
+| University of Birmingham | UK | REAL | 603 | Wave 2 re-crawl (2026-07-08): official sitemap (https://www.birmingham.ac.uk/study/sitemap.xml), course URLs under /study/{undergraduate,postgraduate}/subjects/ filtered to a degree-suffix whitelist (BA/BSc/BEng/MEng/MSci/MSc/MA/MRes/LLB/LLM/PhD/PGCert/PGDip), every page fetched and its real H1 title used as the course name (e.g. https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc) |
 | University of Bologna | Italy | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.unibo.it), no real per-course pages |
 | University of Bonn | Germany | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Bordeaux | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.u-bordeaux.fr), no real per-course pages |
@@ -793,7 +795,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | University of Huddersfield | UK | CURATED | 30 | Header explicitly says curated/estimated/placeholder |
 | University of Illinois Urbana-Champaign | USA | REAL | 133 | Crawl header (sitemap/Puppeteer/CDX mention) + all 133 courses deep-linked (e.g. https://grad.illinois.edu/admissions/programs/biosciences-comparative) |
 | University of Kent | UK | CURATED | 52 | Header explicitly says curated/estimated/placeholder |
-| University of Leeds | UK | CURATED | 124 | All 124 courses share one bare-homepage URL (https://www.leeds.ac.uk), no real per-course pages |
+| University of Leeds | UK | REAL | 589 | Wave 2 re-crawl (2026-07-08): official course-search results (https://courses.leeds.ac.uk/course-search/undergraduate-courses and /masters-courses), paginated through all 21 UG + 19 PG result pages; every course has a real courses.leeds.ac.uk page URL and a real scraped duration (not estimated), e.g. https://courses.leeds.ac.uk/f834/accounting-and-finance-bsc |
 | University of Leicester | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Lethbridge | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.ulethbridge.ca), no real per-course pages |
 | University of Limerick | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
@@ -838,7 +840,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | University of Saskatchewan | Canada | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.usask.ca), no real per-course pages |
 | University of Seville | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.us.es), no real per-course pages |
 | University of Sharjah | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.sharjah.ac.ae), no real per-course pages |
-| University of Sheffield | UK | REAL | 127 | Crawl header (sitemap/Puppeteer/CDX mention) + all 127 courses deep-linked (e.g. https://sheffield.ac.uk/postgraduate/taught/courses/2026/applied-linguistics-and-tesol-ma) |
+| University of Sheffield | UK | REAL | 127 | Crawl header (sitemap/Puppeteer/CDX mention) + all 127 courses deep-linked (e.g. https://sheffield.ac.uk/postgraduate/taught/courses/2026/applied-linguistics-and-tesol-ma). Re-verified in Wave 2 (2026-07-08): still 127/127 unique deep-linked URLs, spot-checked live 200s — no re-crawl needed, classification confirmed correct |
 | University of South Australia | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of South Wales | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | University of Southampton | UK | REAL | 472 | Crawl header (Source: Sitemap crawl of https://www.southampton.ac.uk/sitemap.xml) + all 472 courses deep-linked (e.g. https://www.southampton.ac.uk/courses/accounting-finance-degree-bsc) |

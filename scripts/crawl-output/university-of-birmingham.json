@@ -1,95 +1,3625 @@
 {
   "slug": "university-of-birmingham",
-  "url": "https://www.birmingham.ac.uk/search?q=MSc+Masters&content_type=course",
+  "sourceUrl": "https://www.birmingham.ac.uk/study/sitemap.xml",
+  "crawledAt": "2026-07-07T11:29:48.770Z",
   "courses": [
     {
-      "name": "Dr Tamlyn Monson",
-      "url": "https://www.birmingham.ac.uk/staff/profiles/social-policy/monson-tamlyn.aspx"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+      "name": "Accounting and Finance MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "University of Birmingham community recognised in 2026 King’s Birthday Honours",
-      "url": "https://www.birmingham.ac.uk/news/2026/university-of-birmingham-community-recognised-in-2026-kings-birthday-honours"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/financial-economics-msc",
+      "name": "Financial Economics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Dr Shraddha M Naik",
-      "url": "https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/naik-shraddha.aspx"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/financial-management-msc",
+      "name": "Financial Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "GWTC-5.0: 390 Gravitational-Wave Detections and Counting",
-      "url": "https://www.birmingham.ac.uk/news/2026/gwtc-5.0-390-gravitational-wave-detections-and-counting"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/financial-technology-msc",
+      "name": "Financial Technology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "All-Party Parliamentary Group on Sustainable Plastics hosts inaugural Parliamentary Reception",
-      "url": "https://www.birmingham.ac.uk/news/2026/all-party-parliamentary-group-on-sustainable-plastics-hosts-inaugural-parliamentary-reception"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/investments-msc",
+      "name": "Investments MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Scientist creates ‘mini‑universe’ to measure time without a clock",
-      "url": "https://www.birmingham.ac.uk/news/2026/scientist-creates-miniuniverse-to-measure-time-without-a-clock"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/money-banking-and-finance-msc",
+      "name": "Money, Banking and Finance MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Ethnic minority EU citizens in the UK’s post-Brexit immigration system",
-      "url": "https://www.birmingham.ac.uk/news/2026/ethnic-minority-eu-citizens-in-the-uks-post-brexit-immigration-system"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/aerospace-engineering-courses/space-engineering-msc",
+      "name": "Space Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "My B-Experienced Internship: Public Relations with InStudents",
-      "url": "https://www.birmingham.ac.uk/study/student-experience/stories/search/my-b-experienced-internship-public-relations-with-instudents"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/african-studies-and-anthropology-courses/africa-and-development-ma",
+      "name": "Africa and Development MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
     },
     {
-      "name": "My Bee-Experience with It’s Our Planet Too",
-      "url": "https://www.birmingham.ac.uk/study/student-experience/stories/search/my-bee-experience-with-its-our-planet-too"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/african-studies-and-anthropology-courses/african-studies-and-anthropology-phd",
+      "name": "African Studies and Anthropology PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
     },
     {
-      "name": "Amira Hussain",
-      "url": "https://www.birmingham.ac.uk/staff/profiles/bia/hussain-amira.aspx"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/african-studies-and-anthropology-courses/african-studies-phd",
+      "name": "African Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
     },
     {
-      "name": "Russel Dsouza",
-      "url": "https://www.birmingham.ac.uk/staff/profiles/idai/dsouza-russel.aspx"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/african-studies-and-anthropology-courses/social-anthropology-phd",
+      "name": "Social Anthropology PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
     },
     {
-      "name": "Dr Sam Benkwitz-Bedford",
-      "url": "https://www.birmingham.ac.uk/staff/profiles/idai/benkwitz-bedford-sam.aspx"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/biosciences-phd",
+      "name": "Biosciences PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
     },
     {
-      "name": "Midlands Art Papers launches its ninth instalment: Craft and the decorative in the Midlands",
-      "url": "https://www.birmingham.ac.uk/news/2026/midlands-art-papers-launches-its-9th-instalment-craft-and-the-decorative-in-the-midlands"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/microbiology-and-infection-msc",
+      "name": "Microbiology and Infection MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Dr Martin Völkl",
-      "url": "https://www.birmingham.ac.uk/staff/profiles/physics/volkl-martin.aspx"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/molecular-and-cellular-biology-mres",
+      "name": "Molecular and Cellular Biology MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
     },
     {
-      "name": "Seven everyday changes could transform surgery’s environmental impact",
-      "url": "https://www.birmingham.ac.uk/news/2026/seven-everyday-changes-could-transform-surgerys-environmental-impact"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/molecular-biotechnology-msc",
+      "name": "Molecular Biotechnology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Preparing for your career throughout university",
-      "url": "https://www.birmingham.ac.uk/study/student-experience/stories/search/preparing-for-your-career-throughout-university"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/molecular-mechanistic-toxicology-mres",
+      "name": "Molecular Mechanistic Toxicology MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
     },
     {
-      "name": "Choosing modules in Computer Science: A student guide",
-      "url": "https://www.birmingham.ac.uk/study/student-experience/stories/search/choosing-modules-in-computer-science-a-student-guide"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/physiotherapy-and-rehabilitation-courses/physiotherapy-pre-reg-msc",
+      "name": "Physiotherapy (pre-registration) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Birmingham joins new partnership to support early career researchers across the West Midlands",
-      "url": "https://www.birmingham.ac.uk/news/2026/birmingham-joins-new-partnership-to-support-early-career-researchers-across-the-west-midlands"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/physiotherapy-and-rehabilitation-courses/spinal-pain-mres",
+      "name": "Spinal Pain MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
     },
     {
-      "name": "Character education linked with better GCSE results, new research finds",
-      "url": "https://www.birmingham.ac.uk/news/2026/character-education-linked-with-better-gcse-results-new-research-finds"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/ai-and-government-msc",
+      "name": "AI and Government MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
     },
     {
-      "name": "Engineering courses win £4.4m to strengthen UK defence skills pipeline",
-      "url": "https://www.birmingham.ac.uk/news/2026/engineering-skills-courses-receives-4.4m-funding-boost"
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/ai-and-sustainable-development-msc",
+      "name": "AI and Sustainable Development MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/conflict-security-and-development-msc",
+      "name": "Conflict, Security and Development MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/development-policy-and-politics-msc",
+      "name": "Development, Policy and Politics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/environment-development-and-politics-msc",
+      "name": "Environment, Development and Politics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/global-conflict-and-cooperation-ma",
+      "name": "Global Conflict and Cooperation MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-development-msc",
+      "name": "International Development MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-political-economy-ma",
+      "name": "International Political Economy MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-relations-ma",
+      "name": "International Relations MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/international-security-msc",
+      "name": "International Security MA / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/political-science-and-international-studies-phd",
+      "name": "Political Science and International Studies PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/politics-ma",
+      "name": "Politics MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/politics-development-and-international-relations-courses/poverty-inequality-and-development-msc",
+      "name": "Poverty, Inequality and Development MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/clinical-psychology-doctorate",
+      "name": "Clinical Psychology Doctorate ClinPsyD",
+      "suffix": "doctorate",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/cognitive-behaviour-therapy-high-intensity-pgdip",
+      "name": "Cognitive Behaviour Therapy High Intensity PGDip",
+      "suffix": "pgdip",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/cognitive-neuroimaging-and-data-science-msc",
+      "name": "Cognitive Neuroimaging and Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/developmental-science-and-neurodiversity-msc",
+      "name": "Developmental Science and Neurodiversity MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/mental-health-youth-msc",
+      "name": "Mental Health (Youth/Interdisciplinary) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/psychology-conversion-msc",
+      "name": "Psychology (Conversion) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/psychology-msc",
+      "name": "Psychology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/psychology-courses/psychology-phd",
+      "name": "Psychology PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/railway-engineering-courses/railway-safety-control-systems-msc",
+      "name": "Railway Safety and Control Systems MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/railway-engineering-courses/railway-systems-engineering-integration-msc",
+      "name": "Railway Systems Engineering and Integration MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/railway-engineering-courses/railway-systems-integration-mres",
+      "name": "Railway Systems Integration MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sexuality-and-gender-courses/gender-and-sexuality-ma",
+      "name": "Gender and Sexuality MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sexuality-and-gender-courses/sexuality-and-gender-studies-mres",
+      "name": "Sexuality and Gender Studies MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sexuality-and-gender-courses/sexuality-and-gender-studies-phd",
+      "name": "Sexuality and Gender Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/shakespeare-studies-courses/shakespeare-and-creativity-ma",
+      "name": "Shakespeare and Creativity MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/shakespeare-studies-courses/shakespeare-ma",
+      "name": "Shakespeare MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/shakespeare-studies-courses/shakespeare-online-ma",
+      "name": "Shakespeare (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/shakespeare-studies-courses/shakespeare-studies-phd",
+      "name": "Shakespeare Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/global-criminology-and-criminal-justice-ma",
+      "name": "Global Criminology and Criminal Justice MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/higher-specialist-work-in-mental-health-services-pgcert",
+      "name": "Approved Mental Health Professional Practice (AMHP) PGCert",
+      "suffix": "pgcert",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/social-policy-ma",
+      "name": "Social Policy MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/social-work-and-social-care-phd",
+      "name": "Social Work and Social Care PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/social-work-ma",
+      "name": "Social Work MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/social-policy-and-social-work-courses/sociology-ma",
+      "name": "Sociology MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/clinical-exercise-physiology-msc",
+      "name": "Clinical Exercise Physiology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/exercise-and-sport-sciences-mres",
+      "name": "Exercise and Sport Sciences MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/exercise-and-sports-medicine-msc",
+      "name": "Sports and Exercise Medicine MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/high-performance-sport-msc",
+      "name": "High Performance Sport MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/sport-and-exercise-science-phd",
+      "name": "Doctorate in Sport and Exercise Science DSportExSci",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/sport-business-management-and-leadership-msc",
+      "name": "Sport Business, Management and Leadership MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/sport-data-science-and-ai-msc",
+      "name": "Sport Data Science and AI MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/sport-and-exercise-sciences-courses/sport-exercise-and-rehabilitation-sciences-phd",
+      "name": "Sport, Exercise and Rehabilitation Sciences PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/applied-educational-and-child-psychology-doctorate",
+      "name": "Applied Educational and Child Psychology Doctorate AppEdChPsyD",
+      "suffix": "doctorate",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/character-education-ma",
+      "name": "Character Education (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/deaf-education-ma",
+      "name": "Deaf Education MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/education-ma",
+      "name": "Education MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/education-phd",
+      "name": "Education PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/educational-leadership-and-management-ma",
+      "name": "Educational Leadership and Management MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/inclusion-autism-adults-ma",
+      "name": "MA Inclusion: Autism in Adults (Online) MA / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/inclusion-autism-children-ma",
+      "name": "MA Inclusion: Autism in Children (Online) MA / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/inclusion-social-emotional-and-behavioural-difficulties-ma",
+      "name": "MA Inclusion (Social, Emotional and Behavioural Difficulties) (Online) MA / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/inclusion-special-educational-needs-ma",
+      "name": "MA Inclusion (Special Educational Needs) (Online) MA / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/multi-sensory-impairment-ma",
+      "name": "Teachers of Children and Young People with Multi-Sensory Impairment (Deafblindness) MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/teaching-studies-ma",
+      "name": "Teaching Studies (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/teaching-studies-pgdip",
+      "name": "Teaching Studies (Online) PGDip",
+      "suffix": "pgdip",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/tesol-msc",
+      "name": "TESOL (Teaching English to Speakers of Other Languages) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/teacher-education-courses/vision-impairments-ma",
+      "name": "Mandatory Qualification for Teachers of Children and Young People with Vision Impairments MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/materials-science-and-engineering-courses/materials-science-engineering-msc",
+      "name": "Materials Science and Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/materials-science-and-engineering-courses/metallurgy-materials-phd",
+      "name": "Metallurgy and Materials PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/materials-science-and-engineering-courses/science-engineering-materials-mres",
+      "name": "Science and Engineering of Materials MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/applied-mathematics-mres",
+      "name": "Applied Mathematics MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/applied-mathematics-msc",
+      "name": "Applied Mathematics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/applied-mathematics-phd",
+      "name": "Applied Mathematics PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/financial-data-science-msc",
+      "name": "Financial Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/financial-engineering-msc",
+      "name": "Financial Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/management-mathematics-mres",
+      "name": "Management Mathematics MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/management-mathematics-phd",
+      "name": "Management Mathematics PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/mathematical-finance-msc",
+      "name": "Mathematical Finance MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/mathematics-operational-research-statistics-econometrics-msc",
+      "name": "Mathematics, Operational Research, Statistics and Econometrics (MORSE) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/pure-mathematics-mres",
+      "name": "Pure Mathematics MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/pure-mathematics-phd",
+      "name": "Pure Mathematics PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/statistical-data-science-msc",
+      "name": "Statistical Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/statistics-mres",
+      "name": "Statistics MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/statistics-msc",
+      "name": "Statistics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mathematics-courses/statistics-phd",
+      "name": "Statistics PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mechanical-engineering-courses/advanced-mechanical-engineering-msc",
+      "name": "Advanced Mechanical Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mechanical-engineering-courses/mechanical-engineering-phd",
+      "name": "Mechanical Engineering PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/mechanical-engineering-courses/robotics-msc",
+      "name": "Robotics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/advanced-clinical-pharmacy-practice-international-msc",
+      "name": "Advanced Clinical Pharmacy Practice (International) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/advanced-clinical-practice-advanced-critical-care-practitioner-msc",
+      "name": "Advanced Clinical Practice (Advanced Critical Care Practitioner) MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/advanced-clinical-practice-midwifery-msc",
+      "name": "Advanced Clinical Practice (Midwifery) MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/advanced-clinical-practice-msc",
+      "name": "Advanced Clinical Practice MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/advancing-nursing-science-msc",
+      "name": "Advancing Nursing Science MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/applied-health-research-phd",
+      "name": "Applied Health Research PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/artificial-intelligence-implementation-healthcare-msc",
+      "name": "Artificial Intelligence (AI) Implementation (Healthcare) MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/bioinformatics-msc",
+      "name": "Bioinformatics MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/bioinformatics-online-msc",
+      "name": "Bioinformatics (Online) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/biomedical-innovation-msc",
+      "name": "Biomedical Innovation MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/biomedical-research-mres",
+      "name": "Biomedical Research MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/biomedical-sciences-msc",
+      "name": "Biomedical Sciences MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/biomedical-sciences-phd",
+      "name": "Biomedical Sciences PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/cancer-and-genomic-sciences-phd",
+      "name": "Cancer and Genomic Sciences PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/cardiovascular-sciences-phd",
+      "name": "Cardiovascular Sciences PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/clinical-health-research-mres",
+      "name": "Clinical Health Research MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/clinical-neuropsychiatry-msc",
+      "name": "Clinical Neuropsychiatry MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/clinical-oncology-msc",
+      "name": "Clinical Oncology MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/clinical-trials-mph",
+      "name": "Clinical Trials (MPH) 20 credits",
+      "suffix": "mph",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/clinical-trials-msc",
+      "name": "Clinical Trials MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/genomic-medicine-msc",
+      "name": "Genomic Medicine MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/global-health-msc",
+      "name": "Global Health MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/health-data-science-msc",
+      "name": "Health Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/health-economics-and-econometrics-msc",
+      "name": "Health Economics and Econometrics MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/health-economics-and-health-policy-msc",
+      "name": "Health Economics and Health Policy MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/health-research-methods-msc",
+      "name": "Health Research Methods MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/immunology-and-immunotherapy-msc",
+      "name": "Immunology and Immunotherapy MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/immunology-and-immunotherapy-phd",
+      "name": "Immunology and Immunotherapy PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/inflammation-and-ageing-phd",
+      "name": "Inflammation and Ageing PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/international-clinical-pharmacy-msc",
+      "name": "Clinical Pharmacy (International) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/international-population-health-management-msc",
+      "name": "International Population Health Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/medical-sciences-phd",
+      "name": "Medical Sciences PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/metabolism-and-systems-research-phd",
+      "name": "Metabolism and Systems Research PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/microbiology-and-infection-phd",
+      "name": "Microbiology and Infection PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/midwifery-msc",
+      "name": "Midwifery MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/multidisciplinary-healthcare-simulation-pgcert",
+      "name": "Multidisciplinary Healthcare Simulation PGCert",
+      "suffix": "pgcert",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/nursing-msc",
+      "name": "Nursing MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/nursing-phd",
+      "name": "Nursing PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/pharmacy-phd",
+      "name": "Pharmacy PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/public-health-mph",
+      "name": "Public Health MPH / PGDip / PGCert",
+      "suffix": "mph",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/medicine-courses/respiratory-medicine-msc",
+      "name": "Respiratory Medicine MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-composition-pathway-ma",
+      "name": "Music: Composition pathway MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-musicology-and-sound-studies-pathway-ma",
+      "name": "Music: Musicology and Sound Studies pathway MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-performance-practice-phd",
+      "name": "Music Performance Practice PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/music-with-performance-performance-pathway-ma",
+      "name": "Music (with Performance): Performance pathway MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/musical-composition-phd",
+      "name": "Musical Composition PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/music-courses/musicology-phd",
+      "name": "Musicology PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/global-energy-technologies-systems-msc",
+      "name": "Global Energy Technologies and Systems MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/nuclear-decommissioning-waste-management-msc",
+      "name": "Nuclear Decommissioning and Waste Management MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/physics-technology-nuclear-reactors-msc",
+      "name": "Physics and Technology of Nuclear Reactors MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/nuclear-and-energy-courses/sustainable-energy-engineering-msc",
+      "name": "Sustainable Energy Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/global-ethics-and-justice-distance-learning-msc",
+      "name": "Global Ethics and Justice (Distance Learning) (Online) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/global-ethics-and-justice-msc",
+      "name": "Global Ethics and Justice MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/global-ethics-phd",
+      "name": "Global Ethics PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/international-law-ethics-and-politics-ma",
+      "name": "International Law, Ethics and Politics MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-ma",
+      "name": "Philosophy MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-mental-health-and-psychology-msc",
+      "name": "Philosophy, Mental Health and Psychology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-mres",
+      "name": "Philosophy MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-of-religion-and-ethics-distance-learning-ma",
+      "name": "Philosophy of Religion and Ethics (Distance Learning) (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-of-religion-and-ethics-ma",
+      "name": "Philosophy of Religion and Ethics MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/philosophy-courses/philosophy-phd",
+      "name": "Philosophy PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/physics-and-astronomy-courses/applications-data-science-msc",
+      "name": "Applications of Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/physics-and-astronomy-courses/physics-astronomy-phd",
+      "name": "Physics and Astronomy PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/physiotherapy-and-rehabilitation-courses/manipulative-physiotherapy-msc",
+      "name": "Manipulative Physiotherapy MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/biosciences-courses/toxicology-msc",
+      "name": "Toxicology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/business-analytics-msc",
+      "name": "Business Analytics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/economics-ai-and-data-science-msc",
+      "name": "Economics, AI and Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/economics-msc",
+      "name": "Economics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/economics-phd",
+      "name": "Economics PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/human-resource-management-msc",
+      "name": "Human Resource Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/human-resources-mpa",
+      "name": "Masters of Public Administration Human Resources MPA",
+      "suffix": "mpa",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/international-business-msc",
+      "name": "International Business MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/management-msc",
+      "name": "Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/management-research-phd",
+      "name": "Management PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/public-administration-mpa",
+      "name": "Masters in Public Administration MPA",
+      "suffix": "mpa",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/public-management-and-leadership-blended-msc",
+      "name": "Public Management and Leadership Blended MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/public-management-msc",
+      "name": "Public Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/strategy-and-international-business-phd",
+      "name": "Strategy and International Business PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/supply-chain-management-msc",
+      "name": "Supply Chain Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/sustainable-innovation-and-entrepreneurship-msc",
+      "name": "Sustainable Innovation and Entrepreneurship MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/business-and-management-courses/systems-thinking-and-leadership-practitioner-msc",
+      "name": "Systems Thinking and Leadership Practitioner MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemical-engineering-courses/advanced-chemical-engineering-msc",
+      "name": "Advanced Chemical Engineering MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemical-engineering-courses/chemical-engineering-phd",
+      "name": "Chemical Engineering PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemical-engineering-courses/chemical-engineering-science-mres",
+      "name": "Chemical Engineering Science MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemical-engineering-courses/hydrogen-fuel-cells-applications-mres",
+      "name": "Hydrogen, Fuel Cells and their Applications MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemistry-courses/chemistry-phd",
+      "name": "Chemistry PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemistry-courses/sustainable-chemistry-msc",
+      "name": "Sustainable Chemistry MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/chemistry-courses/sustainable-materials-msc",
+      "name": "Sustainable Materials MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/civil-engineering-courses/civil-engineering-management-msc",
+      "name": "Civil Engineering and Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/civil-engineering-courses/civil-engineering-msc",
+      "name": "Civil Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/civil-engineering-courses/civil-engineering-phd",
+      "name": "Civil Engineering PhD / MPhil",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/civil-engineering-courses/geotechnical-engineering-msc",
+      "name": "Geotechnical Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/civil-engineering-courses/structural-engineering-msc",
+      "name": "Structural Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/classics-ancient-history-and-archaeology-courses/antiquity-classics-and-ancient-history-pathway-ma",
+      "name": "Antiquity (Classics and Ancient History) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/classics-ancient-history-and-archaeology-courses/archaeology-mres",
+      "name": "Archaeology MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/classics-ancient-history-and-archaeology-courses/archaeology-phd",
+      "name": "Archaeology PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/classics-ancient-history-and-archaeology-courses/byzantine-ottoman-and-modern-greek-studies-phd",
+      "name": "Byzantine, Ottoman and Modern Greek Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/classics-ancient-history-and-archaeology-courses/classics-and-ancient-history-phd",
+      "name": "Classics and Ancient History PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/classics-ancient-history-and-archaeology-courses/classics-mres",
+      "name": "Classics and Ancient History MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/advanced-computer-science-msc",
+      "name": "Advanced Computer Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/artificial-intelligence-machine-learning-msc",
+      "name": "Artificial Intelligence (AI) and Machine Learning MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/artificial-intelligence-msc",
+      "name": "Artificial Intelligence (AI) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/computer-science-msc",
+      "name": "Computer Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/computer-science-phd",
+      "name": "Computer Science PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/cyber-security-msc",
+      "name": "Cyber Security MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/data-science-msc",
+      "name": "Data Science MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/human-computer-interaction-msc",
+      "name": "Human Computer Interaction MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/natural-computation-mres",
+      "name": "Natural Computation MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/creative-writing-courses/creative-writing-ma",
+      "name": "Creative Writing MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/creative-writing-courses/creative-writing-phd",
+      "name": "Creative Writing PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/dentistry-courses/dental-materials-science-msc",
+      "name": "Dental Materials Science MSc / PGDip / PGCert",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/dentistry-courses/dentistry-phd",
+      "name": "Dentistry PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/dentistry-courses/endodontics-msc",
+      "name": "Endodontics MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/dentistry-courses/restorative-dentistry-msc",
+      "name": "Restorative Dentistry (Online) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/drama-and-theatre-courses/drama-and-theatre-studies-phd",
+      "name": "Drama and Theatre Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/drama-and-theatre-courses/drama-and-theatre-studies-practice-based-phd",
+      "name": "Drama and Theatre Studies Practice-Based PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/communications-engineering-msc",
+      "name": "Communications Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/electrical-power-systems-advanced-research-msc",
+      "name": "Electrical Power Systems with Advanced Research MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/electrical-power-systems-msc",
+      "name": "Electrical Power Systems MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-computer-engineering-msc",
+      "name": "Electronic and Computer Engineering MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-electrical-systems-engineering-phd",
+      "name": "Electronic, Electrical and Systems Engineering PhD / MSc (Res)",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-construction-msc",
+      "name": "Advanced Engineering Management (Construction Management) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-highways-msc",
+      "name": "Advanced Engineering Management (Highways) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-msc",
+      "name": "Advanced Engineering Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-operations-msc",
+      "name": "Advanced Engineering Management (Operations Management) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-project-msc",
+      "name": "Advanced Engineering Management (Project Management) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/advanced-engineering-management-systems-msc",
+      "name": "Advanced Engineering Management (Systems Management) MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/engineering-management-courses/industrial-project-management-msc",
+      "name": "Industrial Project Management Masters MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/applied-linguistics-distance-learning-ma",
+      "name": "Applied Linguistics (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/applied-linguistics-ma",
+      "name": "Applied Linguistics MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/applied-linguistics-with-tesol-ma",
+      "name": "Applied Linguistics with TESOL MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/digital-media-and-communications-ma",
+      "name": "Digital Media and Communications MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/digital-media-and-creative-industries-ma",
+      "name": "Digital Media and Creative Industries MA / PGDip",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/language-culture-and-communication-ma",
+      "name": "Language, Culture and Communication MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/linguistics-and-communication-phd",
+      "name": "Linguistics and Communication PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/teaching-english-to-speakers-of-other-languages-tesol-distance-learning-ma",
+      "name": "TESOL - Teaching English to Speakers of Other Languages (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/teaching-english-to-speakers-of-other-languages-tesol-distance-learning-pgcert",
+      "name": "TESOL - Teaching English to Speakers of Other Languages (Online) PGCert",
+      "suffix": "pgcert",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-language-and-linguistics-courses/teaching-english-to-speakers-of-other-languages-tesol-ma",
+      "name": "Teaching English to Speakers of Other Languages (TESOL) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-literature-courses/english-literature-ma",
+      "name": "English Literature MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/english-literature-courses/english-literature-phd",
+      "name": "English Literature PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/film-studies-courses/film-and-television-industries-and-cultures-ma",
+      "name": "Film and Television: Industries and Cultures MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/film-studies-courses/film-and-television-research-and-production-ma",
+      "name": "Film and Television: Research and Production MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/film-studies-courses/film-studies-phd",
+      "name": "Film Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/food-safety-courses/food-safety-hygiene-management-msc",
+      "name": "Food Safety, Hygiene and Management MSc / PGCert / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/air-pollution-management-and-control-msc",
+      "name": "Air Pollution Management and Control MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/applied-meteorology-and-climatology-msc",
+      "name": "Applied Meteorology and Climatology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/climate-change-adaptation-and-policy-msc",
+      "name": "Climate Change, Adaptation and Policy MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/earth-sciences-phd",
+      "name": "Earth Sciences PhD / MPhil",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/earth-sciences-research-msc",
+      "name": "Earth Sciences Research MSc (Res)",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/environmental-and-biological-nanoscience-mres",
+      "name": "Environmental and Biological Nanoscience MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/environmental-health-and-risk-management-phd",
+      "name": "Environmental Health and Risk Management PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/environmental-health-msc",
+      "name": "Environmental Health MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/geography-urban-and-regional-studies-phd",
+      "name": "Geography (Urban and Regional Studies) PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/health-safety-and-environment-management-msc",
+      "name": "Health, Safety and Environment Management MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/hydrogeology-msc",
+      "name": "Hydrogeology MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/public-and-environmental-health-sciences-msc",
+      "name": "Public and Environmental Health Sciences MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/research-in-human-geography-msc",
+      "name": "Research in Human Geography MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/geography-earth-and-environmental-sciences-courses/river-environments-and-their-management-msc",
+      "name": "River Environments and their Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/health-services-management-courses/health-care-policy-and-management-msc",
+      "name": "Health Care Policy and Management MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-and-politics-ma",
+      "name": "History and Politics MA / PGDip / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-by-distance-learning-ma",
+      "name": "History by distance learning (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-global-history-ma",
+      "name": "History (Global History) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-ma",
+      "name": "History MA / PGDip / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-medieval-and-early-modern-history-ma",
+      "name": "History (Medieval and Early Modern History) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-modern-and-contemporary-history-ma",
+      "name": "History (Modern and Contemporary History) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-mres",
+      "name": "History MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/history-phd",
+      "name": "History PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/international-heritage-management-by-distance-learning-ma",
+      "name": "International Heritage Management by distance learning (Online) MA / PGCert",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/international-heritage-management-ma",
+      "name": "International Heritage Management MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-and-heritage-courses/military-history-by-distance-learning-ma",
+      "name": "Military History by distance learning (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-of-art-courses/art-history-and-curating-distance-learning-pgcert",
+      "name": "Art History and Curating (Distance Learning) (Online) PGCert",
+      "suffix": "pgcert",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-of-art-courses/art-history-and-curating-ma",
+      "name": "Art History and Curating MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-of-art-courses/history-of-art-ma",
+      "name": "History of Art MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-of-art-courses/history-of-art-mres",
+      "name": "History of Art MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/history-of-art-courses/history-of-art-phd",
+      "name": "History of Art PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/interdisciplinary-study-courses/interdisciplinary-study-mres",
+      "name": "Interdisciplinary Study MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/arabic-studies-phd",
+      "name": "Arabic Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/comparative-literature-and-critical-theories-ma",
+      "name": "Comparative Literature and Critical Theories MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/comparative-literature-phd",
+      "name": "Comparative Literature PhD",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/english-chinese-interpreting-with-translation-ma",
+      "name": "English-Chinese Interpreting with Translation MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/french-studies-phd",
+      "name": "French Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/german-studies-phd",
+      "name": "German Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/hispanic-studies-phd",
+      "name": "Hispanic Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/italian-studies-phd",
+      "name": "Italian Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/russian-studies-phd",
+      "name": "Russian Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/translation-studies-distance-learning-ma",
+      "name": "Translation Studies (Online) MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/translation-studies-ma",
+      "name": "Translation Studies MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/languages-cultures-and-translation-courses/translation-studies-phd",
+      "name": "Translation Studies PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/commercial-banking-and-finance-law-llm",
+      "name": "Commercial, Banking and Finance Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/commercial-law-llm",
+      "name": "Commercial Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/criminal-law-and-criminal-justice-llm",
+      "name": "Criminal Law and Criminal Justice LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/energy-and-environmental-law-online-llm",
+      "name": "Environmental and Energy Law (Online) LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/environmental-social-and-governance-law-and-policy-llm",
+      "name": "Environmental, Social and Governance Law, and Policy LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/general-law-llm",
+      "name": "General Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/global-energy-and-environmental-law-llm",
+      "name": "Global Energy and Environmental Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/human-rights-law-llm",
+      "name": "Human Rights Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/intellectual-property-law-llm",
+      "name": "Intellectual Property Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/international-business-law-llm",
+      "name": "International Business Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/international-commercial-law-llm",
+      "name": "International Commercial Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/international-criminal-law-and-justice-llm",
+      "name": "International Criminal Law and Justice LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/international-disputes-law-llm",
+      "name": "International Disputes Law LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/international-human-rights-llm",
+      "name": "International Human Rights LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/international-law-and-security-llm",
+      "name": "International Law and Security LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/law-and-social-justice-llm",
+      "name": "Law and Social Justice LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/law-data-and-technology-llm",
+      "name": "Law, Data and Technology LLM",
+      "suffix": "llm",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/law-courses/law-phd",
+      "name": "Law PhD / MPhil / MJur",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/marketing-courses/marketing-msc",
+      "name": "Marketing MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/marketing-courses/strategic-marketing-and-consulting-msc",
+      "name": "Strategic Marketing and Consulting MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/materials-science-and-engineering-courses/materials-fusion-energy-mres",
+      "name": "Materials in Fusion Energy MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/theology-and-religion-courses/faith-based-leadership-mpa",
+      "name": "Faith-Based Leadership MPA",
+      "suffix": "mpa",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/theology-and-religion-courses/islamic-studies-ma",
+      "name": "Islamic Studies MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/theology-and-religion-courses/religion-politics-and-society-ma",
+      "name": "Religion, Politics and Society MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/theology-and-religion-courses/theology-and-religion-ma",
+      "name": "Theology and Religion MA",
+      "suffix": "ma",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/theology-and-religion-courses/theology-and-religion-mres",
+      "name": "Theology and Religion MRes",
+      "suffix": "mres",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/theology-and-religion-courses/theology-and-religion-phd",
+      "name": "Theology and Religion PhD / MA by Research",
+      "suffix": "phd",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/urban-and-regional-planning-courses/sustainable-transport-planning-msc",
+      "name": "Sustainable Transport Planning MSc",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/urban-and-regional-planning-courses/urban-and-regional-planning-msc",
+      "name": "Urban and Regional Planning MSc / PGDip",
+      "suffix": "msc",
+      "level": "Postgraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-astrophysics-international-bsc",
+      "name": "Physics and Astrophysics (International Study) BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-astrophysics-msci",
+      "name": "Physics and Astrophysics MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-bsc",
+      "name": "Physics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-data-science-bsc",
+      "name": "Physics with Data Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-data-science-msci",
+      "name": "Physics with Data Science MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-international-bsc",
+      "name": "Physics (International Study) BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-international-msci",
+      "name": "Physics (International Study) MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-medical-physics-bsc",
+      "name": "Physics with Medical Physics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-medical-physics-msci",
+      "name": "Physics with Medical Physics MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-msci",
+      "name": "Physics MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-particle-physics-cosmology-bsc",
+      "name": "Physics with Particle Physics and Cosmology BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-particle-physics-cosmology-msci",
+      "name": "Physics with Particle Physics and Cosmology MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/theoretical-physics-applied-mathematics-bsc",
+      "name": "Theoretical Physics and Applied Mathematics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/theoretical-physics-applied-mathematics-msci",
+      "name": "Theoretical Physics and Applied Mathematics MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/theoretical-physics-bsc",
+      "name": "Theoretical Physics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/theoretical-physics-msci",
+      "name": "Theoretical Physics MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physiotherapy-courses/physiotherapy-msci",
+      "name": "Physiotherapy MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/artificial-intelligence-and-public-policy-bsc",
+      "name": "Artificial Intelligence and Public Policy BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-development-and-politics-ba",
+      "name": "International Development and Politics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-development-and-politics-with-year-abroad-ba",
+      "name": "International Development and Politics with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-and-development-ba",
+      "name": "International Relations and Development BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-and-development-with-year-abroad-ba",
+      "name": "International Relations and Development with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-ba",
+      "name": "International Relations BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-with-french-ba",
+      "name": "International Relations with French BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-with-german-ba",
+      "name": "Undergraduate Politics, International Relations and Development courses",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-with-spanish-ba",
+      "name": "International Relations with Spanish BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/international-relations-with-year-abroad-ba",
+      "name": "International Relations with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/policy-politics-and-economics-ba",
+      "name": "Policy, Politics and Economics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-international-relations-ba",
+      "name": "Politics and International Relations BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-international-relations-with-year-abroad-ba",
+      "name": "Politics and International Relations with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-philosophy-ba",
+      "name": "Politics and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-social-policy-ba",
+      "name": "Politics and Social Policy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-social-policy-with-year-abroad-ba",
+      "name": "Politics and Social Policy with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-sociology-ba",
+      "name": "Politics and Sociology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-and-sociology-with-year-abroad-ba",
+      "name": "Politics and Sociology with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-ba",
+      "name": "Politics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-philosophy-and-economics-ba",
+      "name": "Politics, Philosophy and Economics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/politics-international-relations-and-development-courses/politics-with-year-abroad-ba",
+      "name": "Politics with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/psychology-and-neuroscience-courses/human-neuroscience-bsc",
+      "name": "Human Neuroscience BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/psychology-and-neuroscience-courses/psychology-and-psychological-practice-msci",
+      "name": "Psychology and Psychological Practice MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/psychology-and-neuroscience-courses/psychology-bsc",
+      "name": "Psychology BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/psychology-and-neuroscience-courses/psychology-with-year-abroad-bsc",
+      "name": "Psychology with Year Abroad BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/criminology-ba",
+      "name": "Criminology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/criminology-with-year-abroad-ba",
+      "name": "Criminology with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/policy-politics-economics-with-year-abroad-ba",
+      "name": "Policy, Politics and Economics with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/social-policy-and-criminology-ba",
+      "name": "Social Policy and Criminology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/social-policy-and-criminology-with-year-abroad-ba",
+      "name": "Social Policy and Criminology with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/social-policy-and-sociology-ba",
+      "name": "Sociology and Social Policy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/social-policy-ba",
+      "name": "Social Policy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/social-policy-with-year-abroad-ba",
+      "name": "Social Policy with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/sociology-and-criminology-ba",
+      "name": "Sociology and Criminology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/sociology-and-criminology-with-year-abroad-ba",
+      "name": "Sociology and Criminology with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/sociology-and-social-policy-with-year-abroad-ba",
+      "name": "Sociology and Social Policy with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/sociology-ba",
+      "name": "Sociology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-policy-sociology-and-criminology-courses/sociology-with-year-abroad-ba",
+      "name": "Sociology with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/social-work-courses/social-work-ba",
+      "name": "Social Work BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/sport-sciences-courses/sport-coaching-sciences-and-business-bsc",
+      "name": "Sport, Coaching Sciences and Business BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/sport-sciences-courses/sport-exercise-and-health-sciences-bsc",
+      "name": "Sport, Exercise and Health Sciences BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/sport-sciences-courses/sport-pe-and-coaching-science-bsc",
+      "name": "Sport, PE and Coaching Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/theology-and-religion-courses/history-and-theology-ba",
+      "name": "History and Theology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/theology-and-religion-courses/philosophy-religion-and-ethics-ba",
+      "name": "Philosophy, Religion and Ethics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/theology-and-religion-courses/politics-religion-and-philosophy-ba",
+      "name": "Politics, Religion and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/theology-and-religion-courses/psychology-and-religion-ba",
+      "name": "Psychology and Religion BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/theology-and-religion-courses/theology-and-religion-ba",
+      "name": "Theology and Religion BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-courses/ancient-and-medieval-history-ba",
+      "name": "Ancient and Medieval History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-courses/history-and-philosophy-ba",
+      "name": "History and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-courses/history-and-politics-ba",
+      "name": "History and Politics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-courses/history-ba",
+      "name": "History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-of-art-courses/english-literature-and-history-of-art-ba",
+      "name": "English Literature and History of Art BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-of-art-courses/history-and-history-of-art-ba",
+      "name": "History and History of Art BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/history-of-art-courses/history-of-art-ba",
+      "name": "History of Art BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/international-law-and-globalisation-llb",
+      "name": "International Law and Globalisation LLB",
+      "suffix": "llb",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/law-llb",
+      "name": "Law LLB",
+      "suffix": "llb",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/law-with-business-studies-llb",
+      "name": "Law with Business Studies LLB",
+      "suffix": "llb",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/law-with-criminology-llb",
+      "name": "Law with Criminology LLB",
+      "suffix": "llb",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/liberal-arts-courses/liberal-arts-ba",
+      "name": "Liberal Arts BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/materials-science-and-engineering-courses/materials-science-and-engineering-beng",
+      "name": "Materials Science and Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/materials-science-and-engineering-courses/materials-science-and-engineering-meng",
+      "name": "Materials Science and Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/materials-science-and-engineering-courses/materials-science-engineering-industrial-experience-meng",
+      "name": "Materials Science and Engineering with Industrial Experience MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematical-sciences-bsc",
+      "name": "Mathematical Sciences BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-bsc",
+      "name": "Mathematics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-business-management-bsc",
+      "name": "Mathematics with Business Management BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-business-management-msci",
+      "name": "Mathematics with Business Management MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-computer-science-bsc",
+      "name": "Mathematics and Computer Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-computer-science-industrial-bsc",
+      "name": "Mathematics and Computer Science with Industrial Year BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-computer-science-industrial-msci",
+      "name": "Mathematics and Computer Science with Industrial Year MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-computer-science-msci",
+      "name": "Mathematics and Computer Science MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-continental-europe-bsc",
+      "name": "Mathematics with Study in Continental Europe BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-industry-bsc",
+      "name": "Mathematics with a Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-international-bsc",
+      "name": "Mathematics with an International Year BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-msci",
+      "name": "Mathematics MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mathematics-courses/mathematics-statistics-data-science-bsc",
+      "name": "Mathematics, Statistics and Data Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-automotive-beng",
+      "name": "Mechanical Engineering (Automotive) BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-automotive-meng",
+      "name": "Mechanical Engineering (Automotive) MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-beng",
+      "name": "Mechanical Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-industrial-beng",
+      "name": "Mechanical Engineering with Industrial Year BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-industrial-meng",
+      "name": "Mechanical Engineering with Industrial Year MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-meng",
+      "name": "Mechanical Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/mechanical-engineering-courses/mechanical-engineering-year-abroad-meng",
+      "name": "Mechanical Engineering with a Year Abroad MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/medicine-courses/biomedical-science-msci",
+      "name": "Biomedical Sciences MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/french-and-german-ba",
+      "name": "French and German BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/french-and-italian-ba",
+      "name": "French and Italian BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/french-and-portuguese-ba",
+      "name": "French and Portuguese BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/french-and-russian-ba",
+      "name": "French and Russian BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/french-and-spanish-ba",
+      "name": "French and Spanish BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/french-ba",
+      "name": "French BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/german-and-italian-ba",
+      "name": "German and Italian BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/german-and-russian-ba",
+      "name": "German and Russian BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/german-and-spanish-ba",
+      "name": "German and Spanish BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-and-english-literature-ba",
+      "name": "Modern Languages and English Literature BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-and-history-ba",
+      "name": "Modern Languages and History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-and-history-of-art-ba",
+      "name": "Modern Languages and History of Art BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-and-linguistics-ba",
+      "name": "Modern Languages and Linguistics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-and-music-ba",
+      "name": "Modern Languages and Music BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-ba",
+      "name": "Modern Languages BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-with-business-management-ba",
+      "name": "Modern Languages with Business Management BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-with-digital-communications-ba",
+      "name": "Modern Languages with Digital Communications BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/modern-languages-with-translation-ba",
+      "name": "Modern Languages with Translation Studies BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/spanish-and-italian-ba",
+      "name": "Spanish and Italian BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/spanish-and-portuguese-ba",
+      "name": "Spanish and Portuguese BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/spanish-and-russian-ba",
+      "name": "Spanish and Russian BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/modern-languages-courses/spanish-ba",
+      "name": "Spanish BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/music-courses/mathematics-and-music-ba",
+      "name": "Mathematics and Music BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/english-language-and-philosophy-ba",
+      "name": "English Language and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/english-literature-and-philosophy-ba",
+      "name": "English Literature and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/mathematics-and-philosophy-ba",
+      "name": "Mathematics and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/philosophy-and-sociology-ba",
+      "name": "Philosophy and Sociology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/philosophy-ba",
+      "name": "Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/philosophy-politics-and-law-ba",
+      "name": "Philosophy, Politics and Law BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/philosophy-courses/politics-and-philosophy-year-abroad-ba",
+      "name": "Politics and Philosophy with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/physics-and-astronomy-courses/physics-astrophysics-bsc",
+      "name": "Physics and Astrophysics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/accounting-and-finance-courses/accounting-and-finance-bsc",
+      "name": "Accounting and Finance BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/accounting-and-finance-courses/accounting-and-finance-with-business-analytics-bsc",
+      "name": "Accounting and Finance with Business Analytics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/aerospace-engineering-courses/aerospace-engineering-beng",
+      "name": "Aerospace Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/aerospace-engineering-courses/aerospace-engineering-meng",
+      "name": "Aerospace Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/anthropology-courses/social-anthropology-and-african-studies-ba",
+      "name": "Social Anthropology and African Studies BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/anthropology-courses/social-anthropology-and-archaeology-ba",
+      "name": "Social Anthropology and Archaeology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/anthropology-courses/social-anthropology-and-classical-literature-and-civilisation-ba",
+      "name": "Social Anthropology and Classical Literature and Civilisation BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/anthropology-courses/social-anthropology-and-history-ba",
+      "name": "Social Anthropology and History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/anthropology-courses/social-anthropology-and-politics-ba",
+      "name": "Social Anthropology and Politics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/anthropology-courses/social-anthropology-ba",
+      "name": "Social Anthropology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biochemistry-bsc",
+      "name": "Biochemistry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biochemistry-msci",
+      "name": "Biochemistry MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biochemistry-with-an-international-year-bsc",
+      "name": "Biochemistry with an International Year BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biochemistry-with-professional-placement-msci",
+      "name": "Biochemistry with Professional Placement MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biochemistry-with-study-in-continental-europe-bsc",
+      "name": "Biochemistry with Study in Continental Europe BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biological-sciences-bsc",
+      "name": "Biological Sciences BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biological-sciences-msci",
+      "name": "Biological Sciences MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biological-sciences-with-an-international-year-bsc",
+      "name": "Biological Sciences with an International Year BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biological-sciences-with-professional-placement-msci",
+      "name": "Biological Sciences with Professional Placement MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biological-sciences-with-study-in-continental-europe-bsc",
+      "name": "Biological Sciences with Study in Continental Europe BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biotechnology-bsc",
+      "name": "Biotechnology BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biotechnology-msci",
+      "name": "Biotechnology MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biotechnology-with-international-year-bsc",
+      "name": "Biotechnology with International Year BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/biotechnology-with-placement-year-msci",
+      "name": "Biotechnology with Placement Year MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/human-sciences-bsc",
+      "name": "Human Sciences BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/human-sciences-msci",
+      "name": "Human Sciences MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/medical-biochemistry-bsc",
+      "name": "Medical Biochemistry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/microbiology-bsc",
+      "name": "Microbiology BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/biosciences-courses/microbiology-msci",
+      "name": "Microbiology MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/bsc-business-management-with-operations-and-supply-chain-management-and-year-in-industry-bsc",
+      "name": "Business Management with Operations and Supply Chain Management and Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-bsc",
+      "name": "Business Management BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-business-analytics-and-year-in-industry-bsc",
+      "name": "Business Management with Business Analytics and Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-business-analytics-bsc",
+      "name": "Business Management with Business Analytics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-comms-and-year-in-industry-bsc",
+      "name": "BSc Business Management with Communications and Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-communications-bsc",
+      "name": "Business Management with Communications BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-human-resource-management-bsc",
+      "name": "Business Management with Human Resource Management BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-human-resource-management-with-year-in-industry-bsc",
+      "name": "Business Management with Human Resource Management with Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-marketing-and-year-in-industry-bsc",
+      "name": "Business Management with Marketing and Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-marketing-bsc",
+      "name": "Business Management with Marketing BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-operations-and-supply-chain-management-bsc",
+      "name": "Business Management with Operations and Supply Chain Management BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/business-management-with-year-in-industry-bsc",
+      "name": "Business Management with Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/international-business-bsc",
+      "name": "International Business BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/marketing-bsc",
+      "name": "Marketing BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/marketing-with-business-analytics-and-year-in-industry-bsc",
+      "name": "Marketing with Business Analytics and Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/marketing-with-business-analytics-bsc",
+      "name": "Marketing with Business Analytics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/business-and-management-courses/marketing-with-year-in-industry-bsc",
+      "name": "Marketing with Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/chemical-engineering-beng",
+      "name": "Chemical Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/chemical-engineering-industrial-beng",
+      "name": "Chemical Engineering with Industrial Study BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/chemical-engineering-industrial-meng",
+      "name": "Chemical Engineering with Industrial Study MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/chemical-engineering-international-industrial-meng",
+      "name": "Chemical Engineering with International and Industrial Study MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/chemical-engineering-international-meng",
+      "name": "Chemical Engineering (International Study) MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/chemical-engineering-meng",
+      "name": "Chemical Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/energy-engineering-beng",
+      "name": "Energy Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/energy-engineering-industrial-study-beng",
+      "name": "Energy Engineering with Industrial Study BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/energy-engineering-industrial-study-meng",
+      "name": "Energy Engineering with Industrial Study MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemical-engineering-courses/energy-engineering-meng",
+      "name": "Energy Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-bsc",
+      "name": "Chemistry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-business-management-bsc",
+      "name": "Chemistry with Business Management BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-business-management-msci",
+      "name": "Chemistry with Business Management MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-industry-bsc",
+      "name": "Chemistry with a Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-industry-msci",
+      "name": "Chemistry with a Year in Industry MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-medicinal-chemistry-drug-discovery-msci",
+      "name": "Chemistry with Medicinal Chemistry and Drug Discovery MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-medicinal-drug-discovery-bsc",
+      "name": "Chemistry with Medicinal Chemistry and Drug Discovery BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-modern-language-bsc",
+      "name": "Chemistry with a Modern Language BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-modern-language-msci",
+      "name": "Chemistry with a Modern Language MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-msci",
+      "name": "Chemistry MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-study-abroad-msci",
+      "name": "Chemistry with Study Abroad MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-sustainability-bsc",
+      "name": "Chemistry with Sustainability BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/chemistry-courses/chemistry-sustainability-msci",
+      "name": "Chemistry with Sustainability MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/civil-engineering-courses/civil-engineering-beng",
+      "name": "Civil Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/civil-engineering-courses/civil-engineering-industrial-experience-meng",
+      "name": "Civil Engineering with Industrial Experience MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/civil-engineering-courses/civil-engineering-industrial-year-meng",
+      "name": "Civil Engineering with Industrial Year MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/civil-engineering-courses/civil-engineering-international-meng",
+      "name": "Civil Engineering with International Study MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/civil-engineering-courses/civil-engineering-meng",
+      "name": "Civil Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/ancient-history-and-archaeology-ba",
+      "name": "Ancient History and Archaeology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/ancient-history-ba",
+      "name": "Ancient History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/archaeology-and-history-ba",
+      "name": "Archaeology and History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/classical-literature-and-civilisation-ba",
+      "name": "Classical Literature and Civilisation BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/classical-literature-civilisation-and-philosophy-ba",
+      "name": "Classical Literature & Civilisation and Philosophy BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/classics-ba",
+      "name": "Classics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/classics-ancient-history-and-archaeology-courses/english-literature-and-classical-literature-civilisation-ba",
+      "name": "English Literature and Classical Literature & Civilisation BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/artificial-intelligence-ai-computer-science-bsc",
+      "name": "Artificial Intelligence (AI) and Computer Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/artificial-intelligence-ai-computer-science-industry-bsc",
+      "name": "Artificial Intelligence (AI) and Computer Science with a Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-bsc",
+      "name": "Computer Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-industry-bsc",
+      "name": "Computer Science with a Year in Industry BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-industry-msci",
+      "name": "Computer Science with a Year in Industry MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-msci",
+      "name": "Computer Science MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-software-engineering-industry-meng",
+      "name": "Computer Science/Software Engineering with a Year in Industry MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-software-engineering-meng",
+      "name": "Computer Science/Software Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-study-abroad-bsc",
+      "name": "Computer Science with Study Abroad BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-study-abroad-msci",
+      "name": "Computer Science with Study Abroad MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/dentistry-courses/dental-hygiene-and-therapy-bsc",
+      "name": "Dental Hygiene and Therapy BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/drama-courses/digital-media-and-creative-industries-ba",
+      "name": "Digital Media and Creative Industries BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/drama-courses/drama-and-creative-writing-ba",
+      "name": "Drama and Creative Writing BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/drama-courses/drama-and-english-literature-ba",
+      "name": "Drama and English Literature BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/drama-courses/drama-and-film-ba",
+      "name": "Drama and Film BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/economics-and-politics-bsc",
+      "name": "Economics and Politics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/economics-ba",
+      "name": "Economics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/economics-bsc",
+      "name": "Economics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/international-relations-with-economics-ba",
+      "name": "International Relations with Economics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/international-relations-with-economics-with-year-abroad-ba",
+      "name": "International Relations with Economics with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/mathematical-economics-and-statistics-bsc",
+      "name": "Mathematical Economics and Statistics BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/economics-courses/money-banking-and-finance-bsc",
+      "name": "Money, Banking and Finance BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/education-courses/education-and-sociology-ba",
+      "name": "Education and Sociology BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/education-courses/education-ba",
+      "name": "Education BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/education-courses/psychology-in-education-bsc",
+      "name": "Psychology in Education BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/computer-engineering-bsc",
+      "name": "Computer Engineering BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-electrical-engineering-beng",
+      "name": "Electronic and Electrical Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-electrical-engineering-industrial-beng",
+      "name": "Electronic and Electrical Engineering with Industrial Year BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-electrical-engineering-industrial-meng",
+      "name": "Electronic and Electrical Engineering with Industrial Year MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/electronic-electrical-engineering-meng",
+      "name": "Electronic and Electrical Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/mechatronic-robotic-engineering-beng",
+      "name": "Mechatronic and Robotic Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/mechatronic-robotic-engineering-industrial-beng",
+      "name": "Mechatronic and Robotic Engineering with Industrial Year BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/mechatronic-robotic-engineering-industrial-meng",
+      "name": "Mechatronic and Robotic Engineering with Industrial Year MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/electronic-electrical-and-systems-engineering-courses/mechatronic-robotic-engineering-meng",
+      "name": "Mechatronic and Robotic Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/engineering-courses/engineering-beng",
+      "name": "Engineering BEng",
+      "suffix": "beng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/engineering-courses/engineering-meng",
+      "name": "Engineering MEng",
+      "suffix": "meng",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/english-language-and-linguistics-courses/admissions-essay-digital-media-and-communications-ba",
+      "name": "Offer-holder Admissions Essay",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/english-language-and-linguistics-courses/digital-media-and-communications-ba",
+      "name": "Digital Media and Communications BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/english-language-and-linguistics-courses/english-language-and-linguistics-ba",
+      "name": "English Language and Linguistics BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/english-language-and-linguistics-courses/english-language-and-literature-ba",
+      "name": "English Language and Literature BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/english-literature-courses/english-literature-and-history-ba",
+      "name": "English Literature and History BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/english-literature-courses/english-literature-ba",
+      "name": "English Literature BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/film-creative-writing-courses/english-literature-and-creative-writing-ba",
+      "name": "English Literature and Creative Writing BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/film-creative-writing-courses/english-literature-and-film-ba",
+      "name": "English Literature and Film BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/film-creative-writing-courses/film-and-creative-writing-ba",
+      "name": "Film and Creative Writing BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/film-creative-writing-courses/film-and-television-ba",
+      "name": "Film and Television BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/environmental-science-bsc",
+      "name": "Environmental Science BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/environmental-science-msci",
+      "name": "Environmental Science MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/environmental-science-with-international-research-placement-bsc",
+      "name": "Environmental Science with International Research Placement BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/environmental-science-with-year-abroad-bsc",
+      "name": "Environmental Science with Year Abroad BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-and-urban-and-regional-planning-bsc",
+      "name": "Geography and Urban and Regional Planning BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-and-urban-and-regional-planning-with-year-abroad-bsc",
+      "name": "Geography and Urban and Regional Planning with Year Abroad BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-ba",
+      "name": "Geography BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-bsc",
+      "name": "Geography BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-msci",
+      "name": "Geography MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-with-business-ba",
+      "name": "Geography with Business BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-with-international-year-msci",
+      "name": "Geography with International Year MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-with-year-abroad-ba",
+      "name": "Geography with Year Abroad BA",
+      "suffix": "ba",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geography-urban-planning-and-environmental-sciences-courses/geography-with-year-abroad-bsc",
+      "name": "Geography with Year Abroad BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/environmental-and-engineering-geoscience-bsc",
+      "name": "Environmental and Engineering Geoscience BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/environmental-change-and-sustainability-bsc",
+      "name": "Environmental Change and Sustainability BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/environmental-change-and-sustainability-msci",
+      "name": "Environmental Change and Sustainability MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/environmental-change-and-sustainability-with-year-abroad-bsc",
+      "name": "Environmental Change and Sustainability with Year Abroad BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/geology-and-physical-geography-bsc",
+      "name": "Geology and Physical Geography BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/geology-and-physical-geography-msci",
+      "name": "Geology and Physical Geography MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/geology-and-physical-geography-with-an-international-year-msci",
+      "name": "Geology and Physical Geography with an International Year MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/geology-bsc",
+      "name": "Geology BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/geology-msci",
+      "name": "Geology MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/geology-with-an-international-year-msci",
+      "name": "Geology with International Year MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/natural-sciences-bsc",
+      "name": "Natural Sciences BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/natural-sciences-msci",
+      "name": "Natural Sciences MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/palaeontology-and-geology-bsc",
+      "name": "Palaeontology and Geology BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/palaeontology-and-geology-msci",
+      "name": "Palaeontology and Geology MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/geology-and-earth-sciences-courses/palaeontology-and-geology-with-an-international-year-msci",
+      "name": "Palaeontology and Geology with an International Year MSci",
+      "suffix": "msci",
+      "level": "Undergraduate"
+    },
+    {
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/golf-management-courses/applied-golf-management-studies-bsc",
+      "name": "Applied Golf Management Studies BSc",
+      "suffix": "bsc",
+      "level": "Undergraduate"
     }
-  ],
-  "headings": [
-    "H1: Search",
-    "H2: Dr Tamlyn Monson",
-    "H2: University of Birmingham community recognised in 2026 King’s Birthday Honours",
-    "H2: Dr Shraddha M Naik",
-    "H2: GWTC-5.0: 390 Gravitational-Wave Detections and Counting",
-    "H2: All-Party Parliamentary Group on Sustainable Plastics hosts inaugural Parliament"
-  ],
-  "crawledAt": "2026-06-13T07:49:25.545Z"
+  ]
 }
