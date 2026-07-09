@@ -1,0 +1,3442 @@
+[
+  {
+    "name": "Bachelor of Accounting",
+    "code": "BACCT",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BACCT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Accounting (Honours)",
+    "code": "HACCT",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HACCT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Actuarial Studies",
+    "code": "BACTS",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BACTS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Actuarial Studies (Honours)",
+    "code": "HACTS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HACTS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Advanced Computing (Honours)",
+    "code": "AACOM",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AACOM",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Advanced Computing (Research and Development) (Honours)",
+    "code": "AACRD",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AACRD",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Applied Data Analytics",
+    "code": "BADAN",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BADAN",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Applied Data Analytics (Honours)",
+    "code": "HADAN",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HADAN",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Archaeological Practice (Honours)",
+    "code": "HAPRC",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HAPRC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Art History and Curatorship (Honours)",
+    "code": "HAHCR",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HAHCR",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Arts",
+    "code": "BARTS",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BARTS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Arts (Honours)",
+    "code": "HARTS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HARTS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Arts (Honours)",
+    "code": "HART2",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HART2",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Arts (with Year in Asia)",
+    "code": "BARTY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BARTY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Asia-Pacific Affairs",
+    "code": "BAPAF",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BAPAF",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Asia-Pacific Affairs (Ritsumeikan)",
+    "code": "BAPAR",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BAPAR",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Asian Studies",
+    "code": "BASIA",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BASIA",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Asian Studies (Honours)",
+    "code": "HASIA",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HASIA",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Asian Studies (with Year in Asia)",
+    "code": "BASY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BASY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Biotechnology",
+    "code": "BBIOT",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BBIOT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Biotechnology (Honours)",
+    "code": "HBIOT",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HBIOT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Business Administration",
+    "code": "BBUSA",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BBUSA",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Business Administration (Honours)",
+    "code": "HBUSA",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HBUSA",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Classical Studies (Honours)",
+    "code": "HCLAS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HCLAS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Commerce",
+    "code": "BCOMM",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BCOMM",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Commerce (Honours)",
+    "code": "HCOMM",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HCOMM",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Computing",
+    "code": "BCOMP",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BCOMP",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Computing (Honours)",
+    "code": "HCOMP",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HCOMP",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Criminology",
+    "code": "BCRIM",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BCRIM",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Criminology (Honours)",
+    "code": "HCRIM",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HCRIM",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Design",
+    "code": "BDESN",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BDESN",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Design (Honours)",
+    "code": "HDESN",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HDESN",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Development Studies (Honours)",
+    "code": "HDEVS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HDEVS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Development Studies (with Year in Asia)",
+    "code": "BDEVY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BDEVY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Economics",
+    "code": "BECON",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BECON",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Economics (Honours)",
+    "code": "HECON",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HECON",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Engineering (Honours)",
+    "code": "AENGI",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AENGI",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Engineering (Honours) in Software Engineering",
+    "code": "AENSE",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AENSE",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Engineering (Research and Development) (Honours)",
+    "code": "AENRD",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AENRD",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Environment and Sustainability",
+    "code": "BENSU",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BENSU",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Environment and Sustainability (Honours)",
+    "code": "HENSU",
+    "level": "Undergraduate",
+    "duration": 5,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HENSU",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Finance",
+    "code": "BFINN",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BFINN",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Finance (Honours)",
+    "code": "HFINN",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HFINN",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Finance, Economics and Statistics (Honours)",
+    "code": "AFEST",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AFEST",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Genetics",
+    "code": "BGENE",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BGENE",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Genetics (Honours)",
+    "code": "HGENE",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HGENE",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Health Science",
+    "code": "BHLTH",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BHLTH",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Health Science (Honours)",
+    "code": "HHLTH",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HHLTH",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Information Technology",
+    "code": "BIT",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BIT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Information Technology (Honours)",
+    "code": "HIT",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HIT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Business",
+    "code": "BINBS",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BINBS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Business (Honours)",
+    "code": "HINBS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HINBS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Relations",
+    "code": "BIR",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BIR",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Relations (Honours)",
+    "code": "HIR",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HIR",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Relations (With Year in Asia)",
+    "code": "BIRY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BIRY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Security Studies",
+    "code": "BINSS",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BINSS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Security Studies (Honours)",
+    "code": "HINSS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HINSS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of International Security Studies (with Year in Asia)",
+    "code": "BINSY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BINSY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Languages",
+    "code": "BLANG",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BLANG",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Languages (Honours)",
+    "code": "HLANG",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HLANG",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Languages (with Year in Asia)",
+    "code": "BLANY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BLANY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Laws (Honours)",
+    "code": "ALLB",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/ALLB",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Mathematical Sciences",
+    "code": "BMASC",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BMASC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Mathematical Sciences (Honours)",
+    "code": "HMASC",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HMASC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Medical Science",
+    "code": "BMEDS",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BMEDS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Medical Science (Honours)",
+    "code": "HMEDS",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HMEDS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Music",
+    "code": "BMUSI",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BMUSI",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Music (Honours)",
+    "code": "HMUSI",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HMUSI",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Pacific Studies",
+    "code": "BPAST",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BPAST",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Pacific Studies (Honours)",
+    "code": "HPAST",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HPAST",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Philosophy (Honours) - Science",
+    "code": "APHSC",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/APHSC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Philosophy (Honours)—Humanities and Social Sciences",
+    "code": "AHUSS",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/AHUSS",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Philosophy, Neuroscience, and Psychology",
+    "code": "BPNP",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BPNP",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Political Science",
+    "code": "BPLSC",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BPLSC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Political Science (Honours)",
+    "code": "HPLSC",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HPLSC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Politics, Philosophy and Economics",
+    "code": "BPPE",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BPPE",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Politics, Philosophy and Economics (Honours)",
+    "code": "HPPE",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HPPE",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Public Policy",
+    "code": "BPPOL",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BPPOL",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Public Policy (Honours)",
+    "code": "HPPOL",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HPPOL",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Science",
+    "code": "BSC",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BSC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Science (Advanced) (Honours)",
+    "code": "ASCAD",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/ASCAD",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Science (Honours)",
+    "code": "HSC",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HSC",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Science (Psychology)",
+    "code": "BSPSY",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BSPSY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Science (Psychology) (Honours)",
+    "code": "HSPSY",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HSPSY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Science (with Year in Asia)",
+    "code": "BSCY",
+    "level": "Undergraduate",
+    "duration": 4,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BSCY",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Statistics",
+    "code": "BSTAT",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BSTAT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Statistics (Honours)",
+    "code": "HSTAT",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HSTAT",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Visual Arts",
+    "code": "BVART",
+    "level": "Undergraduate",
+    "duration": 3,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/BVART",
+    "status": 200
+  },
+  {
+    "name": "Bachelor of Visual Arts (Honours)",
+    "code": "HVART",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/HVART",
+    "status": 200
+  },
+  {
+    "name": "Diploma of Languages",
+    "code": "ELANG",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/ELANG",
+    "status": 200
+  },
+  {
+    "name": "Diploma of Studies",
+    "code": "ESTD",
+    "level": "Undergraduate",
+    "duration": 1,
+    "career": "Undergraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/ESTD",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Professional Psychology ",
+    "code": "GPPSY",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/GPPSY",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Medicine and Surgery",
+    "code": "8950XMCHD",
+    "level": "Postgraduate",
+    "duration": 4,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8950XMCHD",
+    "status": 200
+  },
+  {
+    "name": "Executive Master of Public Administration",
+    "code": "MEMPA",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MEMPA",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Accounting",
+    "code": "6459XGCACC",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/6459XGCACC",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Actuarial Statistics",
+    "code": "CACST",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CACST",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Applied Cybernetics",
+    "code": "CACYB",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CACYB",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Applied Data Analytics",
+    "code": "CADAN",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CADAN",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Asian Affairs",
+    "code": "CASAF",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CASAF",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Cross-Cultural Analysis",
+    "code": "CCCA",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CCCA",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Demography",
+    "code": "CDEMO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CDEMO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Economics",
+    "code": "CECON",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CECON",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Environment",
+    "code": "6659XGCENV",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/6659XGCENV",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Finance",
+    "code": "CFINN",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CFINN",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Finance and Actuarial Statistics",
+    "code": "CFAS",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CFAS",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Forests",
+    "code": "CFORS",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CFORS",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of General and Applied Linguistics",
+    "code": "CLING",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CLING",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Law",
+    "code": "CLAW",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CLAW",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Management",
+    "code": "CMGMT",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CMGMT",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Middle Eastern and Central Asian Studies",
+    "code": "CMECA",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CMECA",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Museum and Heritage Studies",
+    "code": "CMUHS",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CMUHS",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of National Security Policy",
+    "code": "CNSEP",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CNSEP",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of National Security Policy",
+    "code": "CNSEPO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CNSEPO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Nuclear Science and Technology",
+    "code": "CNSTE",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CNSTE",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Nuclear Security and Safeguards",
+    "code": "CNSS",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CNSS",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Nuclear Security and Safeguards",
+    "code": "CNSSO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CNSSO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Nuclear Technology Regulation",
+    "code": "CNTR",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CNTR",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Pacific Development",
+    "code": "CPADEO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPADEO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Pacific Development",
+    "code": "CPADE",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPADE",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Pacific Studies",
+    "code": "CPAST",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPAST",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Pacific Studies",
+    "code": "CPASTO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPASTO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Professional Archaeology",
+    "code": "CPARC",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPARC",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Public Health",
+    "code": "CPUBH",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPUBH",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Public Policy",
+    "code": "CPPO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CPPO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Public Policy",
+    "code": "6192XGCPPP",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/6192XGCPPP",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Regulation and Governance",
+    "code": "CREGO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CREGO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Regulation and Governance",
+    "code": "CREGOL",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CREGOL",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Science",
+    "code": "CSCIE",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CSCIE",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Science Communication",
+    "code": "GCSCM",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/GCSCM",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Social Research",
+    "code": "CSRES",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CSRES",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Studies",
+    "code": "CSTUD",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CSTUD",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Technology Governance",
+    "code": "CTEGOL",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CTEGOL",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of Technology Governance",
+    "code": "CTEGO",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CTEGO",
+    "status": 200
+  },
+  {
+    "name": "Graduate Certificate of the Repatriation of Ancestral Remains and Cultural Objects",
+    "code": "CRARC",
+    "level": "Postgraduate",
+    "duration": 0.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/CRARC",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Applied Data Analytics",
+    "code": "DADAN",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DADAN",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Business",
+    "code": "DBUSI",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DBUSI",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Computing",
+    "code": "6706XGDCP",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/6706XGDCP",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Economics",
+    "code": "DECON",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DECON",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Environment",
+    "code": "DENVI",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DENVI",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of International Affairs",
+    "code": "DIAFF",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DIAFF",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Public Health",
+    "code": "DPUBH",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DPUBH",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Public Policy",
+    "code": "DPUBP",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DPUBP",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Science",
+    "code": "6600XGDSCI",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/6600XGDSCI",
+    "status": 200
+  },
+  {
+    "name": "Graduate Diploma of Studies",
+    "code": "DSTUD",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/DSTUD",
+    "status": 200
+  },
+  {
+    "name": "Juris Doctor",
+    "code": "MJD",
+    "level": "Postgraduate",
+    "duration": 3,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MJD",
+    "status": 200
+  },
+  {
+    "name": "Master of Accounting",
+    "code": "7414XMACCT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7414XMACCT",
+    "status": 200
+  },
+  {
+    "name": "Master of Accounting (Advanced)",
+    "code": "VACCT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VACCT",
+    "status": 200
+  },
+  {
+    "name": "Master of Actuarial Practice",
+    "code": "7420XMACTP",
+    "level": "Postgraduate",
+    "duration": 2.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7420XMACTP",
+    "status": 200
+  },
+  {
+    "name": "Master of Actuarial Studies",
+    "code": "7410XMACTS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7410XMACTS",
+    "status": 200
+  },
+  {
+    "name": "Master of Anthropology (Advanced)",
+    "code": "VANTP",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VANTP",
+    "status": 200
+  },
+  {
+    "name": "Master of Anthropology and Planetary Futures",
+    "code": "MAPF",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MAPF",
+    "status": 200
+  },
+  {
+    "name": "Master of Anthropology and Planetary Futures (Advanced)",
+    "code": "VAPF",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VAPF",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Accounting",
+    "code": "MAPAC",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MAPAC",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Accounting and Master of Financial Management",
+    "code": "MAAMFM",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MAAMFM",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Anthropology and Development (Advanced)",
+    "code": "VAAAD",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VAAAD",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Criminology",
+    "code": "MACRI",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MACRI",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Cybernetics",
+    "code": "MACYB",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MACYB",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Cybernetics (Advanced)",
+    "code": "VACYB",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VACYB",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Data Analytics",
+    "code": "MADAN",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MADAN",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Economics",
+    "code": "MAPEC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MAPEC",
+    "status": 200
+  },
+  {
+    "name": "Master of Applied Finance",
+    "code": "7421XMAPFN",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7421XMAPFN",
+    "status": 200
+  },
+  {
+    "name": "Master of Archaeological and Evolutionary Science",
+    "code": "MAESC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MAESC",
+    "status": 200
+  },
+  {
+    "name": "Master of Archaeological and Evolutionary Science (Advanced)",
+    "code": "VAESC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VAESC",
+    "status": 200
+  },
+  {
+    "name": "Master of Art History and Curatorial Studies",
+    "code": "MAHST",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MAHST",
+    "status": 200
+  },
+  {
+    "name": "Master of Art History and Curatorial Studies (Advanced)",
+    "code": "VAHST",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VAHST",
+    "status": 200
+  },
+  {
+    "name": "Master of Asian Studies",
+    "code": "MASIA",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MASIA",
+    "status": 200
+  },
+  {
+    "name": "Master of Asian and Pacific Studies",
+    "code": "MANPS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MANPS",
+    "status": 200
+  },
+  {
+    "name": "Master of Biotechnology",
+    "code": "MBIOT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MBIOT",
+    "status": 200
+  },
+  {
+    "name": "Master of Biotechnology (Advanced)",
+    "code": "VBIOT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VBIOT",
+    "status": 200
+  },
+  {
+    "name": "Master of Business Administration",
+    "code": "MBUSA",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MBUSA",
+    "status": 200
+  },
+  {
+    "name": "Master of Business Information Systems",
+    "code": "MBINS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MBINS",
+    "status": 200
+  },
+  {
+    "name": "Master of Climate Change",
+    "code": "MCLIM",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MCLIM",
+    "status": 200
+  },
+  {
+    "name": "Master of Climate Change",
+    "code": "MCLIMO",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MCLIMO",
+    "status": 200
+  },
+  {
+    "name": "Master of Clinical Psychology",
+    "code": "7601XMCPSY",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7601XMCPSY",
+    "status": 200
+  },
+  {
+    "name": "Master of Commerce (Advanced)",
+    "code": "VCOMM",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VCOMM",
+    "status": 200
+  },
+  {
+    "name": "Master of Computing",
+    "code": "7706XMCOMP",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7706XMCOMP",
+    "status": 200
+  },
+  {
+    "name": "Master of Computing (Advanced)",
+    "code": "7722XVCOMP",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7722XVCOMP",
+    "status": 200
+  },
+  {
+    "name": "Master of Contemporary Art Practices (Advanced)",
+    "code": "VCAP",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VCAP",
+    "status": 200
+  },
+  {
+    "name": "Master of Digital Humanities",
+    "code": "MDIHU",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MDIHU",
+    "status": 200
+  },
+  {
+    "name": "Master of Digital Humanities (Advanced)",
+    "code": "VDIHU",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VDIHU",
+    "status": 200
+  },
+  {
+    "name": "Master of Digital Transformation and Entrepreneurship",
+    "code": "MDTE",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MDTE",
+    "status": 200
+  },
+  {
+    "name": "Master of Diplomacy",
+    "code": "MDIPOL",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MDIPOL",
+    "status": 200
+  },
+  {
+    "name": "Master of Diplomacy",
+    "code": "MDIP",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MDIP",
+    "status": 200
+  },
+  {
+    "name": "Master of Earth Sciences (Advanced)",
+    "code": "VEASC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VEASC",
+    "status": 200
+  },
+  {
+    "name": "Master of Economic Policy",
+    "code": "MECPO",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MECPO",
+    "status": 200
+  },
+  {
+    "name": "Master of Economics",
+    "code": "MECON",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MECON",
+    "status": 200
+  },
+  {
+    "name": "Master of Energy Change",
+    "code": "MENCH",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MENCH",
+    "status": 200
+  },
+  {
+    "name": "Master of Energy Change (Advanced)",
+    "code": "VENCH",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VENCH",
+    "status": 200
+  },
+  {
+    "name": "Master of Engineering in Electrical Engineering",
+    "code": "NELENG",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NELENG",
+    "status": 200
+  },
+  {
+    "name": "Master of Entrepreneurship and Innovation",
+    "code": "MEINV",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MEINV",
+    "status": 200
+  },
+  {
+    "name": "Master of Environment",
+    "code": "MENVI",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MENVI",
+    "status": 200
+  },
+  {
+    "name": "Master of Environment (Advanced)",
+    "code": "VENVI",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VENVI",
+    "status": 200
+  },
+  {
+    "name": "Master of Environmental Management and Development",
+    "code": "MEMDV",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MEMDV",
+    "status": 200
+  },
+  {
+    "name": "Master of Environmental Management and Development",
+    "code": "MEMDVO",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MEMDVO",
+    "status": 200
+  },
+  {
+    "name": "Master of Environmental and Resource Economics",
+    "code": "MERECO",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MERECO",
+    "status": 200
+  },
+  {
+    "name": "Master of Environmental and Resource Economics",
+    "code": "MEREC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MEREC",
+    "status": 200
+  },
+  {
+    "name": "Master of Finance",
+    "code": "7418XMFIN",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7418XMFIN",
+    "status": 200
+  },
+  {
+    "name": "Master of Financial Economics",
+    "code": "MFIEC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MFIEC",
+    "status": 200
+  },
+  {
+    "name": "Master of Financial Management",
+    "code": "MFINM",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MFINM",
+    "status": 200
+  },
+  {
+    "name": "Master of Financial Management and Law",
+    "code": "MFIML",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MFIML",
+    "status": 200
+  },
+  {
+    "name": "Master of Forests",
+    "code": "MFORS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MFORS",
+    "status": 200
+  },
+  {
+    "name": "Master of Forests (Advanced)",
+    "code": "VFORS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VFORS",
+    "status": 200
+  },
+  {
+    "name": "Master of General and Applied Linguistics",
+    "code": "MGAL",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MGAL",
+    "status": 200
+  },
+  {
+    "name": "Master of General and Applied Linguistics (Advanced)",
+    "code": "VLING",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VLING",
+    "status": 200
+  },
+  {
+    "name": "Master of Global Securities and Strategy",
+    "code": "MGSS",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MGSS",
+    "status": 200
+  },
+  {
+    "name": "Master of Governance (Advanced)",
+    "code": "VMGOV",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VMGOV",
+    "status": 200
+  },
+  {
+    "name": "Master of Heritage Tourism Management",
+    "code": "MHRTM",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MHRTM",
+    "status": 200
+  },
+  {
+    "name": "Master of History",
+    "code": "MHIT",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MHIT",
+    "status": 200
+  },
+  {
+    "name": "Master of History",
+    "code": "MHITO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MHITO",
+    "status": 200
+  },
+  {
+    "name": "Master of History (Advanced)",
+    "code": "VHIT",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VHIT",
+    "status": 200
+  },
+  {
+    "name": "Master of History (Advanced)",
+    "code": "VHITO",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VHITO",
+    "status": 200
+  },
+  {
+    "name": "Master of International Law and Diplomacy",
+    "code": "MINLD",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MINLD",
+    "status": 200
+  },
+  {
+    "name": "Master of International Law and Diplomacy",
+    "code": "MINLDO",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MINLDO",
+    "status": 200
+  },
+  {
+    "name": "Master of International Management",
+    "code": "MIMGT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MIMGT",
+    "status": 200
+  },
+  {
+    "name": "Master of International Relations",
+    "code": "MINTR",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MINTR",
+    "status": 200
+  },
+  {
+    "name": "Master of International and Development Economics",
+    "code": "MIDEC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MIDEC",
+    "status": 200
+  },
+  {
+    "name": "Master of International and Development Economics",
+    "code": "MIDECO",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MIDECO",
+    "status": 200
+  },
+  {
+    "name": "Master of Laws",
+    "code": "MLLM",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MLLM",
+    "status": 200
+  },
+  {
+    "name": "Master of Machine Learning and Computer Vision",
+    "code": "MMLCV",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MMLCV",
+    "status": 200
+  },
+  {
+    "name": "Master of Management",
+    "code": "MMGNT",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MMGNT",
+    "status": 200
+  },
+  {
+    "name": "Master of Marketing Management",
+    "code": "MMKMT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MMKMT",
+    "status": 200
+  },
+  {
+    "name": "Master of Mathematical Sciences (Advanced)",
+    "code": "VMASC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VMASC",
+    "status": 200
+  },
+  {
+    "name": "Master of Middle Eastern and Central Asian Studies (Advanced)",
+    "code": "VMECA",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VMECA",
+    "status": 200
+  },
+  {
+    "name": "Master of Middle Eastern and Central Asian Studies (MECAS)",
+    "code": "MECAS",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MECAS",
+    "status": 200
+  },
+  {
+    "name": "Master of Museum and Heritage Studies",
+    "code": "MMHES",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MMHES",
+    "status": 200
+  },
+  {
+    "name": "Master of Museum and Heritage Studies (Advanced)",
+    "code": "VMHES",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VMHES",
+    "status": 200
+  },
+  {
+    "name": "Master of National Security Policy",
+    "code": "MNSEPO",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MNSEPO",
+    "status": 200
+  },
+  {
+    "name": "Master of National Security Policy",
+    "code": "MNSEP",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MNSEP",
+    "status": 200
+  },
+  {
+    "name": "Master of Neuroscience",
+    "code": "MNEUR",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MNEUR",
+    "status": 200
+  },
+  {
+    "name": "Master of Neuroscience (Advanced)",
+    "code": "VNEUR",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VNEUR",
+    "status": 200
+  },
+  {
+    "name": "Master of Pacific Development",
+    "code": "MPADE",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPADE",
+    "status": 200
+  },
+  {
+    "name": "Master of Pacific Development",
+    "code": "MPADEO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPADEO",
+    "status": 200
+  },
+  {
+    "name": "Master of Pacific Studies",
+    "code": "MPAST",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPAST",
+    "status": 200
+  },
+  {
+    "name": "Master of Pacific Studies",
+    "code": "MPASTO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPASTO",
+    "status": 200
+  },
+  {
+    "name": "Master of Peace and Conflict Studies",
+    "code": "MPCSO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPCSO",
+    "status": 200
+  },
+  {
+    "name": "Master of Peace and Conflict Studies",
+    "code": "MPCS",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPCS",
+    "status": 200
+  },
+  {
+    "name": "Master of Peace and Conflict Studies (Advanced)",
+    "code": "VPCS",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VPCS",
+    "status": 200
+  },
+  {
+    "name": "Master of Peace and Conflict Studies (Advanced)",
+    "code": "VPCSO",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VPCSO",
+    "status": 200
+  },
+  {
+    "name": "Master of Political Science",
+    "code": "MPOLS",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPOLS",
+    "status": 200
+  },
+  {
+    "name": "Master of Political Science (Advanced)",
+    "code": "VPLSC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VPLSC",
+    "status": 200
+  },
+  {
+    "name": "Master of Preclinical Science",
+    "code": "MPSC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPSC",
+    "status": 200
+  },
+  {
+    "name": "Master of Professional Accounting",
+    "code": "7413XMPACC",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7413XMPACC",
+    "status": 200
+  },
+  {
+    "name": "Master of Professional Psychology",
+    "code": "MPPSY",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPPSY",
+    "status": 200
+  },
+  {
+    "name": "Master of Project Leadership",
+    "code": "MPRLE",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPRLE",
+    "status": 200
+  },
+  {
+    "name": "Master of Project Management",
+    "code": "MPROM",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPROM",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Administration",
+    "code": "MPADO",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPADO",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Administration",
+    "code": "MPAD",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPAD",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Health",
+    "code": "MPUBH",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPUBH",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Health (Advanced)",
+    "code": "VPUBH",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VPUBH",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Policy",
+    "code": "MPUPP",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPUPP",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Policy",
+    "code": "MPUPPO",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPUPPO",
+    "status": 200
+  },
+  {
+    "name": "Master of Public Policy/Master of Public Policy ANU - U Tokyo",
+    "code": "MPPAU",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MPPAU",
+    "status": 200
+  },
+  {
+    "name": "Master of Regulation and Governance",
+    "code": "MRGOVO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MRGOVO",
+    "status": 200
+  },
+  {
+    "name": "Master of Regulation and Governance",
+    "code": "MRGOV",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MRGOV",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Agricultural Innovation",
+    "code": "7670XVSCAI",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7670XVSCAI",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Astronomy and Astrophysics",
+    "code": "VSCAA",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCAA",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Biological Sciences",
+    "code": "VSCBS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCBS",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Materials Science",
+    "code": "VSCMC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCMC",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Nuclear Science",
+    "code": "VSCNS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCNS",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Precision Instrumentation and Measurement",
+    "code": "VSCPI",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCPI",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Quantitative Biology and Bioinformatics",
+    "code": "VSCQB",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCQB",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Quantum Technology",
+    "code": "VSCQT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCQT",
+    "status": 200
+  },
+  {
+    "name": "Master of Science (Advanced) in Theoretical Physics",
+    "code": "VSCTP",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSCTP",
+    "status": 200
+  },
+  {
+    "name": "Master of Science Communication",
+    "code": "MSCOM",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSCOM",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Agricultural Innovation",
+    "code": "7670XNSCAI",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7670XNSCAI",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Astronomy and Astrophysics",
+    "code": "NSCAA",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCAA",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Biological Sciences",
+    "code": "NSCBS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCBS",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Earth Sciences",
+    "code": "NSCES",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCES",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Materials Science",
+    "code": "NSCMC",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCMC",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Mathematical Sciences",
+    "code": "7670XNSCMS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/7670XNSCMS",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Nuclear Science",
+    "code": "NSCNS",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCNS",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Precision Instrumentation and Measurement",
+    "code": "NSCPI",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCPI",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Quantitative Biology and Bioinformatics",
+    "code": "NSCQB",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCQB",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Quantum Technology",
+    "code": "NSCQT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCQT",
+    "status": 200
+  },
+  {
+    "name": "Master of Science in Theoretical Physics",
+    "code": "NSCTP",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/NSCTP",
+    "status": 200
+  },
+  {
+    "name": "Master of Social Research Methods",
+    "code": "MSRM",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSRM",
+    "status": 200
+  },
+  {
+    "name": "Master of Social Research Methods (Advanced)",
+    "code": "VSRM",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSRM",
+    "status": 200
+  },
+  {
+    "name": "Master of Statistical Data Analysis",
+    "code": "MSDA",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSDA",
+    "status": 200
+  },
+  {
+    "name": "Master of Statistics",
+    "code": "MSTAT",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSTAT",
+    "status": 200
+  },
+  {
+    "name": "Master of Strategic Studies",
+    "code": "MSTRAT",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSTRAT",
+    "status": 200
+  },
+  {
+    "name": "Master of Strategic Studies (Advanced)",
+    "code": "VSTST",
+    "level": "Postgraduate",
+    "duration": 2,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/VSTST",
+    "status": 200
+  },
+  {
+    "name": "Master of Strategic and Defence Studies",
+    "code": "MSDESO",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSDESO",
+    "status": 200
+  },
+  {
+    "name": "Master of Strategic and Defence Studies",
+    "code": "MSDES",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSDES",
+    "status": 200
+  },
+  {
+    "name": "Master of Strategy and Defence",
+    "code": "MSDEF",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSDEF",
+    "status": 200
+  },
+  {
+    "name": "Master of Strategy and Defence",
+    "code": "MSDEFO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSDEFO",
+    "status": 200
+  },
+  {
+    "name": "Master of Studies",
+    "code": "MSTD",
+    "level": "Postgraduate",
+    "duration": 1.5,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MSTD",
+    "status": 200
+  },
+  {
+    "name": "Master of Technology Governance",
+    "code": "MTGOV",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MTGOV",
+    "status": 200
+  },
+  {
+    "name": "Master of Technology Governance",
+    "code": "MTGOVO",
+    "level": "Postgraduate",
+    "duration": 1,
+    "career": "Postgraduate",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/MTGOVO",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Mathematical Sciences ",
+    "code": "8650XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8650XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Laws",
+    "code": "9300XLLD",
+    "level": "Research",
+    "duration": null,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9300XLLD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Letters",
+    "code": "9101XLITTD",
+    "level": "Research",
+    "duration": null,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9101XLITTD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Medicine",
+    "code": "9911XMD",
+    "level": "Research",
+    "duration": null,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9911XMD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy (Clinical Psychology)",
+    "code": "9064XCLPSY",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9064XCLPSY",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, ANU College of Business and Economics",
+    "code": "9040XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9040XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, ANU College of Law",
+    "code": "9030XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9030XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Astronomy and Astrophysics",
+    "code": "9670XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9670XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Australian National Centre for the Public Awareness of Science",
+    "code": "9603XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9603XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Biology",
+    "code": "9066XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9066XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Chemistry",
+    "code": "9620XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9620XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Crawford School of Public Policy",
+    "code": "9540XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9540XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Culture, History and Languages",
+    "code": "9050XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9050XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Earth Sciences",
+    "code": "9640XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9640XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Fenner School of Environment and Society",
+    "code": "9065XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9065XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, International, Political and Strategic Studies",
+    "code": "9510XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9510XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, John Curtin School of Medical Research",
+    "code": "9710XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9710XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Mathematical Sciences",
+    "code": "9650XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9650XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Medicine",
+    "code": "9910XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9910XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, National Security College",
+    "code": "9850XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9850XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Physics",
+    "code": "9680XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9680XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Population Health",
+    "code": "9602XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9602XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Psychology",
+    "code": "9723XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9723XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Regulation and Governance",
+    "code": "9560XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9560XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Research School of Humanities and the Arts",
+    "code": "9552XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9552XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Research School of Social Sciences",
+    "code": "9520XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9520XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, School of Computing",
+    "code": "9714XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9714XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, School of Cybernetics",
+    "code": "9073XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9073XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, School of Engineering",
+    "code": "9715XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9715XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Philosophy, Science",
+    "code": "9060XPHD",
+    "level": "Research",
+    "duration": 4,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9060XPHD",
+    "status": 200
+  },
+  {
+    "name": "Doctor of Science",
+    "code": "9600XDSCI",
+    "level": "Research",
+    "duration": null,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/9600XDSCI",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy (MPhil), ANU College of Law",
+    "code": "8030XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8030XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy in Applied Epidemiology",
+    "code": "8721XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8721XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, ANU College of Business and Economics",
+    "code": "8040XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8040XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, ANU Colleges of Science",
+    "code": "8060XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8060XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Astronomy and Astrophysics",
+    "code": "8670XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8670XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Australian National Centre for the Public Awareness of Science",
+    "code": "8603XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8603XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Biology",
+    "code": "8066XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8066XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Chemistry",
+    "code": "8620XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8620XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Crawford School of Public Policy",
+    "code": "8540XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8540XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Culture, History and Languages",
+    "code": "8050XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8050XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Earth Sciences",
+    "code": "8640XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8640XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Fenner School of Environment and Society",
+    "code": "8065XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8065XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, International, Political and Strategic Studies",
+    "code": "8510XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8510XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, John Curtin School of Medical Research",
+    "code": "8710XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8710XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Medicine",
+    "code": "8910XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8910XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, National Security College",
+    "code": "8850XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8850XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Physics",
+    "code": "8680XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8680XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Population Health",
+    "code": "8601XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8601XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Psychology",
+    "code": "8723XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8723XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Regulation and Governance",
+    "code": "8560XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8560XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Research School of Humanities and the Arts",
+    "code": "8551XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8551XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, Research School of Social Sciences",
+    "code": "8520XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8520XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, School of Computing",
+    "code": "8714XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8714XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, School of Cybernetics",
+    "code": "8073XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8073XMPHIL",
+    "status": 200
+  },
+  {
+    "name": "Master of Philosophy, School of Engineering",
+    "code": "8715XMPHIL",
+    "level": "Research",
+    "duration": 2,
+    "career": "Research",
+    "year": "2026",
+    "url": "https://programsandcourses.anu.edu.au/2026/program/8715XMPHIL",
+    "status": 200
+  }
+]

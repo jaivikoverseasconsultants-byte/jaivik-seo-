@@ -1,0 +1,1696 @@
+[
+  {
+    "courseCode": "C41",
+    "courseTitle": "Advanced Diploma of Dance (Elite Performance)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/advanced-diploma-of-dance-elite-performance",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/advanced-diploma-of-professional-dance-elite-performance"
+  },
+  {
+    "courseCode": "C49",
+    "courseTitle": "Advanced Diploma of Live Production and Management Services",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/advanced-diploma-of-live-production-and-management-services",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/advanced-diploma-of-live-production-and-management-services"
+  },
+  {
+    "courseCode": "C61",
+    "courseTitle": "Advanced Diploma of Music Industry",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/advanced-diploma-of-music-industry",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/advanced-diploma-of-music"
+  },
+  {
+    "courseCode": "C25",
+    "courseTitle": "Associate Degree in Criminology and Justice",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/associate-degree-in-criminology-and-justice",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C25"
+  },
+  {
+    "courseCode": "C26",
+    "courseTitle": "Associate Degree of Sport, Recreation and Event Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/associate-degree-of-sport-recreation-and-event-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C26"
+  },
+  {
+    "courseCode": "Y78",
+    "courseTitle": "Bachelor of Arts",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts"
+  },
+  {
+    "courseCode": "Y93",
+    "courseTitle": "Bachelor of Arts (Acting)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-acting",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-acting"
+  },
+  {
+    "courseCode": "Y20",
+    "courseTitle": "Bachelor of Arts (Arts Management)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-arts-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-arts-and-cultural-management"
+  },
+  {
+    "courseCode": "M28",
+    "courseTitle": "Bachelor of Arts (Arts Management) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-arts-management-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=M28"
+  },
+  {
+    "courseCode": "G48",
+    "courseTitle": "Bachelor of Arts (Dance)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-dance",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-dance"
+  },
+  {
+    "courseCode": "G44",
+    "courseTitle": "Bachelor of Arts (Music Theatre)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-music-theatre",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-music-theatre"
+  },
+  {
+    "courseCode": "K12",
+    "courseTitle": "Bachelor of Arts (Psychology and Addiction Studies)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-psychology-and-addiction-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K12"
+  },
+  {
+    "courseCode": "K82",
+    "courseTitle": "Bachelor of Arts (Psychology and Counselling)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-psychology-and-counselling",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K82"
+  },
+  {
+    "courseCode": "E95",
+    "courseTitle": "Bachelor of Arts (Psychology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-psychology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=E95"
+  },
+  {
+    "courseCode": "K84",
+    "courseTitle": "Bachelor of Arts (Psychology) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-psychology-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K84"
+  },
+  {
+    "courseCode": "K13",
+    "courseTitle": "Bachelor of Arts (Psychology, Criminology and Justice)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-psychology-criminology-and-justice",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K13"
+  },
+  {
+    "courseCode": "Y40",
+    "courseTitle": "Bachelor of Arts (Regional)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-regional",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y40"
+  },
+  {
+    "courseCode": "C34",
+    "courseTitle": "Bachelor of Arts Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C34"
+  },
+  {
+    "courseCode": "W24",
+    "courseTitle": "Bachelor of Arts/Bachelor of Commerce",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-bachelor-of-commerce",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W57"
+  },
+  {
+    "courseCode": "Y91",
+    "courseTitle": "Bachelor of Arts/Bachelor of Media and Communications",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-bachelor-of-media-and-communications",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W62"
+  },
+  {
+    "courseCode": "Y48",
+    "courseTitle": "Bachelor of Arts/Bachelor of Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-bachelor-of-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W58"
+  },
+  {
+    "courseCode": "K99",
+    "courseTitle": "Bachelor of Aviation",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-aviation",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-aviation"
+  },
+  {
+    "courseCode": "C39",
+    "courseTitle": "Bachelor of Business Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-business-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C39"
+  },
+  {
+    "courseCode": "W23",
+    "courseTitle": "Bachelor of Commerce",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-commerce",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-commerce"
+  },
+  {
+    "courseCode": "W22",
+    "courseTitle": "Bachelor of Commerce Professional",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-commerce-professional",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W22"
+  },
+  {
+    "courseCode": "W25",
+    "courseTitle": "Bachelor of Commerce/Bachelor of Arts (Psychology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-commerce-bachelor-of-arts-psychology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W25"
+  },
+  {
+    "courseCode": "U65",
+    "courseTitle": "Bachelor of Computer Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-computer-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-computer-science"
+  },
+  {
+    "courseCode": "G90",
+    "courseTitle": "Bachelor of Computer Science Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-computer-science-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=G90"
+  },
+  {
+    "courseCode": "Y81",
+    "courseTitle": "Bachelor of Contemporary Arts",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-contemporary-arts",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y81"
+  },
+  {
+    "courseCode": "C56",
+    "courseTitle": "Bachelor of Counselling",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-counselling",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-counselling"
+  },
+  {
+    "courseCode": "Y14",
+    "courseTitle": "Bachelor of Counter Terrorism Security and Intelligence",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-counter-terrorism-security-and-intelligence",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-counter-terrorism-security-and-intelligence"
+  },
+  {
+    "courseCode": "G81",
+    "courseTitle": "Bachelor of Criminology and Justice",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-criminology-and-justice",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-criminology-and-justice"
+  },
+  {
+    "courseCode": "Y26",
+    "courseTitle": "Bachelor of Criminology and Justice Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-criminology-and-justice-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y26"
+  },
+  {
+    "courseCode": "Y82",
+    "courseTitle": "Bachelor of Design",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-design",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-design"
+  },
+  {
+    "courseCode": "Y42",
+    "courseTitle": "Bachelor of Education (Early Childhood Studies)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-education-early-childhood-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-early-childhood-studies"
+  },
+  {
+    "courseCode": "Y41",
+    "courseTitle": "Bachelor of Education (Primary)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-education-primary",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-primary"
+  },
+  {
+    "courseCode": "Y68",
+    "courseTitle": "Bachelor of Education (Secondary)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-education-secondary",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-education-secondary"
+  },
+  {
+    "courseCode": "Y50",
+    "courseTitle": "Bachelor of Engineering (Chemical) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-chemical-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-chemical-honours"
+  },
+  {
+    "courseCode": "Y28",
+    "courseTitle": "Bachelor of Engineering (Civil and Environmental) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-civil-and-environmental-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-civil-and-environmental-honours"
+  },
+  {
+    "courseCode": "Y13",
+    "courseTitle": "Bachelor of Engineering (Civil) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-civil-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-civil-honours"
+  },
+  {
+    "courseCode": "Y47",
+    "courseTitle": "Bachelor of Engineering (Computer Systems) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-computer-systems-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-computer-systems-honours"
+  },
+  {
+    "courseCode": "Y64",
+    "courseTitle": "Bachelor of Engineering (Computer Systems) Honours/Bachelor of Computer Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-computer-systems-honours-bachelor-of-computer-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-computer-systems-honours-bachelor-of-computer-science"
+  },
+  {
+    "courseCode": "W21",
+    "courseTitle": "Bachelor of Engineering (Electrical and Renewable Energy) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electrical-and-renewable-energy-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electrical-and-renewable-energy-honours"
+  },
+  {
+    "courseCode": "Y49",
+    "courseTitle": "Bachelor of Engineering (Electrical Power) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electrical-power-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electrical-power-honours"
+  },
+  {
+    "courseCode": "Y51",
+    "courseTitle": "Bachelor of Engineering (Electronics and Communications) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electronics-and-communications-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-electronics-and-communications-honours"
+  },
+  {
+    "courseCode": "Y46",
+    "courseTitle": "Bachelor of Engineering (Instrumentation, Control and Automation) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-instrumentation-control-and-automation-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-instrumentation-control-and-automation-honours"
+  },
+  {
+    "courseCode": "Y55",
+    "courseTitle": "Bachelor of Engineering (Marine and Offshore Engineering) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-marine-and-offshore-engineering-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y55"
+  },
+  {
+    "courseCode": "Y45",
+    "courseTitle": "Bachelor of Engineering (Mechanical) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechanical-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechanical-honours"
+  },
+  {
+    "courseCode": "Y44",
+    "courseTitle": "Bachelor of Engineering (Mechatronics) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechatronics-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechatronics-honours"
+  },
+  {
+    "courseCode": "Y75",
+    "courseTitle": "Bachelor of Engineering (Mechatronics) Honours/Bachelor of Technology (Motorsports)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechatronics-honours-bachelor-of-technology-motorsports",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-mechatronics-honours-bachelor-of-technology-motorsports"
+  },
+  {
+    "courseCode": "Y54",
+    "courseTitle": "Bachelor of Engineering (Naval Architecture) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-naval-architecture-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y54"
+  },
+  {
+    "courseCode": "Y60",
+    "courseTitle": "Bachelor of Engineering (Ocean Engineering) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-ocean-engineering-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y60"
+  },
+  {
+    "courseCode": "W17",
+    "courseTitle": "Bachelor of Engineering (Petroleum Engineering) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-petroleum-engineering-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W17"
+  },
+  {
+    "courseCode": "W26",
+    "courseTitle": "Bachelor of Engineering Honours/Bachelor of Commerce",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-commerce",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-commerce"
+  },
+  {
+    "courseCode": "Y66",
+    "courseTitle": "Bachelor of Engineering Honours/Bachelor of Laws",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-laws",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y66"
+  },
+  {
+    "courseCode": "Y74",
+    "courseTitle": "Bachelor of Engineering Honours/Bachelor of Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-honours-bachelor-of-science"
+  },
+  {
+    "courseCode": "K94",
+    "courseTitle": "Bachelor of Engineering Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K94"
+  },
+  {
+    "courseCode": "K97",
+    "courseTitle": "Bachelor of Health Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-health-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-health-science"
+  },
+  {
+    "courseCode": "Y17",
+    "courseTitle": "Bachelor of Health Science Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-health-science-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y17"
+  },
+  {
+    "courseCode": "K93",
+    "courseTitle": "Bachelor of Hospitality and Tourism Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-hospitality-and-tourism-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-hospitality-and-tourism-management"
+  },
+  {
+    "courseCode": "U67",
+    "courseTitle": "Bachelor of Information Technology",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-information-technology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-information-technology"
+  },
+  {
+    "courseCode": "G91",
+    "courseTitle": "Bachelor of Information Technology Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-information-technology-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=G91"
+  },
+  {
+    "courseCode": "Y29",
+    "courseTitle": "Bachelor of International Hotel and Resort Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-international-hotel-and-resort-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y29"
+  },
+  {
+    "courseCode": "V72",
+    "courseTitle": "Bachelor of Laws",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-laws",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws"
+  },
+  {
+    "courseCode": "Y11",
+    "courseTitle": "Bachelor of Laws (Graduate Entry)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-laws-graduate-entry",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-graduate-entry"
+  },
+  {
+    "courseCode": "Y67",
+    "courseTitle": "Bachelor of Laws/Bachelor of Arts",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-arts",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y67"
+  },
+  {
+    "courseCode": "W28",
+    "courseTitle": "Bachelor of Laws/Bachelor of Commerce",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-commerce",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-commerce"
+  },
+  {
+    "courseCode": "K30",
+    "courseTitle": "Bachelor of Laws/Bachelor of Criminology and Justice",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-criminology-and-justice",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-criminology-and-justice"
+  },
+  {
+    "courseCode": "K58",
+    "courseTitle": "Bachelor of Laws/Bachelor of Psychological Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-laws-bachelor-of-psychological-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K58"
+  },
+  {
+    "courseCode": "Y99",
+    "courseTitle": "Bachelor of Marketing, Advertising and Public Relations",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-marketing-advertising-and-public-relations",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-marketing-advertising-and-public-relations"
+  },
+  {
+    "courseCode": "Y77",
+    "courseTitle": "Bachelor of Media and Communication",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-media-and-communication",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W63"
+  },
+  {
+    "courseCode": "C32",
+    "courseTitle": "Bachelor of Medical Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-medical-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C32"
+  },
+  {
+    "courseCode": "L66",
+    "courseTitle": "Bachelor of Music",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-music",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-music"
+  },
+  {
+    "courseCode": "K35",
+    "courseTitle": "Bachelor of Music Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-music-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-music-honours"
+  },
+  {
+    "courseCode": "Y97",
+    "courseTitle": "Bachelor of Performing Arts",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-performing-arts",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-performing-arts"
+  },
+  {
+    "courseCode": "K67",
+    "courseTitle": "Bachelor of Psychological Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-psychological-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-psychological-science"
+  },
+  {
+    "courseCode": "Y83",
+    "courseTitle": "Bachelor of Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science"
+  },
+  {
+    "courseCode": "Y18",
+    "courseTitle": "Bachelor of Science (Biological Sciences)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-biological-sciences",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y18"
+  },
+  {
+    "courseCode": "K05",
+    "courseTitle": "Bachelor of Science (Biomedical Science)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-biomedical-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-biomedical-science"
+  },
+  {
+    "courseCode": "K57",
+    "courseTitle": "Bachelor of Science (Conservation and Wildlife Biology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-conservation-and-wildlife-biology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K57"
+  },
+  {
+    "courseCode": "Y89",
+    "courseTitle": "Bachelor of Science (Cyber Security)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-cyber-security",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-cyber-security"
+  },
+  {
+    "courseCode": "Y39",
+    "courseTitle": "Bachelor of Science (Environmental Management)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-environmental-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y39"
+  },
+  {
+    "courseCode": "M89",
+    "courseTitle": "Bachelor of Science (Exercise and Sports Science)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-and-sports-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-and-sports-science"
+  },
+  {
+    "courseCode": "M90",
+    "courseTitle": "Bachelor of Science (Exercise Science and Rehabilitation)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-science-and-rehabilitation",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-exercise-science-and-rehabilitation"
+  },
+  {
+    "courseCode": "G87",
+    "courseTitle": "Bachelor of Science (Marine and Freshwater Biology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-marine-and-freshwater-biology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=G87"
+  },
+  {
+    "courseCode": "G19",
+    "courseTitle": "Bachelor of Science (Mathematics) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-mathematics-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=G19"
+  },
+  {
+    "courseCode": "Y52",
+    "courseTitle": "Bachelor of Science (Medical Science) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-medical-science-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y52"
+  },
+  {
+    "courseCode": "Y61",
+    "courseTitle": "Bachelor of Science (Nursing Studies)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-studies"
+  },
+  {
+    "courseCode": "C33",
+    "courseTitle": "Bachelor of Science (Nursing)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing"
+  },
+  {
+    "courseCode": "Y76",
+    "courseTitle": "Bachelor of Science (Nursing)/Bachelor of Science (Midwifery)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-bachelor-of-science-midwifery",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-nursing-bachelor-of-science-midwifery"
+  },
+  {
+    "courseCode": "H96",
+    "courseTitle": "Bachelor of Science (Occupational Therapy)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-occupational-therapy",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-occupational-therapy"
+  },
+  {
+    "courseCode": "Y63",
+    "courseTitle": "Bachelor of Science (Occupational Therapy) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-occupational-therapy-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-occupational-therapy-honours"
+  },
+  {
+    "courseCode": "K89",
+    "courseTitle": "Bachelor of Science (Paramedical Science)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-paramedical-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-paramedical-science"
+  },
+  {
+    "courseCode": "M16",
+    "courseTitle": "Bachelor of Science (Physics) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-physics-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=M16"
+  },
+  {
+    "courseCode": "E37",
+    "courseTitle": "Bachelor of Science (Psychology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-psychology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=E37"
+  },
+  {
+    "courseCode": "K86",
+    "courseTitle": "Bachelor of Science (Psychology) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-psychology-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K86"
+  },
+  {
+    "courseCode": "E72",
+    "courseTitle": "Bachelor of Science (Security)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-security",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=E72"
+  },
+  {
+    "courseCode": "Y85",
+    "courseTitle": "Bachelor of Science (Security) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-security-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y85"
+  },
+  {
+    "courseCode": "Y56",
+    "courseTitle": "Bachelor of Science (Sports Science and Football)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-sports-science-and-football",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y56"
+  },
+  {
+    "courseCode": "E54",
+    "courseTitle": "Bachelor of Science (Sports Science) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-sports-science-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=E54"
+  },
+  {
+    "courseCode": "Y92",
+    "courseTitle": "Bachelor of Science Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=Y92"
+  },
+  {
+    "courseCode": "W27",
+    "courseTitle": "Bachelor of Science/Bachelor of Commerce",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-science-bachelor-of-commerce",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-science-bachelor-of-commerce"
+  },
+  {
+    "courseCode": "C58",
+    "courseTitle": "Bachelor of Social Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-social-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C58"
+  },
+  {
+    "courseCode": "K85",
+    "courseTitle": "Bachelor of Social Science Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-social-science-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=K85"
+  },
+  {
+    "courseCode": "K41",
+    "courseTitle": "Bachelor of Social Work",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-social-work",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-social-work"
+  },
+  {
+    "courseCode": "K42",
+    "courseTitle": "Bachelor of Social Work Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-social-work-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-social-work-honours"
+  },
+  {
+    "courseCode": "Y02",
+    "courseTitle": "Bachelor of Speech Pathology",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-speech-pathology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-speech-pathology"
+  },
+  {
+    "courseCode": "Y12",
+    "courseTitle": "Bachelor of Speech Pathology Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-speech-pathology-honours",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-speech-pathology-honours"
+  },
+  {
+    "courseCode": "Y53",
+    "courseTitle": "Bachelor of Sport, Recreation and Event Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-sport-recreation-and-event-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-global-sport-business-management"
+  },
+  {
+    "courseCode": "C55",
+    "courseTitle": "Bachelor of Sustainability",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-sustainability",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C55"
+  },
+  {
+    "courseCode": "Y73",
+    "courseTitle": "Bachelor of Technology (Aeronautical)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-technology-aeronautical",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-technology-aeronautical"
+  },
+  {
+    "courseCode": "U78",
+    "courseTitle": "Bachelor of Technology (Electronic and Computer Systems)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-technology-electronic-and-computer-systems",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=U78"
+  },
+  {
+    "courseCode": "Y62",
+    "courseTitle": "Bachelor of Technology (Engineering)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-technology-engineering",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-technology-engineering"
+  },
+  {
+    "courseCode": "G68",
+    "courseTitle": "Bachelor of Technology (Motorsports)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-technology-motorsports",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-technology-motorsports"
+  },
+  {
+    "courseCode": "C57",
+    "courseTitle": "Bachelor of Youth Work",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-youth-work",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-youth-work"
+  },
+  {
+    "courseCode": "T11",
+    "courseTitle": "Certificate in Behavioural Analysis",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/certificate-in-behavioural-analysis",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=T11"
+  },
+  {
+    "courseCode": "T24",
+    "courseTitle": "Certificate in Counselling Skills",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/certificate-in-counselling-skills",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=T24"
+  },
+  {
+    "courseCode": "T02",
+    "courseTitle": "Certificate in Psychological Studies",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/certificate-in-psychological-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=T02"
+  },
+  {
+    "courseCode": "C53",
+    "courseTitle": "Certificate IV in Aboriginal Performance",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/certificate-iv-in-aboriginal-performance",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/certificate-iv-in-aboriginal-performance"
+  },
+  {
+    "courseCode": "J73",
+    "courseTitle": "Diploma in Language Studies",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-in-language-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J73"
+  },
+  {
+    "courseCode": "C67",
+    "courseTitle": "Diploma of Acting",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-acting",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/diploma-of-acting"
+  },
+  {
+    "courseCode": "C40",
+    "courseTitle": "Diploma of Dance (Elite Performance)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-dance-elite-performance",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/diploma-of-professional-dance-elite-performance"
+  },
+  {
+    "courseCode": "C54",
+    "courseTitle": "Diploma of Environmental Health",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-environmental-health",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/diploma-of-environmental-health"
+  },
+  {
+    "courseCode": "C65",
+    "courseTitle": "Diploma of Live Production and Technical Services",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-live-production-and-technical-services",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/diploma-of-live-production-and-technical-services"
+  },
+  {
+    "courseCode": "C66",
+    "courseTitle": "Diploma of Music Industry",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-music-industry",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=C66"
+  },
+  {
+    "courseCode": "C68",
+    "courseTitle": "Diploma of Musical Theatre",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-musical-theatre",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/diploma-of-musical-theatre"
+  },
+  {
+    "courseCode": "C52",
+    "courseTitle": "Diploma of Screen Performance",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/diploma-of-screen-performance",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/diploma-of-screen-performance"
+  },
+  {
+    "courseCode": "L61",
+    "courseTitle": "Doctor of Philosophy",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/doctor-of-philosophy",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/doctor-of-philosophy"
+  },
+  {
+    "courseCode": "J42",
+    "courseTitle": "Doctor of Philosophy (Integrated)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/doctor-of-philosophy-integrated",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/doctor-of-philosophy-integrated"
+  },
+  {
+    "courseCode": "J47",
+    "courseTitle": "Graduate Certificate in Aeromedical Retrieval",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-aeromedical-retrieval",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J47"
+  },
+  {
+    "courseCode": "L84",
+    "courseTitle": "Graduate Certificate in Children and Young People's Nursing",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-children-and-young-peoples-nursing",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-children-and-young-peoples-nursing"
+  },
+  {
+    "courseCode": "W90",
+    "courseTitle": "Graduate Certificate in Dementia Studies",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-dementia-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W90"
+  },
+  {
+    "courseCode": "J55",
+    "courseTitle": "Graduate Certificate in Digital Learning Technologies",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-digital-learning-technologies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J55"
+  },
+  {
+    "courseCode": "J50",
+    "courseTitle": "Graduate Certificate in Health Care Leadership and Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-health-care-leadership-and-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J50"
+  },
+  {
+    "courseCode": "L54",
+    "courseTitle": "Graduate Certificate in Mental Health",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-mental-health",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-mental-health"
+  },
+  {
+    "courseCode": "L90",
+    "courseTitle": "Graduate Certificate in Midwifery Diagnostics and Prescribing",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-midwifery-diagnostics-and-prescribing",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-midwifery-diagnostics-and-prescribing"
+  },
+  {
+    "courseCode": "S72",
+    "courseTitle": "Graduate Certificate in Occupational Health and Safety",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-occupational-health-and-safety",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-occupational-health-and-safety"
+  },
+  {
+    "courseCode": "T52",
+    "courseTitle": "Graduate Certificate in Patient Safety and Clinical Risk",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-patient-safety-and-clinical-risk",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=T52"
+  },
+  {
+    "courseCode": "W60",
+    "courseTitle": "Graduate Certificate in Public Health",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-public-health",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-public-health"
+  },
+  {
+    "courseCode": "U73",
+    "courseTitle": "Graduate Certificate in Social Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-social-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=U73"
+  },
+  {
+    "courseCode": "L49",
+    "courseTitle": "Graduate Certificate of Behaviour Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-behaviour-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L49"
+  },
+  {
+    "courseCode": "L95",
+    "courseTitle": "Graduate Certificate of Business",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-business",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-business"
+  },
+  {
+    "courseCode": "J53",
+    "courseTitle": "Graduate Certificate of Counselling and Psychotherapy",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-counselling-and-psychotherapy",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J53"
+  },
+  {
+    "courseCode": "J81",
+    "courseTitle": "Graduate Certificate of Critical Care Paramedicine",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-critical-care-paramedicine",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-critical-care-paramedicine"
+  },
+  {
+    "courseCode": "L50",
+    "courseTitle": "Graduate Certificate of Cyber Security",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-cyber-security",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-cyber-security"
+  },
+  {
+    "courseCode": "J64",
+    "courseTitle": "Graduate Certificate of Disaster and Emergency Response",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-disaster-and-emergency-response",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J64"
+  },
+  {
+    "courseCode": "S74",
+    "courseTitle": "Graduate Certificate of Education (Early Childhood Studies)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-early-childhood-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-early-childhood-studies"
+  },
+  {
+    "courseCode": "L47",
+    "courseTitle": "Graduate Certificate of Education (Learning Difficulties)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-learning-difficulties",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L47"
+  },
+  {
+    "courseCode": "L48",
+    "courseTitle": "Graduate Certificate of Education (Literacy Education)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-literacy-education",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L48"
+  },
+  {
+    "courseCode": "L46",
+    "courseTitle": "Graduate Certificate of Education (Special Education)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-special-education",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L46"
+  },
+  {
+    "courseCode": "L41",
+    "courseTitle": "Graduate Certificate of Education (Special Education: Complex Communication Needs)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-special-education-complex-communication-needs",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L41"
+  },
+  {
+    "courseCode": "L78",
+    "courseTitle": "Graduate Certificate of Education (TESOL)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-tesol",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L78"
+  },
+  {
+    "courseCode": "S94",
+    "courseTitle": "Graduate Certificate of Education in Educational Leadership",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-education-in-educational-leadership",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=S94"
+  },
+  {
+    "courseCode": "J79",
+    "courseTitle": "Graduate Certificate of Entrepreneurship and Innovation",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-entrepreneurship-and-innovation",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J79"
+  },
+  {
+    "courseCode": "F78",
+    "courseTitle": "Graduate Certificate of Environmental Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-environmental-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=F78"
+  },
+  {
+    "courseCode": "M27",
+    "courseTitle": "Graduate Certificate of Exercise Science (Strength and Conditioning)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-exercise-science-strength-and-conditioning",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-exercise-science-strength-and-conditioning"
+  },
+  {
+    "courseCode": "J82",
+    "courseTitle": "Graduate Certificate of Extended Care Paramedicine",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-extended-care-paramedicine",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-community-paramedicine"
+  },
+  {
+    "courseCode": "J65",
+    "courseTitle": "Graduate Certificate of Hospitality Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-hospitality-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-hospitality-management"
+  },
+  {
+    "courseCode": "L76",
+    "courseTitle": "Graduate Certificate of Human Resource Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-human-resource-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-human-resource-management"
+  },
+  {
+    "courseCode": "L39",
+    "courseTitle": "Graduate Certificate of Project Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-project-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-project-management"
+  },
+  {
+    "courseCode": "L80",
+    "courseTitle": "Graduate Certificate of Secondary Education (Design and Technology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-secondary-education-design-and-technology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L80"
+  },
+  {
+    "courseCode": "L77",
+    "courseTitle": "Graduate Certificate of Secondary Education (Mathematics)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-secondary-education-mathematics",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L77"
+  },
+  {
+    "courseCode": "J77",
+    "courseTitle": "Graduate Certificate of Supply Chain and Logistics Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-of-supply-chain-and-logistics-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-of-supply-chain-and-logistics-management"
+  },
+  {
+    "courseCode": "L91",
+    "courseTitle": "Graduate Diploma in Aeromedical Retrieval",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-in-aeromedical-retrieval",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L91"
+  },
+  {
+    "courseCode": "W56",
+    "courseTitle": "Graduate Diploma of Broadcasting",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-broadcasting",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W56"
+  },
+  {
+    "courseCode": "L96",
+    "courseTitle": "Graduate Diploma of Business",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-business",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-diploma-of-business"
+  },
+  {
+    "courseCode": "J54",
+    "courseTitle": "Graduate Diploma of Counselling and Psychotherapy",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-counselling-and-psychotherapy",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J54"
+  },
+  {
+    "courseCode": "J75",
+    "courseTitle": "Graduate Diploma of Critical Care Paramedicine",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-critical-care-paramedicine",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-diploma-of-critical-care-paramedicine"
+  },
+  {
+    "courseCode": "L51",
+    "courseTitle": "Graduate Diploma of Cyber Security",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-cyber-security",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L51"
+  },
+  {
+    "courseCode": "J66",
+    "courseTitle": "Graduate Diploma of Disaster and Emergency Response",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-disaster-and-emergency-response",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J66"
+  },
+  {
+    "courseCode": "S19",
+    "courseTitle": "Graduate Diploma of Education (Early Childhood Studies)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-education-early-childhood-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=S19"
+  },
+  {
+    "courseCode": "S51",
+    "courseTitle": "Graduate Diploma of Education (Primary)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-education-primary",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=S51"
+  },
+  {
+    "courseCode": "W82",
+    "courseTitle": "Graduate Diploma of Education (Secondary)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-education-secondary",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=W82"
+  },
+  {
+    "courseCode": "S01",
+    "courseTitle": "Graduate Diploma of Environmental Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-environmental-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=S01"
+  },
+  {
+    "courseCode": "J80",
+    "courseTitle": "Graduate Diploma of Extended Care Paramedicine",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-extended-care-paramedicine",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-diploma-of-community-paramedicine"
+  },
+  {
+    "courseCode": "J68",
+    "courseTitle": "Graduate Diploma of Human Reproduction",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-human-reproduction",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J68"
+  },
+  {
+    "courseCode": "J56",
+    "courseTitle": "Graduate Diploma of Human Resource Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-human-resource-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-diploma-of-human-resource-management"
+  },
+  {
+    "courseCode": "S31",
+    "courseTitle": "Graduate Diploma of Music",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-music",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=S31"
+  },
+  {
+    "courseCode": "S73",
+    "courseTitle": "Graduate Diploma of Occupational Health and Safety",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-occupational-health-and-safety",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-diploma-of-occupational-health-and-safety"
+  },
+  {
+    "courseCode": "L43",
+    "courseTitle": "Graduate Diploma of Professional Writing and Editing",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-professional-writing-and-editing",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L43"
+  },
+  {
+    "courseCode": "W61",
+    "courseTitle": "Graduate Diploma of Public Health",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-diploma-of-public-health",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-diploma-of-public-health"
+  },
+  {
+    "courseCode": "J40",
+    "courseTitle": "Master of Arts (Performing Arts)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-arts-performing-arts",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-arts-performing-arts"
+  },
+  {
+    "courseCode": "L52",
+    "courseTitle": "Master of Arts by Research",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-arts-by-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L52"
+  },
+  {
+    "courseCode": "J52",
+    "courseTitle": "Master of Business Administration",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-business-administration",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-business-administration"
+  },
+  {
+    "courseCode": "L94",
+    "courseTitle": "Master of Business Administration International",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-business-administration-international",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-business-administration-global"
+  },
+  {
+    "courseCode": "L04",
+    "courseTitle": "Master of Business by Research",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-business-by-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-business-by-research"
+  },
+  {
+    "courseCode": "I52",
+    "courseTitle": "Master of Clinical Nursing",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-clinical-nursing",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-clinical-nursing"
+  },
+  {
+    "courseCode": "J71",
+    "courseTitle": "Master of Communication",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-communication",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-communication"
+  },
+  {
+    "courseCode": "I45",
+    "courseTitle": "Master of Computer Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-computer-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-computer-science"
+  },
+  {
+    "courseCode": "L67",
+    "courseTitle": "Master of Counselling and Psychotherapy",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-counselling-and-psychotherapy",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L67"
+  },
+  {
+    "courseCode": "L58",
+    "courseTitle": "Master of Criminal Justice by Research",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-criminal-justice-by-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L58"
+  },
+  {
+    "courseCode": "J84",
+    "courseTitle": "Master of Critical Care Paramedicine",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-critical-care-paramedicine",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-critical-care-paramedicine"
+  },
+  {
+    "courseCode": "L33",
+    "courseTitle": "Master of Cyber Security",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-cyber-security",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-cyber-security"
+  },
+  {
+    "courseCode": "L45",
+    "courseTitle": "Master of Design",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-design",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L45"
+  },
+  {
+    "courseCode": "L70",
+    "courseTitle": "Master of Disaster and Emergency Response",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-disaster-and-emergency-response",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L70"
+  },
+  {
+    "courseCode": "H08",
+    "courseTitle": "Master of Education",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-education",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-education"
+  },
+  {
+    "courseCode": "J89",
+    "courseTitle": "Master of Education (Advanced)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-education-advanced",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-education-advanced"
+  },
+  {
+    "courseCode": "J44",
+    "courseTitle": "Master of Education by Research",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-education-by-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-education-by-research"
+  },
+  {
+    "courseCode": "I59",
+    "courseTitle": "Master of Engineering",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-engineering",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-engineering"
+  },
+  {
+    "courseCode": "J63",
+    "courseTitle": "Master of Engineering Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-engineering-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-engineering-science"
+  },
+  {
+    "courseCode": "L86",
+    "courseTitle": "Master of Environmental Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-environmental-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L86"
+  },
+  {
+    "courseCode": "J48",
+    "courseTitle": "Master of Environmental Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-environmental-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-environmental-science"
+  },
+  {
+    "courseCode": "U94",
+    "courseTitle": "Master of Exercise Science (Strength and Conditioning)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-exercise-science-strength-and-conditioning",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-exercise-science-strength-and-conditioning"
+  },
+  {
+    "courseCode": "L98",
+    "courseTitle": "Master of Finance and Banking",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-finance-and-banking",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-finance"
+  },
+  {
+    "courseCode": "L75",
+    "courseTitle": "Master of Human Resource Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-human-resource-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-human-resource-management"
+  },
+  {
+    "courseCode": "I46",
+    "courseTitle": "Master of Information Technology",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-information-technology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=I46"
+  },
+  {
+    "courseCode": "L89",
+    "courseTitle": "Master of International Hospitality Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-international-hospitality-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-international-hospitality-management"
+  },
+  {
+    "courseCode": "J60",
+    "courseTitle": "Master of Laws (Research)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-laws-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-laws-research"
+  },
+  {
+    "courseCode": "L71",
+    "courseTitle": "Master of Management Information Systems",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-management-information-systems",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-management-information-systems"
+  },
+  {
+    "courseCode": "L42",
+    "courseTitle": "Master of Marketing and Innovation Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-marketing-and-innovation-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-marketing-and-innovation-management"
+  },
+  {
+    "courseCode": "J61",
+    "courseTitle": "Master of Midwifery (Research)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-midwifery-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-midwifery-research"
+  },
+  {
+    "courseCode": "I80",
+    "courseTitle": "Master of Midwifery Practice",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-midwifery-practice",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=I80"
+  },
+  {
+    "courseCode": "I33",
+    "courseTitle": "Master of Nurse Education",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-nurse-education",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=I33"
+  },
+  {
+    "courseCode": "J88",
+    "courseTitle": "Master of Nursing",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-nursing",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-studies"
+  },
+  {
+    "courseCode": "J46",
+    "courseTitle": "Master of Nursing (Graduate Entry)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-nursing-graduate-entry",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-graduate-entry"
+  },
+  {
+    "courseCode": "L88",
+    "courseTitle": "Master of Nursing (Nurse Practitioner)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-nursing-nurse-practitioner",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-nurse-practitioner"
+  },
+  {
+    "courseCode": "J62",
+    "courseTitle": "Master of Nursing (Research)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-nursing-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-nursing-research"
+  },
+  {
+    "courseCode": "I49",
+    "courseTitle": "Master of Nutrition and Dietetics",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-nutrition-and-dietetics",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-nutrition-and-dietetics"
+  },
+  {
+    "courseCode": "L65",
+    "courseTitle": "Master of Occupational Health and Safety",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-occupational-health-and-safety",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L65"
+  },
+  {
+    "courseCode": "I01",
+    "courseTitle": "Master of Occupational Hygiene and Toxicology",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-occupational-hygiene-and-toxicology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=I01"
+  },
+  {
+    "courseCode": "J78",
+    "courseTitle": "Master of Paramedic Practitioner",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-paramedic-practitioner",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-paramedic-practitioner"
+  },
+  {
+    "courseCode": "J35",
+    "courseTitle": "Master of Paramedical Science by Research",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-paramedical-science-by-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J35"
+  },
+  {
+    "courseCode": "L97",
+    "courseTitle": "Master of Professional Accounting",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-professional-accounting",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-professional-accounting"
+  },
+  {
+    "courseCode": "L44",
+    "courseTitle": "Master of Professional Communication",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-professional-communication",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L44"
+  },
+  {
+    "courseCode": "J72",
+    "courseTitle": "Master of Professional Design",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-professional-design",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J72"
+  },
+  {
+    "courseCode": "L99",
+    "courseTitle": "Master of Project Management",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-project-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-project-management"
+  },
+  {
+    "courseCode": "I62",
+    "courseTitle": "Master of Public Health",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-public-health",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-public-health"
+  },
+  {
+    "courseCode": "J14",
+    "courseTitle": "Master of Public Health by Research",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-public-health-by-research",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J14"
+  },
+  {
+    "courseCode": "J51",
+    "courseTitle": "Master of Science (Assisted Reproductive Technology)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-assisted-reproductive-technology",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J51"
+  },
+  {
+    "courseCode": "J19",
+    "courseTitle": "Master of Science (Biological Sciences)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-biological-sciences",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J19"
+  },
+  {
+    "courseCode": "L62",
+    "courseTitle": "Master of Science (Chemistry)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-chemistry",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L62"
+  },
+  {
+    "courseCode": "J16",
+    "courseTitle": "Master of Science (Computer Science)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-computer-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J16"
+  },
+  {
+    "courseCode": "J20",
+    "courseTitle": "Master of Science (Environmental Management)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-environmental-management",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J20"
+  },
+  {
+    "courseCode": "J22",
+    "courseTitle": "Master of Science (Interdisciplinary Studies)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-interdisciplinary-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J22"
+  },
+  {
+    "courseCode": "689",
+    "courseTitle": "Master of Science (Mathematics and Planning)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-mathematics-and-planning",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=689"
+  },
+  {
+    "courseCode": "J45",
+    "courseTitle": "Master of Science (Medical Science)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-medical-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=J45"
+  },
+  {
+    "courseCode": "641",
+    "courseTitle": "Master of Science (Sports Science)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-science-sports-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=641"
+  },
+  {
+    "courseCode": "L57",
+    "courseTitle": "Master of Screen Studies",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-screen-studies",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=L57"
+  },
+  {
+    "courseCode": "U66",
+    "courseTitle": "Master of Social Science",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-social-science",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/page-archived?crsArchived=U66"
+  },
+  {
+    "courseCode": "I81",
+    "courseTitle": "Master of Teaching (Early Childhood)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-teaching-early-childhood",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-teaching-early-childhood"
+  },
+  {
+    "courseCode": "I83",
+    "courseTitle": "Master of Teaching (Primary)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-teaching-primary",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-teaching-primary"
+  },
+  {
+    "courseCode": "I91",
+    "courseTitle": "Master of Teaching (Secondary)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-teaching-secondary",
+    "status": 200,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-teaching-secondary"
+  }
+]

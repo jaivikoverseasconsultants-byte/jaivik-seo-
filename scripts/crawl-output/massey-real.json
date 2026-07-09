@@ -1,0 +1,1234 @@
+[
+  {
+    "name": "Bachelor of Accountancy – BAcc",
+    "code": "UBACC",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-accountancy-UBACC/"
+  },
+  {
+    "name": "Bachelor of Agribusiness – BAgribusiness",
+    "code": "UBAGC",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-agribusiness-UBAGC/"
+  },
+  {
+    "name": "Bachelor of Agricultural Science – BAgSci",
+    "code": "UBAGS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-agricultural-science-UBAGS/"
+  },
+  {
+    "name": "Bachelor of Animal Science – BAnSci",
+    "code": "UBANS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-animal-science-UBANS/"
+  },
+  {
+    "name": "Bachelor of Arts",
+    "code": "UBART",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-arts-UBART/"
+  },
+  {
+    "name": "Bachelor of Arts (Honours) – BA(Hons)",
+    "code": "PHART",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-arts-honours-PHART/"
+  },
+  {
+    "name": "Bachelor of Aviation – BAv",
+    "code": "UBAVT",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-aviation-UBAVT/"
+  },
+  {
+    "name": "Bachelor of Aviation Management – BAvMan",
+    "code": "UBAVM",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-aviation-management-UBAVM/"
+  },
+  {
+    "name": "Bachelor of Business – BBus",
+    "code": "UBBSS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-business-UBBSS/"
+  },
+  {
+    "name": "Bachelor of Commercial Music – BCommMus",
+    "code": "UBCMS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-commercial-music-UBCMS/"
+  },
+  {
+    "name": "Bachelor of Commercial Music (Honours) – BCommMus(Hons)",
+    "code": "PHCMS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-commercial-music-honours-PHCMS/"
+  },
+  {
+    "name": "Bachelor of Communication",
+    "code": "UBCMM",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-communication-UBCMM/"
+  },
+  {
+    "name": "Bachelor of Construction – BConst",
+    "code": "UBCNS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-construction-UBCNS/"
+  },
+  {
+    "name": "Bachelor of Construction (Honours) – BConst (Hons)",
+    "code": "PHCNS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-construction-honours-PHCNS/"
+  },
+  {
+    "name": "Bachelor of Design – BDes",
+    "code": "UBDSG",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-design-UBDSG/"
+  },
+  {
+    "name": "Bachelor of Design with Honours – BDes(Hons)",
+    "code": "UHDSG",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-design-with-honours-UHDSG/"
+  },
+  {
+    "name": "Bachelor of Earth and Environmental Science – BEarthEnvSc",
+    "code": "UBERE",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-earth-and-environmental-science-UBERE/"
+  },
+  {
+    "name": "Bachelor of Fine Arts",
+    "code": "UBFNA",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-fine-arts-UBFNA/"
+  },
+  {
+    "name": "Bachelor of Fine Arts with Honours – BFA(Hons)",
+    "code": "UHFNA",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-fine-arts-with-honours-UHFNA/"
+  },
+  {
+    "name": "Bachelor of Food Technology with Honours – BFoodTech(Hons)",
+    "code": "UHFDT",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-food-technology-with-honours-UHFDT/"
+  },
+  {
+    "name": "Bachelor of Health Science – BHlthSc",
+    "code": "UBHLS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-health-science-UBHLS/"
+  },
+  {
+    "name": "Bachelor of Horticultural and Plant Systems – BHort&PlantSys",
+    "code": "UBHRC",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-horticultural-and-plant-systems-UBHRC/"
+  },
+  {
+    "name": "Bachelor of Information Sciences – BInfSc",
+    "code": "UBINS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-information-sciences-UBINS/"
+  },
+  {
+    "name": "Bachelor of Māori Visual Arts",
+    "code": "UBMRV",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-maori-visual-arts-UBMRV/"
+  },
+  {
+    "name": "Bachelor of Nursing",
+    "code": "UBNRS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-nursing-UBNRS/"
+  },
+  {
+    "name": "Bachelor of Resource and Environmental Planning",
+    "code": "UBRSE",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-resource-and-environmental-planning-UBRSE/"
+  },
+  {
+    "name": "Bachelor of Science – BSc",
+    "code": "UBSCN",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-UBSCN/"
+  },
+  {
+    "name": "Bachelor of Science (Honours) – BSc(Hons)",
+    "code": "PHSCN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-science-honours-PHSCN/"
+  },
+  {
+    "name": "Bachelor of Screen Arts",
+    "code": "UBCRM",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-screen-arts-UBCRM/"
+  },
+  {
+    "name": "Bachelor of Screen Arts with Honours – BSA(Hons)",
+    "code": "UHSCA",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-screen-arts-with-honours-UHSCA/"
+  },
+  {
+    "name": "Bachelor of Social Work",
+    "code": "UBSCW",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-social-work-UBSCW/"
+  },
+  {
+    "name": "Bachelor of Speech and Language Therapy with Honours – BSpchLngThHons",
+    "code": "UHSPL",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P4Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-speech-and-language-therapy-with-honours-UHSPL/"
+  },
+  {
+    "name": "Bachelor of Sport and Exercise – BSpEx",
+    "code": "UBSPE",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-sport-and-exercise-UBSPE/"
+  },
+  {
+    "name": "Bachelor of Veterinary Science – BVSc",
+    "code": "UBVTS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P5Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-veterinary-science-UBVTS/"
+  },
+  {
+    "name": "Bachelor of Veterinary Science Pre-Selection – BVScPre-Sel",
+    "code": "UBVSP",
+    "programType": "Undergraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-veterinary-science-pre-selection-UBVSP/"
+  },
+  {
+    "name": "Certificate in Arts – CertArts",
+    "code": "UCART",
+    "programType": "Undergraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-arts-UCART/"
+  },
+  {
+    "name": "Certificate in Border and Biosecurity – CertBBiosec",
+    "code": "UCBRB",
+    "programType": "Undergraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-border-and-biosecurity-UCBRB/"
+  },
+  {
+    "name": "Certificate in Business Studies – CertBusStuds",
+    "code": "UCBSS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-business-studies-UCBSS/"
+  },
+  {
+    "name": "Certificate in Creative Arts – CertCreativeArt",
+    "code": "UCVSA",
+    "programType": "Undergraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-creative-arts-UCVSA/"
+  },
+  {
+    "name": "Certificate in Financial Advice – CertFinAdvice",
+    "code": "UCFNA",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-financial-advice-UCFNA/"
+  },
+  {
+    "name": "Certificate in Foundation Studies – CertFoundStud",
+    "code": "SCFNS",
+    "programType": "Pre-degree study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-foundation-studies-SCFNS/"
+  },
+  {
+    "name": "Certificate in Science and Technology – CertScTech",
+    "code": "UCSCT",
+    "programType": "Undergraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-in-science-and-technology-UCSCT/"
+  },
+  {
+    "name": "Certificate of Proficiency Postgraduate – CoP Postgrad",
+    "code": "CPPST",
+    "programType": "Varied study levels",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-of-proficiency-postgraduate-CPPST/"
+  },
+  {
+    "name": "Certificate of Proficiency (Student Exchange)",
+    "code": "CPSTX",
+    "programType": "Varied study levels",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-of-proficiency-student-exchange-CPSTX/"
+  },
+  {
+    "name": "Certificate of Proficiency Sub Degree",
+    "code": "CPSBD",
+    "programType": "Varied study levels",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-of-proficiency-sub-degree-CPSBD/"
+  },
+  {
+    "name": "Certificate of Proficiency Undergraduate",
+    "code": "CPUND",
+    "programType": "Varied study levels",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-of-proficiency-undergraduate-CPUND/"
+  },
+  {
+    "name": "Certificate of University Preparation – CertUniPrep",
+    "code": "SCUNP",
+    "programType": "Pre-degree study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/certificate-of-university-preparation-SCUNP/"
+  },
+  {
+    "name": "Diploma (Business) – DipBus",
+    "code": "UDBSN",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-business-UDBSN/"
+  },
+  {
+    "name": "Diploma in Agriculture – DipAg",
+    "code": "UDAGL",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-agriculture-UDAGL/"
+  },
+  {
+    "name": "Diploma in Arts – DipArts",
+    "code": "UDART",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-arts-UDART/"
+  },
+  {
+    "name": "Diploma in Border and Biosecurity – DipBBiosec",
+    "code": "UDBRB",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-border-and-biosecurity-UDBRB/"
+  },
+  {
+    "name": "Diploma in Business Studies – DipBusStuds",
+    "code": "UDBSS",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-business-studies-UDBSS/"
+  },
+  {
+    "name": "Diploma in Communication – DipC",
+    "code": "UDCMM",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-communication-UDCMM/"
+  },
+  {
+    "name": "Diploma in Creative Arts – DipCreativeArts",
+    "code": "UDVSA",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-creative-arts-UDVSA/"
+  },
+  {
+    "name": "Diploma in Facilities Management – DipFM",
+    "code": "UDFCM",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-facilities-management-UDFCM/"
+  },
+  {
+    "name": "Diploma in Science and Technology – DipScTech",
+    "code": "UDSCT",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/diploma-in-science-and-technology-UDSCT/"
+  },
+  {
+    "name": "Doctor of Clinical Psychology – DClinPsych",
+    "code": "PTCLP",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/doctor-of-clinical-psychology-PTCLP/"
+  },
+  {
+    "name": "Doctor of Philosophy – PhD",
+    "code": "PLPHD",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/doctor-of-philosophy-PLPHD/"
+  },
+  {
+    "name": "Executive Master of Business Administration",
+    "code": "PMBSA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/executive-master-of-business-administration-PMBSA/"
+  },
+  {
+    "name": "Foundation Certificate (International) – FCert(Int)",
+    "code": "SCFDS",
+    "programType": "Pre-degree study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/foundation-certificate-international-SCFDS/"
+  },
+  {
+    "name": "Foundation Certificate (International - Accelerated) – FCert(IntAcc)",
+    "code": "SCFNC",
+    "programType": "Pre-degree study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/foundation-certificate-international-accelerated-SCFNC/"
+  },
+  {
+    "name": "Graduate Certificate in Arts – GCertArts",
+    "code": "GCART",
+    "programType": "Graduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-certificate-in-arts-GCART/"
+  },
+  {
+    "name": "Graduate Certificate in Emergency Management – GCertEmergMgt",
+    "code": "GCEMM",
+    "programType": "Graduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-certificate-in-emergency-management-GCEMM/"
+  },
+  {
+    "name": "Graduate Certificate in Science and Technology – GCertScTech",
+    "code": "GCSCT",
+    "programType": "Graduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-certificate-in-science-and-technology-GCSCT/"
+  },
+  {
+    "name": "Graduate Certificate in Teaching English as an Additional Language – GradCertTEAL",
+    "code": "GCTCE",
+    "programType": "Graduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-certificate-in-teaching-english-as-an-additional-language-GCTCE/"
+  },
+  {
+    "name": "Graduate Diploma in Arts – GradDipArts",
+    "code": "GDART",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-arts-GDART/"
+  },
+  {
+    "name": "Graduate Diploma in Aviation – GDipAv",
+    "code": "GDAVT",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-aviation-GDAVT/"
+  },
+  {
+    "name": "Graduate Diploma in Business Studies – GradDipBusStuds",
+    "code": "GDBSS",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-business-studies-GDBSS/"
+  },
+  {
+    "name": "Graduate Diploma in Construction and Facilities Management – GradDipConstFM",
+    "code": "GDFCM",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-construction-and-facilities-management-GDFCM/"
+  },
+  {
+    "name": "Graduate Diploma in Dairy Science and Technology – GDipDairySciTec",
+    "code": "GDDRS",
+    "programType": "Graduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-dairy-science-and-technology-GDDRS/"
+  },
+  {
+    "name": "Graduate Diploma in Design – GDipDes",
+    "code": "GDDSG",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-design-GDDSG/"
+  },
+  {
+    "name": "Graduate Diploma in Emergency Management – GradDipEmergMgt",
+    "code": "GDEMM",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-emergency-management-GDEMM/"
+  },
+  {
+    "name": "Graduate Diploma in Environmental Health – GradDipEH",
+    "code": "GDENH",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-environmental-health-GDENH/"
+  },
+  {
+    "name": "Graduate Diploma in Fine Arts – GDipFA",
+    "code": "GDFNA",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-fine-arts-GDFNA/"
+  },
+  {
+    "name": "Graduate Diploma in Information Sciences – GradDipInfSc",
+    "code": "GDINS",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-information-sciences-GDINS/"
+  },
+  {
+    "name": "Graduate Diploma in Occupational Health and Safety – GradDipOHS",
+    "code": "GDOCS",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-occupational-health-and-safety-GDOCS/"
+  },
+  {
+    "name": "Graduate Diploma in Science and Technology – GDipScTech",
+    "code": "GDSCN",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-science-and-technology-GDSCN/"
+  },
+  {
+    "name": "Graduate Diploma in Screen Arts – GradDipSCA",
+    "code": "GDSCA",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-in-screen-arts-GDSCA/"
+  },
+  {
+    "name": "Graduate Diploma (Management) – GradDip(Mgt)",
+    "code": "GDMNG",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-management-GDMNG/"
+  },
+  {
+    "name": "Graduate Diploma (Marketing) – GradDip(Mrk)",
+    "code": "GDMRK",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-marketing-GDMRK/"
+  },
+  {
+    "name": "Graduate Diploma of Learning and Teaching – GradDipLnTchg",
+    "code": "GDLRT",
+    "programType": "Graduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/graduate-diploma-of-learning-and-teaching-GDLRT/"
+  },
+  {
+    "name": "Master of Agribusiness – MAgribus",
+    "code": "PMAGC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-agribusiness-PMAGC/"
+  },
+  {
+    "name": "Master of Analytics – MAnalyt",
+    "code": "PMANL",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-analytics-PMANL/"
+  },
+  {
+    "name": "Master of Applied Linguistics – MAppLing",
+    "code": "PMAPL",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-applied-linguistics-PMAPL/"
+  },
+  {
+    "name": "Master of Applied Social Work – MAppSW",
+    "code": "PMAPC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-applied-social-work-PMAPC/"
+  },
+  {
+    "name": "Master of Arts",
+    "code": "PMART",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-arts-PMART/"
+  },
+  {
+    "name": "Master of Aviation – MAv",
+    "code": "PMAVT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-aviation-PMAVT/"
+  },
+  {
+    "name": "Master of Business Administration",
+    "code": "PMBSM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-business-administration-PMBSM/"
+  },
+  {
+    "name": "Master of Business Studies",
+    "code": "PMBSS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-business-studies-PMBSS/"
+  },
+  {
+    "name": "Master of Clinical Practice (Nursing) – MClinPrac",
+    "code": "PMCLR",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-clinical-practice-nursing-PMCLR/"
+  },
+  {
+    "name": "Master of Clinical Psychology – MClinPsych",
+    "code": "PMCLP",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-clinical-psychology-PMCLP/"
+  },
+  {
+    "name": "Master of Commercial Music – MCommMus",
+    "code": "PMCMS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-commercial-music-PMCMS/"
+  },
+  {
+    "name": "Master of Communication",
+    "code": "PMCMM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-communication-PMCMM/"
+  },
+  {
+    "name": "Master of Construction – MConstr",
+    "code": "PMCNT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-construction-PMCNT/"
+  },
+  {
+    "name": "Master of Counselling – MCouns",
+    "code": "PMCNS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-counselling-PMCNS/"
+  },
+  {
+    "name": "Master of Creative Writing",
+    "code": "PMCRW",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-creative-writing-PMCRW/"
+  },
+  {
+    "name": "Master of Dairy Science and Technology – MDairyScTech",
+    "code": "PMDRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-dairy-science-and-technology-PMDRS/"
+  },
+  {
+    "name": "Master of Design – MDes",
+    "code": "PMDSG",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-design-PMDSG/"
+  },
+  {
+    "name": "Master of Education – MEd",
+    "code": "PMEDC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-education-PMEDC/"
+  },
+  {
+    "name": "Master of Educational and Developmental Psychology – MEdDevPsych",
+    "code": "PMEDV",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-educational-and-developmental-psychology-PMEDV/"
+  },
+  {
+    "name": "Master of Emergency Management – MEmergMgt",
+    "code": "PMEMM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-emergency-management-PMEMM/"
+  },
+  {
+    "name": "Master of Environmental Management – MEnvMgmt",
+    "code": "PMENM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-environmental-management-PMENM/"
+  },
+  {
+    "name": "Master of Finance – MFin",
+    "code": "PMFNN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-finance-PMFNN/"
+  },
+  {
+    "name": "Master of Fine Arts",
+    "code": "PMFNA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-fine-arts-PMFNA/"
+  },
+  {
+    "name": "Master of Food Safety and Quality – MFoodSafQual",
+    "code": "PMFDS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-food-safety-and-quality-PMFDS/"
+  },
+  {
+    "name": "Master of Food Technology – MFoodTech",
+    "code": "PMFDT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-food-technology-PMFDT/"
+  },
+  {
+    "name": "Master of Health Science – MHlthSc",
+    "code": "PMHLS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-health-science-PMHLS/"
+  },
+  {
+    "name": "Master of Health Service Management",
+    "code": "PMHLM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-health-service-management-PMHLM/"
+  },
+  {
+    "name": "Master of Information Sciences – MInfSc",
+    "code": "PMINS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-information-sciences-PMINS/"
+  },
+  {
+    "name": "Master of International Development – MIntDev",
+    "code": "PMIND",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-international-development-PMIND/"
+  },
+  {
+    "name": "Master of International Security – MIntlSy",
+    "code": "PMINC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-international-security-PMINC/"
+  },
+  {
+    "name": "Master of Management – MMgt",
+    "code": "PMMNG",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-management-PMMNG/"
+  },
+  {
+    "name": "Master of Māori Studies – MMāoriS",
+    "code": "PMMRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-maori-studies-PMMRS/"
+  },
+  {
+    "name": "Master of Māori Visual Arts",
+    "code": "PMMRV",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-maori-visual-arts-PMMRV/"
+  },
+  {
+    "name": "Master of Nursing",
+    "code": "PMNRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-nursing-PMNRS/"
+  },
+  {
+    "name": "Master of Professional Accountancy – MPAcc",
+    "code": "PMPRC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-professional-accountancy-PMPRC/"
+  },
+  {
+    "name": "Master of Professional Accountancy (Chartered Accountant) – MPAcc(CA)",
+    "code": "PMPRA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-professional-accountancy-chartered-accountant-PMPRA/"
+  },
+  {
+    "name": "Master of Public Health",
+    "code": "PMPBH",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-public-health-PMPBH/"
+  },
+  {
+    "name": "Master of Resource and Environmental Planning",
+    "code": "PMRSE",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-resource-and-environmental-planning-PMRSE/"
+  },
+  {
+    "name": "Master of Science – MSc",
+    "code": "PMSCN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-science-PMSCN/"
+  },
+  {
+    "name": "Master of Screen Arts",
+    "code": "PMSCA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-screen-arts-PMSCA/"
+  },
+  {
+    "name": "Master of Social Work",
+    "code": "PMSCW",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P2Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-social-work-PMSCW/"
+  },
+  {
+    "name": "Master of Specialist Teaching – MSpecTchg",
+    "code": "PMSPT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-specialist-teaching-PMSPT/"
+  },
+  {
+    "name": "Master of Speech and Language Therapy – MSpchLangTher",
+    "code": "PMSPL",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-speech-and-language-therapy-PMSPL/"
+  },
+  {
+    "name": "Master of Sustainable Development Goals",
+    "code": "PMSSD",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-sustainable-development-goals-PMSSD/"
+  },
+  {
+    "name": "Master of Veterinary Medicine",
+    "code": "PMVTM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-veterinary-medicine-PMVTM/"
+  },
+  {
+    "name": "Master of Veterinary Studies",
+    "code": "PMVTT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/master-of-veterinary-studies-PMVTT/"
+  },
+  {
+    "name": "Postgraduate Certificate in Applied Linguistics – PGCertAppLing",
+    "code": "PCAPL",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-applied-linguistics-PCAPL/"
+  },
+  {
+    "name": "Postgraduate Certificate in Arts – PGCertArts",
+    "code": "PCART",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-arts-PCART/"
+  },
+  {
+    "name": "Postgraduate Certificate in Business – PGCertBus",
+    "code": "PCBSN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-business-PCBSN/"
+  },
+  {
+    "name": "Postgraduate Certificate in Education – PGCertEd",
+    "code": "PCEDC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-education-PCEDC/"
+  },
+  {
+    "name": "Postgraduate Certificate in Educational and Developmental Psychology – PGCertEdDevPsyc",
+    "code": "PCEDV",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-educational-and-developmental-psychology-PCEDV/"
+  },
+  {
+    "name": "Postgraduate Certificate in Emergency Management – PGCertEmergMgt",
+    "code": "PCEMM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-emergency-management-PCEMM/"
+  },
+  {
+    "name": "Postgraduate Certificate in Intelligence – PGCertIntel",
+    "code": "PCINT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-intelligence-PCINT/"
+  },
+  {
+    "name": "Postgraduate Certificate in International Development – PGCertIntDev",
+    "code": "PCIND",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-international-development-PCIND/"
+  },
+  {
+    "name": "Postgraduate Certificate in International Security – PGCertIntlSy",
+    "code": "PCINS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-international-security-PCINS/"
+  },
+  {
+    "name": "Postgraduate Certificate in Learning Support – PGCertLrnSup",
+    "code": "PCLRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-learning-support-PCLRS/"
+  },
+  {
+    "name": "Postgraduate Certificate in Nursing – PGCertNurs",
+    "code": "PCNRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-nursing-PCNRS/"
+  },
+  {
+    "name": "Postgraduate Certificate in Planning – PGCertPlan",
+    "code": "PCPLN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-planning-PCPLN/"
+  },
+  {
+    "name": "Postgraduate Certificate in Science and Technology – PGCertScTech",
+    "code": "PCSCN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-science-and-technology-PCSCN/"
+  },
+  {
+    "name": "Postgraduate Certificate in Specialist Teaching – PGCertSpecTchg",
+    "code": "PCSPT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-certificate-in-specialist-teaching-PCSPT/"
+  },
+  {
+    "name": "Postgraduate Diploma in Agribusiness – PGDipAgribus",
+    "code": "PDAGC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-agribusiness-PDAGC/"
+  },
+  {
+    "name": "Postgraduate Diploma in Applied Linguistics – PGDipAppLing",
+    "code": "PDAPL",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-applied-linguistics-PDAPL/"
+  },
+  {
+    "name": "Postgraduate Diploma in Arts – PGDipArts",
+    "code": "PDART",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-arts-PDART/"
+  },
+  {
+    "name": "Postgraduate Diploma in Business – PGDipBus",
+    "code": "PDBSA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-business-PDBSA/"
+  },
+  {
+    "name": "Postgraduate Diploma in Clinical Supervision – PGDipClinSup",
+    "code": "PDSCS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-clinical-supervision-PDSCS/"
+  },
+  {
+    "name": "Postgraduate Diploma in Communication – PGDipC",
+    "code": "PDCMM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-communication-PDCMM/"
+  },
+  {
+    "name": "Postgraduate Diploma in Construction – PGDipConstr",
+    "code": "PDCNT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-construction-PDCNT/"
+  },
+  {
+    "name": "Postgraduate Diploma in Counselling and Guidance Studies – PGDipCounGuidSt",
+    "code": "PDCNG",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-counselling-and-guidance-studies-PDCNG/"
+  },
+  {
+    "name": "Postgraduate Diploma in Design – PGDipDes",
+    "code": "PDDSG",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-design-PDDSG/"
+  },
+  {
+    "name": "Postgraduate Diploma in Education – PGDipEd",
+    "code": "PDEDC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-education-PDEDC/"
+  },
+  {
+    "name": "Postgraduate Diploma in Educational and Developmental Psychology – PGDipEdDevPsych",
+    "code": "PDEDP",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-educational-and-developmental-psychology-PDEDP/"
+  },
+  {
+    "name": "Postgraduate Diploma in Emergency Management – PGDipEmergMgt",
+    "code": "PDEMM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-emergency-management-PDEMM/"
+  },
+  {
+    "name": "Postgraduate Diploma in Environmental Management – PGDipEnvMgmt",
+    "code": "PDENM",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-environmental-management-PDENM/"
+  },
+  {
+    "name": "Postgraduate Diploma in Fine Arts – PGDipFA",
+    "code": "PDFNA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-fine-arts-PDFNA/"
+  },
+  {
+    "name": "Postgraduate Diploma in Health Science – PGDipHlthSc",
+    "code": "PDHLS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-health-science-PDHLS/"
+  },
+  {
+    "name": "Postgraduate Diploma in Health Service Management – PGDipHSM",
+    "code": "PDHLR",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-health-service-management-PDHLR/"
+  },
+  {
+    "name": "Postgraduate Diploma in Information Sciences – PGDipInfSc",
+    "code": "PDINS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-information-sciences-PDINS/"
+  },
+  {
+    "name": "Postgraduate Diploma in International Development – PGDipIntDev",
+    "code": "PDIND",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-international-development-PDIND/"
+  },
+  {
+    "name": "Postgraduate Diploma in International Security – PGDipIntlSy",
+    "code": "PDINC",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-international-security-PDINC/"
+  },
+  {
+    "name": "Postgraduate Diploma in Journalism – PGDipJ",
+    "code": "PDJRN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-journalism-PDJRN/"
+  },
+  {
+    "name": "Postgraduate Diploma in Learning Support – PGDipLrnSupport",
+    "code": "PDLRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-learning-support-PDLRS/"
+  },
+  {
+    "name": "Postgraduate Diploma in Māori Studies – PGDipMāoriS",
+    "code": "PDMRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-maori-studies-PDMRS/"
+  },
+  {
+    "name": "Postgraduate Diploma in Māori Visual Arts – PGDipMVA",
+    "code": "PDMRV",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-maori-visual-arts-PDMRV/"
+  },
+  {
+    "name": "Postgraduate Diploma in Museum Studies – PGDipMusStud",
+    "code": "PDMSS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-museum-studies-PDMSS/"
+  },
+  {
+    "name": "Postgraduate Diploma in Nursing – PGDipNurs",
+    "code": "PDNRS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-nursing-PDNRS/"
+  },
+  {
+    "name": "Postgraduate Diploma in Planning – PGDipPlan",
+    "code": "PDPLN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-planning-PDPLN/"
+  },
+  {
+    "name": "Postgraduate Diploma in Psychological Practice – PGDipPsychPrac",
+    "code": "PDPSP",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-psychological-practice-PDPSP/"
+  },
+  {
+    "name": "Postgraduate Diploma in Public Health – PGDipPH",
+    "code": "PDPBH",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-public-health-PDPBH/"
+  },
+  {
+    "name": "Postgraduate Diploma in Science and Technology – PGDipScTech",
+    "code": "PDSCN",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-science-and-technology-PDSCN/"
+  },
+  {
+    "name": "Postgraduate Diploma in Screen Arts – PGDipScreenArts",
+    "code": "PDSCA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-screen-arts-PDSCA/"
+  },
+  {
+    "name": "Postgraduate Diploma in Social Work – PGDipSW",
+    "code": "PDSCW",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-social-work-PDSCW/"
+  },
+  {
+    "name": "Postgraduate Diploma in Specialist Teaching – PGDipSpecTchg",
+    "code": "PDSPT",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-specialist-teaching-PDSPT/"
+  },
+  {
+    "name": "Postgraduate Diploma in Veterinary Science – PGDipVSc",
+    "code": "PDVTS",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/postgraduate-diploma-in-veterinary-science-PDVTS/"
+  },
+  {
+    "name": "Te Aho Paerewa Postgraduate Diploma Teaching and Learning in Māori Medium – PGDipT&LMM",
+    "code": "PDTEA",
+    "programType": "Postgraduate study",
+    "timeToComplete": "P1Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/te-aho-paerewa-postgraduate-diploma-teaching-and-learning-in-maori-medium-PDTEA/"
+  },
+  {
+    "name": "Te Aho Tātairangi: Bachelor of Teaching and Learning Kura Kaupapa Māori – BTchgLrnKKM",
+    "code": "UBTCL",
+    "programType": "Undergraduate study",
+    "timeToComplete": "P3Y",
+    "url": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/te-aho-tatairangi-bachelor-of-teaching-and-learning-kura-kaupapa-maori-UBTCL/"
+  }
+]

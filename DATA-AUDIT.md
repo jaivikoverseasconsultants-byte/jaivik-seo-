@@ -56,11 +56,21 @@ Per the audit brief: **a false REAL is worse than a false CURATED** — every RE
 
 ## Summary
 
-- **95 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba. Updated 2026-07-08, Wave 2: +University of Birmingham, +University of Leeds; Griffith University corrected from a false REAL to a genuine REAL with fresh evidence.)
-- **346 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
+- **98 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba. Updated 2026-07-08, Wave 2: +University of Birmingham, +University of Leeds; Griffith University corrected from a false REAL to a genuine REAL with fresh evidence. Updated 2026-07-09, Wave 3: +Australian National University, +Edith Cowan University, +Massey University.)
+- **343 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
 - **7 MIXED** — a file combining a block of real deep-linked courses with a block of templated/stub courses.
 - **10 UNSURE** — no registry entry (no course pages are generated for this university at all) or otherwise unverifiable; do not treat as REAL or CURATED without further investigation.
 - **Total universities: 458**
+
+### Wave 3 real-data replacement (2026-07-09)
+
+Targeted the 6 highest GSC-demand universities not yet REAL: australian-national-university, university-of-queensland, edith-cowan-university, flinders-university, university-of-suffolk, massey-university. Of these, University of Queensland (120 courses), Flinders University (338 courses), and University of Suffolk (40 courses) were already correctly classified REAL from prior work — each re-verified with a live 200 fetch of a sample course URL, no changes needed. The remaining 3 were CURATED and crawled genuinely fresh:
+
+- **Australian National University** (344 courses) — ANU's own program-search JSON API (`programsandcourses.anu.edu.au/data/ProgramSearch/GetPrograms{UnderGraduate,PostGraduate,Research}`, `?PageSize=300` to bypass the default 10-item page cap) returned all programs with names, codes, durations and academic career; filtered to the degree-keyword whitelist, every one of the 344 resulting `programsandcourses.anu.edu.au/2026/program/[code]` URLs verified 200.
+- **Edith Cowan University** (242 courses) — ecu.edu.au's live site sits behind a Cloudflare managed-challenge WAF that unpredictably 403s plain HTTP clients (curl/node https), even though it occasionally cache-hits 200. The course list itself was sourced from a Wayback CDX snapshot of ECU's own `degrees-elements/courses-list-json` endpoint (250 courses, 2018). Rather than trust a stale snapshot, every one of the 247 whitelisted course URLs was re-verified against **today's live site** using a headless-Chrome (Puppeteer) session, which reliably passes the WAF challenge where curl/node cannot — 242 resolved 200, 5 genuinely 404 (discontinued programs, e.g. "Master of Psychology") and were dropped, not invented.
+- **Massey University** (176 courses) — the 2017 XML sitemap referenced in a prior partial investigation (`massey_extract_prog.xml`, prog_id-based URLs) turned out to be dead: every prog_id URL now 200s but redirects to the same generic `/study/find-a-subject-course-or-qualification/` search page — a stub trap, not real per-course data. The live `/study/all-qualifications-and-degrees/` catalogue page was crawled instead (176 unique deep-linked qualification URLs); each qualification page carries a schema.org `EducationalOccupationalProgram` JSON-LD block (name, programType, timeToComplete) which was parsed directly for course names — no name was estimated or guessed.
+
+REGISTRY entries and full `/courses` + `/courses/[slug]` route trees were recreated from scratch for all 3 (they had been pruned in the Wave 0/1 prune pass along with the other 346 CURATED universities). Crawl/verify scripts: `scripts/crawl-anu-real.js`, `scripts/verify-anu-urls.js`, `scripts/verify-ecu-urls-puppeteer.js`, `scripts/crawl-massey-real.js` (+ matching `scripts/gen-*-real.js` generators). Post-crawl: `audit-broken-links.js` reports 0 broken links, `tsc --noEmit` clean, full static build succeeded (7000+ pages), and one course page per crawled university was headless-verified (200, correct title/H1/content) against the built output.
 
 ### Wave 2 real-data replacement (2026-07-08)
 
@@ -70,7 +80,7 @@ Crawled genuine course data for University of Birmingham (603 courses) and Unive
 
 346 CURATED/MIXED universities were pruned from the index on 2026-07-07 (commit 38674b2c; see "prune" history). Wave 1 of the real-data replacement crawled genuine course data for the 4 highest lead-demand Canadian universities from that batch — Simon Fraser University, Dalhousie University, University of Ottawa, and University of Manitoba — moving all 4 to REAL (see updated rows and evidence below/above). Crawl scripts: `scripts/crawl-sfu-real.js`, `scripts/crawl-dal-real.js`, `scripts/crawl-uottawa-real.js`, `scripts/crawl-umanitoba-real.js` (+ matching `scripts/gen-*-real.js` generators). No estimated/fabricated course names were introduced — every course name and URL was scraped from the university's own site and validated (degree-keyword whitelist + URL-resolution check) before inclusion.
 
-### CURATED university slugs (exact list, 346 — updated 2026-07-07 Wave 1 removed simon-fraser-university/dalhousie-university/university-of-ottawa; updated 2026-07-08 Wave 2 removed university-of-birmingham/university-of-leeds)
+### CURATED university slugs (exact list, 343 — updated 2026-07-07 Wave 1 removed simon-fraser-university/dalhousie-university/university-of-ottawa; updated 2026-07-08 Wave 2 removed university-of-birmingham/university-of-leeds; updated 2026-07-09 Wave 3 removed australian-national-university/edith-cowan-university/massey-university)
 
 ```
 aalborg-university
@@ -87,7 +97,6 @@ arizona-state-university
 atlantic-technological-university
 auckland-university-of-technology
 australian-catholic-university
-australian-national-university
 autonomous-university-of-barcelona
 autonomous-university-of-madrid
 birmingham-city-university
@@ -139,7 +148,6 @@ durham-college
 ea-business-academy
 eae-business-school
 ecole-polytechnique
-edith-cowan-university
 embry-riddle-singapore
 emlyon-business-school
 emory-university
@@ -207,7 +215,6 @@ macquarie-university
 malardalen-university
 manchester-metropolitan-university
 manipal-dubai
-massey-university
 maynooth-university
 mdis-singapore
 medicine-hat-college
@@ -461,7 +468,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | Atlantic Technological University | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | Auckland University of Technology | New Zealand | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | Australian Catholic University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
-| Australian National University | Australia | CURATED | 57 | All 57 courses share one bare-homepage URL (https://www.anu.edu.au), no real per-course pages |
+| Australian National University | Australia | REAL | 344 | Wave 3: crawled live from ANU's own program-search JSON API (programsandcourses.anu.edu.au/data/ProgramSearch/GetPrograms{UnderGraduate,PostGraduate,Research}) — every course has a unique programsandcourses.anu.edu.au/2026/program/[code] URL, all 344 verified 200 |
 | Autonomous University of Barcelona | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uab.cat), no real per-course pages |
 | Autonomous University of Madrid | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.uam.es), no real per-course pages |
 | Birmingham City University | UK | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
@@ -526,7 +533,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | Durham University | UK | REAL | 314 | Crawl header (sitemap/Puppeteer/CDX mention) + all 314 courses deep-linked (e.g. https://www.durham.ac.uk/business/courses/philosophy-politics-and-economics-vl52/) |
 | EAE Business School | Spain | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.eae.es), no real per-course pages |
 | École Polytechnique | France | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.polytechnique.edu), no real per-course pages |
-| Edith Cowan University | Australia | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Edith Cowan University | Australia | REAL | 242 | Wave 3: course list sourced from Wayback CDX archive of ecu.edu.au's own courses-list-json endpoint, every course URL re-verified live via Puppeteer (site sits behind a Cloudflare managed-challenge WAF that blocks plain HTTP clients) — 242/247 resolved 200, 5 genuine 404s (discontinued programs) dropped |
 | Eindhoven University of Technology | Netherlands | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.tue.nl), no real per-course pages |
 | Embry-Riddle Aeronautical University Singapore | Singapore | CURATED | 39 | All 39 courses share one bare-homepage URL (https://www.embry.edu.sg), no real per-course pages |
 | EMLYON Business School | France | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
@@ -612,7 +619,7 @@ These course-name lists are byte-identical across multiple unrelated universitie
 | Manchester Metropolitan University | UK | CURATED | 48 | Header explicitly says curated/estimated/placeholder |
 | Manipal Academy of Higher Education Dubai | UAE | CURATED | 45 | All 45 courses share one bare-homepage URL (https://www.manipaldubai.com), no real per-course pages |
 | Massachusetts Institute of Technology | USA | CURATED | 62 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
-| Massey University | New Zealand | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
+| Massey University | New Zealand | REAL | 176 | Wave 3: crawled live from massey.ac.nz/study/all-qualifications-and-degrees/ catalogue; each qualification page's schema.org EducationalOccupationalProgram JSON-LD block was parsed for name/duration — the old 2017 XML sitemap was found dead (every prog_id URL now redirects to a generic search stub) and was not used |
 | Maynooth University | Ireland | CURATED | 45 | Identical course-name list shared with other unrelated universities — generic template, not institution-specific |
 | McGill University | Canada | REAL | 212 | Crawl header (sitemap/Puppeteer/CDX mention) + all 212 courses deep-linked (e.g. https://www.mcgill.ca/gradapplicants/program/entomology-msc) |
 | McMaster University | Canada | REAL | 86 | Crawl header (Source: Puppeteer crawl of https://gs.mcmaster.ca/programs/) + all 86 courses deep-linked (e.g. https://gs.mcmaster.ca/program/ai-and-analytics/) |

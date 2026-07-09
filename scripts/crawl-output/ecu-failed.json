@@ -1,0 +1,37 @@
+[
+  {
+    "courseCode": "G47",
+    "courseTitle": "Bachelor of Arts (Dance) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-arts-dance-honours",
+    "status": 404,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-arts-dance-honours"
+  },
+  {
+    "courseCode": "W13",
+    "courseTitle": "Bachelor of Engineering (Chemical and Environmental) Honours",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-chemical-and-environmental-honours",
+    "status": 404,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/bachelor-of-engineering-chemical-and-environmental-honours"
+  },
+  {
+    "courseCode": "W66",
+    "courseTitle": "Graduate Certificate in Broadcasting (Radio)",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-broadcasting-radio",
+    "status": 404,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-broadcasting-radio"
+  },
+  {
+    "courseCode": "748",
+    "courseTitle": "Graduate Certificate in Geostatistics",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/graduate-certificate-in-geostatistics",
+    "status": 404,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/graduate-certificate-in-geostatistics"
+  },
+  {
+    "courseCode": "I69",
+    "courseTitle": "Master of Psychology",
+    "courseHref": "http://www.ecu.edu.au/degrees/courses/master-of-psychology",
+    "status": 404,
+    "finalUrl": "https://www.ecu.edu.au/degrees/courses/master-of-psychology"
+  }
+]

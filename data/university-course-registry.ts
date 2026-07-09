@@ -5,6 +5,7 @@
 import { aruCourses as m_anglia_ruskin_university } from './aru-courses';
 import { assiniboineCourses as m_assiniboine_college } from './assiniboine-courses';
 import { astonCourses as m_aston_university } from './aston-courses';
+import { anuCourses as m_australian_national_university } from './anu-courses';
 import { bangorCourses as m_bangor_university } from './bangor-courses';
 import { bitsPilaniDubaiCourses as m_bits_pilani_dubai } from './bits-pilani-dubai-courses';
 import { bocconiUniversityCourses as m_bocconi_university } from './bocconi-university-courses';
@@ -20,6 +21,7 @@ import { demontfortCourses as m_de_montfort_university } from './demontfort-cour
 import { delftCourses as m_delft_university_of_technology } from './delft-courses';
 import { dcuCourses as m_dublin_city_university } from './dcu-courses';
 import { durhamuniCourses as m_durham_university } from './durhamuni-courses';
+import { ecuCourses as m_edith_cowan_university } from './ecu-courses';
 import { eindhovenCourses as m_eindhoven_university_of_technology } from './eindhoven-courses';
 import { fdu_vancouverCourses as m_fairleigh_dickinson_university_vancouver } from './fdu-vancouver-courses';
 import { flindersCourses as m_flinders_university } from './flinders-courses';
@@ -41,6 +43,7 @@ import { londonmetCourses as m_london_metropolitan_university } from './londonme
 import { lsbuCourses as m_london_south_bank_university } from './lsbu-courses';
 import { lboroCourses as m_loughborough_university } from './lboro-courses';
 import { maastrichtUniversityCourses as m_maastricht_university } from './maastricht-university-courses';
+import { masseyCourses as m_massey_university } from './massey-courses';
 import { macqCourses as m_macquarie_university } from './macq-courses';
 import { mcgillCourses as m_mcgill_university } from './mcgill-courses';
 import { mcmasterCourses as m_mcmaster_university } from './mcmaster-courses';
@@ -136,6 +139,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'anglia-ruskin-university': m_anglia_ruskin_university,
   'assiniboine-college': m_assiniboine_college,
   'aston-university': m_aston_university,
+  'australian-national-university': m_australian_national_university,
   'bangor-university': m_bangor_university,
   'bits-pilani-dubai': m_bits_pilani_dubai,
   'bocconi-university': m_bocconi_university,
@@ -151,6 +155,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'delft-university-of-technology': m_delft_university_of_technology,
   'dublin-city-university': m_dublin_city_university,
   'durham-university': m_durham_university,
+  'edith-cowan-university': m_edith_cowan_university,
   'eindhoven-university-of-technology': m_eindhoven_university_of_technology,
   'fairleigh-dickinson-university-vancouver': m_fairleigh_dickinson_university_vancouver,
   'flinders-university': m_flinders_university,
@@ -173,6 +178,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'loughborough-university': m_loughborough_university,
   'maastricht-university': m_maastricht_university,
   'macquarie-university': m_macquarie_university,
+  'massey-university': m_massey_university,
   'mcgill-university': m_mcgill_university,
   'mcmaster-university': m_mcmaster_university,
   'middlesex-university': m_middlesex_university,
