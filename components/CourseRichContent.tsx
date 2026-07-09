@@ -1,6 +1,8 @@
 import { generateCourseContent, type CourseForContent } from '@/lib/courseContent';
+import { generateFaqs } from '@/lib/course-faqs';
 import CurrencyConverter from '@/components/CurrencyConverter';
 import JsonLd from '@/components/JsonLd';
+import CourseFaqSection from '@/components/CourseFaqSection';
 import Link from 'next/link';
 import { getCoursesBySlug, findAlternativeCourses } from '@/data/university-course-registry';
 import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
@@ -130,52 +132,7 @@ export default function CourseRichContent({ course, universityName, universitySl
   const ieltsAlternatives = findAlternativeCourses(fieldKeywords, universitySlug, course.ieltsMin - 1, 2);
   const similarPrograms = findAlternativeCourses(fieldKeywords, universitySlug, undefined, 2);
 
-  const faqSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: `What is the tuition fee for ${course.name} at ${universityName}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `The annual tuition fee for ${course.name} at ${universityName} is $${course.annualUSD.toLocaleString()} USD (approximately ₹${inrLakh}L INR).`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `What IELTS score is required for ${course.name} at ${universityName}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `A minimum IELTS score of ${course.ieltsMin} overall is required for ${course.name} at ${universityName}. TOEFL iBT ${course.toeflMin}+ is also accepted.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `How long is ${course.name} at ${universityName}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${course.name} at ${universityName} is a ${course.duration} ${course.level} program${course.durationYears > 1 ? ` (${course.durationYears} years)` : ''}.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `What are the intakes for ${course.name} at ${universityName}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${universityName} offers ${intakesText} intake${course.intakeMonths.length > 1 ? 's' : ''} for ${course.name}. We recommend applying at least 3–4 months before the intake deadline.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: `Can Indian students apply for ${course.name} at ${universityName}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `Yes, Indian students can apply for ${course.name} at ${universityName} in ${course.country}. Jaivik Overseas Consultants provides free application assistance, SOP guidance, and visa support for Indian students.`,
-        },
-      },
-    ],
-  };
+  const faqs = generateFaqs(course, universityName, universitySlug);
 
   const courseSchema = {
     '@context': 'https://schema.org',
@@ -231,7 +188,6 @@ export default function CourseRichContent({ course, universityName, universitySl
 
   return (
     <>
-      <JsonLd data={faqSchema} />
       <JsonLd data={courseSchema} />
       <JsonLd data={serviceSchema} />
 
@@ -653,6 +609,9 @@ export default function CourseRichContent({ course, universityName, universitySl
       <div className="text-xs text-gray-600 border-t border-gray-100 pt-3 px-1">
         Currency conversions are indicative only. Rates updated periodically. Contact us for current fee estimates in INR.
       </div>
+
+      {/* Programmatic FAQ — computed from existing course/university data only */}
+      <CourseFaqSection faqs={faqs} courseName={course.name} />
     </>
   );
 }
