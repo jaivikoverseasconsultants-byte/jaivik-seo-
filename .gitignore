@@ -7,6 +7,9 @@ node_modules/
 /.next/
 /out/
 
+# Generated at build time by scripts/generate-search-index.js (prebuild) — derived from data/*, never hand-edited
+/public/search-index.json
+
 # Production build
 /build
 

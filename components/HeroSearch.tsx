@@ -1,23 +1,29 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import COURSE_CATEGORIES from '@/data/course-categories';
+
+// ── Static search index (public/search-index.json), generated at build time
+// by scripts/generate-search-index.js from real data/* sources only — see
+// that script for the exact shape and why courses use short keys (n/u/c).
+interface IndexUniversity { name: string; slug: string; country: string; type: 'university' }
+interface IndexCourse { n: string; u: string; c: string }
+interface SearchIndex { universities: IndexUniversity[]; courses: IndexCourse[] }
 
 interface CourseAtUni {
   courseName: string;
+  courseSlug: string;
   universityName: string;
   universitySlug: string;
   country: string;
-  ielts: number;
-  fee: number;
-  level?: string;
 }
 
 interface SearchResult {
   courseAtUni: CourseAtUni[];
   categories: { name: string; slug: string; emoji: string }[];
-  unis: { name: string; slug: string; country: string; city: string }[];
+  unis: { name: string; slug: string; country: string }[];
   countries: string[];
 }
 
@@ -28,8 +34,110 @@ const COUNTRY_FLAGS: Record<string, string> = {
   Denmark: '🇩🇰', Italy: '🇮🇹', Spain: '🇪🇸',
 };
 
+const ALL_COUNTRIES = Object.keys(COUNTRY_FLAGS);
+
+// ── Synonym expansion (moved from the old /api/search route) ────────────────
+const SEARCH_SYNONYMS: Record<string, string[]> = {
+  'energy': ['energy systems', 'energy engineering', 'power engineering', 'sustainable resource', 'environmental engineering', 'renewable'],
+  'renewable energy': ['energy systems', 'sustainable resource', 'power engineering', 'environmental engineering', 'energy engineering', 'renewable energy'],
+  'digital marketing': ['marketing', 'business analytics', 'media management', 'digital communications'],
+  'human resources': ['human resource', 'organisational', 'organizational', 'people management', 'hr management'],
+  'human resource': ['human resources', 'organisational', 'organizational', 'people management', 'hr management'],
+  'human resource management': ['human resources', 'organisational', 'organizational', 'people management'],
+  'cybersecurity': ['cyber security', 'information security', 'network security', 'computer security', 'cyber'],
+  'supply chain': ['logistics', 'operations management', 'procurement', 'supply chain management'],
+  'supply chain management': ['logistics', 'operations management', 'procurement'],
+  'healthcare': ['health management', 'public health', 'biomedical', 'health informatics'],
+  'healthcare management': ['health management', 'public health', 'health informatics', 'health sciences'],
+  'artificial intelligence': ['machine learning', 'data science', 'deep learning', 'neural networks'],
+  'finance': ['financial', 'accounting', 'economics', 'banking'],
+  'construction management': ['civil engineering', 'project management', 'structural engineering', 'quantity surveying'],
+  'construction': ['civil engineering', 'structural engineering', 'quantity surveying', 'architecture'],
+  'ux design': ['human computer interaction', 'interaction design', 'product design', 'user experience', 'hci'],
+  'strength conditioning': ['sports science', 'exercise science', 'kinesiology', 'sport and exercise'],
+  'strength & conditioning': ['sports science', 'exercise science', 'kinesiology', 'sport and exercise'],
+};
+
+function getSearchTerms(raw: string): string[] {
+  const q = raw.toLowerCase().trim();
+  const terms = new Set<string>([q]);
+  for (const [key, syns] of Object.entries(SEARCH_SYNONYMS)) {
+    if (q === key || q.includes(key) || key.includes(q)) {
+      syns.forEach(s => terms.add(s));
+    }
+  }
+  return Array.from(terms);
+}
+
+// Module-level cache so the ~2.5MB index is fetched once per page load, not
+// once per HeroSearch mount (this component can appear on multiple pages).
+let indexPromise: Promise<SearchIndex> | null = null;
+function loadIndex(): Promise<SearchIndex> {
+  if (!indexPromise) {
+    indexPromise = fetch('/search-index.json').then(res => {
+      if (!res.ok) throw new Error(`search-index.json: ${res.status}`);
+      return res.json();
+    });
+  }
+  return indexPromise;
+}
+
+function runSearch(index: SearchIndex, uniBySlug: Map<string, IndexUniversity>, raw: string): SearchResult {
+  const q = raw.toLowerCase().trim();
+  const searchTerms = getSearchTerms(q);
+
+  // ── Courses: exact-term pass first, then synonym terms, up to 10 total ────
+  const courseAtUni: CourseAtUni[] = [];
+  const seenKeys = new Set<string>();
+
+  function addCourseMatches(term: string) {
+    for (const c of index.courses) {
+      if (courseAtUni.length >= 10) return;
+      if (!c.n.toLowerCase().includes(term)) continue;
+      const key = `${c.u}::${c.n}`;
+      if (seenKeys.has(key)) continue;
+      const uni = uniBySlug.get(c.u);
+      if (!uni) continue;
+      seenKeys.add(key);
+      courseAtUni.push({
+        courseName: c.n,
+        courseSlug: c.c,
+        universityName: uni.name,
+        universitySlug: c.u,
+        country: uni.country,
+      });
+    }
+  }
+
+  addCourseMatches(searchTerms[0]);
+  if (courseAtUni.length < 10) {
+    for (const term of searchTerms.slice(1)) {
+      addCourseMatches(term);
+      if (courseAtUni.length >= 10) break;
+    }
+  }
+
+  // ── Course streams/categories ───────────────────────────────────────────
+  const categories = COURSE_CATEGORIES
+    .filter(c => c.name.toLowerCase().includes(q) || c.keywords.some(k => k.toLowerCase().includes(q)))
+    .slice(0, 4)
+    .map(c => ({ name: c.name, slug: c.slug, emoji: c.emoji }));
+
+  // ── Universities (name match) ───────────────────────────────────────────
+  const unis = index.universities
+    .filter(u => u.name.toLowerCase().includes(q))
+    .slice(0, 5)
+    .map(u => ({ name: u.name, slug: u.slug, country: u.country }));
+
+  // ── Countries ────────────────────────────────────────────────────────────
+  const countries = ALL_COUNTRIES.filter(c => c.toLowerCase().includes(q)).slice(0, 3);
+
+  return { courseAtUni, categories, unis, countries };
+}
+
 export default function HeroSearch() {
   const [q, setQ] = useState('');
+  const [index, setIndex] = useState<SearchIndex | null>(null);
   const [results, setResults] = useState<SearchResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [open, setOpen] = useState(false);
@@ -39,22 +147,34 @@ export default function HeroSearch() {
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
+    let cancelled = false;
+    loadIndex().then(idx => { if (!cancelled) setIndex(idx); }).catch(() => { /* ignore — search stays disabled */ });
+    return () => { cancelled = true; };
+  }, []);
+
+  const uniBySlug = useMemo(() => {
+    const map = new Map<string, IndexUniversity>();
+    if (index) for (const u of index.universities) map.set(u.slug, u);
+    return map;
+  }, [index]);
+
+  useEffect(() => {
     if (debounceRef.current) clearTimeout(debounceRef.current);
     if (q.trim().length < 2) { setResults(null); setOpen(false); return; }
-    debounceRef.current = setTimeout(async () => {
+    if (!index) { setLoading(true); return; }
+    debounceRef.current = setTimeout(() => {
       setLoading(true);
       try {
-        const res = await fetch(`/api/search?q=${encodeURIComponent(q.trim())}`);
-        const data: SearchResult = await res.json();
+        const data = runSearch(index, uniBySlug, q);
         setResults(data);
         const hasAny = data.courseAtUni.length > 0 || data.categories.length > 0 || data.unis.length > 0 || data.countries.length > 0;
         setOpen(hasAny);
-      } catch { /* ignore */ } finally {
+      } finally {
         setLoading(false);
       }
     }, 220);
     return () => { if (debounceRef.current) clearTimeout(debounceRef.current); };
-  }, [q]);
+  }, [q, index, uniBySlug]);
 
   useEffect(() => {
     function handler(e: MouseEvent) {
@@ -136,21 +256,16 @@ export default function HeroSearch() {
               </div>
               {results.courseAtUni.map((c, i) => (
                 <Link
-                  key={`${c.universitySlug}-${c.courseName}-${i}`}
-                  href={`/universities/${c.universitySlug}/courses`}
+                  key={`${c.universitySlug}-${c.courseSlug}-${i}`}
+                  href={`/universities/${c.universitySlug}/courses/${c.courseSlug}`}
                   onClick={() => setOpen(false)}
                   className="flex items-center gap-3 px-4 py-2.5 hover:bg-brand-50 transition-colors"
                 >
                   <span className="text-xl flex-shrink-0">🎓</span>
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm font-semibold text-gray-900 truncate flex items-center gap-2">
-                      {c.courseName}
-                      {c.level && (
-                        <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-brand-100 text-brand-700 flex-shrink-0">{c.level}</span>
-                      )}
-                    </p>
+                    <p className="text-sm font-semibold text-gray-900 truncate">{c.courseName}</p>
                     <p className="text-xs text-gray-500">
-                      {c.universityName} · {COUNTRY_FLAGS[c.country] ?? ''} {c.country} · ${(c.fee / 1000).toFixed(0)}K/yr · IELTS {c.ielts}+
+                      {c.universityName} · {COUNTRY_FLAGS[c.country] ?? ''} {c.country}
                     </p>
                   </div>
                 </Link>
@@ -180,7 +295,7 @@ export default function HeroSearch() {
             </div>
           )}
 
-          {/* 3rd: Universities (name/city match) */}
+          {/* 3rd: Universities (name match) */}
           {results.unis.length > 0 && (
             <div className={(results.courseAtUni.length > 0 || results.categories.length > 0) ? divider : ''}>
               <div className="px-4 pt-3 pb-1">
@@ -198,7 +313,7 @@ export default function HeroSearch() {
                   <span className="text-xl">{COUNTRY_FLAGS[u.country] ?? '🏫'}</span>
                   <div className="min-w-0">
                     <p className="text-sm font-semibold text-gray-900 truncate">{u.name}</p>
-                    <p className="text-xs text-gray-500">{u.city}, {u.country}</p>
+                    <p className="text-xs text-gray-500">{u.country}</p>
                   </div>
                 </Link>
               ))}
