@@ -3,39 +3,23 @@
 // This file is server-only (imported only in Server Components); it never ships to the client bundle.
 
 import { aruCourses as m_anglia_ruskin_university } from './aru-courses';
-import { assiniboineCourses as m_assiniboine_college } from './assiniboine-courses';
 import { astonCourses as m_aston_university } from './aston-courses';
 import { anuCourses as m_australian_national_university } from './anu-courses';
-import { bangorCourses as m_bangor_university } from './bangor-courses';
-import { bitsPilaniDubaiCourses as m_bits_pilani_dubai } from './bits-pilani-dubai-courses';
 import { bocconiUniversityCourses as m_bocconi_university } from './bocconi-university-courses';
-import { bondCourses as m_bond_university } from './bond-courses';
 import { bmouthCourses as m_bournemouth_university } from './bmouth-courses';
 import { cduCourses as m_charles_darwin_university } from './cdu-courses';
-import { columbia_college_bcCourses as m_columbia_college } from './columbia-college-bc-courses';
-import { concordiaCourses as m_concordia_university } from './concordia-courses';
 import { coventryCourses as m_coventry_university } from './coventry-courses';
-import { cquCourses as m_cquniversity } from './cqu-courses';
 import { dalCourses as m_dalhousie_university } from './dal-courses';
 import { demontfortCourses as m_de_montfort_university } from './demontfort-courses';
-import { delftCourses as m_delft_university_of_technology } from './delft-courses';
 import { dcuCourses as m_dublin_city_university } from './dcu-courses';
 import { durhamuniCourses as m_durham_university } from './durhamuni-courses';
 import { ecuCourses as m_edith_cowan_university } from './ecu-courses';
-import { eindhovenCourses as m_eindhoven_university_of_technology } from './eindhoven-courses';
-import { fdu_vancouverCourses as m_fairleigh_dickinson_university_vancouver } from './fdu-vancouver-courses';
 import { flindersCourses as m_flinders_university } from './flinders-courses';
-import { fuberlinCourses as m_free_university_of_berlin } from './fu-berlin-courses';
-import { gatechCourses as m_georgia_institute_of_technology } from './gatech-courses';
 import { griffithCourses as m_griffith_university } from './griffith-courses';
 import { heriotWattUniversityDubaiCourses as m_heriot_watt_university_dubai } from './heriot-watt-university-dubai-courses';
-import { humboldtCourses as m_humboldt_university_of_berlin } from './humboldt-courses';
-import { jcu_brisbaneCourses as m_jcu_brisbane } from './jcu-brisbane-courses';
-import { jibcCourses as m_justice_institute_of_bc } from './jibc-courses';
 import { kaplanCourses as m_kaplan_business_school } from './kaplan-courses';
 import { kclCourses as m_kings_college_london } from './kcl-courses';
 import { kingstonCourses as m_kingston_university_london } from './kingston-courses';
-import { laurentianCourses as m_laurentian_university } from './laurentian-courses';
 import { leedsBeckettCourses as m_leeds_beckett_university } from './leeds-beckett-courses';
 import { leidenUniversityCourses as m_leiden_university } from './leiden-university-courses';
 import { ljmuCourses as m_liverpool_john_moores_university } from './ljmu-courses';
@@ -44,25 +28,19 @@ import { lsbuCourses as m_london_south_bank_university } from './lsbu-courses';
 import { lboroCourses as m_loughborough_university } from './lboro-courses';
 import { maastrichtUniversityCourses as m_maastricht_university } from './maastricht-university-courses';
 import { masseyCourses as m_massey_university } from './massey-courses';
-import { macqCourses as m_macquarie_university } from './macq-courses';
 import { mcgillCourses as m_mcgill_university } from './mcgill-courses';
 import { mcmasterCourses as m_mcmaster_university } from './mcmaster-courses';
 import { middlesexCourses as m_middlesex_university } from './middlesex-courses';
 import { murdochCourses as m_murdoch_university } from './murdoch-courses';
 import { ntuCourses as m_nanyang_technological_university } from './ntu-courses';
-import { nusCourses as m_national_university_of_singapore } from './nus-courses';
 import { nclCourses as m_newcastle_university } from './ncl-courses';
-import { niagara_universityCourses as m_niagara_university } from './niagara-university-courses';
 import { northeasternCourses as m_northeastern_university } from './northeastern-courses';
 import { northumbriaCourses as m_northumbria_university } from './northumbria-courses';
 import { nottinghamtrentCourses as m_nottingham_trent_university } from './nottinghamtrent-courses';
-import { nsccCourses as m_nscc } from './nscc-courses';
-import { nyit_vancouverCourses as m_nyit_vancouver } from './nyit-vancouver-courses';
 import { brookesCourses as m_oxford_brookes_university } from './brookes-courses';
 import { purdueCourses as m_purdue_university } from './purdue-courses';
 import { qmulCourses as m_queen_mary_university_london } from './qmul-courses';
 import { queensCourses as m_queens_university } from './queens-courses';
-import { ritDubaiCourses as m_rit_dubai } from './rit-dubai-courses';
 import { rmitCourses as m_rmit_university } from './rmit-courses';
 import { rguCourses as m_robert_gordon_university } from './rgu-courses';
 import { rhulCourses as m_royal_holloway_university_london } from './rhul-courses';
@@ -74,8 +52,6 @@ import { tuMunichCourses as m_technical_university_of_munich } from './tu-munich
 import { tcdCourses as m_trinity_college_dublin } from './tcd-courses';
 import { ucdavisCourses as m_uc_davis } from './ucdavis-courses';
 import { uiucCourses as m_uiuc_illinois } from './uiuc-courses';
-import { umassAmherstCourses as m_umass_amherst } from './umass-courses';
-import { uaeuniversityCourses as m_united_arab_emirates_university } from './uae-university-courses';
 import { ucdCourses as m_university_college_dublin } from './ucd-courses';
 import { uclCourses as m_university_college_london } from './ucl-courses';
 import { adelaideCourses as m_university_of_adelaide } from './adelaide-courses';
@@ -97,7 +73,6 @@ import { exeterCourses as m_university_of_exeter } from './exeter-courses';
 import { glasgowCourses as m_university_of_glasgow } from './glasgow-courses';
 import { glosCourses as m_university_of_gloucestershire } from './glos-courses';
 import { universityOfGroningenCourses as m_university_of_groningen } from './university-of-groningen-courses';
-import { uguelphCourses as m_university_of_guelph } from './uguelph-courses';
 import { uhamCourses as m_university_of_hamburg } from './uham-courses';
 import { universityOfHelsinkiCourses as m_university_of_helsinki } from './university-of-helsinki-courses';
 import { hertfordshireCourses as m_university_of_hertfordshire } from './hertfordshire-courses';
@@ -105,8 +80,6 @@ import { leedsCourses as m_university_of_leeds } from './leeds-courses';
 import { manchesterCourses as m_university_of_manchester } from './manchester-courses';
 import { umanitobaCourses as m_university_of_manitoba } from './umanitoba-courses';
 import { uomCourses as m_university_of_melbourne } from './uom-courses';
-import { unswCourses as m_university_of_new_south_wales } from './unsw-courses';
-import { northamptonCourses as m_university_of_northampton } from './northampton-courses';
 import { otagoCourses as m_university_of_otago } from './otago-courses';
 import { uottawaCourses as m_university_of_ottawa } from './uottawa-courses';
 import { portsmouthCourses as m_university_of_portsmouth } from './portsmouth-courses';
@@ -121,7 +94,6 @@ import { sunderlandCourses as m_university_of_sunderland } from './sunderland-co
 import { surreyCourses as m_university_of_surrey } from './surrey-courses';
 import { usydCourses as m_university_of_sydney } from './usyd-courses';
 import { uoftCourses as m_university_of_toronto } from './uoft-courses';
-import { uvicCourses as m_university_of_victoria } from './uvic-courses';
 import { warwickCourses as m_university_of_warwick } from './warwick-courses';
 import { waterlooCourses as m_university_of_waterloo } from './waterloo-courses';
 import { westlondonCourses as m_university_of_west_london } from './westlondon-courses';
@@ -130,46 +102,29 @@ import { uowCourses as m_university_of_wollongong } from './uow-courses';
 import { yorkuniCourses as m_university_of_york } from './yorkuni-courses';
 import { uppsalaUniversityCourses as m_uppsala_university } from './uppsala-university-courses';
 import { utsCourses as m_uts_sydney } from './uts-courses';
-import { victoriaCourses as m_victoria_university_of_wellington } from './victoria-courses';
 import { vu_sydneyCourses as m_victoria_university_sydney } from './vu-sydney-courses';
 import { vuwCourses as m_victoria_university_wellington } from './vuw-courses';
 import { vrijeUniversiteitAmsterdamCourses as m_vrije_universiteit_amsterdam } from './vrije-universiteit-amsterdam-courses';
 
 const REGISTRY: Record<string, readonly unknown[]> = {
   'anglia-ruskin-university': m_anglia_ruskin_university,
-  'assiniboine-college': m_assiniboine_college,
   'aston-university': m_aston_university,
   'australian-national-university': m_australian_national_university,
-  'bangor-university': m_bangor_university,
-  'bits-pilani-dubai': m_bits_pilani_dubai,
   'bocconi-university': m_bocconi_university,
-  'bond-university': m_bond_university,
   'bournemouth-university': m_bournemouth_university,
   'charles-darwin-university': m_charles_darwin_university,
-  'columbia-college': m_columbia_college,
-  'concordia-university': m_concordia_university,
   'coventry-university': m_coventry_university,
-  'cquniversity': m_cquniversity,
   'dalhousie-university': m_dalhousie_university,
   'de-montfort-university': m_de_montfort_university,
-  'delft-university-of-technology': m_delft_university_of_technology,
   'dublin-city-university': m_dublin_city_university,
   'durham-university': m_durham_university,
   'edith-cowan-university': m_edith_cowan_university,
-  'eindhoven-university-of-technology': m_eindhoven_university_of_technology,
-  'fairleigh-dickinson-university-vancouver': m_fairleigh_dickinson_university_vancouver,
   'flinders-university': m_flinders_university,
-  'free-university-of-berlin': m_free_university_of_berlin,
-  'georgia-institute-of-technology': m_georgia_institute_of_technology,
   'griffith-university': m_griffith_university,
   'heriot-watt-university-dubai': m_heriot_watt_university_dubai,
-  'humboldt-university-of-berlin': m_humboldt_university_of_berlin,
-  'jcu-brisbane': m_jcu_brisbane,
-  'justice-institute-of-bc': m_justice_institute_of_bc,
   'kaplan-business-school': m_kaplan_business_school,
   'kings-college-london': m_kings_college_london,
   'kingston-university-london': m_kingston_university_london,
-  'laurentian-university': m_laurentian_university,
   'leeds-beckett-university': m_leeds_beckett_university,
   'leiden-university': m_leiden_university,
   'liverpool-john-moores-university': m_liverpool_john_moores_university,
@@ -177,26 +132,20 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'london-south-bank-university': m_london_south_bank_university,
   'loughborough-university': m_loughborough_university,
   'maastricht-university': m_maastricht_university,
-  'macquarie-university': m_macquarie_university,
   'massey-university': m_massey_university,
   'mcgill-university': m_mcgill_university,
   'mcmaster-university': m_mcmaster_university,
   'middlesex-university': m_middlesex_university,
   'murdoch-university': m_murdoch_university,
   'nanyang-technological-university': m_nanyang_technological_university,
-  'national-university-of-singapore': m_national_university_of_singapore,
   'newcastle-university': m_newcastle_university,
-  'niagara-university': m_niagara_university,
   'northeastern-university': m_northeastern_university,
   'northumbria-university': m_northumbria_university,
   'nottingham-trent-university': m_nottingham_trent_university,
-  'nscc': m_nscc,
-  'nyit-vancouver': m_nyit_vancouver,
   'oxford-brookes-university': m_oxford_brookes_university,
   'purdue-university': m_purdue_university,
   'queen-mary-university-london': m_queen_mary_university_london,
   'queens-university': m_queens_university,
-  'rit-dubai': m_rit_dubai,
   'rmit-university': m_rmit_university,
   'robert-gordon-university': m_robert_gordon_university,
   'royal-holloway-university-london': m_royal_holloway_university_london,
@@ -208,8 +157,6 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'trinity-college-dublin': m_trinity_college_dublin,
   'uc-davis': m_uc_davis,
   'uiuc-illinois': m_uiuc_illinois,
-  'umass-amherst': m_umass_amherst,
-  'united-arab-emirates-university': m_united_arab_emirates_university,
   'university-college-dublin': m_university_college_dublin,
   'university-college-london': m_university_college_london,
   'university-of-adelaide': m_university_of_adelaide,
@@ -231,7 +178,6 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-glasgow': m_university_of_glasgow,
   'university-of-gloucestershire': m_university_of_gloucestershire,
   'university-of-groningen': m_university_of_groningen,
-  'university-of-guelph': m_university_of_guelph,
   'university-of-hamburg': m_university_of_hamburg,
   'university-of-helsinki': m_university_of_helsinki,
   'university-of-hertfordshire': m_university_of_hertfordshire,
@@ -239,8 +185,6 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-manchester': m_university_of_manchester,
   'university-of-manitoba': m_university_of_manitoba,
   'university-of-melbourne': m_university_of_melbourne,
-  'university-of-new-south-wales': m_university_of_new_south_wales,
-  'university-of-northampton': m_university_of_northampton,
   'university-of-otago': m_university_of_otago,
   'university-of-ottawa': m_university_of_ottawa,
   'university-of-portsmouth': m_university_of_portsmouth,
@@ -255,7 +199,6 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-surrey': m_university_of_surrey,
   'university-of-sydney': m_university_of_sydney,
   'university-of-toronto': m_university_of_toronto,
-  'university-of-victoria': m_university_of_victoria,
   'university-of-warwick': m_university_of_warwick,
   'university-of-waterloo': m_university_of_waterloo,
   'university-of-west-london': m_university_of_west_london,
@@ -264,7 +207,6 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-york': m_university_of_york,
   'uppsala-university': m_uppsala_university,
   'uts-sydney': m_uts_sydney,
-  'victoria-university-of-wellington': m_victoria_university_of_wellington,
   'victoria-university-sydney': m_victoria_university_sydney,
   'victoria-university-wellington': m_victoria_university_wellington,
   'vrije-universiteit-amsterdam': m_vrije_universiteit_amsterdam,

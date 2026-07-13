@@ -27,6 +27,9 @@ const nextConfig = {
       { source: '/universities/ubc/courses', destination: '/universities/university-of-british-columbia/courses', permanent: true },
       { source: '/universities/mit', destination: '/universities/mit-massachusetts', permanent: true },
       { source: '/universities/ntu', destination: '/universities/nanyang-technological-university', permanent: true },
+      { source: '/universities/victoria-university-of-wellington', destination: '/universities/victoria-university-wellington', permanent: true },
+      { source: '/universities/victoria-university-of-wellington/courses', destination: '/universities/victoria-university-wellington/courses', permanent: true },
+      { source: '/universities/victoria-university-of-wellington/courses/:slug*', destination: '/universities/victoria-university-wellington/courses/:slug*', permanent: true },
     ];
   },
   async headers() {
