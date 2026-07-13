@@ -17,7 +17,7 @@ export async function generateMetadata(
   const c = northeasternCourses.find(x => x.slug === slug);
   if (!c) return {};
   return buildMetadata({
-    title: `${c.name} at Northeastern University — Fees, IELTS & Intake for Indian Students 2026`,
+    title: `${c.name} at Northeastern University — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${c.name} at Northeastern University, ${(c as any).city || c.country} costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/northeastern-university/courses/${slug}`,
   });
@@ -46,7 +46,7 @@ export default async function CourseDetailPage(
             <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
               🇺🇸 USA · {c.level}
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">{c.name}</h1>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">{c.name} at Northeastern University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
             <p className="text-gray-500 text-sm">Northeastern University · {c.city}, {c.state}</p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">

@@ -18,7 +18,7 @@ export async function generateMetadata(
   const course = getVu_sydneyCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Victoria University Sydney — Fees, IELTS & Intake for Indian Students 2026`,
+    title: `${course.name} at Victoria University Sydney — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at Victoria University Sydney, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/victoria-university-sydney/courses/${slug}`,
     keywords: [course.name, 'VU Sydney', 'Victoria University Sydney', 'study in Australia', course.level],
@@ -66,7 +66,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 Victoria University Sydney · {course.campus}
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Victoria University Sydney — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>

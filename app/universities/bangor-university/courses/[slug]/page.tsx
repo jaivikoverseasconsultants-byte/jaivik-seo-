@@ -18,7 +18,7 @@ export async function generateMetadata(
   const course = getBangorCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Bangor University — Fees, IELTS & Intake 2026`,
+    title: `${course.name} at Bangor University — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at Bangor University costs ₹${((course.annualINR || 0) / 100000).toFixed(1)}L/year. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths?.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/bangor-university/courses/${slug}`,
     keywords: [course.name, 'Bangor', 'Bangor University', 'study in United Kingdom', course.level],
@@ -60,7 +60,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Bangor University · Bangor, United Kingdom
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Bangor University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[

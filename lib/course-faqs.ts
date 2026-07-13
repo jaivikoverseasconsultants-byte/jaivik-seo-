@@ -31,18 +31,25 @@ const COUNTRY_CURRENCY: Record<string, string> = {
   'United States': 'USD',
 };
 
-function nativeFee(course: CourseForContent): { amount: number; code: string } | null {
+export function nativeFee(course: CourseForContent): { amount: number; code: string } | null {
   const code = COUNTRY_CURRENCY[course.country];
   if (!code) return null;
   const amount = (course as Record<string, unknown>)[`annual${code}`];
   return typeof amount === 'number' && amount > 0 ? { amount, code } : null;
 }
 
+export function nativeLivingCost(course: CourseForContent): { amount: number; code: string } | null {
+  const code = COUNTRY_CURRENCY[course.country];
+  if (!code) return null;
+  const amount = (course as Record<string, unknown>)[`livingCost${code}`];
+  return typeof amount === 'number' && amount > 0 ? { amount, code } : null;
+}
+
 // ─── Degree-level classification (for visa logic) ──────────────────────────
 
-type Level = 'bachelor' | 'master' | 'phd' | null;
+export type Level = 'bachelor' | 'master' | 'phd' | null;
 
-function classifyLevel(course: CourseForContent): Level {
+export function classifyLevel(course: CourseForContent): Level {
   const text = `${course.level} ${course.name}`.toLowerCase();
   // Certificate/diploma awards have distinct (often less generous) post-study
   // work rights that aren't safe to generalise from Bachelor's/Master's rules —
@@ -91,7 +98,13 @@ function ieltsFaq(course: CourseForContent, universityName: string): Faq | null 
 
 // ─── Q3 — Post-study work rights ────────────────────────────────────────────
 
-function pswFaq(course: CourseForContent, universityName: string): Faq | null {
+export interface PswDetails {
+  visaName: string;
+  workDuration: string;
+  body: string;
+}
+
+export function pswDetails(course: CourseForContent, universityName: string): PswDetails | null {
   const country = course.country;
   const dY = course.durationYears;
   if (typeof dY !== 'number' || dY <= 0) return null;
@@ -100,8 +113,9 @@ function pswFaq(course: CourseForContent, universityName: string): Faq | null {
     if (dY < 8 / 12) return null; // programs under 8 months are not PGWP-eligible
     const pgwp = dY >= 2 ? 'up to 3 years (the maximum PGWP duration)' : `approximately ${Math.round(dY * 12)} months, matching your program length`;
     return {
-      question: `Can I work in Canada after completing ${course.name} at ${universityName}?`,
-      answer: `Graduates of ${course.name} (a ${course.duration} program) are typically eligible for a Post-Graduation Work Permit (PGWP) of ${pgwp}. PGWP length is generally tied to program length, up to a maximum of 3 years for programs of 2 years or more. This Canadian work experience can also count toward Canadian Experience Class points under the Express Entry (CRS) system for permanent residency. Confirm exact eligibility with IRCC, as rules can change — Jaivik Overseas can guide you through the current requirements.`,
+      visaName: 'Post-Graduation Work Permit (PGWP)',
+      workDuration: dY >= 2 ? 'Up to 3 years' : `~${Math.round(dY * 12)} months`,
+      body: `Graduates of ${course.name} (a ${course.duration} program) are typically eligible for a Post-Graduation Work Permit (PGWP) of ${pgwp}. PGWP length is generally tied to program length, up to a maximum of 3 years for programs of 2 years or more. This Canadian work experience can also count toward Canadian Experience Class points under the Express Entry (CRS) system for permanent residency. Confirm exact eligibility with IRCC, as rules can change — Jaivik Overseas can guide you through the current requirements.`,
     };
   }
 
@@ -110,8 +124,9 @@ function pswFaq(course: CourseForContent, universityName: string): Faq | null {
     if (!level) return null;
     const yrs = level === 'phd' ? 3 : 2;
     return {
-      question: `Can I work in Australia after completing ${course.name} at ${universityName}?`,
-      answer: `Graduates of ${course.name} (${course.level}) are typically eligible for the Temporary Graduate visa (subclass 485), Post-Higher Education Work stream, for around ${yrs} years, allowing full work rights in Australia. Exact eligibility and duration depend on Department of Home Affairs rules current at the time of your application — confirm with a registered migration agent or your Jaivik Overseas counsellor.`,
+      visaName: 'Temporary Graduate visa (subclass 485)',
+      workDuration: `~${yrs} years`,
+      body: `Graduates of ${course.name} (${course.level}) are typically eligible for the Temporary Graduate visa (subclass 485), Post-Higher Education Work stream, for around ${yrs} years, allowing full work rights in Australia. Exact eligibility and duration depend on Department of Home Affairs rules current at the time of your application — confirm with a registered migration agent or your Jaivik Overseas counsellor.`,
     };
   }
 
@@ -120,8 +135,9 @@ function pswFaq(course: CourseForContent, universityName: string): Faq | null {
     if (!level) return null;
     const yrs = level === 'phd' ? 3 : 2;
     return {
-      question: `Can I work in the UK after completing ${course.name} at ${universityName}?`,
-      answer: `Graduates of ${course.name} are eligible for the UK Graduate Route visa, which allows ${yrs} years of full work rights in the UK after graduation (${level === 'phd' ? 'PhD graduates get 3 years' : "2 years for Bachelor's and Master's graduates"}). No job offer is required to apply for the Graduate Route.`,
+      visaName: 'UK Graduate Route visa',
+      workDuration: level === 'phd' ? '3 years' : '2 years',
+      body: `Graduates of ${course.name} are eligible for the UK Graduate Route visa, which allows ${yrs} years of full work rights in the UK after graduation (${level === 'phd' ? 'PhD graduates get 3 years' : "2 years for Bachelor's and Master's graduates"}). No job offer is required to apply for the Graduate Route.`,
     };
   }
 
@@ -130,15 +146,17 @@ function pswFaq(course: CourseForContent, universityName: string): Faq | null {
     if (!level) return null;
     const months = level === 'bachelor' ? 12 : 24;
     return {
-      question: `Can I work in Ireland after completing ${course.name} at ${universityName}?`,
-      answer: `Graduates of ${course.name} are typically eligible for the Stamp 1G Third Level Graduate Scheme, allowing ${months} months to stay and seek work in Ireland (${level === 'bachelor' ? "Bachelor's" : "Master's/PhD"} graduates). During this period you can work full-time while seeking a job that qualifies for a longer-term employment permit.`,
+      visaName: 'Stamp 1G Third Level Graduate Scheme',
+      workDuration: `${months} months`,
+      body: `Graduates of ${course.name} are typically eligible for the Stamp 1G Third Level Graduate Scheme, allowing ${months} months to stay and seek work in Ireland (${level === 'bachelor' ? "Bachelor's" : "Master's/PhD"} graduates). During this period you can work full-time while seeking a job that qualifies for a longer-term employment permit.`,
     };
   }
 
   if (country === 'Germany') {
     return {
-      question: `Can I work in Germany after completing ${course.name} at ${universityName}?`,
-      answer: `Graduates of ${course.name} are eligible for Germany's 18-month job-seeker residence permit (Aufenthaltserlaubnis zur Arbeitsplatzsuche), which allows you to remain in Germany to search for employment related to your qualification. Once you secure a qualifying job offer, you can switch to an EU Blue Card or work permit.`,
+      visaName: "Job-seeker residence permit (Aufenthaltserlaubnis zur Arbeitsplatzsuche)",
+      workDuration: '18 months',
+      body: `Graduates of ${course.name} are eligible for Germany's 18-month job-seeker residence permit (Aufenthaltserlaubnis zur Arbeitsplatzsuche), which allows you to remain in Germany to search for employment related to your qualification. Once you secure a qualifying job offer, you can switch to an EU Blue Card or work permit.`,
     };
   }
 
@@ -146,13 +164,23 @@ function pswFaq(course: CourseForContent, universityName: string): Faq | null {
     const yrsText = dY >= 2 ? 'up to 3 years' : dY >= 1 ? '1 year' : null;
     if (!yrsText) return null;
     return {
-      question: `Can I work in New Zealand after completing ${course.name} at ${universityName}?`,
-      answer: `Graduates of ${course.name} (a ${course.duration} program) are typically eligible for a Post-Study Work Visa of ${yrsText}, allowing full work rights in New Zealand. Exact eligibility depends on Immigration New Zealand's current settings at the time you apply — confirm with your Jaivik Overseas counsellor.`,
+      visaName: 'Post-Study Work Visa',
+      workDuration: yrsText,
+      body: `Graduates of ${course.name} (a ${course.duration} program) are typically eligible for a Post-Study Work Visa of ${yrsText}, allowing full work rights in New Zealand. Exact eligibility depends on Immigration New Zealand's current settings at the time you apply — confirm with your Jaivik Overseas counsellor.`,
     };
   }
 
   // Country not in our supported PSW mapping — skip rather than guess.
   return null;
+}
+
+function pswFaq(course: CourseForContent, universityName: string): Faq | null {
+  const details = pswDetails(course, universityName);
+  if (!details) return null;
+  return {
+    question: `Can I work in ${course.country} after completing ${course.name} at ${universityName}?`,
+    answer: details.body,
+  };
 }
 
 // ─── Q4 — Cost of living ────────────────────────────────────────────────────
@@ -183,20 +211,40 @@ function costOfLivingFaq(course: CourseForContent): Faq | null {
 
 // ─── Q5 — Worth it (fee vs graduate salary) ─────────────────────────────────
 
-function worthItFaq(course: CourseForContent, universityName: string, universitySlug: string): Faq | null {
+export interface CareerOutcomeDetails {
+  avgSalaryINR: number;
+  avgSalaryUSD: number;
+  employmentRate: number;
+  totalFeeLakh: string;
+  salaryLakh: string;
+  paybackYears: string;
+}
+
+export function careerOutcomeDetails(course: CourseForContent, universitySlug: string): CareerOutcomeDetails | null {
   const uni = getUniversityBySlug(universitySlug);
   if (!uni || !uni.avgSalaryINR || !uni.avgSalaryUSD) return null;
   if (typeof course.annualINR !== 'number' || course.annualINR <= 0) return null;
   if (typeof course.durationYears !== 'number' || course.durationYears <= 0) return null;
 
   const totalFeeINR = course.annualINR * course.durationYears;
-  const totalFeeLakh = (totalFeeINR / 100000).toFixed(1);
-  const salaryLakh = (uni.avgSalaryINR / 100000).toFixed(1);
-  const paybackYears = (totalFeeINR / uni.avgSalaryINR).toFixed(1);
+
+  return {
+    avgSalaryINR: uni.avgSalaryINR,
+    avgSalaryUSD: uni.avgSalaryUSD,
+    employmentRate: uni.employmentRate,
+    totalFeeLakh: (totalFeeINR / 100000).toFixed(1),
+    salaryLakh: (uni.avgSalaryINR / 100000).toFixed(1),
+    paybackYears: (totalFeeINR / uni.avgSalaryINR).toFixed(1),
+  };
+}
+
+function worthItFaq(course: CourseForContent, universityName: string, universitySlug: string): Faq | null {
+  const d = careerOutcomeDetails(course, universitySlug);
+  if (!d) return null;
 
   return {
     question: `Is ${course.name} at ${universityName} worth it for Indian students?`,
-    answer: `The total tuition cost for ${course.name} (${course.duration}) is approximately ₹${totalFeeLakh} lakh. ${universityName}'s graduates report an average salary of around ₹${salaryLakh} lakh per year (USD ${uni.avgSalaryUSD.toLocaleString()}) with a ${uni.employmentRate}% graduate employment rate — an approximate fee payback period of ${paybackYears} years from the first year's salary alone, before accounting for salary growth. This is a university-wide average, not specific to this exact program, so actual outcomes vary by specialisation and individual profile.`,
+    answer: `The total tuition cost for ${course.name} (${course.duration}) is approximately ₹${d.totalFeeLakh} lakh. ${universityName}'s graduates report an average salary of around ₹${d.salaryLakh} lakh per year (USD ${d.avgSalaryUSD.toLocaleString()}) with a ${d.employmentRate}% graduate employment rate — an approximate fee payback period of ${d.paybackYears} years from the first year's salary alone, before accounting for salary growth. This is a university-wide average, not specific to this exact program, so actual outcomes vary by specialisation and individual profile.`,
   };
 }
 

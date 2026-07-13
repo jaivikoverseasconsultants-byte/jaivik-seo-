@@ -18,7 +18,7 @@ export async function generateMetadata(
   const course = getNorthamptonCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Northampton — Fees, IELTS & Intake 2026`,
+    title: `${course.name} at University of Northampton — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at University of Northampton costs ₹${((course.annualINR || 0) / 100000).toFixed(1)}L/year. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths?.join(' & ')}. Free guidance from Jaivik Overseas.`,
     path: `/universities/university-of-northampton/courses/${slug}`,
     keywords: [course.name, 'Northampton', 'University of Northampton', 'study in United Kingdom', course.level],
@@ -60,7 +60,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇬🇧 University of Northampton · Northampton, United Kingdom
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Northampton — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[

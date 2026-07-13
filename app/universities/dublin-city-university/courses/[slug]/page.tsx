@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!course) return {};
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} at Dublin City University — Fees, IELTS & Intake for Indian Students 2026`,
+    title: `${course.name} at Dublin City University — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at Dublin City University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/dublin-city-university/courses/${slug}`,
     keywords: [course.name, 'DCU', 'Dublin City University', 'study in Ireland', course.level],
@@ -63,7 +63,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             <span>{course.name}</span>
           </div>
           <div className="inline-block bg-white/10 text-blue-100 text-xs px-3 py-1 rounded-full mb-3">{course.level} · {course.studyLevel}</div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Dublin City University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
           <p className="text-blue-100 text-lg">Dublin City University · Dublin, Ireland · {course.duration}</p>
         </div>
       </section>

@@ -18,7 +18,7 @@ export async function generateMetadata(
   const course = getAstonCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Aston University — Fees, IELTS & Intake for Indian Students 2026`,
+    title: `${course.name} at Aston University — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at Aston University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/aston-university/courses/${slug}`,
     keywords: [course.name, 'Aston', 'Aston University', 'study in UK', course.level],
@@ -67,7 +67,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇬🇧 Aston University · Birmingham, UK
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name}</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Aston University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>
