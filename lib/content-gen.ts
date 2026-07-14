@@ -61,9 +61,9 @@ ${u.description} With a student community of over ${u.totalStudents.toLocaleStri
 
 ${campusDesc} The campus is equipped with research libraries, modern computer labs, on-campus accommodation, sports and recreation facilities, an international student office, and a dedicated career and placement centre.
 
-Graduates of ${u.shortName} enjoy an employment rate of ${u.employmentRate}% within six months of graduation, with an average starting salary of $${(u.avgSalaryUSD / 1000).toFixed(0)}K (approximately ₹${(u.avgSalaryUSD * 84 / 100000).toFixed(0)}L per annum). Top employers recruiting from ${u.shortName} include ${u.topEmployers.slice(0, 4).join(', ')}, reflecting the institution's strong industry connections.
+Graduates of ${u.shortName} can expect an estimated (not officially published) employment rate of around ${u.employmentRate}% within six months of graduation, with an indicative starting salary in the region of $${(u.avgSalaryUSD / 1000).toFixed(0)}K (approximately ₹${(u.avgSalaryUSD * 84 / 100000).toFixed(0)}L per annum) — confirm current outcomes with the university. Top employers recruiting from ${u.shortName} include ${u.topEmployers.slice(0, 4).join(', ')}, reflecting the institution's strong industry connections.
 
-${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an overall acceptance rate of ${u.acceptanceRate}%. Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin} and a GPA of ${u.requirements.gpaMin}/10 for postgraduate admission.`;
+${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an estimated overall acceptance rate around ${u.acceptanceRate}% (not officially published). Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin} and a GPA of ${u.requirements.gpaMin}/10 for postgraduate admission.`;
 }
 
 /**
@@ -77,7 +77,7 @@ export function generateWhyIndianStudents(u: University): string {
 
   return `${u.country} is a top study destination for Indian students, and ${u.shortName} consistently ranks among the most popular choices. Here is why:
 
-**Strong Career Outcomes:** With an average graduate salary of $${(u.avgSalaryUSD / 1000).toFixed(0)}K/year and an employment rate of ${u.employmentRate}%, ${u.shortName} alumni are highly sought after by global employers. Top recruiters include ${u.topEmployers.slice(0, 3).join(', ')}.
+**Strong Career Outcomes:** With an estimated (not officially published) average graduate salary of $${(u.avgSalaryUSD / 1000).toFixed(0)}K/year and an estimated employment rate around ${u.employmentRate}%, ${u.shortName} alumni are generally well-regarded by employers. Top recruiters include ${u.topEmployers.slice(0, 3).join(', ')}.
 
 **Most Popular Courses for Indians:** ${topCourses} are the most commonly chosen programmes by Indian students at ${u.shortName}. These courses align well with India's growing demand for internationally qualified professionals.
 
@@ -85,7 +85,7 @@ export function generateWhyIndianStudents(u: University): string {
 
 **Scholarships Available:** ${schName} offers ${schAmt} to eligible international students. ${u.scholarships.length > 1 ? `The ${u.scholarships[1].name} (${u.scholarships[1].amount}) is also available for ${u.scholarships[1].eligibility}.` : ''}
 
-**Visa Success Rate:** Indian students applying for a ${u.country} student visa have an average approval rate of ${u.visaApprovalRate}%. Jaivik Overseas Consultants has helped hundreds of students successfully obtain their ${u.country} student visas.`;
+**Visa Success Rate:** The exact student visa approval rate for ${u.country} isn't published per university; an indicative estimate is around ${u.visaApprovalRate}%. Jaivik Overseas Consultants has helped hundreds of students successfully obtain their ${u.country} student visas.`;
 }
 
 /**
@@ -124,7 +124,7 @@ export function generateApplicationProcess(u: University): {
       {
         step: 5,
         title: 'Apply for Student Visa',
-        detail: `With an offer letter and CAS (Confirmation of Acceptance), apply for your ${u.country} student visa. Approval rate for Indian students: ${u.visaApprovalRate}%.`,
+        detail: `With an offer letter and CAS (Confirmation of Acceptance), apply for your ${u.country} student visa. Indicative approval rate for Indian students: ~${u.visaApprovalRate}% (estimate, not an official published figure).`,
       },
       {
         step: 6,

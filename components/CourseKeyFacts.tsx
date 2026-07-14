@@ -133,20 +133,20 @@ export default function CourseKeyFacts({ course, universityName, universitySlug 
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
             <div className="bg-green-50 rounded-xl p-4 text-center">
-              <p className="text-lg font-bold text-green-700">₹{career.salaryLakh}L</p>
-              <p className="text-xs text-gray-500 mt-1">Avg. Graduate Salary (INR/yr)</p>
+              <p className="text-lg font-bold text-green-700">~₹{career.salaryLakh}L</p>
+              <p className="text-xs text-gray-500 mt-1">Avg. Graduate Salary (Est., INR/yr)</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-4 text-center">
-              <p className="text-lg font-bold text-gray-900">{career.employmentRate}%</p>
-              <p className="text-xs text-gray-500 mt-1">Graduate Employment Rate</p>
+              <p className="text-lg font-bold text-gray-900">~{career.employmentRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Graduate Employment Rate (Est.)</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-4 text-center">
-              <p className="text-lg font-bold text-gray-900">{career.paybackYears} yrs</p>
-              <p className="text-xs text-gray-500 mt-1">Fee Payback Period</p>
+              <p className="text-lg font-bold text-gray-900">~{career.paybackYears} yrs</p>
+              <p className="text-xs text-gray-500 mt-1">Fee Payback Period (Est.)</p>
             </div>
           </div>
           <p className="text-xs text-gray-600 leading-relaxed">
-            {universityName}&apos;s graduates report an average salary of around USD {career.avgSalaryUSD.toLocaleString()} (₹{career.salaryLakh} lakh) per year, against a total programme cost of approximately ₹{career.totalFeeLakh} lakh — this is a university-wide average, not specific to this exact programme, so actual outcomes vary by specialisation and individual profile.
+            These are indicative, university-wide estimates, not officially published or programme-specific figures: an estimated average salary of around USD {career.avgSalaryUSD.toLocaleString()} (₹{career.salaryLakh} lakh) per year, against a total programme cost of approximately ₹{career.totalFeeLakh} lakh. Actual outcomes vary by specialisation and individual profile — confirm current figures with the university or your Jaivik Overseas counsellor.
           </p>
         </div>
       )}

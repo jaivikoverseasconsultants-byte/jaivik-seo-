@@ -25,9 +25,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const u = getUniversityBySlug(slug);
   if (!u) return {} as Metadata;
+  const qsRankPart = u.qsRanking ? ` – QS Rank #${u.qsRanking}` : '';
   return buildMetadata({
     title: `${u.name} | Fees, Rankings, Courses & Admissions 2026`,
-    description: `${u.name} (${u.shortName}) – QS Rank #${u.qsRanking}. Annual tuition ${formatUSD(u.annualTuitionUSD)} (${formatINR(u.annualTuitionINR)}). Visa approval rate ${u.visaApprovalRate}%. Intake: ${u.intakeMonths.join(', ')}. Get free admission guidance from Jaivik Overseas Consultants.`,
+    description: `${u.name} (${u.shortName})${qsRankPart}. Annual tuition ${formatUSD(u.annualTuitionUSD)} (${formatINR(u.annualTuitionINR)}). Intake: ${u.intakeMonths.join(', ')}. Get free admission guidance from Jaivik Overseas Consultants.`,
     path: `/universities/${slug}`,
     keywords: [u.name, u.shortName, u.country, 'university fees', 'study abroad', 'admissions 2026'],
   });
@@ -68,6 +69,10 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
     numberOfStudents: u.totalStudents,
   };
 
+  // FAQPage JSON-LD — real, sourced facts only. visaApprovalRate/acceptanceRate/
+  // employmentRate/avgSalary are house estimates (country averages), not
+  // per-institution facts, so they must never appear as a schema "answer" —
+  // see BUILD-LOG.md / DATA-AUDIT.md "fake-precision" fix (2026-07-13).
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -80,22 +85,14 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           text: `Annual tuition at ${u.name} is ${formatUSD(u.annualTuitionUSD)} (approximately ${formatINR(u.annualTuitionINR)}) for international students.`,
         },
       },
-      {
+      ...(u.qsRanking ? [{
         '@type': 'Question',
         name: `What is the QS ranking of ${u.name}?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: `${u.name} is ranked #${u.qsRanking} in the QS World University Rankings 2026.`,
         },
-      },
-      {
-        '@type': 'Question',
-        name: `What is the visa approval rate for ${u.name}?`,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `The student visa approval rate for ${u.country} is approximately ${u.visaApprovalRate}% for Indian students with strong academic profiles.`,
-        },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake does ${u.name} offer?`,
@@ -148,7 +145,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
             <div className="lg:col-span-2">
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="badge bg-gold-500 text-white">QS #{u.qsRanking}</span>
+                {u.qsRanking && <span className="badge bg-gold-500 text-white">QS #{u.qsRanking}</span>}
                 <span className="badge bg-white/20 text-white">{u.country}</span>
                 <span className="badge bg-white/20 text-white">Est. {u.establishedYear}</span>
               </div>
@@ -206,30 +203,33 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               <p className="text-xs text-gray-400">{formatINR(u.annualTuitionINR)}</p>
             </div>
             <div className="stat-card">
-              <p className="text-2xl font-bold text-green-600">{u.visaApprovalRate}%</p>
-              <p className="text-xs text-gray-500 mt-1">Visa Success</p>
+              <p className="text-2xl font-bold text-green-600">~{u.visaApprovalRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Visa Success (Est.)</p>
             </div>
             <div className="stat-card">
-              <p className="text-2xl font-bold text-brand-700">{u.acceptanceRate}%</p>
-              <p className="text-xs text-gray-500 mt-1">Acceptance Rate</p>
+              <p className="text-2xl font-bold text-brand-700">~{u.acceptanceRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Acceptance Rate (Est.)</p>
             </div>
             <div className="stat-card">
-              <p className="text-2xl font-bold text-purple-600">#{u.qsRanking}</p>
+              <p className="text-2xl font-bold text-purple-600">{u.qsRanking ? `#${u.qsRanking}` : 'Unranked'}</p>
               <p className="text-xs text-gray-500 mt-1">QS Ranking</p>
             </div>
             <div className="stat-card">
-              <p className="text-2xl font-bold text-orange-500">{u.employmentRate}%</p>
-              <p className="text-xs text-gray-500 mt-1">Employment Rate</p>
+              <p className="text-2xl font-bold text-orange-500">~{u.employmentRate}%</p>
+              <p className="text-xs text-gray-500 mt-1">Employment Rate (Est.)</p>
             </div>
             <div className="stat-card">
-              <p className="text-2xl font-bold text-brand-700">${(u.avgSalaryUSD / 1000).toFixed(0)}K</p>
-              <p className="text-xs text-gray-500 mt-1">Avg Grad Salary</p>
+              <p className="text-2xl font-bold text-brand-700">~${(u.avgSalaryUSD / 1000).toFixed(0)}K</p>
+              <p className="text-xs text-gray-500 mt-1">Avg Grad Salary (Est.)</p>
             </div>
             <div className="stat-card">
               <p className="text-sm font-bold text-gray-800">{u.intakeMonths.join(', ')}</p>
               <p className="text-xs text-gray-500 mt-1">Intake</p>
             </div>
           </div>
+          <p className="text-xs text-gray-400 mt-3">
+            (Est.) figures are indicative estimates, not published institutional statistics — confirm current figures with the university or your Jaivik Overseas counsellor.
+          </p>
         </div>
       </section>
 
@@ -487,8 +487,8 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               <p className="text-gray-700 text-sm leading-relaxed mt-3">{alumniText}</p>
               <div className="mt-4 grid grid-cols-3 gap-3">
                 {[
-                  { label: 'Graduate Salary', value: `$${(u.avgSalaryUSD / 1000).toFixed(0)}K/yr` },
-                  { label: 'Employment Rate', value: `${u.employmentRate}%` },
+                  { label: 'Graduate Salary (Est.)', value: `~$${(u.avgSalaryUSD / 1000).toFixed(0)}K/yr` },
+                  { label: 'Employment Rate (Est.)', value: `~${u.employmentRate}%` },
                   { label: 'Top Employer', value: u.topEmployers[0] },
                 ].map(stat => (
                   <div key={stat.label} className="bg-brand-50 rounded-xl p-3 text-center">
@@ -532,7 +532,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                   },
                   {
                     q: `What is the acceptance rate at ${u.shortName}?`,
-                    a: `${u.name} has an acceptance rate of approximately ${u.acceptanceRate}% for international students. Indian students with strong GRE/GMAT scores and GPA above ${u.requirements.gpaMin}/10 have a higher chance of admission.`,
+                    a: `${u.name}'s acceptance rate is not officially published — an indicative estimate is around ${u.acceptanceRate}% for international students. Indian students with strong GRE/GMAT scores and GPA above ${u.requirements.gpaMin}/10 have a higher chance of admission. Confirm current admission statistics with the university or your Jaivik Overseas counsellor.`,
                   },
                   {
                     q: `What are the IELTS requirements for ${u.shortName}?`,
@@ -563,7 +563,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                     { label: 'Total Students', value: u.totalStudents.toLocaleString() },
                     { label: 'International %', value: `${u.internationalStudentPercent}%` },
                     { label: 'Campus Type', value: u.campusType },
-                    { label: 'Avg Salary (Grad)', value: formatUSD(u.avgSalaryUSD) },
+                    { label: 'Avg Salary, Grad (Est.)', value: `~${formatUSD(u.avgSalaryUSD)}` },
                   ].map(f => (
                     <div key={f.label} className="flex justify-between">
                       <span className="text-gray-600">{f.label}</span>
@@ -577,17 +577,17 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
         </div>
       </section>
 
-      {/* Average Graduate Salary */}
+      {/* Estimated Average Graduate Salary — indicative, not a sourced institutional figure */}
       {u.avgSalaryUSD > 0 && (
         <section className="bg-white py-8 px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="section-title mb-5">Average Graduate Salary After {u.shortName}</h2>
+            <h2 className="section-title mb-5">Estimated Average Graduate Salary After {u.shortName}</h2>
             <div className="max-w-xl">
               <div className="bg-brand-50 border border-brand-100 rounded-2xl p-6 flex items-center justify-between">
                 <div>
-                  <p className="text-3xl font-bold text-brand-700">${(u.avgSalaryUSD / 1000).toFixed(0)}K/year</p>
-                  <p className="text-sm text-gray-600 mt-1">Average graduate salary in {u.country}</p>
-                  <p className="text-xs text-gray-400 mt-1">Employment Rate: {u.employmentRate}%</p>
+                  <p className="text-3xl font-bold text-brand-700">~${(u.avgSalaryUSD / 1000).toFixed(0)}K/year</p>
+                  <p className="text-sm text-gray-600 mt-1">Indicative graduate salary range for {u.country}, not a published {u.shortName} figure</p>
+                  <p className="text-xs text-gray-400 mt-1">Estimated employment rate: ~{u.employmentRate}%</p>
                 </div>
                 <div className="text-6xl">💼</div>
               </div>

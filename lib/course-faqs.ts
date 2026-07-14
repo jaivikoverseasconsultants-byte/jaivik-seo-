@@ -238,6 +238,13 @@ export function careerOutcomeDetails(course: CourseForContent, universitySlug: s
   };
 }
 
+// NOT wired into generateFaqs() below — its answer is built entirely on
+// uni.avgSalaryUSD/avgSalaryINR/employmentRate, which are house estimates
+// (same-country averages), not sourced per-institution facts. Emitting that
+// as a schema.org FAQPage "answer" presents an estimate as fact to Google —
+// see BUILD-LOG.md / DATA-AUDIT.md "fake-precision" fix (2026-07-13). Kept
+// here, unused, in case a genuinely sourced salary/payback figure is added
+// later — do not re-enable with estimate data.
 function worthItFaq(course: CourseForContent, universityName: string, universitySlug: string): Faq | null {
   const d = careerOutcomeDetails(course, universitySlug);
   if (!d) return null;
@@ -253,7 +260,7 @@ function worthItFaq(course: CourseForContent, universityName: string, university
 export function generateFaqs(
   course: CourseForContent,
   universityName: string,
-  universitySlug: string
+  _universitySlug: string
 ): Faq[] {
   const faqs: Faq[] = [];
 
@@ -268,9 +275,6 @@ export function generateFaqs(
 
   const q4 = costOfLivingFaq(course);
   if (q4) faqs.push(q4);
-
-  const q5 = worthItFaq(course, universityName, universitySlug);
-  if (q5) faqs.push(q5);
 
   return faqs;
 }
