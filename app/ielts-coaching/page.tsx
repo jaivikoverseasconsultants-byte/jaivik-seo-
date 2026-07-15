@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'IELTS Coaching & Trainers | Jaivik Overseas Consultants',
   description: 'Find IELTS trainers in Ghaziabad, Noida, Delhi NCR. Expert coaching for Band 7+. Free trial class available. Flexible batches — weekday, weekend, online.',
   robots: { index: true, follow: true },
+  alternates: { canonical: 'https://study.jaivikoverseasconsultants.com/ielts-coaching' },
 };
 
 const TRAINERS = [

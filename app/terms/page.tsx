@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Terms of Use | Jaivik Overseas Consultants',
   description: 'Terms of use, data policy, and intellectual property notice for Jaivik Overseas Consultants study abroad portal.',
   robots: { index: true, follow: true },
+  alternates: { canonical: 'https://study.jaivikoverseasconsultants.com/terms' },
 };
 
 export default function TermsPage() {

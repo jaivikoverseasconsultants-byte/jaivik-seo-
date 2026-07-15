@@ -41,14 +41,13 @@ const UNI_REQS: UniReq[] = [
   { name: 'University College Dublin',   slug: 'university-college-dublin',         country: 'Ireland',   flag: '🇮🇪', qsRank: 171, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 2, gapAllowed: 2, annualINRL: 18 },
   { name: 'Trinity College Dublin',      slug: 'trinity-college-dublin',            country: 'Ireland',   flag: '🇮🇪', qsRank: 98,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 1, gapAllowed: 2, annualINRL: 20 },
   { name: 'University of Auckland',      slug: 'university-of-auckland',            country: 'New Zealand', flag: '🇳🇿', qsRank: 68, ieltsMin: 6.0, gpaMin: 5.5, backlogs: 3, gapAllowed: 3, annualINRL: 16 },
-  { name: 'Victoria Univ. Wellington',   slug: 'victoria-university-of-wellington', country: 'New Zealand', flag: '🇳🇿', qsRank: 244, ieltsMin: 6.0, gpaMin: 5.0, backlogs: 3, gapAllowed: 3, annualINRL: 14 },
-  { name: 'MIT',                         slug: 'massachusetts-institute-of-technology', country: 'USA',  flag: '🇺🇸', qsRank: 1,   ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 0, annualINRL: 55 },
-  { name: 'Georgia Tech',                slug: 'georgia-institute-of-technology',   country: 'USA',       flag: '🇺🇸', qsRank: 35,  ieltsMin: 7.0, gpaMin: 7.5, backlogs: 0, gapAllowed: 1, annualINRL: 30 },
+  { name: 'Victoria Univ. Wellington',   slug: 'victoria-university-wellington',    country: 'New Zealand', flag: '🇳🇿', qsRank: 244, ieltsMin: 6.0, gpaMin: 5.0, backlogs: 3, gapAllowed: 3, annualINRL: 14 },
+  { name: 'MIT',                         slug: 'mit-massachusetts',                 country: 'USA',  flag: '🇺🇸', qsRank: 1,   ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 0, annualINRL: 55 },
+  { name: 'Georgia Tech',                slug: 'georgia-tech',                      country: 'USA',       flag: '🇺🇸', qsRank: 35,  ieltsMin: 7.0, gpaMin: 7.5, backlogs: 0, gapAllowed: 1, annualINRL: 30 },
   { name: 'Northeastern University',     slug: 'northeastern-university',           country: 'USA',       flag: '🇺🇸', qsRank: 300, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 35 },
   { name: 'Arizona State University',    slug: 'arizona-state-university',          country: 'USA',       flag: '🇺🇸', qsRank: 201, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 3, gapAllowed: 3, annualINRL: 25 },
-  { name: 'TU Delft',                    slug: 'delft-university-of-technology',    country: 'Netherlands', flag: '🇳🇱', qsRank: 57, ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 2, annualINRL: 12 },
+  { name: 'TU Delft',                    slug: 'tu-delft',                          country: 'Netherlands', flag: '🇳🇱', qsRank: 57, ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 2, annualINRL: 12 },
   { name: 'Wageningen University',       slug: 'wageningen-university',             country: 'Netherlands', flag: '🇳🇱', qsRank: 64, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 10 },
-  { name: 'University of Dubai',         slug: 'university-of-dubai',               country: 'UAE',       flag: '🇦🇪', qsRank: 800, ieltsMin: 6.0, gpaMin: 5.5, backlogs: 3, gapAllowed: 4, annualINRL: 15 },
 ];
 
 const COUNTRIES = ['UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'USA', 'Netherlands', 'France'];

@@ -13,11 +13,16 @@ const StudentPortalClient = dynamic(() => import('@/components/StudentPortalClie
   ),
 });
 
+// noIndex: this is the legacy localStorage-PIN based portal, superseded by
+// the Firebase-based /student-login -> /dashboard/student flow (see
+// BUILD-LOG.md). Not linked in nav; kept live for existing bookmarked users
+// but shouldn't compete with the current flow for indexing/crawl budget.
 export const metadata: Metadata = buildMetadata({
   title: 'Student Portal – Track Your Applications | Jaivik Overseas',
   description: 'Login to your Jaivik Overseas student portal to track university applications, offer letters, visa status, payments, and deferrals.',
   path: '/student-portal',
   keywords: ['student portal', 'application tracker', 'study abroad tracker'],
+  noIndex: true,
 });
 
 export default function StudentPortalPage() {

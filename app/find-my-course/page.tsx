@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: 'Find My Course | 3-Tap University Matcher for Indian Students',
   description: 'Not sure which country or university is right for you? Answer 3 quick questions — destination, qualification, budget — and get a free personalised university shortlist on WhatsApp within 30 minutes.',
   keywords: ['find my course abroad', 'university matcher', 'course finder India', 'study abroad quiz', 'which university should I apply'],
+  alternates: { canonical: 'https://study.jaivikoverseasconsultants.com/find-my-course' },
 };
 
 export default function FindMyCoursePage() {

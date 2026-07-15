@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { universities } from '@/data/universities';
@@ -8,6 +9,13 @@ import JsonLd from '@/components/JsonLd';
 import HeroSearch from '@/components/HeroSearch';
 import SuccessStories from '@/components/SuccessStories';
 import { fetchUnsplashImage, COUNTRY_QUERIES, type UnsplashImage } from '@/lib/unsplash';
+
+// Root layout (app/layout.tsx) sets the site-wide title/description but no
+// canonical — add an explicit self-referencing canonical here so the
+// homepage isn't the one page on the site without one.
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://study.jaivikoverseasconsultants.com/' },
+};
 
 const countryFlags: Record<string, string> = {
   USA: '🇺🇸', UK: '🇬🇧', Canada: '🇨🇦', Australia: '🇦🇺',
