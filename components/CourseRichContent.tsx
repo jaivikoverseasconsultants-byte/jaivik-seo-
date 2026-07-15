@@ -5,7 +5,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseFaqSection from '@/components/CourseFaqSection';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
 import Link from 'next/link';
-import { getCoursesBySlug, findAlternativeCourses, getRelatedNursingCourses } from '@/data/university-course-registry';
+import { getCoursesBySlug, findAlternativeCourses, getRelatedNursingCourses, getAllRealCourses } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
 import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 import DeadlineCountdown from '@/components/DeadlineCountdown';
@@ -133,6 +133,44 @@ export default function CourseRichContent({ course, universityName, universitySl
   const fieldKeywords = getFieldKeywords(fieldLabel);
   const ieltsAlternatives = findAlternativeCourses(fieldKeywords, universitySlug, course.ieltsMin - 1, 2);
   const similarPrograms = findAlternativeCourses(fieldKeywords, universitySlug, undefined, 2);
+
+  // Decision-hub cross-links — only link to a hub if this course actually
+  // qualifies for it under that hub's own real-data thresholds (mirrors each
+  // hub page's own logic, to avoid ever linking to an unpublished page).
+  const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
+    UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
+    Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
+    Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
+    'United Arab Emirates': 'united-arab-emirates',
+  };
+  const PSW_COUNTRY_SLUGS: Record<string, string> = {
+    Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
+    Germany: 'germany', 'New Zealand': 'new-zealand',
+  };
+  const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
+    UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
+    Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
+    Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
+    Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
+  };
+  const IELTS_BAND_SLUGS: Record<number, string> = { 6: 'ielts-6-0-universities', 6.5: 'ielts-6-5-universities', 7: 'ielts-7-0-universities' };
+  const ieltsBand = course.ieltsMin > 0 && course.ieltsMin <= 7
+    ? [6, 6.5, 7].find(b => course.ieltsMin <= b)
+    : undefined;
+  const ieltsHubHref = ieltsBand ? `/${IELTS_BAND_SLUGS[ieltsBand]}` : null;
+  const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[course.country];
+  const pswHubSlug = PSW_COUNTRY_SLUGS[course.country];
+  const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[course.country];
+  const budgetBand = budgetCountrySlug && course.annualINR > 0
+    ? [10, 15, 20, 25].find(b => course.annualINR <= b * 100000 &&
+        getAllRealCourses().filter(c => c.country === course.country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= 15)
+    : undefined;
+  const decisionHubLinks = [
+    ieltsHubHref ? { href: ieltsHubHref, label: `Universities Accepting IELTS ${ieltsBand}` } : null,
+    cheapestHubSlug ? { href: `/cheapest-universities-${cheapestHubSlug}`, label: `Cheapest Universities in ${course.country}` } : null,
+    pswHubSlug ? { href: `/courses-with-psw/${pswHubSlug}`, label: `Courses in ${course.country} with Post-Study Work Rights` } : null,
+    budgetBand ? { href: `/${budgetCountrySlug}-under-${budgetBand}-lakh`, label: `Study in ${course.country} Under ₹${budgetBand} Lakh` } : null,
+  ].filter((x): x is { href: string; label: string } => x !== null);
 
   const isNursingCourse = /nursing/i.test(course.name);
   const currentSlugForNursing = (course as any).slug as string | undefined;
@@ -495,6 +533,24 @@ export default function CourseRichContent({ course, universityName, universitySl
           <Link href="/nursing-abroad" className="block text-sm text-center text-brand-700 font-semibold mt-4 hover:underline">
             View All Nursing Programs Abroad →
           </Link>
+        </div>
+      )}
+
+      {/* Decision hub cross-links — real-data filter/answer pages relevant to this course */}
+      {decisionHubLinks.length > 0 && (
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">Explore More Real Course Lists</h2>
+          <div className="flex flex-wrap gap-2">
+            {decisionHubLinks.map(link => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                {link.label} →
+              </Link>
+            ))}
+          </div>
         </div>
       )}
 

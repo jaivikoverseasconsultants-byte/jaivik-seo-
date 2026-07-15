@@ -206,6 +206,33 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Decision hubs — popular real-data searches */}
+      <section className="px-4 pt-8">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">Popular Searches</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {[
+              { href: '/ielts-6-0-universities', label: 'Universities Accepting IELTS 6.0' },
+              { href: '/ielts-6-5-universities', label: 'Universities Accepting IELTS 6.5' },
+              { href: '/cheapest-universities-uk', label: 'Cheapest Universities in UK' },
+              { href: '/cheapest-universities-australia', label: 'Cheapest Universities in Australia' },
+              { href: '/courses-with-psw/canada', label: 'Courses in Canada with 3-Year PGWP' },
+              { href: '/courses-with-psw/australia', label: 'Courses in Australia with 485 Visa' },
+              { href: '/uk-under-20-lakh', label: 'Study in UK Under ₹20 Lakh' },
+              { href: '/australia-under-20-lakh', label: 'Study in Australia Under ₹20 Lakh' },
+            ].map(link => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="bg-white border border-gray-200 rounded-xl p-4 text-sm font-semibold text-gray-800 hover:border-brand-400 hover:text-brand-700 transition-colors"
+              >
+                {link.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Featured Universities */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-7xl mx-auto">

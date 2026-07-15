@@ -395,3 +395,59 @@ export function getRelatedNursingCourses(
 
   return [...sameCountry, ...otherCountry.slice(0, Math.max(0, limit - sameCountry.length))];
 }
+
+// ─── Decision hubs (2026-07-16) — a flat list of every real course in the
+// registry, used to build filter/answer hub pages (IELTS-band, cheapest-by-
+// country, PSW-eligible, budget-band). Real data only: every field here is
+// read straight off the crawled course record, nothing computed/estimated
+// except country-string normalization (UK/United Kingdom -> UK). ──────────
+
+export interface RealCourseEntry {
+  name: string;
+  slug: string;
+  universitySlug: string;
+  country: string;
+  level: string;
+  studyLevel: string;
+  duration: string;
+  durationYears: number;
+  ieltsMin: number;
+  toeflMin: number;
+  pteMin?: number;
+  annualINR: number;
+  annualUSD: number;
+  intakeMonths: string[];
+}
+
+const COUNTRY_NORM: Record<string, string> = { UK: 'UK', 'United Kingdom': 'UK', USA: 'USA', 'United States': 'USA' };
+
+let _allRealCoursesCache: RealCourseEntry[] | null = null;
+
+export function getAllRealCourses(): RealCourseEntry[] {
+  if (_allRealCoursesCache) return _allRealCoursesCache;
+  const entries: RealCourseEntry[] = [];
+  for (const [uniSlug, courses] of Object.entries(REGISTRY)) {
+    for (const raw of courses as any[]) {
+      const name: string = raw.name ?? '';
+      if (!name || !raw.slug) continue;
+      entries.push({
+        name,
+        slug: raw.slug,
+        universitySlug: uniSlug,
+        country: COUNTRY_NORM[raw.country] || raw.country || '',
+        level: raw.level || '',
+        studyLevel: raw.studyLevel || '',
+        duration: raw.duration ?? '',
+        durationYears: Number(raw.durationYears) || 0,
+        ieltsMin: Number(raw.ieltsMin) || 0,
+        toeflMin: Number(raw.toeflMin) || 0,
+        pteMin: raw.pteMin ? Number(raw.pteMin) : undefined,
+        annualINR: Number(raw.annualINR) || 0,
+        annualUSD: Number(raw.annualUSD) || 0,
+        intakeMonths: Array.isArray(raw.intakeMonths) ? raw.intakeMonths : [],
+      });
+    }
+  }
+  _allRealCoursesCache = entries;
+  return entries;
+}

@@ -4,6 +4,7 @@ import path from 'path';
 import { universities, countries } from '@/data/universities';
 import { courses, courseCategories } from '@/data/courses';
 import { CANADA_CITY_SLUGS } from '@/data/canada-cities';
+import { getAllRealCourses } from '@/data/university-course-registry';
 
 const BASE = 'https://study.jaivikoverseasconsultants.com';
 
@@ -118,8 +119,59 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // ── Decision hub pages (filter/answer hubs over real course data) ────────────
+  // Slug maps + thresholds mirrored from each hub's own page.tsx — keep in sync
+  // if those thresholds ever change.
+  const realCourses = getAllRealCourses();
+
+  const ieltsHubPages: MetadataRoute.Sitemap = ['ielts-6-0-universities', 'ielts-6-5-universities', 'ielts-7-0-universities'].map(slug => ({
+    url: `${BASE}/${slug}`,
+    lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
+  }));
+
+  const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
+    UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
+    Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
+    Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
+    'United Arab Emirates': 'united-arab-emirates',
+  };
+  const cheapestHubPages: MetadataRoute.Sitemap = Object.values(CHEAPEST_COUNTRY_SLUGS).map(slug => ({
+    url: `${BASE}/cheapest-universities-${slug}`,
+    lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
+  }));
+
+  const PSW_COUNTRY_SLUGS: Record<string, string> = {
+    Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
+    Germany: 'germany', 'New Zealand': 'new-zealand',
+  };
+  const pswHubPages: MetadataRoute.Sitemap = Object.values(PSW_COUNTRY_SLUGS).map(slug => ({
+    url: `${BASE}/courses-with-psw/${slug}`,
+    lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
+  }));
+
+  const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
+    UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
+    Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
+    Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
+    Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
+  };
+  const BUDGET_BANDS = [10, 15, 20, 25];
+  const BUDGET_MIN_MATCHES = 15;
+  const budgetHubPages: MetadataRoute.Sitemap = [];
+  for (const [country, slug] of Object.entries(BUDGET_COUNTRY_SLUGS)) {
+    for (const band of BUDGET_BANDS) {
+      const n = realCourses.filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= band * 100000).length;
+      if (n >= BUDGET_MIN_MATCHES) {
+        budgetHubPages.push({
+          url: `${BASE}/${slug}-under-${band}-lakh`,
+          lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7,
+        });
+      }
+    }
+  }
+
   return [
-    ...staticPages,       // 7
+    ...staticPages,       // 8
     ...universityPages,   // ~135
     ...countryPages,      // ~8
     ...coursePages,       // ~20
@@ -127,5 +179,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...cityPages,         // 28
     ...courseIndexPages,  // ~447
     ...courseDetailPages, // ~5,400+ (real-data only)
+    ...ieltsHubPages,      // 3
+    ...cheapestHubPages,   // 13
+    ...pswHubPages,        // 6
+    ...budgetHubPages,     // 45
   ];
 }

@@ -5,7 +5,7 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { universities, getUniversityBySlug } from '@/data/universities';
 import { universityWebsites } from '@/data/university-websites';
-import { getCoursesBySlug } from '@/data/university-course-registry';
+import { getCoursesBySlug, getAllRealCourses } from '@/data/university-course-registry';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
@@ -41,6 +41,44 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   const u = found;
   const officialWebsite = u.website || universityWebsites[u.slug];
   const uniCourses = getCoursesBySlug(u.slug);
+
+  // Decision-hub cross-links — normalize u.country to the same country
+  // strings getAllRealCourses() uses (data/universities.ts mixes "UK"/
+  // "United Kingdom", "USA"/"United States", "UAE"/"United Arab Emirates").
+  const UNI_COUNTRY_NORM: Record<string, string> = {
+    UK: 'UK', 'United Kingdom': 'UK', USA: 'USA', 'United States': 'USA',
+    UAE: 'United Arab Emirates', 'United Arab Emirates': 'United Arab Emirates',
+  };
+  const normCountry = UNI_COUNTRY_NORM[u.country] || u.country;
+  const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
+    UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
+    Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
+    Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
+    'United Arab Emirates': 'united-arab-emirates',
+  };
+  const PSW_COUNTRY_SLUGS: Record<string, string> = {
+    Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
+    Germany: 'germany', 'New Zealand': 'new-zealand',
+  };
+  const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
+    UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
+    Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
+    Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
+    Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
+  };
+  const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[normCountry];
+  const pswHubSlug = PSW_COUNTRY_SLUGS[normCountry];
+  const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[normCountry];
+  const budgetBand = budgetCountrySlug
+    ? [10, 15, 20, 25].find(b =>
+        getAllRealCourses().filter(c => c.country === normCountry && c.annualINR > 0 && c.annualINR <= b * 100000).length >= 15)
+    : undefined;
+  const decisionHubLinks = [
+    cheapestHubSlug ? { href: `/cheapest-universities-${cheapestHubSlug}`, label: `Cheapest Universities in ${normCountry}` } : null,
+    pswHubSlug ? { href: `/courses-with-psw/${pswHubSlug}`, label: `Courses in ${normCountry} with Post-Study Work Rights` } : null,
+    budgetBand ? { href: `/${budgetCountrySlug}-under-${budgetBand}-lakh`, label: `Study in ${normCountry} Under ₹${budgetBand} Lakh` } : null,
+    { href: '/ielts-6-5-universities', label: 'Universities Accepting IELTS 6.5' },
+  ].filter((x): x is { href: string; label: string } => x !== null);
 
   const [campusImage, galleryImages] = await Promise.all([
     fetchUnsplashImage(`${u.shortName} university campus`),
@@ -591,6 +629,26 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 </div>
                 <div className="text-6xl">💼</div>
               </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Decision hub cross-links — real-data filter/answer pages for this university's country */}
+      {decisionHubLinks.length > 0 && (
+        <section className="bg-gray-50 py-8 px-4">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="section-title mb-4">Explore More Real Course Lists for {normCountry}</h2>
+            <div className="flex flex-wrap gap-2">
+              {decisionHubLinks.map(link => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-semibold bg-white border border-gray-200 text-brand-700 px-4 py-2 rounded-full hover:bg-brand-50 hover:border-brand-200 transition-colors"
+                >
+                  {link.label} →
+                </Link>
+              ))}
             </div>
           </div>
         </section>
