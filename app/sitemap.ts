@@ -47,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/book-counselling`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/compare`,          lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/ielts-mock-test`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/nursing-abroad`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
   ];
 
   // ── University overview pages ────────────────────────────────────────────────

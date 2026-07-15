@@ -319,3 +319,79 @@ export function findAlternativeCourses(
   }
   return results;
 }
+
+// ─── Nursing wedge (2026-07-14) — every real course whose name contains
+// "nursing", across every REAL registry university. Used by the nursing hub
+// page (/nursing-abroad) and by CourseRichContent's "Related Nursing
+// Programs" cross-links. Real data only — no invented courses. ──────────────
+
+export interface NursingCourseEntry {
+  name: string;
+  slug: string;
+  universitySlug: string;
+  country: string;
+  level: string;
+  duration: string;
+  ieltsMin: number;
+  toeflMin: number;
+  pteMin?: number;
+  annualINR: number;
+  annualUSD: number;
+}
+
+let _nursingCache: NursingCourseEntry[] | null = null;
+
+export function getAllNursingCourses(): NursingCourseEntry[] {
+  if (_nursingCache) return _nursingCache;
+  const entries: NursingCourseEntry[] = [];
+  for (const [uniSlug, courses] of Object.entries(REGISTRY)) {
+    for (const raw of courses as any[]) {
+      const name: string = raw.name ?? '';
+      if (!name || !/nursing/i.test(name)) continue;
+      entries.push({
+        name,
+        slug: raw.slug ?? '',
+        universitySlug: uniSlug,
+        country: raw.country ?? '',
+        level: raw.studyLevel || raw.level || '',
+        duration: raw.duration ?? '',
+        ieltsMin: Number(raw.ieltsMin) || 0,
+        toeflMin: Number(raw.toeflMin) || 0,
+        pteMin: raw.pteMin ? Number(raw.pteMin) : undefined,
+        annualINR: Number(raw.annualINR) || 0,
+        annualUSD: Number(raw.annualUSD) || 0,
+      });
+    }
+  }
+  _nursingCache = entries;
+  return entries;
+}
+
+/**
+ * Related nursing programs for a course-page cross-link block: a few from
+ * the same country first, then one-per-university from other countries for
+ * geographic diversity. Real registry data only.
+ */
+export function getRelatedNursingCourses(
+  currentUniSlug: string,
+  currentCourseSlug: string,
+  currentCountry: string,
+  limit = 6
+): NursingCourseEntry[] {
+  const all = getAllNursingCourses().filter(
+    c => !(c.universitySlug === currentUniSlug && c.slug === currentCourseSlug)
+  );
+
+  const sameCountry = all.filter(c => c.country === currentCountry).slice(0, 3);
+
+  const seenUnis = new Set(sameCountry.map(c => c.universitySlug));
+  const otherCountry: NursingCourseEntry[] = [];
+  for (const c of all) {
+    if (c.country === currentCountry) continue;
+    if (seenUnis.has(c.universitySlug)) continue;
+    seenUnis.add(c.universitySlug);
+    otherCountry.push(c);
+  }
+
+  return [...sameCountry, ...otherCountry.slice(0, Math.max(0, limit - sameCountry.length))];
+}

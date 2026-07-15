@@ -182,6 +182,22 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Nursing Abroad callout */}
+      <section className="px-4">
+        <div className="max-w-7xl mx-auto">
+          <Link
+            href="/nursing-abroad"
+            className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-gradient-to-r from-brand-700 to-brand-900 text-white rounded-2xl p-6 hover:shadow-lg transition-shadow"
+          >
+            <div>
+              <p className="font-bold text-lg">🩺 BSc Nursing Abroad — Fees in INR for Indian Students</p>
+              <p className="text-blue-200 text-sm mt-1">Real BSc &amp; MSc Nursing programmes across Australia, UK, Ireland, Canada, New Zealand &amp; USA — with IELTS requirements and fees converted to INR.</p>
+            </div>
+            <span className="btn-gold whitespace-nowrap">Explore Nursing Programs →</span>
+          </Link>
+        </div>
+      </section>
+
       {/* Featured Universities */}
       <section className="bg-white py-14 px-4">
         <div className="max-w-7xl mx-auto">

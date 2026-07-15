@@ -5,7 +5,8 @@ import JsonLd from '@/components/JsonLd';
 import CourseFaqSection from '@/components/CourseFaqSection';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
 import Link from 'next/link';
-import { getCoursesBySlug, findAlternativeCourses } from '@/data/university-course-registry';
+import { getCoursesBySlug, findAlternativeCourses, getRelatedNursingCourses } from '@/data/university-course-registry';
+import { getUniversityBySlug } from '@/data/universities';
 import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 import DeadlineCountdown from '@/components/DeadlineCountdown';
 
@@ -132,6 +133,12 @@ export default function CourseRichContent({ course, universityName, universitySl
   const fieldKeywords = getFieldKeywords(fieldLabel);
   const ieltsAlternatives = findAlternativeCourses(fieldKeywords, universitySlug, course.ieltsMin - 1, 2);
   const similarPrograms = findAlternativeCourses(fieldKeywords, universitySlug, undefined, 2);
+
+  const isNursingCourse = /nursing/i.test(course.name);
+  const currentSlugForNursing = (course as any).slug as string | undefined;
+  const relatedNursing = isNursingCourse && currentSlugForNursing
+    ? getRelatedNursingCourses(universitySlug, currentSlugForNursing, course.country, 6)
+    : [];
 
   const faqs = generateFaqs(course, universityName, universitySlug);
 
@@ -455,6 +462,39 @@ export default function CourseRichContent({ course, universityName, universitySl
           <p className="text-xs text-gray-500 mt-3">
             ★ Currently viewing. Fees are indicative. <Link href="/book-counselling" className="text-brand-700 underline">Ask Jaivik Overseas</Link> for exact current fees and personalised shortlists.
           </p>
+        </div>
+      )}
+
+      {/* Related Nursing Programs — real registry data only, same country + other countries */}
+      {relatedNursing.length > 0 && (
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Related Nursing Programs</h2>
+          <p className="text-sm text-gray-600 mb-4">
+            Other real BSc/MSc Nursing programmes for Indian students, in {course.country} and abroad:
+          </p>
+          <div className="space-y-2">
+            {relatedNursing.map(rn => {
+              const rnUni = getUniversityBySlug(rn.universitySlug);
+              return (
+                <Link
+                  key={`${rn.universitySlug}-${rn.slug}`}
+                  href={`/universities/${rn.universitySlug}/courses/${rn.slug}`}
+                  className="flex items-center justify-between gap-3 p-3 bg-gray-50 rounded-xl hover:bg-brand-50 hover:border-brand-200 border border-transparent transition-colors group"
+                >
+                  <div className="min-w-0">
+                    <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700 truncate">{rn.name}</p>
+                    <p className="text-xs text-gray-500 mt-0.5">
+                      {rnUni?.name ?? rn.universitySlug} · {rn.country} · IELTS {rn.ieltsMin || '—'}+
+                    </p>
+                  </div>
+                  <span className="text-xs font-semibold text-brand-700 flex-shrink-0">₹{(rn.annualINR / 100000).toFixed(1)}L/yr →</span>
+                </Link>
+              );
+            })}
+          </div>
+          <Link href="/nursing-abroad" className="block text-sm text-center text-brand-700 font-semibold mt-4 hover:underline">
+            View All Nursing Programs Abroad →
+          </Link>
         </div>
       )}
 
