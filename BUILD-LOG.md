@@ -7,7 +7,7 @@ what's already built, already broken, or already tried and abandoned.
 **Rule: update this file at the end of every task** — add/change rows, move things between
 "Done" and "Known broken", note new data waves, note new constraints learned the hard way.
 
-Last updated: 2026-07-16 (Decision hub internal authority pass — see §1 "Decision hub pages").
+Last updated: 2026-07-16 (ANU dead civil-engineering URL — redirected to profile page, see §3).
 
 ---
 
@@ -78,6 +78,7 @@ Source of truth: **`DATA-AUDIT.md`** (root) — regenerate from source, don't ha
 - **Known WAF-blocked universities** (curated data is the deliberate choice, not a shortcut): Cardiff, Brunel, Deakin (AU), Curtin (AU). University of Otago (NZ) and NTU Singapore were previously listed here too but are now confirmed REAL (see `crawl-patterns` memory correction, 2026-07-13) — don't trust this list over a fresh header/URL check.
 - **Possible Wave 4 in progress, uncommitted** — see §2 item 7. Do not treat as done.
 - **Rule: a false REAL is worse than a false CURATED.** Every REAL classification requires a positive, checkable signal — never default a university to REAL without one.
+- **ANU dead civil-engineering URL, resolved 2026-07-16.** GSC was still ranking `/universities/australian-national-university/courses/anu-msc-civil-engineering` (268 impressions, pos 8.6) — a page that 404s since the 2026-07-09 Wave 3 replacement. Investigation: that page was **CURATED**, not REAL — added 2026-05-30 with a bare `https://www.anu.edu.au` homepage URL and an invented fee, then dropped when Wave 3 replaced ANU's file with real API data. Re-crawled ANU's live program-search API directly on 2026-07-16 (350 programs, all three endpoints) to check whether a real civil/structural/infrastructure program exists now — it doesn't; ANU's only Master's-level engineering program is Electrical Engineering. Per the no-fabrication rule, no page was rebuilt. Instead added two permanent redirects in `next.config.mjs` (`anu-msc-civil-engineering` and `anu-beng-civil-engineering` → the ANU profile page), following the same pattern as the 2026-07-15 GSC crawl-budget redirects. Verified compiled into `.next/routes-manifest.json` with `statusCode: 308` — this is the mechanism Vercel reads to apply redirects at the edge even under `output: 'export'`, since no server-side redirect logic exists in the static `out/` output itself.
 
 ---
 

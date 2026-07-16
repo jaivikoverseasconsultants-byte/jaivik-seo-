@@ -102,6 +102,15 @@ const nextConfig = {
       { source: '/universities/university-of-northampton/courses/:path*', destination: '/universities/country/united-kingdom', permanent: true },
       { source: '/universities/laurentian-university/courses', destination: '/universities/country/canada', permanent: true },
       { source: '/universities/laurentian-university/courses/:path*', destination: '/universities/country/canada', permanent: true },
+
+      // 2026-07-16: ANU "Civil Engineering" course pages were CURATED data
+      // (added 2026-05-30, bare-homepage URL) dropped by the 2026-07-09
+      // Wave 3 real-data replacement. Re-checked ANU's live program-search
+      // API directly — it has no civil/structural/infrastructure engineering
+      // program at any level (only Electrical Engineering at Master's) — so
+      // there is no real page to rebuild. Redirect to ANU's real profile page.
+      { source: '/universities/australian-national-university/courses/anu-msc-civil-engineering', destination: '/universities/australian-national-university', permanent: true },
+      { source: '/universities/australian-national-university/courses/anu-beng-civil-engineering', destination: '/universities/australian-national-university', permanent: true },
     ];
   },
   async headers() {
