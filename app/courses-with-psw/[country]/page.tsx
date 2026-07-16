@@ -30,6 +30,8 @@ const COUNTRY_HEADLINE: Record<string, string> = {
 };
 
 const ROWS_SHOWN = 60;
+const BUDGET_BANDS = [10, 15, 20, 25];
+const BUDGET_MIN_MATCHES = 15;
 
 interface PswRow {
   course: RealCourseEntry;
@@ -91,6 +93,14 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
   const { country, rows } = data;
   const shown = rows.slice(0, ROWS_SHOWN);
   const visaName = rows[0]?.visaName ?? '';
+
+  // Sideways cross-links to related decision hubs for the same country —
+  // all 6 PSW-eligible countries also qualify for the cheapest-in-country
+  // hub, so COUNTRY_SLUGS' own values double as the cheapest-hub slug.
+  const cheapestHubSlug = COUNTRY_SLUGS[country];
+  const budgetBands = BUDGET_BANDS.filter(b =>
+    getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES
+  );
 
   const faqs = [
     {
@@ -172,6 +182,37 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
           </table>
         </div>
       </div>
+
+      {(cheapestHubSlug || budgetBands.length > 0) && (
+        <div className="mt-6 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Real Course Lists for {country}</h2>
+          <div className="flex flex-wrap gap-2">
+            {cheapestHubSlug && (
+              <Link
+                href={`/cheapest-universities-${cheapestHubSlug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                Cheapest Universities in {country} →
+              </Link>
+            )}
+            {budgetBands.map(b => (
+              <Link
+                key={b}
+                href={`/${cheapestHubSlug}-under-${b}-lakh`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                Study in {country} Under ₹{b}L →
+              </Link>
+            ))}
+            <Link
+              href="/ielts-6-5-universities"
+              className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+            >
+              Universities Accepting IELTS 6.5 →
+            </Link>
+          </div>
+        </div>
+      )}
 
       <div className="mt-10 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">Post-Study Work in {country} — Frequently Asked Questions</h2>

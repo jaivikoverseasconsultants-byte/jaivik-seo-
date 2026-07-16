@@ -9,6 +9,28 @@ const COUNTRY_FLAGS: Record<string, string> = {
   Finland: '🇫🇮', Singapore: '🇸🇬', 'United Arab Emirates': '🇦🇪', Italy: '🇮🇹',
 };
 
+// Sideways cross-links to the other decision hubs for the same country —
+// same slug maps as app/[decisionSlug]/page.tsx and
+// app/courses-with-psw/[country]/page.tsx.
+const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
+  UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
+  Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
+  Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
+  'United Arab Emirates': 'united-arab-emirates',
+};
+const PSW_COUNTRY_SLUGS: Record<string, string> = {
+  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
+  Germany: 'germany', 'New Zealand': 'new-zealand',
+};
+const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
+  UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
+  Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
+  Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
+  Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
+};
+const BUDGET_BANDS = [10, 15, 20, 25];
+const BUDGET_MIN_MATCHES = 15;
+
 const ROWS_PER_COUNTRY = 30;
 
 interface Props {
@@ -83,6 +105,14 @@ export default function IeltsBandHub({ band }: Props) {
         {countries.map(([country, courses]) => {
           const sorted = courses.slice().sort((a, b) => a.annualINR - b.annualINR);
           const shown = sorted.slice(0, ROWS_PER_COUNTRY);
+
+          const cheapestSlug = CHEAPEST_COUNTRY_SLUGS[country];
+          const pswSlug = PSW_COUNTRY_SLUGS[country];
+          const budgetSlug = BUDGET_COUNTRY_SLUGS[country];
+          const cheapestBudgetBand = budgetSlug
+            ? BUDGET_BANDS.find(b => getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES)
+            : undefined;
+
           return (
             <div key={country} id={country.toLowerCase().replace(/\s+/g, '-')} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
               <div className="flex items-center justify-between mb-4">
@@ -93,6 +123,25 @@ export default function IeltsBandHub({ band }: Props) {
                   {courses.length} real matches{courses.length > ROWS_PER_COUNTRY ? ` — cheapest ${ROWS_PER_COUNTRY} shown` : ''}
                 </span>
               </div>
+              {(cheapestSlug || pswSlug || cheapestBudgetBand) && (
+                <div className="flex flex-wrap gap-x-4 gap-y-1 mb-4">
+                  {cheapestSlug && (
+                    <Link href={`/cheapest-universities-${cheapestSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
+                      Cheapest Universities in {country} →
+                    </Link>
+                  )}
+                  {cheapestBudgetBand && (
+                    <Link href={`/${budgetSlug}-under-${cheapestBudgetBand}-lakh`} className="text-xs text-brand-700 hover:underline font-medium">
+                      Study in {country} Under ₹{cheapestBudgetBand}L →
+                    </Link>
+                  )}
+                  {pswSlug && (
+                    <Link href={`/courses-with-psw/${pswSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
+                      Courses in {country} with Post-Study Work Rights →
+                    </Link>
+                  )}
+                </div>
+              )}
               <div className="overflow-x-auto">
                 <table className="w-full text-xs">
                   <thead>

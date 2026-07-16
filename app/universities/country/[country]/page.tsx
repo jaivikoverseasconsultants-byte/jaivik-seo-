@@ -8,6 +8,30 @@ import JsonLd from '@/components/JsonLd';
 import LeadForm from '@/components/LeadForm';
 import CountryUniversitiesClient from '@/components/CountryUniversitiesClient';
 import { fetchUnsplashImage, COUNTRY_QUERIES } from '@/lib/unsplash';
+import { getAllRealCourses } from '@/data/university-course-registry';
+
+// Decision-hub cross-links — same country-slug maps as the hub pages
+// themselves (app/[decisionSlug]/page.tsx, app/courses-with-psw/[country]/
+// page.tsx), kept in sync manually. A country only gets a link here if it
+// actually has a published hub under that name.
+const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
+  UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
+  Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
+  Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
+  'United Arab Emirates': 'united-arab-emirates',
+};
+const PSW_COUNTRY_SLUGS: Record<string, string> = {
+  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
+  Germany: 'germany', 'New Zealand': 'new-zealand',
+};
+const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
+  UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
+  Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
+  Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
+  Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
+};
+const BUDGET_BANDS = [10, 15, 20, 25];
+const BUDGET_MIN_MATCHES = 15;
 
 export async function generateStaticParams() {
   return countries.map(c => ({ country: c.toLowerCase().replace(' ', '-') }));
@@ -310,6 +334,19 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
   const avgFee = Math.round(unis.reduce((s, u) => s + u.annualTuitionUSD, 0) / unis.length);
   const avgVisa = Math.round(unis.reduce((s, u) => s + u.visaApprovalRate, 0) / unis.length);
 
+  // Decision-hub cross-links for this country
+  const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[country];
+  const pswHubSlug = PSW_COUNTRY_SLUGS[country];
+  const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[country];
+  const budgetBands = budgetCountrySlug
+    ? BUDGET_BANDS.filter(b => getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES)
+    : [];
+  const decisionHubLinks = [
+    cheapestHubSlug ? { href: `/cheapest-universities-${cheapestHubSlug}`, label: `Cheapest Universities in ${country}` } : null,
+    pswHubSlug ? { href: `/courses-with-psw/${pswHubSlug}`, label: `Courses in ${country} with Post-Study Work Rights` } : null,
+    { href: '/ielts-6-5-universities', label: 'Universities Accepting IELTS 6.5' },
+  ].filter((x): x is { href: string; label: string } => x !== null);
+
   const countryImage = await fetchUnsplashImage(COUNTRY_QUERIES[country] ?? `${country} university campus`);
 
   const breadcrumbSchema = {
@@ -396,6 +433,34 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
                     <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
                     <p className="text-sm font-semibold text-gray-900">{f.value}</p>
                   </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* ── Decision hub cross-links — real course lists filtered for this country ── */}
+          {(decisionHubLinks.length > 0 || budgetBands.length > 0) && (
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="section-title">Real Course Lists for {country}</h2>
+              <p className="text-sm text-gray-500 mb-4">Filtered, real-data hubs — every course links to its own page with exact current fees.</p>
+              <div className="flex flex-wrap gap-2">
+                {decisionHubLinks.map(link => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+                  >
+                    {link.label} →
+                  </Link>
+                ))}
+                {budgetBands.map(b => (
+                  <Link
+                    key={b}
+                    href={`/${budgetCountrySlug}-under-${b}-lakh`}
+                    className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+                  >
+                    Study in {country} Under ₹{b}L →
+                  </Link>
                 ))}
               </div>
             </div>

@@ -32,6 +32,11 @@ const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
 };
 const BUDGET_SLUG_TO_COUNTRY = Object.fromEntries(Object.entries(BUDGET_COUNTRY_SLUGS).map(([c, s]) => [s, c]));
 
+const PSW_COUNTRY_SLUGS: Record<string, string> = {
+  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
+  Germany: 'germany', 'New Zealand': 'new-zealand',
+};
+
 const COUNTRY_FLAGS: Record<string, string> = {
   UK: '🇬🇧', Australia: '🇦🇺', Canada: '🇨🇦', Ireland: '🇮🇪', Netherlands: '🇳🇱',
   'New Zealand': '🇳🇿', USA: '🇺🇸', Germany: '🇩🇪', Denmark: '🇩🇰', Sweden: '🇸🇪',
@@ -129,6 +134,13 @@ function CheapestView({ country }: { country: string }) {
   const cheapestLakh = courses.length ? (courses[0].annualINR / 100000).toFixed(1) : null;
   const medianLakh = courses.length ? (courses[Math.floor(courses.length / 2)].annualINR / 100000).toFixed(1) : null;
 
+  // Sideways cross-links to related decision hubs for the same country
+  const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[country];
+  const budgetBands = budgetCountrySlug
+    ? BANDS.filter(b => getBudgetCourses(country, b).length >= MIN_MATCHES)
+    : [];
+  const pswHubSlug = PSW_COUNTRY_SLUGS[country];
+
   const faqs = [
     {
       q: `What is the cheapest university in ${country} for Indian students?`,
@@ -206,6 +218,37 @@ function CheapestView({ country }: { country: string }) {
         </div>
       </div>
 
+      {(budgetBands.length > 0 || pswHubSlug) && (
+        <div className="mt-6 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Real Course Lists for {country}</h2>
+          <div className="flex flex-wrap gap-2">
+            {budgetBands.map(b => (
+              <Link
+                key={b}
+                href={`/${budgetCountrySlug}-under-${b}-lakh`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                Study in {country} Under ₹{b}L →
+              </Link>
+            ))}
+            {pswHubSlug && (
+              <Link
+                href={`/courses-with-psw/${pswHubSlug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                Courses in {country} with Post-Study Work Rights →
+              </Link>
+            )}
+            <Link
+              href="/ielts-6-5-universities"
+              className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+            >
+              Universities Accepting IELTS 6.5 →
+            </Link>
+          </div>
+        </div>
+      )}
+
       <div className="mt-10 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">Cheapest in {country} — Frequently Asked Questions</h2>
         <div className="divide-y divide-gray-100">
@@ -238,6 +281,10 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
   const countrySlug = BUDGET_COUNTRY_SLUGS[country];
   const shown = matches.slice(0, BUDGET_ROWS_SHOWN);
   const otherBands = BANDS.filter(b => b !== band && getBudgetCourses(country, b).length >= MIN_MATCHES);
+
+  // Sideways cross-links to related decision hubs for the same country
+  const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[country];
+  const pswHubSlug = PSW_COUNTRY_SLUGS[country];
 
   const faqs = [
     {
@@ -327,6 +374,36 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
           </table>
         </div>
       </div>
+
+      {(cheapestHubSlug || pswHubSlug) && (
+        <div className="mt-6 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-lg font-bold text-gray-900 mb-3">Related Real Course Lists for {country}</h2>
+          <div className="flex flex-wrap gap-2">
+            {cheapestHubSlug && (
+              <Link
+                href={`/cheapest-universities-${cheapestHubSlug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                Cheapest Universities in {country} →
+              </Link>
+            )}
+            {pswHubSlug && (
+              <Link
+                href={`/courses-with-psw/${pswHubSlug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                Courses in {country} with Post-Study Work Rights →
+              </Link>
+            )}
+            <Link
+              href="/ielts-6-5-universities"
+              className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+            >
+              Universities Accepting IELTS 6.5 →
+            </Link>
+          </div>
+        </div>
+      )}
 
       <div className="mt-10 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">Studying in {country} Under ₹{band} Lakh — Frequently Asked Questions</h2>
