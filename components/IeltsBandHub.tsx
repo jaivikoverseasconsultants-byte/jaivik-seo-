@@ -4,6 +4,7 @@ import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import { authorPersonSchema } from '@/lib/seo';
+import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 
 const COUNTRY_FLAGS: Record<string, string> = {
   UK: '🇬🇧', Australia: '🇦🇺', Canada: '🇨🇦', Ireland: '🇮🇪', 'New Zealand': '🇳🇿',
@@ -115,6 +116,7 @@ export default function IeltsBandHub({ band }: Props) {
           const cheapestBudgetBand = budgetSlug
             ? BUDGET_BANDS.find(b => getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES)
             : undefined;
+          const subjectPillars = getPillarsWithCoverageInCountry(country);
 
           return (
             <div key={country} id={country.toLowerCase().replace(/\s+/g, '-')} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
@@ -126,7 +128,7 @@ export default function IeltsBandHub({ band }: Props) {
                   {courses.length} real matches{courses.length > ROWS_PER_COUNTRY ? ` — cheapest ${ROWS_PER_COUNTRY} shown` : ''}
                 </span>
               </div>
-              {(cheapestSlug || pswSlug || cheapestBudgetBand) && (
+              {(cheapestSlug || pswSlug || cheapestBudgetBand || subjectPillars.length > 0) && (
                 <div className="flex flex-wrap gap-x-4 gap-y-1 mb-4">
                   {cheapestSlug && (
                     <Link href={`/cheapest-universities-${cheapestSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
@@ -143,6 +145,11 @@ export default function IeltsBandHub({ band }: Props) {
                       Courses in {country} with Post-Study Work Rights →
                     </Link>
                   )}
+                  {subjectPillars.map(p => (
+                    <Link key={p.slug} href={`/${p.slug}`} className="text-xs text-brand-700 hover:underline font-medium">
+                      {p.emoji} {p.name} Abroad →
+                    </Link>
+                  ))}
                 </div>
               )}
               <div className="overflow-x-auto">

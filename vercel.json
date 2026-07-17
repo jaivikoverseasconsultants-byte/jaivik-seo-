@@ -374,6 +374,41 @@
       "source": "/universities/australian-national-university/courses/anu-beng-civil-engineering",
       "destination": "/universities/australian-national-university",
       "permanent": true
+    },
+    {
+      "source": "/courses/mba-master-of-business-administration",
+      "destination": "/mba-abroad-for-indian-students",
+      "permanent": true
+    },
+    {
+      "source": "/courses/computer-science-information-systems",
+      "destination": "/computer-science-abroad-for-indian-students",
+      "permanent": true
+    },
+    {
+      "source": "/courses/ms-computer-science",
+      "destination": "/computer-science-abroad-for-indian-students",
+      "permanent": true
+    },
+    {
+      "source": "/courses/data-science",
+      "destination": "/data-science-abroad-for-indian-students",
+      "permanent": true
+    },
+    {
+      "source": "/courses/ms-data-science",
+      "destination": "/data-science-abroad-for-indian-students",
+      "permanent": true
+    },
+    {
+      "source": "/courses/accounting-finance",
+      "destination": "/finance-accounting-abroad-for-indian-students",
+      "permanent": true
+    },
+    {
+      "source": "/courses/ms-finance",
+      "destination": "/finance-accounting-abroad-for-indian-students",
+      "permanent": true
     }
   ]
 }

@@ -8,6 +8,7 @@ import VerifiedBy from '@/components/VerifiedBy';
 import Link from 'next/link';
 import { getCoursesBySlug, findAlternativeCourses, getRelatedNursingCourses, getAllRealCourses } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
+import { getMatchingPillarsForCourseName } from '@/data/subject-pillars';
 import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 import DeadlineCountdown from '@/components/DeadlineCountdown';
 
@@ -166,11 +167,13 @@ export default function CourseRichContent({ course, universityName, universitySl
     ? [10, 15, 20, 25].find(b => course.annualINR <= b * 100000 &&
         getAllRealCourses().filter(c => c.country === course.country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= 15)
     : undefined;
+  const matchingPillars = getMatchingPillarsForCourseName(course.name);
   const decisionHubLinks = [
     ieltsHubHref ? { href: ieltsHubHref, label: `Universities Accepting IELTS ${ieltsBand}` } : null,
     cheapestHubSlug ? { href: `/cheapest-universities-${cheapestHubSlug}`, label: `Cheapest Universities in ${course.country}` } : null,
     pswHubSlug ? { href: `/courses-with-psw/${pswHubSlug}`, label: `Courses in ${course.country} with Post-Study Work Rights` } : null,
     budgetBand ? { href: `/${budgetCountrySlug}-under-${budgetBand}-lakh`, label: `Study in ${course.country} Under ₹${budgetBand} Lakh` } : null,
+    ...matchingPillars.map(p => ({ href: `/${p.slug}`, label: `${p.name} Abroad Guide` })),
   ].filter((x): x is { href: string; label: string } => x !== null);
 
   const isNursingCourse = /nursing/i.test(course.name);

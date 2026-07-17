@@ -8,6 +8,7 @@ import { pswDetails } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 
 // Only countries lib/course-faqs.ts's pswDetails() actually computes a real
 // post-study-work pathway for — never guess a country's PSW rules.
@@ -102,6 +103,7 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
   const budgetBands = BUDGET_BANDS.filter(b =>
     getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES
   );
+  const subjectPillars = getPillarsWithCoverageInCountry(country);
 
   const faqs = [
     {
@@ -204,6 +206,15 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
                 className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
               >
                 Study in {country} Under ₹{b}L →
+              </Link>
+            ))}
+            {subjectPillars.map(p => (
+              <Link
+                key={p.slug}
+                href={`/${p.slug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                {p.emoji} {p.name} Abroad →
               </Link>
             ))}
             <Link

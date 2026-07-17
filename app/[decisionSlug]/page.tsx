@@ -7,6 +7,7 @@ import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import { authorPersonSchema } from '@/lib/seo';
+import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 
 // Root-level dynamic segment handling TWO distinct decision-hub URL shapes,
 // merged into a single route. Next.js App Router's static export does not
@@ -142,6 +143,7 @@ function CheapestView({ country }: { country: string }) {
     ? BANDS.filter(b => getBudgetCourses(country, b).length >= MIN_MATCHES)
     : [];
   const pswHubSlug = PSW_COUNTRY_SLUGS[country];
+  const subjectPillars = getPillarsWithCoverageInCountry(country);
 
   const faqs = [
     {
@@ -242,6 +244,15 @@ function CheapestView({ country }: { country: string }) {
                 Courses in {country} with Post-Study Work Rights →
               </Link>
             )}
+            {subjectPillars.map(p => (
+              <Link
+                key={p.slug}
+                href={`/${p.slug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                {p.emoji} {p.name} Abroad →
+              </Link>
+            ))}
             <Link
               href="/ielts-6-5-universities"
               className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
@@ -292,6 +303,7 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
   // Sideways cross-links to related decision hubs for the same country
   const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[country];
   const pswHubSlug = PSW_COUNTRY_SLUGS[country];
+  const subjectPillars = getPillarsWithCoverageInCountry(country);
 
   const faqs = [
     {
@@ -403,6 +415,15 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
                 Courses in {country} with Post-Study Work Rights →
               </Link>
             )}
+            {subjectPillars.map(p => (
+              <Link
+                key={p.slug}
+                href={`/${p.slug}`}
+                className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+              >
+                {p.emoji} {p.name} Abroad →
+              </Link>
+            ))}
             <Link
               href="/ielts-6-5-universities"
               className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"

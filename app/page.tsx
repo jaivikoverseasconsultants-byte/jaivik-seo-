@@ -220,6 +220,10 @@ export default async function HomePage() {
               { href: '/courses-with-psw/australia', label: 'Courses in Australia with 485 Visa' },
               { href: '/uk-under-20-lakh', label: 'Study in UK Under ₹20 Lakh' },
               { href: '/australia-under-20-lakh', label: 'Study in Australia Under ₹20 Lakh' },
+              { href: '/mba-abroad-for-indian-students', label: 'MBA Abroad for Indian Students' },
+              { href: '/computer-science-abroad-for-indian-students', label: 'Computer Science Abroad' },
+              { href: '/data-science-abroad-for-indian-students', label: 'Data Science Abroad' },
+              { href: '/finance-accounting-abroad-for-indian-students', label: 'Finance & Accounting Abroad' },
             ].map(link => (
               <Link
                 key={link.href}
