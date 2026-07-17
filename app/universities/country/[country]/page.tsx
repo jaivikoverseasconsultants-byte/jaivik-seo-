@@ -9,6 +9,7 @@ import LeadForm from '@/components/LeadForm';
 import CountryUniversitiesClient from '@/components/CountryUniversitiesClient';
 import { fetchUnsplashImage, COUNTRY_QUERIES } from '@/lib/unsplash';
 import { getAllRealCourses } from '@/data/university-course-registry';
+import { getCostPillarForCountry } from '@/data/cost-pillars';
 
 // Decision-hub cross-links — same country-slug maps as the hub pages
 // themselves (app/[decisionSlug]/page.tsx, app/courses-with-psw/[country]/
@@ -341,8 +342,10 @@ export default async function CountryPage({ params }: { params: Promise<{ countr
   const budgetBands = budgetCountrySlug
     ? BUDGET_BANDS.filter(b => getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES)
     : [];
+  const costPillar = getCostPillarForCountry(country);
   const decisionHubLinks = [
     cheapestHubSlug ? { href: `/cheapest-universities-${cheapestHubSlug}`, label: `Cheapest Universities in ${country}` } : null,
+    costPillar ? { href: `/${costPillar.slug}`, label: `Cost of Studying in ${country} (Tuition + Living)` } : null,
     pswHubSlug ? { href: `/courses-with-psw/${pswHubSlug}`, label: `Courses in ${country} with Post-Study Work Rights` } : null,
     { href: '/ielts-6-5-universities', label: 'Universities Accepting IELTS 6.5' },
   ].filter((x): x is { href: string; label: string } => x !== null);

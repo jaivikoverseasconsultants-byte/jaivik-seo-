@@ -6,6 +6,7 @@ import { courses, courseCategories } from '@/data/courses';
 import { CANADA_CITY_SLUGS } from '@/data/canada-cities';
 import { getAllRealCourses } from '@/data/university-course-registry';
 import { SUBJECT_PILLARS } from '@/data/subject-pillars';
+import { COST_PILLARS } from '@/data/cost-pillars';
 
 const BASE = 'https://study.jaivikoverseasconsultants.com';
 
@@ -51,6 +52,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/ielts-mock-test`,  lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/nursing-abroad`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
     ...SUBJECT_PILLARS.map(p => ({
+      url: `${BASE}/${p.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8,
+    })),
+    ...COST_PILLARS.map(p => ({
       url: `${BASE}/${p.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8,
     })),
   ];

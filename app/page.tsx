@@ -224,6 +224,9 @@ export default async function HomePage() {
               { href: '/computer-science-abroad-for-indian-students', label: 'Computer Science Abroad' },
               { href: '/data-science-abroad-for-indian-students', label: 'Data Science Abroad' },
               { href: '/finance-accounting-abroad-for-indian-students', label: 'Finance & Accounting Abroad' },
+              { href: '/cost-of-studying-in-uk', label: 'Cost of Studying in UK' },
+              { href: '/cost-of-studying-in-australia', label: 'Cost of Studying in Australia' },
+              { href: '/cost-of-studying-in-canada', label: 'Cost of Studying in Canada' },
             ].map(link => (
               <Link
                 key={link.href}

@@ -4,6 +4,7 @@ import { SUBJECT_PILLARS, type SubjectPillarConfig } from '@/data/subject-pillar
 import {
   getCoursesForPillar, getCountryBreakdown, getCheapestOverall, COUNTRY_FLAGS,
 } from '@/lib/subject-pillars';
+import { getCostPillarForCountry } from '@/data/cost-pillars';
 import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
@@ -137,6 +138,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
       <div className="space-y-10">
         {countries.map(({ country, courses: list, minFeeLakh, maxFeeLakh, minIelts, cheapestHubSlug, pswHubSlug, budgetLink }) => {
           const shown = list.slice(0, ROWS_PER_COUNTRY);
+          const costPillar = getCostPillarForCountry(country);
           return (
             <div key={country} id={country.toLowerCase().replace(/\s+/g, '-')} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
               <div className="flex items-center justify-between mb-1">
@@ -151,7 +153,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                 ₹{minFeeLakh}L–₹{maxFeeLakh}L per year{minIelts > 0 ? ` · IELTS from ${minIelts}+` : ''}
               </p>
 
-              {(cheapestHubSlug || pswHubSlug || budgetLink) && (
+              {(cheapestHubSlug || pswHubSlug || budgetLink || costPillar) && (
                 <div className="flex flex-wrap gap-x-4 gap-y-1 mb-4">
                   {cheapestHubSlug && (
                     <Link href={`/cheapest-universities-${cheapestHubSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
@@ -166,6 +168,11 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                   {pswHubSlug && (
                     <Link href={`/courses-with-psw/${pswHubSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
                       Courses in {country} with Post-Study Work Rights →
+                    </Link>
+                  )}
+                  {costPillar && (
+                    <Link href={`/${costPillar.slug}`} className="text-xs text-brand-700 hover:underline font-medium">
+                      Cost of Studying in {country} (Tuition + Living) →
                     </Link>
                   )}
                 </div>
