@@ -1,12 +1,13 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, authorPersonSchema } from '@/lib/seo';
 import { getAllRealCourses, type RealCourseEntry } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
 import { pswDetails } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import JsonLd from '@/components/JsonLd';
+import VerifiedBy from '@/components/VerifiedBy';
 
 // Only countries lib/course-faqs.ts's pswDetails() actually computes a real
 // post-study-work pathway for — never guess a country's PSW rules.
@@ -126,6 +127,7 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
@@ -237,6 +239,10 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
         <Link href="/book-counselling" className="btn-gold inline-block">
           Get Free Guidance →
         </Link>
+      </div>
+
+      <div className="mt-6">
+        <VerifiedBy />
       </div>
     </div>
   );

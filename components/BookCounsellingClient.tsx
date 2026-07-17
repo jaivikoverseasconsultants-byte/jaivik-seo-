@@ -153,7 +153,7 @@ export default function BookCounsellingClient() {
           📅 Book a Free Counselling Session
         </span>
         <h1 className="text-2xl sm:text-3xl font-bold text-white mb-2">Talk to Our Expert Counsellor</h1>
-        <p className="text-blue-200 text-sm">Free 30-minute personalised session · No obligation · 500+ students guided</p>
+        <p className="text-blue-200 text-sm">Free 30-minute personalised session · No obligation · 1,400+ students guided</p>
       </div>
 
       <div className="max-w-xl mx-auto px-4 pb-16">
@@ -374,7 +374,7 @@ export default function BookCounsellingClient() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-5 mt-8 text-white/60 text-xs">
-          <span>✓ 500+ students counselled</span>
+          <span>✓ 1,400+ students counselled</span>
           <span>✓ Expert advisors</span>
           <span>✓ 100% free session</span>
           <span>✓ No obligation</span>

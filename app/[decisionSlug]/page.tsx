@@ -5,6 +5,8 @@ import { buildMetadata } from '@/lib/seo';
 import { getAllRealCourses, type RealCourseEntry } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
+import VerifiedBy from '@/components/VerifiedBy';
+import { authorPersonSchema } from '@/lib/seo';
 
 // Root-level dynamic segment handling TWO distinct decision-hub URL shapes,
 // merged into a single route. Next.js App Router's static export does not
@@ -161,6 +163,7 @@ function CheapestView({ country }: { country: string }) {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
@@ -273,6 +276,10 @@ function CheapestView({ country }: { country: string }) {
           Get Free Guidance →
         </Link>
       </div>
+
+      <div className="mt-6">
+        <VerifiedBy />
+      </div>
     </div>
   );
 }
@@ -304,6 +311,7 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
@@ -428,6 +436,10 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
         <Link href="/book-counselling" className="btn-gold inline-block">
           Get Free Guidance →
         </Link>
+      </div>
+
+      <div className="mt-6">
+        <VerifiedBy />
       </div>
     </div>
   );

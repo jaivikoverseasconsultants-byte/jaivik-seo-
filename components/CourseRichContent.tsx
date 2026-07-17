@@ -4,6 +4,7 @@ import CurrencyConverter from '@/components/CurrencyConverter';
 import JsonLd from '@/components/JsonLd';
 import CourseFaqSection from '@/components/CourseFaqSection';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
+import VerifiedBy from '@/components/VerifiedBy';
 import Link from 'next/link';
 import { getCoursesBySlug, findAlternativeCourses, getRelatedNursingCourses, getAllRealCourses } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
@@ -654,6 +655,8 @@ export default function CourseRichContent({ course, universityName, universitySl
 
       {/* Programmatic FAQ — computed from existing course/university data only */}
       <CourseFaqSection faqs={faqs} courseName={course.name} />
+
+      <VerifiedBy />
     </>
   );
 }

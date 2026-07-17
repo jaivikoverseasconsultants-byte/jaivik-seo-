@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { getAllRealCourses, type RealCourseEntry } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
+import VerifiedBy from '@/components/VerifiedBy';
+import { authorPersonSchema } from '@/lib/seo';
 
 const COUNTRY_FLAGS: Record<string, string> = {
   UK: '🇬🇧', Australia: '🇦🇺', Canada: '🇨🇦', Ireland: '🇮🇪', 'New Zealand': '🇳🇿',
@@ -66,6 +68,7 @@ export default function IeltsBandHub({ band }: Props) {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
   };
 
@@ -199,6 +202,10 @@ export default function IeltsBandHub({ band }: Props) {
         <Link href="/book-counselling" className="btn-gold inline-block">
           Get Free Guidance →
         </Link>
+      </div>
+
+      <div className="mt-6">
+        <VerifiedBy />
       </div>
     </div>
   );

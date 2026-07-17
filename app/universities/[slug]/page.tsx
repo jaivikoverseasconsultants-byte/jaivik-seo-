@@ -8,7 +8,8 @@ import { universityWebsites } from '@/data/university-websites';
 import { getCoursesBySlug, getAllRealCourses } from '@/data/university-course-registry';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
-import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
+import VerifiedBy from '@/components/VerifiedBy';
+import { buildMetadata, formatINR, formatUSD, authorPersonSchema } from '@/lib/seo';
 import { fetchUnsplashImage, fetchUnsplashImages } from '@/lib/unsplash';
 import { generateUniversityAbout, generateWhyIndianStudents, generateApplicationProcess, generateNotableAlumni } from '@/lib/content-gen';
 
@@ -114,6 +115,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: [
       {
         '@type': 'Question',
@@ -653,6 +655,12 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           </div>
         </section>
       )}
+
+      <section className="bg-gray-50 py-6 px-4">
+        <div className="max-w-7xl mx-auto">
+          <VerifiedBy />
+        </div>
+      </section>
     </>
   );
 }

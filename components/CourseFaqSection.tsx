@@ -1,5 +1,6 @@
 import JsonLd from '@/components/JsonLd';
 import type { Faq } from '@/lib/course-faqs';
+import { authorPersonSchema } from '@/lib/seo';
 
 interface Props {
   faqs: Faq[];
@@ -12,6 +13,7 @@ export default function CourseFaqSection({ faqs, courseName }: Props) {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: faqs.map(f => ({
       '@type': 'Question',
       name: f.question,

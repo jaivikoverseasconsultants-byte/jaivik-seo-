@@ -103,7 +103,7 @@ export default async function CourseDetailPage(
           <CourseRichContent course={c as any} universityName="Northeastern University" universitySlug="northeastern-university" />
           <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
             <h2 className="text-lg font-bold mb-2">Apply for {c.name} at Northeastern University</h2>
-            <p className="text-blue-200 text-sm mb-4">Our experts guide you from application to visa. 500+ students placed.</p>
+            <p className="text-blue-200 text-sm mb-4">Our experts guide you from application to visa. 1,400+ students placed.</p>
             <Link href="/book-counselling" className="btn-gold inline-block">Book Free Counselling →</Link>
           </div>
         </div>

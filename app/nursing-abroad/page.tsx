@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, authorPersonSchema } from '@/lib/seo';
 import { getAllNursingCourses, classifyLevel, type NursingCourseEntry } from '@/data/university-course-registry';
 import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
+import VerifiedBy from '@/components/VerifiedBy';
 
 // Real, sourced facts used in the FAQ below — not per-university estimates:
 // - NMC (UK) registration: IELTS Academic 7.0 in Listening/Reading/Speaking,
@@ -110,6 +111,7 @@ export default function NursingAbroadPage() {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    author: authorPersonSchema,
     mainEntity: faqs.map(f => ({
       '@type': 'Question',
       name: f.q,
@@ -234,6 +236,10 @@ export default function NursingAbroadPage() {
         <Link href="/book-counselling" className="btn-gold inline-block">
           Get Free Guidance →
         </Link>
+      </div>
+
+      <div className="mt-6">
+        <VerifiedBy />
       </div>
     </div>
   );

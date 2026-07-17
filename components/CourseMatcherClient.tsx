@@ -502,7 +502,7 @@ export default function CourseMatcherClient() {
                 <div className="max-w-lg mx-auto text-center">
                   <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center text-3xl mx-auto mb-3">👨‍💼</div>
                   <h3 className="text-xl font-bold mb-1">Want Gaurav Katyal to personally review your matches?</h3>
-                  <p className="text-blue-200 text-sm mb-5">13 years experience · 500+ students placed · Completely free</p>
+                  <p className="text-blue-200 text-sm mb-5">13+ years experience · 1,400+ students placed · Completely free</p>
                   <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
                     className="inline-block bg-gold-500 hover:bg-gold-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
                     💬 Book Free Counselling with Gaurav Katyal

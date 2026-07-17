@@ -371,7 +371,7 @@ ${unis.slice(1).map(u => uniCard(u)).join('')}
 <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:24px;background:#fefce8;border-radius:12px;border:1px solid #fde68a;">
 <tr><td style="padding:20px 24px;">
 <p style="color:#92400e;font-weight:700;font-size:14px;margin:0 0 6px;">Why schedule a call with me?</p>
-<p style="color:#78350f;font-size:13px;line-height:1.7;margin:0;">I'll review your full academic profile, suggest which universities to target first, help you write a strong SOP, and guide you on the visa process &mdash; all for free. I've helped 1,200+ Indian students get abroad in the last 13 years.</p>
+<p style="color:#78350f;font-size:13px;line-height:1.7;margin:0;">I'll review your full academic profile, suggest which universities to target first, help you write a strong SOP, and guide you on the visa process &mdash; all for free. I've helped 1,400+ Indian students get abroad in the last 13+ years.</p>
 </td></tr>
 </table>
 </td></tr>

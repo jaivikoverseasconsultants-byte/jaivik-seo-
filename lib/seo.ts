@@ -72,3 +72,17 @@ export function formatUSD(amount: number): string {
 }
 
 export const SITE_URL_EXPORT = SITE_URL;
+
+// E-E-A-T author identity — factual only (name, role, org, url). Never add
+// percentage/count claims here; those belong in the visible <VerifiedBy>
+// component, not in structured data.
+export const authorPersonSchema = {
+  '@type': 'Person',
+  name: 'Gaurav Katyal',
+  jobTitle: 'Founder',
+  worksFor: {
+    '@type': 'Organization',
+    name: 'Jaivik Overseas Consultants',
+  },
+  url: 'https://jaivikoverseasconsultants.com/study-abroad-mentor/',
+};
