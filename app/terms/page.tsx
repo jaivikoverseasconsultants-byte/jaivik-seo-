@@ -168,6 +168,7 @@ export default function TermsPage() {
 
       <div className="mt-12 pt-8 border-t border-gray-200 flex gap-4 text-sm">
         <Link href="/" className="text-brand-700 hover:underline">← Home</Link>
+        <Link href="/privacy-policy" className="text-brand-700 hover:underline">Privacy Policy</Link>
         <Link href="/book-counselling" className="text-brand-700 hover:underline">Book Free Counselling</Link>
       </div>
     </div>

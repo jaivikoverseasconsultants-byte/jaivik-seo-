@@ -277,9 +277,14 @@ export default function StudentLoginClient() {
   }
 
   // ── Tab definitions ────────────────────────────────────────────────────────
+  // OTP tab hidden from the UI (2026-07-17) — Firebase phone-auth SMS delivery
+  // requires the Blaze plan, which isn't provisioned (see BUILD-LOG.md §2 item 3),
+  // so this tab only ever produced an error. The underlying OTP state/handlers
+  // (sendOtp/verifyOtp, otpPhase, etc.) are untouched — re-add
+  // `{ key: 'otp', label: '📱 OTP' }` here once Blaze is enabled and SMS delivery
+  // is confirmed working.
   const TABS: { key: Tab; label: string }[] = [
     { key: 'password', label: '🔑 Login' },
-    { key: 'otp',      label: '📱 OTP'   },
     { key: 'register', label: '✨ Register' },
   ];
 

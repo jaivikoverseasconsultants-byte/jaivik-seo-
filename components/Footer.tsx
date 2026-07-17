@@ -103,6 +103,7 @@ export default function Footer() {
           <div className="flex items-center gap-4">
             <p>Registered Study Abroad Consultancy | Ghaziabad, Uttar Pradesh, India</p>
             <Link href="/terms" className="hover:text-white underline">Terms of Use</Link>
+            <Link href="/privacy-policy" className="hover:text-white underline">Privacy Policy</Link>
           </div>
         </div>
       </div>
