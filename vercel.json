@@ -409,6 +409,401 @@
       "source": "/courses/ms-finance",
       "destination": "/finance-accounting-abroad-for-indian-students",
       "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-were-here-to-help-you",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-need-to-know-more",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-english-proficiency",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-we-are-here-to-help-you",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-how-we-rank",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-course-enquiry",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-commonwealth-teaching-scholarship",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-renewables-power-demand-australian-engineers",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-nursing-midwifery",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-psychology",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-health",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-business",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-law-legal-studies",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-computing-information-technology-network-engineering",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-education",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-creative-performing-arts",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-community-social-work",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-engineering",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-science-environment",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-exercise-sport-science",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-public-health",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-humanitarian-emergency-disaster-management",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-indigenous-knowledges",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-accounting",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-trades",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-languages",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-hair-beauty",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-primary-industries",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-tourism",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-pathway-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-humanities-social-sciences",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-why-choose-cdu",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-study-pathways",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-essentials",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-flexible-study-options",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-nursing-sydney",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-accounting-bookkeeping",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-community-services",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-creative-arts-design",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-summer-semester",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-health-nursing",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-information-technology",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-automotive",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-building-construction",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-business-retail-services",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-conservation-land-management",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-culinary-arts-hospitality",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-engineering-mining",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-technology-utilities",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-plumbing",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-transport-logistics",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-sport-fitness",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-metal-trades",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-aquaculture-maritime",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-agriculture-rural-operations",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe-horticulture",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-study-international-cdu",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-study-online-with-cdu",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-adf-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-allied-health-sciences",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-short-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-tafe",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-communications-and-design",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-change-careers-2-years",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-rpl",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-undergraduate-certificates",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-engineering-online",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-fee-free-tafe",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-first-nations-pathways-university-programs",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-hdr",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-alice-springs-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-katherine-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-sydney-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-micro-credentials",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-education-community-precinct-courses",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-save-on-postgraduate-study",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/charles-darwin-university/courses/cdu-medicine",
+      "destination": "/universities/charles-darwin-university",
+      "permanent": true
     }
   ]
 }
