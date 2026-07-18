@@ -83,12 +83,12 @@ export default function CourseFinderClient({ universities }: Props) {
         // IELTS: show unis the student qualifies for
         if (ieltsObj.max < 99 && u.requirements.ieltsMin > ieltsObj.max) return false;
 
-        // CGPA: show unis where min GPA ≤ student's CGPA
-        if (cgpaObj.min > 0) {
-          const studentGpa = cgpaObj.min;
-          const uniGpa = u.requirements.gpaMin ?? 0;
-          if (uniGpa > studentGpa + 0.5) return false;
-        }
+        // Note: we deliberately do NOT filter universities by CGPA here — the
+        // filter used to compare against `requirements.gpaMin`, which is a
+        // fabricated formula-generated value, not real per-university data
+        // (see BUILD-LOG.md §2 items 11-13). The CGPA the student enters is
+        // still captured below and passed to the counsellor in the lead
+        // message; it's just not used to silently exclude universities.
 
         // Course keyword match
         if (filters.course) {

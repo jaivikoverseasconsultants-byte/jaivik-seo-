@@ -3,94 +3,36 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-interface UniReq {
-  name: string;
-  slug: string;
-  country: string;
-  flag: string;
-  qsRank: number;
-  ieltsMin: number;
-  gpaMin: number;
-  backlogs: number;
-  gapAllowed: number;
-  annualINRL: number; // in lakh
-}
+// NOTE (2026-07-18, BUILD-LOG.md §2 items 11-13): this page used to score
+// students against a hand-typed `UNI_REQS` array (ieltsMin/gpaMin/backlogs/
+// annualINRL per university) with a "Strong/Possible/Stretch" tiering
+// algorithm. None of those per-university numbers were real — they were
+// fabricated placeholder data, not sourced from any university's actual
+// admissions page. That entire matching engine has been removed. This page
+// now honestly collects the same profile information (still useful context
+// for a counsellor) but does not pretend to auto-score it against invented
+// thresholds — see the "Results" step below.
 
-const UNI_REQS: UniReq[] = [
-  { name: 'University of Manchester',     slug: 'university-of-manchester',         country: 'UK',        flag: '🇬🇧', qsRank: 34,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 25 },
-  { name: 'University of Edinburgh',      slug: 'university-of-edinburgh',          country: 'UK',        flag: '🇬🇧', qsRank: 27,  ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 2, annualINRL: 28 },
-  { name: 'University of Warwick',        slug: 'university-of-warwick',            country: 'UK',        flag: '🇬🇧', qsRank: 69,  ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 2, annualINRL: 30 },
-  { name: 'University of Sheffield',      slug: 'university-of-sheffield',          country: 'UK',        flag: '🇬🇧', qsRank: 113, ieltsMin: 6.0, gpaMin: 6.0, backlogs: 3, gapAllowed: 3, annualINRL: 22 },
-  { name: 'University of Birmingham',     slug: 'university-of-birmingham',         country: 'UK',        flag: '🇬🇧', qsRank: 90,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 24 },
-  { name: 'University of Glasgow',        slug: 'university-of-glasgow',            country: 'UK',        flag: '🇬🇧', qsRank: 78,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 22 },
-  { name: 'University of Bath',           slug: 'university-of-bath',               country: 'UK',        flag: '🇬🇧', qsRank: 178, ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 1, annualINRL: 24 },
-  { name: 'Northumbria University',       slug: 'northumbria-university',           country: 'UK',        flag: '🇬🇧', qsRank: 801, ieltsMin: 6.0, gpaMin: 5.5, backlogs: 5, gapAllowed: 5, annualINRL: 16 },
-  { name: 'Coventry University',          slug: 'coventry-university',              country: 'UK',        flag: '🇬🇧', qsRank: 701, ieltsMin: 5.5, gpaMin: 5.0, backlogs: 8, gapAllowed: 5, annualINRL: 14 },
-  { name: 'University of British Columbia', slug: 'university-of-british-columbia', country: 'Canada',    flag: '🇨🇦', qsRank: 38,  ieltsMin: 6.5, gpaMin: 7.5, backlogs: 0, gapAllowed: 1, annualINRL: 28 },
-  { name: 'University of Toronto',        slug: 'university-of-toronto',            country: 'Canada',    flag: '🇨🇦', qsRank: 25,  ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 1, annualINRL: 32 },
-  { name: 'McMaster University',          slug: 'mcmaster-university',              country: 'Canada',    flag: '🇨🇦', qsRank: 189, ieltsMin: 6.5, gpaMin: 7.0, backlogs: 2, gapAllowed: 2, annualINRL: 20 },
-  { name: 'York University',              slug: 'york-university',                  country: 'Canada',    flag: '🇨🇦', qsRank: 461, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 3, gapAllowed: 3, annualINRL: 17 },
-  { name: 'Monash University',            slug: 'monash-university',                country: 'Australia', flag: '🇦🇺', qsRank: 37,  ieltsMin: 6.5, gpaMin: 7.0, backlogs: 2, gapAllowed: 2, annualINRL: 28 },
-  { name: 'University of Queensland',     slug: 'university-of-queensland',         country: 'Australia', flag: '🇦🇺', qsRank: 40,  ieltsMin: 6.5, gpaMin: 7.0, backlogs: 2, gapAllowed: 2, annualINRL: 27 },
-  { name: 'RMIT University',              slug: 'rmit-university',                  country: 'Australia', flag: '🇦🇺', qsRank: 140, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 3, gapAllowed: 3, annualINRL: 22 },
-  { name: 'La Trobe University',          slug: 'la-trobe-university',              country: 'Australia', flag: '🇦🇺', qsRank: 351, ieltsMin: 6.0, gpaMin: 6.0, backlogs: 5, gapAllowed: 4, annualINRL: 19 },
-  { name: 'TU Munich',                    slug: 'technical-university-of-munich',   country: 'Germany',   flag: '🇩🇪', qsRank: 37,  ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 1, annualINRL: 1  },
-  { name: 'RWTH Aachen University',       slug: 'rwth-aachen-university',           country: 'Germany',   flag: '🇩🇪', qsRank: 106, ieltsMin: 6.5, gpaMin: 7.5, backlogs: 1, gapAllowed: 2, annualINRL: 1  },
-  { name: 'NUS Singapore',               slug: 'national-university-of-singapore', country: 'Singapore', flag: '🇸🇬', qsRank: 8,   ieltsMin: 6.5, gpaMin: 7.0, backlogs: 0, gapAllowed: 0, annualINRL: 35 },
-  { name: 'Nanyang Technological Univ.', slug: 'nanyang-technological-university',  country: 'Singapore', flag: '🇸🇬', qsRank: 15,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 1, gapAllowed: 1, annualINRL: 30 },
-  { name: 'University College Dublin',   slug: 'university-college-dublin',         country: 'Ireland',   flag: '🇮🇪', qsRank: 171, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 2, gapAllowed: 2, annualINRL: 18 },
-  { name: 'Trinity College Dublin',      slug: 'trinity-college-dublin',            country: 'Ireland',   flag: '🇮🇪', qsRank: 98,  ieltsMin: 6.5, gpaMin: 6.5, backlogs: 1, gapAllowed: 2, annualINRL: 20 },
-  { name: 'University of Auckland',      slug: 'university-of-auckland',            country: 'New Zealand', flag: '🇳🇿', qsRank: 68, ieltsMin: 6.0, gpaMin: 5.5, backlogs: 3, gapAllowed: 3, annualINRL: 16 },
-  { name: 'Victoria Univ. Wellington',   slug: 'victoria-university-wellington',    country: 'New Zealand', flag: '🇳🇿', qsRank: 244, ieltsMin: 6.0, gpaMin: 5.0, backlogs: 3, gapAllowed: 3, annualINRL: 14 },
-  { name: 'MIT',                         slug: 'mit-massachusetts',                 country: 'USA',  flag: '🇺🇸', qsRank: 1,   ieltsMin: 7.0, gpaMin: 8.0, backlogs: 0, gapAllowed: 0, annualINRL: 55 },
-  { name: 'Georgia Tech',                slug: 'georgia-tech',                      country: 'USA',       flag: '🇺🇸', qsRank: 35,  ieltsMin: 7.0, gpaMin: 7.5, backlogs: 0, gapAllowed: 1, annualINRL: 30 },
-  { name: 'Northeastern University',     slug: 'northeastern-university',           country: 'USA',       flag: '🇺🇸', qsRank: 300, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 35 },
-  { name: 'Arizona State University',    slug: 'arizona-state-university',          country: 'USA',       flag: '🇺🇸', qsRank: 201, ieltsMin: 6.5, gpaMin: 6.0, backlogs: 3, gapAllowed: 3, annualINRL: 25 },
-  { name: 'TU Delft',                    slug: 'tu-delft',                          country: 'Netherlands', flag: '🇳🇱', qsRank: 57, ieltsMin: 6.5, gpaMin: 7.0, backlogs: 1, gapAllowed: 2, annualINRL: 12 },
-  { name: 'Wageningen University',       slug: 'wageningen-university',             country: 'Netherlands', flag: '🇳🇱', qsRank: 64, ieltsMin: 6.5, gpaMin: 6.5, backlogs: 2, gapAllowed: 2, annualINRL: 10 },
-];
+// Real, static slugs — /universities/country/<hub> exists for all of these
+// (app/universities/country/[country]/page.tsx's normalizeCountry() map);
+// cheapestHub is only set where /cheapest-universities-<slug> actually
+// exists (data/fear-cluster-guides.ts's CHEAPEST_COUNTRY_SLUGS) — France has
+// no cheapest-in-country hub, so it's intentionally omitted there.
+const COUNTRY_SLUGS: Record<string, { hub: string; cheapestHub?: string }> = {
+  UK: { hub: 'uk', cheapestHub: 'uk' },
+  Canada: { hub: 'canada', cheapestHub: 'canada' },
+  Australia: { hub: 'australia', cheapestHub: 'australia' },
+  Germany: { hub: 'germany', cheapestHub: 'germany' },
+  Ireland: { hub: 'ireland', cheapestHub: 'ireland' },
+  Singapore: { hub: 'singapore', cheapestHub: 'singapore' },
+  'New Zealand': { hub: 'new-zealand', cheapestHub: 'new-zealand' },
+  USA: { hub: 'usa', cheapestHub: 'usa' },
+  Netherlands: { hub: 'netherlands', cheapestHub: 'netherlands' },
+  France: { hub: 'france' },
+};
 
-const COUNTRIES = ['UK', 'Canada', 'Australia', 'Germany', 'Ireland', 'Singapore', 'New Zealand', 'USA', 'Netherlands', 'France'];
+const COUNTRIES = Object.keys(COUNTRY_SLUGS);
 const BUDGETS = ['Under ₹15L/yr', '₹15–25L/yr', '₹25–35L/yr', '₹35L+/yr'];
-
-function getBudgetMax(b: string): number {
-  if (b === 'Under ₹15L/yr') return 15;
-  if (b === '₹15–25L/yr') return 25;
-  if (b === '₹25–35L/yr') return 35;
-  return 999;
-}
-function getBudgetMin(b: string): number {
-  if (b === 'Under ₹15L/yr') return 0;
-  if (b === '₹15–25L/yr') return 15;
-  if (b === '₹25–35L/yr') return 25;
-  return 35;
-}
-
-function percentToGPA(pct: number): number {
-  if (pct >= 85) return 8.5;
-  if (pct >= 75) return 7.5;
-  if (pct >= 65) return 6.5;
-  if (pct >= 55) return 5.5;
-  return 4.5;
-}
-
-function scoreMatch(u: UniReq, ielts: number, gpa: number, backlogs: number, gap: number, countries: string[], budgetMax: number, budgetMin: number) {
-  if (countries.length > 0 && !countries.includes(u.country)) return null;
-  if (u.annualINRL < budgetMin || u.annualINRL > budgetMax) return null;
-
-  const ieltsGap = ielts - u.ieltsMin;
-  const gpaGap = gpa - u.gpaMin;
-  const backlogOk = backlogs <= u.backlogs;
-  const gapOk = gap <= u.gapAllowed;
-
-  if (!backlogOk && backlogs > u.backlogs + 3) return null;
-  if (!gapOk && gap > u.gapAllowed + 2) return null;
-
-  if (ieltsGap >= 0.5 && gpaGap >= 0.5 && backlogOk && gapOk) return 'strong';
-  if (ieltsGap >= -0.5 && gpaGap >= -0.5 && (backlogOk || backlogs <= u.backlogs + 1)) return 'possible';
-  if (ieltsGap >= -1 && gpaGap >= -1) return 'stretch';
-  return null;
-}
 
 export default function EligibilityCheckerPage() {
   const [step, setStep] = useState(1);
@@ -106,22 +48,12 @@ export default function EligibilityCheckerPage() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
 
-  const backlogNum = backlogs === '5+' ? 6 : parseInt(backlogs) || 0;
-  const gapNum = gap === 'None' ? 0 : gap === '3+ years' ? 3 : parseInt(gap) || 0;
   const ieltsNum = parseFloat(ielts) || 0;
-  const pctNum = parseFloat(pct) || 0;
-  const gpaNum = percentToGPA(pctNum);
-  const budgetMaxN = budget ? getBudgetMax(budget) : 999;
-  const budgetMinN = budget ? getBudgetMin(budget) : 0;
+  const hasBacklogs = backlogs !== '0';
+  const hasGap = gap !== 'None';
+  const lowOrNoIelts = ielts === '' || ieltsNum < 6.5;
 
-  const matches = UNI_REQS.map(u => ({
-    ...u,
-    tier: scoreMatch(u, ieltsNum, gpaNum, backlogNum, gapNum, countries, budgetMaxN, budgetMinN),
-  })).filter(u => u.tier !== null) as (UniReq & { tier: 'strong' | 'possible' | 'stretch' })[];
-
-  const strong = matches.filter(m => m.tier === 'strong').sort((a, b) => a.qsRank - b.qsRank);
-  const possible = matches.filter(m => m.tier === 'possible').sort((a, b) => a.qsRank - b.qsRank);
-  const stretch = matches.filter(m => m.tier === 'stretch').sort((a, b) => a.qsRank - b.qsRank);
+  const selectedCountries = countries.length > 0 ? countries : COUNTRIES;
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -144,22 +76,18 @@ export default function EligibilityCheckerPage() {
           <span className="text-white">Eligibility Checker</span>
         </div>
         <div className="inline-flex items-center gap-2 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
-          ✅ Free · Instant Results · No Sign-up Required
+          ✅ Free · No Sign-up Required
         </div>
         <h1 className="text-3xl md:text-4xl font-bold mb-3">University Eligibility Checker 2026</h1>
         <p className="text-blue-200 max-w-xl mx-auto">
-          Check your eligibility for 30+ universities across UK, Canada, Australia, USA &amp; more. Get your personalised shortlist in 60 seconds.
+          Tell us your profile — we&apos;ll point you to real universities and honest next steps, not a made-up
+          pass/fail score.
         </p>
-        <div className="flex flex-wrap justify-center gap-5 mt-5 text-sm text-blue-300">
-          <span>✓ Instant Results</span>
-          <span>✓ 30+ Universities</span>
-          <span>✓ Strong / Possible / Stretch tiers</span>
-        </div>
       </div>
     </section>
     <div className="max-w-4xl mx-auto px-4 py-10">
       <div className="text-center mb-10">
-        <p className="text-gray-500">Answer 7 questions — get your personalised university shortlist in seconds</p>
+        <p className="text-gray-500">Answer a few questions — get real resources and a path to a counsellor who checks current, exact requirements.</p>
       </div>
 
       {step === 1 && (
@@ -234,7 +162,7 @@ export default function EligibilityCheckerPage() {
             disabled={!qual || !pct}
             className="w-full py-3.5 bg-brand-700 hover:bg-brand-800 disabled:opacity-40 text-white font-bold rounded-xl transition-colors"
           >
-            Check My Eligibility →
+            See My Results →
           </button>
         </div>
       )}
@@ -243,99 +171,80 @@ export default function EligibilityCheckerPage() {
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <button onClick={() => setStep(1)} className="text-sm text-brand-700 hover:underline">← Edit Profile</button>
-            <p className="text-sm text-gray-500">Results for: {qual}, {pct}%, IELTS {ielts || 'not given'}</p>
+            <p className="text-sm text-gray-500">Profile: {qual}, {pct}%, IELTS {ielts || 'not given'}</p>
           </div>
 
-          {strong.length === 0 && possible.length === 0 && stretch.length === 0 && (
-            <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 text-center">
-              <p className="text-amber-800 font-semibold mb-2">No automatic matches found</p>
-              <p className="text-sm text-amber-700">Your profile may need adjustment or our counsellors can find manual options. Book a free session.</p>
-              <Link href="/book-counselling" className="inline-block mt-3 btn-primary text-sm">Book Free Counselling →</Link>
-            </div>
-          )}
+          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+            <h2 className="text-base font-bold text-amber-900 mb-2">Why We Don&apos;t Show a Pass/Fail Score</h2>
+            <p className="text-sm text-amber-800 leading-relaxed">
+              We don&apos;t run your profile against a made-up list of per-university GPA, backlog, or IELTS
+              cutoffs — those numbers change by course and intake, and aren&apos;t something we can verify
+              centrally the way we verify real tuition fees on this site. Instead, here are real universities to
+              explore for your target countries, honest guides for the specific things you told us about, and a
+              direct path to a counsellor who checks current, exact requirements before you apply anywhere.
+            </p>
+          </div>
 
-          {strong.length > 0 && (
-            <div>
-              <div className="flex items-center gap-2 mb-3">
-                <div className="w-3 h-3 bg-green-500 rounded-full" />
-                <h2 className="font-bold text-gray-900">Tier 1 — Strong Match</h2>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">{strong.length} universities</span>
-              </div>
-              <p className="text-xs text-gray-500 mb-3">Your profile clearly meets entry requirements for these universities.</p>
-              <div className="space-y-2">
-                {strong.slice(0, 5).map(u => (
-                  <Link key={u.slug} href={`/universities/${u.slug}`}
-                    className="flex items-center justify-between p-4 bg-green-50 border border-green-200 rounded-xl hover:bg-green-100 transition-colors">
-                    <div className="flex items-center gap-3">
-                      <span className="text-lg">{u.flag}</span>
-                      <div>
-                        <p className="font-semibold text-sm text-gray-900">{u.name}</p>
-                        <p className="text-xs text-gray-500">QS #{u.qsRank} · {u.country} · IELTS {u.ieltsMin}+ · ₹{u.annualINRL}L/yr</p>
-                      </div>
-                    </div>
-                    <span className="text-green-700 text-sm font-bold">→</span>
+          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+            <h2 className="text-lg font-bold text-gray-900 mb-3">Explore Real Universities in Your Selected Countries</h2>
+            <div className="flex flex-wrap gap-2">
+              {selectedCountries.map(c => (
+                <Link
+                  key={c}
+                  href={`/universities/country/${COUNTRY_SLUGS[c].hub}`}
+                  className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+                >
+                  Study in {c} →
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {selectedCountries.some(c => COUNTRY_SLUGS[c].cheapestHub) && (
+            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+              <h2 className="text-lg font-bold text-gray-900 mb-3">Real, Cheapest-Fee Options</h2>
+              <div className="flex flex-wrap gap-2">
+                {selectedCountries.filter(c => COUNTRY_SLUGS[c].cheapestHub).map(c => (
+                  <Link
+                    key={c}
+                    href={`/cheapest-universities-${COUNTRY_SLUGS[c].cheapestHub}`}
+                    className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors"
+                  >
+                    Cheapest Universities in {c} →
                   </Link>
                 ))}
               </div>
             </div>
           )}
 
-          {possible.length > 0 && (
-            <div>
-              <div className="flex items-center gap-2 mb-3">
-                <div className="w-3 h-3 bg-yellow-400 rounded-full" />
-                <h2 className="font-bold text-gray-900">Tier 2 — Possible Match</h2>
-                <span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full">{possible.length} universities</span>
-              </div>
-              <p className="text-xs text-gray-500 mb-3">You may qualify with a conditional offer or by improving IELTS slightly.</p>
-              <div className="space-y-2">
-                {possible.slice(0, 5).map(u => (
-                  <Link key={u.slug} href={`/universities/${u.slug}`}
-                    className="flex items-center justify-between p-4 bg-yellow-50 border border-yellow-200 rounded-xl hover:bg-yellow-100 transition-colors">
-                    <div className="flex items-center gap-3">
-                      <span className="text-lg">{u.flag}</span>
-                      <div>
-                        <p className="font-semibold text-sm text-gray-900">{u.name}</p>
-                        <p className="text-xs text-gray-500">QS #{u.qsRank} · {u.country} · IELTS {u.ieltsMin}+ · ₹{u.annualINRL}L/yr</p>
-                      </div>
-                    </div>
-                    <span className="text-yellow-700 text-sm font-bold">→</span>
-                  </Link>
-                ))}
-              </div>
+          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+            <h2 className="text-lg font-bold text-gray-900 mb-3">Guides Based on What You Told Us</h2>
+            <div className="flex flex-wrap gap-2">
+              {hasBacklogs && (
+                <Link href="/universities-accepting-backlogs" className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors">
+                  🎓 Universities Accepting Backlogs →
+                </Link>
+              )}
+              <Link href="/low-cgpa-universities-abroad" className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors">
+                📉 Low CGPA? Universities You Can Apply To →
+              </Link>
+              {hasGap && (
+                <Link href="/study-gap-accepted-universities" className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors">
+                  📅 Study Abroad With a Study Gap →
+                </Link>
+              )}
+              {lowOrNoIelts && (
+                <Link href="/study-abroad-without-ielts" className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-2 rounded-full hover:bg-brand-100 transition-colors">
+                  🗣️ Study Abroad Without IELTS →
+                </Link>
+              )}
             </div>
-          )}
-
-          {stretch.length > 0 && (
-            <div>
-              <div className="flex items-center gap-2 mb-3">
-                <div className="w-3 h-3 bg-orange-400 rounded-full" />
-                <h2 className="font-bold text-gray-900">Tier 3 — Stretch Goals</h2>
-                <span className="text-xs bg-orange-100 text-orange-700 px-2 py-0.5 rounded-full">{stretch.length} universities</span>
-              </div>
-              <p className="text-xs text-gray-500 mb-3">Slightly above your current profile — achievable with a strong SOP and counsellor support.</p>
-              <div className="space-y-2">
-                {stretch.slice(0, 5).map(u => (
-                  <Link key={u.slug} href={`/universities/${u.slug}`}
-                    className="flex items-center justify-between p-4 bg-orange-50 border border-orange-200 rounded-xl hover:bg-orange-100 transition-colors">
-                    <div className="flex items-center gap-3">
-                      <span className="text-lg">{u.flag}</span>
-                      <div>
-                        <p className="font-semibold text-sm text-gray-900">{u.name}</p>
-                        <p className="text-xs text-gray-500">QS #{u.qsRank} · {u.country} · IELTS {u.ieltsMin}+ · ₹{u.annualINRL}L/yr</p>
-                      </div>
-                    </div>
-                    <span className="text-orange-700 text-sm font-bold">→</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
+          </div>
 
           {/* Lead capture */}
           <div className="bg-brand-700 rounded-2xl p-6 text-white">
-            <h3 className="text-lg font-bold mb-1">Want Gaurav Katyal to personally verify your eligibility?</h3>
-            <p className="text-blue-200 text-sm mb-5">Our director personally reviews shortlists for students who submit their details below.</p>
+            <h3 className="text-lg font-bold mb-1">Want a Counsellor to Review Your Profile?</h3>
+            <p className="text-blue-200 text-sm mb-5">Our team reviews your profile honestly and checks current, exact requirements with real universities before you apply anywhere.</p>
             {submitted ? (
               <div className="bg-green-500/20 border border-green-500/30 rounded-xl p-4 text-center">
                 <p className="font-semibold text-green-300">✅ Received! We&apos;ll contact you within 2 hours.</p>
@@ -352,7 +261,7 @@ export default function EligibilityCheckerPage() {
                 </div>
                 <button type="submit"
                   className="w-full py-3 bg-gold-500 hover:bg-gold-600 text-white font-bold rounded-xl transition-colors">
-                  Get Personal Eligibility Verification →
+                  Get My Free Profile Review →
                 </button>
               </form>
             )}

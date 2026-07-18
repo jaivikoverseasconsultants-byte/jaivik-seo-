@@ -63,7 +63,7 @@ ${campusDesc} The campus is equipped with research libraries, modern computer la
 
 Graduates of ${u.shortName} can expect an estimated (not officially published) employment rate of around ${u.employmentRate}% within six months of graduation, with an indicative starting salary in the region of $${(u.avgSalaryUSD / 1000).toFixed(0)}K (approximately ₹${(u.avgSalaryUSD * 84 / 100000).toFixed(0)}L per annum) — confirm current outcomes with the university. Top employers recruiting from ${u.shortName} include ${u.topEmployers.slice(0, 4).join(', ')}, reflecting the institution's strong industry connections.
 
-${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an estimated overall acceptance rate around ${u.acceptanceRate}% (not officially published). Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin} and a GPA of ${u.requirements.gpaMin}/10 for postgraduate admission.`;
+${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an estimated overall acceptance rate around ${u.acceptanceRate}% (not officially published). Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin} for postgraduate admission — confirm current minimum grade requirements directly with the university.`;
 }
 
 /**
@@ -104,7 +104,7 @@ export function generateApplicationProcess(u: University): {
       {
         step: 1,
         title: 'Check Eligibility',
-        detail: `Minimum GPA ${u.requirements.gpaMin}/10, IELTS ${u.requirements.ieltsMin}+${u.requirements.greMin ? `, GRE ${u.requirements.greMin}+` : ''}${u.requirements.gmatMin ? `, GMAT ${u.requirements.gmatMin}+` : ''}. Maximum ${u.requirements.backlogs === 0 ? 'zero backlogs' : `${u.requirements.backlogs} backlogs`} allowed.`,
+        detail: `IELTS ${u.requirements.ieltsMin}+${u.requirements.greMin ? `, GRE ${u.requirements.greMin}+` : ''}${u.requirements.gmatMin ? `, GMAT ${u.requirements.gmatMin}+` : ''}. Minimum grade/backlog requirements vary by course and intake — confirm current policy with the university or your counsellor.`,
       },
       {
         step: 2,

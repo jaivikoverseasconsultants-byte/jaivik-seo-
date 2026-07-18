@@ -1,5 +1,14 @@
 import type { Course } from '@/types';
 
+// ── CURATED ESTIMATE FILE — `eligibility.backlogs`/`minGPA` DO NOT DISPLAY ──
+// This whole file is CURATED (hand-typed estimates for a generic "MS Computer
+// Science"/"MBA"/etc. course-type landing page — see the subject-pillars work
+// in BUILD-LOG.md), not real per-course data. `eligibility.backlogs` and
+// `eligibility.minGPA` specifically were stripped from every display
+// (app/courses/[slug]/page.tsx's "Eligibility Requirements" grid) on
+// 2026-07-18 for the same reason as data/universities.ts's requirements.
+// backlogs/gpaMin — see BUILD-LOG.md §2 items 11-13. Left in the data,
+// not deleted, but do not read/display them anywhere.
 export const courses: Course[] = [
   // ── ENGINEERING & TECHNOLOGY ──────────────────────────────────────────────
   {

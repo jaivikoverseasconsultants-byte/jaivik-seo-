@@ -23,6 +23,15 @@ export const metadata: Metadata = {
   },
 };
 
+// Rewritten 2026-07-18 (BUILD-LOG.md §2 item 13) — the previous version of
+// this schema made specific, unsourced claims: named per-university fee
+// figures that happened to be accurate (verified against the real course
+// registry, kept in the visible copy below where correct), but also named
+// banks/loan amounts/rates, named scholarships with specific amounts that
+// didn't even match this site's own (separately unverified) scholarship
+// data, and named-university English-test-acceptance claims with no backing
+// data anywhere in the codebase. Replaced with honest, general answers —
+// specifics belong on pages backed by real per-university data, not here.
 const faqSchema = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -32,15 +41,15 @@ const faqSchema = {
       name: 'Which countries allow study abroad without IELTS for Indian students?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Germany, France, and the Netherlands have English-taught programs that accept proof of English-medium schooling instead of IELTS. In Canada and the UK, Duolingo English Test (110+) and Cambridge C1 Advanced are accepted by many universities. Students from CBSE/ICSE English-medium schools can claim an IELTS waiver at select UK institutions. However, top-ranked universities like Manchester, UCL, Edinburgh, and Toronto require IELTS 6.5 minimum — pre-sessional English programs (10–20 weeks) bridge the gap if your current score is 5.5–6.0.',
+        text: 'Some universities accept an MOI (Medium of Instruction) letter in place of IELTS for students whose entire prior education was in English, and many accept alternative English tests (PTE Academic, TOEFL iBT, Duolingo) instead. Exactly which universities and courses accept this varies and changes over time — we don\'t maintain a verified per-university list of this on our own data, so confirm current policy directly with your shortlisted universities or with a counsellor. See our dedicated guide on studying abroad without IELTS for real, lower-IELTS-threshold course options we do track.',
       },
     },
     {
       '@type': 'Question',
-      name: 'What is the cheapest country to study abroad from India under 20 lakhs per year?',
+      name: 'What is the cheapest way to study abroad from India under 20 lakhs per year?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Canada is currently the most affordable option for quality education under 20 lakhs. University of Waterloo master\'s programs start from ₹10.5L/year, McMaster from ₹13.6L/year, and University of Toronto from ₹16.1L/year. In the UK, University of Glasgow master\'s programs start from ₹13.9L/year. Germany offers tuition-free public university education (only ~€150/semester admin fee) but programs are often in German. These figures are tuition only — add ₹5–8L/year for living costs in Canada and ₹8–10L/year in UK cities.',
+        text: 'Tuition fees for a given course and university are the real, verifiable part of this — browse our real course data by country and by budget to see current tuition in INR sorted cheapest first. Living costs vary significantly by city, not just by country, so total budget depends on where you\'ll actually live. See our cost-of-studying guides for real tuition-plus-living combined ranges in the countries we cover.',
       },
     },
     {
@@ -48,7 +57,7 @@ const faqSchema = {
       name: 'Can I get an education loan without collateral for studying abroad in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. SBI Global Ed-Vantage, HDFC Credila, Axis Bank, and ICICI Bank offer collateral-free loans up to ₹40–75 lakhs for top universities in Canada, UK, USA, and Australia. Prodigy Finance offers up to 100% funding without collateral for select master\'s programs at ranked universities. The key eligibility factors are: admission to a recognized university, program in STEM/Business/Healthcare, and a co-applicant (parent/guardian). Canadian universities like Waterloo, McMaster, and Toronto are among the highest-approved by Indian NBFCs for collateral-free loans.',
+        text: 'Collateral-free education loans are offered by several Indian banks and NBFCs, generally up to a threshold amount, with larger loans typically requiring collateral. Exact amounts, interest rates, and eligibility criteria change frequently and vary by lender — we don\'t maintain this data ourselves, so confirm current terms directly with the bank/NBFC or ask your counsellor, who can point you to current options for your specific university and course.',
       },
     },
     {
@@ -56,7 +65,7 @@ const faqSchema = {
       name: 'Are there scholarships for middle class Indian students to study abroad?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes, several scholarships specifically support middle-class students (family income ₹5–25L/year): GREAT Scholarships (UK, ₹8–10L one-time for UK universities), Commonwealth Scholarships (full funding for developing countries), Glasgow University Postgraduate Merit Scholarship (£3,000–5,000), Edinburgh Global Scholarship, McMaster entrance scholarships ($5,000–15,000 CAD), and Ontario Graduate Scholarship (Canada). Most require a GPA of 3.5/4.0 equivalent (roughly 75%+ in bachelor\'s) and a strong SOP. Applying early (6+ months before intake) significantly improves scholarship success.',
+        text: 'Many universities offer merit-based and need-based scholarships to international students, and each university\'s own profile page on this site lists the specific scholarships and amounts we have on record for it. Government and third-party scholarship schemes also exist but change year to year — confirm current eligibility and amounts directly with the scholarship provider or with a counsellor before relying on any figure.',
       },
     },
     {
@@ -64,15 +73,15 @@ const faqSchema = {
       name: 'Can I study abroad with 50% in 12th grade?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'For master\'s programs (MSc/MA/MBA): Yes, absolutely. Your 12th marks are rarely checked for master\'s admissions — what matters is your bachelor\'s degree percentage (typically 55–60% minimum), IELTS score, and SOP. Thousands of Indian students with 50% in 12th but 65%+ in bachelor\'s have successfully studied at top universities. For bachelor\'s programs (UG): Most UK and Canadian universities require 60–70% in 10+2. Pathway/foundation programs (1 year, ₹8–12L) accept 50–55% and guarantee university entry on completion. German public universities have different criteria based on Anabin database equivalency.',
+        text: 'Often yes for master\'s programmes — admissions generally weigh your bachelor\'s degree result far more heavily than your 12th-grade marks, alongside your IELTS score and SOP. For bachelor\'s (undergraduate) admission, 12th-grade marks matter more directly, though pathway/foundation-year programmes exist as a real route for students below a university\'s direct-entry bar. Exact minimum requirements vary by university and course — confirm current policy with your shortlisted universities or a counsellor rather than assuming from a general rule.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Which universities accept IELTS 6.0 or lower for Indian students in 2026?',
+      name: 'Which universities accept a lower IELTS score for Indian students?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most ranked universities (including all 9 in our database) require IELTS 6.5 overall with no band below 6.0. However, IELTS 6.0 candidates have three realistic routes: (1) Pre-sessional English programs — Glasgow, Edinburgh, Manchester, and Toronto all offer 10–20 week language programs that accept IELTS 5.5–6.0, granting conditional admission to the main degree; (2) Alternative tests — Duolingo English Test 110+ (≈ IELTS 6.5) is accepted by McMaster, Waterloo, and many others, giving more flexibility than IELTS; (3) Improvement retake — moving from 6.0 to 6.5 typically requires 4–8 weeks of targeted preparation, particularly in Writing and Reading.',
+        text: 'See our real, data-backed lists of universities with a published course-entry IELTS requirement of 6.0 or 6.5 — every course listed links to its own page with the exact current requirement. Pre-sessional English programmes and alternative tests (PTE, TOEFL, Duolingo) are also real options at many universities, but which specific university/course accepts which isn\'t something we track centrally — confirm with the university or a counsellor.',
       },
     },
   ],
@@ -168,29 +177,30 @@ export default function ScholarshipsAndLowBudgetGuide() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
             <p>
-              The honest answer is: most top-ranked universities <em>do</em> require IELTS. But several countries — and many good universities within them — have legitimate IELTS-free pathways for Indian students.
+              The honest answer is: most universities <em>do</em> require an English proficiency test or proof of English-medium education. A full IELTS waiver is a real option at some universities, but it&apos;s course- and university-specific and changes over time — we don&apos;t maintain a verified list of exactly which universities offer it, so treat the general routes below as things to ask about, not guarantees.
             </p>
             <p>
-              <strong>Germany:</strong> Public universities are largely tuition-free. For English-taught master's programs (about 40% of programs at TU Munich, RWTH Aachen, etc.), many do not require IELTS if you can demonstrate English proficiency through your bachelor's degree medium of instruction — a certificate from your university on official letterhead usually suffices. The catch: competition is high and German bureaucracy (visa, blocked account) takes 3–4 months.
+              <strong>MOI (Medium of Instruction) waiver:</strong> Students whose entire prior education was taught in English (CBSE/ICSE/state-board English medium through to an English-medium degree) can sometimes get IELTS waived with a letter from their school/college/university confirming this. Whether a specific course accepts it needs to be confirmed directly with that university.
             </p>
             <p>
-              <strong>France &amp; Netherlands:</strong> Grandes écoles and institutions like Sciences Po accept proof of English-medium education for international programs. The Netherlands (Maastricht, Groningen) similarly accepts Cambridge C1 Advanced or institutional English tests for several programs.
+              <strong>Alternative English tests:</strong> Many universities accept the Duolingo English Test, PTE Academic, or TOEFL iBT instead of IELTS — each with its own required score, set by that university and course. This is a genuine, real option, but which specific course accepts which test needs confirming on that course&apos;s own current requirements page (or with us) rather than assuming.
             </p>
             <p>
-              <strong>Canada &amp; UK (alternative tests):</strong> Universities including McMaster, Waterloo, Toronto, and Glasgow now accept the <strong>Duolingo English Test (DET 110+)</strong> — taken online in 45 minutes at home — in place of IELTS. This is a genuine IELTS alternative, not a workaround. The PTE Academic (58+) is another option widely accepted across UK and Canadian institutions.
+              <strong>Pre-sessional English programmes:</strong> If your IELTS is 5.5–6.0, many universities run their own pre-sessional English course (typically 10–20 weeks) that leads into the main degree without a fresh IELTS attempt, ending in an internal test instead.
             </p>
             <p>
-              <strong>IELTS waiver (English-medium schools):</strong> Students who studied 10+2 in English medium (CBSE, ICSE, state boards with English as medium) can apply for an IELTS waiver at select UK universities. This is not guaranteed — each university has its own policy — but it is worth requesting during application.
-            </p>
-            <p>
-              <strong>Pre-sessional route:</strong> If your IELTS is 5.5–6.0, all three UK universities below offer pre-sessional English programs (10–20 weeks, ₹1.5–3L). Completing a pre-sessional grants conditional direct entry to the main master's degree without needing to retake IELTS again.
+              <strong>A lower IELTS threshold:</strong> Rather than avoiding IELTS entirely, one option is a course with a lower published requirement — see the real course examples below (real fee and course data; confirm the current exact IELTS requirement on the course&apos;s own page, since published requirements can change).
             </p>
             <div className="space-y-2 mt-4">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Real course options (accept DET / pre-sessional entry):</p>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Real course examples (current fee &amp; IELTS requirement):</p>
               <CourseCard name="Management [MRes]" uniName="University of Glasgow" uniSlug="university-of-glasgow" slug="glasgow-management-mres" inrLakh="13.9" ielts={6.5} duration="1 year" />
               <CourseCard name="AI and Analytics" uniName="McMaster University" uniSlug="mcmaster-university" slug="mcmaster-ai-and-analytics" inrLakh="13.6" ielts={6.5} duration="1 year" />
               <CourseCard name="Computer Science — Master of Math (MMath)" uniName="University of Waterloo" uniSlug="university-of-waterloo" slug="waterloo-computer-science-master-of-math-mmath" inrLakh="12.4" ielts={6.5} duration="1–2 years" />
             </div>
+            <p className="text-xs text-gray-500 mt-3">
+              For a fuller honest guide on this exact topic — including the distinction between &ldquo;lower IELTS score&rdquo; and &ldquo;no IELTS at all&rdquo; — see{' '}
+              <Link href="/study-abroad-without-ielts" className="text-brand-700 underline">Study Abroad Without IELTS</Link>.
+            </p>
           </div>
           <SectionCTA />
         </section>
@@ -214,7 +224,7 @@ export default function ScholarshipsAndLowBudgetGuide() {
               <strong>McMaster University, Canada:</strong> Hamilton (McMaster's city) is far cheaper to live in than Toronto. Tuition is approximately <strong>₹13.6L/year</strong> with living costs around ₹6–7L/year — making a 1-year master's achievable in ₹20–22L total. McMaster's strong industry connections also mean better part-time work opportunities during study.
             </p>
             <p>
-              <strong>Germany (no university in our database yet):</strong> Worth mentioning honestly — public German universities charge near-zero tuition (€0–300/semester). Living costs in cities like Leipzig or Magdeburg are ₹5–6L/year. Total cost of a 2-year master's: ₹10–14L. The downsides: most programs in German, required blocked account of ~€11,000, and longer visa timelines.
+              <strong>Germany:</strong> Public German universities charge little to no tuition (typically a small per-semester admin fee), which is a genuinely low-cost route worth considering — but most programmes are taught in German, and the visa process requires a blocked account and takes longer than for English-speaking destinations. We don&apos;t yet have real per-city living-cost data for Germany on this site, so budget conservatively and confirm current costs directly.
             </p>
             <div className="space-y-2 mt-4">
               <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Real courses under ₹15L/year in tuition:</p>
@@ -222,6 +232,12 @@ export default function ScholarshipsAndLowBudgetGuide() {
               <CourseCard name="Data Science — Master of Math (MMath)" uniName="University of Waterloo" uniSlug="university-of-waterloo" slug="waterloo-data-science-master-of-math-mmath" inrLakh="12.4" ielts={6.5} duration="1–2 years" />
               <CourseCard name="Biomedical Sciences [MRes]" uniName="University of Glasgow" uniSlug="university-of-glasgow" slug="glasgow-biomedical-sciences-mres" inrLakh="13.9" ielts={6.5} duration="1 year" />
             </div>
+            <p className="text-xs text-gray-500 mt-3">
+              For real tuition-plus-living combined budgets by country, see our{' '}
+              <Link href="/cost-of-studying-in-uk" className="text-brand-700 underline">UK</Link>,{' '}
+              <Link href="/cost-of-studying-in-canada" className="text-brand-700 underline">Canada</Link>, and{' '}
+              <Link href="/cost-of-studying-in-australia" className="text-brand-700 underline">Australia</Link> cost guides.
+            </p>
           </div>
           <SectionCTA />
         </section>
@@ -233,29 +249,20 @@ export default function ScholarshipsAndLowBudgetGuide() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
             <p>
-              Collateral-free education loans for studying abroad are available from both public banks and NBFCs in India — but with eligibility conditions that most students don't read carefully. Here's what's actually true.
+              Collateral-free education loans for studying abroad are available from both public banks and NBFCs in India — but exact amounts, interest rates, and eligibility conditions vary by lender and change over time. We don&apos;t maintain loan-product data ourselves, so treat the general shape below as a starting point for questions to ask, not fixed figures to plan around.
             </p>
             <p>
-              <strong>How much without collateral?</strong> Most banks (SBI, HDFC Credila, Axis, ICICI) offer <strong>₹7.5L–₹40L without collateral</strong> for ranked universities. Beyond ₹40L, most lenders require property or fixed deposit as security. Prodigy Finance and MPower Financing are international lenders that offer collateral-free loans up to 100% of program cost for select STEM and Business programs — repayment starts after graduation.
+              <strong>Collateral-free amounts generally exist up to a threshold.</strong> Indian banks and NBFCs commonly offer collateral-free loans up to a certain amount for admissions at recognised, ranked universities, with larger amounts typically requiring property or fixed-deposit security. Some international lenders offer collateral-free funding based on future earning potential rather than existing assets, for select STEM/business programmes. Confirm current thresholds directly with the lender.
             </p>
             <p>
-              <strong>Which countries qualify?</strong> India's banking system recognises study loans most easily for <strong>Canada, UK, USA, and Australia</strong>. Canada is the most straightforward — IRCC's recognition of institutions means lenders have clear collateral-free frameworks for programs at universities like Toronto, Waterloo, and McMaster.
+              <strong>Typical eligibility checklist:</strong> (1) Admission letter from a recognised institution, (2) academic transcripts, (3) an estimated fee structure from the university, (4) a co-applicant with stable income (usually a parent/guardian), (5) no existing major credit default. IELTS/TOEFL scores are generally relevant to university admission, not the loan itself.
             </p>
             <p>
-              <strong>SBI Global Ed-Vantage scheme:</strong> Loans up to ₹1.5 crore for abroad studies (collateral required above ₹40L) at interest rates of ~10.5–11.5% p.a. Repayment starts 12 months after course completion. For Canada-bound students, the SBI scheme is frequently used for Waterloo and McMaster programs.
+              <strong>Apply early.</strong> Loan processing takes time, and university fee-payment deadlines are often strict — applying for your loan as soon as you have an admission letter, rather than waiting, avoids a common cause of last-minute problems. Confirm current processing timelines with your chosen lender.
             </p>
             <p>
-              <strong>Key eligibility checklist:</strong> (1) Admission letter from a recognised institution, (2) 10th/12th marksheets, (3) Bachelor's degree certificate, (4) Estimated fee structure from university, (5) Co-applicant with stable income (parent/guardian), (6) No existing major default on CIBIL. IELTS/TOEFL is not required for the loan — only for university admission.
+              A counsellor can point you to lenders and current terms relevant to your specific university and course — this is exactly the kind of detail that changes too often for us to publish reliably here.
             </p>
-            <p>
-              <strong>What banks don't tell you:</strong> Processing takes 3–6 weeks. Apply immediately after receiving your admission letter — <em>do not wait</em>. Fee payment deadlines at Canadian universities are strict (CAS/LOA deadlines), and late loan disbursement is one of the top reasons Indian students lose their admission.
-            </p>
-            <div className="space-y-2 mt-4">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Top loan-eligible Canadian programs in our database:</p>
-              <CourseCard name="Applied AI and Data-Driven Decision-Making" uniName="McMaster University" uniSlug="mcmaster-university" slug="mcmaster-applied-ai-and-datadriven-decisionmaking" inrLakh="13.6" ielts={6.5} duration="1 year" />
-              <CourseCard name="Data Science — Master of Math (MMath)" uniName="University of Waterloo" uniSlug="university-of-waterloo" slug="waterloo-data-science-master-of-math-mmath" inrLakh="12.4" ielts={6.5} duration="1–2 years" />
-              <CourseCard name="Public Health Sciences" uniName="University of Toronto" uniSlug="university-of-toronto" slug="uoft-public-health-sciences" inrLakh="16.1" ielts={6.5} duration="1–2 years" />
-            </div>
           </div>
           <SectionCTA />
         </section>
@@ -267,29 +274,20 @@ export default function ScholarshipsAndLowBudgetGuide() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
             <p>
-              "Middle class" for scholarship purposes typically means household income between ₹5–25L/year. Most full-ride scholarships (Chevening, Rhodes) are designed for exceptional academic profiles. The <em>realistic</em> scholarships for solid-but-not-exceptional students are partial awards of ₹3–12L.
+              &ldquo;Middle class&rdquo; students generally aren&apos;t the target of the largest, most competitive full-ride scholarships (which tend to prioritise exceptional academic or leadership profiles) — but partial, merit-based scholarships from individual universities are a real and realistic option for a solid academic record.
             </p>
             <p>
-              <strong>UK — GREAT Scholarships:</strong> The British Council's GREAT Scholarship gives <strong>£10,000 (≈₹10L)</strong> to Indian students at participating UK universities including Glasgow, Edinburgh, and Manchester. Available for 1-year master's programs. Requirements: strong academic record (typically 70%+ bachelor's), a compelling personal statement, and applying by January for September intake. Applications open around October.
+              <strong>University-specific scholarships are the most reliable starting point.</strong> Every university profile page on this site lists the specific scholarships (name, amount, eligibility) we have on record for that institution — check your shortlisted universities&apos; own pages rather than relying on a general list here, since scholarship names, amounts, and eligibility criteria change by intake and we don&apos;t want to publish a figure that&apos;s gone stale.
             </p>
             <p>
-              <strong>UK — University merit scholarships:</strong> Glasgow University Postgraduate Merit Scholarship offers £3,000–5,000 automatically to strong applicants (no separate application needed if your IELTS and academic scores qualify). Edinburgh Global Scholarship gives £5,000 to select students from developing countries.
+              <strong>Government and third-party scholarships also exist</strong> (e.g. bilateral scholarship schemes between India and the destination country, or awards from professional bodies), but eligibility and funding levels vary year to year — search for current schemes specific to your target country, or ask a counsellor who tracks current options.
             </p>
             <p>
-              <strong>Canada — Entrance and in-course awards:</strong> McMaster awards entrance scholarships of <strong>$5,000–15,000 CAD (₹3–9L)</strong> to international graduate students based on academic merit. Ontario Graduate Scholarship (OGS) is a provincial award available to enrolled students in Ontario universities (Toronto, McMaster, Waterloo) — value: $10,000 CAD, requires 3.7/4.0 GPA or equivalent 75%+ in bachelor's.
+              <strong>What&apos;s generally realistic:</strong> Partial scholarships covering a portion of tuition are achievable for a solid (not necessarily top) academic record combined with a well-written SOP — full scholarships to highly-ranked universities are genuinely rare and usually require an exceptional profile. A practical approach is to apply for scholarships alongside your main application and plan to fund the remainder through savings or an education loan.
             </p>
             <p>
-              <strong>What middle-class students should realistically expect:</strong> Partial scholarships covering 20–40% of total costs are achievable with a 70%+ bachelor's and a well-written SOP. Full scholarships to ranked universities are rare without exceptional research backgrounds or publications. A practical approach: apply to 2–3 partial scholarships alongside your main application, and plan financing for the remainder via education loan.
+              <strong>Apply early.</strong> Many scholarship pools are allocated in the order applications are received, so applying well before the intake deadline (rather than close to it) generally improves your chances.
             </p>
-            <p>
-              <strong>Tip — apply to scholarship-rich programs early:</strong> Scholarship allocations fill in order of application. Submitting 6+ months before the intake dramatically increases your chances versus applying 3 months before.
-            </p>
-            <div className="space-y-2 mt-4">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Scholarship-eligible programs at our partner universities:</p>
-              <CourseCard name="Design Informatics MA" uniName="University of Edinburgh" uniSlug="university-of-edinburgh" slug="edinburgh-design-informatics-ma-eca" inrLakh="17.1" ielts={6.5} duration="1 year" />
-              <CourseCard name="Economics [MRes]" uniName="University of Glasgow" uniSlug="university-of-glasgow" slug="glasgow-economics-mres" inrLakh="13.9" ielts={6.5} duration="1 year" />
-              <CourseCard name="Community and Public Health" uniName="McMaster University" uniSlug="mcmaster-university" slug="mcmaster-community-and-public-health" inrLakh="13.6" ielts={6.5} duration="1 year" />
-            </div>
           </div>
           <SectionCTA />
         </section>
@@ -304,10 +302,10 @@ export default function ScholarshipsAndLowBudgetGuide() {
               This is one of the most anxious questions Indian students ask — and the honest answer is: <strong>for master's programs, your 12th marks almost certainly don't matter</strong>.
             </p>
             <p>
-              <strong>For master's degree programs (MSc, MA, MBA, MRes):</strong> Admissions offices at UK and Canadian universities look at your <em>bachelor's degree percentage</em>, not your 12th grade marks. If you have 60–65%+ in your bachelor's, a strong IELTS score (6.5+), and a clear SOP explaining your career goals, your 12th percentage is not part of the evaluation. This is not a loophole — it is standard admission policy. We have seen students with 50% in 12th routinely admitted to programs at Glasgow, Edinburgh, McMaster, and Toronto.
+              <strong>For master's degree programs (MSc, MA, MBA, MRes):</strong> Admissions offices generally look at your <em>bachelor's degree percentage</em>, not your 12th grade marks. If you have a solid bachelor's result, a strong IELTS score, and a clear SOP explaining your career goals, your 12th percentage is typically not part of the evaluation. This is standard admission policy at most universities, not a loophole — but exact minimum bachelor's percentage requirements vary by university and course, so confirm current policy for your specific shortlist.
             </p>
             <p>
-              <strong>For bachelor's degree programs (UG, BEng, BSc):</strong> This is where 12th marks matter. Most UK and Canadian universities require 60–70% in 10+2 for direct bachelor's entry. If you have 50–55%, <em>pathway/foundation programs</em> are the route — these are 1-year preparatory programs (at INTO, Kaplan, or university-run foundations) that accept lower 12th percentages and guarantee university entry on successful completion. Budget ₹8–15L for the foundation year in addition to the main degree.
+              <strong>For bachelor's degree programs (UG, BEng, BSc):</strong> This is where 12th marks matter more directly, and many universities set a minimum 10+2 percentage for direct entry. If your percentage is below that bar, <em>pathway/foundation programmes</em> are a real route — typically a 1-year preparatory programme, run by the university itself or an affiliated provider, that accepts a lower 12th percentage and leads into the main degree on successful completion. Confirm current entry percentages and foundation-year costs directly with your shortlisted universities, since both vary significantly.
             </p>
             <p>
               <strong>For competitive programs (Medicine, Law, Architecture):</strong> These are exceptions. Medical programs abroad (MBBS) and Oxbridge admissions do sometimes factor in 12th performance as part of a holistic profile. This guide is primarily relevant for postgraduate study.
@@ -319,7 +317,7 @@ export default function ScholarshipsAndLowBudgetGuide() {
               <strong>The bigger picture:</strong> Don't let a lower 12th percentage stop you from applying. What universities want to see is a consistent upward trajectory — if your bachelor's improved over your 12th, that actually tells a good story in your SOP.
             </p>
             <div className="space-y-2 mt-4">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Accessible master's programs (bachelor's degree is what counts):</p>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Real master's programme examples (current fee &amp; IELTS requirement):</p>
               <CourseCard name="Public Health — Master of Public Health (MPH) Online" uniName="University of Waterloo" uniSlug="university-of-waterloo" slug="waterloo-public-health-master-of-public-health-mph-online" inrLakh="11.8" ielts={6.5} duration="1–2 years" />
               <CourseCard name="Management [MRes]" uniName="University of Glasgow" uniSlug="university-of-glasgow" slug="glasgow-management-mres" inrLakh="13.9" ielts={6.5} duration="1 year" />
               <CourseCard name="Anthropology" uniName="McMaster University" uniSlug="mcmaster-university" slug="mcmaster-anthropology" inrLakh="13.6" ielts={6.5} duration="2 years" />
@@ -335,26 +333,31 @@ export default function ScholarshipsAndLowBudgetGuide() {
           </h2>
           <div className="space-y-4 text-gray-700 text-sm leading-relaxed">
             <p>
-              Let's be direct: the 9 universities in our real-data database (Glasgow, Edinburgh, Manchester, UCL, Warwick, Toronto, McMaster, UBC, Waterloo) all require <strong>IELTS 6.5 minimum</strong>. Anyone telling you these universities take 5.5 is either wrong or referring to a specific pre-sessional pathway — not direct admission.
+              Many highly-ranked universities publish a course-entry IELTS requirement of 6.5 or higher. If your score is currently 5.5–6.0, there are real routes forward — but be wary of anyone claiming a specific top-ranked university accepts 5.5 for direct entry without checking; it&apos;s usually a conditional pathway, not direct admission.
             </p>
             <p>
-              <strong>What IELTS 5.5–6.0 actually gets you:</strong> Pre-sessional English programs. Every major UK university in our database has a language centre that offers 10–20 week intensive English courses. Here's the logic: you get a conditional offer for the master's degree, enrol in the pre-sessional at a score of 5.5–6.0, pass the pre-sessional exit test (which is equivalent to IELTS 6.5), and then proceed directly to the main program without another IELTS sitting. Glasgow University Language Centre, Edinburgh English Language Teaching Centre, and Manchester Language Centre all run this structure.
+              <strong>Pre-sessional English programmes</strong> are the most common real route: many universities run their own language centre offering a 10–20 week intensive English course. You get a conditional offer for the main degree, enrol in the pre-sessional at your current score, pass its exit test, and proceed to the main programme without retaking IELTS. Availability and structure are university-specific — confirm with your shortlisted universities.
             </p>
             <p>
-              <strong>Alternative tests that some students find easier than IELTS:</strong> The Duolingo English Test (DET) is accepted by McMaster (DET 120+), Waterloo (DET 120+), and Toronto. It costs ₹3,500 (vs ₹17,000 for IELTS), can be taken at home, and results come in 48 hours. Some students who struggle with IELTS format do better on DET. PTE Academic is another option — accepted at all UK universities in our database — and is computer-based with scores available in 5 business days.
+              <strong>Alternative tests</strong> (Duolingo English Test, PTE Academic, TOEFL iBT) are accepted instead of IELTS by many universities, each with a course-specific required score — genuinely useful for students who find the IELTS format harder than other test formats, but confirm acceptance for your specific target course rather than assuming.
             </p>
             <p>
-              <strong>If retaking IELTS is the plan:</strong> Moving from 6.0 to 6.5 typically requires 6–10 weeks of focused preparation. The Writing section (Task 2 academic essays) is where most Indian students lose 0.5–1 band. IELTS Writing Task 2 preparation — practicing 3–4 essays weekly with structured feedback — is the single highest-ROI use of preparation time.
+              <strong>If retaking IELTS is the plan:</strong> Moving from 6.0 to 6.5 typically takes several weeks of focused preparation, and the Writing section is commonly where Indian test-takers lose the most band score — targeted Writing Task 2 practice is usually the highest-value use of preparation time.
             </p>
             <p>
-              <strong>Universities with genuinely lower IELTS requirements (not in our current database):</strong> Several UK universities (Coventry, Northumbria, Plymouth, Huddersfield) accept 6.0 overall with 5.5 per band for select programs. These are valid, accredited institutions — lower ranked than our current 9, but with legitimate degrees and post-study work visas.
+              <strong>Universities with lower published IELTS requirements exist</strong> beyond the most highly-ranked institutions — see the course lists below, and always confirm the exact current requirement on that course&apos;s own page before applying, since requirements change.
             </p>
             <div className="space-y-2 mt-4">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Programs with pre-sessional English routes (IELTS 5.5 accepted for conditional entry):</p>
+              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">Real course examples (current fee &amp; IELTS requirement):</p>
               <CourseCard name="Ecology &amp; Environmental Biology [MRes]" uniName="University of Glasgow" uniSlug="university-of-glasgow" slug="glasgow-ecology-environmental-biology-mres" inrLakh="13.9" ielts={6.5} duration="1 year" />
               <CourseCard name="AI and Analytics" uniName="McMaster University" uniSlug="mcmaster-university" slug="mcmaster-ai-and-analytics" inrLakh="13.6" ielts={6.5} duration="1 year" />
               <CourseCard name="Applied AI and Data-Driven Decision-Making" uniName="McMaster University" uniSlug="mcmaster-university" slug="mcmaster-applied-ai-and-datadriven-decisionmaking" inrLakh="13.6" ielts={6.5} duration="1 year" />
             </div>
+            <p className="text-xs text-gray-500 mt-3">
+              Browse real courses with a lower published IELTS requirement:{' '}
+              <Link href="/ielts-6-0-universities" className="text-brand-700 underline">IELTS 6.0</Link> ·{' '}
+              <Link href="/ielts-6-5-universities" className="text-brand-700 underline">IELTS 6.5</Link>.
+            </p>
           </div>
           <SectionCTA />
         </section>

@@ -40,7 +40,6 @@ const QUICK_CHIPS = [
   { key: 'coop',         label: '🏢 Co-op & Internships' },
   { key: 'no_deposit',   label: '🚫 No Tuition Deposit' },
   { key: 'major_city',   label: '🌆 Major City' },
-  { key: 'backlog',      label: '📋 Higher Backlog Acceptance' },
   { key: 'no_interview', label: '🗣 No Interview Required' },
   { key: 'mba',          label: '💼 MBA Programs' },
   { key: 'russell',      label: '🏛 Russell Group (UK)' },
@@ -80,7 +79,6 @@ function chipMatch(chip: string, u: University): boolean {
     case 'coop':         return u.country === 'Canada' || u.popularCourses.some(c => /co.?op|intern/i.test(c));
     case 'no_deposit':   return ['Ireland','Germany','France'].includes(u.country) || (u.country === 'UK' && u.acceptanceRate > 70);
     case 'major_city':   return u.campusType === 'Urban';
-    case 'backlog':      return (u.requirements.backlogs ?? 0) >= 5;
     case 'no_interview': return u.acceptanceRate > 40;
     case 'mba':          return u.popularCourses.some(c => /mba|business|management/i.test(c));
     case 'russell':      return RUSSELL_GROUP.has(u.name);

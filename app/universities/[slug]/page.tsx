@@ -355,8 +355,6 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                   { label: 'TOEFL Score', value: `${u.requirements.toeflMin}+` },
                   { label: 'GRE Score', value: u.requirements.greMin ? `${u.requirements.greMin}+` : 'Not required' },
                   { label: 'GMAT Score', value: u.requirements.gmatMin ? `${u.requirements.gmatMin}+` : 'Not required' },
-                  { label: 'Min GPA (10pt)', value: `${u.requirements.gpaMin}/10` },
-                  { label: 'Backlogs Allowed', value: u.requirements.backlogs === 0 ? 'None (clean record)' : `Up to ${u.requirements.backlogs}` },
                 ].map(req => (
                   <div key={req.label} className="bg-gray-50 rounded-xl p-4 text-center">
                     <p className="text-lg font-bold text-brand-700">{req.value}</p>
@@ -572,7 +570,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                   },
                   {
                     q: `What is the acceptance rate at ${u.shortName}?`,
-                    a: `${u.name}'s acceptance rate is not officially published — an indicative estimate is around ${u.acceptanceRate}% for international students. Indian students with strong GRE/GMAT scores and GPA above ${u.requirements.gpaMin}/10 have a higher chance of admission. Confirm current admission statistics with the university or your Jaivik Overseas counsellor.`,
+                    a: `${u.name}'s acceptance rate is not officially published — an indicative estimate is around ${u.acceptanceRate}% for international students. Indian students with strong GRE/GMAT scores and a solid academic record generally have a higher chance of admission. Confirm current admission statistics and minimum grade requirements with the university or your Jaivik Overseas counsellor.`,
                   },
                   {
                     q: `What are the IELTS requirements for ${u.shortName}?`,

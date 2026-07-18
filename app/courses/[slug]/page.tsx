@@ -819,13 +819,11 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
               <p className="text-gray-500 text-sm mb-5">Minimum requirements for admission to {c.name} programs abroad</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {[
-                  { label: 'Minimum GPA', value: `${c.eligibility.minGPA}/10` },
                   { label: 'IELTS Score', value: `${c.eligibility.minIELTS}+` },
                   { label: 'TOEFL iBT', value: `${c.eligibility.minTOEFL}+` },
                   { label: 'GRE Score', value: c.eligibility.minGRE ? `${c.eligibility.minGRE}+` : 'Not required' },
                   { label: 'GMAT Score', value: c.eligibility.minGMAT ? `${c.eligibility.minGMAT}+` : 'Not required' },
                   { label: 'Work Experience', value: c.eligibility.workExperienceYears > 0 ? `${c.eligibility.workExperienceYears}+ years` : 'Not required' },
-                  { label: 'Backlogs Allowed', value: c.eligibility.backlogs === 0 ? 'None' : `Up to ${c.eligibility.backlogs}` },
                 ].map(req => (
                   <div key={req.label} className="bg-gray-50 rounded-xl p-4 text-center">
                     <p className="text-lg font-bold text-brand-700">{req.value}</p>
