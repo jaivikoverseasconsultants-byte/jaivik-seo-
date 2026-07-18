@@ -7,6 +7,9 @@ import { CANADA_CITY_SLUGS } from '@/data/canada-cities';
 import { getAllRealCourses } from '@/data/university-course-registry';
 import { SUBJECT_PILLARS } from '@/data/subject-pillars';
 import { COST_PILLARS } from '@/data/cost-pillars';
+import { UNIVERSITY_COMPARISONS } from '@/data/university-comparisons';
+import { getUniversityComparisonData } from '@/lib/university-comparisons';
+import { getAllCountrySubjectComparisons } from '@/lib/country-subject-comparisons';
 
 const BASE = 'https://study.jaivikoverseasconsultants.com';
 
@@ -184,6 +187,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
+  // ── Comparison pages (real-data-only, skip-on-missing) ───────────────────
+  const universityComparisonPages: MetadataRoute.Sitemap = UNIVERSITY_COMPARISONS
+    .filter(pair => getUniversityComparisonData(pair) !== null)
+    .map(pair => ({
+      url: `${BASE}/compare/${pair.slug}`,
+      lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7,
+    }));
+
+  const countrySubjectComparisonPages: MetadataRoute.Sitemap = getAllCountrySubjectComparisons().map(c => ({
+    url: `${BASE}/${c.slug}`,
+    lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7,
+  }));
+
   return [
     ...staticPages,       // 8
     ...universityPages,   // ~135
@@ -197,5 +213,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...cheapestHubPages,   // 13
     ...pswHubPages,        // 6
     ...budgetHubPages,     // 45
+    ...universityComparisonPages,     // ~10
+    ...countrySubjectComparisonPages, // ~12
   ];
 }

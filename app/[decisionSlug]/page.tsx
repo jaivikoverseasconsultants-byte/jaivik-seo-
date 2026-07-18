@@ -8,6 +8,10 @@ import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import { authorPersonSchema } from '@/lib/seo';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
+import {
+  getAllCountrySubjectComparisons, parseCountrySubjectSlug, getCountrySubjectComparisonData,
+} from '@/lib/country-subject-comparisons';
+import CountrySubjectComparisonPage from '@/components/CountrySubjectComparisonPage';
 
 // Root-level dynamic segment handling TWO distinct decision-hub URL shapes,
 // merged into a single route. Next.js App Router's static export does not
@@ -53,7 +57,8 @@ const BUDGET_ROWS_SHOWN = 60;
 
 type Parsed =
   | { kind: 'cheapest'; country: string }
-  | { kind: 'budget'; country: string; band: number };
+  | { kind: 'budget'; country: string; band: number }
+  | { kind: 'country-subject-compare'; slug: string };
 
 function parseSlug(slug: string): Parsed | null {
   if (CHEAPEST_SLUG_TO_COUNTRY[slug]) {
@@ -64,6 +69,9 @@ function parseSlug(slug: string): Parsed | null {
     const country = BUDGET_SLUG_TO_COUNTRY[m[1]];
     const band = parseInt(m[2], 10);
     if (country && BANDS.includes(band)) return { kind: 'budget', country, band };
+  }
+  if (parseCountrySubjectSlug(slug)) {
+    return { kind: 'country-subject-compare', slug };
   }
   return null;
 }
@@ -89,6 +97,9 @@ export async function generateStaticParams() {
       }
     }
   }
+  for (const c of getAllCountrySubjectComparisons()) {
+    params.push({ decisionSlug: c.slug });
+  }
   return params;
 }
 
@@ -107,12 +118,25 @@ export async function generateMetadata({ params }: { params: Promise<{ decisionS
     });
   }
 
-  const matches = getBudgetCourses(parsed.country, parsed.band);
+  if (parsed.kind === 'budget') {
+    const matches = getBudgetCourses(parsed.country, parsed.band);
+    return buildMetadata({
+      title: `Study in ${parsed.country} Under ₹${parsed.band} Lakh — Real Course List`,
+      description: `${matches.length} real courses in ${parsed.country} costing ₹${parsed.band} lakh per year or less, sorted cheapest first, with direct links to every course. Real data, crawled from each university's own course pages.`,
+      path: `/${decisionSlug}`,
+      keywords: [`study in ${parsed.country} under ${parsed.band} lakh`, `${parsed.country} courses under budget for Indian students`, `cheap courses in ${parsed.country} for Indian students`],
+    });
+  }
+
+  const compareParsed = parseCountrySubjectSlug(parsed.slug);
+  const compareData = compareParsed ? getCountrySubjectComparisonData(compareParsed) : null;
+  if (!compareData) return {};
+  const { sideA, sideB } = compareData;
   return buildMetadata({
-    title: `Study in ${parsed.country} Under ₹${parsed.band} Lakh — Real Course List`,
-    description: `${matches.length} real courses in ${parsed.country} costing ₹${parsed.band} lakh per year or less, sorted cheapest first, with direct links to every course. Real data, crawled from each university's own course pages.`,
+    title: `${sideA.countryName} vs ${sideB.countryName} for ${compareParsed!.pillar.name} — Fees, Courses & PSW Compared`,
+    description: `Real course data comparison: ${compareParsed!.pillar.name} in ${sideA.countryName} (${sideA.count} real courses) vs ${sideB.countryName} (${sideB.count} real courses) — tuition fees in INR, cost of living, and post-study work rights for Indian students.`,
     path: `/${decisionSlug}`,
-    keywords: [`study in ${parsed.country} under ${parsed.band} lakh`, `${parsed.country} courses under budget for Indian students`, `cheap courses in ${parsed.country} for Indian students`],
+    keywords: [`${sideA.countryName} vs ${sideB.countryName} for ${compareParsed!.pillar.name}`, `${compareParsed!.pillar.name} ${sideA.countryName} or ${sideB.countryName}`],
   });
 }
 
@@ -123,6 +147,13 @@ export default async function DecisionSlugPage({ params }: { params: Promise<{ d
 
   if (parsed.kind === 'cheapest') {
     return <CheapestView country={parsed.country} />;
+  }
+
+  if (parsed.kind === 'country-subject-compare') {
+    const compareParsed = parseCountrySubjectSlug(parsed.slug);
+    const compareData = compareParsed ? getCountrySubjectComparisonData(compareParsed) : null;
+    if (!compareData) notFound();
+    return <CountrySubjectComparisonPage data={compareData} />;
   }
 
   const matches = getBudgetCourses(parsed.country, parsed.band);

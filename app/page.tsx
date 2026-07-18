@@ -9,6 +9,9 @@ import JsonLd from '@/components/JsonLd';
 import HeroSearch from '@/components/HeroSearch';
 import SuccessStories from '@/components/SuccessStories';
 import { fetchUnsplashImage, COUNTRY_QUERIES, type UnsplashImage } from '@/lib/unsplash';
+import { UNIVERSITY_COMPARISONS } from '@/data/university-comparisons';
+import { getUniversityComparisonData } from '@/lib/university-comparisons';
+import { getAllCountrySubjectComparisons } from '@/lib/country-subject-comparisons';
 
 // Root layout (app/layout.tsx) sets the site-wide title/description but no
 // canonical — add an explicit self-referencing canonical here so the
@@ -54,6 +57,11 @@ export default async function HomePage() {
     .map(id => universities.find(u => u.id === id))
     .filter((u): u is NonNullable<typeof u> => u != null);
   const featuredCourses = courses.slice(0, 6);
+  const featuredUniComparisons = UNIVERSITY_COMPARISONS
+    .map(pair => ({ pair, data: getUniversityComparisonData(pair) }))
+    .filter((x): x is { pair: typeof x.pair; data: NonNullable<typeof x.data> } => x.data != null)
+    .slice(0, 4);
+  const featuredCountryComparisons = getAllCountrySubjectComparisons().slice(0, 4);
   const recentPosts = [...blogPosts]
     .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
     .slice(0, 3);
@@ -243,6 +251,40 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Compare — real-data university & country comparisons */}
+      {(featuredUniComparisons.length > 0 || featuredCountryComparisons.length > 0) && (
+        <section className="px-4 pt-8">
+          <div className="max-w-7xl mx-auto">
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-xl font-bold text-gray-900">Compare</h2>
+              <Link href="/compare" className="text-brand-700 font-semibold text-sm hover:underline">
+                Try the Full Comparison Tool →
+              </Link>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {featuredUniComparisons.map(({ pair, data }) => (
+                <Link
+                  key={pair.slug}
+                  href={`/compare/${pair.slug}`}
+                  className="bg-white border border-gray-200 rounded-xl p-4 text-sm font-semibold text-gray-800 hover:border-brand-400 hover:text-brand-700 transition-colors"
+                >
+                  {data.sideA.university.name} vs {data.sideB.university.name} →
+                </Link>
+              ))}
+              {featuredCountryComparisons.map(c => (
+                <Link
+                  key={c.slug}
+                  href={`/${c.slug}`}
+                  className="bg-white border border-gray-200 rounded-xl p-4 text-sm font-semibold text-gray-800 hover:border-brand-400 hover:text-brand-700 transition-colors"
+                >
+                  {c.pillar.emoji} {c.countryASlug === 'uk' ? 'UK' : c.countryASlug[0].toUpperCase() + c.countryASlug.slice(1)} vs {c.countryBSlug === 'uk' ? 'UK' : c.countryBSlug[0].toUpperCase() + c.countryBSlug.slice(1)} for {c.pillar.name} →
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Featured Universities */}
       <section className="bg-white py-14 px-4">
