@@ -227,6 +227,10 @@ export default async function HomePage() {
               { href: '/cost-of-studying-in-uk', label: 'Cost of Studying in UK' },
               { href: '/cost-of-studying-in-australia', label: 'Cost of Studying in Australia' },
               { href: '/cost-of-studying-in-canada', label: 'Cost of Studying in Canada' },
+              { href: '/universities-accepting-backlogs', label: 'Universities Accepting Backlogs' },
+              { href: '/study-abroad-without-ielts', label: 'Study Abroad Without IELTS' },
+              { href: '/low-cgpa-universities-abroad', label: 'Low CGPA? Universities You Can Apply To' },
+              { href: '/study-gap-accepted-universities', label: 'Study Abroad With a Study Gap' },
             ].map(link => (
               <Link
                 key={link.href}

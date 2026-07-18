@@ -53,6 +53,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/nursing-abroad`,   lastModified: now, changeFrequency: 'weekly',  priority: 0.8 },
     { url: `${BASE}/terms`,            lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
     { url: `${BASE}/privacy-policy`,   lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
+    { url: `${BASE}/universities-accepting-backlogs`,  lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/study-gap-accepted-universities`,  lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/study-abroad-without-ielts`,       lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/low-cgpa-universities-abroad`,     lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     ...SUBJECT_PILLARS.map(p => ({
       url: `${BASE}/${p.slug}`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8,
     })),
