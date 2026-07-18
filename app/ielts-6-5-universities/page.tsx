@@ -1,18 +1,21 @@
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
-import { getAllRealCourses } from '@/data/university-course-registry';
+import { getIeltsBandGuideBySlug } from '@/data/ielts-band-guides';
 import IeltsBandHub from '@/components/IeltsBandHub';
 
+const SLUG = 'ielts-6-5-universities';
+
 export async function generateMetadata(): Promise<Metadata> {
-  const count = getAllRealCourses().filter(c => c.ieltsMin > 0 && c.ieltsMin <= 6.5 && c.annualINR > 0).length;
+  const guide = getIeltsBandGuideBySlug(SLUG)!;
   return buildMetadata({
-    title: 'Universities Accepting IELTS 6.5 — Fees in INR for Indian Students',
-    description: `${count} real courses with an IELTS 6.5 entry requirement or below, across the UK, Australia, Canada, Ireland and more — with fees converted to INR and direct links to every course.`,
-    path: '/ielts-6-5-universities',
-    keywords: ['universities accepting IELTS 6.5', 'IELTS 6.5 band universities', 'IELTS 6.5 for masters abroad'],
+    title: `${guide.title} — Honest Guide for Indian Students`,
+    description: 'What an IELTS 6.5 overall score realistically opens up for studying abroad — general, honest guidance, not a per-university list, plus real university, fee, and budget resources.',
+    path: `/${SLUG}`,
+    keywords: ['ielts 6.5 for study abroad', 'ielts 6.5 band meaning', 'ielts 6.5 for masters abroad'],
   });
 }
 
 export default function Ielts65Page() {
-  return <IeltsBandHub band={6.5} />;
+  const guide = getIeltsBandGuideBySlug(SLUG)!;
+  return <IeltsBandHub guide={guide} />;
 }

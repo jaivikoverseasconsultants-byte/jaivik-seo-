@@ -1,18 +1,21 @@
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
-import { getAllRealCourses } from '@/data/university-course-registry';
+import { getIeltsBandGuideBySlug } from '@/data/ielts-band-guides';
 import IeltsBandHub from '@/components/IeltsBandHub';
 
+const SLUG = 'ielts-7-0-universities';
+
 export async function generateMetadata(): Promise<Metadata> {
-  const count = getAllRealCourses().filter(c => c.ieltsMin > 0 && c.ieltsMin <= 7 && c.annualINR > 0).length;
+  const guide = getIeltsBandGuideBySlug(SLUG)!;
   return buildMetadata({
-    title: 'Universities Accepting IELTS 7.0 — Fees in INR for Indian Students',
-    description: `${count} real courses with an IELTS 7.0 entry requirement or below, across 14 countries — with fees converted to INR and direct links to every course.`,
-    path: '/ielts-7-0-universities',
-    keywords: ['universities accepting IELTS 7.0', 'IELTS 7 band universities', 'IELTS 7.0 for masters abroad'],
+    title: `${guide.title} — Honest Guide for Indian Students`,
+    description: 'What an IELTS 7.0 overall score realistically opens up for studying abroad — general, honest guidance, not a per-university list, plus real university, fee, and budget resources.',
+    path: `/${SLUG}`,
+    keywords: ['ielts 7.0 for study abroad', 'ielts 7 band meaning', 'ielts 7.0 for masters abroad'],
   });
 }
 
 export default function Ielts70Page() {
-  return <IeltsBandHub band={7} />;
+  const guide = getIeltsBandGuideBySlug(SLUG)!;
+  return <IeltsBandHub guide={guide} />;
 }

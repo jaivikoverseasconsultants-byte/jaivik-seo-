@@ -1,18 +1,21 @@
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
-import { getAllRealCourses } from '@/data/university-course-registry';
+import { getIeltsBandGuideBySlug } from '@/data/ielts-band-guides';
 import IeltsBandHub from '@/components/IeltsBandHub';
 
+const SLUG = 'ielts-6-0-universities';
+
 export async function generateMetadata(): Promise<Metadata> {
-  const count = getAllRealCourses().filter(c => c.ieltsMin > 0 && c.ieltsMin <= 6 && c.annualINR > 0).length;
+  const guide = getIeltsBandGuideBySlug(SLUG)!;
   return buildMetadata({
-    title: 'Universities Accepting IELTS 6.0 — Fees in INR for Indian Students',
-    description: `${count} real courses with an IELTS 6.0 entry requirement or below, across the UK, Australia, New Zealand and more — with fees converted to INR and direct links to every course.`,
-    path: '/ielts-6-0-universities',
-    keywords: ['universities accepting IELTS 6.0', 'IELTS 6 band universities', 'low IELTS score universities abroad'],
+    title: `${guide.title} — Honest Guide for Indian Students`,
+    description: 'What an IELTS 6.0 overall score realistically opens up for studying abroad — general, honest guidance, not a per-university list, plus real university, fee, and budget resources.',
+    path: `/${SLUG}`,
+    keywords: ['ielts 6.0 for study abroad', 'ielts 6 band meaning', 'low ielts score study abroad options'],
   });
 }
 
 export default function Ielts60Page() {
-  return <IeltsBandHub band={6} />;
+  const guide = getIeltsBandGuideBySlug(SLUG)!;
+  return <IeltsBandHub guide={guide} />;
 }

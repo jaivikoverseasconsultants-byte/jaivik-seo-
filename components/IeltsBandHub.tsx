@@ -1,68 +1,33 @@
 import Link from 'next/link';
-import { getAllRealCourses, type RealCourseEntry } from '@/data/university-course-registry';
-import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import GuideRelatedLinks from '@/components/GuideRelatedLinks';
 import { authorPersonSchema } from '@/lib/seo';
-import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
+import type { IeltsBandGuide } from '@/data/ielts-band-guides';
+import { IELTS_BAND_GUIDES } from '@/data/ielts-band-guides';
+import {
+  COMMON_COUNTRY_HUB_LINKS, SUBJECT_PILLAR_LINKS, COST_PILLAR_LINKS, CHEAPEST_HUB_LINKS,
+} from '@/data/fear-cluster-guides';
 
-const COUNTRY_FLAGS: Record<string, string> = {
-  UK: '🇬🇧', Australia: '🇦🇺', Canada: '🇨🇦', Ireland: '🇮🇪', 'New Zealand': '🇳🇿',
-  USA: '🇺🇸', Germany: '🇩🇪', Netherlands: '🇳🇱', Denmark: '🇩🇰', Sweden: '🇸🇪',
-  Finland: '🇫🇮', Singapore: '🇸🇬', 'United Arab Emirates': '🇦🇪', Italy: '🇮🇹',
-};
-
-// Sideways cross-links to the other decision hubs for the same country —
-// same slug maps as app/[decisionSlug]/page.tsx and
-// app/courses-with-psw/[country]/page.tsx.
-const CHEAPEST_COUNTRY_SLUGS: Record<string, string> = {
-  UK: 'uk', Australia: 'australia', Canada: 'canada', 'New Zealand': 'new-zealand',
-  Netherlands: 'netherlands', Ireland: 'ireland', USA: 'usa', Germany: 'germany',
-  Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland', Singapore: 'singapore',
-  'United Arab Emirates': 'united-arab-emirates',
-};
-const PSW_COUNTRY_SLUGS: Record<string, string> = {
-  Canada: 'canada', Australia: 'australia', UK: 'uk', Ireland: 'ireland',
-  Germany: 'germany', 'New Zealand': 'new-zealand',
-};
-const BUDGET_COUNTRY_SLUGS: Record<string, string> = {
-  UK: 'uk', Australia: 'australia', Canada: 'canada', Ireland: 'ireland',
-  Netherlands: 'netherlands', 'New Zealand': 'new-zealand', USA: 'usa',
-  Germany: 'germany', Denmark: 'denmark', Sweden: 'sweden', Finland: 'finland',
-  Singapore: 'singapore', 'United Arab Emirates': 'united-arab-emirates', Italy: 'italy',
-};
-const BUDGET_BANDS = [10, 15, 20, 25];
-const BUDGET_MIN_MATCHES = 15;
-
-const ROWS_PER_COUNTRY = 30;
-
-interface Props {
-  band: number; // 6, 6.5, or 7
-}
-
-export default function IeltsBandHub({ band }: Props) {
-  const bandLabel = band.toFixed(1);
-  const all = getAllRealCourses().filter(c => c.ieltsMin > 0 && c.ieltsMin <= band && c.annualINR > 0);
-
-  const byCountry = new Map<string, RealCourseEntry[]>();
-  for (const c of all) {
-    if (!byCountry.has(c.country)) byCountry.set(c.country, []);
-    byCountry.get(c.country)!.push(c);
-  }
-  const countries = Array.from(byCountry.entries()).sort((a, b) => b[1].length - a[1].length);
+export default function IeltsBandHub({ guide }: { guide: IeltsBandGuide }) {
+  const otherBands = IELTS_BAND_GUIDES.filter(g => g.slug !== guide.slug);
 
   const faqs = [
     {
-      q: `Which universities accept IELTS ${bandLabel}?`,
-      a: `${all.length} real courses across ${countries.length} countries on this site have a published entry requirement of IELTS ${bandLabel} or below — see the full country-by-country list below, each linking to the real course page with its exact fee and requirements. This is course-entry IELTS only; some countries and professions (e.g. nursing registration) have separate, often higher, requirements after you graduate.`,
+      q: `What does IELTS ${guide.bandLabel} overall actually mean?`,
+      a: guide.levelDescription,
     },
     {
-      q: `Can I get into a good university with IELTS ${bandLabel}?`,
-      a: `Yes — IELTS ${bandLabel} is a common entry threshold, not just for lower-ranked institutions. The list below includes real programmes at recognised universities across ${countries.map(([c]) => c).slice(0, 5).join(', ')}${countries.length > 5 ? ' and more' : ''}. If your target course requires a higher band, ask Jaivik Overseas about pre-sessional English programmes that can lead to a conditional offer.`,
+      q: `What can I realistically get into with IELTS ${guide.bandLabel}?`,
+      a: guide.accessibility,
     },
     {
-      q: `Is IELTS ${bandLabel} enough for a student visa?`,
-      a: `Course entry and visa English requirements are usually the same in practice — most study visas accept the IELTS score your offer letter is based on. However, some professional registrations (nursing, for example) require a separately higher IELTS score after graduation, regardless of your course entry requirement. Confirm your specific visa route's English requirement with your Jaivik Overseas counsellor.`,
+      q: 'Is the overall band score the same as every section score?',
+      a: 'No — IELTS gives you four section scores (Listening, Reading, Writing, Speaking) plus an Overall Band Score, which is the average of the four, rounded. Many universities specify both an overall minimum AND a "no band below X" rule for individual sections — so a 6.5 overall with a 5.5 in Writing might not meet a requirement that also demands 6.0 in every section. Always check both numbers on your target course\'s requirements, not just the headline overall score.',
+    },
+    {
+      q: `Which specific universities accept IELTS ${guide.bandLabel}?`,
+      a: 'We don\'t publish a per-university list here — exact IELTS requirements vary by university and by course, and change by intake, which makes a centrally-verified list impractical to maintain honestly. The real way to find out is to check the requirements page of your specific shortlisted course, or ask a counsellor who can check current requirements for you.',
     },
   ];
 
@@ -79,139 +44,100 @@ export default function IeltsBandHub({ band }: Props) {
 
       <div className="flex items-center gap-2 text-gray-400 text-xs mb-6">
         <Link href="/" className="hover:text-brand-700">Home</Link> /
-        <span>Universities Accepting IELTS {bandLabel}</span>
+        <span>IELTS {guide.bandLabel}</span>
       </div>
 
       <div className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
-          Universities Accepting IELTS {bandLabel} — Fees in INR for Indian Students
+          🗣️ {guide.title}
         </h1>
         <p className="text-gray-600 max-w-3xl">
-          {all.length} real courses with a published entry requirement of IELTS {bandLabel} or below, across {countries.length} countries —
-          crawled directly from each university&apos;s own course pages, with tuition fees converted to INR and a direct link to every
-          programme&apos;s full course page.
+          A general guide to what an IELTS {guide.bandLabel} overall score realistically opens up — not a list of
+          specific universities, because exact requirements vary by course and change by intake in ways we can&apos;t
+          verify centrally the way we verify real tuition fees on this site.
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-2 mb-8">
-        {countries.map(([country]) => (
-          <a
-            key={country}
-            href={`#${country.toLowerCase().replace(/\s+/g, '-')}`}
-            className="text-xs font-semibold bg-brand-50 text-brand-700 px-3 py-1.5 rounded-full hover:bg-brand-100 transition-colors"
-          >
-            {COUNTRY_FLAGS[country] ?? ''} {country} ({byCountry.get(country)!.length})
-          </a>
-        ))}
-      </div>
-
-      <div className="space-y-10">
-        {countries.map(([country, courses]) => {
-          const sorted = courses.slice().sort((a, b) => a.annualINR - b.annualINR);
-          const shown = sorted.slice(0, ROWS_PER_COUNTRY);
-
-          const cheapestSlug = CHEAPEST_COUNTRY_SLUGS[country];
-          const pswSlug = PSW_COUNTRY_SLUGS[country];
-          const budgetSlug = BUDGET_COUNTRY_SLUGS[country];
-          const cheapestBudgetBand = budgetSlug
-            ? BUDGET_BANDS.find(b => getAllRealCourses().filter(c => c.country === country && c.annualINR > 0 && c.annualINR <= b * 100000).length >= BUDGET_MIN_MATCHES)
-            : undefined;
-          const subjectPillars = getPillarsWithCoverageInCountry(country);
-
-          return (
-            <div key={country} id={country.toLowerCase().replace(/\s+/g, '-')} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-              <div className="flex items-center justify-between mb-4">
-                <h2 className="text-xl font-bold text-gray-900">
-                  {COUNTRY_FLAGS[country] ?? ''} IELTS {bandLabel} Courses in {country}
-                </h2>
-                <span className="text-xs text-gray-400">
-                  {courses.length} real matches{courses.length > ROWS_PER_COUNTRY ? ` — cheapest ${ROWS_PER_COUNTRY} shown` : ''}
-                </span>
-              </div>
-              {(cheapestSlug || pswSlug || cheapestBudgetBand || subjectPillars.length > 0) && (
-                <div className="flex flex-wrap gap-x-4 gap-y-1 mb-4">
-                  {cheapestSlug && (
-                    <Link href={`/cheapest-universities-${cheapestSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
-                      Cheapest Universities in {country} →
-                    </Link>
-                  )}
-                  {cheapestBudgetBand && (
-                    <Link href={`/${budgetSlug}-under-${cheapestBudgetBand}-lakh`} className="text-xs text-brand-700 hover:underline font-medium">
-                      Study in {country} Under ₹{cheapestBudgetBand}L →
-                    </Link>
-                  )}
-                  {pswSlug && (
-                    <Link href={`/courses-with-psw/${pswSlug}`} className="text-xs text-brand-700 hover:underline font-medium">
-                      Courses in {country} with Post-Study Work Rights →
-                    </Link>
-                  )}
-                  {subjectPillars.map(p => (
-                    <Link key={p.slug} href={`/${p.slug}`} className="text-xs text-brand-700 hover:underline font-medium">
-                      {p.emoji} {p.name} Abroad →
-                    </Link>
-                  ))}
-                </div>
-              )}
-              <div className="overflow-x-auto">
-                <table className="w-full text-xs">
-                  <thead>
-                    <tr className="border-b border-gray-200">
-                      <th className="text-left py-2 pr-3 font-semibold text-gray-700">Programme</th>
-                      <th className="text-left py-2 px-2 font-semibold text-gray-700">University</th>
-                      <th className="text-right py-2 px-2 font-semibold text-gray-700">Fee/yr (INR)</th>
-                      <th className="text-right py-2 pl-2 font-semibold text-gray-700">IELTS</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {shown.map(c => {
-                      const uni = getUniversityBySlug(c.universitySlug);
-                      return (
-                        <tr key={`${c.universitySlug}-${c.slug}`} className="border-b border-gray-100 hover:bg-brand-50">
-                          <td className="py-2.5 pr-3">
-                            <Link href={`/universities/${c.universitySlug}/courses/${c.slug}`} className="text-brand-700 hover:underline font-medium">
-                              {c.name}
-                            </Link>
-                          </td>
-                          <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
-                          <td className="text-right py-2.5 px-2 text-gray-700">₹{(c.annualINR / 100000).toFixed(1)}L</td>
-                          <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin}+</td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="mt-10 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-        <h2 className="text-xl font-bold text-gray-900 mb-4">IELTS {bandLabel} — Frequently Asked Questions</h2>
-        <div className="divide-y divide-gray-100">
-          {faqs.map((faq, i) => (
-            <details key={i} className="group py-3 first:pt-0 last:pb-0" open={i === 0}>
-              <summary className="flex items-start justify-between gap-3 cursor-pointer list-none">
-                <span className="text-sm font-semibold text-gray-900 leading-snug">{faq.q}</span>
-                <span className="flex-shrink-0 mt-0.5 text-brand-700 transition-transform group-open:rotate-45 text-lg leading-none">+</span>
-              </summary>
-              <p className="text-sm text-gray-700 leading-relaxed mt-2.5 pr-6">{faq.a}</p>
-            </details>
-          ))}
+      <div className="space-y-6">
+        <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+          <h2 className="text-base font-bold text-amber-900 mb-2">Why There&apos;s No University List Here</h2>
+          <p className="text-sm text-amber-800 leading-relaxed">
+            This page used to list specific real courses by their published IELTS requirement. On review, the
+            underlying IELTS-requirement data for most courses on this site turned out to come from a generic
+            estimate applied during data collection, not an independently verified per-course crawl — so we&apos;ve
+            removed that list rather than keep presenting it as verified fact. Exact IELTS requirements vary by
+            university and course — verify on the university&apos;s own course page, or ask our counsellors, before
+            relying on any specific number.
+          </p>
         </div>
-      </div>
 
-      <div className="mt-8 bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Not Sure Your IELTS Score Is Enough?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free eligibility check — our counsellors will match your exact IELTS score against real course requirements.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
-      </div>
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-3">What Does IELTS {guide.bandLabel} Overall Mean?</h2>
+          <p className="text-sm text-gray-700 leading-relaxed">{guide.levelDescription}</p>
+        </div>
 
-      <div className="mt-6">
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-3">What&apos;s Realistically Accessible at This Band?</h2>
+          <p className="text-sm text-gray-700 leading-relaxed mb-3">{guide.accessibility}</p>
+          <p className="text-sm text-gray-700 leading-relaxed">{guide.countryNotes}</p>
+        </div>
+
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-3">Overall Band vs. Section Scores</h2>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            IELTS reports four section scores — Listening, Reading, Writing, Speaking — and an Overall Band Score
+            (their average, rounded to the nearest 0.5). Many universities set two separate conditions: a minimum
+            overall score, <em>and</em> a minimum for every individual section (often phrased as &ldquo;no band below
+            X&rdquo;). Writing is the section Indian test-takers most commonly score lowest on. Meeting the overall
+            average isn&apos;t enough if a section-specific minimum isn&apos;t met — always check both numbers on your
+            target course&apos;s actual requirements page.
+          </p>
+        </div>
+
+        <div className="bg-brand-50 border border-brand-200 rounded-2xl p-6">
+          <h2 className="text-lg font-bold text-brand-900 mb-2">📋 What to Do Next</h2>
+          <p className="text-sm text-brand-800">
+            Explore real universities and real fee data by country and budget below, then book a free session —
+            we&apos;ll check the current, exact IELTS requirement for your specific shortlist before you apply
+            anywhere.
+          </p>
+        </div>
+
+        <GuideRelatedLinks title="Explore Real Universities by Country" links={COMMON_COUNTRY_HUB_LINKS} />
+        <GuideRelatedLinks title="Real Fee Data — Cheapest Options" links={CHEAPEST_HUB_LINKS} />
+        <GuideRelatedLinks title="Plan Your Budget" links={COST_PILLAR_LINKS} />
+        <GuideRelatedLinks title="Popular Subjects" links={SUBJECT_PILLAR_LINKS} />
+        <GuideRelatedLinks
+          title="Other IELTS Bands"
+          links={otherBands.map(g => ({ href: `/${g.slug}`, label: `IELTS ${g.bandLabel} Guide` }))}
+        />
+
+        <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+          <h2 className="text-xl font-bold text-gray-900 mb-4">IELTS {guide.bandLabel} — Frequently Asked Questions</h2>
+          <div className="divide-y divide-gray-100">
+            {faqs.map((faq, i) => (
+              <details key={i} className="group py-3 first:pt-0 last:pb-0" open={i === 0}>
+                <summary className="flex items-start justify-between gap-3 cursor-pointer list-none">
+                  <span className="text-sm font-semibold text-gray-900 leading-snug">{faq.q}</span>
+                  <span className="flex-shrink-0 mt-0.5 text-brand-700 transition-transform group-open:rotate-45 text-lg leading-none">+</span>
+                </summary>
+                <p className="text-sm text-gray-700 leading-relaxed mt-2.5 pr-6">{faq.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+
+        <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
+          <h2 className="text-xl font-bold mb-2">Not Sure Your IELTS Score Is Enough?</h2>
+          <p className="text-blue-200 text-sm mb-4">
+            Book a free counselling session — our counsellors will check your exact score against real, current
+            course requirements.
+          </p>
+          <Link href="/book-counselling" className="btn-gold inline-block">
+            Get Free Guidance →
+          </Link>
+        </div>
+
         <VerifiedBy />
       </div>
     </div>
