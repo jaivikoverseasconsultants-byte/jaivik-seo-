@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 const SITE_URL = 'https://study.jaivikoverseasconsultants.com';
 const SITE_NAME = 'Jaivik Overseas Consultants';
-const DEFAULT_OG = `${SITE_URL}/og-default.jpg`;
+const DEFAULT_OG = `${SITE_URL}/og-image.png`;
 
 export function buildMetadata({
   title,

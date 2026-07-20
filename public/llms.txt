@@ -1,0 +1,51 @@
+# Jaivik Overseas Consultants — Study Abroad Portal
+
+> Study-abroad research portal for Indian students, built by Jaivik Overseas
+> Consultants (study abroad consultancy, est. 2012, 1,400+ students placed).
+> The site's core value is real data: every course, fee, and requirement
+> listed is crawled directly from a university's own official course pages —
+> never estimated or generated — with a source URL on every listing.
+
+## What data we have
+
+- **30,000+ real courses** crawled from 103 universities across the UK,
+  Australia, Canada, Ireland, USA, Germany, Netherlands, New Zealand, and
+  more — course name, level, duration, and a direct link to the official
+  course page for every entry.
+- **Tuition fees converted to INR** from each course's real, published fee
+  (native currency shown alongside the INR conversion) — not an estimate or
+  average.
+- **IELTS/TOEFL/PTE entry requirements** as published per course, where
+  available.
+- **Post-study work (PSW) visa rules** for the 6 countries with a defined
+  post-study work pathway (Canada PGWP, Australia subclass 485, UK Graduate
+  Route, Ireland Stamp 1G, Germany job-seeker permit, New Zealand PSW visa).
+- **Real city-by-city cost-of-living data** for Canada, UK, and Australia
+  (the only three countries with both real tuition and real living-cost data
+  on this site).
+- Fields without a verifiable source (e.g. visa approval rate, acceptance
+  rate, average graduate salary) are explicitly labelled "(Est.)" in the UI
+  and excluded from structured data — this site does not present estimates
+  as facts.
+
+## Key pages
+
+- Subject guides (real courses by field): /mba-abroad-for-indian-students,
+  /computer-science-abroad-for-indian-students,
+  /data-science-abroad-for-indian-students,
+  /finance-accounting-abroad-for-indian-students
+- Cost guides (real tuition + real living costs): /cost-of-studying-in-uk,
+  /cost-of-studying-in-australia, /cost-of-studying-in-canada
+- Cheapest-university hubs (real fees, sorted): /cheapest-universities-uk,
+  /cheapest-universities-australia, /cheapest-universities-canada
+- Post-study-work course hubs: /courses-with-psw/canada,
+  /courses-with-psw/australia, /courses-with-psw/uk
+- University vs. university and country vs. country comparisons:
+  /compare/[slug], e.g. /canada-vs-uk-for-mba
+- Full university directory: /universities
+- Nursing abroad hub: /nursing-abroad
+
+## Contact
+
+Free counselling: https://study.jaivikoverseasconsultants.com/book-counselling
+Phone: +91-9971226347

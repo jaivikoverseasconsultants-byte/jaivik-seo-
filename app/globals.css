@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* Inter is self-hosted via next/font/google (app/layout.tsx) — no external
+   fonts.googleapis.com request, so no render-blocking @import here anymore. */
 
 @layer base {
   html { scroll-behavior: smooth; }
-  body { font-family: 'Inter', system-ui, sans-serif; }
 }
 
 /* ── Content protection ─────────────────────────────────────────── */

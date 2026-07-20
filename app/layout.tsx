@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
+import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -7,7 +8,16 @@ import ExitIntentPopup from '@/components/ExitIntentPopup';
 import NoRightClick from '@/components/NoRightClick';
 import { AuthProvider } from '@/lib/auth-context';
 
+// Self-hosted via next/font (build-time download, no runtime request to
+// fonts.googleapis.com) — replaces the render-blocking @import that used to
+// live in globals.css. Not Firebase-related, so safe to optimize; see
+// BUILD-LOG.md for the audit finding this fixes.
+const inter = Inter({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700', '800'], display: 'swap', variable: '--font-inter' });
+
+const SITE_URL = 'https://study.jaivikoverseasconsultants.com';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: 'Jaivik Overseas Consultants | Study Abroad from India',
   description: 'Jaivik Overseas Consultants helps Indian students get admissions in top universities across USA, UK, Canada, Australia, Germany & Singapore. Free counselling available. Call +91-9971226347.',
   keywords: ['study abroad consultants India', 'overseas education consultancy', 'abroad education consultants UP', 'study abroad Ghaziabad'],
@@ -16,6 +26,12 @@ export const metadata: Metadata = {
     siteName: 'Jaivik Overseas Consultants',
     locale: 'en_IN',
     type: 'website',
+    url: `${SITE_URL}/`,
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Jaivik Overseas — Real Fees, Real Data, 30,000+ Courses' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og-image.png'],
   },
   verification: {
     google: 'pVbnr8z859QrFqCJMWYwgJJ101qfp1zXLfo8WvktayM',
@@ -27,8 +43,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className="bg-gray-50 text-gray-900 antialiased">
+    <html lang="en" className={inter.variable}>
+      <body className="bg-gray-50 text-gray-900 antialiased font-sans">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-6NKH1JP37G"
           strategy="afterInteractive"

@@ -15,8 +15,12 @@ import { getAllCountrySubjectComparisons } from '@/lib/country-subject-compariso
 
 // Root layout (app/layout.tsx) sets the site-wide title/description but no
 // canonical — add an explicit self-referencing canonical here so the
-// homepage isn't the one page on the site without one.
+// homepage isn't the one page on the site without one. Description overridden
+// here too (root layout's version is 189 chars — over the ~155 char limit
+// search engines actually display; this one keeps the "Free counselling" CTA
+// and phone number the root description had, just trimmed).
 export const metadata: Metadata = {
+  description: 'Jaivik Overseas Consultants: admissions help for Indian students in USA, UK, Canada, Australia & Germany. Free counselling — call +91-9971226347.',
   alternates: { canonical: 'https://study.jaivikoverseasconsultants.com/' },
 };
 
@@ -178,6 +182,8 @@ export default async function HomePage() {
                     <img
                       src={img.url}
                       alt={`Study in ${country}`}
+                      width={400}
+                      height={160}
                       className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   ) : (
