@@ -184,22 +184,25 @@ export default function CourseRichContent({ course, universityName, universitySl
 
   const faqs = generateFaqs(course, universityName, universitySlug);
 
+  const hasFee = course.annualUSD > 0;
   const courseSchema = {
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: `${course.name} at ${universityName}`,
-    description: `${course.level} program in ${course.name} at ${universityName}, ${course.country}. Duration: ${course.duration}. Annual fee: $${course.annualUSD.toLocaleString()} USD.`,
+    description: `${course.level} program in ${course.name} at ${universityName}, ${course.country}. Duration: ${course.duration}.${hasFee ? ` Annual fee: $${course.annualUSD.toLocaleString()} USD.` : ''}`,
     provider: {
       '@type': 'CollegeOrUniversity',
       name: universityName,
       sameAs: `https://study.jaivikoverseasconsultants.com/universities/${universitySlug}`,
     },
-    offers: {
-      '@type': 'Offer',
-      price: course.annualUSD,
-      priceCurrency: 'USD',
-      description: `Annual tuition fee for ${course.name}`,
-    },
+    ...(hasFee ? {
+      offers: {
+        '@type': 'Offer',
+        price: course.annualUSD,
+        priceCurrency: 'USD',
+        description: `Annual tuition fee for ${course.name}`,
+      },
+    } : {}),
     educationalLevel: course.level,
     timeToComplete: `P${course.durationYears}Y`,
     inLanguage: 'en',
@@ -367,7 +370,8 @@ export default function CourseRichContent({ course, universityName, universitySl
         </div>
       </div>
 
-      {/* Section B — IELTS Score Match */}
+      {/* Section B — IELTS Score Match — only when a real IELTS minimum exists */}
+      {course.ieltsMin > 0 && (
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">Does Your IELTS Score Qualify?</h2>
         <div className="space-y-3">
@@ -420,12 +424,19 @@ export default function CourseRichContent({ course, universityName, universitySl
             </div>
           </div>
         </div>
-        <p className="text-xs text-gray-500 mt-3">
-          PTE Academic {course.pteMin ?? Math.round(course.ieltsMin * 10 - 2)}+ and TOEFL iBT {course.toeflMin}+ are also accepted as IELTS equivalents at most institutions.
-        </p>
+        {((course.pteMin ?? 0) > 0 || course.toeflMin > 0) && (
+          <p className="text-xs text-gray-500 mt-3">
+            {(course.pteMin ?? 0) > 0 && `PTE Academic ${course.pteMin}+`}
+            {(course.pteMin ?? 0) > 0 && course.toeflMin > 0 && ' and '}
+            {course.toeflMin > 0 && `TOEFL iBT ${course.toeflMin}+`}
+            {' '}are also accepted as IELTS equivalents at most institutions.
+          </p>
+        )}
       </div>
+      )}
 
-      {/* How Does This University Compare */}
+      {/* How Does This University Compare — only when a real fee exists */}
+      {course.annualINR > 0 && (
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">
           How Does {universityName} Compare for {fieldLabel}?
@@ -451,9 +462,12 @@ export default function CourseRichContent({ course, universityName, universitySl
           Compare {universityName} with other universities →
         </Link>
       </div>
+      )}
 
-      {/* Section D — Compare Similar Programs */}
-      {similarPrograms.length > 0 && (
+      {/* Section D — Compare Similar Programs — only when the CURRENT course also
+          has a real fee (similarPrograms are always real-fee, via findAlternativeCourses'
+          own filter, but this course's own "★" row needs the same check). */}
+      {similarPrograms.length > 0 && course.annualINR > 0 && (
         <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
           <h2 className="text-xl font-bold text-gray-900 mb-2">
             Compare Similar {fieldLabel} Programs
@@ -636,7 +650,7 @@ export default function CourseRichContent({ course, universityName, universitySl
               >
                 <div>
                   <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700">{rc.name}</p>
-                  <p className="text-xs text-gray-500 mt-0.5">{rc.level} · {rc.duration} · IELTS {rc.ieltsMin}+</p>
+                  <p className="text-xs text-gray-500 mt-0.5">{rc.level} · {rc.duration}{rc.ieltsMin > 0 ? ` · IELTS ${rc.ieltsMin}+` : ''}</p>
                 </div>
                 <span className="text-brand-700 text-sm font-bold ml-4 flex-shrink-0">→</span>
               </Link>

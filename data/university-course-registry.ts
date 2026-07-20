@@ -308,6 +308,9 @@ export function findAlternativeCourses(
     if (slug === currentUniSlug || seenUnis.has(slug)) continue;
     for (const raw of courses as any[]) {
       const c = n(raw);
+      // Never suggest a course with no verified fee as a "compare"/"alternative"
+      // target — same annualINR > 0 gate used everywhere else on the site.
+      if (c.annualINR <= 0) continue;
       if (ieltsMax !== undefined && c.ieltsMin > ieltsMax) continue;
       const nameLower = c.name.toLowerCase();
       if (!fieldKeywords.some(kw => nameLower.includes(kw))) continue;

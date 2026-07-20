@@ -18,7 +18,7 @@ export async function generateMetadata(
   if (!c) return {};
   return buildMetadata({
     title: `${c.name} at Northeastern University — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${c.name} at Northeastern University, ${(c as any).city || c.country} costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${c.name} at Northeastern University, ${(c as any).city || c.country}${c.annualINR > 0 ? ` costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students.` : '.'}${c.ieltsMin > 0 ? ` IELTS ${c.ieltsMin}+,` : ''} intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/northeastern-university/courses/${slug}`,
   });
 }
@@ -53,9 +53,9 @@ export default async function CourseDetailPage(
               {[
                 { label: 'Duration', value: c.duration },
                 { label: 'Level', value: c.level },
-                { label: 'Annual Fee (USD)', value: '$${(c.annualUSD/1000).toFixed(0)}K' },
-                { label: 'Annual Fee (INR)', value: `₹${(c.annualINR/100000).toFixed(1)}L` },
-              ].map(s => (
+                c.annualUSD > 0 ? { label: 'Annual Fee (USD)', value: `$${(c.annualUSD/1000).toFixed(0)}K` } : null,
+                c.annualINR > 0 ? { label: 'Annual Fee (INR)', value: `₹${(c.annualINR/100000).toFixed(1)}L` } : null,
+              ].filter((s): s is { label: string; value: string } => s !== null).map(s => (
                 <div key={s.label} className="bg-brand-50 rounded-xl p-3 text-center">
                   <p className="text-lg font-bold text-brand-700">{s.value}</p>
                   <p className="text-xs text-gray-500 mt-1">{s.label}</p>
@@ -68,13 +68,13 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Admission Requirements</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                { label: 'IELTS', value: `${c.ieltsMin}+ overall` },
-                { label: 'TOEFL', value: `${c.toeflMin}+ iBT` },
-                { label: 'PTE', value: `${c.pteMin}+` },
+                c.ieltsMin > 0 ? { label: 'IELTS', value: `${c.ieltsMin}+ overall` } : null,
+                c.toeflMin > 0 ? { label: 'TOEFL', value: `${c.toeflMin}+ iBT` } : null,
+                (c.pteMin ?? 0) > 0 ? { label: 'PTE', value: `${c.pteMin}+` } : null,
                 { label: 'Intake', value: c.intakeMonths.join(' & ') },
-                { label: 'Living Cost', value: '~$${(c.livingCostUSD).toLocaleString()}/mo' },
+                c.livingCostUSD > 0 ? { label: 'Living Cost', value: `~$${(c.livingCostUSD).toLocaleString()}/mo` } : null,
                 { label: 'Work Rights', value: '20 hrs/wk (on-campus)' },
-              ].map(r => (
+              ].filter((r): r is { label: string; value: string } => r !== null).map(r => (
                 <div key={r.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{r.label}</p>
                   <p className="text-sm font-semibold text-gray-900">{r.value}</p>
@@ -83,12 +83,13 @@ export default async function CourseDetailPage(
             </div>
           </div>
 
+          {c.annualINR > 0 && (
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-lg font-bold text-gray-900 mb-4">Cost Summary (Full Course)</h2>
             <div className="space-y-3">
               {[
-                ['Tuition (Total)', '$${Math.round(c.totalUSD/1000)}K USD'],
-                ['Living Cost (Total)', '~$${Math.round(c.livingCostUSD*12*c.durationYears/1000)}K USD'],
+                ['Tuition (Total)', `$${Math.round(c.totalGBP/1000)}K USD`],
+                ['Living Cost (Total)', `~$${Math.round(c.livingCostUSD*12*c.durationYears/1000)}K USD`],
                 ['Approx. Total in INR', `≈ ₹${((c.annualINR * c.durationYears)/100000).toFixed(1)}L`],
               ].map(([k,v])=>(
                 <div key={k} className="flex justify-between items-center py-3 border-b border-gray-50 last:border-0">
@@ -98,6 +99,7 @@ export default async function CourseDetailPage(
               ))}
             </div>
           </div>
+          )}
 
 
           <CourseRichContent course={c as any} universityName="Northeastern University" universitySlug="northeastern-university" />

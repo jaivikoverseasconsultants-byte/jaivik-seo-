@@ -19,7 +19,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at University of East Anglia — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at University of East Anglia, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at University of East Anglia, ${(course as any).city || course.country}${course.annualINR > 0 ? ` costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students.` : '.'}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-east-anglia/courses/${slug}`,
     keywords: [course.name, 'UEA', 'University of East Anglia', 'study in UK', course.level],
   });
@@ -73,11 +73,11 @@ export default async function CoursePage(
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (GBP)', value: `£${course.annualGBP.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
-                  { label: 'IELTS Minimum', value: `${course.ieltsMin}+` },
+                  course.annualGBP > 0 ? { label: 'Annual Fee (GBP)', value: `£${course.annualGBP.toLocaleString()}` } : null,
+                  course.annualINR > 0 ? { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` } : null,
+                  course.ieltsMin > 0 ? { label: 'IELTS Minimum', value: `${course.ieltsMin}+` } : null,
                   { label: 'Duration', value: course.duration },
-                ].map(s => (
+                ].filter((s): s is { label: string; value: string } => s !== null).map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
                     <p className="text-lg font-bold">{s.value}</p>
                     <p className="text-xs text-blue-200 mt-1">{s.label}</p>
@@ -102,11 +102,11 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 { label: 'Campus', value: course.campus },
                 { label: 'Intakes', value: course.intakeMonths.join(' & ') },
-                { label: 'Annual Tuition (GBP)', value: `£${course.annualGBP.toLocaleString()}` },
-                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
-                { label: 'Living Cost (GBP)', value: `£${course.livingCostGBP.toLocaleString()}/yr` },
-                { label: 'Total Course Fee', value: `£${course.totalGBP.toLocaleString()}` },
-              ].map(f => (
+                course.annualGBP > 0 ? { label: 'Annual Tuition (GBP)', value: `£${course.annualGBP.toLocaleString()}` } : null,
+                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` } : null,
+                course.livingCostGBP > 0 ? { label: 'Living Cost (GBP)', value: `£${course.livingCostGBP.toLocaleString()}/yr` } : null,
+                course.totalGBP > 0 ? { label: 'Total Course Fee', value: `£${course.totalGBP.toLocaleString()}` } : null,
+              ].filter((f): f is { label: string; value: string } => f !== null).map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
                   <p className="text-sm font-semibold text-gray-900">{f.value}</p>
@@ -115,14 +115,15 @@ export default async function CoursePage(
             </div>
           </div>
 
+          {(course.ieltsMin > 0 || course.toeflMin > 0 || course.pteMin > 0) && (
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
             <div className="grid grid-cols-3 gap-4">
               {[
-                { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'No band below 5.5' },
-                { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 21+' },
-                { label: 'PTE Academic', value: `${course.pteMin}+`, sub: 'No band below 51' },
-              ].map(e => (
+                course.ieltsMin > 0 ? { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'No band below 5.5' } : null,
+                course.toeflMin > 0 ? { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 21+' } : null,
+                course.pteMin > 0 ? { label: 'PTE Academic', value: `${course.pteMin}+`, sub: 'No band below 51' } : null,
+              ].filter((e): e is { label: string; value: string; sub: string } => e !== null).map(e => (
                 <div key={e.label} className="bg-blue-50 rounded-xl p-4 text-center">
                   <p className="text-xl font-bold text-brand-700">{e.value}</p>
                   <p className="text-xs font-semibold text-gray-700 mt-1">{e.label}</p>
@@ -131,7 +132,9 @@ export default async function CoursePage(
               ))}
             </div>
           </div>
+          )}
 
+          {course.annualINR > 0 && (
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
             <div className="space-y-3">
@@ -148,6 +151,7 @@ export default async function CoursePage(
               ))}
             </div>
           </div>
+          )}
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">UK Student Visa & Work Rights</h2>

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
     title: `${course.name} at Dublin City University — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at Dublin City University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at Dublin City University, ${(course as any).city || course.country}${course.annualINR > 0 ? ` costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students.` : '.'}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/dublin-city-university/courses/${slug}`,
     keywords: [course.name, 'DCU', 'Dublin City University', 'study in Ireland', course.level],
   });
@@ -74,13 +74,13 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <h2 className="text-xl font-bold text-gray-900 mb-5">Program Overview</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {[
-                  { label: 'Annual Fee', value: `€${fee.toLocaleString()}`, sub: `₹${feeINRLakh}L/year` },
-                  { label: 'Total Fees', value: `€${totalFee.toLocaleString()}`, sub: `${course.durationYears} year(s)` },
-                  { label: 'IELTS', value: `${course.ieltsMin}+`, sub: `TOEFL ${course.toeflMin}+` },
+                  fee > 0 ? { label: 'Annual Fee', value: `€${fee.toLocaleString()}`, sub: `₹${feeINRLakh}L/year` } : null,
+                  totalFee > 0 ? { label: 'Total Fees', value: `€${totalFee.toLocaleString()}`, sub: `${course.durationYears} year(s)` } : null,
+                  course.ieltsMin > 0 ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: course.toeflMin > 0 ? `TOEFL ${course.toeflMin}+` : undefined } : null,
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Intake', value: (course.intakeMonths || []).join(' & '), sub: 'Annual' },
                   { label: 'Campus', value: 'Dublin', sub: 'Ireland' },
-                ].map(({ label, value, sub }) => (
+                ].filter((x): x is { label: string; value: string; sub: string | undefined } => x !== null).map(({ label, value, sub }) => (
                   <div key={label} className="bg-gray-50 rounded-xl p-4">
                     <div className="text-xs text-gray-500 mb-1">{label}</div>
                     <div className="font-bold text-gray-900">{value}</div>
@@ -108,14 +108,16 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <p className="text-blue-100 text-sm mb-4">Get free expert guidance</p>
               <Link href="/thank-you" className="block w-full bg-white text-brand-700 text-center font-bold py-3 rounded-xl hover:bg-blue-50 transition-colors">Apply Now – Free Guidance</Link>
             </div>
+            {(course.ieltsMin > 0 || course.toeflMin > 0 || (course.pteMin ?? 0) > 0) && (
             <div className="bg-white rounded-2xl border border-gray-100 p-5">
               <h3 className="font-bold text-gray-900 mb-3">Eligibility</h3>
               <div className="space-y-2 text-sm">
-                <div className="flex justify-between"><span className="text-gray-500">IELTS</span><span className="font-medium">{course.ieltsMin}+</span></div>
-                <div className="flex justify-between"><span className="text-gray-500">TOEFL</span><span className="font-medium">{course.toeflMin}+</span></div>
-                <div className="flex justify-between"><span className="text-gray-500">PTE</span><span className="font-medium">{course.pteMin}+</span></div>
+                {course.ieltsMin > 0 && <div className="flex justify-between"><span className="text-gray-500">IELTS</span><span className="font-medium">{course.ieltsMin}+</span></div>}
+                {course.toeflMin > 0 && <div className="flex justify-between"><span className="text-gray-500">TOEFL</span><span className="font-medium">{course.toeflMin}+</span></div>}
+                {(course.pteMin ?? 0) > 0 && <div className="flex justify-between"><span className="text-gray-500">PTE</span><span className="font-medium">{course.pteMin}+</span></div>}
               </div>
             </div>
+            )}
             <Link href="/universities/dublin-city-university/courses" className="flex items-center gap-2 text-brand-700 hover:text-brand-900 font-medium text-sm">← All DCU Courses</Link>
           </div>
         </div>

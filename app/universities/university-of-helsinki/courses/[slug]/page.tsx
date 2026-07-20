@@ -19,7 +19,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at University of Helsinki — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at University of Helsinki, Finland costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, September intake. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at University of Helsinki, Finland${course.annualINR > 0 ? ` costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students.` : '.'}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} September intake. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-helsinki/courses/${slug}`,
     keywords: [course.name, 'University of Helsinki', 'study in Finland', course.level],
   });
@@ -62,11 +62,11 @@ export default async function CourseDetailPage(
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Helsinki — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
                 {[
-                  { label: 'Annual Fee', value: `€${course.annualEUR.toLocaleString()}` },
-                  { label: 'Fee (INR)', value: `₹${feeINRLakh}L/yr` },
+                  course.annualEUR > 0 ? { label: 'Annual Fee', value: `€${course.annualEUR.toLocaleString()}` } : null,
+                  course.annualINR > 0 ? { label: 'Fee (INR)', value: `₹${feeINRLakh}L/yr` } : null,
                   { label: 'Duration', value: course.duration },
-                  { label: 'IELTS Min', value: `${course.ieltsMin}+` },
-                ].map(s => (
+                  course.ieltsMin > 0 ? { label: 'IELTS Min', value: `${course.ieltsMin}+` } : null,
+                ].filter((s): s is { label: string; value: string } => s !== null).map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
                     <p className="text-xl font-bold">{s.value}</p>
                     <p className="text-xs text-blue-200 mt-1">{s.label}</p>
@@ -86,19 +86,19 @@ export default async function CourseDetailPage(
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-lg font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-2 gap-4 text-sm">
-              {[
+              {([
                 ['University', 'University of Helsinki'],
                 ['Level', course.level],
                 ['Duration', course.duration],
                 ['Campus', course.campus],
                 ['Country', 'Finland'],
                 ['Intake', course.intakeMonths.join(' & ')],
-                ['IELTS Minimum', `${course.ieltsMin} overall`],
-                ['TOEFL Minimum', `${course.toeflMin}+`],
-                ['Annual Fee (EUR)', `€${course.annualEUR.toLocaleString()}`],
-                ['Annual Fee (USD)', `$${course.annualUSD.toLocaleString()}`],
-                ['Annual Fee (INR)', `₹${(course.annualINR/100000).toFixed(1)}L`],
-              ].map(([k, v]) => (
+                course.ieltsMin > 0 ? ['IELTS Minimum', `${course.ieltsMin} overall`] : null,
+                course.toeflMin > 0 ? ['TOEFL Minimum', `${course.toeflMin}+`] : null,
+                course.annualEUR > 0 ? ['Annual Fee (EUR)', `€${course.annualEUR.toLocaleString()}`] : null,
+                course.annualUSD > 0 ? ['Annual Fee (USD)', `$${course.annualUSD.toLocaleString()}`] : null,
+                course.annualINR > 0 ? ['Annual Fee (INR)', `₹${(course.annualINR/100000).toFixed(1)}L`] : null,
+              ] as ([string, string] | null)[]).filter((x): x is [string, string] => x !== null).map(([k, v]) => (
                 <div key={k} className="flex flex-col">
                   <span className="text-xs text-gray-500">{k}</span>
                   <span className="font-semibold text-gray-900 mt-0.5">{v}</span>
