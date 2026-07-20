@@ -86,6 +86,38 @@ Their university profile pages (where one existed) now render `UniversityCourses
 - **UI:** every remaining on-page display of these four fields (`visaApprovalRate`, `acceptanceRate`, `employmentRate`, `avgSalaryUSD`/`avgSalaryINR`) on the profile page — the Key Stats grid, the Alumni stats grid, the sidebar Quick Facts, the standalone "Average Graduate Salary" section, the visible (non-schema) FAQ accordion, and the `lib/content-gen.ts` prose paragraphs rendered on the same page — now carry a `~` prefix and/or a "(Est.)" label, plus a page-level footnote ("(Est.) figures are indicative estimates, not published institutional statistics..."). `components/CourseKeyFacts.tsx`'s course-page Career Outcomes stat cards got the same "(Est.)" treatment for consistency. Genuinely sourced fields (QS/THE ranking, founding year, city, student count, tuition, IELTS/TOEFL requirements) were left as plain facts — untouched.
 - Also fixed a latent bug surfaced while editing: the QS-ranking `FAQPage` question and the Key Stats "QS Ranking" card both rendered `#undefined` for the 7 universities added earlier today that have no QS World ranking (e.g. University of Chester) — the FAQ question is now skipped when `qsRanking` is unset, and the stat card shows "Unranked" instead.
 
+### Wave 4 — Bachelor's (UG) course addition to 14 existing REAL universities (2026-07-18 to 2026-07-20)
+
+Targeted the 54 REAL-registry universities that had 0 Bachelor's-level courses (all their existing REAL course data was Master's/PGCert/PGDip/LLM only). Ran an overnight, generic, unattended crawler (`scripts/overnight-crawl.js` — sitemap parse → Wayback CDX → Puppeteer link-scrape fallback, per-course detail fetch, degree-award-token + PhD-exclusion + HTTP-status validation filters) against all 54, then manually spot-checked and cleaned the output before integrating anything. **Method note: this was a generic multi-fallback crawl per university, not a bespoke per-institution crawl script like Waves 1-3** — see `crawl-logs/overnight-2026-07-18.log`/`overnight-2026-07-20.log` for the full run history, including two rounds of bug fixes after the first pass produced contaminated data (nav pages, HTTP-error-page titles, home-fee-not-international-fee amounts — all documented in those logs and in BUILD-LOG.md).
+
+Of the 54 targeted, 17 produced usable UG course pages; after manual quality review (checking for application-guide/portfolio-page/student-work-gallery junk, apprenticeships not open to international students, PhD-mislabelled entries, and duplicates), **14 were integrated, 3 were fully rejected**:
+
+- **Rejected outright (0 usable UG courses):** Anglia Ruskin University (15 candidates, 100% were Cambridge School of Art "student work" showcase/gallery pages, not course pages), University of Portsmouth (7 candidates, 100% were creative-course portfolio/video-submission application guides), University of Sheffield (1 candidate, a broken library-catalogue placeholder entry unrelated to any course).
+- **Integrated (474 UG courses total added across 14 universities' existing REAL course-data files — registry entries unchanged, since all 14 already had a REGISTRY mapping from their existing Master's-level data):**
+
+| University | UG added | Dropped (reason) |
+|---|---|---|
+| Dublin City University | 12 | 1 exact duplicate (same orientation page, 2 academic years) |
+| Kaplan Business School | 2 | 0 |
+| Liverpool John Moores University | 50 | 0 |
+| Middlesex University | 47 | 0 |
+| Northeastern University | 56 | 3 PhD-mislabelled "bachelor's-degree-entrance-PhD" pathway pages (removed in an earlier cleanup pass) |
+| Royal Holloway, University of London | 57 | 3 PhD-mislabelled entries + duplicates (removed in an earlier cleanup pass) |
+| Swinburne University of Technology | 32 | ~28 duplicates (same course reachable via multiple campus/intake URL variants — removed in an earlier cleanup pass) |
+| University of Bristol | 34 | 0 |
+| University of Derby | 27 | 0 |
+| University of East Anglia | 59 | 0 |
+| University of Helsinki | 5 | 12 nav/generic pages ("Apply to Bachelor's programmes", faculty-level generic listing pages, an orientation blog post, a thesis-examples page) + locale-duplicate URLs of the same programme (fi/sv/en versions of the same page) |
+| University of Manchester | 41 | 2 exact duplicates (same course code, two URL aliases) |
+| University of Roehampton | 3 | 1 application-support page ("interview support", not a course) |
+| University of Sunderland | 51 | 9 Degree Apprenticeship programmes (real UK courses, but apprenticeships require existing UK employer sponsorship and are not available to international students at all) + 2 near-duplicate URL variants |
+
+**Fees are zero/unverified for every one of these 474 new entries, by design — not a data gap to be filled casually later.** An earlier pass of this same crawl extracted a fee for 64 courses across 3 of these universities (Bristol, UEA, Sunderland); live re-verification found 63 of the 64 were the UK **home**-student fee, not the international fee international students actually pay (e.g. Bristol's real international fee for BA History is £28,200; the crawler had extracted the £9,790 home fee sitting a few words away in the same "Home students £X / International students £Y" sentence). All 64 were reset to null in the source crawl files and 0 in the integrated registry entries — `annualINR > 0` is the existing site-wide convention for "has a verified fee," so these new courses correctly stay out of every fee-filtered view (cheapest hubs, budget bands, cost pillars, subject pillars) until a real per-course international fee is separately verified. Duration is similarly 0/"Not specified" wherever the crawl didn't confidently extract it (roughly half of Northeastern's and all of Dublin City University's new entries) rather than assuming a default — this also means those specific entries won't appear in any duration-dependent content (e.g. PSW-eligibility sections).
+
+**Pre-existing, unrelated data-quality issues surfaced but NOT fixed in this wave (out of scope, flagging for a future task):** Northeastern's and Swinburne's *existing* Master's-level course data (crawled well before this session) both have duplicate-slug entries from their original crawl — e.g. Swinburne has 6 different "courses" (`Student visas`, `Enrolling`, `Orientation`, `Swinburne intakes`, `Study levels and options`, `Course delivery options`) all sharing the literal slug `swinburne-` (clearly nav-page contamination from that original crawl), and Northeastern has 3 slugs each shared by 2-4 different "Postgraduate" entries. Confirmed via direct inspection that none of this session's new UG entries are involved — these are 100% pre-existing rows, untouched by this task.
+
+Also see `data/english-requirements-verified.ts` (same overnight-crawl effort, separate JOB) — 8 of 103 universities now have a manually-verified IELTS/PTE/TOEFL requirement, wired into the IELTS band hubs and those 8 universities' own profile pages.
+
 ### Wave 3 real-data replacement (2026-07-09)
 
 Targeted the 6 highest GSC-demand universities not yet REAL: australian-national-university, university-of-queensland, edith-cowan-university, flinders-university, university-of-suffolk, massey-university. Of these, University of Queensland (120 courses), Flinders University (338 courses), and University of Suffolk (40 courses) were already correctly classified REAL from prior work — each re-verified with a live 200 fetch of a sample course URL, no changes needed. The remaining 3 were CURATED and crawled genuinely fresh:

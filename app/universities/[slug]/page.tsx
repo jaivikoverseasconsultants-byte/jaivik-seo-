@@ -9,6 +9,8 @@ import { getCoursesBySlug, getAllRealCourses } from '@/data/university-course-re
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import VerifiedEnglishRequirements from '@/components/VerifiedEnglishRequirements';
+import { englishReqsVerified } from '@/data/english-requirements-verified';
 import { buildMetadata, formatINR, formatUSD, authorPersonSchema } from '@/lib/seo';
 import { fetchUnsplashImage, fetchUnsplashImages } from '@/lib/unsplash';
 import { generateUniversityAbout, generateWhyIndianStudents, generateApplicationProcess, generateNotableAlumni } from '@/lib/content-gen';
@@ -42,6 +44,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   const u = found;
   const officialWebsite = u.website || universityWebsites[u.slug];
   const uniCourses = getCoursesBySlug(u.slug);
+  const verifiedEnglishReq = englishReqsVerified.find(r => r.universitySlug === u.slug);
 
   // Decision-hub cross-links — normalize u.country to the same country
   // strings getAllRealCourses() uses (data/universities.ts mixes "UK"/
@@ -141,6 +144,14 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           text: `${u.name} offers intake in ${u.intakeMonths.join(' and ')} each year.`,
         },
       },
+      ...(verifiedEnglishReq ? [{
+        '@type': 'Question',
+        name: `What IELTS score does ${u.name} require?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `We manually verified ${u.name}'s English language requirement against its own official page: IELTS ${verifiedEnglishReq.ieltsOverall} overall${verifiedEnglishReq.sectionRule ? `, ${verifiedEnglishReq.sectionRule}` : ''} (${verifiedEnglishReq.scope}). Verified ${verifiedEnglishReq.verifiedDate}. Always confirm on the university's own site before booking your test, as requirements can change by intake.`,
+        },
+      }] : []),
     ],
   };
 
@@ -629,6 +640,17 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 </div>
                 <div className="text-6xl">💼</div>
               </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Verified English requirement — only for universities we've manually checked */}
+      {verifiedEnglishReq && (
+        <section className="bg-white py-8 px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="max-w-2xl">
+              <VerifiedEnglishRequirements rows={[verifiedEnglishReq]} heading={`Verified English Requirement for ${u.shortName}`} />
             </div>
           </div>
         </section>

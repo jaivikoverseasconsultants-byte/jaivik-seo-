@@ -166,7 +166,9 @@ export const kaplanCourses = [
     "state": "New South Wales",
     "city": "Sydney",
     "countryCode": "AU"
-  }
+  },
+  {"id":"kaplan-6","name":"Bachelor of Business","slug":"kaplan-ug-bachelor-of-business","url":"https://www.kbs.edu.au/courses/bachelor-of-business","level":"Bachelor of Business","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["January","April","July","October"],"campus":"Sydney Campus","country":"Australia","state":"New South Wales","city":"Sydney","countryCode":"AU","annualAUD":0,"annualUSD":0,"annualINR":0,"totalAUD":0,"livingCostAUD":0,"livingCostUSD":0,"livingCostINR":0},
+  {"id":"kaplan-7","name":"Bachelor of Business (Accounting)","slug":"kaplan-ug-bachelor-of-business-accounting","url":"https://www.kbs.edu.au/courses/bachelor-of-business-accounting","level":"Bachelor of Business","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["January","April","July","October"],"campus":"Sydney Campus","country":"Australia","state":"New South Wales","city":"Sydney","countryCode":"AU","annualAUD":0,"annualUSD":0,"annualINR":0,"totalAUD":0,"livingCostAUD":0,"livingCostUSD":0,"livingCostINR":0}
 ] as const;
 
 export function getKaplanCoursesBySlug(slug: string) {

@@ -2,15 +2,18 @@ import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import GuideRelatedLinks from '@/components/GuideRelatedLinks';
+import VerifiedEnglishRequirements from '@/components/VerifiedEnglishRequirements';
 import { authorPersonSchema } from '@/lib/seo';
 import type { IeltsBandGuide } from '@/data/ielts-band-guides';
 import { IELTS_BAND_GUIDES } from '@/data/ielts-band-guides';
+import { englishReqsVerified } from '@/data/english-requirements-verified';
 import {
   COMMON_COUNTRY_HUB_LINKS, SUBJECT_PILLAR_LINKS, COST_PILLAR_LINKS, CHEAPEST_HUB_LINKS,
 } from '@/data/fear-cluster-guides';
 
 export default function IeltsBandHub({ guide }: { guide: IeltsBandGuide }) {
   const otherBands = IELTS_BAND_GUIDES.filter(g => g.slug !== guide.slug);
+  const verifiedForBand = englishReqsVerified.filter(r => r.ieltsOverall === guide.band);
 
   const faqs = [
     {
@@ -27,7 +30,9 @@ export default function IeltsBandHub({ guide }: { guide: IeltsBandGuide }) {
     },
     {
       q: `Which specific universities accept IELTS ${guide.bandLabel}?`,
-      a: 'We don\'t publish a per-university list here — exact IELTS requirements vary by university and by course, and change by intake, which makes a centrally-verified list impractical to maintain honestly. The real way to find out is to check the requirements page of your specific shortlisted course, or ask a counsellor who can check current requirements for you.',
+      a: verifiedForBand.length > 0
+        ? `We've manually verified ${verifiedForBand.length} universit${verifiedForBand.length === 1 ? 'y' : 'ies'} whose IELTS ${guide.bandLabel} requirement we checked directly against their own official page — see the "Verified English Requirements" section below for the full list with sources. Beyond that small verified set, exact requirements vary by university and course and change by intake, so we don't publish a broader centrally-verified list — check your specific shortlisted course's own page, or ask a counsellor.`
+        : 'We don\'t publish a per-university list here — exact IELTS requirements vary by university and by course, and change by intake, which makes a centrally-verified list impractical to maintain honestly. The real way to find out is to check the requirements page of your specific shortlisted course, or ask a counsellor who can check current requirements for you.',
     },
   ];
 
@@ -67,9 +72,23 @@ export default function IeltsBandHub({ guide }: { guide: IeltsBandGuide }) {
             estimate applied during data collection, not an independently verified per-course crawl — so we&apos;ve
             removed that list rather than keep presenting it as verified fact. Exact IELTS requirements vary by
             university and course — verify on the university&apos;s own course page, or ask our counsellors, before
-            relying on any specific number.
+            relying on any specific number. Below, we&apos;re rebuilding a small list the honest way — one university
+            at a time, each one checked by hand against its own official page.
           </p>
         </div>
+
+        {verifiedForBand.length > 0 ? (
+          <VerifiedEnglishRequirements rows={verifiedForBand} />
+        ) : (
+          <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+            <h2 className="text-xl font-bold text-gray-900 mb-2">✓ Verified English Requirements</h2>
+            <p className="text-sm text-gray-700 leading-relaxed">
+              We haven&apos;t manually verified any university&apos;s IELTS {guide.bandLabel} requirement yet — this
+              list is growing as we check more universities directly against their official pages, one at a time.
+              Check back, or ask a counsellor for a current, exact requirement in the meantime.
+            </p>
+          </div>
+        )}
 
         <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
           <h2 className="text-xl font-bold text-gray-900 mb-3">What Does IELTS {guide.bandLabel} Overall Mean?</h2>
