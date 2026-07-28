@@ -37,4 +37,8 @@ Thumbs.db
 scripts/overnight-run.log
 scripts/*.log
 
+# Raw crawl output / scratch data -- not imported by any page, dev-time only
+crawl-logs/
+data/ug-crawl/
+
 .vercel

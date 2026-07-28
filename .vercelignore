@@ -2,3 +2,28 @@ leads/
 .next/
 node_modules/
 *.log
+
+# Stale local build output -- Vercel builds fresh remotely, this should
+# never be uploaded (was the entire 785MB/4.6GB bloat source: 42,647 files
+# from a leftover local `npm run build`/`next export` run). Gitignored via
+# /out/ in .gitignore, but .vercelignore's mere presence disables Vercel's
+# fallback to .gitignore, so it must be listed explicitly here too.
+/out/
+/build
+
+# Local env/config -- never needed in the deploy archive (Vercel builds use
+# dashboard-configured env vars, not the local .env.local file), and
+# uploading them is a real secrets-exposure risk, not just bloat.
+.env
+.env*.local
+.vercel
+
+# Build/type-check caches and generated-at-build-time files -- regenerated
+# fresh on every build, no reason to upload the stale local copy.
+*.tsbuildinfo
+next-env.d.ts
+public/search-index.json
+
+# Raw crawl output / scratch data -- not imported by any page, dev-time only.
+crawl-logs/
+data/ug-crawl/
