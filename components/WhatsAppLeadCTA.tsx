@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { trackEvent } from '@/lib/analytics';
 
 interface WhatsAppLeadCTAProps {
   /** Contextual headline, e.g. "Get UK Universities Matching Your Budget on WhatsApp" */
@@ -28,6 +29,12 @@ export default function WhatsAppLeadCTA({ headline, context, source }: WhatsAppL
     const message = `Hi Jaivik Overseas! I'm ${name} (${phone}). I'm interested in: ${context}. Please send me a personalised shortlist.`;
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
     setSubmitted(true);
+
+    trackEvent('whatsapp_lead_submit', {
+      page_path: typeof window !== 'undefined' ? window.location.pathname : '',
+      topic: context,
+      source_page: source,
+    });
 
     fetch(FORMSPREE_ENDPOINT, {
       method: 'POST',

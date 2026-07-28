@@ -33,11 +33,13 @@ const nextConfig = {
             key: "Content-Security-Policy",
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://www.google.com https://apis.google.com",
+              // https://www.googletagmanager.com serves GA4's gtag.js loader (measurement ID G-6NKH1JP37G, app/layout.tsx) -- not an actual GTM container.
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.gstatic.com https://www.google.com https://apis.google.com https://www.googletagmanager.com",
               "style-src 'self' 'unsafe-inline'",
               "img-src 'self' data: blob: https:",
               "font-src 'self' data:",
-              "connect-src 'self' https://*.googleapis.com https://*.firebaseapp.com wss://*.firebaseio.com https://*.firebaseio.com https://formspree.io",
+              // https://*.google-analytics.com covers www.google-analytics.com and region-specific hosts (e.g. region1.google-analytics.com).
+              "connect-src 'self' https://*.googleapis.com https://*.firebaseapp.com wss://*.firebaseio.com https://*.firebaseio.com https://formspree.io https://www.googletagmanager.com https://*.google-analytics.com https://analytics.google.com",
               "frame-src 'self' https://*.firebaseapp.com https://www.google.com https://accounts.google.com",
               "object-src 'none'",
             ].join('; '),
