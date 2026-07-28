@@ -34,6 +34,10 @@ export default function WhatsAppLeadCTA({ headline, context, source }: WhatsAppL
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
       body: JSON.stringify({
         _subject: `WhatsApp Lead — ${context}`,
+        // This form has no email field (deliberately short — name + phone only),
+        // but Formspree silently 400s any submission missing _replyto, so a
+        // fixed placeholder is required for the submission to go through at all.
+        _replyto: 'whatsapp-lead@jaivikoverseasconsultants.com',
         name,
         phone,
         'Interested In': context,
