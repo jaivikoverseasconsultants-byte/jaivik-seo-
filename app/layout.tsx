@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ExitIntentPopup from '@/components/ExitIntentPopup';
 import NoRightClick from '@/components/NoRightClick';
+import StickyWhatsAppBar from '@/components/StickyWhatsAppBar';
 import { AuthProvider } from '@/lib/auth-context';
 
 // Self-hosted via next/font (build-time download, no runtime request to
@@ -67,14 +68,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <ExitIntentPopup />
           <NoRightClick />
+          <StickyWhatsAppBar />
 
-          {/* Floating WhatsApp button */}
+          {/* Floating WhatsApp button — desktop only; StickyWhatsAppBar covers mobile (~80% of traffic) */}
           <a
             href="https://wa.me/919971226347?text=Hi%2C%20I%20found%20your%20study%20abroad%20portal%20and%20need%20guidance"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Chat on WhatsApp"
-            className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-xl transition-transform hover:scale-110"
+            className="hidden md:flex fixed bottom-6 right-6 z-50 items-center justify-center w-14 h-14 rounded-full shadow-xl transition-transform hover:scale-110"
             style={{ backgroundColor: '#25D366' }}
           >
             <svg viewBox="0 0 24 24" className="w-7 h-7" fill="white">

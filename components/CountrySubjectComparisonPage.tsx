@@ -5,6 +5,7 @@ import { CHEAPEST_COUNTRY_SLUGS, PSW_COUNTRY_SLUGS, COUNTRY_FLAGS } from '@/lib/
 import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 
 export default function CountrySubjectComparisonPage({ data }: { data: CountrySubjectComparisonData }) {
   const { parsed, sideA, sideB, costA, costB, pswA, pswB } = data;
@@ -172,15 +173,11 @@ export default function CountrySubjectComparisonPage({ data }: { data: CountrySu
         </div>
       </div>
 
-      <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Still Deciding Between {nameA} and {nameB}?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students compare real courses, fees, and outcomes across countries.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
-      </div>
+      <WhatsAppLeadCTA
+        headline={`Get ${pillar.name}: ${nameA} vs ${nameB} Shortlist on WhatsApp`}
+        context={`${pillar.name} — ${nameA} vs ${nameB}`}
+        source={`compare-country-subject-${parsed.slug}`}
+      />
 
       <div className="mt-6">
         <VerifiedBy />

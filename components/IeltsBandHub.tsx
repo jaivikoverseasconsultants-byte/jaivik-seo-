@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import GuideRelatedLinks from '@/components/GuideRelatedLinks';
 import VerifiedEnglishRequirements from '@/components/VerifiedEnglishRequirements';
 import { authorPersonSchema } from '@/lib/seo';
@@ -146,16 +147,11 @@ export default function IeltsBandHub({ guide }: { guide: IeltsBandGuide }) {
           </div>
         </div>
 
-        <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
-          <h2 className="text-xl font-bold mb-2">Not Sure Your IELTS Score Is Enough?</h2>
-          <p className="text-blue-200 text-sm mb-4">
-            Book a free counselling session — our counsellors will check your exact score against real, current
-            course requirements.
-          </p>
-          <Link href="/book-counselling" className="btn-gold inline-block">
-            Get Free Guidance →
-          </Link>
-        </div>
+        <WhatsAppLeadCTA
+          headline={`Get Your IELTS ${guide.bandLabel} University List on WhatsApp`}
+          context={`IELTS ${guide.bandLabel}`}
+          source={`ielts-band-${guide.slug}`}
+        />
 
         <VerifiedBy />
       </div>

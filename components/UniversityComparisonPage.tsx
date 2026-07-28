@@ -6,6 +6,7 @@ import { CHEAPEST_COUNTRY_SLUGS, PSW_COUNTRY_SLUGS } from '@/lib/subject-pillars
 import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 
 export default function UniversityComparisonPage({ data }: { data: UniversityComparisonData }) {
   const { pair, sideA, sideB, sameCity, cityCostOfLiving } = data;
@@ -196,15 +197,11 @@ export default function UniversityComparisonPage({ data }: { data: UniversityCom
         </div>
       </div>
 
-      <div className="bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Still Deciding Between {nameA} and {nameB}?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students compare real courses, fees, and outcomes to pick the right fit.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
-      </div>
+      <WhatsAppLeadCTA
+        headline={`Get a Personalised ${nameA} vs ${nameB} Comparison on WhatsApp`}
+        context={`${nameA} vs ${nameB}`}
+        source={`compare-university-${pair.slug}`}
+      />
 
       <div className="mt-6">
         <VerifiedBy />

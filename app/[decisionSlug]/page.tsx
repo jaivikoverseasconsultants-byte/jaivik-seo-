@@ -6,6 +6,7 @@ import { getAllRealCourses, type RealCourseEntry } from '@/data/university-cours
 import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import { authorPersonSchema } from '@/lib/seo';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 import {
@@ -309,14 +310,12 @@ function CheapestView({ country }: { country: string }) {
         </div>
       </div>
 
-      <div className="mt-8 bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Planning Your Budget for {country}?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students find affordable, real, accredited programmes that fit their budget.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
+      <div className="mt-8">
+        <WhatsAppLeadCTA
+          headline={`Get the Cheapest ${country} Universities List on WhatsApp`}
+          context={`Cheapest universities in ${country}`}
+          source={`cheapest-${countrySlug}`}
+        />
       </div>
 
       <div className="mt-6">
@@ -480,14 +479,12 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
         </div>
       </div>
 
-      <div className="mt-8 bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Need Help Picking Within Your Budget?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students shortlist real, affordable programmes that fit their exact budget.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
+      <div className="mt-8">
+        <WhatsAppLeadCTA
+          headline={`Get ${country} Universities Under ₹${band}L on WhatsApp`}
+          context={`${country} under ₹${band}L`}
+          source={`budget-${countrySlug}-${band}l`}
+        />
       </div>
 
       <div className="mt-6">

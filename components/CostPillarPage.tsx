@@ -7,6 +7,7 @@ import {
 import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 
 export default function CostPillarPage({ config }: { config: CostPillarConfig }) {
   const tuition = getTuitionStats(config.registryCountry);
@@ -227,14 +228,12 @@ export default function CostPillarPage({ config }: { config: CostPillarConfig })
         </div>
       )}
 
-      <div className="mt-8 bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Planning Your Budget for {config.displayName}?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students plan a realistic total budget and find affordable, real, accredited programmes.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
+      <div className="mt-8">
+        <WhatsAppLeadCTA
+          headline={`Get ${config.displayName} Universities Matching Your Budget on WhatsApp`}
+          context={`Cost of studying in ${config.displayName}`}
+          source={`cost-pillar-${config.slug}`}
+        />
       </div>
 
       <div className="mt-6">

@@ -8,6 +8,7 @@ import { getCostPillarForCountry } from '@/data/cost-pillars';
 import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 
 const CHEAPEST_ROWS_SHOWN = 20;
 const ROWS_PER_COUNTRY = 30;
@@ -252,14 +253,12 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
         </div>
       </div>
 
-      <div className="mt-8 bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Planning a {config.name} Abroad?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students shortlist real, accredited {config.introLabel} programmes that fit their budget and goals.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
+      <div className="mt-8">
+        <WhatsAppLeadCTA
+          headline={`Get ${config.name} Programmes Matching Your Profile on WhatsApp`}
+          context={config.name}
+          source={`subject-pillar-${config.slug}`}
+        />
       </div>
 
       <div className="mt-6">

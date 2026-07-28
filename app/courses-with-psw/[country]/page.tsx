@@ -8,6 +8,7 @@ import { pswDetails } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 
 // Only countries lib/course-faqs.ts's pswDetails() actually computes a real
@@ -242,14 +243,12 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
         </div>
       </div>
 
-      <div className="mt-8 bg-brand-700 rounded-2xl p-6 text-white text-center">
-        <h2 className="text-xl font-bold mb-2">Want a PR Pathway After Your Degree?</h2>
-        <p className="text-blue-200 text-sm mb-4">
-          Book a free counselling session — our advisors help Indian students pick programmes with real post-study work and PR pathways.
-        </p>
-        <Link href="/book-counselling" className="btn-gold inline-block">
-          Get Free Guidance →
-        </Link>
+      <div className="mt-8">
+        <WhatsAppLeadCTA
+          headline={`Get ${country} Courses with Post-Study Work Rights on WhatsApp`}
+          context={`${country} PSW courses`}
+          source={`psw-${COUNTRY_SLUGS[country]}`}
+        />
       </div>
 
       <div className="mt-6">
