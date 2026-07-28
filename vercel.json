@@ -3,8 +3,14 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "geolocation=(), camera=(), microphone=()" }
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(), camera=(), microphone=()"
+        }
       ]
     }
   ],
@@ -812,6 +818,3516 @@
     {
       "source": "/universities/charles-darwin-university/courses/cdu-medicine",
       "destination": "/universities/charles-darwin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mit-massachusetts/courses",
+      "destination": "/universities/mit-massachusetts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mit-massachusetts/courses/:path*",
+      "destination": "/universities/mit-massachusetts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stanford-university/courses",
+      "destination": "/universities/stanford-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stanford-university/courses/:path*",
+      "destination": "/universities/stanford-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/harvard-university/courses",
+      "destination": "/universities/harvard-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/harvard-university/courses/:path*",
+      "destination": "/universities/harvard-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uc-berkeley/courses",
+      "destination": "/universities/uc-berkeley",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uc-berkeley/courses/:path*",
+      "destination": "/universities/uc-berkeley",
+      "permanent": true
+    },
+    {
+      "source": "/universities/carnegie-mellon-university/courses",
+      "destination": "/universities/carnegie-mellon-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/carnegie-mellon-university/courses/:path*",
+      "destination": "/universities/carnegie-mellon-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/georgia-tech/courses",
+      "destination": "/universities/georgia-tech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/georgia-tech/courses/:path*",
+      "destination": "/universities/georgia-tech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/arizona-state-university/courses",
+      "destination": "/universities/arizona-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/arizona-state-university/courses/:path*",
+      "destination": "/universities/arizona-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-oxford/courses",
+      "destination": "/universities/university-of-oxford",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-oxford/courses/:path*",
+      "destination": "/universities/university-of-oxford",
+      "permanent": true
+    },
+    {
+      "source": "/universities/imperial-college-london/courses",
+      "destination": "/universities/imperial-college-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/imperial-college-london/courses/:path*",
+      "destination": "/universities/imperial-college-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brunel-university-london/courses",
+      "destination": "/universities/brunel-university-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brunel-university-london/courses/:path*",
+      "destination": "/universities/brunel-university-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-windsor/courses",
+      "destination": "/universities/university-of-windsor",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-windsor/courses/:path*",
+      "destination": "/universities/university-of-windsor",
+      "permanent": true
+    },
+    {
+      "source": "/universities/trent-university/courses",
+      "destination": "/universities/trent-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/trent-university/courses/:path*",
+      "destination": "/universities/trent-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/conestoga-college/courses",
+      "destination": "/universities/conestoga-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/conestoga-college/courses/:path*",
+      "destination": "/universities/conestoga-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/humber-college/courses",
+      "destination": "/universities/humber-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/humber-college/courses/:path*",
+      "destination": "/universities/humber-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sheridan-college/courses",
+      "destination": "/universities/sheridan-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sheridan-college/courses/:path*",
+      "destination": "/universities/sheridan-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/george-brown-college/courses",
+      "destination": "/universities/george-brown-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/george-brown-college/courses/:path*",
+      "destination": "/universities/george-brown-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/algonquin-college/courses",
+      "destination": "/universities/algonquin-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/algonquin-college/courses/:path*",
+      "destination": "/universities/algonquin-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mohawk-college/courses",
+      "destination": "/universities/mohawk-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mohawk-college/courses/:path*",
+      "destination": "/universities/mohawk-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/thompson-rivers-university/courses",
+      "destination": "/universities/thompson-rivers-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/thompson-rivers-university/courses/:path*",
+      "destination": "/universities/thompson-rivers-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-northern-bc/courses",
+      "destination": "/universities/university-of-northern-bc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-northern-bc/courses/:path*",
+      "destination": "/universities/university-of-northern-bc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/capilano-university/courses",
+      "destination": "/universities/capilano-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/capilano-university/courses/:path*",
+      "destination": "/universities/capilano-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sait/courses",
+      "destination": "/universities/sait",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sait/courses/:path*",
+      "destination": "/universities/sait",
+      "permanent": true
+    },
+    {
+      "source": "/universities/concordia-university-edmonton/courses",
+      "destination": "/universities/concordia-university-edmonton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/concordia-university-edmonton/courses/:path*",
+      "destination": "/universities/concordia-university-edmonton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/acadia-university/courses",
+      "destination": "/universities/acadia-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/acadia-university/courses/:path*",
+      "destination": "/universities/acadia-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cape-breton-university/courses",
+      "destination": "/universities/cape-breton-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cape-breton-university/courses/:path*",
+      "destination": "/universities/cape-breton-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-regina/courses",
+      "destination": "/universities/university-of-regina",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-regina/courses/:path*",
+      "destination": "/universities/university-of-regina",
+      "permanent": true
+    },
+    {
+      "source": "/universities/saskatchewan-polytechnic/courses",
+      "destination": "/universities/saskatchewan-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/saskatchewan-polytechnic/courses/:path*",
+      "destination": "/universities/saskatchewan-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/seneca-polytechnic/courses",
+      "destination": "/universities/seneca-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/seneca-polytechnic/courses/:path*",
+      "destination": "/universities/seneca-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fanshawe-college/courses",
+      "destination": "/universities/fanshawe-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fanshawe-college/courses/:path*",
+      "destination": "/universities/fanshawe-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/durham-college/courses",
+      "destination": "/universities/durham-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/durham-college/courses/:path*",
+      "destination": "/universities/durham-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/georgian-college/courses",
+      "destination": "/universities/georgian-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/georgian-college/courses/:path*",
+      "destination": "/universities/georgian-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fleming-college/courses",
+      "destination": "/universities/fleming-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fleming-college/courses/:path*",
+      "destination": "/universities/fleming-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lambton-college/courses",
+      "destination": "/universities/lambton-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lambton-college/courses/:path*",
+      "destination": "/universities/lambton-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/centennial-college/courses",
+      "destination": "/universities/centennial-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/centennial-college/courses/:path*",
+      "destination": "/universities/centennial-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cambrian-college/courses",
+      "destination": "/universities/cambrian-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cambrian-college/courses/:path*",
+      "destination": "/universities/cambrian-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/st-clair-college/courses",
+      "destination": "/universities/st-clair-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/st-clair-college/courses/:path*",
+      "destination": "/universities/st-clair-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/canadore-college/courses",
+      "destination": "/universities/canadore-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/canadore-college/courses/:path*",
+      "destination": "/universities/canadore-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/niagara-college/courses",
+      "destination": "/universities/niagara-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/niagara-college/courses/:path*",
+      "destination": "/universities/niagara-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sault-college/courses",
+      "destination": "/universities/sault-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sault-college/courses/:path*",
+      "destination": "/universities/sault-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/loyalist-college/courses",
+      "destination": "/universities/loyalist-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/loyalist-college/courses/:path*",
+      "destination": "/universities/loyalist-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lakehead-university/courses",
+      "destination": "/universities/lakehead-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lakehead-university/courses/:path*",
+      "destination": "/universities/lakehead-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses",
+      "destination": "/universities/toronto-metropolitan-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/:path*",
+      "destination": "/universities/toronto-metropolitan-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses",
+      "destination": "/universities/york-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/:path*",
+      "destination": "/universities/york-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ontario-tech-university/courses",
+      "destination": "/universities/ontario-tech-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ontario-tech-university/courses/:path*",
+      "destination": "/universities/ontario-tech-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brock-university/courses",
+      "destination": "/universities/brock-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brock-university/courses/:path*",
+      "destination": "/universities/brock-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/wilfrid-laurier-university/courses",
+      "destination": "/universities/wilfrid-laurier-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/wilfrid-laurier-university/courses/:path*",
+      "destination": "/universities/wilfrid-laurier-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kwantlen-polytechnic-university/courses",
+      "destination": "/universities/kwantlen-polytechnic-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kwantlen-polytechnic-university/courses/:path*",
+      "destination": "/universities/kwantlen-polytechnic-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/vancouver-community-college/courses",
+      "destination": "/universities/vancouver-community-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/vancouver-community-college/courses/:path*",
+      "destination": "/universities/vancouver-community-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/langara-college/courses",
+      "destination": "/universities/langara-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/langara-college/courses/:path*",
+      "destination": "/universities/langara-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/douglas-college/courses",
+      "destination": "/universities/douglas-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/douglas-college/courses/:path*",
+      "destination": "/universities/douglas-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/okanagan-college/courses",
+      "destination": "/universities/okanagan-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/okanagan-college/courses/:path*",
+      "destination": "/universities/okanagan-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/royal-roads-university/courses",
+      "destination": "/universities/royal-roads-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/royal-roads-university/courses/:path*",
+      "destination": "/universities/royal-roads-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-canada-west/courses",
+      "destination": "/universities/university-canada-west",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-canada-west/courses/:path*",
+      "destination": "/universities/university-canada-west",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macewan-university/courses",
+      "destination": "/universities/macewan-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/macewan-university/courses/:path*",
+      "destination": "/universities/macewan-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-lethbridge/courses",
+      "destination": "/universities/university-of-lethbridge",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-lethbridge/courses/:path*",
+      "destination": "/universities/university-of-lethbridge",
+      "permanent": true
+    },
+    {
+      "source": "/universities/bow-valley-college/courses",
+      "destination": "/universities/bow-valley-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/bow-valley-college/courses/:path*",
+      "destination": "/universities/bow-valley-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-winnipeg/courses",
+      "destination": "/universities/university-of-winnipeg",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-winnipeg/courses/:path*",
+      "destination": "/universities/university-of-winnipeg",
+      "permanent": true
+    },
+    {
+      "source": "/universities/red-river-college-polytechnic/courses",
+      "destination": "/universities/red-river-college-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/red-river-college-polytechnic/courses/:path*",
+      "destination": "/universities/red-river-college-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/memorial-university/courses",
+      "destination": "/universities/memorial-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/memorial-university/courses/:path*",
+      "destination": "/universities/memorial-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses",
+      "destination": "/universities/university-of-new-brunswick",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/:path*",
+      "destination": "/universities/university-of-new-brunswick",
+      "permanent": true
+    },
+    {
+      "source": "/universities/upei/courses",
+      "destination": "/universities/upei",
+      "permanent": true
+    },
+    {
+      "source": "/universities/upei/courses/:path*",
+      "destination": "/universities/upei",
+      "permanent": true
+    },
+    {
+      "source": "/universities/niagara-university-ontario/courses",
+      "destination": "/universities/niagara-university-ontario",
+      "permanent": true
+    },
+    {
+      "source": "/universities/niagara-university-ontario/courses/:path*",
+      "destination": "/universities/niagara-university-ontario",
+      "permanent": true
+    },
+    {
+      "source": "/universities/northern-college/courses",
+      "destination": "/universities/northern-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/northern-college/courses/:path*",
+      "destination": "/universities/northern-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/confederation-college/courses",
+      "destination": "/universities/confederation-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/confederation-college/courses/:path*",
+      "destination": "/universities/confederation-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-cite-college/courses",
+      "destination": "/universities/la-cite-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-cite-college/courses/:path*",
+      "destination": "/universities/la-cite-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/st-lawrence-college/courses",
+      "destination": "/universities/st-lawrence-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/st-lawrence-college/courses/:path*",
+      "destination": "/universities/st-lawrence-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/college-boreal/courses",
+      "destination": "/universities/college-boreal",
+      "permanent": true
+    },
+    {
+      "source": "/universities/college-boreal/courses/:path*",
+      "destination": "/universities/college-boreal",
+      "permanent": true
+    },
+    {
+      "source": "/universities/north-island-college/courses",
+      "destination": "/universities/north-island-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/north-island-college/courses/:path*",
+      "destination": "/universities/north-island-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/college-of-the-rockies/courses",
+      "destination": "/universities/college-of-the-rockies",
+      "permanent": true
+    },
+    {
+      "source": "/universities/college-of-the-rockies/courses/:path*",
+      "destination": "/universities/college-of-the-rockies",
+      "permanent": true
+    },
+    {
+      "source": "/universities/selkirk-college/courses",
+      "destination": "/universities/selkirk-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/selkirk-college/courses/:path*",
+      "destination": "/universities/selkirk-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/columbia-college-bc/courses",
+      "destination": "/universities/columbia-college-bc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/columbia-college-bc/courses/:path*",
+      "destination": "/universities/columbia-college-bc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/justice-institute-bc/courses",
+      "destination": "/universities/justice-institute-bc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/justice-institute-bc/courses/:path*",
+      "destination": "/universities/justice-institute-bc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fdu-vancouver/courses",
+      "destination": "/universities/fdu-vancouver",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fdu-vancouver/courses/:path*",
+      "destination": "/universities/fdu-vancouver",
+      "permanent": true
+    },
+    {
+      "source": "/universities/norquest-college/courses",
+      "destination": "/universities/norquest-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/norquest-college/courses/:path*",
+      "destination": "/universities/norquest-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/red-deer-polytechnic/courses",
+      "destination": "/universities/red-deer-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/red-deer-polytechnic/courses/:path*",
+      "destination": "/universities/red-deer-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/grande-prairie-regional-college/courses",
+      "destination": "/universities/grande-prairie-regional-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/grande-prairie-regional-college/courses/:path*",
+      "destination": "/universities/grande-prairie-regional-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lakeland-college/courses",
+      "destination": "/universities/lakeland-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lakeland-college/courses/:path*",
+      "destination": "/universities/lakeland-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/medicine-hat-college/courses",
+      "destination": "/universities/medicine-hat-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/medicine-hat-college/courses/:path*",
+      "destination": "/universities/medicine-hat-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/olds-college/courses",
+      "destination": "/universities/olds-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/olds-college/courses/:path*",
+      "destination": "/universities/olds-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/portage-college/courses",
+      "destination": "/universities/portage-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/portage-college/courses/:path*",
+      "destination": "/universities/portage-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/assiniboine-community-college/courses",
+      "destination": "/universities/assiniboine-community-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/assiniboine-community-college/courses/:path*",
+      "destination": "/universities/assiniboine-community-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brandon-university/courses",
+      "destination": "/universities/brandon-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brandon-university/courses/:path*",
+      "destination": "/universities/brandon-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nova-scotia-community-college/courses",
+      "destination": "/universities/nova-scotia-community-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nova-scotia-community-college/courses/:path*",
+      "destination": "/universities/nova-scotia-community-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/first-nations-university/courses",
+      "destination": "/universities/first-nations-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/first-nations-university/courses/:path*",
+      "destination": "/universities/first-nations-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/universite-de-moncton/courses",
+      "destination": "/universities/universite-de-moncton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/universite-de-moncton/courses/:path*",
+      "destination": "/universities/universite-de-moncton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mount-allison-university/courses",
+      "destination": "/universities/mount-allison-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mount-allison-university/courses/:path*",
+      "destination": "/universities/mount-allison-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/st-thomas-university/courses",
+      "destination": "/universities/st-thomas-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/st-thomas-university/courses/:path*",
+      "destination": "/universities/st-thomas-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nbcc/courses",
+      "destination": "/universities/nbcc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nbcc/courses/:path*",
+      "destination": "/universities/nbcc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/holland-college/courses",
+      "destination": "/universities/holland-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/holland-college/courses/:path*",
+      "destination": "/universities/holland-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-alberta/courses",
+      "destination": "/universities/university-of-alberta",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-alberta/courses/:path*",
+      "destination": "/universities/university-of-alberta",
+      "permanent": true
+    },
+    {
+      "source": "/universities/western-university/courses",
+      "destination": "/universities/western-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/western-university/courses/:path*",
+      "destination": "/universities/western-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-saskatchewan/courses",
+      "destination": "/universities/university-of-saskatchewan",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-saskatchewan/courses/:path*",
+      "destination": "/universities/university-of-saskatchewan",
+      "permanent": true
+    },
+    {
+      "source": "/universities/carleton-university/courses",
+      "destination": "/universities/carleton-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/carleton-university/courses/:path*",
+      "destination": "/universities/carleton-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mount-royal-university/courses",
+      "destination": "/universities/mount-royal-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mount-royal-university/courses/:path*",
+      "destination": "/universities/mount-royal-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/vancouver-island-university/courses",
+      "destination": "/universities/vancouver-island-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/vancouver-island-university/courses/:path*",
+      "destination": "/universities/vancouver-island-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/unsw-sydney/courses",
+      "destination": "/universities/unsw-sydney",
+      "permanent": true
+    },
+    {
+      "source": "/universities/unsw-sydney/courses/:path*",
+      "destination": "/universities/unsw-sydney",
+      "permanent": true
+    },
+    {
+      "source": "/universities/monash-university/courses",
+      "destination": "/universities/monash-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/monash-university/courses/:path*",
+      "destination": "/universities/monash-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses",
+      "destination": "/universities/la-trobe-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/la-trobe-university/courses/:path*",
+      "destination": "/universities/la-trobe-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rwth-aachen-university/courses",
+      "destination": "/universities/rwth-aachen-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rwth-aachen-university/courses/:path*",
+      "destination": "/universities/rwth-aachen-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/hec-paris/courses",
+      "destination": "/universities/hec-paris",
+      "permanent": true
+    },
+    {
+      "source": "/universities/hec-paris/courses/:path*",
+      "destination": "/universities/hec-paris",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tu-delft/courses",
+      "destination": "/universities/tu-delft",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tu-delft/courses/:path*",
+      "destination": "/universities/tu-delft",
+      "permanent": true
+    },
+    {
+      "source": "/universities/london-school-of-economics/courses",
+      "destination": "/universities/london-school-of-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/london-school-of-economics/courses/:path*",
+      "destination": "/universities/london-school-of-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-nottingham/courses",
+      "destination": "/universities/university-of-nottingham",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-nottingham/courses/:path*",
+      "destination": "/universities/university-of-nottingham",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-leicester/courses",
+      "destination": "/universities/university-of-leicester",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-leicester/courses/:path*",
+      "destination": "/universities/university-of-leicester",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lancaster-university/courses",
+      "destination": "/universities/lancaster-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lancaster-university/courses/:path*",
+      "destination": "/universities/lancaster-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cardiff-university/courses",
+      "destination": "/universities/cardiff-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cardiff-university/courses/:path*",
+      "destination": "/universities/cardiff-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-aberdeen/courses",
+      "destination": "/universities/university-of-aberdeen",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-aberdeen/courses/:path*",
+      "destination": "/universities/university-of-aberdeen",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-kent/courses",
+      "destination": "/universities/university-of-kent",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-kent/courses/:path*",
+      "destination": "/universities/university-of-kent",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-essex/courses",
+      "destination": "/universities/university-of-essex",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-essex/courses/:path*",
+      "destination": "/universities/university-of-essex",
+      "permanent": true
+    },
+    {
+      "source": "/universities/city-university-london/courses",
+      "destination": "/universities/city-university-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/city-university-london/courses/:path*",
+      "destination": "/universities/city-university-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/heriot-watt-university/courses",
+      "destination": "/universities/heriot-watt-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/heriot-watt-university/courses/:path*",
+      "destination": "/universities/heriot-watt-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/goldsmiths-university-london/courses",
+      "destination": "/universities/goldsmiths-university-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/goldsmiths-university-london/courses/:path*",
+      "destination": "/universities/goldsmiths-university-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-sussex/courses",
+      "destination": "/universities/university-of-sussex",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-sussex/courses/:path*",
+      "destination": "/universities/university-of-sussex",
+      "permanent": true
+    },
+    {
+      "source": "/universities/birmingham-city-university/courses",
+      "destination": "/universities/birmingham-city-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/birmingham-city-university/courses/:path*",
+      "destination": "/universities/birmingham-city-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/manchester-metropolitan-university/courses",
+      "destination": "/universities/manchester-metropolitan-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/manchester-metropolitan-university/courses/:path*",
+      "destination": "/universities/manchester-metropolitan-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-greenwich/courses",
+      "destination": "/universities/university-of-greenwich",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-greenwich/courses/:path*",
+      "destination": "/universities/university-of-greenwich",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-salford/courses",
+      "destination": "/universities/university-of-salford",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-salford/courses/:path*",
+      "destination": "/universities/university-of-salford",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-plymouth/courses",
+      "destination": "/universities/university-of-plymouth",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-plymouth/courses/:path*",
+      "destination": "/universities/university-of-plymouth",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-brighton/courses",
+      "destination": "/universities/university-of-brighton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-brighton/courses/:path*",
+      "destination": "/universities/university-of-brighton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-central-lancashire/courses",
+      "destination": "/universities/university-of-central-lancashire",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-central-lancashire/courses/:path*",
+      "destination": "/universities/university-of-central-lancashire",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-huddersfield/courses",
+      "destination": "/universities/university-of-huddersfield",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-huddersfield/courses/:path*",
+      "destination": "/universities/university-of-huddersfield",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bradford/courses",
+      "destination": "/universities/university-of-bradford",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bradford/courses/:path*",
+      "destination": "/universities/university-of-bradford",
+      "permanent": true
+    },
+    {
+      "source": "/universities/teesside-university/courses",
+      "destination": "/universities/teesside-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/teesside-university/courses/:path*",
+      "destination": "/universities/teesside-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-lincoln/courses",
+      "destination": "/universities/university-of-lincoln",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-lincoln/courses/:path*",
+      "destination": "/universities/university-of-lincoln",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-wolverhampton/courses",
+      "destination": "/universities/university-of-wolverhampton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-wolverhampton/courses/:path*",
+      "destination": "/universities/university-of-wolverhampton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/staffordshire-university/courses",
+      "destination": "/universities/staffordshire-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/staffordshire-university/courses/:path*",
+      "destination": "/universities/staffordshire-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bedfordshire/courses",
+      "destination": "/universities/university-of-bedfordshire",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bedfordshire/courses/:path*",
+      "destination": "/universities/university-of-bedfordshire",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-stirling/courses",
+      "destination": "/universities/university-of-stirling",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-stirling/courses/:path*",
+      "destination": "/universities/university-of-stirling",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-south-wales/courses",
+      "destination": "/universities/university-of-south-wales",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-south-wales/courses/:path*",
+      "destination": "/universities/university-of-south-wales",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-the-arts-london/courses",
+      "destination": "/universities/university-of-the-arts-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-the-arts-london/courses/:path*",
+      "destination": "/universities/university-of-the-arts-london",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-worcester/courses",
+      "destination": "/universities/university-of-worcester",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-worcester/courses/:path*",
+      "destination": "/universities/university-of-worcester",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-college-cork/courses",
+      "destination": "/universities/university-college-cork",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-college-cork/courses/:path*",
+      "destination": "/universities/university-college-cork",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-galway/courses",
+      "destination": "/universities/university-of-galway",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-galway/courses/:path*",
+      "destination": "/universities/university-of-galway",
+      "permanent": true
+    },
+    {
+      "source": "/universities/maynooth-university/courses",
+      "destination": "/universities/maynooth-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/maynooth-university/courses/:path*",
+      "destination": "/universities/maynooth-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/technological-university-dublin/courses",
+      "destination": "/universities/technological-university-dublin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/technological-university-dublin/courses/:path*",
+      "destination": "/universities/technological-university-dublin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rcsi-university-of-medicine/courses",
+      "destination": "/universities/rcsi-university-of-medicine",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rcsi-university-of-medicine/courses/:path*",
+      "destination": "/universities/rcsi-university-of-medicine",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dublin-business-school/courses",
+      "destination": "/universities/dublin-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dublin-business-school/courses/:path*",
+      "destination": "/universities/dublin-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-college-dublin/courses",
+      "destination": "/universities/griffith-college-dublin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-college-dublin/courses/:path*",
+      "destination": "/universities/griffith-college-dublin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/national-college-of-ireland/courses",
+      "destination": "/universities/national-college-of-ireland",
+      "permanent": true
+    },
+    {
+      "source": "/universities/national-college-of-ireland/courses/:path*",
+      "destination": "/universities/national-college-of-ireland",
+      "permanent": true
+    },
+    {
+      "source": "/universities/atlantic-technological-university/courses",
+      "destination": "/universities/atlantic-technological-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/atlantic-technological-university/courses/:path*",
+      "destination": "/universities/atlantic-technological-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/south-east-technological-university/courses",
+      "destination": "/universities/south-east-technological-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/south-east-technological-university/courses/:path*",
+      "destination": "/universities/south-east-technological-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/munster-technological-university/courses",
+      "destination": "/universities/munster-technological-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/munster-technological-university/courses/:path*",
+      "destination": "/universities/munster-technological-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-limerick/courses",
+      "destination": "/universities/university-of-limerick",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-limerick/courses/:path*",
+      "destination": "/universities/university-of-limerick",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses",
+      "destination": "/universities/university-of-western-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-western-australia/courses/:path*",
+      "destination": "/universities/university-of-western-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses",
+      "destination": "/universities/university-of-tasmania",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-tasmania/courses/:path*",
+      "destination": "/universities/university-of-tasmania",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-sunshine-coast/courses",
+      "destination": "/universities/university-of-sunshine-coast",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-sunshine-coast/courses/:path*",
+      "destination": "/universities/university-of-sunshine-coast",
+      "permanent": true
+    },
+    {
+      "source": "/universities/australian-catholic-university/courses",
+      "destination": "/universities/australian-catholic-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/australian-catholic-university/courses/:path*",
+      "destination": "/universities/australian-catholic-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/curtin-university/courses",
+      "destination": "/universities/curtin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/curtin-university/courses/:path*",
+      "destination": "/universities/curtin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses",
+      "destination": "/universities/deakin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/deakin-university/courses/:path*",
+      "destination": "/universities/deakin-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-newcastle-australia/courses",
+      "destination": "/universities/university-of-newcastle-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-newcastle-australia/courses/:path*",
+      "destination": "/universities/university-of-newcastle-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-england-australia/courses",
+      "destination": "/universities/university-of-new-england-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-england-australia/courses/:path*",
+      "destination": "/universities/university-of-new-england-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-southern-queensland/courses",
+      "destination": "/universities/university-of-southern-queensland",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-southern-queensland/courses/:path*",
+      "destination": "/universities/university-of-southern-queensland",
+      "permanent": true
+    },
+    {
+      "source": "/universities/western-sydney-university/courses",
+      "destination": "/universities/western-sydney-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/western-sydney-university/courses/:path*",
+      "destination": "/universities/western-sydney-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-south-australia/courses",
+      "destination": "/universities/university-of-south-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-south-australia/courses/:path*",
+      "destination": "/universities/university-of-south-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-canberra/courses",
+      "destination": "/universities/university-of-canberra",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-canberra/courses/:path*",
+      "destination": "/universities/university-of-canberra",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses",
+      "destination": "/universities/southern-cross-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/southern-cross-university/courses/:path*",
+      "destination": "/universities/southern-cross-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/federation-university/courses",
+      "destination": "/universities/federation-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/federation-university/courses/:path*",
+      "destination": "/universities/federation-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/torrens-university-australia/courses",
+      "destination": "/universities/torrens-university-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/torrens-university-australia/courses/:path*",
+      "destination": "/universities/torrens-university-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/holmes-institute/courses",
+      "destination": "/universities/holmes-institute",
+      "permanent": true
+    },
+    {
+      "source": "/universities/holmes-institute/courses/:path*",
+      "destination": "/universities/holmes-institute",
+      "permanent": true
+    },
+    {
+      "source": "/universities/think-education-australia/courses",
+      "destination": "/universities/think-education-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/think-education-australia/courses/:path*",
+      "destination": "/universities/think-education-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/navitas-australia/courses",
+      "destination": "/universities/navitas-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/navitas-australia/courses/:path*",
+      "destination": "/universities/navitas-australia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lmu-munich/courses",
+      "destination": "/universities/lmu-munich",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lmu-munich/courses/:path*",
+      "destination": "/universities/lmu-munich",
+      "permanent": true
+    },
+    {
+      "source": "/universities/heidelberg-university/courses",
+      "destination": "/universities/heidelberg-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/heidelberg-university/courses/:path*",
+      "destination": "/universities/heidelberg-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/humboldt-university-berlin/courses",
+      "destination": "/universities/humboldt-university-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/humboldt-university-berlin/courses/:path*",
+      "destination": "/universities/humboldt-university-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/free-university-berlin/courses",
+      "destination": "/universities/free-university-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/free-university-berlin/courses/:path*",
+      "destination": "/universities/free-university-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/technical-university-berlin/courses",
+      "destination": "/universities/technical-university-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/technical-university-berlin/courses/:path*",
+      "destination": "/universities/technical-university-berlin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/goethe-university-frankfurt/courses",
+      "destination": "/universities/goethe-university-frankfurt",
+      "permanent": true
+    },
+    {
+      "source": "/universities/goethe-university-frankfurt/courses/:path*",
+      "destination": "/universities/goethe-university-frankfurt",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-stuttgart/courses",
+      "destination": "/universities/university-of-stuttgart",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-stuttgart/courses/:path*",
+      "destination": "/universities/university-of-stuttgart",
+      "permanent": true
+    },
+    {
+      "source": "/universities/karlsruhe-institute-of-technology/courses",
+      "destination": "/universities/karlsruhe-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/karlsruhe-institute-of-technology/courses/:path*",
+      "destination": "/universities/karlsruhe-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-cologne/courses",
+      "destination": "/universities/university-of-cologne",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-cologne/courses/:path*",
+      "destination": "/universities/university-of-cologne",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bonn/courses",
+      "destination": "/universities/university-of-bonn",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bonn/courses/:path*",
+      "destination": "/universities/university-of-bonn",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tu-dresden/courses",
+      "destination": "/universities/tu-dresden",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tu-dresden/courses/:path*",
+      "destination": "/universities/tu-dresden",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-mannheim/courses",
+      "destination": "/universities/university-of-mannheim",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-mannheim/courses/:path*",
+      "destination": "/universities/university-of-mannheim",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-canterbury/courses",
+      "destination": "/universities/university-of-canterbury",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-canterbury/courses/:path*",
+      "destination": "/universities/university-of-canterbury",
+      "permanent": true
+    },
+    {
+      "source": "/universities/auckland-university-of-technology/courses",
+      "destination": "/universities/auckland-university-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/auckland-university-of-technology/courses/:path*",
+      "destination": "/universities/auckland-university-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-waikato/courses",
+      "destination": "/universities/university-of-waikato",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-waikato/courses/:path*",
+      "destination": "/universities/university-of-waikato",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lincoln-university-new-zealand/courses",
+      "destination": "/universities/lincoln-university-new-zealand",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lincoln-university-new-zealand/courses/:path*",
+      "destination": "/universities/lincoln-university-new-zealand",
+      "permanent": true
+    },
+    {
+      "source": "/universities/yale-university/courses",
+      "destination": "/universities/yale-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/yale-university/courses/:path*",
+      "destination": "/universities/yale-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/princeton-university/courses",
+      "destination": "/universities/princeton-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/princeton-university/courses/:path*",
+      "destination": "/universities/princeton-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/columbia-university/courses",
+      "destination": "/universities/columbia-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/columbia-university/courses/:path*",
+      "destination": "/universities/columbia-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cornell-university/courses",
+      "destination": "/universities/cornell-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/cornell-university/courses/:path*",
+      "destination": "/universities/cornell-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dartmouth-college/courses",
+      "destination": "/universities/dartmouth-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dartmouth-college/courses/:path*",
+      "destination": "/universities/dartmouth-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brown-university/courses",
+      "destination": "/universities/brown-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/brown-university/courses/:path*",
+      "destination": "/universities/brown-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-pennsylvania/courses",
+      "destination": "/universities/university-of-pennsylvania",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-pennsylvania/courses/:path*",
+      "destination": "/universities/university-of-pennsylvania",
+      "permanent": true
+    },
+    {
+      "source": "/universities/caltech/courses",
+      "destination": "/universities/caltech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/caltech/courses/:path*",
+      "destination": "/universities/caltech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/johns-hopkins-university/courses",
+      "destination": "/universities/johns-hopkins-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/johns-hopkins-university/courses/:path*",
+      "destination": "/universities/johns-hopkins-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/duke-university/courses",
+      "destination": "/universities/duke-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/duke-university/courses/:path*",
+      "destination": "/universities/duke-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/northwestern-university/courses",
+      "destination": "/universities/northwestern-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/northwestern-university/courses/:path*",
+      "destination": "/universities/northwestern-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/vanderbilt-university/courses",
+      "destination": "/universities/vanderbilt-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/vanderbilt-university/courses/:path*",
+      "destination": "/universities/vanderbilt-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/emory-university/courses",
+      "destination": "/universities/emory-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/emory-university/courses/:path*",
+      "destination": "/universities/emory-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rice-university/courses",
+      "destination": "/universities/rice-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rice-university/courses/:path*",
+      "destination": "/universities/rice-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/georgetown-university/courses",
+      "destination": "/universities/georgetown-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/georgetown-university/courses/:path*",
+      "destination": "/universities/georgetown-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/notre-dame-university/courses",
+      "destination": "/universities/notre-dame-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/notre-dame-university/courses/:path*",
+      "destination": "/universities/notre-dame-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tufts-university/courses",
+      "destination": "/universities/tufts-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tufts-university/courses/:path*",
+      "destination": "/universities/tufts-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/boston-university/courses",
+      "destination": "/universities/boston-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/boston-university/courses/:path*",
+      "destination": "/universities/boston-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/new-york-university/courses",
+      "destination": "/universities/new-york-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/new-york-university/courses/:path*",
+      "destination": "/universities/new-york-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-southern-california/courses",
+      "destination": "/universities/university-of-southern-california",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-southern-california/courses/:path*",
+      "destination": "/universities/university-of-southern-california",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fordham-university/courses",
+      "destination": "/universities/fordham-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fordham-university/courses/:path*",
+      "destination": "/universities/fordham-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ucla/courses",
+      "destination": "/universities/ucla",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ucla/courses/:path*",
+      "destination": "/universities/ucla",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-michigan/courses",
+      "destination": "/universities/university-of-michigan",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-michigan/courses/:path*",
+      "destination": "/universities/university-of-michigan",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ut-austin/courses",
+      "destination": "/universities/ut-austin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ut-austin/courses/:path*",
+      "destination": "/universities/ut-austin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/unc-chapel-hill/courses",
+      "destination": "/universities/unc-chapel-hill",
+      "permanent": true
+    },
+    {
+      "source": "/universities/unc-chapel-hill/courses/:path*",
+      "destination": "/universities/unc-chapel-hill",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-washington/courses",
+      "destination": "/universities/university-of-washington",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-washington/courses/:path*",
+      "destination": "/universities/university-of-washington",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ohio-state-university/courses",
+      "destination": "/universities/ohio-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ohio-state-university/courses/:path*",
+      "destination": "/universities/ohio-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/penn-state-university/courses",
+      "destination": "/universities/penn-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/penn-state-university/courses/:path*",
+      "destination": "/universities/penn-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-florida/courses",
+      "destination": "/universities/university-of-florida",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-florida/courses/:path*",
+      "destination": "/universities/university-of-florida",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uc-san-diego/courses",
+      "destination": "/universities/uc-san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uc-san-diego/courses/:path*",
+      "destination": "/universities/uc-san-diego",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uc-santa-barbara/courses",
+      "destination": "/universities/uc-santa-barbara",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uc-santa-barbara/courses/:path*",
+      "destination": "/universities/uc-santa-barbara",
+      "permanent": true
+    },
+    {
+      "source": "/universities/virginia-tech/courses",
+      "destination": "/universities/virginia-tech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/virginia-tech/courses/:path*",
+      "destination": "/universities/virginia-tech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-maryland/courses",
+      "destination": "/universities/university-of-maryland",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-maryland/courses/:path*",
+      "destination": "/universities/university-of-maryland",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-wisconsin-madison/courses",
+      "destination": "/universities/university-of-wisconsin-madison",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-wisconsin-madison/courses/:path*",
+      "destination": "/universities/university-of-wisconsin-madison",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-minnesota/courses",
+      "destination": "/universities/university-of-minnesota",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-minnesota/courses/:path*",
+      "destination": "/universities/university-of-minnesota",
+      "permanent": true
+    },
+    {
+      "source": "/universities/michigan-state-university/courses",
+      "destination": "/universities/michigan-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/michigan-state-university/courses/:path*",
+      "destination": "/universities/michigan-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/indiana-university/courses",
+      "destination": "/universities/indiana-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/indiana-university/courses/:path*",
+      "destination": "/universities/indiana-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-colorado-boulder/courses",
+      "destination": "/universities/university-of-colorado-boulder",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-colorado-boulder/courses/:path*",
+      "destination": "/universities/university-of-colorado-boulder",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-pittsburgh/courses",
+      "destination": "/universities/university-of-pittsburgh",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-pittsburgh/courses/:path*",
+      "destination": "/universities/university-of-pittsburgh",
+      "permanent": true
+    },
+    {
+      "source": "/universities/texas-am-university/courses",
+      "destination": "/universities/texas-am-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/texas-am-university/courses/:path*",
+      "destination": "/universities/texas-am-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rutgers-university/courses",
+      "destination": "/universities/rutgers-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rutgers-university/courses/:path*",
+      "destination": "/universities/rutgers-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stony-brook-university/courses",
+      "destination": "/universities/stony-brook-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stony-brook-university/courses/:path*",
+      "destination": "/universities/stony-brook-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/suny-buffalo/courses",
+      "destination": "/universities/suny-buffalo",
+      "permanent": true
+    },
+    {
+      "source": "/universities/suny-buffalo/courses/:path*",
+      "destination": "/universities/suny-buffalo",
+      "permanent": true
+    },
+    {
+      "source": "/universities/illinois-tech/courses",
+      "destination": "/universities/illinois-tech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/illinois-tech/courses/:path*",
+      "destination": "/universities/illinois-tech",
+      "permanent": true
+    },
+    {
+      "source": "/universities/depaul-university/courses",
+      "destination": "/universities/depaul-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/depaul-university/courses/:path*",
+      "destination": "/universities/depaul-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-dayton/courses",
+      "destination": "/universities/university-of-dayton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-dayton/courses/:path*",
+      "destination": "/universities/university-of-dayton",
+      "permanent": true
+    },
+    {
+      "source": "/universities/clark-university/courses",
+      "destination": "/universities/clark-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/clark-university/courses/:path*",
+      "destination": "/universities/clark-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/wpi/courses",
+      "destination": "/universities/wpi",
+      "permanent": true
+    },
+    {
+      "source": "/universities/wpi/courses/:path*",
+      "destination": "/universities/wpi",
+      "permanent": true
+    },
+    {
+      "source": "/universities/pace-university/courses",
+      "destination": "/universities/pace-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/pace-university/courses/:path*",
+      "destination": "/universities/pace-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bridgeport/courses",
+      "destination": "/universities/university-of-bridgeport",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bridgeport/courses/:path*",
+      "destination": "/universities/university-of-bridgeport",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fairleigh-dickinson-university/courses",
+      "destination": "/universities/fairleigh-dickinson-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/fairleigh-dickinson-university/courses/:path*",
+      "destination": "/universities/fairleigh-dickinson-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/webster-university/courses",
+      "destination": "/universities/webster-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/webster-university/courses/:path*",
+      "destination": "/universities/webster-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/george-washington-university/courses",
+      "destination": "/universities/george-washington-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/george-washington-university/courses/:path*",
+      "destination": "/universities/george-washington-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/american-university/courses",
+      "destination": "/universities/american-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/american-university/courses/:path*",
+      "destination": "/universities/american-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/drexel-university/courses",
+      "destination": "/universities/drexel-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/drexel-university/courses/:path*",
+      "destination": "/universities/drexel-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/temple-university/courses",
+      "destination": "/universities/temple-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/temple-university/courses/:path*",
+      "destination": "/universities/temple-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-connecticut/courses",
+      "destination": "/universities/university-of-connecticut",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-connecticut/courses/:path*",
+      "destination": "/universities/university-of-connecticut",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rochester-institute-of-technology/courses",
+      "destination": "/universities/rochester-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rochester-institute-of-technology/courses/:path*",
+      "destination": "/universities/rochester-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stevens-institute-of-technology/courses",
+      "destination": "/universities/stevens-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stevens-institute-of-technology/courses/:path*",
+      "destination": "/universities/stevens-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rensselaer-polytechnic/courses",
+      "destination": "/universities/rensselaer-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rensselaer-polytechnic/courses/:path*",
+      "destination": "/universities/rensselaer-polytechnic",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-arizona/courses",
+      "destination": "/universities/university-of-arizona",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-arizona/courses/:path*",
+      "destination": "/universities/university-of-arizona",
+      "permanent": true
+    },
+    {
+      "source": "/universities/colorado-state-university/courses",
+      "destination": "/universities/colorado-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/colorado-state-university/courses/:path*",
+      "destination": "/universities/colorado-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-utah/courses",
+      "destination": "/universities/university-of-utah",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-utah/courses/:path*",
+      "destination": "/universities/university-of-utah",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-rochester/courses",
+      "destination": "/universities/university-of-rochester",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-rochester/courses/:path*",
+      "destination": "/universities/university-of-rochester",
+      "permanent": true
+    },
+    {
+      "source": "/universities/case-western-reserve-university/courses",
+      "destination": "/universities/case-western-reserve-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/case-western-reserve-university/courses/:path*",
+      "destination": "/universities/case-western-reserve-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nc-state-university/courses",
+      "destination": "/universities/nc-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nc-state-university/courses/:path*",
+      "destination": "/universities/nc-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/iowa-state-university/courses",
+      "destination": "/universities/iowa-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/iowa-state-university/courses/:path*",
+      "destination": "/universities/iowa-state-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-cincinnati/courses",
+      "destination": "/universities/university-of-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-cincinnati/courses/:path*",
+      "destination": "/universities/university-of-cincinnati",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-delaware/courses",
+      "destination": "/universities/university-of-delaware",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-delaware/courses/:path*",
+      "destination": "/universities/university-of-delaware",
+      "permanent": true
+    },
+    {
+      "source": "/universities/singapore-management-university/courses",
+      "destination": "/universities/singapore-management-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/singapore-management-university/courses/:path*",
+      "destination": "/universities/singapore-management-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sutd/courses",
+      "destination": "/universities/sutd",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sutd/courses/:path*",
+      "destination": "/universities/sutd",
+      "permanent": true
+    },
+    {
+      "source": "/universities/singapore-institute-of-technology/courses",
+      "destination": "/universities/singapore-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/singapore-institute-of-technology/courses/:path*",
+      "destination": "/universities/singapore-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/james-cook-university-singapore/courses",
+      "destination": "/universities/james-cook-university-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/james-cook-university-singapore/courses/:path*",
+      "destination": "/universities/james-cook-university-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/psb-academy/courses",
+      "destination": "/universities/psb-academy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/psb-academy/courses/:path*",
+      "destination": "/universities/psb-academy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kaplan-singapore/courses",
+      "destination": "/universities/kaplan-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kaplan-singapore/courses/:path*",
+      "destination": "/universities/kaplan-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mdis-singapore/courses",
+      "destination": "/universities/mdis-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mdis-singapore/courses/:path*",
+      "destination": "/universities/mdis-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/curtin-singapore/courses",
+      "destination": "/universities/curtin-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/curtin-singapore/courses/:path*",
+      "destination": "/universities/curtin-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rmit-singapore/courses",
+      "destination": "/universities/rmit-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/rmit-singapore/courses/:path*",
+      "destination": "/universities/rmit-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/murdoch-university-singapore/courses",
+      "destination": "/universities/murdoch-university-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/murdoch-university-singapore/courses/:path*",
+      "destination": "/universities/murdoch-university-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sim-singapore/courses",
+      "destination": "/universities/sim-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sim-singapore/courses/:path*",
+      "destination": "/universities/sim-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/embry-riddle-singapore/courses",
+      "destination": "/universities/embry-riddle-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/embry-riddle-singapore/courses/:path*",
+      "destination": "/universities/embry-riddle-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sp-jain-singapore/courses",
+      "destination": "/universities/sp-jain-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sp-jain-singapore/courses/:path*",
+      "destination": "/universities/sp-jain-singapore",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sorbonne-university/courses",
+      "destination": "/universities/sorbonne-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sorbonne-university/courses/:path*",
+      "destination": "/universities/sorbonne-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sciences-po-paris/courses",
+      "destination": "/universities/sciences-po-paris",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sciences-po-paris/courses/:path*",
+      "destination": "/universities/sciences-po-paris",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ecole-polytechnique/courses",
+      "destination": "/universities/ecole-polytechnique",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ecole-polytechnique/courses/:path*",
+      "destination": "/universities/ecole-polytechnique",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-paris-saclay/courses",
+      "destination": "/universities/university-of-paris-saclay",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-paris-saclay/courses/:path*",
+      "destination": "/universities/university-of-paris-saclay",
+      "permanent": true
+    },
+    {
+      "source": "/universities/insead/courses",
+      "destination": "/universities/insead",
+      "permanent": true
+    },
+    {
+      "source": "/universities/insead/courses/:path*",
+      "destination": "/universities/insead",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-grenoble-alpes/courses",
+      "destination": "/universities/university-of-grenoble-alpes",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-grenoble-alpes/courses/:path*",
+      "destination": "/universities/university-of-grenoble-alpes",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-lyon/courses",
+      "destination": "/universities/university-of-lyon",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-lyon/courses/:path*",
+      "destination": "/universities/university-of-lyon",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bordeaux/courses",
+      "destination": "/universities/university-of-bordeaux",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bordeaux/courses/:path*",
+      "destination": "/universities/university-of-bordeaux",
+      "permanent": true
+    },
+    {
+      "source": "/universities/essec-business-school/courses",
+      "destination": "/universities/essec-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/essec-business-school/courses/:path*",
+      "destination": "/universities/essec-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/emlyon-business-school/courses",
+      "destination": "/universities/emlyon-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/emlyon-business-school/courses/:path*",
+      "destination": "/universities/emlyon-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-strasbourg/courses",
+      "destination": "/universities/university-of-strasbourg",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-strasbourg/courses/:path*",
+      "destination": "/universities/university-of-strasbourg",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-montpellier/courses",
+      "destination": "/universities/university-of-montpellier",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-montpellier/courses/:path*",
+      "destination": "/universities/university-of-montpellier",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-toulouse/courses",
+      "destination": "/universities/university-of-toulouse",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-toulouse/courses/:path*",
+      "destination": "/universities/university-of-toulouse",
+      "permanent": true
+    },
+    {
+      "source": "/universities/aix-marseille-university/courses",
+      "destination": "/universities/aix-marseille-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/aix-marseille-university/courses/:path*",
+      "destination": "/universities/aix-marseille-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/utrecht-university/courses",
+      "destination": "/universities/utrecht-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/utrecht-university/courses/:path*",
+      "destination": "/universities/utrecht-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/erasmus-university-rotterdam/courses",
+      "destination": "/universities/erasmus-university-rotterdam",
+      "permanent": true
+    },
+    {
+      "source": "/universities/erasmus-university-rotterdam/courses/:path*",
+      "destination": "/universities/erasmus-university-rotterdam",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tu-eindhoven/courses",
+      "destination": "/universities/tu-eindhoven",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tu-eindhoven/courses/:path*",
+      "destination": "/universities/tu-eindhoven",
+      "permanent": true
+    },
+    {
+      "source": "/universities/radboud-university/courses",
+      "destination": "/universities/radboud-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/radboud-university/courses/:path*",
+      "destination": "/universities/radboud-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/wageningen-university/courses",
+      "destination": "/universities/wageningen-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/wageningen-university/courses/:path*",
+      "destination": "/universities/wageningen-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-twente/courses",
+      "destination": "/universities/university-of-twente",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-twente/courses/:path*",
+      "destination": "/universities/university-of-twente",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tilburg-university/courses",
+      "destination": "/universities/tilburg-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/tilburg-university/courses/:path*",
+      "destination": "/universities/tilburg-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/han-university/courses",
+      "destination": "/universities/han-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/han-university/courses/:path*",
+      "destination": "/universities/han-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/amsterdam-university-of-applied-sciences/courses",
+      "destination": "/universities/amsterdam-university-of-applied-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/universities/amsterdam-university-of-applied-sciences/courses/:path*",
+      "destination": "/universities/amsterdam-university-of-applied-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kth-royal-institute-of-technology/courses",
+      "destination": "/universities/kth-royal-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kth-royal-institute-of-technology/courses/:path*",
+      "destination": "/universities/kth-royal-institute-of-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lund-university/courses",
+      "destination": "/universities/lund-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/lund-university/courses/:path*",
+      "destination": "/universities/lund-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stockholm-university/courses",
+      "destination": "/universities/stockholm-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stockholm-university/courses/:path*",
+      "destination": "/universities/stockholm-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/chalmers-university/courses",
+      "destination": "/universities/chalmers-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/chalmers-university/courses/:path*",
+      "destination": "/universities/chalmers-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-gothenburg/courses",
+      "destination": "/universities/university-of-gothenburg",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-gothenburg/courses/:path*",
+      "destination": "/universities/university-of-gothenburg",
+      "permanent": true
+    },
+    {
+      "source": "/universities/linkoping-university/courses",
+      "destination": "/universities/linkoping-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/linkoping-university/courses/:path*",
+      "destination": "/universities/linkoping-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/umea-university/courses",
+      "destination": "/universities/umea-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/umea-university/courses/:path*",
+      "destination": "/universities/umea-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stockholm-school-of-economics/courses",
+      "destination": "/universities/stockholm-school-of-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/stockholm-school-of-economics/courses/:path*",
+      "destination": "/universities/stockholm-school-of-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/karolinska-institutet/courses",
+      "destination": "/universities/karolinska-institutet",
+      "permanent": true
+    },
+    {
+      "source": "/universities/karolinska-institutet/courses/:path*",
+      "destination": "/universities/karolinska-institutet",
+      "permanent": true
+    },
+    {
+      "source": "/universities/jonkoping-university/courses",
+      "destination": "/universities/jonkoping-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/jonkoping-university/courses/:path*",
+      "destination": "/universities/jonkoping-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/malardalen-university/courses",
+      "destination": "/universities/malardalen-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/malardalen-university/courses/:path*",
+      "destination": "/universities/malardalen-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mid-sweden-university/courses",
+      "destination": "/universities/mid-sweden-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/mid-sweden-university/courses/:path*",
+      "destination": "/universities/mid-sweden-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/halmstad-university/courses",
+      "destination": "/universities/halmstad-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/halmstad-university/courses/:path*",
+      "destination": "/universities/halmstad-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/slu-sweden/courses",
+      "destination": "/universities/slu-sweden",
+      "permanent": true
+    },
+    {
+      "source": "/universities/slu-sweden/courses/:path*",
+      "destination": "/universities/slu-sweden",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-sharjah/courses",
+      "destination": "/universities/university-of-sharjah",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-sharjah/courses/:path*",
+      "destination": "/universities/university-of-sharjah",
+      "permanent": true
+    },
+    {
+      "source": "/universities/american-university-of-sharjah/courses",
+      "destination": "/universities/american-university-of-sharjah",
+      "permanent": true
+    },
+    {
+      "source": "/universities/american-university-of-sharjah/courses/:path*",
+      "destination": "/universities/american-university-of-sharjah",
+      "permanent": true
+    },
+    {
+      "source": "/universities/khalifa-university/courses",
+      "destination": "/universities/khalifa-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/khalifa-university/courses/:path*",
+      "destination": "/universities/khalifa-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uae-university/courses",
+      "destination": "/universities/uae-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uae-university/courses/:path*",
+      "destination": "/universities/uae-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university-dubai/courses",
+      "destination": "/universities/middlesex-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university-dubai/courses/:path*",
+      "destination": "/universities/middlesex-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/murdoch-university-dubai/courses",
+      "destination": "/universities/murdoch-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/murdoch-university-dubai/courses/:path*",
+      "destination": "/universities/murdoch-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uowd-dubai/courses",
+      "destination": "/universities/uowd-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uowd-dubai/courses/:path*",
+      "destination": "/universities/uowd-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/manipal-dubai/courses",
+      "destination": "/universities/manipal-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/manipal-dubai/courses/:path*",
+      "destination": "/universities/manipal-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/canadian-university-dubai/courses",
+      "destination": "/universities/canadian-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/canadian-university-dubai/courses/:path*",
+      "destination": "/universities/canadian-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/american-university-dubai/courses",
+      "destination": "/universities/american-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/american-university-dubai/courses/:path*",
+      "destination": "/universities/american-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/amity-university-dubai/courses",
+      "destination": "/universities/amity-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/amity-university-dubai/courses/:path*",
+      "destination": "/universities/amity-university-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sp-jain-dubai/courses",
+      "destination": "/universities/sp-jain-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sp-jain-dubai/courses/:path*",
+      "destination": "/universities/sp-jain-dubai",
+      "permanent": true
+    },
+    {
+      "source": "/universities/technical-university-of-denmark/courses",
+      "destination": "/universities/technical-university-of-denmark",
+      "permanent": true
+    },
+    {
+      "source": "/universities/technical-university-of-denmark/courses/:path*",
+      "destination": "/universities/technical-university-of-denmark",
+      "permanent": true
+    },
+    {
+      "source": "/universities/aarhus-university/courses",
+      "destination": "/universities/aarhus-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/aarhus-university/courses/:path*",
+      "destination": "/universities/aarhus-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/copenhagen-business-school/courses",
+      "destination": "/universities/copenhagen-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/copenhagen-business-school/courses/:path*",
+      "destination": "/universities/copenhagen-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/aalborg-university/courses",
+      "destination": "/universities/aalborg-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/aalborg-university/courses/:path*",
+      "destination": "/universities/aalborg-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-southern-denmark/courses",
+      "destination": "/universities/university-of-southern-denmark",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-southern-denmark/courses/:path*",
+      "destination": "/universities/university-of-southern-denmark",
+      "permanent": true
+    },
+    {
+      "source": "/universities/it-university-of-copenhagen/courses",
+      "destination": "/universities/it-university-of-copenhagen",
+      "permanent": true
+    },
+    {
+      "source": "/universities/it-university-of-copenhagen/courses/:path*",
+      "destination": "/universities/it-university-of-copenhagen",
+      "permanent": true
+    },
+    {
+      "source": "/universities/roskilde-university/courses",
+      "destination": "/universities/roskilde-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/roskilde-university/courses/:path*",
+      "destination": "/universities/roskilde-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/via-university-college/courses",
+      "destination": "/universities/via-university-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/via-university-college/courses/:path*",
+      "destination": "/universities/via-university-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ucn-university-college/courses",
+      "destination": "/universities/ucn-university-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ucn-university-college/courses/:path*",
+      "destination": "/universities/ucn-university-college",
+      "permanent": true
+    },
+    {
+      "source": "/universities/business-academy-aarhus/courses",
+      "destination": "/universities/business-academy-aarhus",
+      "permanent": true
+    },
+    {
+      "source": "/universities/business-academy-aarhus/courses/:path*",
+      "destination": "/universities/business-academy-aarhus",
+      "permanent": true
+    },
+    {
+      "source": "/universities/iba-kolding/courses",
+      "destination": "/universities/iba-kolding",
+      "permanent": true
+    },
+    {
+      "source": "/universities/iba-kolding/courses/:path*",
+      "destination": "/universities/iba-kolding",
+      "permanent": true
+    },
+    {
+      "source": "/universities/zealand-business-technology/courses",
+      "destination": "/universities/zealand-business-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/zealand-business-technology/courses/:path*",
+      "destination": "/universities/zealand-business-technology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ea-business-academy/courses",
+      "destination": "/universities/ea-business-academy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ea-business-academy/courses/:path*",
+      "destination": "/universities/ea-business-academy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dania-academy/courses",
+      "destination": "/universities/dania-academy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dania-academy/courses/:path*",
+      "destination": "/universities/dania-academy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/politecnico-di-milano/courses",
+      "destination": "/universities/politecnico-di-milano",
+      "permanent": true
+    },
+    {
+      "source": "/universities/politecnico-di-milano/courses/:path*",
+      "destination": "/universities/politecnico-di-milano",
+      "permanent": true
+    },
+    {
+      "source": "/universities/politecnico-di-torino/courses",
+      "destination": "/universities/politecnico-di-torino",
+      "permanent": true
+    },
+    {
+      "source": "/universities/politecnico-di-torino/courses/:path*",
+      "destination": "/universities/politecnico-di-torino",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bologna/courses",
+      "destination": "/universities/university-of-bologna",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-bologna/courses/:path*",
+      "destination": "/universities/university-of-bologna",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sapienza-university-rome/courses",
+      "destination": "/universities/sapienza-university-rome",
+      "permanent": true
+    },
+    {
+      "source": "/universities/sapienza-university-rome/courses/:path*",
+      "destination": "/universities/sapienza-university-rome",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-milan/courses",
+      "destination": "/universities/university-of-milan",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-milan/courses/:path*",
+      "destination": "/universities/university-of-milan",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-padua/courses",
+      "destination": "/universities/university-of-padua",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-padua/courses/:path*",
+      "destination": "/universities/university-of-padua",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-naples/courses",
+      "destination": "/universities/university-of-naples",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-naples/courses/:path*",
+      "destination": "/universities/university-of-naples",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ca-foscari-university-venice/courses",
+      "destination": "/universities/ca-foscari-university-venice",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ca-foscari-university-venice/courses/:path*",
+      "destination": "/universities/ca-foscari-university-venice",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-florence/courses",
+      "destination": "/universities/university-of-florence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-florence/courses/:path*",
+      "destination": "/universities/university-of-florence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-trento/courses",
+      "destination": "/universities/university-of-trento",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-trento/courses/:path*",
+      "destination": "/universities/university-of-trento",
+      "permanent": true
+    },
+    {
+      "source": "/universities/luiss-university/courses",
+      "destination": "/universities/luiss-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/luiss-university/courses/:path*",
+      "destination": "/universities/luiss-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-pisa/courses",
+      "destination": "/universities/university-of-pisa",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-pisa/courses/:path*",
+      "destination": "/universities/university-of-pisa",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-turin/courses",
+      "destination": "/universities/university-of-turin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-turin/courses/:path*",
+      "destination": "/universities/university-of-turin",
+      "permanent": true
+    },
+    {
+      "source": "/universities/universita-cattolica/courses",
+      "destination": "/universities/universita-cattolica",
+      "permanent": true
+    },
+    {
+      "source": "/universities/universita-cattolica/courses/:path*",
+      "destination": "/universities/universita-cattolica",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-barcelona/courses",
+      "destination": "/universities/university-of-barcelona",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-barcelona/courses/:path*",
+      "destination": "/universities/university-of-barcelona",
+      "permanent": true
+    },
+    {
+      "source": "/universities/autonomous-university-of-barcelona/courses",
+      "destination": "/universities/autonomous-university-of-barcelona",
+      "permanent": true
+    },
+    {
+      "source": "/universities/autonomous-university-of-barcelona/courses/:path*",
+      "destination": "/universities/autonomous-university-of-barcelona",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ie-university/courses",
+      "destination": "/universities/ie-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/ie-university/courses/:path*",
+      "destination": "/universities/ie-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/iese-business-school/courses",
+      "destination": "/universities/iese-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/iese-business-school/courses/:path*",
+      "destination": "/universities/iese-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/carlos-iii-university-madrid/courses",
+      "destination": "/universities/carlos-iii-university-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/universities/carlos-iii-university-madrid/courses/:path*",
+      "destination": "/universities/carlos-iii-university-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/universities/complutense-university-madrid/courses",
+      "destination": "/universities/complutense-university-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/universities/complutense-university-madrid/courses/:path*",
+      "destination": "/universities/complutense-university-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/universities/pompeu-fabra-university/courses",
+      "destination": "/universities/pompeu-fabra-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/pompeu-fabra-university/courses/:path*",
+      "destination": "/universities/pompeu-fabra-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/autonomous-university-of-madrid/courses",
+      "destination": "/universities/autonomous-university-of-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/universities/autonomous-university-of-madrid/courses/:path*",
+      "destination": "/universities/autonomous-university-of-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/universities/esade-business-school/courses",
+      "destination": "/universities/esade-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/esade-business-school/courses/:path*",
+      "destination": "/universities/esade-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-navarra/courses",
+      "destination": "/universities/university-of-navarra",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-navarra/courses/:path*",
+      "destination": "/universities/university-of-navarra",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-valencia/courses",
+      "destination": "/universities/university-of-valencia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-valencia/courses/:path*",
+      "destination": "/universities/university-of-valencia",
+      "permanent": true
+    },
+    {
+      "source": "/universities/eae-business-school/courses",
+      "destination": "/universities/eae-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/eae-business-school/courses/:path*",
+      "destination": "/universities/eae-business-school",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-salamanca/courses",
+      "destination": "/universities/university-of-salamanca",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-salamanca/courses/:path*",
+      "destination": "/universities/university-of-salamanca",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-granada/courses",
+      "destination": "/universities/university-of-granada",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-granada/courses/:path*",
+      "destination": "/universities/university-of-granada",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-seville/courses",
+      "destination": "/universities/university-of-seville",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-seville/courses/:path*",
+      "destination": "/universities/university-of-seville",
       "permanent": true
     }
   ]

@@ -485,12 +485,14 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
               <div className="flex items-center justify-between mb-5">
                 <h2 className="section-title">Courses Offered at {u.shortName}</h2>
-                <Link
-                  href={`/universities/${u.slug}/courses`}
-                  className="text-xs text-brand-700 font-semibold hover:text-brand-900 underline"
-                >
-                  View All Courses →
-                </Link>
+                {uniCourses.length > 0 && (
+                  <Link
+                    href={`/universities/${u.slug}/courses`}
+                    className="text-xs text-brand-700 font-semibold hover:text-brand-900 underline"
+                  >
+                    View All Courses →
+                  </Link>
+                )}
               </div>
               <UniversityCoursesSection
                 courses={uniCourses.length > 0 ? uniCourses : undefined}
