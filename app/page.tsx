@@ -90,6 +90,23 @@ export default async function HomePage() {
     <>
       <JsonLd data={orgSchema} />
 
+      {/* Find My Course — real course matching, first thing every visitor sees */}
+      <section className="bg-gradient-to-r from-gold-500 to-gold-600 text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-wide text-white/80 mb-1">🎯 Real Course Matching — Not Estimates</p>
+              <h2 className="text-xl sm:text-2xl font-bold leading-snug">Find Your Perfect University Match</h2>
+              <p className="text-white/90 text-sm mt-1">Enter your profile — see real universities that actually fit. 100% free.</p>
+            </div>
+            <Link href="/find-my-course"
+              className="flex-shrink-0 bg-brand-900 hover:bg-brand-800 text-white font-bold px-6 py-3.5 rounded-xl transition-colors whitespace-nowrap shadow-lg">
+              Find My Course →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Hero */}
       <section className="relative bg-brand-900 text-white overflow-hidden">
         {/* Background decoration */}

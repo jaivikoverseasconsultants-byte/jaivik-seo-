@@ -6,6 +6,7 @@ import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 
 export default function CountrySubjectComparisonPage({ data }: { data: CountrySubjectComparisonData }) {
   const { parsed, sideA, sideB, costA, costB, pswA, pswB } = data;
@@ -171,6 +172,10 @@ export default function CountrySubjectComparisonPage({ data }: { data: CountrySu
             </details>
           ))}
         </div>
+      </div>
+
+      <div className="mb-6">
+        <FindMyCourseCTA headline={`Want a shortlist matched to YOUR exact profile for ${pillar.name}?`} />
       </div>
 
       <WhatsAppLeadCTA

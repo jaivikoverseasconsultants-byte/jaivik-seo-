@@ -7,6 +7,7 @@ import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 
 export default function UniversityComparisonPage({ data }: { data: UniversityComparisonData }) {
   const { pair, sideA, sideB, sameCity, cityCostOfLiving } = data;
@@ -195,6 +196,10 @@ export default function UniversityComparisonPage({ data }: { data: UniversityCom
             </details>
           ))}
         </div>
+      </div>
+
+      <div className="mb-6">
+        <FindMyCourseCTA headline={`Not sure which fits YOUR profile — ${nameA} or ${nameB}?`} />
       </div>
 
       <WhatsAppLeadCTA

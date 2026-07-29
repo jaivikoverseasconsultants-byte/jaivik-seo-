@@ -9,6 +9,7 @@ import type { CourseForContent } from '@/lib/courseContent';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 
 // Only countries lib/course-faqs.ts's pswDetails() actually computes a real
@@ -244,6 +245,10 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
       </div>
 
       <div className="mt-8">
+        <FindMyCourseCTA headline={`Want ${country} matches tailored to YOUR exact profile?`} />
+      </div>
+
+      <div className="mt-6">
         <WhatsAppLeadCTA
           headline={`Get ${country} Courses with Post-Study Work Rights on WhatsApp`}
           context={`${country} PSW courses`}

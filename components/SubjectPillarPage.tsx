@@ -9,6 +9,7 @@ import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 
 const CHEAPEST_ROWS_SHOWN = 20;
 const ROWS_PER_COUNTRY = 30;
@@ -254,6 +255,10 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
       </div>
 
       <div className="mt-8">
+        <FindMyCourseCTA headline={`Not sure which ${config.name} program fits YOUR profile & budget?`} />
+      </div>
+
+      <div className="mt-6">
         <WhatsAppLeadCTA
           headline={`Get ${config.name} Programmes Matching Your Profile on WhatsApp`}
           context={config.name}

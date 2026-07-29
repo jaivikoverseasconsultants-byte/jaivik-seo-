@@ -327,6 +327,11 @@ export default function Navbar() {
               </Link>
             ))}
 
+            <Link href="/find-my-course"
+              className="ml-1 flex items-center gap-1.5 text-gold-400 hover:text-gold-300 text-sm font-semibold px-3 py-2 rounded-xl border border-gold-500/40 hover:border-gold-500/70 hover:bg-gold-500/10 transition-all whitespace-nowrap">
+              🎯 Find My Course
+            </Link>
+
             <a
               href="tel:+919971226347"
               className="ml-1 flex items-center gap-1.5 text-green-400 hover:text-green-300 text-sm font-medium px-3 py-2 rounded-xl hover:bg-white/8 transition-all whitespace-nowrap"
@@ -364,7 +369,12 @@ export default function Navbar() {
         {mobileOpen && (
           <div className="lg:hidden border-t border-white/8 py-3 space-y-0.5">
 
-            {/* Book Counselling — top of mobile menu */}
+            {/* Find My Course + Book Counselling — top of mobile menu */}
+            <Link href="/find-my-course"
+              className="mx-3 mb-2 flex items-center justify-center gap-2 py-3 border-2 border-gold-500 text-gold-400 hover:bg-gold-500/10 text-sm font-bold rounded-xl transition-colors"
+              onClick={closeAll}>
+              🎯 Find My Course
+            </Link>
             <Link href="/book-counselling"
               className="mx-3 mb-2 flex items-center justify-center gap-2 py-3 bg-gold-500 hover:bg-gold-600 text-white text-sm font-bold rounded-xl transition-colors"
               onClick={closeAll}>

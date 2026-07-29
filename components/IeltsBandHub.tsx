@@ -2,6 +2,7 @@ import Link from 'next/link';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import GuideRelatedLinks from '@/components/GuideRelatedLinks';
 import VerifiedEnglishRequirements from '@/components/VerifiedEnglishRequirements';
 import { authorPersonSchema } from '@/lib/seo';
@@ -145,6 +146,10 @@ export default function IeltsBandHub({ guide }: { guide: IeltsBandGuide }) {
               </details>
             ))}
           </div>
+        </div>
+
+        <div className="mb-6">
+          <FindMyCourseCTA headline={`Want a shortlist matched to YOUR exact profile, not just IELTS ${guide.bandLabel}?`} />
         </div>
 
         <WhatsAppLeadCTA

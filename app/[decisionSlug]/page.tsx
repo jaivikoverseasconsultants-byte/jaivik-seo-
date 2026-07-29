@@ -7,6 +7,7 @@ import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { authorPersonSchema } from '@/lib/seo';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
 import {
@@ -311,6 +312,10 @@ function CheapestView({ country }: { country: string }) {
       </div>
 
       <div className="mt-8">
+        <FindMyCourseCTA headline={`Not sure which ${country} university fits YOUR exact profile?`} />
+      </div>
+
+      <div className="mt-6">
         <WhatsAppLeadCTA
           headline={`Get the Cheapest ${country} Universities List on WhatsApp`}
           context={`Cheapest universities in ${country}`}
@@ -480,6 +485,10 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
       </div>
 
       <div className="mt-8">
+        <FindMyCourseCTA headline={`Want matches tailored to YOUR exact profile, not just budget?`} />
+      </div>
+
+      <div className="mt-6">
         <WhatsAppLeadCTA
           headline={`Get ${country} Universities Under ₹${band}L on WhatsApp`}
           context={`${country} under ₹${band}L`}

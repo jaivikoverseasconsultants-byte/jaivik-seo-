@@ -8,6 +8,7 @@ import { authorPersonSchema } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
+import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 
 export default function CostPillarPage({ config }: { config: CostPillarConfig }) {
   const tuition = getTuitionStats(config.registryCountry);
@@ -229,6 +230,10 @@ export default function CostPillarPage({ config }: { config: CostPillarConfig })
       )}
 
       <div className="mt-8">
+        <FindMyCourseCTA headline={`Not sure which ${config.displayName} university fits YOUR profile & budget?`} />
+      </div>
+
+      <div className="mt-6">
         <WhatsAppLeadCTA
           headline={`Get ${config.displayName} Universities Matching Your Budget on WhatsApp`}
           context={`Cost of studying in ${config.displayName}`}
