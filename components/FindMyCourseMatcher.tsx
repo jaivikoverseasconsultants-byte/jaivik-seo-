@@ -3,12 +3,12 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import {
-  matchCourses, uniqueUniversityCount,
+  matchCourses, uniqueUniversityCount, formatStudyGap,
   SUBJECT_OPTIONS, BUDGET_BANDS, IELTS_OPTIONS, COUNTRY_OPTIONS,
   type MatchProfile, type MatchedCourse, type DegreeLevel,
 } from '@/lib/find-my-course';
 import { trackEvent } from '@/lib/analytics';
-import { generateShortlistPdf } from '@/lib/generate-shortlist-pdf';
+import { generateShortlistPdf, type ProfileSummaryForPdf } from '@/lib/generate-shortlist-pdf';
 
 const FREE_RESULTS_COUNT = 3;
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xgoqzezk';
@@ -17,8 +17,12 @@ type Phase = 'form' | 'results';
 
 const DEFAULT_PROFILE: MatchProfile = {
   countries: [], level: '', subject: 'any', budget: '20l', ielts: '',
-  percentage: '', backlogs: 'no', studyGap: '',
+  percentage: '', backlogs: 'no', studyGapYears: '', studyGapMonths: '',
 };
+
+function courseKey(c: { universitySlug: string; slug: string }): string {
+  return `${c.universitySlug}::${c.slug}`;
+}
 
 function formatFee(inr: number): string {
   return `₹${(inr / 100000).toFixed(1)}L`;
@@ -30,13 +34,19 @@ export default function FindMyCourseMatcher() {
   const [unlocked, setUnlocked] = useState(false);
   const [unlockForm, setUnlockForm] = useState({ name: '', phone: '', email: '' });
   const [unlockStatus, setUnlockStatus] = useState<'idle' | 'submitting' | 'error'>('idle');
+  const [selected, setSelected] = useState<Set<string>>(new Set());
   const [pdfGenerating, setPdfGenerating] = useState(false);
+  const [pdfError, setPdfError] = useState(false);
 
   const matches = useMemo(() => (phase === 'results' ? matchCourses(profile) : []), [phase, profile]);
   const uniCount = useMemo(() => uniqueUniversityCount(matches), [matches]);
   const freeResults = matches.slice(0, FREE_RESULTS_COUNT);
   const lockedResults = matches.slice(FREE_RESULTS_COUNT);
   const hasLocked = lockedResults.length > 0;
+
+  const subjectLabel = SUBJECT_OPTIONS.find(s => s.value === profile.subject)?.label ?? profile.subject;
+  const budgetLabel = BUDGET_BANDS.find(b => b.value === profile.budget)?.label ?? profile.budget;
+  const gapLabel = formatStudyGap(profile.studyGapYears, profile.studyGapMonths);
 
   const canSearch = Boolean(profile.level && profile.subject);
 
@@ -51,7 +61,26 @@ export default function FindMyCourseMatcher() {
     e.preventDefault();
     if (!canSearch) return;
     setUnlocked(false);
+    setSelected(new Set());
     setPhase('results');
+  }
+
+  function toggleSelected(key: string) {
+    setSelected(prev => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key); else next.add(key);
+      return next;
+    });
+    setPdfError(false);
+  }
+
+  function selectAll() {
+    setSelected(new Set(matches.map(courseKey)));
+    setPdfError(false);
+  }
+
+  function clearSelection() {
+    setSelected(new Set());
   }
 
   async function handleUnlock(e: React.FormEvent) {
@@ -59,8 +88,6 @@ export default function FindMyCourseMatcher() {
     if (!unlockForm.name.trim() || unlockForm.phone.replace(/\D/g, '').length < 10) return;
     setUnlockStatus('submitting');
 
-    const subjectLabel = SUBJECT_OPTIONS.find(s => s.value === profile.subject)?.label ?? profile.subject;
-    const budgetLabel = BUDGET_BANDS.find(b => b.value === profile.budget)?.label ?? profile.budget;
     const matchedUniversityNames = Array.from(new Set(matches.map(m => m.universityName)));
 
     try {
@@ -80,7 +107,7 @@ export default function FindMyCourseMatcher() {
           'IELTS Band': profile.ielts || 'Not given',
           'Academic % / GPA': profile.percentage || 'Not given',
           Backlogs: profile.backlogs,
-          'Study Gap': profile.studyGap || 'Not given',
+          'Study Gap': gapLabel,
           'Match Count': matches.length,
           'University Count': uniCount,
           'Matched Universities': matchedUniversityNames.slice(0, 25).join(', '),
@@ -100,6 +127,7 @@ export default function FindMyCourseMatcher() {
         subject: profile.subject,
         budget: profile.budget,
         ielts: profile.ielts || 'Not given',
+        study_gap: gapLabel,
         match_count: String(matches.length),
         university_count: String(uniCount),
       });
@@ -112,9 +140,53 @@ export default function FindMyCourseMatcher() {
   }
 
   async function handleDownloadPdf() {
+    const selectedCourses = matches.filter(c => selected.has(courseKey(c)));
+    if (selectedCourses.length === 0) {
+      setPdfError(true);
+      return;
+    }
+    setPdfError(false);
     setPdfGenerating(true);
+
+    const summary: ProfileSummaryForPdf = {
+      countries: profile.countries.join(', ') || 'Any',
+      level: profile.level === 'bachelor' ? "Bachelor's" : profile.level === 'master' ? "Master's" : 'Not given',
+      subject: subjectLabel,
+      budget: budgetLabel,
+      ielts: profile.ielts || 'Not given',
+      percentage: profile.percentage || 'Not given',
+      backlogs: profile.backlogs === 'no' ? 'None' : profile.backlogs,
+      studyGap: gapLabel,
+    };
+
     try {
-      await generateShortlistPdf(matches, unlockForm.name || 'student');
+      await generateShortlistPdf(selectedCourses, unlockForm.name || 'student', summary);
+
+      const selectedUniversityNames = Array.from(new Set(selectedCourses.map(c => c.universityName)));
+      const selectedCourseNames = selectedCourses.map(c => `${c.name} (${c.universityName})`);
+
+      trackEvent('shortlist_pdf_download', {
+        selected_count: String(selectedCourses.length),
+        selected_universities: selectedUniversityNames.join(', ').slice(0, 400),
+      });
+
+      fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          _subject: `Shortlist PDF downloaded — ${selectedCourses.length} courses selected`,
+          _replyto: unlockForm.email || 'find-my-course-lead@jaivikoverseasconsultants.com',
+          name: unlockForm.name || 'Not given',
+          phone: unlockForm.phone || 'Not given',
+          email: unlockForm.email || 'Not given',
+          'Selected Course Count': selectedCourses.length,
+          'Selected Universities': selectedUniversityNames.join(', '),
+          'Selected Courses': selectedCourseNames.slice(0, 25).join(' | '),
+          'Source Page': 'find-my-course',
+          'Page Path': typeof window !== 'undefined' ? window.location.pathname : '',
+          form_type: 'shortlist_pdf_download',
+        }),
+      }).catch(() => {});
     } finally {
       setPdfGenerating(false);
     }
@@ -125,15 +197,15 @@ export default function FindMyCourseMatcher() {
     return (
       <div className="max-w-3xl mx-auto px-4 py-10">
         <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 md:p-8">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 bg-brand-700 rounded-xl flex items-center justify-center text-white font-bold text-lg">🎯</div>
+          <div className="flex items-center gap-3 mb-7">
+            <div className="w-10 h-10 bg-brand-700 rounded-xl flex items-center justify-center text-white font-bold text-lg flex-shrink-0">🎯</div>
             <div>
               <h2 className="text-lg font-bold text-gray-900">Your Study Abroad Profile</h2>
               <p className="text-sm text-gray-500">Matched against our real, crawled course database — not estimates</p>
             </div>
           </div>
 
-          <form onSubmit={handleSearch} className="space-y-5">
+          <form onSubmit={handleSearch} className="space-y-6">
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-2">
                 Target Country <span className="text-xs font-normal text-gray-500">(optional — leave blank for all)</span>
@@ -199,7 +271,7 @@ export default function FindMyCourseMatcher() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-2">Academic % / GPA</label>
                 <input type="text" placeholder="e.g. 72% or 7.2 CGPA" value={profile.percentage}
@@ -213,19 +285,22 @@ export default function FindMyCourseMatcher() {
                   {['no', '1-2', '3-5', '5+'].map(b => <option key={b} value={b}>{b === 'no' ? 'None' : b}</option>)}
                 </select>
               </div>
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Study Gap</label>
-                <div className="grid grid-cols-2 gap-2">
-                  {(['no', 'yes'] as const).map(g => (
-                    <button key={g} type="button" onClick={() => setProfile(prev => ({ ...prev, studyGap: g }))}
-                      className={`text-sm px-3 py-2.5 rounded-lg border transition-all font-medium ${
-                        profile.studyGap === g
-                          ? 'bg-brand-700 text-white border-brand-700'
-                          : 'bg-white text-gray-600 border-gray-200 hover:border-brand-300 hover:text-brand-700'
-                      }`}>
-                      {g === 'no' ? 'No' : 'Yes'}
-                    </button>
-                  ))}
+            </div>
+
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-2">Study Gap (if any)</label>
+              <div className="grid grid-cols-2 gap-4 max-w-sm">
+                <div>
+                  <input type="number" min="0" max="20" placeholder="0" value={profile.studyGapYears}
+                    onChange={e => setProfile(prev => ({ ...prev, studyGapYears: e.target.value }))}
+                    className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+                  <p className="text-xs text-gray-400 mt-1">Years</p>
+                </div>
+                <div>
+                  <input type="number" min="0" max="11" placeholder="0" value={profile.studyGapMonths}
+                    onChange={e => setProfile(prev => ({ ...prev, studyGapMonths: e.target.value }))}
+                    className="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500" />
+                  <p className="text-xs text-gray-400 mt-1">Months</p>
                 </div>
               </div>
             </div>
@@ -253,8 +328,8 @@ export default function FindMyCourseMatcher() {
   // ── Results phase ───────────────────────────────────────────────────────
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
-      <div className="flex items-center justify-between mb-4">
-        <button onClick={() => setPhase('form')} className="text-brand-700 text-sm hover:underline">← Edit my search</button>
+      <div className="flex items-center justify-between mb-5">
+        <button onClick={() => setPhase('form')} className="text-brand-700 text-sm font-medium hover:underline">← Edit my search</button>
       </div>
 
       {matches.length === 0 ? (
@@ -271,20 +346,46 @@ export default function FindMyCourseMatcher() {
         </div>
       ) : (
         <>
-          <div className="bg-brand-50 border border-brand-100 rounded-2xl p-5 mb-6 text-center">
+          <div className="bg-brand-50 border border-brand-100 rounded-2xl p-5 mb-7 text-center">
             <p className="text-2xl font-bold text-brand-700">{matches.length} course{matches.length !== 1 ? 's' : ''}</p>
             <p className="text-sm text-gray-600 mt-1">across {uniCount} real universit{uniCount !== 1 ? 'ies' : 'y'} match your profile</p>
+            <div className="flex flex-wrap justify-center gap-1.5 mt-3">
+              {[
+                profile.countries.length > 0 ? profile.countries.join(', ') : 'Any country',
+                profile.level === 'bachelor' ? "Bachelor's" : "Master's",
+                subjectLabel,
+                budgetLabel,
+              ].map(tag => (
+                <span key={tag} className="text-[11px] bg-white text-brand-700 border border-brand-200 px-2.5 py-1 rounded-full font-medium">
+                  {tag}
+                </span>
+              ))}
+            </div>
           </div>
 
+          {unlocked && matches.length > 0 && (
+            <div className="flex items-center justify-between mb-3 px-1">
+              <p className="text-xs text-gray-500">{selected.size} selected · tick courses to include in your PDF</p>
+              <div className="flex items-center gap-3">
+                <button onClick={selectAll} className="text-xs font-semibold text-brand-700 hover:underline">Select all</button>
+                <button onClick={clearSelection} className="text-xs font-semibold text-gray-500 hover:underline">Clear</button>
+              </div>
+            </div>
+          )}
+
           <div className="space-y-3 mb-6">
-            {freeResults.map((c, i) => <MatchCard key={`${c.universitySlug}-${c.slug}`} course={c} rank={i + 1} />)}
+            {freeResults.map((c, i) => (
+              <MatchCard key={courseKey(c)} course={c} rank={i + 1}
+                selectable={unlocked} selected={selected.has(courseKey(c))} onToggle={() => toggleSelected(courseKey(c))} />
+            ))}
           </div>
 
           {hasLocked && (
             <div className="relative mb-8">
               <div className={`space-y-3 ${!unlocked ? 'blur-sm select-none pointer-events-none' : ''}`}>
                 {lockedResults.map((c, i) => (
-                  <MatchCard key={`${c.universitySlug}-${c.slug}`} course={c} rank={FREE_RESULTS_COUNT + i + 1} />
+                  <MatchCard key={courseKey(c)} course={c} rank={FREE_RESULTS_COUNT + i + 1}
+                    selectable={unlocked} selected={selected.has(courseKey(c))} onToggle={() => toggleSelected(courseKey(c))} />
                 ))}
               </div>
 
@@ -324,9 +425,14 @@ export default function FindMyCourseMatcher() {
 
           {unlocked && (
             <div className="mb-8">
+              {pdfError && (
+                <p className="text-red-500 text-sm font-medium mb-2 text-center sm:text-left">
+                  Please select at least one course before downloading.
+                </p>
+              )}
               <button onClick={handleDownloadPdf} disabled={pdfGenerating}
                 className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white border-2 border-brand-700 text-brand-700 hover:bg-brand-50 font-bold px-6 py-3 rounded-xl transition-colors text-sm disabled:opacity-60">
-                {pdfGenerating ? 'Generating…' : '📄 Download Shortlist as PDF'}
+                {pdfGenerating ? 'Generating…' : `📄 Download Shortlist as PDF (${selected.size} selected)`}
               </button>
             </div>
           )}
@@ -348,11 +454,21 @@ export default function FindMyCourseMatcher() {
   );
 }
 
-function MatchCard({ course, rank }: { course: MatchedCourse; rank: number }) {
+function MatchCard({ course, rank, selectable, selected, onToggle }: {
+  course: MatchedCourse; rank: number; selectable: boolean; selected: boolean; onToggle: () => void;
+}) {
   const courseUrl = `/universities/${course.universitySlug}/courses/${course.slug}`;
   return (
-    <div className="bg-white rounded-xl border border-gray-100 p-4 hover:shadow-md hover:border-brand-200 transition-all">
+    <div className={`bg-white rounded-xl border p-4 transition-all ${
+      selected ? 'border-brand-400 ring-1 ring-brand-200 shadow-sm' : 'border-gray-100 hover:border-brand-200 hover:shadow-sm'
+    }`}>
       <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+        {selectable && (
+          <label className="flex-shrink-0 cursor-pointer" title="Select for PDF shortlist">
+            <input type="checkbox" checked={selected} onChange={onToggle}
+              className="w-4 h-4 rounded border-gray-300 text-brand-700 cursor-pointer" />
+          </label>
+        )}
         <div className="flex-shrink-0 w-8 h-8 bg-brand-50 rounded-full flex items-center justify-center text-brand-700 font-bold text-sm">
           {rank}
         </div>
@@ -372,7 +488,7 @@ function MatchCard({ course, rank }: { course: MatchedCourse; rank: number }) {
         </Link>
       </div>
       {course.duration && (
-        <p className="text-xs text-gray-400 mt-2 pt-2 border-t border-gray-50">Duration: {course.duration}</p>
+        <p className="text-xs text-gray-400 mt-2.5 pt-2.5 border-t border-gray-50">Duration: {course.duration}</p>
       )}
     </div>
   );

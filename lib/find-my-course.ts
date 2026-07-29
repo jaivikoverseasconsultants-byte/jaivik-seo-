@@ -64,7 +64,19 @@ export interface MatchProfile {
   ielts: string; // one of IELTS_OPTIONS, or ''
   percentage: string; // lead context only, never used to filter
   backlogs: string; // 'no' | a count, lead context only
-  studyGap: 'yes' | 'no' | ''; // lead context only
+  studyGapYears: string; // numeric string, lead context only
+  studyGapMonths: string; // numeric string, lead context only
+}
+
+/** "2 years 6 months" / "6 months" / "None" — never used to filter, lead context only. */
+export function formatStudyGap(years: string, months: string): string {
+  const y = parseInt(years, 10) || 0;
+  const m = parseInt(months, 10) || 0;
+  if (y === 0 && m === 0) return 'None';
+  const parts: string[] = [];
+  if (y > 0) parts.push(`${y} year${y !== 1 ? 's' : ''}`);
+  if (m > 0) parts.push(`${m} month${m !== 1 ? 's' : ''}`);
+  return parts.join(' ');
 }
 
 export interface MatchedCourse extends RealCourseEntry {
