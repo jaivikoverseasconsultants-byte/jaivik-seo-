@@ -137,7 +137,7 @@ function buildDeactivationEmail(firstName: string): string {
     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f0fdf4;border-radius:12px;border:1px solid #bbf7d0;margin-bottom:28px;">
     <tr><td style="padding:28px;text-align:center;">
       <p style="color:#166534;font-weight:700;font-size:16px;margin:0 0 6px;">Reactivate your account in 2 minutes</p>
-      <p style="color:#15803d;font-size:13px;margin:0 0 20px;">WhatsApp Gaurav directly &mdash; we respond within the hour.</p>
+      <p style="color:#15803d;font-size:13px;margin:0 0 20px;">WhatsApp Mr. Gaurav Katyal directly &mdash; we respond within the hour.</p>
       <a href="${WA_REACTIVATE}" style="background:#16a34a;color:#ffffff;text-decoration:none;padding:14px 32px;border-radius:8px;font-weight:700;font-size:14px;display:inline-block;">
         WhatsApp +91-9971226347 &#8250;
       </a>

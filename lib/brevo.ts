@@ -266,7 +266,7 @@ function waCta(ctaText: string): string {
 <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;background:#f0fdf4;border-radius:12px;border:1px solid #bbf7d0;">
 <tr><td style="padding:24px;text-align:center;">
 <p style="color:#166534;font-weight:700;font-size:15px;margin:0 0 6px;">${ctaText}</p>
-<p style="color:#15803d;font-size:13px;margin:0 0 18px;">Book a free 30-min call — Gaurav will personally guide you.</p>
+<p style="color:#15803d;font-size:13px;margin:0 0 18px;">Book a free 30-min call — Mr. Gaurav Katyal will personally guide you.</p>
 <a href="${WA_LINK}" style="background:#16a34a;color:#ffffff;text-decoration:none;padding:13px 30px;border-radius:8px;font-weight:700;font-size:14px;display:inline-block;">WhatsApp +91-9971226347 &#8250;</a>
 </td></tr>
 </table>
@@ -375,7 +375,7 @@ ${unis.slice(1).map(u => uniCard(u)).join('')}
 </td></tr>
 </table>
 </td></tr>
-${waCta('Book your free 30-min call with Gaurav')}
+${waCta('Book your free 30-min call with Mr. Gaurav Katyal')}
 ${signature()}
 <tr><td style="padding:12px 40px 32px;"></td></tr>`;
 

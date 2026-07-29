@@ -336,12 +336,12 @@ export default function FindMyCourseMatcher() {
         <div className="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 text-center">
           <p className="text-yellow-700 font-semibold mb-2">No exact matches found for your selection</p>
           <p className="text-sm text-yellow-600 mb-4">
-            Try widening your country selection or budget, or ask a counsellor directly — Gaurav can check options this
+            Try widening your country selection or budget, or ask a counsellor directly — Mr. Gaurav Katyal can check options this
             tool doesn&apos;t have real data for yet.
           </p>
           <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
             className="inline-block bg-green-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-green-700 transition-colors">
-            💬 WhatsApp Gaurav Now
+            💬 WhatsApp Mr. Gaurav Katyal Now
           </a>
         </div>
       ) : (
@@ -438,13 +438,13 @@ export default function FindMyCourseMatcher() {
           )}
 
           <div className="bg-gradient-to-br from-brand-700 to-brand-900 rounded-2xl p-6 md:p-8 text-white text-center">
-            <h3 className="text-xl font-bold mb-1">Want Gaurav to personally review your matches?</h3>
+            <h3 className="text-xl font-bold mb-1">Want Mr. Gaurav Katyal to personally review your matches?</h3>
             <p className="text-blue-200 text-sm mb-5">13+ years experience · 1,400+ students placed · Completely free</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/book-counselling" className="btn-gold inline-block">Book Free Counselling →</Link>
               <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
                 className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold px-6 py-2.5 rounded-xl transition-colors">
-                💬 WhatsApp Gaurav
+                💬 WhatsApp Mr. Gaurav Katyal
               </a>
             </div>
           </div>

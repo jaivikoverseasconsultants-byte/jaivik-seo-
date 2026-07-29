@@ -388,11 +388,11 @@ export default function CourseMatcherClient() {
             <div className="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 text-center">
               <p className="text-yellow-700 font-semibold mb-2">No exact matches found for your selection</p>
               <p className="text-sm text-yellow-600 mb-4">
-                Try deselecting specific countries, or book a free counselling session — Gaurav will find the right fit personally.
+                Try deselecting specific countries, or book a free counselling session — Mr. Gaurav Katyal will find the right fit personally.
               </p>
               <a href="https://wa.me/919971226347" target="_blank" rel="noopener noreferrer"
                 className="inline-block bg-green-600 text-white px-6 py-2.5 rounded-lg font-semibold text-sm hover:bg-green-700 transition-colors">
-                💬 WhatsApp Gaurav Now
+                💬 WhatsApp Mr. Gaurav Katyal Now
               </a>
             </div>
           ) : (
