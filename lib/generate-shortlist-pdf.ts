@@ -32,6 +32,15 @@ export interface ProfileSummaryForPdf {
   studyGap: string;
 }
 
+// jsPDF's default core font (Helvetica) uses WinAnsi/Windows-1252 encoding,
+// which has no glyph for the Rupee sign (U+20B9, postdates that codepage)
+// or a right-arrow (U+2192) -- both render as garbled/substituted glyphs
+// instead of throwing, so this has to be caught by sanitizing text before
+// doc.text()/textWithLink() rather than relying on jsPDF to error out.
+function sanitizeForPdf(text: string): string {
+  return text.replace(/₹/g, 'Rs. ').replace(/→/g, '->');
+}
+
 async function loadLogoDataUrl(): Promise<string | null> {
   try {
     const res = await fetch(LOGO_PATH);
@@ -148,7 +157,7 @@ export async function generateShortlistPdf(
     doc.setFont('helvetica', 'bold');
     doc.text(`${label}:`, colA, ry);
     doc.setFont('helvetica', 'normal');
-    doc.text(value, colA + 32, ry);
+    doc.text(sanitizeForPdf(value), colA + 32, ry);
     ry += 5.3;
   }
   ry = boxTop + 13;
@@ -156,7 +165,7 @@ export async function generateShortlistPdf(
     doc.setFont('helvetica', 'bold');
     doc.text(`${label}:`, colB, ry);
     doc.setFont('helvetica', 'normal');
-    doc.text(value, colB + 32, ry);
+    doc.text(sanitizeForPdf(value), colB + 32, ry);
     ry += 5.3;
   }
 
@@ -220,7 +229,7 @@ export async function generateShortlistPdf(
 
     doc.setFontSize(7.5);
     doc.setTextColor(30, 90, 180);
-    doc.textWithLink('View full course details →', MARGIN + 2, y + 9,
+    doc.textWithLink('View full course details ->', MARGIN + 2, y + 9,
       { url: `${SITE_URL}/universities/${c.universitySlug}/courses/${c.slug}` });
 
     y += rowHeight;
