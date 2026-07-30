@@ -86,6 +86,52 @@ Their university profile pages (where one existed) now render `UniversityCourses
 - **UI:** every remaining on-page display of these four fields (`visaApprovalRate`, `acceptanceRate`, `employmentRate`, `avgSalaryUSD`/`avgSalaryINR`) on the profile page — the Key Stats grid, the Alumni stats grid, the sidebar Quick Facts, the standalone "Average Graduate Salary" section, the visible (non-schema) FAQ accordion, and the `lib/content-gen.ts` prose paragraphs rendered on the same page — now carry a `~` prefix and/or a "(Est.)" label, plus a page-level footnote ("(Est.) figures are indicative estimates, not published institutional statistics..."). `components/CourseKeyFacts.tsx`'s course-page Career Outcomes stat cards got the same "(Est.)" treatment for consistency. Genuinely sourced fields (QS/THE ranking, founding year, city, student count, tuition, IELTS/TOEFL requirements) were left as plain facts — untouched.
 - Also fixed a latent bug surfaced while editing: the QS-ranking `FAQPage` question and the Key Stats "QS Ranking" card both rendered `#undefined` for the 7 universities added earlier today that have no QS World ranking (e.g. University of Chester) — the FAQ question is now skipped when `qsRanking` is unset, and the stat card shows "Unranked" instead.
 
+### University scholarships + rankings (2026-07-30) — Rich University Page Part 2
+
+Crawl log for `data/university-scholarships.ts` — each university's own official scholarship page(s) fetched live directly (not via a secondary aggregator), amount/eligibility/deadline extracted only where explicitly stated:
+
+| University | Result | Scholarships found |
+|---|---|---|
+| university-of-manchester | OK | GREAT Scholarship (£15k-18k regional; India's own figure not separately broken out on the page — flagged, not assumed) |
+| heriot-watt-university-dubai | OK (thin) | International Merit Scholarship — no fixed amount or deadline stated, included with both fields honestly null |
+| university-of-birmingham | OK | Postgraduate Chancellor's Scholarship for India — India-specific, £10,000 |
+| university-of-leeds | OK | International Excellence Scholarships (Leeds University Business School), £3k/£6k/£16k |
+| university-of-bristol | OK | Think Big Scholarships, £6.5k/£13k/£26k |
+| coventry-university | OK | Coventry University Group Scholarship, £2,000/year, automatic |
+| northumbria-university | OK | 2026-27 PGT UK International Scholarship, £3,000, automatic |
+| university-of-toronto | OK | Lester B. Pearson International Student Scholarship, full 4-year ride, deadline 6 Nov 2026 (genuinely open) |
+| mcgill-university | OK | Entrance Scholarships, $3k-$48k (the $12k tier is Canadian/PR-only) |
+| university-of-waterloo | OK | 3 scholarships incl. a **Faculty of Mathematics India-specific award**, $20k-$40k |
+| unsw-sydney | OK | 3 scholarships, 20% fee contribution up to full tuition |
+| dublin-city-university | OK | Government of Ireland International Education Scholarship (GOI-IES), full waiver + €10,000 |
+| university-of-calgary | OK | International Entrance Scholarship, $20,000 renewable |
+| university-of-greenwich | OK | 2 scholarships, £2.5k-£3.5k |
+| university-of-sussex | OK | Chancellor's International Scholarships, £5,000 |
+| **griffith-university** | **SKIPPED** | HTTP 403 on 2 separate scholarship URLs (WAF) — not filled from search-result paraphrasing |
+| **australian-national-university** | **SKIPPED** | Connection refused on 2 separate scholarship URLs — same treatment |
+
+**3 extractions spot-checked directly against their live source page** (not just trusted from a first-pass fetch): Birmingham's India Chancellor's Scholarship, Waterloo's Faculty of Mathematics India Award, Toronto's Pearson Scholarship — all three re-confirmed the figure, eligibility, and deadline exactly as stored.
+
+**Deadline honesty:** crawled 2026-07-30, well after most Feb-June scholarship deadlines for a September intake — 6 of the ~15 universities' scholarships have a deadline that has already passed for this cycle. These are stored with `deadlineStatus: 'closed-recurring'` and a note that they recur annually, never displayed as if still open (same rule just established for `components/DeadlineCountdown.tsx`).
+
+**Rankings spot-check finding — the existing `qsRanking` field cannot be trusted as-is.** Live-verified QS World University Rankings 2026 for the same 9 universities against current QS/topuniversities.com reporting:
+
+| University | Stored `qsRanking` (unaudited) | Live-verified rank | Match? |
+|---|---|---|---|
+| university-of-manchester | 32 | 35 | ✗ |
+| university-of-bristol | 51 | 51 | ✓ |
+| university-of-birmingham | 84 | 76 | ✗ |
+| university-of-leeds | 75 | 86 | ✗ |
+| mcgill-university | 32 | 27 | ✗ |
+| university-of-toronto | 25 | 29 | ✗ |
+| unsw-sydney | 19 | 20 | ✗ |
+| university-of-calgary | 182 | 211 | ✗ |
+| coventry-university | 601 | 193 (**QS Europe**, not World — a different ranking) | ✗ |
+
+**8 of 9 mismatched.** The stored field was never individually audited (only 7 of 465 profiles got a sourced check, in the 2026-07-13 cleanup) — this spot-check confirms it's stale/wrong for most universities, not just an edge case. `data/university-rankings-verified.ts` is the small, freshly-verified alternative the new Rankings section reads from; the pre-existing hero badge and `FAQPage` ranking question on `app/universities/[slug]/page.tsx` still read the unaudited field untouched — flagging a full audit of all 465 as a clear candidate for a future task.
+
+**Also found and fixed while building this (not part of the original ask, but the same fabrication class the task was explicitly avoiding):** `data/universities.ts`'s `topEmployers` and `scholarships` fields are populated for all 465 universities with generic, non-source-linked content (e.g. MIT: `topEmployers: ['Google','Microsoft','Amazon','Apple','Tesla','SpaceX']`; `scholarships: [{name: 'MIT Fellowship', eligibility: 'Exceptional research profile'}]`) — unlabelled and presented as fact on every profile page before this task. Both are no longer read by `app/universities/[slug]/page.tsx` (replaced by the real, verified Scholarships section and the honest Careers & Outcomes section respectively); the fields themselves remain in `data/universities.ts` untouched (not deleted, in case another page still reads them — confirmed via grep that `AdvancedCourseFinderClient.tsx` and `UniversityListingClient.tsx` still reference `.scholarships`, out of scope for this task to also fix).
+
 ### Wave 2 crawl integration (2026-07-29) — 13 new REAL-registry universities from the overnight Wave 2 crawl
 
 The overnight Wave 2 crawl (`scripts/overnight-crawl-wave2.js`, run 2026-07-29) produced 24 candidate course files (389 courses) targeting the UK/Canada/Australia/Ireland subset of the 362 universities still missing real course data. A first manual review (spot-checking the 3 largest + 3 random files, plus an automated dup/junk-title triage on the rest) recommended 21 of the 24 files for integration. **Integration-time due diligence — reading every remaining file in full, and checking each crawl's actual domain against the target university's real profile — found 8 more of those 21 were unusable, not caught by the automated triage:**

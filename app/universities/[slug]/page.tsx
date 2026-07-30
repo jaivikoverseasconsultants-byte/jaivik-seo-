@@ -11,6 +11,8 @@ import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import VerifiedEnglishRequirements from '@/components/VerifiedEnglishRequirements';
 import { englishReqsVerified } from '@/data/english-requirements-verified';
+import { getScholarshipsBySlug } from '@/data/university-scholarships';
+import { getVerifiedRanking } from '@/data/university-rankings-verified';
 import { buildMetadata, formatINR, formatUSD, authorPersonSchema } from '@/lib/seo';
 import { fetchUnsplashImage, fetchUnsplashImages } from '@/lib/unsplash';
 import { generateUniversityAbout, generateWhyIndianStudents, generateApplicationProcess, generateNotableAlumni } from '@/lib/content-gen';
@@ -45,6 +47,23 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
   const officialWebsite = u.website || universityWebsites[u.slug];
   const uniCourses = getCoursesBySlug(u.slug);
   const verifiedEnglishReq = englishReqsVerified.find(r => r.universitySlug === u.slug);
+  const scholarships = getScholarshipsBySlug(u.slug);
+  const verifiedRanking = getVerifiedRanking(u.slug);
+
+  // Country-level post-study-work facts — the same real, already-vetted
+  // figures used sitewide by lib/course-faqs.ts's pswDetails() (PSW hub pages,
+  // course pages), restated at country granularity for this university-level
+  // section rather than requiring a specific course. No new claims here.
+  const COUNTRY_PSW: Record<string, { visaName: string; workDuration: string; blurb: string }> = {
+    Canada: { visaName: 'Post-Graduation Work Permit (PGWP)', workDuration: 'up to 3 years', blurb: 'Most graduates of programs 2 years or longer qualify for a PGWP of up to 3 years, which also counts toward Express Entry permanent-residency points. Exact eligibility depends on IRCC rules at the time you apply.' },
+    Australia: { visaName: 'Temporary Graduate visa (subclass 485)', workDuration: '~2-3 years', blurb: 'Graduates are typically eligible for the Temporary Graduate visa, Post-Higher Education Work stream, for around 2-3 years depending on qualification level. Confirm current settings with a registered migration agent.' },
+    UK: { visaName: 'UK Graduate Route visa', workDuration: '2-3 years', blurb: "Bachelor's and Master's graduates get 2 years of full UK work rights with no job offer required; PhD graduates get 3 years." },
+    'United Kingdom': { visaName: 'UK Graduate Route visa', workDuration: '2-3 years', blurb: "Bachelor's and Master's graduates get 2 years of full UK work rights with no job offer required; PhD graduates get 3 years." },
+    Ireland: { visaName: 'Stamp 1G Third Level Graduate Scheme', workDuration: '12-24 months', blurb: "Bachelor's graduates get 12 months and Master's/PhD graduates get 24 months to stay and seek qualifying work in Ireland." },
+    Germany: { visaName: 'Job-seeker residence permit', workDuration: '18 months', blurb: 'Graduates can stay 18 months to search for a qualifying job, then switch to an EU Blue Card or work permit once they have an offer.' },
+    'New Zealand': { visaName: 'Post-Study Work Visa', workDuration: 'up to 3 years', blurb: 'Most graduates qualify for a Post-Study Work Visa of 1-3 years depending on program length, allowing full NZ work rights.' },
+  };
+  const psw = COUNTRY_PSW[u.country] ?? null;
 
   // Decision-hub cross-links — normalize u.country to the same country
   // strings getAllRealCourses() uses (data/universities.ts mixes "UK"/
@@ -152,13 +171,43 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
           text: `We manually verified ${u.name}'s English language requirement against its own official page: IELTS ${verifiedEnglishReq.ieltsOverall} overall${verifiedEnglishReq.sectionRule ? `, ${verifiedEnglishReq.sectionRule}` : ''} (${verifiedEnglishReq.scope}). Verified ${verifiedEnglishReq.verifiedDate}. Always confirm on the university's own site before booking your test, as requirements can change by intake.`,
         },
       }] : []),
+      ...(verifiedRanking ? [{
+        '@type': 'Question',
+        name: `What is ${u.name}'s QS ranking?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${u.name} is independently verified at #${verifiedRanking.qsWorldRank} in the ${verifiedRanking.rankingScope}, as of ${verifiedRanking.verifiedDate}.`,
+        },
+      }] : []),
+      ...(scholarships.length > 0 ? [{
+        '@type': 'Question',
+        name: `Does ${u.name} offer scholarships for international students?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Yes — ${scholarships.map(s => `${s.name}${s.amount ? ` (${s.amount})` : ''}`).join('; ')}. Verified from the university's own official scholarship pages; confirm current terms before applying as amounts/deadlines change annually.`,
+        },
+      }] : []),
     ],
   };
+
+  // Scholarships as schema.org MonetaryGrant — the closest real vocabulary term
+  // (schema.org has no dedicated "Scholarship" type, and Google has no distinct
+  // rich-result for this data); included as plain structured data for AI/search
+  // comprehension, not for a Google rich snippet.
+  const scholarshipSchemas = scholarships.map(s => ({
+    '@context': 'https://schema.org',
+    '@type': 'MonetaryGrant',
+    name: s.name,
+    description: `${s.level}. ${s.eligibility}`,
+    funder: { '@type': 'CollegeOrUniversity', name: u.name },
+    url: s.sourceUrl,
+  }));
 
   return (
     <>
       <JsonLd data={collegeSchema} />
       <JsonLd data={faqSchema} />
+      {scholarshipSchemas.map((s, i) => <JsonLd key={i} data={s} />)}
 
       {/* Hero */}
       <section className="relative text-white py-10 px-4 overflow-hidden">
@@ -504,43 +553,95 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               />
             </div>
 
-            {/* Scholarships */}
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-              <h2 className="section-title">Scholarships for Indian Students</h2>
-              <div className="space-y-4 mt-4">
-                {u.scholarships.map(s => (
-                  <div key={s.name} className="p-4 border border-gold-200 bg-gold-50 rounded-xl">
-                    <div className="flex items-start justify-between gap-3">
-                      <div>
-                        <p className="font-semibold text-gray-900 text-sm">{s.name}</p>
-                        <p className="text-xs text-gray-500 mt-1">{s.eligibility}</p>
+            {/* Scholarships — real, source-linked, manually verified only. No
+                fabricated fallback: universities with no verified scholarship
+                on file simply show no section, per real-data-only/skip-on-missing. */}
+            {scholarships.length > 0 && (
+              <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                <div className="flex items-center justify-between flex-wrap gap-2 mb-1">
+                  <h2 className="section-title">Scholarships at {u.shortName}</h2>
+                  <span className="text-xs bg-green-50 text-green-700 px-2.5 py-1 rounded-full font-medium">✓ Verified from university website</span>
+                </div>
+                <div className="space-y-4 mt-4">
+                  {scholarships.map(s => (
+                    <div key={s.name} className="p-4 border border-gold-200 bg-gold-50 rounded-xl">
+                      <div className="flex items-start justify-between gap-3 flex-wrap">
+                        <div className="flex-1 min-w-[200px]">
+                          <p className="font-semibold text-gray-900 text-sm">{s.name}</p>
+                          <p className="text-xs text-gray-600 mt-1">{s.level}</p>
+                          <p className="text-xs text-gray-500 mt-1">{s.eligibility}</p>
+                          <p className="text-xs text-gray-500 mt-2 italic">{s.deadlineNote}</p>
+                          <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="text-xs text-brand-700 hover:underline mt-2 inline-block">Official source →</a>
+                        </div>
+                        {s.amount && <span className="text-gold-700 font-bold text-sm whitespace-nowrap">{s.amount}</span>}
                       </div>
-                      <span className="text-gold-700 font-bold text-sm whitespace-nowrap">{s.amount}</span>
+                      {s.amountNote && <p className="text-xs text-gray-400 mt-2">{s.amountNote}</p>}
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
+                <p className="text-xs text-gray-400 mt-4">Scholarship terms change year to year — always confirm current amounts and deadlines with the university or our counsellors before relying on the figures above.</p>
               </div>
-            </div>
+            )}
 
-            {/* Top Employers */}
-            <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-              <h2 className="section-title">Top Employers of {u.shortName} Graduates</h2>
-              <div className="flex flex-wrap gap-3 mt-4">
-                {u.topEmployers.map(emp => (
-                  <span key={emp} className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm font-medium">{emp}</span>
-                ))}
+            {/* Rankings — only shown where independently verified this session
+                against a live QS source; every other university intentionally
+                shows nothing here rather than repeat the unaudited qsRanking
+                field (see DATA-AUDIT.md — 8 of 9 spot-checked didn't match). */}
+            {verifiedRanking && (
+              <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                <div className="flex items-center justify-between flex-wrap gap-2 mb-1">
+                  <h2 className="section-title">Rankings</h2>
+                  <span className="text-xs bg-green-50 text-green-700 px-2.5 py-1 rounded-full font-medium">✓ Verified</span>
+                </div>
+                <div className="mt-4 flex items-center gap-4 flex-wrap">
+                  <div className="bg-brand-50 rounded-xl px-5 py-3 text-center">
+                    <p className="text-2xl font-black text-brand-700 leading-none">#{verifiedRanking.qsWorldRank}</p>
+                    <p className="text-xs text-gray-500 mt-1">{verifiedRanking.rankingScope}</p>
+                  </div>
+                  <a href={verifiedRanking.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="text-xs text-brand-700 hover:underline">Source →</a>
+                </div>
+                <p className="text-xs text-gray-400 mt-3">Subject-level and employer-reputation sub-scores aren't reliably available per university from a public source, so only the overall rank is shown. Verified {verifiedRanking.verifiedDate}.</p>
               </div>
-            </div>
+            )}
+
+            {/* Careers & Outcomes — honest by design: real PSW policy (country-level,
+                already used sitewide) + a link to the university's own site.
+                Deliberately NO named recruiter list and NO salary figures — an
+                earlier audit found the previous "Top Employers" block here was
+                an unsourced, generic company list, exactly the fabrication
+                pattern this section replaces. See BUILD-LOG.md. */}
+            {(psw || officialWebsite) && (
+              <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                <h2 className="section-title">Careers & Outcomes</h2>
+                {psw && (
+                  <div className="mt-3 bg-green-50 border border-green-100 rounded-xl p-4">
+                    <p className="font-semibold text-green-800 text-sm">{psw.visaName} — {psw.workDuration}</p>
+                    <p className="text-xs text-gray-600 mt-1">{psw.blurb}</p>
+                  </div>
+                )}
+                <p className="text-gray-600 text-sm mt-3">
+                  We don't publish a specific graduate-employer list or salary figure for {u.shortName} unless it's directly verifiable on the university's own site — most universities don't publish a definitive list, and an invented one would be misleading.
+                  {officialWebsite && <> Check {u.shortName}'s own careers/employability pages on their <a href={officialWebsite} target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">official website</a> for their latest graduate outcomes data.</>}
+                </p>
+                <a
+                  href={`https://wa.me/919971226347?text=${encodeURIComponent(`Hi Jaivik Overseas, I want to know about career outcomes and post-study work options after studying at ${u.name}.`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl transition-colors"
+                >
+                  Ask a Counsellor About Career Outcomes
+                </a>
+              </div>
+            )}
 
             {/* ── NOTABLE ALUMNI ── */}
             <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
               <h2 className="section-title">Alumni Network & Career Impact</h2>
               <p className="text-gray-700 text-sm leading-relaxed mt-3">{alumniText}</p>
-              <div className="mt-4 grid grid-cols-3 gap-3">
+              <div className="mt-4 grid grid-cols-2 gap-3">
                 {[
                   { label: 'Graduate Salary (Est.)', value: `~$${(u.avgSalaryUSD / 1000).toFixed(0)}K/yr` },
                   { label: 'Employment Rate (Est.)', value: `~${u.employmentRate}%` },
-                  { label: 'Top Employer', value: u.topEmployers[0] },
                 ].map(stat => (
                   <div key={stat.label} className="bg-brand-50 rounded-xl p-3 text-center">
                     <p className="font-bold text-brand-700 text-sm">{stat.value}</p>
