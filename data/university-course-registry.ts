@@ -105,6 +105,19 @@ import { utsCourses as m_uts_sydney } from './uts-courses';
 import { vu_sydneyCourses as m_victoria_university_sydney } from './vu-sydney-courses';
 import { vuwCourses as m_victoria_university_wellington } from './vuw-courses';
 import { vrijeUniversiteitAmsterdamCourses as m_vrije_universiteit_amsterdam } from './vrije-universiteit-amsterdam-courses';
+import { imperialCourses as m_imperial_college_london } from './imperial-courses';
+import { unswW2Courses as m_unsw_sydney } from './unsw-w2-courses';
+import { goldsmithsCourses as m_goldsmiths_university_london } from './goldsmiths-courses';
+import { greenwichCourses as m_university_of_greenwich } from './greenwich-courses';
+import { uclanCourses as m_university_of_central_lancashire } from './uclan-courses';
+import { salfordW2Courses as m_university_of_salford } from './salford-w2-courses';
+import { brunelW2Courses as m_brunel_university_london } from './brunel-w2-courses';
+import { plymouthW2Courses as m_university_of_plymouth } from './plymouth-w2-courses';
+import { sussexW2Courses as m_university_of_sussex } from './sussex-w2-courses';
+import { uniscCourses as m_university_of_sunshine_coast } from './unisc-courses';
+import { dbsCourses as m_dublin_business_school } from './dbs-courses';
+import { bcuW2Courses as m_birmingham_city_university } from './bcu-w2-courses';
+import { nciCourses as m_national_college_of_ireland } from './nci-courses';
 
 const REGISTRY: Record<string, readonly unknown[]> = {
   'anglia-ruskin-university': m_anglia_ruskin_university,
@@ -210,6 +223,19 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'victoria-university-sydney': m_victoria_university_sydney,
   'victoria-university-wellington': m_victoria_university_wellington,
   'vrije-universiteit-amsterdam': m_vrije_universiteit_amsterdam,
+  'imperial-college-london': m_imperial_college_london,
+  'unsw-sydney': m_unsw_sydney,
+  'goldsmiths-university-london': m_goldsmiths_university_london,
+  'university-of-greenwich': m_university_of_greenwich,
+  'university-of-central-lancashire': m_university_of_central_lancashire,
+  'university-of-salford': m_university_of_salford,
+  'brunel-university-london': m_brunel_university_london,
+  'university-of-plymouth': m_university_of_plymouth,
+  'university-of-sussex': m_university_of_sussex,
+  'university-of-sunshine-coast': m_university_of_sunshine_coast,
+  'dublin-business-school': m_dublin_business_school,
+  'birmingham-city-university': m_birmingham_city_university,
+  'national-college-of-ireland': m_national_college_of_ireland,
 };
 
 export interface RegistryCourse {

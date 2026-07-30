@@ -127,6 +127,71 @@ export const englishReqsVerified: EnglishReqVerified[] = [
     sourceUrl: 'https://www.bath.ac.uk/corporate-information/postgraduate-research-degrees-english-language-requirements-for-international-students/',
     verifiedDate: '2026-07-20',
   },
+  // ─── Wave 2 additions (2026-07-29) — 4 of the 6 candidates proposed for this
+  // batch passed a live source-URL re-check; bond-university did not (see
+  // REJECTED_ROWS) and dublin-business-school's page returned an HTTP 403 to
+  // automated fetch (WAF) so its number is carried over from the crawl, not
+  // independently re-confirmed live — flagged below. ──────────────────────────
+  {
+    universitySlug: 'brunel-university-london',
+    ieltsOverall: 6.0,
+    sectionRule: null,
+    pte: 59,
+    pteSection: null,
+    toefl: 77,
+    toeflSection: null,
+    scope: 'general baseline ("IELTS 6.0/TOEFL 77" tier; higher-demand courses require up to IELTS 7.0/TOEFL 98 — always check the individual course)',
+    sourceUrl: 'https://www.brunel.ac.uk/international/english-language-requirements',
+    verifiedDate: '2026-07-29',
+  },
+  {
+    universitySlug: 'dublin-business-school',
+    ieltsOverall: 5.5,
+    sectionRule: null,
+    pte: null,
+    pteSection: null,
+    toefl: null,
+    toeflSection: null,
+    scope: 'general international-admissions baseline — NOT independently re-verified live (page returned HTTP 403 to automated fetch on 2026-07-29, likely a WAF block); trusted on the strength of the original crawl targeting the correct general-requirements URL',
+    sourceUrl: 'https://www.dbs.ie/international/english-language-requirements',
+    verifiedDate: '2026-07-29',
+  },
+  {
+    universitySlug: 'fanshawe-college',
+    ieltsOverall: 6.0,
+    sectionRule: 'no score less than 5.5 in any of the four bands',
+    pte: 53,
+    pteSection: null,
+    toefl: null,
+    toeflSection: null,
+    scope: 'diploma/advanced-diploma/certificate baseline (the college\'s lowest, most common tier)',
+    sourceUrl: 'https://www.fanshawec.ca/admission-finance/before-applying/admission-requirements/english-requirements',
+    verifiedDate: '2026-07-29',
+  },
+  {
+    universitySlug: 'durham-college',
+    ieltsOverall: 6.0,
+    sectionRule: 'no band score less than 5.5',
+    pte: 53,
+    pteSection: null,
+    toefl: null,
+    toeflSection: null,
+    scope: 'certificate/diploma/advanced-diploma tier (degree-level programmes require IELTS 6.5, no band below 6.0, PTE 60 — not a single university-wide figure)',
+    sourceUrl: 'https://durhamcollege.ca/international/entry-requirements/english-language',
+    verifiedDate: '2026-07-29',
+  },
+  {
+    universitySlug: 'seneca-polytechnic',
+    ieltsOverall: 6.0,
+    sectionRule: 'no skill below 5.5',
+    pte: 58,
+    pteSection: null,
+    toefl: null,
+    toeflSection: null,
+    scope: 'certificate/diploma tier (degree-level programmes require IELTS 6.5, no skill below 6.0, PTE 60 — not a single university-wide figure)',
+    sourceUrl: 'https://www.senecapolytechnic.ca/international/apply/how-to-apply/admission-requirements/english-requirements.html',
+    verifiedDate: '2026-07-29',
+  },
 ];
 
 export interface RejectedRow {
@@ -174,5 +239,9 @@ export const REJECTED_ROWS: RejectedRow[] = [
   {
     universitySlug: 'university-of-surrey',
     reason: 'SCOPE fail — the page uses "IELTS 6.5" only as a reference threshold for evaluating other qualifications\' equivalency ("Programmes requiring GCSE English Language C/4 or IELTS 6.5..."), never as an explicit general/standard university requirement statement.',
+  },
+  {
+    universitySlug: 'bond-university',
+    reason: 'SCOPE fail (Wave 2, 2026-07-29) — proposed for the trusted set from the Wave 2 crawl candidates, but a live re-check of the source page found the same Aston/Birmingham pattern: a tiered table (IELTS 6.5 no band <6.0 for some programmes; IELTS 7.0 no band <6.5/7.0 for others, plus separate AHPRA-registered-programme rules) with no statement of which tier is the default/most common. The crawl\'s "6.5" is only one of the tiers, not a general figure.',
   },
 ];

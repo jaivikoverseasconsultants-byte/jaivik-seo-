@@ -56,11 +56,11 @@ Per the audit brief: **a false REAL is worse than a false CURATED** — every RE
 
 ## Summary
 
-- **98 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba. Updated 2026-07-08, Wave 2: +University of Birmingham, +University of Leeds; Griffith University corrected from a false REAL to a genuine REAL with fresh evidence. Updated 2026-07-09, Wave 3: +Australian National University, +Edith Cowan University, +Massey University.)
+- **98 REAL** — crawled from the live university website (sitemap/Puppeteer/Wayback CDX), with unique deep-linked course pages. (Updated 2026-07-07, Wave 1: +Simon Fraser University, +Dalhousie University, +University of Ottawa, +University of Manitoba. Updated 2026-07-08, Wave 2: +University of Birmingham, +University of Leeds; Griffith University corrected from a false REAL to a genuine REAL with fresh evidence. Updated 2026-07-09, Wave 3: +Australian National University, +Edith Cowan University, +Massey University.) **These raw counts are stale — see "Cleanup 2026-07-13" (registry became 103, all REAL) and "Wave 2 crawl integration (2026-07-29)" below (registry became 116) for the current state.**
 - **343 CURATED** — AI-generated/estimated: either an explicit generic template shared across many unrelated universities, or every course points at the same bare homepage with no real per-course page.
 - **7 MIXED** — a file combining a block of real deep-linked courses with a block of templated/stub courses.
 - **10 UNSURE** — no registry entry (no course pages are generated for this university at all) or otherwise unverifiable; do not treat as REAL or CURATED without further investigation.
-- **Total universities: 458**
+- **Total universities: 458** (stale — 465 as of 2026-07-13, registry 116 as of the 2026-07-29 Wave 2 crawl integration)
 
 ### Scope caveat added 2026-07-18 — REAL only certifies course identity + URL, not every field (BUILD-LOG.md §2 items 12 &amp; 14)
 
@@ -85,6 +85,42 @@ Their university profile pages (where one existed) now render `UniversityCourses
 - **JSON-LD:** the visa-approval-rate `Question`/`Answer` was removed outright from the profile page's `FAQPage` schema (kept: tuition fee, QS ranking — now conditional on `qsRanking` existing — and intake months, all real fields). On course pages, `lib/course-faqs.ts`'s `worthItFaq` (built entirely on `avgSalaryUSD`/`avgSalaryINR`/`employmentRate`) was unhooked from `generateFaqs()` so it no longer reaches `CourseFaqSection`'s `FAQPage` JSON-LD; the function is kept in the file, unused, rather than deleted.
 - **UI:** every remaining on-page display of these four fields (`visaApprovalRate`, `acceptanceRate`, `employmentRate`, `avgSalaryUSD`/`avgSalaryINR`) on the profile page — the Key Stats grid, the Alumni stats grid, the sidebar Quick Facts, the standalone "Average Graduate Salary" section, the visible (non-schema) FAQ accordion, and the `lib/content-gen.ts` prose paragraphs rendered on the same page — now carry a `~` prefix and/or a "(Est.)" label, plus a page-level footnote ("(Est.) figures are indicative estimates, not published institutional statistics..."). `components/CourseKeyFacts.tsx`'s course-page Career Outcomes stat cards got the same "(Est.)" treatment for consistency. Genuinely sourced fields (QS/THE ranking, founding year, city, student count, tuition, IELTS/TOEFL requirements) were left as plain facts — untouched.
 - Also fixed a latent bug surfaced while editing: the QS-ranking `FAQPage` question and the Key Stats "QS Ranking" card both rendered `#undefined` for the 7 universities added earlier today that have no QS World ranking (e.g. University of Chester) — the FAQ question is now skipped when `qsRanking` is unset, and the stat card shows "Unranked" instead.
+
+### Wave 2 crawl integration (2026-07-29) — 13 new REAL-registry universities from the overnight Wave 2 crawl
+
+The overnight Wave 2 crawl (`scripts/overnight-crawl-wave2.js`, run 2026-07-29) produced 24 candidate course files (389 courses) targeting the UK/Canada/Australia/Ireland subset of the 362 universities still missing real course data. A first manual review (spot-checking the 3 largest + 3 random files, plus an automated dup/junk-title triage on the rest) recommended 21 of the 24 files for integration. **Integration-time due diligence — reading every remaining file in full, and checking each crawl's actual domain against the target university's real profile — found 8 more of those 21 were unusable, not caught by the automated triage:**
+
+- **`heriot-watt-university`** — every one of its 47 course URLs is `hw.ac.uk/dubai/study/...`: this is 100% **Heriot-Watt Dubai** campus content, not the UK/Edinburgh campus the crawl was targeting. `heriot-watt-university` and `heriot-watt-university-dubai` are separate, already-existing profiles (the latter already REAL with 64 courses) — integrating this file under either slug would either mislabel Dubai courses as UK ones or duplicate the existing Dubai data. Not integrated under any slug.
+- **`maynooth-university`** (1/1 entries), **`university-of-kent`** (1/1), **`sheridan-college`** (1/1) — each file's sole entry is a marketing/testimonial/news-release page (a postgraduate-open-day flipbook, a student-testimonial "perfect timing" campaign page, and a news release respectively), not a course.
+- **`university-of-western-australia`** (1/1) — the extracted title is the generic word "Study"; no real course name was recovered even though the URL (a "pathways to MBA" page) is real.
+- **`cquniversity`** (3/3) — "MBA Book a Call-Back" (a lead-gen page) and two MBA "Overview" hub pages; no individually distinct course.
+- **`wilfrid-laurier-university`** (2/2) — a music-audition logistics page and a French-proficiency-test information page; neither is a course.
+- **`university-of-limerick`** (18/18) — every entry is a student-testimonial blog article (URL pattern `/study/postgraduate/articles/...`, e.g. "How my MSc in Project & Programme Management Transformed my Career"). Zero genuine course pages in the file, despite passing the earlier automated duplicate/junk-title checks (the titles don't match any junk pattern — they just aren't courses).
+- **`national-college-of-ireland`** — all 7 rows are different sub-pages of the same MBA programme (Overview/About/Why Choose/Course Content/How to Apply/Student Profile/Meet the Faculty), each carrying an identical, implausible "5 years" duration. Collapsed to **1** real course entry (duration left unconfirmed) rather than integrating 7 near-duplicate rows or discarding the genuine course entirely.
+
+These 8 join the 3 already identified as unusable before this integration step (`university-of-alberta` — majority "JavaScript is disabled" junk titles; `university-of-new-brunswick` — 100% generic "Search UNB" titles on non-course pages; `centennial-college` — 100% the same event page repeated 4x).
+
+**13 files were integrated**, each after the specific cleanup identified in review — implausible fee/duration values were nulled rather than trusted (any Bachelor's/Master's course with an extracted duration under 6 months; Sussex's £5,760 foundation-year fee outlier; UCLan's Aerospace MSc £2,625, far below its own sibling MSc fees at the same university) — see `scripts/integrate-wave2.js` for the exact per-file transform applied to each:
+
+| University | Courses integrated | Cleanup applied |
+|---|---|---|
+| Imperial College London | 8 | none needed |
+| UNSW Sydney | 3 (of 5) | dropped 1 title-extraction miss + 1 news page |
+| Goldsmiths, University of London | 33 | 1 implausible duration nulled |
+| University of Greenwich | 20 (of 21) | dropped 1 Degree Apprenticeship (not open to international students) |
+| University of Central Lancashire | 11 (of 12) | dropped 1 research-news article; nulled 2 implausible durations + 1 implausible fee |
+| University of Salford | 7 | nulled 7 false `durationYears: 0` values (crawler's own stated convention is null-on-low-confidence, not zero) |
+| Brunel University London | 2 | nulled 1 implausible duration |
+| University of Plymouth | 1 | nulled 1 implausible duration |
+| University of Sussex | 56 | nulled 1 fee outlier (foundation-year course, not comparable to standard/STEM fee bands) |
+| University of the Sunshine Coast | 46 | stripped uncleaned SEO-suffix from every title; fee period independently verified live as annual (not per-trimester) before trusting |
+| Dublin Business School | 41 (of 44) | deduped 4 slug collisions (renamed to reflect the actual distinct specialisation), dropped 2 news-page false-positives, fixed 1 title-extraction miss, nulled 2 false zero-durations |
+| Birmingham City University | 5 (of 11) | deduped a course repeated 4x across year/domain URL variants, dropped 3 student-showcase news articles, fixed 1 generic title |
+| National College of Ireland | 1 (of 7) | collapsed 7 duplicate-programme fragments to 1 real entry |
+
+**Registry: 103 → 116 universities.** Generated via `scripts/integrate-wave2.js` (reads the reviewed `data/wave2-crawl/*.ts` sources, applies the per-file cleanup above, writes `data/<abbr>-courses.ts` + patches `data/university-course-registry.ts`) and `scripts/gen-wave2-routes.js` (generates each university's `app/universities/<slug>/courses/page.tsx` + `courses/[slug]/page.tsx`, following the pre-existing per-university-folder pattern used by all 103 prior REAL universities).
+
+**English requirements:** of the 6 Wave 2 candidates proposed for `data/english-requirements-verified.ts`, 4 passed a live source-URL sanity check (Brunel, Fanshawe College, Durham College, Seneca Polytechnic — the last two are specifically each college's certificate/diploma tier, not a single college-wide figure, and are labelled as such in the `scope` field). Dublin Business School's page returned an HTTP 403 to automated re-fetch (likely a WAF) so its number is carried over from the original crawl rather than independently re-confirmed — flagged in its `scope` field. **Bond University was proposed but rejected**: a live re-check found the same tiered-table pattern already documented for Aston and Birmingham in `REJECTED_ROWS` (multiple IELTS bands by programme group, no stated default) — added to `REJECTED_ROWS` with this finding. Verified rows: 8 → 12.
 
 ### Wave 4 — Bachelor's (UG) course addition to 14 existing REAL universities (2026-07-18 to 2026-07-20)
 
