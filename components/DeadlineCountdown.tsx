@@ -16,23 +16,32 @@ function getDeadlineDate(intakeMonth: string, intakeYear: number): Date {
   return new Date(deadlineYear, deadlineMNum, 0, 23, 59, 59);
 }
 
-function findNextIntake(intakeMonths: string[]): { month: string; year: number; deadline: Date } | null {
+function findNextIntake(intakeMonths: string[]): { month: string; year: number; deadline: Date; intakeDate: Date } | null {
   const now = new Date();
-  const candidates: { month: string; year: number; deadline: Date }[] = [];
+  const candidates: { month: string; year: number; deadline: Date; intakeDate: Date }[] = [];
 
+  // Look across a rolling window of years relative to today (never hardcoded)
+  // so this doesn't silently go stale after any particular year.
+  const startYear = now.getFullYear();
   for (const month of intakeMonths) {
     const mNum = MONTH_NUM[month] ?? 9;
-    // Try current year and next year
-    for (const year of [2026, 2027]) {
+    for (const year of [startYear, startYear + 1, startYear + 2]) {
       const deadline = getDeadlineDate(month, year);
       const intakeDate = new Date(year, mNum - 1, 1);
-      if (intakeDate > now) {
-        candidates.push({ month, year, deadline });
+      // Only a candidate if its APPLICATION DEADLINE is still ahead of today —
+      // an intake whose start date hasn't happened yet can still have an
+      // already-passed deadline (e.g. a Sept intake's ~3-months-prior deadline
+      // falls in June, which is behind "today" for most of the summer). Filtering
+      // on the intake date alone (the old bug) let an expired deadline slip through.
+      if (deadline > now) {
+        candidates.push({ month, year, deadline, intakeDate });
       }
     }
   }
 
-  candidates.sort((a, b) => a.deadline.getTime() - b.deadline.getTime());
+  // Among still-open candidates, the "next upcoming intake" is the one that
+  // starts soonest — not necessarily the one whose deadline is soonest.
+  candidates.sort((a, b) => a.intakeDate.getTime() - b.intakeDate.getTime());
   return candidates[0] ?? null;
 }
 
@@ -42,17 +51,26 @@ interface Props {
 
 export default function DeadlineCountdown({ intakeMonths }: Props) {
   const [daysLeft, setDaysLeft] = useState<number | null>(null);
-  const [next, setNext] = useState<{ month: string; year: number; deadline: Date } | null>(null);
+  const [next, setNext] = useState<{ month: string; year: number; deadline: Date; intakeDate: Date } | null>(null);
 
   useEffect(() => {
-    const intake = findNextIntake(intakeMonths);
-    setNext(intake);
-    if (!intake) return;
+    let current = findNextIntake(intakeMonths);
+    setNext(current);
+    if (!current) return;
 
+    // Re-derives the next intake whenever the currently-shown one's deadline
+    // is reached, so a browser tab left open across that boundary rolls
+    // forward to the next real intake instead of freezing at "0 days left".
     function tick() {
       const now = Date.now();
-      const diff = intake!.deadline.getTime() - now;
-      setDaysLeft(diff > 0 ? Math.ceil(diff / 86400000) : 0);
+      let diff = current!.deadline.getTime() - now;
+      if (diff <= 0) {
+        current = findNextIntake(intakeMonths);
+        setNext(current);
+        if (!current) { setDaysLeft(null); return; }
+        diff = current.deadline.getTime() - now;
+      }
+      setDaysLeft(Math.ceil(diff / 86400000));
     }
     tick();
     const id = setInterval(tick, 60000);
@@ -83,32 +101,25 @@ export default function DeadlineCountdown({ intakeMonths }: Props) {
             <div className="flex items-center gap-2 mb-1">
               <span>{c.dot}</span>
               <p className={`font-bold text-sm ${c.text}`}>
-                {next.month} {next.year} Intake — Apply by {deadlineLabel}
+                {next.month} {next.year} Intake — Apply by ~{deadlineLabel} (estimated)
               </p>
             </div>
             <p className="text-xs text-gray-600">
-              Applications typically close 3 months before the intake start. Apply early — seats fill fast.
+              Deadlines are typical/estimated (most programs close applications ~3 months before the intake start) — confirm the exact date for your specific course with our counsellors.
             </p>
           </div>
           {daysLeft !== null && (
             <div className={`${c.badge} rounded-xl px-4 py-3 text-center flex-shrink-0`}>
               <p className="text-2xl font-black leading-none">{daysLeft}</p>
-              <p className="text-xs font-semibold mt-0.5">days left</p>
+              <p className="text-xs font-semibold mt-0.5">days left (est.)</p>
             </div>
           )}
         </div>
 
-        {urgency === 'red' && daysLeft !== null && daysLeft > 0 && (
+        {urgency === 'red' && daysLeft !== null && (
           <div className="mt-3 bg-red-100 rounded-lg px-3 py-2">
             <p className="text-xs text-red-700 font-semibold">
-              ⚠️ Deadline is very close! Contact us today to start your application immediately.
-            </p>
-          </div>
-        )}
-        {daysLeft === 0 && (
-          <div className="mt-3 bg-gray-100 rounded-lg px-3 py-2">
-            <p className="text-xs text-gray-600 font-semibold">
-              This deadline has passed. Showing next available intake above.
+              ⚠️ The estimated deadline is approaching — contact us soon to start your application.
             </p>
           </div>
         )}

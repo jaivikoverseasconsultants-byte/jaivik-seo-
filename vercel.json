@@ -911,16 +911,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/brunel-university-london/courses",
-      "destination": "/universities/brunel-university-london",
-      "permanent": true
-    },
-    {
-      "source": "/universities/brunel-university-london/courses/:path*",
-      "destination": "/universities/brunel-university-london",
-      "permanent": true
-    },
-    {
       "source": "/universities/university-of-windsor/courses",
       "destination": "/universities/university-of-windsor",
       "permanent": true
@@ -1771,16 +1761,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/unsw-sydney/courses",
-      "destination": "/universities/unsw-sydney",
-      "permanent": true
-    },
-    {
-      "source": "/universities/unsw-sydney/courses/:path*",
-      "destination": "/universities/unsw-sydney",
-      "permanent": true
-    },
-    {
       "source": "/universities/monash-university/courses",
       "destination": "/universities/monash-university",
       "permanent": true
@@ -1931,36 +1911,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/goldsmiths-university-london/courses",
-      "destination": "/universities/goldsmiths-university-london",
-      "permanent": true
-    },
-    {
-      "source": "/universities/goldsmiths-university-london/courses/:path*",
-      "destination": "/universities/goldsmiths-university-london",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-sussex/courses",
-      "destination": "/universities/university-of-sussex",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-sussex/courses/:path*",
-      "destination": "/universities/university-of-sussex",
-      "permanent": true
-    },
-    {
-      "source": "/universities/birmingham-city-university/courses",
-      "destination": "/universities/birmingham-city-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/birmingham-city-university/courses/:path*",
-      "destination": "/universities/birmingham-city-university",
-      "permanent": true
-    },
-    {
       "source": "/universities/manchester-metropolitan-university/courses",
       "destination": "/universities/manchester-metropolitan-university",
       "permanent": true
@@ -1971,36 +1921,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-of-greenwich/courses",
-      "destination": "/universities/university-of-greenwich",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-greenwich/courses/:path*",
-      "destination": "/universities/university-of-greenwich",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-salford/courses",
-      "destination": "/universities/university-of-salford",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-salford/courses/:path*",
-      "destination": "/universities/university-of-salford",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-plymouth/courses",
-      "destination": "/universities/university-of-plymouth",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-plymouth/courses/:path*",
-      "destination": "/universities/university-of-plymouth",
-      "permanent": true
-    },
-    {
       "source": "/universities/university-of-brighton/courses",
       "destination": "/universities/university-of-brighton",
       "permanent": true
@@ -2008,16 +1928,6 @@
     {
       "source": "/universities/university-of-brighton/courses/:path*",
       "destination": "/universities/university-of-brighton",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-central-lancashire/courses",
-      "destination": "/universities/university-of-central-lancashire",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-central-lancashire/courses/:path*",
-      "destination": "/universities/university-of-central-lancashire",
       "permanent": true
     },
     {
@@ -2181,16 +2091,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/dublin-business-school/courses",
-      "destination": "/universities/dublin-business-school",
-      "permanent": true
-    },
-    {
-      "source": "/universities/dublin-business-school/courses/:path*",
-      "destination": "/universities/dublin-business-school",
-      "permanent": true
-    },
-    {
       "source": "/universities/griffith-college-dublin/courses",
       "destination": "/universities/griffith-college-dublin",
       "permanent": true
@@ -2198,16 +2098,6 @@
     {
       "source": "/universities/griffith-college-dublin/courses/:path*",
       "destination": "/universities/griffith-college-dublin",
-      "permanent": true
-    },
-    {
-      "source": "/universities/national-college-of-ireland/courses",
-      "destination": "/universities/national-college-of-ireland",
-      "permanent": true
-    },
-    {
-      "source": "/universities/national-college-of-ireland/courses/:path*",
-      "destination": "/universities/national-college-of-ireland",
       "permanent": true
     },
     {
@@ -2268,16 +2158,6 @@
     {
       "source": "/universities/university-of-tasmania/courses/:path*",
       "destination": "/universities/university-of-tasmania",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-sunshine-coast/courses",
-      "destination": "/universities/university-of-sunshine-coast",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-sunshine-coast/courses/:path*",
-      "destination": "/universities/university-of-sunshine-coast",
       "permanent": true
     },
     {
