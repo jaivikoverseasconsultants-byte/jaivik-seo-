@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      match /savedCourses/{courseId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    match /trainers/{trainerId} {
+      // Public trainer directory not live yet — authenticated-only for now.
+      // Change to `allow read: if true;` when the trainer marketplace ships.
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == trainerId;
+      match /earnings/{entryId} {
+        allow read, write: if request.auth != null && request.auth.uid == trainerId;
+      }
+    }
+    match /bookings/{bookingId} {
+      allow read: if request.auth != null && request.auth.uid == resource.data.trainerId;
+      allow create: if request.auth != null;
+      allow update, delete: if request.auth != null && request.auth.uid == resource.data.trainerId;
+    }
+    match /leads/{leadId} {
+      allow create: if true;
+      allow read, update, delete: if false;
+    }
+  }
+}

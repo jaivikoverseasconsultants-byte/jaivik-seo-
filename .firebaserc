@@ -1,5 +1,5 @@
 {
   "projects": {
-    "default": "__REPLACE_WITH_YOUR_FIREBASE_PROJECT_ID__"
+    "default": "jaivik-overseas-portal"
   }
 }
