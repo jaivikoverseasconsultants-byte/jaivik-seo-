@@ -4209,6 +4209,771 @@
       "source": "/universities/university-of-seville/courses/:path*",
       "destination": "/universities/university-of-seville",
       "permanent": true
+    },
+    {
+      "source": "/universities/northeastern-university/courses/ne-applied-ai-mps-connect",
+      "destination": "/universities/northeastern-university/courses/ne-applied-ai-mps",
+      "permanent": true
+    },
+    {
+      "source": "/universities/northeastern-university/courses/ne-law-llm-online",
+      "destination": "/universities/northeastern-university/courses/ne-law-llm",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-university/courses/griffith-bachelor-of-arts",
+      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-arts-16",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-university/courses/griffith-bachelor-of-business",
+      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-business-344",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-university/courses/griffith-bachelor-of-criminology-and-criminal-justice",
+      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-criminology-and-criminal-justice-351",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-university/courses/griffith-bachelor-of-pharmacy-honours",
+      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-pharmacy-honours-206",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-university/courses/griffith-master-of-business-administration",
+      "destination": "/universities/griffith-university/courses/griffith-master-of-business-administration-369",
+      "permanent": true
+    },
+    {
+      "source": "/universities/griffith-university/courses/griffith-graduate-certificate-in-business",
+      "destination": "/universities/griffith-university/courses/griffith-graduate-certificate-in-business-373",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-computer-science",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-computer-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-data-science",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-artificial-intelligence",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-artificial-intelligence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-international-business",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-international-business",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-accounting-and-finance",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-accounting-and-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-marketing",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-project-management",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-project-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-architecture",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-architecture",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-engineering-management",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-engineering-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-psychology",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-psychology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-public-health",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-public-health",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-education",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-education",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-social-work",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-social-work",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-sustainability",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-sustainability",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-physiotherapy",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-physiotherapy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/anglia-ruskin-university/courses/aru-msc-occupational-therapy",
+      "destination": "/universities/anglia-ruskin-university/courses/aru-occupational-therapy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-computer-science",
+      "destination": "/universities/kingston-university-london/courses/kingston-computer-science-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-data-science",
+      "destination": "/universities/kingston-university-london/courses/kingston-data-science-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-cybersecurity",
+      "destination": "/universities/kingston-university-london/courses/kingston-cybersecurity-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-finance",
+      "destination": "/universities/kingston-university-london/courses/kingston-finance-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-international-business",
+      "destination": "/universities/kingston-university-london/courses/kingston-international-business-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-accounting-finance",
+      "destination": "/universities/kingston-university-london/courses/kingston-accounting-finance-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-project-management",
+      "destination": "/universities/kingston-university-london/courses/kingston-project-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-human-resource-management",
+      "destination": "/universities/kingston-university-london/courses/kingston-human-resource-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kingston-university-london/courses/kingston-msc-supply-chain-management",
+      "destination": "/universities/kingston-university-london/courses/kingston-supply-chain-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-mechatronic-systems-engineering-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-mechatronic-systems-engineering-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-interiors-architecture-and-design-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-interiors-architecture-and-design-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-innovation-management-and-entrepreneurship-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-innovation-management-and-entrepreneurship-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-doctor-of-professional-studies-transdisciplinary",
+      "destination": "/universities/middlesex-university/courses/mdx-doctor-of-professional-studies-transdisciplinary",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-primary-education-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-primary-education-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-psychological-therapies-and-interventions-msc-pgdip",
+      "destination": "/universities/middlesex-university/courses/mdx-psychological-therapies-and-interventions-msc--pgdip-",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-criminology-with-forensic-psychology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-criminology-with-forensic-psychology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-psychology-conversion-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-psychology-conversion-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-performance-analysis-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-sport-performance-analysis-msc--",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-shipping-and-logistics-mba",
+      "destination": "/universities/middlesex-university/courses/mdx-shipping-and-logistics-mba",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-social-work-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-social-work-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-nutrition-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-sport-and-exercise-nutrition-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-english-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-english-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-clinical-health-psychology-and-wellbeing-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-clinical-health-psychology-and-wellbeing-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-applied-psychology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-applied-psychology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-paediatrics-and-child-healthcare-practice-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-paediatrics-and-child-healthcare-practice-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-drama-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-drama-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-cellular-pathology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-cellular-pathology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-global-governance-and-sustainable-development-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-global-governance-and-sustainable-development-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-employment-based-postgraduate-initial-teacher-training-itt",
+      "destination": "/universities/middlesex-university/courses/mdx-employment-based-postgraduate-initial-teacher-training-itt",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-marine-operations-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-marine-operations-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-environmental-health-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-environmental-health-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-digital-marketing-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-digital-marketing-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-history-with-humanities-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-history-with-humanities-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-doctor-of-business-administration-dba",
+      "destination": "/universities/middlesex-university/courses/mdx-doctor-of-business-administration-dba",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-education-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-education-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-network-management-and-cloud-computing-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-network-management-and-cloud-computing-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-cognitive-and-clinical-neuroscience-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-cognitive-and-clinical-neuroscience-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-social-work-top-up-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-social-work-top-up-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-strength-and-conditioning-msc-online-distance-learning",
+      "destination": "/universities/middlesex-university/courses/mdx-strength-and-conditioning-msc-online-distance-learning",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-investment-and-finance-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-investment-and-finance-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sustainability-and-environmental-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-sustainability-and-environmental-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-mathematics-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-mathematics-qts-",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-english-with-drama-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-english-with-drama-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-global-supply-chain-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-global-supply-chain-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-medical-microbiology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-medical-microbiology-msc-",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-social-work-pgdip",
+      "destination": "/universities/middlesex-university/courses/mdx-social-work-pgdip",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-geography-with-humanities-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-geography-with-humanities-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-medical-immunology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-medical-immunology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgcert-paediatric-enhanced-clinical-practice-specialism",
+      "destination": "/universities/middlesex-university/courses/mdx-pgcert-paediatric-enhanced-clinical-practice-specialism",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-haematology-and-transfusion-science-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-haematology-and-transfusion-science-msc-",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-engineering-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-engineering-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-teaching-pgcert",
+      "destination": "/universities/middlesex-university/courses/mdx-teaching-pgcert",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-robotics-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-robotics-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-clinical-biochemistry-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-clinical-biochemistry-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-strength-and-conditioning-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-strength-and-conditioning-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-advanced-clinical-practice-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-advanced-clinical-practice-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-biology-with-science-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-biology-with-science-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-chemistry-with-science-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-chemistry-with-science-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pgce-physics-with-science-qts",
+      "destination": "/universities/middlesex-university/courses/mdx-pgce-physics-with-science-qts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-mental-health-nursing-msc-with-nmc-registration",
+      "destination": "/universities/middlesex-university/courses/mdx-mental-health-nursing-msc-with-nmc-registration",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-performance-analysis-msc-distance-education",
+      "destination": "/universities/middlesex-university/courses/mdx-sport-performance-analysis-msc-distance-education",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-cardiology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-cardiology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-electronic-engineering-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-electronic-engineering-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-legal-technology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-legal-technology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-financial-technology-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-financial-technology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-advanced-social-work-practice-ma-pgdip-pgcert",
+      "destination": "/universities/middlesex-university/courses/mdx-advanced-social-work-practice-ma-pgdip-pgcert",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-financial-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-international-financial-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-business-management-enhanced-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-international-business-management-enhanced-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-business-management-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-international-business-management-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-criminology-and-criminal-justice-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-criminology-and-criminal-justice-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-llm-advanced-legal-practice-sqe-pathway",
+      "destination": "/universities/middlesex-university/courses/mdx-llm-advanced-legal-practice-sqe-pathway-",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-human-resource-management-ma-cipd-accredited",
+      "destination": "/universities/middlesex-university/courses/mdx-human-resource-management-ma-cipd-accredited",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-branding-and-marketing-communications-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-branding-and-marketing-communications-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-relations-and-diplomacy-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-international-relations-and-diplomacy-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-law-and-human-rights-llm",
+      "destination": "/universities/middlesex-university/courses/mdx-international-law-and-human-rights-llm",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-mental-health-and-addiction-studies-msc-distance-education",
+      "destination": "/universities/middlesex-university/courses/mdx-mental-health-and-addiction-studies-msc-distance-education",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-business-and-commercial-law-llm",
+      "destination": "/universities/middlesex-university/courses/mdx-international-business-and-commercial-law-llm",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-pharmaceutical-sciences-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-pharmaceutical-sciences-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-information-systems-and-data-management-for-business-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-information-systems-and-data-management-for-business-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-rehabilitation-and-soft-tissue-therapy-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-sport-rehabilitation-and-soft-tissue-therapy-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-cyber-security-and-emerging-threats-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-cyber-security-and-emerging-threats-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-building-information-modelling-management-and-sustainable-digital-delivery-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-building-information-modelling-management-and-sustainable-digital-delivery-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-cybercrime-and-digital-investigations-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-cybercrime-and-digital-investigations-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-llm-general",
+      "destination": "/universities/middlesex-university/courses/mdx-llm-general",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-medical-genomics-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-biomedical-science-medical-genomics-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-adult-nursing-msc-with-nmc-registration",
+      "destination": "/universities/middlesex-university/courses/mdx-adult-nursing-msc-with-nmc-registration",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-audio-and-podcasting-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-audio-and-podcasting-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-music-and-sound-for-screen-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-music-and-sound-for-screen-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-audio-production-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-audio-production-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-film-production-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-film-production-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-production-design-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-production-design-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-animation-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-animation-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-graphic-design-and-creative-ai-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-graphic-design-and-creative-ai-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-games-design-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-games-design-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-interactive-experience-design-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-interactive-experience-design-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-virtual-production-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-virtual-production-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-digital-fashion-innovation-and-ai-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-digital-fashion-innovation-and-ai-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-digital-media-and-content-creation-ma",
+      "destination": "/universities/middlesex-university/courses/mdx-digital-media-and-content-creation-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-mental-health-studies-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-mental-health-studies-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-applied-ai-and-data-science-msc",
+      "destination": "/universities/middlesex-university/courses/mdx-applied-ai-and-data-science-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/oxford-brookes-university/courses/brookes-msc-artificial-intelligence",
+      "destination": "/universities/oxford-brookes-university/courses/brookes-artificial-intelligence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/oxford-brookes-university/courses/brookes-msc-finance",
+      "destination": "/universities/oxford-brookes-university/courses/brookes-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/oxford-brookes-university/courses/brookes-msc-project-management",
+      "destination": "/universities/oxford-brookes-university/courses/brookes-project-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/oxford-brookes-university/courses/brookes-msc-human-resource-management",
+      "destination": "/universities/oxford-brookes-university/courses/brookes-human-resource-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/oxford-brookes-university/courses/brookes-msc-digital-marketing",
+      "destination": "/universities/oxford-brookes-university/courses/brookes-digital-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-british-columbia/courses/ubc-master-of-science-in-audiology-and-speech-sciences-subspecialization-in-audi",
+      "destination": "/universities/university-of-british-columbia/courses/ubc-master-of-science-in-audiology-and-speech-sciences-sub-specialization-in-audiology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-british-columbia/courses/ubc-master-of-science-in-audiology-and-speech-sciences-subspecialization-in-spee",
+      "destination": "/universities/university-of-british-columbia/courses/ubc-master-of-science-in-audiology-and-speech-sciences-sub-specialization-in-speech-language-pathology-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-british-columbia/courses/ubc-master-of-arts-in-childrens-literature-ma",
+      "destination": "/universities/university-of-british-columbia/courses/ubc-master-of-arts-in-children-s-literature-ma",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-bcom",
+      "destination": "/universities/university-of-melbourne/courses/bachelor-of-commerce",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-ba-arts",
+      "destination": "/universities/university-of-melbourne/courses/bachelor-of-arts",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-computer-science",
+      "destination": "/universities/university-of-melbourne/courses/master-of-computer-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-data-science",
+      "destination": "/universities/university-of-melbourne/courses/master-of-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-information-systems",
+      "destination": "/universities/university-of-melbourne/courses/master-of-information-systems",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-management",
+      "destination": "/universities/university-of-melbourne/courses/master-of-management",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-finance",
+      "destination": "/universities/university-of-melbourne/courses/master-of-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-marketing",
+      "destination": "/universities/university-of-melbourne/courses/master-of-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-meng-civil",
+      "destination": "/universities/university-of-melbourne/courses/master-of-civil-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-meng-mechanical",
+      "destination": "/universities/university-of-melbourne/courses/master-of-mechanical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-meng-electrical",
+      "destination": "/universities/university-of-melbourne/courses/master-of-electrical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-meng-software",
+      "destination": "/universities/university-of-melbourne/courses/master-of-software-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-biotechnology",
+      "destination": "/universities/university-of-melbourne/courses/master-of-biotechnology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-public-health",
+      "destination": "/universities/university-of-melbourne/courses/master-of-public-health",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-environmental-management",
+      "destination": "/universities/university-of-melbourne/courses/master-of-environment",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-architecture",
+      "destination": "/universities/university-of-melbourne/courses/master-of-architecture",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-urban-planning",
+      "destination": "/universities/university-of-melbourne/courses/master-of-urban-planning",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-education",
+      "destination": "/universities/university-of-melbourne/courses/master-of-education",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-melbourne/courses/uom-msc-biomedical",
+      "destination": "/universities/university-of-melbourne/courses/master-of-biomedical-science",
+      "permanent": true
     }
   ]
 }
