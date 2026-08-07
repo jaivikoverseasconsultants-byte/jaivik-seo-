@@ -4211,46 +4211,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/northeastern-university/courses/ne-applied-ai-mps-connect",
-      "destination": "/universities/northeastern-university/courses/ne-applied-ai-mps",
-      "permanent": true
-    },
-    {
-      "source": "/universities/northeastern-university/courses/ne-law-llm-online",
-      "destination": "/universities/northeastern-university/courses/ne-law-llm",
-      "permanent": true
-    },
-    {
-      "source": "/universities/griffith-university/courses/griffith-bachelor-of-arts",
-      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-arts-16",
-      "permanent": true
-    },
-    {
-      "source": "/universities/griffith-university/courses/griffith-bachelor-of-business",
-      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-business-344",
-      "permanent": true
-    },
-    {
-      "source": "/universities/griffith-university/courses/griffith-bachelor-of-criminology-and-criminal-justice",
-      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-criminology-and-criminal-justice-351",
-      "permanent": true
-    },
-    {
-      "source": "/universities/griffith-university/courses/griffith-bachelor-of-pharmacy-honours",
-      "destination": "/universities/griffith-university/courses/griffith-bachelor-of-pharmacy-honours-206",
-      "permanent": true
-    },
-    {
-      "source": "/universities/griffith-university/courses/griffith-master-of-business-administration",
-      "destination": "/universities/griffith-university/courses/griffith-master-of-business-administration-369",
-      "permanent": true
-    },
-    {
-      "source": "/universities/griffith-university/courses/griffith-graduate-certificate-in-business",
-      "destination": "/universities/griffith-university/courses/griffith-graduate-certificate-in-business-373",
-      "permanent": true
-    },
-    {
       "source": "/universities/anglia-ruskin-university/courses/aru-msc-computer-science",
       "destination": "/universities/anglia-ruskin-university/courses/aru-computer-science",
       "permanent": true
