@@ -1,0 +1,1762 @@
+[
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BEng Mechanical Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-beng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BEng Electronic and Electrical Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-beng-electronic-and-electrical-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BEng Chemical Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-beng-chemical-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BEng Aerospace Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-beng-aerospace-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BEng Computer Science",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-beng-computer-science"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MEng Mechanical Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-meng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MEng Civil Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-meng-civil-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Advanced Mechanical Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-advanced-mechanical-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Advanced Engineering Management",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-advanced-engineering-management"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Structural Engineering with Management",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-structural-engineering-with-management"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Electronic and Electrical Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-electronic-and-electrical-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Aerospace Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-aerospace-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Business and Management",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-business-and-management"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Accounting and Finance",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-accounting-and-finance"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Economics and Finance",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-economics-and-finance"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Finance and Accounting",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-finance-and-accounting"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-international-business"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Marketing Management",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-marketing-management"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MBA Master of Business Administration",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-mba-master-of-business-administration"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-computer-science"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Cyber Security",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-cyber-security"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Data Science and Analytics",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-data-science-and-analytics"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-computer-science"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Cybersecurity",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-cybersecurity"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Data Science and Analytics",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-data-science-and-analytics"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BA Design",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-ba-design"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BA Industrial Design and Technology",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-ba-industrial-design-and-technology"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MA Design Strategy and Innovation",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-ma-design-strategy-and-innovation"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MA Digital Media",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-ma-digital-media"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Nursing",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-nursing"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Biomedical Sciences",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-biomedical-sciences"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Advanced Clinical Practice",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-advanced-clinical-practice"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Public Health",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-public-health"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "LLB Law",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-llb-law"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "LLM International Law",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-llm-international-law"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Psychology",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-psychology"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "MSc Psychology",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-msc-psychology"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "BSc Sport Sciences",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-bsc-sport-sciences"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "PhD Engineering",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-phd-engineering"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "PhD Computer Science",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-phd-computer-science"
+  },
+  {
+    "uniSlug": "brunel-university-london",
+    "name": "PhD Business",
+    "oldUrl": "/universities/brunel-university-london/courses/brunel-phd-business"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-computer-science"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Software Engineering",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-software-engineering"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Data Science",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-data-science"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Cybersecurity",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-cybersecurity"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Artificial Intelligence",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Business Administration",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-business-administration"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Accounting & Finance",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-accounting-finance"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Marketing",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-marketing"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BEng Mechanical Engineering",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-beng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BEng Electrical Engineering",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-beng-electrical-engineering"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Psychology",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-psychology"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc Economics",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-economics"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BSc International Business",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-bsc-international-business"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "BA Media & Communications",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-ba-media-communications"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "Foundation Year – Business & Management",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-foundation-year-business-management"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "Foundation Year – Science & Engineering",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-foundation-year-science-engineering"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "Graduate Certificate Business",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-graduate-certificate-business"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "Graduate Diploma Business",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-graduate-diploma-business"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-computer-science"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Data Science",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-data-science"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Machine Learning",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-machine-learning"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Cybersecurity",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-cybersecurity"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Software Engineering",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-software-engineering"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MBA",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-mba"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Finance",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-finance"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-international-business"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Marketing",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-marketing"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Accounting & Finance",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-accounting-finance"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Project Management",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-project-management"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Human Resource Management",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-human-resource-management"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Supply Chain Management",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-supply-chain-management"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Engineering Management",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-engineering-management"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Data Analytics",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-data-analytics"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Business Analytics",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-business-analytics"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Information Technology",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-information-technology"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Cloud Computing",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-cloud-computing"
+  },
+  {
+    "uniSlug": "birmingham-city-university",
+    "name": "MSc Digital Marketing",
+    "oldUrl": "/universities/birmingham-city-university/courses/bcu-msc-digital-marketing"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Software Engineering",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Data Science",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-data-science"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Cybersecurity",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Business Administration",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-business-administration"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Accounting & Finance",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-accounting-finance"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Marketing",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-marketing"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BEng Mechanical Engineering",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-beng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BEng Electrical Engineering",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-beng-electrical-engineering"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Psychology",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-psychology"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc Economics",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-economics"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BSc International Business",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-bsc-international-business"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "BA Media & Communications",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-ba-media-communications"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "Foundation Year – Business & Management",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-foundation-year-business-management"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "Foundation Year – Science & Engineering",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-foundation-year-science-engineering"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "Graduate Certificate Business",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-graduate-certificate-business"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "Graduate Diploma Business",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-graduate-diploma-business"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Data Science",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-data-science"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Machine Learning",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-machine-learning"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Cybersecurity",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Software Engineering",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MBA",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-mba"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Finance",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-finance"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-international-business"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Marketing",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-marketing"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Accounting & Finance",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-accounting-finance"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Project Management",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-project-management"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Human Resource Management",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-human-resource-management"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Supply Chain Management",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-supply-chain-management"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Engineering Management",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-engineering-management"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Data Analytics",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-data-analytics"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Business Analytics",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-business-analytics"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Information Technology",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-information-technology"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Cloud Computing",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-cloud-computing"
+  },
+  {
+    "uniSlug": "university-of-plymouth",
+    "name": "MSc Digital Marketing",
+    "oldUrl": "/universities/university-of-plymouth/courses/plymouth-msc-digital-marketing"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Software Engineering",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Data Science",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-data-science"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Cybersecurity",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Business Administration",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-business-administration"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Accounting & Finance",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-accounting-finance"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Marketing",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-marketing"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BEng Mechanical Engineering",
+    "oldUrl": "/universities/university-of-salford/courses/salford-beng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/university-of-salford/courses/salford-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BEng Electrical Engineering",
+    "oldUrl": "/universities/university-of-salford/courses/salford-beng-electrical-engineering"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Psychology",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-psychology"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc Economics",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-economics"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BSc International Business",
+    "oldUrl": "/universities/university-of-salford/courses/salford-bsc-international-business"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "BA Media & Communications",
+    "oldUrl": "/universities/university-of-salford/courses/salford-ba-media-communications"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "Foundation Year – Business & Management",
+    "oldUrl": "/universities/university-of-salford/courses/salford-foundation-year-business-management"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "Foundation Year – Science & Engineering",
+    "oldUrl": "/universities/university-of-salford/courses/salford-foundation-year-science-engineering"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "Graduate Certificate Business",
+    "oldUrl": "/universities/university-of-salford/courses/salford-graduate-certificate-business"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "Graduate Diploma Business",
+    "oldUrl": "/universities/university-of-salford/courses/salford-graduate-diploma-business"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Data Science",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-data-science"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Machine Learning",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-machine-learning"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Cybersecurity",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Software Engineering",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MBA",
+    "oldUrl": "/universities/university-of-salford/courses/salford-mba"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Finance",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-finance"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-international-business"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Marketing",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-marketing"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Accounting & Finance",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-accounting-finance"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Project Management",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-project-management"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Human Resource Management",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-human-resource-management"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Supply Chain Management",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-supply-chain-management"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Engineering Management",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-engineering-management"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Data Analytics",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-data-analytics"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Business Analytics",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-business-analytics"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Information Technology",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-information-technology"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Cloud Computing",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-cloud-computing"
+  },
+  {
+    "uniSlug": "university-of-salford",
+    "name": "MSc Digital Marketing",
+    "oldUrl": "/universities/university-of-salford/courses/salford-msc-digital-marketing"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Software Engineering",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Data Science",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-data-science"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Cybersecurity",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Business Administration",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-business-administration"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Accounting & Finance",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-accounting-finance"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Marketing",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-marketing"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BEng Mechanical Engineering",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-beng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BEng Electrical Engineering",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-beng-electrical-engineering"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Psychology",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-psychology"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc Economics",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-economics"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BSc International Business",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-bsc-international-business"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "BA Media & Communications",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-ba-media-communications"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "Foundation Year – Business & Management",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-foundation-year-business-management"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "Foundation Year – Science & Engineering",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-foundation-year-science-engineering"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "Graduate Certificate Business",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-graduate-certificate-business"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "Graduate Diploma Business",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-graduate-diploma-business"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Data Science",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-data-science"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Machine Learning",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-machine-learning"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Cybersecurity",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Software Engineering",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MBA",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-mba"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Finance",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-finance"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-international-business"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Marketing",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-marketing"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Accounting & Finance",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-accounting-finance"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Project Management",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-project-management"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Human Resource Management",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-human-resource-management"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Supply Chain Management",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-supply-chain-management"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Engineering Management",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-engineering-management"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Data Analytics",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-data-analytics"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Business Analytics",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-business-analytics"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Information Technology",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-information-technology"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Cloud Computing",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-cloud-computing"
+  },
+  {
+    "uniSlug": "university-of-sussex",
+    "name": "MSc Digital Marketing",
+    "oldUrl": "/universities/university-of-sussex/courses/sussex-msc-digital-marketing"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-computer-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Advanced Computer Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-advanced-computer-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Software Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-software-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Data Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-data-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Data Science and Analytics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-data-science-and-analytics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Big Data Technologies",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-big-data-technologies"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Machine Learning",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-machine-learning"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Deep Learning",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-deep-learning"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Cyber Security",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-cyber-security"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Information Security",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-information-security"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Cloud Computing",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-cloud-computing"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Internet of Things",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-internet-of-things"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Human Computer Interaction",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-human-computer-interaction"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Computer Vision",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-computer-vision"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Natural Language Processing",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-natural-language-processing"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Robotics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-robotics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Business Intelligence",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-business-intelligence"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Information Systems Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-information-systems-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Digital Transformation",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-digital-transformation"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Applied Data Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-applied-data-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Statistics and Machine Learning",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-statistics-and-machine-learning"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Advanced Software Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-advanced-software-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Computer Networks",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-computer-networks"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Mechanical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-mechanical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Civil Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-civil-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Structural Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-structural-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Electrical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-electrical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Electronic Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-electronic-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Chemical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-chemical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Aerospace Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-aerospace-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Biomedical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-biomedical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Environmental Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-environmental-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Materials Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-materials-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Advanced Manufacturing",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-advanced-manufacturing"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Sustainable Energy Systems",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-sustainable-energy-systems"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Renewable Energy",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-renewable-energy"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Automotive Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-automotive-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Robotics and Automation",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-robotics-and-automation"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Engineering Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-engineering-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Systems Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-systems-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Construction Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-construction-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Transportation Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-transportation-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Water Resources Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-water-resources-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Geotechnical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-geotechnical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MBA",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-mba"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc International Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-international-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Marketing",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-marketing"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Digital Marketing",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-digital-marketing"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Finance",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-finance"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Accounting and Finance",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-accounting-and-finance"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Financial Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-financial-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Financial Technology (FinTech)",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-financial-technology-fintech"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Investment and Wealth Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-investment-and-wealth-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-international-business"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Human Resource Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-human-resource-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Operations and Supply Chain Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-operations-and-supply-chain-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Project Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-project-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Business Analytics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-business-analytics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Strategy and Consulting",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-strategy-and-consulting"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Entrepreneurship",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-entrepreneurship"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Innovation Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-innovation-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Sustainability and Corporate Responsibility",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-sustainability-and-corporate-responsibility"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Health Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-health-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Mathematics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-mathematics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Applied Mathematics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-applied-mathematics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Statistics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-statistics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Physics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-physics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Chemistry",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-chemistry"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Biochemistry",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-biochemistry"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Biotechnology",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-biotechnology"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Bioinformatics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-bioinformatics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Environmental Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-environmental-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Climate Change",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-climate-change"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Marine Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-marine-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Genetics",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-genetics"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Food Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-food-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Pharmacology",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-pharmacology"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Neuroscience",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-neuroscience"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "Master of Actuarial Studies",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-master-of-actuarial-studies"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "Master of Construction Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-master-of-construction-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "Master of Urban Development",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-master-of-urban-development"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Photovoltaics and Solar Energy",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-photovoltaics-and-solar-energy"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "MSc Water Resources Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-msc-water-resources-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-computer-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Computer Science (Artificial Intelligence)",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-computer-science-artificial-intelligence"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Computer Science (Cyber Security)",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-computer-science-cyber-security"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Computer Science (Data Science)",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-computer-science-data-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Software Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-software-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Data Science",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-data-science"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Artificial Intelligence",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Cyber Security",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-cyber-security"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Information Technology",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-information-technology"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Mechanical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Electrical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-electrical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Electronic Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-electronic-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Chemical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-chemical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Aerospace Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-aerospace-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Biomedical Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-biomedical-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Environmental Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-environmental-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BEng Materials Science and Engineering",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-beng-materials-science-and-engineering"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BBA Business Administration",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bba-business-administration"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BCom Commerce",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bcom-commerce"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc Business Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-business-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BA Business and Management",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-ba-business-and-management"
+  },
+  {
+    "uniSlug": "unsw-sydney",
+    "name": "BSc International Business",
+    "oldUrl": "/universities/unsw-sydney/courses/unsw-bsc-international-business"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Computer Science",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Data Science",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-data-science"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Artificial Intelligence",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-artificial-intelligence"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Cybersecurity",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-cybersecurity"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Software Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Computer Science",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-computer-science"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Software Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-software-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BEng Electronic Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-beng-electronic-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MEng Mechanical Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-meng-mechanical-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BEng Civil Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-beng-civil-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Advanced Chemical Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-advanced-chemical-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MBA Master of Business Administration",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-mba-master-of-business-administration"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc International Business",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-international-business"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Finance",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-finance"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Accounting and Finance",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-accounting-and-finance"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Marketing",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-marketing"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Human Resource Management",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-human-resource-management"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Business Management",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-business-management"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Accounting and Finance",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-accounting-and-finance"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Economics",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-economics"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Economics",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-economics"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "LLM International Law",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-llm-international-law"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "LLM Commercial Law",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-llm-commercial-law"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "LLB Law",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-llb-law"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Public Health",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-public-health"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Global Health",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-global-health"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Nursing (Advanced Practice)",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-nursing-advanced-practice"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Biomedical Sciences",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-biomedical-sciences"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Biosciences",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-biosciences"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Chemistry",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-chemistry"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Physics",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-physics"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "BSc Psychology",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-bsc-psychology"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Psychology",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-psychology"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MA Education",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-ma-education"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MA English Literature",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-ma-english-literature"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MA Social Policy",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-ma-social-policy"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Environmental Management",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-environmental-management"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MEng Chemical Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-meng-chemical-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Project Management",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-project-management"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "MSc Construction Management",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-msc-construction-management"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "PhD Computer Science",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-phd-computer-science"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "PhD Engineering",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-phd-engineering"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "PhD Business",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-phd-business"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "PhD Biomedical Sciences",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-phd-biomedical-sciences"
+  },
+  {
+    "uniSlug": "university-of-birmingham",
+    "name": "PhD Law",
+    "oldUrl": "/universities/university-of-birmingham/courses/birmingham-phd-law"
+  }
+]

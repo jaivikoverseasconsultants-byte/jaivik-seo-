@@ -4934,6 +4934,356 @@
       "source": "/universities/university-of-melbourne/courses/uom-msc-biomedical",
       "destination": "/universities/university-of-melbourne/courses/master-of-biomedical-science",
       "permanent": true
+    },
+    {
+      "source": "/universities/university-of-manchester/courses/manchester-bsc-biomedical-sciences",
+      "destination": "/universities/university-of-manchester/courses/manchester-ug-bsc-biomedical-sciences",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-interior-design-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-interior-design-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-interior-architecture-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-interior-architecture-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-biomedical-science-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-biomedical-science-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-llb-law-with-international-relations",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-llb-law-with-international-relations",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-business-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-international-business-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-business-economics-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-business-economics-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-veterinary-nursing-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-veterinary-nursing-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-psychology-with-counselling-skills-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-psychology-with-counselling-skills-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-economics-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-economics-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-nursing-child-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-nursing-child-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-illustration-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-illustration-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-banking-and-finance-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-banking-and-investment-finance-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-hospitality-and-tourism-management-top-up-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-international-hospitality-and-tourism-management-top-up-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-nursing-mental-health-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-nursing-mental-health-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-business-management-1-year-top-up-ba",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-business-management-1-year-top-up-ba",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-veterinary-nursing-top-up-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-veterinary-nursing-top-up-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-rehabilitation-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-sport-and-exercise-rehabilitation-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-electronic-engineering-beng",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-electronic-engineering-beng",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-midwifery-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-midwifery-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-graphic-design-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-graphic-design-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-fashion-marketing-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-fashion-marketing-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-nursing-adult-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-nursing-adult-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-game-and-level-design-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-game-and-level-design-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-environmental-health-bsc",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-environmental-health-bsc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-neuroscience-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-neuroscience-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-science-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-sport-and-exercise-science-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-veterinary-nursing-with-foundation-year-bsc",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-veterinary-nursing-with-foundation-year-bsc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-information-systems-top-up-online-distance-learning-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-information-systems-top-up-online-distance-learning-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-psychology-with-criminology-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-psychology-with-criminology-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-computer-science-bsc",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-computer-science-bsc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-social-work-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-social-work-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-accounting-and-finance-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-accounting-and-finance-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-product-design-ba",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-product-design-ba",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-science-physical-education-and-coaching-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-sport-and-exercise-science-physical-education-and-coaching-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-business-management-human-resource-management-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-business-management-human-resource-management-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-film-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-film-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-psychology-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-psychology-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-international-business-administration-top-up-ba-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-international-business-administration-top-up-ba-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-llb-law-with-criminology",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-llb-law-with-criminology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/middlesex-university/courses/middlesex-information-technology-bsc-honours",
+      "destination": "/universities/middlesex-university/courses/mdx-ug-information-technology-bsc-honours",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/mba",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-mba",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-electrical-engineering",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-electrical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-data-science",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-finance",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-information-systems",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-information-systems",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-artificial-intelligence",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-artificial-intelligence",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-biomedical-engineering",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-biomedical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-cybersecurity",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-cybersecurity",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-business-analytics",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-business-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-marketing",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/nanyang-technological-university/courses/msc-applied-economics",
+      "destination": "/universities/nanyang-technological-university/courses/ntu-msc-applied-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/computer-science",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-computer-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/economics",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-economics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/mathematics",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-mathematics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/physics",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-physics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/political-science",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-political-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/psychology",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-psychology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/law-jd",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-law-jd",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/statistics",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-statistics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/architecture",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-architecture",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/materials-science-engineering",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-materials-science-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/aerospace-engineering",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-aerospace-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/sociology",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-sociology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/history",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-history",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/philosophy",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-philosophy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/neuroscience",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-neuroscience",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/urban-planning",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-urban-planning",
+      "permanent": true
+    },
+    {
+      "source": "/universities/uiuc-illinois/courses/journalism",
+      "destination": "/universities/uiuc-illinois/courses/uiuc-journalism",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-toronto/courses/uoft-master-global-affairs",
+      "destination": "/universities/university-of-toronto/courses/uoft-master-of-global-affairs",
+      "permanent": true
     }
   ]
 }

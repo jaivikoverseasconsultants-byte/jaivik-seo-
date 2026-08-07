@@ -1,0 +1,42 @@
+[
+  {
+    "oldUrl": "/universities/northeastern-university/courses/ne-applied-ai-mps-connect",
+    "newUrl": "/universities/northeastern-university/courses/ne-applied-ai-mps",
+    "dataFile": "data/northeastern-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/northeastern-university/courses/ne-law-llm-online",
+    "newUrl": "/universities/northeastern-university/courses/ne-law-llm",
+    "dataFile": "data/northeastern-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/griffith-university/courses/griffith-bachelor-of-arts",
+    "newUrl": "/universities/griffith-university/courses/griffith-bachelor-of-arts-16",
+    "dataFile": "data/griffith-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/griffith-university/courses/griffith-bachelor-of-business",
+    "newUrl": "/universities/griffith-university/courses/griffith-bachelor-of-business-344",
+    "dataFile": "data/griffith-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/griffith-university/courses/griffith-bachelor-of-criminology-and-criminal-justice",
+    "newUrl": "/universities/griffith-university/courses/griffith-bachelor-of-criminology-and-criminal-justice-351",
+    "dataFile": "data/griffith-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/griffith-university/courses/griffith-bachelor-of-pharmacy-honours",
+    "newUrl": "/universities/griffith-university/courses/griffith-bachelor-of-pharmacy-honours-206",
+    "dataFile": "data/griffith-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/griffith-university/courses/griffith-master-of-business-administration",
+    "newUrl": "/universities/griffith-university/courses/griffith-master-of-business-administration-369",
+    "dataFile": "data/griffith-courses.ts"
+  },
+  {
+    "oldUrl": "/universities/griffith-university/courses/griffith-graduate-certificate-in-business",
+    "newUrl": "/universities/griffith-university/courses/griffith-graduate-certificate-in-business-373",
+    "dataFile": "data/griffith-courses.ts"
+  }
+]

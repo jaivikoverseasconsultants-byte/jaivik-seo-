@@ -1,0 +1,632 @@
+[
+  {
+    "file": "data/manchester-courses.ts",
+    "name": "BSc Biomedical Sciences",
+    "oldSlug": "manchester-bsc-biomedical-sciences",
+    "newSlug": "manchester-ug-bsc-biomedical-sciences",
+    "uniSlug": "university-of-manchester",
+    "oldUrl": "/universities/university-of-manchester/courses/manchester-bsc-biomedical-sciences",
+    "newUrl": "/universities/university-of-manchester/courses/manchester-ug-bsc-biomedical-sciences"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Interior Design BA Honours",
+    "oldSlug": "middlesex-interior-design-ba-honours",
+    "newSlug": "mdx-ug-interior-design-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-interior-design-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-interior-design-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Interior Architecture BA Honours",
+    "oldSlug": "middlesex-interior-architecture-ba-honours",
+    "newSlug": "mdx-ug-interior-architecture-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-interior-architecture-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-interior-architecture-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Biomedical Science BSc Honours",
+    "oldSlug": "middlesex-biomedical-science-bsc-honours",
+    "newSlug": "mdx-ug-biomedical-science-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-biomedical-science-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-biomedical-science-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "LLB Law with International Relations",
+    "oldSlug": "middlesex-llb-law-with-international-relations",
+    "newSlug": "mdx-ug-llb-law-with-international-relations",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-llb-law-with-international-relations",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-llb-law-with-international-relations"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "International Business BA Honours",
+    "oldSlug": "middlesex-international-business-ba-honours",
+    "newSlug": "mdx-ug-international-business-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-international-business-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-international-business-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Business Economics BSc Honours",
+    "oldSlug": "middlesex-business-economics-bsc-honours",
+    "newSlug": "mdx-ug-business-economics-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-business-economics-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-business-economics-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Veterinary Nursing BSc Honours",
+    "oldSlug": "middlesex-veterinary-nursing-bsc-honours",
+    "newSlug": "mdx-ug-veterinary-nursing-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-veterinary-nursing-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-veterinary-nursing-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Psychology with Counselling Skills BSc Honours",
+    "oldSlug": "middlesex-psychology-with-counselling-skills-bsc-honours",
+    "newSlug": "mdx-ug-psychology-with-counselling-skills-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-psychology-with-counselling-skills-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-psychology-with-counselling-skills-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Economics BSc Honours",
+    "oldSlug": "middlesex-economics-bsc-honours",
+    "newSlug": "mdx-ug-economics-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-economics-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-economics-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Nursing (Child) BSc Honours",
+    "oldSlug": "middlesex-nursing-child-bsc-honours",
+    "newSlug": "mdx-ug-nursing-child-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-nursing-child-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-nursing-child-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Illustration BA Honours",
+    "oldSlug": "middlesex-illustration-ba-honours",
+    "newSlug": "mdx-ug-illustration-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-illustration-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-illustration-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Banking and Investment Finance BSc Honours",
+    "oldSlug": "middlesex-banking-and-finance-bsc-honours",
+    "newSlug": "mdx-ug-banking-and-investment-finance-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-banking-and-finance-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-banking-and-investment-finance-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "International Hospitality and Tourism Management (Top-up) BSc Honours",
+    "oldSlug": "middlesex-international-hospitality-and-tourism-management-top-up-bsc-honours",
+    "newSlug": "mdx-ug-international-hospitality-and-tourism-management-top-up-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-international-hospitality-and-tourism-management-top-up-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-international-hospitality-and-tourism-management-top-up-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Nursing (Mental Health) BSc Honours",
+    "oldSlug": "middlesex-nursing-mental-health-bsc-honours",
+    "newSlug": "mdx-ug-nursing-mental-health-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-nursing-mental-health-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-nursing-mental-health-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Business Management (1 year top-up) BA",
+    "oldSlug": "middlesex-business-management-1-year-top-up-ba",
+    "newSlug": "mdx-ug-business-management-1-year-top-up-ba",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-business-management-1-year-top-up-ba",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-business-management-1-year-top-up-ba"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Veterinary Nursing (Top-up) BSc Honours",
+    "oldSlug": "middlesex-veterinary-nursing-top-up-bsc-honours",
+    "newSlug": "mdx-ug-veterinary-nursing-top-up-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-veterinary-nursing-top-up-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-veterinary-nursing-top-up-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Sport and Exercise Rehabilitation BSc Honours",
+    "oldSlug": "middlesex-sport-and-exercise-rehabilitation-bsc-honours",
+    "newSlug": "mdx-ug-sport-and-exercise-rehabilitation-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-rehabilitation-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-sport-and-exercise-rehabilitation-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Electronic Engineering BEng",
+    "oldSlug": "middlesex-electronic-engineering-beng",
+    "newSlug": "mdx-ug-electronic-engineering-beng",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-electronic-engineering-beng",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-electronic-engineering-beng"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Midwifery BSc Honours",
+    "oldSlug": "middlesex-midwifery-bsc-honours",
+    "newSlug": "mdx-ug-midwifery-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-midwifery-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-midwifery-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Graphic Design BA Honours",
+    "oldSlug": "middlesex-graphic-design-ba-honours",
+    "newSlug": "mdx-ug-graphic-design-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-graphic-design-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-graphic-design-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Fashion Marketing BA Honours",
+    "oldSlug": "middlesex-fashion-marketing-ba-honours",
+    "newSlug": "mdx-ug-fashion-marketing-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-fashion-marketing-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-fashion-marketing-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Nursing (Adult) BSc Honours",
+    "oldSlug": "middlesex-nursing-adult-bsc-honours",
+    "newSlug": "mdx-ug-nursing-adult-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-nursing-adult-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-nursing-adult-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Game and Level Design BA Honours",
+    "oldSlug": "middlesex-game-and-level-design-ba-honours",
+    "newSlug": "mdx-ug-game-and-level-design-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-game-and-level-design-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-game-and-level-design-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Environmental Health BSc",
+    "oldSlug": "middlesex-environmental-health-bsc",
+    "newSlug": "mdx-ug-environmental-health-bsc",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-environmental-health-bsc",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-environmental-health-bsc"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Neuroscience BSc Honours",
+    "oldSlug": "middlesex-neuroscience-bsc-honours",
+    "newSlug": "mdx-ug-neuroscience-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-neuroscience-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-neuroscience-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Sport and Exercise Science BSc Honours",
+    "oldSlug": "middlesex-sport-and-exercise-science-bsc-honours",
+    "newSlug": "mdx-ug-sport-and-exercise-science-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-science-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-sport-and-exercise-science-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Veterinary Nursing with Foundation Year BSc",
+    "oldSlug": "middlesex-veterinary-nursing-with-foundation-year-bsc",
+    "newSlug": "mdx-ug-veterinary-nursing-with-foundation-year-bsc",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-veterinary-nursing-with-foundation-year-bsc",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-veterinary-nursing-with-foundation-year-bsc"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Information Systems (Top-up) (Online Distance Learning) BSc Honours",
+    "oldSlug": "middlesex-information-systems-top-up-online-distance-learning-bsc-honours",
+    "newSlug": "mdx-ug-information-systems-top-up-online-distance-learning-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-information-systems-top-up-online-distance-learning-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-information-systems-top-up-online-distance-learning-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Psychology with Criminology BSc Honours",
+    "oldSlug": "middlesex-psychology-with-criminology-bsc-honours",
+    "newSlug": "mdx-ug-psychology-with-criminology-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-psychology-with-criminology-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-psychology-with-criminology-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Computer Science BSc",
+    "oldSlug": "middlesex-computer-science-bsc",
+    "newSlug": "mdx-ug-computer-science-bsc",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-computer-science-bsc",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-computer-science-bsc"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Social Work BA Honours",
+    "oldSlug": "middlesex-social-work-ba-honours",
+    "newSlug": "mdx-ug-social-work-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-social-work-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-social-work-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Accounting and Finance BA Honours",
+    "oldSlug": "middlesex-accounting-and-finance-ba-honours",
+    "newSlug": "mdx-ug-accounting-and-finance-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-accounting-and-finance-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-accounting-and-finance-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Product Design BA",
+    "oldSlug": "middlesex-product-design-ba",
+    "newSlug": "mdx-ug-product-design-ba",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-product-design-ba",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-product-design-ba"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Sport and Exercise Science (Physical Education and Coaching) BSc Honours",
+    "oldSlug": "middlesex-sport-and-exercise-science-physical-education-and-coaching-bsc-honours",
+    "newSlug": "mdx-ug-sport-and-exercise-science-physical-education-and-coaching-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-sport-and-exercise-science-physical-education-and-coaching-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-sport-and-exercise-science-physical-education-and-coaching-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Business Management (Human Resource Management) BA Honours",
+    "oldSlug": "middlesex-business-management-human-resource-management-ba-honours",
+    "newSlug": "mdx-ug-business-management-human-resource-management-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-business-management-human-resource-management-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-business-management-human-resource-management-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Film BA Honours",
+    "oldSlug": "middlesex-film-ba-honours",
+    "newSlug": "mdx-ug-film-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-film-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-film-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Psychology BSc Honours",
+    "oldSlug": "middlesex-psychology-bsc-honours",
+    "newSlug": "mdx-ug-psychology-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-psychology-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-psychology-bsc-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "International Business Administration (Top-up) BA Honours",
+    "oldSlug": "middlesex-international-business-administration-top-up-ba-honours",
+    "newSlug": "mdx-ug-international-business-administration-top-up-ba-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-international-business-administration-top-up-ba-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-international-business-administration-top-up-ba-honours"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "LLB Law with Criminology",
+    "oldSlug": "middlesex-llb-law-with-criminology",
+    "newSlug": "mdx-ug-llb-law-with-criminology",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-llb-law-with-criminology",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-llb-law-with-criminology"
+  },
+  {
+    "file": "data/middlesex-courses.ts",
+    "name": "Information Technology BSc Honours",
+    "oldSlug": "middlesex-information-technology-bsc-honours",
+    "newSlug": "mdx-ug-information-technology-bsc-honours",
+    "uniSlug": "middlesex-university",
+    "oldUrl": "/universities/middlesex-university/courses/middlesex-information-technology-bsc-honours",
+    "newUrl": "/universities/middlesex-university/courses/mdx-ug-information-technology-bsc-honours"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MBA",
+    "oldSlug": "mba",
+    "newSlug": "ntu-mba",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/mba",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-mba"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Electrical Engineering",
+    "oldSlug": "msc-electrical-engineering",
+    "newSlug": "ntu-msc-electrical-engineering",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-electrical-engineering",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-electrical-engineering"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Data Science",
+    "oldSlug": "msc-data-science",
+    "newSlug": "ntu-msc-data-science",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-data-science",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-data-science"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Finance",
+    "oldSlug": "msc-finance",
+    "newSlug": "ntu-msc-finance",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-finance",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-finance"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Information Systems",
+    "oldSlug": "msc-information-systems",
+    "newSlug": "ntu-msc-information-systems",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-information-systems",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-information-systems"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Artificial Intelligence",
+    "oldSlug": "msc-artificial-intelligence",
+    "newSlug": "ntu-msc-artificial-intelligence",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-artificial-intelligence",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-artificial-intelligence"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Biomedical Engineering",
+    "oldSlug": "msc-biomedical-engineering",
+    "newSlug": "ntu-msc-biomedical-engineering",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-biomedical-engineering",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-biomedical-engineering"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Cybersecurity",
+    "oldSlug": "msc-cybersecurity",
+    "newSlug": "ntu-msc-cybersecurity",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-cybersecurity",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-cybersecurity"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Business Analytics",
+    "oldSlug": "msc-business-analytics",
+    "newSlug": "ntu-msc-business-analytics",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-business-analytics",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-business-analytics"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Marketing",
+    "oldSlug": "msc-marketing",
+    "newSlug": "ntu-msc-marketing",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-marketing",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-marketing"
+  },
+  {
+    "file": "data/ntu-courses.ts",
+    "name": "MSc Applied Economics",
+    "oldSlug": "msc-applied-economics",
+    "newSlug": "ntu-msc-applied-economics",
+    "uniSlug": "nanyang-technological-university",
+    "oldUrl": "/universities/nanyang-technological-university/courses/msc-applied-economics",
+    "newUrl": "/universities/nanyang-technological-university/courses/ntu-msc-applied-economics"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Computer Science",
+    "oldSlug": "computer-science",
+    "newSlug": "uiuc-computer-science",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/computer-science",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-computer-science"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Economics",
+    "oldSlug": "economics",
+    "newSlug": "uiuc-economics",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/economics",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-economics"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Mathematics",
+    "oldSlug": "mathematics",
+    "newSlug": "uiuc-mathematics",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/mathematics",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-mathematics"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Physics",
+    "oldSlug": "physics",
+    "newSlug": "uiuc-physics",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/physics",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-physics"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Political Science",
+    "oldSlug": "political-science",
+    "newSlug": "uiuc-political-science",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/political-science",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-political-science"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Psychology",
+    "oldSlug": "psychology",
+    "newSlug": "uiuc-psychology",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/psychology",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-psychology"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Law (JD)",
+    "oldSlug": "law-jd",
+    "newSlug": "uiuc-law-jd",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/law-jd",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-law-jd"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Statistics",
+    "oldSlug": "statistics",
+    "newSlug": "uiuc-statistics",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/statistics",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-statistics"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Architecture",
+    "oldSlug": "architecture",
+    "newSlug": "uiuc-architecture",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/architecture",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-architecture"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Materials Science & Engineering",
+    "oldSlug": "materials-science-engineering",
+    "newSlug": "uiuc-materials-science-engineering",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/materials-science-engineering",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-materials-science-engineering"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Aerospace Engineering",
+    "oldSlug": "aerospace-engineering",
+    "newSlug": "uiuc-aerospace-engineering",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/aerospace-engineering",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-aerospace-engineering"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Sociology",
+    "oldSlug": "sociology",
+    "newSlug": "uiuc-sociology",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/sociology",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-sociology"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "History",
+    "oldSlug": "history",
+    "newSlug": "uiuc-history",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/history",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-history"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Philosophy",
+    "oldSlug": "philosophy",
+    "newSlug": "uiuc-philosophy",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/philosophy",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-philosophy"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Neuroscience",
+    "oldSlug": "neuroscience",
+    "newSlug": "uiuc-neuroscience",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/neuroscience",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-neuroscience"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Urban Planning",
+    "oldSlug": "urban-planning",
+    "newSlug": "uiuc-urban-planning",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/urban-planning",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-urban-planning"
+  },
+  {
+    "file": "data/uiuc-courses.ts",
+    "name": "Journalism",
+    "oldSlug": "journalism",
+    "newSlug": "uiuc-journalism",
+    "uniSlug": "uiuc-illinois",
+    "oldUrl": "/universities/uiuc-illinois/courses/journalism",
+    "newUrl": "/universities/uiuc-illinois/courses/uiuc-journalism"
+  },
+  {
+    "file": "data/uoft-courses.ts",
+    "name": "Master of Global Affairs",
+    "oldSlug": "uoft-master-global-affairs",
+    "newSlug": "uoft-master-of-global-affairs",
+    "uniSlug": "university-of-toronto",
+    "oldUrl": "/universities/university-of-toronto/courses/uoft-master-global-affairs",
+    "newUrl": "/universities/university-of-toronto/courses/uoft-master-of-global-affairs"
+  }
+]
