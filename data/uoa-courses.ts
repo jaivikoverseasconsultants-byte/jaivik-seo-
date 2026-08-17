@@ -37,7 +37,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -66,7 +66,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -95,7 +95,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -124,7 +124,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -153,7 +153,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -182,7 +182,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -211,7 +211,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -240,7 +240,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -269,7 +269,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -298,7 +298,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -327,7 +327,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -356,7 +356,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -385,7 +385,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -414,7 +414,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -443,7 +443,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -472,7 +472,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -501,7 +501,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -530,7 +530,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -559,7 +559,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -588,7 +588,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -617,7 +617,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 27170,
     "annualINR": 2268695,
     "totalAUD": 41800,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -646,7 +646,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -675,7 +675,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -704,7 +704,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -733,7 +733,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 49400,
     "annualINR": 4124900,
     "totalAUD": 76000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -762,7 +762,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 29640,
     "annualINR": 2474940,
     "totalAUD": 45600,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -791,7 +791,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 29640,
     "annualINR": 2474940,
     "totalAUD": 45600,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -820,7 +820,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 29640,
     "annualINR": 2474940,
     "totalAUD": 45600,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -849,7 +849,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 29640,
     "annualINR": 2474940,
     "totalAUD": 45600,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -878,7 +878,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 34580,
     "annualINR": 2887430,
     "totalAUD": 53200,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -907,7 +907,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 34580,
     "annualINR": 2887430,
     "totalAUD": 53200,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -936,7 +936,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 34580,
     "annualINR": 2887430,
     "totalAUD": 53200,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -965,7 +965,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 34580,
     "annualINR": 2887430,
     "totalAUD": 53200,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -994,7 +994,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 34580,
     "annualINR": 2887430,
     "totalAUD": 53200,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1023,7 +1023,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1052,7 +1052,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1081,7 +1081,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1110,7 +1110,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1139,7 +1139,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1168,7 +1168,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1197,7 +1197,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1226,7 +1226,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1255,7 +1255,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1284,7 +1284,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1313,7 +1313,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 29640,
     "annualINR": 2474940,
     "totalAUD": 45600,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1342,7 +1342,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1371,7 +1371,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1400,7 +1400,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 24700,
     "annualINR": 2062450,
     "totalAUD": 38000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1429,7 +1429,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1458,7 +1458,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1487,7 +1487,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1516,7 +1516,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1545,7 +1545,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1574,7 +1574,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1603,7 +1603,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1632,7 +1632,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1661,7 +1661,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1690,7 +1690,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1719,7 +1719,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1748,7 +1748,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   },
@@ -1777,7 +1777,7 @@ export const uoaCourses: UoaCourse[] = [
     "annualUSD": 22100,
     "annualINR": 1845350,
     "totalAUD": 102000,
-    "livingCostAUD": 19000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 12350,
     "livingCostINR": 1031225
   }

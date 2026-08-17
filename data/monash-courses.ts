@@ -37,7 +37,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -66,7 +66,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -95,7 +95,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -124,7 +124,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -153,7 +153,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -182,7 +182,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -211,7 +211,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -240,7 +240,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -269,7 +269,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -298,7 +298,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -327,7 +327,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -356,7 +356,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -385,7 +385,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -414,7 +414,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -443,7 +443,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -472,7 +472,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -501,7 +501,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -530,7 +530,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -559,7 +559,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -588,7 +588,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -617,7 +617,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -646,7 +646,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -675,7 +675,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -704,7 +704,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -733,7 +733,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -762,7 +762,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -791,7 +791,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -820,7 +820,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -849,7 +849,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -878,7 +878,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -907,7 +907,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -936,7 +936,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -965,7 +965,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -994,7 +994,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1023,7 +1023,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1052,7 +1052,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1081,7 +1081,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1110,7 +1110,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1139,7 +1139,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1168,7 +1168,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1197,7 +1197,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1226,7 +1226,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1255,7 +1255,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1284,7 +1284,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1313,7 +1313,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 28600,
     "annualINR": 2388100,
     "totalAUD": 44000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1342,7 +1342,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 52000,
     "annualINR": 4342000,
     "totalAUD": 80000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1371,7 +1371,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1400,7 +1400,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1429,7 +1429,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1458,7 +1458,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1487,7 +1487,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 36400,
     "annualINR": 3039400,
     "totalAUD": 56000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1516,7 +1516,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 36400,
     "annualINR": 3039400,
     "totalAUD": 56000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1545,7 +1545,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 36400,
     "annualINR": 3039400,
     "totalAUD": 56000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1574,7 +1574,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 36400,
     "annualINR": 3039400,
     "totalAUD": 56000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1603,7 +1603,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 36400,
     "annualINR": 3039400,
     "totalAUD": 56000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1632,7 +1632,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1661,7 +1661,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1690,7 +1690,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1719,7 +1719,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1748,7 +1748,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1777,7 +1777,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1806,7 +1806,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1835,7 +1835,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1864,7 +1864,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1893,7 +1893,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1922,7 +1922,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1951,7 +1951,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -1980,7 +1980,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2009,7 +2009,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2038,7 +2038,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2067,7 +2067,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2096,7 +2096,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2125,7 +2125,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2154,7 +2154,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2183,7 +2183,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2212,7 +2212,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2241,7 +2241,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2270,7 +2270,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2299,7 +2299,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2328,7 +2328,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2357,7 +2357,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2386,7 +2386,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2415,7 +2415,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2444,7 +2444,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2473,7 +2473,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2502,7 +2502,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2531,7 +2531,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2560,7 +2560,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2589,7 +2589,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2618,7 +2618,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2647,7 +2647,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2676,7 +2676,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 31200,
     "annualINR": 2605200,
     "totalAUD": 48000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2705,7 +2705,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 36400,
     "annualINR": 3039400,
     "totalAUD": 56000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2734,7 +2734,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2763,7 +2763,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2792,7 +2792,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 26000,
     "annualINR": 2171000,
     "totalAUD": 40000,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2821,7 +2821,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2850,7 +2850,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2879,7 +2879,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2908,7 +2908,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2937,7 +2937,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2966,7 +2966,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -2995,7 +2995,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3024,7 +3024,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3053,7 +3053,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3082,7 +3082,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3111,7 +3111,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3140,7 +3140,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3169,7 +3169,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3198,7 +3198,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3227,7 +3227,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3256,7 +3256,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3285,7 +3285,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3314,7 +3314,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3343,7 +3343,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3372,7 +3372,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3401,7 +3401,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   },
@@ -3430,7 +3430,7 @@ export const monashCourses: MonashCourse[] = [
     "annualUSD": 23758,
     "annualINR": 1983751,
     "totalAUD": 109650,
-    "livingCostAUD": 22000,
+    "livingCostAUD": 29710,
     "livingCostUSD": 14300,
     "livingCostINR": 1194050
   }
