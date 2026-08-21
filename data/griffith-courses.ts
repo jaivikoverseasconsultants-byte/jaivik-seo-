@@ -10,7 +10,7 @@
 // real programs-courses.griffith.edu.au overview page URL.
 
 export interface GriffithCourse {
-  id: string; name: string; slug: string; url: string; officialUrlKind?: 'degree' | 'study-area';
+  id: string; name: string; slug: string; url: string; officialUrlKind?: 'degree' | 'study-area'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualAUD: number; tuitionMinAUD?: number; tuitionMaxAUD?: number; annualUSD: number; annualINR: number; totalAUD: number;
   livingCostAUD: number; livingCostUSD: number; livingCostINR: number;
@@ -4278,7 +4278,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Primary Education",
+        "slug": "griffith-bachelor-of-primary-education"
+      },
+      {
+        "name": "Bachelor of Secondary Education",
+        "slug": "griffith-bachelor-of-secondary-education"
+      },
+      {
+        "name": "Bachelor of Early Childhood and Primary Education",
+        "slug": "griffith-bachelor-of-early-childhood-and-primary-education"
+      }
+    ]
   },
   {
     "id": "griffith-143",
@@ -5418,7 +5433,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Master of Aviation Management",
+        "slug": "griffith-master-of-aviation-management"
+      },
+      {
+        "name": "Graduate Certificate in Aviation Management",
+        "slug": "griffith-graduate-certificate-in-aviation-management"
+      },
+      {
+        "name": "Bachelor of Aviation",
+        "slug": "griffith-bachelor-of-aviation"
+      }
+    ]
   },
   {
     "id": "griffith-181",
@@ -5658,7 +5688,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Science",
+        "slug": "griffith-bachelor-of-science"
+      },
+      {
+        "name": "Bachelor of Arts",
+        "slug": "griffith-bachelor-of-arts"
+      },
+      {
+        "name": "Bachelor of Science/Bachelor of Business",
+        "slug": "griffith-bachelor-of-sciencebachelor-of-business"
+      }
+    ]
   },
   {
     "id": "griffith-189",
@@ -5718,7 +5763,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Master of Education",
+        "slug": "griffith-master-of-education"
+      },
+      {
+        "name": "Graduate Certificate in Teaching English to Speakers of Other Languages",
+        "slug": "griffith-graduate-certificate-in-teaching-english-to-speakers-of-other-languages"
+      },
+      {
+        "name": "Graduate Certificate in Special Education",
+        "slug": "griffith-graduate-certificate-in-special-education"
+      }
+    ]
   },
   {
     "id": "griffith-191",
@@ -6678,7 +6738,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Master of Civil Engineering",
+        "slug": "griffith-master-of-civil-engineering"
+      },
+      {
+        "name": "Master of Engineering Project Management",
+        "slug": "griffith-master-of-engineering-project-management"
+      },
+      {
+        "name": "Master of Environmental Engineering",
+        "slug": "griffith-master-of-environmental-engineering"
+      }
+    ]
   },
   {
     "id": "griffith-223",
@@ -6738,7 +6813,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Master of Civil Engineering",
+        "slug": "griffith-master-of-civil-engineering"
+      },
+      {
+        "name": "Master of Engineering Project Management",
+        "slug": "griffith-master-of-engineering-project-management"
+      },
+      {
+        "name": "Master of Environmental Engineering",
+        "slug": "griffith-master-of-environmental-engineering"
+      }
+    ]
   },
   {
     "id": "griffith-225",
@@ -10578,7 +10668,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Bachelor of Film and Screen Media Production",
+        "slug": "griffith-bachelor-of-film-and-screen-media-production"
+      }
+    ]
   },
   {
     "id": "griffith-353",
@@ -10608,7 +10713,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Graduate Certificate in Strategic Communication",
+        "slug": "griffith-graduate-certificate-in-strategic-communication"
+      }
+    ]
   },
   {
     "id": "griffith-354",
@@ -10668,7 +10788,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Arts",
+        "slug": "griffith-bachelor-of-arts"
+      },
+      {
+        "name": "Graduate Certificate in Creative and Professional Writing",
+        "slug": "griffith-graduate-certificate-in-creative-and-professional-writing"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      }
+    ]
   },
   {
     "id": "griffith-356",
@@ -10698,7 +10833,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Arts",
+        "slug": "griffith-bachelor-of-arts"
+      },
+      {
+        "name": "Graduate Certificate in Creative and Professional Writing",
+        "slug": "griffith-graduate-certificate-in-creative-and-professional-writing"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      }
+    ]
   },
   {
     "id": "griffith-357",
@@ -10728,7 +10878,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Arts",
+        "slug": "griffith-bachelor-of-arts"
+      },
+      {
+        "name": "Graduate Certificate in Creative and Professional Writing",
+        "slug": "griffith-graduate-certificate-in-creative-and-professional-writing"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      }
+    ]
   },
   {
     "id": "griffith-358",
@@ -10758,7 +10923,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Bachelor of Film and Screen Media Production",
+        "slug": "griffith-bachelor-of-film-and-screen-media-production"
+      }
+    ]
   },
   {
     "id": "griffith-359",
@@ -10788,7 +10968,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Bachelor of Film and Screen Media Production",
+        "slug": "griffith-bachelor-of-film-and-screen-media-production"
+      }
+    ]
   },
   {
     "id": "griffith-360",
@@ -10818,7 +11013,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Bachelor of Film and Screen Media Production",
+        "slug": "griffith-bachelor-of-film-and-screen-media-production"
+      }
+    ]
   },
   {
     "id": "griffith-361",
@@ -10848,7 +11058,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Graduate Certificate in Strategic Communication",
+        "slug": "griffith-graduate-certificate-in-strategic-communication"
+      }
+    ]
   },
   {
     "id": "griffith-362",
@@ -10878,7 +11103,22 @@ export const griffithCourses: GriffithCourse[] = [
     "state": "Queensland",
     "city": "Brisbane",
     "countryCode": "AU",
-    "officialUrlKind": "study-area"
+    "officialUrlKind": "study-area",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "Bachelor of Communication",
+        "slug": "griffith-bachelor-of-communication"
+      },
+      {
+        "name": "Diploma of Communication",
+        "slug": "griffith-diploma-of-communication"
+      },
+      {
+        "name": "Graduate Certificate in Strategic Communication",
+        "slug": "griffith-graduate-certificate-in-strategic-communication"
+      }
+    ]
   },
   {
     "id": "griffith-363",

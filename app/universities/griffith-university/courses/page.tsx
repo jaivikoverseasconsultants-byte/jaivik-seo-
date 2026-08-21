@@ -177,7 +177,14 @@ export default function CoursesPage() {
                   <Link key={c.slug} href={`/universities/griffith-university/courses/${c.slug}`}
                     className="bg-white rounded-xl p-4 border border-gray-100 hover:shadow-md hover:border-brand-200 transition-all flex items-center justify-between group">
                     <div className="flex-1 min-w-0">
-                      <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">{c.name}</p>
+                      <p className="font-semibold text-gray-900 group-hover:text-brand-700 text-sm leading-snug">
+                        {c.name}
+                        {c.withdrawn && (
+                          <span className="ml-2 align-middle inline-block bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded-full">
+                            No longer offered
+                          </span>
+                        )}
+                      </p>
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">

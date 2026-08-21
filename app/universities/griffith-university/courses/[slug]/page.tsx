@@ -18,6 +18,16 @@ export async function generateMetadata(
   const { slug } = await params;
   const course = getGriffithCoursesBySlug(slug);
   if (!course) return {};
+  // Griffith has withdrawn a handful of these programs. Say so in the title and
+  // description rather than advertising a course nobody can apply to.
+  if ((course as any).withdrawn) {
+    return buildMetadata({
+      title: `${course.name} at Griffith University — No Longer Offered (Alternatives Inside)`,
+      description: `${course.name} has been withdrawn by Griffith University and is no longer open for applications. See current Griffith alternatives and get free guidance from Jaivik Overseas.`,
+      path: `/universities/griffith-university/courses/${slug}`,
+      keywords: [course.name, 'Griffith', 'Griffith University', 'study in Australia', course.level],
+    });
+  }
   return buildMetadata({
     title: `${course.name} at Griffith University — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at Griffith University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
@@ -70,7 +80,11 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 Griffith University · {course.campus}
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Griffith University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">
+                {(course as any).withdrawn
+                  ? `${course.name} at Griffith University — No Longer Offered`
+                  : <>{course.name} at Griffith University — Fees in INR, IELTS &amp; Requirements for Indian Students</>}
+              </h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>
@@ -97,6 +111,42 @@ export default async function CoursePage(
 
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-6">
+          {(course as any).withdrawn && (
+            <div className="bg-amber-50 border border-amber-300 rounded-2xl p-6" role="note">
+              <h2 className="text-lg font-bold text-amber-900 mb-2">
+                ⚠️ This program is no longer offered by Griffith University
+              </h2>
+              <p className="text-sm text-amber-900/90 mb-2">
+                Griffith University has withdrawn <strong>{course.name}</strong> and it is no
+                longer open to new applications. The fees, entry requirements and intake dates
+                shown further down this page were accurate when the program was last offered and
+                are kept for reference only — they should not be used to plan an application.
+              </p>
+              {(course as any).alternatives?.length > 0 && (
+                <>
+                  <p className="text-sm font-semibold text-amber-900 mt-4 mb-2">
+                    Current Griffith programs to consider instead:
+                  </p>
+                  <ul className="space-y-1.5">
+                    {((course as any).alternatives as { name: string; slug: string }[]).map(alt => (
+                      <li key={alt.slug}>
+                        <Link
+                          href={`/universities/griffith-university/courses/${alt.slug}`}
+                          className="text-sm font-medium text-brand-700 hover:underline"
+                        >
+                          {alt.name} →
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+              <p className="text-xs text-amber-900/80 mt-4">
+                Not sure which is the right fit? Jaivik Overseas can match you to a current
+                Griffith program free of charge.
+              </p>
+            </div>
+          )}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
