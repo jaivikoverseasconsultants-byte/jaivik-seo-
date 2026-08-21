@@ -45,7 +45,10 @@ export default async function CoursePage(
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
-    url: course.url,
+    // Griffith withdrew a handful of these programs; for those, course.url points at
+    // Griffith's discipline hub, which is not this course's own page — so don't assert
+    // it as the Course's canonical url.
+    ...((course as any).officialUrlKind === 'study-area' ? {} : { url: course.url }),
   };
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -170,7 +173,9 @@ export default async function CoursePage(
               <div className="space-y-2">
                 <a href={course.url} target="_blank" rel="noopener noreferrer"
                   className="block text-sm text-brand-700 hover:underline">
-                  Official Course Page ↗
+                  {(course as any).officialUrlKind === 'study-area'
+                    ? 'Griffith Study Area (this program is no longer offered) ↗'
+                    : 'Official Course Page ↗'}
                 </a>
                 <Link href="/universities/griffith-university/courses" className="block text-sm text-brand-700 hover:underline">
                   All Griffith Courses →

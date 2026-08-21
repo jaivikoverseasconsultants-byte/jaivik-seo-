@@ -10,7 +10,7 @@
 // real programs-courses.griffith.edu.au overview page URL.
 
 export interface GriffithCourse {
-  id: string; name: string; slug: string; url: string;
+  id: string; name: string; slug: string; url: string; officialUrlKind?: 'degree' | 'study-area';
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualAUD: number; tuitionMinAUD?: number; tuitionMaxAUD?: number; annualUSD: number; annualINR: number; totalAUD: number;
   livingCostAUD: number; livingCostUSD: number; livingCostINR: number;
@@ -24,7 +24,7 @@ export const griffithCourses: GriffithCourse[] = [
     "id": "griffith-1",
     "name": "Master of Clinical Psychology",
     "slug": "griffith-master-of-clinical-psychology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5070/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-clinical-psychology-5070",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -47,13 +47,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-2",
     "name": "Master of Speech Pathology",
     "slug": "griffith-master-of-speech-pathology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5567/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-speech-pathology-5567",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -76,13 +77,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-3",
     "name": "Bachelor of Forensic Science",
     "slug": "griffith-bachelor-of-forensic-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1264/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-forensic-science-1264",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -105,13 +107,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-4",
     "name": "Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1112/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-criminology-and-criminal-justice-1112",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -134,13 +137,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-5",
     "name": "Bachelor of Health Science",
     "slug": "griffith-bachelor-of-health-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1093/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-health-science-1093",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -163,13 +167,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-6",
     "name": "Bachelor of Psychology (Honours)",
     "slug": "griffith-bachelor-of-psychology-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1014/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychology-honours-1014",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -192,13 +197,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-7",
     "name": "Bachelor of Arts",
     "slug": "griffith-bachelor-of-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1023/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-arts-1021",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -221,13 +227,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-8",
     "name": "Bachelor of Psychological Science",
     "slug": "griffith-bachelor-of-psychological-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1012/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychological-science-1012",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -250,13 +257,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-9",
     "name": "Bachelor of Design (Honours)",
     "slug": "griffith-bachelor-of-design-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2043/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-design-honours-2043",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -279,13 +287,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-10",
     "name": "Bachelor of Music (Honours)",
     "slug": "griffith-bachelor-of-music-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2051/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-music-honours-2051",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -308,13 +317,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-11",
     "name": "Bachelor of Marine Science",
     "slug": "griffith-bachelor-of-marine-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1328/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-marine-science-1328",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -337,13 +347,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-12",
     "name": "Bachelor of Film and Screen Media Production",
     "slug": "griffith-bachelor-of-film-and-screen-media-production",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1284/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-film-and-screen-media-production-1284",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -366,13 +377,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-13",
     "name": "Bachelor of Languages and Linguistics",
     "slug": "griffith-bachelor-of-languages-and-linguistics",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1116/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-languages-and-linguistics-1116",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -395,13 +407,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-14",
     "name": "Bachelor of Design",
     "slug": "griffith-bachelor-of-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1189/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-design-1189",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -424,13 +437,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-15",
     "name": "Bachelor of Biomedical Science",
     "slug": "griffith-bachelor-of-biomedical-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1031/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-biomedical-science-1031",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -453,13 +467,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-16",
     "name": "Bachelor of Arts",
     "slug": "griffith-bachelor-of-arts-16",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1021/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-arts-1021",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -482,13 +497,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-17",
     "name": "Bachelor of Exercise Science",
     "slug": "griffith-bachelor-of-exercise-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1171/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-exercise-science-1171",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -511,13 +527,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-18",
     "name": "Bachelor of Contemporary Australian Indigenous Art",
     "slug": "griffith-bachelor-of-contemporary-australian-indigenous-art",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1187/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-contemporary-australian-indigenous-art-1187",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -540,13 +557,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-19",
     "name": "Diploma of Languages",
     "slug": "griffith-diploma-of-languages",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8025/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-languages-8025",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -569,13 +587,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-20",
     "name": "Graduate Diploma of Health Research",
     "slug": "griffith-graduate-diploma-of-health-research",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4161/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-health-research-4161",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -598,13 +617,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-21",
     "name": "Bachelor of Information Technology (Honours)",
     "slug": "griffith-bachelor-of-information-technology-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2020/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-information-technology-honours-2020",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -627,13 +647,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-22",
     "name": "Bachelor of Arts/Bachelor of Business",
     "slug": "griffith-bachelor-of-artsbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1293/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-arts-bachelor-of-business-1293",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -656,13 +677,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-23",
     "name": "Bachelor of Aviation Management",
     "slug": "griffith-bachelor-of-aviation-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1367/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-aviation-management-1367",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -685,13 +707,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-24",
     "name": "Graduate Certificate in Marketing",
     "slug": "griffith-graduate-certificate-in-marketing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3068/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-marketing-3068",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -714,13 +737,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-25",
     "name": "Graduate Certificate in Business Administration",
     "slug": "griffith-graduate-certificate-in-business-administration",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3047/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-business-administration-3047",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -743,13 +767,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-26",
     "name": "Graduate Certificate in Forensic Mental Health",
     "slug": "griffith-graduate-certificate-in-forensic-mental-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3154/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-forensic-mental-health-3154",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -772,13 +797,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-27",
     "name": "Bachelor of Biomedical Science",
     "slug": "griffith-bachelor-of-biomedical-science-27",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1094/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-biomedical-science-1094",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -801,13 +827,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-28",
     "name": "Bachelor of Nursing",
     "slug": "griffith-bachelor-of-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1162/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-nursing-1162",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -830,13 +857,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-29",
     "name": "Doctor of Philosophy",
     "slug": "griffith-doctor-of-philosophy",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/6001/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/doctor-of-philosophy-6001",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -859,13 +887,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-30",
     "name": "Graduate Certificate in International Relations",
     "slug": "griffith-graduate-certificate-in-international-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3142/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-international-relations-3142",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -888,13 +917,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-31",
     "name": "Graduate Certificate in Visual Arts",
     "slug": "griffith-graduate-certificate-in-visual-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3181/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-visual-arts-3181",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -917,13 +947,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-32",
     "name": "Graduate Certificate in Criminology and Criminal Justice",
     "slug": "griffith-graduate-certificate-in-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3152/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-criminology-and-criminal-justice-3152",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -946,13 +977,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-33",
     "name": "Bachelor of Psychological Science (Honours)",
     "slug": "griffith-bachelor-of-psychological-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2004/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychological-science-honours-2004",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -975,13 +1007,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-34",
     "name": "Bachelor of Medical Laboratory Science",
     "slug": "griffith-bachelor-of-medical-laboratory-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1370/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-medical-laboratory-science-1370",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1004,13 +1037,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-35",
     "name": "Graduate Certificate in Teaching English to Speakers of Other Languages",
     "slug": "griffith-graduate-certificate-in-teaching-english-to-speakers-of-other-languages",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3016/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-teaching-english-to-speakers-of-other-languages-3016",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1033,13 +1067,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-36",
     "name": "Graduate Certificate in Human Services",
     "slug": "griffith-graduate-certificate-in-human-services",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3272/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-human-services-3272",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1062,13 +1097,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-37",
     "name": "Graduate Certificate in Health Services Management",
     "slug": "griffith-graduate-certificate-in-health-services-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3082/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-health-services-management-3082",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1091,13 +1127,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-38",
     "name": "Master of International Business",
     "slug": "griffith-master-of-international-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5311/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-international-business-5311",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1120,13 +1157,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-39",
     "name": "Bachelor of Arts (Honours)",
     "slug": "griffith-bachelor-of-arts-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2007/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-arts-honours-2007",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1149,13 +1187,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-40",
     "name": "Bachelor of Advanced Science (Honours)",
     "slug": "griffith-bachelor-of-advanced-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1330/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-science-honours-1330",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1178,13 +1217,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-41",
     "name": "Bachelor of Midwifery",
     "slug": "griffith-bachelor-of-midwifery",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1354/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-midwifery-1354",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1207,13 +1247,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-42",
     "name": "Graduate Certificate in Aviation Management",
     "slug": "griffith-graduate-certificate-in-aviation-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3112/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-aviation-management-3112",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1236,13 +1277,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-43",
     "name": "Graduate Certificate in Forensic Mental Health",
     "slug": "griffith-graduate-certificate-in-forensic-mental-health-43",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3262/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-forensic-mental-health-3154",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1265,13 +1307,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-44",
     "name": "Graduate Certificate in Policy Analysis",
     "slug": "griffith-graduate-certificate-in-policy-analysis",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3210/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-policy-analysis-3210",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1294,13 +1337,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-45",
     "name": "Master of Philosophy",
     "slug": "griffith-master-of-philosophy",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5001/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-philosophy-5001",
     "level": "Master (Research)",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1323,13 +1367,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-46",
     "name": "Master of Urban and Environmental Planning",
     "slug": "griffith-master-of-urban-and-environmental-planning",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5576/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-urban-and-environmental-planning-5576",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1352,13 +1397,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-47",
     "name": "Master of Architecture",
     "slug": "griffith-master-of-architecture",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5558/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-architecture-5558",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1381,13 +1427,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-48",
     "name": "Master of Public Health",
     "slug": "griffith-master-of-public-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5263/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-public-health-5263",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1410,13 +1457,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-49",
     "name": "Bachelor of Social Work",
     "slug": "griffith-bachelor-of-social-work",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1372/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-social-work-1372",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1439,13 +1487,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-50",
     "name": "Bachelor of Medical Science",
     "slug": "griffith-bachelor-of-medical-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1280/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-medical-science-1280",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1468,13 +1517,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-51",
     "name": "Bachelor of Science/Bachelor of Information Technology",
     "slug": "griffith-bachelor-of-sciencebachelor-of-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1045/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-science-bachelor-of-information-technology-1045",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1497,13 +1547,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-52",
     "name": "Doctor of Visual Arts",
     "slug": "griffith-doctor-of-visual-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/6009/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/doctor-of-visual-arts-6009",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -1526,13 +1577,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-53",
     "name": "Graduate Diploma of Research Studies in Business",
     "slug": "griffith-graduate-diploma-of-research-studies-in-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4160/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-research-studies-in-business-4160",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1555,13 +1607,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-54",
     "name": "Graduate Certificate in Autism Studies",
     "slug": "griffith-graduate-certificate-in-autism-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3270/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-autism-studies-3270",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1584,13 +1637,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-55",
     "name": "Bachelor of Psychological Science/Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-psychological-sciencebachelor-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1115/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychological-science-bachelor-of-criminology-and-criminal-justice-1115",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1613,13 +1667,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-56",
     "name": "Bachelor of Animation",
     "slug": "griffith-bachelor-of-animation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1179/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-animation-1179",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1642,13 +1697,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-57",
     "name": "Bachelor of Psychological Science/Bachelor of Business",
     "slug": "griffith-bachelor-of-psychological-sciencebachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1013/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychological-science-bachelor-of-business-1013",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1671,13 +1727,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-58",
     "name": "Bachelor of Communication",
     "slug": "griffith-bachelor-of-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1245/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-communication-1685",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1700,13 +1757,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-59",
     "name": "Graduate Certificate in Research Studies in Business",
     "slug": "griffith-graduate-certificate-in-research-studies-in-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3275/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-research-studies-in-business-3275",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -1729,13 +1787,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-60",
     "name": "Master of Business Administration",
     "slug": "griffith-master-of-business-administration",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5158/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-business-administration-5158",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1758,13 +1817,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-61",
     "name": "Master of Rehabilitation Counselling",
     "slug": "griffith-master-of-rehabilitation-counselling",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5578/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-rehabilitation-counselling-5578",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1787,13 +1847,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-62",
     "name": "Bachelor of Human Services",
     "slug": "griffith-bachelor-of-human-services",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1394/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-human-services-1394",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1816,13 +1877,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-63",
     "name": "Doctor of Medicine",
     "slug": "griffith-doctor-of-medicine",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5099/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/doctor-of-medicine-5099",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -1845,13 +1907,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-64",
     "name": "Bachelor of Musical Theatre",
     "slug": "griffith-bachelor-of-musical-theatre",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1404/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-musical-theatre-1404",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1874,13 +1937,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-65",
     "name": "Bachelor of Industrial Design",
     "slug": "griffith-bachelor-of-industrial-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1407/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-industrial-design-1407",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1903,13 +1967,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-66",
     "name": "Bachelor of Human Services (Honours)",
     "slug": "griffith-bachelor-of-human-services-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2092/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-human-services-honours-2092",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1932,13 +1997,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-67",
     "name": "Master of Primary Teaching",
     "slug": "griffith-master-of-primary-teaching",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5587/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-primary-teaching-5587",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -1961,13 +2027,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-68",
     "name": "Bachelor of Medical Science (Honours)",
     "slug": "griffith-bachelor-of-medical-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2099/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-medical-science-honours-2099",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -1990,13 +2057,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-69",
     "name": "Bachelor of Nursing (Honours)",
     "slug": "griffith-bachelor-of-nursing-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2094/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-nursing-honours-2094",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2019,13 +2087,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-70",
     "name": "Bachelor of International Tourism and Hotel Management",
     "slug": "griffith-bachelor-of-international-tourism-and-hotel-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1408/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-international-tourism-and-hotel-management-1408",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2048,13 +2117,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-71",
     "name": "Bachelor of Health Science (Honours)",
     "slug": "griffith-bachelor-of-health-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2101/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-health-science-honours-2101",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2077,13 +2147,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-72",
     "name": "Bachelor of Biomedical Science (Honours)",
     "slug": "griffith-bachelor-of-biomedical-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2100/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-biomedical-science-honours-2100",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2106,13 +2177,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-73",
     "name": "Bachelor of Exercise Science (Honours)",
     "slug": "griffith-bachelor-of-exercise-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2096/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-exercise-science-honours-2096",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2135,13 +2207,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-74",
     "name": "Bachelor of Midwifery (Honours)",
     "slug": "griffith-bachelor-of-midwifery-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2095/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-midwifery-honours-2095",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2164,13 +2237,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-75",
     "name": "Master of Health Services Management",
     "slug": "griffith-master-of-health-services-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5586/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-health-services-management-5586",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2193,13 +2267,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-76",
     "name": "Master of Finance",
     "slug": "griffith-master-of-finance",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5592/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-finance-5592",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2222,13 +2297,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-77",
     "name": "Graduate Diploma of Clinical Physiology",
     "slug": "griffith-graduate-diploma-of-clinical-physiology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4168/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-clinical-physiology-4168",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2251,13 +2327,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-78",
     "name": "Graduate Certificate in Clinical Leadership",
     "slug": "griffith-graduate-certificate-in-clinical-leadership",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3280/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-clinical-leadership-3280",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2280,13 +2357,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-79",
     "name": "Graduate Certificate in Acute Care Nursing",
     "slug": "griffith-graduate-certificate-in-acute-care-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3289/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-acute-care-nursing-3289",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2309,13 +2387,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-80",
     "name": "Master of Advanced Health Services Management",
     "slug": "griffith-master-of-advanced-health-services-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5627/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-advanced-health-services-management-5627",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2338,13 +2417,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-81",
     "name": "Bachelor of Nutrition and Dietetics (Honours)",
     "slug": "griffith-bachelor-of-nutrition-and-dietetics-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1436/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-nutrition-and-dietetics-honours-1436",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2367,13 +2447,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-82",
     "name": "Bachelor of Business (Honours)",
     "slug": "griffith-bachelor-of-business-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2088/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-honours-2088",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2396,13 +2477,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-83",
     "name": "Graduate Certificate in Critical Care Nursing",
     "slug": "griffith-graduate-certificate-in-critical-care-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3290/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-critical-care-nursing-3290",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2425,13 +2507,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-84",
     "name": "Graduate Certificate in Business",
     "slug": "griffith-graduate-certificate-in-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3306/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-business-3306",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2454,13 +2537,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-85",
     "name": "Master of Marketing",
     "slug": "griffith-master-of-marketing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5629/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-marketing-5629",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2483,13 +2567,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-86",
     "name": "Master of Education and Professional Studies Research",
     "slug": "griffith-master-of-education-and-professional-studies-research",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5608/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-education-and-professional-studies-research-5608",
     "level": "Master (Research)",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2512,13 +2597,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-87",
     "name": "Doctor of Education",
     "slug": "griffith-doctor-of-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/6022/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/doctor-of-education-6022",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -2541,13 +2627,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-88",
     "name": "Bachelor of Social Work (Honours)",
     "slug": "griffith-bachelor-of-social-work-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1416/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-social-work-honours-1416",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2570,13 +2657,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-89",
     "name": "Bachelor of Sport Development",
     "slug": "griffith-bachelor-of-sport-development",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1493/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-sport-development-1493",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2599,13 +2687,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-90",
     "name": "Master of Human Services",
     "slug": "griffith-master-of-human-services",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5604/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-human-services-5604",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2628,13 +2717,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-91",
     "name": "Graduate Certificate in Emergency Nursing",
     "slug": "griffith-graduate-certificate-in-emergency-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3291/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-emergency-nursing-3291",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2657,13 +2747,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-92",
     "name": "Master of Environmental Engineering",
     "slug": "griffith-master-of-environmental-engineering",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5593/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-environmental-engineering-5593",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2686,13 +2777,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-93",
     "name": "Master of Environment",
     "slug": "griffith-master-of-environment",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5611/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-environment-5611",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2715,13 +2807,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-94",
     "name": "Graduate Certificate in Creative and Professional Writing",
     "slug": "griffith-graduate-certificate-in-creative-and-professional-writing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3302/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-creative-and-professional-writing-3302",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2744,13 +2837,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-95",
     "name": "Bachelor of Architectural Design",
     "slug": "griffith-bachelor-of-architectural-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1492/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-architectural-design-1492",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2773,13 +2867,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-96",
     "name": "Master of Information Technology",
     "slug": "griffith-master-of-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5612/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-information-technology-5612",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2802,13 +2897,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-97",
     "name": "Bachelor of International Tourism and Hotel Management/Bachelor of Business",
     "slug": "griffith-bachelor-of-international-tourism-and-hotel-managementbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1482/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-international-tourism-and-hotel-management-bachelor-of-business-1482",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -2831,13 +2927,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-98",
     "name": "Graduate Certificate in Safety Leadership",
     "slug": "griffith-graduate-certificate-in-safety-leadership",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3298/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-safety-leadership-3298",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -2860,13 +2957,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-99",
     "name": "Master of Autism Studies",
     "slug": "griffith-master-of-autism-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5595/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-autism-studies-5595",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2889,13 +2987,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-100",
     "name": "Master of Mental Health Practice",
     "slug": "griffith-master-of-mental-health-practice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5625/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-mental-health-practice-5625",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2918,13 +3017,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-101",
     "name": "Master of Environmental Engineering and Pollution Control",
     "slug": "griffith-master-of-environmental-engineering-and-pollution-control",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5648/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-environmental-engineering-and-pollution-control-5648",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2947,13 +3047,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-102",
     "name": "Master of Engineering Project Management",
     "slug": "griffith-master-of-engineering-project-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5660/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-engineering-project-management-5660",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -2976,13 +3077,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-103",
     "name": "Master of Civil Engineering",
     "slug": "griffith-master-of-civil-engineering",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5642/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-civil-engineering-5642",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3005,13 +3107,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-104",
     "name": "Master of International Business/Master of International Relations",
     "slug": "griffith-master-of-international-businessmaster-of-international-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5659/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-international-business-master-of-international-relations-5659",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3034,13 +3137,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-105",
     "name": "Master of Information Systems and Information Technology Management",
     "slug": "griffith-master-of-information-systems-and-information-technology-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5658/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-information-systems-and-information-technology-management-5658",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3063,13 +3167,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-106",
     "name": "Graduate Certificate in Infection Prevention and Control",
     "slug": "griffith-graduate-certificate-in-infection-prevention-and-control",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3293/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-infection-prevention-and-control-3293",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3092,13 +3197,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-107",
     "name": "Master of Infection Prevention and Control",
     "slug": "griffith-master-of-infection-prevention-and-control",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5600/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-infection-prevention-and-control-5600",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3121,13 +3227,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-108",
     "name": "Graduate Certificate in Primary Maternity Care",
     "slug": "griffith-graduate-certificate-in-primary-maternity-care",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3310/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-primary-maternity-care-3310",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3150,13 +3257,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-109",
     "name": "Master of Primary Maternity Care",
     "slug": "griffith-master-of-primary-maternity-care",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5655/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-primary-maternity-care-5655",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3179,13 +3287,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-110",
     "name": "Master of Visual Arts",
     "slug": "griffith-master-of-visual-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5663/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-visual-arts-5663",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3208,13 +3317,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-111",
     "name": "Master of Pharmacy",
     "slug": "griffith-master-of-pharmacy",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5661/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-pharmacy-5661",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -3237,13 +3347,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-112",
     "name": "Bachelor of Medical Laboratory Science (Honours)",
     "slug": "griffith-bachelor-of-medical-laboratory-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2116/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-medical-laboratory-science-honours-2116",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3266,13 +3377,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-113",
     "name": "Graduate Diploma of Research Studies in Information Technology",
     "slug": "griffith-graduate-diploma-of-research-studies-in-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4174/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-research-studies-in-information-technology-4174",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3295,13 +3407,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-114",
     "name": "Graduate Diploma of Research Studies in Engineering",
     "slug": "griffith-graduate-diploma-of-research-studies-in-engineering",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4176/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-research-studies-in-engineering-4176",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3324,13 +3437,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-115",
     "name": "Master of Suicidology",
     "slug": "griffith-master-of-suicidology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5666/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-suicidology-5666",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3353,13 +3467,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-116",
     "name": "Graduate Diploma of Criminological Research Studies",
     "slug": "griffith-graduate-diploma-of-criminological-research-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4179/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-criminological-research-studies-4179",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3382,13 +3497,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-117",
     "name": "Executive Master of Public Administration",
     "slug": "griffith-executive-master-of-public-administration",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5669/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/executive-master-of-public-administration-5669",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3411,13 +3527,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-118",
     "name": "Graduate Certificate in Early Childhood Education and Care",
     "slug": "griffith-graduate-certificate-in-early-childhood-education-and-care",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3327/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-early-childhood-education-and-care-3327",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3440,13 +3557,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-119",
     "name": "Bachelor of Aviation",
     "slug": "griffith-bachelor-of-aviation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1517/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-aviation-1517",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3469,13 +3587,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-120",
     "name": "Graduate Diploma of Law Research Studies",
     "slug": "griffith-graduate-diploma-of-law-research-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4177/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-law-research-studies-4177",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3498,13 +3617,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-121",
     "name": "Bachelor of Criminology and Criminal Justice (Honours)",
     "slug": "griffith-bachelor-of-criminology-and-criminal-justice-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2117/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-criminology-and-criminal-justice-honours-2117",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3527,13 +3647,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-122",
     "name": "Master of Science",
     "slug": "griffith-master-of-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5667/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-science-5667",
     "level": "Master (Research)",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3556,13 +3677,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-123",
     "name": "Graduate Diploma of Research Studies in Science",
     "slug": "griffith-graduate-diploma-of-research-studies-in-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4175/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-research-studies-in-science-4175",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3585,13 +3707,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-124",
     "name": "Graduate Certificate in Leadership and Management",
     "slug": "griffith-graduate-certificate-in-leadership-and-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3267/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-leadership-and-management-3267",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3614,13 +3737,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-125",
     "name": "Master of Civil Engineering/Master of Engineering Project Management",
     "slug": "griffith-master-of-civil-engineeringmaster-of-engineering-project-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5682/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-civil-engineering-master-of-engineering-project-management-5682",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3643,13 +3767,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-126",
     "name": "Bachelor of Pharmacology and Toxicology",
     "slug": "griffith-bachelor-of-pharmacology-and-toxicology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1528/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-pharmacology-and-toxicology-1528",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3672,13 +3797,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-127",
     "name": "Bachelor of Pharmacology and Toxicology (Honours)",
     "slug": "griffith-bachelor-of-pharmacology-and-toxicology-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2118/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-pharmacology-and-toxicology-honours-2118",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3701,13 +3827,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-128",
     "name": "Bachelor of Computer Science",
     "slug": "griffith-bachelor-of-computer-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1534/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-computer-science-1534",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3730,13 +3857,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-129",
     "name": "Master of Professional Accounting",
     "slug": "griffith-master-of-professional-accounting",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5683/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-professional-accounting-5683",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3759,13 +3887,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-130",
     "name": "Bachelor of Paramedicine",
     "slug": "griffith-bachelor-of-paramedicine",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1533/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-paramedicine-1533",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3788,13 +3917,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-131",
     "name": "Master of Financial Planning",
     "slug": "griffith-master-of-financial-planning",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5686/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-financial-planning-5686",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3817,13 +3947,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-132",
     "name": "Graduate Diploma of Financial Planning",
     "slug": "griffith-graduate-diploma-of-financial-planning",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4186/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-financial-planning-4186",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -3846,13 +3977,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-133",
     "name": "Master of Civil Engineering Advanced",
     "slug": "griffith-master-of-civil-engineering-advanced",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5692/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-civil-engineering-advanced-5692",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3875,13 +4007,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-134",
     "name": "Master of Engineering Project Management Advanced",
     "slug": "griffith-master-of-engineering-project-management-advanced",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5693/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-engineering-project-management-advanced-5693",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -3904,13 +4037,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-135",
     "name": "Bachelor of Biomolecular Science (Honours)",
     "slug": "griffith-bachelor-of-biomolecular-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1540/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-biomolecular-science-honours-1540",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3933,13 +4067,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-136",
     "name": "Bachelor of Information Technology",
     "slug": "griffith-bachelor-of-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1538/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-information-technology-1538",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3962,13 +4097,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-137",
     "name": "Bachelor of Environmental Science",
     "slug": "griffith-bachelor-of-environmental-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1547/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-environmental-science-1547",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -3991,13 +4127,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-138",
     "name": "Bachelor of Engineering (Honours)",
     "slug": "griffith-bachelor-of-engineering-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1546/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-1546",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4020,13 +4157,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-139",
     "name": "Bachelor of Counselling",
     "slug": "griffith-bachelor-of-counselling",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1548/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-counselling-1548",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4049,13 +4187,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-140",
     "name": "Bachelor of Information Technology/Bachelor of Business",
     "slug": "griffith-bachelor-of-information-technologybachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1570/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-information-technology-bachelor-of-business-1570",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4078,13 +4217,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-141",
     "name": "Bachelor of Design/Bachelor of Business",
     "slug": "griffith-bachelor-of-designbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1568/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-design-bachelor-of-business-1568",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4107,13 +4247,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-142",
     "name": "Bachelor of Education",
     "slug": "griffith-bachelor-of-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1567/Overview",
+    "url": "https://www.griffith.edu.au/study/education-teaching",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4136,13 +4277,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-143",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Business",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1556/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-business-1556",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4165,13 +4307,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-144",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Science",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1560/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-science-1560",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4194,13 +4337,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-145",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Environmental Science",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-environmental-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1555/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-environmental-science-1555",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4223,13 +4367,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-146",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Environmental Science",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-environmental-science-146",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1554/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-environmental-science-1554",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4252,13 +4397,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-147",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Information Technology",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1558/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-information-technology-1558",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4281,13 +4427,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-148",
     "name": "Bachelor of Psychological Science/Master of Mental Health Practice",
     "slug": "griffith-bachelor-of-psychological-sciencemaster-of-mental-health-practice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5697/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychological-science-master-of-mental-health-practice-5697",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4310,13 +4457,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-149",
     "name": "Bachelor of Psychological Science/Master of Rehabilitation Counselling",
     "slug": "griffith-bachelor-of-psychological-sciencemaster-of-rehabilitation-counselling",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5696/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-psychological-science-master-of-rehabilitation-counselling-5696",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4339,13 +4487,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-150",
     "name": "Bachelor of Science/Bachelor of Business",
     "slug": "griffith-bachelor-of-sciencebachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1572/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-science-bachelor-of-business-1572",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4368,13 +4517,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-151",
     "name": "Graduate Certificate in Criminology and Criminal Justice",
     "slug": "griffith-graduate-certificate-in-criminology-and-criminal-justice-151",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3225/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-criminology-and-criminal-justice-3152",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -4397,13 +4547,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-152",
     "name": "Bachelor of Pharmacy (Honours)",
     "slug": "griffith-bachelor-of-pharmacy-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2119/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-pharmacy-honours-2119",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4426,13 +4577,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-153",
     "name": "Bachelor of Dental Technology",
     "slug": "griffith-bachelor-of-dental-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1574/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-technology-1574",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4455,13 +4607,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-154",
     "name": "Bachelor of Acting",
     "slug": "griffith-bachelor-of-acting",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1575/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-acting-1575",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4484,13 +4637,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-155",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Industrial Design",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-industrial-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1441/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-industrial-design-1441",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4513,13 +4667,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-156",
     "name": "Bachelor of Environmental Science/Bachelor of Business",
     "slug": "griffith-bachelor-of-environmental-sciencebachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1582/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-environmental-science-bachelor-of-business-1582",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4542,13 +4697,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-157",
     "name": "Bachelor of Dental Health Science",
     "slug": "griffith-bachelor-of-dental-health-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1577/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-health-science-1577",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4571,13 +4727,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-158",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Aviation",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-aviation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1584/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-aviation-1584",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4600,13 +4757,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-159",
     "name": "Bachelor of Engineering (Honours)/Bachelor of Computer Science",
     "slug": "griffith-bachelor-of-engineering-honoursbachelor-of-computer-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1585/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-engineering-honours-bachelor-of-computer-science-1585",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4629,13 +4787,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-160",
     "name": "Master of Secondary Teaching",
     "slug": "griffith-master-of-secondary-teaching",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5700/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-secondary-teaching-5700",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -4658,13 +4817,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-161",
     "name": "Master of Clinical Dentistry",
     "slug": "griffith-master-of-clinical-dentistry",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5702/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-clinical-dentistry-5702",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -4687,13 +4847,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-162",
     "name": "Bachelor of Public Health",
     "slug": "griffith-bachelor-of-public-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1440/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-public-health-1440",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4716,13 +4877,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-163",
     "name": "Doctor of Clinical Dentistry",
     "slug": "griffith-doctor-of-clinical-dentistry",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5699/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/doctor-of-clinical-dentistry-5699",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -4745,13 +4907,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-164",
     "name": "Master of Dentistry",
     "slug": "griffith-master-of-dentistry",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5703/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-dentistry-5703",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -4774,13 +4937,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-165",
     "name": "Bachelor of Dental Technology/Bachelor of Dental Prosthetics",
     "slug": "griffith-bachelor-of-dental-technologybachelor-of-dental-prosthetics",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1580/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-technology-bachelor-of-dental-prosthetics-1580",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4803,13 +4967,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-166",
     "name": "Master of International Tourism and Hospitality Management",
     "slug": "griffith-master-of-international-tourism-and-hospitality-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5709/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-international-tourism-and-hospitality-management-5709",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -4832,13 +4997,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-167",
     "name": "Bachelor of Physiotherapy (Honours)",
     "slug": "griffith-bachelor-of-physiotherapy-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1590/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-physiotherapy-honours-1590",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4861,13 +5027,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-168",
     "name": "Graduate Certificate in International Tourism and Hospitality Management",
     "slug": "griffith-graduate-certificate-in-international-tourism-and-hospitality-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3117/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-international-tourism-and-hospitality-management-3117",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -4890,13 +5057,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-169",
     "name": "Graduate Diploma of Australian Migration Law and Practice",
     "slug": "griffith-graduate-diploma-of-australian-migration-law-and-practice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4190/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-diploma-of-australian-migration-law-and-practice-4190",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -4919,13 +5087,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-170",
     "name": "Masters Qualifying Program",
     "slug": "griffith-masters-qualifying-program",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/9354/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/masters-qualifying-program-9354",
     "level": "Non Award",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -4948,13 +5117,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-171",
     "name": "Bachelor of Sport Development (Honours)",
     "slug": "griffith-bachelor-of-sport-development-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2120/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-sport-development-honours-2120",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -4977,13 +5147,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-172",
     "name": "Graduate Certificate in Paediatric Nursing",
     "slug": "griffith-graduate-certificate-in-paediatric-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3343/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-paediatric-nursing-3343",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -5006,13 +5177,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-173",
     "name": "Master of Business",
     "slug": "griffith-master-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5632/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-business-5632",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5035,13 +5207,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-174",
     "name": "Bachelor of Paramedicine (Honours)",
     "slug": "griffith-bachelor-of-paramedicine-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2122/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-paramedicine-honours-2122",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5064,13 +5237,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-175",
     "name": "Bachelor of Health (Honours) in Public Health",
     "slug": "griffith-bachelor-of-health-honours-in-public-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2121/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-health-honours-in-public-health-2121",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5093,13 +5267,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-176",
     "name": "Master of Design",
     "slug": "griffith-master-of-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5720/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-design-5720",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5122,13 +5297,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-177",
     "name": "Graduate Certificate in Design",
     "slug": "griffith-graduate-certificate-in-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3344/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-design-3344",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -5151,13 +5327,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-178",
     "name": "Graduate Certificate in Professional Nursing",
     "slug": "griffith-graduate-certificate-in-professional-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3345/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-professional-nursing-3345",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -5180,13 +5357,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-179",
     "name": "Master of Advanced Nursing Practice",
     "slug": "griffith-master-of-advanced-nursing-practice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5721/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-advanced-nursing-practice-5721",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5209,13 +5387,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-180",
     "name": "Graduate Diploma of Rotary Wing Flight Management",
     "slug": "griffith-graduate-diploma-of-rotary-wing-flight-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/4195/Overview",
+    "url": "https://www.griffith.edu.au/study/aviation",
     "level": "Graduate Diploma",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -5238,13 +5417,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-181",
     "name": "Bachelor of Nursing/Graduate Certificate in Paediatric Nursing",
     "slug": "griffith-bachelor-of-nursinggraduate-certificate-in-paediatric-nursing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3347/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-nursing-graduate-certificate-in-paediatric-nursing-3347",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5267,13 +5447,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-182",
     "name": "Master of Marketing/Master of International Tourism and Hospitality Management",
     "slug": "griffith-master-of-marketingmaster-of-international-tourism-and-hospitality-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5716/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-marketing-master-of-international-tourism-and-hospitality-management-5716",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5296,13 +5477,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-183",
     "name": "Master of Marketing/Master of International Business",
     "slug": "griffith-master-of-marketingmaster-of-international-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5717/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-marketing-master-of-international-business-5717",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5325,13 +5507,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-184",
     "name": "Master of Global Development",
     "slug": "griffith-master-of-global-development",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5724/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-global-development-5724",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5354,13 +5537,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-185",
     "name": "Bachelor of Construction Management (Honours)",
     "slug": "griffith-bachelor-of-construction-management-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1598/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-construction-management-honours-1598",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5383,13 +5567,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-186",
     "name": "Master of Global Public Health",
     "slug": "griffith-master-of-global-public-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5725/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-global-public-health-5725",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5412,13 +5597,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-187",
     "name": "Bachelor of Environmental Science/Bachelor of Data Science",
     "slug": "griffith-bachelor-of-environmental-sciencebachelor-of-data-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1600/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-environmental-science-bachelor-of-data-science-1600",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5441,13 +5627,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-188",
     "name": "Bachelor of Science/Bachelor of Arts",
     "slug": "griffith-bachelor-of-sciencebachelor-of-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1592/Overview",
+    "url": "https://www.griffith.edu.au/study/double-degrees",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5470,13 +5657,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-189",
     "name": "Master of Professional Engineering",
     "slug": "griffith-master-of-professional-engineering",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5728/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-professional-engineering-5728",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5499,13 +5687,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-190",
     "name": "Graduate Certificate in University Learning and Teaching",
     "slug": "griffith-graduate-certificate-in-university-learning-and-teaching",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3353/Overview",
+    "url": "https://www.griffith.edu.au/study/education-teaching",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -5528,13 +5717,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-191",
     "name": "Master of Cyber Security",
     "slug": "griffith-master-of-cyber-security",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5726/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-cyber-security-5726",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5557,13 +5747,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-192",
     "name": "Bachelor of Clinical Exercise Physiology",
     "slug": "griffith-bachelor-of-clinical-exercise-physiology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1604/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-clinical-exercise-physiology-1604",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5586,13 +5777,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-193",
     "name": "Bachelor of Science/Bachelor of Data Science",
     "slug": "griffith-bachelor-of-sciencebachelor-of-data-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1601/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-science-bachelor-of-data-science-1601",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5615,13 +5807,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-194",
     "name": "Master of International Law",
     "slug": "griffith-master-of-international-law",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5729/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-international-law-5729",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5644,13 +5837,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-195",
     "name": "Bachelor of Applied Financial Advice",
     "slug": "griffith-bachelor-of-applied-financial-advice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1612/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-applied-financial-advice-1612",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5673,13 +5867,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-196",
     "name": "Master of Biotechnology",
     "slug": "griffith-master-of-biotechnology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5714/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-biotechnology-5714",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5702,13 +5897,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-197",
     "name": "Bachelor of Computer Science (Honours)",
     "slug": "griffith-bachelor-of-computer-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2123/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-computer-science-honours-2123",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5731,13 +5927,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-198",
     "name": "Bachelor of Business/Bachelor of Data Science",
     "slug": "griffith-bachelor-of-businessbachelor-of-data-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1605/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-bachelor-of-data-science-1605",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5760,13 +5957,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-199",
     "name": "Juris Doctor",
     "slug": "griffith-juris-doctor",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5734/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/juris-doctor-5734",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -5789,13 +5987,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-200",
     "name": "Master of Catchment Science",
     "slug": "griffith-master-of-catchment-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5731/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-catchment-science-5731",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5818,13 +6017,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-201",
     "name": "Graduate Certificate in Catchment Hydrology",
     "slug": "griffith-graduate-certificate-in-catchment-hydrology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3360/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-catchment-hydrology-3360",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -5847,13 +6047,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-202",
     "name": "Bachelor of Dental Hygiene",
     "slug": "griffith-bachelor-of-dental-hygiene",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1613/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-hygiene-1613",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5876,13 +6077,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-203",
     "name": "Master of International Law Studies",
     "slug": "griffith-master-of-international-law-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5738/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-international-law-studies-5738",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -5905,13 +6107,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-204",
     "name": "Bachelor of Sport Development/Bachelor of Business",
     "slug": "griffith-bachelor-of-sport-developmentbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1615/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-sport-development-bachelor-of-business-1615",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5934,13 +6137,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-205",
     "name": "Bachelor of Aviation/Bachelor of Information Technology",
     "slug": "griffith-bachelor-of-aviationbachelor-of-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1610/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-aviation-bachelor-of-information-technology-1610",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5963,13 +6167,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-206",
     "name": "Bachelor of Pharmacy (Honours)",
     "slug": "griffith-bachelor-of-pharmacy-honours-206",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1614/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-pharmacy-honours-1614",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -5992,13 +6197,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-207",
     "name": "Bachelor of Laws (Honours)",
     "slug": "griffith-bachelor-of-laws-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1620/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-1620",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6021,13 +6227,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-208",
     "name": "Bachelor of Laws (Honours)",
     "slug": "griffith-bachelor-of-laws-honours-208",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1619/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-1619",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6050,13 +6257,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-209",
     "name": "Graduate Certificate in Applied Behaviour Analysis",
     "slug": "griffith-graduate-certificate-in-applied-behaviour-analysis",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3363/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-applied-behaviour-analysis-5744",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6079,13 +6287,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-210",
     "name": "Master of Education",
     "slug": "griffith-master-of-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5735/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-education-5735",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6108,13 +6317,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-211",
     "name": "Graduate Certificate in Disability Studies",
     "slug": "griffith-graduate-certificate-in-disability-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3370/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-disability-studies-3370",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6137,13 +6347,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-212",
     "name": "Bachelor of Dental Health Science (Honours)",
     "slug": "griffith-bachelor-of-dental-health-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2126/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-health-science-honours-2126",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6166,13 +6377,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-213",
     "name": "Bachelor of Dental Technology (Honours)",
     "slug": "griffith-bachelor-of-dental-technology-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2127/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-technology-honours-2127",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6195,13 +6407,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-214",
     "name": "Bachelor of Science (Honours)",
     "slug": "griffith-bachelor-of-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2125/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-science-honours-2125",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6224,13 +6437,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-215",
     "name": "Bachelor of Business",
     "slug": "griffith-bachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1632/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-1632",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6253,13 +6467,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-216",
     "name": "Bachelor of Advanced Business (Honours)",
     "slug": "griffith-bachelor-of-advanced-business-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1633/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-business-honours-1633",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6282,13 +6497,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-217",
     "name": "Bachelor of Science",
     "slug": "griffith-bachelor-of-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1634/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-science-1634",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6311,13 +6527,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-218",
     "name": "Master of Applied Behaviour Analysis",
     "slug": "griffith-master-of-applied-behaviour-analysis",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5744/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-applied-behaviour-analysis-5744",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6340,13 +6557,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-219",
     "name": "Bachelor of Business",
     "slug": "griffith-bachelor-of-business-219",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1383/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-1632",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6369,13 +6587,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-220",
     "name": "Bachelor of Applied Financial Advice",
     "slug": "griffith-bachelor-of-applied-financial-advice-220",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1630/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-applied-financial-advice-1612",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6398,13 +6617,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-221",
     "name": "Graduate Certificate in Global Development",
     "slug": "griffith-graduate-certificate-in-global-development",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3373/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-global-development-3373",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6427,13 +6647,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-222",
     "name": "Master of Building Services",
     "slug": "griffith-master-of-building-services",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5742/Overview",
+    "url": "https://www.griffith.edu.au/study/engineering",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6456,13 +6677,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-223",
     "name": "Graduate Certificate in Climate Change Adaptation",
     "slug": "griffith-graduate-certificate-in-climate-change-adaptation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3372/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-climate-change-adaptation-3372",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6485,13 +6707,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-224",
     "name": "Graduate Certificate in Building Services",
     "slug": "griffith-graduate-certificate-in-building-services",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3374/Overview",
+    "url": "https://www.griffith.edu.au/study/engineering",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6514,13 +6737,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-225",
     "name": "Bachelor of Urban and Environmental Planning (Honours)/Bachelor of Science",
     "slug": "griffith-bachelor-of-urban-and-environmental-planning-honoursbachelor-of-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1635/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-urban-planning-honours-bachelor-of-science-1660",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6543,13 +6767,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-226",
     "name": "Bachelor of Dental Prosthetics",
     "slug": "griffith-bachelor-of-dental-prosthetics",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1638/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-dental-prosthetics-1638",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6572,13 +6797,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-227",
     "name": "Graduate Certificate in Suicidology",
     "slug": "griffith-graduate-certificate-in-suicidology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3382/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-suicidology-3382",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6601,13 +6827,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-228",
     "name": "Master of Financial Technology",
     "slug": "griffith-master-of-financial-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5746/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-financial-technology-5746",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6630,13 +6857,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-229",
     "name": "Master of Professional Psychology",
     "slug": "griffith-master-of-professional-psychology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5747/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-professional-psychology-5747",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6659,13 +6887,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-230",
     "name": "Master of Human Resource Management and Employment Relations",
     "slug": "griffith-master-of-human-resource-management-and-employment-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5748/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-human-resource-management-and-employment-relations-5748",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6688,13 +6917,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-231",
     "name": "Master of Human Resource Management and Employment Relations/Master of International Business",
     "slug": "griffith-master-of-human-resource-management-and-employment-relationsmaster-of-internatio",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5749/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-human-resource-management-and-employment-relations-master-of-international-business-5749",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6717,13 +6947,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-232",
     "name": "Bachelor of Visual Arts",
     "slug": "griffith-bachelor-of-visual-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1651/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-visual-arts-1651",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6746,13 +6977,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-233",
     "name": "Undergraduate Certificate in STEM Foundations",
     "slug": "griffith-undergraduate-certificate-in-stem-foundations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8027/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/undergraduate-certificate-in-stem-foundations-8027",
     "level": "Undergraduate Certificate",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -6775,13 +7007,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-234",
     "name": "Graduate Certificate in Renewable Energy Engineering",
     "slug": "griffith-graduate-certificate-in-renewable-energy-engineering",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3386/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-renewable-energy-engineering-3386",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -6804,13 +7037,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-235",
     "name": "Bachelor of Visual Arts/Bachelor of Business",
     "slug": "griffith-bachelor-of-visual-artsbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1652/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-visual-arts-bachelor-of-business-1652",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6833,13 +7067,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-236",
     "name": "Bachelor of Visual Arts (Honours)",
     "slug": "griffith-bachelor-of-visual-arts-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2130/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-visual-arts-honours-2130",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6862,13 +7097,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-237",
     "name": "Bachelor of Advanced International Tourism and Hotel Management (Honours)",
     "slug": "griffith-bachelor-of-advanced-international-tourism-and-hotel-management-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1655/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-international-tourism-and-hotel-management-honours-1655",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6891,13 +7127,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-238",
     "name": "Bachelor of Software Engineering (Honours)",
     "slug": "griffith-bachelor-of-software-engineering-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1656/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-software-engineering-honours-1656",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6920,13 +7157,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-239",
     "name": "Master of Human Resource Management and Employment Relations",
     "slug": "griffith-master-of-human-resource-management-and-employment-relations-239",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5750/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-human-resource-management-and-employment-relations-5748",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -6949,13 +7187,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-240",
     "name": "Bachelor of Advanced Computer Science (Honours)",
     "slug": "griffith-bachelor-of-advanced-computer-science-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1657/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-computer-science-honours-1657",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -6978,13 +7217,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-241",
     "name": "Bachelor of Urban Planning (Honours)",
     "slug": "griffith-bachelor-of-urban-planning-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1658/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-urban-planning-honours-1658",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7007,13 +7247,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-242",
     "name": "Bachelor of Urban Planning (Honours)/Bachelor of Science",
     "slug": "griffith-bachelor-of-urban-planning-honoursbachelor-of-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1660/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-urban-planning-honours-bachelor-of-science-1660",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7036,13 +7277,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-243",
     "name": "Bachelor of Occupational Therapy (Honours)",
     "slug": "griffith-bachelor-of-occupational-therapy-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1662/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-occupational-therapy-honours-1662",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7065,13 +7307,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-244",
     "name": "Diploma of Computing and Data Analytics",
     "slug": "griffith-diploma-of-computing-and-data-analytics",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8032/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-computing-and-data-analytics-8032",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7094,13 +7337,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-245",
     "name": "Doctor of Philosophy in Clinical Psychology",
     "slug": "griffith-doctor-of-philosophy-in-clinical-psychology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/6028/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/doctor-of-philosophy-in-clinical-psychology-6028",
     "level": "PhD",
     "studyLevel": "Postgraduate",
     "duration": "3 years",
@@ -7123,13 +7367,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-246",
     "name": "Diploma of Information Technology",
     "slug": "griffith-diploma-of-information-technology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8034/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-information-technology-8034",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7152,13 +7397,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-247",
     "name": "Diploma of Education",
     "slug": "griffith-diploma-of-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8044/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-education-8044",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7181,13 +7427,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-248",
     "name": "Diploma of Business",
     "slug": "griffith-diploma-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8036/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-business-8036",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7210,13 +7457,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-249",
     "name": "Diploma of Arts",
     "slug": "griffith-diploma-of-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8040/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-arts-8040",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7239,13 +7487,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-250",
     "name": "Diploma of Criminology and Criminal Justice",
     "slug": "griffith-diploma-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8042/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-criminology-and-criminal-justice-8042",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7268,13 +7517,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-251",
     "name": "Diploma of Applied Science",
     "slug": "griffith-diploma-of-applied-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8035/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-applied-science-8035",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7297,13 +7547,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-252",
     "name": "Diploma of Engineering",
     "slug": "griffith-diploma-of-engineering",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8046/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-engineering-8046",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7326,13 +7577,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-253",
     "name": "Diploma of Music",
     "slug": "griffith-diploma-of-music",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8047/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-music-8047",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7355,13 +7607,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-254",
     "name": "Graduate Certificate in Financial Crime Investigation and Compliance",
     "slug": "griffith-graduate-certificate-in-financial-crime-investigation-and-compliance",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3400/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-financial-crime-investigation-and-compliance-3400",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -7384,13 +7637,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-255",
     "name": "Master of Clinical Psychology Practice",
     "slug": "griffith-master-of-clinical-psychology-practice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5753/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-clinical-psychology-practice-5753",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -7413,13 +7667,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-256",
     "name": "Bachelor of Industrial Design (Honours)",
     "slug": "griffith-bachelor-of-industrial-design-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2131/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-industrial-design-honours-2131",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7442,13 +7697,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-257",
     "name": "Bachelor of Political Science and International Relations/Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-political-science-and-international-relationsbachelor-of-criminology",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1667/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-political-science-and-international-relations-bachelor-of-criminology-and-criminal-justice-1667",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7471,13 +7727,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-258",
     "name": "Bachelor of Political Science and International Relations",
     "slug": "griffith-bachelor-of-political-science-and-international-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1664/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-political-science-and-international-relations-1664",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7500,13 +7757,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-259",
     "name": "Bachelor of Advanced Political Science and International Relations (Honours)",
     "slug": "griffith-bachelor-of-advanced-political-science-and-international-relations-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1665/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-political-science-and-international-relations-honours-1665",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7529,13 +7787,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-260",
     "name": "Bachelor of Business/Bachelor of Political Science and International Relations",
     "slug": "griffith-bachelor-of-businessbachelor-of-political-science-and-international-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1666/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-bachelor-of-political-science-and-international-relations-1666",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7558,13 +7817,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-261",
     "name": "Diploma of Political Science and International Relations",
     "slug": "griffith-diploma-of-political-science-and-international-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8052/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-political-science-and-international-relations-8052",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7587,13 +7847,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-262",
     "name": "Diploma of International Tourism and Hotel Management",
     "slug": "griffith-diploma-of-international-tourism-and-hotel-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8051/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-international-tourism-and-hotel-management-8051",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7616,13 +7877,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-263",
     "name": "Diploma of Applied Financial Advice",
     "slug": "griffith-diploma-of-applied-financial-advice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8050/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-applied-financial-advice-8050",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7645,13 +7907,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-264",
     "name": "Bachelor of Laws (Honours)/Bachelor of Political Science and International Relations",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-political-science-and-international-relation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1675/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-political-science-and-international-relations-1675",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7674,13 +7937,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-265",
     "name": "Bachelor of Laws (Honours)/Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1672/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-criminology-and-criminal-justice-1672",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7703,13 +7967,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-266",
     "name": "Bachelor of Laws (Honours)/Bachelor of Arts",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1670/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-arts-1670",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7732,13 +7997,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-267",
     "name": "Bachelor of Laws (Honours)/Bachelor of Environmental Science",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-environmental-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1673/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-environmental-science-1673",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7761,13 +8027,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-268",
     "name": "Bachelor of Laws (Honours)/Bachelor of Business",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1671/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-business-1671",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7790,13 +8057,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-269",
     "name": "Bachelor of Laws (Honours)/Bachelor of Psychological Science",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-psychological-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1674/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-psychological-science-1674",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7819,13 +8087,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-270",
     "name": "Bachelor of Cyber Security",
     "slug": "griffith-bachelor-of-cyber-security",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1677/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-cyber-security-1677",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -7848,13 +8117,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-271",
     "name": "Diploma of Psychological Science",
     "slug": "griffith-diploma-of-psychological-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8056/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-psychological-science-8056",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -7877,13 +8147,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-272",
     "name": "Master of International Relations",
     "slug": "griffith-master-of-international-relations",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5754/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-international-relations-5754",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -7906,13 +8177,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-273",
     "name": "Master of Financial Crime Investigation and Compliance",
     "slug": "griffith-master-of-financial-crime-investigation-and-compliance",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5755/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-financial-crime-investigation-and-compliance-5755",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -7935,13 +8207,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-274",
     "name": "Master of Teaching English to Speakers of Other Languages",
     "slug": "griffith-master-of-teaching-english-to-speakers-of-other-languages",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5757/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-teaching-english-to-speakers-of-other-languages-5757",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -7964,13 +8237,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-275",
     "name": "Master of Teaching English to Speakers of Other Languages and Leadership",
     "slug": "griffith-master-of-teaching-english-to-speakers-of-other-languages-and-leadership",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5756/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-teaching-english-to-speakers-of-other-languages-and-leadership-5756",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -7993,13 +8267,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-276",
     "name": "Bachelor of Advanced Commerce (Honours)",
     "slug": "griffith-bachelor-of-advanced-commerce-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1676/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-commerce-honours-1676",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8022,13 +8297,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-277",
     "name": "Bachelor of Commerce",
     "slug": "griffith-bachelor-of-commerce",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1684/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-commerce-1684",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8051,13 +8327,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-278",
     "name": "Graduate Certificate in Crime Scene Investigation",
     "slug": "griffith-graduate-certificate-in-crime-scene-investigation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3402/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-crime-scene-investigation-3402",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -8080,13 +8357,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-279",
     "name": "Bachelor of Architectural Design/Master of Architecture",
     "slug": "griffith-bachelor-of-architectural-designmaster-of-architecture",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5759/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-architectural-design-master-of-architecture-5759",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8109,13 +8387,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-280",
     "name": "Bachelor of Communication",
     "slug": "griffith-bachelor-of-communication-280",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1685/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-communication-1685",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8138,13 +8417,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-281",
     "name": "Bachelor of Architectural Design/Bachelor of Business",
     "slug": "griffith-bachelor-of-architectural-designbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1689/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-architectural-design-bachelor-of-business-1689",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8167,13 +8447,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-282",
     "name": "Bachelor of Architectural Design/Bachelor of Construction Management (Honours)",
     "slug": "griffith-bachelor-of-architectural-designbachelor-of-construction-management-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1688/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-architectural-design-bachelor-of-construction-management-honours-1688",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8196,13 +8477,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-283",
     "name": "Bachelor of Advanced Engineering (Honours)",
     "slug": "griffith-bachelor-of-advanced-engineering-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1690/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-engineering-honours-1690",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8225,13 +8507,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-284",
     "name": "Diploma of Communication",
     "slug": "griffith-diploma-of-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8058/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-communication-8058",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8254,13 +8537,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-285",
     "name": "Bachelor of Music",
     "slug": "griffith-bachelor-of-music",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1687/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-music-1687",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8283,13 +8567,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-286",
     "name": "Master of Criminology and Criminal Justice",
     "slug": "griffith-master-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5761/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-criminology-and-criminal-justice-5761",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -8312,13 +8597,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-287",
     "name": "Bachelor of Advanced Digital Marketing and Analytics (Honours)",
     "slug": "griffith-bachelor-of-advanced-digital-marketing-and-analytics-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1686/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-advanced-digital-marketing-and-analytics-honours-1686",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8341,13 +8627,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-288",
     "name": "Bachelor of Cyber Security/Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-cyber-securitybachelor-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1695/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-cyber-security-bachelor-of-criminology-and-criminal-justice-1695",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8370,13 +8657,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-289",
     "name": "Bachelor of Cyber Security/Bachelor of Business",
     "slug": "griffith-bachelor-of-cyber-securitybachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1696/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-cyber-security-bachelor-of-business-1696",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8399,13 +8687,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-290",
     "name": "Diploma of Commerce",
     "slug": "griffith-diploma-of-commerce",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8064/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-commerce-8064",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8428,13 +8717,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-291",
     "name": "Diploma of Visual Arts",
     "slug": "griffith-diploma-of-visual-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8065/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-visual-arts-8065",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8457,13 +8747,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-292",
     "name": "Bachelor of Political Science and International Relations/Master of International Law",
     "slug": "griffith-bachelor-of-political-science-and-international-relationsmaster-of-international",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5767/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-political-science-and-international-relations-master-of-international-law-5767",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8486,13 +8777,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-293",
     "name": "Bachelor of Business/Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-businessbachelor-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1694/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-bachelor-of-criminology-and-criminal-justice-1694",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8515,13 +8807,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-294",
     "name": "Master of Public Policy and Leadership",
     "slug": "griffith-master-of-public-policy-and-leadership",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5762/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-public-policy-and-leadership-5762",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -8544,13 +8837,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-295",
     "name": "Master of Nursing Science",
     "slug": "griffith-master-of-nursing-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5768/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-nursing-science-5768",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -8573,13 +8867,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-296",
     "name": "Diploma of Nursing Science",
     "slug": "griffith-diploma-of-nursing-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8060/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-nursing-science-8060",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8602,13 +8897,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-297",
     "name": "Diploma of Social and Human Services",
     "slug": "griffith-diploma-of-social-and-human-services",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8073/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-social-and-human-services-8073",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8631,13 +8927,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-298",
     "name": "Diploma of Exercise Science",
     "slug": "griffith-diploma-of-exercise-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8071/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-exercise-science-8071",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8660,13 +8957,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-299",
     "name": "Diploma of Health Science",
     "slug": "griffith-diploma-of-health-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8069/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-health-science-8069",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8689,13 +8987,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-300",
     "name": "Bachelor of Game Design and Production",
     "slug": "griffith-bachelor-of-game-design-and-production",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1697/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-game-design-and-production-1697",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8718,13 +9017,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-301",
     "name": "Graduate Certificate in Employment Relations and Human Resource Management",
     "slug": "griffith-graduate-certificate-in-employment-relations-and-human-resource-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3406/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-employment-relations-and-human-resource-management-3406",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -8747,13 +9047,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-302",
     "name": "Master of Data Science",
     "slug": "griffith-master-of-data-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5770/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-data-science-5770",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -8776,13 +9077,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-303",
     "name": "Graduate Certificate in Special Education",
     "slug": "griffith-graduate-certificate-in-special-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3409/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-special-education-3409",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -8805,13 +9107,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-304",
     "name": "Bachelor of Laws (Honours)/Bachelor of Communication",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1692/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-communication-1692",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8834,13 +9137,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-305",
     "name": "Graduate Certificate in Commerce",
     "slug": "griffith-graduate-certificate-in-commerce",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3408/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-commerce-3408",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -8863,13 +9167,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-306",
     "name": "Diploma of Design",
     "slug": "griffith-diploma-of-design",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8067/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-design-8067",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -8892,13 +9197,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-307",
     "name": "Bachelor of Communication/Master of Public Policy and Leadership",
     "slug": "griffith-bachelor-of-communicationmaster-of-public-policy-and-leadership",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5773/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-communication-master-of-public-policy-and-leadership-5773",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -8921,13 +9227,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-308",
     "name": "Master of Social Work",
     "slug": "griffith-master-of-social-work",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5758/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-social-work-5758",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -8950,13 +9257,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-309",
     "name": "Graduate Certificate in Strategic Communication",
     "slug": "griffith-graduate-certificate-in-strategic-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3411/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-strategic-communication-3411",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -8979,13 +9287,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-310",
     "name": "Bachelor of Arts/Master of Public Policy and Leadership",
     "slug": "griffith-bachelor-of-artsmaster-of-public-policy-and-leadership",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5772/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-arts-master-of-public-policy-and-leadership-5772",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9008,13 +9317,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-311",
     "name": "Graduate Certificate in Case Management and Mental Health",
     "slug": "griffith-graduate-certificate-in-case-management-and-mental-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3404/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-case-management-and-mental-health-3404",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -9037,13 +9347,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-312",
     "name": "Bachelor of Laws (Honours)/Bachelor of Biomedical Science",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-biomedical-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1700/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-biomedical-science-1700",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9066,13 +9377,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-313",
     "name": "Bachelor of Digital Marketing and Analytics",
     "slug": "griffith-bachelor-of-digital-marketing-and-analytics",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1691/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-digital-marketing-and-analytics-1691",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9095,13 +9407,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-314",
     "name": "Bachelor of Communication/Bachelor of Science",
     "slug": "griffith-bachelor-of-communicationbachelor-of-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1704/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-communication-bachelor-of-science-1704",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9124,13 +9437,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-315",
     "name": "Bachelor of Communication/Bachelor of Business",
     "slug": "griffith-bachelor-of-communicationbachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1703/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-communication-bachelor-of-business-1703",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9153,13 +9467,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-316",
     "name": "Bachelor of Communication/Bachelor of Political Science and International Relations",
     "slug": "griffith-bachelor-of-communicationbachelor-of-political-science-and-international-relatio",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1705/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-communication-bachelor-of-political-science-and-international-relations-1705",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9182,13 +9497,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-317",
     "name": "Master of Cinematic Arts",
     "slug": "griffith-master-of-cinematic-arts",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5774/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-cinematic-arts-5774",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9211,13 +9527,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-318",
     "name": "Bachelor of Exercise Science/Bachelor of Business",
     "slug": "griffith-bachelor-of-exercise-sciencebachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1701/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-exercise-science-bachelor-of-business-1701",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9240,13 +9557,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-319",
     "name": "Master of Climate Change Adaptation",
     "slug": "griffith-master-of-climate-change-adaptation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5765/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-climate-change-adaptation-5765",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9269,13 +9587,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-320",
     "name": "Bachelor of Exercise Science/Bachelor of Psychological Science",
     "slug": "griffith-bachelor-of-exercise-sciencebachelor-of-psychological-science",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1702/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-exercise-science-bachelor-of-psychological-science-1702",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9298,13 +9617,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-321",
     "name": "Bachelor of Laws (Honours)/Bachelor of Cyber Security",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-cyber-security",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1698/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-cyber-security-1698",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9327,13 +9647,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-322",
     "name": "Bachelor of Laws (Honours)/Bachelor of Commerce",
     "slug": "griffith-bachelor-of-laws-honoursbachelor-of-commerce",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1699/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-laws-honours-bachelor-of-commerce-1699",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9356,13 +9677,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-323",
     "name": "Master of Integrated Water Management",
     "slug": "griffith-master-of-integrated-water-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5766/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-integrated-water-management-5766",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9385,13 +9707,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-324",
     "name": "Master of Social Work/Master of Mental Health Practice",
     "slug": "griffith-master-of-social-workmaster-of-mental-health-practice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5775/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-social-work-master-of-mental-health-practice-5775",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9414,13 +9737,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-325",
     "name": "Bachelor of Cinematic Arts (Honours)",
     "slug": "griffith-bachelor-of-cinematic-arts-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/2132/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-cinematic-arts-honours-2132",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9443,13 +9767,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-326",
     "name": "Bachelor of Forensic Science/Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-forensic-sciencebachelor-of-criminology-and-criminal-justice",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1706/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-forensic-science-bachelor-of-criminology-and-criminal-justice-1706",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9472,13 +9797,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-327",
     "name": "Master of Music",
     "slug": "griffith-master-of-music",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5771/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-music-5771",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9501,13 +9827,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-328",
     "name": "Master of Criminology and Criminal Justice",
     "slug": "griffith-master-of-criminology-and-criminal-justice-328",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5777/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-criminology-and-criminal-justice-5761",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9530,13 +9857,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-329",
     "name": "Master of Health and Medical Research",
     "slug": "griffith-master-of-health-and-medical-research",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5763/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-health-and-medical-research-5763",
     "level": "Master (Research)",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9559,13 +9887,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-330",
     "name": "Diploma of Contemporary Australian Indigenous Art",
     "slug": "griffith-diploma-of-contemporary-australian-indigenous-art",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8080/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-contemporary-australian-indigenous-art-8080",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -9588,13 +9917,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-331",
     "name": "Master of Aviation Management",
     "slug": "griffith-master-of-aviation-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5776/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-aviation-management-5776",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9617,13 +9947,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-332",
     "name": "Graduate Certificate in Employment Relations and Human Resource Management",
     "slug": "griffith-graduate-certificate-in-employment-relations-and-human-resource-management-332",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3407/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-employment-relations-and-human-resource-management-3406",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -9646,13 +9977,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-333",
     "name": "Bachelor of Quantum Electronic Engineering (Honours)",
     "slug": "griffith-bachelor-of-quantum-electronic-engineering-honours",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1714/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-quantum-electronic-engineering-honours-1714",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9675,13 +10007,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-334",
     "name": "Diploma of Legal Studies",
     "slug": "griffith-diploma-of-legal-studies",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8081/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-legal-studies-8081",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -9704,13 +10037,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-335",
     "name": "Bachelor of Commerce/Bachelor of Business",
     "slug": "griffith-bachelor-of-commercebachelor-of-business",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1716/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-commerce-bachelor-of-business-1716",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9733,13 +10067,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-336",
     "name": "Diploma of Technical Screen Production",
     "slug": "griffith-diploma-of-technical-screen-production",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8082/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-technical-screen-production-8082",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -9762,13 +10097,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-337",
     "name": "Master of Information Technology and Artificial Intelligence",
     "slug": "griffith-master-of-information-technology-and-artificial-intelligence",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5782/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-information-technology-and-artificial-intelligence-5782",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9791,13 +10127,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-338",
     "name": "Diploma of Business",
     "slug": "griffith-diploma-of-business-338",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8083/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-business-8083",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -9820,13 +10157,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-339",
     "name": "Graduate Certificate in Information Technology and Artificial Intelligence",
     "slug": "griffith-graduate-certificate-in-information-technology-and-artificial-intelligence",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3418/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-information-technology-and-artificial-intelligence-3418",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -9849,13 +10187,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-340",
     "name": "Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-criminology-and-criminal-justice-340",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1715/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-criminology-and-criminal-justice-1715",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9878,13 +10217,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-341",
     "name": "Master of Primary Teaching",
     "slug": "griffith-master-of-primary-teaching-341",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5781/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-primary-teaching-5781",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -9907,13 +10247,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-342",
     "name": "Bachelor of Business in Business Analytics",
     "slug": "griffith-bachelor-of-business-in-business-analytics",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1720/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-in-business-analytics-1720",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9936,13 +10277,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-343",
     "name": "Bachelor of Business in Marketing",
     "slug": "griffith-bachelor-of-business-in-marketing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1718/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-in-marketing-1718",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9965,13 +10307,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-344",
     "name": "Bachelor of Business",
     "slug": "griffith-bachelor-of-business-344",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1717/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-1717",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -9994,13 +10337,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-345",
     "name": "Bachelor of Business in Management",
     "slug": "griffith-bachelor-of-business-in-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1719/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-business-in-management-1719",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -10023,13 +10367,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-346",
     "name": "Master of Forensic Mental Health",
     "slug": "griffith-master-of-forensic-mental-health",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5779/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-forensic-mental-health-5779",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -10052,13 +10397,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-347",
     "name": "Master of Cyber Security and Artificial Intelligence",
     "slug": "griffith-master-of-cyber-security-and-artificial-intelligence",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5778/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-cyber-security-and-artificial-intelligence-5778",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -10081,13 +10427,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-348",
     "name": "Diploma of Criminology and Criminal Justice",
     "slug": "griffith-diploma-of-criminology-and-criminal-justice-348",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8095/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-criminology-and-criminal-justice-8095",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10110,13 +10457,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-349",
     "name": "Master of Forensic Mental Health",
     "slug": "griffith-master-of-forensic-mental-health-349",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5780/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-forensic-mental-health-5779",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -10139,13 +10487,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-350",
     "name": "Graduate Certificate in Information Technology and Artificial Intelligence",
     "slug": "griffith-graduate-certificate-in-information-technology-and-artificial-intelligence-350",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3419/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-information-technology-and-artificial-intelligence-3418",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10168,13 +10517,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-351",
     "name": "Bachelor of Criminology and Criminal Justice",
     "slug": "griffith-bachelor-of-criminology-and-criminal-justice-351",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1713/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-criminology-and-criminal-justice-1112",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -10197,13 +10547,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-352",
     "name": "Diploma of Journalism",
     "slug": "griffith-diploma-of-journalism",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8092/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10226,13 +10577,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-353",
     "name": "Diploma of Strategic Communication",
     "slug": "griffith-diploma-of-strategic-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8089/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10255,13 +10607,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-354",
     "name": "Diploma of Communication",
     "slug": "griffith-diploma-of-communication-354",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8084/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/diploma-of-communication-8058",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10284,13 +10637,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-355",
     "name": "Diploma of Creative Writing",
     "slug": "griffith-diploma-of-creative-writing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8086/Overview",
+    "url": "https://www.griffith.edu.au/study/arts-humanities",
     "level": "Undergraduate Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10313,13 +10667,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-356",
     "name": "Advanced Diploma in Creative Writing",
     "slug": "griffith-advanced-diploma-in-creative-writing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8088/Overview",
+    "url": "https://www.griffith.edu.au/study/arts-humanities",
     "level": "Undergraduate Advanced Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10342,13 +10697,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-357",
     "name": "Undergraduate Certificate in Creative Writing",
     "slug": "griffith-undergraduate-certificate-in-creative-writing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8087/Overview",
+    "url": "https://www.griffith.edu.au/study/arts-humanities",
     "level": "Undergraduate Certificate",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10371,13 +10727,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-358",
     "name": "Undergraduate Certificate in Communication",
     "slug": "griffith-undergraduate-certificate-in-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8085/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Certificate",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10400,13 +10757,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-359",
     "name": "Undergraduate Certificate in Journalism",
     "slug": "griffith-undergraduate-certificate-in-journalism",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8093/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Certificate",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10429,13 +10787,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-360",
     "name": "Advanced Diploma in Journalism",
     "slug": "griffith-advanced-diploma-in-journalism",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8094/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Advanced Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10458,13 +10817,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-361",
     "name": "Advanced Diploma in Strategic Communication",
     "slug": "griffith-advanced-diploma-in-strategic-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8091/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Advanced Diploma",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10487,13 +10847,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-362",
     "name": "Undergraduate Certificate in Strategic Communication",
     "slug": "griffith-undergraduate-certificate-in-strategic-communication",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/8090/Overview",
+    "url": "https://www.griffith.edu.au/study/media-communications",
     "level": "Undergraduate Certificate",
     "studyLevel": "Undergraduate",
     "duration": "1 year",
@@ -10516,13 +10877,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "study-area"
   },
   {
     "id": "griffith-363",
     "name": "Bachelor of Secondary Education",
     "slug": "griffith-bachelor-of-secondary-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1724/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-secondary-education-1724",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -10545,13 +10907,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-364",
     "name": "Bachelor of Primary Education",
     "slug": "griffith-bachelor-of-primary-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1723/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-primary-education-1723",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -10574,13 +10937,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-365",
     "name": "Bachelor of Early Childhood and Primary Education",
     "slug": "griffith-bachelor-of-early-childhood-and-primary-education",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/1722/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/bachelor-of-early-childhood-and-primary-education-1722",
     "level": "Bachelor",
     "studyLevel": "Undergraduate",
     "duration": "3 years",
@@ -10603,13 +10967,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-366",
     "name": "Graduate Certificate in Registered Nurse Prescribing",
     "slug": "griffith-graduate-certificate-in-registered-nurse-prescribing",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3420/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-registered-nurse-prescribing-3420",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10632,13 +10997,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-367",
     "name": "Graduate Certificate in Leadership and Business Management",
     "slug": "griffith-graduate-certificate-in-leadership-and-business-management",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3416/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-leadership-and-business-management-3416",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10661,13 +11027,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-368",
     "name": "Graduate Certificate in Leadership and Business Management",
     "slug": "griffith-graduate-certificate-in-leadership-and-business-management-368",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3427/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-leadership-and-business-management-3427",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10690,13 +11057,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-369",
     "name": "Master of Business Administration",
     "slug": "griffith-master-of-business-administration-369",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/5785/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/master-of-business-administration-5785",
     "level": "Master",
     "studyLevel": "Postgraduate",
     "duration": "2 years",
@@ -10719,13 +11087,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-370",
     "name": "Graduate Certificate in Forensic Fingerprint Investigation",
     "slug": "griffith-graduate-certificate-in-forensic-fingerprint-investigation",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3417/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-forensic-fingerprint-investigation-3417",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10748,13 +11117,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-371",
     "name": "Graduate Certificate in Marketing",
     "slug": "griffith-graduate-certificate-in-marketing-371",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3430/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-marketing-3068",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10777,13 +11147,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-372",
     "name": "Graduate Certificate in Commerce",
     "slug": "griffith-graduate-certificate-in-commerce-372",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3429/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-commerce-3408",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10806,13 +11177,14 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   },
   {
     "id": "griffith-373",
     "name": "Graduate Certificate in Business",
     "slug": "griffith-graduate-certificate-in-business-373",
-    "url": "https://www148.griffith.edu.au/programs-courses/Program/3428/Overview",
+    "url": "https://www.griffith.edu.au/study/degrees/graduate-certificate-in-business-3306",
     "level": "Graduate Certificate",
     "studyLevel": "Postgraduate",
     "duration": "1 year",
@@ -10835,7 +11207,8 @@ export const griffithCourses: GriffithCourse[] = [
     "country": "Australia",
     "state": "Queensland",
     "city": "Brisbane",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "officialUrlKind": "degree"
   }
 ];
 
