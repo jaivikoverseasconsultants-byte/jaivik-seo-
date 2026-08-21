@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
 export async function generateStaticParams() {
   return (anuCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -19,7 +20,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at Australian National University — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at Australian National University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at Australian National University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/australian-national-university/courses/${slug}`,
     keywords: [course.name, 'ANU', 'Australian National University', 'study in Australia', course.level],
   });
@@ -72,8 +73,8 @@ export default async function CoursePage(
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee (AUD)', value: annualFeeLabel(course) },
+                  { label: 'Fee in INR', value: annualFeeINRLabel(course) },
                   { label: 'IELTS Minimum', value: `${course.ieltsMin}+` },
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
@@ -101,10 +102,10 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 { label: 'Campus', value: course.campus },
                 { label: 'Intakes', value: course.intakeMonths.join(' & ') },
-                { label: 'Annual Tuition (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
-                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
+                { label: 'Annual Tuition (AUD)', value: annualFeeLabel(course) },
+                { label: 'Annual Tuition (USD)', value: hasExactFee(course) ? `$${course.annualUSD.toLocaleString()}` : 'On request' },
                 { label: 'Living Cost (AUD)', value: `A$${course.livingCostAUD.toLocaleString()}/yr` },
-                { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` },
+                { label: 'Total Course Fee', value: totalFeeLabel(course) },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
@@ -135,10 +136,10 @@ export default async function CoursePage(
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
             <div className="space-y-3">
               {[
-                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${course.totalAUD.toLocaleString()}`, highlight: true },
+                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: totalFeeLabel(course), highlight: true },
                 { label: `Living Cost × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${(course.livingCostAUD * course.durationYears).toLocaleString()}` },
-                { label: 'Total Estimated Cost', value: `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}`, highlight: true },
-                { label: 'In Indian Rupees (₹)', value: `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh`, highlight: true },
+                { label: 'Total Estimated Cost', value: totalEstimatedCostLabel(course, course.livingCostAUD), highlight: true },
+                { label: 'In Indian Rupees (₹)', value: totalEstimatedCostINRLabel(course, course.livingCostAUD), highlight: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.highlight ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
                   <span className="text-sm text-gray-700">{r.label}</span>

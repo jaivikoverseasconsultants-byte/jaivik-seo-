@@ -5,6 +5,7 @@ import { uowCourses } from '@/data/uow-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
+import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 export const metadata: Metadata = buildMetadata({
   title: 'University of Wollongong International Courses – All Programs, Fees & IELTS 2026',
   description: `University of Wollongong — ${(uowCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
@@ -28,9 +29,10 @@ export default function CoursesPage() {
   const courses = uowCourses as unknown as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualAUD, 0) / (totalCourses || 1));
+  const avgFee = averageAnnualFee(courses);
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _avgFeeUSD = courses.length ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length) : 0;
+  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0);
+  const _avgFeeUSD = _pricedCourses.length ? Math.round(_pricedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _pricedCourses.length) : 0;
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -114,7 +116,7 @@ export default function CoursesPage() {
                         <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                       </div>
                       <div className="ml-4 text-right flex-shrink-0">
-                        <p className="text-sm font-bold text-brand-700">{`A$${c.annualAUD.toLocaleString()}/yr`}</p>
+                        <p className="text-sm font-bold text-brand-700">{annualFeeLabel(c)}</p>
                         <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
                         <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                       </div>

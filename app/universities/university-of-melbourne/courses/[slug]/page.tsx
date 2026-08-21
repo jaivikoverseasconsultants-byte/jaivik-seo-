@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
 export async function generateStaticParams() {
   return (uomCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -19,7 +20,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at University of Melbourne — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at University of Melbourne, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at University of Melbourne, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-melbourne/courses/${slug}`,
     keywords: [course.name, 'UniMelb', 'University of Melbourne', 'study in Australia', course.level],
   });
@@ -108,8 +109,8 @@ export default async function CoursePage(
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee (AUD)', value: annualFeeLabel(course) },
+                  { label: 'Fee in INR', value: annualFeeINRLabel(course) },
                   { label: 'IELTS Min', value: `${course.ieltsMin}+` },
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
@@ -139,10 +140,10 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 { label: 'Campus', value: course.campus },
                 { label: 'Intakes', value: course.intakeMonths.join(' & ') },
-                { label: 'Annual Fee (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
+                { label: 'Annual Fee (AUD)', value: annualFeeLabel(course) },
                 { label: 'Annual Fee (USD)', value: `$${course.annualUSD.toLocaleString()}` },
                 { label: 'Living Cost (AUD/yr)', value: `A$${course.livingCostAUD.toLocaleString()}` },
-                { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` },
+                { label: 'Total Course Fee', value: totalFeeLabel(course) },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
