@@ -1,0 +1,376 @@
+{
+  "title": "Non-degree entries and impossible durations in the course registry",
+  "date": "2026-08-18",
+  "status": "AUDIT ONLY — nothing changed. Needs a scoping decision before any fix.",
+  "headline": [
+    "256 entries that are not degree programmes are sitting in the course registry, and ALL 256 have a live page asserting post-study work rights.",
+    "They are not evenly spread: Charles Darwin University (140) and Victoria University Sydney (90) account for 90% of them. Both are dual-sector providers that teach VET alongside higher education, and the crawler took the whole catalogue.",
+    "Separately, 177 entries have an impossible durationYears; 61 live pages consequently advertise a total cost above ₹2 crore, topping out at ₹1,964.5 Lakh (~₹19.6 crore) for a Murdoch Bachelor of Nursing."
+  ],
+  "whyItPublishes": {
+    "note": "There are THREE independent code paths that assert post-study work rights. Only one of them has any eligibility gate, which is why the count of affected pages (256) is far higher than the count that reaches the PSW hub (91).",
+    "paths": [
+      {
+        "path": "Per-university course detail template, e.g. app/universities/rmit-university/courses/[slug]/page.tsx",
+        "gate": "NONE — the row is hardcoded: { label: 'Post-Study Visa', value: '485 Post-Study Work Visa – 2 to 4 years' }",
+        "effect": "Every course page at that university makes the claim, including PTE and Certificate III entries. This is why all 256 are affected."
+      },
+      {
+        "path": "/courses-with-psw/[country] hub",
+        "gate": "pswDetails() -> classifyLevel() in lib/course-faqs.ts. It correctly drops anything named certificate/diploma, but then FALLS THROUGH: `if (studyLevel === 'Postgraduate') return 'master'`. Any row tagged Undergraduate/Postgraduate is treated as a degree whatever its name.",
+        "effect": "91 non-degree entries qualify for the hub listing."
+      },
+      {
+        "path": "components/CourseRichContent.tsx — \"Post-Study Work Rights & PR Pathway\" section",
+        "gate": "inherits the same classifyLevel logic",
+        "effect": "reinforces the claim in prose on the course page"
+      }
+    ],
+    "rankingAmplifier": "app/courses-with-psw/[country]/page.tsx sorts by `annualINR` ASCENDING and shows the first 60. Non-degree items are the cheapest rows in the dataset, so they are pushed to the TOP of every PSW page rather than buried. On the live Australia page, 9 of the 60 rows are non-degree and they occupy rows 1-5: Grammar Fundamentals (₹22k), PTE (₹27k), Prepare to Work Safely in the Construction Industry (₹69k), and two Interpreting Skill Sets."
+  },
+  "findingA_nonDegree": {
+    "total": 256,
+    "allHaveLivePages": 256,
+    "allAssertPswRights": 256,
+    "alsoReachThePswHub": 91,
+    "byCategory": {
+      "study-abroad-standalone": 7,
+      "vet-qualification-code": 197,
+      "vet-skill-set": 29,
+      "cpd-professional": 5,
+      "website-page": 5,
+      "safety-licence": 8,
+      "english-test": 5
+    },
+    "byFile": [
+      {
+        "file": "data/cdu-courses.ts",
+        "count": 140
+      },
+      {
+        "file": "data/vu-sydney-courses.ts",
+        "count": 90
+      },
+      {
+        "file": "data/rmit-courses.ts",
+        "count": 16
+      },
+      {
+        "file": "data/durhamuni-courses.ts",
+        "count": 4
+      },
+      {
+        "file": "data/kaplan-courses.ts",
+        "count": 2
+      },
+      {
+        "file": "data/massey-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/northumbria-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/swinburne-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/ubc-courses.ts",
+        "count": 1
+      }
+    ],
+    "worstExamples": [
+      {
+        "name": "Grammar Fundamentals",
+        "university": "rmit-university",
+        "annualINR": 21725,
+        "category": "english-test"
+      },
+      {
+        "name": "PTE (Pearson Test of English)",
+        "university": "rmit-university",
+        "annualINR": 26950,
+        "category": "english-test"
+      },
+      {
+        "name": "Prepare to Work Safely in the Construction Industry",
+        "university": "rmit-university",
+        "annualINR": 68750,
+        "category": "safety-licence"
+      },
+      {
+        "name": "Introduction to Interpreting Skill Set",
+        "university": "rmit-university",
+        "annualINR": 137500,
+        "category": "vet-skill-set"
+      },
+      {
+        "name": "Introduction to Translating and Interpreting Skill Set",
+        "university": "rmit-university",
+        "annualINR": 151250,
+        "category": "vet-skill-set"
+      },
+      {
+        "name": "AVI30419 Certificate III in Aviation (Remote Pilot)",
+        "university": "charles-darwin-university",
+        "annualINR": 275184,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "FNS30322 Certificate III in Accounts Administration",
+        "university": "charles-darwin-university",
+        "annualINR": 277620,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "CHC50121 Diploma of Early Childhood Education and Care",
+        "university": "charles-darwin-university",
+        "annualINR": 283332,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "BSB41419 Certificate IV in Work Health and Safety",
+        "university": "charles-darwin-university",
+        "annualINR": 285012,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "CUA30920 Certificate III in Music",
+        "university": "charles-darwin-university",
+        "annualINR": 286524,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "SIT30622 Certificate III in Hospitality",
+        "university": "victoria-university-sydney",
+        "annualINR": 295932,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "SHB50121 Diploma of Beauty Therapy",
+        "university": "charles-darwin-university",
+        "annualINR": 296184,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "SIT40521 Certificate IV in Kitchen Management",
+        "university": "charles-darwin-university",
+        "annualINR": 297444,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "VTP523 Gateway for Home Tutors in Isolated Areas",
+        "university": "charles-darwin-university",
+        "annualINR": 303828,
+        "category": "vet-qualification-code"
+      },
+      {
+        "name": "SIR30216 Certificate III in Retail",
+        "university": "charles-darwin-university",
+        "annualINR": 305256,
+        "category": "vet-qualification-code"
+      }
+    ],
+    "borderlineNotCounted": {
+      "count": 20,
+      "note": "Pre-Master / Foundation / pathway programmes. Real offerings, but not degrees and generally not PSW-eligible. Listed separately because removing them is a policy call, not an obvious junk deletion."
+    }
+  },
+  "findingB_durations": {
+    "total": 177,
+    "allPublished": 177,
+    "pagesShowingOver2Crore": 61,
+    "buckets": {
+      "exactly 50 years (Murdoch)": 48,
+      "10-20 years": 18,
+      "zero or not-a-number": 111
+    },
+    "byFile": [
+      {
+        "file": "data/northeastern-courses.ts",
+        "count": 55
+      },
+      {
+        "file": "data/murdoch-courses.ts",
+        "count": 48
+      },
+      {
+        "file": "data/dcu-courses.ts",
+        "count": 12
+      },
+      {
+        "file": "data/dbs-courses.ts",
+        "count": 8
+      },
+      {
+        "file": "data/middlesex-courses.ts",
+        "count": 7
+      },
+      {
+        "file": "data/salford-w2-courses.ts",
+        "count": 7
+      },
+      {
+        "file": "data/cdu-courses.ts",
+        "count": 6
+      },
+      {
+        "file": "data/bcu-w2-courses.ts",
+        "count": 5
+      },
+      {
+        "file": "data/durhamuni-courses.ts",
+        "count": 5
+      },
+      {
+        "file": "data/imperial-courses.ts",
+        "count": 4
+      },
+      {
+        "file": "data/manchester-courses.ts",
+        "count": 3
+      },
+      {
+        "file": "data/sunderland-courses.ts",
+        "count": 3
+      },
+      {
+        "file": "data/uclan-courses.ts",
+        "count": 2
+      },
+      {
+        "file": "data/university-of-helsinki-courses.ts",
+        "count": 2
+      },
+      {
+        "file": "data/bristol-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/brunel-w2-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/flinders-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/goldsmiths-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/kaplan-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/nci-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/plymouth-w2-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/swinburne-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/vu-sydney-courses.ts",
+        "count": 1
+      },
+      {
+        "file": "data/vuw-courses.ts",
+        "count": 1
+      }
+    ],
+    "worstPublished": [
+      {
+        "name": "Bachelor of Nursing",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1964.5
+      },
+      {
+        "name": "Bachelor of Engineering Honours",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1957.4
+      },
+      {
+        "name": "Bachelor of Biomedical Science",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1957.4
+      },
+      {
+        "name": "Bachelor of Forensic Science",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1957.4
+      },
+      {
+        "name": "Bachelor of Science (Environmental and Conservation Sciences)",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1957.4
+      },
+      {
+        "name": "Bachelor of Agricultural Science",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1957.4
+      },
+      {
+        "name": "Bachelor of Science (Physical Sciences)",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1957.4
+      },
+      {
+        "name": "Bachelor of Psychology",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1934.8
+      },
+      {
+        "name": "Doctor of Veterinary Medical Science",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1922.8
+      },
+      {
+        "name": "Master of Health Care Management (Specialisation)",
+        "university": "murdoch-university",
+        "durationYears": 50,
+        "totalShownLakh": 1874.1
+      }
+    ],
+    "notes": [
+      "Murdoch: 48 rows have durationYears 50 AND a `duration` string that literally reads \"50 years\" — the bad value is in the crawled data, not introduced by a later transform.",
+      "Durham: 12 rows have durationYears 12 while `duration` reads \"1 year\" — here the two fields genuinely disagree, a different bug from Murdoch's.",
+      "The 111 rows at 0 are mostly `duration: \"Not specified\"`. They are benign in the PSW path (pswDetails returns null when durationYears <= 0) but they do zero out totalAUD-style calculations.",
+      "totalAUD is computed as annualAUD * durationYears, so a wrong duration corrupts the fee total as well as the duration display."
+    ]
+  },
+  "rootCausePattern": {
+    "confirmed": "Yes — the concentration matches the \"crawled a whole study-at-X section\" hypothesis.",
+    "detail": [
+      "Charles Darwin University (140 of its 326 rows) and Victoria University Sydney (90 of 342) are dual-sector: they award VET certificates alongside degrees. Their entries carry real Australian training-package codes (RII30820, BSB30120, CHCSS00070), which is what a full-catalogue crawl would pick up.",
+      "RMIT (16) has the same shape at smaller scale — RMIT also runs vocational training.",
+      "The remaining 6 files contribute 1-4 rows each and look like incidental page-scrapes rather than a systemic catalogue problem: \"Student visas\" (Swinburne), \"How to apply\" (UBC), \"Courses\" (Northumbria), \"Success! Download your job growth report\" (RMIT).",
+      "Murdoch has ZERO non-degree entries — its 48 bad durations are an unrelated parsing failure. The two problems overlap in only 11 rows total."
+    ]
+  },
+  "scopingQuestionsForDecision": [
+    "Are CDU and VU Sydney VET qualifications meant to be in the registry at all? They are real, accredited AQF qualifications and some international students do study them — but they are not 485-eligible on the same terms as degrees. Removing 230 rows vs. re-labelling them are very different jobs.",
+    "Removing any row deletes a live, indexed page, so under CLAUDE.md it needs a redirect in the same commit. Re-labelling (a `nonDegree: true` flag that suppresses the PSW claim) changes no URLs and needs none.",
+    "The hardcoded per-university \"Post-Study Visa\" row is the widest defect and is independent of the data question — it asserts 485 eligibility for every course at that university regardless of level. Worth fixing on its own merits even if the VET rows stay.",
+    "classifyLevel()'s studyLevel fallthrough should probably require a recognisable award in the name rather than defaulting to degree."
+  ],
+  "method": [
+    "Scanned all 468 data/*-courses.ts (38,109 rows) with a string-aware parser.",
+    "Two earlier passes over-reported (749, then 287) and were discarded. The false positives were instructive: \"BSc Computer Science with Foundation Year\" is a real 4-year degree, \"Economics with Study Abroad\" is a real Durham degree, and \"PGCERT/PGDIP/MPHIL/PGCE/DC203-\" prefixes are awards and course codes, not VET codes. The final pass excludes anything carrying a recognised degree-award token and requires study-abroad to be the subject rather than a suffix.",
+    "Exposure was measured against the BUILT site in out/, not inferred from the data, so \"all 256 assert post-study work rights\" is what is actually published."
+  ]
+}
