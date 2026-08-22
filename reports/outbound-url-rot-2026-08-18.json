@@ -1674,5 +1674,53 @@
     "stillUnverifiable": [
       "uel: 1 course still returns 403 to our crawler (pgdip-musculoskeletal-ultrasonography). Left untouched — unverifiable, not proven dead."
     ]
+  },
+  "suspectFilesResolved": {
+    "date": "2026-08-18",
+    "note": "The 3 files left as SUSPECT have now been classified on the same evidence used for the rest: provenance header, templated-name overlap, URL shape, and a FULL live probe of all 150 urls.",
+    "results": [
+      {
+        "file": "data/leiden-university-courses.ts",
+        "courses": 58,
+        "verdict": "REAL",
+        "evidence": [
+          "Header states a genuine crawl: \"Leiden University official programme catalogue | 58 courses | crawled: 2026-07-01\".",
+          "URLs are deep (avg path depth 5.2), all 58 distinct, and match Leiden's real /en/education/study-programmes/{bachelor,master}/ structure.",
+          "44 distinct names across 58 rows is expected, not templating: bachelor and master versions of the same subject share a name.",
+          "The 41% name overlap with Groningen and UQ is generic subject names (African Studies, Computer Science), which real universities share naturally."
+        ],
+        "urlStatus": "UNVERIFIABLE — universiteitleiden.nl blocks automated access entirely. Every response, 200 and 404 alike, is a \"Toegang geblokkeerd / Access Blocked\" page, so the 42/58 apparent-alive figure is meaningless. Do not treat it as either healthy or broken without a browser-based check.",
+        "action": "Leave alone. Not a fabricated-URL file."
+      },
+      {
+        "file": "data/leeds-beckett-courses.ts",
+        "courses": 50,
+        "verdict": "CURATED — URLs never real",
+        "evidence": [
+          "Header admits construction: \"CDX returned 0 (Cloudflare WAF). Real URL pattern from live site.\" — the URLs were derived from a pattern, not crawled.",
+          "Full probe: 0 of 50 urls alive, while leedsbeckett.ac.uk itself returns 200 and /courses/ returns 200. A 0% hit rate is not site drift.",
+          "Spot-check: /courses/mba/ returns an explicit \"404 | Leeds Beckett University\".",
+          "Flat URL shape (avg path depth 2.0) and generic templated course names shared 46% verbatim with derby and ljmu."
+        ],
+        "action": "Add to the CURATED group. Needs a real crawl or removal, not a URL patch."
+      },
+      {
+        "file": "data/nottinghamtrent-courses.ts",
+        "courses": 42,
+        "verdict": "CURATED — URLs never real",
+        "evidence": [
+          "Header admits construction: \"NTU sitemap is WAF-blocked; URLs use confirmed course URL pattern\".",
+          "Full probe: 0 of 42 urls alive, while ntu.ac.uk returns 200 and /study-and-courses/postgraduate returns 200.",
+          "Spot-check: the stored /course/computing-and-technology/pg/next/... path returns \"Page Not Found | Nottingham Trent University\".",
+          "Course names may well be real NTU programmes; the URLs are the fabricated part."
+        ],
+        "action": "Add to the CURATED group. Needs a real crawl, not a URL patch."
+      }
+    ],
+    "revisedCuratedGroup": {
+      "files": 10,
+      "courses": 457,
+      "note": "Was 8 files / 365 courses; leeds-beckett (50) and nottinghamtrent (42) join it."
+    }
   }
 }
