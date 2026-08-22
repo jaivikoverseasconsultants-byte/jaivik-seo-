@@ -1,0 +1,1678 @@
+{
+  "title": "Outbound course-URL rot audit",
+  "date": "2026-08-18",
+  "what": "Every data/*-courses.ts row carries a `url` pointing at the university's own course page. It feeds the sidebar \"Official Course Page\" link and the JSON-LD Course.url. This audit checks whether those outbound links still resolve.",
+  "important": "These are OUTBOUND links to university websites, NOT our own routes. A dead value here does not produce a 404 on study.jaivikoverseasconsultants.com and will not appear in our GSC coverage report. It is a content-quality and structured-data problem, not an indexing error.",
+  "method": [
+    "Parsed all 468 data/*-courses.ts with a string-aware bracket scan (a regex tuned to one export shape silently skipped 70 files — same class of bug as the 2026-08-07 audit).",
+    "Scoped to the 116 files that actually back a live page (imports in data/university-course-registry.ts plus any app/universities/*/courses/** import). The other 352 files have no route.",
+    "Sampled 6 URLs spread across each live file, followed redirects with curl + browser headers, recorded final status and final URL.",
+    "Flagged two failure modes: non-200, and REDIRECT COLLAPSE (several distinct course URLs landing on one page — the Griffith www148 signature, which hides behind a 200).",
+    "Re-probed each flagged host's homepage to separate genuinely dead URLs from WAF/bot blocks."
+  ],
+  "caveats": [
+    "Percentages come from a 6-URL sample per file. The 100% entries are reliable; partial percentages are indicative and need a full crawl to pin down.",
+    "HTTP status alone cannot validate SPA-rendered course pages. griffith.edu.au/study/degrees/<anything> returns an identical 200 shell for a bogus slug. Any follow-up fix must validate against the site's own data source, not the status code."
+  ],
+  "scope": {
+    "dataFilesTotal": 468,
+    "dataFilesBackingLivePages": 116,
+    "coursesInLiveFiles": 21063,
+    "dataFilesWithNoLiveRoute": 352,
+    "coursesInNonLiveFiles": 17046
+  },
+  "summary": {
+    "clean": 89,
+    "confirmedBroken": 25,
+    "estimatedAffectedCourses": 1624,
+    "unverifiableBehindWaf": 2,
+    "coursesBehindWaf": 204
+  },
+  "criticalCaveat": {
+    "headline": "Not all of these are \"rot\". Two different problems are mixed together in this list.",
+    "detail": [
+      "REAL files: the data was genuinely crawled and the university has since restructured its site. These are worth repointing — the courses exist, only the URL moved. e.g. Bath embeds an intake year in the path and retires old years.",
+      "CURATED files: the course names are templated placeholders shared verbatim across many unrelated universities (the CURATED rule in DATA-AUDIT.md), and the URLs were CONSTRUCTED rather than crawled — hertfordshire-courses.ts even says so in its own header (\"real URL patterns\"). Their URLs do not 404 because the university moved them; they 404 because they never existed.",
+      "Repointing a CURATED file is the wrong fix and is actively harmful: it would map invented courses onto real, unrelated course pages (e.g. our fabricated \"MSc Structural Engineering\" fuzzy-matches Hertfordshire's real \"MSc Audio Engineering\"). The correct fix for those files is a real crawl or removal, which is a data decision, not a URL patch."
+    ],
+    "curatedFiles": [
+      {
+        "file": "data/uwe-courses.ts",
+        "courses": 41,
+        "peersSharing40pctOfNames": 16
+      },
+      {
+        "file": "data/hertfordshire-courses.ts",
+        "courses": 45,
+        "peersSharing40pctOfNames": 14
+      },
+      {
+        "file": "data/chester-courses.ts",
+        "courses": 40,
+        "peersSharing40pctOfNames": 11
+      },
+      {
+        "file": "data/demontfort-courses.ts",
+        "courses": 50,
+        "peersSharing40pctOfNames": 10
+      },
+      {
+        "file": "data/sheffield-hallam-courses.ts",
+        "courses": 50,
+        "peersSharing40pctOfNames": 10
+      },
+      {
+        "file": "data/westlondon-courses.ts",
+        "courses": 45,
+        "peersSharing40pctOfNames": 9
+      },
+      {
+        "file": "data/londonmet-courses.ts",
+        "courses": 49,
+        "peersSharing40pctOfNames": 6
+      },
+      {
+        "file": "data/glos-courses.ts",
+        "courses": 45,
+        "peersSharing40pctOfNames": 6
+      }
+    ],
+    "realFiles": [
+      "bath",
+      "university-of-amsterdam",
+      "aru",
+      "uea",
+      "ljmu",
+      "lsbu",
+      "queens",
+      "ucd",
+      "ntu",
+      "derby",
+      "otago",
+      "kingston",
+      "bmouth",
+      "suffolk",
+      "roeham",
+      "uel"
+    ],
+    "suspectFiles": [
+      "leiden-university",
+      "leeds-beckett",
+      "nottinghamtrent"
+    ]
+  },
+  "followUpInvestigations": {
+    "note": "Bath and Hertfordshire were investigated in depth on 2026-08-18 as the two \"cheapest to fix\" candidates. Both turned out NOT to be simple URL-pattern repairs. Recorded here so the next person does not repeat the work.",
+    "bath": {
+      "verdict": "REAL data. Not a URL-pattern problem — 380 of its 701 courses are genuinely discontinued by Bath.",
+      "detail": [
+        "Bath embeds an intake year in the path (/courses/undergraduate-2027/<subject>/<slug>/) and retires old years. Our file was crawled 2026-06-13 from bath.ac.uk/sitemap.xml, which still lists retired years, so the file captured a mix of current and historical intakes.",
+        "All 701 URLs were probed live: 321 alive (all at the current years UG-2027 / PG-2026), 380 dead (all at 2018-2025).",
+        "The obvious fix — bump the year — was tried and recovered ZERO courses: the dead courses do not exist at any current year.",
+        "Matching the 380 by course name against Bath's current catalogue also recovered ZERO. (The name->slug rule was validated first: it reproduces the slug for 300/300 live courses, so the matcher is sound and the conclusion holds.)",
+        "Conclusion: these are courses Bath no longer runs, e.g. Electrical Power Engineering exists only at 2018/2019/2020. All 701 names are distinct, so they are not year-duplicates of live courses.",
+        "ACTION TAKEN: same treatment as the 16 withdrawn Griffith programs — marked withdrawn, url repointed to Bath's current-year subject listing page (verified live; 359 of them, the other 21 to Bath's course finder), with up to 3 current same-subject Bath courses linked as alternatives. Slugs untouched, so no redirects needed."
+      ]
+    },
+    "hertfordshire": {
+      "verdict": "CURATED data. The URLs were never real, so there is nothing to repoint. NOT fixed — needs a data decision.",
+      "detail": [
+        "Its own header says \"Generated from Wayback Machine CDX / real URL patterns\" — the URLs were CONSTRUCTED from a pattern, not crawled.",
+        "27 of its 45 course names appear verbatim in de-montfort-courses.ts, 24 in sheffield-hallam-courses.ts, 23 in monash-courses.ts, and so on across 14 files — the templated-placeholder signature that DATA-AUDIT.md classifies as CURATED.",
+        "Only 9 of 45 slugs exist anywhere in herts.ac.uk's sitemap. The other 36 404 because they were invented, not because Herts moved them.",
+        "Name-based matching was built and then DISCARDED: it maps our fabricated \"MSc Structural Engineering\" onto Hertfordshire's real \"MSc Audio Engineering\", our \"MSc Chemistry\" onto \"Secondary Education Chemistry\", and our \"MSc Cloud Computing\" onto \"Secondary Education Computing\". Shipping that would convert a broken link into a confidently wrong one.",
+        "The real fix is a genuine crawl of herts.ac.uk (its sitemap exposes 282 postgraduate-masters and 154 undergraduate course pages) and a rebuild of the file, or removal of the university. Either changes slugs, so under CLAUDE.md it must ship redirects in the same commit. That is a data decision, not a URL patch."
+      ]
+    }
+  },
+  "confirmedBroken": [
+    {
+      "university": "bath",
+      "file": "data/bath-courses.ts",
+      "totalCourses": 701,
+      "sampled": 6,
+      "sampledDead": 3,
+      "ratePct": 50,
+      "estAffected": 351,
+      "statusesSeen": [
+        200,
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.bath.ac.uk/courses/undergraduate-2027/integrated-mechanical-and-electrical-engineering/beng-integrated-mechanical-and-electrical-engineering/",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.bath.ac.uk/courses/undergraduate-2027/computer-science/bsc-computer-science-and-mathematics/",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.bath.ac.uk/courses/postgraduate-2026/taught-postgraduate-courses/msc-health-psychology-part-time-including-placement/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.bath.ac.uk/courses/undergraduate-2020/electronic-and-electrical-engineering/meng-electrical-power-engineering/",
+          "landedOn": "https://www.bath.ac.uk/courses/undergraduate-2026/electronic-and-electrical-engineering/meng-electrical-power-engineering/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.bath.ac.uk/courses/postgraduate-2023/taught-postgraduate-courses/msc-biotechnology-healthcare-technologies-including-placement-year/",
+          "landedOn": "https://www.bath.ac.uk/courses/postgraduate-2026/taught-postgraduate-courses/msc-biotechnology-healthcare-technologies-including-placement-year/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.bath.ac.uk/courses/postgraduate-2020/taught-postgraduate-courses/innovation-and-technology-management/",
+          "landedOn": "https://www.bath.ac.uk/courses/postgraduate-2026/taught-postgraduate-courses/innovation-and-technology-management/"
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; crawl-provenance header"
+    },
+    {
+      "university": "university-of-amsterdam",
+      "file": "data/university-of-amsterdam-courses.ts",
+      "totalCourses": 169,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 169,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.uva.nl/en/programmes/masters/chemistry-molecular-sciences/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uva.nl/en/programmes/bachelors/sign-language-linguistics-linguistics/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uva.nl/en/programmes/masters/sociology/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uva.nl/en/programmes/masters/communication-science-entertainment-communication/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uva.nl/en/programmes/masters/literature-culture-and-society-literary-studies/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uva.nl/en/programmes/masters/data-science-and-business-analytics/",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "queens",
+      "file": "data/queens-courses.ts",
+      "totalCourses": 91,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 91,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": true,
+      "collapseTarget": "https://www.queensu.ca/artsci/undergraduate/programs",
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.queensu.ca/artsci/undergraduate/programs",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.queensu.ca/music/programs/undergraduate",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.queensu.ca/artsci/undergraduate/programs",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://smith.queensu.ca/grad_studies/mba/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.queensu.ca/grad/programs",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.queensu.ca/nursing/graduate",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; crawl-provenance header"
+    },
+    {
+      "university": "ntu",
+      "file": "data/ntu-courses.ts",
+      "totalCourses": 84,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 84,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.ntu.edu.sg/admissions/undergraduate/courses/bachelor-of-business-administration",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.edu.sg/admissions/graduate/msc-ds",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.edu.sg/admissions/graduate/msc-bme",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.edu.sg/admissions/undergraduate/courses/ba-philosophy",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.edu.sg/admissions/undergraduate/courses/bs-physics",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.edu.sg/admissions/graduate/msc-edu",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; crawl-provenance header"
+    },
+    {
+      "university": "lsbu",
+      "file": "data/lsbu-courses.ts",
+      "totalCourses": 100,
+      "sampled": 6,
+      "sampledDead": 5,
+      "ratePct": 83,
+      "estAffected": 83,
+      "statusesSeen": [
+        404,
+        200
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.lsbu.ac.uk/study/course-finder/addiction-psychology-counselling-pgdip-msc",
+          "landedOn": "https://www.lsbu.ac.uk/study/course-finder/archived-courses/addiction-psychology-counselling-pgdip-msc"
+        },
+        {
+          "status": 200,
+          "url": "https://www.lsbu.ac.uk/study/course-finder/building-services-engineering-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.lsbu.ac.uk/study/course-finder/critical-care-pgdip",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.lsbu.ac.uk/study/course-finder/food-science-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.lsbu.ac.uk/study/course-finder/international-relations-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.lsbu.ac.uk/study/course-finder/paediatric-nursing-pgdip",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "otago",
+      "file": "data/otago-courses.ts",
+      "totalCourses": 74,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 74,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.otago.ac.nz/healthsciences/programmes/otago810003.html",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.otago.ac.nz/commerce/study/undergrad/",
+          "landedOn": "https://www.otago.ac.nz/commerce/study/undergrad"
+        },
+        {
+          "status": 404,
+          "url": "https://www.otago.ac.nz/humanities/study/undergrad/",
+          "landedOn": "https://www.otago.ac.nz/humanities/study/undergrad"
+        },
+        {
+          "status": 404,
+          "url": "https://www.otago.ac.nz/sciences/study/undergrad/",
+          "landedOn": "https://www.otago.ac.nz/sciences/study/undergrad"
+        },
+        {
+          "status": 404,
+          "url": "https://www.otago.ac.nz/sciences/study/postgrad/",
+          "landedOn": "https://www.otago.ac.nz/sciences/study/postgrad"
+        },
+        {
+          "status": 404,
+          "url": "https://www.otago.ac.nz/commerce/study/postgrad/",
+          "landedOn": "https://www.otago.ac.nz/commerce/study/postgrad"
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; crawl-provenance header"
+    },
+    {
+      "university": "ljmu",
+      "file": "data/ljmu-courses.ts",
+      "totalCourses": 100,
+      "sampled": 6,
+      "sampledDead": 4,
+      "ratePct": 67,
+      "estAffected": 67,
+      "statusesSeen": [
+        404,
+        200
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.ljmu.ac.uk/study/courses/mba",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ljmu.ac.uk/study/courses/msc-nursing-advanced-practice",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ljmu.ac.uk/study/courses/msc-business-management",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ljmu.ac.uk/study/courses/msc-geographic-information-systems",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2026/30881-sociology-ba-hons",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.ljmu.ac.uk/study/courses/undergraduates/2026/32491-early-childhood-studies-ba-hons",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "ucd",
+      "file": "data/ucd-courses.ts",
+      "totalCourses": 87,
+      "sampled": 6,
+      "sampledDead": 4,
+      "ratePct": 67,
+      "estAffected": 58,
+      "statusesSeen": [
+        200,
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&PROG=BHAGR001",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=COURSE&PROG=BHLAW010",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ucd.ie/engineering/studywithus/undergrad/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ucd.ie/politics/studywithus/undergrad/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ucd.ie/cs/msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ucd.ie/agriculture/msc",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; crawl-provenance header"
+    },
+    {
+      "university": "uea",
+      "file": "data/uea-courses.ts",
+      "totalCourses": 104,
+      "sampled": 6,
+      "sampledDead": 3,
+      "ratePct": 50,
+      "estAffected": 52,
+      "statusesSeen": [
+        404,
+        200
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.uea.ac.uk/study/postgraduate-courses/mba",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uea.ac.uk/study/postgraduate-courses/msc-social-work",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uea.ac.uk/study/postgraduate-courses/ma-law",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.uea.ac.uk/course/undergraduate/ba-american-history-with-a-placement-year",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.uea.ac.uk/course/undergraduate/ba-digital-marketing-and-strategy-with-a-year-in-industry",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.uea.ac.uk/course/undergraduate/ba-education-childhood-and-culture",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "derby",
+      "file": "data/derby-courses.ts",
+      "totalCourses": 75,
+      "sampled": 6,
+      "sampledDead": 4,
+      "ratePct": 67,
+      "estAffected": 50,
+      "statusesSeen": [
+        404,
+        200
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.derby.ac.uk/study/postgraduate-courses/mba/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.derby.ac.uk/study/postgraduate-courses/msc-human-resource-management/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.derby.ac.uk/study/postgraduate-courses/msc-events-management/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.derby.ac.uk/study/postgraduate-courses/msc-public-health/",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.derby.ac.uk/undergraduate/accounting-economics-finance-courses/accounting-and-finance-bsc-hons/",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.derby.ac.uk/undergraduate/architecture-architectural-technology-courses/architecture-ba-hons/",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "demontfort",
+      "file": "data/demontfort-courses.ts",
+      "totalCourses": 50,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 50,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/business/master-of-business-administration-mba.aspx",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/business/digital-marketing-msc.aspx",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/computing-engineering-and-media/cloud-computing-msc.aspx",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/art-design-and-humanities/graphic-design-ma.aspx",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/law/human-rights-law-llm.aspx",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.dmu.ac.uk/study/courses/postgraduate-courses/humanities-and-social-sciences/social-work-ma.aspx",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "10 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "leeds-beckett",
+      "file": "data/leeds-beckett-courses.ts",
+      "totalCourses": 50,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 50,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.leedsbeckett.ac.uk/courses/mba/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.leedsbeckett.ac.uk/courses/ma-education-leadership/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.leedsbeckett.ac.uk/courses/msc-civil-engineering/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.leedsbeckett.ac.uk/courses/msc-finance/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.leedsbeckett.ac.uk/courses/msc-renewable-energy/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.leedsbeckett.ac.uk/courses/msc-occupational-health-safety/",
+          "landedOn": null
+        }
+      ],
+      "provenance": "SUSPECT",
+      "provenanceEvidence": "2 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "londonmet",
+      "file": "data/londonmet-courses.ts",
+      "totalCourses": 49,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 49,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.londonmet.ac.uk/courses/postgraduate/graphic-design---ma/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.londonmet.ac.uk/courses/postgraduate/finance-and-investment---msc/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.londonmet.ac.uk/courses/postgraduate/supply-chain-management---msc/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.londonmet.ac.uk/courses/postgraduate/pharmaceutical-science---msc/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.londonmet.ac.uk/courses/postgraduate/criminology-and-criminal-justice---msc/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.londonmet.ac.uk/courses/postgraduate/tesol---ma/",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "6 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "bmouth",
+      "file": "data/bmouth-courses.ts",
+      "totalCourses": 45,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 45,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.bournemouth.ac.uk/study/postgraduate/courses/business/mba",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.bournemouth.ac.uk/study/postgraduate/courses/business/msc-accounting-finance",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.bournemouth.ac.uk/study/postgraduate/courses/sport/msc-sport-management",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.bournemouth.ac.uk/study/postgraduate/courses/psychology/msc-clinical-psychology",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.bournemouth.ac.uk/study/postgraduate/courses/media/ma-media-production",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.bournemouth.ac.uk/study/postgraduate/courses/design/ma-design",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "hertfordshire",
+      "file": "data/hertfordshire-courses.ts",
+      "totalCourses": 45,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 45,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.herts.ac.uk/courses/msc-computer-science",
+          "landedOn": "https://www.herts.ac.uk/courses/postgraduate-masters/msc-computer-science"
+        },
+        {
+          "status": 404,
+          "url": "https://www.herts.ac.uk/courses/msc-information-technology",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.herts.ac.uk/courses/msc-project-management",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.herts.ac.uk/courses/msc-electrical-and-electronic-engineering",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.herts.ac.uk/courses/msc-clinical-psychology",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.herts.ac.uk/courses/msc-biology-and-applied-biosciences",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "14 other data files share >=40% of this file's course names verbatim; constructed/curated header"
+    },
+    {
+      "university": "nottinghamtrent",
+      "file": "data/nottinghamtrent-courses.ts",
+      "totalCourses": 42,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 42,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.ntu.ac.uk/course/computing-and-technology/pg/next/advanced-computer-science",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.ac.uk/course/nottingham-business-school/pg/next/mba",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.ac.uk/course/nottingham-business-school/pg/next/supply-chain-management",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.ac.uk/course/sport/pg/next/sport-and-exercise-psychology",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.ac.uk/course/health-and-science/pg/next/nursing",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.ntu.ac.uk/course/health-and-science/pg/next/forensic-science",
+          "landedOn": null
+        }
+      ],
+      "provenance": "SUSPECT",
+      "provenanceEvidence": "1 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "uwe",
+      "file": "data/uwe-courses.ts",
+      "totalCourses": 41,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 41,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.uwe.ac.uk/courses/business-and-law/postgraduate/master-of-business-administration-mba",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uwe.ac.uk/courses/business-and-law/postgraduate/project-management-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uwe.ac.uk/courses/computer-science-and-creative-technologies/postgraduate/data-science-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uwe.ac.uk/courses/environment-and-technology/postgraduate/electrical-engineering-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uwe.ac.uk/courses/health-and-applied-sciences/postgraduate/public-health-msc",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.uwe.ac.uk/courses/business-and-law/postgraduate/commercial-law-llm",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "16 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "chester",
+      "file": "data/chester-courses.ts",
+      "totalCourses": 40,
+      "sampled": 6,
+      "sampledDead": 6,
+      "ratePct": 100,
+      "estAffected": 40,
+      "statusesSeen": [
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.chester.ac.uk/postgraduate/business/mba/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.chester.ac.uk/postgraduate/business/digital-business/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.chester.ac.uk/postgraduate/computing/software-engineering/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.chester.ac.uk/postgraduate/health/physiotherapy/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.chester.ac.uk/postgraduate/counselling/counselling/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.chester.ac.uk/postgraduate/tourism/tourism-management/",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "11 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "glos",
+      "file": "data/glos-courses.ts",
+      "totalCourses": 45,
+      "sampled": 6,
+      "sampledDead": 5,
+      "ratePct": 83,
+      "estAffected": 38,
+      "statusesSeen": [
+        200,
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.glos.ac.uk/courses/postgraduate/mba/",
+          "landedOn": "https://www.glos.ac.uk/courses/course/mba-mba-business-administration/mba-business-administration-3y-pt/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.glos.ac.uk/courses/postgraduate/msc-digital-marketing/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.glos.ac.uk/courses/postgraduate/msc-finance-investment/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.glos.ac.uk/courses/postgraduate/ma-education-leadership/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.glos.ac.uk/courses/postgraduate/ma-photography/",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.glos.ac.uk/courses/postgraduate/msc-criminology/",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "6 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "roeham",
+      "file": "data/roeham-courses.ts",
+      "totalCourses": 36,
+      "sampled": 6,
+      "sampledDead": 5,
+      "ratePct": 83,
+      "estAffected": 30,
+      "statusesSeen": [
+        404,
+        200
+      ],
+      "redirectCollapse": true,
+      "collapseTarget": "https://www.roehampton.ac.uk/error/404/",
+      "evidence": [
+        {
+          "status": 404,
+          "url": "https://www.roehampton.ac.uk/postgraduate-courses/mba-business-administration",
+          "landedOn": "https://www.roehampton.ac.uk/error/404/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.roehampton.ac.uk/postgraduate-courses/applied-psychology-in-education",
+          "landedOn": "https://www.roehampton.ac.uk/error/404/"
+        },
+        {
+          "status": 200,
+          "url": "https://www.roehampton.ac.uk/postgraduate-courses/cell-biomedicine",
+          "landedOn": "https://www.roehampton.ac.uk/study/postgraduate-taught-courses/applied-sciences/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.roehampton.ac.uk/postgraduate-courses/applied-linguistics-and-tesol",
+          "landedOn": "https://www.roehampton.ac.uk/error/404/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.roehampton.ac.uk/postgraduate-courses/audiovisual-translation",
+          "landedOn": "https://www.roehampton.ac.uk/error/404/"
+        },
+        {
+          "status": 404,
+          "url": "https://www.roehampton.ac.uk/postgraduate-courses/christian-ministry",
+          "landedOn": "https://www.roehampton.ac.uk/error/404/"
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; constructed/curated header"
+    },
+    {
+      "university": "leiden-university",
+      "file": "data/leiden-university-courses.ts",
+      "totalCourses": 58,
+      "sampled": 6,
+      "sampledDead": 3,
+      "ratePct": 50,
+      "estAffected": 29,
+      "statusesSeen": [
+        200,
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/computer-science/advanced-computing-and-systems",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/mathematics/applied-mathematics",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/arts-and-culture",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/film-and-photographic-studies",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/molecular-medicine",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.universiteitleiden.nl/en/education/study-programmes/master/statistics",
+          "landedOn": null
+        }
+      ],
+      "provenance": "SUSPECT",
+      "provenanceEvidence": "2 other data files share >=40% of this file's course names verbatim; crawl-provenance header"
+    },
+    {
+      "university": "aru",
+      "file": "data/aru-courses.ts",
+      "totalCourses": 166,
+      "sampled": 6,
+      "sampledDead": 1,
+      "ratePct": 17,
+      "estAffected": 28,
+      "statusesSeen": [
+        200,
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.aru.ac.uk/study/postgraduate/accounting-and-finance",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.aru.ac.uk/study/postgraduate/artificial-intelligence-and-big-data",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.aru.ac.uk/study/postgraduate/criminology",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.aru.ac.uk/study/postgraduate/fintech-and-data-analytics",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.aru.ac.uk/study/postgraduate/international-commercial-law",
+          "landedOn": "https://www.aru.ac.uk/study/postgraduate"
+        },
+        {
+          "status": 200,
+          "url": "https://www.aru.ac.uk/study/postgraduate/physiotherapy",
+          "landedOn": null
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; constructed/curated header"
+    },
+    {
+      "university": "sheffield-hallam",
+      "file": "data/sheffield-hallam-courses.ts",
+      "totalCourses": 50,
+      "sampled": 6,
+      "sampledDead": 3,
+      "ratePct": 50,
+      "estAffected": 25,
+      "statusesSeen": [
+        200,
+        404
+      ],
+      "redirectCollapse": false,
+      "collapseTarget": null,
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.shu.ac.uk/courses/accounting-banking-and-finance/msc-accounting-and-finance",
+          "landedOn": "https://www.shu.ac.uk/courses/accounting-banking-and-finance/msc-accounting-and-finance/full-time/2026"
+        },
+        {
+          "status": 404,
+          "url": "https://www.shu.ac.uk/courses/business-management/msc-human-resource-management",
+          "landedOn": null
+        },
+        {
+          "status": 200,
+          "url": "https://www.shu.ac.uk/courses/computing/msc-artificial-intelligence",
+          "landedOn": "https://www.shu.ac.uk/courses/computing/msc-artificial-intelligence/full-time/2026"
+        },
+        {
+          "status": 200,
+          "url": "https://www.shu.ac.uk/courses/engineering/msc-engineering-management",
+          "landedOn": "https://www.shu.ac.uk/courses/engineering/msc-engineering-management/full-time/2027"
+        },
+        {
+          "status": 404,
+          "url": "https://www.shu.ac.uk/courses/health-and-wellbeing/msc-physiotherapy",
+          "landedOn": null
+        },
+        {
+          "status": 404,
+          "url": "https://www.shu.ac.uk/courses/art-and-design/ma-interior-design",
+          "landedOn": null
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "10 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "kingston",
+      "file": "data/kingston-courses.ts",
+      "totalCourses": 60,
+      "sampled": 6,
+      "sampledDead": 2,
+      "ratePct": 33,
+      "estAffected": 20,
+      "statusesSeen": [
+        200,
+        404,
+        429
+      ],
+      "redirectCollapse": true,
+      "collapseTarget": "https://www.kingston.ac.uk/study/postgraduate/courses",
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.kingston.ac.uk/postgraduate-course/accounting-finance-msc/",
+          "landedOn": "https://www.kingston.ac.uk/study/postgraduate/accounting-and-finance-msc"
+        },
+        {
+          "status": 200,
+          "url": "https://www.kingston.ac.uk/postgraduate-course/aircraft-engineering-msc/",
+          "landedOn": "https://www.kingston.ac.uk/study/postgraduate/aerospace-engineering-msc"
+        },
+        {
+          "status": 200,
+          "url": "https://www.kingston.ac.uk/postgraduate-course/architecture-ma/",
+          "landedOn": "https://www.kingston.ac.uk/study/postgraduate/architecture-ma"
+        },
+        {
+          "status": 200,
+          "url": "https://www.kingston.ac.uk/postgraduate-course/behavioural-decision-science-msc/",
+          "landedOn": "https://www.kingston.ac.uk/study/postgraduate/courses"
+        },
+        {
+          "status": 404,
+          "url": "https://www.kingston.ac.uk/postgraduate-course/business-management-ma/",
+          "landedOn": null
+        },
+        {
+          "status": 429,
+          "url": "https://www.kingston.ac.uk/postgraduate-course/finance-msc/",
+          "landedOn": "https://www.kingston.ac.uk/study/postgraduate/courses"
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; constructed/curated header"
+    },
+    {
+      "university": "suffolk",
+      "file": "data/suffolk-courses.ts",
+      "totalCourses": 40,
+      "sampled": 6,
+      "sampledDead": 0,
+      "ratePct": 33,
+      "estAffected": 13,
+      "statusesSeen": [
+        200
+      ],
+      "redirectCollapse": true,
+      "collapseTarget": "https://www.uos.ac.uk/study/postgraduate-study/",
+      "evidence": [
+        {
+          "status": 200,
+          "url": "https://www.uos.ac.uk/courses/pg/master-business-administration",
+          "landedOn": "https://www.uos.ac.uk/study/postgraduate-study/"
+        },
+        {
+          "status": 200,
+          "url": "https://www.uos.ac.uk/courses/pg/msc-human-resource-management",
+          "landedOn": "https://www.uos.ac.uk/study/postgraduate-study/"
+        },
+        {
+          "status": 200,
+          "url": "https://www.uos.ac.uk/courses/pg/dementia-care-health-and-social-care-professionals",
+          "landedOn": "https://www.uos.ac.uk/study/cpd-dementia-care/"
+        },
+        {
+          "status": 200,
+          "url": "https://www.uos.ac.uk/courses/pg/msc-diagnostic-radiography",
+          "landedOn": "https://www.uos.ac.uk/study/msc-diagnostic-radiography-preregistration/"
+        },
+        {
+          "status": 200,
+          "url": "https://www.uos.ac.uk/courses/pg/ma-criminology-crime-and-victimisation",
+          "landedOn": "https://www.uos.ac.uk/study/ma-criminology/"
+        },
+        {
+          "status": 200,
+          "url": "https://www.uos.ac.uk/courses/pg/pgd-business-administration",
+          "landedOn": "https://www.uos.ac.uk/study/pg-business-administration/"
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; constructed/curated header"
+    }
+  ],
+  "unverifiableBehindWaf": [
+    {
+      "university": "uel",
+      "file": "data/uel-courses.ts",
+      "totalCourses": 159,
+      "hostHomepageStatus": 403,
+      "note": "Host refuses our crawler on its own homepage too — bot/WAF block, NOT proof the course URLs are dead. Unverifiable by this method.",
+      "evidence": [
+        {
+          "status": 403,
+          "url": "https://www.uel.ac.uk/postgraduate/courses/msc-clinical-exercise-physiology"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uel.ac.uk/postgraduate/courses/mba-business-administration-entrepreneurship"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uel.ac.uk/postgraduate/courses/prof-doc-counselling-psychology"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uel.ac.uk/postgraduate/courses/pgce-primary-sen-special-schools"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uel.ac.uk/postgraduate/courses/msc-construction-asset-management-digital-technologies"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uel.ac.uk/postgraduate/courses/llm-legal-practice-sqe-preparation"
+        }
+      ],
+      "provenance": "REAL",
+      "provenanceEvidence": "0 other data files share >=40% of this file's course names verbatim; no clear header"
+    },
+    {
+      "university": "westlondon",
+      "file": "data/westlondon-courses.ts",
+      "totalCourses": 45,
+      "hostHomepageStatus": 403,
+      "note": "Host refuses our crawler on its own homepage too — bot/WAF block, NOT proof the course URLs are dead. Unverifiable by this method.",
+      "evidence": [
+        {
+          "status": 403,
+          "url": "https://www.uwl.ac.uk/courses/postgraduate-study/business/mba"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uwl.ac.uk/courses/postgraduate-study/business/digital-marketing"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uwl.ac.uk/courses/postgraduate-study/computing/it-management"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uwl.ac.uk/courses/postgraduate-study/psychology/psychology"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uwl.ac.uk/courses/postgraduate-study/arts-and-media/film-making"
+        },
+        {
+          "status": 403,
+          "url": "https://www.uwl.ac.uk/courses/postgraduate-study/aviation/air-transport-management"
+        }
+      ],
+      "provenance": "CURATED",
+      "provenanceEvidence": "9 other data files share >=40% of this file's course names verbatim; constructed/curated header"
+    }
+  ],
+  "clean": [
+    "adelaide",
+    "anu",
+    "aston",
+    "auckland",
+    "bcu-w2",
+    "bham",
+    "bocconi-university",
+    "bristol",
+    "brookes",
+    "brunel-w2",
+    "cdu",
+    "coventry",
+    "dal",
+    "dbs",
+    "dcu",
+    "dundee",
+    "durhamuni",
+    "ecu",
+    "edinburgh",
+    "exeter",
+    "flinders",
+    "glasgow",
+    "goldsmiths",
+    "greenwich",
+    "griffith",
+    "heriot-watt-university-dubai",
+    "imperial",
+    "kaplan",
+    "kcl",
+    "lboro",
+    "leeds",
+    "maastricht-university",
+    "manchester",
+    "massey",
+    "mcgill",
+    "mcmaster",
+    "middlesex",
+    "murdoch",
+    "nci",
+    "ncl",
+    "northeastern",
+    "northumbria",
+    "plymouth-w2",
+    "portsmouth",
+    "purdue",
+    "qmul",
+    "rdg",
+    "rgu",
+    "rhul",
+    "rmit",
+    "salford-w2",
+    "sfu",
+    "sheffield",
+    "soton",
+    "strath",
+    "sunderland",
+    "surrey",
+    "sussex-w2",
+    "swansea",
+    "swinburne",
+    "tcd",
+    "tu-munich",
+    "ubc",
+    "ucalgary",
+    "ucdavis",
+    "ucl",
+    "uclan",
+    "uham",
+    "uiuc",
+    "umanitoba",
+    "unisc",
+    "university-of-copenhagen",
+    "university-of-groningen",
+    "university-of-helsinki",
+    "unsw-w2",
+    "uoft",
+    "uom",
+    "uottawa",
+    "uow",
+    "uppsala-university",
+    "uq",
+    "usyd",
+    "uts",
+    "vrije-universiteit-amsterdam",
+    "vu-sydney",
+    "vuw",
+    "warwick",
+    "waterloo",
+    "yorkuni"
+  ],
+  "alsoNoted": {
+    "fabricatedHostnames": {
+      "note": "Among the files with NO live route, several use invented hostnames (e.g. harvarduniversity.edu, mitmassachusetts.edu — the real ones are harvard.edu and mit.edu). No live impact, but fabricated data still in the repo.",
+      "files": [
+        "data/brown-courses.ts",
+        "data/cmu-courses.ts",
+        "data/columbia-courses.ts",
+        "data/cornell-courses.ts",
+        "data/dartmouth-courses.ts",
+        "data/duke-courses.ts",
+        "data/georgetown-courses.ts",
+        "data/harvard-courses.ts",
+        "data/jhu-courses.ts",
+        "data/mit-courses.ts",
+        "data/notredame-courses.ts",
+        "data/nwestern-courses.ts",
+        "data/princeton-courses.ts"
+      ]
+    },
+    "homepageStubsInNonLiveFiles": 308
+  },
+  "fullProbeUpdate": {
+    "date": "2026-08-18",
+    "note": "The confirmedBroken percentages above came from a 6-URL sample per file. All 15 REAL-drift files have since been probed IN FULL (1,390 urls). Exact counts below supersede the sampled estimates.",
+    "corrections": [
+      "UEL: the sample said 159/159 dead. Full probe with a fuller browser header set says 158/159 ALIVE. The original result was entirely a WAF rejecting our request — the lighter header set was the bug, not the URLs. UEL should not have been on the broken list.",
+      "Kingston: 31 of its responses were HTTP 429 (rate limited), which the sampled pass counted as dead. Re-probed serially with backoff: most are alive. Dead went 54 -> 35.",
+      "Amsterdam and NTU: their course page templates never render `course.url` — no outbound link and no JSON-LD url — so their dead URLs (168 and 84) have NO user-facing or SEO impact. Excluded from the fix; recorded here instead."
+    ],
+    "exactCounts": {
+      "university-of-amsterdam": {
+        "total": 169,
+        "alive": 1,
+        "dead": 168
+      },
+      "aru": {
+        "total": 166,
+        "alive": 157,
+        "dead": 9
+      },
+      "uea": {
+        "total": 104,
+        "alive": 59,
+        "dead": 45
+      },
+      "ljmu": {
+        "total": 100,
+        "alive": 50,
+        "dead": 50
+      },
+      "lsbu": {
+        "total": 100,
+        "alive": 16,
+        "dead": 84
+      },
+      "queens": {
+        "total": 91,
+        "alive": 5,
+        "dead": 86
+      },
+      "ucd": {
+        "total": 87,
+        "alive": 29,
+        "dead": 58
+      },
+      "ntu": {
+        "total": 84,
+        "alive": 0,
+        "dead": 84
+      },
+      "derby": {
+        "total": 75,
+        "alive": 27,
+        "dead": 48
+      },
+      "otago": {
+        "total": 74,
+        "alive": 0,
+        "dead": 74
+      },
+      "kingston": {
+        "total": 60,
+        "alive": 25,
+        "dead": 35
+      },
+      "bmouth": {
+        "total": 45,
+        "alive": 0,
+        "dead": 45
+      },
+      "suffolk": {
+        "total": 40,
+        "alive": 28,
+        "dead": 12
+      },
+      "roeham": {
+        "total": 36,
+        "alive": 11,
+        "dead": 25
+      },
+      "uel": {
+        "total": 159,
+        "alive": 158,
+        "dead": 1
+      }
+    },
+    "actionsTaken": {
+      "aru": {
+        "repointed": 0,
+        "withdrawn": 9,
+        "listingPage": "https://www.aru.ac.uk/study/postgraduate"
+      },
+      "uea": {
+        "repointed": 25,
+        "withdrawn": 20,
+        "listingPage": "https://www.uea.ac.uk/course"
+      },
+      "ljmu": {
+        "repointed": 15,
+        "withdrawn": 35,
+        "listingPage": "https://www.ljmu.ac.uk/study/courses/postgraduates"
+      },
+      "lsbu": {
+        "repointed": 12,
+        "withdrawn": 72,
+        "listingPage": "https://www.lsbu.ac.uk/study/course-finder"
+      },
+      "derby": {
+        "repointed": 12,
+        "withdrawn": 36,
+        "listingPage": "https://www.derby.ac.uk/postgraduate/"
+      },
+      "kingston": {
+        "repointed": 3,
+        "withdrawn": 32,
+        "listingPage": "https://www.kingston.ac.uk/study/postgraduate"
+      },
+      "suffolk": {
+        "repointed": 2,
+        "withdrawn": 10,
+        "listingPage": "https://www.uos.ac.uk/study/postgraduate-study/"
+      },
+      "bmouth": {
+        "repointed": 8,
+        "withdrawn": 37,
+        "listingPage": "https://www.bournemouth.ac.uk/study/courses"
+      },
+      "roeham": {
+        "repointed": 2,
+        "withdrawn": 23,
+        "listingPage": "https://www.roehampton.ac.uk/postgraduate-courses/"
+      },
+      "queens": {
+        "repointed": 0,
+        "withdrawn": 86,
+        "listingPage": "https://www.queensu.ca/academics/programs"
+      },
+      "ucd": {
+        "repointed": 0,
+        "withdrawn": 58,
+        "listingPage": "https://www.ucd.ie/courses/"
+      },
+      "otago": {
+        "repointed": 0,
+        "withdrawn": 74,
+        "listingPage": "https://www.otago.ac.nz/study/"
+      }
+    },
+    "stillUnverifiable": [
+      "uel: 1 course still returns 403 to our crawler (pgdip-musculoskeletal-ultrasonography). Left untouched — unverifiable, not proven dead."
+    ]
+  }
+}

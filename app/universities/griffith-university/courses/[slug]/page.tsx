@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
 export async function generateStaticParams() {
   return (griffithCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -17,9 +18,19 @@ export async function generateMetadata(
   const { slug } = await params;
   const course = getGriffithCoursesBySlug(slug);
   if (!course) return {};
+  // Griffith has withdrawn a handful of these programs. Say so in the title and
+  // description rather than advertising a course nobody can apply to.
+  if ((course as any).withdrawn) {
+    return buildMetadata({
+      title: `${course.name} at Griffith University — No Longer Offered (Alternatives Inside)`,
+      description: `${course.name} has been withdrawn by Griffith University and is no longer open for applications. See current Griffith alternatives and get free guidance from Jaivik Overseas.`,
+      path: `/universities/griffith-university/courses/${slug}`,
+      keywords: [course.name, 'Griffith', 'Griffith University', 'study in Australia', course.level],
+    });
+  }
   return buildMetadata({
     title: `${course.name} at Griffith University — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at Griffith University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at Griffith University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/griffith-university/courses/${slug}`,
     keywords: [course.name, 'Griffith', 'Griffith University', 'study in Australia', course.level],
   });
@@ -44,7 +55,10 @@ export default async function CoursePage(
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
-    url: course.url,
+    // Griffith withdrew a handful of these programs; for those, course.url points at
+    // Griffith's discipline hub, which is not this course's own page — so don't assert
+    // it as the Course's canonical url.
+    ...((course as any).officialUrlKind === 'study-area' ? {} : { url: course.url }),
   };
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -66,14 +80,18 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 Griffith University · {course.campus}
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Griffith University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">
+                {(course as any).withdrawn
+                  ? `${course.name} at Griffith University — No Longer Offered`
+                  : <>{course.name} at Griffith University — Fees in INR, IELTS &amp; Requirements for Indian Students</>}
+              </h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee (AUD)', value: annualFeeLabel(course) },
+                  { label: 'Fee in INR', value: annualFeeINRLabel(course) },
                   { label: 'IELTS Minimum', value: `${course.ieltsMin}+` },
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
@@ -93,6 +111,42 @@ export default async function CoursePage(
 
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2 space-y-6">
+          {(course as any).withdrawn && (
+            <div className="bg-amber-50 border border-amber-300 rounded-2xl p-6" role="note">
+              <h2 className="text-lg font-bold text-amber-900 mb-2">
+                ⚠️ This program is no longer offered by Griffith University
+              </h2>
+              <p className="text-sm text-amber-900/90 mb-2">
+                Griffith University has withdrawn <strong>{course.name}</strong> and it is no
+                longer open to new applications. The fees, entry requirements and intake dates
+                shown further down this page were accurate when the program was last offered and
+                are kept for reference only — they should not be used to plan an application.
+              </p>
+              {(course as any).alternatives?.length > 0 && (
+                <>
+                  <p className="text-sm font-semibold text-amber-900 mt-4 mb-2">
+                    Current Griffith programs to consider instead:
+                  </p>
+                  <ul className="space-y-1.5">
+                    {((course as any).alternatives as { name: string; slug: string }[]).map(alt => (
+                      <li key={alt.slug}>
+                        <Link
+                          href={`/universities/griffith-university/courses/${alt.slug}`}
+                          className="text-sm font-medium text-brand-700 hover:underline"
+                        >
+                          {alt.name} →
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+              <p className="text-xs text-amber-900/80 mt-4">
+                Not sure which is the right fit? Jaivik Overseas can match you to a current
+                Griffith program free of charge.
+              </p>
+            </div>
+          )}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Course Overview</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -101,10 +155,10 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 { label: 'Campus', value: course.campus },
                 { label: 'Intakes', value: course.intakeMonths.join(' & ') },
-                { label: 'Annual Tuition (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
-                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
+                { label: 'Annual Tuition (AUD)', value: annualFeeLabel(course) },
+                { label: 'Annual Tuition (USD)', value: hasExactFee(course) ? `$${course.annualUSD.toLocaleString()}` : 'On request' },
                 { label: 'Living Cost (AUD)', value: `A$${course.livingCostAUD.toLocaleString()}/yr` },
-                { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` },
+                { label: 'Total Course Fee', value: totalFeeLabel(course) },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
@@ -135,10 +189,10 @@ export default async function CoursePage(
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
             <div className="space-y-3">
               {[
-                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${course.totalAUD.toLocaleString()}`, highlight: true },
+                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: totalFeeLabel(course), highlight: true },
                 { label: `Living Cost × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${(course.livingCostAUD * course.durationYears).toLocaleString()}` },
-                { label: 'Total Estimated Cost', value: `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}`, highlight: true },
-                { label: 'In Indian Rupees (₹)', value: `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh`, highlight: true },
+                { label: 'Total Estimated Cost', value: totalEstimatedCostLabel(course, course.livingCostAUD), highlight: true },
+                { label: 'In Indian Rupees (₹)', value: totalEstimatedCostINRLabel(course, course.livingCostAUD), highlight: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.highlight ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
                   <span className="text-sm text-gray-700">{r.label}</span>
@@ -169,7 +223,9 @@ export default async function CoursePage(
               <div className="space-y-2">
                 <a href={course.url} target="_blank" rel="noopener noreferrer"
                   className="block text-sm text-brand-700 hover:underline">
-                  Official Course Page ↗
+                  {(course as any).officialUrlKind === 'study-area'
+                    ? 'Griffith Study Area (this program is no longer offered) ↗'
+                    : 'Official Course Page ↗'}
                 </a>
                 <Link href="/universities/griffith-university/courses" className="block text-sm text-brand-700 hover:underline">
                   All Griffith Courses →

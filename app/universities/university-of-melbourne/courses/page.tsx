@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import { uomCourses } from '@/data/uom-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Melbourne International Courses — Programs, Fees & IELTS 2026',
@@ -25,14 +26,13 @@ export default function CoursesPage() {
   const groups = groupByLevel(courses);
   const total = courses.length;
   const pgC = courses.filter((c: any) => c.studyLevel !== 'Undergraduate');
-  const avgFee = pgC.length
-    ? Math.round(pgC.reduce((s: number, c: any) => s + c.annualAUD, 0) / pgC.length)
-    : Math.round(courses.reduce((s: number, c: any) => s + c.annualAUD, 0) / (total || 1));
+  const avgFee = pgC.length ? averageAnnualFee(pgC) : averageAnnualFee(courses);
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _avgFeeUSD = courses.length
-    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0);
+  const _avgFeeUSD = _pricedCourses.length
+    ? Math.round(_pricedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _pricedCourses.length)
     : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
@@ -97,7 +97,9 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Melbourne' },
-        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        ...(Number(c.annualUSD) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+          : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
     })),
@@ -175,7 +177,7 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">A${c.annualAUD.toLocaleString()}/yr</p>
+                      <p className="text-sm font-bold text-brand-700">{annualFeeLabel(c)}</p>
                       <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
                       <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                     </div>

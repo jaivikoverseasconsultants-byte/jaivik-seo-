@@ -2,7 +2,7 @@
 // Generated from Wayback Machine CDX / real URL patterns
 
 export interface KingstonCourse {
-  id: string; name: string; slug: string; url: string;
+  id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
   livingCostGBP: number; livingCostUSD: number; livingCostINR: number;
@@ -39,13 +39,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-2",
     "name": "MSc Accounting information systems",
     "slug": "kingston-accounting-information-systems-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/accounting-information-systems-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -68,13 +69,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-3",
     "name": "MSc Advanced practice healthcare",
     "slug": "kingston-advanced-practice-healthcare-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/advanced-practice-healthcare-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -97,13 +114,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-4",
     "name": "MA Advanced professional practice",
     "slug": "kingston-advanced-professional-practice-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/advanced-professional-practice-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -126,7 +159,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-5",
@@ -155,13 +204,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-6",
     "name": "MSc Advanced strategic marketing",
     "slug": "kingston-advanced-strategic-marketing-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/advanced-strategic-marketing-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -184,7 +234,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-7",
@@ -213,7 +279,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-8",
@@ -242,13 +309,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-9",
     "name": "MSc Aerospace systems",
     "slug": "kingston-aerospace-systems-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/aerospace-systems-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -271,7 +339,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-10",
@@ -300,7 +384,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-11",
@@ -329,13 +414,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-12",
     "name": "MSc Analytical chemistry management",
     "slug": "kingston-analytical-chemistry-management-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/analytical-chemistry-management-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -358,7 +444,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-13",
@@ -387,13 +489,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-14",
     "name": "MSc Applied child psychology",
     "slug": "kingston-applied-child-psychology",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/applied-child-psychology/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -416,13 +519,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-15",
     "name": "MSc Applied econometrics",
     "slug": "kingston-applied-econometrics-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/applied-econometrics-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -445,7 +564,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-16",
@@ -474,13 +609,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-17",
     "name": "MSc Applied social research methods",
     "slug": "kingston-applied-social-research-methods-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/applied-social-research-methods-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -503,13 +639,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-18",
     "name": "MA Architecture creative economy",
     "slug": "kingston-architecture-creative-economy-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/architecture-creative-economy-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -532,13 +684,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-19",
     "name": "MArch Architecture design",
     "slug": "kingston-architecture-design-march",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/architecture-design-march/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MArch",
     "duration": "1 year",
@@ -561,13 +729,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-20",
     "name": "MSc Architecture graduate diploma",
     "slug": "kingston-architecture-graduate-diploma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/architecture-graduate-diploma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -590,7 +774,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-21",
@@ -619,7 +819,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-22",
@@ -648,13 +849,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-23",
     "name": "MA Architecture professional practice",
     "slug": "kingston-architecture-professional-practice-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/architecture-professional-practice-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -677,13 +879,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-24",
     "name": "MA Architecture thinking building",
     "slug": "kingston-architecture-thinking-building-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/architecture-thinking-building-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -706,13 +924,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-25",
     "name": "MA Art creative economy",
     "slug": "kingston-art-creative-economy-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/art-creative-economy-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -735,7 +969,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-26",
@@ -764,7 +1014,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-27",
@@ -793,7 +1044,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-28",
@@ -822,7 +1074,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-29",
@@ -851,7 +1104,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-30",
@@ -880,7 +1134,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-31",
@@ -909,7 +1164,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-32",
@@ -938,7 +1194,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-33",
@@ -967,13 +1224,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-34",
     "name": "MSc Biotechnology management",
     "slug": "kingston-biotechnology-management-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/biotechnology-management-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -996,13 +1254,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-35",
     "name": "MSc Biotechnology",
     "slug": "kingston-biotechnology-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/biotechnology-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1025,7 +1299,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-36",
@@ -1054,13 +1344,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-37",
     "name": "MSc Business economic forecasting",
     "slug": "kingston-business-economic-forecasting-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/business-economic-forecasting-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1083,13 +1374,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-38",
     "name": "MA Business economics",
     "slug": "kingston-business-economics-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/business-economics-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -1112,13 +1419,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-39",
     "name": "MSc Business information technology",
     "slug": "kingston-business-information-technology-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/business-information-technology-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1141,13 +1464,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-40",
     "name": "LLM Business law",
     "slug": "kingston-business-law-llm",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/business-law-llm/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "LLM",
     "duration": "1 year",
@@ -1170,13 +1509,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-41",
     "name": "MA Business management",
     "slug": "kingston-business-management-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/business-management-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -1199,7 +1554,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-42",
@@ -1228,7 +1599,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-43",
@@ -1257,13 +1629,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-44",
     "name": "MSc Business psychology",
     "slug": "kingston-business-psychology-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/business-psychology-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1286,7 +1659,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-45",
@@ -1315,13 +1704,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-46",
     "name": "MA Child centred practice",
     "slug": "kingston-child-centred-practice-ma",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/child-centred-practice-ma/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MA",
     "duration": "1 year",
@@ -1344,13 +1734,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MA Advanced social work",
+        "slug": "kingston-advanced-social-work-ma"
+      },
+      {
+        "name": "MA Advertising creative economy",
+        "slug": "kingston-advertising-creative-economy-ma"
+      },
+      {
+        "name": "MA Aesthetics art theory",
+        "slug": "kingston-aesthetics-art-theory-ma"
+      }
+    ]
   },
   {
     "id": "kingston-pg-47",
     "name": "MSc Data science",
     "slug": "kingston-data-science-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/data-science-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate/data-science-msc/",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1373,13 +1779,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-48",
     "name": "MSc Computer science",
     "slug": "kingston-computer-science-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/computer-science-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1402,13 +1809,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-49",
     "name": "MSc Cybersecurity",
     "slug": "kingston-cybersecurity-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/cybersecurity-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1431,7 +1854,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-50",
@@ -1460,7 +1899,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-51",
@@ -1489,13 +1929,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-52",
     "name": "MSc Global fashion management",
     "slug": "kingston-global-fashion-management-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/global-fashion-management-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1518,7 +1959,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-53",
@@ -1547,13 +2004,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-54",
     "name": "MSc International business",
     "slug": "kingston-international-business-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/international-business-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1576,13 +2034,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-55",
     "name": "LLM Law",
     "slug": "kingston-law-llm",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/law-llm/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate/law-llm/",
     "level": "Masters",
     "studyLevel": "LLM",
     "duration": "1 year",
@@ -1605,13 +2079,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-56",
     "name": "MSc Management",
     "slug": "kingston-management-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/management-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1634,13 +2109,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-57",
     "name": "MSc Nursing",
     "slug": "kingston-nursing-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/nursing-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1663,13 +2154,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-58",
     "name": "MSc Project management",
     "slug": "kingston-project-management-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/project-management-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate/project-management-msc/",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1692,13 +2199,14 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course"
   },
   {
     "id": "kingston-pg-59",
     "name": "MSc Public health",
     "slug": "kingston-public-health-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/public-health-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1721,13 +2229,29 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   },
   {
     "id": "kingston-pg-60",
     "name": "MSc Supply chain management",
     "slug": "kingston-supply-chain-management-msc",
-    "url": "https://www.kingston.ac.uk/postgraduate-course/supply-chain-management-msc/",
+    "url": "https://www.kingston.ac.uk/study/postgraduate",
     "level": "Masters",
     "studyLevel": "MSc",
     "duration": "1 year",
@@ -1750,7 +2274,23 @@ export const kingstonCourses: KingstonCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "officialUrlKind": "course-listing",
+    "withdrawn": true,
+    "alternatives": [
+      {
+        "name": "MSc Accounting finance",
+        "slug": "kingston-accounting-finance-msc"
+      },
+      {
+        "name": "MSc Aerospace engineering",
+        "slug": "kingston-aerospace-engineering-msc"
+      },
+      {
+        "name": "MSc Aircraft engineering",
+        "slug": "kingston-aircraft-engineering-msc"
+      }
+    ]
   }
 ];
 

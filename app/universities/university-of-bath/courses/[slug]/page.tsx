@@ -17,6 +17,14 @@ export async function generateMetadata(
   const { slug } = await params;
   const course = getBathCourseBySlug(slug);
   if (!course) return {};
+  if ((course as any).withdrawn) {
+    return buildMetadata({
+      title: `${course.name} at University of Bath — No Longer Offered (Alternatives Inside)`,
+      description: `${course.name} is no longer offered by the University of Bath and is not open for applications. See current Bath alternatives and get free guidance from Jaivik Overseas.`,
+      path: `/universities/university-of-bath/courses/${slug}`,
+      keywords: [course.name, 'Bath', 'University of Bath', 'study in UK', course.level],
+    });
+  }
   return buildMetadata({
     title: `${course.name} at University of Bath — Fees in INR, IELTS & Requirements for Indian Students`,
     description: `${course.name} at University of Bath, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
@@ -44,7 +52,9 @@ export default async function CoursePage(
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
-    url: course.url,
+    // withdrawn courses point at Bath's subject listing, which is not this course's
+    // own page — don't assert it as the Course url
+    ...((course as any).withdrawn ? {} : { url: course.url }),
   };
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -67,7 +77,11 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇬🇧 University of Bath · Bath, UK
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Bath — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">
+                {(course as any).withdrawn
+                  ? `${course.name} at University of Bath — No Longer Offered`
+                  : <>{course.name} at University of Bath — Fees in INR, IELTS &amp; Requirements for Indian Students</>}
+              </h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>
@@ -93,6 +107,41 @@ export default async function CoursePage(
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {(course as any).withdrawn && (
+          <div className="lg:col-span-2 bg-amber-50 border border-amber-300 rounded-2xl p-6" role="note">
+            <h2 className="text-lg font-bold text-amber-900 mb-2">
+              ⚠️ This course is no longer offered by the University of Bath
+            </h2>
+            <p className="text-sm text-amber-900/90">
+              Bath has retired <strong>{course.name}</strong> and it is not open for
+              applications. The fees, entry requirements and intake dates below were accurate
+              for the intake year this course was last offered and are kept for reference only —
+              they should not be used to plan an application.
+            </p>
+            {(course as any).alternatives?.length > 0 && (
+              <>
+                <p className="text-sm font-semibold text-amber-900 mt-4 mb-2">
+                  Current Bath courses in the same subject area:
+                </p>
+                <ul className="space-y-1.5">
+                  {((course as any).alternatives as { name: string; slug: string }[]).map(alt => (
+                    <li key={alt.slug}>
+                      <Link
+                        href={`/universities/university-of-bath/courses/${alt.slug}`}
+                        className="text-sm font-medium text-brand-700 hover:underline"
+                      >
+                        {alt.name} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+            <p className="text-xs text-amber-900/80 mt-4">
+              Jaivik Overseas can match you to a current Bath course free of charge.
+            </p>
+          </div>
+        )}
         <div className="lg:col-span-2 space-y-6">
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Course Overview</h2>
@@ -187,7 +236,9 @@ export default async function CoursePage(
               <div className="space-y-2">
                 <a href={course.url} target="_blank" rel="noopener noreferrer"
                   className="block text-sm text-brand-700 hover:underline">
-                  Official Course Page ↗
+                  {(course as any).withdrawn
+                    ? 'Bath Subject Listing (this course is no longer offered) ↗'
+                    : 'Official Course Page ↗'}
                 </a>
                 <Link href="/universities/university-of-bath/courses" className="block text-sm text-brand-700 hover:underline">
                   All Bath Courses →
