@@ -39,7 +39,11 @@ export default async function CoursePage(
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
     timeRequired: `P${course.durationYears}Y`,
-    url: course.url,
+    // withdrawn courses point at the university's course-listing page,
+
+    // which is not this course's own page — don't assert it as the Course url
+
+    ...((course as any).withdrawn ? {} : { url: course.url }),
   };
 
   const feeINRLakh = (course.annualINR / 100000).toFixed(1);
@@ -61,7 +65,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇮🇪 University College Dublin · Dublin, Ireland
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University College Dublin — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{(course as any).withdrawn ? `${course.name} — No Longer Offered` : <>{course.name} at University College Dublin — Fees in INR, IELTS &amp; Requirements for Indian Students</>}</h1>
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
@@ -85,6 +89,41 @@ export default async function CoursePage(
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {(course as any).withdrawn && (
+          <div className="lg:col-span-2 bg-amber-50 border border-amber-300 rounded-2xl p-6" role="note">
+            <h2 className="text-lg font-bold text-amber-900 mb-2">
+              ⚠️ This course is no longer offered by University College Dublin
+            </h2>
+            <p className="text-sm text-amber-900/90">
+              <strong>{course.name}</strong> is no longer listed by the university and is not
+              open for applications. The fees, entry requirements and intake dates below were
+              accurate when the course was last offered and are kept for reference only — they
+              should not be used to plan an application.
+            </p>
+            {(course as any).alternatives?.length > 0 && (
+              <>
+                <p className="text-sm font-semibold text-amber-900 mt-4 mb-2">
+                  Current courses at this university:
+                </p>
+                <ul className="space-y-1.5">
+                  {((course as any).alternatives as { name: string; slug: string }[]).map(alt => (
+                    <li key={alt.slug}>
+                      <Link
+                        href={`/universities/university-college-dublin/courses/${alt.slug}`}
+                        className="text-sm font-medium text-brand-700 hover:underline"
+                      >
+                        {alt.name} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+            <p className="text-xs text-amber-900/80 mt-4">
+              Jaivik Overseas can match you to a current course free of charge.
+            </p>
+          </div>
+        )}
         <div className="lg:col-span-2 space-y-6">
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Course Overview</h2>
@@ -175,7 +214,7 @@ export default async function CoursePage(
             <div className="mt-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3 text-sm">Related Links</h3>
               <div className="space-y-2">
-                <a href={course.url} target="_blank" rel="noopener noreferrer" className="block text-sm text-brand-700 hover:underline">Official Course Page ↗</a>
+                <a href={course.url} target="_blank" rel="noopener noreferrer" className="block text-sm text-brand-700 hover:underline">{(course as any).withdrawn ? 'University Course Listing (this course is no longer offered) ↗' : 'Official Course Page ↗'}</a>
                 <Link href="/universities/university-college-dublin/courses" className="block text-sm text-brand-700 hover:underline">All UCD Courses →</Link>
                 <Link href="/universities/country/ireland" className="block text-sm text-brand-700 hover:underline">Study in Ireland Guide →</Link>
               </div>

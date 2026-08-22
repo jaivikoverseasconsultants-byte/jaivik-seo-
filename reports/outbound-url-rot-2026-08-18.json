@@ -1523,5 +1523,156 @@
       ]
     },
     "homepageStubsInNonLiveFiles": 308
+  },
+  "fullProbeUpdate": {
+    "date": "2026-08-18",
+    "note": "The confirmedBroken percentages above came from a 6-URL sample per file. All 15 REAL-drift files have since been probed IN FULL (1,390 urls). Exact counts below supersede the sampled estimates.",
+    "corrections": [
+      "UEL: the sample said 159/159 dead. Full probe with a fuller browser header set says 158/159 ALIVE. The original result was entirely a WAF rejecting our request — the lighter header set was the bug, not the URLs. UEL should not have been on the broken list.",
+      "Kingston: 31 of its responses were HTTP 429 (rate limited), which the sampled pass counted as dead. Re-probed serially with backoff: most are alive. Dead went 54 -> 35.",
+      "Amsterdam and NTU: their course page templates never render `course.url` — no outbound link and no JSON-LD url — so their dead URLs (168 and 84) have NO user-facing or SEO impact. Excluded from the fix; recorded here instead."
+    ],
+    "exactCounts": {
+      "university-of-amsterdam": {
+        "total": 169,
+        "alive": 1,
+        "dead": 168
+      },
+      "aru": {
+        "total": 166,
+        "alive": 157,
+        "dead": 9
+      },
+      "uea": {
+        "total": 104,
+        "alive": 59,
+        "dead": 45
+      },
+      "ljmu": {
+        "total": 100,
+        "alive": 50,
+        "dead": 50
+      },
+      "lsbu": {
+        "total": 100,
+        "alive": 16,
+        "dead": 84
+      },
+      "queens": {
+        "total": 91,
+        "alive": 5,
+        "dead": 86
+      },
+      "ucd": {
+        "total": 87,
+        "alive": 29,
+        "dead": 58
+      },
+      "ntu": {
+        "total": 84,
+        "alive": 0,
+        "dead": 84
+      },
+      "derby": {
+        "total": 75,
+        "alive": 27,
+        "dead": 48
+      },
+      "otago": {
+        "total": 74,
+        "alive": 0,
+        "dead": 74
+      },
+      "kingston": {
+        "total": 60,
+        "alive": 25,
+        "dead": 35
+      },
+      "bmouth": {
+        "total": 45,
+        "alive": 0,
+        "dead": 45
+      },
+      "suffolk": {
+        "total": 40,
+        "alive": 28,
+        "dead": 12
+      },
+      "roeham": {
+        "total": 36,
+        "alive": 11,
+        "dead": 25
+      },
+      "uel": {
+        "total": 159,
+        "alive": 158,
+        "dead": 1
+      }
+    },
+    "actionsTaken": {
+      "aru": {
+        "repointed": 0,
+        "withdrawn": 9,
+        "listingPage": "https://www.aru.ac.uk/study/postgraduate"
+      },
+      "uea": {
+        "repointed": 25,
+        "withdrawn": 20,
+        "listingPage": "https://www.uea.ac.uk/course"
+      },
+      "ljmu": {
+        "repointed": 15,
+        "withdrawn": 35,
+        "listingPage": "https://www.ljmu.ac.uk/study/courses/postgraduates"
+      },
+      "lsbu": {
+        "repointed": 12,
+        "withdrawn": 72,
+        "listingPage": "https://www.lsbu.ac.uk/study/course-finder"
+      },
+      "derby": {
+        "repointed": 12,
+        "withdrawn": 36,
+        "listingPage": "https://www.derby.ac.uk/postgraduate/"
+      },
+      "kingston": {
+        "repointed": 3,
+        "withdrawn": 32,
+        "listingPage": "https://www.kingston.ac.uk/study/postgraduate"
+      },
+      "suffolk": {
+        "repointed": 2,
+        "withdrawn": 10,
+        "listingPage": "https://www.uos.ac.uk/study/postgraduate-study/"
+      },
+      "bmouth": {
+        "repointed": 8,
+        "withdrawn": 37,
+        "listingPage": "https://www.bournemouth.ac.uk/study/courses"
+      },
+      "roeham": {
+        "repointed": 2,
+        "withdrawn": 23,
+        "listingPage": "https://www.roehampton.ac.uk/postgraduate-courses/"
+      },
+      "queens": {
+        "repointed": 0,
+        "withdrawn": 86,
+        "listingPage": "https://www.queensu.ca/academics/programs"
+      },
+      "ucd": {
+        "repointed": 0,
+        "withdrawn": 58,
+        "listingPage": "https://www.ucd.ie/courses/"
+      },
+      "otago": {
+        "repointed": 0,
+        "withdrawn": 74,
+        "listingPage": "https://www.otago.ac.nz/study/"
+      }
+    },
+    "stillUnverifiable": [
+      "uel: 1 course still returns 403 to our crawler (pgdip-musculoskeletal-ultrasonography). Left untouched — unverifiable, not proven dead."
+    ]
   }
 }
