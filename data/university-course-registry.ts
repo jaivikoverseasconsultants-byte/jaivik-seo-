@@ -265,6 +265,13 @@ function n(c: any): RegistryCourse {
 
 
 /** Returns a lightweight slug→courseNames map for client-side search. */
+/**
+ * Raw per-university course arrays, for lib/course-field-variance.ts to work out which
+ * "course facts" are really university-wide constants. Server-only, like the rest of
+ * this module — it is never imported into a client component.
+ */
+export const REGISTRY_FOR_VARIANCE: Record<string, readonly unknown[]> = REGISTRY;
+
 export function getCourseIndex(): Record<string, string[]> {
   const index: Record<string, string[]> = {};
   for (const [slug, courses] of Object.entries(REGISTRY)) {

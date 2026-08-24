@@ -7,6 +7,10 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
+
+/** decides which "course facts" are really university-wide constants */
+const UNIVERSITY_SLUG = 'university-of-derby';
 export function generateStaticParams() {
   return derbyCourses.map(c => ({ slug: c.slug }));
 }
@@ -139,11 +143,10 @@ export default async function CoursePage(
               {[
                 { label: 'Qualification', value: course.level },
                 { label: 'Duration', value: course.duration + ' full-time' },
-                { label: 'Campus', value: course.campus },
-                { label: 'Intakes', value: course.intakeMonths.join(' & ') },
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 course.annualGBP > 0 ? { label: 'Annual Tuition (GBP)', value: `£${course.annualGBP.toLocaleString()}` } : null,
-                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` } : null,
-                course.livingCostGBP > 0 ? { label: 'Living Cost (GBP)', value: `£${course.livingCostGBP.toLocaleString()}/yr` } : null,
+                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` } : null,
                 course.totalGBP > 0 ? { label: 'Total Course Fee', value: `£${course.totalGBP.toLocaleString()}` } : null,
               ].filter((f): f is { label: string; value: string } => f !== null).map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -157,7 +160,8 @@ export default async function CoursePage(
           {(course.ieltsMin > 0 || course.toeflMin > 0 || course.pteMin > 0) && (
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            <div className="grid grid-cols-3 gap-4">
+            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) ? (
+              <div className="grid grid-cols-3 gap-4">
               {[
                 course.ieltsMin > 0 ? { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'No band below 5.5' } : null,
                 course.toeflMin > 0 ? { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 21+' } : null,
@@ -170,6 +174,13 @@ export default async function CoursePage(
                 </div>
               ))}
             </div>
+            ) : (
+              <p className="text-sm text-gray-600">
+                University Of Derby publishes one English language requirement across its courses
+                rather than a per-course score. See the full entry requirements and intake dates on the{' '}
+                <Link href={`/universities/${UNIVERSITY_SLUG}`} className="text-brand-700 font-medium hover:underline">university page</Link>.
+              </p>
+            )}
           </div>
           )}
 

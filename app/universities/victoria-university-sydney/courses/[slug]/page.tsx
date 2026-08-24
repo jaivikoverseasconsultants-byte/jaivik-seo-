@@ -7,6 +7,10 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
+
+/** decides which "course facts" are really university-wide constants */
+const UNIVERSITY_SLUG = 'victoria-university-sydney';
 export async function generateStaticParams() {
   return (vu_sydneyCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -74,7 +78,7 @@ export default async function CoursePage(
                 {[
                   { label: 'Annual Fee (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
                   { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
-                  { label: 'IELTS Minimum', value: `${course.ieltsMin}+` },
+                  ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -99,11 +103,10 @@ export default async function CoursePage(
               {[
                 { label: 'Qualification', value: course.level },
                 { label: 'Duration', value: course.duration + ' full-time' },
-                { label: 'Campus', value: course.campus },
-                { label: 'Intakes', value: course.intakeMonths.join(' & ') },
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 { label: 'Annual Tuition (AUD)', value: `A$${course.annualAUD.toLocaleString()}` },
-                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
-                { label: 'Living Cost (AUD)', value: `A$${course.livingCostAUD.toLocaleString()}/yr` },
+                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
                 { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -116,7 +119,8 @@ export default async function CoursePage(
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            <div className="grid grid-cols-3 gap-4">
+            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) ? (
+              <div className="grid grid-cols-3 gap-4">
               {[
                 { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'Writing 6.0+' },
                 { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 24+' },
@@ -129,6 +133,13 @@ export default async function CoursePage(
                 </div>
               ))}
             </div>
+            ) : (
+              <p className="text-sm text-gray-600">
+                Victoria University Sydney publishes one English language requirement across its courses
+                rather than a per-course score. See the full entry requirements and intake dates on the{' '}
+                <Link href={`/universities/${UNIVERSITY_SLUG}`} className="text-brand-700 font-medium hover:underline">university page</Link>.
+              </p>
+            )}
           </div>
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">

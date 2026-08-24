@@ -1,0 +1,864 @@
+{
+  "title": "Flat-fee (fabricated tuition) scan across all live universities",
+  "date": "2026-08-18",
+  "status": "SCAN COMPLETE — no fees changed. Scope is far larger than expected and needs a decision before any fix.",
+  "headline": [
+    "73 of 101 universities with a priced catalogue show the same fabricated flat-fee signature already fixed for the 9 Australian files — 15,583 courses.",
+    "That is roughly 5x the size of the completed Australian tuition fix (3,257 courses), and it is the dominant pattern in the registry rather than an exception."
+  ],
+  "method": {
+    "signature": "A large catalogue whose native-currency annual fee takes only a handful of distinct values, because the generator assigned a constant per degree BAND rather than crawling per course.",
+    "threshold": "<= 12 distinct fee values with >= 50 priced courses.",
+    "corroboratingTest": {
+      "what": "Fabricated bands are round numbers; genuinely crawled fees are irregular.",
+      "result": "Flagged files: 63% of distinct fee values are exact multiples of 1000 (80% multiples of 500). Genuinely crawled files: 11% multiples of 1000 (18% of 500).",
+      "why": "Two independent signals agreeing makes this a strong finding rather than an artefact of the distinct-count threshold alone."
+    },
+    "controlGroup": "The 9 Australian files fixed in the previous pass now sit in the clean bucket (Adelaide 54 distinct values, USyd 39, RMIT 82, UoM 104, Griffith 50), alongside genuinely-crawled UTS (121). They are the shape a real fee crawl produces."
+  },
+  "worstCases": [
+    {
+      "university": "bath",
+      "courses": 701,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "topValues": "25000(x243) 25200(x201) 27500(x179) 22000(x55)",
+      "roundThousandShare": 0.67
+    },
+    {
+      "university": "edinburgh",
+      "courses": 629,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "topValues": "21000(x367) 23000(x248) 16000(x9) 22000(x3)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "bham",
+      "courses": 603,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "topValues": "26000(x219) 24000(x160) 22000(x135) 27000(x59)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "leeds",
+      "courses": 589,
+      "distinctFeeValues": 11,
+      "currency": "GBP",
+      "topValues": "26000(x129) 26500(x123) 23500(x117) 22500(x68)",
+      "roundThousandShare": 0.55
+    },
+    {
+      "university": "strath",
+      "courses": 561,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "topValues": "19000(x302) 19500(x259)",
+      "roundThousandShare": 0.5
+    },
+    {
+      "university": "auckland",
+      "courses": 527,
+      "distinctFeeValues": 5,
+      "currency": "NZD",
+      "topValues": "33000(x307) 38000(x96) 22000(x88) 35000(x30)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "uottawa",
+      "courses": 492,
+      "distinctFeeValues": 6,
+      "currency": "CAD",
+      "topValues": "20000(x212) 32000(x171) 19000(x74) 14500(x17)",
+      "roundThousandShare": 0.83
+    },
+    {
+      "university": "soton",
+      "courses": 472,
+      "distinctFeeValues": 3,
+      "currency": "GBP",
+      "topValues": "24000(x265) 22000(x206) 32000(x1)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "tcd",
+      "courses": 465,
+      "distinctFeeValues": 3,
+      "currency": "EUR",
+      "topValues": "19000(x178) 20000(x170) 16000(x117)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "ucl",
+      "courses": 400,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "topValues": "28000(x269) 18000(x99) 17000(x20) 25000(x8)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "exeter",
+      "courses": 394,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "topValues": "24500(x226) 22000(x168)",
+      "roundThousandShare": 0.5
+    },
+    {
+      "university": "kcl",
+      "courses": 389,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "topValues": "22000(x237) 24000(x152)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "northumbria",
+      "courses": 382,
+      "distinctFeeValues": 12,
+      "currency": "GBP",
+      "topValues": "16000(x206) 18000(x118) 16500(x20) 12350(x8)",
+      "roundThousandShare": 0.33
+    },
+    {
+      "university": "university-of-groningen",
+      "courses": 355,
+      "distinctFeeValues": 2,
+      "currency": "EUR",
+      "topValues": "22900(x261) 12900(x94)",
+      "roundThousandShare": 0
+    },
+    {
+      "university": "umanitoba",
+      "courses": 340,
+      "distinctFeeValues": 5,
+      "currency": "CAD",
+      "topValues": "27000(x199) 19000(x86) 18500(x51) 22000(x3)",
+      "roundThousandShare": 0.6
+    },
+    {
+      "university": "durhamuni",
+      "courses": 314,
+      "distinctFeeValues": 4,
+      "currency": "GBP",
+      "topValues": "20000(x148) 26000(x141) 8000(x24) 5000(x1)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "manchester",
+      "courses": 304,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "topValues": "26000(x185) 17500(x58) 22000(x9) 16000(x6)",
+      "roundThousandShare": 0.83
+    },
+    {
+      "university": "dal",
+      "courses": 299,
+      "distinctFeeValues": 5,
+      "currency": "CAD",
+      "topValues": "19500(x101) 28000(x97) 19000(x47) 14000(x45)",
+      "roundThousandShare": 0.8
+    },
+    {
+      "university": "glasgow",
+      "courses": 282,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "topValues": "22000(x262) 18000(x11) 13000(x6) 20000(x2)",
+      "roundThousandShare": 1
+    },
+    {
+      "university": "uoft",
+      "courses": 248,
+      "distinctFeeValues": 1,
+      "currency": "GBP",
+      "topValues": "15150(x248)",
+      "roundThousandShare": 0
+    }
+  ],
+  "allSuspects": [
+    {
+      "file": "data/bath-courses.ts",
+      "courses": 701,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "22000-34000"
+    },
+    {
+      "file": "data/edinburgh-courses.ts",
+      "courses": 629,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "16000-38000"
+    },
+    {
+      "file": "data/bham-courses.ts",
+      "courses": 603,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "12000-28000"
+    },
+    {
+      "file": "data/leeds-courses.ts",
+      "courses": 589,
+      "distinctFeeValues": 11,
+      "currency": "GBP",
+      "range": "12000-27500"
+    },
+    {
+      "file": "data/strath-courses.ts",
+      "courses": 561,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "19000-19500"
+    },
+    {
+      "file": "data/auckland-courses.ts",
+      "courses": 527,
+      "distinctFeeValues": 5,
+      "currency": "NZD",
+      "range": "7000-38000"
+    },
+    {
+      "file": "data/uottawa-courses.ts",
+      "courses": 492,
+      "distinctFeeValues": 6,
+      "currency": "CAD",
+      "range": "12000-32000"
+    },
+    {
+      "file": "data/soton-courses.ts",
+      "courses": 472,
+      "distinctFeeValues": 3,
+      "currency": "GBP",
+      "range": "22000-32000"
+    },
+    {
+      "file": "data/tcd-courses.ts",
+      "courses": 465,
+      "distinctFeeValues": 3,
+      "currency": "EUR",
+      "range": "16000-20000"
+    },
+    {
+      "file": "data/ucl-courses.ts",
+      "courses": 400,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "17000-43000"
+    },
+    {
+      "file": "data/exeter-courses.ts",
+      "courses": 394,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "22000-24500"
+    },
+    {
+      "file": "data/kcl-courses.ts",
+      "courses": 389,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "22000-24000"
+    },
+    {
+      "file": "data/northumbria-courses.ts",
+      "courses": 382,
+      "distinctFeeValues": 12,
+      "currency": "GBP",
+      "range": "5000-18000"
+    },
+    {
+      "file": "data/university-of-groningen-courses.ts",
+      "courses": 355,
+      "distinctFeeValues": 2,
+      "currency": "EUR",
+      "range": "12900-22900"
+    },
+    {
+      "file": "data/umanitoba-courses.ts",
+      "courses": 340,
+      "distinctFeeValues": 5,
+      "currency": "CAD",
+      "range": "11500-27000"
+    },
+    {
+      "file": "data/durhamuni-courses.ts",
+      "courses": 314,
+      "distinctFeeValues": 4,
+      "currency": "GBP",
+      "range": "5000-26000"
+    },
+    {
+      "file": "data/manchester-courses.ts",
+      "courses": 304,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "16000-42000"
+    },
+    {
+      "file": "data/dal-courses.ts",
+      "courses": 299,
+      "distinctFeeValues": 5,
+      "currency": "CAD",
+      "range": "14000-28000"
+    },
+    {
+      "file": "data/glasgow-courses.ts",
+      "courses": 282,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "13000-28000"
+    },
+    {
+      "file": "data/uoft-courses.ts",
+      "courses": 248,
+      "distinctFeeValues": 1,
+      "currency": "GBP",
+      "range": "15150-15150"
+    },
+    {
+      "file": "data/lboro-courses.ts",
+      "courses": 236,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "19500-21500"
+    },
+    {
+      "file": "data/ncl-courses.ts",
+      "courses": 228,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "14000-35000"
+    },
+    {
+      "file": "data/yorkuni-courses.ts",
+      "courses": 218,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "18000-26000"
+    },
+    {
+      "file": "data/dcu-courses.ts",
+      "courses": 217,
+      "distinctFeeValues": 1,
+      "currency": "EUR",
+      "range": "16000-16000"
+    },
+    {
+      "file": "data/mcgill-courses.ts",
+      "courses": 212,
+      "distinctFeeValues": 3,
+      "currency": "CAD",
+      "range": "8000-25000"
+    },
+    {
+      "file": "data/ubc-courses.ts",
+      "courses": 212,
+      "distinctFeeValues": 3,
+      "currency": "GBP",
+      "range": "4560-19950"
+    },
+    {
+      "file": "data/warwick-courses.ts",
+      "courses": 208,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "15000-44000"
+    },
+    {
+      "file": "data/tu-munich-courses.ts",
+      "courses": 193,
+      "distinctFeeValues": 1,
+      "currency": "EUR",
+      "range": "6000-6000"
+    },
+    {
+      "file": "data/bristol-courses.ts",
+      "courses": 189,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "14000-29000"
+    },
+    {
+      "file": "data/portsmouth-courses.ts",
+      "courses": 178,
+      "distinctFeeValues": 1,
+      "currency": "GBP",
+      "range": "15500-15500"
+    },
+    {
+      "file": "data/dundee-courses.ts",
+      "courses": 176,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "10000-32000"
+    },
+    {
+      "file": "data/massey-courses.ts",
+      "courses": 176,
+      "distinctFeeValues": 7,
+      "currency": "NZD",
+      "range": "8500-36000"
+    },
+    {
+      "file": "data/surrey-courses.ts",
+      "courses": 173,
+      "distinctFeeValues": 3,
+      "currency": "GBP",
+      "range": "5000-20500"
+    },
+    {
+      "file": "data/university-of-amsterdam-courses.ts",
+      "courses": 169,
+      "distinctFeeValues": 2,
+      "currency": "EUR",
+      "range": "12000-16200"
+    },
+    {
+      "file": "data/aru-courses.ts",
+      "courses": 166,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "14500-18500"
+    },
+    {
+      "file": "data/uel-courses.ts",
+      "courses": 159,
+      "distinctFeeValues": 4,
+      "currency": "GBP",
+      "range": "9250-19500"
+    },
+    {
+      "file": "data/middlesex-courses.ts",
+      "courses": 157,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "15000-19500"
+    },
+    {
+      "file": "data/vuw-courses.ts",
+      "courses": 150,
+      "distinctFeeValues": 4,
+      "currency": "NZD",
+      "range": "2022-4550"
+    },
+    {
+      "file": "data/northeastern-courses.ts",
+      "courses": 140,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "15748-43307"
+    },
+    {
+      "file": "data/sfu-courses.ts",
+      "courses": 139,
+      "distinctFeeValues": 6,
+      "currency": "CAD",
+      "range": "15000-36000"
+    },
+    {
+      "file": "data/university-of-copenhagen-courses.ts",
+      "courses": 136,
+      "distinctFeeValues": 2,
+      "currency": "EUR",
+      "range": "12000-15000"
+    },
+    {
+      "file": "data/rhul-courses.ts",
+      "courses": 136,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "18000-26000"
+    },
+    {
+      "file": "data/vrije-universiteit-amsterdam-courses.ts",
+      "courses": 133,
+      "distinctFeeValues": 1,
+      "currency": "EUR",
+      "range": "14900-14900"
+    },
+    {
+      "file": "data/uiuc-courses.ts",
+      "courses": 133,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "31496-51181"
+    },
+    {
+      "file": "data/rdg-courses.ts",
+      "courses": 130,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "20000-20500"
+    },
+    {
+      "file": "data/sunderland-courses.ts",
+      "courses": 129,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "9000-15000"
+    },
+    {
+      "file": "data/sheffield-courses.ts",
+      "courses": 127,
+      "distinctFeeValues": 8,
+      "currency": "GBP",
+      "range": "14000-39000"
+    },
+    {
+      "file": "data/coventry-courses.ts",
+      "courses": 125,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "16000-18000"
+    },
+    {
+      "file": "data/uq-courses.ts",
+      "courses": 120,
+      "distinctFeeValues": 4,
+      "currency": "AUD",
+      "range": "48080-60952"
+    },
+    {
+      "file": "data/university-of-helsinki-courses.ts",
+      "courses": 112,
+      "distinctFeeValues": 1,
+      "currency": "EUR",
+      "range": "13000-13000"
+    },
+    {
+      "file": "data/uppsala-university-courses.ts",
+      "courses": 112,
+      "distinctFeeValues": 1,
+      "currency": "EUR",
+      "range": "14000-14000"
+    },
+    {
+      "file": "data/maastricht-university-courses.ts",
+      "courses": 104,
+      "distinctFeeValues": 2,
+      "currency": "EUR",
+      "range": "9000-14900"
+    },
+    {
+      "file": "data/lsbu-courses.ts",
+      "courses": 100,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "14000-17500"
+    },
+    {
+      "file": "data/ucdavis-courses.ts",
+      "courses": 100,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "29921-51181"
+    },
+    {
+      "file": "data/ljmu-courses.ts",
+      "courses": 100,
+      "distinctFeeValues": 11,
+      "currency": "GBP",
+      "range": "15000-20000"
+    },
+    {
+      "file": "data/ucalgary-courses.ts",
+      "courses": 97,
+      "distinctFeeValues": 1,
+      "currency": "CAD",
+      "range": "25000-25000"
+    },
+    {
+      "file": "data/swansea-courses.ts",
+      "courses": 95,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "14000-27000"
+    },
+    {
+      "file": "data/waterloo-courses.ts",
+      "courses": 92,
+      "distinctFeeValues": 4,
+      "currency": "GBP",
+      "range": "9906-12819"
+    },
+    {
+      "file": "data/queens-courses.ts",
+      "courses": 91,
+      "distinctFeeValues": 4,
+      "currency": "CAD",
+      "range": "8000-30000"
+    },
+    {
+      "file": "data/rgu-courses.ts",
+      "courses": 91,
+      "distinctFeeValues": 4,
+      "currency": "GBP",
+      "range": "17000-35000"
+    },
+    {
+      "file": "data/ucd-courses.ts",
+      "courses": 87,
+      "distinctFeeValues": 6,
+      "currency": "EUR",
+      "range": "6000-35000"
+    },
+    {
+      "file": "data/mcmaster-courses.ts",
+      "courses": 86,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "12819-33795"
+    },
+    {
+      "file": "data/brookes-courses.ts",
+      "courses": 85,
+      "distinctFeeValues": 3,
+      "currency": "GBP",
+      "range": "16000-22000"
+    },
+    {
+      "file": "data/ntu-courses.ts",
+      "courses": 84,
+      "distinctFeeValues": 4,
+      "currency": "SGD",
+      "range": "8000-55000"
+    },
+    {
+      "file": "data/otago-courses.ts",
+      "courses": 74,
+      "distinctFeeValues": 5,
+      "currency": "NZD",
+      "range": "7000-50000"
+    },
+    {
+      "file": "data/purdue-courses.ts",
+      "courses": 74,
+      "distinctFeeValues": 7,
+      "currency": "GBP",
+      "range": "15748-51181"
+    },
+    {
+      "file": "data/heriot-watt-university-dubai-courses.ts",
+      "courses": 64,
+      "distinctFeeValues": 2,
+      "currency": "AED",
+      "range": "62000-72000"
+    },
+    {
+      "file": "data/kingston-courses.ts",
+      "courses": 60,
+      "distinctFeeValues": 6,
+      "currency": "GBP",
+      "range": "14500-17500"
+    },
+    {
+      "file": "data/leiden-university-courses.ts",
+      "courses": 58,
+      "distinctFeeValues": 2,
+      "currency": "EUR",
+      "range": "14000-21000"
+    },
+    {
+      "file": "data/sussex-w2-courses.ts",
+      "courses": 56,
+      "distinctFeeValues": 2,
+      "currency": "GBP",
+      "range": "23500-27300"
+    },
+    {
+      "file": "data/sheffield-hallam-courses.ts",
+      "courses": 50,
+      "distinctFeeValues": 4,
+      "currency": "GBP",
+      "range": "14000-17500"
+    },
+    {
+      "file": "data/demontfort-courses.ts",
+      "courses": 50,
+      "distinctFeeValues": 5,
+      "currency": "GBP",
+      "range": "14500-18000"
+    },
+    {
+      "file": "data/leeds-beckett-courses.ts",
+      "courses": 50,
+      "distinctFeeValues": 11,
+      "currency": "GBP",
+      "range": "15000-22000"
+    }
+  ],
+  "clean": [
+    {
+      "file": "data/uham-courses.ts",
+      "courses": 46,
+      "distinctFeeValues": 1
+    },
+    {
+      "file": "data/bocconi-university-courses.ts",
+      "courses": 22,
+      "distinctFeeValues": 2
+    },
+    {
+      "file": "data/londonmet-courses.ts",
+      "courses": 49,
+      "distinctFeeValues": 4
+    },
+    {
+      "file": "data/westlondon-courses.ts",
+      "courses": 45,
+      "distinctFeeValues": 4
+    },
+    {
+      "file": "data/chester-courses.ts",
+      "courses": 40,
+      "distinctFeeValues": 4
+    },
+    {
+      "file": "data/roeham-courses.ts",
+      "courses": 36,
+      "distinctFeeValues": 4
+    },
+    {
+      "file": "data/hertfordshire-courses.ts",
+      "courses": 45,
+      "distinctFeeValues": 5
+    },
+    {
+      "file": "data/uwe-courses.ts",
+      "courses": 41,
+      "distinctFeeValues": 5
+    },
+    {
+      "file": "data/nottinghamtrent-courses.ts",
+      "courses": 42,
+      "distinctFeeValues": 6
+    },
+    {
+      "file": "data/glos-courses.ts",
+      "courses": 45,
+      "distinctFeeValues": 7
+    },
+    {
+      "file": "data/suffolk-courses.ts",
+      "courses": 40,
+      "distinctFeeValues": 7
+    },
+    {
+      "file": "data/derby-courses.ts",
+      "courses": 75,
+      "distinctFeeValues": 9
+    },
+    {
+      "file": "data/bmouth-courses.ts",
+      "courses": 45,
+      "distinctFeeValues": 9
+    },
+    {
+      "file": "data/anu-courses.ts",
+      "courses": 344,
+      "distinctFeeValues": 13
+    },
+    {
+      "file": "data/uea-courses.ts",
+      "courses": 104,
+      "distinctFeeValues": 13
+    },
+    {
+      "file": "data/unisc-courses.ts",
+      "courses": 46,
+      "distinctFeeValues": 18
+    },
+    {
+      "file": "data/murdoch-courses.ts",
+      "courses": 49,
+      "distinctFeeValues": 33
+    },
+    {
+      "file": "data/usyd-courses.ts",
+      "courses": 514,
+      "distinctFeeValues": 39
+    },
+    {
+      "file": "data/griffith-courses.ts",
+      "courses": 373,
+      "distinctFeeValues": 50
+    },
+    {
+      "file": "data/uow-courses.ts",
+      "courses": 205,
+      "distinctFeeValues": 50
+    },
+    {
+      "file": "data/adelaide-courses.ts",
+      "courses": 523,
+      "distinctFeeValues": 54
+    },
+    {
+      "file": "data/ecu-courses.ts",
+      "courses": 242,
+      "distinctFeeValues": 54
+    },
+    {
+      "file": "data/rmit-courses.ts",
+      "courses": 471,
+      "distinctFeeValues": 82
+    },
+    {
+      "file": "data/flinders-courses.ts",
+      "courses": 338,
+      "distinctFeeValues": 96
+    },
+    {
+      "file": "data/uom-courses.ts",
+      "courses": 463,
+      "distinctFeeValues": 104
+    },
+    {
+      "file": "data/vu-sydney-courses.ts",
+      "courses": 342,
+      "distinctFeeValues": 108
+    },
+    {
+      "file": "data/cdu-courses.ts",
+      "courses": 326,
+      "distinctFeeValues": 111
+    },
+    {
+      "file": "data/uts-courses.ts",
+      "courses": 369,
+      "distinctFeeValues": 121
+    }
+  ],
+  "whyThisWasNotFixedInThisPass": [
+    "The instruction was to check all universities BEFORE fixing, and to verify against each provider's official fee source to the same standard as the Australian work. The check is what changed the picture: this is 73 universities, not 2.",
+    "Verification cannot be automated generically. Spot-checks confirm it: Bath and KCL course pages render fees client-side and expose no figure in the HTML; Leeds exposes only the £10,050 UK home fee, not the international one — the exact \"home vs international\" trap already recorded from the 2026-07-18 crawl.",
+    "The Australian fix needed a bespoke extractor per provider (Adelaide page text, RMIT/UoM meta tags, USyd AEM JSON, Griffith REST API, UQ parent-program page, UOW session-fee table). 73 providers implies the same again, several times over, plus WAF-blocked sites.",
+    "Fabricating a replacement would repeat the original error. A guessed \"typical\" fee is exactly what is already in these files."
+  ],
+  "recommendedPhasing": [
+    {
+      "phase": 1,
+      "what": "Highest-traffic / largest catalogues first — Bath (701), Edinburgh (629), Birmingham (603), Leeds (589), Strathclyde (561), Auckland (527). Six providers, ~3,610 courses, roughly the size of the Australian job.",
+      "why": "Concentrates effort where the most pages carry a wrong number."
+    },
+    {
+      "phase": 2,
+      "what": "The remaining UK cluster, which shares similar course-page structures and may allow shared extractors.",
+      "why": "Economies of scale once the UK patterns are known."
+    },
+    {
+      "phase": 3,
+      "what": "Everything else, or a decision to null the fee and show \"fee on request\" where no reliable source exists.",
+      "why": "The honest fallback already used for 505 courses in the PSW pass — showing nothing beats showing a fabricated number."
+    }
+  ],
+  "interimOption": {
+    "what": "If the fees cannot be fixed soon, consider suppressing the precise figure on affected pages and showing a university-level range instead, the same treatment used for the courses with no published fee.",
+    "why": "Every one of those 15,583 pages currently states a specific tuition figure to a prospective student, and the evidence says most of those figures were assigned by band rather than observed.",
+    "cost": "Template-only, no URL changes."
+  }
+}

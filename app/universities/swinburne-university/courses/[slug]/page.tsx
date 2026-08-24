@@ -7,6 +7,10 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
+
+/** decides which "course facts" are really university-wide constants */
+const UNIVERSITY_SLUG = 'swinburne-university';
 export async function generateStaticParams() {
   return (swinburneCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -99,11 +103,10 @@ export default async function CoursePage(
               {[
                 { label: 'Qualification', value: course.level },
                 { label: 'Duration', value: course.duration + ' full-time' },
-                { label: 'Campus', value: course.campus },
-                { label: 'Intakes', value: course.intakeMonths.join(' & ') },
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 course.annualAUD > 0 ? { label: 'Annual Tuition (AUD)', value: `A$${course.annualAUD.toLocaleString()}` } : null,
-                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` } : null,
-                course.livingCostAUD > 0 ? { label: 'Living Cost (AUD)', value: `A$${course.livingCostAUD.toLocaleString()}/yr` } : null,
+                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` } : null,
                 course.totalAUD > 0 ? { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` } : null,
               ].filter((f): f is { label: string; value: string } => f !== null).map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -117,7 +120,8 @@ export default async function CoursePage(
           {(course.ieltsMin > 0 || course.toeflMin > 0 || course.pteMin > 0) && (
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            <div className="grid grid-cols-3 gap-4">
+            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) ? (
+              <div className="grid grid-cols-3 gap-4">
               {[
                 course.ieltsMin > 0 ? { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'Writing 6.0+' } : null,
                 course.toeflMin > 0 ? { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 24+' } : null,
@@ -130,6 +134,13 @@ export default async function CoursePage(
                 </div>
               ))}
             </div>
+            ) : (
+              <p className="text-sm text-gray-600">
+                Swinburne University publishes one English language requirement across its courses
+                rather than a per-course score. See the full entry requirements and intake dates on the{' '}
+                <Link href={`/universities/${UNIVERSITY_SLUG}`} className="text-brand-700 font-medium hover:underline">university page</Link>.
+              </p>
+            )}
           </div>
           )}
 

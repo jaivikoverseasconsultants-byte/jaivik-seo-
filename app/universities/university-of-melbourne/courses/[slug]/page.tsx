@@ -9,6 +9,10 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
 import { isPswEligible } from '@/lib/psw-eligibility';
+import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
+
+/** decides which "course facts" are really university-wide constants */
+const UNIVERSITY_SLUG = 'university-of-melbourne';
 export async function generateStaticParams() {
   return (uomCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -139,11 +143,10 @@ export default async function CoursePage(
               {[
                 { label: 'Qualification', value: course.level },
                 { label: 'Duration', value: course.duration + ' full-time' },
-                { label: 'Campus', value: course.campus },
-                { label: 'Intakes', value: course.intakeMonths.join(' & ') },
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
+                ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 { label: 'Annual Fee (AUD)', value: annualFeeLabel(course) },
-                { label: 'Annual Fee (USD)', value: `$${course.annualUSD.toLocaleString()}` },
-                { label: 'Living Cost (AUD/yr)', value: `A$${course.livingCostAUD.toLocaleString()}` },
+                { label: 'Annual Fee (USD)', value: `$${course.annualUSD.toLocaleString()}` },
                 { label: 'Total Course Fee', value: totalFeeLabel(course) },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -198,7 +201,8 @@ export default async function CoursePage(
           {/* English Requirements */}
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            <div className="grid grid-cols-3 gap-4">
+            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) ? (
+              <div className="grid grid-cols-3 gap-4">
               {[
                 { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'No band below 6.0' },
                 { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 21+' },
@@ -211,6 +215,13 @@ export default async function CoursePage(
                 </div>
               ))}
             </div>
+            ) : (
+              <p className="text-sm text-gray-600">
+                University Of Melbourne publishes one English language requirement across its courses
+                rather than a per-course score. See the full entry requirements and intake dates on the{' '}
+                <Link href={`/universities/${UNIVERSITY_SLUG}`} className="text-brand-700 font-medium hover:underline">university page</Link>.
+              </p>
+            )}
           </div>
 
           {/* Total Cost */}

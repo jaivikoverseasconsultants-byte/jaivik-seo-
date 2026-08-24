@@ -72,7 +72,6 @@ export default async function CourseDetailPage(
                 { label: 'TOEFL', value: `${c.toeflMin}+ iBT` },
                 { label: 'PTE', value: `${c.pteMin}+` },
                 { label: 'Intake', value: c.intakeMonths.join(' & ') },
-                { label: 'Living Cost', value: '~S$${(c.livingCostSGD).toLocaleString()}/mo' },
                 { label: 'Work Rights', value: '16 hrs/wk (with approval)' },
               ].map(r => (
                 <div key={r.label} className="p-4 bg-gray-50 rounded-xl">

@@ -71,8 +71,7 @@ export default async function CourseDetailPage(
                 c.ieltsMin > 0 ? { label: 'IELTS', value: `${c.ieltsMin}+ overall` } : null,
                 c.toeflMin > 0 ? { label: 'TOEFL', value: `${c.toeflMin}+ iBT` } : null,
                 (c.pteMin ?? 0) > 0 ? { label: 'PTE', value: `${c.pteMin}+` } : null,
-                { label: 'Intake', value: c.intakeMonths.join(' & ') },
-                c.livingCostUSD > 0 ? { label: 'Living Cost', value: `~$${(c.livingCostUSD).toLocaleString()}/mo` } : null,
+                { label: 'Intake', value: c.intakeMonths.join(' & ') },
                 { label: 'Work Rights', value: '20 hrs/wk (on-campus)' },
               ].filter((r): r is { label: string; value: string } => r !== null).map(r => (
                 <div key={r.label} className="p-4 bg-gray-50 rounded-xl">

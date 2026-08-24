@@ -53,20 +53,14 @@ export default function CourseKeyFacts({ course, universityName, universitySlug 
                 <p className="text-sm font-semibold text-brand-800">₹{fees.annualINRLakh} lakh/year</p>
               </div>
             )}
-            {fees.livingCostNative && (
-              <div className="p-4 bg-gray-50 rounded-xl">
-                <p className="text-xs text-gray-500 font-medium mb-1">Living Cost ({fees.livingCostNative.code}/year)</p>
-                <p className="text-sm font-semibold text-gray-900">
-                  {fees.livingCostNative.code} {fees.livingCostNative.amount.toLocaleString()}
-                </p>
-              </div>
-            )}
-            {fees.livingCostINRLakh && (
-              <div className="p-4 bg-gray-50 rounded-xl">
-                <p className="text-xs text-gray-500 font-medium mb-1">Living Cost in INR/year</p>
-                <p className="text-sm font-semibold text-gray-900">₹{fees.livingCostINRLakh} lakh</p>
-              </div>
-            )}
+            {/*
+              Living cost is a university/city figure, not a course fact — it is
+              identical for every course at every university in the registry. Showing
+              it here repeated it across ~500 sibling pages while implying it varied by
+              course. It still feeds the Total Cost of Study calculation below, and the
+              standalone figure lives on the university page.
+              (Aug 2026 differentiation audit.)
+            */}
           </div>
           {!fees.livingCostNative && cityLiving && (
             <p className="text-xs text-gray-600 mt-4">
