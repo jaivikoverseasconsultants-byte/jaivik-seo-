@@ -1,0 +1,238 @@
+{
+  "title": "Course-page differentiation audit: boilerplate vs real per-course content",
+  "date": "2026-08-18",
+  "status": "AUDIT + PROPOSAL ONLY — nothing built, nothing changed. Needs a decision before any template work.",
+  "part1_uoftUrlCheck": {
+    "question": "Does University of Toronto have a 404 problem in its course URLs?",
+    "answer": "No. There is no UofT 404 pattern.",
+    "evidence": {
+      "sampled": 30,
+      "of": 248,
+      "status200": 30,
+      "dead": 0,
+      "hostStatus": "sgs.calendar.utoronto.ca returns 200",
+      "softFourOhFourCheck": "A deliberately bogus slug (/degree/Total-Nonsense-Degree-XYZ) returns a real 404 with title \"Page not found\", and real slugs return their own titles — so the 200s are trustworthy, not soft-404s.",
+      "corroboration": "The 2026-08-18 site-wide sweep also probed uoft-courses.ts: 6/6 live, and it sat in the 89-clean bucket. 36 URLs checked across two independent passes, zero dead."
+    },
+    "conclusion": "Nothing to fix or size here. UofT outbound URLs are healthy."
+  },
+  "part2_boilerplateVsUnique": {
+    "question": "Which parts of a course page are real per-course data, and which are repeated copy?",
+    "headline": "On average 47.1% of a course page is byte-identical to EVERY other course page at the same university, and only 36.8% is unique to that course. The remaining 16.1% is shared with some siblings.",
+    "methodNote": "Measured on the BUILT pages, not inferred from the templates. Three passes were run because the first two flattered the result: raw sentence-uniqueness said 83.8% unique, but \"The annual fee for X at Y is Z\" is a unique STRING and a reused PATTERN. Normalising money and numbers dropped it to 75.9%; also normalising course and university names dropped it to 58.7%; comparing a page against its own siblings — the measure that actually decides whether a course page is differentiated — gives 36.8%.",
+    "siblingComparison": {
+      "note": "Twelve largest catalogues, 12 courses sampled each.",
+      "perUniversity": [
+        {
+          "university": "university-of-bath",
+          "courses": 701,
+          "identicalOnEverySiblingPct": 46.4,
+          "uniqueToThisCoursePct": 38.7
+        },
+        {
+          "university": "university-of-edinburgh",
+          "courses": 629,
+          "identicalOnEverySiblingPct": 51.1,
+          "uniqueToThisCoursePct": 36.5
+        },
+        {
+          "university": "university-of-birmingham",
+          "courses": 603,
+          "identicalOnEverySiblingPct": 50.8,
+          "uniqueToThisCoursePct": 38.7
+        },
+        {
+          "university": "university-of-leeds",
+          "courses": 589,
+          "identicalOnEverySiblingPct": 50.4,
+          "uniqueToThisCoursePct": 39.1
+        },
+        {
+          "university": "university-of-strathclyde",
+          "courses": 536,
+          "identicalOnEverySiblingPct": 53,
+          "uniqueToThisCoursePct": 34.3
+        },
+        {
+          "university": "university-of-auckland",
+          "courses": 526,
+          "identicalOnEverySiblingPct": 40.1,
+          "uniqueToThisCoursePct": 39.3
+        },
+        {
+          "university": "university-of-adelaide",
+          "courses": 523,
+          "identicalOnEverySiblingPct": 44.9,
+          "uniqueToThisCoursePct": 35
+        },
+        {
+          "university": "university-of-sydney",
+          "courses": 514,
+          "identicalOnEverySiblingPct": 42.2,
+          "uniqueToThisCoursePct": 36.9
+        },
+        {
+          "university": "university-of-ottawa",
+          "courses": 492,
+          "identicalOnEverySiblingPct": 50.9,
+          "uniqueToThisCoursePct": 33.9
+        },
+        {
+          "university": "university-of-southampton",
+          "courses": 472,
+          "identicalOnEverySiblingPct": 50.8,
+          "uniqueToThisCoursePct": 36.8
+        },
+        {
+          "university": "rmit-university",
+          "courses": 471,
+          "identicalOnEverySiblingPct": 46.7,
+          "uniqueToThisCoursePct": 34.7
+        },
+        {
+          "university": "trinity-college-dublin",
+          "courses": 465,
+          "identicalOnEverySiblingPct": 38.3,
+          "uniqueToThisCoursePct": 37.5
+        }
+      ]
+    },
+    "theRealFinding": {
+      "note": "The fields the page presents as course facts are mostly university-wide constants. This is why sections LOOK course-specific — they interpolate the course name — while the underlying numbers are the same on every page.",
+      "distinctValuesWithinOneUniversity": [
+        {
+          "university": "adelaide",
+          "courses": 523,
+          "ieltsMin": 1,
+          "toeflMin": 1,
+          "intakeMonths": 1,
+          "durationYears": 2,
+          "annualINR": 55
+        },
+        {
+          "university": "leeds",
+          "courses": 589,
+          "ieltsMin": 1,
+          "toeflMin": 1,
+          "intakeMonths": 1,
+          "durationYears": 6,
+          "annualINR": 11
+        },
+        {
+          "university": "bath",
+          "courses": 701,
+          "ieltsMin": 1,
+          "toeflMin": 1,
+          "intakeMonths": 1,
+          "durationYears": 4,
+          "annualINR": 6
+        },
+        {
+          "university": "rmit",
+          "courses": 471,
+          "ieltsMin": 1,
+          "toeflMin": 1,
+          "intakeMonths": 1,
+          "durationYears": 2,
+          "annualINR": 83
+        }
+      ],
+      "acrossAll108Universities": {
+        "livingCost* — identical for every course": "100% of universities",
+        "campus — identical": "98%",
+        "toeflMin / intakeMonths — identical": "81%",
+        "pteMin — identical": "80%",
+        "ieltsMin — identical": "63%",
+        "studyLevel — identical": "28%",
+        "duration / durationYears — identical": "22%",
+        "annualINR / level — identical": "9%"
+      }
+    },
+    "sectionBreakdown": {
+      "note": "Per-<h2> section, comparing 10 sibling courses at one university.",
+      "identicalOnEveryCourse": [
+        "English Language Requirements — the IELTS/TOEFL/PTE numbers are one value for the whole university",
+        "Live Intake Status — 2026/27",
+        "Application Details",
+        "For Students from Delhi NCR & Ghaziabad — Local Visa Guidance",
+        "Other Courses at <University> (Adelaide; 2 variants at Leeds)"
+      ],
+      "variesWithRealData": [
+        "Course Overview — 6-8 variants per 10 pages (fee, duration, level)",
+        "Total Cost of Study — 6-8 variants (driven by fee x duration)"
+      ],
+      "looksCourseSpecificButIsNot": [
+        "\"Does Your IELTS Score Qualify?\" renders 10/10 distinct, but only because it interpolates the course name — the IELTS threshold is identical across all 523 Adelaide courses.",
+        "\"Post-Study Work & PR Pathway\" likewise: the text varies by course NAME and by degree LEVEL (bachelor/master/PhD), not per course."
+      ]
+    },
+    "genuinelyDifferentiatingToday": [
+      "course name",
+      "level",
+      "fee (6-83 distinct values per university)",
+      "duration (2-6 distinct values)"
+    ],
+    "boilerplateOrUniversityConstant": [
+      "IELTS/TOEFL/PTE",
+      "intake months",
+      "campus",
+      "living cost",
+      "application timeline",
+      "local-Ghaziabad block",
+      "scholarship CTA",
+      "currency-converter note",
+      "counselling CTA"
+    ]
+  },
+  "part3_proposal": {
+    "status": "PROPOSAL ONLY — not built.",
+    "hardConstraintFoundFirst": {
+      "note": "This is the finding that should shape the decision. The registry has NO per-course field beyond what is already rendered.",
+      "availablePerCourseFields": "name, slug, url, level, studyLevel, duration, durationYears, fee (annual/total in local + USD + INR), ieltsMin, toeflMin, pteMin, intakeMonths, campus, country/city/state",
+      "notPresentAnywhere": [
+        "entry requirements as text (academic prerequisites, subject prerequisites, portfolio/interview requirements)",
+        "curriculum, modules, specialisations",
+        "career outcomes per course — the salary/employment figures on the page are house estimates already labelled \"(Est.)\", and topEmployers was removed in July 2026 as fabricated",
+        "per-course scholarships",
+        "accreditation / professional-body recognition"
+      ],
+      "partialSupplementaryData": {
+        "data/university-scholarships.ts": "23 scholarships across 15 universities (of 116) — real and source-linked",
+        "data/university-rankings-verified.ts": "12 universities",
+        "data/english-requirements-verified.ts": "26 rows, university-level not course-level"
+      },
+      "implication": "A differentiated template CANNOT be built from existing data for most of the ~21,000 course pages. Any proposal that claims otherwise is proposing to generate text, which is how the fabricated tuition and fabricated topEmployers problems started. The real choice is between acquiring data and reducing page count."
+    },
+    "options": [
+      {
+        "option": "A. Acquire real per-course data, then differentiate",
+        "what": "Extend the crawlers to capture entry requirements, module lists and course-page overview text from each provider, which is where genuine per-course difference lives.",
+        "pros": "The only route to pages that are actually distinct. Several providers already expose this in the JSON APIs used for fees (Griffith REST, USyd coredata, UoM handbook).",
+        "cons": "Large. Per-provider extractors, ongoing staleness, and the same WAF/soft-404 traps already documented. Would not cover all 116 universities.",
+        "scope": "weeks, per-provider"
+      },
+      {
+        "option": "B. Consolidate — fewer, richer pages",
+        "what": "Keep course pages only where the data genuinely differs (fee/duration/level), and fold near-identical siblings into subject or level hub pages.",
+        "pros": "Directly addresses thin content rather than padding it. Reduces ~21,000 pages to something defensible.",
+        "cons": "Removes indexed URLs — every removal needs a redirect in the same commit per CLAUDE.md, and the 2026-08-07 audit shows this project has been badly burned by URL churn before.",
+        "scope": "a data + redirect exercise, needs its own audit first"
+      },
+      {
+        "option": "C. Stop presenting university constants as course facts",
+        "what": "Move IELTS/TOEFL/intakes/campus/living-cost/application-timeline out of the course page and onto the university page, linked from the course page. Keep on the course page only what actually varies: name, level, fee, duration, PSW-by-level.",
+        "pros": "Cheap, no URL changes, no new data, and it is honest — those numbers are university-wide and the current layout implies otherwise. Shrinks the identical-across-siblings share materially.",
+        "cons": "Makes course pages shorter, which will look like a content reduction even though it removes only duplicated text.",
+        "scope": "template work only, days"
+      },
+      {
+        "option": "D. Do nothing to the template; fix the data quality flags first",
+        "what": "Bath has 701 courses sharing 6 fee values and Leeds 589 sharing 11 — those look like the same flat-fee fabrication pattern already fixed for 9 Australian universities.",
+        "pros": "Higher value per effort than layout work; makes the one genuinely differentiating field trustworthy.",
+        "cons": "Does not change the boilerplate ratio.",
+        "scope": "same shape as the completed tuition work"
+      }
+    ],
+    "recommendation": "C then D, before considering A or B. C removes duplicated text without touching a single URL or inventing a word, and D makes the one field that genuinely differentiates these pages (fee) trustworthy — Bath at 6 distinct fees across 701 courses is very likely the same fabrication already fixed elsewhere. A and B are both large enough to need their own decision."
+  }
+}
