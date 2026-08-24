@@ -1,6 +1,7 @@
 import { getUniversityBySlug } from '@/data/universities';
 import { costOfLivingGuides } from '@/data/cost-of-living';
 import type { CourseForContent } from '@/lib/courseContent';
+import { isNonDegreeOffering } from '@/lib/psw-eligibility';
 
 export interface Faq {
   question: string;
@@ -51,6 +52,19 @@ export type Level = 'bachelor' | 'master' | 'phd' | null;
 
 export function classifyLevel(course: CourseForContent): Level {
   const text = `${course.level} ${course.name}`.toLowerCase();
+  // The registry also holds real-but-not-degree offerings — VET qualifications and
+  // skill sets, English tests, safety/licence short courses, standalone study-abroad
+  // semesters. The studyLevel fallthrough at the bottom of this function used to
+  // classify those as degrees, which put a "~2 years post-study work" claim on a PTE
+  // exam. Reject them up front. (Aug 2026 — see lib/psw-eligibility.ts.)
+  if (isNonDegreeOffering({
+    name: course.name,
+    level: course.level,
+    studyLevel: course.studyLevel,
+    url: course.url as string | undefined,
+    pswEligible: course.pswEligible as boolean | undefined,
+  })) return null;
+  if (course.pswEligible === false) return null;
   // Certificate/diploma awards have distinct (often less generous) post-study
   // work rights that aren't safe to generalise from Bachelor's/Master's rules —
   // skip rather than guess.
@@ -108,6 +122,23 @@ export function pswDetails(course: CourseForContent, universityName: string): Ps
   const country = course.country;
   const dY = course.durationYears;
   if (typeof dY !== 'number' || dY <= 0) return null;
+
+  // Gate every country here, not only inside classifyLevel: the Canada and New Zealand
+  // branches below decide on duration alone and never call classifyLevel, so a gate
+  // there missed them — a Massey "Certificate of Proficiency (Student Exchange)" was
+  // still claiming a 1-year NZ post-study work visa after classifyLevel was fixed.
+  //
+  // Deliberately isNonDegreeOffering() and NOT isPswEligible(): the latter also rejects
+  // certificate/diploma awards, which is right for the 485/Graduate Route branches but
+  // would wrongly strip Canadian college diplomas, which genuinely are PGWP-eligible.
+  // The certificate/diploma policy stays where it was, in classifyLevel().
+  if (course.pswEligible === false) return null;
+  if (isNonDegreeOffering({
+    name: course.name,
+    level: course.level,
+    studyLevel: course.studyLevel,
+    url: course.url as string | undefined,
+  })) return null;
 
   if (country === 'Canada') {
     if (dY < 8 / 12) return null; // programs under 8 months are not PGWP-eligible

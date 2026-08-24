@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { isPswEligible } from '@/lib/psw-eligibility';
 export async function generateStaticParams() {
   return uclCourses.map(c => ({ slug: c.slug }));
 }
@@ -83,7 +84,7 @@ export default async function CoursePage(
     provider: { '@type': 'CollegeOrUniversity', name: 'University College London', sameAs: 'https://www.ucl.ac.uk/' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     url: course.url,
   };
 
@@ -237,7 +238,7 @@ export default async function CoursePage(
                 { label: 'Student Visa', value: 'UK Student Visa (Tier 4)' },
                 { label: 'Work Rights (Term)', value: '20 hrs/week during term' },
                 { label: 'Work Rights (Vacation)', value: 'Full-time during holidays' },
-                { label: 'Post-Study Visa', value: '2-year Graduate Route Visa' },
+                ...(isPswEligible(course as any) ? [{ label: 'Post-Study Visa', value: '2-year Graduate Route Visa' }] : []),
                 { label: 'PR Pathway', value: 'Skilled Worker Visa → ILR after 5 yrs' },
                 { label: 'NHS Access', value: 'Full NHS healthcare for students' },
               ].map(f => (

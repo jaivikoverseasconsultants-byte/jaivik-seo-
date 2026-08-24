@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
+import { isPswEligible } from '@/lib/psw-eligibility';
 export async function generateStaticParams() {
   return (uomCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -84,7 +85,7 @@ export default async function CoursePage(
     provider: { '@type': 'CollegeOrUniversity', name: 'University of Melbourne', sameAs: 'https://www.unimelb.edu.au/' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     url: course.url,
   };
 
@@ -238,7 +239,7 @@ export default async function CoursePage(
                 { label: 'Student Visa', value: 'Subclass 500 Student Visa' },
                 { label: 'Work Rights (Term)', value: '48 hrs per fortnight' },
                 { label: 'Work Rights (Vacation)', value: 'Unlimited during study breaks' },
-                { label: 'Post-Study Visa', value: 'Graduate Visa (Subclass 485) 2–4 years' },
+                ...(isPswEligible(course as any) ? [{ label: 'Post-Study Visa', value: 'Graduate Visa (Subclass 485) 2–4 years' }] : []),
                 { label: 'PR Pathway', value: 'Skilled Migration via Skills List' },
                 { label: 'Spouse Work Rights', value: 'Open work rights for partner' },
               ].map(f => (

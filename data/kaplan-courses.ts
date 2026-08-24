@@ -2,6 +2,7 @@
 // Source: data/scraped/australia/kaplan.json
 
 export interface KaplanCourse {
+  pswEligible?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualAUD: number; annualUSD: number; annualINR: number; totalAUD: number;
@@ -72,7 +73,8 @@ export const kaplanCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "kaplan-3",
@@ -143,12 +145,12 @@ export const kaplanCourses = [
     "url": "https://www.kbs.edu.au/courses/study-abroad-program",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "18 years",
-    "durationYears": 18,
+    "duration": "4 to 8 months",
+    "durationYears": 0.67,
     "annualAUD": 8640,
     "annualUSD": 5616,
     "annualINR": 471744,
-    "totalAUD": 155520,
+    "totalAUD": 8640,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -165,10 +167,71 @@ export const kaplanCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
-  {"id":"kaplan-6","name":"Bachelor of Business","slug":"kaplan-ug-bachelor-of-business","url":"https://www.kbs.edu.au/courses/bachelor-of-business","level":"Bachelor of Business","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["January","April","July","October"],"campus":"Sydney Campus","country":"Australia","state":"New South Wales","city":"Sydney","countryCode":"AU","annualAUD":0,"annualUSD":0,"annualINR":0,"totalAUD":0,"livingCostAUD":29710,"livingCostUSD":0,"livingCostINR":0},
-  {"id":"kaplan-7","name":"Bachelor of Business (Accounting)","slug":"kaplan-ug-bachelor-of-business-accounting","url":"https://www.kbs.edu.au/courses/bachelor-of-business-accounting","level":"Bachelor of Business","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["January","April","July","October"],"campus":"Sydney Campus","country":"Australia","state":"New South Wales","city":"Sydney","countryCode":"AU","annualAUD":0,"annualUSD":0,"annualINR":0,"totalAUD":0,"livingCostAUD":29710,"livingCostUSD":0,"livingCostINR":0}
+  {
+    "id": "kaplan-6",
+    "name": "Bachelor of Business",
+    "slug": "kaplan-ug-bachelor-of-business",
+    "url": "https://www.kbs.edu.au/courses/bachelor-of-business",
+    "level": "Bachelor of Business",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus",
+    "country": "Australia",
+    "state": "New South Wales",
+    "city": "Sydney",
+    "countryCode": "AU",
+    "annualAUD": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalAUD": 0,
+    "livingCostAUD": 29710,
+    "livingCostUSD": 0,
+    "livingCostINR": 0
+  },
+  {
+    "id": "kaplan-7",
+    "name": "Bachelor of Business (Accounting)",
+    "slug": "kaplan-ug-bachelor-of-business-accounting",
+    "url": "https://www.kbs.edu.au/courses/bachelor-of-business-accounting",
+    "level": "Bachelor of Business",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "January",
+      "April",
+      "July",
+      "October"
+    ],
+    "campus": "Sydney Campus",
+    "country": "Australia",
+    "state": "New South Wales",
+    "city": "Sydney",
+    "countryCode": "AU",
+    "annualAUD": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalAUD": 0,
+    "livingCostAUD": 29710,
+    "livingCostUSD": 0,
+    "livingCostINR": 0
+  }
 ] as const;
 
 export function getKaplanCoursesBySlug(slug: string) {

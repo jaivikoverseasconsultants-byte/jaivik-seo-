@@ -11,6 +11,7 @@
 // was crawled instead, and all 176 URLs verified to resolve 200 before inclusion.
 
 export interface MasseyCourse {
+  pswEligible?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualNZD: number; annualUSD: number; annualINR: number; totalNZD: number;
@@ -1295,7 +1296,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "pswEligible": false
   },
   {
     "id": "massey-45",

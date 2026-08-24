@@ -64,6 +64,9 @@ function getPswCourses(countrySlug: string): { country: string; rows: PswRow[] }
       pteMin: c.pteMin,
       annualINR: c.annualINR,
       annualUSD: c.annualUSD,
+      // needed by the post-study-work gate in pswDetails()
+      url: c.url,
+      pswEligible: c.pswEligible,
     };
     const uni = getUniversityBySlug(c.universitySlug);
     const details = pswDetails(courseForContent, uni?.name ?? c.universitySlug);

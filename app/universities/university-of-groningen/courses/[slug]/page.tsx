@@ -41,7 +41,7 @@ export default async function CourseDetailPage(
     provider: { '@type': 'CollegeOrUniversity', name: 'University of Groningen', sameAs: 'https://www.rug.nl' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
   };
 
   return (

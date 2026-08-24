@@ -43,7 +43,7 @@ export default async function CoursePage(
     },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     // withdrawn courses point at the university's course-listing page,
 
     // which is not this course's own page — don't assert it as the Course url

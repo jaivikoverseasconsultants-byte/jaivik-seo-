@@ -6509,34 +6509,6 @@ export const northumbriaCourses = [
     "countryCode": "GB"
   },
   {
-    "id": "northumbria-233",
-    "name": "Courses",
-    "slug": "northumbria-msc-information-security-management-london-part-time-dtpise6",
-    "url": "https://www.northumbria.ac.uk/study-at-northumbria/courses/msc-information-security-management-london-part-time-dtpise6/",
-    "level": "Postgraduate",
-    "studyLevel": "Postgraduate",
-    "duration": "1 year",
-    "durationYears": 1,
-    "annualGBP": 16500,
-    "annualUSD": 20955,
-    "annualINR": 1760220,
-    "totalGBP": 16500,
-    "livingCostGBP": 12000,
-    "livingCostUSD": 15240,
-    "livingCostINR": 1284000,
-    "ieltsMin": 6,
-    "toeflMin": 79,
-    "pteMin": 51,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "City Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Newcastle",
-    "countryCode": "GB"
-  },
-  {
     "id": "northumbria-234",
     "name": "Interior Architecture (Extended Degree) BA (Hons)",
     "slug": "northumbria-ba-hons-interior-architecture-extended-degree-uusxah1",

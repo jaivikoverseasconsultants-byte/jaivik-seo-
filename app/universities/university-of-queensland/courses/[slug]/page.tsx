@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
+import { isPswEligible } from '@/lib/psw-eligibility';
 export async function generateStaticParams() {
   return (uqCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -39,7 +40,7 @@ export default async function CoursePage(
     provider: { '@type': 'CollegeOrUniversity', name: 'University of Queensland', sameAs: 'https://www.uq.edu.au' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     url: course.url,
   };
 
@@ -149,7 +150,7 @@ export default async function CoursePage(
                 { label: 'Student Visa', value: 'Australia Student Visa' },
                 { label: 'Work Rights (Term)', value: '48 hrs/fortnight' },
                 { label: 'Work Rights (Vacation)', value: 'Full-time' },
-                { label: 'Post-Study Visa', value: '485 Post-Study Work Visa – 2 to 4 years' },
+                ...(isPswEligible(course as any) ? [{ label: 'Post-Study Visa', value: '485 Post-Study Work Visa – 2 to 4 years' }] : []),
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>

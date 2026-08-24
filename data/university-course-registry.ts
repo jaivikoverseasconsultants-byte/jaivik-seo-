@@ -446,6 +446,10 @@ export interface RealCourseEntry {
   annualINR: number;
   annualUSD: number;
   intakeMonths: string[];
+  /** provider's own course URL — its path can declare a below-degree tier */
+  url?: string;
+  /** false = not a degree programme for post-study-work purposes */
+  pswEligible?: boolean;
 }
 
 const COUNTRY_NORM: Record<string, string> = { UK: 'UK', 'United Kingdom': 'UK', USA: 'USA', 'United States': 'USA' };
@@ -474,6 +478,11 @@ export function getAllRealCourses(): RealCourseEntry[] {
         annualINR: Number(raw.annualINR) || 0,
         annualUSD: Number(raw.annualUSD) || 0,
         intakeMonths: Array.isArray(raw.intakeMonths) ? raw.intakeMonths : [],
+        // carried through so the post-study-work gate sees the same signals the
+        // per-course pages do — without these the /courses-with-psw/ hub kept listing
+        // non-degree entries that their own pages had already stopped claiming
+        url: typeof raw.url === 'string' ? raw.url : undefined,
+        pswEligible: raw.pswEligible === false ? false : undefined,
       });
     }
   }

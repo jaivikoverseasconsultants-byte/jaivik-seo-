@@ -54,7 +54,7 @@ export default async function CoursePage(
     },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     // Griffith withdrew a handful of these programs; for those, course.url points at
     // Griffith's discipline hub, which is not this course's own page — so don't assert
     // it as the Course's canonical url.

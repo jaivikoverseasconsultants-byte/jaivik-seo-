@@ -2,6 +2,7 @@
 // Source: data/scraped/australia/cdu.json
 
 export interface CduCourse {
+  pswEligible?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualAUD: number; annualUSD: number; annualINR: number; totalAUD: number;
@@ -677,7 +678,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-33",
@@ -1228,7 +1230,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-52",
@@ -2504,7 +2507,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-96",
@@ -3200,7 +3204,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-120",
@@ -4969,7 +4974,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-181",
@@ -4998,7 +5004,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-182",
@@ -5027,7 +5034,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-183",
@@ -5056,7 +5064,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-184",
@@ -5085,7 +5094,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-185",
@@ -5114,7 +5124,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-186",
@@ -5143,7 +5154,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-187",
@@ -5172,7 +5184,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-188",
@@ -5201,7 +5214,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-189",
@@ -5230,7 +5244,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-190",
@@ -5259,7 +5274,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-191",
@@ -5288,7 +5304,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-192",
@@ -5317,7 +5334,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-193",
@@ -5346,7 +5364,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-194",
@@ -5375,7 +5394,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-195",
@@ -5404,7 +5424,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-196",
@@ -5433,7 +5454,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-197",
@@ -5462,7 +5484,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-198",
@@ -5491,7 +5514,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-199",
@@ -5520,7 +5544,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-200",
@@ -5549,7 +5574,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-201",
@@ -5578,7 +5604,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-202",
@@ -5607,7 +5634,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-203",
@@ -5636,7 +5664,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-204",
@@ -5665,7 +5694,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-205",
@@ -5694,7 +5724,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-206",
@@ -5723,7 +5754,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-207",
@@ -5752,7 +5784,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-208",
@@ -5781,7 +5814,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-209",
@@ -5810,7 +5844,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-210",
@@ -5839,7 +5874,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-211",
@@ -5868,7 +5904,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-212",
@@ -5897,7 +5934,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-213",
@@ -5926,7 +5964,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-214",
@@ -5955,7 +5994,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-215",
@@ -5984,7 +6024,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-216",
@@ -6013,7 +6054,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-217",
@@ -6042,7 +6084,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-218",
@@ -6071,7 +6114,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-219",
@@ -6100,7 +6144,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-220",
@@ -6129,7 +6174,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-221",
@@ -6158,7 +6204,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-222",
@@ -6187,7 +6234,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-223",
@@ -6216,7 +6264,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-224",
@@ -6245,7 +6294,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-225",
@@ -6274,7 +6324,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-226",
@@ -6303,7 +6354,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-227",
@@ -6332,7 +6384,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-228",
@@ -6361,7 +6414,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-229",
@@ -6390,7 +6444,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-230",
@@ -6419,7 +6474,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-231",
@@ -6448,7 +6504,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-232",
@@ -6477,7 +6534,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-233",
@@ -6506,7 +6564,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-234",
@@ -6535,7 +6594,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-235",
@@ -6564,7 +6624,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-236",
@@ -6593,7 +6654,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-237",
@@ -6622,7 +6684,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-238",
@@ -6651,7 +6714,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-239",
@@ -6680,7 +6744,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-240",
@@ -6709,7 +6774,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-241",
@@ -6738,7 +6804,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-242",
@@ -6767,7 +6834,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-243",
@@ -6796,7 +6864,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-244",
@@ -6825,7 +6894,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-245",
@@ -6854,7 +6924,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-246",
@@ -6883,7 +6954,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-247",
@@ -6912,7 +6984,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-248",
@@ -6941,7 +7014,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-249",
@@ -6970,7 +7044,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-250",
@@ -6999,7 +7074,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-251",
@@ -7028,7 +7104,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-252",
@@ -7057,7 +7134,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-253",
@@ -7086,7 +7164,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-254",
@@ -7115,7 +7194,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-255",
@@ -7144,7 +7224,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-256",
@@ -7173,7 +7254,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-257",
@@ -7202,7 +7284,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-258",
@@ -7231,7 +7314,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-259",
@@ -7260,7 +7344,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-260",
@@ -7289,7 +7374,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-261",
@@ -7318,7 +7404,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-262",
@@ -7347,7 +7434,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-263",
@@ -7376,7 +7464,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-264",
@@ -7405,7 +7494,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-265",
@@ -7434,7 +7524,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-266",
@@ -7463,7 +7554,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-267",
@@ -7492,7 +7584,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-268",
@@ -7666,7 +7759,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-274",
@@ -7695,7 +7789,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-275",
@@ -7724,7 +7819,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-276",
@@ -7753,7 +7849,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-277",
@@ -7782,7 +7879,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-278",
@@ -7791,12 +7889,12 @@ export const cduCourses = [
     "url": "https://www.cdu.edu.au/study/course/vtp491-cafe-skills-vtp491",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "15 years",
-    "durationYears": 15,
+    "duration": "5 days",
+    "durationYears": 0.01,
     "annualAUD": 25000,
     "annualUSD": 16250,
     "annualINR": 1365000,
-    "totalAUD": 375000,
+    "totalAUD": 25000,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -7811,7 +7909,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-279",
@@ -7840,7 +7939,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-280",
@@ -7869,7 +7969,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-281",
@@ -7898,7 +7999,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-282",
@@ -7927,7 +8029,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-283",
@@ -7956,7 +8059,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-284",
@@ -7985,7 +8089,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-285",
@@ -8014,7 +8119,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-286",
@@ -8043,7 +8149,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-287",
@@ -8072,7 +8179,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-288",
@@ -8101,7 +8209,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-289",
@@ -8130,7 +8239,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-290",
@@ -8159,7 +8269,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-291",
@@ -8188,7 +8299,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-292",
@@ -8197,12 +8309,12 @@ export const cduCourses = [
     "url": "https://www.cdu.edu.au/study/course/vtp249-licence-operate-boom-type-elevating-work-platform-boom-length-11-metres-or-more-vtp249",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "18 years",
-    "durationYears": 18,
+    "duration": "3 days",
+    "durationYears": 0.01,
     "annualAUD": 25000,
     "annualUSD": 16250,
     "annualINR": 1365000,
-    "totalAUD": 450000,
+    "totalAUD": 25000,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -8217,7 +8329,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-293",
@@ -8246,7 +8359,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-294",
@@ -8255,12 +8369,12 @@ export const cduCourses = [
     "url": "https://www.cdu.edu.au/study/course/vtp276-licence-operate-forklift-truck-vtp276",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "18 years",
-    "durationYears": 18,
+    "duration": "3 days",
+    "durationYears": 0.01,
     "annualAUD": 25000,
     "annualUSD": 16250,
     "annualINR": 1365000,
-    "totalAUD": 450000,
+    "totalAUD": 25000,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -8275,7 +8389,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-295",
@@ -8304,7 +8419,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-296",
@@ -8333,7 +8449,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-297",
@@ -8362,7 +8479,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-298",
@@ -8391,7 +8509,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-299",
@@ -8420,7 +8539,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-300",
@@ -8449,7 +8569,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-301",
@@ -8478,7 +8599,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-302",
@@ -8507,7 +8629,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-303",
@@ -8536,7 +8659,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-304",
@@ -8565,7 +8689,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-305",
@@ -8594,7 +8719,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-306",
@@ -8623,7 +8749,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-307",
@@ -8632,12 +8759,12 @@ export const cduCourses = [
     "url": "https://www.cdu.edu.au/study/course/vtp461-atv-utv-bikes-vtp461",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "16 years",
-    "durationYears": 16,
+    "duration": "2 to 5 days",
+    "durationYears": 0.01,
     "annualAUD": 25000,
     "annualUSD": 16250,
     "annualINR": 1365000,
-    "totalAUD": 400000,
+    "totalAUD": 25000,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -8652,7 +8779,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-308",
@@ -8681,7 +8809,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-309",
@@ -8690,12 +8819,12 @@ export const cduCourses = [
     "url": "https://www.cdu.edu.au/study/course/vtp462-maintenance-vtp462",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "16 years",
-    "durationYears": 16,
+    "duration": "3 days",
+    "durationYears": 0.01,
     "annualAUD": 25000,
     "annualUSD": 16250,
     "annualINR": 1365000,
-    "totalAUD": 400000,
+    "totalAUD": 25000,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -8710,7 +8839,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-310",
@@ -8739,7 +8869,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-311",
@@ -8748,12 +8879,12 @@ export const cduCourses = [
     "url": "https://www.cdu.edu.au/study/course/vtp555-operate-maintain-chainsaws-vtp555",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "16 years",
-    "durationYears": 16,
+    "duration": "2 to 4 days",
+    "durationYears": 0.01,
     "annualAUD": 25000,
     "annualUSD": 16250,
     "annualINR": 1365000,
-    "totalAUD": 400000,
+    "totalAUD": 25000,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -8768,7 +8899,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-312",
@@ -8797,7 +8929,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-313",
@@ -8826,7 +8959,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-314",
@@ -8855,7 +8989,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-315",
@@ -8884,7 +9019,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-316",
@@ -8913,7 +9049,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-317",
@@ -8942,7 +9079,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-318",
@@ -8971,7 +9109,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-319",
@@ -9000,7 +9139,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-320",
@@ -9029,7 +9169,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-321",
@@ -9058,7 +9199,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-322",
@@ -9087,7 +9229,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-323",
@@ -9116,7 +9259,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-324",
@@ -9145,7 +9289,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-325",
@@ -9174,7 +9319,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-326",
@@ -9203,7 +9349,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-327",
@@ -9232,7 +9379,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-328",
@@ -9261,7 +9409,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-329",
@@ -9290,7 +9439,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-330",
@@ -9348,7 +9498,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-332",
@@ -9377,7 +9528,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-333",
@@ -9406,7 +9558,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "cdu-334",
@@ -9464,7 +9617,8 @@ export const cduCourses = [
     "country": "Australia",
     "state": "Northern Territory",
     "city": "Darwin",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   }
 ] as const;
 

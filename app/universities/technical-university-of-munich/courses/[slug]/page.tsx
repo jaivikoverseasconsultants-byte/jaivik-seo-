@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { isPswEligible } from '@/lib/psw-eligibility';
 export async function generateStaticParams() {
   return (tuMunichCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -78,7 +79,7 @@ export default async function CoursePage(
     provider: { '@type': 'CollegeOrUniversity', name: 'Technical University of Munich', sameAs: 'https://www.tum.de/en/' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     url: course.url,
   };
 
@@ -236,7 +237,7 @@ export default async function CoursePage(
                 { label: 'Student Visa', value: 'Germany Student Visa (Section 16b AufenthG)' },
                 { label: 'Work Rights (Term)', value: '20 hrs/week OR 120 full days/year' },
                 { label: 'Work Rights (Vacation)', value: 'Full-time during semester breaks' },
-                { label: 'Post-Study Visa', value: '18-month Job Seeker Visa after graduation' },
+                ...(isPswEligible(course as any) ? [{ label: 'Post-Study Visa', value: '18-month Job Seeker Visa after graduation' }] : []),
                 { label: 'Long-term Stay', value: 'EU Blue Card → PR after 21-33 months' },
                 { label: 'Health Insurance', value: '~€110/month (statutory insurance)' },
               ].map(f => (

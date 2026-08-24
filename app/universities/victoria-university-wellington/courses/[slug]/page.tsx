@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { isPswEligible } from '@/lib/psw-eligibility';
 export async function generateStaticParams() {
   return (vuwCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -38,7 +39,7 @@ export default async function CoursePage(
     provider: { '@type': 'CollegeOrUniversity', name: 'Victoria University of Wellington', sameAs: 'https://www.wgtn.ac.nz' },
     courseMode: 'full-time',
     educationalLevel: course.studyLevel,
-    timeRequired: `P${course.durationYears}Y`,
+    ...(course.durationYears > 0 ? { timeRequired: `P${course.durationYears}Y` } : {}),
     url: course.url,
   };
 
@@ -148,7 +149,7 @@ export default async function CoursePage(
                 { label: 'Student Visa', value: 'New Zealand Student Visa' },
                 { label: 'Work Rights (Term)', value: '20 hrs/week' },
                 { label: 'Work Rights (Vacation)', value: 'Full-time' },
-                { label: 'Post-Study Visa', value: 'Open Work Visa (Post-Study)' },
+                ...(isPswEligible(course as any) ? [{ label: 'Post-Study Visa', value: 'Open Work Visa (Post-Study)' }] : []),
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>

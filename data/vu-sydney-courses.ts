@@ -2,6 +2,7 @@
 // Source: data/scraped/australia/vu-sydney.json
 
 export interface VusydneyCourse {
+  pswEligible?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualAUD: number; annualUSD: number; annualINR: number; totalAUD: number;
@@ -39,7 +40,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-2",
@@ -68,7 +70,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-3",
@@ -97,7 +100,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-4",
@@ -126,7 +130,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-5",
@@ -155,7 +160,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-6",
@@ -184,7 +190,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-7",
@@ -213,7 +220,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-8",
@@ -242,7 +250,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-9",
@@ -271,7 +280,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-10",
@@ -300,7 +310,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-11",
@@ -329,7 +340,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-12",
@@ -358,7 +370,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-13",
@@ -387,7 +400,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-14",
@@ -416,7 +430,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-15",
@@ -445,7 +460,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-16",
@@ -474,7 +490,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-17",
@@ -503,7 +520,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-18",
@@ -1691,7 +1709,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-59",
@@ -1720,7 +1739,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-60",
@@ -1749,7 +1769,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-61",
@@ -1778,7 +1799,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-62",
@@ -1807,7 +1829,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-63",
@@ -1836,7 +1859,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-64",
@@ -2155,7 +2179,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-75",
@@ -2184,7 +2209,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-76",
@@ -2213,7 +2239,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-77",
@@ -2242,7 +2269,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-78",
@@ -2271,7 +2299,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-79",
@@ -2300,7 +2329,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-80",
@@ -2329,7 +2359,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-81",
@@ -2358,7 +2389,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-82",
@@ -2387,7 +2419,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-83",
@@ -2416,7 +2449,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-84",
@@ -2445,7 +2479,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-85",
@@ -2474,7 +2509,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-86",
@@ -2503,7 +2539,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-87",
@@ -2532,7 +2569,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-88",
@@ -2561,7 +2599,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-89",
@@ -2590,7 +2629,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-90",
@@ -2619,7 +2659,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-91",
@@ -2648,7 +2689,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-92",
@@ -3315,7 +3357,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-115",
@@ -3344,7 +3387,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-116",
@@ -3373,7 +3417,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-117",
@@ -3402,7 +3447,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-118",
@@ -3431,7 +3477,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-119",
@@ -3924,7 +3971,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-136",
@@ -3953,7 +4001,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-137",
@@ -3982,7 +4031,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-138",
@@ -4011,7 +4061,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-139",
@@ -4040,7 +4091,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-140",
@@ -4069,7 +4121,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-141",
@@ -4736,7 +4789,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-164",
@@ -4765,7 +4819,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-165",
@@ -4852,7 +4907,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-168",
@@ -5403,7 +5459,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-187",
@@ -5432,7 +5489,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-188",
@@ -5461,7 +5519,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-189",
@@ -5490,7 +5549,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-190",
@@ -6273,7 +6333,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-217",
@@ -6302,7 +6363,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-218",
@@ -6331,7 +6393,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-219",
@@ -6592,7 +6655,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-228",
@@ -6621,7 +6685,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-229",
@@ -6650,7 +6715,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-230",
@@ -6679,7 +6745,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-231",
@@ -6708,7 +6775,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-232",
@@ -6737,7 +6805,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-233",
@@ -6766,7 +6835,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-234",
@@ -6795,7 +6865,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-235",
@@ -6824,7 +6895,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-236",
@@ -6853,7 +6925,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-237",
@@ -6882,7 +6955,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-238",
@@ -6911,7 +6985,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-239",
@@ -6940,7 +7015,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-240",
@@ -6969,7 +7045,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-241",
@@ -6998,7 +7075,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-242",
@@ -7027,7 +7105,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-243",
@@ -7839,7 +7918,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-271",
@@ -7868,7 +7948,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-272",
@@ -7897,7 +7978,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-273",
@@ -7926,7 +8008,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-274",
@@ -7955,7 +8038,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-275",
@@ -7984,7 +8068,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-276",
@@ -8013,7 +8098,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-277",
@@ -8042,7 +8128,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-278",
@@ -8071,7 +8158,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-279",
@@ -8138,12 +8226,12 @@ export const vu_sydneyCourses = [
     "url": "https://www.vu.edu.au/courses/basic-scaffolding-tnscf",
     "level": "Postgraduate",
     "studyLevel": "Postgraduate",
-    "duration": "18 years",
-    "durationYears": 18,
+    "duration": "5 days",
+    "durationYears": 0.01,
     "annualAUD": 9322,
     "annualUSD": 6059,
     "annualINR": 508956,
-    "totalAUD": 167796,
+    "totalAUD": 9322,
     "livingCostAUD": 29710,
     "livingCostUSD": 13650,
     "livingCostINR": 1146600,
@@ -8158,7 +8246,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-282",
@@ -8187,7 +8276,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-283",
@@ -8216,7 +8306,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-284",
@@ -8245,7 +8336,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-285",
@@ -8564,7 +8656,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-296",
@@ -8593,7 +8686,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-297",
@@ -8622,7 +8716,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-298",
@@ -8651,7 +8746,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-299",
@@ -8738,7 +8834,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-302",
@@ -8912,7 +9009,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-308",
@@ -9028,7 +9126,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-312",
@@ -9057,7 +9156,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-313",
@@ -9086,7 +9186,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-314",
@@ -9115,7 +9216,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-315",
@@ -9173,7 +9275,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-317",
@@ -9202,7 +9305,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-318",
@@ -9231,7 +9335,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-319",
@@ -9260,7 +9365,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-320",
@@ -9289,7 +9395,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-321",
@@ -9318,7 +9425,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-322",
@@ -9347,7 +9455,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-323",
@@ -9376,7 +9485,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-324",
@@ -9434,7 +9544,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-326",
@@ -9463,7 +9574,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-327",
@@ -9550,7 +9662,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-330",
@@ -9579,7 +9692,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-331",
@@ -9608,7 +9722,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-332",
@@ -9637,7 +9752,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-333",
@@ -9666,7 +9782,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-334",
@@ -9695,7 +9812,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-335",
@@ -9724,7 +9842,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-336",
@@ -9753,7 +9872,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-337",
@@ -9782,7 +9902,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-338",
@@ -9840,7 +9961,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-340",
@@ -9869,7 +9991,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-341",
@@ -9898,7 +10021,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   },
   {
     "id": "vu-sydney-342",
@@ -9927,7 +10051,8 @@ export const vu_sydneyCourses = [
     "country": "Australia",
     "state": "New South Wales",
     "city": "Sydney",
-    "countryCode": "AU"
+    "countryCode": "AU",
+    "pswEligible": false
   }
 ] as const;
 
