@@ -8,7 +8,8 @@
     "prebuild": "node scripts/generate-search-index.js",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "audit:fees": "node scripts/audit-fee-verification.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0",
