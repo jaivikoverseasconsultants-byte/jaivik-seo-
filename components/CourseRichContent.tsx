@@ -11,6 +11,7 @@ import { getUniversityBySlug } from '@/data/universities';
 import { getMatchingPillarsForCourseName } from '@/data/subject-pillars';
 import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 import DeadlineCountdown from '@/components/DeadlineCountdown';
+import { isFeeVerified, feeDisplayINRLakh } from '@/lib/fee-verification';
 
 interface Props {
   course: CourseForContent;
@@ -184,7 +185,9 @@ export default function CourseRichContent({ course, universityName, universitySl
 
   const faqs = generateFaqs(course, universityName, universitySlug);
 
-  const hasFee = course.annualUSD > 0;
+  // gates BOTH the JSON-LD description sentence and the offers.price node below —
+  // an unverified fee must not reach structured data any more than visible text
+  const hasFee = isFeeVerified(course as any) && course.annualUSD > 0;
   const courseSchema = {
     '@context': 'https://schema.org',
     '@type': 'Course',
@@ -436,7 +439,7 @@ export default function CourseRichContent({ course, universityName, universitySl
       )}
 
       {/* How Does This University Compare — only when a real fee exists */}
-      {course.annualINR > 0 && (
+      {isFeeVerified(course as any) && course.annualINR > 0 && (
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">
           How Does {universityName} Compare for {fieldLabel}?
@@ -467,7 +470,7 @@ export default function CourseRichContent({ course, universityName, universitySl
       {/* Section D — Compare Similar Programs — only when the CURRENT course also
           has a real fee (similarPrograms are always real-fee, via findAlternativeCourses'
           own filter, but this course's own "★" row needs the same check). */}
-      {similarPrograms.length > 0 && course.annualINR > 0 && (
+      {similarPrograms.length > 0 && isFeeVerified(course as any) && course.annualINR > 0 && (
         <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
           <h2 className="text-xl font-bold text-gray-900 mb-2">
             Compare Similar {fieldLabel} Programs
@@ -505,7 +508,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                       </Link>
                     </td>
                     <td className="text-right py-2.5 px-2 text-gray-700">
-                      ₹{(prog.annualINR / 100000).toFixed(1)}L
+                      {feeDisplayINRLakh(prog as any, (prog.annualINR / 100000).toFixed(1), '')}
                     </td>
                     <td className="text-right py-2.5 px-2 text-gray-700">{prog.ieltsMin}+</td>
                     <td className="text-right py-2.5 px-2 text-gray-700">{prog.duration}</td>
@@ -543,7 +546,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                       {rnUni?.name ?? rn.universitySlug} · {rn.country} · IELTS {rn.ieltsMin || '—'}+
                     </p>
                   </div>
-                  <span className="text-xs font-semibold text-brand-700 flex-shrink-0">₹{(rn.annualINR / 100000).toFixed(1)}L/yr →</span>
+                  <span className="text-xs font-semibold text-brand-700 flex-shrink-0">{feeDisplayINRLakh(rn as any, (rn.annualINR / 100000).toFixed(1), '/yr')} →</span>
                 </Link>
               );
             })}

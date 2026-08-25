@@ -2,6 +2,7 @@ import { getUniversityBySlug } from '@/data/universities';
 import { costOfLivingGuides } from '@/data/cost-of-living';
 import type { CourseForContent } from '@/lib/courseContent';
 import { isNonDegreeOffering } from '@/lib/psw-eligibility';
+import { isFeeVerified } from '@/lib/fee-verification';
 
 export interface Faq {
   question: string;
@@ -80,6 +81,8 @@ export function classifyLevel(course: CourseForContent): Level {
 // ─── Q1 — Tuition fee ───────────────────────────────────────────────────────
 
 function tuitionFeeFaq(course: CourseForContent, universityName: string): Faq | null {
+  // do not quote a fee we are re-verifying
+  if (!isFeeVerified(course as any)) return null;
   if (typeof course.annualINR !== 'number' || course.annualINR <= 0) return null;
   const inrLakh = (course.annualINR / 100000).toFixed(1);
   const native = nativeFee(course);

@@ -1,5 +1,6 @@
 import { costOfLivingGuides } from '@/data/cost-of-living';
 import type { CourseForContent } from '@/lib/courseContent';
+import { isFeeVerified } from '@/lib/fee-verification';
 import {
   nativeFee,
   nativeLivingCost,
@@ -51,6 +52,9 @@ export interface FeesBreakdown {
 }
 
 export function getFeesBreakdown(course: CourseForContent): FeesBreakdown | null {
+  // Tuition flagged unverified (Aug 2026 flat-fee scan) must not be shown as a
+  // precise figure; skip the whole breakdown until the provider is re-crawled.
+  if (!isFeeVerified(course as any)) return null;
   const annualINR = typeof course.annualINR === 'number' && course.annualINR > 0 ? course.annualINR : null;
   const native = nativeFee(course);
   if (!annualINR && !native) return null;

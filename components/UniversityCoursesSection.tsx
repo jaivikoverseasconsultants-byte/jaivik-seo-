@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import type { RegistryCourse } from '@/data/university-course-registry';
+import { isFeeVerified } from '@/lib/fee-verification';
 
 const PAGE_SIZE = 20;
 
@@ -113,7 +114,7 @@ export default function UniversityCoursesSection({
   };
 
   const formatFee = (c: DisplayCourse) => {
-    if (c.annualUSD > 0) return `$${(c.annualUSD / 1000).toFixed(0)}K/yr`;
+    if (isFeeVerified(c as any) && c.annualUSD > 0) return `$${(c.annualUSD / 1000).toFixed(0)}K/yr`;
     return 'View page';
   };
 
@@ -179,7 +180,7 @@ export default function UniversityCoursesSection({
                 <div>
                   <p className="text-gray-400 mb-0.5">Annual Fee</p>
                   <p className="font-semibold text-brand-700">{formatFee(course)}</p>
-                  {course.annualINR > 0 && <p className="text-gray-400 text-[10px]">≈ ₹{(course.annualINR/100000).toFixed(1)}L</p>}
+                  {isFeeVerified(course as any) && course.annualINR > 0 && <p className="text-gray-400 text-[10px]">≈ ₹{(course.annualINR/100000).toFixed(1)}L</p>}
                 </div>
                 <div>
                   <p className="text-gray-400 mb-0.5">IELTS Min</p>

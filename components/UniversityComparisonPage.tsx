@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
+import { feeDisplayINRLakh } from '@/lib/fee-verification';
 
 export default function UniversityComparisonPage({ data }: { data: UniversityComparisonData }) {
   const { pair, sideA, sideB, sameCity, cityCostOfLiving } = data;
@@ -107,7 +108,7 @@ export default function UniversityComparisonPage({ data }: { data: UniversityCom
                     <Link href={`/universities/${side.university.slug}/courses/${c.slug}`} className="text-brand-700 hover:underline">
                       {c.name}
                     </Link>
-                    <span className="text-gray-500"> — ₹{(c.annualINR / 100000).toFixed(1)}L/yr</span>
+                    <span className="text-gray-500"> — {feeDisplayINRLakh(c as any, (c.annualINR / 100000).toFixed(1), '/yr')}</span>
                   </li>
                 ))}
               </ul>

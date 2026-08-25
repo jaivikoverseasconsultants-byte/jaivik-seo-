@@ -193,6 +193,54 @@ for (const uni of fs.readdirSync(APP)) {
   });
 }
 
+// ── 7. shared components that render a fee must import the helpers ──────────
+//
+// Added 2026-08-25 after the first sweep checked only app/universities/** and
+// missed components/ entirely — CourseRichContent and CourseKeyFacts were shipping
+// "GBP 27,500 / ₹29.4 lakh/year" and a JSON-LD offers.price on suppressed pages.
+// A shared component leaks on EVERY course page at once, so it matters more than
+// any single template.
+//
+// Known-outstanding: aggregate pages that quote a fee RANGE or median across many
+// courses (min/max/median over a mixed verified+unverified set). Those need a
+// decision about what an honest range over partially-verified data even means,
+// which is tracked as backlog, not silently ignored.
+const AGGREGATE_BACKLOG = {
+  'components/SubjectPillarPage.tsx': 'fee range/median across many courses — backlog',
+  'components/CourseMatcherClient.tsx': 'fee in a generated shortlist export — backlog',
+  'lib/cost-pillars.ts': 'min/max/median fee bands — backlog',
+  'lib/country-subject-comparisons.ts': 'min/max fee range — backlog',
+  'lib/courseContent.ts': 'prose fee mention — backlog',
+  'lib/find-my-course.ts': 'matcher scoring over fees — backlog',
+  'lib/subject-pillars.ts': 'pillar fee aggregates — backlog',
+  'lib/university-comparisons.ts': 'comparison fee aggregates — backlog',
+  'lib/generate-shortlist-pdf.ts': 'PDF shortlist fees — backlog',
+};
+const PER_COURSE_FEE = /\b(?:annual|total)(?:GBP|USD|INR|AUD|NZD|CAD|EUR|SGD|AED)\b/;
+const RENDERS = /`|toLocaleString\(|toFixed\(|value:|text:|label:|price:/;
+
+for (const dir of ['components', 'lib']) {
+  for (const file of fs.readdirSync(path.join(ROOT, dir))) {
+    if (!/\.tsx?$/.test(file)) continue;
+    const rel = `${dir}/${file}`;
+    if (AGGREGATE_BACKLOG[rel]) { notes.push(`[backlog] ${rel}: ${AGGREGATE_BACKLOG[rel]}`); continue; }
+    const src = fs.readFileSync(path.join(ROOT, dir, file), 'utf8');
+    if (rel === 'lib/fee-verification.ts') continue;               // the helpers themselves
+    if (!PER_COURSE_FEE.test(src)) continue;
+
+    const rendersAFee = src.split('\n').some(ln =>
+      PER_COURSE_FEE.test(ln) && RENDERS.test(ln) &&
+      !/^\s*(\/\/|\*)/.test(ln.trim()) &&
+      !/^\s*\w+\??\s*:\s*(number|string|null)/.test(ln.trim()));
+    if (!rendersAFee) continue;
+
+    if (!/from\s+['"](@\/lib\/fee-verification|\.\/fee-verification)['"]/.test(src))
+      failures.push(`[shared] ${rel}: renders a per-course fee but does not import lib/fee-verification. ` +
+        `A shared component leaks on every course page at once — gate it with isFeeVerified()/feeDisplay*(), ` +
+        `or add it to AGGREGATE_BACKLOG in this script if it only quotes an aggregate range.`);
+  }
+}
+
 // ── report ──────────────────────────────────────────────────────────────────
 console.log('=== Audit: tuition-fee verification guards ===');
 console.log(`Live course routes checked:      ${routes.length}`);
