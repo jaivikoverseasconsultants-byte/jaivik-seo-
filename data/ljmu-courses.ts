@@ -3,6 +3,7 @@
 // CDX returned 0 for postgraduate-specific pattern. Real URL structure from live site.
 
 export interface LjmuCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -55,7 +56,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-2",
@@ -84,7 +86,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-3",
@@ -128,7 +131,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-4",
@@ -157,7 +161,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-5",
@@ -186,7 +191,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-6",
@@ -215,7 +221,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-7",
@@ -245,7 +252,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-8",
@@ -274,7 +282,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-9",
@@ -318,7 +327,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-10",
@@ -362,7 +372,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-11",
@@ -391,7 +402,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-12",
@@ -435,7 +447,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-13",
@@ -479,7 +492,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-14",
@@ -523,7 +537,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-15",
@@ -552,7 +567,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-16",
@@ -581,7 +597,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-17",
@@ -625,7 +642,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-18",
@@ -669,7 +687,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-19",
@@ -698,7 +717,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-20",
@@ -742,7 +762,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-21",
@@ -786,7 +807,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-22",
@@ -815,7 +837,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-23",
@@ -844,7 +867,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-24",
@@ -873,7 +897,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-25",
@@ -917,7 +942,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-26",
@@ -946,7 +972,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-27",
@@ -990,7 +1017,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-28",
@@ -1019,7 +1047,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-29",
@@ -1063,7 +1092,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-30",
@@ -1107,7 +1137,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-31",
@@ -1151,7 +1182,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-32",
@@ -1195,7 +1227,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-33",
@@ -1239,7 +1272,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-34",
@@ -1283,7 +1317,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-35",
@@ -1327,7 +1362,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-36",
@@ -1371,7 +1407,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-37",
@@ -1415,7 +1452,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-38",
@@ -1459,7 +1497,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-39",
@@ -1503,7 +1542,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-40",
@@ -1547,7 +1587,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-41",
@@ -1591,7 +1632,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-42",
@@ -1635,7 +1677,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-43",
@@ -1679,7 +1722,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-44",
@@ -1723,7 +1767,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-45",
@@ -1767,7 +1812,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-46",
@@ -1811,7 +1857,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-47",
@@ -1855,7 +1902,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-48",
@@ -1899,7 +1947,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-49",
@@ -1943,7 +1992,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-50",
@@ -1987,7 +2037,8 @@ export const ljmuCourses: LjmuCourse[] = [
         "name": "BSc (Hons) Physics with Astronomy",
         "slug": "ljmu-ug-bsc-hons-physics-with-astronomy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ljmu-51",
@@ -2016,7 +2067,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-52",
@@ -2045,7 +2097,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-53",
@@ -2074,7 +2127,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-54",
@@ -2103,7 +2157,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-55",
@@ -2132,7 +2187,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-56",
@@ -2161,7 +2217,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-57",
@@ -2190,7 +2247,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-58",
@@ -2219,7 +2277,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-59",
@@ -2248,7 +2307,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-60",
@@ -2277,7 +2337,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-61",
@@ -2306,7 +2367,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-62",
@@ -2335,7 +2397,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-63",
@@ -2364,7 +2427,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-64",
@@ -2393,7 +2457,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-65",
@@ -2422,7 +2487,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-66",
@@ -2451,7 +2517,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-67",
@@ -2480,7 +2547,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-68",
@@ -2509,7 +2577,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-69",
@@ -2538,7 +2607,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-70",
@@ -2567,7 +2637,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-71",
@@ -2596,7 +2667,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-72",
@@ -2625,7 +2697,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-73",
@@ -2654,7 +2727,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-74",
@@ -2683,7 +2757,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-75",
@@ -2712,7 +2787,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-76",
@@ -2741,7 +2817,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-77",
@@ -2770,7 +2847,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-78",
@@ -2799,7 +2877,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-79",
@@ -2828,7 +2907,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-80",
@@ -2857,7 +2937,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-81",
@@ -2886,7 +2967,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-82",
@@ -2915,7 +2997,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-83",
@@ -2944,7 +3027,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-84",
@@ -2973,7 +3057,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-85",
@@ -3002,7 +3087,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-86",
@@ -3031,7 +3117,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-87",
@@ -3060,7 +3147,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-88",
@@ -3089,7 +3177,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-89",
@@ -3118,7 +3207,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-90",
@@ -3147,7 +3237,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-91",
@@ -3176,7 +3267,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-92",
@@ -3205,7 +3297,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-93",
@@ -3234,7 +3327,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-94",
@@ -3263,7 +3357,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-95",
@@ -3292,7 +3387,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-96",
@@ -3321,7 +3417,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-97",
@@ -3350,7 +3447,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-98",
@@ -3379,7 +3477,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-99",
@@ -3408,7 +3507,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ljmu-100",
@@ -3437,7 +3537,8 @@ export const ljmuCourses: LjmuCourse[] = [
     "state": "England",
     "city": "Liverpool",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   }
 ];
 

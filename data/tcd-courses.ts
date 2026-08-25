@@ -1,7 +1,8 @@
 // Auto-generated — TCD official course catalogue
 // 465 courses | crawled: 2026-07-01
 
-export interface TcdCourse { id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface TcdCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const tcdCourses: TcdCourse[] = [
   {
@@ -30,7 +31,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-2",
@@ -58,7 +60,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-3",
@@ -86,7 +89,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-4",
@@ -114,7 +118,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-5",
@@ -142,7 +147,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-6",
@@ -170,7 +176,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-7",
@@ -198,7 +205,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-8",
@@ -226,7 +234,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-9",
@@ -254,7 +263,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-10",
@@ -282,7 +292,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-11",
@@ -310,7 +321,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-12",
@@ -338,7 +350,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-13",
@@ -366,7 +379,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-14",
@@ -394,7 +408,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-15",
@@ -422,7 +437,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-16",
@@ -450,7 +466,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-17",
@@ -478,7 +495,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-18",
@@ -506,7 +524,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-19",
@@ -534,7 +553,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-20",
@@ -562,7 +582,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-21",
@@ -590,7 +611,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-22",
@@ -618,7 +640,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-23",
@@ -646,7 +669,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-24",
@@ -674,7 +698,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-25",
@@ -702,7 +727,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-26",
@@ -730,7 +756,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-27",
@@ -758,7 +785,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-28",
@@ -786,7 +814,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-29",
@@ -814,7 +843,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-30",
@@ -842,7 +872,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-31",
@@ -870,7 +901,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-32",
@@ -898,7 +930,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-33",
@@ -926,7 +959,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-34",
@@ -954,7 +988,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-35",
@@ -982,7 +1017,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-36",
@@ -1010,7 +1046,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-37",
@@ -1038,7 +1075,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-38",
@@ -1066,7 +1104,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-39",
@@ -1094,7 +1133,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-40",
@@ -1122,7 +1162,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-41",
@@ -1150,7 +1191,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-42",
@@ -1178,7 +1220,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-43",
@@ -1206,7 +1249,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-44",
@@ -1234,7 +1278,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-45",
@@ -1262,7 +1307,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-46",
@@ -1290,7 +1336,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-47",
@@ -1318,7 +1365,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-48",
@@ -1346,7 +1394,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-49",
@@ -1374,7 +1423,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-50",
@@ -1402,7 +1452,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-51",
@@ -1430,7 +1481,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-52",
@@ -1458,7 +1510,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-53",
@@ -1486,7 +1539,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-54",
@@ -1514,7 +1568,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-55",
@@ -1542,7 +1597,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-56",
@@ -1570,7 +1626,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-57",
@@ -1598,7 +1655,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-58",
@@ -1626,7 +1684,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-59",
@@ -1654,7 +1713,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-60",
@@ -1682,7 +1742,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-61",
@@ -1710,7 +1771,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-62",
@@ -1738,7 +1800,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-63",
@@ -1766,7 +1829,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-64",
@@ -1794,7 +1858,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-65",
@@ -1822,7 +1887,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-66",
@@ -1850,7 +1916,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-67",
@@ -1878,7 +1945,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-68",
@@ -1906,7 +1974,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-69",
@@ -1934,7 +2003,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-70",
@@ -1962,7 +2032,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-71",
@@ -1990,7 +2061,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-72",
@@ -2018,7 +2090,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-73",
@@ -2046,7 +2119,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-74",
@@ -2074,7 +2148,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-75",
@@ -2102,7 +2177,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-76",
@@ -2130,7 +2206,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-77",
@@ -2158,7 +2235,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-78",
@@ -2186,7 +2264,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-79",
@@ -2214,7 +2293,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-80",
@@ -2242,7 +2322,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-81",
@@ -2270,7 +2351,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-82",
@@ -2298,7 +2380,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-83",
@@ -2326,7 +2409,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-84",
@@ -2354,7 +2438,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-85",
@@ -2382,7 +2467,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-86",
@@ -2410,7 +2496,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-87",
@@ -2438,7 +2525,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-88",
@@ -2466,7 +2554,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-89",
@@ -2494,7 +2583,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-90",
@@ -2522,7 +2612,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-91",
@@ -2550,7 +2641,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-92",
@@ -2578,7 +2670,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-93",
@@ -2606,7 +2699,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-94",
@@ -2634,7 +2728,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-95",
@@ -2662,7 +2757,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-96",
@@ -2690,7 +2786,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-97",
@@ -2718,7 +2815,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-98",
@@ -2746,7 +2844,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-99",
@@ -2774,7 +2873,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-100",
@@ -2802,7 +2902,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-101",
@@ -2830,7 +2931,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-102",
@@ -2858,7 +2960,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-103",
@@ -2886,7 +2989,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-104",
@@ -2914,7 +3018,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-105",
@@ -2942,7 +3047,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-106",
@@ -2970,7 +3076,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-107",
@@ -2998,7 +3105,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-108",
@@ -3026,7 +3134,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-109",
@@ -3054,7 +3163,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-110",
@@ -3082,7 +3192,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-111",
@@ -3110,7 +3221,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-112",
@@ -3138,7 +3250,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-113",
@@ -3166,7 +3279,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-114",
@@ -3194,7 +3308,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-115",
@@ -3222,7 +3337,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-116",
@@ -3250,7 +3366,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-117",
@@ -3278,7 +3395,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-118",
@@ -3306,7 +3424,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-119",
@@ -3334,7 +3453,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-120",
@@ -3362,7 +3482,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-121",
@@ -3390,7 +3511,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-122",
@@ -3418,7 +3540,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-123",
@@ -3446,7 +3569,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-124",
@@ -3474,7 +3598,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-125",
@@ -3502,7 +3627,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-126",
@@ -3530,7 +3656,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-127",
@@ -3558,7 +3685,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-128",
@@ -3586,7 +3714,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-129",
@@ -3614,7 +3743,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-130",
@@ -3642,7 +3772,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-131",
@@ -3670,7 +3801,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-132",
@@ -3698,7 +3830,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-133",
@@ -3726,7 +3859,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-134",
@@ -3754,7 +3888,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-135",
@@ -3782,7 +3917,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-136",
@@ -3810,7 +3946,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-137",
@@ -3838,7 +3975,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-138",
@@ -3866,7 +4004,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-139",
@@ -3894,7 +4033,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-140",
@@ -3922,7 +4062,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-141",
@@ -3950,7 +4091,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-142",
@@ -3978,7 +4120,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-143",
@@ -4006,7 +4149,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-144",
@@ -4034,7 +4178,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-145",
@@ -4062,7 +4207,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-146",
@@ -4090,7 +4236,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-147",
@@ -4118,7 +4265,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-148",
@@ -4146,7 +4294,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-149",
@@ -4174,7 +4323,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-150",
@@ -4202,7 +4352,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-151",
@@ -4230,7 +4381,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-152",
@@ -4258,7 +4410,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-153",
@@ -4286,7 +4439,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-154",
@@ -4314,7 +4468,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-155",
@@ -4342,7 +4497,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-156",
@@ -4370,7 +4526,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-157",
@@ -4398,7 +4555,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-158",
@@ -4426,7 +4584,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-159",
@@ -4454,7 +4613,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-160",
@@ -4482,7 +4642,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-161",
@@ -4510,7 +4671,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-162",
@@ -4538,7 +4700,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-163",
@@ -4566,7 +4729,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-164",
@@ -4594,7 +4758,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-165",
@@ -4622,7 +4787,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-166",
@@ -4650,7 +4816,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-167",
@@ -4678,7 +4845,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-168",
@@ -4706,7 +4874,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-169",
@@ -4734,7 +4903,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-170",
@@ -4762,7 +4932,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-171",
@@ -4790,7 +4961,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-172",
@@ -4818,7 +4990,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-173",
@@ -4846,7 +5019,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-174",
@@ -4874,7 +5048,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-175",
@@ -4902,7 +5077,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-176",
@@ -4930,7 +5106,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-177",
@@ -4958,7 +5135,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-178",
@@ -4986,7 +5164,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-179",
@@ -5014,7 +5193,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-180",
@@ -5042,7 +5222,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-181",
@@ -5070,7 +5251,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-182",
@@ -5098,7 +5280,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-183",
@@ -5126,7 +5309,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-184",
@@ -5154,7 +5338,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-185",
@@ -5182,7 +5367,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-186",
@@ -5210,7 +5396,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-187",
@@ -5238,7 +5425,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-188",
@@ -5266,7 +5454,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-189",
@@ -5294,7 +5483,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-190",
@@ -5322,7 +5512,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-191",
@@ -5350,7 +5541,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-192",
@@ -5378,7 +5570,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-193",
@@ -5406,7 +5599,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-194",
@@ -5434,7 +5628,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-195",
@@ -5462,7 +5657,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-196",
@@ -5490,7 +5686,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-197",
@@ -5518,7 +5715,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-198",
@@ -5546,7 +5744,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-199",
@@ -5574,7 +5773,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-200",
@@ -5602,7 +5802,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-201",
@@ -5630,7 +5831,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-202",
@@ -5658,7 +5860,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-203",
@@ -5686,7 +5889,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-204",
@@ -5714,7 +5918,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-205",
@@ -5742,7 +5947,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-206",
@@ -5770,7 +5976,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-207",
@@ -5798,7 +6005,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-208",
@@ -5826,7 +6034,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-209",
@@ -5854,7 +6063,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-210",
@@ -5882,7 +6092,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-211",
@@ -5910,7 +6121,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-212",
@@ -5938,7 +6150,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-213",
@@ -5966,7 +6179,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-214",
@@ -5994,7 +6208,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-215",
@@ -6022,7 +6237,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-216",
@@ -6050,7 +6266,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-217",
@@ -6078,7 +6295,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-218",
@@ -6106,7 +6324,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-219",
@@ -6134,7 +6353,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-220",
@@ -6162,7 +6382,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-221",
@@ -6190,7 +6411,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-222",
@@ -6218,7 +6440,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-223",
@@ -6246,7 +6469,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-224",
@@ -6274,7 +6498,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-225",
@@ -6302,7 +6527,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-226",
@@ -6330,7 +6556,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-227",
@@ -6358,7 +6585,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-228",
@@ -6386,7 +6614,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-229",
@@ -6414,7 +6643,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-230",
@@ -6442,7 +6672,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-231",
@@ -6470,7 +6701,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-232",
@@ -6498,7 +6730,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-233",
@@ -6526,7 +6759,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-234",
@@ -6554,7 +6788,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-235",
@@ -6582,7 +6817,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-236",
@@ -6610,7 +6846,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-237",
@@ -6638,7 +6875,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-238",
@@ -6666,7 +6904,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-239",
@@ -6694,7 +6933,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-240",
@@ -6722,7 +6962,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-241",
@@ -6750,7 +6991,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-242",
@@ -6778,7 +7020,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-243",
@@ -6806,7 +7049,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-244",
@@ -6834,7 +7078,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-245",
@@ -6862,7 +7107,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-246",
@@ -6890,7 +7136,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-247",
@@ -6918,7 +7165,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-248",
@@ -6946,7 +7194,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-249",
@@ -6974,7 +7223,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-250",
@@ -7002,7 +7252,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-251",
@@ -7030,7 +7281,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-252",
@@ -7058,7 +7310,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-253",
@@ -7086,7 +7339,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-254",
@@ -7114,7 +7368,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-255",
@@ -7142,7 +7397,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-256",
@@ -7170,7 +7426,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-257",
@@ -7198,7 +7455,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-258",
@@ -7226,7 +7484,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-259",
@@ -7254,7 +7513,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-260",
@@ -7282,7 +7542,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-261",
@@ -7310,7 +7571,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-262",
@@ -7338,7 +7600,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-263",
@@ -7366,7 +7629,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-264",
@@ -7394,7 +7658,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-265",
@@ -7422,7 +7687,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-266",
@@ -7450,7 +7716,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-267",
@@ -7478,7 +7745,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-268",
@@ -7506,7 +7774,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-269",
@@ -7534,7 +7803,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-270",
@@ -7562,7 +7832,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-271",
@@ -7590,7 +7861,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-272",
@@ -7618,7 +7890,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-273",
@@ -7646,7 +7919,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-274",
@@ -7674,7 +7948,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-275",
@@ -7702,7 +7977,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-276",
@@ -7730,7 +8006,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-277",
@@ -7758,7 +8035,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-278",
@@ -7786,7 +8064,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-279",
@@ -7814,7 +8093,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-280",
@@ -7842,7 +8122,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-281",
@@ -7870,7 +8151,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-282",
@@ -7898,7 +8180,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-283",
@@ -7926,7 +8209,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-284",
@@ -7954,7 +8238,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-285",
@@ -7982,7 +8267,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-286",
@@ -8010,7 +8296,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-287",
@@ -8038,7 +8325,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-288",
@@ -8066,7 +8354,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-289",
@@ -8094,7 +8383,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-290",
@@ -8122,7 +8412,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-291",
@@ -8150,7 +8441,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-292",
@@ -8178,7 +8470,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-293",
@@ -8206,7 +8499,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-294",
@@ -8234,7 +8528,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-295",
@@ -8262,7 +8557,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-296",
@@ -8290,7 +8586,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-297",
@@ -8318,7 +8615,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-298",
@@ -8346,7 +8644,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-299",
@@ -8374,7 +8673,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-300",
@@ -8402,7 +8702,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-301",
@@ -8430,7 +8731,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-302",
@@ -8458,7 +8760,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-303",
@@ -8486,7 +8789,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-304",
@@ -8514,7 +8818,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-305",
@@ -8542,7 +8847,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-306",
@@ -8570,7 +8876,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-307",
@@ -8598,7 +8905,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-308",
@@ -8626,7 +8934,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-309",
@@ -8654,7 +8963,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-310",
@@ -8682,7 +8992,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-311",
@@ -8710,7 +9021,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-312",
@@ -8738,7 +9050,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-313",
@@ -8766,7 +9079,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-314",
@@ -8794,7 +9108,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-315",
@@ -8822,7 +9137,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-316",
@@ -8850,7 +9166,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-317",
@@ -8878,7 +9195,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-318",
@@ -8906,7 +9224,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-319",
@@ -8934,7 +9253,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-320",
@@ -8962,7 +9282,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-321",
@@ -8990,7 +9311,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-322",
@@ -9018,7 +9340,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-323",
@@ -9046,7 +9369,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-324",
@@ -9074,7 +9398,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-325",
@@ -9102,7 +9427,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-326",
@@ -9130,7 +9456,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-327",
@@ -9158,7 +9485,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-328",
@@ -9186,7 +9514,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-329",
@@ -9214,7 +9543,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-330",
@@ -9242,7 +9572,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-331",
@@ -9270,7 +9601,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-332",
@@ -9298,7 +9630,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-333",
@@ -9326,7 +9659,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-334",
@@ -9354,7 +9688,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-335",
@@ -9382,7 +9717,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-336",
@@ -9410,7 +9746,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-337",
@@ -9438,7 +9775,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-338",
@@ -9466,7 +9804,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-339",
@@ -9494,7 +9833,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-340",
@@ -9522,7 +9862,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-341",
@@ -9550,7 +9891,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-342",
@@ -9578,7 +9920,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-343",
@@ -9606,7 +9949,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-344",
@@ -9634,7 +9978,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-345",
@@ -9662,7 +10007,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-346",
@@ -9690,7 +10036,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-347",
@@ -9718,7 +10065,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-348",
@@ -9746,7 +10094,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-349",
@@ -9774,7 +10123,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-350",
@@ -9802,7 +10152,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-351",
@@ -9830,7 +10181,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-352",
@@ -9858,7 +10210,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-353",
@@ -9886,7 +10239,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-354",
@@ -9914,7 +10268,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-355",
@@ -9942,7 +10297,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-356",
@@ -9970,7 +10326,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-357",
@@ -9998,7 +10355,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-358",
@@ -10026,7 +10384,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-359",
@@ -10054,7 +10413,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-360",
@@ -10082,7 +10442,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-361",
@@ -10110,7 +10471,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-362",
@@ -10138,7 +10500,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-363",
@@ -10166,7 +10529,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-364",
@@ -10194,7 +10558,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-365",
@@ -10222,7 +10587,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-366",
@@ -10250,7 +10616,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-367",
@@ -10278,7 +10645,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-368",
@@ -10306,7 +10674,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-369",
@@ -10334,7 +10703,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-370",
@@ -10362,7 +10732,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-371",
@@ -10390,7 +10761,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-372",
@@ -10418,7 +10790,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-373",
@@ -10446,7 +10819,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-374",
@@ -10474,7 +10848,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-375",
@@ -10502,7 +10877,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-376",
@@ -10530,7 +10906,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-377",
@@ -10558,7 +10935,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-378",
@@ -10586,7 +10964,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-379",
@@ -10614,7 +10993,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-380",
@@ -10642,7 +11022,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-381",
@@ -10670,7 +11051,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-382",
@@ -10698,7 +11080,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-383",
@@ -10726,7 +11109,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-384",
@@ -10754,7 +11138,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-385",
@@ -10782,7 +11167,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-386",
@@ -10810,7 +11196,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-387",
@@ -10838,7 +11225,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-388",
@@ -10866,7 +11254,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-389",
@@ -10894,7 +11283,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-390",
@@ -10922,7 +11312,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-391",
@@ -10950,7 +11341,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-392",
@@ -10978,7 +11370,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-393",
@@ -11006,7 +11399,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-394",
@@ -11034,7 +11428,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-395",
@@ -11062,7 +11457,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-396",
@@ -11090,7 +11486,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-397",
@@ -11118,7 +11515,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-398",
@@ -11146,7 +11544,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-399",
@@ -11174,7 +11573,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-400",
@@ -11202,7 +11602,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-401",
@@ -11230,7 +11631,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-402",
@@ -11258,7 +11660,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-403",
@@ -11286,7 +11689,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-404",
@@ -11314,7 +11718,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-405",
@@ -11342,7 +11747,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-406",
@@ -11370,7 +11776,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-407",
@@ -11398,7 +11805,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-408",
@@ -11426,7 +11834,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-409",
@@ -11454,7 +11863,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-410",
@@ -11482,7 +11892,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-411",
@@ -11510,7 +11921,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-412",
@@ -11538,7 +11950,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-413",
@@ -11566,7 +11979,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-414",
@@ -11594,7 +12008,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-415",
@@ -11622,7 +12037,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-416",
@@ -11650,7 +12066,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-417",
@@ -11678,7 +12095,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-418",
@@ -11706,7 +12124,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-419",
@@ -11734,7 +12153,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-420",
@@ -11762,7 +12182,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-421",
@@ -11790,7 +12211,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-422",
@@ -11818,7 +12240,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-423",
@@ -11846,7 +12269,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-424",
@@ -11874,7 +12298,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-425",
@@ -11902,7 +12327,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-426",
@@ -11930,7 +12356,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-427",
@@ -11958,7 +12385,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-428",
@@ -11986,7 +12414,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-429",
@@ -12014,7 +12443,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-430",
@@ -12042,7 +12472,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-431",
@@ -12070,7 +12501,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-432",
@@ -12098,7 +12530,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-433",
@@ -12126,7 +12559,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-434",
@@ -12154,7 +12588,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-435",
@@ -12182,7 +12617,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-436",
@@ -12210,7 +12646,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-437",
@@ -12238,7 +12675,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-438",
@@ -12266,7 +12704,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-439",
@@ -12294,7 +12733,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-440",
@@ -12322,7 +12762,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-441",
@@ -12350,7 +12791,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-442",
@@ -12378,7 +12820,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-443",
@@ -12406,7 +12849,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-444",
@@ -12434,7 +12878,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-445",
@@ -12462,7 +12907,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-446",
@@ -12490,7 +12936,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-447",
@@ -12518,7 +12965,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-448",
@@ -12546,7 +12994,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-449",
@@ -12574,7 +13023,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-450",
@@ -12602,7 +13052,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-451",
@@ -12630,7 +13081,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-452",
@@ -12658,7 +13110,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-453",
@@ -12686,7 +13139,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-454",
@@ -12714,7 +13168,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-455",
@@ -12742,7 +13197,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-456",
@@ -12770,7 +13226,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-457",
@@ -12798,7 +13255,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-458",
@@ -12826,7 +13284,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-459",
@@ -12854,7 +13313,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-460",
@@ -12882,7 +13342,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-461",
@@ -12910,7 +13371,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-462",
@@ -12938,7 +13400,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-463",
@@ -12966,7 +13429,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-464",
@@ -12994,7 +13458,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   },
   {
     "id": "tcd-465",
@@ -13022,7 +13487,8 @@ export const tcdCourses: TcdCourse[] = [
     "country": "Ireland",
     "state": "Leinster",
     "city": "Dublin",
-    "countryCode": "IE"
+    "countryCode": "IE",
+    "feeVerified": false
   }
 ];
 

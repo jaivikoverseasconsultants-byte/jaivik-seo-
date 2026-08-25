@@ -1,5 +1,6 @@
 // Real PG course data — lsbuCourses
 export interface LsbuCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -53,7 +54,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-2",
@@ -83,7 +85,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-3",
@@ -128,7 +131,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-4",
@@ -158,7 +162,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-5",
@@ -188,7 +193,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-6",
@@ -218,7 +224,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-7",
@@ -248,7 +255,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-8",
@@ -278,7 +286,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-9",
@@ -308,7 +317,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-10",
@@ -338,7 +348,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-11",
@@ -368,7 +379,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-12",
@@ -413,7 +425,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-13",
@@ -458,7 +471,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-14",
@@ -503,7 +517,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-15",
@@ -548,7 +563,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-16",
@@ -578,7 +594,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-17",
@@ -608,7 +625,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-18",
@@ -653,7 +671,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-19",
@@ -698,7 +717,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-20",
@@ -728,7 +748,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-21",
@@ -773,7 +794,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-22",
@@ -818,7 +840,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-23",
@@ -848,7 +871,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-24",
@@ -893,7 +917,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-25",
@@ -938,7 +963,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-26",
@@ -983,7 +1009,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-27",
@@ -1028,7 +1055,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-28",
@@ -1073,7 +1101,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-29",
@@ -1103,7 +1132,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-30",
@@ -1148,7 +1178,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-31",
@@ -1193,7 +1224,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-32",
@@ -1238,7 +1270,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-33",
@@ -1283,7 +1316,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-34",
@@ -1328,7 +1362,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-35",
@@ -1358,7 +1393,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-36",
@@ -1403,7 +1439,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-37",
@@ -1448,7 +1485,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-38",
@@ -1478,7 +1516,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-39",
@@ -1523,7 +1562,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-40",
@@ -1568,7 +1608,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-41",
@@ -1598,7 +1639,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-42",
@@ -1643,7 +1685,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-43",
@@ -1688,7 +1731,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-44",
@@ -1733,7 +1777,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-45",
@@ -1778,7 +1823,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-46",
@@ -1823,7 +1869,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-47",
@@ -1868,7 +1915,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-48",
@@ -1913,7 +1961,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-49",
@@ -1958,7 +2007,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-50",
@@ -1988,7 +2038,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-51",
@@ -2033,7 +2084,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-52",
@@ -2078,7 +2130,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-53",
@@ -2123,7 +2176,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-54",
@@ -2168,7 +2222,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-55",
@@ -2213,7 +2268,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-56",
@@ -2258,7 +2314,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-57",
@@ -2303,7 +2360,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-58",
@@ -2348,7 +2406,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-59",
@@ -2393,7 +2452,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-60",
@@ -2438,7 +2498,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-61",
@@ -2483,7 +2544,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-62",
@@ -2528,7 +2590,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-63",
@@ -2573,7 +2636,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-64",
@@ -2618,7 +2682,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-65",
@@ -2648,7 +2713,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-66",
@@ -2678,7 +2744,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-67",
@@ -2723,7 +2790,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-68",
@@ -2768,7 +2836,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-69",
@@ -2798,7 +2867,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-70",
@@ -2843,7 +2913,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-71",
@@ -2873,7 +2944,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-72",
@@ -2918,7 +2990,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-73",
@@ -2963,7 +3036,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-74",
@@ -3008,7 +3082,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-75",
@@ -3038,7 +3113,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-76",
@@ -3083,7 +3159,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-77",
@@ -3128,7 +3205,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-78",
@@ -3158,7 +3236,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-79",
@@ -3188,7 +3267,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-80",
@@ -3233,7 +3313,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-81",
@@ -3278,7 +3359,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-82",
@@ -3323,7 +3405,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-83",
@@ -3353,7 +3436,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-84",
@@ -3398,7 +3482,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-85",
@@ -3443,7 +3528,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-86",
@@ -3488,7 +3574,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-87",
@@ -3518,7 +3605,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-88",
@@ -3563,7 +3651,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-89",
@@ -3608,7 +3697,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-90",
@@ -3653,7 +3743,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "PGCE Advanced Paediatric",
         "slug": "lsbu-advanced-paediatric-pgcert"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-91",
@@ -3698,7 +3789,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-92",
@@ -3743,7 +3835,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-93",
@@ -3788,7 +3881,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-94",
@@ -3818,7 +3912,8 @@ export const lsbuCourses: LsbuCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-95",
@@ -3863,7 +3958,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-96",
@@ -3908,7 +4004,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-97",
@@ -3953,7 +4050,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-98",
@@ -3998,7 +4096,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-99",
@@ -4043,7 +4142,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "lsbu-pg-100",
@@ -4088,7 +4188,8 @@ export const lsbuCourses: LsbuCourse[] = [
         "name": "MSc Building Services Engineering",
         "slug": "lsbu-building-services-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   }
 ];
 

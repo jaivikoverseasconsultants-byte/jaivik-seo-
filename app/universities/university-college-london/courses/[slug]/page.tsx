@@ -10,6 +10,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-college-london';
 export async function generateStaticParams() {
@@ -113,8 +114,8 @@ export default async function CoursePage(
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (GBP)', value: `£${course.annualGBP.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee (GBP)', value: feeDisplay(course as any, course.annualGBP, 'GBP') },
+                  { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   { label: 'IELTS Min', value: `${course.ieltsMin}+` },
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
@@ -144,8 +145,8 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
-                { label: 'Annual Fee (GBP)', value: `£${course.annualGBP.toLocaleString()}` },
-                { label: 'Annual Fee (USD)', value: `$${course.annualUSD.toLocaleString()}` },
+                { label: 'Annual Fee (GBP)', value: feeDisplay(course as any, course.annualGBP, 'GBP') },
+                { label: 'Annual Fee (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
                 { label: 'Total Course Fee', value: `£${course.totalGBP.toLocaleString()}` },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -285,7 +286,7 @@ export default async function CoursePage(
                 ['University', 'UCL London'],
                 ['Qualification', course.level],
                 ['Duration', course.duration],
-                ['Annual Fee', `£${course.annualGBP.toLocaleString()}`],
+                ['Annual Fee', feeDisplay(course as any, course.annualGBP, 'GBP')],
                 ['IELTS Min', `${course.ieltsMin}`],
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['Campus', course.campus],

@@ -2,6 +2,7 @@
 // Generated from: https://www.sunderland.ac.uk/sitemap.xml
 
 export interface SunderlandCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -39,7 +40,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-2",
@@ -68,7 +70,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-3",
@@ -97,7 +100,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-4",
@@ -126,7 +130,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-5",
@@ -155,7 +160,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-6",
@@ -184,7 +190,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-7",
@@ -213,7 +220,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-8",
@@ -242,7 +250,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-9",
@@ -271,7 +280,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-10",
@@ -300,7 +310,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-11",
@@ -329,7 +340,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-12",
@@ -358,7 +370,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-13",
@@ -387,7 +400,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-14",
@@ -416,7 +430,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-15",
@@ -445,7 +460,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-16",
@@ -474,7 +490,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-17",
@@ -503,7 +520,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-18",
@@ -532,7 +550,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-19",
@@ -561,7 +580,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-20",
@@ -590,7 +610,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-21",
@@ -619,7 +640,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-22",
@@ -648,7 +670,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-23",
@@ -677,7 +700,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-24",
@@ -706,7 +730,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-25",
@@ -735,7 +760,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-26",
@@ -764,7 +790,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-27",
@@ -793,7 +820,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-28",
@@ -822,7 +850,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-29",
@@ -851,7 +880,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-30",
@@ -880,7 +910,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-31",
@@ -909,7 +940,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-32",
@@ -938,7 +970,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-33",
@@ -967,7 +1000,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-34",
@@ -996,7 +1030,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-35",
@@ -1025,7 +1060,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-36",
@@ -1054,7 +1090,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-37",
@@ -1083,7 +1120,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-38",
@@ -1112,7 +1150,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-39",
@@ -1141,7 +1180,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-40",
@@ -1170,7 +1210,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-41",
@@ -1199,7 +1240,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-42",
@@ -1228,7 +1270,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-43",
@@ -1257,7 +1300,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-44",
@@ -1286,7 +1330,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-45",
@@ -1315,7 +1360,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-46",
@@ -1344,7 +1390,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-47",
@@ -1373,7 +1420,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-48",
@@ -1402,7 +1450,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-49",
@@ -1431,7 +1480,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-50",
@@ -1460,7 +1510,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-51",
@@ -1489,7 +1540,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-52",
@@ -1518,7 +1570,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-53",
@@ -1547,7 +1600,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-54",
@@ -1576,7 +1630,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-55",
@@ -1605,7 +1660,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-56",
@@ -1634,7 +1690,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-57",
@@ -1663,7 +1720,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-58",
@@ -1692,7 +1750,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-59",
@@ -1721,7 +1780,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-60",
@@ -1750,7 +1810,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-61",
@@ -1779,7 +1840,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-62",
@@ -1808,7 +1870,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-63",
@@ -1837,7 +1900,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-64",
@@ -1866,7 +1930,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-65",
@@ -1895,7 +1960,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-66",
@@ -1924,7 +1990,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-67",
@@ -1953,7 +2020,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-68",
@@ -1982,7 +2050,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-69",
@@ -2011,7 +2080,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-70",
@@ -2040,7 +2110,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-71",
@@ -2069,7 +2140,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-72",
@@ -2098,7 +2170,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-73",
@@ -2127,7 +2200,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-74",
@@ -2156,7 +2230,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-75",
@@ -2185,7 +2260,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-76",
@@ -2214,7 +2290,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-77",
@@ -2243,7 +2320,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-78",
@@ -2272,7 +2350,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-79",
@@ -2301,7 +2380,8 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sun-80",
@@ -2330,57 +2410,1479 @@ export const sunderlandCourses: SunderlandCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sunderland",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
-  {"id":"sun-81","name":"BA (Hons) Accounting and Finance (with Professional Exemptions) Full-time","slug":"sun-ug-ba-hons-accounting-and-finance-with-professional-exemptions-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-accounting-finance-professional-exemptions","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-82","name":"BA (Hons) Accounting and Financial Management (Top-Up)","slug":"sun-ug-ba-hons-accounting-and-financial-management-top-up","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-accounting-financial-management-top-up","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-83","name":"BA (Hons) Advertising and Design via Study Centres","slug":"sun-ug-ba-hons-advertising-and-design-via-study-centres","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-advertising-design?option=b115f86c-333f-46af-ba24-1e1cf3ad2b00","level":"BA","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-84","name":"BA (Hons) Animation and Games Art Full-time","slug":"sun-ug-ba-hons-animation-and-games-art-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-animation-games-art","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-85","name":"BA (Hons) Animation and Games Art with Integrated Foundation Year","slug":"sun-ug-ba-hons-animation-and-games-art-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-animation-games-art?option=b1962378-63e7-4a1e-951b-231c07e02ddf","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-86","name":"BA (Hons) Applied Investigation Part-time","slug":"sun-ug-ba-hons-applied-investigation-part-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-applied-investigation","level":"BA","studyLevel":"Undergraduate","duration":"8 months","durationYears":0.67,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-87","name":"BA (Hons) Banking and Finance (Top-Up) Full-time","slug":"sun-ug-ba-hons-banking-and-finance-top-up-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-banking-finance-top-up","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-88","name":"BA (Hons) Business and Financial Management Full-time","slug":"sun-ug-ba-hons-business-and-financial-management-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-financial-management","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-89","name":"BA (Hons) Business and Financial Management with Integrated Foundation Year","slug":"sun-ug-ba-hons-business-and-financial-management-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-financial-management?option=9b8ec6f4-d6ac-4c58-83a5-fc1a8b29a0d6","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-90","name":"BA (Hons) Business and Human Resource Management Full-time","slug":"sun-ug-ba-hons-business-and-human-resource-management-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-human-resource-management","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-91","name":"BA (Hons) Business and Human Resource Management with Integrated Foundation Year","slug":"sun-ug-ba-hons-business-and-human-resource-management-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-human-resource-management?option=3e619a0e-45ee-4767-81cd-77b9fd5f48ea","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-92","name":"BA (Hons) Business and Management Full-time","slug":"sun-ug-ba-hons-business-and-management-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-management","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-93","name":"BA (Hons) Business and Management (Stage 3)","slug":"sun-ug-ba-hons-business-and-management-stage-3","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-management-stage-3","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-94","name":"BA (Hons) Business and Management with Integrated Foundation Year","slug":"sun-ug-ba-hons-business-and-management-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-management?option=9404f911-44bc-4fb1-88ff-3f9a54a52ac8","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-95","name":"BA (Hons) Business and Marketing Management Full-time","slug":"sun-ug-ba-hons-business-and-marketing-management-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-marketing-management","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-96","name":"BA (Hons) Business and Marketing Management (Stage 3)","slug":"sun-ug-ba-hons-business-and-marketing-management-stage-3","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-marketing-management-stage-3","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-97","name":"BA (Hons) Business and Marketing Management with Integrated Foundation Year","slug":"sun-ug-ba-hons-business-and-marketing-management-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-business-marketing-management?option=98ea5ffd-2581-4962-943b-611c66aa357f","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-98","name":"BA (Hons) Childhood and Society Studies (Top-Up) Full-time","slug":"sun-ug-ba-hons-childhood-and-society-studies-top-up-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-society-studies-top-up","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-99","name":"BA (Hons) Childhood Studies Full-time","slug":"sun-ug-ba-hons-childhood-studies-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-studies","level":"BA","studyLevel":"Undergraduate","duration":"6 years","durationYears":6,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-100","name":"BA (Hons) Childhood Studies with Integrated Foundation Year","slug":"sun-ug-ba-hons-childhood-studies-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-studies?option=12f6e11c-dc22-40a7-892b-5e8134fb68c5","level":"BA","studyLevel":"Undergraduate","duration":"6 years","durationYears":6,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-101","name":"BA (Hons) Community and Youth Work Full-time","slug":"sun-ug-ba-hons-community-and-youth-work-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-community-youth-work","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-102","name":"BA (Hons) Counselling (Top-Up) Full-time","slug":"sun-ug-ba-hons-counselling-top-up-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-counselling-top-up","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-103","name":"BA (Hons) Education Studies Full-time","slug":"sun-ug-ba-hons-education-studies-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-education-studies","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-104","name":"BA (Hons) Education Studies (In-service) Part-time","slug":"sun-ug-ba-hons-education-studies-in-service-part-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-education-studies-in-service","level":"BA","studyLevel":"Undergraduate","duration":"2 years","durationYears":2,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-105","name":"BA (Hons) Education Studies with Integrated Foundation Year","slug":"sun-ug-ba-hons-education-studies-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-education-studies?option=3e80caf0-dc7c-45ae-abff-77382018591a","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-106","name":"BA (Hons) English: Creative and Professional Writing Full-time","slug":"sun-ug-ba-hons-english-creative-and-professional-writing-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-english-creative-professional-writing","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-107","name":"BA (Hons) English: Creative and Professional Writing with Integrated Foundation Year","slug":"sun-ug-ba-hons-english-creative-and-professional-writing-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-english-creative-professional-writing?option=c15e9b9d-c990-4379-baeb-37da6a2ca2c3","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-108","name":"BA (Hons) Business and Events Management","slug":"sun-ug-ba-hons-business-and-events-management","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-events-management","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-109","name":"BA (Hons) Fashion Design and Promotion Full-time","slug":"sun-ug-ba-hons-fashion-design-and-promotion-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-design-promotion","level":"BA","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-111","name":"BA (Hons) Fashion Journalism Full-time","slug":"sun-ug-ba-hons-fashion-journalism-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-journalism","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-112","name":"BA (Hons) Fashion Product and Promotion via Study Centres","slug":"sun-ug-ba-hons-fashion-product-and-promotion-via-study-centres","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-product-and-promotion?option=06c60372-0cc6-4e5e-900f-4267cd28fc1a","level":"BA","studyLevel":"Undergraduate","duration":"8 months","durationYears":0.67,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-113","name":"BA (Hons) Film and Media Full-time","slug":"sun-ug-ba-hons-film-and-media-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-film-media","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-114","name":"BA (Hons) Film and Media with Integrated Foundation Year","slug":"sun-ug-ba-hons-film-and-media-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-film-media?option=ba692a07-3d33-4dfe-8f8f-327d4b76c8c0","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-115","name":"BA (Hons) Film Production","slug":"sun-ug-ba-hons-film-production","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-film-production","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-116","name":"BA (Hons) Film Production with Integrated Foundation Year","slug":"sun-ug-ba-hons-film-production-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-film-production?option=7bbfd1e7-0aed-42e8-a9f1-86bd4d0803fa","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-117","name":"BA (Hons) Fine Art Full-time","slug":"sun-ug-ba-hons-fine-art-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-fine-art","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-118","name":"BA (Hons) Fine Art with Integrated Foundation Year","slug":"sun-ug-ba-hons-fine-art-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-fine-art?option=bac90a63-e7b4-4725-9c2a-3d08515f5431","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-119","name":"BA (Hons) Graphic Design Full-time","slug":"sun-ug-ba-hons-graphic-design-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-graphic-design","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-120","name":"BA (Hons) Graphic Design (Top-Up) via Study Centres","slug":"sun-ug-ba-hons-graphic-design-top-up-via-study-centres","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-graphic-design-top-up","level":"BA","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-122","name":"BA (Hons) Graphic Design with Integrated Foundation Year","slug":"sun-ug-ba-hons-graphic-design-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-graphic-design?option=5f67bcb9-61ce-40c1-bb8f-6855ed07056c","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-123","name":"BA (Hons) Illustration and Design Full-time","slug":"sun-ug-ba-hons-illustration-and-design-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-illustration-design","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-124","name":"BA (Hons) Illustration and Design with Integrated Foundation Year","slug":"sun-ug-ba-hons-illustration-and-design-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-illustration-design?option=f3d100b4-ba4a-43ec-bb6b-1e248ea5191c","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-125","name":"BA (Hons) Journalism Full-time","slug":"sun-ug-ba-hons-journalism-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-journalism","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-126","name":"BA (Hons) Journalism with Integrated Foundation Year","slug":"sun-ug-ba-hons-journalism-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-journalism?option=d186b08d-9191-4ccb-aa42-cc6e68910d9c","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-127","name":"BA (Hons) Mass Communications (Top-Up) Full-time","slug":"sun-ug-ba-hons-mass-communications-top-up-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-mass-communications-top-up","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-128","name":"BA (Hons) Media Production Full-time","slug":"sun-ug-ba-hons-media-production-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-media-production","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-129","name":"BA (Hons) Media Production with Integrated Foundation Year","slug":"sun-ug-ba-hons-media-production-with-integrated-foundation-year","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-media-production?option=bc729ca8-1d15-49f2-9a3d-3faf199fa7ab","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-130","name":"BA (Hons) Modern Music Industries","slug":"sun-ug-ba-hons-modern-music-industries","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-modern-music-industries","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"},
-  {"id":"sun-131","name":"BA (Hons) Music (Top-Up) Full-time","slug":"sun-ug-ba-hons-music-top-up-full-time","url":"https://www.sunderland.ac.uk/undergraduate/ba-hons-music-top-up","level":"BA","studyLevel":"Undergraduate","duration":"1 year","durationYears":1,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Sir Tom Cowie Campus","country":"United Kingdom","state":"England","city":"Sunderland","countryCode":"GB"}
+  {
+    "id": "sun-81",
+    "name": "BA (Hons) Accounting and Finance (with Professional Exemptions) Full-time",
+    "slug": "sun-ug-ba-hons-accounting-and-finance-with-professional-exemptions-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-accounting-finance-professional-exemptions",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-82",
+    "name": "BA (Hons) Accounting and Financial Management (Top-Up)",
+    "slug": "sun-ug-ba-hons-accounting-and-financial-management-top-up",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-accounting-financial-management-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-83",
+    "name": "BA (Hons) Advertising and Design via Study Centres",
+    "slug": "sun-ug-ba-hons-advertising-and-design-via-study-centres",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-advertising-design?option=b115f86c-333f-46af-ba24-1e1cf3ad2b00",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-84",
+    "name": "BA (Hons) Animation and Games Art Full-time",
+    "slug": "sun-ug-ba-hons-animation-and-games-art-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-animation-games-art",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-85",
+    "name": "BA (Hons) Animation and Games Art with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-animation-and-games-art-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-animation-games-art?option=b1962378-63e7-4a1e-951b-231c07e02ddf",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-86",
+    "name": "BA (Hons) Applied Investigation Part-time",
+    "slug": "sun-ug-ba-hons-applied-investigation-part-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-applied-investigation",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "8 months",
+    "durationYears": 0.67,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-87",
+    "name": "BA (Hons) Banking and Finance (Top-Up) Full-time",
+    "slug": "sun-ug-ba-hons-banking-and-finance-top-up-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-banking-finance-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-88",
+    "name": "BA (Hons) Business and Financial Management Full-time",
+    "slug": "sun-ug-ba-hons-business-and-financial-management-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-financial-management",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-89",
+    "name": "BA (Hons) Business and Financial Management with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-business-and-financial-management-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-financial-management?option=9b8ec6f4-d6ac-4c58-83a5-fc1a8b29a0d6",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-90",
+    "name": "BA (Hons) Business and Human Resource Management Full-time",
+    "slug": "sun-ug-ba-hons-business-and-human-resource-management-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-human-resource-management",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-91",
+    "name": "BA (Hons) Business and Human Resource Management with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-business-and-human-resource-management-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-human-resource-management?option=3e619a0e-45ee-4767-81cd-77b9fd5f48ea",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-92",
+    "name": "BA (Hons) Business and Management Full-time",
+    "slug": "sun-ug-ba-hons-business-and-management-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-management",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-93",
+    "name": "BA (Hons) Business and Management (Stage 3)",
+    "slug": "sun-ug-ba-hons-business-and-management-stage-3",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-management-stage-3",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-94",
+    "name": "BA (Hons) Business and Management with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-business-and-management-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-management?option=9404f911-44bc-4fb1-88ff-3f9a54a52ac8",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-95",
+    "name": "BA (Hons) Business and Marketing Management Full-time",
+    "slug": "sun-ug-ba-hons-business-and-marketing-management-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-marketing-management",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-96",
+    "name": "BA (Hons) Business and Marketing Management (Stage 3)",
+    "slug": "sun-ug-ba-hons-business-and-marketing-management-stage-3",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-marketing-management-stage-3",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-97",
+    "name": "BA (Hons) Business and Marketing Management with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-business-and-marketing-management-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-business-marketing-management?option=98ea5ffd-2581-4962-943b-611c66aa357f",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-98",
+    "name": "BA (Hons) Childhood and Society Studies (Top-Up) Full-time",
+    "slug": "sun-ug-ba-hons-childhood-and-society-studies-top-up-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-society-studies-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-99",
+    "name": "BA (Hons) Childhood Studies Full-time",
+    "slug": "sun-ug-ba-hons-childhood-studies-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-studies",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "6 years",
+    "durationYears": 6,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-100",
+    "name": "BA (Hons) Childhood Studies with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-childhood-studies-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-childhood-studies?option=12f6e11c-dc22-40a7-892b-5e8134fb68c5",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "6 years",
+    "durationYears": 6,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-101",
+    "name": "BA (Hons) Community and Youth Work Full-time",
+    "slug": "sun-ug-ba-hons-community-and-youth-work-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-community-youth-work",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-102",
+    "name": "BA (Hons) Counselling (Top-Up) Full-time",
+    "slug": "sun-ug-ba-hons-counselling-top-up-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-counselling-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-103",
+    "name": "BA (Hons) Education Studies Full-time",
+    "slug": "sun-ug-ba-hons-education-studies-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-education-studies",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-104",
+    "name": "BA (Hons) Education Studies (In-service) Part-time",
+    "slug": "sun-ug-ba-hons-education-studies-in-service-part-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-education-studies-in-service",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-105",
+    "name": "BA (Hons) Education Studies with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-education-studies-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-education-studies?option=3e80caf0-dc7c-45ae-abff-77382018591a",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-106",
+    "name": "BA (Hons) English: Creative and Professional Writing Full-time",
+    "slug": "sun-ug-ba-hons-english-creative-and-professional-writing-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-english-creative-professional-writing",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-107",
+    "name": "BA (Hons) English: Creative and Professional Writing with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-english-creative-and-professional-writing-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-english-creative-professional-writing?option=c15e9b9d-c990-4379-baeb-37da6a2ca2c3",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-108",
+    "name": "BA (Hons) Business and Events Management",
+    "slug": "sun-ug-ba-hons-business-and-events-management",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-events-management",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-109",
+    "name": "BA (Hons) Fashion Design and Promotion Full-time",
+    "slug": "sun-ug-ba-hons-fashion-design-and-promotion-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-design-promotion",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-111",
+    "name": "BA (Hons) Fashion Journalism Full-time",
+    "slug": "sun-ug-ba-hons-fashion-journalism-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-journalism",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-112",
+    "name": "BA (Hons) Fashion Product and Promotion via Study Centres",
+    "slug": "sun-ug-ba-hons-fashion-product-and-promotion-via-study-centres",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fashion-product-and-promotion?option=06c60372-0cc6-4e5e-900f-4267cd28fc1a",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "8 months",
+    "durationYears": 0.67,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-113",
+    "name": "BA (Hons) Film and Media Full-time",
+    "slug": "sun-ug-ba-hons-film-and-media-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-film-media",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-114",
+    "name": "BA (Hons) Film and Media with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-film-and-media-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-film-media?option=ba692a07-3d33-4dfe-8f8f-327d4b76c8c0",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-115",
+    "name": "BA (Hons) Film Production",
+    "slug": "sun-ug-ba-hons-film-production",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-film-production",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-116",
+    "name": "BA (Hons) Film Production with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-film-production-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-film-production?option=7bbfd1e7-0aed-42e8-a9f1-86bd4d0803fa",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-117",
+    "name": "BA (Hons) Fine Art Full-time",
+    "slug": "sun-ug-ba-hons-fine-art-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fine-art",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-118",
+    "name": "BA (Hons) Fine Art with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-fine-art-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-fine-art?option=bac90a63-e7b4-4725-9c2a-3d08515f5431",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-119",
+    "name": "BA (Hons) Graphic Design Full-time",
+    "slug": "sun-ug-ba-hons-graphic-design-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-graphic-design",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-120",
+    "name": "BA (Hons) Graphic Design (Top-Up) via Study Centres",
+    "slug": "sun-ug-ba-hons-graphic-design-top-up-via-study-centres",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-graphic-design-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-122",
+    "name": "BA (Hons) Graphic Design with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-graphic-design-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-graphic-design?option=5f67bcb9-61ce-40c1-bb8f-6855ed07056c",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-123",
+    "name": "BA (Hons) Illustration and Design Full-time",
+    "slug": "sun-ug-ba-hons-illustration-and-design-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-illustration-design",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-124",
+    "name": "BA (Hons) Illustration and Design with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-illustration-and-design-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-illustration-design?option=f3d100b4-ba4a-43ec-bb6b-1e248ea5191c",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-125",
+    "name": "BA (Hons) Journalism Full-time",
+    "slug": "sun-ug-ba-hons-journalism-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-journalism",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-126",
+    "name": "BA (Hons) Journalism with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-journalism-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-journalism?option=d186b08d-9191-4ccb-aa42-cc6e68910d9c",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-127",
+    "name": "BA (Hons) Mass Communications (Top-Up) Full-time",
+    "slug": "sun-ug-ba-hons-mass-communications-top-up-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-mass-communications-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-128",
+    "name": "BA (Hons) Media Production Full-time",
+    "slug": "sun-ug-ba-hons-media-production-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-media-production",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-129",
+    "name": "BA (Hons) Media Production with Integrated Foundation Year",
+    "slug": "sun-ug-ba-hons-media-production-with-integrated-foundation-year",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-media-production?option=bc729ca8-1d15-49f2-9a3d-3faf199fa7ab",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-130",
+    "name": "BA (Hons) Modern Music Industries",
+    "slug": "sun-ug-ba-hons-modern-music-industries",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-modern-music-industries",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "sun-131",
+    "name": "BA (Hons) Music (Top-Up) Full-time",
+    "slug": "sun-ug-ba-hons-music-top-up-full-time",
+    "url": "https://www.sunderland.ac.uk/undergraduate/ba-hons-music-top-up",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "1 year",
+    "durationYears": 1,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Sir Tom Cowie Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Sunderland",
+    "countryCode": "GB",
+    "feeVerified": false
+  }
 ];
 
 export function getSunderlandCourseBySlug(slug: string): SunderlandCourse | undefined {

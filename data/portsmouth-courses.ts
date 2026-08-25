@@ -2,6 +2,7 @@
 // Source: https://www.port.ac.uk/sitemap.xml (pages 1-4, /study/courses/postgraduate-taught/*)
 
 export interface PortsmouthCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -39,7 +40,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-2",
@@ -68,7 +70,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-3",
@@ -97,7 +100,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-4",
@@ -126,7 +130,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-5",
@@ -155,7 +160,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-6",
@@ -184,7 +190,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-7",
@@ -213,7 +220,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-8",
@@ -242,7 +250,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-9",
@@ -271,7 +280,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-10",
@@ -300,7 +310,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-11",
@@ -329,7 +340,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-12",
@@ -358,7 +370,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-13",
@@ -387,7 +400,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-14",
@@ -416,7 +430,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-15",
@@ -445,7 +460,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-16",
@@ -474,7 +490,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-17",
@@ -503,7 +520,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-18",
@@ -532,7 +550,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-19",
@@ -561,7 +580,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-20",
@@ -590,7 +610,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-21",
@@ -619,7 +640,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-22",
@@ -648,7 +670,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-23",
@@ -677,7 +700,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-24",
@@ -706,7 +730,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-25",
@@ -735,7 +760,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-26",
@@ -764,7 +790,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-27",
@@ -793,7 +820,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-28",
@@ -822,7 +850,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-29",
@@ -851,7 +880,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-30",
@@ -880,7 +910,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-31",
@@ -909,7 +940,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-32",
@@ -938,7 +970,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-33",
@@ -967,7 +1000,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-34",
@@ -996,7 +1030,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-35",
@@ -1025,7 +1060,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-36",
@@ -1054,7 +1090,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-37",
@@ -1083,7 +1120,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-38",
@@ -1112,7 +1150,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-39",
@@ -1141,7 +1180,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-40",
@@ -1170,7 +1210,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-41",
@@ -1199,7 +1240,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-42",
@@ -1228,7 +1270,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-43",
@@ -1257,7 +1300,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-44",
@@ -1286,7 +1330,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-45",
@@ -1315,7 +1360,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-46",
@@ -1344,7 +1390,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-47",
@@ -1373,7 +1420,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-48",
@@ -1402,7 +1450,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-49",
@@ -1431,7 +1480,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-50",
@@ -1460,7 +1510,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-51",
@@ -1489,7 +1540,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-52",
@@ -1518,7 +1570,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-53",
@@ -1547,7 +1600,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-54",
@@ -1576,7 +1630,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-55",
@@ -1605,7 +1660,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-56",
@@ -1634,7 +1690,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-57",
@@ -1663,7 +1720,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-58",
@@ -1692,7 +1750,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-59",
@@ -1721,7 +1780,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-60",
@@ -1750,7 +1810,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-61",
@@ -1779,7 +1840,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-62",
@@ -1808,7 +1870,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-63",
@@ -1837,7 +1900,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-64",
@@ -1866,7 +1930,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-65",
@@ -1895,7 +1960,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-66",
@@ -1924,7 +1990,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-67",
@@ -1953,7 +2020,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-68",
@@ -1982,7 +2050,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-69",
@@ -2011,7 +2080,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-70",
@@ -2040,7 +2110,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-71",
@@ -2069,7 +2140,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-72",
@@ -2098,7 +2170,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-73",
@@ -2127,7 +2200,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-74",
@@ -2156,7 +2230,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-75",
@@ -2185,7 +2260,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-76",
@@ -2214,7 +2290,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-77",
@@ -2243,7 +2320,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-78",
@@ -2272,7 +2350,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-79",
@@ -2301,7 +2380,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-80",
@@ -2330,7 +2410,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-81",
@@ -2359,7 +2440,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-82",
@@ -2388,7 +2470,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-83",
@@ -2417,7 +2500,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-84",
@@ -2446,7 +2530,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-85",
@@ -2475,7 +2560,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-86",
@@ -2504,7 +2590,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-87",
@@ -2533,7 +2620,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-88",
@@ -2562,7 +2650,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-89",
@@ -2591,7 +2680,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-90",
@@ -2620,7 +2710,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-91",
@@ -2649,7 +2740,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-92",
@@ -2678,7 +2770,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-93",
@@ -2707,7 +2800,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-94",
@@ -2736,7 +2830,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-95",
@@ -2765,7 +2860,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-96",
@@ -2794,7 +2890,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-97",
@@ -2823,7 +2920,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-98",
@@ -2852,7 +2950,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-99",
@@ -2881,7 +2980,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-100",
@@ -2910,7 +3010,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-101",
@@ -2939,7 +3040,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-102",
@@ -2968,7 +3070,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-103",
@@ -2997,7 +3100,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-104",
@@ -3026,7 +3130,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-105",
@@ -3055,7 +3160,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-106",
@@ -3084,7 +3190,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-107",
@@ -3113,7 +3220,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-108",
@@ -3142,7 +3250,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-109",
@@ -3171,7 +3280,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-110",
@@ -3200,7 +3310,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-111",
@@ -3229,7 +3340,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-112",
@@ -3258,7 +3370,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-113",
@@ -3287,7 +3400,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-114",
@@ -3316,7 +3430,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-115",
@@ -3345,7 +3460,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-116",
@@ -3374,7 +3490,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-117",
@@ -3403,7 +3520,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-118",
@@ -3432,7 +3550,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-119",
@@ -3461,7 +3580,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-120",
@@ -3490,7 +3610,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-121",
@@ -3519,7 +3640,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-122",
@@ -3548,7 +3670,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-123",
@@ -3577,7 +3700,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-124",
@@ -3606,7 +3730,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-125",
@@ -3635,7 +3760,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-126",
@@ -3664,7 +3790,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-127",
@@ -3693,7 +3820,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-128",
@@ -3722,7 +3850,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-129",
@@ -3751,7 +3880,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-130",
@@ -3780,7 +3910,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-131",
@@ -3809,7 +3940,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-132",
@@ -3838,7 +3970,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-133",
@@ -3867,7 +4000,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-134",
@@ -3896,7 +4030,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-135",
@@ -3925,7 +4060,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-136",
@@ -3954,7 +4090,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-137",
@@ -3983,7 +4120,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-138",
@@ -4012,7 +4150,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-139",
@@ -4041,7 +4180,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-140",
@@ -4070,7 +4210,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-141",
@@ -4099,7 +4240,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-142",
@@ -4128,7 +4270,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-143",
@@ -4157,7 +4300,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-144",
@@ -4186,7 +4330,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-145",
@@ -4215,7 +4360,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-146",
@@ -4244,7 +4390,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-147",
@@ -4273,7 +4420,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-148",
@@ -4302,7 +4450,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-149",
@@ -4331,7 +4480,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-150",
@@ -4360,7 +4510,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-151",
@@ -4389,7 +4540,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-152",
@@ -4418,7 +4570,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-153",
@@ -4447,7 +4600,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-154",
@@ -4476,7 +4630,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-155",
@@ -4505,7 +4660,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-156",
@@ -4534,7 +4690,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-157",
@@ -4563,7 +4720,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-158",
@@ -4592,7 +4750,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-159",
@@ -4621,7 +4780,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-160",
@@ -4650,7 +4810,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-161",
@@ -4679,7 +4840,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-162",
@@ -4708,7 +4870,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-163",
@@ -4737,7 +4900,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-164",
@@ -4766,7 +4930,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-165",
@@ -4795,7 +4960,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-166",
@@ -4824,7 +4990,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-167",
@@ -4853,7 +5020,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-168",
@@ -4882,7 +5050,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-169",
@@ -4911,7 +5080,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-170",
@@ -4940,7 +5110,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-171",
@@ -4969,7 +5140,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-172",
@@ -4998,7 +5170,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-173",
@@ -5027,7 +5200,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-174",
@@ -5056,7 +5230,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-175",
@@ -5085,7 +5260,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-176",
@@ -5114,7 +5290,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-177",
@@ -5143,7 +5320,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "portsmouth-178",
@@ -5172,7 +5350,8 @@ export const portsmouthCourses: PortsmouthCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Portsmouth",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

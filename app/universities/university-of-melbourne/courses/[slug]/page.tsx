@@ -11,6 +11,7 @@ import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLab
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-of-melbourne';
 export async function generateStaticParams() {
@@ -146,7 +147,7 @@ export default async function CoursePage(
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 { label: 'Annual Fee (AUD)', value: annualFeeLabel(course) },
-                { label: 'Annual Fee (USD)', value: `$${course.annualUSD.toLocaleString()}` },
+                { label: 'Annual Fee (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
                 { label: 'Total Course Fee', value: totalFeeLabel(course) },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
@@ -300,7 +301,7 @@ export default async function CoursePage(
                 ['University', 'University of Melbourne'],
                 ['Qualification', course.level],
                 ['Duration', course.duration],
-                ['Annual Fee', `A$${course.annualAUD.toLocaleString()}`],
+                ['Annual Fee', feeDisplay(course as any, course.annualAUD, 'AUD')],
                 ['IELTS Min', `${course.ieltsMin}`],
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['Campus', course.campus],

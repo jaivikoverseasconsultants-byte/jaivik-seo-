@@ -9,6 +9,7 @@
 // and every URL verified to resolve with real page content before inclusion.
 
 export interface UmanitobaCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
@@ -48,7 +49,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-2",
@@ -78,7 +80,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-3",
@@ -108,7 +111,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-4",
@@ -138,7 +142,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-5",
@@ -168,7 +173,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-6",
@@ -198,7 +204,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-7",
@@ -228,7 +235,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-8",
@@ -258,7 +266,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-9",
@@ -288,7 +297,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-10",
@@ -318,7 +328,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-11",
@@ -348,7 +359,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-12",
@@ -378,7 +390,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-13",
@@ -408,7 +421,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-14",
@@ -438,7 +452,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-15",
@@ -468,7 +483,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-16",
@@ -498,7 +514,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-17",
@@ -528,7 +545,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-18",
@@ -558,7 +576,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-19",
@@ -588,7 +607,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-20",
@@ -618,7 +638,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-21",
@@ -648,7 +669,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-22",
@@ -678,7 +700,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-23",
@@ -708,7 +731,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-24",
@@ -738,7 +762,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-25",
@@ -768,7 +793,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-26",
@@ -798,7 +824,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-27",
@@ -828,7 +855,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-28",
@@ -858,7 +886,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-29",
@@ -888,7 +917,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-30",
@@ -918,7 +948,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-31",
@@ -948,7 +979,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-32",
@@ -978,7 +1010,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-33",
@@ -1008,7 +1041,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-34",
@@ -1038,7 +1072,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-35",
@@ -1068,7 +1103,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-36",
@@ -1098,7 +1134,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-37",
@@ -1128,7 +1165,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-38",
@@ -1158,7 +1196,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-39",
@@ -1188,7 +1227,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-40",
@@ -1218,7 +1258,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-41",
@@ -1248,7 +1289,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-42",
@@ -1278,7 +1320,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-43",
@@ -1308,7 +1351,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-44",
@@ -1338,7 +1382,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-45",
@@ -1368,7 +1413,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-46",
@@ -1398,7 +1444,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-47",
@@ -1428,7 +1475,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-48",
@@ -1458,7 +1506,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-49",
@@ -1488,7 +1537,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-50",
@@ -1518,7 +1568,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-51",
@@ -1548,7 +1599,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-52",
@@ -1578,7 +1630,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-53",
@@ -1608,7 +1661,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-54",
@@ -1638,7 +1692,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-55",
@@ -1668,7 +1723,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-56",
@@ -1698,7 +1754,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-57",
@@ -1728,7 +1785,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-58",
@@ -1758,7 +1816,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-59",
@@ -1788,7 +1847,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-60",
@@ -1818,7 +1878,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-61",
@@ -1848,7 +1909,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-62",
@@ -1878,7 +1940,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-63",
@@ -1908,7 +1971,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-64",
@@ -1938,7 +2002,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-65",
@@ -1968,7 +2033,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-66",
@@ -1998,7 +2064,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-67",
@@ -2028,7 +2095,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-68",
@@ -2058,7 +2126,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-69",
@@ -2088,7 +2157,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-70",
@@ -2118,7 +2188,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-71",
@@ -2148,7 +2219,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-72",
@@ -2178,7 +2250,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-73",
@@ -2208,7 +2281,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-74",
@@ -2238,7 +2312,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-75",
@@ -2268,7 +2343,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-76",
@@ -2298,7 +2374,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-77",
@@ -2328,7 +2405,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-78",
@@ -2358,7 +2436,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-79",
@@ -2388,7 +2467,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-80",
@@ -2418,7 +2498,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-81",
@@ -2448,7 +2529,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-82",
@@ -2478,7 +2560,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-83",
@@ -2508,7 +2591,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-84",
@@ -2538,7 +2622,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-85",
@@ -2568,7 +2653,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-86",
@@ -2598,7 +2684,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-87",
@@ -2628,7 +2715,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-88",
@@ -2658,7 +2746,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-89",
@@ -2688,7 +2777,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-90",
@@ -2718,7 +2808,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-91",
@@ -2748,7 +2839,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-92",
@@ -2778,7 +2870,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-93",
@@ -2808,7 +2901,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-94",
@@ -2838,7 +2932,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-95",
@@ -2868,7 +2963,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-96",
@@ -2898,7 +2994,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-97",
@@ -2928,7 +3025,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-98",
@@ -2958,7 +3056,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-99",
@@ -2988,7 +3087,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-100",
@@ -3018,7 +3118,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-101",
@@ -3048,7 +3149,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-102",
@@ -3078,7 +3180,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-103",
@@ -3108,7 +3211,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-104",
@@ -3138,7 +3242,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-105",
@@ -3168,7 +3273,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-106",
@@ -3198,7 +3304,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-107",
@@ -3228,7 +3335,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-108",
@@ -3258,7 +3366,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-109",
@@ -3288,7 +3397,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-110",
@@ -3318,7 +3428,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-111",
@@ -3348,7 +3459,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-112",
@@ -3378,7 +3490,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-113",
@@ -3408,7 +3521,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-114",
@@ -3438,7 +3552,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-115",
@@ -3468,7 +3583,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-116",
@@ -3498,7 +3614,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-117",
@@ -3528,7 +3645,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-118",
@@ -3558,7 +3676,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-119",
@@ -3588,7 +3707,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-120",
@@ -3618,7 +3738,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-121",
@@ -3648,7 +3769,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-122",
@@ -3678,7 +3800,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-123",
@@ -3708,7 +3831,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-124",
@@ -3738,7 +3862,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-125",
@@ -3768,7 +3893,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-126",
@@ -3798,7 +3924,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-127",
@@ -3828,7 +3955,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-128",
@@ -3858,7 +3986,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-129",
@@ -3888,7 +4017,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-130",
@@ -3918,7 +4048,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-131",
@@ -3948,7 +4079,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-132",
@@ -3978,7 +4110,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-133",
@@ -4008,7 +4141,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-134",
@@ -4038,7 +4172,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-135",
@@ -4068,7 +4203,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-136",
@@ -4098,7 +4234,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-137",
@@ -4128,7 +4265,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-138",
@@ -4158,7 +4296,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-139",
@@ -4188,7 +4327,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-140",
@@ -4218,7 +4358,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-141",
@@ -4248,7 +4389,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-142",
@@ -4278,7 +4420,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-143",
@@ -4308,7 +4451,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-144",
@@ -4338,7 +4482,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-145",
@@ -4368,7 +4513,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-146",
@@ -4398,7 +4544,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-147",
@@ -4428,7 +4575,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-148",
@@ -4458,7 +4606,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-149",
@@ -4488,7 +4637,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-150",
@@ -4518,7 +4668,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-151",
@@ -4548,7 +4699,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-152",
@@ -4578,7 +4730,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-153",
@@ -4608,7 +4761,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-154",
@@ -4638,7 +4792,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-155",
@@ -4668,7 +4823,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-156",
@@ -4698,7 +4854,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-157",
@@ -4728,7 +4885,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-158",
@@ -4758,7 +4916,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-159",
@@ -4788,7 +4947,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-160",
@@ -4818,7 +4978,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-161",
@@ -4848,7 +5009,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-162",
@@ -4878,7 +5040,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-163",
@@ -4908,7 +5071,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-164",
@@ -4938,7 +5102,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-165",
@@ -4968,7 +5133,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-166",
@@ -4998,7 +5164,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-167",
@@ -5028,7 +5195,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-168",
@@ -5058,7 +5226,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-169",
@@ -5088,7 +5257,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-170",
@@ -5118,7 +5288,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-171",
@@ -5148,7 +5319,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-172",
@@ -5178,7 +5350,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-173",
@@ -5208,7 +5381,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-174",
@@ -5238,7 +5412,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-175",
@@ -5268,7 +5443,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-176",
@@ -5298,7 +5474,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-177",
@@ -5328,7 +5505,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-178",
@@ -5358,7 +5536,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-179",
@@ -5388,7 +5567,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-180",
@@ -5418,7 +5598,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-181",
@@ -5448,7 +5629,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-182",
@@ -5478,7 +5660,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-183",
@@ -5508,7 +5691,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-184",
@@ -5538,7 +5722,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-185",
@@ -5568,7 +5753,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-186",
@@ -5598,7 +5784,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-187",
@@ -5628,7 +5815,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-188",
@@ -5658,7 +5846,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-189",
@@ -5688,7 +5877,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-190",
@@ -5718,7 +5908,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-191",
@@ -5748,7 +5939,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-192",
@@ -5778,7 +5970,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-193",
@@ -5808,7 +6001,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-194",
@@ -5838,7 +6032,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-195",
@@ -5868,7 +6063,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-196",
@@ -5898,7 +6094,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-197",
@@ -5928,7 +6125,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-198",
@@ -5958,7 +6156,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-199",
@@ -5988,7 +6187,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-200",
@@ -6018,7 +6218,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-201",
@@ -6048,7 +6249,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-202",
@@ -6078,7 +6280,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-203",
@@ -6108,7 +6311,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-204",
@@ -6138,7 +6342,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-205",
@@ -6168,7 +6373,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-206",
@@ -6198,7 +6404,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-207",
@@ -6228,7 +6435,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-208",
@@ -6258,7 +6466,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-209",
@@ -6288,7 +6497,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-210",
@@ -6318,7 +6528,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-211",
@@ -6348,7 +6559,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-212",
@@ -6378,7 +6590,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-213",
@@ -6408,7 +6621,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-214",
@@ -6438,7 +6652,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-215",
@@ -6468,7 +6683,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-216",
@@ -6498,7 +6714,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-217",
@@ -6528,7 +6745,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-218",
@@ -6558,7 +6776,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-219",
@@ -6588,7 +6807,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-220",
@@ -6618,7 +6838,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-221",
@@ -6648,7 +6869,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-222",
@@ -6678,7 +6900,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-223",
@@ -6708,7 +6931,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-224",
@@ -6738,7 +6962,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-225",
@@ -6768,7 +6993,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-226",
@@ -6798,7 +7024,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-227",
@@ -6828,7 +7055,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-228",
@@ -6858,7 +7086,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-229",
@@ -6888,7 +7117,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-230",
@@ -6918,7 +7148,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-231",
@@ -6948,7 +7179,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-232",
@@ -6978,7 +7210,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-233",
@@ -7008,7 +7241,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-234",
@@ -7038,7 +7272,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-235",
@@ -7068,7 +7303,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-236",
@@ -7098,7 +7334,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-237",
@@ -7128,7 +7365,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-238",
@@ -7158,7 +7396,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-239",
@@ -7188,7 +7427,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-240",
@@ -7218,7 +7458,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-241",
@@ -7248,7 +7489,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-242",
@@ -7278,7 +7520,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-243",
@@ -7308,7 +7551,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-244",
@@ -7338,7 +7582,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-245",
@@ -7368,7 +7613,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-246",
@@ -7398,7 +7644,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-247",
@@ -7428,7 +7675,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-248",
@@ -7458,7 +7706,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-249",
@@ -7488,7 +7737,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-250",
@@ -7518,7 +7768,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-251",
@@ -7548,7 +7799,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-252",
@@ -7578,7 +7830,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-253",
@@ -7608,7 +7861,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-254",
@@ -7638,7 +7892,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-255",
@@ -7668,7 +7923,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-256",
@@ -7698,7 +7954,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-257",
@@ -7728,7 +7985,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-258",
@@ -7758,7 +8016,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-259",
@@ -7788,7 +8047,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-260",
@@ -7818,7 +8078,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-261",
@@ -7848,7 +8109,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-262",
@@ -7878,7 +8140,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-263",
@@ -7908,7 +8171,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-264",
@@ -7938,7 +8202,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-265",
@@ -7968,7 +8233,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-266",
@@ -7998,7 +8264,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-267",
@@ -8028,7 +8295,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-268",
@@ -8058,7 +8326,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-269",
@@ -8088,7 +8357,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-270",
@@ -8118,7 +8388,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-271",
@@ -8148,7 +8419,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-272",
@@ -8178,7 +8450,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-273",
@@ -8208,7 +8481,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-274",
@@ -8238,7 +8512,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-275",
@@ -8268,7 +8543,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-276",
@@ -8298,7 +8574,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-277",
@@ -8328,7 +8605,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-278",
@@ -8358,7 +8636,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-279",
@@ -8388,7 +8667,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-280",
@@ -8418,7 +8698,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-281",
@@ -8448,7 +8729,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-282",
@@ -8478,7 +8760,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-283",
@@ -8508,7 +8791,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-284",
@@ -8538,7 +8822,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-285",
@@ -8568,7 +8853,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-286",
@@ -8598,7 +8884,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-287",
@@ -8628,7 +8915,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-288",
@@ -8658,7 +8946,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-289",
@@ -8688,7 +8977,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-290",
@@ -8718,7 +9008,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-291",
@@ -8748,7 +9039,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-292",
@@ -8778,7 +9070,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-293",
@@ -8808,7 +9101,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-294",
@@ -8838,7 +9132,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-295",
@@ -8868,7 +9163,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-296",
@@ -8898,7 +9194,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-297",
@@ -8928,7 +9225,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-298",
@@ -8958,7 +9256,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-299",
@@ -8988,7 +9287,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-300",
@@ -9018,7 +9318,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-301",
@@ -9048,7 +9349,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-302",
@@ -9078,7 +9380,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-303",
@@ -9108,7 +9411,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-304",
@@ -9138,7 +9442,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-305",
@@ -9168,7 +9473,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-306",
@@ -9198,7 +9504,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-307",
@@ -9228,7 +9535,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-308",
@@ -9258,7 +9566,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-309",
@@ -9288,7 +9597,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-310",
@@ -9318,7 +9628,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-311",
@@ -9348,7 +9659,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-312",
@@ -9378,7 +9690,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-313",
@@ -9408,7 +9721,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-314",
@@ -9438,7 +9752,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-315",
@@ -9468,7 +9783,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-316",
@@ -9498,7 +9814,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-317",
@@ -9528,7 +9845,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-318",
@@ -9558,7 +9876,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-319",
@@ -9588,7 +9907,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-320",
@@ -9618,7 +9938,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-321",
@@ -9648,7 +9969,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-322",
@@ -9678,7 +10000,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-323",
@@ -9708,7 +10031,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-324",
@@ -9738,7 +10062,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-325",
@@ -9768,7 +10093,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-326",
@@ -9798,7 +10124,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-327",
@@ -9828,7 +10155,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-328",
@@ -9858,7 +10186,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-329",
@@ -9888,7 +10217,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-330",
@@ -9918,7 +10248,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-331",
@@ -9948,7 +10279,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-332",
@@ -9978,7 +10310,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-333",
@@ -10008,7 +10341,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-334",
@@ -10038,7 +10372,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-335",
@@ -10068,7 +10403,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-336",
@@ -10098,7 +10434,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-337",
@@ -10128,7 +10465,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-338",
@@ -10158,7 +10496,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-339",
@@ -10188,7 +10527,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "umanitoba-340",
@@ -10218,7 +10558,8 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "province": "Manitoba",
     "city": "Winnipeg",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   }
 ];
 

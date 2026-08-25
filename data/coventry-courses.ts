@@ -1,5 +1,6 @@
 // 125 REAL courses from coventry.ac.uk/course-sitemap.xml
 export interface CoventryCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -37,7 +38,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-2",
@@ -66,7 +68,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-3",
@@ -95,7 +98,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-4",
@@ -124,7 +128,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-5",
@@ -153,7 +158,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-6",
@@ -182,7 +188,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-7",
@@ -211,7 +218,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-8",
@@ -240,7 +248,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-9",
@@ -269,7 +278,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-10",
@@ -298,7 +308,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-11",
@@ -327,7 +338,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-12",
@@ -356,7 +368,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-13",
@@ -385,7 +398,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-14",
@@ -414,7 +428,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-15",
@@ -443,7 +458,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-16",
@@ -472,7 +488,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-17",
@@ -501,7 +518,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-18",
@@ -530,7 +548,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-19",
@@ -559,7 +578,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-20",
@@ -588,7 +608,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-21",
@@ -617,7 +638,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-22",
@@ -646,7 +668,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-23",
@@ -675,7 +698,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-24",
@@ -704,7 +728,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-25",
@@ -733,7 +758,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-26",
@@ -762,7 +788,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-27",
@@ -791,7 +818,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-28",
@@ -820,7 +848,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-29",
@@ -849,7 +878,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-30",
@@ -878,7 +908,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-31",
@@ -907,7 +938,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-32",
@@ -936,7 +968,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-33",
@@ -965,7 +998,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-34",
@@ -994,7 +1028,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-35",
@@ -1023,7 +1058,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-36",
@@ -1052,7 +1088,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-37",
@@ -1081,7 +1118,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-38",
@@ -1110,7 +1148,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-39",
@@ -1139,7 +1178,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-40",
@@ -1168,7 +1208,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-41",
@@ -1197,7 +1238,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-42",
@@ -1226,7 +1268,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-43",
@@ -1255,7 +1298,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-44",
@@ -1284,7 +1328,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-45",
@@ -1313,7 +1358,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-46",
@@ -1342,7 +1388,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-47",
@@ -1371,7 +1418,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-48",
@@ -1400,7 +1448,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-49",
@@ -1429,7 +1478,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-50",
@@ -1458,7 +1508,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-51",
@@ -1487,7 +1538,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-52",
@@ -1516,7 +1568,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-53",
@@ -1545,7 +1598,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-54",
@@ -1574,7 +1628,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-55",
@@ -1603,7 +1658,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-56",
@@ -1632,7 +1688,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-57",
@@ -1661,7 +1718,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-58",
@@ -1690,7 +1748,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-59",
@@ -1719,7 +1778,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-60",
@@ -1748,7 +1808,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-61",
@@ -1777,7 +1838,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-62",
@@ -1806,7 +1868,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-63",
@@ -1835,7 +1898,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-64",
@@ -1864,7 +1928,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-65",
@@ -1893,7 +1958,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-66",
@@ -1922,7 +1988,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-67",
@@ -1951,7 +2018,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-68",
@@ -1980,7 +2048,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-69",
@@ -2009,7 +2078,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-70",
@@ -2038,7 +2108,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-71",
@@ -2067,7 +2138,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-72",
@@ -2096,7 +2168,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-73",
@@ -2125,7 +2198,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-74",
@@ -2154,7 +2228,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-75",
@@ -2183,7 +2258,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-76",
@@ -2212,7 +2288,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-77",
@@ -2241,7 +2318,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-78",
@@ -2270,7 +2348,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-79",
@@ -2299,7 +2378,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-80",
@@ -2328,7 +2408,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-81",
@@ -2357,7 +2438,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-82",
@@ -2386,7 +2468,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-83",
@@ -2415,7 +2498,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-84",
@@ -2444,7 +2528,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-85",
@@ -2473,7 +2558,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-86",
@@ -2502,7 +2588,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-87",
@@ -2531,7 +2618,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-88",
@@ -2560,7 +2648,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-89",
@@ -2589,7 +2678,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-90",
@@ -2618,7 +2708,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-91",
@@ -2647,7 +2738,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-92",
@@ -2676,7 +2768,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-93",
@@ -2705,7 +2798,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-94",
@@ -2734,7 +2828,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-95",
@@ -2763,7 +2858,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-96",
@@ -2792,7 +2888,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-97",
@@ -2821,7 +2918,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-98",
@@ -2850,7 +2948,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-99",
@@ -2879,7 +2978,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-100",
@@ -2908,7 +3008,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-101",
@@ -2937,7 +3038,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-102",
@@ -2966,7 +3068,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-103",
@@ -2995,7 +3098,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-104",
@@ -3024,7 +3128,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-105",
@@ -3053,7 +3158,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-106",
@@ -3082,7 +3188,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-107",
@@ -3111,7 +3218,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-108",
@@ -3140,7 +3248,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-109",
@@ -3169,7 +3278,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-110",
@@ -3198,7 +3308,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-111",
@@ -3227,7 +3338,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-112",
@@ -3256,7 +3368,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-113",
@@ -3285,7 +3398,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-114",
@@ -3314,7 +3428,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-115",
@@ -3343,7 +3458,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-116",
@@ -3372,7 +3488,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-117",
@@ -3401,7 +3518,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-118",
@@ -3430,7 +3548,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-119",
@@ -3459,7 +3578,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-120",
@@ -3488,7 +3608,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-121",
@@ -3517,7 +3638,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-122",
@@ -3546,7 +3668,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-123",
@@ -3575,7 +3698,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-124",
@@ -3604,7 +3728,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "coventry-125",
@@ -3633,7 +3758,8 @@ export const coventryCourses: CoventryCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Coventry",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

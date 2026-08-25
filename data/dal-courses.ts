@@ -5,6 +5,7 @@
 // before inclusion — "Course" (non-degree), "Minor"-only, and "Upgrading and Pathways" entries excluded.
 
 export interface DalCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
@@ -43,7 +44,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-2",
@@ -73,7 +75,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-3",
@@ -103,7 +106,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-4",
@@ -133,7 +137,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-5",
@@ -163,7 +168,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-6",
@@ -192,7 +198,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-7",
@@ -222,7 +229,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-8",
@@ -252,7 +260,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-9",
@@ -281,7 +290,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-10",
@@ -310,7 +320,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-11",
@@ -340,7 +351,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-12",
@@ -370,7 +382,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-13",
@@ -400,7 +413,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-14",
@@ -429,7 +443,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-15",
@@ -459,7 +474,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-16",
@@ -488,7 +504,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-17",
@@ -518,7 +535,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-18",
@@ -548,7 +566,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-19",
@@ -577,7 +596,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-20",
@@ -607,7 +627,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-21",
@@ -636,7 +657,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-22",
@@ -665,7 +687,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-23",
@@ -695,7 +718,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-24",
@@ -724,7 +748,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-25",
@@ -753,7 +778,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-26",
@@ -783,7 +809,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-27",
@@ -812,7 +839,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-28",
@@ -841,7 +869,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-29",
@@ -871,7 +900,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-30",
@@ -901,7 +931,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-31",
@@ -931,7 +962,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-32",
@@ -960,7 +992,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-33",
@@ -989,7 +1022,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-34",
@@ -1019,7 +1053,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-35",
@@ -1048,7 +1083,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-36",
@@ -1077,7 +1113,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-37",
@@ -1106,7 +1143,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-38",
@@ -1136,7 +1174,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-39",
@@ -1166,7 +1205,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-40",
@@ -1195,7 +1235,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-41",
@@ -1225,7 +1266,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-42",
@@ -1255,7 +1297,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-43",
@@ -1285,7 +1328,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-44",
@@ -1314,7 +1358,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-45",
@@ -1344,7 +1389,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-46",
@@ -1373,7 +1419,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-47",
@@ -1402,7 +1449,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-48",
@@ -1432,7 +1480,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-49",
@@ -1461,7 +1510,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-50",
@@ -1491,7 +1541,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-51",
@@ -1520,7 +1571,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-52",
@@ -1550,7 +1602,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-53",
@@ -1579,7 +1632,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-54",
@@ -1608,7 +1662,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-55",
@@ -1637,7 +1692,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-56",
@@ -1666,7 +1722,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-57",
@@ -1696,7 +1753,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-58",
@@ -1725,7 +1783,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-59",
@@ -1754,7 +1813,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-60",
@@ -1783,7 +1843,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-61",
@@ -1812,7 +1873,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-62",
@@ -1841,7 +1903,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-63",
@@ -1870,7 +1933,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-64",
@@ -1899,7 +1963,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-65",
@@ -1929,7 +1994,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-66",
@@ -1958,7 +2024,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-67",
@@ -1987,7 +2054,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-68",
@@ -2016,7 +2084,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-69",
@@ -2046,7 +2115,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-70",
@@ -2076,7 +2146,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-71",
@@ -2106,7 +2177,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-72",
@@ -2135,7 +2207,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-73",
@@ -2164,7 +2237,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-74",
@@ -2194,7 +2268,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-75",
@@ -2224,7 +2299,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-76",
@@ -2253,7 +2329,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-77",
@@ -2283,7 +2360,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-78",
@@ -2313,7 +2391,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-79",
@@ -2343,7 +2422,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-80",
@@ -2372,7 +2452,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-81",
@@ -2401,7 +2482,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-82",
@@ -2430,7 +2512,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-83",
@@ -2460,7 +2543,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-84",
@@ -2489,7 +2573,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-85",
@@ -2518,7 +2603,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-86",
@@ -2548,7 +2634,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-87",
@@ -2577,7 +2664,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-88",
@@ -2607,7 +2695,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-89",
@@ -2637,7 +2726,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-90",
@@ -2666,7 +2756,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-91",
@@ -2696,7 +2787,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-92",
@@ -2725,7 +2817,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-93",
@@ -2754,7 +2847,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-94",
@@ -2783,7 +2877,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-95",
@@ -2812,7 +2907,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-96",
@@ -2841,7 +2937,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-97",
@@ -2871,7 +2968,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-98",
@@ -2900,7 +2998,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-99",
@@ -2929,7 +3028,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-100",
@@ -2958,7 +3058,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-101",
@@ -2987,7 +3088,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-102",
@@ -3017,7 +3119,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-103",
@@ -3046,7 +3149,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-104",
@@ -3075,7 +3179,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-105",
@@ -3104,7 +3209,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-106",
@@ -3133,7 +3239,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-107",
@@ -3162,7 +3269,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-108",
@@ -3193,7 +3301,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-109",
@@ -3222,7 +3331,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-110",
@@ -3251,7 +3361,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-111",
@@ -3280,7 +3391,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-112",
@@ -3309,7 +3421,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-113",
@@ -3338,7 +3451,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-114",
@@ -3367,7 +3481,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-115",
@@ -3396,7 +3511,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-116",
@@ -3425,7 +3541,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-117",
@@ -3454,7 +3571,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-118",
@@ -3483,7 +3601,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-119",
@@ -3514,7 +3633,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-120",
@@ -3543,7 +3663,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-121",
@@ -3574,7 +3695,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-122",
@@ -3604,7 +3726,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-123",
@@ -3635,7 +3758,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-124",
@@ -3664,7 +3788,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-125",
@@ -3694,7 +3819,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-126",
@@ -3723,7 +3849,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-127",
@@ -3752,7 +3879,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-128",
@@ -3782,7 +3910,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-129",
@@ -3813,7 +3942,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-130",
@@ -3842,7 +3972,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-131",
@@ -3871,7 +4002,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-132",
@@ -3900,7 +4032,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-133",
@@ -3929,7 +4062,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-134",
@@ -3958,7 +4092,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-135",
@@ -3989,7 +4124,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-136",
@@ -4020,7 +4156,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-137",
@@ -4051,7 +4188,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-138",
@@ -4082,7 +4220,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-139",
@@ -4111,7 +4250,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-140",
@@ -4140,7 +4280,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-141",
@@ -4169,7 +4310,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-142",
@@ -4198,7 +4340,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-143",
@@ -4227,7 +4370,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-144",
@@ -4256,7 +4400,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-145",
@@ -4285,7 +4430,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-146",
@@ -4314,7 +4460,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-147",
@@ -4343,7 +4490,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-148",
@@ -4372,7 +4520,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-149",
@@ -4402,7 +4551,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-150",
@@ -4432,7 +4582,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-151",
@@ -4461,7 +4612,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-152",
@@ -4490,7 +4642,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-153",
@@ -4519,7 +4672,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-154",
@@ -4548,7 +4702,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-155",
@@ -4577,7 +4732,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-156",
@@ -4608,7 +4764,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-157",
@@ -4639,7 +4796,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-158",
@@ -4670,7 +4828,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-159",
@@ -4699,7 +4858,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-160",
@@ -4730,7 +4890,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-161",
@@ -4759,7 +4920,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-162",
@@ -4788,7 +4950,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-163",
@@ -4817,7 +4980,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-164",
@@ -4846,7 +5010,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-165",
@@ -4875,7 +5040,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-166",
@@ -4906,7 +5072,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-167",
@@ -4937,7 +5104,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-168",
@@ -4966,7 +5134,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-169",
@@ -4995,7 +5164,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-170",
@@ -5024,7 +5194,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-171",
@@ -5054,7 +5225,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-172",
@@ -5083,7 +5255,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-173",
@@ -5112,7 +5285,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-174",
@@ -5143,7 +5317,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-175",
@@ -5172,7 +5347,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-176",
@@ -5201,7 +5377,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-177",
@@ -5230,7 +5407,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-178",
@@ -5259,7 +5437,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-179",
@@ -5289,7 +5468,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-180",
@@ -5318,7 +5498,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-181",
@@ -5347,7 +5528,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-182",
@@ -5378,7 +5560,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-183",
@@ -5407,7 +5590,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-184",
@@ -5436,7 +5620,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-185",
@@ -5465,7 +5650,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-186",
@@ -5494,7 +5680,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-187",
@@ -5523,7 +5710,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-188",
@@ -5552,7 +5740,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-189",
@@ -5581,7 +5770,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-190",
@@ -5610,7 +5800,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-191",
@@ -5639,7 +5830,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-192",
@@ -5668,7 +5860,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-193",
@@ -5697,7 +5890,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-194",
@@ -5726,7 +5920,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-195",
@@ -5757,7 +5952,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-196",
@@ -5786,7 +5982,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-197",
@@ -5815,7 +6012,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-198",
@@ -5846,7 +6044,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-199",
@@ -5875,7 +6074,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-200",
@@ -5904,7 +6104,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-201",
@@ -5933,7 +6134,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-202",
@@ -5962,7 +6164,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-203",
@@ -5991,7 +6194,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-204",
@@ -6021,7 +6225,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-205",
@@ -6050,7 +6255,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-206",
@@ -6079,7 +6285,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-207",
@@ -6108,7 +6315,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-208",
@@ -6137,7 +6345,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-209",
@@ -6166,7 +6375,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-210",
@@ -6195,7 +6405,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-211",
@@ -6224,7 +6435,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-212",
@@ -6253,7 +6465,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-213",
@@ -6282,7 +6495,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-214",
@@ -6311,7 +6525,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-215",
@@ -6340,7 +6555,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-216",
@@ -6369,7 +6585,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-217",
@@ -6398,7 +6615,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-218",
@@ -6427,7 +6645,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-219",
@@ -6456,7 +6675,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-220",
@@ -6485,7 +6705,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-221",
@@ -6514,7 +6735,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-222",
@@ -6543,7 +6765,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-223",
@@ -6573,7 +6796,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-224",
@@ -6602,7 +6826,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-225",
@@ -6631,7 +6856,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-226",
@@ -6660,7 +6886,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-227",
@@ -6689,7 +6916,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-228",
@@ -6718,7 +6946,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-229",
@@ -6747,7 +6976,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-230",
@@ -6776,7 +7006,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-231",
@@ -6805,7 +7036,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-232",
@@ -6834,7 +7066,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-233",
@@ -6863,7 +7096,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-234",
@@ -6892,7 +7126,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-235",
@@ -6921,7 +7156,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-236",
@@ -6950,7 +7186,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-237",
@@ -6979,7 +7216,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-238",
@@ -7008,7 +7246,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-239",
@@ -7037,7 +7276,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-240",
@@ -7066,7 +7306,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-241",
@@ -7095,7 +7336,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-242",
@@ -7124,7 +7366,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-243",
@@ -7153,7 +7396,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-244",
@@ -7182,7 +7426,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-245",
@@ -7211,7 +7456,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-246",
@@ -7240,7 +7486,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-247",
@@ -7269,7 +7516,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-248",
@@ -7298,7 +7546,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-249",
@@ -7329,7 +7578,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-250",
@@ -7358,7 +7608,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-251",
@@ -7387,7 +7638,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Truro",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-252",
@@ -7416,7 +7668,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-253",
@@ -7445,7 +7698,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-254",
@@ -7474,7 +7728,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-255",
@@ -7503,7 +7758,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-256",
@@ -7532,7 +7788,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-257",
@@ -7561,7 +7818,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-258",
@@ -7590,7 +7848,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-259",
@@ -7619,7 +7878,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-260",
@@ -7648,7 +7908,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-261",
@@ -7677,7 +7938,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-262",
@@ -7706,7 +7968,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-263",
@@ -7735,7 +7998,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-264",
@@ -7764,7 +8028,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-265",
@@ -7793,7 +8058,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-266",
@@ -7822,7 +8088,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-267",
@@ -7851,7 +8118,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-268",
@@ -7880,7 +8148,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-269",
@@ -7909,7 +8178,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-270",
@@ -7938,7 +8208,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-271",
@@ -7967,7 +8238,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-272",
@@ -7996,7 +8268,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-273",
@@ -8025,7 +8298,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-274",
@@ -8054,7 +8328,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-275",
@@ -8083,7 +8358,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-276",
@@ -8112,7 +8388,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-277",
@@ -8141,7 +8418,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-278",
@@ -8170,7 +8448,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-279",
@@ -8199,7 +8478,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-280",
@@ -8228,7 +8508,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-281",
@@ -8257,7 +8538,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-282",
@@ -8286,7 +8568,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-283",
@@ -8315,7 +8598,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-284",
@@ -8344,7 +8628,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-285",
@@ -8373,7 +8658,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-286",
@@ -8402,7 +8688,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-287",
@@ -8431,7 +8718,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-288",
@@ -8460,7 +8748,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-289",
@@ -8489,7 +8778,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-290",
@@ -8518,7 +8808,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-291",
@@ -8547,7 +8838,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-292",
@@ -8576,7 +8868,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-293",
@@ -8605,7 +8898,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-294",
@@ -8634,7 +8928,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-295",
@@ -8663,7 +8958,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-296",
@@ -8692,7 +8988,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-297",
@@ -8721,7 +9018,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-298",
@@ -8750,7 +9048,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "dal-299",
@@ -8779,7 +9078,8 @@ export const dalCourses: DalCourse[] = [
     "province": "Nova Scotia",
     "city": "Halifax",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   }
 ];
 

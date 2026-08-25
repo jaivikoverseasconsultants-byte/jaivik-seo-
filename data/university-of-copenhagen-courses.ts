@@ -1,7 +1,8 @@
 // Auto-generated — University of Copenhagen official programme catalogue
 // 136 courses | crawled: 2026-07-01
 
-export interface UniversityOfCopenhagenCourse { id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface UniversityOfCopenhagenCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
   {
@@ -30,7 +31,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-2",
@@ -58,7 +60,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-3",
@@ -86,7 +89,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-4",
@@ -114,7 +118,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-5",
@@ -142,7 +147,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-6",
@@ -170,7 +176,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-7",
@@ -198,7 +205,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-8",
@@ -226,7 +234,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-9",
@@ -254,7 +263,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-10",
@@ -282,7 +292,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-11",
@@ -310,7 +321,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-12",
@@ -338,7 +350,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-13",
@@ -366,7 +379,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-14",
@@ -394,7 +408,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-15",
@@ -422,7 +437,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-16",
@@ -450,7 +466,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-17",
@@ -478,7 +495,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-18",
@@ -506,7 +524,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-19",
@@ -534,7 +553,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-20",
@@ -562,7 +582,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-21",
@@ -590,7 +611,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-22",
@@ -618,7 +640,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-23",
@@ -646,7 +669,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-24",
@@ -674,7 +698,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-25",
@@ -702,7 +727,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-26",
@@ -730,7 +756,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-27",
@@ -758,7 +785,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-28",
@@ -786,7 +814,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-29",
@@ -814,7 +843,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-30",
@@ -842,7 +872,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-31",
@@ -870,7 +901,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-32",
@@ -898,7 +930,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-33",
@@ -926,7 +959,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-34",
@@ -954,7 +988,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-35",
@@ -982,7 +1017,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-36",
@@ -1010,7 +1046,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-37",
@@ -1038,7 +1075,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-38",
@@ -1066,7 +1104,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-39",
@@ -1094,7 +1133,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-40",
@@ -1122,7 +1162,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-41",
@@ -1150,7 +1191,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-42",
@@ -1178,7 +1220,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-43",
@@ -1206,7 +1249,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-44",
@@ -1234,7 +1278,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-45",
@@ -1262,7 +1307,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-46",
@@ -1290,7 +1336,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-47",
@@ -1318,7 +1365,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-48",
@@ -1346,7 +1394,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-49",
@@ -1374,7 +1423,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-50",
@@ -1402,7 +1452,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-51",
@@ -1430,7 +1481,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-52",
@@ -1458,7 +1510,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-53",
@@ -1486,7 +1539,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-54",
@@ -1514,7 +1568,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-55",
@@ -1542,7 +1597,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-56",
@@ -1570,7 +1626,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-57",
@@ -1598,7 +1655,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-58",
@@ -1626,7 +1684,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-59",
@@ -1654,7 +1713,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-60",
@@ -1682,7 +1742,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-61",
@@ -1710,7 +1771,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-62",
@@ -1738,7 +1800,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-63",
@@ -1766,7 +1829,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-64",
@@ -1794,7 +1858,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-65",
@@ -1822,7 +1887,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-66",
@@ -1850,7 +1916,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-67",
@@ -1878,7 +1945,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-68",
@@ -1906,7 +1974,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-69",
@@ -1934,7 +2003,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-70",
@@ -1962,7 +2032,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-71",
@@ -1990,7 +2061,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-72",
@@ -2018,7 +2090,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-73",
@@ -2046,7 +2119,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-74",
@@ -2074,7 +2148,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-75",
@@ -2102,7 +2177,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-76",
@@ -2130,7 +2206,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-77",
@@ -2158,7 +2235,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-78",
@@ -2186,7 +2264,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-79",
@@ -2214,7 +2293,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-80",
@@ -2242,7 +2322,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-81",
@@ -2270,7 +2351,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-82",
@@ -2298,7 +2380,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-83",
@@ -2326,7 +2409,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-84",
@@ -2354,7 +2438,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-85",
@@ -2382,7 +2467,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-86",
@@ -2410,7 +2496,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-87",
@@ -2438,7 +2525,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-88",
@@ -2466,7 +2554,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-89",
@@ -2494,7 +2583,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-90",
@@ -2522,7 +2612,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-91",
@@ -2550,7 +2641,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-92",
@@ -2578,7 +2670,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-93",
@@ -2606,7 +2699,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-94",
@@ -2634,7 +2728,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-95",
@@ -2662,7 +2757,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-96",
@@ -2690,7 +2786,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-97",
@@ -2718,7 +2815,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-98",
@@ -2746,7 +2844,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-99",
@@ -2774,7 +2873,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-100",
@@ -2802,7 +2902,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-101",
@@ -2830,7 +2931,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-102",
@@ -2858,7 +2960,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-103",
@@ -2886,7 +2989,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-104",
@@ -2914,7 +3018,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-105",
@@ -2942,7 +3047,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-106",
@@ -2970,7 +3076,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-107",
@@ -2998,7 +3105,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-108",
@@ -3026,7 +3134,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-109",
@@ -3054,7 +3163,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-110",
@@ -3082,7 +3192,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-111",
@@ -3110,7 +3221,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-112",
@@ -3138,7 +3250,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-113",
@@ -3166,7 +3279,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-114",
@@ -3194,7 +3308,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-115",
@@ -3222,7 +3337,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-116",
@@ -3250,7 +3366,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-117",
@@ -3278,7 +3395,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-118",
@@ -3306,7 +3424,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-119",
@@ -3334,7 +3453,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-120",
@@ -3362,7 +3482,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-121",
@@ -3390,7 +3511,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-122",
@@ -3418,7 +3540,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-123",
@@ -3446,7 +3569,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-124",
@@ -3474,7 +3598,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-125",
@@ -3502,7 +3627,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-126",
@@ -3530,7 +3656,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-127",
@@ -3558,7 +3685,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-128",
@@ -3586,7 +3714,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-129",
@@ -3614,7 +3743,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-130",
@@ -3642,7 +3772,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-131",
@@ -3670,7 +3801,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-132",
@@ -3698,7 +3830,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-133",
@@ -3726,7 +3859,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-134",
@@ -3754,7 +3888,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-135",
@@ -3782,7 +3917,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   },
   {
     "id": "ku-136",
@@ -3810,7 +3946,8 @@ export const universityOfCopenhagenCourses: UniversityOfCopenhagenCourse[] = [
     "country": "Denmark",
     "state": "Capital Region",
     "city": "Copenhagen",
-    "countryCode": "DK"
+    "countryCode": "DK",
+    "feeVerified": false
   }
 ];
 

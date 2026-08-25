@@ -1,7 +1,8 @@
 // Auto-generated — Leiden University official programme catalogue
 // 58 courses | crawled: 2026-07-01
 
-export interface LeidenUniversityCourse { id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface LeidenUniversityCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const leidenUniversityCourses: LeidenUniversityCourse[] = [
   {
@@ -31,7 +32,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-2",
@@ -59,7 +61,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-3",
@@ -88,7 +91,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-4",
@@ -117,7 +121,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-5",
@@ -146,7 +151,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-6",
@@ -175,7 +181,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-7",
@@ -203,7 +210,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-8",
@@ -232,7 +240,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-9",
@@ -261,7 +270,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-10",
@@ -290,7 +300,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-11",
@@ -318,7 +329,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-12",
@@ -347,7 +359,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-13",
@@ -375,7 +388,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-14",
@@ -404,7 +418,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-15",
@@ -433,7 +448,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-16",
@@ -461,7 +477,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-17",
@@ -490,7 +507,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-18",
@@ -519,7 +537,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-19",
@@ -548,7 +567,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-20",
@@ -577,7 +597,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-21",
@@ -606,7 +627,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-22",
@@ -635,7 +657,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-23",
@@ -664,7 +687,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-24",
@@ -693,7 +717,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-25",
@@ -722,7 +747,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-26",
@@ -751,7 +777,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-27",
@@ -780,7 +807,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-28",
@@ -809,7 +837,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-29",
@@ -838,7 +867,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-30",
@@ -867,7 +897,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-31",
@@ -896,7 +927,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-32",
@@ -925,7 +957,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-33",
@@ -954,7 +987,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-34",
@@ -983,7 +1017,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-35",
@@ -1012,7 +1047,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-36",
@@ -1041,7 +1077,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-37",
@@ -1070,7 +1107,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-38",
@@ -1099,7 +1137,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-39",
@@ -1128,7 +1167,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-40",
@@ -1157,7 +1197,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-41",
@@ -1186,7 +1227,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-42",
@@ -1215,7 +1257,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-43",
@@ -1244,7 +1287,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-44",
@@ -1273,7 +1317,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-45",
@@ -1302,7 +1347,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-46",
@@ -1331,7 +1377,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-47",
@@ -1359,7 +1406,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-48",
@@ -1387,7 +1435,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-49",
@@ -1415,7 +1464,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-50",
@@ -1443,7 +1493,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-51",
@@ -1471,7 +1522,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-52",
@@ -1499,7 +1551,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-53",
@@ -1527,7 +1580,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-54",
@@ -1555,7 +1609,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-55",
@@ -1583,7 +1638,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-56",
@@ -1611,7 +1667,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-57",
@@ -1639,7 +1696,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "leiden-58",
@@ -1667,7 +1725,8 @@ export const leidenUniversityCourses: LeidenUniversityCourse[] = [
     "country": "Netherlands",
     "state": "South Holland",
     "city": "Leiden",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   }
 ];
 

@@ -2,6 +2,7 @@
 // Generated from Wayback Machine CDX / real URL patterns
 
 export interface AruCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -40,7 +41,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-2",
@@ -70,7 +72,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-3",
@@ -100,7 +103,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-4",
@@ -130,7 +134,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-5",
@@ -160,7 +165,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-6",
@@ -190,7 +196,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-7",
@@ -220,7 +227,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-8",
@@ -264,7 +272,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-9",
@@ -294,7 +303,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-10",
@@ -323,7 +333,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-11",
@@ -353,7 +364,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-12",
@@ -383,7 +395,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-13",
@@ -413,7 +426,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-14",
@@ -443,7 +457,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-15",
@@ -473,7 +488,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-16",
@@ -503,7 +519,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-17",
@@ -533,7 +550,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-18",
@@ -563,7 +581,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-19",
@@ -593,7 +612,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-20",
@@ -623,7 +643,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-21",
@@ -653,7 +674,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-22",
@@ -683,7 +705,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-23",
@@ -713,7 +736,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-24",
@@ -743,7 +767,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-25",
@@ -773,7 +798,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-26",
@@ -803,7 +829,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-27",
@@ -833,7 +860,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-28",
@@ -878,7 +906,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-29",
@@ -908,7 +937,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-30",
@@ -938,7 +968,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-31",
@@ -968,7 +999,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-32",
@@ -998,7 +1030,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-33",
@@ -1028,7 +1061,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-34",
@@ -1058,7 +1092,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-35",
@@ -1088,7 +1123,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-36",
@@ -1118,7 +1154,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-37",
@@ -1148,7 +1185,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-38",
@@ -1178,7 +1216,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-39",
@@ -1208,7 +1247,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-40",
@@ -1238,7 +1278,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-41",
@@ -1268,7 +1309,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-42",
@@ -1297,7 +1339,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-43",
@@ -1327,7 +1370,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-44",
@@ -1357,7 +1401,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-45",
@@ -1387,7 +1432,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-46",
@@ -1417,7 +1463,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-47",
@@ -1447,7 +1494,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-48",
@@ -1477,7 +1525,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-49",
@@ -1507,7 +1556,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-50",
@@ -1537,7 +1587,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-51",
@@ -1567,7 +1618,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-52",
@@ -1597,7 +1649,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-53",
@@ -1627,7 +1680,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-54",
@@ -1657,7 +1711,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-55",
@@ -1687,7 +1742,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-56",
@@ -1717,7 +1773,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-57",
@@ -1762,7 +1819,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-58",
@@ -1807,7 +1865,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-59",
@@ -1837,7 +1896,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-60",
@@ -1867,7 +1927,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-61",
@@ -1897,7 +1958,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-62",
@@ -1927,7 +1989,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-63",
@@ -1957,7 +2020,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-64",
@@ -1987,7 +2051,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-65",
@@ -2017,7 +2082,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-66",
@@ -2047,7 +2113,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-67",
@@ -2077,7 +2144,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-68",
@@ -2107,7 +2175,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-69",
@@ -2137,7 +2206,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-70",
@@ -2167,7 +2237,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-71",
@@ -2197,7 +2268,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-72",
@@ -2227,7 +2299,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-73",
@@ -2257,7 +2330,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-74",
@@ -2287,7 +2361,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-75",
@@ -2317,7 +2392,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-76",
@@ -2347,7 +2423,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-77",
@@ -2392,7 +2469,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-78",
@@ -2422,7 +2500,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-79",
@@ -2452,7 +2531,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-80",
@@ -2482,7 +2562,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-81",
@@ -2512,7 +2593,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-82",
@@ -2542,7 +2624,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-83",
@@ -2572,7 +2655,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-84",
@@ -2617,7 +2701,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-85",
@@ -2647,7 +2732,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-86",
@@ -2677,7 +2763,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-87",
@@ -2707,7 +2794,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-88",
@@ -2737,7 +2825,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-89",
@@ -2767,7 +2856,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-90",
@@ -2797,7 +2887,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-91",
@@ -2827,7 +2918,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-92",
@@ -2857,7 +2949,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-93",
@@ -2887,7 +2980,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-94",
@@ -2917,7 +3011,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-95",
@@ -2947,7 +3042,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-96",
@@ -2977,7 +3073,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-97",
@@ -3007,7 +3104,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-98",
@@ -3037,7 +3135,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-99",
@@ -3067,7 +3166,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-100",
@@ -3097,7 +3197,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-101",
@@ -3127,7 +3228,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-102",
@@ -3157,7 +3259,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-103",
@@ -3187,7 +3290,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-104",
@@ -3217,7 +3321,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-105",
@@ -3247,7 +3352,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-106",
@@ -3277,7 +3383,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-107",
@@ -3307,7 +3414,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-108",
@@ -3337,7 +3445,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-109",
@@ -3367,7 +3476,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-110",
@@ -3397,7 +3507,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-111",
@@ -3427,7 +3538,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-112",
@@ -3457,7 +3569,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-113",
@@ -3487,7 +3600,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-114",
@@ -3517,7 +3631,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-115",
@@ -3547,7 +3662,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-116",
@@ -3577,7 +3693,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-117",
@@ -3607,7 +3724,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-118",
@@ -3652,7 +3770,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-119",
@@ -3682,7 +3801,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-120",
@@ -3712,7 +3832,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-121",
@@ -3742,7 +3863,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-122",
@@ -3772,7 +3894,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-123",
@@ -3802,7 +3925,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-124",
@@ -3832,7 +3956,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-125",
@@ -3862,7 +3987,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-126",
@@ -3892,7 +4018,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-127",
@@ -3922,7 +4049,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-128",
@@ -3952,7 +4080,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-129",
@@ -3982,7 +4111,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-130",
@@ -4026,7 +4156,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-131",
@@ -4056,7 +4187,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-132",
@@ -4086,7 +4218,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-133",
@@ -4116,7 +4249,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-134",
@@ -4146,7 +4280,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-135",
@@ -4176,7 +4311,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-136",
@@ -4205,7 +4341,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-137",
@@ -4235,7 +4372,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-138",
@@ -4265,7 +4403,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-139",
@@ -4295,7 +4434,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-140",
@@ -4325,7 +4465,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-141",
@@ -4355,7 +4496,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-142",
@@ -4384,7 +4526,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-143",
@@ -4414,7 +4557,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-144",
@@ -4444,7 +4588,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-145",
@@ -4474,7 +4619,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-146",
@@ -4504,7 +4650,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-147",
@@ -4534,7 +4681,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-148",
@@ -4564,7 +4712,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-149",
@@ -4594,7 +4743,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-150",
@@ -4624,7 +4774,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-151",
@@ -4654,7 +4805,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-152",
@@ -4684,7 +4836,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-153",
@@ -4713,7 +4866,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-154",
@@ -4757,7 +4911,8 @@ export const aruCourses: AruCourse[] = [
         "name": "MSc Accounting And Financial Management",
         "slug": "aru-accounting-and-financial-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "aru-pg-155",
@@ -4787,7 +4942,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-156",
@@ -4817,7 +4973,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-157",
@@ -4847,7 +5004,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-158",
@@ -4877,7 +5035,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-159",
@@ -4907,7 +5066,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-160",
@@ -4937,7 +5097,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-161",
@@ -4967,7 +5128,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-162",
@@ -4997,7 +5159,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-163",
@@ -5027,7 +5190,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-164",
@@ -5057,7 +5221,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-165",
@@ -5087,7 +5252,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "aru-pg-166",
@@ -5116,7 +5282,8 @@ export const aruCourses: AruCourse[] = [
     "state": "England",
     "city": "Cambridge",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   }
 ];
 

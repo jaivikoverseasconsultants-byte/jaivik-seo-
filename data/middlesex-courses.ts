@@ -1,5 +1,6 @@
 // 110 REAL courses from mdx.ac.uk/sitemap.xml
 export interface MiddlesexCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -36,7 +37,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-2",
@@ -64,7 +66,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-3",
@@ -92,7 +95,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-4",
@@ -120,7 +124,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-5",
@@ -148,7 +153,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-6",
@@ -176,7 +182,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-7",
@@ -204,7 +211,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-8",
@@ -232,7 +240,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-9",
@@ -260,7 +269,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-10",
@@ -288,7 +298,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-11",
@@ -316,7 +327,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-12",
@@ -344,7 +356,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-13",
@@ -372,7 +385,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-14",
@@ -400,7 +414,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-15",
@@ -428,7 +443,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-16",
@@ -456,7 +472,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-17",
@@ -484,7 +501,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-18",
@@ -512,7 +530,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-19",
@@ -540,7 +559,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-20",
@@ -568,7 +588,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-21",
@@ -596,7 +617,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-22",
@@ -624,7 +646,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-23",
@@ -652,7 +675,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-24",
@@ -680,7 +704,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-25",
@@ -708,7 +733,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-26",
@@ -736,7 +762,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-27",
@@ -764,7 +791,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-28",
@@ -792,7 +820,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-29",
@@ -820,7 +849,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-30",
@@ -848,7 +878,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-31",
@@ -876,7 +907,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-32",
@@ -904,7 +936,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-33",
@@ -932,7 +965,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-34",
@@ -960,7 +994,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-35",
@@ -988,7 +1023,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-36",
@@ -1016,7 +1052,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-37",
@@ -1044,7 +1081,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-38",
@@ -1072,7 +1110,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-39",
@@ -1100,7 +1139,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-40",
@@ -1128,7 +1168,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-41",
@@ -1156,7 +1197,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-42",
@@ -1184,7 +1226,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-43",
@@ -1212,7 +1255,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-44",
@@ -1240,7 +1284,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-45",
@@ -1268,7 +1313,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-46",
@@ -1296,7 +1342,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-47",
@@ -1324,7 +1371,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-48",
@@ -1352,7 +1400,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-49",
@@ -1380,7 +1429,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-50",
@@ -1408,7 +1458,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-51",
@@ -1436,7 +1487,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-52",
@@ -1464,7 +1516,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-53",
@@ -1492,7 +1545,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-54",
@@ -1520,7 +1574,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-55",
@@ -1548,7 +1603,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-56",
@@ -1576,7 +1632,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-57",
@@ -1604,7 +1661,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-58",
@@ -1632,7 +1690,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-59",
@@ -1660,7 +1719,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-60",
@@ -1688,7 +1748,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-61",
@@ -1716,7 +1777,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-62",
@@ -1744,7 +1806,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-63",
@@ -1772,7 +1835,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-64",
@@ -1800,7 +1864,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-65",
@@ -1828,7 +1893,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-66",
@@ -1856,7 +1922,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-67",
@@ -1884,7 +1951,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-68",
@@ -1912,7 +1980,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-69",
@@ -1940,7 +2009,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-70",
@@ -1968,7 +2038,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-71",
@@ -1996,7 +2067,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-72",
@@ -2024,7 +2096,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-73",
@@ -2052,7 +2125,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-74",
@@ -2080,7 +2154,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-75",
@@ -2108,7 +2183,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-76",
@@ -2136,7 +2212,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-77",
@@ -2164,7 +2241,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-78",
@@ -2192,7 +2270,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-79",
@@ -2220,7 +2299,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-80",
@@ -2248,7 +2328,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-81",
@@ -2276,7 +2357,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-82",
@@ -2304,7 +2386,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-83",
@@ -2332,7 +2415,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-84",
@@ -2360,7 +2444,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-85",
@@ -2388,7 +2473,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-86",
@@ -2416,7 +2502,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-87",
@@ -2444,7 +2531,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-88",
@@ -2472,7 +2560,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-89",
@@ -2500,7 +2589,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-90",
@@ -2528,7 +2618,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-91",
@@ -2556,7 +2647,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-92",
@@ -2584,7 +2676,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-93",
@@ -2612,7 +2705,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-94",
@@ -2640,7 +2734,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-95",
@@ -2668,7 +2763,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-96",
@@ -2696,7 +2792,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-97",
@@ -2724,7 +2821,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-98",
@@ -2752,7 +2850,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-99",
@@ -2780,7 +2879,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-100",
@@ -2808,7 +2908,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-101",
@@ -2836,7 +2937,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-102",
@@ -2864,7 +2966,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-103",
@@ -2892,7 +2995,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-104",
@@ -2920,7 +3024,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-105",
@@ -2948,7 +3053,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-106",
@@ -2976,7 +3082,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-107",
@@ -3004,7 +3111,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-108",
@@ -3032,7 +3140,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-109",
@@ -3060,7 +3169,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-110",
@@ -3088,7 +3198,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-111",
@@ -3116,7 +3227,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-112",
@@ -3144,7 +3256,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-113",
@@ -3172,7 +3285,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-114",
@@ -3200,7 +3314,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-115",
@@ -3228,7 +3343,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-116",
@@ -3256,7 +3372,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-117",
@@ -3284,7 +3401,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-118",
@@ -3312,7 +3430,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-119",
@@ -3340,7 +3459,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-120",
@@ -3368,7 +3488,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-121",
@@ -3396,7 +3517,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-122",
@@ -3424,7 +3546,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-123",
@@ -3452,7 +3575,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-124",
@@ -3480,7 +3604,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-125",
@@ -3508,7 +3633,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-126",
@@ -3536,7 +3662,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-127",
@@ -3564,7 +3691,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-128",
@@ -3592,7 +3720,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-129",
@@ -3620,7 +3749,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-130",
@@ -3648,7 +3778,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-131",
@@ -3676,7 +3807,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-132",
@@ -3704,7 +3836,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-133",
@@ -3732,7 +3865,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-134",
@@ -3760,7 +3894,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-135",
@@ -3788,7 +3923,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-136",
@@ -3816,7 +3952,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-137",
@@ -3844,7 +3981,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-138",
@@ -3872,7 +4010,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-139",
@@ -3900,7 +4039,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-140",
@@ -3928,7 +4068,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-141",
@@ -3956,7 +4097,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-142",
@@ -3984,7 +4126,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-143",
@@ -4012,7 +4155,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-144",
@@ -4040,7 +4184,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-145",
@@ -4068,7 +4213,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-146",
@@ -4096,7 +4242,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-147",
@@ -4124,7 +4271,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-148",
@@ -4152,7 +4300,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-149",
@@ -4180,7 +4329,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-150",
@@ -4208,7 +4358,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-151",
@@ -4236,7 +4387,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-152",
@@ -4264,7 +4416,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-153",
@@ -4292,7 +4445,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-154",
@@ -4320,7 +4474,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-155",
@@ -4348,7 +4503,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-156",
@@ -4376,7 +4532,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "mdx-157",
@@ -4404,7 +4561,8 @@ export const middlesexCourses: MiddlesexCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

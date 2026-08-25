@@ -4,6 +4,7 @@
 // 701 courses
 
 export interface BathCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string; officialUrlKind?: 'degree' | 'study-area'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -41,7 +42,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-2",
@@ -70,7 +72,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-3",
@@ -99,7 +102,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-4",
@@ -128,7 +132,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-5",
@@ -157,7 +162,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-6",
@@ -186,7 +192,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-7",
@@ -215,7 +222,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-8",
@@ -244,7 +252,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-9",
@@ -273,7 +282,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-10",
@@ -302,7 +312,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-11",
@@ -331,7 +342,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-12",
@@ -360,7 +372,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-13",
@@ -389,7 +402,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-14",
@@ -418,7 +432,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-15",
@@ -447,7 +462,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-16",
@@ -476,7 +492,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-17",
@@ -505,7 +522,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-18",
@@ -534,7 +552,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-19",
@@ -563,7 +582,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-20",
@@ -592,7 +612,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-21",
@@ -621,7 +642,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-22",
@@ -650,7 +672,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-23",
@@ -679,7 +702,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-24",
@@ -708,7 +732,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-25",
@@ -737,7 +762,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-26",
@@ -766,7 +792,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-27",
@@ -795,7 +822,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-28",
@@ -824,7 +852,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-29",
@@ -853,7 +882,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-30",
@@ -882,7 +912,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-31",
@@ -911,7 +942,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-32",
@@ -940,7 +972,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-33",
@@ -969,7 +1002,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-34",
@@ -998,7 +1032,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-35",
@@ -1027,7 +1062,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-36",
@@ -1056,7 +1092,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-37",
@@ -1085,7 +1122,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-38",
@@ -1114,7 +1152,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-39",
@@ -1143,7 +1182,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-40",
@@ -1172,7 +1212,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-41",
@@ -1201,7 +1242,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-42",
@@ -1230,7 +1272,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-43",
@@ -1259,7 +1302,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-44",
@@ -1288,7 +1332,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-45",
@@ -1317,7 +1362,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-46",
@@ -1346,7 +1392,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-47",
@@ -1375,7 +1422,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-48",
@@ -1404,7 +1452,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-49",
@@ -1433,7 +1482,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-50",
@@ -1462,7 +1512,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-51",
@@ -1491,7 +1542,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-52",
@@ -1520,7 +1572,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-53",
@@ -1549,7 +1602,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-54",
@@ -1578,7 +1632,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-55",
@@ -1607,7 +1662,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-56",
@@ -1636,7 +1692,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-57",
@@ -1665,7 +1722,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-58",
@@ -1694,7 +1752,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-59",
@@ -1723,7 +1782,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-60",
@@ -1752,7 +1812,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-63",
@@ -1781,7 +1842,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-64",
@@ -1810,7 +1872,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-65",
@@ -1839,7 +1902,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-66",
@@ -1868,7 +1932,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-67",
@@ -1897,7 +1962,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-68",
@@ -1926,7 +1992,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-69",
@@ -1955,7 +2022,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-70",
@@ -1984,7 +2052,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-71",
@@ -2013,7 +2082,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-72",
@@ -2042,7 +2112,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-73",
@@ -2071,7 +2142,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-74",
@@ -2100,7 +2172,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-75",
@@ -2129,7 +2202,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-76",
@@ -2158,7 +2232,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-77",
@@ -2187,7 +2262,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-78",
@@ -2216,7 +2292,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-79",
@@ -2245,7 +2322,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-80",
@@ -2274,7 +2352,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-81",
@@ -2303,7 +2382,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-82",
@@ -2332,7 +2412,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-83",
@@ -2361,7 +2442,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-84",
@@ -2390,7 +2472,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-85",
@@ -2419,7 +2502,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-86",
@@ -2448,7 +2532,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-87",
@@ -2477,7 +2562,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-88",
@@ -2506,7 +2592,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-89",
@@ -2535,7 +2622,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-90",
@@ -2564,7 +2652,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-91",
@@ -2593,7 +2682,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-92",
@@ -2622,7 +2712,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-93",
@@ -2651,7 +2742,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-94",
@@ -2680,7 +2772,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-95",
@@ -2709,7 +2802,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-96",
@@ -2738,7 +2832,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-97",
@@ -2767,7 +2862,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-98",
@@ -2796,7 +2892,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-99",
@@ -2825,7 +2922,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-100",
@@ -2854,7 +2952,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-101",
@@ -2883,7 +2982,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-102",
@@ -2912,7 +3012,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-103",
@@ -2941,7 +3042,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-104",
@@ -2970,7 +3072,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-105",
@@ -2999,7 +3102,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-106",
@@ -3028,7 +3132,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-107",
@@ -3057,7 +3162,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-108",
@@ -3086,7 +3192,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-109",
@@ -3115,7 +3222,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-110",
@@ -3144,7 +3252,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-111",
@@ -3173,7 +3282,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-112",
@@ -3202,7 +3312,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-113",
@@ -3231,7 +3342,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-114",
@@ -3260,7 +3372,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-115",
@@ -3289,7 +3402,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-116",
@@ -3318,7 +3432,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-117",
@@ -3347,7 +3462,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-118",
@@ -3376,7 +3492,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-119",
@@ -3405,7 +3522,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-120",
@@ -3434,7 +3552,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-121",
@@ -3463,7 +3582,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-122",
@@ -3492,7 +3612,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-123",
@@ -3521,7 +3642,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-124",
@@ -3550,7 +3672,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-125",
@@ -3579,7 +3702,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-126",
@@ -3608,7 +3732,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-127",
@@ -3637,7 +3762,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-128",
@@ -3666,7 +3792,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-129",
@@ -3695,7 +3822,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-130",
@@ -3724,7 +3852,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-131",
@@ -3753,7 +3882,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-132",
@@ -3782,7 +3912,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-133",
@@ -3811,7 +3942,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-134",
@@ -3840,7 +3972,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-135",
@@ -3869,7 +4002,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-136",
@@ -3898,7 +4032,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-137",
@@ -3927,7 +4062,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-138",
@@ -3956,7 +4092,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-139",
@@ -3985,7 +4122,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-140",
@@ -4014,7 +4152,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-141",
@@ -4043,7 +4182,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-142",
@@ -4072,7 +4212,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-143",
@@ -4101,7 +4242,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-144",
@@ -4130,7 +4272,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-145",
@@ -4159,7 +4302,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-146",
@@ -4188,7 +4332,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-147",
@@ -4217,7 +4362,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-148",
@@ -4246,7 +4392,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-158",
@@ -4275,7 +4422,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-159",
@@ -4304,7 +4452,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-160",
@@ -4333,7 +4482,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-161",
@@ -4362,7 +4512,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-162",
@@ -4391,7 +4542,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-163",
@@ -4420,7 +4572,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-164",
@@ -4449,7 +4602,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-165",
@@ -4478,7 +4632,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-166",
@@ -4507,7 +4662,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-167",
@@ -4536,7 +4692,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-168",
@@ -4565,7 +4722,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-169",
@@ -4594,7 +4752,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-170",
@@ -4623,7 +4782,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-171",
@@ -4652,7 +4812,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-172",
@@ -4681,7 +4842,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-173",
@@ -4710,7 +4872,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-174",
@@ -4739,7 +4902,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-175",
@@ -4768,7 +4932,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-176",
@@ -4797,7 +4962,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-177",
@@ -4826,7 +4992,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-178",
@@ -4855,7 +5022,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-179",
@@ -4884,7 +5052,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-180",
@@ -4913,7 +5082,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-181",
@@ -4942,7 +5112,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-182",
@@ -4971,7 +5142,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-183",
@@ -5000,7 +5172,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-184",
@@ -5029,7 +5202,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-185",
@@ -5058,7 +5232,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-186",
@@ -5087,7 +5262,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-187",
@@ -5116,7 +5292,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-188",
@@ -5145,7 +5322,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-189",
@@ -5174,7 +5352,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-195",
@@ -5203,7 +5382,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-198",
@@ -5232,7 +5412,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-199",
@@ -5261,7 +5442,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-200",
@@ -5290,7 +5472,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-201",
@@ -5319,7 +5502,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-202",
@@ -5348,7 +5532,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-203",
@@ -5377,7 +5562,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-210",
@@ -5406,7 +5592,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-211",
@@ -5435,7 +5622,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-212",
@@ -5464,7 +5652,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-213",
@@ -5493,7 +5682,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-214",
@@ -5522,7 +5712,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-215",
@@ -5551,7 +5742,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-216",
@@ -5580,7 +5772,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-217",
@@ -5609,7 +5802,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-218",
@@ -5638,7 +5832,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-219",
@@ -5667,7 +5862,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-220",
@@ -5696,7 +5892,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-221",
@@ -5725,7 +5922,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-222",
@@ -5754,7 +5952,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-223",
@@ -5783,7 +5982,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-224",
@@ -5812,7 +6012,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-225",
@@ -5841,7 +6042,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-226",
@@ -5870,7 +6072,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-227",
@@ -5899,7 +6102,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-228",
@@ -5928,7 +6132,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-229",
@@ -5957,7 +6162,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-230",
@@ -5986,7 +6192,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-231",
@@ -6015,7 +6222,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-232",
@@ -6044,7 +6252,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-233",
@@ -6073,7 +6282,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-234",
@@ -6102,7 +6312,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-235",
@@ -6131,7 +6342,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-236",
@@ -6160,7 +6372,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-237",
@@ -6189,7 +6402,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-238",
@@ -6218,7 +6432,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-239",
@@ -6247,7 +6462,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-240",
@@ -6276,7 +6492,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-241",
@@ -6305,7 +6522,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-242",
@@ -6334,7 +6552,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-243",
@@ -6363,7 +6582,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-244",
@@ -6392,7 +6612,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-245",
@@ -6421,7 +6642,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-246",
@@ -6450,7 +6672,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-247",
@@ -6479,7 +6702,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-248",
@@ -6508,7 +6732,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-249",
@@ -6537,7 +6762,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-250",
@@ -6566,7 +6792,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-251",
@@ -6595,7 +6822,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-252",
@@ -6624,7 +6852,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-253",
@@ -6653,7 +6882,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-254",
@@ -6682,7 +6912,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-255",
@@ -6711,7 +6942,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-256",
@@ -6740,7 +6972,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-257",
@@ -6769,7 +7002,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-258",
@@ -6798,7 +7032,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-259",
@@ -6827,7 +7062,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-260",
@@ -6856,7 +7092,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-261",
@@ -6885,7 +7122,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-262",
@@ -6914,7 +7152,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-263",
@@ -6943,7 +7182,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-264",
@@ -6972,7 +7212,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-265",
@@ -7001,7 +7242,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-266",
@@ -7030,7 +7272,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-267",
@@ -7059,7 +7302,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-268",
@@ -7088,7 +7332,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-269",
@@ -7117,7 +7362,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-270",
@@ -7146,7 +7392,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-271",
@@ -7175,7 +7422,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-272",
@@ -7204,7 +7452,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-273",
@@ -7233,7 +7482,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-274",
@@ -7262,7 +7512,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-275",
@@ -7291,7 +7542,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-276",
@@ -7320,7 +7572,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-277",
@@ -7349,7 +7602,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-278",
@@ -7378,7 +7632,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-279",
@@ -7407,7 +7662,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-280",
@@ -7436,7 +7692,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-281",
@@ -7465,7 +7722,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-282",
@@ -7494,7 +7752,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-283",
@@ -7523,7 +7782,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-284",
@@ -7552,7 +7812,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-285",
@@ -7581,7 +7842,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-286",
@@ -7610,7 +7872,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-287",
@@ -7639,7 +7902,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-288",
@@ -7668,7 +7932,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-289",
@@ -7697,7 +7962,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-290",
@@ -7726,7 +7992,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-291",
@@ -7755,7 +8022,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-292",
@@ -7784,7 +8052,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-293",
@@ -7813,7 +8082,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-294",
@@ -7842,7 +8112,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-295",
@@ -7871,7 +8142,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-296",
@@ -7900,7 +8172,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-297",
@@ -7929,7 +8202,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-298",
@@ -7958,7 +8232,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-299",
@@ -7987,7 +8262,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-300",
@@ -8016,7 +8292,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-301",
@@ -8045,7 +8322,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-302",
@@ -8074,7 +8352,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-303",
@@ -8103,7 +8382,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-304",
@@ -8132,7 +8412,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-305",
@@ -8161,7 +8442,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-306",
@@ -8190,7 +8472,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-307",
@@ -8219,7 +8502,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-308",
@@ -8248,7 +8532,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-309",
@@ -8277,7 +8562,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-310",
@@ -8306,7 +8592,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-311",
@@ -8335,7 +8622,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-312",
@@ -8364,7 +8652,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-317",
@@ -8393,7 +8682,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-318",
@@ -8422,7 +8712,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-337",
@@ -8451,7 +8742,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-354",
@@ -8480,7 +8772,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-355",
@@ -8509,7 +8802,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-356",
@@ -8538,7 +8832,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-357",
@@ -8567,7 +8862,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-466",
@@ -8596,7 +8892,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-471",
@@ -8625,7 +8922,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-472",
@@ -8654,7 +8952,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-473",
@@ -8683,7 +8982,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-474",
@@ -8712,7 +9012,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-475",
@@ -8741,7 +9042,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-476",
@@ -8770,7 +9072,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-477",
@@ -8799,7 +9102,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-478",
@@ -8828,7 +9132,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-479",
@@ -8857,7 +9162,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-480",
@@ -8886,7 +9192,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-485",
@@ -8915,7 +9222,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-486",
@@ -8944,7 +9252,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-487",
@@ -8973,7 +9282,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-488",
@@ -9002,7 +9312,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-489",
@@ -9031,7 +9342,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-490",
@@ -9060,7 +9372,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-491",
@@ -9089,7 +9402,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-492",
@@ -9118,7 +9432,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-493",
@@ -9147,7 +9462,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-502",
@@ -9191,7 +9507,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MBiol Biology with Professional Placement",
         "slug": "bath-mbiol-biology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-504",
@@ -9235,7 +9552,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MBiol Biology with Professional Placement",
         "slug": "bath-mbiol-biology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-508",
@@ -9279,7 +9597,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MBiol Biology with Professional Placement",
         "slug": "bath-mbiol-biology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-520",
@@ -9323,7 +9642,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-521",
@@ -9352,7 +9672,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-529",
@@ -9381,7 +9702,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-532",
@@ -9425,7 +9747,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-533",
@@ -9469,7 +9792,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-534",
@@ -9513,7 +9837,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-535",
@@ -9557,7 +9882,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-536",
@@ -9601,7 +9927,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-537",
@@ -9645,7 +9972,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-538",
@@ -9689,7 +10017,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-539",
@@ -9733,7 +10062,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-540",
@@ -9777,7 +10107,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-541",
@@ -9821,7 +10152,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-542",
@@ -9865,7 +10197,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-543",
@@ -9909,7 +10242,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-544",
@@ -9953,7 +10287,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-545",
@@ -9997,7 +10332,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-546",
@@ -10041,7 +10377,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-566",
@@ -10085,7 +10422,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-567",
@@ -10129,7 +10467,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-568",
@@ -10173,7 +10512,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-569",
@@ -10217,7 +10557,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-580",
@@ -10261,7 +10602,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Civil Engineering",
         "slug": "bath-meng-civil-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-581",
@@ -10305,7 +10647,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Civil Engineering",
         "slug": "bath-meng-civil-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-582",
@@ -10349,7 +10692,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Civil Engineering",
         "slug": "bath-meng-civil-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-584",
@@ -10393,7 +10737,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Civil Engineering",
         "slug": "bath-meng-civil-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-593",
@@ -10437,7 +10782,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-595",
@@ -10481,7 +10827,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-603",
@@ -10517,7 +10864,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BA Modern Languages with Study or Work Abroad",
         "slug": "bath-ba-modern-languages-with-study-or-work-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-609",
@@ -10561,7 +10909,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MBiol Biology with Professional Placement",
         "slug": "bath-mbiol-biology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-622",
@@ -10605,7 +10954,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-623",
@@ -10649,7 +10999,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-626",
@@ -10693,7 +11044,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-628",
@@ -10737,7 +11089,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-631",
@@ -10777,7 +11130,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Psychology with Work Placement",
         "slug": "bath-bsc-psychology-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-632",
@@ -10817,7 +11171,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Psychology with Work Placement",
         "slug": "bath-bsc-psychology-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-637",
@@ -10861,7 +11216,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-640",
@@ -10905,7 +11261,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-642",
@@ -10949,7 +11306,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-656",
@@ -10993,7 +11351,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sociology and Social Policy",
         "slug": "bath-bsc-sociology-and-social-policy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-681",
@@ -11037,7 +11396,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-682",
@@ -11081,7 +11441,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-683",
@@ -11125,7 +11486,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-685",
@@ -11169,7 +11531,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-687",
@@ -11213,7 +11576,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-689",
@@ -11257,7 +11621,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-691",
@@ -11301,7 +11666,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-692",
@@ -11345,7 +11711,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-693",
@@ -11389,7 +11756,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-694",
@@ -11433,7 +11801,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-695",
@@ -11477,7 +11846,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-696",
@@ -11521,7 +11891,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-698",
@@ -11565,7 +11936,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-699",
@@ -11609,7 +11981,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-700",
@@ -11653,7 +12026,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-701",
@@ -11697,7 +12071,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-702",
@@ -11741,7 +12116,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-703",
@@ -11785,7 +12161,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-705",
@@ -11829,7 +12206,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-707",
@@ -11873,7 +12251,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-708",
@@ -11917,7 +12296,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-710",
@@ -11961,7 +12341,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-712",
@@ -12005,7 +12386,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-735",
@@ -12049,7 +12431,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-736",
@@ -12093,7 +12476,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-741",
@@ -12137,7 +12521,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-742",
@@ -12181,7 +12566,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-743",
@@ -12225,7 +12611,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Pharmacology with Professional Placement",
         "slug": "bath-bsc-pharmacology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-748",
@@ -12269,7 +12656,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-749",
@@ -12313,7 +12701,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-752",
@@ -12357,7 +12746,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-757",
@@ -12401,7 +12791,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-758",
@@ -12445,7 +12836,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-762",
@@ -12489,7 +12881,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Pharmacology with Professional Placement",
         "slug": "bath-bsc-pharmacology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-763",
@@ -12533,7 +12926,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Pharmacology with Professional Placement",
         "slug": "bath-bsc-pharmacology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-766",
@@ -12577,7 +12971,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-772",
@@ -12621,7 +13016,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-776",
@@ -12665,7 +13061,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-777",
@@ -12709,7 +13106,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-783",
@@ -12753,7 +13151,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-788",
@@ -12797,7 +13196,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-795",
@@ -12841,7 +13241,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Mpharm Pharmacy with Preparatory Year at the University of Plymouth",
         "slug": "bath-mpharm-pharmacy-with-preparatory-year-at-the-university-of-plymouth"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-800",
@@ -12885,7 +13286,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-802",
@@ -12929,7 +13331,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-807",
@@ -12973,7 +13376,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-819",
@@ -13013,7 +13417,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BA Education with Psychology",
         "slug": "bath-ba-education-with-psychology"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-826",
@@ -13057,7 +13462,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-827",
@@ -13101,7 +13507,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-832",
@@ -13145,7 +13552,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-837",
@@ -13189,7 +13597,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-838",
@@ -13233,7 +13642,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-843",
@@ -13277,7 +13687,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-844",
@@ -13321,7 +13732,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-845",
@@ -13365,7 +13777,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-846",
@@ -13409,7 +13822,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-847",
@@ -13453,7 +13867,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-848",
@@ -13497,7 +13912,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-853",
@@ -13541,7 +13957,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-855",
@@ -13585,7 +14002,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-867",
@@ -13629,7 +14047,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-870",
@@ -13673,7 +14092,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-871",
@@ -13717,7 +14137,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-872",
@@ -13761,7 +14182,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-876",
@@ -13791,7 +14213,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-877",
@@ -13835,7 +14258,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-878",
@@ -13879,7 +14303,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-879",
@@ -13923,7 +14348,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-880",
@@ -13967,7 +14393,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-881",
@@ -14011,7 +14438,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-883",
@@ -14055,7 +14483,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-886",
@@ -14099,7 +14528,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-887",
@@ -14143,7 +14573,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-888",
@@ -14187,7 +14618,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-890",
@@ -14231,7 +14663,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-893",
@@ -14275,7 +14708,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-897",
@@ -14319,7 +14753,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-900",
@@ -14363,7 +14798,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-904",
@@ -14407,7 +14843,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-905",
@@ -14451,7 +14888,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-908",
@@ -14495,7 +14933,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-913",
@@ -14539,7 +14978,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-914",
@@ -14583,7 +15023,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-917",
@@ -14627,7 +15068,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-926",
@@ -14671,7 +15113,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sociology and Social Policy",
         "slug": "bath-bsc-sociology-and-social-policy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-930",
@@ -14715,7 +15158,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sociology and Social Policy",
         "slug": "bath-bsc-sociology-and-social-policy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-938",
@@ -14759,7 +15203,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-939",
@@ -14803,7 +15248,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-940",
@@ -14847,7 +15293,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-942",
@@ -14891,7 +15338,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1070",
@@ -14935,7 +15383,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1090",
@@ -14979,7 +15428,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1091",
@@ -15023,7 +15473,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1092",
@@ -15067,7 +15518,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1093",
@@ -15111,7 +15563,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1094",
@@ -15155,7 +15608,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1095",
@@ -15199,7 +15653,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1096",
@@ -15243,7 +15698,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1097",
@@ -15287,7 +15743,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1098",
@@ -15331,7 +15788,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1099",
@@ -15375,7 +15833,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1100",
@@ -15419,7 +15878,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1101",
@@ -15463,7 +15923,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1102",
@@ -15507,7 +15968,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1103",
@@ -15551,7 +16013,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1104",
@@ -15595,7 +16058,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1105",
@@ -15639,7 +16103,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1106",
@@ -15683,7 +16148,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1109",
@@ -15727,7 +16193,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1111",
@@ -15771,7 +16238,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1112",
@@ -15800,7 +16268,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-1113",
@@ -15829,7 +16298,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-1115",
@@ -15873,7 +16343,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1116",
@@ -15917,7 +16388,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1122",
@@ -15961,7 +16433,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1130",
@@ -16005,7 +16478,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1131",
@@ -16049,7 +16523,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1132",
@@ -16093,7 +16568,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1133",
@@ -16137,7 +16613,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1140",
@@ -16166,7 +16643,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-1143",
@@ -16195,7 +16673,8 @@ export const bathCourses: BathCourse[] = [
     "state": "England",
     "city": "Bath",
     "countryCode": "GB",
-    "officialUrlKind": "degree"
+    "officialUrlKind": "degree",
+    "feeVerified": false
   },
   {
     "id": "bath-1144",
@@ -16239,7 +16718,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1145",
@@ -16283,7 +16763,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1146",
@@ -16327,7 +16808,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1150",
@@ -16371,7 +16853,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1156",
@@ -16415,7 +16898,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1161",
@@ -16459,7 +16943,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1164",
@@ -16503,7 +16988,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1165",
@@ -16547,7 +17033,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1167",
@@ -16591,7 +17078,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1168",
@@ -16635,7 +17123,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1172",
@@ -16679,7 +17168,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1177",
@@ -16723,7 +17213,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1178",
@@ -16767,7 +17258,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1179",
@@ -16811,7 +17303,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1187",
@@ -16855,7 +17348,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1188",
@@ -16899,7 +17393,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1191",
@@ -16943,7 +17438,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1192",
@@ -16987,7 +17483,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1204",
@@ -17031,7 +17528,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MBiol Biology with Professional Placement",
         "slug": "bath-mbiol-biology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1213",
@@ -17075,7 +17573,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1225",
@@ -17119,7 +17618,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1243",
@@ -17163,7 +17663,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1277",
@@ -17207,7 +17708,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1286",
@@ -17251,7 +17753,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1342",
@@ -17295,7 +17798,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1347",
@@ -17339,7 +17843,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1352",
@@ -17383,7 +17888,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1354",
@@ -17427,7 +17933,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1355",
@@ -17471,7 +17978,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1357",
@@ -17515,7 +18023,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MComp Computer Science and Mathematics",
         "slug": "bath-mcomp-computer-science-and-mathematics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1376",
@@ -17559,7 +18068,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1377",
@@ -17603,7 +18113,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1378",
@@ -17647,7 +18158,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1380",
@@ -17691,7 +18203,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1381",
@@ -17735,7 +18248,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1382",
@@ -17779,7 +18293,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1384",
@@ -17823,7 +18338,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1389",
@@ -17867,7 +18383,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1391",
@@ -17911,7 +18428,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1392",
@@ -17955,7 +18473,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sport and Exercise Science with Professional Placement or Study Abroad",
         "slug": "bath-bsc-sport-and-exercise-science-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1399",
@@ -17999,7 +18518,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Sociology and Social Policy",
         "slug": "bath-bsc-sociology-and-social-policy"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1401",
@@ -18039,7 +18559,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc International Development with Economics with Professional Placement",
         "slug": "bath-bsc-international-development-with-economics-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1402",
@@ -18079,7 +18600,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Criminology with Professional Placement",
         "slug": "bath-bsc-criminology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1405",
@@ -18123,7 +18645,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MBiol Biology with Professional Placement",
         "slug": "bath-mbiol-biology-with-professional-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1406",
@@ -18167,7 +18690,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1409",
@@ -18211,7 +18735,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1410",
@@ -18255,7 +18780,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1412",
@@ -18299,7 +18825,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1413",
@@ -18343,7 +18870,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1416",
@@ -18387,7 +18915,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1419",
@@ -18431,7 +18960,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1420",
@@ -18475,7 +19005,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1428",
@@ -18519,7 +19050,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1430",
@@ -18563,7 +19095,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Civil Engineering",
         "slug": "bath-meng-civil-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1432",
@@ -18607,7 +19140,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Integrated Mechanical and Electrical Engineering with Professional Placement",
         "slug": "bath-beng-integrated-mechanical-and-electrical-engineering-with-professional-pla"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1433",
@@ -18651,7 +19185,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Accounting and Management",
         "slug": "bath-bsc-accounting-and-management"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1435",
@@ -18695,7 +19230,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Integrated Mechanical and Electrical Engineering with Professional Placement",
         "slug": "bath-beng-integrated-mechanical-and-electrical-engineering-with-professional-pla"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1437",
@@ -18739,7 +19275,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MPhys Physics with Theoretical Physics",
         "slug": "bath-mphys-physics-with-theoretical-physics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1439",
@@ -18783,7 +19320,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Chemical Engineering",
         "slug": "bath-meng-chemical-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1441",
@@ -18827,7 +19365,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Chemical Engineering",
         "slug": "bath-meng-chemical-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1443",
@@ -18871,7 +19410,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Chemical Engineering",
         "slug": "bath-meng-chemical-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1445",
@@ -18915,7 +19455,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1446",
@@ -18959,7 +19500,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1447",
@@ -19003,7 +19545,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1448",
@@ -19047,7 +19590,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1449",
@@ -19091,7 +19635,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Mathematics and Statistics",
         "slug": "bath-bsc-mathematics-and-statistics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1452",
@@ -19135,7 +19680,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1453",
@@ -19179,7 +19725,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1455",
@@ -19223,7 +19770,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1456",
@@ -19267,7 +19815,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1458",
@@ -19311,7 +19860,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1460",
@@ -19355,7 +19905,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1461",
@@ -19399,7 +19950,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1462",
@@ -19443,7 +19995,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1463",
@@ -19487,7 +20040,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Chemistry with Management with Professional Placement or Study Abroad",
         "slug": "bath-bsc-chemistry-with-management-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1478",
@@ -19531,7 +20085,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Natural Sciences with Professional Placement or Study Abroad",
         "slug": "bath-bsc-natural-sciences-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1479",
@@ -19575,7 +20130,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Natural Sciences with Professional Placement or Study Abroad",
         "slug": "bath-bsc-natural-sciences-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1481",
@@ -19619,7 +20175,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Natural Sciences with Professional Placement or Study Abroad",
         "slug": "bath-bsc-natural-sciences-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1482",
@@ -19663,7 +20220,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Natural Sciences with Professional Placement or Study Abroad",
         "slug": "bath-bsc-natural-sciences-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1484",
@@ -19707,7 +20265,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1485",
@@ -19751,7 +20310,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1486",
@@ -19795,7 +20355,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1487",
@@ -19839,7 +20400,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1490",
@@ -19883,7 +20445,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1517",
@@ -19927,7 +20490,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1518",
@@ -19971,7 +20535,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1519",
@@ -20015,7 +20580,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1521",
@@ -20059,7 +20625,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1529",
@@ -20103,7 +20670,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1553",
@@ -20147,7 +20715,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1556",
@@ -20191,7 +20760,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1557",
@@ -20235,7 +20805,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1636",
@@ -20279,7 +20850,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1637",
@@ -20323,7 +20895,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1641",
@@ -20367,7 +20940,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1692",
@@ -20411,7 +20985,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Civil Engineering",
         "slug": "bath-meng-civil-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1774",
@@ -20455,7 +21030,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1775",
@@ -20499,7 +21075,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1776",
@@ -20543,7 +21120,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1777",
@@ -20587,7 +21165,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BEng Computer Systems Engineering",
         "slug": "bath-beng-computer-systems-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1793",
@@ -20631,7 +21210,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Economics with Politics",
         "slug": "bath-bsc-economics-with-politics"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1811",
@@ -20671,7 +21251,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Psychology with Work Placement",
         "slug": "bath-bsc-psychology-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1909",
@@ -20715,7 +21296,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1914",
@@ -20759,7 +21341,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1927",
@@ -20803,7 +21386,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1950",
@@ -20847,7 +21431,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-1977",
@@ -20891,7 +21476,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2006",
@@ -20935,7 +21521,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2013",
@@ -20979,7 +21566,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2014",
@@ -21023,7 +21611,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2017",
@@ -21067,7 +21656,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2021",
@@ -21111,7 +21701,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2022",
@@ -21141,7 +21732,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2027",
@@ -21185,7 +21777,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2040",
@@ -21229,7 +21822,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2044",
@@ -21273,7 +21867,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2114",
@@ -21317,7 +21912,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2115",
@@ -21361,7 +21957,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2126",
@@ -21405,7 +22002,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2128",
@@ -21449,7 +22047,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2152",
@@ -21493,7 +22092,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2153",
@@ -21537,7 +22137,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2171",
@@ -21567,7 +22168,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2190",
@@ -21597,7 +22199,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2209",
@@ -21627,7 +22230,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2219",
@@ -21671,7 +22275,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2227",
@@ -21701,7 +22306,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2237",
@@ -21731,7 +22337,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2238",
@@ -21775,7 +22382,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Management with Marketing with Work Placement",
         "slug": "bath-bsc-management-with-marketing-with-work-placement"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2260",
@@ -21819,7 +22427,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2263",
@@ -21849,7 +22458,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2277",
@@ -21893,7 +22503,8 @@ export const bathCourses: BathCourse[] = [
         "name": "MEng Aerospace Engineering",
         "slug": "bath-meng-aerospace-engineering"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2283",
@@ -21923,7 +22534,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2284",
@@ -21953,7 +22565,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2288",
@@ -21997,7 +22610,8 @@ export const bathCourses: BathCourse[] = [
         "name": "BSc Politics with Economics with Professional Placement or Study Abroad",
         "slug": "bath-bsc-politics-with-economics-with-professional-placement-or-study-abroad"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2289",
@@ -22027,7 +22641,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2297",
@@ -22071,7 +22686,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2298",
@@ -22115,7 +22731,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2300",
@@ -22159,7 +22776,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2301",
@@ -22203,7 +22821,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2302",
@@ -22247,7 +22866,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2303",
@@ -22291,7 +22911,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2305",
@@ -22335,7 +22956,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2310",
@@ -22379,7 +23001,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2315",
@@ -22423,7 +23046,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2316",
@@ -22467,7 +23091,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2317",
@@ -22511,7 +23136,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2321",
@@ -22555,7 +23181,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2324",
@@ -22599,7 +23226,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2329",
@@ -22643,7 +23271,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2330",
@@ -22687,7 +23316,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2331",
@@ -22731,7 +23361,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2332",
@@ -22775,7 +23406,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2333",
@@ -22819,7 +23451,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2334",
@@ -22863,7 +23496,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2336",
@@ -22907,7 +23541,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2337",
@@ -22951,7 +23586,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2338",
@@ -22995,7 +23631,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2339",
@@ -23039,7 +23676,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2340",
@@ -23083,7 +23721,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2341",
@@ -23127,7 +23766,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2342",
@@ -23171,7 +23811,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2347",
@@ -23215,7 +23856,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2353",
@@ -23259,7 +23901,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2354",
@@ -23303,7 +23946,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2355",
@@ -23347,7 +23991,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2357",
@@ -23391,7 +24036,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2360",
@@ -23435,7 +24081,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2368",
@@ -23479,7 +24126,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2369",
@@ -23523,7 +24171,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2370",
@@ -23567,7 +24216,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2371",
@@ -23611,7 +24261,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2372",
@@ -23655,7 +24306,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2373",
@@ -23699,7 +24351,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2374",
@@ -23743,7 +24396,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2375",
@@ -23787,7 +24441,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2376",
@@ -23831,7 +24486,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2377",
@@ -23875,7 +24531,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2378",
@@ -23919,7 +24576,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2379",
@@ -23963,7 +24621,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2380",
@@ -24007,7 +24666,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2381",
@@ -24051,7 +24711,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2382",
@@ -24095,7 +24756,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2383",
@@ -24139,7 +24801,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2386",
@@ -24183,7 +24846,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2388",
@@ -24227,7 +24891,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2390",
@@ -24271,7 +24936,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2392",
@@ -24315,7 +24981,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2393",
@@ -24359,7 +25026,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2394",
@@ -24403,7 +25071,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2395",
@@ -24447,7 +25116,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2396",
@@ -24491,7 +25161,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2397",
@@ -24535,7 +25206,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2398",
@@ -24579,7 +25251,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2399",
@@ -24623,7 +25296,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2402",
@@ -24653,7 +25327,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2403",
@@ -24697,7 +25372,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2404",
@@ -24741,7 +25417,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2405",
@@ -24785,7 +25462,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2407",
@@ -24829,7 +25507,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2413",
@@ -24873,7 +25552,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2585",
@@ -24917,7 +25597,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2586",
@@ -24961,7 +25642,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2589",
@@ -25005,7 +25687,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2591",
@@ -25049,7 +25732,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2592",
@@ -25093,7 +25777,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2594",
@@ -25137,7 +25822,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2595",
@@ -25181,7 +25867,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2596",
@@ -25225,7 +25912,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2597",
@@ -25269,7 +25957,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2598",
@@ -25313,7 +26002,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2600",
@@ -25357,7 +26047,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2602",
@@ -25401,7 +26092,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2605",
@@ -25431,7 +26123,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2606",
@@ -25461,7 +26154,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2624",
@@ -25491,7 +26185,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2626",
@@ -25521,7 +26216,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2647",
@@ -25565,7 +26261,8 @@ export const bathCourses: BathCourse[] = [
         "name": "Ma Contemporary European Studies with Transatlantic Track Euromasters",
         "slug": "bath-ma-contemporary-european-studies-with-transatlantic-track-euromasters"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "bath-2680",
@@ -25595,7 +26292,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2681",
@@ -25625,7 +26323,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2704",
@@ -25655,7 +26354,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2708",
@@ -25685,7 +26385,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   },
   {
     "id": "bath-2709",
@@ -25715,7 +26416,8 @@ export const bathCourses: BathCourse[] = [
     "city": "Bath",
     "countryCode": "GB",
     "officialUrlKind": "study-area",
-    "withdrawn": true
+    "withdrawn": true,
+    "feeVerified": false
   }
 ];
 

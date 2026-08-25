@@ -7,6 +7,7 @@
 // listing's own "Duration" field, not estimated).
 
 export interface LeedsCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -43,7 +44,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-2",
@@ -71,7 +73,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-3",
@@ -99,7 +102,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-4",
@@ -127,7 +131,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-5",
@@ -155,7 +160,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-6",
@@ -183,7 +189,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-7",
@@ -211,7 +218,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-8",
@@ -239,7 +247,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-9",
@@ -267,7 +276,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-10",
@@ -295,7 +305,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-11",
@@ -323,7 +334,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-12",
@@ -351,7 +363,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-13",
@@ -379,7 +392,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-14",
@@ -407,7 +421,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-15",
@@ -435,7 +450,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-16",
@@ -463,7 +479,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-17",
@@ -491,7 +508,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-18",
@@ -519,7 +537,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-19",
@@ -547,7 +566,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-20",
@@ -575,7 +595,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-21",
@@ -603,7 +624,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-22",
@@ -631,7 +653,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-23",
@@ -659,7 +682,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-24",
@@ -687,7 +711,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-25",
@@ -715,7 +740,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-26",
@@ -743,7 +769,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-27",
@@ -771,7 +798,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-28",
@@ -799,7 +827,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-29",
@@ -827,7 +856,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-30",
@@ -855,7 +885,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-31",
@@ -883,7 +914,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-32",
@@ -911,7 +943,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-33",
@@ -939,7 +972,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-34",
@@ -967,7 +1001,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-35",
@@ -995,7 +1030,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-36",
@@ -1023,7 +1059,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-37",
@@ -1051,7 +1088,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-38",
@@ -1079,7 +1117,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-39",
@@ -1107,7 +1146,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-40",
@@ -1135,7 +1175,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-41",
@@ -1163,7 +1204,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-42",
@@ -1191,7 +1233,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-43",
@@ -1219,7 +1262,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-44",
@@ -1247,7 +1291,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-45",
@@ -1275,7 +1320,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-46",
@@ -1303,7 +1349,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-47",
@@ -1331,7 +1378,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-48",
@@ -1359,7 +1407,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-49",
@@ -1387,7 +1436,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-50",
@@ -1415,7 +1465,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-51",
@@ -1443,7 +1494,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-52",
@@ -1471,7 +1523,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-53",
@@ -1499,7 +1552,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-54",
@@ -1527,7 +1581,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-55",
@@ -1555,7 +1610,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-56",
@@ -1583,7 +1639,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-57",
@@ -1611,7 +1668,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-58",
@@ -1639,7 +1697,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-59",
@@ -1667,7 +1726,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-60",
@@ -1695,7 +1755,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-61",
@@ -1723,7 +1784,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-62",
@@ -1751,7 +1813,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-63",
@@ -1779,7 +1842,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-64",
@@ -1807,7 +1871,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-65",
@@ -1835,7 +1900,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-66",
@@ -1863,7 +1929,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-67",
@@ -1891,7 +1958,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-68",
@@ -1919,7 +1987,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-69",
@@ -1947,7 +2016,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-70",
@@ -1975,7 +2045,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-71",
@@ -2003,7 +2074,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-72",
@@ -2031,7 +2103,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-73",
@@ -2059,7 +2132,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-74",
@@ -2087,7 +2161,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-75",
@@ -2115,7 +2190,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-76",
@@ -2143,7 +2219,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-77",
@@ -2171,7 +2248,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-78",
@@ -2199,7 +2277,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-79",
@@ -2227,7 +2306,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-80",
@@ -2255,7 +2335,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-81",
@@ -2283,7 +2364,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-82",
@@ -2311,7 +2393,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-83",
@@ -2339,7 +2422,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-84",
@@ -2367,7 +2451,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-85",
@@ -2395,7 +2480,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-86",
@@ -2423,7 +2509,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-87",
@@ -2451,7 +2538,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-88",
@@ -2479,7 +2567,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-89",
@@ -2507,7 +2596,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-90",
@@ -2535,7 +2625,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-91",
@@ -2563,7 +2654,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-92",
@@ -2591,7 +2683,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-93",
@@ -2619,7 +2712,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-94",
@@ -2647,7 +2741,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-95",
@@ -2675,7 +2770,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-96",
@@ -2703,7 +2799,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-97",
@@ -2731,7 +2828,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-98",
@@ -2759,7 +2857,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-99",
@@ -2787,7 +2886,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-100",
@@ -2815,7 +2915,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-101",
@@ -2843,7 +2944,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-102",
@@ -2871,7 +2973,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-103",
@@ -2899,7 +3002,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-104",
@@ -2927,7 +3031,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-105",
@@ -2955,7 +3060,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-106",
@@ -2983,7 +3089,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-107",
@@ -3011,7 +3118,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-108",
@@ -3039,7 +3147,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-109",
@@ -3067,7 +3176,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-110",
@@ -3095,7 +3205,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-111",
@@ -3123,7 +3234,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-112",
@@ -3151,7 +3263,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-113",
@@ -3179,7 +3292,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-114",
@@ -3207,7 +3321,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-115",
@@ -3235,7 +3350,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-116",
@@ -3263,7 +3379,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-117",
@@ -3291,7 +3408,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-118",
@@ -3319,7 +3437,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-119",
@@ -3347,7 +3466,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-120",
@@ -3375,7 +3495,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-121",
@@ -3403,7 +3524,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-122",
@@ -3431,7 +3553,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-123",
@@ -3459,7 +3582,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-124",
@@ -3487,7 +3611,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-125",
@@ -3515,7 +3640,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-126",
@@ -3543,7 +3669,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-127",
@@ -3571,7 +3698,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-128",
@@ -3599,7 +3727,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-129",
@@ -3627,7 +3756,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-130",
@@ -3655,7 +3785,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-131",
@@ -3683,7 +3814,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-132",
@@ -3711,7 +3843,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-133",
@@ -3739,7 +3872,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-134",
@@ -3767,7 +3901,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-135",
@@ -3795,7 +3930,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-136",
@@ -3823,7 +3959,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-137",
@@ -3851,7 +3988,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-138",
@@ -3879,7 +4017,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-139",
@@ -3907,7 +4046,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-140",
@@ -3935,7 +4075,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-141",
@@ -3963,7 +4104,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-142",
@@ -3991,7 +4133,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-143",
@@ -4019,7 +4162,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-144",
@@ -4047,7 +4191,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-145",
@@ -4075,7 +4220,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-146",
@@ -4103,7 +4249,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-147",
@@ -4131,7 +4278,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-148",
@@ -4159,7 +4307,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-149",
@@ -4187,7 +4336,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-150",
@@ -4215,7 +4365,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-151",
@@ -4243,7 +4394,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-152",
@@ -4271,7 +4423,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-153",
@@ -4299,7 +4452,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-154",
@@ -4327,7 +4481,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-155",
@@ -4355,7 +4510,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-156",
@@ -4383,7 +4539,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-157",
@@ -4411,7 +4568,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-158",
@@ -4439,7 +4597,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-159",
@@ -4467,7 +4626,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-160",
@@ -4495,7 +4655,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-161",
@@ -4523,7 +4684,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-162",
@@ -4551,7 +4713,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-163",
@@ -4579,7 +4742,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-164",
@@ -4607,7 +4771,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-165",
@@ -4635,7 +4800,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-166",
@@ -4663,7 +4829,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-167",
@@ -4691,7 +4858,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-168",
@@ -4719,7 +4887,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-169",
@@ -4747,7 +4916,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-170",
@@ -4775,7 +4945,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-171",
@@ -4803,7 +4974,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-172",
@@ -4831,7 +5003,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-173",
@@ -4859,7 +5032,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-174",
@@ -4887,7 +5061,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-175",
@@ -4915,7 +5090,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-176",
@@ -4943,7 +5119,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-177",
@@ -4971,7 +5148,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-178",
@@ -4999,7 +5177,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-179",
@@ -5027,7 +5206,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-180",
@@ -5055,7 +5235,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-181",
@@ -5083,7 +5264,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-182",
@@ -5111,7 +5293,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-183",
@@ -5139,7 +5322,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-184",
@@ -5167,7 +5351,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-185",
@@ -5195,7 +5380,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-186",
@@ -5223,7 +5409,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-187",
@@ -5251,7 +5438,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-188",
@@ -5279,7 +5467,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-189",
@@ -5307,7 +5496,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-190",
@@ -5335,7 +5525,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-191",
@@ -5363,7 +5554,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-192",
@@ -5391,7 +5583,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-193",
@@ -5419,7 +5612,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-194",
@@ -5447,7 +5641,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-195",
@@ -5475,7 +5670,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-196",
@@ -5503,7 +5699,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-197",
@@ -5531,7 +5728,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-198",
@@ -5559,7 +5757,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-199",
@@ -5587,7 +5786,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-200",
@@ -5615,7 +5815,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-201",
@@ -5643,7 +5844,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-202",
@@ -5671,7 +5873,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-203",
@@ -5699,7 +5902,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-204",
@@ -5727,7 +5931,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-205",
@@ -5755,7 +5960,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-206",
@@ -5783,7 +5989,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-207",
@@ -5811,7 +6018,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-208",
@@ -5839,7 +6047,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-209",
@@ -5867,7 +6076,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-210",
@@ -5895,7 +6105,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-211",
@@ -5923,7 +6134,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-212",
@@ -5951,7 +6163,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-213",
@@ -5979,7 +6192,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-214",
@@ -6007,7 +6221,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-215",
@@ -6035,7 +6250,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-216",
@@ -6063,7 +6279,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-217",
@@ -6091,7 +6308,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-218",
@@ -6119,7 +6337,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-219",
@@ -6147,7 +6366,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-220",
@@ -6175,7 +6395,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-221",
@@ -6203,7 +6424,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-222",
@@ -6231,7 +6453,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-223",
@@ -6259,7 +6482,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-224",
@@ -6287,7 +6511,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-225",
@@ -6315,7 +6540,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-226",
@@ -6343,7 +6569,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-227",
@@ -6371,7 +6598,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-228",
@@ -6399,7 +6627,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-229",
@@ -6427,7 +6656,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-230",
@@ -6455,7 +6685,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-231",
@@ -6483,7 +6714,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-232",
@@ -6511,7 +6743,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-233",
@@ -6539,7 +6772,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-234",
@@ -6567,7 +6801,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-235",
@@ -6595,7 +6830,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-236",
@@ -6623,7 +6859,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-237",
@@ -6651,7 +6888,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-238",
@@ -6679,7 +6917,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-239",
@@ -6707,7 +6946,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-240",
@@ -6735,7 +6975,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-241",
@@ -6763,7 +7004,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-242",
@@ -6791,7 +7033,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-243",
@@ -6819,7 +7062,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-244",
@@ -6847,7 +7091,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-245",
@@ -6875,7 +7120,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-246",
@@ -6903,7 +7149,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-247",
@@ -6931,7 +7178,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-248",
@@ -6959,7 +7207,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-249",
@@ -6987,7 +7236,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-250",
@@ -7015,7 +7265,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-251",
@@ -7043,7 +7294,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-252",
@@ -7071,7 +7323,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-253",
@@ -7099,7 +7352,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-254",
@@ -7127,7 +7381,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-255",
@@ -7155,7 +7410,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-256",
@@ -7183,7 +7439,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-257",
@@ -7211,7 +7468,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-258",
@@ -7239,7 +7497,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-259",
@@ -7267,7 +7526,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-260",
@@ -7295,7 +7555,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-261",
@@ -7323,7 +7584,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-262",
@@ -7351,7 +7613,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-263",
@@ -7379,7 +7642,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-264",
@@ -7407,7 +7671,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-265",
@@ -7435,7 +7700,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-266",
@@ -7463,7 +7729,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-267",
@@ -7491,7 +7758,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-268",
@@ -7519,7 +7787,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-269",
@@ -7547,7 +7816,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-270",
@@ -7575,7 +7845,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-271",
@@ -7603,7 +7874,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-272",
@@ -7631,7 +7903,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-273",
@@ -7659,7 +7932,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-274",
@@ -7687,7 +7961,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-275",
@@ -7715,7 +7990,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-276",
@@ -7743,7 +8019,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-277",
@@ -7771,7 +8048,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-278",
@@ -7799,7 +8077,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-279",
@@ -7827,7 +8106,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-280",
@@ -7855,7 +8135,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-281",
@@ -7883,7 +8164,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-282",
@@ -7911,7 +8193,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-283",
@@ -7939,7 +8222,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-284",
@@ -7967,7 +8251,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-285",
@@ -7995,7 +8280,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-286",
@@ -8023,7 +8309,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-287",
@@ -8051,7 +8338,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-288",
@@ -8079,7 +8367,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-289",
@@ -8107,7 +8396,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-290",
@@ -8135,7 +8425,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-291",
@@ -8163,7 +8454,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-292",
@@ -8191,7 +8483,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-293",
@@ -8219,7 +8512,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-294",
@@ -8247,7 +8541,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-295",
@@ -8275,7 +8570,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-296",
@@ -8303,7 +8599,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-297",
@@ -8331,7 +8628,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-298",
@@ -8359,7 +8657,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-299",
@@ -8387,7 +8686,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-300",
@@ -8415,7 +8715,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-301",
@@ -8443,7 +8744,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-302",
@@ -8471,7 +8773,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-303",
@@ -8499,7 +8802,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-304",
@@ -8527,7 +8831,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-305",
@@ -8555,7 +8860,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-306",
@@ -8583,7 +8889,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-307",
@@ -8611,7 +8918,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-308",
@@ -8639,7 +8947,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-309",
@@ -8667,7 +8976,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-310",
@@ -8678,10 +8988,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8695,7 +9005,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-311",
@@ -8706,10 +9017,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8723,7 +9034,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-312",
@@ -8751,7 +9063,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-313",
@@ -8779,7 +9092,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-314",
@@ -8790,10 +9104,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8807,7 +9121,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-315",
@@ -8818,10 +9133,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8835,7 +9150,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-316",
@@ -8846,10 +9162,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8863,7 +9179,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-317",
@@ -8874,10 +9191,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8891,7 +9208,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-318",
@@ -8902,10 +9220,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8919,7 +9237,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-319",
@@ -8930,10 +9249,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8947,7 +9266,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-320",
@@ -8958,10 +9278,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -8975,7 +9295,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-321",
@@ -8986,10 +9307,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9003,7 +9324,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-322",
@@ -9016,7 +9338,7 @@ export const leedsCourses: LeedsCourse[] = [
     "durationYears": 1,
     "annualGBP": 26500,
     "annualUSD": 33655,
-    "annualINR": 2835500,
+    "annualINR": 2782500,
     "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
@@ -9031,7 +9353,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-323",
@@ -9042,10 +9365,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33000,
+    "annualUSD": 41910,
+    "annualINR": 3465000,
+    "totalGBP": 33000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9059,7 +9382,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-324",
@@ -9070,10 +9394,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 8000,
+    "annualUSD": 10160,
+    "annualINR": 840000,
+    "totalGBP": 8000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9087,7 +9411,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-325",
@@ -9098,10 +9423,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "annualINR": 1260000,
+    "totalGBP": 12000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9115,7 +9440,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-326",
@@ -9126,10 +9452,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9143,7 +9469,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-327",
@@ -9154,10 +9481,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9171,7 +9498,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-328",
@@ -9182,10 +9510,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9199,7 +9527,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-329",
@@ -9210,10 +9539,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 46000,
+    "annualGBP": 32500,
+    "annualUSD": 41275,
+    "annualINR": 3412500,
+    "totalGBP": 65000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9227,7 +9556,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-330",
@@ -9238,10 +9568,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9255,7 +9585,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-331",
@@ -9266,10 +9597,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9283,7 +9614,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-332",
@@ -9294,10 +9626,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "8 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 5800,
+    "annualUSD": 7366,
+    "annualINR": 609000,
+    "totalGBP": 5800,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9311,7 +9643,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-333",
@@ -9322,10 +9655,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 7500,
+    "annualUSD": 9525,
+    "annualINR": 787500,
+    "totalGBP": 15000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9339,7 +9672,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-334",
@@ -9350,10 +9684,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "10 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 8833,
+    "annualUSD": 11218,
+    "annualINR": 927465,
+    "totalGBP": 8833,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9367,7 +9701,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-335",
@@ -9378,10 +9713,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9395,7 +9730,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-336",
@@ -9406,10 +9742,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9423,7 +9759,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-337",
@@ -9434,10 +9771,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 8833,
+    "annualUSD": 11218,
+    "annualINR": 927465,
+    "totalGBP": 8833,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9451,7 +9788,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-338",
@@ -9462,10 +9800,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9479,7 +9817,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-339",
@@ -9490,10 +9829,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 17666,
+    "annualUSD": 22436,
+    "annualINR": 1854930,
+    "totalGBP": 17666,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9507,7 +9846,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-340",
@@ -9518,10 +9858,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9535,7 +9875,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-341",
@@ -9546,10 +9887,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9563,7 +9904,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-342",
@@ -9574,10 +9916,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9591,7 +9933,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-343",
@@ -9602,10 +9945,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31750,
+    "annualUSD": 40323,
+    "annualINR": 3333750,
+    "totalGBP": 31750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9619,7 +9962,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-344",
@@ -9630,10 +9974,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34000,
+    "annualUSD": 43180,
+    "annualINR": 3570000,
+    "totalGBP": 34000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9647,7 +9991,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-345",
@@ -9658,10 +10003,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9675,7 +10020,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-346",
@@ -9686,10 +10032,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 17666,
+    "annualUSD": 22436,
+    "annualINR": 1854930,
+    "totalGBP": 17666,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9703,7 +10049,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-347",
@@ -9714,10 +10061,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 8000,
+    "annualUSD": 10160,
+    "annualINR": 840000,
+    "totalGBP": 8000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9731,7 +10078,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-348",
@@ -9742,10 +10090,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 12000,
+    "annualUSD": 15240,
+    "annualINR": 1260000,
+    "totalGBP": 12000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9759,7 +10107,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-349",
@@ -9770,10 +10119,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9787,7 +10136,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-350",
@@ -9798,10 +10148,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "48 Months",
     "durationYears": 4,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 106000,
+    "annualGBP": 9375,
+    "annualUSD": 11906,
+    "annualINR": 984375,
+    "totalGBP": 37500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9815,7 +10165,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-351",
@@ -9826,10 +10177,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "20 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 18750,
+    "annualUSD": 23813,
+    "annualINR": 1968750,
+    "totalGBP": 37500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9843,7 +10194,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-352",
@@ -9854,10 +10206,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9871,7 +10223,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-353",
@@ -9882,10 +10235,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9899,7 +10252,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-354",
@@ -9910,10 +10264,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9927,7 +10281,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-355",
@@ -9938,10 +10293,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9955,7 +10310,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-356",
@@ -9966,10 +10322,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -9983,7 +10339,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-357",
@@ -9994,10 +10351,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10011,7 +10368,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-358",
@@ -10022,10 +10380,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 24500,
-    "annualUSD": 31115,
-    "annualINR": 2621500,
-    "totalGBP": 24500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10039,7 +10397,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-359",
@@ -10050,10 +10409,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "annualINR": 3255000,
+    "totalGBP": 31000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10067,7 +10426,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-360",
@@ -10078,10 +10438,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 32000,
+    "annualGBP": 5000,
+    "annualUSD": 6350,
+    "annualINR": 525000,
+    "totalGBP": 10000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10095,7 +10455,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-361",
@@ -10106,10 +10467,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 5000,
+    "annualUSD": 6350,
+    "annualINR": 525000,
+    "totalGBP": 5000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10123,7 +10484,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-362",
@@ -10134,10 +10496,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "36 Months",
     "durationYears": 3,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 69000,
+    "annualGBP": 5000,
+    "annualUSD": 6350,
+    "annualINR": 525000,
+    "totalGBP": 15000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10151,7 +10513,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-363",
@@ -10162,10 +10525,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 5000,
+    "annualUSD": 6350,
+    "annualINR": 525000,
+    "totalGBP": 5000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10179,7 +10542,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-364",
@@ -10190,10 +10554,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "19 Months",
     "durationYears": 2,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 32000,
+    "annualGBP": 7250,
+    "annualUSD": 9208,
+    "annualINR": 761250,
+    "totalGBP": 14500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10207,7 +10571,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-365",
@@ -10218,10 +10583,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 10875,
+    "annualUSD": 13811,
+    "annualINR": 1141875,
+    "totalGBP": 21750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10235,7 +10600,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-366",
@@ -10246,10 +10612,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 27665,
+    "annualUSD": 35135,
+    "annualINR": 2904825,
+    "totalGBP": 27665,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10263,7 +10629,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-367",
@@ -10274,10 +10641,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "1 Year",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 41500,
+    "annualUSD": 52705,
+    "annualINR": 4357500,
+    "totalGBP": 41500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10291,7 +10658,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-368",
@@ -10302,10 +10670,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10319,7 +10687,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-369",
@@ -10330,10 +10699,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10347,7 +10716,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-370",
@@ -10358,10 +10728,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10375,7 +10745,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-371",
@@ -10386,10 +10757,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 18666,
+    "annualUSD": 23706,
+    "annualINR": 1959930,
+    "totalGBP": 18666,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10403,7 +10774,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-372",
@@ -10414,10 +10786,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10431,7 +10803,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-373",
@@ -10442,10 +10815,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10459,7 +10832,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-374",
@@ -10470,10 +10844,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31500,
+    "annualUSD": 40005,
+    "annualINR": 3307500,
+    "totalGBP": 31500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10487,7 +10861,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-375",
@@ -10498,10 +10873,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 31500,
+    "annualUSD": 40005,
+    "annualINR": 3307500,
+    "totalGBP": 31500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10515,7 +10890,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-376",
@@ -10526,10 +10902,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10543,7 +10919,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-377",
@@ -10554,10 +10931,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10571,7 +10948,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-378",
@@ -10582,10 +10960,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10599,7 +10977,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-379",
@@ -10610,10 +10989,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10627,7 +11006,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-380",
@@ -10638,10 +11018,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10655,7 +11035,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-381",
@@ -10666,10 +11047,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29000,
+    "annualUSD": 36830,
+    "annualINR": 3045000,
+    "totalGBP": 29000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10683,7 +11064,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-382",
@@ -10694,10 +11076,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32250,
+    "annualUSD": 40958,
+    "annualINR": 3386250,
+    "totalGBP": 32250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10711,7 +11093,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-383",
@@ -10722,10 +11105,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 7500,
+    "annualUSD": 9525,
+    "annualINR": 787500,
+    "totalGBP": 15000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10739,7 +11122,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-384",
@@ -10750,10 +11134,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10767,7 +11151,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-385",
@@ -10795,7 +11180,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-386",
@@ -10823,7 +11209,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-387",
@@ -10851,7 +11238,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-388",
@@ -10862,10 +11250,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10879,7 +11267,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-389",
@@ -10890,10 +11279,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10907,7 +11296,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-390",
@@ -10918,10 +11308,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10935,7 +11325,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-391",
@@ -10946,10 +11337,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10963,7 +11354,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-392",
@@ -10974,10 +11366,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -10991,7 +11383,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-393",
@@ -11002,10 +11395,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11019,7 +11412,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-394",
@@ -11030,10 +11424,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 6375,
+    "annualUSD": 8096,
+    "annualINR": 669375,
+    "totalGBP": 12750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11047,7 +11441,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-395",
@@ -11058,10 +11453,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "16 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 9360,
+    "annualUSD": 11887,
+    "annualINR": 982800,
+    "totalGBP": 9360,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11075,7 +11470,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-396",
@@ -11086,10 +11482,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "8 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 4680,
+    "annualUSD": 5944,
+    "annualINR": 491400,
+    "totalGBP": 4680,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11103,7 +11499,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-397",
@@ -11114,10 +11511,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11131,7 +11528,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-398",
@@ -11142,10 +11540,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32000,
+    "annualUSD": 40640,
+    "annualINR": 3360000,
+    "totalGBP": 32000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11159,7 +11557,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-399",
@@ -11170,10 +11569,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 29750,
+    "annualUSD": 37783,
+    "annualINR": 3123750,
+    "totalGBP": 29750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11187,7 +11586,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-400",
@@ -11198,10 +11598,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32000,
+    "annualUSD": 40640,
+    "annualINR": 3360000,
+    "totalGBP": 32000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11215,7 +11615,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-401",
@@ -11226,10 +11627,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11243,7 +11644,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-402",
@@ -11254,10 +11656,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11271,7 +11673,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-403",
@@ -11282,10 +11685,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11299,7 +11702,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-404",
@@ -11310,10 +11714,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11327,7 +11731,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-405",
@@ -11338,10 +11743,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11355,7 +11760,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-406",
@@ -11366,10 +11772,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11383,7 +11789,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-407",
@@ -11394,10 +11801,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "8 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 6000,
+    "annualUSD": 7620,
+    "annualINR": 630000,
+    "totalGBP": 6000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11411,7 +11818,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-408",
@@ -11422,10 +11830,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 7750,
+    "annualUSD": 9843,
+    "annualINR": 813750,
+    "totalGBP": 15500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11439,7 +11847,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-409",
@@ -11450,10 +11859,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11467,7 +11876,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-410",
@@ -11478,10 +11888,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11495,7 +11905,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-411",
@@ -11506,10 +11917,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11523,7 +11934,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-412",
@@ -11534,10 +11946,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "annualINR": 3255000,
+    "totalGBP": 31000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11551,7 +11963,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-413",
@@ -11562,10 +11975,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33250,
+    "annualUSD": 42228,
+    "annualINR": 3491250,
+    "totalGBP": 33250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11579,7 +11992,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-414",
@@ -11590,10 +12004,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11607,7 +12021,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-415",
@@ -11618,10 +12033,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32000,
+    "annualUSD": 40640,
+    "annualINR": 3360000,
+    "totalGBP": 32000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11635,7 +12050,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-416",
@@ -11646,10 +12062,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 38000,
+    "annualUSD": 48260,
+    "annualINR": 3990000,
+    "totalGBP": 38000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11663,7 +12079,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-417",
@@ -11674,10 +12091,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11691,7 +12108,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-418",
@@ -11702,10 +12120,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11719,7 +12137,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-419",
@@ -11730,10 +12149,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11747,7 +12166,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-420",
@@ -11758,10 +12178,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11775,7 +12195,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-421",
@@ -11786,10 +12207,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11803,7 +12224,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-422",
@@ -11814,10 +12236,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 35500,
+    "annualUSD": 45085,
+    "annualINR": 3727500,
+    "totalGBP": 35500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11831,7 +12253,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-423",
@@ -11842,10 +12265,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34000,
+    "annualUSD": 43180,
+    "annualINR": 3570000,
+    "totalGBP": 34000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11859,7 +12282,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-424",
@@ -11870,10 +12294,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34000,
+    "annualUSD": 43180,
+    "annualINR": 3570000,
+    "totalGBP": 34000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11887,7 +12311,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-425",
@@ -11898,10 +12323,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34000,
+    "annualUSD": 43180,
+    "annualINR": 3570000,
+    "totalGBP": 34000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11915,7 +12340,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-426",
@@ -11926,10 +12352,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34000,
+    "annualUSD": 43180,
+    "annualINR": 3570000,
+    "totalGBP": 34000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11943,7 +12369,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-427",
@@ -11954,10 +12381,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 39250,
+    "annualUSD": 49848,
+    "annualINR": 4121250,
+    "totalGBP": 39250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11971,7 +12398,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-428",
@@ -11982,10 +12410,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -11999,7 +12427,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-429",
@@ -12010,10 +12439,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "8 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 4400,
+    "annualUSD": 5588,
+    "annualINR": 462000,
+    "totalGBP": 4400,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12027,7 +12456,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-430",
@@ -12038,10 +12468,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 6500,
+    "annualUSD": 8255,
+    "annualINR": 682500,
+    "totalGBP": 13000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12055,7 +12485,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-431",
@@ -12066,10 +12497,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31250,
+    "annualUSD": 39688,
+    "annualINR": 3281250,
+    "totalGBP": 31250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12083,7 +12514,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-432",
@@ -12094,10 +12526,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12111,7 +12543,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-433",
@@ -12139,7 +12572,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-434",
@@ -12150,10 +12584,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31750,
+    "annualUSD": 40323,
+    "annualINR": 3333750,
+    "totalGBP": 31750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12167,7 +12601,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-435",
@@ -12178,10 +12613,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28250,
+    "annualUSD": 35878,
+    "annualINR": 2966250,
+    "totalGBP": 28250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12195,7 +12630,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-436",
@@ -12206,10 +12642,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28250,
+    "annualUSD": 35878,
+    "annualINR": 2966250,
+    "totalGBP": 28250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12223,7 +12659,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-437",
@@ -12234,10 +12671,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12251,7 +12688,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-438",
@@ -12262,10 +12700,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12279,7 +12717,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-439",
@@ -12290,10 +12729,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "8 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 5000,
+    "annualUSD": 6350,
+    "annualINR": 525000,
+    "totalGBP": 5000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12307,7 +12746,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-440",
@@ -12318,10 +12758,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 7500,
+    "annualUSD": 9525,
+    "annualINR": 787500,
+    "totalGBP": 15000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12335,7 +12775,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-441",
@@ -12346,10 +12787,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29000,
+    "annualUSD": 36830,
+    "annualINR": 3045000,
+    "totalGBP": 29000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12363,7 +12804,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-442",
@@ -12374,10 +12816,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12391,7 +12833,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-443",
@@ -12402,10 +12845,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "annualINR": 3255000,
+    "totalGBP": 31000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12419,7 +12862,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-444",
@@ -12430,10 +12874,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "annualINR": 3255000,
+    "totalGBP": 31000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12447,7 +12891,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-445",
@@ -12458,10 +12903,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 9916,
+    "annualUSD": 12593,
+    "annualINR": 1041180,
+    "totalGBP": 9916,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12475,7 +12920,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-446",
@@ -12486,10 +12932,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 29750,
+    "annualUSD": 37783,
+    "annualINR": 3123750,
+    "totalGBP": 29750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12503,7 +12949,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-447",
@@ -12514,10 +12961,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 14875,
+    "annualUSD": 18891,
+    "annualINR": 1561875,
+    "totalGBP": 29750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12531,7 +12978,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-448",
@@ -12542,10 +12990,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 19832,
+    "annualUSD": 25187,
+    "annualINR": 2082360,
+    "totalGBP": 19832,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12559,7 +13007,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-449",
@@ -12570,10 +13019,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 9916,
+    "annualUSD": 12593,
+    "annualINR": 1041180,
+    "totalGBP": 9916,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -12587,7 +13036,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-450",
@@ -12598,9 +13048,154 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
+    "annualGBP": 29750,
+    "annualUSD": 37783,
+    "annualINR": 3123750,
+    "totalGBP": 29750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-451",
+    "name": "Health Research PGDip",
+    "slug": "leeds-health-research-pgdip",
+    "url": "https://courses.leeds.ac.uk/202627/8456/health-research-pgdip",
+    "level": "Postgraduate Diploma",
+    "studyLevel": "Postgraduate",
+    "duration": "18 Months",
+    "durationYears": 2,
+    "annualGBP": 9917,
+    "annualUSD": 12595,
+    "annualINR": 1041285,
+    "totalGBP": 19834,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-452",
+    "name": "High-Performance Graphics and Games Engineering MSc",
+    "slug": "leeds-high-performance-graphics-and-games-engineering-msc",
+    "url": "https://courses.leeds.ac.uk/202627/i070/high-performance-graphics-and-games-engineering-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-453",
+    "name": "Human Resource Management MSc",
+    "slug": "leeds-human-resource-management-msc",
+    "url": "https://courses.leeds.ac.uk/202627/k194/human-resource-management-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 32250,
+    "annualUSD": 40958,
+    "annualINR": 3386250,
+    "totalGBP": 32250,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-454",
+    "name": "Inclusive and Special Education MA",
+    "slug": "leeds-inclusive-and-special-education-ma",
+    "url": "https://courses.leeds.ac.uk/202627/k175/inclusive-and-special-education-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "24 Months",
+    "durationYears": 2,
+    "annualGBP": 13000,
+    "annualUSD": 16510,
+    "annualINR": 1365000,
+    "totalGBP": 26000,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-455",
+    "name": "Inequalities and Social Science MSc",
+    "slug": "leeds-inequalities-and-social-science-msc",
+    "url": "https://courses.leeds.ac.uk/202627/i229/inequalities-and-social-science-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
     "annualGBP": 26500,
     "annualUSD": 33655,
-    "annualINR": 2835500,
+    "annualINR": 2782500,
     "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
@@ -12615,20 +13210,1529 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
-    "id": "leeds-451",
-    "name": "Health Research PGDip",
-    "slug": "leeds-health-research-pgdip",
-    "url": "https://courses.leeds.ac.uk/202627/8456/health-research-pgdip",
-    "level": "Postgraduate Diploma",
+    "id": "leeds-456",
+    "name": "Infection, Immunity and Human Disease MSc",
+    "slug": "leeds-infection-immunity-and-human-disease-msc",
+    "url": "https://courses.leeds.ac.uk/202627/g813/infection-immunity-and-human-disease-msc",
+    "level": "Master (MSc)",
     "studyLevel": "Postgraduate",
-    "duration": "18 Months",
-    "durationYears": 2,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-457",
+    "name": "Intellectual Property Law LLM",
+    "slug": "leeds-intellectual-property-law-llm",
+    "url": "https://courses.leeds.ac.uk/202627/f379/intellectual-property-law-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-458",
+    "name": "International Banking and Finance Law LLM",
+    "slug": "leeds-international-banking-and-finance-law-llm",
+    "url": "https://courses.leeds.ac.uk/202627/f712/international-banking-and-finance-law-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-459",
+    "name": "International Business MSc",
+    "slug": "leeds-international-business-msc",
+    "url": "https://courses.leeds.ac.uk/202627/e763/international-business-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 32500,
+    "annualUSD": 41275,
+    "annualINR": 3412500,
+    "totalGBP": 32500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-460",
+    "name": "International Business Law LLM",
+    "slug": "leeds-international-business-law-llm",
+    "url": "https://courses.leeds.ac.uk/202627/e461/international-business-law-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-461",
+    "name": "International Communication MA",
+    "slug": "leeds-international-communication-ma",
+    "url": "https://courses.leeds.ac.uk/202627/7155/international-communication-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-462",
+    "name": "International Construction Management and Engineering MSc (Eng)",
+    "slug": "leeds-international-construction-management-and-engineering-msc-eng",
+    "url": "https://courses.leeds.ac.uk/202627/8810/international-construction-management-and-engineering-msc-eng-",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-463",
+    "name": "International Corporate Law LLM",
+    "slug": "leeds-international-corporate-law-llm",
+    "url": "https://courses.leeds.ac.uk/202627/f375/international-corporate-law-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-464",
+    "name": "International Health MSc",
+    "slug": "leeds-international-health-msc",
+    "url": "https://courses.leeds.ac.uk/202627/f408/international-health-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 29750,
+    "annualUSD": 37783,
+    "annualINR": 3123750,
+    "totalGBP": 29750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-465",
+    "name": "International History MA",
+    "slug": "leeds-international-history-ma",
+    "url": "https://courses.leeds.ac.uk/202627/j803/international-history-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-466",
+    "name": "International Human Rights Law LLM",
+    "slug": "leeds-international-human-rights-law-llm",
+    "url": "https://courses.leeds.ac.uk/202627/i325/international-human-rights-law-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-467",
+    "name": "International Journalism MA",
+    "slug": "leeds-international-journalism-ma",
+    "url": "https://courses.leeds.ac.uk/202627/e135/international-journalism-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-468",
+    "name": "International Law and Global Governance LLM",
+    "slug": "leeds-international-law-and-global-governance-llm",
+    "url": "https://courses.leeds.ac.uk/202627/i889/international-law-and-global-governance-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-469",
+    "name": "International Marketing Management MSc",
+    "slug": "leeds-international-marketing-management-msc",
+    "url": "https://courses.leeds.ac.uk/202627/7652/international-marketing-management-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 31500,
+    "annualUSD": 40005,
+    "annualINR": 3307500,
+    "totalGBP": 31500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-470",
+    "name": "International Relations MA",
+    "slug": "leeds-international-relations-ma",
+    "url": "https://courses.leeds.ac.uk/202627/f819/international-relations-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-471",
+    "name": "International Security MA",
+    "slug": "leeds-international-security-ma",
+    "url": "https://courses.leeds.ac.uk/202627/k144/international-security-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-472",
+    "name": "International Trade Law LLM",
+    "slug": "leeds-international-trade-law-llm",
+    "url": "https://courses.leeds.ac.uk/202627/e775/international-trade-law-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-473",
+    "name": "Language for Arts and Humanities ND",
+    "slug": "leeds-language-for-arts-and-humanities-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i014/language-for-arts-and-humanities",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-474",
+    "name": "Language for Business (10 weeks) ND",
+    "slug": "leeds-language-for-business-10-weeks-nd",
+    "url": "https://courses.leeds.ac.uk/202627/k023/language-for-business-10-weeks-",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-475",
+    "name": "Language for Business (6 weeks) ND",
+    "slug": "leeds-language-for-business-6-weeks-nd",
+    "url": "https://courses.leeds.ac.uk/202627/k022/language-for-business-6-weeks-",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-476",
+    "name": "Language for Communication and Society ND",
+    "slug": "leeds-language-for-communication-and-society-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i013/language-for-communication-and-society",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-477",
+    "name": "Language for Education and Linguistics (6 weeks) ND",
+    "slug": "leeds-language-for-education-and-linguistics-6-weeks-nd",
+    "url": "https://courses.leeds.ac.uk/202627/k157/language-for-education-and-linguistics-6-weeks-",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-478",
+    "name": "Language for Engineering ND",
+    "slug": "leeds-language-for-engineering-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i193/language-for-engineering",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-479",
+    "name": "Language for Law ND",
+    "slug": "leeds-language-for-law-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i534/language-for-law",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-480",
+    "name": "Language for Politics and Society ND",
+    "slug": "leeds-language-for-politics-and-society-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i669/language-for-politics-and-society",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-481",
+    "name": "Language for Postgraduate Research ND",
+    "slug": "leeds-language-for-postgraduate-research-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i670/language-for-postgraduate-research",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-482",
+    "name": "Language for Science ND",
+    "slug": "leeds-language-for-science-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i204/language-for-science",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "6 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-483",
+    "name": "Language for Science: Engineering ND",
+    "slug": "leeds-language-for-science-engineering-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i194/language-for-science-engineering",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-484",
+    "name": "Language for Science: General Science ND",
+    "slug": "leeds-language-for-science-general-science-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i203/language-for-science-general-science",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-485",
+    "name": "Language for Social Science and Arts: Arts and Humanities ND",
+    "slug": "leeds-language-for-social-science-and-arts-arts-and-humanities-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i005/language-for-social-science-and-arts-arts-and-humanities",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-486",
+    "name": "Language for Social Science and Arts: Communication and Society ND",
+    "slug": "leeds-language-for-social-science-and-arts-communication-and-society-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i004/language-for-social-science-and-arts-communication-and-society",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-487",
+    "name": "Language for Social Science and Arts: Education and Linguistics (10 weeks) ND",
+    "slug": "leeds-language-for-social-science-and-arts-education-and-linguistics-10-weeks-nd",
+    "url": "https://courses.leeds.ac.uk/202627/k158/language-for-social-science-and-arts-education-and-linguistics-10-weeks-",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-488",
+    "name": "Language for Social Science and Arts: Law ND",
+    "slug": "leeds-language-for-social-science-and-arts-law-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i533/language-for-social-science-and-arts-law",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-489",
+    "name": "Language for Social Science and Arts: Politics and Society ND",
+    "slug": "leeds-language-for-social-science-and-arts-politics-and-society-nd",
+    "url": "https://courses.leeds.ac.uk/202627/i668/language-for-social-science-and-arts-politics-and-society",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "10 Weeks (Full time)",
+    "durationYears": 1,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-490",
+    "name": "Law and Finance MSc",
+    "slug": "leeds-law-and-finance-msc",
+    "url": "https://courses.leeds.ac.uk/202627/g085/law-and-finance-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33250,
+    "annualUSD": 42228,
+    "annualINR": 3491250,
+    "totalGBP": 33250,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-491",
+    "name": "Law and Social Justice LLM",
+    "slug": "leeds-law-and-social-justice-llm",
+    "url": "https://courses.leeds.ac.uk/202627/i415/law-and-social-justice-llm",
+    "level": "Master (LLM)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-492",
+    "name": "Linguistics MA",
+    "slug": "leeds-linguistics-ma",
+    "url": "https://courses.leeds.ac.uk/202627/7690/linguistics-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-493",
+    "name": "Linguistics for English Language Teaching MA",
+    "slug": "leeds-linguistics-for-english-language-teaching-ma",
+    "url": "https://courses.leeds.ac.uk/202627/j846/linguistics-for-english-language-teaching-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-494",
+    "name": "Management MSc",
+    "slug": "leeds-management-msc",
+    "url": "https://courses.leeds.ac.uk/202627/a078/management-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-495",
+    "name": "Management Consulting MSc",
+    "slug": "leeds-management-consulting-msc",
+    "url": "https://courses.leeds.ac.uk/202627/g962/management-consulting-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33000,
+    "annualUSD": 41910,
+    "annualINR": 3465000,
+    "totalGBP": 33000,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-496",
+    "name": "Management of Information Systems and Digital Innovation MSc",
+    "slug": "leeds-management-of-information-systems-and-digital-innovation-msc",
+    "url": "https://courses.leeds.ac.uk/202627/j796/management-of-information-systems-and-digital-innovation-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "annualINR": 3255000,
+    "totalGBP": 31000,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-497",
+    "name": "Marketing Management with Advertising MSc",
+    "slug": "leeds-marketing-management-with-advertising-msc",
+    "url": "https://courses.leeds.ac.uk/202627/j795/marketing-management-with-advertising-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 31500,
+    "annualUSD": 40005,
+    "annualINR": 3307500,
+    "totalGBP": 31500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-498",
+    "name": "Materials Science and Engineering MSc",
+    "slug": "leeds-materials-science-and-engineering-msc",
+    "url": "https://courses.leeds.ac.uk/202627/g591/materials-science-and-engineering-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-499",
+    "name": "Mathematics MSc",
+    "slug": "leeds-mathematics-msc",
+    "url": "https://courses.leeds.ac.uk/202627/f669/mathematics-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 29750,
+    "annualUSD": 37783,
+    "annualINR": 3123750,
+    "totalGBP": 29750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-500",
+    "name": "Mechatronics and Robotics Engineering MSc(Eng)",
+    "slug": "leeds-mechatronics-and-robotics-engineering-msceng",
+    "url": "https://courses.leeds.ac.uk/202627/j916/mechatronics-and-robotics-engineering-msc-eng-",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-501",
+    "name": "Media Industries MA",
+    "slug": "leeds-media-industries-ma",
+    "url": "https://courses.leeds.ac.uk/202627/f579/media-industries-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-502",
+    "name": "Medical Engineering MSc",
+    "slug": "leeds-medical-engineering-msc",
+    "url": "https://courses.leeds.ac.uk/202627/e931/medical-engineering-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-503",
+    "name": "Medical Imaging PGCert",
+    "slug": "leeds-medical-imaging-pgcert",
+    "url": "https://courses.leeds.ac.uk/202627/a088/medical-imaging-pgcert",
+    "level": "Postgraduate Certificate",
+    "studyLevel": "Postgraduate",
+    "duration": "9 Months",
+    "durationYears": 1,
+    "annualGBP": 11166,
+    "annualUSD": 14181,
+    "annualINR": 1172430,
+    "totalGBP": 11166,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-504",
+    "name": "Medical Imaging MSc",
+    "slug": "leeds-medical-imaging-msc",
+    "url": "https://courses.leeds.ac.uk/202627/a086/medical-imaging-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-505",
+    "name": "Medicine MRes",
+    "slug": "leeds-medicine-mres",
+    "url": "https://courses.leeds.ac.uk/202627/g176/medicine-mres",
+    "level": "Master (MRes)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-506",
+    "name": "Medieval Studies MA",
+    "slug": "leeds-medieval-studies-ma",
+    "url": "https://courses.leeds.ac.uk/202627/7820/medieval-studies-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-507",
+    "name": "Modern History MA",
+    "slug": "leeds-modern-history-ma",
+    "url": "https://courses.leeds.ac.uk/202627/7885/modern-history-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-508",
+    "name": "Molecular Medicine MSc",
+    "slug": "leeds-molecular-medicine-msc",
+    "url": "https://courses.leeds.ac.uk/202627/k163/molecular-medicine-msc",
+    "level": "Master (MSc)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 32000,
+    "annualUSD": 40640,
+    "annualINR": 3360000,
     "totalGBP": 32000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
@@ -12643,1603 +14747,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-452",
-    "name": "High-Performance Graphics and Games Engineering MSc",
-    "slug": "leeds-high-performance-graphics-and-games-engineering-msc",
-    "url": "https://courses.leeds.ac.uk/202627/i070/high-performance-graphics-and-games-engineering-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-453",
-    "name": "Human Resource Management MSc",
-    "slug": "leeds-human-resource-management-msc",
-    "url": "https://courses.leeds.ac.uk/202627/k194/human-resource-management-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-454",
-    "name": "Inclusive and Special Education MA",
-    "slug": "leeds-inclusive-and-special-education-ma",
-    "url": "https://courses.leeds.ac.uk/202627/k175/inclusive-and-special-education-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "24 Months",
-    "durationYears": 2,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 45000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-455",
-    "name": "Inequalities and Social Science MSc",
-    "slug": "leeds-inequalities-and-social-science-msc",
-    "url": "https://courses.leeds.ac.uk/202627/i229/inequalities-and-social-science-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-456",
-    "name": "Infection, Immunity and Human Disease MSc",
-    "slug": "leeds-infection-immunity-and-human-disease-msc",
-    "url": "https://courses.leeds.ac.uk/202627/g813/infection-immunity-and-human-disease-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-457",
-    "name": "Intellectual Property Law LLM",
-    "slug": "leeds-intellectual-property-law-llm",
-    "url": "https://courses.leeds.ac.uk/202627/f379/intellectual-property-law-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-458",
-    "name": "International Banking and Finance Law LLM",
-    "slug": "leeds-international-banking-and-finance-law-llm",
-    "url": "https://courses.leeds.ac.uk/202627/f712/international-banking-and-finance-law-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-459",
-    "name": "International Business MSc",
-    "slug": "leeds-international-business-msc",
-    "url": "https://courses.leeds.ac.uk/202627/e763/international-business-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-460",
-    "name": "International Business Law LLM",
-    "slug": "leeds-international-business-law-llm",
-    "url": "https://courses.leeds.ac.uk/202627/e461/international-business-law-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-461",
-    "name": "International Communication MA",
-    "slug": "leeds-international-communication-ma",
-    "url": "https://courses.leeds.ac.uk/202627/7155/international-communication-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-462",
-    "name": "International Construction Management and Engineering MSc (Eng)",
-    "slug": "leeds-international-construction-management-and-engineering-msc-eng",
-    "url": "https://courses.leeds.ac.uk/202627/8810/international-construction-management-and-engineering-msc-eng-",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-463",
-    "name": "International Corporate Law LLM",
-    "slug": "leeds-international-corporate-law-llm",
-    "url": "https://courses.leeds.ac.uk/202627/f375/international-corporate-law-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-464",
-    "name": "International Health MSc",
-    "slug": "leeds-international-health-msc",
-    "url": "https://courses.leeds.ac.uk/202627/f408/international-health-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-465",
-    "name": "International History MA",
-    "slug": "leeds-international-history-ma",
-    "url": "https://courses.leeds.ac.uk/202627/j803/international-history-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-466",
-    "name": "International Human Rights Law LLM",
-    "slug": "leeds-international-human-rights-law-llm",
-    "url": "https://courses.leeds.ac.uk/202627/i325/international-human-rights-law-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-467",
-    "name": "International Journalism MA",
-    "slug": "leeds-international-journalism-ma",
-    "url": "https://courses.leeds.ac.uk/202627/e135/international-journalism-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-468",
-    "name": "International Law and Global Governance LLM",
-    "slug": "leeds-international-law-and-global-governance-llm",
-    "url": "https://courses.leeds.ac.uk/202627/i889/international-law-and-global-governance-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-469",
-    "name": "International Marketing Management MSc",
-    "slug": "leeds-international-marketing-management-msc",
-    "url": "https://courses.leeds.ac.uk/202627/7652/international-marketing-management-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-470",
-    "name": "International Relations MA",
-    "slug": "leeds-international-relations-ma",
-    "url": "https://courses.leeds.ac.uk/202627/f819/international-relations-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-471",
-    "name": "International Security MA",
-    "slug": "leeds-international-security-ma",
-    "url": "https://courses.leeds.ac.uk/202627/k144/international-security-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-472",
-    "name": "International Trade Law LLM",
-    "slug": "leeds-international-trade-law-llm",
-    "url": "https://courses.leeds.ac.uk/202627/e775/international-trade-law-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-473",
-    "name": "Language for Arts and Humanities ND",
-    "slug": "leeds-language-for-arts-and-humanities-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i014/language-for-arts-and-humanities",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-474",
-    "name": "Language for Business (10 weeks) ND",
-    "slug": "leeds-language-for-business-10-weeks-nd",
-    "url": "https://courses.leeds.ac.uk/202627/k023/language-for-business-10-weeks-",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-475",
-    "name": "Language for Business (6 weeks) ND",
-    "slug": "leeds-language-for-business-6-weeks-nd",
-    "url": "https://courses.leeds.ac.uk/202627/k022/language-for-business-6-weeks-",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-476",
-    "name": "Language for Communication and Society ND",
-    "slug": "leeds-language-for-communication-and-society-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i013/language-for-communication-and-society",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-477",
-    "name": "Language for Education and Linguistics (6 weeks) ND",
-    "slug": "leeds-language-for-education-and-linguistics-6-weeks-nd",
-    "url": "https://courses.leeds.ac.uk/202627/k157/language-for-education-and-linguistics-6-weeks-",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-478",
-    "name": "Language for Engineering ND",
-    "slug": "leeds-language-for-engineering-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i193/language-for-engineering",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-479",
-    "name": "Language for Law ND",
-    "slug": "leeds-language-for-law-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i534/language-for-law",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-480",
-    "name": "Language for Politics and Society ND",
-    "slug": "leeds-language-for-politics-and-society-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i669/language-for-politics-and-society",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-481",
-    "name": "Language for Postgraduate Research ND",
-    "slug": "leeds-language-for-postgraduate-research-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i670/language-for-postgraduate-research",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-482",
-    "name": "Language for Science ND",
-    "slug": "leeds-language-for-science-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i204/language-for-science",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "6 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-483",
-    "name": "Language for Science: Engineering ND",
-    "slug": "leeds-language-for-science-engineering-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i194/language-for-science-engineering",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-484",
-    "name": "Language for Science: General Science ND",
-    "slug": "leeds-language-for-science-general-science-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i203/language-for-science-general-science",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-485",
-    "name": "Language for Social Science and Arts: Arts and Humanities ND",
-    "slug": "leeds-language-for-social-science-and-arts-arts-and-humanities-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i005/language-for-social-science-and-arts-arts-and-humanities",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-486",
-    "name": "Language for Social Science and Arts: Communication and Society ND",
-    "slug": "leeds-language-for-social-science-and-arts-communication-and-society-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i004/language-for-social-science-and-arts-communication-and-society",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-487",
-    "name": "Language for Social Science and Arts: Education and Linguistics (10 weeks) ND",
-    "slug": "leeds-language-for-social-science-and-arts-education-and-linguistics-10-weeks-nd",
-    "url": "https://courses.leeds.ac.uk/202627/k158/language-for-social-science-and-arts-education-and-linguistics-10-weeks-",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-488",
-    "name": "Language for Social Science and Arts: Law ND",
-    "slug": "leeds-language-for-social-science-and-arts-law-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i533/language-for-social-science-and-arts-law",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-489",
-    "name": "Language for Social Science and Arts: Politics and Society ND",
-    "slug": "leeds-language-for-social-science-and-arts-politics-and-society-nd",
-    "url": "https://courses.leeds.ac.uk/202627/i668/language-for-social-science-and-arts-politics-and-society",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "10 Weeks (Full time)",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-490",
-    "name": "Law and Finance MSc",
-    "slug": "leeds-law-and-finance-msc",
-    "url": "https://courses.leeds.ac.uk/202627/g085/law-and-finance-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-491",
-    "name": "Law and Social Justice LLM",
-    "slug": "leeds-law-and-social-justice-llm",
-    "url": "https://courses.leeds.ac.uk/202627/i415/law-and-social-justice-llm",
-    "level": "Master (LLM)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23500,
-    "annualUSD": 29845,
-    "annualINR": 2514500,
-    "totalGBP": 23500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-492",
-    "name": "Linguistics MA",
-    "slug": "leeds-linguistics-ma",
-    "url": "https://courses.leeds.ac.uk/202627/7690/linguistics-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-493",
-    "name": "Linguistics for English Language Teaching MA",
-    "slug": "leeds-linguistics-for-english-language-teaching-ma",
-    "url": "https://courses.leeds.ac.uk/202627/j846/linguistics-for-english-language-teaching-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-494",
-    "name": "Management MSc",
-    "slug": "leeds-management-msc",
-    "url": "https://courses.leeds.ac.uk/202627/a078/management-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-495",
-    "name": "Management Consulting MSc",
-    "slug": "leeds-management-consulting-msc",
-    "url": "https://courses.leeds.ac.uk/202627/g962/management-consulting-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-496",
-    "name": "Management of Information Systems and Digital Innovation MSc",
-    "slug": "leeds-management-of-information-systems-and-digital-innovation-msc",
-    "url": "https://courses.leeds.ac.uk/202627/j796/management-of-information-systems-and-digital-innovation-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-497",
-    "name": "Marketing Management with Advertising MSc",
-    "slug": "leeds-marketing-management-with-advertising-msc",
-    "url": "https://courses.leeds.ac.uk/202627/j795/marketing-management-with-advertising-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-498",
-    "name": "Materials Science and Engineering MSc",
-    "slug": "leeds-materials-science-and-engineering-msc",
-    "url": "https://courses.leeds.ac.uk/202627/g591/materials-science-and-engineering-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-499",
-    "name": "Mathematics MSc",
-    "slug": "leeds-mathematics-msc",
-    "url": "https://courses.leeds.ac.uk/202627/f669/mathematics-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-500",
-    "name": "Mechatronics and Robotics Engineering MSc(Eng)",
-    "slug": "leeds-mechatronics-and-robotics-engineering-msceng",
-    "url": "https://courses.leeds.ac.uk/202627/j916/mechatronics-and-robotics-engineering-msc-eng-",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-501",
-    "name": "Media Industries MA",
-    "slug": "leeds-media-industries-ma",
-    "url": "https://courses.leeds.ac.uk/202627/f579/media-industries-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-502",
-    "name": "Medical Engineering MSc",
-    "slug": "leeds-medical-engineering-msc",
-    "url": "https://courses.leeds.ac.uk/202627/e931/medical-engineering-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-503",
-    "name": "Medical Imaging PGCert",
-    "slug": "leeds-medical-imaging-pgcert",
-    "url": "https://courses.leeds.ac.uk/202627/a088/medical-imaging-pgcert",
-    "level": "Postgraduate Certificate",
-    "studyLevel": "Postgraduate",
-    "duration": "9 Months",
-    "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-504",
-    "name": "Medical Imaging MSc",
-    "slug": "leeds-medical-imaging-msc",
-    "url": "https://courses.leeds.ac.uk/202627/a086/medical-imaging-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-505",
-    "name": "Medicine MRes",
-    "slug": "leeds-medicine-mres",
-    "url": "https://courses.leeds.ac.uk/202627/g176/medicine-mres",
-    "level": "Master (MRes)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 24500,
-    "annualUSD": 31115,
-    "annualINR": 2621500,
-    "totalGBP": 24500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-506",
-    "name": "Medieval Studies MA",
-    "slug": "leeds-medieval-studies-ma",
-    "url": "https://courses.leeds.ac.uk/202627/7820/medieval-studies-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-507",
-    "name": "Modern History MA",
-    "slug": "leeds-modern-history-ma",
-    "url": "https://courses.leeds.ac.uk/202627/7885/modern-history-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-508",
-    "name": "Molecular Medicine MSc",
-    "slug": "leeds-molecular-medicine-msc",
-    "url": "https://courses.leeds.ac.uk/202627/k163/molecular-medicine-msc",
-    "level": "Master (MSc)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-509",
@@ -14250,10 +14759,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 4500,
+    "annualUSD": 5715,
+    "annualINR": 472500,
+    "totalGBP": 4500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14267,7 +14776,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-510",
@@ -14295,7 +14805,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-511",
@@ -14306,10 +14817,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14323,7 +14834,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-512",
@@ -14334,10 +14846,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 9583,
+    "annualUSD": 12170,
+    "annualINR": 1006215,
+    "totalGBP": 9583,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14351,7 +14863,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-513",
@@ -14362,10 +14875,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14379,7 +14892,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-514",
@@ -14390,10 +14904,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 19166,
+    "annualUSD": 24341,
+    "annualINR": 2012430,
+    "totalGBP": 19166,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14407,7 +14921,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-515",
@@ -14418,10 +14933,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 32500,
+    "annualUSD": 41275,
+    "annualINR": 3412500,
+    "totalGBP": 32500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14435,7 +14950,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-516",
@@ -14446,10 +14962,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14463,7 +14979,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-517",
@@ -14474,10 +14991,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 24500,
-    "annualUSD": 31115,
-    "annualINR": 2621500,
-    "totalGBP": 24500,
+    "annualGBP": 34250,
+    "annualUSD": 43498,
+    "annualINR": 3596250,
+    "totalGBP": 34250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14491,7 +15008,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-518",
@@ -14502,10 +15020,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 34000,
+    "annualUSD": 43180,
+    "annualINR": 3570000,
+    "totalGBP": 34000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14519,7 +15037,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-519",
@@ -14530,10 +15049,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "10 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14547,7 +15066,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-520",
@@ -14558,10 +15078,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "6 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 3439,
+    "annualUSD": 4368,
+    "annualINR": 361095,
+    "totalGBP": 3439,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14575,7 +15095,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-521",
@@ -14586,10 +15107,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 57250,
+    "annualUSD": 72708,
+    "annualINR": 6011250,
+    "totalGBP": 57250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14603,7 +15124,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-522",
@@ -14614,9 +15136,96 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
+    "annualGBP": 32250,
+    "annualUSD": 40958,
+    "annualINR": 3386250,
+    "totalGBP": 32250,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-523",
+    "name": "Performance MMus",
+    "slug": "leeds-performance-mmus",
+    "url": "https://courses.leeds.ac.uk/202627/7957/performance-mmus",
+    "level": "Master",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-524",
+    "name": "Performance PGDip",
+    "slug": "leeds-performance-pgdip",
+    "url": "https://courses.leeds.ac.uk/202627/g298/performance-pgdip",
+    "level": "Postgraduate Diploma",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
+    "annualGBP": 19166,
+    "annualUSD": 24341,
+    "annualINR": 2012430,
+    "totalGBP": 19166,
+    "livingCostGBP": 11000,
+    "livingCostUSD": 13970,
+    "livingCostINR": 1177000,
+    "ieltsMin": 6.5,
+    "toeflMin": 88,
+    "pteMin": 60,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Main Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Leeds",
+    "countryCode": "GB",
+    "feeVerified": true
+  },
+  {
+    "id": "leeds-525",
+    "name": "Performance Design MA",
+    "slug": "leeds-performance-design-ma",
+    "url": "https://courses.leeds.ac.uk/202627/g699/performance-design-ma",
+    "level": "Master (MA)",
+    "studyLevel": "Postgraduate",
+    "duration": "12 Months",
+    "durationYears": 1,
     "annualGBP": 26500,
     "annualUSD": 33655,
-    "annualINR": 2835500,
+    "annualINR": 2782500,
     "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
@@ -14631,91 +15240,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-523",
-    "name": "Performance MMus",
-    "slug": "leeds-performance-mmus",
-    "url": "https://courses.leeds.ac.uk/202627/7957/performance-mmus",
-    "level": "Master",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-524",
-    "name": "Performance PGDip",
-    "slug": "leeds-performance-pgdip",
-    "url": "https://courses.leeds.ac.uk/202627/g298/performance-pgdip",
-    "level": "Postgraduate Diploma",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
-  },
-  {
-    "id": "leeds-525",
-    "name": "Performance Design MA",
-    "slug": "leeds-performance-design-ma",
-    "url": "https://courses.leeds.ac.uk/202627/g699/performance-design-ma",
-    "level": "Master (MA)",
-    "studyLevel": "Postgraduate",
-    "duration": "12 Months",
-    "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
-    "livingCostGBP": 11000,
-    "livingCostUSD": 13970,
-    "livingCostINR": 1177000,
-    "ieltsMin": 6.5,
-    "toeflMin": 88,
-    "pteMin": 60,
-    "intakeMonths": [
-      "September"
-    ],
-    "campus": "Main Campus",
-    "country": "United Kingdom",
-    "state": "England",
-    "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-526",
@@ -14743,7 +15269,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-527",
@@ -14771,7 +15298,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-528",
@@ -14782,10 +15310,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14799,7 +15327,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-529",
@@ -14810,10 +15339,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14827,7 +15356,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-530",
@@ -14838,10 +15368,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14855,7 +15385,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-531",
@@ -14866,10 +15397,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14883,7 +15414,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-532",
@@ -14896,7 +15428,7 @@ export const leedsCourses: LeedsCourse[] = [
     "durationYears": 1,
     "annualGBP": 26500,
     "annualUSD": 33655,
-    "annualINR": 2835500,
+    "annualINR": 2782500,
     "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
@@ -14911,7 +15443,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-533",
@@ -14922,10 +15455,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14939,7 +15472,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-534",
@@ -14950,10 +15484,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "35 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 11897,
+    "annualUSD": 15109,
+    "annualINR": 1249185,
+    "totalGBP": 11897,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14967,7 +15501,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-535",
@@ -14978,10 +15513,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "17 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 6164,
+    "annualUSD": 7828,
+    "annualINR": 647220,
+    "totalGBP": 6164,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -14995,7 +15530,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-536",
@@ -15006,10 +15542,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "17 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 6164,
+    "annualUSD": 7828,
+    "annualINR": 647220,
+    "totalGBP": 6164,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15023,7 +15559,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-537",
@@ -15034,10 +15571,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 18060,
+    "annualUSD": 22936,
+    "annualINR": 1896300,
+    "totalGBP": 18060,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15051,7 +15588,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-538",
@@ -15062,10 +15600,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "35 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 12327,
+    "annualUSD": 15655,
+    "annualINR": 1294335,
+    "totalGBP": 12327,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15079,7 +15617,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-539",
@@ -15090,10 +15629,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "35 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 11435,
+    "annualUSD": 14522,
+    "annualINR": 1200675,
+    "totalGBP": 11435,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15107,7 +15646,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-540",
@@ -15118,10 +15658,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "17 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 6027,
+    "annualUSD": 7654,
+    "annualINR": 632835,
+    "totalGBP": 6027,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15135,7 +15675,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-541",
@@ -15146,10 +15687,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "17 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 6027,
+    "annualUSD": 7654,
+    "annualINR": 632835,
+    "totalGBP": 6027,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15163,7 +15704,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-542",
@@ -15174,10 +15716,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 17462,
+    "annualUSD": 22177,
+    "annualINR": 1833510,
+    "totalGBP": 17462,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15191,7 +15733,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-543",
@@ -15202,10 +15745,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "35 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 12054,
+    "annualUSD": 15309,
+    "annualINR": 1265670,
+    "totalGBP": 12054,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15219,7 +15762,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-544",
@@ -15230,10 +15774,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "10 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15247,7 +15791,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-545",
@@ -15258,10 +15803,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "10 Weeks (Full time)",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 5733,
+    "annualUSD": 7281,
+    "annualINR": 601965,
+    "totalGBP": 5733,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15275,7 +15820,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-546",
@@ -15286,10 +15832,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15303,7 +15849,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-547",
@@ -15314,10 +15861,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28000,
+    "annualUSD": 35560,
+    "annualINR": 2940000,
+    "totalGBP": 28000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15331,7 +15878,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-548",
@@ -15342,10 +15890,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15359,7 +15907,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-549",
@@ -15370,10 +15919,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15387,7 +15936,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-550",
@@ -15415,7 +15965,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-551",
@@ -15443,7 +15994,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-552",
@@ -15454,10 +16006,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 19832,
+    "annualUSD": 25187,
+    "annualINR": 2082360,
+    "totalGBP": 19832,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15471,7 +16023,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-553",
@@ -15482,10 +16035,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "4 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 9916,
+    "annualUSD": 12593,
+    "annualINR": 1041180,
+    "totalGBP": 9916,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15499,7 +16052,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-554",
@@ -15510,10 +16064,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 29750,
+    "annualUSD": 37783,
+    "annualINR": 3123750,
+    "totalGBP": 29750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15527,7 +16081,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-555",
@@ -15538,10 +16093,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15555,7 +16110,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-556",
@@ -15566,10 +16122,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 12000,
+    "annualGBP": 8833,
+    "annualUSD": 11218,
+    "annualINR": 927465,
+    "totalGBP": 8833,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15583,7 +16139,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-557",
@@ -15594,10 +16151,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "9 Months",
     "durationYears": 1,
-    "annualGBP": 16000,
-    "annualUSD": 20320,
-    "annualINR": 1712000,
-    "totalGBP": 16000,
+    "annualGBP": 17666,
+    "annualUSD": 22436,
+    "annualINR": 1854930,
+    "totalGBP": 17666,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15611,7 +16168,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-558",
@@ -15622,10 +16180,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15639,7 +16197,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-559",
@@ -15650,10 +16209,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28250,
+    "annualUSD": 35878,
+    "annualINR": 2966250,
+    "totalGBP": 28250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15667,7 +16226,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-560",
@@ -15678,10 +16238,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15695,7 +16255,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-561",
@@ -15706,10 +16267,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15723,7 +16284,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-562",
@@ -15734,10 +16296,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 29500,
+    "annualUSD": 37465,
+    "annualINR": 3097500,
+    "totalGBP": 29500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15751,7 +16313,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-563",
@@ -15762,10 +16325,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15779,7 +16342,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-564",
@@ -15790,10 +16354,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 24500,
-    "annualUSD": 31115,
-    "annualINR": 2621500,
-    "totalGBP": 24500,
+    "annualGBP": 32250,
+    "annualUSD": 40958,
+    "annualINR": 3386250,
+    "totalGBP": 32250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15807,7 +16371,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-565",
@@ -15818,10 +16383,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31750,
+    "annualUSD": 40323,
+    "annualINR": 3333750,
+    "totalGBP": 31750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15835,7 +16400,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-566",
@@ -15846,10 +16412,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15863,7 +16429,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-567",
@@ -15874,10 +16441,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33000,
+    "annualUSD": 41910,
+    "annualINR": 3465000,
+    "totalGBP": 33000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15891,7 +16458,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-568",
@@ -15902,10 +16470,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15919,7 +16487,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-569",
@@ -15930,10 +16499,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 30750,
+    "annualUSD": 39053,
+    "annualINR": 3228750,
+    "totalGBP": 30750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15947,7 +16516,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-570",
@@ -15958,10 +16528,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31000,
+    "annualUSD": 39370,
+    "annualINR": 3255000,
+    "totalGBP": 31000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -15975,7 +16545,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-571",
@@ -15986,10 +16557,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 31750,
+    "annualUSD": 40323,
+    "annualINR": 3333750,
+    "totalGBP": 31750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16003,7 +16574,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-572",
@@ -16014,10 +16586,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32000,
+    "annualUSD": 40640,
+    "annualINR": 3360000,
+    "totalGBP": 32000,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16031,7 +16603,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-573",
@@ -16042,10 +16615,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32500,
+    "annualUSD": 41275,
+    "annualINR": 3412500,
+    "totalGBP": 32500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16059,7 +16632,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-574",
@@ -16070,10 +16644,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 53000,
+    "annualGBP": 14875,
+    "annualUSD": 18891,
+    "annualINR": 1561875,
+    "totalGBP": 29750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16087,7 +16661,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-575",
@@ -16098,10 +16673,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "24 Months",
     "durationYears": 2,
-    "annualGBP": 12000,
-    "annualUSD": 15240,
-    "annualINR": 1284000,
-    "totalGBP": 24000,
+    "annualGBP": 7750,
+    "annualUSD": 9843,
+    "annualINR": 813750,
+    "totalGBP": 15500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16115,7 +16690,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-576",
@@ -16126,10 +16702,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 7750,
+    "annualUSD": 9843,
+    "annualINR": 813750,
+    "totalGBP": 7750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16143,7 +16719,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-577",
@@ -16154,10 +16731,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 23000,
-    "annualUSD": 29210,
-    "annualINR": 2461000,
-    "totalGBP": 23000,
+    "annualGBP": 7750,
+    "annualUSD": 9843,
+    "annualINR": 813750,
+    "totalGBP": 7750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16171,7 +16748,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-578",
@@ -16182,10 +16760,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 27500,
+    "annualUSD": 34925,
+    "annualINR": 2887500,
+    "totalGBP": 27500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16199,7 +16777,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-579",
@@ -16227,7 +16806,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "leeds-580",
@@ -16238,10 +16818,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 26500,
+    "annualUSD": 33655,
+    "annualINR": 2782500,
+    "totalGBP": 26500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16255,7 +16835,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-581",
@@ -16266,10 +16847,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 22500,
-    "annualUSD": 28575,
-    "annualINR": 2407500,
-    "totalGBP": 22500,
+    "annualGBP": 28750,
+    "annualUSD": 36513,
+    "annualINR": 3018750,
+    "totalGBP": 28750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16283,7 +16864,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-582",
@@ -16294,10 +16876,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 32750,
+    "annualUSD": 41593,
+    "annualINR": 3438750,
+    "totalGBP": 32750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16311,7 +16893,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-583",
@@ -16322,10 +16905,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 30750,
+    "annualUSD": 39053,
+    "annualINR": 3228750,
+    "totalGBP": 30750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16339,7 +16922,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-584",
@@ -16350,10 +16934,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16367,7 +16951,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-585",
@@ -16378,10 +16963,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 30750,
+    "annualUSD": 39053,
+    "annualINR": 3228750,
+    "totalGBP": 30750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16395,7 +16980,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-586",
@@ -16406,10 +16992,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 30750,
+    "annualUSD": 39053,
+    "annualINR": 3228750,
+    "totalGBP": 30750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16423,7 +17009,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-587",
@@ -16434,10 +17021,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 30750,
+    "annualUSD": 39053,
+    "annualINR": 3228750,
+    "totalGBP": 30750,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16451,7 +17038,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-588",
@@ -16462,10 +17050,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33250,
+    "annualUSD": 42228,
+    "annualINR": 3491250,
+    "totalGBP": 33250,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16479,7 +17067,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   },
   {
     "id": "leeds-589",
@@ -16490,10 +17079,10 @@ export const leedsCourses: LeedsCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "12 Months",
     "durationYears": 1,
-    "annualGBP": 26500,
-    "annualUSD": 33655,
-    "annualINR": 2835500,
-    "totalGBP": 26500,
+    "annualGBP": 33500,
+    "annualUSD": 42545,
+    "annualINR": 3517500,
+    "totalGBP": 33500,
     "livingCostGBP": 11000,
     "livingCostUSD": 13970,
     "livingCostINR": 1177000,
@@ -16507,7 +17096,8 @@ export const leedsCourses: LeedsCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leeds",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": true
   }
 ];
 

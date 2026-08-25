@@ -2,6 +2,7 @@
 // Generated from: https://www.royalholloway.ac.uk/sitemap.xml (/studying-here/postgraduate/ pattern)
 
 export interface RhulCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-2",
@@ -66,7 +68,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-3",
@@ -94,7 +97,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-4",
@@ -122,7 +126,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-5",
@@ -150,7 +155,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-6",
@@ -178,7 +184,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-7",
@@ -206,7 +213,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-8",
@@ -234,7 +242,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-9",
@@ -262,7 +271,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-10",
@@ -290,7 +300,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-11",
@@ -318,7 +329,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-12",
@@ -346,7 +358,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-13",
@@ -374,7 +387,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-14",
@@ -402,7 +416,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-15",
@@ -430,7 +445,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-16",
@@ -458,7 +474,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-17",
@@ -486,7 +503,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-18",
@@ -514,7 +532,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-19",
@@ -542,7 +561,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-20",
@@ -570,7 +590,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-21",
@@ -598,7 +619,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-22",
@@ -626,7 +648,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-23",
@@ -654,7 +677,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-24",
@@ -682,7 +706,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-25",
@@ -710,7 +735,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-26",
@@ -738,7 +764,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-27",
@@ -766,7 +793,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-28",
@@ -794,7 +822,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-29",
@@ -822,7 +851,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-30",
@@ -850,7 +880,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-31",
@@ -878,7 +909,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-32",
@@ -906,7 +938,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-33",
@@ -934,7 +967,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-34",
@@ -962,7 +996,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-35",
@@ -990,7 +1025,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-36",
@@ -1018,7 +1054,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-37",
@@ -1046,7 +1083,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-38",
@@ -1074,7 +1112,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-39",
@@ -1102,7 +1141,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-40",
@@ -1130,7 +1170,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-41",
@@ -1158,7 +1199,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-42",
@@ -1186,7 +1228,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-43",
@@ -1214,7 +1257,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-44",
@@ -1242,7 +1286,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-45",
@@ -1270,7 +1315,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-46",
@@ -1298,7 +1344,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-47",
@@ -1326,7 +1373,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-48",
@@ -1354,7 +1402,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-49",
@@ -1382,7 +1431,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-50",
@@ -1410,7 +1460,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-51",
@@ -1438,7 +1489,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-52",
@@ -1466,7 +1518,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-53",
@@ -1494,7 +1547,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-54",
@@ -1522,7 +1576,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-55",
@@ -1550,7 +1605,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-56",
@@ -1578,7 +1634,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-57",
@@ -1606,7 +1663,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-58",
@@ -1634,7 +1692,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-59",
@@ -1662,7 +1721,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-60",
@@ -1690,7 +1750,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-61",
@@ -1718,7 +1779,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-62",
@@ -1746,7 +1808,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-63",
@@ -1774,7 +1837,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-64",
@@ -1802,7 +1866,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-65",
@@ -1830,7 +1895,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-66",
@@ -1858,7 +1924,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-67",
@@ -1886,7 +1953,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-68",
@@ -1914,7 +1982,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-69",
@@ -1942,7 +2011,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-70",
@@ -1970,7 +2040,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-71",
@@ -1998,7 +2069,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-72",
@@ -2026,7 +2098,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-73",
@@ -2054,7 +2127,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-74",
@@ -2082,7 +2156,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-75",
@@ -2110,7 +2185,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-76",
@@ -2138,7 +2214,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-77",
@@ -2166,7 +2243,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-78",
@@ -2194,7 +2272,8 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "rhul-79",
@@ -2222,65 +2301,1662 @@ export const rhulCourses: RhulCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Egham",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
-  {"id":"rhul-80","name":"Biochemistry with Integrated Foundation Year BSc","slug":"rhul-ug-biochemistry-with-integrated-foundation-year-bsc","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-biochemistry-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-81","name":"Biomedical Sciences","slug":"rhul-ug-biomedical-sciences","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biomedical-sciences","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-82","name":"Ecology and Conservation","slug":"rhul-ug-ecology-and-conservation","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/ecology-and-conservation","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-83","name":"BSc Ecology and Wildlife Conservation with Integrated Foundation Year","slug":"rhul-ug-bsc-ecology-and-wildlife-conservation-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-ecology-and-conservation-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-84","name":"Medical Biochemistry","slug":"rhul-ug-medical-biochemistry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/medical-biochemistry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-85","name":"BSc Medical Biochemistry with Integrated Foundation Year","slug":"rhul-ug-bsc-medical-biochemistry-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-medical-biochemistry-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-86","name":"BSc Genetics with Integrated Foundation Year","slug":"rhul-ug-bsc-genetics-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-genetics-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-87","name":"BSc Zoology with Integrated Foundation Year","slug":"rhul-ug-bsc-zoology-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-zoology-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-88","name":"Biochemistry with a Year in Industry","slug":"rhul-ug-biochemistry-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biochemistry-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-89","name":"Biology with a Year in Industry","slug":"rhul-ug-biology-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biology-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-90","name":"Biomedical Sciences with a Year in Industry","slug":"rhul-ug-biomedical-sciences-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biomedical-sciences-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-91","name":"Ecology and Conservation with a Year in Industry","slug":"rhul-ug-ecology-and-conservation-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/ecology-and-conservation-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-92","name":"Medical Biochemistry with a Year in Industry","slug":"rhul-ug-medical-biochemistry-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/medical-biochemistry-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-93","name":"Genetics with a Year in Industry","slug":"rhul-ug-genetics-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/genetics-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-94","name":"Zoology with a Year in Industry","slug":"rhul-ug-zoology-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/zoology-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-95","name":"BSc Biology with Integrated Foundation Year","slug":"rhul-ug-bsc-biology-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-biology-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-96","name":"BSc Biomedical Sciences with Integrated Foundation Year","slug":"rhul-ug-bsc-biomedical-sciences-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-biomedical-sciences-with-integrated-foundation-year","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-97","name":"Accounting and Finance","slug":"rhul-ug-accounting-and-finance","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/accounting-and-finance","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-98","name":"Accounting and Finance with a Year in Business","slug":"rhul-ug-accounting-and-finance-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/accounting-and-finance-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-99","name":"Business and Management","slug":"rhul-ug-business-and-management","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/business-and-management","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-100","name":"Business and Management with a Year in Business","slug":"rhul-ug-business-and-management-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/business-and-management-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-101","name":"Business and Management (Accelerated Degree)","slug":"rhul-ug-business-and-management-accelerated-degree","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/business-and-management-accelerated-degree","level":"Bachelor's","studyLevel":"Undergraduate","duration":"2 years","durationYears":2,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-102","name":"Management with Accounting","slug":"rhul-ug-management-with-accounting","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-accounting","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-103","name":"Management with Accounting with a Year in Business","slug":"rhul-ug-management-with-accounting-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-accounting-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-104","name":"Management with Digital Innovation and Analytics","slug":"rhul-ug-management-with-digital-innovation-and-analytics","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-digital-innovation-and-analytics","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-105","name":"Management with Digital Innovation and Analytics with a Year in Business","slug":"rhul-ug-management-with-digital-innovation-and-analytics-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-digital-innovation-and-analytics-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-106","name":"Management with Entrepreneurship","slug":"rhul-ug-management-with-entrepreneurship","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-entrepreneurship","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-107","name":"Management with Entrepreneurship with a Year in Business","slug":"rhul-ug-management-with-entrepreneurship-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-entrepreneurship-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-108","name":"Management with Human Resources","slug":"rhul-ug-management-with-human-resources","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-human-resources","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-109","name":"Management with Human Resources with a Year in Business","slug":"rhul-ug-management-with-human-resources-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-human-resources-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-110","name":"Management with International Business","slug":"rhul-ug-management-with-international-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-international-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-111","name":"Management with International Business with a Year in Business","slug":"rhul-ug-management-with-international-business-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-international-business-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-112","name":"Management with Marketing","slug":"rhul-ug-management-with-marketing","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-marketing","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-113","name":"Management with Marketing with a Year in Business","slug":"rhul-ug-management-with-marketing-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-marketing-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-114","name":"Marketing","slug":"rhul-ug-marketing","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/bsc-marketing","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-115","name":"Marketing with a Year in Business","slug":"rhul-ug-marketing-with-a-year-in-business","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/bsc-marketing-with-a-year-in-business","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-116","name":"Ancient History","slug":"rhul-ug-ancient-history","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-history","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-117","name":"Classical Archaeology and Ancient History","slug":"rhul-ug-classical-archaeology-and-ancient-history","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-archaeology-and-ancient-history","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-118","name":"Classical Studies","slug":"rhul-ug-classical-studies","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-119","name":"Ancient History with Philosophy","slug":"rhul-ug-ancient-history-with-philosophy","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-history-with-philosophy","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-120","name":"Classical Studies with Philosophy","slug":"rhul-ug-classical-studies-with-philosophy","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-with-philosophy","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-121","name":"Ancient and Medieval History","slug":"rhul-ug-ancient-and-medieval-history","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-and-medieval-history","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-122","name":"Ancient History and Philosophy","slug":"rhul-ug-ancient-history-and-philosophy","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-history-and-philosophy","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-123","name":"Classical Studies and Drama","slug":"rhul-ug-classical-studies-and-drama","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-and-drama","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-124","name":"Classical Studies and Philosophy","slug":"rhul-ug-classical-studies-and-philosophy","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-and-philosophy","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-125","name":"Classics and Philosophy","slug":"rhul-ug-classics-and-philosophy","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classics-and-philosophy","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-126","name":"BA Classical Studies (with Integrated Foundation Year)","slug":"rhul-ug-ba-classical-studies-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-with-integrated-foundation-year","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-127","name":"Comparative Literature and Culture","slug":"rhul-ug-comparative-literature-and-culture","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-128","name":"Comparative Literature and Culture and Drama","slug":"rhul-ug-comparative-literature-and-culture-and-drama","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-and-drama","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-129","name":"Comparative Literature and Culture and English","slug":"rhul-ug-comparative-literature-and-culture-and-english","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-and-english","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-130","name":"Comparative Literature and Culture with History of Art and Visual Culture","slug":"rhul-ug-comparative-literature-and-culture-with-history-of-art-and-visual-culture","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-with-history-of-art-and-visual-culture","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-131","name":"Comparative Literature and Culture and History of Art and Visual Culture","slug":"rhul-ug-comparative-literature-and-culture-and-history-of-art-and-visual-culture","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-and-history-of-art-and-visual-culture","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-132","name":"BA Comparative Literature and Culture (with Integrated Foundation Year)","slug":"rhul-ug-ba-comparative-literature-and-culture-with-integrated-foundation-year","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-with-integrated-foundation-year","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-133","name":"Computer Science","slug":"rhul-ug-computer-science","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-134","name":"Computer Science (Artificial Intelligence)","slug":"rhul-ug-computer-science-artificial-intelligence","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science-artificial-intelligence","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-135","name":"Computer Science (Artificial Intelligence) with a Year in Industry","slug":"rhul-ug-computer-science-artificial-intelligence-with-a-year-in-industry","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science-artificial-intelligence-with-a-year-in-industry","level":"Bachelor's","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"},
-  {"id":"rhul-136","name":"Computer Science (Cyber Security)","slug":"rhul-ug-computer-science-cyber-security","url":"https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science-cyber-security","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Egham Campus","country":"United Kingdom","state":"England","city":"Egham","countryCode":"GB"}
+  {
+    "id": "rhul-80",
+    "name": "Biochemistry with Integrated Foundation Year BSc",
+    "slug": "rhul-ug-biochemistry-with-integrated-foundation-year-bsc",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-biochemistry-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-81",
+    "name": "Biomedical Sciences",
+    "slug": "rhul-ug-biomedical-sciences",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biomedical-sciences",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-82",
+    "name": "Ecology and Conservation",
+    "slug": "rhul-ug-ecology-and-conservation",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/ecology-and-conservation",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-83",
+    "name": "BSc Ecology and Wildlife Conservation with Integrated Foundation Year",
+    "slug": "rhul-ug-bsc-ecology-and-wildlife-conservation-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-ecology-and-conservation-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-84",
+    "name": "Medical Biochemistry",
+    "slug": "rhul-ug-medical-biochemistry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/medical-biochemistry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-85",
+    "name": "BSc Medical Biochemistry with Integrated Foundation Year",
+    "slug": "rhul-ug-bsc-medical-biochemistry-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-medical-biochemistry-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-86",
+    "name": "BSc Genetics with Integrated Foundation Year",
+    "slug": "rhul-ug-bsc-genetics-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-genetics-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-87",
+    "name": "BSc Zoology with Integrated Foundation Year",
+    "slug": "rhul-ug-bsc-zoology-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-zoology-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-88",
+    "name": "Biochemistry with a Year in Industry",
+    "slug": "rhul-ug-biochemistry-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biochemistry-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-89",
+    "name": "Biology with a Year in Industry",
+    "slug": "rhul-ug-biology-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biology-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-90",
+    "name": "Biomedical Sciences with a Year in Industry",
+    "slug": "rhul-ug-biomedical-sciences-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/biomedical-sciences-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-91",
+    "name": "Ecology and Conservation with a Year in Industry",
+    "slug": "rhul-ug-ecology-and-conservation-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/ecology-and-conservation-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-92",
+    "name": "Medical Biochemistry with a Year in Industry",
+    "slug": "rhul-ug-medical-biochemistry-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/medical-biochemistry-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-93",
+    "name": "Genetics with a Year in Industry",
+    "slug": "rhul-ug-genetics-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/genetics-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-94",
+    "name": "Zoology with a Year in Industry",
+    "slug": "rhul-ug-zoology-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/zoology-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-95",
+    "name": "BSc Biology with Integrated Foundation Year",
+    "slug": "rhul-ug-bsc-biology-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-biology-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-96",
+    "name": "BSc Biomedical Sciences with Integrated Foundation Year",
+    "slug": "rhul-ug-bsc-biomedical-sciences-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/biological-sciences/bsc-biomedical-sciences-with-integrated-foundation-year",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-97",
+    "name": "Accounting and Finance",
+    "slug": "rhul-ug-accounting-and-finance",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/accounting-and-finance",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-98",
+    "name": "Accounting and Finance with a Year in Business",
+    "slug": "rhul-ug-accounting-and-finance-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/accounting-and-finance-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-99",
+    "name": "Business and Management",
+    "slug": "rhul-ug-business-and-management",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/business-and-management",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-100",
+    "name": "Business and Management with a Year in Business",
+    "slug": "rhul-ug-business-and-management-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/business-and-management-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-101",
+    "name": "Business and Management (Accelerated Degree)",
+    "slug": "rhul-ug-business-and-management-accelerated-degree",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/business-and-management-accelerated-degree",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "2 years",
+    "durationYears": 2,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-102",
+    "name": "Management with Accounting",
+    "slug": "rhul-ug-management-with-accounting",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-accounting",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-103",
+    "name": "Management with Accounting with a Year in Business",
+    "slug": "rhul-ug-management-with-accounting-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-accounting-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-104",
+    "name": "Management with Digital Innovation and Analytics",
+    "slug": "rhul-ug-management-with-digital-innovation-and-analytics",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-digital-innovation-and-analytics",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-105",
+    "name": "Management with Digital Innovation and Analytics with a Year in Business",
+    "slug": "rhul-ug-management-with-digital-innovation-and-analytics-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-digital-innovation-and-analytics-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-106",
+    "name": "Management with Entrepreneurship",
+    "slug": "rhul-ug-management-with-entrepreneurship",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-entrepreneurship",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-107",
+    "name": "Management with Entrepreneurship with a Year in Business",
+    "slug": "rhul-ug-management-with-entrepreneurship-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-entrepreneurship-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-108",
+    "name": "Management with Human Resources",
+    "slug": "rhul-ug-management-with-human-resources",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-human-resources",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-109",
+    "name": "Management with Human Resources with a Year in Business",
+    "slug": "rhul-ug-management-with-human-resources-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-human-resources-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-110",
+    "name": "Management with International Business",
+    "slug": "rhul-ug-management-with-international-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-international-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-111",
+    "name": "Management with International Business with a Year in Business",
+    "slug": "rhul-ug-management-with-international-business-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-international-business-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-112",
+    "name": "Management with Marketing",
+    "slug": "rhul-ug-management-with-marketing",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-marketing",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-113",
+    "name": "Management with Marketing with a Year in Business",
+    "slug": "rhul-ug-management-with-marketing-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/management-with-marketing-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-114",
+    "name": "Marketing",
+    "slug": "rhul-ug-marketing",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/bsc-marketing",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-115",
+    "name": "Marketing with a Year in Business",
+    "slug": "rhul-ug-marketing-with-a-year-in-business",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/business-school/bsc-marketing-with-a-year-in-business",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-116",
+    "name": "Ancient History",
+    "slug": "rhul-ug-ancient-history",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-history",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-117",
+    "name": "Classical Archaeology and Ancient History",
+    "slug": "rhul-ug-classical-archaeology-and-ancient-history",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-archaeology-and-ancient-history",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-118",
+    "name": "Classical Studies",
+    "slug": "rhul-ug-classical-studies",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-119",
+    "name": "Ancient History with Philosophy",
+    "slug": "rhul-ug-ancient-history-with-philosophy",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-history-with-philosophy",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-120",
+    "name": "Classical Studies with Philosophy",
+    "slug": "rhul-ug-classical-studies-with-philosophy",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-with-philosophy",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-121",
+    "name": "Ancient and Medieval History",
+    "slug": "rhul-ug-ancient-and-medieval-history",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-and-medieval-history",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-122",
+    "name": "Ancient History and Philosophy",
+    "slug": "rhul-ug-ancient-history-and-philosophy",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/ancient-history-and-philosophy",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-123",
+    "name": "Classical Studies and Drama",
+    "slug": "rhul-ug-classical-studies-and-drama",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-and-drama",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-124",
+    "name": "Classical Studies and Philosophy",
+    "slug": "rhul-ug-classical-studies-and-philosophy",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-and-philosophy",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-125",
+    "name": "Classics and Philosophy",
+    "slug": "rhul-ug-classics-and-philosophy",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classics-and-philosophy",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-126",
+    "name": "BA Classical Studies (with Integrated Foundation Year)",
+    "slug": "rhul-ug-ba-classical-studies-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/classics/classical-studies-with-integrated-foundation-year",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-127",
+    "name": "Comparative Literature and Culture",
+    "slug": "rhul-ug-comparative-literature-and-culture",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-128",
+    "name": "Comparative Literature and Culture and Drama",
+    "slug": "rhul-ug-comparative-literature-and-culture-and-drama",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-and-drama",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-129",
+    "name": "Comparative Literature and Culture and English",
+    "slug": "rhul-ug-comparative-literature-and-culture-and-english",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-and-english",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-130",
+    "name": "Comparative Literature and Culture with History of Art and Visual Culture",
+    "slug": "rhul-ug-comparative-literature-and-culture-with-history-of-art-and-visual-culture",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-with-history-of-art-and-visual-culture",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-131",
+    "name": "Comparative Literature and Culture and History of Art and Visual Culture",
+    "slug": "rhul-ug-comparative-literature-and-culture-and-history-of-art-and-visual-culture",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-and-history-of-art-and-visual-culture",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-132",
+    "name": "BA Comparative Literature and Culture (with Integrated Foundation Year)",
+    "slug": "rhul-ug-ba-comparative-literature-and-culture-with-integrated-foundation-year",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/comparative-literature-and-culture/comparative-literature-and-culture-with-integrated-foundation-year",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-133",
+    "name": "Computer Science",
+    "slug": "rhul-ug-computer-science",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-134",
+    "name": "Computer Science (Artificial Intelligence)",
+    "slug": "rhul-ug-computer-science-artificial-intelligence",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science-artificial-intelligence",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-135",
+    "name": "Computer Science (Artificial Intelligence) with a Year in Industry",
+    "slug": "rhul-ug-computer-science-artificial-intelligence-with-a-year-in-industry",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science-artificial-intelligence-with-a-year-in-industry",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "rhul-136",
+    "name": "Computer Science (Cyber Security)",
+    "slug": "rhul-ug-computer-science-cyber-security",
+    "url": "https://www.royalholloway.ac.uk/studying-here/2026/undergraduate/computer-science/computer-science-cyber-security",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Egham Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Egham",
+    "countryCode": "GB",
+    "feeVerified": false
+  }
 ];
 
 export function getRhulCourseBySlug(slug: string): RhulCourse | undefined {

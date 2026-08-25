@@ -2,6 +2,7 @@
 // Generated from: https://sheffield.ac.uk/sitemap.xml
 
 export interface SheffieldCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-2",
@@ -66,7 +68,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-3",
@@ -94,7 +97,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-4",
@@ -122,7 +126,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-5",
@@ -150,7 +155,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-6",
@@ -178,7 +184,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-7",
@@ -206,7 +213,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-8",
@@ -234,7 +242,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-9",
@@ -262,7 +271,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-10",
@@ -290,7 +300,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-11",
@@ -318,7 +329,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-12",
@@ -346,7 +358,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-13",
@@ -374,7 +387,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-14",
@@ -402,7 +416,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-15",
@@ -430,7 +445,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-16",
@@ -458,7 +474,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-17",
@@ -486,7 +503,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-18",
@@ -514,7 +532,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-19",
@@ -542,7 +561,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-20",
@@ -570,7 +590,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-21",
@@ -598,7 +619,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-22",
@@ -626,7 +648,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-23",
@@ -654,7 +677,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-24",
@@ -682,7 +706,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-25",
@@ -710,7 +735,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-26",
@@ -738,7 +764,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-27",
@@ -766,7 +793,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-28",
@@ -794,7 +822,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-29",
@@ -822,7 +851,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-30",
@@ -850,7 +880,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-31",
@@ -878,7 +909,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-32",
@@ -906,7 +938,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-33",
@@ -934,7 +967,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-34",
@@ -962,7 +996,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-35",
@@ -990,7 +1025,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-36",
@@ -1018,7 +1054,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-37",
@@ -1046,7 +1083,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-38",
@@ -1074,7 +1112,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-39",
@@ -1102,7 +1141,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-40",
@@ -1130,7 +1170,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-41",
@@ -1158,7 +1199,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-42",
@@ -1186,7 +1228,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-43",
@@ -1214,7 +1257,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-44",
@@ -1242,7 +1286,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-45",
@@ -1270,7 +1315,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-46",
@@ -1298,7 +1344,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-47",
@@ -1326,7 +1373,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-48",
@@ -1354,7 +1402,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-49",
@@ -1382,7 +1431,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-50",
@@ -1410,7 +1460,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-51",
@@ -1438,7 +1489,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-52",
@@ -1466,7 +1518,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-53",
@@ -1494,7 +1547,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-54",
@@ -1522,7 +1576,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-55",
@@ -1550,7 +1605,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-56",
@@ -1578,7 +1634,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-57",
@@ -1606,7 +1663,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-58",
@@ -1634,7 +1692,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-59",
@@ -1662,7 +1721,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-60",
@@ -1690,7 +1750,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-61",
@@ -1718,7 +1779,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-62",
@@ -1746,7 +1808,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-63",
@@ -1774,7 +1837,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-64",
@@ -1802,7 +1866,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-65",
@@ -1830,7 +1895,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-66",
@@ -1858,7 +1924,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-67",
@@ -1886,7 +1953,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-68",
@@ -1914,7 +1982,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-69",
@@ -1942,7 +2011,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-70",
@@ -1970,7 +2040,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-71",
@@ -1998,7 +2069,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-72",
@@ -2026,7 +2098,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-73",
@@ -2054,7 +2127,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-74",
@@ -2082,7 +2156,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-75",
@@ -2110,7 +2185,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-76",
@@ -2138,7 +2214,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-77",
@@ -2166,7 +2243,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-78",
@@ -2194,7 +2272,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-79",
@@ -2222,7 +2301,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-80",
@@ -2250,7 +2330,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-81",
@@ -2278,7 +2359,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-82",
@@ -2306,7 +2388,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-83",
@@ -2334,7 +2417,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-84",
@@ -2362,7 +2446,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-85",
@@ -2390,7 +2475,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-86",
@@ -2418,7 +2504,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-87",
@@ -2446,7 +2533,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-88",
@@ -2474,7 +2562,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-89",
@@ -2502,7 +2591,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-90",
@@ -2530,7 +2620,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-91",
@@ -2558,7 +2649,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-92",
@@ -2586,7 +2678,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-93",
@@ -2614,7 +2707,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-94",
@@ -2642,7 +2736,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-95",
@@ -2670,7 +2765,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-96",
@@ -2698,7 +2794,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-97",
@@ -2726,7 +2823,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-98",
@@ -2754,7 +2852,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-99",
@@ -2782,7 +2881,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-100",
@@ -2810,7 +2910,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-101",
@@ -2838,7 +2939,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-102",
@@ -2866,7 +2968,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-103",
@@ -2894,7 +2997,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-104",
@@ -2922,7 +3026,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-105",
@@ -2950,7 +3055,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-106",
@@ -2978,7 +3084,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-107",
@@ -3006,7 +3113,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-108",
@@ -3034,7 +3142,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-109",
@@ -3062,7 +3171,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-110",
@@ -3090,7 +3200,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-111",
@@ -3118,7 +3229,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-112",
@@ -3146,7 +3258,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-113",
@@ -3174,7 +3287,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-114",
@@ -3202,7 +3316,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-115",
@@ -3230,7 +3345,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-116",
@@ -3258,7 +3374,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-117",
@@ -3286,7 +3403,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-118",
@@ -3314,7 +3432,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-119",
@@ -3342,7 +3461,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-120",
@@ -3370,7 +3490,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-121",
@@ -3398,7 +3519,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-122",
@@ -3426,7 +3548,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-123",
@@ -3454,7 +3577,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-124",
@@ -3482,7 +3606,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-125",
@@ -3510,7 +3635,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-126",
@@ -3538,7 +3664,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "sheffield-127",
@@ -3566,7 +3693,8 @@ export const sheffieldCourses: SheffieldCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Sheffield",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   }
 ];
 

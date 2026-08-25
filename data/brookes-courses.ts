@@ -2,6 +2,7 @@
 // Source: https://www.brookes.ac.uk/sitemap/courses (/courses/postgraduate/*)
 
 export interface BrookesCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-2",
@@ -66,7 +68,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-3",
@@ -94,7 +97,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-4",
@@ -122,7 +126,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-5",
@@ -150,7 +155,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-6",
@@ -178,7 +184,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-7",
@@ -206,7 +213,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-8",
@@ -234,7 +242,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-9",
@@ -262,7 +271,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-10",
@@ -290,7 +300,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-11",
@@ -318,7 +329,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-12",
@@ -346,7 +358,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-13",
@@ -374,7 +387,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-14",
@@ -402,7 +416,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-15",
@@ -430,7 +445,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-16",
@@ -458,7 +474,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-17",
@@ -486,7 +503,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-18",
@@ -514,7 +532,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-19",
@@ -542,7 +561,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-20",
@@ -570,7 +590,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-21",
@@ -598,7 +619,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-22",
@@ -626,7 +648,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-23",
@@ -654,7 +677,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-24",
@@ -682,7 +706,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-25",
@@ -710,7 +735,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-26",
@@ -738,7 +764,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-27",
@@ -766,7 +793,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-28",
@@ -794,7 +822,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-29",
@@ -822,7 +851,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-30",
@@ -850,7 +880,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-31",
@@ -878,7 +909,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-32",
@@ -906,7 +938,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-33",
@@ -934,7 +967,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-34",
@@ -962,7 +996,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-35",
@@ -990,7 +1025,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-36",
@@ -1018,7 +1054,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-37",
@@ -1046,7 +1083,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-38",
@@ -1074,7 +1112,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-39",
@@ -1102,7 +1141,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-40",
@@ -1130,7 +1170,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-41",
@@ -1158,7 +1199,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-42",
@@ -1186,7 +1228,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-43",
@@ -1214,7 +1257,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-44",
@@ -1242,7 +1286,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-45",
@@ -1270,7 +1315,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-46",
@@ -1298,7 +1344,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-47",
@@ -1326,7 +1373,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-48",
@@ -1354,7 +1402,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-49",
@@ -1382,7 +1431,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-50",
@@ -1410,7 +1460,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-51",
@@ -1438,7 +1489,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-52",
@@ -1466,7 +1518,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-53",
@@ -1494,7 +1547,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-54",
@@ -1522,7 +1576,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-55",
@@ -1550,7 +1605,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-56",
@@ -1578,7 +1634,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-57",
@@ -1606,7 +1663,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-58",
@@ -1634,7 +1692,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-59",
@@ -1662,7 +1721,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-60",
@@ -1690,7 +1750,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-61",
@@ -1718,7 +1779,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-62",
@@ -1746,7 +1808,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-63",
@@ -1774,7 +1837,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-64",
@@ -1802,7 +1866,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-65",
@@ -1830,7 +1895,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-66",
@@ -1858,7 +1924,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-67",
@@ -1886,7 +1953,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-68",
@@ -1914,7 +1982,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-69",
@@ -1942,7 +2011,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-70",
@@ -1970,7 +2040,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-71",
@@ -1998,7 +2069,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-72",
@@ -2026,7 +2098,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-73",
@@ -2054,7 +2127,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-74",
@@ -2082,7 +2156,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-75",
@@ -2110,7 +2185,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-76",
@@ -2138,7 +2214,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-77",
@@ -2166,7 +2243,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-78",
@@ -2194,7 +2272,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-79",
@@ -2222,7 +2301,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-80",
@@ -2250,7 +2330,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-81",
@@ -2278,7 +2359,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-82",
@@ -2306,7 +2388,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-83",
@@ -2334,7 +2417,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-84",
@@ -2362,7 +2446,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "brookes-85",
@@ -2390,7 +2475,8 @@ export const brookesCourses: BrookesCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Oxford",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

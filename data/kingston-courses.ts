@@ -2,6 +2,7 @@
 // Generated from Wayback Machine CDX / real URL patterns
 
 export interface KingstonCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[];
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -40,7 +41,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-2",
@@ -85,7 +87,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-3",
@@ -130,7 +133,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-4",
@@ -175,7 +179,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-5",
@@ -205,7 +210,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-6",
@@ -250,7 +256,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-7",
@@ -280,7 +287,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-8",
@@ -310,7 +318,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-9",
@@ -355,7 +364,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-10",
@@ -385,7 +395,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-11",
@@ -415,7 +426,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-12",
@@ -460,7 +472,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-13",
@@ -490,7 +503,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-14",
@@ -535,7 +549,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-15",
@@ -580,7 +595,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-16",
@@ -610,7 +626,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-17",
@@ -655,7 +672,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-18",
@@ -700,7 +718,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-19",
@@ -745,7 +764,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Advertising creative economy",
         "slug": "kingston-advertising-creative-economy-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-20",
@@ -790,7 +810,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-21",
@@ -820,7 +841,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-22",
@@ -850,7 +872,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-23",
@@ -895,7 +918,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-24",
@@ -940,7 +964,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-25",
@@ -985,7 +1010,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-26",
@@ -1015,7 +1041,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-27",
@@ -1045,7 +1072,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-28",
@@ -1075,7 +1103,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-29",
@@ -1105,7 +1134,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-30",
@@ -1135,7 +1165,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-31",
@@ -1165,7 +1196,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-32",
@@ -1195,7 +1227,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-33",
@@ -1225,7 +1258,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-34",
@@ -1270,7 +1304,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-35",
@@ -1315,7 +1350,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-36",
@@ -1345,7 +1381,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-37",
@@ -1390,7 +1427,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-38",
@@ -1435,7 +1473,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-39",
@@ -1480,7 +1519,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-40",
@@ -1525,7 +1565,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Advertising creative economy",
         "slug": "kingston-advertising-creative-economy-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-41",
@@ -1570,7 +1611,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-42",
@@ -1600,7 +1642,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-43",
@@ -1630,7 +1673,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-44",
@@ -1675,7 +1719,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-45",
@@ -1705,7 +1750,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-46",
@@ -1750,7 +1796,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MA Aesthetics art theory",
         "slug": "kingston-aesthetics-art-theory-ma"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-47",
@@ -1780,7 +1827,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-48",
@@ -1825,7 +1873,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-49",
@@ -1870,7 +1919,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-50",
@@ -1900,7 +1950,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-51",
@@ -1930,7 +1981,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-52",
@@ -1975,7 +2027,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-53",
@@ -2005,7 +2058,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-54",
@@ -2050,7 +2104,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-55",
@@ -2080,7 +2135,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-56",
@@ -2125,7 +2181,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-57",
@@ -2170,7 +2227,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-58",
@@ -2200,7 +2258,8 @@ export const kingstonCourses: KingstonCourse[] = [
     "state": "England",
     "city": "London",
     "countryCode": "GB",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-59",
@@ -2245,7 +2304,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "kingston-pg-60",
@@ -2290,7 +2350,8 @@ export const kingstonCourses: KingstonCourse[] = [
         "name": "MSc Aircraft engineering",
         "slug": "kingston-aircraft-engineering-msc"
       }
-    ]
+    ],
+    "feeVerified": false
   }
 ];
 

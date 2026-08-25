@@ -9,6 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'kaplan-business-school';
 export async function generateStaticParams() {
@@ -76,8 +77,8 @@ export default async function CoursePage(
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  course.annualAUD > 0 ? { label: 'Annual Fee (AUD)', value: `A$${course.annualAUD.toLocaleString()}` } : null,
-                  course.annualINR > 0 ? { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` } : null,
+                  course.annualAUD > 0 ? { label: 'Annual Fee (AUD)', value: feeDisplay(course as any, course.annualAUD, 'AUD') } : null,
+                  course.annualINR > 0 ? { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') } : null,
                   course.ieltsMin > 0 ? { label: 'IELTS Minimum', value: `${course.ieltsMin}+` } : null,
                   { label: 'Duration', value: course.duration },
                 ].filter((s): s is { label: string; value: string } => s !== null).map(s => (
@@ -105,8 +106,8 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
-                course.annualAUD > 0 ? { label: 'Annual Tuition (AUD)', value: `A$${course.annualAUD.toLocaleString()}` } : null,
-                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` } : null,
+                course.annualAUD > 0 ? { label: 'Annual Tuition (AUD)', value: feeDisplay(course as any, course.annualAUD, 'AUD') } : null,
+                course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') } : null,
                 course.totalAUD > 0 ? { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` } : null,
               ].filter((f): f is { label: string; value: string } => f !== null).map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">

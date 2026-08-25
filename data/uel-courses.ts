@@ -1,5 +1,6 @@
 // 159 REAL courses from uel.ac.uk/study/postgraduate/courses (Puppeteer)
 export interface UelCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -37,7 +38,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-2",
@@ -66,7 +68,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-3",
@@ -95,7 +98,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-4",
@@ -124,7 +128,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-5",
@@ -153,7 +158,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-6",
@@ -182,7 +188,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-7",
@@ -211,7 +218,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-8",
@@ -240,7 +248,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-9",
@@ -269,7 +278,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-10",
@@ -298,7 +308,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-11",
@@ -327,7 +338,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-12",
@@ -356,7 +368,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-13",
@@ -385,7 +398,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-14",
@@ -414,7 +428,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-15",
@@ -443,7 +458,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-16",
@@ -472,7 +488,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-17",
@@ -501,7 +518,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-18",
@@ -530,7 +548,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-19",
@@ -559,7 +578,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-20",
@@ -588,7 +608,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-21",
@@ -617,7 +638,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-22",
@@ -646,7 +668,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-23",
@@ -675,7 +698,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-24",
@@ -704,7 +728,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-25",
@@ -733,7 +758,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-26",
@@ -762,7 +788,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-27",
@@ -791,7 +818,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-28",
@@ -820,7 +848,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-29",
@@ -849,7 +878,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-30",
@@ -878,7 +908,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-31",
@@ -907,7 +938,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-32",
@@ -936,7 +968,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-33",
@@ -965,7 +998,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-34",
@@ -994,7 +1028,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-35",
@@ -1023,7 +1058,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-36",
@@ -1052,7 +1088,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-37",
@@ -1081,7 +1118,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-38",
@@ -1110,7 +1148,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-39",
@@ -1139,7 +1178,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-40",
@@ -1168,7 +1208,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-41",
@@ -1197,7 +1238,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-42",
@@ -1226,7 +1268,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-43",
@@ -1255,7 +1298,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-44",
@@ -1284,7 +1328,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-45",
@@ -1313,7 +1358,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-46",
@@ -1342,7 +1388,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-47",
@@ -1371,7 +1418,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-48",
@@ -1400,7 +1448,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-49",
@@ -1429,7 +1478,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-50",
@@ -1458,7 +1508,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-51",
@@ -1487,7 +1538,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-52",
@@ -1516,7 +1568,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-53",
@@ -1545,7 +1598,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-54",
@@ -1574,7 +1628,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-55",
@@ -1603,7 +1658,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-56",
@@ -1632,7 +1688,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-57",
@@ -1661,7 +1718,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-58",
@@ -1690,7 +1748,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-59",
@@ -1719,7 +1778,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-60",
@@ -1748,7 +1808,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-61",
@@ -1777,7 +1838,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-62",
@@ -1806,7 +1868,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-63",
@@ -1835,7 +1898,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-64",
@@ -1864,7 +1928,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-65",
@@ -1893,7 +1958,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-66",
@@ -1922,7 +1988,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-67",
@@ -1951,7 +2018,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-68",
@@ -1980,7 +2048,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-69",
@@ -2009,7 +2078,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-70",
@@ -2038,7 +2108,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-71",
@@ -2067,7 +2138,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-72",
@@ -2096,7 +2168,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-73",
@@ -2125,7 +2198,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-74",
@@ -2154,7 +2228,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-75",
@@ -2183,7 +2258,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-76",
@@ -2212,7 +2288,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-77",
@@ -2241,7 +2318,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-78",
@@ -2270,7 +2348,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-79",
@@ -2299,7 +2378,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-80",
@@ -2328,7 +2408,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-81",
@@ -2357,7 +2438,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-82",
@@ -2386,7 +2468,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-83",
@@ -2415,7 +2498,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-84",
@@ -2444,7 +2528,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-85",
@@ -2473,7 +2558,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-86",
@@ -2502,7 +2588,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-87",
@@ -2531,7 +2618,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-88",
@@ -2560,7 +2648,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-89",
@@ -2589,7 +2678,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-90",
@@ -2618,7 +2708,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-91",
@@ -2647,7 +2738,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-92",
@@ -2676,7 +2768,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-93",
@@ -2705,7 +2798,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-94",
@@ -2734,7 +2828,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-95",
@@ -2763,7 +2858,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-96",
@@ -2792,7 +2888,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-97",
@@ -2821,7 +2918,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-98",
@@ -2850,7 +2948,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-99",
@@ -2879,7 +2978,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-100",
@@ -2908,7 +3008,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-101",
@@ -2937,7 +3038,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-102",
@@ -2966,7 +3068,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-103",
@@ -2995,7 +3098,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-104",
@@ -3024,7 +3128,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-105",
@@ -3053,7 +3158,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-106",
@@ -3082,7 +3188,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-107",
@@ -3111,7 +3218,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-108",
@@ -3140,7 +3248,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-109",
@@ -3169,7 +3278,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-110",
@@ -3198,7 +3308,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-111",
@@ -3227,7 +3338,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-112",
@@ -3256,7 +3368,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-113",
@@ -3285,7 +3398,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-114",
@@ -3314,7 +3428,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-115",
@@ -3343,7 +3458,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-116",
@@ -3372,7 +3488,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-117",
@@ -3401,7 +3518,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-118",
@@ -3430,7 +3548,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-119",
@@ -3459,7 +3578,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-120",
@@ -3488,7 +3608,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-121",
@@ -3517,7 +3638,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-122",
@@ -3546,7 +3668,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-123",
@@ -3575,7 +3698,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-124",
@@ -3604,7 +3728,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-125",
@@ -3633,7 +3758,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-126",
@@ -3662,7 +3788,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-127",
@@ -3691,7 +3818,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-128",
@@ -3720,7 +3848,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-129",
@@ -3749,7 +3878,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-130",
@@ -3778,7 +3908,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-131",
@@ -3807,7 +3938,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-132",
@@ -3836,7 +3968,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-133",
@@ -3865,7 +3998,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-134",
@@ -3894,7 +4028,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-135",
@@ -3923,7 +4058,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-136",
@@ -3952,7 +4088,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-137",
@@ -3981,7 +4118,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-138",
@@ -4010,7 +4148,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-139",
@@ -4039,7 +4178,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-140",
@@ -4068,7 +4208,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-141",
@@ -4097,7 +4238,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-142",
@@ -4126,7 +4268,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-143",
@@ -4155,7 +4298,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-144",
@@ -4184,7 +4328,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-145",
@@ -4213,7 +4358,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-146",
@@ -4242,7 +4388,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-147",
@@ -4271,7 +4418,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-148",
@@ -4300,7 +4448,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-149",
@@ -4329,7 +4478,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-150",
@@ -4358,7 +4508,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-151",
@@ -4387,7 +4538,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-152",
@@ -4416,7 +4568,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-153",
@@ -4445,7 +4598,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-154",
@@ -4474,7 +4628,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-155",
@@ -4503,7 +4658,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-156",
@@ -4532,7 +4688,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-157",
@@ -4561,7 +4718,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-158",
@@ -4590,7 +4748,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "uel-159",
@@ -4619,7 +4778,8 @@ export const uelCourses: UelCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "London",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

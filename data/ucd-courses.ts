@@ -1,7 +1,8 @@
 // Auto-generated from hub.ucd.ie programme catalogue + official UCD programmes
 // 87 courses | crawled: 2026-06-30
 
-export interface UcdCourse { id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[]; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface UcdCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[]; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const ucdCourses: UcdCourse[] = [
   {
@@ -31,7 +32,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-2",
@@ -60,7 +62,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-3",
@@ -89,7 +92,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-4",
@@ -118,7 +122,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-5",
@@ -147,7 +152,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-6",
@@ -176,7 +182,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-7",
@@ -205,7 +212,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-8",
@@ -234,7 +242,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-9",
@@ -263,7 +272,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-10",
@@ -292,7 +302,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-11",
@@ -321,7 +332,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-12",
@@ -350,7 +362,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-13",
@@ -379,7 +392,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-14",
@@ -408,7 +422,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-15",
@@ -437,7 +452,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-16",
@@ -466,7 +482,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-17",
@@ -495,7 +512,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-18",
@@ -524,7 +542,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-19",
@@ -553,7 +572,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-20",
@@ -582,7 +602,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-21",
@@ -611,7 +632,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-22",
@@ -640,7 +662,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-23",
@@ -669,7 +692,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-24",
@@ -698,7 +722,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-25",
@@ -727,7 +752,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-26",
@@ -756,7 +782,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-27",
@@ -785,7 +812,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-28",
@@ -829,7 +857,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-29",
@@ -873,7 +902,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-30",
@@ -917,7 +947,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-31",
@@ -961,7 +992,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-32",
@@ -1005,7 +1037,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-33",
@@ -1049,7 +1082,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-34",
@@ -1093,7 +1127,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-35",
@@ -1137,7 +1172,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-36",
@@ -1181,7 +1217,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-37",
@@ -1225,7 +1262,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-38",
@@ -1269,7 +1307,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-39",
@@ -1313,7 +1352,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-40",
@@ -1357,7 +1397,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-41",
@@ -1401,7 +1442,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-42",
@@ -1445,7 +1487,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-43",
@@ -1489,7 +1532,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-44",
@@ -1533,7 +1577,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-45",
@@ -1577,7 +1622,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-46",
@@ -1621,7 +1667,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-47",
@@ -1665,7 +1712,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-48",
@@ -1709,7 +1757,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-49",
@@ -1753,7 +1802,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-50",
@@ -1797,7 +1847,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-51",
@@ -1841,7 +1892,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-52",
@@ -1885,7 +1937,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-53",
@@ -1929,7 +1982,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-54",
@@ -1973,7 +2027,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-55",
@@ -2017,7 +2072,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-56",
@@ -2061,7 +2117,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-57",
@@ -2105,7 +2162,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-58",
@@ -2149,7 +2207,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-59",
@@ -2193,7 +2252,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-60",
@@ -2237,7 +2297,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-61",
@@ -2281,7 +2342,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-62",
@@ -2325,7 +2387,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-63",
@@ -2369,7 +2432,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-64",
@@ -2413,7 +2477,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-65",
@@ -2457,7 +2522,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-66",
@@ -2501,7 +2567,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-67",
@@ -2545,7 +2612,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-68",
@@ -2589,7 +2657,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-69",
@@ -2633,7 +2702,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-70",
@@ -2677,7 +2747,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-71",
@@ -2721,7 +2792,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-72",
@@ -2765,7 +2837,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-73",
@@ -2809,7 +2882,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-74",
@@ -2853,7 +2927,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-75",
@@ -2897,7 +2972,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-76",
@@ -2941,7 +3017,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-77",
@@ -2985,7 +3062,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-78",
@@ -3030,7 +3108,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-79",
@@ -3075,7 +3154,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-80",
@@ -3120,7 +3200,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-81",
@@ -3165,7 +3246,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-82",
@@ -3210,7 +3292,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-83",
@@ -3255,7 +3338,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-84",
@@ -3300,7 +3384,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-85",
@@ -3345,7 +3430,8 @@ export const ucdCourses: UcdCourse[] = [
         "name": "BSc Food Science",
         "slug": "ucd-bsc-food-science"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "ucd-86",
@@ -3374,7 +3460,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "ucd-87",
@@ -3403,7 +3490,8 @@ export const ucdCourses: UcdCourse[] = [
     "state": "Leinster",
     "city": "Dublin",
     "countryCode": "IE",
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   }
 ];
 

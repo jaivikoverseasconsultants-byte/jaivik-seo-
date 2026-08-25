@@ -1,6 +1,7 @@
 // Real course data for University of Illinois Urbana-Champaign — 133 graduate programs
 // Generated from: https://grad.illinois.edu/sitemap.xml
 export interface UiucCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-2",
@@ -67,7 +69,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-3",
@@ -96,7 +99,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-4",
@@ -125,7 +129,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-5",
@@ -154,7 +159,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-6",
@@ -183,7 +189,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-7",
@@ -212,7 +219,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-8",
@@ -241,7 +249,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-9",
@@ -270,7 +279,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-10",
@@ -299,7 +309,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-11",
@@ -328,7 +339,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-12",
@@ -357,7 +369,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-13",
@@ -386,7 +399,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-14",
@@ -415,7 +429,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-15",
@@ -444,7 +459,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-16",
@@ -473,7 +489,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-17",
@@ -502,7 +519,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-18",
@@ -531,7 +549,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-19",
@@ -560,7 +579,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-20",
@@ -589,7 +609,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-21",
@@ -618,7 +639,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-22",
@@ -647,7 +669,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-23",
@@ -676,7 +699,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-24",
@@ -705,7 +729,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-25",
@@ -734,7 +759,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-26",
@@ -763,7 +789,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-27",
@@ -792,7 +819,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-28",
@@ -821,7 +849,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-29",
@@ -850,7 +879,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-30",
@@ -879,7 +909,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-31",
@@ -908,7 +939,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-32",
@@ -937,7 +969,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-33",
@@ -966,7 +999,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-34",
@@ -995,7 +1029,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-35",
@@ -1024,7 +1059,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-36",
@@ -1053,7 +1089,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-37",
@@ -1082,7 +1119,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-38",
@@ -1111,7 +1149,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-39",
@@ -1140,7 +1179,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-40",
@@ -1169,7 +1209,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-41",
@@ -1198,7 +1239,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-42",
@@ -1227,7 +1269,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-43",
@@ -1256,7 +1299,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-44",
@@ -1285,7 +1329,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-45",
@@ -1314,7 +1359,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-46",
@@ -1343,7 +1389,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-47",
@@ -1372,7 +1419,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-48",
@@ -1401,7 +1449,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-49",
@@ -1430,7 +1479,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-50",
@@ -1459,7 +1509,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-51",
@@ -1488,7 +1539,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-52",
@@ -1517,7 +1569,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-53",
@@ -1546,7 +1599,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-54",
@@ -1575,7 +1629,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-55",
@@ -1604,7 +1659,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-56",
@@ -1633,7 +1689,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-57",
@@ -1662,7 +1719,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-58",
@@ -1691,7 +1749,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-59",
@@ -1720,7 +1779,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-60",
@@ -1749,7 +1809,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-61",
@@ -1778,7 +1839,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-62",
@@ -1807,7 +1869,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-63",
@@ -1836,7 +1899,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-64",
@@ -1865,7 +1929,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-65",
@@ -1894,7 +1959,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-66",
@@ -1923,7 +1989,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-67",
@@ -1952,7 +2019,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-68",
@@ -1981,7 +2049,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-69",
@@ -2010,7 +2079,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-70",
@@ -2039,7 +2109,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-71",
@@ -2068,7 +2139,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-72",
@@ -2097,7 +2169,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-73",
@@ -2126,7 +2199,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-74",
@@ -2155,7 +2229,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-75",
@@ -2184,7 +2259,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-76",
@@ -2213,7 +2289,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-77",
@@ -2242,7 +2319,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-78",
@@ -2271,7 +2349,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-79",
@@ -2300,7 +2379,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-80",
@@ -2329,7 +2409,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-81",
@@ -2358,7 +2439,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-82",
@@ -2387,7 +2469,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-83",
@@ -2416,7 +2499,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-84",
@@ -2445,7 +2529,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-85",
@@ -2474,7 +2559,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-86",
@@ -2503,7 +2589,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-87",
@@ -2532,7 +2619,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-88",
@@ -2561,7 +2649,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-89",
@@ -2590,7 +2679,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-90",
@@ -2619,7 +2709,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-91",
@@ -2648,7 +2739,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-92",
@@ -2677,7 +2769,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-93",
@@ -2706,7 +2799,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-94",
@@ -2735,7 +2829,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-95",
@@ -2764,7 +2859,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-96",
@@ -2793,7 +2889,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-97",
@@ -2822,7 +2919,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-98",
@@ -2851,7 +2949,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-99",
@@ -2880,7 +2979,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-100",
@@ -2909,7 +3009,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-101",
@@ -2938,7 +3039,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-102",
@@ -2967,7 +3069,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-103",
@@ -2996,7 +3099,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-104",
@@ -3025,7 +3129,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-105",
@@ -3054,7 +3159,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-106",
@@ -3083,7 +3189,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-107",
@@ -3112,7 +3219,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-108",
@@ -3141,7 +3249,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-109",
@@ -3170,7 +3279,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-110",
@@ -3199,7 +3309,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-111",
@@ -3228,7 +3339,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-112",
@@ -3257,7 +3369,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-113",
@@ -3286,7 +3399,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-114",
@@ -3315,7 +3429,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-115",
@@ -3344,7 +3459,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-116",
@@ -3373,7 +3489,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-117",
@@ -3402,7 +3519,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-118",
@@ -3431,7 +3549,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-119",
@@ -3460,7 +3579,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-120",
@@ -3489,7 +3609,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-121",
@@ -3518,7 +3639,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-122",
@@ -3547,7 +3669,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-123",
@@ -3576,7 +3699,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-124",
@@ -3605,7 +3729,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-125",
@@ -3634,7 +3759,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-126",
@@ -3663,7 +3789,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-127",
@@ -3692,7 +3819,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-128",
@@ -3721,7 +3849,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-129",
@@ -3750,7 +3879,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-130",
@@ -3779,7 +3909,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-131",
@@ -3808,7 +3939,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-132",
@@ -3837,7 +3969,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   },
   {
     "id": "uiuc-133",
@@ -3866,7 +3999,8 @@ export const uiucCourses: UiucCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Champaign",
-    "state": "Illinois"
+    "state": "Illinois",
+    "feeVerified": false
   }
 ];
 

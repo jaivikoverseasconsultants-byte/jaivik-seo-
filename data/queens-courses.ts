@@ -1,7 +1,8 @@
 // Auto-generated from queensu.ca official programme catalogue
 // 91 courses | crawled: 2026-06-30
 
-export interface QueensCourse { id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[]; level: string; studyLevel: string; duration: string; durationYears: number; annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number; livingCostCAD: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; province: string; city: string; countryCode: string; pgwp: boolean; }
+export interface QueensCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; officialUrlKind?: 'course' | 'course-listing'; withdrawn?: boolean; alternatives?: { name: string; slug: string }[]; level: string; studyLevel: string; duration: string; durationYears: number; annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number; livingCostCAD: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; province: string; city: string; countryCode: string; pgwp: boolean; }
 
 export const queensCourses: QueensCourse[] = [
   {
@@ -47,7 +48,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-2",
@@ -92,7 +94,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-3",
@@ -137,7 +140,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-4",
@@ -182,7 +186,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-5",
@@ -227,7 +232,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-6",
@@ -272,7 +278,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-7",
@@ -317,7 +324,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-8",
@@ -362,7 +370,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-9",
@@ -407,7 +416,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-10",
@@ -452,7 +462,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-11",
@@ -497,7 +508,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-12",
@@ -542,7 +554,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-13",
@@ -587,7 +600,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-14",
@@ -632,7 +646,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-15",
@@ -677,7 +692,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-16",
@@ -722,7 +738,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-17",
@@ -767,7 +784,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-18",
@@ -812,7 +830,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-19",
@@ -857,7 +876,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-20",
@@ -902,7 +922,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-21",
@@ -947,7 +968,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-22",
@@ -992,7 +1014,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-23",
@@ -1037,7 +1060,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-24",
@@ -1082,7 +1106,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-25",
@@ -1127,7 +1152,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-26",
@@ -1172,7 +1198,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-27",
@@ -1217,7 +1244,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-28",
@@ -1262,7 +1290,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-29",
@@ -1307,7 +1336,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-30",
@@ -1352,7 +1382,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-31",
@@ -1397,7 +1428,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-32",
@@ -1442,7 +1474,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-33",
@@ -1487,7 +1520,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-34",
@@ -1532,7 +1566,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-35",
@@ -1577,7 +1612,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-36",
@@ -1622,7 +1658,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-37",
@@ -1667,7 +1704,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-38",
@@ -1712,7 +1750,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-39",
@@ -1757,7 +1796,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-40",
@@ -1802,7 +1842,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-41",
@@ -1847,7 +1888,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-42",
@@ -1892,7 +1934,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-43",
@@ -1937,7 +1980,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-44",
@@ -1982,7 +2026,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-45",
@@ -2028,7 +2073,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-46",
@@ -2073,7 +2119,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-47",
@@ -2103,7 +2150,8 @@ export const queensCourses: QueensCourse[] = [
     "city": "Kingston",
     "countryCode": "CA",
     "pgwp": true,
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "queens-48",
@@ -2133,7 +2181,8 @@ export const queensCourses: QueensCourse[] = [
     "city": "Kingston",
     "countryCode": "CA",
     "pgwp": true,
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "queens-49",
@@ -2163,7 +2212,8 @@ export const queensCourses: QueensCourse[] = [
     "city": "Kingston",
     "countryCode": "CA",
     "pgwp": true,
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "queens-50",
@@ -2208,7 +2258,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-51",
@@ -2253,7 +2304,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-52",
@@ -2298,7 +2350,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-53",
@@ -2343,7 +2396,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-54",
@@ -2388,7 +2442,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-55",
@@ -2433,7 +2488,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-56",
@@ -2478,7 +2534,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-57",
@@ -2523,7 +2580,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-58",
@@ -2568,7 +2626,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-59",
@@ -2613,7 +2672,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-60",
@@ -2658,7 +2718,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-61",
@@ -2703,7 +2764,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-62",
@@ -2748,7 +2810,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-63",
@@ -2793,7 +2856,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-64",
@@ -2838,7 +2902,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-65",
@@ -2883,7 +2948,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-66",
@@ -2928,7 +2994,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-67",
@@ -2973,7 +3040,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-68",
@@ -3018,7 +3086,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-69",
@@ -3063,7 +3132,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-70",
@@ -3108,7 +3178,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-71",
@@ -3153,7 +3224,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-72",
@@ -3198,7 +3270,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-73",
@@ -3244,7 +3317,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-74",
@@ -3290,7 +3364,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-75",
@@ -3336,7 +3411,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-76",
@@ -3382,7 +3458,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-77",
@@ -3428,7 +3505,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-78",
@@ -3474,7 +3552,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-79",
@@ -3520,7 +3599,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-80",
@@ -3566,7 +3646,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-81",
@@ -3612,7 +3693,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-82",
@@ -3658,7 +3740,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-83",
@@ -3704,7 +3787,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-84",
@@ -3750,7 +3834,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-85",
@@ -3796,7 +3881,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-86",
@@ -3842,7 +3928,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-87",
@@ -3888,7 +3975,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-88",
@@ -3934,7 +4022,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   },
   {
     "id": "queens-89",
@@ -3964,7 +4053,8 @@ export const queensCourses: QueensCourse[] = [
     "city": "Kingston",
     "countryCode": "CA",
     "pgwp": true,
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "queens-90",
@@ -3994,7 +4084,8 @@ export const queensCourses: QueensCourse[] = [
     "city": "Kingston",
     "countryCode": "CA",
     "pgwp": true,
-    "officialUrlKind": "course"
+    "officialUrlKind": "course",
+    "feeVerified": false
   },
   {
     "id": "queens-91",
@@ -4039,7 +4130,8 @@ export const queensCourses: QueensCourse[] = [
         "name": "Master of International Business",
         "slug": "queens-master-of-international-business"
       }
-    ]
+    ],
+    "feeVerified": false
   }
 ];
 

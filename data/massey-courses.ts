@@ -11,6 +11,7 @@
 // was crawled instead, and all 176 URLs verified to resolve 200 before inclusion.
 
 export interface MasseyCourse {
+  feeVerified?: boolean;
   pswEligible?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
@@ -49,7 +50,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-2",
@@ -78,7 +80,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-3",
@@ -107,7 +110,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-4",
@@ -136,7 +140,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-5",
@@ -165,7 +170,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-6",
@@ -194,7 +200,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-7",
@@ -223,7 +230,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-8",
@@ -252,7 +260,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-9",
@@ -281,7 +290,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-10",
@@ -310,7 +320,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-11",
@@ -339,7 +350,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-12",
@@ -368,7 +380,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-13",
@@ -397,7 +410,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-14",
@@ -426,7 +440,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-15",
@@ -455,7 +470,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-16",
@@ -484,7 +500,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-17",
@@ -513,7 +530,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-18",
@@ -542,7 +560,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-19",
@@ -571,7 +590,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-20",
@@ -600,7 +620,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-21",
@@ -629,7 +650,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-22",
@@ -658,7 +680,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-23",
@@ -687,7 +710,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-24",
@@ -716,7 +740,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-25",
@@ -745,7 +770,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-26",
@@ -774,7 +800,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-27",
@@ -803,7 +830,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-28",
@@ -832,7 +860,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-29",
@@ -861,7 +890,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-30",
@@ -890,7 +920,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-31",
@@ -919,7 +950,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-32",
@@ -948,7 +980,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-33",
@@ -977,7 +1010,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-34",
@@ -1006,7 +1040,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-35",
@@ -1035,7 +1070,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-36",
@@ -1064,7 +1100,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-37",
@@ -1093,7 +1130,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-38",
@@ -1122,7 +1160,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-39",
@@ -1151,7 +1190,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-40",
@@ -1180,7 +1220,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-41",
@@ -1209,7 +1250,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-42",
@@ -1238,7 +1280,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-43",
@@ -1267,7 +1310,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-44",
@@ -1297,7 +1341,8 @@ export const masseyCourses: MasseyCourse[] = [
     "state": "Manawatu",
     "city": "Palmerston North",
     "countryCode": "NZ",
-    "pswEligible": false
+    "pswEligible": false,
+    "feeVerified": false
   },
   {
     "id": "massey-45",
@@ -1326,7 +1371,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-46",
@@ -1355,7 +1401,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-47",
@@ -1384,7 +1431,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-48",
@@ -1413,7 +1461,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-49",
@@ -1442,7 +1491,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-50",
@@ -1471,7 +1521,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-51",
@@ -1500,7 +1551,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-52",
@@ -1529,7 +1581,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-53",
@@ -1558,7 +1611,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-54",
@@ -1587,7 +1641,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-55",
@@ -1616,7 +1671,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-56",
@@ -1645,7 +1701,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-57",
@@ -1674,7 +1731,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-58",
@@ -1703,7 +1761,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-59",
@@ -1732,7 +1791,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-60",
@@ -1761,7 +1821,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-61",
@@ -1790,7 +1851,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-62",
@@ -1819,7 +1881,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-63",
@@ -1848,7 +1911,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-64",
@@ -1877,7 +1941,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-65",
@@ -1906,7 +1971,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-66",
@@ -1935,7 +2001,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-67",
@@ -1964,7 +2031,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-68",
@@ -1993,7 +2061,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-69",
@@ -2022,7 +2091,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-70",
@@ -2051,7 +2121,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-71",
@@ -2080,7 +2151,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-72",
@@ -2109,7 +2181,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-73",
@@ -2138,7 +2211,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-74",
@@ -2167,7 +2241,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-75",
@@ -2196,7 +2271,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-76",
@@ -2225,7 +2301,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-77",
@@ -2254,7 +2331,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-78",
@@ -2283,7 +2361,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-79",
@@ -2312,7 +2391,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-80",
@@ -2341,7 +2421,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-81",
@@ -2370,7 +2451,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-82",
@@ -2399,7 +2481,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-83",
@@ -2428,7 +2511,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-84",
@@ -2457,7 +2541,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-85",
@@ -2486,7 +2571,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-86",
@@ -2515,7 +2601,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-87",
@@ -2544,7 +2631,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-88",
@@ -2573,7 +2661,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-89",
@@ -2602,7 +2691,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-90",
@@ -2631,7 +2721,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-91",
@@ -2660,7 +2751,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-92",
@@ -2689,7 +2781,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-93",
@@ -2718,7 +2811,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-94",
@@ -2747,7 +2841,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-95",
@@ -2776,7 +2871,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-96",
@@ -2805,7 +2901,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-97",
@@ -2834,7 +2931,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-98",
@@ -2863,7 +2961,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-99",
@@ -2892,7 +2991,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-100",
@@ -2921,7 +3021,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-101",
@@ -2950,7 +3051,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-102",
@@ -2979,7 +3081,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-103",
@@ -3008,7 +3111,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-104",
@@ -3037,7 +3141,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-105",
@@ -3066,7 +3171,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-106",
@@ -3095,7 +3201,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-107",
@@ -3124,7 +3231,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-108",
@@ -3153,7 +3261,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-109",
@@ -3182,7 +3291,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-110",
@@ -3211,7 +3321,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-111",
@@ -3240,7 +3351,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-112",
@@ -3269,7 +3381,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-113",
@@ -3298,7 +3411,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-114",
@@ -3327,7 +3441,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-115",
@@ -3356,7 +3471,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-116",
@@ -3385,7 +3501,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-117",
@@ -3414,7 +3531,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-118",
@@ -3443,7 +3561,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-119",
@@ -3472,7 +3591,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-120",
@@ -3501,7 +3621,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-121",
@@ -3530,7 +3651,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-122",
@@ -3559,7 +3681,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-123",
@@ -3588,7 +3711,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-124",
@@ -3617,7 +3741,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-125",
@@ -3646,7 +3771,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-126",
@@ -3675,7 +3801,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-127",
@@ -3704,7 +3831,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-128",
@@ -3733,7 +3861,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-129",
@@ -3762,7 +3891,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-130",
@@ -3791,7 +3921,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-131",
@@ -3820,7 +3951,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-132",
@@ -3849,7 +3981,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-133",
@@ -3878,7 +4011,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-134",
@@ -3907,7 +4041,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-135",
@@ -3936,7 +4071,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-136",
@@ -3965,7 +4101,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-137",
@@ -3994,7 +4131,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-138",
@@ -4023,7 +4161,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-139",
@@ -4052,7 +4191,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-140",
@@ -4081,7 +4221,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-141",
@@ -4110,7 +4251,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-142",
@@ -4139,7 +4281,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-143",
@@ -4168,7 +4311,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-144",
@@ -4197,7 +4341,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-145",
@@ -4226,7 +4371,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-146",
@@ -4255,7 +4401,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-147",
@@ -4284,7 +4431,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-148",
@@ -4313,7 +4461,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-149",
@@ -4342,7 +4491,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-150",
@@ -4371,7 +4521,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-151",
@@ -4400,7 +4551,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-152",
@@ -4429,7 +4581,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-153",
@@ -4458,7 +4611,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-154",
@@ -4487,7 +4641,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-155",
@@ -4516,7 +4671,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-156",
@@ -4545,7 +4701,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-157",
@@ -4574,7 +4731,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-158",
@@ -4603,7 +4761,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-159",
@@ -4632,7 +4791,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-160",
@@ -4661,7 +4821,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-161",
@@ -4690,7 +4851,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-162",
@@ -4719,7 +4881,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-163",
@@ -4748,7 +4911,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-164",
@@ -4777,7 +4941,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-165",
@@ -4806,7 +4971,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-166",
@@ -4835,7 +5001,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-167",
@@ -4864,7 +5031,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-168",
@@ -4893,7 +5061,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-169",
@@ -4922,7 +5091,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-170",
@@ -4951,7 +5121,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-171",
@@ -4980,7 +5151,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-172",
@@ -5009,7 +5181,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-173",
@@ -5038,7 +5211,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-174",
@@ -5067,7 +5241,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-175",
@@ -5096,7 +5271,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   },
   {
     "id": "massey-176",
@@ -5125,7 +5301,8 @@ export const masseyCourses: MasseyCourse[] = [
     "country": "New Zealand",
     "state": "Manawatu",
     "city": "Palmerston North",
-    "countryCode": "NZ"
+    "countryCode": "NZ",
+    "feeVerified": false
   }
 ];
 

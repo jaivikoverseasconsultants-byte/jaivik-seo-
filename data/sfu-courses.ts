@@ -4,6 +4,7 @@
 // Each course validated against its own program page's "Degree:"/"Credential:" field before inclusion.
 
 export interface SfuCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
@@ -43,7 +44,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-2",
@@ -73,7 +75,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-3",
@@ -103,7 +106,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-4",
@@ -133,7 +137,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-5",
@@ -163,7 +168,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-6",
@@ -193,7 +199,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-7",
@@ -223,7 +230,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-8",
@@ -253,7 +261,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-9",
@@ -283,7 +292,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-10",
@@ -313,7 +323,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-11",
@@ -343,7 +354,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-12",
@@ -373,7 +385,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-13",
@@ -403,7 +416,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-14",
@@ -433,7 +447,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-15",
@@ -463,7 +478,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-16",
@@ -493,7 +509,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-17",
@@ -523,7 +540,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-18",
@@ -553,7 +571,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-19",
@@ -583,7 +602,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-20",
@@ -613,7 +633,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-21",
@@ -643,7 +664,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-22",
@@ -673,7 +695,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-23",
@@ -703,7 +726,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-24",
@@ -733,7 +757,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-25",
@@ -763,7 +788,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-26",
@@ -793,7 +819,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-27",
@@ -823,7 +850,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-28",
@@ -853,7 +881,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-29",
@@ -883,7 +912,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-30",
@@ -913,7 +943,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-31",
@@ -943,7 +974,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-32",
@@ -973,7 +1005,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-33",
@@ -1003,7 +1036,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-34",
@@ -1033,7 +1067,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-35",
@@ -1063,7 +1098,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-36",
@@ -1093,7 +1129,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-37",
@@ -1123,7 +1160,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-38",
@@ -1153,7 +1191,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-39",
@@ -1183,7 +1222,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-40",
@@ -1213,7 +1253,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-41",
@@ -1243,7 +1284,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-42",
@@ -1273,7 +1315,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-43",
@@ -1303,7 +1346,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-44",
@@ -1333,7 +1377,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-45",
@@ -1363,7 +1408,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-46",
@@ -1393,7 +1439,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-47",
@@ -1423,7 +1470,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-48",
@@ -1453,7 +1501,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-49",
@@ -1483,7 +1532,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-50",
@@ -1513,7 +1563,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-51",
@@ -1543,7 +1594,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-52",
@@ -1573,7 +1625,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-53",
@@ -1603,7 +1656,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-54",
@@ -1633,7 +1687,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-55",
@@ -1663,7 +1718,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-56",
@@ -1693,7 +1749,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-57",
@@ -1723,7 +1780,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-58",
@@ -1753,7 +1811,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-59",
@@ -1783,7 +1842,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-60",
@@ -1813,7 +1873,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-61",
@@ -1843,7 +1904,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-62",
@@ -1873,7 +1935,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-63",
@@ -1903,7 +1966,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-64",
@@ -1933,7 +1997,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-65",
@@ -1963,7 +2028,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-66",
@@ -1993,7 +2059,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-67",
@@ -2023,7 +2090,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-68",
@@ -2053,7 +2121,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-69",
@@ -2083,7 +2152,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-70",
@@ -2113,7 +2183,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-71",
@@ -2143,7 +2214,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-72",
@@ -2173,7 +2245,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-73",
@@ -2203,7 +2276,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-74",
@@ -2233,7 +2307,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-75",
@@ -2263,7 +2338,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-76",
@@ -2293,7 +2369,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-77",
@@ -2323,7 +2400,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-78",
@@ -2353,7 +2431,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-79",
@@ -2383,7 +2462,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-80",
@@ -2413,7 +2493,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-81",
@@ -2443,7 +2524,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-82",
@@ -2473,7 +2555,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-83",
@@ -2503,7 +2586,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-84",
@@ -2533,7 +2617,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-85",
@@ -2563,7 +2648,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-86",
@@ -2593,7 +2679,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-87",
@@ -2623,7 +2710,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-88",
@@ -2653,7 +2741,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-89",
@@ -2683,7 +2772,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-90",
@@ -2713,7 +2803,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-91",
@@ -2743,7 +2834,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-92",
@@ -2773,7 +2865,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-93",
@@ -2803,7 +2896,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-94",
@@ -2833,7 +2927,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-95",
@@ -2863,7 +2958,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-96",
@@ -2893,7 +2989,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-97",
@@ -2923,7 +3020,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-98",
@@ -2953,7 +3051,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-99",
@@ -2983,7 +3082,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-100",
@@ -3013,7 +3113,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-101",
@@ -3043,7 +3144,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-102",
@@ -3073,7 +3175,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-103",
@@ -3103,7 +3206,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-104",
@@ -3133,7 +3237,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-105",
@@ -3163,7 +3268,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-106",
@@ -3193,7 +3299,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-107",
@@ -3223,7 +3330,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-108",
@@ -3253,7 +3361,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-109",
@@ -3283,7 +3392,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-110",
@@ -3313,7 +3423,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-111",
@@ -3343,7 +3454,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-112",
@@ -3373,7 +3485,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-113",
@@ -3403,7 +3516,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-114",
@@ -3433,7 +3547,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-115",
@@ -3463,7 +3578,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-116",
@@ -3493,7 +3609,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-117",
@@ -3523,7 +3640,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-118",
@@ -3553,7 +3671,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-119",
@@ -3583,7 +3702,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-120",
@@ -3613,7 +3733,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-121",
@@ -3643,7 +3764,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-122",
@@ -3673,7 +3795,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-123",
@@ -3703,7 +3826,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-124",
@@ -3733,7 +3857,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-125",
@@ -3763,7 +3888,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-126",
@@ -3793,7 +3919,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-127",
@@ -3823,7 +3950,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-128",
@@ -3853,7 +3981,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-129",
@@ -3883,7 +4012,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-130",
@@ -3913,7 +4043,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-131",
@@ -3943,7 +4074,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-132",
@@ -3973,7 +4105,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-133",
@@ -4003,7 +4136,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-134",
@@ -4033,7 +4167,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-135",
@@ -4063,7 +4198,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-136",
@@ -4093,7 +4229,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-137",
@@ -4123,7 +4260,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-138",
@@ -4153,7 +4291,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "sfu-139",
@@ -4183,7 +4322,8 @@ export const sfuCourses: SfuCourse[] = [
     "province": "British Columbia",
     "city": "Burnaby",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   }
 ];
 

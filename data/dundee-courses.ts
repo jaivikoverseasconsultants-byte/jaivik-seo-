@@ -1,6 +1,7 @@
 // Real course data for University of Dundee — 176 PG taught courses
 // Generated via Puppeteer from: https://www.dundee.ac.uk/postgraduate/courses
 export interface DundeeCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -37,7 +38,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-2",
@@ -65,7 +67,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-3",
@@ -93,7 +96,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-4",
@@ -121,7 +125,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-5",
@@ -149,7 +154,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-6",
@@ -177,7 +183,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-7",
@@ -205,7 +212,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-8",
@@ -233,7 +241,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-9",
@@ -261,7 +270,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-10",
@@ -289,7 +299,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-11",
@@ -317,7 +328,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-12",
@@ -345,7 +357,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-13",
@@ -373,7 +386,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-14",
@@ -401,7 +415,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-15",
@@ -429,7 +444,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-16",
@@ -457,7 +473,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-17",
@@ -485,7 +502,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-18",
@@ -513,7 +531,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-19",
@@ -541,7 +560,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-20",
@@ -569,7 +589,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-21",
@@ -597,7 +618,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-22",
@@ -625,7 +647,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-23",
@@ -653,7 +676,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-24",
@@ -681,7 +705,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-25",
@@ -709,7 +734,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-26",
@@ -737,7 +763,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-27",
@@ -765,7 +792,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-28",
@@ -793,7 +821,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-29",
@@ -821,7 +850,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-30",
@@ -849,7 +879,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-31",
@@ -877,7 +908,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-32",
@@ -905,7 +937,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-33",
@@ -933,7 +966,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-34",
@@ -961,7 +995,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-35",
@@ -989,7 +1024,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-36",
@@ -1017,7 +1053,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-37",
@@ -1045,7 +1082,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-38",
@@ -1073,7 +1111,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-39",
@@ -1101,7 +1140,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-40",
@@ -1129,7 +1169,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-41",
@@ -1157,7 +1198,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-42",
@@ -1185,7 +1227,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-43",
@@ -1213,7 +1256,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-44",
@@ -1241,7 +1285,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-45",
@@ -1269,7 +1314,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-46",
@@ -1297,7 +1343,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-47",
@@ -1325,7 +1372,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-48",
@@ -1353,7 +1401,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-49",
@@ -1381,7 +1430,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-50",
@@ -1409,7 +1459,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-51",
@@ -1437,7 +1488,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-52",
@@ -1465,7 +1517,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-53",
@@ -1493,7 +1546,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-54",
@@ -1521,7 +1575,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-55",
@@ -1549,7 +1604,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-56",
@@ -1577,7 +1633,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-57",
@@ -1605,7 +1662,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-58",
@@ -1633,7 +1691,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-59",
@@ -1661,7 +1720,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-60",
@@ -1689,7 +1749,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-61",
@@ -1717,7 +1778,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-62",
@@ -1745,7 +1807,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-63",
@@ -1773,7 +1836,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-64",
@@ -1801,7 +1865,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-65",
@@ -1829,7 +1894,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-66",
@@ -1857,7 +1923,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-67",
@@ -1885,7 +1952,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-68",
@@ -1913,7 +1981,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-69",
@@ -1941,7 +2010,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-70",
@@ -1969,7 +2039,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-71",
@@ -1997,7 +2068,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-72",
@@ -2025,7 +2097,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-73",
@@ -2053,7 +2126,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-74",
@@ -2081,7 +2155,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-75",
@@ -2109,7 +2184,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-76",
@@ -2137,7 +2213,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-77",
@@ -2165,7 +2242,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-78",
@@ -2193,7 +2271,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-79",
@@ -2221,7 +2300,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-80",
@@ -2249,7 +2329,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-81",
@@ -2277,7 +2358,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-82",
@@ -2305,7 +2387,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-83",
@@ -2333,7 +2416,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-84",
@@ -2361,7 +2445,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-85",
@@ -2389,7 +2474,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-86",
@@ -2417,7 +2503,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-87",
@@ -2445,7 +2532,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-88",
@@ -2473,7 +2561,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-89",
@@ -2501,7 +2590,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-90",
@@ -2529,7 +2619,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-91",
@@ -2557,7 +2648,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-92",
@@ -2585,7 +2677,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-93",
@@ -2613,7 +2706,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-94",
@@ -2641,7 +2735,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-95",
@@ -2669,7 +2764,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-96",
@@ -2697,7 +2793,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-97",
@@ -2725,7 +2822,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-98",
@@ -2753,7 +2851,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-99",
@@ -2781,7 +2880,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-100",
@@ -2809,7 +2909,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-101",
@@ -2837,7 +2938,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-102",
@@ -2865,7 +2967,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-103",
@@ -2893,7 +2996,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-104",
@@ -2921,7 +3025,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-105",
@@ -2949,7 +3054,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-106",
@@ -2977,7 +3083,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-107",
@@ -3005,7 +3112,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-108",
@@ -3033,7 +3141,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-109",
@@ -3061,7 +3170,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-110",
@@ -3089,7 +3199,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-111",
@@ -3117,7 +3228,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-112",
@@ -3145,7 +3257,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-113",
@@ -3173,7 +3286,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-114",
@@ -3201,7 +3315,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-115",
@@ -3229,7 +3344,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-116",
@@ -3257,7 +3373,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-117",
@@ -3285,7 +3402,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-118",
@@ -3313,7 +3431,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-119",
@@ -3341,7 +3460,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-120",
@@ -3369,7 +3489,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-121",
@@ -3397,7 +3518,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-122",
@@ -3425,7 +3547,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-123",
@@ -3453,7 +3576,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-124",
@@ -3481,7 +3605,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-125",
@@ -3509,7 +3634,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-126",
@@ -3537,7 +3663,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-127",
@@ -3565,7 +3692,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-128",
@@ -3593,7 +3721,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-129",
@@ -3621,7 +3750,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-130",
@@ -3649,7 +3779,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-131",
@@ -3677,7 +3808,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-132",
@@ -3705,7 +3837,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-133",
@@ -3733,7 +3866,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-134",
@@ -3761,7 +3895,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-135",
@@ -3789,7 +3924,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-136",
@@ -3817,7 +3953,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-137",
@@ -3845,7 +3982,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-138",
@@ -3873,7 +4011,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-139",
@@ -3901,7 +4040,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-140",
@@ -3929,7 +4069,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-141",
@@ -3957,7 +4098,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-142",
@@ -3985,7 +4127,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-143",
@@ -4013,7 +4156,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-144",
@@ -4041,7 +4185,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-145",
@@ -4069,7 +4214,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-146",
@@ -4097,7 +4243,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-147",
@@ -4125,7 +4272,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-148",
@@ -4153,7 +4301,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-149",
@@ -4181,7 +4330,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-150",
@@ -4209,7 +4359,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-151",
@@ -4237,7 +4388,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-152",
@@ -4265,7 +4417,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-153",
@@ -4293,7 +4446,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-154",
@@ -4321,7 +4475,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-155",
@@ -4349,7 +4504,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-156",
@@ -4377,7 +4533,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-157",
@@ -4405,7 +4562,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-158",
@@ -4433,7 +4591,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-159",
@@ -4461,7 +4620,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-160",
@@ -4489,7 +4649,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-161",
@@ -4517,7 +4678,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-162",
@@ -4545,7 +4707,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-163",
@@ -4573,7 +4736,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-164",
@@ -4601,7 +4765,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-165",
@@ -4629,7 +4794,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-166",
@@ -4657,7 +4823,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-167",
@@ -4685,7 +4852,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-168",
@@ -4713,7 +4881,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-169",
@@ -4741,7 +4910,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-170",
@@ -4769,7 +4939,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-171",
@@ -4797,7 +4968,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-172",
@@ -4825,7 +4997,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-173",
@@ -4853,7 +5026,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-174",
@@ -4881,7 +5055,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-175",
@@ -4909,7 +5084,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   },
   {
     "id": "dundee-176",
@@ -4937,7 +5113,8 @@ export const dundeeCourses: DundeeCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Dundee",
-    "state": "Scotland"
+    "state": "Scotland",
+    "feeVerified": false
   }
 ];
 

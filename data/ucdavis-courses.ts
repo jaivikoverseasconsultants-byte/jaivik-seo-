@@ -2,6 +2,7 @@
 // Generated via Puppeteer from: https://grad.ucdavis.edu/programs
 
 export interface UcdavisCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -39,7 +40,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-2",
@@ -68,7 +70,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-3",
@@ -97,7 +100,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-4",
@@ -126,7 +130,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-5",
@@ -155,7 +160,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-6",
@@ -184,7 +190,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-7",
@@ -213,7 +220,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-8",
@@ -242,7 +250,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-9",
@@ -271,7 +280,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-10",
@@ -300,7 +310,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-11",
@@ -329,7 +340,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-12",
@@ -358,7 +370,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-13",
@@ -387,7 +400,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-14",
@@ -416,7 +430,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-15",
@@ -445,7 +460,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-16",
@@ -474,7 +490,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-17",
@@ -503,7 +520,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-18",
@@ -532,7 +550,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-19",
@@ -561,7 +580,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-20",
@@ -590,7 +610,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-21",
@@ -619,7 +640,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-22",
@@ -648,7 +670,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-23",
@@ -677,7 +700,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-24",
@@ -706,7 +730,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-25",
@@ -735,7 +760,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-26",
@@ -764,7 +790,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-27",
@@ -793,7 +820,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-28",
@@ -822,7 +850,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-29",
@@ -851,7 +880,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-30",
@@ -880,7 +910,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-31",
@@ -909,7 +940,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-32",
@@ -938,7 +970,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-33",
@@ -967,7 +1000,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-34",
@@ -996,7 +1030,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-35",
@@ -1025,7 +1060,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-36",
@@ -1054,7 +1090,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-37",
@@ -1083,7 +1120,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-38",
@@ -1112,7 +1150,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-39",
@@ -1141,7 +1180,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-40",
@@ -1170,7 +1210,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-41",
@@ -1199,7 +1240,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-42",
@@ -1228,7 +1270,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-43",
@@ -1257,7 +1300,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-44",
@@ -1286,7 +1330,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-45",
@@ -1315,7 +1360,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-46",
@@ -1344,7 +1390,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-47",
@@ -1373,7 +1420,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-48",
@@ -1402,7 +1450,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-49",
@@ -1431,7 +1480,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-50",
@@ -1460,7 +1510,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-51",
@@ -1489,7 +1540,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-52",
@@ -1518,7 +1570,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-53",
@@ -1547,7 +1600,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-54",
@@ -1576,7 +1630,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-55",
@@ -1605,7 +1660,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-56",
@@ -1634,7 +1690,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-57",
@@ -1663,7 +1720,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-58",
@@ -1692,7 +1750,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-59",
@@ -1721,7 +1780,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-60",
@@ -1750,7 +1810,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-61",
@@ -1779,7 +1840,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-62",
@@ -1808,7 +1870,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-63",
@@ -1837,7 +1900,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-64",
@@ -1866,7 +1930,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-65",
@@ -1895,7 +1960,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-66",
@@ -1924,7 +1990,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-67",
@@ -1953,7 +2020,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-68",
@@ -1982,7 +2050,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-69",
@@ -2011,7 +2080,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-70",
@@ -2040,7 +2110,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-71",
@@ -2069,7 +2140,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-72",
@@ -2098,7 +2170,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-73",
@@ -2127,7 +2200,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-74",
@@ -2156,7 +2230,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-75",
@@ -2185,7 +2260,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-76",
@@ -2214,7 +2290,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-77",
@@ -2243,7 +2320,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-78",
@@ -2272,7 +2350,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-79",
@@ -2301,7 +2380,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-80",
@@ -2330,7 +2410,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-81",
@@ -2359,7 +2440,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-82",
@@ -2388,7 +2470,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-83",
@@ -2417,7 +2500,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-84",
@@ -2446,7 +2530,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-85",
@@ -2475,7 +2560,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-86",
@@ -2504,7 +2590,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-87",
@@ -2533,7 +2620,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-88",
@@ -2562,7 +2650,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-89",
@@ -2591,7 +2680,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-90",
@@ -2620,7 +2710,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-91",
@@ -2649,7 +2740,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-92",
@@ -2678,7 +2770,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-93",
@@ -2707,7 +2800,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-94",
@@ -2736,7 +2830,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-95",
@@ -2765,7 +2860,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-96",
@@ -2794,7 +2890,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-97",
@@ -2823,7 +2920,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-98",
@@ -2852,7 +2950,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-99",
@@ -2881,7 +2980,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   },
   {
     "id": "ucdavis-100",
@@ -2910,7 +3010,8 @@ export const ucdavisCourses: UcdavisCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Davis",
-    "state": "California"
+    "state": "California",
+    "feeVerified": false
   }
 ];
 

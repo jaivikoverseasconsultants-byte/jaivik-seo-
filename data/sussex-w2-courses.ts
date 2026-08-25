@@ -5,6 +5,7 @@
 // Fees/IELTS are 0 where not confidently extracted — do not treat 0 as a real value.
 
 export interface SussexW2Course {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number;
@@ -34,7 +35,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-2",
@@ -57,7 +59,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-3",
@@ -80,7 +83,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-4",
@@ -103,7 +107,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-5",
@@ -126,7 +131,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-6",
@@ -149,7 +155,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-7",
@@ -172,7 +179,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-8",
@@ -195,7 +203,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-9",
@@ -218,7 +227,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-10",
@@ -241,7 +251,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-11",
@@ -264,7 +275,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-12",
@@ -287,7 +299,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-13",
@@ -310,7 +323,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-14",
@@ -333,7 +347,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-15",
@@ -356,7 +371,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-16",
@@ -379,7 +395,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-17",
@@ -402,7 +419,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-18",
@@ -425,7 +443,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-19",
@@ -448,7 +467,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-20",
@@ -471,7 +491,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-21",
@@ -494,7 +515,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-22",
@@ -517,7 +539,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-23",
@@ -540,7 +563,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-24",
@@ -563,7 +587,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-25",
@@ -586,7 +611,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-26",
@@ -609,7 +635,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-27",
@@ -632,7 +659,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-28",
@@ -655,7 +683,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-29",
@@ -678,7 +707,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-30",
@@ -701,7 +731,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-31",
@@ -724,7 +755,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-32",
@@ -747,7 +779,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-33",
@@ -770,7 +803,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-34",
@@ -793,7 +827,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-35",
@@ -816,7 +851,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-36",
@@ -839,7 +875,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-37",
@@ -862,7 +899,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-38",
@@ -885,7 +923,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-39",
@@ -908,7 +947,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-40",
@@ -931,7 +971,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-41",
@@ -954,7 +995,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-42",
@@ -977,7 +1019,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-43",
@@ -1000,7 +1043,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-44",
@@ -1023,7 +1067,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-45",
@@ -1046,7 +1091,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-46",
@@ -1069,7 +1115,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-47",
@@ -1092,7 +1139,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-48",
@@ -1115,7 +1163,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-49",
@@ -1138,7 +1187,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-50",
@@ -1161,7 +1211,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-51",
@@ -1184,7 +1235,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-52",
@@ -1207,7 +1259,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-53",
@@ -1230,7 +1283,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-54",
@@ -1253,7 +1307,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-55",
@@ -1276,7 +1331,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "sussex-w2-56",
@@ -1299,7 +1355,8 @@ export const sussexW2Courses: SussexW2Course[] = [
     "country": "UK",
     "state": "England",
     "city": "Falmer, Brighton",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

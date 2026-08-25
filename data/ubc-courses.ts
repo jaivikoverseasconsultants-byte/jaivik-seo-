@@ -1,7 +1,8 @@
 // Auto-generated — crawl-new10.js
 // 234 courses | crawled: 2026-06-30
 
-export interface UbcCourse { id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number; livingCostGBP: number; livingCostUSD: number; livingCostINR: number; annualCAD: number; livingCostCAD: number; totalCAD: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface UbcCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number; livingCostGBP: number; livingCostUSD: number; livingCostINR: number; annualCAD: number; livingCostCAD: number; totalCAD: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const ubcCourses: UbcCourse[] = [
   {
@@ -33,7 +34,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-2",
@@ -64,7 +66,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-3",
@@ -95,7 +98,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-4",
@@ -126,7 +130,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-5",
@@ -157,7 +162,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-6",
@@ -188,7 +194,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-7",
@@ -219,7 +226,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-8",
@@ -250,7 +258,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-9",
@@ -281,7 +290,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-10",
@@ -312,7 +322,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-11",
@@ -343,7 +354,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-12",
@@ -374,7 +386,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-13",
@@ -405,7 +418,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-14",
@@ -436,7 +450,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-15",
@@ -467,7 +482,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-16",
@@ -498,7 +514,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-17",
@@ -529,7 +546,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-18",
@@ -560,7 +578,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-19",
@@ -591,7 +610,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-20",
@@ -622,7 +642,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-21",
@@ -653,7 +674,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-22",
@@ -684,7 +706,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-23",
@@ -715,7 +738,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-24",
@@ -746,7 +770,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-25",
@@ -777,7 +802,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-26",
@@ -808,7 +834,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-27",
@@ -839,7 +866,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-28",
@@ -870,7 +898,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-29",
@@ -901,7 +930,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-30",
@@ -932,7 +962,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-31",
@@ -963,7 +994,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-32",
@@ -994,7 +1026,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-33",
@@ -1025,7 +1058,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-34",
@@ -1056,7 +1090,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-35",
@@ -1087,7 +1122,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-36",
@@ -1118,7 +1154,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-37",
@@ -1149,7 +1186,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-38",
@@ -1180,7 +1218,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-39",
@@ -1211,7 +1250,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-40",
@@ -1242,7 +1282,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-41",
@@ -1273,7 +1314,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-42",
@@ -1304,7 +1346,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-43",
@@ -1335,7 +1378,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-44",
@@ -1366,7 +1410,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-45",
@@ -1397,7 +1442,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-46",
@@ -1428,7 +1474,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-47",
@@ -1459,7 +1506,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-48",
@@ -1490,7 +1538,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-49",
@@ -1521,7 +1570,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-50",
@@ -1552,7 +1602,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-51",
@@ -1583,7 +1634,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-52",
@@ -1614,7 +1666,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-53",
@@ -1645,7 +1698,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-54",
@@ -1676,7 +1730,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-55",
@@ -1707,7 +1762,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-56",
@@ -1738,7 +1794,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-57",
@@ -1769,7 +1826,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-58",
@@ -1800,7 +1858,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-59",
@@ -1831,7 +1890,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-60",
@@ -1862,7 +1922,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-61",
@@ -1893,7 +1954,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-62",
@@ -1924,7 +1986,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-63",
@@ -1955,7 +2018,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-64",
@@ -1986,7 +2050,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-65",
@@ -2017,7 +2082,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-66",
@@ -2048,7 +2114,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-67",
@@ -2079,7 +2146,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-68",
@@ -2110,7 +2178,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-69",
@@ -2141,7 +2210,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-70",
@@ -2172,7 +2242,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-71",
@@ -2203,7 +2274,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-72",
@@ -2234,7 +2306,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-73",
@@ -2265,7 +2338,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-74",
@@ -2296,7 +2370,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-75",
@@ -2327,7 +2402,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-76",
@@ -2358,7 +2434,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-77",
@@ -2389,7 +2466,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-78",
@@ -2420,7 +2498,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-79",
@@ -2451,7 +2530,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-80",
@@ -2482,7 +2562,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-81",
@@ -2513,7 +2594,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-82",
@@ -2544,7 +2626,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-83",
@@ -2575,7 +2658,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-84",
@@ -2606,7 +2690,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-85",
@@ -2637,7 +2722,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-86",
@@ -2668,7 +2754,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-87",
@@ -2699,7 +2786,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-88",
@@ -2730,7 +2818,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-89",
@@ -2761,7 +2850,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-90",
@@ -2792,7 +2882,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-91",
@@ -2823,7 +2914,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-92",
@@ -2854,7 +2946,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-93",
@@ -2885,7 +2978,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-94",
@@ -2916,7 +3010,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-95",
@@ -2947,7 +3042,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-96",
@@ -2978,7 +3074,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-97",
@@ -3009,7 +3106,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-98",
@@ -3040,7 +3138,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-99",
@@ -3071,7 +3170,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-100",
@@ -3102,7 +3202,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-101",
@@ -3133,7 +3234,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-102",
@@ -3164,7 +3266,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-103",
@@ -3195,7 +3298,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-104",
@@ -3226,7 +3330,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-105",
@@ -3257,7 +3362,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-107",
@@ -3288,7 +3394,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-108",
@@ -3319,7 +3426,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-110",
@@ -3350,7 +3458,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-111",
@@ -3381,7 +3490,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-113",
@@ -3412,7 +3522,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-115",
@@ -3443,7 +3554,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-117",
@@ -3474,7 +3586,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-118",
@@ -3505,7 +3618,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-119",
@@ -3536,7 +3650,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-120",
@@ -3567,7 +3682,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-121",
@@ -3598,7 +3714,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-122",
@@ -3629,7 +3746,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-123",
@@ -3660,7 +3778,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-124",
@@ -3691,7 +3810,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-125",
@@ -3722,7 +3842,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-126",
@@ -3753,7 +3874,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-127",
@@ -3784,7 +3906,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-128",
@@ -3815,7 +3938,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-129",
@@ -3846,7 +3970,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-130",
@@ -3877,7 +4002,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-131",
@@ -3908,7 +4034,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-133",
@@ -3939,7 +4066,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-134",
@@ -3970,7 +4098,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-135",
@@ -4001,7 +4130,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-136",
@@ -4032,7 +4162,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-137",
@@ -4063,7 +4194,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-138",
@@ -4094,7 +4226,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-139",
@@ -4125,7 +4258,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-140",
@@ -4156,7 +4290,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-141",
@@ -4187,7 +4322,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-142",
@@ -4218,7 +4354,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-143",
@@ -4249,7 +4386,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-144",
@@ -4280,7 +4418,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-145",
@@ -4311,7 +4450,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-146",
@@ -4342,7 +4482,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-147",
@@ -4373,7 +4514,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-148",
@@ -4404,7 +4546,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-149",
@@ -4435,7 +4578,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-150",
@@ -4466,7 +4610,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-151",
@@ -4497,7 +4642,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-152",
@@ -4528,7 +4674,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-153",
@@ -4559,7 +4706,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-154",
@@ -4590,7 +4738,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-155",
@@ -4621,7 +4770,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-156",
@@ -4652,7 +4802,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-157",
@@ -4683,7 +4834,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-158",
@@ -4714,7 +4866,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-159",
@@ -4745,7 +4898,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-160",
@@ -4776,7 +4930,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-161",
@@ -4807,7 +4962,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-162",
@@ -4838,7 +4994,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-163",
@@ -4869,7 +5026,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-164",
@@ -4900,7 +5058,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-165",
@@ -4931,7 +5090,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-166",
@@ -4962,7 +5122,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-167",
@@ -4993,7 +5154,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-168",
@@ -5024,7 +5186,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-169",
@@ -5055,7 +5218,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-170",
@@ -5086,7 +5250,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-171",
@@ -5117,7 +5282,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-172",
@@ -5148,7 +5314,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-173",
@@ -5179,7 +5346,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-174",
@@ -5210,7 +5378,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-175",
@@ -5241,7 +5410,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-176",
@@ -5272,7 +5442,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-177",
@@ -5303,7 +5474,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-178",
@@ -5334,7 +5506,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-179",
@@ -5365,7 +5538,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-180",
@@ -5396,7 +5570,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-181",
@@ -5427,7 +5602,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-182",
@@ -5458,7 +5634,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-183",
@@ -5489,7 +5666,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-184",
@@ -5520,7 +5698,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-185",
@@ -5551,7 +5730,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-186",
@@ -5582,7 +5762,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-187",
@@ -5613,7 +5794,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-188",
@@ -5644,7 +5826,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-189",
@@ -5675,7 +5858,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-190",
@@ -5706,7 +5890,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-191",
@@ -5737,7 +5922,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-192",
@@ -5768,7 +5954,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-193",
@@ -5799,7 +5986,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-194",
@@ -5830,7 +6018,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-195",
@@ -5861,7 +6050,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-196",
@@ -5892,7 +6082,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-197",
@@ -5923,7 +6114,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-198",
@@ -5954,7 +6146,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-200",
@@ -5985,7 +6178,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-201",
@@ -6016,7 +6210,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-202",
@@ -6047,7 +6242,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-203",
@@ -6078,7 +6274,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-204",
@@ -6109,7 +6306,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-205",
@@ -6140,7 +6338,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-206",
@@ -6171,7 +6370,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-207",
@@ -6202,7 +6402,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-209",
@@ -6233,7 +6434,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-210",
@@ -6264,7 +6466,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-211",
@@ -6295,7 +6498,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-212",
@@ -6326,7 +6530,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-213",
@@ -6357,7 +6562,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-215",
@@ -6388,7 +6594,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-216",
@@ -6419,7 +6626,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-219",
@@ -6450,7 +6658,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-220",
@@ -6481,7 +6690,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-223",
@@ -6512,7 +6722,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-225",
@@ -6543,7 +6754,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   },
   {
     "id": "ubc-230",
@@ -6574,7 +6786,8 @@ export const ubcCourses: UbcCourse[] = [
     "country": "Canada",
     "state": "British Columbia",
     "city": "Vancouver",
-    "countryCode": "CA"
+    "countryCode": "CA",
+    "feeVerified": false
   }
 ];
 

@@ -2,6 +2,7 @@
 // Source: data/scraped/uk/northumbria.json
 
 export interface NorthumbriaCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-2",
@@ -66,7 +68,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-3",
@@ -94,7 +97,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-4",
@@ -122,7 +126,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-5",
@@ -150,7 +155,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-6",
@@ -178,7 +184,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-7",
@@ -206,7 +213,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-8",
@@ -234,7 +242,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-9",
@@ -262,7 +271,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-10",
@@ -290,7 +300,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-11",
@@ -318,7 +329,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-12",
@@ -346,7 +358,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-13",
@@ -374,7 +387,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-14",
@@ -402,7 +416,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-15",
@@ -430,7 +445,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-16",
@@ -458,7 +474,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-17",
@@ -486,7 +503,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-18",
@@ -514,7 +532,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-19",
@@ -542,7 +561,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-20",
@@ -570,7 +590,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-21",
@@ -598,7 +619,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-22",
@@ -626,7 +648,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-23",
@@ -654,7 +677,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-24",
@@ -682,7 +706,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-25",
@@ -710,7 +735,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-26",
@@ -738,7 +764,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-27",
@@ -766,7 +793,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-28",
@@ -794,7 +822,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-29",
@@ -822,7 +851,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-30",
@@ -850,7 +880,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-31",
@@ -878,7 +909,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-32",
@@ -906,7 +938,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-33",
@@ -934,7 +967,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-34",
@@ -962,7 +996,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-35",
@@ -990,7 +1025,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-36",
@@ -1018,7 +1054,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-37",
@@ -1046,7 +1083,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-38",
@@ -1074,7 +1112,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-39",
@@ -1102,7 +1141,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-40",
@@ -1130,7 +1170,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-41",
@@ -1158,7 +1199,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-42",
@@ -1186,7 +1228,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-43",
@@ -1214,7 +1257,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-44",
@@ -1242,7 +1286,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-45",
@@ -1270,7 +1315,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-46",
@@ -1298,7 +1344,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-47",
@@ -1326,7 +1373,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-48",
@@ -1354,7 +1402,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-49",
@@ -1382,7 +1431,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-50",
@@ -1410,7 +1460,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-51",
@@ -1438,7 +1489,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-52",
@@ -1466,7 +1518,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-53",
@@ -1494,7 +1547,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-54",
@@ -1522,7 +1576,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-55",
@@ -1550,7 +1605,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-56",
@@ -1578,7 +1634,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-57",
@@ -1606,7 +1663,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-58",
@@ -1634,7 +1692,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-59",
@@ -1662,7 +1721,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-60",
@@ -1690,7 +1750,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-61",
@@ -1718,7 +1779,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-62",
@@ -1746,7 +1808,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-63",
@@ -1774,7 +1837,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-64",
@@ -1802,7 +1866,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-65",
@@ -1830,7 +1895,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-66",
@@ -1858,7 +1924,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-67",
@@ -1886,7 +1953,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-68",
@@ -1914,7 +1982,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-69",
@@ -1942,7 +2011,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-70",
@@ -1970,7 +2040,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-71",
@@ -1998,7 +2069,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-72",
@@ -2026,7 +2098,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-73",
@@ -2054,7 +2127,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-74",
@@ -2082,7 +2156,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-75",
@@ -2110,7 +2185,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-76",
@@ -2138,7 +2214,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-77",
@@ -2166,7 +2243,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-78",
@@ -2194,7 +2272,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-79",
@@ -2222,7 +2301,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-80",
@@ -2250,7 +2330,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-81",
@@ -2278,7 +2359,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-82",
@@ -2306,7 +2388,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-83",
@@ -2334,7 +2417,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-84",
@@ -2362,7 +2446,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-85",
@@ -2390,7 +2475,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-86",
@@ -2418,7 +2504,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-87",
@@ -2446,7 +2533,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-88",
@@ -2474,7 +2562,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-89",
@@ -2502,7 +2591,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-90",
@@ -2530,7 +2620,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-91",
@@ -2558,7 +2649,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-92",
@@ -2586,7 +2678,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-93",
@@ -2614,7 +2707,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-94",
@@ -2642,7 +2736,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-95",
@@ -2670,7 +2765,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-96",
@@ -2698,7 +2794,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-97",
@@ -2726,7 +2823,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-98",
@@ -2754,7 +2852,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-99",
@@ -2782,7 +2881,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-100",
@@ -2810,7 +2910,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-101",
@@ -2838,7 +2939,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-102",
@@ -2866,7 +2968,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-103",
@@ -2894,7 +2997,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-104",
@@ -2922,7 +3026,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-105",
@@ -2950,7 +3055,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-106",
@@ -2978,7 +3084,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-107",
@@ -3006,7 +3113,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-108",
@@ -3034,7 +3142,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-109",
@@ -3062,7 +3171,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-110",
@@ -3090,7 +3200,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-111",
@@ -3118,7 +3229,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-112",
@@ -3146,7 +3258,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-113",
@@ -3174,7 +3287,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-114",
@@ -3202,7 +3316,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-115",
@@ -3230,7 +3345,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-116",
@@ -3258,7 +3374,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-117",
@@ -3286,7 +3403,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-118",
@@ -3314,7 +3432,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-119",
@@ -3342,7 +3461,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-120",
@@ -3370,7 +3490,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-121",
@@ -3398,7 +3519,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-122",
@@ -3426,7 +3548,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-123",
@@ -3454,7 +3577,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-124",
@@ -3482,7 +3606,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-125",
@@ -3510,7 +3635,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-126",
@@ -3538,7 +3664,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-127",
@@ -3566,7 +3693,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-128",
@@ -3594,7 +3722,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-129",
@@ -3622,7 +3751,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-130",
@@ -3650,7 +3780,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-131",
@@ -3678,7 +3809,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-132",
@@ -3706,7 +3838,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-133",
@@ -3734,7 +3867,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-134",
@@ -3762,7 +3896,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-135",
@@ -3790,7 +3925,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-136",
@@ -3818,7 +3954,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-137",
@@ -3846,7 +3983,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-138",
@@ -3874,7 +4012,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-139",
@@ -3902,7 +4041,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-140",
@@ -3930,7 +4070,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-141",
@@ -3958,7 +4099,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-142",
@@ -3986,7 +4128,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-143",
@@ -4014,7 +4157,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-144",
@@ -4042,7 +4186,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-145",
@@ -4070,7 +4215,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-146",
@@ -4098,7 +4244,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-147",
@@ -4126,7 +4273,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-148",
@@ -4154,7 +4302,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-149",
@@ -4182,7 +4331,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-150",
@@ -4210,7 +4360,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-151",
@@ -4238,7 +4389,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-152",
@@ -4266,7 +4418,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-153",
@@ -4294,7 +4447,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-154",
@@ -4322,7 +4476,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-155",
@@ -4350,7 +4505,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-156",
@@ -4378,7 +4534,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-157",
@@ -4406,7 +4563,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-158",
@@ -4434,7 +4592,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-159",
@@ -4462,7 +4621,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-160",
@@ -4490,7 +4650,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-161",
@@ -4518,7 +4679,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-162",
@@ -4546,7 +4708,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-163",
@@ -4574,7 +4737,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-164",
@@ -4602,7 +4766,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-165",
@@ -4630,7 +4795,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-166",
@@ -4658,7 +4824,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-167",
@@ -4686,7 +4853,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-168",
@@ -4714,7 +4882,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-169",
@@ -4742,7 +4911,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-170",
@@ -4770,7 +4940,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-171",
@@ -4798,7 +4969,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-172",
@@ -4826,7 +4998,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-173",
@@ -4854,7 +5027,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-174",
@@ -4882,7 +5056,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-175",
@@ -4910,7 +5085,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-176",
@@ -4938,7 +5114,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-177",
@@ -4966,7 +5143,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-178",
@@ -4994,7 +5172,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-179",
@@ -5022,7 +5201,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-180",
@@ -5050,7 +5230,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-181",
@@ -5078,7 +5259,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-182",
@@ -5106,7 +5288,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-183",
@@ -5134,7 +5317,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-184",
@@ -5162,7 +5346,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-185",
@@ -5190,7 +5375,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-186",
@@ -5218,7 +5404,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-187",
@@ -5246,7 +5433,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-188",
@@ -5274,7 +5462,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-189",
@@ -5302,7 +5491,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-190",
@@ -5330,7 +5520,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-191",
@@ -5358,7 +5549,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-192",
@@ -5386,7 +5578,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-193",
@@ -5414,7 +5607,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-194",
@@ -5442,7 +5636,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-195",
@@ -5470,7 +5665,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-196",
@@ -5498,7 +5694,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-197",
@@ -5526,7 +5723,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-198",
@@ -5554,7 +5752,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-199",
@@ -5582,7 +5781,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-200",
@@ -5610,7 +5810,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-201",
@@ -5638,7 +5839,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-202",
@@ -5666,7 +5868,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-203",
@@ -5694,7 +5897,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-204",
@@ -5722,7 +5926,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-205",
@@ -5750,7 +5955,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-206",
@@ -5778,7 +5984,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-207",
@@ -5806,7 +6013,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-208",
@@ -5834,7 +6042,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-209",
@@ -5862,7 +6071,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-210",
@@ -5890,7 +6100,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-211",
@@ -5918,7 +6129,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-212",
@@ -5946,7 +6158,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-213",
@@ -5974,7 +6187,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-214",
@@ -6002,7 +6216,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-215",
@@ -6030,7 +6245,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-216",
@@ -6058,7 +6274,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-217",
@@ -6086,7 +6303,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-218",
@@ -6114,7 +6332,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-219",
@@ -6142,7 +6361,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-220",
@@ -6170,7 +6390,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-221",
@@ -6198,7 +6419,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-222",
@@ -6226,7 +6448,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-223",
@@ -6254,7 +6477,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-224",
@@ -6282,7 +6506,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-225",
@@ -6310,7 +6535,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-226",
@@ -6338,7 +6564,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-227",
@@ -6366,7 +6593,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-228",
@@ -6394,7 +6622,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-229",
@@ -6422,7 +6651,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-230",
@@ -6450,7 +6680,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-231",
@@ -6478,7 +6709,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-232",
@@ -6506,7 +6738,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-234",
@@ -6534,7 +6767,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-235",
@@ -6562,7 +6796,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-236",
@@ -6590,7 +6825,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-237",
@@ -6618,7 +6854,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-238",
@@ -6646,7 +6883,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-239",
@@ -6674,7 +6912,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-240",
@@ -6702,7 +6941,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-241",
@@ -6730,7 +6970,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-242",
@@ -6758,7 +6999,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-243",
@@ -6786,7 +7028,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-244",
@@ -6814,7 +7057,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-245",
@@ -6842,7 +7086,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-246",
@@ -6870,7 +7115,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-247",
@@ -6898,7 +7144,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-248",
@@ -6926,7 +7173,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-249",
@@ -6954,7 +7202,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-250",
@@ -6982,7 +7231,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-251",
@@ -7010,7 +7260,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-252",
@@ -7038,7 +7289,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-253",
@@ -7066,7 +7318,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-254",
@@ -7094,7 +7347,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-255",
@@ -7122,7 +7376,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-256",
@@ -7150,7 +7405,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-257",
@@ -7178,7 +7434,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-258",
@@ -7206,7 +7463,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-259",
@@ -7234,7 +7492,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-260",
@@ -7262,7 +7521,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-261",
@@ -7290,7 +7550,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-262",
@@ -7318,7 +7579,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-263",
@@ -7346,7 +7608,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-264",
@@ -7374,7 +7637,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-265",
@@ -7402,7 +7666,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-266",
@@ -7430,7 +7695,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-267",
@@ -7458,7 +7724,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-268",
@@ -7486,7 +7753,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-269",
@@ -7514,7 +7782,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-270",
@@ -7542,7 +7811,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-271",
@@ -7570,7 +7840,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-272",
@@ -7598,7 +7869,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-273",
@@ -7626,7 +7898,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-274",
@@ -7654,7 +7927,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-275",
@@ -7682,7 +7956,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-276",
@@ -7710,7 +7985,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-277",
@@ -7738,7 +8014,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-278",
@@ -7766,7 +8043,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-279",
@@ -7794,7 +8072,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-280",
@@ -7822,7 +8101,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-281",
@@ -7850,7 +8130,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-282",
@@ -7878,7 +8159,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-283",
@@ -7906,7 +8188,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-284",
@@ -7934,7 +8217,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-285",
@@ -7962,7 +8246,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-286",
@@ -7990,7 +8275,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-287",
@@ -8018,7 +8304,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-288",
@@ -8046,7 +8333,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-289",
@@ -8074,7 +8362,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-290",
@@ -8102,7 +8391,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-291",
@@ -8130,7 +8420,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-292",
@@ -8158,7 +8449,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-293",
@@ -8186,7 +8478,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-294",
@@ -8214,7 +8507,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-295",
@@ -8242,7 +8536,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-296",
@@ -8270,7 +8565,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-297",
@@ -8298,7 +8594,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-298",
@@ -8326,7 +8623,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-299",
@@ -8354,7 +8652,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-300",
@@ -8382,7 +8681,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-301",
@@ -8410,7 +8710,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-302",
@@ -8438,7 +8739,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-303",
@@ -8466,7 +8768,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-304",
@@ -8494,7 +8797,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-305",
@@ -8522,7 +8826,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-306",
@@ -8550,7 +8855,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-307",
@@ -8578,7 +8884,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-308",
@@ -8606,7 +8913,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-309",
@@ -8634,7 +8942,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-310",
@@ -8662,7 +8971,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-311",
@@ -8690,7 +9000,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-312",
@@ -8718,7 +9029,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-313",
@@ -8746,7 +9058,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-314",
@@ -8774,7 +9087,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-315",
@@ -8802,7 +9116,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-316",
@@ -8830,7 +9145,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-317",
@@ -8858,7 +9174,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-318",
@@ -8886,7 +9203,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-319",
@@ -8914,7 +9232,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-320",
@@ -8942,7 +9261,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-321",
@@ -8970,7 +9290,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-322",
@@ -8998,7 +9319,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-323",
@@ -9026,7 +9348,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-324",
@@ -9054,7 +9377,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-325",
@@ -9082,7 +9406,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-326",
@@ -9110,7 +9435,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-327",
@@ -9138,7 +9464,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-328",
@@ -9166,7 +9493,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-329",
@@ -9194,7 +9522,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-330",
@@ -9222,7 +9551,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-331",
@@ -9250,7 +9580,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-332",
@@ -9278,7 +9609,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-333",
@@ -9306,7 +9638,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-334",
@@ -9334,7 +9667,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-335",
@@ -9362,7 +9696,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-336",
@@ -9390,7 +9725,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-337",
@@ -9418,7 +9754,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-338",
@@ -9446,7 +9783,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-339",
@@ -9474,7 +9812,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-340",
@@ -9502,7 +9841,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-341",
@@ -9530,7 +9870,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-342",
@@ -9558,7 +9899,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-343",
@@ -9586,7 +9928,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-344",
@@ -9614,7 +9957,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-345",
@@ -9642,7 +9986,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-346",
@@ -9670,7 +10015,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-347",
@@ -9698,7 +10044,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-348",
@@ -9726,7 +10073,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-349",
@@ -9754,7 +10102,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-350",
@@ -9782,7 +10131,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-351",
@@ -9810,7 +10160,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-352",
@@ -9838,7 +10189,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-353",
@@ -9866,7 +10218,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-354",
@@ -9894,7 +10247,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-355",
@@ -9922,7 +10276,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-356",
@@ -9950,7 +10305,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-357",
@@ -9978,7 +10334,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-358",
@@ -10006,7 +10363,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-359",
@@ -10034,7 +10392,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-360",
@@ -10062,7 +10421,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-361",
@@ -10090,7 +10450,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-362",
@@ -10118,7 +10479,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-363",
@@ -10146,7 +10508,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-364",
@@ -10174,7 +10537,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-365",
@@ -10202,7 +10566,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-366",
@@ -10230,7 +10595,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-367",
@@ -10258,7 +10624,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-368",
@@ -10286,7 +10653,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-369",
@@ -10314,7 +10682,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-370",
@@ -10342,7 +10711,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-371",
@@ -10370,7 +10740,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-372",
@@ -10398,7 +10769,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-373",
@@ -10426,7 +10798,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-374",
@@ -10454,7 +10827,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-375",
@@ -10482,7 +10856,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-376",
@@ -10510,7 +10885,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-377",
@@ -10538,7 +10914,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-378",
@@ -10566,7 +10943,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-379",
@@ -10594,7 +10972,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-380",
@@ -10622,7 +11001,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-381",
@@ -10650,7 +11030,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-382",
@@ -10678,7 +11059,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "northumbria-383",
@@ -10706,7 +11088,8 @@ export const northumbriaCourses = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Newcastle",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ] as const;
 

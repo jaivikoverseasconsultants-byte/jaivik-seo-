@@ -2,6 +2,7 @@
 // Generated from: https://www.bristol.ac.uk/sitemap-all.xml
 
 export interface BristolCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-2",
@@ -66,7 +68,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-3",
@@ -94,7 +97,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-4",
@@ -122,7 +126,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-5",
@@ -150,7 +155,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-6",
@@ -178,7 +184,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-7",
@@ -206,7 +213,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-8",
@@ -234,7 +242,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-9",
@@ -262,7 +271,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-10",
@@ -290,7 +300,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-11",
@@ -318,7 +329,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-12",
@@ -346,7 +358,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-13",
@@ -374,7 +387,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-14",
@@ -402,7 +416,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-15",
@@ -430,7 +445,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-16",
@@ -458,7 +474,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-17",
@@ -486,7 +503,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-18",
@@ -514,7 +532,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-19",
@@ -542,7 +561,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-20",
@@ -570,7 +590,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-21",
@@ -598,7 +619,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-22",
@@ -626,7 +648,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-23",
@@ -654,7 +677,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-24",
@@ -682,7 +706,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-25",
@@ -710,7 +735,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-26",
@@ -738,7 +764,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-27",
@@ -766,7 +793,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-28",
@@ -794,7 +822,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-29",
@@ -822,7 +851,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-30",
@@ -850,7 +880,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-31",
@@ -878,7 +909,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-32",
@@ -906,7 +938,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-33",
@@ -934,7 +967,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-34",
@@ -962,7 +996,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-35",
@@ -990,7 +1025,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-36",
@@ -1018,7 +1054,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-37",
@@ -1046,7 +1083,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-38",
@@ -1074,7 +1112,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-39",
@@ -1102,7 +1141,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-40",
@@ -1130,7 +1170,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-41",
@@ -1158,7 +1199,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-42",
@@ -1186,7 +1228,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-43",
@@ -1214,7 +1257,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-44",
@@ -1242,7 +1286,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-45",
@@ -1270,7 +1315,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-46",
@@ -1298,7 +1344,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-47",
@@ -1326,7 +1373,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-48",
@@ -1354,7 +1402,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-49",
@@ -1382,7 +1431,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-50",
@@ -1410,7 +1460,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-51",
@@ -1438,7 +1489,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-52",
@@ -1466,7 +1518,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-53",
@@ -1494,7 +1547,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-54",
@@ -1522,7 +1576,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-55",
@@ -1550,7 +1605,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-56",
@@ -1578,7 +1634,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-57",
@@ -1606,7 +1663,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-58",
@@ -1634,7 +1692,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-59",
@@ -1662,7 +1721,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-60",
@@ -1690,7 +1750,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-61",
@@ -1718,7 +1779,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-62",
@@ -1746,7 +1808,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-63",
@@ -1774,7 +1837,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-64",
@@ -1802,7 +1866,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-65",
@@ -1830,7 +1895,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-66",
@@ -1858,7 +1924,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-67",
@@ -1886,7 +1953,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-68",
@@ -1914,7 +1982,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-69",
@@ -1942,7 +2011,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-70",
@@ -1970,7 +2040,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-71",
@@ -1998,7 +2069,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-72",
@@ -2026,7 +2098,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-73",
@@ -2054,7 +2127,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-74",
@@ -2082,7 +2156,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-75",
@@ -2110,7 +2185,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-76",
@@ -2138,7 +2214,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-77",
@@ -2166,7 +2243,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-78",
@@ -2194,7 +2272,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-79",
@@ -2222,7 +2301,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-80",
@@ -2250,7 +2330,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-81",
@@ -2278,7 +2359,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-82",
@@ -2306,7 +2388,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-83",
@@ -2334,7 +2417,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-84",
@@ -2362,7 +2446,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-85",
@@ -2390,7 +2475,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-86",
@@ -2418,7 +2504,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-87",
@@ -2446,7 +2533,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-88",
@@ -2474,7 +2562,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-89",
@@ -2502,7 +2591,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-90",
@@ -2530,7 +2620,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-91",
@@ -2558,7 +2649,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-92",
@@ -2586,7 +2678,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-93",
@@ -2614,7 +2707,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-94",
@@ -2642,7 +2736,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-95",
@@ -2670,7 +2765,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-96",
@@ -2698,7 +2794,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-97",
@@ -2726,7 +2823,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-98",
@@ -2754,7 +2852,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-99",
@@ -2782,7 +2881,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-100",
@@ -2810,7 +2910,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-101",
@@ -2838,7 +2939,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-102",
@@ -2866,7 +2968,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-103",
@@ -2894,7 +2997,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-104",
@@ -2922,7 +3026,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-105",
@@ -2950,7 +3055,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-106",
@@ -2978,7 +3084,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-107",
@@ -3006,7 +3113,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-108",
@@ -3034,7 +3142,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-109",
@@ -3062,7 +3171,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-110",
@@ -3090,7 +3200,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-111",
@@ -3118,7 +3229,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-112",
@@ -3146,7 +3258,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-113",
@@ -3174,7 +3287,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-114",
@@ -3202,7 +3316,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-115",
@@ -3230,7 +3345,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-116",
@@ -3258,7 +3374,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-117",
@@ -3286,7 +3403,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-118",
@@ -3314,7 +3432,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-119",
@@ -3342,7 +3461,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-120",
@@ -3370,7 +3490,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-121",
@@ -3398,7 +3519,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-122",
@@ -3426,7 +3548,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-123",
@@ -3454,7 +3577,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-124",
@@ -3482,7 +3606,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-125",
@@ -3510,7 +3635,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-126",
@@ -3538,7 +3664,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-127",
@@ -3566,7 +3693,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-128",
@@ -3594,7 +3722,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-129",
@@ -3622,7 +3751,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-130",
@@ -3650,7 +3780,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-131",
@@ -3678,7 +3809,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-132",
@@ -3706,7 +3838,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-133",
@@ -3734,7 +3867,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-134",
@@ -3762,7 +3896,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-135",
@@ -3790,7 +3925,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-136",
@@ -3818,7 +3954,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-137",
@@ -3846,7 +3983,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-138",
@@ -3874,7 +4012,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-139",
@@ -3902,7 +4041,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-140",
@@ -3930,7 +4070,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-141",
@@ -3958,7 +4099,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-142",
@@ -3986,7 +4128,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-143",
@@ -4014,7 +4157,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-144",
@@ -4042,7 +4186,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-145",
@@ -4070,7 +4215,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-146",
@@ -4098,7 +4244,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-147",
@@ -4126,7 +4273,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-148",
@@ -4154,7 +4302,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-149",
@@ -4182,7 +4331,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-150",
@@ -4210,7 +4360,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-151",
@@ -4238,7 +4389,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-152",
@@ -4266,7 +4418,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-153",
@@ -4294,7 +4447,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-154",
@@ -4322,7 +4476,8 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "bristol-155",
@@ -4350,42 +4505,995 @@ export const bristolCourses: BristolCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Bristol",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
-  {"id":"bristol-156","name":"BSc Pharmacology with Study in Industry (B211)","slug":"bristol-ug-bsc-pharmacology-with-study-in-industry-b211","url":"https://www.bristol.ac.uk/study/undergraduate/2027/pharmacology/bsc-pharmacology-with-study-in-industry/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-157","name":"BSc Applied Anatomy (B112)","slug":"bristol-ug-bsc-applied-anatomy-b112","url":"https://www.bristol.ac.uk/study/undergraduate/2027/anatomy/bsc-applied-anatomy/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-158","name":"BSc Data Science (G1G5)","slug":"bristol-ug-bsc-data-science-g1g5","url":"https://www.bristol.ac.uk/study/undergraduate/2027/maths/bsc-data-science/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-159","name":"BSc Economics with Study Abroad in a Modern Language (L101)","slug":"bristol-ug-bsc-economics-with-study-abroad-in-a-modern-language-l101","url":"https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-with-study-abroad-in-a-modern-language/","level":"BSc","studyLevel":"Undergraduate","duration":"5 months","durationYears":0.42,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-160","name":"BEng Mechanical and Electrical Engineering (H361)","slug":"bristol-ug-beng-mechanical-and-electrical-engineering-h361","url":"https://www.bristol.ac.uk/study/undergraduate/2027/electrical-electronic-engineering/beng-mechanical-and-electrical-engineering/","level":"BEng","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-161","name":"BA Religion and Theology with Study Abroad (V602)","slug":"bristol-ug-ba-religion-and-theology-with-study-abroad-v602","url":"https://www.bristol.ac.uk/study/undergraduate/2027/religion-theology/ba-religion-and-theology-with-study-abroad/","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-162","name":"BA English and Classical Studies (QQ38)","slug":"bristol-ug-ba-english-and-classical-studies-qq38","url":"https://www.bristol.ac.uk/study/undergraduate/2027/english/ba-english-and-classical-studies/","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-163","name":"BSc Neuroscience with Study in Industry","slug":"bristol-ug-bsc-neuroscience-with-study-in-industry","url":"https://www.bristol.ac.uk/study/undergraduate/2027/neuroscience/bsc-neuroscience-with-study-in-industry/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-164","name":"BSc Economics (L100)","slug":"bristol-ug-bsc-economics-l100","url":"https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics/","level":"BSc","studyLevel":"Undergraduate","duration":"5 months","durationYears":0.42,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-165","name":"LLB Law with Study Abroad","slug":"bristol-ug-llb-law-with-study-abroad","url":"https://www.bristol.ac.uk/study/undergraduate/2027/law/llb-law-with-study-abroad/","level":"LLB","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-166","name":"BA Modern Languages (R900)","slug":"bristol-ug-ba-modern-languages-r900","url":"https://www.bristol.ac.uk/study/undergraduate/2027/modern-languages/ba-modern-languages/","level":"BA","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-167","name":"BEng Mechanical and Electrical Engineering with a Year in Industry","slug":"bristol-ug-beng-mechanical-and-electrical-engineering-with-a-year-in-industry","url":"https://www.bristol.ac.uk/study/undergraduate/2027/electrical-electronic-engineering/beng-mechanical-and-electrical-engineering-with-a-year-in-industry/","level":"BEng","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-168","name":"BSc Biochemistry with Medical Biochemistry (C720)","slug":"bristol-ug-bsc-biochemistry-with-medical-biochemistry-c720","url":"https://www.bristol.ac.uk/study/undergraduate/2027/biochemistry/bsc-biochemistry-with-medical-biochemistry/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-169","name":"BSc Biochemistry (C700)","slug":"bristol-ug-bsc-biochemistry-c700","url":"https://www.bristol.ac.uk/study/undergraduate/2027/biochemistry/bsc-biochemistry/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-170","name":"BSc Medical Microbiology with Study in Industry","slug":"bristol-ug-bsc-medical-microbiology-with-study-in-industry","url":"https://www.bristol.ac.uk/study/undergraduate/2027/cellular-molecular/bsc-medical-microbiology-with-study-in-industry/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-171","name":"BSc Philosophy and Politics (VL52)","slug":"bristol-ug-bsc-philosophy-and-politics-vl52","url":"https://www.bristol.ac.uk/study/undergraduate/2027/philosophy/bsc-philosophy-and-politics/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-172","name":"BA Theatre and Film (4KDU)","slug":"bristol-ug-ba-theatre-and-film-4kdu","url":"https://www.bristol.ac.uk/study/undergraduate/2027/theatre/ba-theatre-and-film/","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-173","name":"BSc Economics and Finance with Study Abroad (LN15)","slug":"bristol-ug-bsc-economics-and-finance-with-study-abroad-ln15","url":"https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-and-finance-with-study-abroad/","level":"BSc","studyLevel":"Undergraduate","duration":"5 months","durationYears":0.42,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-174","name":"BSc Geography with Study Abroad (09F4)","slug":"bristol-ug-bsc-geography-with-study-abroad-09f4","url":"https://www.bristol.ac.uk/study/undergraduate/2027/geography/bsc-geography-with-study-abroad/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-175","name":"BA Film and Television (4M5N)","slug":"bristol-ug-ba-film-and-television-4m5n","url":"https://www.bristol.ac.uk/study/undergraduate/2027/film-television/ba-film-and-television/","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-176","name":"BSc Economics and Accounting (LN14)","slug":"bristol-ug-bsc-economics-and-accounting-ln14","url":"https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-economics-and-accounting/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-177","name":"BSc Social Policy with Criminology (LM49)","slug":"bristol-ug-bsc-social-policy-with-criminology-lm49","url":"https://www.bristol.ac.uk/study/undergraduate/2027/social-policy/bsc-social-policy-with-criminology/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-178","name":"BSc Politics and Sociology (LL23)","slug":"bristol-ug-bsc-politics-and-sociology-ll23","url":"https://www.bristol.ac.uk/study/undergraduate/2027/politics-international-relations/bsc-politics-and-sociology/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-179","name":"BEng Artificial Intelligence (G164)","slug":"bristol-ug-beng-artificial-intelligence-g164","url":"https://www.bristol.ac.uk/study/undergraduate/2027/artificial-intelligence/beng-artificial-intelligence/","level":"BEng","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-180","name":"BSc Physiological Science with Study in Industry","slug":"bristol-ug-bsc-physiological-science-with-study-in-industry","url":"https://www.bristol.ac.uk/study/undergraduate/2027/physiology/bsc-physiological-science-with-study-in-industry/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-181","name":"BSc Economics and Politics (LL12)","slug":"bristol-ug-bsc-economics-and-politics-ll12","url":"https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-and-politics/","level":"BSc","studyLevel":"Undergraduate","duration":"5 months","durationYears":0.42,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-182","name":"BA Theatre and Performance Studies (2Q3W)","slug":"bristol-ug-ba-theatre-and-performance-studies-2q3w","url":"https://www.bristol.ac.uk/study/undergraduate/2027/theatre/ba-theatre-and-performance-studies/","level":"BA","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-183","name":"BSc Marketing (N500)","slug":"bristol-ug-bsc-marketing-n500","url":"https://www.bristol.ac.uk/study/undergraduate/2027/marketing/bsc-marketing/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-184","name":"BSc Economics and Accounting with Study Abroad (LN16)","slug":"bristol-ug-bsc-economics-and-accounting-with-study-abroad-ln16","url":"https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-economics-and-accounting-with-study-abroad/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-185","name":"BSc Economics and Econometrics with Study Abroad (L142)","slug":"bristol-ug-bsc-economics-and-econometrics-with-study-abroad-l142","url":"https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-and-econometrics-with-study-abroad/","level":"BSc","studyLevel":"Undergraduate","duration":"5 months","durationYears":0.42,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-186","name":"BSc Accounting and Management with Professional Placement","slug":"bristol-ug-bsc-accounting-and-management-with-professional-placement","url":"https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-accounting-and-management-with-professional-placement/","level":"BSc","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-187","name":"BEng Engineering Mathematics with a Year in Industry","slug":"bristol-ug-beng-engineering-mathematics-with-a-year-in-industry","url":"https://www.bristol.ac.uk/study/undergraduate/2027/engineering-maths/beng-engineering-mathematics-with-a-year-in-industry/","level":"BEng","studyLevel":"Undergraduate","duration":"4 years","durationYears":4,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-188","name":"BA History (V100)","slug":"bristol-ug-ba-history-v100","url":"https://www.bristol.ac.uk/study/undergraduate/2027/history/ba-history/","level":"BA","studyLevel":"Undergraduate","duration":"0 years","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":7,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"},
-  {"id":"bristol-189","name":"BSc Geography (F800)","slug":"bristol-ug-bsc-geography-f800","url":"https://www.bristol.ac.uk/study/undergraduate/2027/geography/bsc-geography/","level":"BSc","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":6.5,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Clifton Campus","country":"United Kingdom","state":"England","city":"Bristol","countryCode":"GB"}
+  {
+    "id": "bristol-156",
+    "name": "BSc Pharmacology with Study in Industry (B211)",
+    "slug": "bristol-ug-bsc-pharmacology-with-study-in-industry-b211",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/pharmacology/bsc-pharmacology-with-study-in-industry/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-157",
+    "name": "BSc Applied Anatomy (B112)",
+    "slug": "bristol-ug-bsc-applied-anatomy-b112",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/anatomy/bsc-applied-anatomy/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-158",
+    "name": "BSc Data Science (G1G5)",
+    "slug": "bristol-ug-bsc-data-science-g1g5",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/maths/bsc-data-science/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-159",
+    "name": "BSc Economics with Study Abroad in a Modern Language (L101)",
+    "slug": "bristol-ug-bsc-economics-with-study-abroad-in-a-modern-language-l101",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-with-study-abroad-in-a-modern-language/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "5 months",
+    "durationYears": 0.42,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-160",
+    "name": "BEng Mechanical and Electrical Engineering (H361)",
+    "slug": "bristol-ug-beng-mechanical-and-electrical-engineering-h361",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/electrical-electronic-engineering/beng-mechanical-and-electrical-engineering/",
+    "level": "BEng",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-161",
+    "name": "BA Religion and Theology with Study Abroad (V602)",
+    "slug": "bristol-ug-ba-religion-and-theology-with-study-abroad-v602",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/religion-theology/ba-religion-and-theology-with-study-abroad/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-162",
+    "name": "BA English and Classical Studies (QQ38)",
+    "slug": "bristol-ug-ba-english-and-classical-studies-qq38",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/english/ba-english-and-classical-studies/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-163",
+    "name": "BSc Neuroscience with Study in Industry",
+    "slug": "bristol-ug-bsc-neuroscience-with-study-in-industry",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/neuroscience/bsc-neuroscience-with-study-in-industry/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-164",
+    "name": "BSc Economics (L100)",
+    "slug": "bristol-ug-bsc-economics-l100",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "5 months",
+    "durationYears": 0.42,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-165",
+    "name": "LLB Law with Study Abroad",
+    "slug": "bristol-ug-llb-law-with-study-abroad",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/law/llb-law-with-study-abroad/",
+    "level": "LLB",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-166",
+    "name": "BA Modern Languages (R900)",
+    "slug": "bristol-ug-ba-modern-languages-r900",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/modern-languages/ba-modern-languages/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-167",
+    "name": "BEng Mechanical and Electrical Engineering with a Year in Industry",
+    "slug": "bristol-ug-beng-mechanical-and-electrical-engineering-with-a-year-in-industry",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/electrical-electronic-engineering/beng-mechanical-and-electrical-engineering-with-a-year-in-industry/",
+    "level": "BEng",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-168",
+    "name": "BSc Biochemistry with Medical Biochemistry (C720)",
+    "slug": "bristol-ug-bsc-biochemistry-with-medical-biochemistry-c720",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/biochemistry/bsc-biochemistry-with-medical-biochemistry/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-169",
+    "name": "BSc Biochemistry (C700)",
+    "slug": "bristol-ug-bsc-biochemistry-c700",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/biochemistry/bsc-biochemistry/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-170",
+    "name": "BSc Medical Microbiology with Study in Industry",
+    "slug": "bristol-ug-bsc-medical-microbiology-with-study-in-industry",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/cellular-molecular/bsc-medical-microbiology-with-study-in-industry/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-171",
+    "name": "BSc Philosophy and Politics (VL52)",
+    "slug": "bristol-ug-bsc-philosophy-and-politics-vl52",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/philosophy/bsc-philosophy-and-politics/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-172",
+    "name": "BA Theatre and Film (4KDU)",
+    "slug": "bristol-ug-ba-theatre-and-film-4kdu",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/theatre/ba-theatre-and-film/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-173",
+    "name": "BSc Economics and Finance with Study Abroad (LN15)",
+    "slug": "bristol-ug-bsc-economics-and-finance-with-study-abroad-ln15",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-and-finance-with-study-abroad/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "5 months",
+    "durationYears": 0.42,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-174",
+    "name": "BSc Geography with Study Abroad (09F4)",
+    "slug": "bristol-ug-bsc-geography-with-study-abroad-09f4",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/geography/bsc-geography-with-study-abroad/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-175",
+    "name": "BA Film and Television (4M5N)",
+    "slug": "bristol-ug-ba-film-and-television-4m5n",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/film-television/ba-film-and-television/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-176",
+    "name": "BSc Economics and Accounting (LN14)",
+    "slug": "bristol-ug-bsc-economics-and-accounting-ln14",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-economics-and-accounting/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-177",
+    "name": "BSc Social Policy with Criminology (LM49)",
+    "slug": "bristol-ug-bsc-social-policy-with-criminology-lm49",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/social-policy/bsc-social-policy-with-criminology/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-178",
+    "name": "BSc Politics and Sociology (LL23)",
+    "slug": "bristol-ug-bsc-politics-and-sociology-ll23",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/politics-international-relations/bsc-politics-and-sociology/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-179",
+    "name": "BEng Artificial Intelligence (G164)",
+    "slug": "bristol-ug-beng-artificial-intelligence-g164",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/artificial-intelligence/beng-artificial-intelligence/",
+    "level": "BEng",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-180",
+    "name": "BSc Physiological Science with Study in Industry",
+    "slug": "bristol-ug-bsc-physiological-science-with-study-in-industry",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/physiology/bsc-physiological-science-with-study-in-industry/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-181",
+    "name": "BSc Economics and Politics (LL12)",
+    "slug": "bristol-ug-bsc-economics-and-politics-ll12",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-and-politics/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "5 months",
+    "durationYears": 0.42,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-182",
+    "name": "BA Theatre and Performance Studies (2Q3W)",
+    "slug": "bristol-ug-ba-theatre-and-performance-studies-2q3w",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/theatre/ba-theatre-and-performance-studies/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-183",
+    "name": "BSc Marketing (N500)",
+    "slug": "bristol-ug-bsc-marketing-n500",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/marketing/bsc-marketing/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-184",
+    "name": "BSc Economics and Accounting with Study Abroad (LN16)",
+    "slug": "bristol-ug-bsc-economics-and-accounting-with-study-abroad-ln16",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-economics-and-accounting-with-study-abroad/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-185",
+    "name": "BSc Economics and Econometrics with Study Abroad (L142)",
+    "slug": "bristol-ug-bsc-economics-and-econometrics-with-study-abroad-l142",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/economics/bsc-economics-and-econometrics-with-study-abroad/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "5 months",
+    "durationYears": 0.42,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-186",
+    "name": "BSc Accounting and Management with Professional Placement",
+    "slug": "bristol-ug-bsc-accounting-and-management-with-professional-placement",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/accounting-finance/bsc-accounting-and-management-with-professional-placement/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-187",
+    "name": "BEng Engineering Mathematics with a Year in Industry",
+    "slug": "bristol-ug-beng-engineering-mathematics-with-a-year-in-industry",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/engineering-maths/beng-engineering-mathematics-with-a-year-in-industry/",
+    "level": "BEng",
+    "studyLevel": "Undergraduate",
+    "duration": "4 years",
+    "durationYears": 4,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-188",
+    "name": "BA History (V100)",
+    "slug": "bristol-ug-ba-history-v100",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/history/ba-history/",
+    "level": "BA",
+    "studyLevel": "Undergraduate",
+    "duration": "0 years",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 7,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  },
+  {
+    "id": "bristol-189",
+    "name": "BSc Geography (F800)",
+    "slug": "bristol-ug-bsc-geography-f800",
+    "url": "https://www.bristol.ac.uk/study/undergraduate/2027/geography/bsc-geography/",
+    "level": "BSc",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 6.5,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Clifton Campus",
+    "country": "United Kingdom",
+    "state": "England",
+    "city": "Bristol",
+    "countryCode": "GB",
+    "feeVerified": false
+  }
 ];
 
 export function getBristolCourseBySlug(slug: string): BristolCourse | undefined {

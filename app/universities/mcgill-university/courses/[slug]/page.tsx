@@ -9,6 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'mcgill-university';
 export async function generateStaticParams() {
@@ -78,8 +79,8 @@ export default async function CoursePage(
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (CAD)', value: `$${course.annualCAD.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') },
+                  { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
@@ -107,8 +108,8 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
-                { label: 'Annual Tuition (CAD)', value: `$${course.annualCAD.toLocaleString()}` },
-                { label: 'Annual Tuition (USD)', value: `$${course.annualUSD.toLocaleString()}` },
+                { label: 'Annual Tuition (CAD)', value: feeDisplay(course as any, course.annualCAD, 'CAD') },
+                { label: 'Annual Tuition (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
                 { label: 'Total Course Fee', value: `$${course.totalCAD.toLocaleString()} CAD` },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">

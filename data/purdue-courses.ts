@@ -2,6 +2,7 @@
 // Generated from: https://www.purdue.edu/online/programs-of-study/
 
 export interface PurdueCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -39,7 +40,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-2",
@@ -68,7 +70,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-3",
@@ -97,7 +100,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-4",
@@ -126,7 +130,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-5",
@@ -155,7 +160,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-6",
@@ -184,7 +190,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-7",
@@ -213,7 +220,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-8",
@@ -242,7 +250,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-9",
@@ -271,7 +280,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-10",
@@ -300,7 +310,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-11",
@@ -329,7 +340,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-12",
@@ -358,7 +370,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-13",
@@ -387,7 +400,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-14",
@@ -416,7 +430,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-15",
@@ -445,7 +460,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-16",
@@ -474,7 +490,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-17",
@@ -503,7 +520,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-18",
@@ -532,7 +550,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-19",
@@ -561,7 +580,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-20",
@@ -590,7 +610,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-21",
@@ -619,7 +640,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-22",
@@ -648,7 +670,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-23",
@@ -677,7 +700,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-24",
@@ -706,7 +730,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-25",
@@ -735,7 +760,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-26",
@@ -764,7 +790,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-27",
@@ -793,7 +820,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-28",
@@ -822,7 +850,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-29",
@@ -851,7 +880,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-30",
@@ -880,7 +910,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-31",
@@ -909,7 +940,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-32",
@@ -938,7 +970,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-33",
@@ -967,7 +1000,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-34",
@@ -996,7 +1030,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-35",
@@ -1025,7 +1060,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-36",
@@ -1054,7 +1090,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-37",
@@ -1083,7 +1120,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-38",
@@ -1112,7 +1150,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-39",
@@ -1141,7 +1180,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-40",
@@ -1170,7 +1210,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-41",
@@ -1199,7 +1240,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-42",
@@ -1228,7 +1270,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-43",
@@ -1257,7 +1300,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-44",
@@ -1286,7 +1330,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-45",
@@ -1315,7 +1360,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-46",
@@ -1344,7 +1390,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-47",
@@ -1373,7 +1420,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-48",
@@ -1402,7 +1450,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-49",
@@ -1431,7 +1480,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-50",
@@ -1460,7 +1510,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-51",
@@ -1489,7 +1540,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-52",
@@ -1518,7 +1570,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-53",
@@ -1547,7 +1600,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-54",
@@ -1576,7 +1630,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-55",
@@ -1605,7 +1660,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-56",
@@ -1634,7 +1690,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-57",
@@ -1663,7 +1720,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-58",
@@ -1692,7 +1750,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-59",
@@ -1721,7 +1780,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-60",
@@ -1750,7 +1810,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-61",
@@ -1779,7 +1840,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-62",
@@ -1808,7 +1870,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-63",
@@ -1837,7 +1900,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-64",
@@ -1866,7 +1930,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-65",
@@ -1895,7 +1960,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-66",
@@ -1924,7 +1990,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-67",
@@ -1953,7 +2020,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-68",
@@ -1982,7 +2050,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-69",
@@ -2011,7 +2080,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-70",
@@ -2040,7 +2110,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-71",
@@ -2069,7 +2140,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-72",
@@ -2098,7 +2170,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-73",
@@ -2127,7 +2200,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   },
   {
     "id": "purdue-74",
@@ -2156,7 +2230,8 @@ export const purdueCourses: PurdueCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "West Lafayette",
-    "state": "Indiana"
+    "state": "Indiana",
+    "feeVerified": false
   }
 ];
 

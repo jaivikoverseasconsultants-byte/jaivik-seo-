@@ -1,6 +1,7 @@
 // Real course data for Northeastern University — 84 graduate programs
 // Generated from: https://catalog.northeastern.edu/sitemap.xml
 export interface NortheasternCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-2",
@@ -67,7 +69,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-3",
@@ -96,7 +99,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-4",
@@ -125,7 +129,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-5",
@@ -154,7 +159,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-6",
@@ -183,7 +189,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-7",
@@ -212,7 +219,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-8",
@@ -241,7 +249,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-9",
@@ -270,7 +279,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-10",
@@ -299,7 +309,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-11",
@@ -328,7 +339,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-12",
@@ -357,7 +369,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-13",
@@ -386,7 +399,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-14",
@@ -415,7 +429,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-15",
@@ -444,7 +459,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-16",
@@ -473,7 +489,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-17",
@@ -502,7 +519,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-18",
@@ -531,7 +549,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-19",
@@ -560,7 +579,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-20",
@@ -589,7 +609,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-21",
@@ -618,7 +639,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-22",
@@ -647,7 +669,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-23",
@@ -676,7 +699,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-24",
@@ -705,7 +729,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-25",
@@ -734,7 +759,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-26",
@@ -763,7 +789,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-27",
@@ -792,7 +819,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-28",
@@ -821,7 +849,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-29",
@@ -850,7 +879,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-30",
@@ -879,7 +909,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-31",
@@ -908,7 +939,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-32",
@@ -937,7 +969,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-33",
@@ -966,7 +999,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-34",
@@ -995,7 +1029,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-35",
@@ -1024,7 +1059,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-36",
@@ -1053,7 +1089,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-37",
@@ -1082,7 +1119,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-38",
@@ -1111,7 +1149,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-39",
@@ -1140,7 +1179,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-40",
@@ -1169,7 +1209,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-41",
@@ -1198,7 +1239,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-42",
@@ -1227,7 +1269,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-43",
@@ -1256,7 +1299,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-44",
@@ -1285,7 +1329,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-45",
@@ -1314,7 +1359,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-46",
@@ -1343,7 +1389,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-47",
@@ -1372,7 +1419,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-48",
@@ -1401,7 +1449,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-49",
@@ -1430,7 +1479,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-50",
@@ -1459,7 +1509,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-51",
@@ -1488,7 +1539,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-52",
@@ -1517,7 +1569,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-53",
@@ -1546,7 +1599,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-54",
@@ -1575,7 +1629,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-55",
@@ -1604,7 +1659,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-56",
@@ -1633,7 +1689,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-57",
@@ -1662,7 +1719,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-58",
@@ -1691,7 +1749,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-59",
@@ -1720,7 +1779,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-60",
@@ -1749,7 +1809,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-61",
@@ -1778,7 +1839,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-62",
@@ -1807,7 +1869,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-63",
@@ -1836,7 +1899,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-64",
@@ -1865,7 +1929,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-65",
@@ -1894,7 +1959,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-66",
@@ -1923,7 +1989,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-67",
@@ -1952,7 +2019,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-68",
@@ -1981,7 +2049,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-69",
@@ -2010,7 +2079,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-70",
@@ -2039,7 +2109,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-71",
@@ -2068,7 +2139,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-72",
@@ -2097,7 +2169,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-73",
@@ -2126,7 +2199,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-74",
@@ -2155,7 +2229,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-75",
@@ -2184,7 +2259,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-76",
@@ -2213,7 +2289,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-77",
@@ -2242,7 +2319,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-78",
@@ -2271,7 +2349,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-79",
@@ -2300,7 +2379,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-80",
@@ -2329,7 +2409,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-81",
@@ -2358,7 +2439,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-82",
@@ -2387,7 +2469,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-83",
@@ -2416,7 +2499,8 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
   {
     "id": "ne-84",
@@ -2445,64 +2529,1689 @@ export const northeasternCourses: NortheasternCourse[] = [
     "country": "United States",
     "countryCode": "US",
     "city": "Boston",
-    "state": "Massachusetts"
+    "state": "Massachusetts",
+    "feeVerified": false
   },
-  {"id":"ne-85","name":"Accelerated Bachelor/Graduate Degree Programs","slug":"ne-ug-accelerated-bachelorgraduate-degree-programs","url":"https://catalog.northeastern.edu/professional-studies/accelerated-bachelor-graduate-degree-programs/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-86","name":"Finance and Accounting Management, BS (Boston)","slug":"ne-ug-finance-and-accounting-management-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/finance-accounting-management/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-87","name":"Bachelor of Science Degree Programs","slug":"ne-ug-bachelor-of-science-degree-programs","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/","level":"Bachelor of Science Degree Programs","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-88","name":"Interdisciplinary Studies, BS (Boston)","slug":"ne-ug-interdisciplinary-studies-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/interdisciplinary-studies/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-89","name":"Advanced Manufacturing Systems, BS (Boston)","slug":"ne-ug-advanced-manufacturing-systems-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/advanced-manufacturing-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-90","name":"Analytics, BS (Boston)","slug":"ne-ug-analytics-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/analytics-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-91","name":"Biological Science, BS (Boston)","slug":"ne-ug-biological-science-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/biological-science-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-92","name":"Biotechnology, BS (Boston)","slug":"ne-ug-biotechnology-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/biotechnology-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-93","name":"Digital Communication and Media, BS (Boston)","slug":"ne-ug-digital-communication-and-media-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/digital-communication-media-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-94","name":"Health Science, BS (Boston)","slug":"ne-ug-health-science-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/health-science-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-95","name":"Healthcare Administration, BS (Boston)","slug":"ne-ug-healthcare-administration-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/healthcare-administration-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-96","name":"Bachelor's and Postbaccalaureate Programs, Lowell Institute School","slug":"ne-ug-bachelors-and-postbaccalaureate-programs-lowell-institute-school","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-97","name":"Information Technology, BS (Boston)","slug":"ne-ug-information-technology-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/information-technology-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-98","name":"Project Management, BS (Boston)","slug":"ne-ug-project-management-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/project-management-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-99","name":"Psychology, BS (Boston)","slug":"ne-ug-psychology-bs-boston","url":"https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/psychology-bs/","level":"BS","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-100","name":"Admission Requirements for Undergraduate Degrees and Certificates","slug":"ne-ug-admission-requirements-for-undergraduate-degrees-and-certificates","url":"https://catalog.northeastern.edu/professional-studies/general-admission-transfer-credit/requirements-undergraduate-degrees-certificates/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-101","name":"Advanced Accounting, Undergraduate Certificate (Boston)","slug":"ne-ug-advanced-accounting-undergraduate-certificate-boston","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/advanced-accounting/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-102","name":"Healthcare Administration, Undergraduate Certificate (Boston)","slug":"ne-ug-healthcare-administration-undergraduate-certificate-boston","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/healthcare-administration/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-103","name":"Undergraduate Certificate Programs","slug":"ne-ug-undergraduate-certificate-programs","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-104","name":"Premedical Studies, Postbaccalaureate Undergraduate Certificate (Boston)","slug":"ne-ug-premedical-studies-postbaccalaureate-undergraduate-certificate-boston","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/pre-medical-studies/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-105","name":"Principles of Manufacturing, Undergraduate Certificate (Boston)","slug":"ne-ug-principles-of-manufacturing-undergraduate-certificate-boston","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/principles-manufacturing/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-106","name":"Project Management, Undergraduate Certificate (Boston)","slug":"ne-ug-project-management-undergraduate-certificate-boston","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/project-management/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-107","name":"Creative Writing, Minor","slug":"ne-ug-creative-writing-minor","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-minors/creative-writing/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-108","name":"Healthcare Administration, Minor","slug":"ne-ug-healthcare-administration-minor","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-minors/healthcare-administration-minor/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-109","name":"Undergraduate Minors","slug":"ne-ug-undergraduate-minors","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-minors/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-110","name":"Information Technology, Minor","slug":"ne-ug-information-technology-minor","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-minors/information-technology/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-111","name":"Organizational Communication, Minor","slug":"ne-ug-organizational-communication-minor","url":"https://catalog.northeastern.edu/professional-studies/undergraduate-minors/organizational-communication/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-112","name":"Academic Appeals Policies and Procedures","slug":"ne-ug-academic-appeals-policies-and-procedures","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/academic-appeals-policies-procedures/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-113","name":"Academic Consequences for Violating the University Academic Integrity Policy","slug":"ne-ug-academic-consequences-for-violating-the-university-academic-integrity-policy","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/academic-consequences-violating-academic-integrity-policy/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-114","name":"Accommodations for Students with Disabilities","slug":"ne-ug-accommodations-for-students-with-disabilities","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/accommodations-students-with-disabilities/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-115","name":"Attendance Requirements","slug":"ne-ug-attendance-requirements","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/attendance-requirements/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-116","name":"Campus Transfer and Campus Location Change","slug":"ne-ug-campus-transfer-and-campus-location-change","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/campus-transfer-location-change/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-117","name":"Clearing an Academic Deficiency","slug":"ne-ug-clearing-an-academic-deficiency","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/clearing-academic-deficiency/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-118","name":"Cooperative Education","slug":"ne-ug-cooperative-education","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/cooperative-education/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-119","name":"Course Credit Guidelines","slug":"ne-ug-course-credit-guidelines","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-credit-guidelines/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-120","name":"Course Numbering System","slug":"ne-ug-course-numbering-system","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-numbering/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-121","name":"Course Substitutions","slug":"ne-ug-course-substitutions","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-substitutions/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-122","name":"Course Withdrawal","slug":"ne-ug-course-withdrawal","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-withdrawal/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-123","name":"Degrees, Majors, and Minors","slug":"ne-ug-degrees-majors-and-minors","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/degrees-majors-minors/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-124","name":"Dropping a Class","slug":"ne-ug-dropping-a-class","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/drop-class/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-125","name":"Final Examinations and Related Policies on Other Exams and Final Term Papers/Projects","slug":"ne-ug-final-examinations-and-related-policies-on-other-exams-and-final-term-papersprojects","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/final-examinations-related-policies-final-papers-projects/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-126","name":"Grade Change Policy","slug":"ne-ug-grade-change-policy","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/grade-change-policy/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"2 months","durationYears":0.17,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-127","name":"Graduation Requirements","slug":"ne-ug-graduation-requirements","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/graduation-requirements/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-128","name":"Requesting and Clearing An Incomplete Grade","slug":"ne-ug-requesting-and-clearing-an-incomplete-grade","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/incomplete-grade-policy/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-129","name":"Academic Policies and Procedures","slug":"ne-ug-academic-policies-and-procedures","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-130","name":"Instructional Methods","slug":"ne-ug-instructional-methods","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/instructional-methods/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-131","name":"Leaves of Absence and University Withdrawal","slug":"ne-ug-leaves-of-absence-and-university-withdrawal","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/leaves-of-absence-withdrawal/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-132","name":"Personal Information","slug":"ne-ug-personal-information","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/personal-information/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-133","name":"Academic Progression Standards","slug":"ne-ug-academic-progression-standards","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/progression-standards/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-134","name":"Registration and Taking Courses","slug":"ne-ug-registration-and-taking-courses","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/registration-taking-courses/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-135","name":"Residency Requirement","slug":"ne-ug-residency-requirement","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/residency-requirement/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-136","name":"Retaking Courses","slug":"ne-ug-retaking-courses","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/retaking-courses/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-137","name":"Student Evaluation of Courses (TRACE)","slug":"ne-ug-student-evaluation-of-courses-trace","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-evaluation-of-courses-trace/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-138","name":"Student Responsibility Statement","slug":"ne-ug-student-responsibility-statement","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-responsibility-statement/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-139","name":"Student Right-to-Know Act","slug":"ne-ug-student-right-to-know-act","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-right-to-know-act/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"},
-  {"id":"ne-140","name":"Student Time Status","slug":"ne-ug-student-time-status","url":"https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-time-status/","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualGBP":0,"annualUSD":0,"annualINR":0,"totalGBP":0,"livingCostGBP":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September","January"],"campus":"Boston Campus","country":"United States","state":"Massachusetts","city":"Boston","countryCode":"US"}
+  {
+    "id": "ne-85",
+    "name": "Accelerated Bachelor/Graduate Degree Programs",
+    "slug": "ne-ug-accelerated-bachelorgraduate-degree-programs",
+    "url": "https://catalog.northeastern.edu/professional-studies/accelerated-bachelor-graduate-degree-programs/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-86",
+    "name": "Finance and Accounting Management, BS (Boston)",
+    "slug": "ne-ug-finance-and-accounting-management-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/finance-accounting-management/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-87",
+    "name": "Bachelor of Science Degree Programs",
+    "slug": "ne-ug-bachelor-of-science-degree-programs",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/",
+    "level": "Bachelor of Science Degree Programs",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-88",
+    "name": "Interdisciplinary Studies, BS (Boston)",
+    "slug": "ne-ug-interdisciplinary-studies-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/interdisciplinary-studies/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-89",
+    "name": "Advanced Manufacturing Systems, BS (Boston)",
+    "slug": "ne-ug-advanced-manufacturing-systems-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/advanced-manufacturing-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-90",
+    "name": "Analytics, BS (Boston)",
+    "slug": "ne-ug-analytics-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/analytics-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-91",
+    "name": "Biological Science, BS (Boston)",
+    "slug": "ne-ug-biological-science-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/biological-science-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-92",
+    "name": "Biotechnology, BS (Boston)",
+    "slug": "ne-ug-biotechnology-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/biotechnology-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-93",
+    "name": "Digital Communication and Media, BS (Boston)",
+    "slug": "ne-ug-digital-communication-and-media-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/digital-communication-media-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-94",
+    "name": "Health Science, BS (Boston)",
+    "slug": "ne-ug-health-science-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/health-science-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-95",
+    "name": "Healthcare Administration, BS (Boston)",
+    "slug": "ne-ug-healthcare-administration-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/healthcare-administration-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-96",
+    "name": "Bachelor's and Postbaccalaureate Programs, Lowell Institute School",
+    "slug": "ne-ug-bachelors-and-postbaccalaureate-programs-lowell-institute-school",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-97",
+    "name": "Information Technology, BS (Boston)",
+    "slug": "ne-ug-information-technology-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/information-technology-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-98",
+    "name": "Project Management, BS (Boston)",
+    "slug": "ne-ug-project-management-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/project-management-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-99",
+    "name": "Psychology, BS (Boston)",
+    "slug": "ne-ug-psychology-bs-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/bachelors-postbaccalaureate/lowell-institute-school/psychology-bs/",
+    "level": "BS",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-100",
+    "name": "Admission Requirements for Undergraduate Degrees and Certificates",
+    "slug": "ne-ug-admission-requirements-for-undergraduate-degrees-and-certificates",
+    "url": "https://catalog.northeastern.edu/professional-studies/general-admission-transfer-credit/requirements-undergraduate-degrees-certificates/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-101",
+    "name": "Advanced Accounting, Undergraduate Certificate (Boston)",
+    "slug": "ne-ug-advanced-accounting-undergraduate-certificate-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/advanced-accounting/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-102",
+    "name": "Healthcare Administration, Undergraduate Certificate (Boston)",
+    "slug": "ne-ug-healthcare-administration-undergraduate-certificate-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/healthcare-administration/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-103",
+    "name": "Undergraduate Certificate Programs",
+    "slug": "ne-ug-undergraduate-certificate-programs",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-104",
+    "name": "Premedical Studies, Postbaccalaureate Undergraduate Certificate (Boston)",
+    "slug": "ne-ug-premedical-studies-postbaccalaureate-undergraduate-certificate-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/pre-medical-studies/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-105",
+    "name": "Principles of Manufacturing, Undergraduate Certificate (Boston)",
+    "slug": "ne-ug-principles-of-manufacturing-undergraduate-certificate-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/principles-manufacturing/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-106",
+    "name": "Project Management, Undergraduate Certificate (Boston)",
+    "slug": "ne-ug-project-management-undergraduate-certificate-boston",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-certificate/project-management/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-107",
+    "name": "Creative Writing, Minor",
+    "slug": "ne-ug-creative-writing-minor",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-minors/creative-writing/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-108",
+    "name": "Healthcare Administration, Minor",
+    "slug": "ne-ug-healthcare-administration-minor",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-minors/healthcare-administration-minor/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-109",
+    "name": "Undergraduate Minors",
+    "slug": "ne-ug-undergraduate-minors",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-minors/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-110",
+    "name": "Information Technology, Minor",
+    "slug": "ne-ug-information-technology-minor",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-minors/information-technology/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-111",
+    "name": "Organizational Communication, Minor",
+    "slug": "ne-ug-organizational-communication-minor",
+    "url": "https://catalog.northeastern.edu/professional-studies/undergraduate-minors/organizational-communication/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-112",
+    "name": "Academic Appeals Policies and Procedures",
+    "slug": "ne-ug-academic-appeals-policies-and-procedures",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/academic-appeals-policies-procedures/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-113",
+    "name": "Academic Consequences for Violating the University Academic Integrity Policy",
+    "slug": "ne-ug-academic-consequences-for-violating-the-university-academic-integrity-policy",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/academic-consequences-violating-academic-integrity-policy/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-114",
+    "name": "Accommodations for Students with Disabilities",
+    "slug": "ne-ug-accommodations-for-students-with-disabilities",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/accommodations-students-with-disabilities/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-115",
+    "name": "Attendance Requirements",
+    "slug": "ne-ug-attendance-requirements",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/attendance-requirements/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-116",
+    "name": "Campus Transfer and Campus Location Change",
+    "slug": "ne-ug-campus-transfer-and-campus-location-change",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/campus-transfer-location-change/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-117",
+    "name": "Clearing an Academic Deficiency",
+    "slug": "ne-ug-clearing-an-academic-deficiency",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/clearing-academic-deficiency/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-118",
+    "name": "Cooperative Education",
+    "slug": "ne-ug-cooperative-education",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/cooperative-education/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-119",
+    "name": "Course Credit Guidelines",
+    "slug": "ne-ug-course-credit-guidelines",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-credit-guidelines/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-120",
+    "name": "Course Numbering System",
+    "slug": "ne-ug-course-numbering-system",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-numbering/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-121",
+    "name": "Course Substitutions",
+    "slug": "ne-ug-course-substitutions",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-substitutions/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-122",
+    "name": "Course Withdrawal",
+    "slug": "ne-ug-course-withdrawal",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/course-withdrawal/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-123",
+    "name": "Degrees, Majors, and Minors",
+    "slug": "ne-ug-degrees-majors-and-minors",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/degrees-majors-minors/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-124",
+    "name": "Dropping a Class",
+    "slug": "ne-ug-dropping-a-class",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/drop-class/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-125",
+    "name": "Final Examinations and Related Policies on Other Exams and Final Term Papers/Projects",
+    "slug": "ne-ug-final-examinations-and-related-policies-on-other-exams-and-final-term-papersprojects",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/final-examinations-related-policies-final-papers-projects/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-126",
+    "name": "Grade Change Policy",
+    "slug": "ne-ug-grade-change-policy",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/grade-change-policy/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "2 months",
+    "durationYears": 0.17,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-127",
+    "name": "Graduation Requirements",
+    "slug": "ne-ug-graduation-requirements",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/graduation-requirements/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-128",
+    "name": "Requesting and Clearing An Incomplete Grade",
+    "slug": "ne-ug-requesting-and-clearing-an-incomplete-grade",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/incomplete-grade-policy/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-129",
+    "name": "Academic Policies and Procedures",
+    "slug": "ne-ug-academic-policies-and-procedures",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-130",
+    "name": "Instructional Methods",
+    "slug": "ne-ug-instructional-methods",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/instructional-methods/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-131",
+    "name": "Leaves of Absence and University Withdrawal",
+    "slug": "ne-ug-leaves-of-absence-and-university-withdrawal",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/leaves-of-absence-withdrawal/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-132",
+    "name": "Personal Information",
+    "slug": "ne-ug-personal-information",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/personal-information/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-133",
+    "name": "Academic Progression Standards",
+    "slug": "ne-ug-academic-progression-standards",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/progression-standards/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-134",
+    "name": "Registration and Taking Courses",
+    "slug": "ne-ug-registration-and-taking-courses",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/registration-taking-courses/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-135",
+    "name": "Residency Requirement",
+    "slug": "ne-ug-residency-requirement",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/residency-requirement/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-136",
+    "name": "Retaking Courses",
+    "slug": "ne-ug-retaking-courses",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/retaking-courses/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-137",
+    "name": "Student Evaluation of Courses (TRACE)",
+    "slug": "ne-ug-student-evaluation-of-courses-trace",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-evaluation-of-courses-trace/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-138",
+    "name": "Student Responsibility Statement",
+    "slug": "ne-ug-student-responsibility-statement",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-responsibility-statement/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-139",
+    "name": "Student Right-to-Know Act",
+    "slug": "ne-ug-student-right-to-know-act",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-right-to-know-act/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  },
+  {
+    "id": "ne-140",
+    "name": "Student Time Status",
+    "slug": "ne-ug-student-time-status",
+    "url": "https://catalog.northeastern.edu/undergraduate/academic-policies-procedures/student-time-status/",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualGBP": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalGBP": 0,
+    "livingCostGBP": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September",
+      "January"
+    ],
+    "campus": "Boston Campus",
+    "country": "United States",
+    "state": "Massachusetts",
+    "city": "Boston",
+    "countryCode": "US",
+    "feeVerified": false
+  }
 ];
 
 export function getNortheasternCourseBySlug(slug: string): NortheasternCourse | undefined {

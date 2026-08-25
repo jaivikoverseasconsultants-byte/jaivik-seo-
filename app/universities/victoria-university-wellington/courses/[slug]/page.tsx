@@ -10,6 +10,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'victoria-university-wellington';
 export async function generateStaticParams() {
@@ -70,8 +71,8 @@ export default async function CoursePage(
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
-                  { label: 'Annual Fee (NZD)', value: `NZ$${course.annualNZD.toLocaleString()}` },
-                  { label: 'Fee in INR', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee (NZD)', value: feeDisplay(course as any, course.annualNZD, 'NZD') },
+                  { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   { label: 'IELTS Min', value: `${course.ieltsMin}+` },
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
@@ -99,8 +100,8 @@ export default async function CoursePage(
                 { label: 'Duration', value: course.duration + ' full-time' },
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
-                { label: 'Annual Fee (NZD)', value: `NZ$${course.annualNZD.toLocaleString()}` },
-                { label: 'Annual Fee (USD)', value: `$${course.annualUSD.toLocaleString()}` },
+                { label: 'Annual Fee (NZD)', value: feeDisplay(course as any, course.annualNZD, 'NZD') },
+                { label: 'Annual Fee (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
                 { label: 'Total Course Fee', value: `NZ$${course.totalNZD.toLocaleString()}` },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">

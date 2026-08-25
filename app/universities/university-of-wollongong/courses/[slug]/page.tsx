@@ -11,6 +11,7 @@ import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLab
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-of-wollongong';
 export function generateStaticParams() {
@@ -101,7 +102,7 @@ export default async function CoursePage(
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'campus') ? [{ label: 'Campus', value: course.campus }] : []),
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 { label: 'Annual Tuition (AUD)', value: annualFeeLabel(course) },
-                { label: 'Annual Tuition (USD)', value: hasExactFee(course) ? `$${course.annualUSD.toLocaleString()}` : 'On request' },
+                { label: 'Annual Tuition (USD)', value: hasExactFee(course) ? feeDisplay(course as any, course.annualUSD, 'USD') : 'On request' },
                 { label: 'Total Course Fee', value: totalFeeLabel(course) },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">

@@ -2,6 +2,7 @@
 // Generated via Puppeteer from: https://www.ncl.ac.uk/postgraduate/degrees/
 
 export interface NclCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -38,7 +39,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-2",
@@ -66,7 +68,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-3",
@@ -94,7 +97,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-4",
@@ -122,7 +126,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-5",
@@ -150,7 +155,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-6",
@@ -178,7 +184,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-7",
@@ -206,7 +213,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-8",
@@ -234,7 +242,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-9",
@@ -262,7 +271,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-10",
@@ -290,7 +300,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-11",
@@ -318,7 +329,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-12",
@@ -346,7 +358,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-13",
@@ -374,7 +387,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-14",
@@ -402,7 +416,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-15",
@@ -430,7 +445,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-16",
@@ -458,7 +474,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-17",
@@ -486,7 +503,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-18",
@@ -514,7 +532,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-19",
@@ -542,7 +561,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-20",
@@ -570,7 +590,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-21",
@@ -598,7 +619,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-22",
@@ -626,7 +648,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-23",
@@ -654,7 +677,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-24",
@@ -682,7 +706,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-25",
@@ -710,7 +735,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-26",
@@ -738,7 +764,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-27",
@@ -766,7 +793,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-28",
@@ -794,7 +822,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-29",
@@ -822,7 +851,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-30",
@@ -850,7 +880,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-31",
@@ -878,7 +909,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-32",
@@ -906,7 +938,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-33",
@@ -934,7 +967,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-34",
@@ -962,7 +996,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-35",
@@ -990,7 +1025,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-36",
@@ -1018,7 +1054,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-37",
@@ -1046,7 +1083,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-38",
@@ -1074,7 +1112,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-39",
@@ -1102,7 +1141,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-40",
@@ -1130,7 +1170,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-41",
@@ -1158,7 +1199,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-42",
@@ -1186,7 +1228,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-43",
@@ -1214,7 +1257,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-44",
@@ -1242,7 +1286,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-45",
@@ -1270,7 +1315,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-46",
@@ -1298,7 +1344,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-47",
@@ -1326,7 +1373,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-48",
@@ -1354,7 +1402,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-49",
@@ -1382,7 +1431,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-50",
@@ -1410,7 +1460,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-51",
@@ -1438,7 +1489,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-52",
@@ -1466,7 +1518,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-53",
@@ -1494,7 +1547,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-54",
@@ -1522,7 +1576,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-55",
@@ -1550,7 +1605,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-56",
@@ -1578,7 +1634,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-57",
@@ -1606,7 +1663,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-58",
@@ -1634,7 +1692,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-59",
@@ -1662,7 +1721,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-60",
@@ -1690,7 +1750,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-61",
@@ -1718,7 +1779,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-62",
@@ -1746,7 +1808,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-63",
@@ -1774,7 +1837,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-64",
@@ -1802,7 +1866,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-65",
@@ -1830,7 +1895,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-66",
@@ -1858,7 +1924,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-67",
@@ -1886,7 +1953,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-68",
@@ -1914,7 +1982,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-69",
@@ -1942,7 +2011,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-70",
@@ -1970,7 +2040,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-71",
@@ -1998,7 +2069,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-72",
@@ -2026,7 +2098,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-73",
@@ -2054,7 +2127,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-74",
@@ -2082,7 +2156,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-75",
@@ -2110,7 +2185,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-76",
@@ -2138,7 +2214,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-77",
@@ -2166,7 +2243,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-78",
@@ -2194,7 +2272,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-79",
@@ -2222,7 +2301,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-80",
@@ -2250,7 +2330,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-81",
@@ -2278,7 +2359,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-82",
@@ -2306,7 +2388,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-83",
@@ -2334,7 +2417,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-84",
@@ -2362,7 +2446,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-85",
@@ -2390,7 +2475,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-86",
@@ -2418,7 +2504,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-87",
@@ -2446,7 +2533,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-88",
@@ -2474,7 +2562,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-89",
@@ -2502,7 +2591,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-90",
@@ -2530,7 +2620,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-91",
@@ -2558,7 +2649,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-92",
@@ -2586,7 +2678,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-93",
@@ -2614,7 +2707,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-94",
@@ -2642,7 +2736,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-95",
@@ -2670,7 +2765,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-96",
@@ -2698,7 +2794,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-97",
@@ -2726,7 +2823,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-98",
@@ -2754,7 +2852,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-99",
@@ -2782,7 +2881,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-100",
@@ -2810,7 +2910,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-101",
@@ -2838,7 +2939,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-102",
@@ -2866,7 +2968,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-103",
@@ -2894,7 +2997,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-104",
@@ -2922,7 +3026,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-105",
@@ -2950,7 +3055,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-106",
@@ -2978,7 +3084,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-107",
@@ -3006,7 +3113,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-108",
@@ -3034,7 +3142,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-109",
@@ -3062,7 +3171,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-110",
@@ -3090,7 +3200,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-111",
@@ -3118,7 +3229,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-112",
@@ -3146,7 +3258,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-113",
@@ -3174,7 +3287,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-114",
@@ -3202,7 +3316,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-115",
@@ -3230,7 +3345,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-116",
@@ -3258,7 +3374,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-117",
@@ -3286,7 +3403,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-118",
@@ -3314,7 +3432,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-119",
@@ -3342,7 +3461,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-120",
@@ -3370,7 +3490,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-121",
@@ -3398,7 +3519,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-122",
@@ -3426,7 +3548,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-123",
@@ -3454,7 +3577,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-124",
@@ -3482,7 +3606,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-125",
@@ -3510,7 +3635,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-126",
@@ -3538,7 +3664,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-127",
@@ -3566,7 +3693,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-128",
@@ -3594,7 +3722,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-129",
@@ -3622,7 +3751,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-130",
@@ -3650,7 +3780,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-131",
@@ -3678,7 +3809,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-132",
@@ -3706,7 +3838,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-133",
@@ -3734,7 +3867,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-134",
@@ -3762,7 +3896,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-135",
@@ -3790,7 +3925,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-136",
@@ -3818,7 +3954,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-137",
@@ -3846,7 +3983,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-138",
@@ -3874,7 +4012,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-139",
@@ -3902,7 +4041,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-140",
@@ -3930,7 +4070,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-141",
@@ -3958,7 +4099,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-142",
@@ -3986,7 +4128,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-143",
@@ -4014,7 +4157,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-144",
@@ -4042,7 +4186,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-145",
@@ -4070,7 +4215,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-146",
@@ -4098,7 +4244,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-147",
@@ -4126,7 +4273,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-148",
@@ -4154,7 +4302,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-149",
@@ -4182,7 +4331,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-150",
@@ -4210,7 +4360,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-151",
@@ -4238,7 +4389,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-152",
@@ -4266,7 +4418,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-153",
@@ -4294,7 +4447,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-154",
@@ -4322,7 +4476,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-155",
@@ -4350,7 +4505,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-156",
@@ -4378,7 +4534,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-157",
@@ -4406,7 +4563,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-158",
@@ -4434,7 +4592,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-159",
@@ -4462,7 +4621,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-160",
@@ -4490,7 +4650,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-161",
@@ -4518,7 +4679,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-162",
@@ -4546,7 +4708,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-163",
@@ -4574,7 +4737,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-164",
@@ -4602,7 +4766,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-165",
@@ -4630,7 +4795,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-166",
@@ -4658,7 +4824,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-167",
@@ -4686,7 +4853,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-168",
@@ -4714,7 +4882,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-169",
@@ -4742,7 +4911,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-170",
@@ -4770,7 +4940,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-171",
@@ -4798,7 +4969,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-172",
@@ -4826,7 +4998,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-173",
@@ -4854,7 +5027,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-174",
@@ -4882,7 +5056,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-175",
@@ -4910,7 +5085,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-176",
@@ -4938,7 +5114,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-177",
@@ -4966,7 +5143,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-178",
@@ -4994,7 +5172,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-179",
@@ -5022,7 +5201,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-180",
@@ -5050,7 +5230,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-181",
@@ -5078,7 +5259,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-182",
@@ -5106,7 +5288,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-183",
@@ -5134,7 +5317,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-184",
@@ -5162,7 +5346,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-185",
@@ -5190,7 +5375,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-186",
@@ -5218,7 +5404,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-187",
@@ -5246,7 +5433,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-188",
@@ -5274,7 +5462,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-189",
@@ -5302,7 +5491,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-190",
@@ -5330,7 +5520,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-191",
@@ -5358,7 +5549,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-192",
@@ -5386,7 +5578,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-193",
@@ -5414,7 +5607,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-194",
@@ -5442,7 +5636,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-195",
@@ -5470,7 +5665,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-196",
@@ -5498,7 +5694,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-197",
@@ -5526,7 +5723,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-198",
@@ -5554,7 +5752,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-199",
@@ -5582,7 +5781,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-200",
@@ -5610,7 +5810,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-201",
@@ -5638,7 +5839,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-202",
@@ -5666,7 +5868,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-203",
@@ -5694,7 +5897,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-204",
@@ -5722,7 +5926,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-205",
@@ -5750,7 +5955,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-206",
@@ -5778,7 +5984,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-207",
@@ -5806,7 +6013,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-208",
@@ -5834,7 +6042,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-209",
@@ -5862,7 +6071,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-210",
@@ -5890,7 +6100,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-211",
@@ -5918,7 +6129,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-212",
@@ -5946,7 +6158,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-213",
@@ -5974,7 +6187,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-214",
@@ -6002,7 +6216,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-215",
@@ -6030,7 +6245,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-216",
@@ -6058,7 +6274,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-217",
@@ -6086,7 +6303,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-218",
@@ -6114,7 +6332,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-219",
@@ -6142,7 +6361,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-220",
@@ -6170,7 +6390,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-221",
@@ -6198,7 +6419,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-222",
@@ -6226,7 +6448,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-223",
@@ -6254,7 +6477,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-224",
@@ -6282,7 +6506,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-225",
@@ -6310,7 +6535,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-226",
@@ -6338,7 +6564,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-227",
@@ -6366,7 +6593,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "ncl-228",
@@ -6394,7 +6622,8 @@ export const nclCourses: NclCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "Newcastle upon Tyne",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   }
 ];
 

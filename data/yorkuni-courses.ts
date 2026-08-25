@@ -2,6 +2,7 @@
 // Generated via Puppeteer from: https://www.york.ac.uk/study/postgraduate-taught/courses/
 
 export interface YorkuniCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -39,7 +40,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-2",
@@ -68,7 +70,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-3",
@@ -97,7 +100,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-4",
@@ -126,7 +130,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-5",
@@ -155,7 +160,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-6",
@@ -184,7 +190,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-7",
@@ -213,7 +220,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-8",
@@ -242,7 +250,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-9",
@@ -271,7 +280,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-10",
@@ -300,7 +310,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-11",
@@ -329,7 +340,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-12",
@@ -358,7 +370,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-13",
@@ -387,7 +400,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-14",
@@ -416,7 +430,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-15",
@@ -445,7 +460,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-16",
@@ -474,7 +490,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-17",
@@ -503,7 +520,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-18",
@@ -532,7 +550,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-19",
@@ -561,7 +580,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-20",
@@ -590,7 +610,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-21",
@@ -619,7 +640,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-22",
@@ -648,7 +670,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-23",
@@ -677,7 +700,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-24",
@@ -706,7 +730,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-25",
@@ -735,7 +760,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-26",
@@ -764,7 +790,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-27",
@@ -793,7 +820,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-28",
@@ -822,7 +850,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-29",
@@ -851,7 +880,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-30",
@@ -880,7 +910,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-31",
@@ -909,7 +940,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-32",
@@ -938,7 +970,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-33",
@@ -967,7 +1000,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-34",
@@ -996,7 +1030,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-35",
@@ -1025,7 +1060,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-36",
@@ -1054,7 +1090,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-37",
@@ -1083,7 +1120,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-38",
@@ -1112,7 +1150,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-39",
@@ -1141,7 +1180,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-40",
@@ -1170,7 +1210,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-41",
@@ -1199,7 +1240,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-42",
@@ -1228,7 +1270,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-43",
@@ -1257,7 +1300,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-44",
@@ -1286,7 +1330,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-45",
@@ -1315,7 +1360,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-46",
@@ -1344,7 +1390,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-47",
@@ -1373,7 +1420,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-48",
@@ -1402,7 +1450,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-49",
@@ -1431,7 +1480,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-50",
@@ -1460,7 +1510,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-51",
@@ -1489,7 +1540,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-52",
@@ -1518,7 +1570,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-53",
@@ -1547,7 +1600,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-54",
@@ -1576,7 +1630,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-55",
@@ -1605,7 +1660,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-56",
@@ -1634,7 +1690,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-57",
@@ -1663,7 +1720,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-58",
@@ -1692,7 +1750,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-59",
@@ -1721,7 +1780,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-60",
@@ -1750,7 +1810,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-61",
@@ -1779,7 +1840,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-62",
@@ -1808,7 +1870,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-63",
@@ -1837,7 +1900,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-64",
@@ -1866,7 +1930,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-65",
@@ -1895,7 +1960,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-66",
@@ -1924,7 +1990,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-67",
@@ -1953,7 +2020,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-68",
@@ -1982,7 +2050,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-69",
@@ -2011,7 +2080,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-70",
@@ -2040,7 +2110,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-71",
@@ -2069,7 +2140,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-72",
@@ -2098,7 +2170,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-73",
@@ -2127,7 +2200,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-74",
@@ -2156,7 +2230,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-75",
@@ -2185,7 +2260,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-76",
@@ -2214,7 +2290,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-77",
@@ -2243,7 +2320,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-78",
@@ -2272,7 +2350,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-79",
@@ -2301,7 +2380,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-80",
@@ -2330,7 +2410,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-81",
@@ -2359,7 +2440,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-82",
@@ -2388,7 +2470,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-83",
@@ -2417,7 +2500,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-84",
@@ -2446,7 +2530,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-85",
@@ -2475,7 +2560,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-86",
@@ -2504,7 +2590,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-87",
@@ -2533,7 +2620,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-88",
@@ -2562,7 +2650,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-89",
@@ -2591,7 +2680,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-90",
@@ -2620,7 +2710,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-91",
@@ -2649,7 +2740,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-92",
@@ -2678,7 +2770,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-93",
@@ -2707,7 +2800,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-94",
@@ -2736,7 +2830,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-95",
@@ -2765,7 +2860,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-96",
@@ -2794,7 +2890,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-97",
@@ -2823,7 +2920,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-98",
@@ -2852,7 +2950,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-99",
@@ -2881,7 +2980,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-100",
@@ -2910,7 +3010,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-101",
@@ -2939,7 +3040,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-102",
@@ -2968,7 +3070,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-103",
@@ -2997,7 +3100,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-104",
@@ -3026,7 +3130,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-105",
@@ -3055,7 +3160,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-106",
@@ -3084,7 +3190,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-107",
@@ -3113,7 +3220,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-108",
@@ -3142,7 +3250,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-109",
@@ -3171,7 +3280,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-110",
@@ -3200,7 +3310,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-111",
@@ -3229,7 +3340,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-112",
@@ -3258,7 +3370,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-113",
@@ -3287,7 +3400,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-114",
@@ -3316,7 +3430,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-115",
@@ -3345,7 +3460,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-116",
@@ -3374,7 +3490,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-117",
@@ -3403,7 +3520,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-118",
@@ -3432,7 +3550,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-119",
@@ -3461,7 +3580,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-120",
@@ -3490,7 +3610,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-121",
@@ -3519,7 +3640,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-122",
@@ -3548,7 +3670,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-123",
@@ -3577,7 +3700,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-124",
@@ -3606,7 +3730,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-125",
@@ -3635,7 +3760,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-126",
@@ -3664,7 +3790,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-127",
@@ -3693,7 +3820,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-128",
@@ -3722,7 +3850,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-129",
@@ -3751,7 +3880,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-130",
@@ -3780,7 +3910,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-131",
@@ -3809,7 +3940,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-132",
@@ -3838,7 +3970,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-133",
@@ -3867,7 +4000,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-134",
@@ -3896,7 +4030,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-135",
@@ -3925,7 +4060,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-136",
@@ -3954,7 +4090,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-137",
@@ -3983,7 +4120,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-138",
@@ -4012,7 +4150,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-139",
@@ -4041,7 +4180,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-140",
@@ -4070,7 +4210,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-141",
@@ -4099,7 +4240,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-142",
@@ -4128,7 +4270,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-143",
@@ -4157,7 +4300,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-144",
@@ -4186,7 +4330,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-145",
@@ -4215,7 +4360,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-146",
@@ -4244,7 +4390,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-147",
@@ -4273,7 +4420,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-148",
@@ -4302,7 +4450,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-149",
@@ -4331,7 +4480,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-150",
@@ -4360,7 +4510,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-151",
@@ -4389,7 +4540,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-152",
@@ -4418,7 +4570,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-153",
@@ -4447,7 +4600,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-154",
@@ -4476,7 +4630,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-155",
@@ -4505,7 +4660,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-156",
@@ -4534,7 +4690,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-157",
@@ -4563,7 +4720,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-158",
@@ -4592,7 +4750,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-159",
@@ -4621,7 +4780,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-160",
@@ -4650,7 +4810,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-161",
@@ -4679,7 +4840,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-162",
@@ -4708,7 +4870,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-163",
@@ -4737,7 +4900,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-164",
@@ -4766,7 +4930,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-165",
@@ -4795,7 +4960,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-166",
@@ -4824,7 +4990,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-167",
@@ -4853,7 +5020,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-168",
@@ -4882,7 +5050,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-169",
@@ -4911,7 +5080,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-170",
@@ -4940,7 +5110,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-171",
@@ -4969,7 +5140,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-172",
@@ -4998,7 +5170,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-173",
@@ -5027,7 +5200,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-174",
@@ -5056,7 +5230,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-175",
@@ -5085,7 +5260,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-176",
@@ -5114,7 +5290,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-177",
@@ -5143,7 +5320,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-178",
@@ -5172,7 +5350,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-179",
@@ -5201,7 +5380,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-180",
@@ -5230,7 +5410,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-181",
@@ -5259,7 +5440,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-182",
@@ -5288,7 +5470,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-183",
@@ -5317,7 +5500,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-184",
@@ -5346,7 +5530,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-185",
@@ -5375,7 +5560,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-186",
@@ -5404,7 +5590,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-187",
@@ -5433,7 +5620,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-188",
@@ -5462,7 +5650,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-189",
@@ -5491,7 +5680,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-190",
@@ -5520,7 +5710,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-191",
@@ -5549,7 +5740,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-192",
@@ -5578,7 +5770,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-193",
@@ -5607,7 +5800,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-194",
@@ -5636,7 +5830,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-195",
@@ -5665,7 +5860,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-196",
@@ -5694,7 +5890,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-197",
@@ -5723,7 +5920,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-198",
@@ -5752,7 +5950,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-199",
@@ -5781,7 +5980,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-200",
@@ -5810,7 +6010,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-201",
@@ -5839,7 +6040,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-202",
@@ -5868,7 +6070,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-203",
@@ -5897,7 +6100,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-204",
@@ -5926,7 +6130,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-205",
@@ -5955,7 +6160,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-206",
@@ -5984,7 +6190,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-207",
@@ -6013,7 +6220,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-208",
@@ -6042,7 +6250,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-209",
@@ -6071,7 +6280,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-210",
@@ -6100,7 +6310,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-211",
@@ -6129,7 +6340,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-212",
@@ -6158,7 +6370,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-213",
@@ -6187,7 +6400,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-214",
@@ -6216,7 +6430,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-215",
@@ -6245,7 +6460,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-216",
@@ -6274,7 +6490,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-217",
@@ -6303,7 +6520,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   },
   {
     "id": "yorkuni-218",
@@ -6332,7 +6550,8 @@ export const yorkuniCourses: YorkuniCourse[] = [
     "country": "United Kingdom",
     "countryCode": "GB",
     "city": "York",
-    "state": "England"
+    "state": "England",
+    "feeVerified": false
   }
 ];
 

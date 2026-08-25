@@ -6,6 +6,7 @@
 // MRes/LLB/LLM/PhD/PGCert/PGDip) and its real display name pulled from that page's own H1.
 
 export interface BhamCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -42,7 +43,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-2",
@@ -70,7 +72,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-3",
@@ -98,7 +101,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-4",
@@ -126,7 +130,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-5",
@@ -154,7 +159,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-6",
@@ -182,7 +188,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-7",
@@ -210,7 +217,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-8",
@@ -238,7 +246,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-9",
@@ -266,7 +275,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-10",
@@ -294,7 +304,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-11",
@@ -322,7 +333,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-12",
@@ -350,7 +362,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-13",
@@ -378,7 +391,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-14",
@@ -406,7 +420,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-15",
@@ -434,7 +449,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-16",
@@ -462,7 +478,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-17",
@@ -490,7 +507,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-18",
@@ -518,7 +536,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-19",
@@ -546,7 +565,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-20",
@@ -574,7 +594,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-21",
@@ -602,7 +623,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-22",
@@ -630,7 +652,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-23",
@@ -658,7 +681,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-24",
@@ -686,7 +710,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-25",
@@ -714,7 +739,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-26",
@@ -742,7 +768,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-27",
@@ -770,7 +797,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-28",
@@ -798,7 +826,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-29",
@@ -826,7 +855,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-30",
@@ -854,7 +884,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-31",
@@ -882,7 +913,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-32",
@@ -910,7 +942,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-33",
@@ -938,7 +971,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-34",
@@ -966,7 +1000,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-35",
@@ -994,7 +1029,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-36",
@@ -1022,7 +1058,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-37",
@@ -1050,7 +1087,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-38",
@@ -1078,7 +1116,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-39",
@@ -1106,7 +1145,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-40",
@@ -1134,7 +1174,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-41",
@@ -1162,7 +1203,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-42",
@@ -1190,7 +1232,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-43",
@@ -1218,7 +1261,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-44",
@@ -1246,7 +1290,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-45",
@@ -1274,7 +1319,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-46",
@@ -1302,7 +1348,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-47",
@@ -1330,7 +1377,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-48",
@@ -1358,7 +1406,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-49",
@@ -1386,7 +1435,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-50",
@@ -1414,7 +1464,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-51",
@@ -1442,7 +1493,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-52",
@@ -1470,7 +1522,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-53",
@@ -1498,7 +1551,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-54",
@@ -1526,7 +1580,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-55",
@@ -1554,7 +1609,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-56",
@@ -1582,7 +1638,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-57",
@@ -1610,7 +1667,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-58",
@@ -1638,7 +1696,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-59",
@@ -1666,7 +1725,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-60",
@@ -1694,7 +1754,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-61",
@@ -1722,7 +1783,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-62",
@@ -1750,7 +1812,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-63",
@@ -1778,7 +1841,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-64",
@@ -1806,7 +1870,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-65",
@@ -1834,7 +1899,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-66",
@@ -1862,7 +1928,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-67",
@@ -1890,7 +1957,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-68",
@@ -1918,7 +1986,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-69",
@@ -1946,7 +2015,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-70",
@@ -1974,7 +2044,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-71",
@@ -2002,7 +2073,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-72",
@@ -2030,7 +2102,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-73",
@@ -2058,7 +2131,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-74",
@@ -2086,7 +2160,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-75",
@@ -2114,7 +2189,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-76",
@@ -2142,7 +2218,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-77",
@@ -2170,7 +2247,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-78",
@@ -2198,7 +2276,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-79",
@@ -2226,7 +2305,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-80",
@@ -2254,7 +2334,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-81",
@@ -2282,7 +2363,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-82",
@@ -2310,7 +2392,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-83",
@@ -2338,7 +2421,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-84",
@@ -2366,7 +2450,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-85",
@@ -2394,7 +2479,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-86",
@@ -2422,7 +2508,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-87",
@@ -2450,7 +2537,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-88",
@@ -2478,7 +2566,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-89",
@@ -2506,7 +2595,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-90",
@@ -2534,7 +2624,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-91",
@@ -2562,7 +2653,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-92",
@@ -2590,7 +2682,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-93",
@@ -2618,7 +2711,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-94",
@@ -2646,7 +2740,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-95",
@@ -2674,7 +2769,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-96",
@@ -2702,7 +2798,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-97",
@@ -2730,7 +2827,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-98",
@@ -2758,7 +2856,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-99",
@@ -2786,7 +2885,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-100",
@@ -2814,7 +2914,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-101",
@@ -2842,7 +2943,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-102",
@@ -2870,7 +2972,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-103",
@@ -2898,7 +3001,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-104",
@@ -2926,7 +3030,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-105",
@@ -2954,7 +3059,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-106",
@@ -2982,7 +3088,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-107",
@@ -3010,7 +3117,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-108",
@@ -3038,7 +3146,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-109",
@@ -3066,7 +3175,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-110",
@@ -3094,7 +3204,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-111",
@@ -3122,7 +3233,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-112",
@@ -3150,7 +3262,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-113",
@@ -3178,7 +3291,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-114",
@@ -3206,7 +3320,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-115",
@@ -3234,7 +3349,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-116",
@@ -3262,7 +3378,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-117",
@@ -3290,7 +3407,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-118",
@@ -3318,7 +3436,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-119",
@@ -3346,7 +3465,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-120",
@@ -3374,7 +3494,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-121",
@@ -3402,7 +3523,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-122",
@@ -3430,7 +3552,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-123",
@@ -3458,7 +3581,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-124",
@@ -3486,7 +3610,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-125",
@@ -3514,7 +3639,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-126",
@@ -3542,7 +3668,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-127",
@@ -3570,7 +3697,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-128",
@@ -3598,7 +3726,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-129",
@@ -3626,7 +3755,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-130",
@@ -3654,7 +3784,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-131",
@@ -3682,7 +3813,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-132",
@@ -3710,7 +3842,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-133",
@@ -3738,7 +3871,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-134",
@@ -3766,7 +3900,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-135",
@@ -3794,7 +3929,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-136",
@@ -3822,7 +3958,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-137",
@@ -3850,7 +3987,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-138",
@@ -3878,7 +4016,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-139",
@@ -3906,7 +4045,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-140",
@@ -3934,7 +4074,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-141",
@@ -3962,7 +4103,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-142",
@@ -3990,7 +4132,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-143",
@@ -4018,7 +4161,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-144",
@@ -4046,7 +4190,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-145",
@@ -4074,7 +4219,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-146",
@@ -4102,7 +4248,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-147",
@@ -4130,7 +4277,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-148",
@@ -4158,7 +4306,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-149",
@@ -4186,7 +4335,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-150",
@@ -4214,7 +4364,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-151",
@@ -4242,7 +4393,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-152",
@@ -4270,7 +4422,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-153",
@@ -4298,7 +4451,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-154",
@@ -4326,7 +4480,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-155",
@@ -4354,7 +4509,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-156",
@@ -4382,7 +4538,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-157",
@@ -4410,7 +4567,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-158",
@@ -4438,7 +4596,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-159",
@@ -4466,7 +4625,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-160",
@@ -4494,7 +4654,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-161",
@@ -4522,7 +4683,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-162",
@@ -4550,7 +4712,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-163",
@@ -4578,7 +4741,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-164",
@@ -4606,7 +4770,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-165",
@@ -4634,7 +4799,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-166",
@@ -4662,7 +4828,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-167",
@@ -4690,7 +4857,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-168",
@@ -4718,7 +4886,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-169",
@@ -4746,7 +4915,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-170",
@@ -4774,7 +4944,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-171",
@@ -4802,7 +4973,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-172",
@@ -4830,7 +5002,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-173",
@@ -4858,7 +5031,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-174",
@@ -4886,7 +5060,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-175",
@@ -4914,7 +5089,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-176",
@@ -4942,7 +5118,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-177",
@@ -4970,7 +5147,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-178",
@@ -4998,7 +5176,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-179",
@@ -5026,7 +5205,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-180",
@@ -5054,7 +5234,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-181",
@@ -5082,7 +5263,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-182",
@@ -5110,7 +5292,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-183",
@@ -5138,7 +5321,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-184",
@@ -5166,7 +5350,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-185",
@@ -5194,7 +5379,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-186",
@@ -5222,7 +5408,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-187",
@@ -5250,7 +5437,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-188",
@@ -5278,7 +5466,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-189",
@@ -5306,7 +5495,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-190",
@@ -5334,7 +5524,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-191",
@@ -5362,7 +5553,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-192",
@@ -5390,7 +5582,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-193",
@@ -5418,7 +5611,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-194",
@@ -5446,7 +5640,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-195",
@@ -5474,7 +5669,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-196",
@@ -5502,7 +5698,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-197",
@@ -5530,7 +5727,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-198",
@@ -5558,7 +5756,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-199",
@@ -5586,7 +5785,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-200",
@@ -5614,7 +5814,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-201",
@@ -5642,7 +5843,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-202",
@@ -5670,7 +5872,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-203",
@@ -5698,7 +5901,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-204",
@@ -5726,7 +5930,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-205",
@@ -5754,7 +5959,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-206",
@@ -5782,7 +5988,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-207",
@@ -5810,7 +6017,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-208",
@@ -5838,7 +6046,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-209",
@@ -5866,7 +6075,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-210",
@@ -5894,7 +6104,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-211",
@@ -5922,7 +6133,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-212",
@@ -5950,7 +6162,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-213",
@@ -5978,7 +6191,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-214",
@@ -6006,7 +6220,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-215",
@@ -6034,7 +6249,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-216",
@@ -6062,7 +6278,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-217",
@@ -6090,7 +6307,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-218",
@@ -6118,7 +6336,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-219",
@@ -6146,7 +6365,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-220",
@@ -6174,7 +6394,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-221",
@@ -6202,7 +6423,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-222",
@@ -6230,7 +6452,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-223",
@@ -6258,7 +6481,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-224",
@@ -6286,7 +6510,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-225",
@@ -6314,7 +6539,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-226",
@@ -6342,7 +6568,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-227",
@@ -6370,7 +6597,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-228",
@@ -6398,7 +6626,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-229",
@@ -6426,7 +6655,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-230",
@@ -6454,7 +6684,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-231",
@@ -6482,7 +6713,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-232",
@@ -6510,7 +6742,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-233",
@@ -6538,7 +6771,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-234",
@@ -6566,7 +6800,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-235",
@@ -6594,7 +6829,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-236",
@@ -6622,7 +6858,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-237",
@@ -6650,7 +6887,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-238",
@@ -6678,7 +6916,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-239",
@@ -6706,7 +6945,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-240",
@@ -6734,7 +6974,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-241",
@@ -6762,7 +7003,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-242",
@@ -6790,7 +7032,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-243",
@@ -6818,7 +7061,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-244",
@@ -6846,7 +7090,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-245",
@@ -6874,7 +7119,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-246",
@@ -6902,7 +7148,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-247",
@@ -6930,7 +7177,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-248",
@@ -6958,7 +7206,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-249",
@@ -6986,7 +7235,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-250",
@@ -7014,7 +7264,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-251",
@@ -7042,7 +7293,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-252",
@@ -7070,7 +7322,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-253",
@@ -7098,7 +7351,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-254",
@@ -7126,7 +7380,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-255",
@@ -7154,7 +7409,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-256",
@@ -7182,7 +7438,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-257",
@@ -7210,7 +7467,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-258",
@@ -7238,7 +7496,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-259",
@@ -7266,7 +7525,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-260",
@@ -7294,7 +7554,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-261",
@@ -7322,7 +7583,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-262",
@@ -7350,7 +7612,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-263",
@@ -7378,7 +7641,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-264",
@@ -7406,7 +7670,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-265",
@@ -7434,7 +7699,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-266",
@@ -7462,7 +7728,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-267",
@@ -7490,7 +7757,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-268",
@@ -7518,7 +7786,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-269",
@@ -7546,7 +7815,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-270",
@@ -7574,7 +7844,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-271",
@@ -7602,7 +7873,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-272",
@@ -7630,7 +7902,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-273",
@@ -7658,7 +7931,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-274",
@@ -7686,7 +7960,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-275",
@@ -7714,7 +7989,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-276",
@@ -7742,7 +8018,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-277",
@@ -7770,7 +8047,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-278",
@@ -7798,7 +8076,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-279",
@@ -7826,7 +8105,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-280",
@@ -7854,7 +8134,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-281",
@@ -7882,7 +8163,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-282",
@@ -7910,7 +8192,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-283",
@@ -7938,7 +8221,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-284",
@@ -7966,7 +8250,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-285",
@@ -7994,7 +8279,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-286",
@@ -8022,7 +8308,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-287",
@@ -8050,7 +8337,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-288",
@@ -8078,7 +8366,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-289",
@@ -8106,7 +8395,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-290",
@@ -8134,7 +8424,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-291",
@@ -8162,7 +8453,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-292",
@@ -8190,7 +8482,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-293",
@@ -8218,7 +8511,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-294",
@@ -8246,7 +8540,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-295",
@@ -8274,7 +8569,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-296",
@@ -8302,7 +8598,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-297",
@@ -8330,7 +8627,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-298",
@@ -8358,7 +8656,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-299",
@@ -8386,7 +8685,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-300",
@@ -8414,7 +8714,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-301",
@@ -8442,7 +8743,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-302",
@@ -8470,7 +8772,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-303",
@@ -8498,7 +8801,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-304",
@@ -8526,7 +8830,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-305",
@@ -8554,7 +8859,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-306",
@@ -8582,7 +8888,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-307",
@@ -8610,7 +8917,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-308",
@@ -8638,7 +8946,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-309",
@@ -8666,7 +8975,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-310",
@@ -8694,7 +9004,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-311",
@@ -8722,7 +9033,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-312",
@@ -8750,7 +9062,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-313",
@@ -8778,7 +9091,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-314",
@@ -8806,7 +9120,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-315",
@@ -8834,7 +9149,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-316",
@@ -8862,7 +9178,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-317",
@@ -8890,7 +9207,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-318",
@@ -8918,7 +9236,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-319",
@@ -8946,7 +9265,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-320",
@@ -8974,7 +9294,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-321",
@@ -9002,7 +9323,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-322",
@@ -9030,7 +9352,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-323",
@@ -9058,7 +9381,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-324",
@@ -9086,7 +9410,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-325",
@@ -9114,7 +9439,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-326",
@@ -9142,7 +9468,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-327",
@@ -9170,7 +9497,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-328",
@@ -9198,7 +9526,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-329",
@@ -9226,7 +9555,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-330",
@@ -9254,7 +9584,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-331",
@@ -9282,7 +9613,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-332",
@@ -9310,7 +9642,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-333",
@@ -9338,7 +9671,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-334",
@@ -9366,7 +9700,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-335",
@@ -9394,7 +9729,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-336",
@@ -9422,7 +9758,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-337",
@@ -9450,7 +9787,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-338",
@@ -9478,7 +9816,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-339",
@@ -9506,7 +9845,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-340",
@@ -9534,7 +9874,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-341",
@@ -9562,7 +9903,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-342",
@@ -9590,7 +9932,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-343",
@@ -9618,7 +9961,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-344",
@@ -9646,7 +9990,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-345",
@@ -9674,7 +10019,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-346",
@@ -9702,7 +10048,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-347",
@@ -9730,7 +10077,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-348",
@@ -9758,7 +10106,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-349",
@@ -9786,7 +10135,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-350",
@@ -9814,7 +10164,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-351",
@@ -9842,7 +10193,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-352",
@@ -9870,7 +10222,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-353",
@@ -9898,7 +10251,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-354",
@@ -9926,7 +10280,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-355",
@@ -9954,7 +10309,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-356",
@@ -9982,7 +10338,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-357",
@@ -10010,7 +10367,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-358",
@@ -10038,7 +10396,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-359",
@@ -10066,7 +10425,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-360",
@@ -10094,7 +10454,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-361",
@@ -10122,7 +10483,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-362",
@@ -10150,7 +10512,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-363",
@@ -10178,7 +10541,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-364",
@@ -10206,7 +10570,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-365",
@@ -10234,7 +10599,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-366",
@@ -10262,7 +10628,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-367",
@@ -10290,7 +10657,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-368",
@@ -10318,7 +10686,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-369",
@@ -10346,7 +10715,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-370",
@@ -10374,7 +10744,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-371",
@@ -10402,7 +10773,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-372",
@@ -10430,7 +10802,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-373",
@@ -10458,7 +10831,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-374",
@@ -10486,7 +10860,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-375",
@@ -10514,7 +10889,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-376",
@@ -10542,7 +10918,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-377",
@@ -10570,7 +10947,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-378",
@@ -10598,7 +10976,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-379",
@@ -10626,7 +11005,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-380",
@@ -10654,7 +11034,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-381",
@@ -10682,7 +11063,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-382",
@@ -10710,7 +11092,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-383",
@@ -10738,7 +11121,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-384",
@@ -10766,7 +11150,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-385",
@@ -10794,7 +11179,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-386",
@@ -10822,7 +11208,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-387",
@@ -10850,7 +11237,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-388",
@@ -10878,7 +11266,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-389",
@@ -10906,7 +11295,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-390",
@@ -10934,7 +11324,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-391",
@@ -10962,7 +11353,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-392",
@@ -10990,7 +11382,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-393",
@@ -11018,7 +11411,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-394",
@@ -11046,7 +11440,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-395",
@@ -11074,7 +11469,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-396",
@@ -11102,7 +11498,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-397",
@@ -11130,7 +11527,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-398",
@@ -11158,7 +11556,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-399",
@@ -11186,7 +11585,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-400",
@@ -11214,7 +11614,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-401",
@@ -11242,7 +11643,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-402",
@@ -11270,7 +11672,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-403",
@@ -11298,7 +11701,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-404",
@@ -11326,7 +11730,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-405",
@@ -11354,7 +11759,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-406",
@@ -11382,7 +11788,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-407",
@@ -11410,7 +11817,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-408",
@@ -11438,7 +11846,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-409",
@@ -11466,7 +11875,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-410",
@@ -11494,7 +11904,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-411",
@@ -11522,7 +11933,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-412",
@@ -11550,7 +11962,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-413",
@@ -11578,7 +11991,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-414",
@@ -11606,7 +12020,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-415",
@@ -11634,7 +12049,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-416",
@@ -11662,7 +12078,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-417",
@@ -11690,7 +12107,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-418",
@@ -11718,7 +12136,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-419",
@@ -11746,7 +12165,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-420",
@@ -11774,7 +12194,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-421",
@@ -11802,7 +12223,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-422",
@@ -11830,7 +12252,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-423",
@@ -11858,7 +12281,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-424",
@@ -11886,7 +12310,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-425",
@@ -11914,7 +12339,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-426",
@@ -11942,7 +12368,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-427",
@@ -11970,7 +12397,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-428",
@@ -11998,7 +12426,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-429",
@@ -12026,7 +12455,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-430",
@@ -12054,7 +12484,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-431",
@@ -12082,7 +12513,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-432",
@@ -12110,7 +12542,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-433",
@@ -12138,7 +12571,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-434",
@@ -12166,7 +12600,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-435",
@@ -12194,7 +12629,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-436",
@@ -12222,7 +12658,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-437",
@@ -12250,7 +12687,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-438",
@@ -12278,7 +12716,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-439",
@@ -12306,7 +12745,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-440",
@@ -12334,7 +12774,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-441",
@@ -12362,7 +12803,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-442",
@@ -12390,7 +12832,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-443",
@@ -12418,7 +12861,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-444",
@@ -12446,7 +12890,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-445",
@@ -12474,7 +12919,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-446",
@@ -12502,7 +12948,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-447",
@@ -12530,7 +12977,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-448",
@@ -12558,7 +13006,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-449",
@@ -12586,7 +13035,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-450",
@@ -12614,7 +13064,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-451",
@@ -12642,7 +13093,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-452",
@@ -12670,7 +13122,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-453",
@@ -12698,7 +13151,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-454",
@@ -12726,7 +13180,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-455",
@@ -12754,7 +13209,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-456",
@@ -12782,7 +13238,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-457",
@@ -12810,7 +13267,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-458",
@@ -12838,7 +13296,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-459",
@@ -12866,7 +13325,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-460",
@@ -12894,7 +13354,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-461",
@@ -12922,7 +13383,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-462",
@@ -12950,7 +13412,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-463",
@@ -12978,7 +13441,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-464",
@@ -13006,7 +13470,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-465",
@@ -13034,7 +13499,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-466",
@@ -13062,7 +13528,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-467",
@@ -13090,7 +13557,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-468",
@@ -13118,7 +13586,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-469",
@@ -13146,7 +13615,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-470",
@@ -13174,7 +13644,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-471",
@@ -13202,7 +13673,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-472",
@@ -13230,7 +13702,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-473",
@@ -13258,7 +13731,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-474",
@@ -13286,7 +13760,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-475",
@@ -13314,7 +13789,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-476",
@@ -13342,7 +13818,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-477",
@@ -13370,7 +13847,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-478",
@@ -13398,7 +13876,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-479",
@@ -13426,7 +13905,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-480",
@@ -13454,7 +13934,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-481",
@@ -13482,7 +13963,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-482",
@@ -13510,7 +13992,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-483",
@@ -13538,7 +14021,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-484",
@@ -13566,7 +14050,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-485",
@@ -13594,7 +14079,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-486",
@@ -13622,7 +14108,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-487",
@@ -13650,7 +14137,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-488",
@@ -13678,7 +14166,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-489",
@@ -13706,7 +14195,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-490",
@@ -13734,7 +14224,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-491",
@@ -13762,7 +14253,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-492",
@@ -13790,7 +14282,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-493",
@@ -13818,7 +14311,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-494",
@@ -13846,7 +14340,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-495",
@@ -13874,7 +14369,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-496",
@@ -13902,7 +14398,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-497",
@@ -13930,7 +14427,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-498",
@@ -13958,7 +14456,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-499",
@@ -13986,7 +14485,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-500",
@@ -14014,7 +14514,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-501",
@@ -14042,7 +14543,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-502",
@@ -14070,7 +14572,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-503",
@@ -14098,7 +14601,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-504",
@@ -14126,7 +14630,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-505",
@@ -14154,7 +14659,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-506",
@@ -14182,7 +14688,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-507",
@@ -14210,7 +14717,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-508",
@@ -14238,7 +14746,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-509",
@@ -14266,7 +14775,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-510",
@@ -14294,7 +14804,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-511",
@@ -14322,7 +14833,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-512",
@@ -14350,7 +14862,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-513",
@@ -14378,7 +14891,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-514",
@@ -14406,7 +14920,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-515",
@@ -14434,7 +14949,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-516",
@@ -14462,7 +14978,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-517",
@@ -14490,7 +15007,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-518",
@@ -14518,7 +15036,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-519",
@@ -14546,7 +15065,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-520",
@@ -14574,7 +15094,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-521",
@@ -14602,7 +15123,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-522",
@@ -14630,7 +15152,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-523",
@@ -14658,7 +15181,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-524",
@@ -14686,7 +15210,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-525",
@@ -14714,7 +15239,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-526",
@@ -14742,7 +15268,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-527",
@@ -14770,7 +15297,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-528",
@@ -14798,7 +15326,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-529",
@@ -14826,7 +15355,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-530",
@@ -14854,7 +15384,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-531",
@@ -14882,7 +15413,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-532",
@@ -14910,7 +15442,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-533",
@@ -14938,7 +15471,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-534",
@@ -14966,7 +15500,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-535",
@@ -14994,7 +15529,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-536",
@@ -15022,7 +15558,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-537",
@@ -15050,7 +15587,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-538",
@@ -15078,7 +15616,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-539",
@@ -15106,7 +15645,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-540",
@@ -15134,7 +15674,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-541",
@@ -15162,7 +15703,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-542",
@@ -15190,7 +15732,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-543",
@@ -15218,7 +15761,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-544",
@@ -15246,7 +15790,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-545",
@@ -15274,7 +15819,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-546",
@@ -15302,7 +15848,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-547",
@@ -15330,7 +15877,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-548",
@@ -15358,7 +15906,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-549",
@@ -15386,7 +15935,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-550",
@@ -15414,7 +15964,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-551",
@@ -15442,7 +15993,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-552",
@@ -15470,7 +16022,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-553",
@@ -15498,7 +16051,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-554",
@@ -15526,7 +16080,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-555",
@@ -15554,7 +16109,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-556",
@@ -15582,7 +16138,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-557",
@@ -15610,7 +16167,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-558",
@@ -15638,7 +16196,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-559",
@@ -15666,7 +16225,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-560",
@@ -15694,7 +16254,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-561",
@@ -15722,7 +16283,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-562",
@@ -15750,7 +16312,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-563",
@@ -15778,7 +16341,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-564",
@@ -15806,7 +16370,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-565",
@@ -15834,7 +16399,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-566",
@@ -15862,7 +16428,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-567",
@@ -15890,7 +16457,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-568",
@@ -15918,7 +16486,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-569",
@@ -15946,7 +16515,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-570",
@@ -15974,7 +16544,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-571",
@@ -16002,7 +16573,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-572",
@@ -16030,7 +16602,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-573",
@@ -16058,7 +16631,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-574",
@@ -16086,7 +16660,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-575",
@@ -16114,7 +16689,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-576",
@@ -16142,7 +16718,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-577",
@@ -16170,7 +16747,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-578",
@@ -16198,7 +16776,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-579",
@@ -16226,7 +16805,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-580",
@@ -16254,7 +16834,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-581",
@@ -16282,7 +16863,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-582",
@@ -16310,7 +16892,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-583",
@@ -16338,7 +16921,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-584",
@@ -16366,7 +16950,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-585",
@@ -16394,7 +16979,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-586",
@@ -16422,7 +17008,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-587",
@@ -16450,7 +17037,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-588",
@@ -16478,7 +17066,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-589",
@@ -16506,7 +17095,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-590",
@@ -16534,7 +17124,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-591",
@@ -16562,7 +17153,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-592",
@@ -16590,7 +17182,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-593",
@@ -16618,7 +17211,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-594",
@@ -16646,7 +17240,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-595",
@@ -16674,7 +17269,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-596",
@@ -16702,7 +17298,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-597",
@@ -16730,7 +17327,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-598",
@@ -16758,7 +17356,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-599",
@@ -16786,7 +17385,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-600",
@@ -16814,7 +17414,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-601",
@@ -16842,7 +17443,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-602",
@@ -16870,7 +17472,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "bham-603",
@@ -16898,7 +17501,8 @@ export const bhamCourses: BhamCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Birmingham",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

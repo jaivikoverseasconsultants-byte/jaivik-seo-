@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
+import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
 export async function generateStaticParams() {
   return (heriotWattUniversityDubaiCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -62,8 +63,8 @@ export default async function CourseDetailPage(
               <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Heriot-Watt University Dubai — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
                 {[
-                  { label: 'Annual Fee', value: `AED ${course.annualAED.toLocaleString()}` },
-                  { label: 'Fee (INR)', value: `₹${feeINRLakh}L/yr` },
+                  { label: 'Annual Fee', value: feeDisplay(course as any, course.annualAED, 'AED') },
+                  { label: 'Fee (INR)', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   { label: 'Duration', value: course.duration },
                   { label: 'IELTS Min', value: `${course.ieltsMin}+` },
                 ].map(s => (
@@ -95,8 +96,8 @@ export default async function CourseDetailPage(
                 ['Intake', course.intakeMonths.join(' & ')],
                 ['IELTS Minimum', `${course.ieltsMin} overall`],
                 ['TOEFL Minimum', `${course.toeflMin}+`],
-                ['Annual Fee (AED)', `AED ${course.annualAED.toLocaleString()}`],
-                ['Annual Fee (USD)', `$${course.annualUSD.toLocaleString()}`],
+                ['Annual Fee (AED)', feeDisplay(course as any, course.annualAED, 'AED')],
+                ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
                 ['Annual Fee (INR)', `₹${(course.annualINR/100000).toFixed(1)}L`],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">

@@ -1,5 +1,6 @@
 // Real PG course data — demontfortCourses
 export interface DemontfortCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualGBP: number; annualUSD: number; annualINR: number; totalGBP: number;
@@ -37,7 +38,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-2",
@@ -66,7 +68,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-3",
@@ -95,7 +98,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-4",
@@ -124,7 +128,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-5",
@@ -153,7 +158,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-6",
@@ -182,7 +188,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-7",
@@ -211,7 +218,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-8",
@@ -240,7 +248,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-9",
@@ -269,7 +278,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-10",
@@ -298,7 +308,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-11",
@@ -327,7 +338,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-12",
@@ -356,7 +368,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-13",
@@ -385,7 +398,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-14",
@@ -414,7 +428,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-15",
@@ -443,7 +458,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-16",
@@ -472,7 +488,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-17",
@@ -501,7 +518,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-18",
@@ -530,7 +548,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-19",
@@ -559,7 +578,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-20",
@@ -588,7 +608,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-21",
@@ -617,7 +638,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-22",
@@ -646,7 +668,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-23",
@@ -675,7 +698,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-24",
@@ -704,7 +728,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-25",
@@ -733,7 +758,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-26",
@@ -762,7 +788,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-27",
@@ -791,7 +818,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-28",
@@ -820,7 +848,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-29",
@@ -849,7 +878,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-30",
@@ -878,7 +908,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-31",
@@ -907,7 +938,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-32",
@@ -936,7 +968,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-33",
@@ -965,7 +998,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-34",
@@ -994,7 +1028,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-35",
@@ -1023,7 +1058,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-36",
@@ -1052,7 +1088,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-37",
@@ -1081,7 +1118,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-38",
@@ -1110,7 +1148,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-39",
@@ -1139,7 +1178,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-40",
@@ -1168,7 +1208,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-41",
@@ -1197,7 +1238,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-42",
@@ -1226,7 +1268,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-43",
@@ -1255,7 +1298,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-44",
@@ -1284,7 +1328,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-45",
@@ -1313,7 +1358,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-46",
@@ -1342,7 +1388,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-47",
@@ -1371,7 +1418,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-48",
@@ -1400,7 +1448,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-49",
@@ -1429,7 +1478,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   },
   {
     "id": "demontfort-pg-50",
@@ -1458,7 +1508,8 @@ export const demontfortCourses: DemontfortCourse[] = [
     "country": "United Kingdom",
     "state": "England",
     "city": "Leicester",
-    "countryCode": "GB"
+    "countryCode": "GB",
+    "feeVerified": false
   }
 ];
 

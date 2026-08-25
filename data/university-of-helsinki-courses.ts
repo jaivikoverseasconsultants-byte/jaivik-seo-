@@ -1,7 +1,8 @@
 // Auto-generated — University of Helsinki official degree programme catalogue
 // 107 courses | crawled: 2026-07-01
 
-export interface UniversityOfHelsinkiCourse { id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface UniversityOfHelsinkiCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
   {
@@ -30,7 +31,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-2",
@@ -58,7 +60,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-3",
@@ -86,7 +89,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-4",
@@ -114,7 +118,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-5",
@@ -142,7 +147,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-6",
@@ -170,7 +176,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-7",
@@ -198,7 +205,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-8",
@@ -226,7 +234,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-9",
@@ -254,7 +263,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-10",
@@ -282,7 +292,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-11",
@@ -310,7 +321,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-12",
@@ -338,7 +350,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-13",
@@ -366,7 +379,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-14",
@@ -394,7 +408,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-15",
@@ -422,7 +437,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-16",
@@ -450,7 +466,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-17",
@@ -478,7 +495,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-18",
@@ -506,7 +524,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-19",
@@ -534,7 +553,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-20",
@@ -562,7 +582,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-21",
@@ -590,7 +611,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-22",
@@ -618,7 +640,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-23",
@@ -646,7 +669,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-24",
@@ -674,7 +698,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-25",
@@ -702,7 +727,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-26",
@@ -730,7 +756,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-27",
@@ -758,7 +785,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-28",
@@ -786,7 +814,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-29",
@@ -814,7 +843,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-30",
@@ -842,7 +872,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-31",
@@ -870,7 +901,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-32",
@@ -898,7 +930,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-33",
@@ -926,7 +959,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-34",
@@ -954,7 +988,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-35",
@@ -982,7 +1017,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-36",
@@ -1010,7 +1046,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-37",
@@ -1038,7 +1075,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-38",
@@ -1066,7 +1104,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-39",
@@ -1094,7 +1133,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-40",
@@ -1122,7 +1162,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-41",
@@ -1150,7 +1191,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-42",
@@ -1178,7 +1220,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-43",
@@ -1206,7 +1249,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-44",
@@ -1234,7 +1278,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-45",
@@ -1262,7 +1307,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-46",
@@ -1290,7 +1336,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-47",
@@ -1318,7 +1365,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-48",
@@ -1346,7 +1394,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-49",
@@ -1374,7 +1423,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-50",
@@ -1402,7 +1452,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-51",
@@ -1430,7 +1481,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-52",
@@ -1458,7 +1510,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-53",
@@ -1486,7 +1539,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-54",
@@ -1514,7 +1568,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-55",
@@ -1542,7 +1597,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-56",
@@ -1570,7 +1626,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-57",
@@ -1598,7 +1655,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-58",
@@ -1626,7 +1684,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-59",
@@ -1654,7 +1713,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-60",
@@ -1682,7 +1742,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-61",
@@ -1710,7 +1771,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-62",
@@ -1738,7 +1800,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-63",
@@ -1766,7 +1829,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-64",
@@ -1794,7 +1858,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-65",
@@ -1822,7 +1887,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-66",
@@ -1850,7 +1916,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-67",
@@ -1878,7 +1945,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-68",
@@ -1906,7 +1974,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-69",
@@ -1934,7 +2003,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-70",
@@ -1962,7 +2032,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-71",
@@ -1990,7 +2061,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-72",
@@ -2018,7 +2090,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-73",
@@ -2046,7 +2119,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-74",
@@ -2074,7 +2148,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-75",
@@ -2102,7 +2177,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-76",
@@ -2130,7 +2206,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-77",
@@ -2158,7 +2235,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-78",
@@ -2186,7 +2264,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-79",
@@ -2214,7 +2293,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-80",
@@ -2242,7 +2322,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-81",
@@ -2270,7 +2351,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-82",
@@ -2298,7 +2380,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-83",
@@ -2326,7 +2409,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-84",
@@ -2354,7 +2438,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-85",
@@ -2382,7 +2467,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-86",
@@ -2410,7 +2496,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-87",
@@ -2438,7 +2525,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-88",
@@ -2466,7 +2554,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-89",
@@ -2494,7 +2583,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-90",
@@ -2522,7 +2612,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-91",
@@ -2550,7 +2641,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-92",
@@ -2578,7 +2670,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-93",
@@ -2606,7 +2699,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-94",
@@ -2634,7 +2728,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-95",
@@ -2662,7 +2757,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-96",
@@ -2690,7 +2786,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-97",
@@ -2718,7 +2815,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-98",
@@ -2746,7 +2844,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-99",
@@ -2774,7 +2873,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-100",
@@ -2802,7 +2902,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-101",
@@ -2830,7 +2931,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-102",
@@ -2858,7 +2960,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-103",
@@ -2886,7 +2989,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-104",
@@ -2914,7 +3018,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-105",
@@ -2942,7 +3047,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-106",
@@ -2970,7 +3076,8 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
   {
     "id": "uhel-107",
@@ -2998,13 +3105,154 @@ export const universityOfHelsinkiCourses: UniversityOfHelsinkiCourse[] = [
     "country": "Finland",
     "state": "Uusimaa",
     "city": "Helsinki",
-    "countryCode": "FI"
+    "countryCode": "FI",
+    "feeVerified": false
   },
-  {"id":"uhel-108","name":"Science | Bachelor's programme","slug":"uhel-ug-science-bachelors-programme","url":"https://www.helsinki.fi/fi/koulutusohjelmat/science-bachelors-programme","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualEUR":0,"annualUSD":0,"annualINR":0,"totalEUR":0,"livingCostEUR":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Helsinki City Centre Campus","country":"Finland","state":"Uusimaa","city":"Helsinki","countryCode":"FI"},
-  {"id":"uhel-109","name":"Languages and Literature of Finland | Bachelor’s Programme","slug":"uhel-ug-languages-and-literature-of-finland-bachelors-programme","url":"https://www.helsinki.fi/en/degree-programmes/languages-and-literature-finland-bachelors-programme","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualEUR":0,"annualUSD":0,"annualINR":0,"totalEUR":0,"livingCostEUR":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Helsinki City Centre Campus","country":"Finland","state":"Uusimaa","city":"Helsinki","countryCode":"FI"},
-  {"id":"uhel-110","name":"Liberal Arts and Sciences | Bachelor's programme","slug":"uhel-ug-liberal-arts-and-sciences-bachelors-programme","url":"https://www.helsinki.fi/fi/koulutusohjelmat/liberal-arts-and-sciences-bachelors-programme","level":"Bachelor's","studyLevel":"Undergraduate","duration":"Not specified","durationYears":0,"annualEUR":0,"annualUSD":0,"annualINR":0,"totalEUR":0,"livingCostEUR":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Helsinki City Centre Campus","country":"Finland","state":"Uusimaa","city":"Helsinki","countryCode":"FI"},
-  {"id":"uhel-112","name":"Food Economy and Consumption | Bachelor's Programme","slug":"uhel-ug-food-economy-and-consumption-bachelors-programme","url":"https://www.helsinki.fi/en/degree-programmes/food-economy-and-consumption-bachelors-programme","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualEUR":0,"annualUSD":0,"annualINR":0,"totalEUR":0,"livingCostEUR":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Helsinki City Centre Campus","country":"Finland","state":"Uusimaa","city":"Helsinki","countryCode":"FI"},
-  {"id":"uhel-113","name":"Environmental and Agricultural Economics | Bachelor's Programme","slug":"uhel-ug-environmental-and-agricultural-economics-bachelors-programme","url":"https://www.helsinki.fi/en/degree-programmes/environmental-and-agricultural-economics-bachelors-programme","level":"Bachelor's","studyLevel":"Undergraduate","duration":"3 years","durationYears":3,"annualEUR":0,"annualUSD":0,"annualINR":0,"totalEUR":0,"livingCostEUR":0,"livingCostUSD":0,"livingCostINR":0,"ieltsMin":0,"toeflMin":0,"pteMin":0,"intakeMonths":["September"],"campus":"Helsinki City Centre Campus","country":"Finland","state":"Uusimaa","city":"Helsinki","countryCode":"FI"}
+  {
+    "id": "uhel-108",
+    "name": "Science | Bachelor's programme",
+    "slug": "uhel-ug-science-bachelors-programme",
+    "url": "https://www.helsinki.fi/fi/koulutusohjelmat/science-bachelors-programme",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualEUR": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalEUR": 0,
+    "livingCostEUR": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Helsinki City Centre Campus",
+    "country": "Finland",
+    "state": "Uusimaa",
+    "city": "Helsinki",
+    "countryCode": "FI",
+    "feeVerified": false
+  },
+  {
+    "id": "uhel-109",
+    "name": "Languages and Literature of Finland | Bachelor’s Programme",
+    "slug": "uhel-ug-languages-and-literature-of-finland-bachelors-programme",
+    "url": "https://www.helsinki.fi/en/degree-programmes/languages-and-literature-finland-bachelors-programme",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualEUR": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalEUR": 0,
+    "livingCostEUR": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Helsinki City Centre Campus",
+    "country": "Finland",
+    "state": "Uusimaa",
+    "city": "Helsinki",
+    "countryCode": "FI",
+    "feeVerified": false
+  },
+  {
+    "id": "uhel-110",
+    "name": "Liberal Arts and Sciences | Bachelor's programme",
+    "slug": "uhel-ug-liberal-arts-and-sciences-bachelors-programme",
+    "url": "https://www.helsinki.fi/fi/koulutusohjelmat/liberal-arts-and-sciences-bachelors-programme",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "Not specified",
+    "durationYears": 0,
+    "annualEUR": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalEUR": 0,
+    "livingCostEUR": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Helsinki City Centre Campus",
+    "country": "Finland",
+    "state": "Uusimaa",
+    "city": "Helsinki",
+    "countryCode": "FI",
+    "feeVerified": false
+  },
+  {
+    "id": "uhel-112",
+    "name": "Food Economy and Consumption | Bachelor's Programme",
+    "slug": "uhel-ug-food-economy-and-consumption-bachelors-programme",
+    "url": "https://www.helsinki.fi/en/degree-programmes/food-economy-and-consumption-bachelors-programme",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualEUR": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalEUR": 0,
+    "livingCostEUR": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Helsinki City Centre Campus",
+    "country": "Finland",
+    "state": "Uusimaa",
+    "city": "Helsinki",
+    "countryCode": "FI",
+    "feeVerified": false
+  },
+  {
+    "id": "uhel-113",
+    "name": "Environmental and Agricultural Economics | Bachelor's Programme",
+    "slug": "uhel-ug-environmental-and-agricultural-economics-bachelors-programme",
+    "url": "https://www.helsinki.fi/en/degree-programmes/environmental-and-agricultural-economics-bachelors-programme",
+    "level": "Bachelor's",
+    "studyLevel": "Undergraduate",
+    "duration": "3 years",
+    "durationYears": 3,
+    "annualEUR": 0,
+    "annualUSD": 0,
+    "annualINR": 0,
+    "totalEUR": 0,
+    "livingCostEUR": 0,
+    "livingCostUSD": 0,
+    "livingCostINR": 0,
+    "ieltsMin": 0,
+    "toeflMin": 0,
+    "pteMin": 0,
+    "intakeMonths": [
+      "September"
+    ],
+    "campus": "Helsinki City Centre Campus",
+    "country": "Finland",
+    "state": "Uusimaa",
+    "city": "Helsinki",
+    "countryCode": "FI",
+    "feeVerified": false
+  }
 ];
 
 export function getUniversityOfHelsinkiCourseBySlug(slug: string): UniversityOfHelsinkiCourse | undefined {

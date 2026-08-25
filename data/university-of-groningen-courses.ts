@@ -1,7 +1,8 @@
 // Auto-generated — University of Groningen official programme catalogue
 // 355 courses | crawled: 2026-07-01
 
-export interface UniversityOfGroningenCourse { id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
+export interface UniversityOfGroningenCourse {
+  feeVerified?: boolean; id: string; name: string; slug: string; url: string; level: string; studyLevel: string; duration: string; durationYears: number; annualEUR: number; annualUSD: number; annualINR: number; totalEUR: number; livingCostEUR: number; livingCostUSD: number; livingCostINR: number; ieltsMin: number; toeflMin: number; pteMin: number; intakeMonths: string[]; campus: string; country: string; state: string; city: string; countryCode: string; }
 
 export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
   {
@@ -31,7 +32,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-2",
@@ -60,7 +62,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-3",
@@ -89,7 +92,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-4",
@@ -118,7 +122,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-5",
@@ -147,7 +152,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-6",
@@ -176,7 +182,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-7",
@@ -205,7 +212,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-8",
@@ -234,7 +242,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-9",
@@ -263,7 +272,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-10",
@@ -292,7 +302,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-11",
@@ -321,7 +332,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-12",
@@ -350,7 +362,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-13",
@@ -379,7 +392,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-14",
@@ -408,7 +422,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-15",
@@ -437,7 +452,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-16",
@@ -466,7 +482,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-17",
@@ -495,7 +512,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-18",
@@ -524,7 +542,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-19",
@@ -553,7 +572,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-20",
@@ -582,7 +602,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-21",
@@ -611,7 +632,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-22",
@@ -640,7 +662,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-23",
@@ -669,7 +692,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-24",
@@ -698,7 +722,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-25",
@@ -727,7 +752,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-26",
@@ -756,7 +782,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-27",
@@ -785,7 +812,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-28",
@@ -814,7 +842,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-29",
@@ -843,7 +872,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-30",
@@ -872,7 +902,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-31",
@@ -901,7 +932,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-32",
@@ -930,7 +962,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-33",
@@ -959,7 +992,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-34",
@@ -988,7 +1022,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-35",
@@ -1017,7 +1052,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-36",
@@ -1046,7 +1082,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-37",
@@ -1075,7 +1112,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-38",
@@ -1104,7 +1142,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-39",
@@ -1133,7 +1172,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-40",
@@ -1162,7 +1202,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-41",
@@ -1191,7 +1232,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-42",
@@ -1220,7 +1262,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-43",
@@ -1249,7 +1292,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-44",
@@ -1278,7 +1322,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-45",
@@ -1307,7 +1352,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-46",
@@ -1336,7 +1382,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-47",
@@ -1365,7 +1412,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-48",
@@ -1394,7 +1442,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-49",
@@ -1423,7 +1472,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-50",
@@ -1452,7 +1502,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-51",
@@ -1481,7 +1532,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-52",
@@ -1510,7 +1562,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-53",
@@ -1539,7 +1592,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-54",
@@ -1568,7 +1622,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-55",
@@ -1597,7 +1652,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-56",
@@ -1626,7 +1682,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-57",
@@ -1655,7 +1712,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-58",
@@ -1684,7 +1742,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-59",
@@ -1713,7 +1772,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-60",
@@ -1742,7 +1802,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-61",
@@ -1771,7 +1832,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-62",
@@ -1800,7 +1862,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-63",
@@ -1829,7 +1892,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-64",
@@ -1858,7 +1922,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-65",
@@ -1887,7 +1952,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-66",
@@ -1916,7 +1982,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-67",
@@ -1945,7 +2012,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-68",
@@ -1974,7 +2042,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-69",
@@ -2003,7 +2072,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-70",
@@ -2032,7 +2102,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-71",
@@ -2061,7 +2132,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-72",
@@ -2090,7 +2162,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-73",
@@ -2119,7 +2192,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-74",
@@ -2148,7 +2222,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-75",
@@ -2177,7 +2252,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-76",
@@ -2206,7 +2282,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-77",
@@ -2235,7 +2312,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-78",
@@ -2264,7 +2342,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-79",
@@ -2293,7 +2372,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-80",
@@ -2322,7 +2402,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-81",
@@ -2351,7 +2432,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-82",
@@ -2380,7 +2462,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-83",
@@ -2409,7 +2492,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-84",
@@ -2438,7 +2522,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-85",
@@ -2467,7 +2552,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-86",
@@ -2496,7 +2582,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-87",
@@ -2525,7 +2612,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-88",
@@ -2554,7 +2642,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-89",
@@ -2583,7 +2672,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-90",
@@ -2612,7 +2702,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-91",
@@ -2641,7 +2732,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-92",
@@ -2670,7 +2762,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-93",
@@ -2699,7 +2792,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-94",
@@ -2728,7 +2822,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-95",
@@ -2757,7 +2852,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-96",
@@ -2786,7 +2882,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-97",
@@ -2815,7 +2912,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-98",
@@ -2844,7 +2942,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-99",
@@ -2873,7 +2972,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-100",
@@ -2902,7 +3002,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-101",
@@ -2931,7 +3032,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-102",
@@ -2960,7 +3062,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-103",
@@ -2989,7 +3092,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-104",
@@ -3018,7 +3122,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-105",
@@ -3047,7 +3152,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-106",
@@ -3076,7 +3182,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-107",
@@ -3105,7 +3212,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-108",
@@ -3134,7 +3242,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-109",
@@ -3163,7 +3272,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-110",
@@ -3192,7 +3302,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-111",
@@ -3221,7 +3332,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-112",
@@ -3250,7 +3362,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-113",
@@ -3279,7 +3392,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-114",
@@ -3308,7 +3422,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-115",
@@ -3337,7 +3452,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-116",
@@ -3366,7 +3482,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-117",
@@ -3395,7 +3512,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-118",
@@ -3424,7 +3542,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-119",
@@ -3453,7 +3572,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-120",
@@ -3482,7 +3602,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-121",
@@ -3511,7 +3632,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-122",
@@ -3540,7 +3662,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-123",
@@ -3569,7 +3692,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-124",
@@ -3598,7 +3722,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-125",
@@ -3627,7 +3752,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-126",
@@ -3656,7 +3782,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-127",
@@ -3685,7 +3812,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-128",
@@ -3714,7 +3842,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-129",
@@ -3743,7 +3872,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-130",
@@ -3772,7 +3902,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-131",
@@ -3801,7 +3932,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-132",
@@ -3830,7 +3962,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-133",
@@ -3859,7 +3992,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-134",
@@ -3888,7 +4022,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-135",
@@ -3917,7 +4052,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-136",
@@ -3946,7 +4082,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-137",
@@ -3975,7 +4112,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-138",
@@ -4004,7 +4142,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-139",
@@ -4033,7 +4172,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-140",
@@ -4062,7 +4202,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-141",
@@ -4091,7 +4232,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-142",
@@ -4120,7 +4262,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-143",
@@ -4149,7 +4292,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-144",
@@ -4178,7 +4322,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-145",
@@ -4207,7 +4352,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-146",
@@ -4236,7 +4382,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-147",
@@ -4265,7 +4412,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-148",
@@ -4294,7 +4442,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-149",
@@ -4323,7 +4472,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-150",
@@ -4352,7 +4502,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-151",
@@ -4381,7 +4532,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-152",
@@ -4410,7 +4562,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-153",
@@ -4439,7 +4592,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-154",
@@ -4468,7 +4622,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-155",
@@ -4497,7 +4652,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-156",
@@ -4526,7 +4682,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-157",
@@ -4555,7 +4712,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-158",
@@ -4584,7 +4742,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-159",
@@ -4613,7 +4772,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-160",
@@ -4642,7 +4802,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-161",
@@ -4671,7 +4832,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-162",
@@ -4700,7 +4862,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-163",
@@ -4729,7 +4892,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-164",
@@ -4758,7 +4922,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-165",
@@ -4787,7 +4952,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-166",
@@ -4816,7 +4982,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-167",
@@ -4845,7 +5012,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-168",
@@ -4874,7 +5042,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-169",
@@ -4903,7 +5072,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-170",
@@ -4932,7 +5102,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-171",
@@ -4961,7 +5132,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-172",
@@ -4990,7 +5162,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-173",
@@ -5019,7 +5192,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-174",
@@ -5048,7 +5222,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-175",
@@ -5077,7 +5252,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-176",
@@ -5106,7 +5282,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-177",
@@ -5135,7 +5312,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-178",
@@ -5164,7 +5342,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-179",
@@ -5193,7 +5372,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-180",
@@ -5222,7 +5402,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-181",
@@ -5251,7 +5432,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-182",
@@ -5280,7 +5462,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-183",
@@ -5309,7 +5492,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-184",
@@ -5338,7 +5522,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-185",
@@ -5367,7 +5552,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-186",
@@ -5396,7 +5582,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-187",
@@ -5425,7 +5612,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-188",
@@ -5454,7 +5642,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-189",
@@ -5483,7 +5672,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-190",
@@ -5512,7 +5702,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-191",
@@ -5541,7 +5732,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-192",
@@ -5570,7 +5762,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-193",
@@ -5599,7 +5792,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-194",
@@ -5628,7 +5822,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-195",
@@ -5657,7 +5852,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-196",
@@ -5686,7 +5882,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-197",
@@ -5715,7 +5912,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-198",
@@ -5744,7 +5942,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-199",
@@ -5773,7 +5972,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-200",
@@ -5802,7 +6002,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-201",
@@ -5831,7 +6032,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-202",
@@ -5860,7 +6062,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-203",
@@ -5889,7 +6092,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-204",
@@ -5918,7 +6122,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-205",
@@ -5947,7 +6152,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-206",
@@ -5976,7 +6182,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-207",
@@ -6005,7 +6212,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-208",
@@ -6034,7 +6242,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-209",
@@ -6063,7 +6272,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-210",
@@ -6092,7 +6302,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-211",
@@ -6121,7 +6332,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-212",
@@ -6150,7 +6362,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-213",
@@ -6179,7 +6392,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-214",
@@ -6208,7 +6422,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-215",
@@ -6237,7 +6452,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-216",
@@ -6266,7 +6482,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-217",
@@ -6295,7 +6512,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-218",
@@ -6324,7 +6542,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-219",
@@ -6353,7 +6572,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-220",
@@ -6382,7 +6602,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-221",
@@ -6411,7 +6632,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-222",
@@ -6440,7 +6662,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-223",
@@ -6469,7 +6692,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-224",
@@ -6498,7 +6722,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-225",
@@ -6527,7 +6752,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-226",
@@ -6556,7 +6782,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-227",
@@ -6585,7 +6812,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-228",
@@ -6614,7 +6842,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-229",
@@ -6643,7 +6872,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-230",
@@ -6672,7 +6902,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-231",
@@ -6701,7 +6932,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-232",
@@ -6730,7 +6962,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-233",
@@ -6759,7 +6992,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-234",
@@ -6788,7 +7022,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-235",
@@ -6817,7 +7052,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-236",
@@ -6846,7 +7082,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-237",
@@ -6875,7 +7112,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-238",
@@ -6904,7 +7142,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-239",
@@ -6933,7 +7172,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-240",
@@ -6962,7 +7202,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-241",
@@ -6991,7 +7232,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-242",
@@ -7020,7 +7262,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-243",
@@ -7049,7 +7292,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-244",
@@ -7078,7 +7322,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-245",
@@ -7107,7 +7352,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-246",
@@ -7136,7 +7382,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-247",
@@ -7165,7 +7412,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-248",
@@ -7194,7 +7442,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-249",
@@ -7223,7 +7472,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-250",
@@ -7252,7 +7502,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-251",
@@ -7281,7 +7532,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-252",
@@ -7310,7 +7562,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-253",
@@ -7339,7 +7592,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-254",
@@ -7368,7 +7622,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-255",
@@ -7397,7 +7652,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-256",
@@ -7426,7 +7682,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-257",
@@ -7455,7 +7712,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-258",
@@ -7484,7 +7742,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-259",
@@ -7513,7 +7772,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-260",
@@ -7542,7 +7802,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-261",
@@ -7571,7 +7832,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-262",
@@ -7599,7 +7861,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-263",
@@ -7627,7 +7890,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-264",
@@ -7655,7 +7919,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-265",
@@ -7683,7 +7948,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-266",
@@ -7711,7 +7977,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-267",
@@ -7739,7 +8006,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-268",
@@ -7767,7 +8035,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-269",
@@ -7795,7 +8064,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-270",
@@ -7823,7 +8093,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-271",
@@ -7851,7 +8122,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-272",
@@ -7879,7 +8151,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-273",
@@ -7907,7 +8180,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-274",
@@ -7935,7 +8209,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-275",
@@ -7963,7 +8238,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-276",
@@ -7991,7 +8267,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-277",
@@ -8019,7 +8296,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-278",
@@ -8047,7 +8325,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-279",
@@ -8075,7 +8354,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-280",
@@ -8103,7 +8383,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-281",
@@ -8131,7 +8412,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-282",
@@ -8159,7 +8441,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-283",
@@ -8187,7 +8470,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-284",
@@ -8215,7 +8499,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-285",
@@ -8243,7 +8528,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-286",
@@ -8271,7 +8557,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-287",
@@ -8299,7 +8586,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-288",
@@ -8327,7 +8615,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-289",
@@ -8355,7 +8644,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-290",
@@ -8383,7 +8673,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-291",
@@ -8411,7 +8702,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-292",
@@ -8439,7 +8731,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-293",
@@ -8467,7 +8760,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-294",
@@ -8495,7 +8789,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-295",
@@ -8523,7 +8818,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-296",
@@ -8551,7 +8847,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-297",
@@ -8579,7 +8876,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-298",
@@ -8607,7 +8905,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-299",
@@ -8635,7 +8934,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-300",
@@ -8663,7 +8963,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-301",
@@ -8691,7 +8992,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-302",
@@ -8719,7 +9021,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-303",
@@ -8747,7 +9050,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-304",
@@ -8775,7 +9079,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-305",
@@ -8803,7 +9108,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-306",
@@ -8831,7 +9137,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-307",
@@ -8859,7 +9166,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-308",
@@ -8887,7 +9195,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-309",
@@ -8915,7 +9224,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-310",
@@ -8943,7 +9253,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-311",
@@ -8971,7 +9282,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-312",
@@ -8999,7 +9311,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-313",
@@ -9027,7 +9340,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-314",
@@ -9055,7 +9369,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-315",
@@ -9083,7 +9398,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-316",
@@ -9111,7 +9427,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-317",
@@ -9139,7 +9456,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-318",
@@ -9167,7 +9485,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-319",
@@ -9195,7 +9514,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-320",
@@ -9223,7 +9543,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-321",
@@ -9251,7 +9572,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-322",
@@ -9279,7 +9601,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-323",
@@ -9307,7 +9630,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-324",
@@ -9335,7 +9659,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-325",
@@ -9363,7 +9688,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-326",
@@ -9391,7 +9717,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-327",
@@ -9419,7 +9746,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-328",
@@ -9447,7 +9775,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-329",
@@ -9475,7 +9804,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-330",
@@ -9503,7 +9833,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-331",
@@ -9531,7 +9862,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-332",
@@ -9559,7 +9891,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-333",
@@ -9587,7 +9920,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-334",
@@ -9615,7 +9949,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-335",
@@ -9643,7 +9978,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-336",
@@ -9671,7 +10007,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-337",
@@ -9699,7 +10036,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-338",
@@ -9727,7 +10065,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-339",
@@ -9755,7 +10094,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-340",
@@ -9783,7 +10123,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-341",
@@ -9811,7 +10152,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-342",
@@ -9839,7 +10181,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-343",
@@ -9867,7 +10210,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-344",
@@ -9895,7 +10239,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-345",
@@ -9923,7 +10268,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-346",
@@ -9951,7 +10297,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-347",
@@ -9979,7 +10326,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-348",
@@ -10007,7 +10355,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-349",
@@ -10035,7 +10384,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-350",
@@ -10063,7 +10413,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-351",
@@ -10091,7 +10442,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-352",
@@ -10119,7 +10471,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-353",
@@ -10147,7 +10500,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-354",
@@ -10175,7 +10529,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   },
   {
     "id": "grug-355",
@@ -10203,7 +10558,8 @@ export const universityOfGroningenCourses: UniversityOfGroningenCourse[] = [
     "country": "Netherlands",
     "state": "Groningen",
     "city": "Groningen",
-    "countryCode": "NL"
+    "countryCode": "NL",
+    "feeVerified": false
   }
 ];
 

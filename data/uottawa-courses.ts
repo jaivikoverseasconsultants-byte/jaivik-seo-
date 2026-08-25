@@ -7,6 +7,7 @@
 // URL verified to resolve with real page content before inclusion.
 
 export interface UottawaCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
@@ -46,7 +47,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-2",
@@ -76,7 +78,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-3",
@@ -106,7 +109,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-4",
@@ -136,7 +140,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-5",
@@ -166,7 +171,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-6",
@@ -196,7 +202,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-7",
@@ -226,7 +233,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-8",
@@ -256,7 +264,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-9",
@@ -286,7 +295,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-10",
@@ -316,7 +326,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-11",
@@ -346,7 +357,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-12",
@@ -376,7 +388,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-13",
@@ -406,7 +419,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-14",
@@ -436,7 +450,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-15",
@@ -466,7 +481,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-16",
@@ -496,7 +512,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-17",
@@ -526,7 +543,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-18",
@@ -556,7 +574,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-19",
@@ -586,7 +605,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-20",
@@ -616,7 +636,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-21",
@@ -646,7 +667,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-22",
@@ -676,7 +698,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-23",
@@ -706,7 +729,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-24",
@@ -736,7 +760,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-25",
@@ -766,7 +791,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-26",
@@ -796,7 +822,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-27",
@@ -826,7 +853,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-28",
@@ -856,7 +884,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-29",
@@ -886,7 +915,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-30",
@@ -916,7 +946,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-31",
@@ -946,7 +977,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-32",
@@ -976,7 +1008,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-33",
@@ -1006,7 +1039,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-34",
@@ -1036,7 +1070,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-35",
@@ -1066,7 +1101,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-36",
@@ -1096,7 +1132,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-37",
@@ -1126,7 +1163,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-38",
@@ -1156,7 +1194,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-39",
@@ -1186,7 +1225,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-40",
@@ -1216,7 +1256,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-41",
@@ -1246,7 +1287,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-42",
@@ -1276,7 +1318,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-43",
@@ -1306,7 +1349,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-44",
@@ -1336,7 +1380,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-45",
@@ -1366,7 +1411,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-46",
@@ -1396,7 +1442,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-47",
@@ -1426,7 +1473,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-48",
@@ -1456,7 +1504,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-49",
@@ -1486,7 +1535,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-50",
@@ -1516,7 +1566,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-51",
@@ -1546,7 +1597,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-52",
@@ -1576,7 +1628,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-53",
@@ -1606,7 +1659,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-54",
@@ -1636,7 +1690,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-55",
@@ -1666,7 +1721,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-56",
@@ -1696,7 +1752,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-57",
@@ -1726,7 +1783,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-58",
@@ -1756,7 +1814,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-59",
@@ -1786,7 +1845,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-60",
@@ -1816,7 +1876,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-61",
@@ -1846,7 +1907,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-62",
@@ -1876,7 +1938,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-63",
@@ -1906,7 +1969,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-64",
@@ -1936,7 +2000,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-65",
@@ -1966,7 +2031,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-66",
@@ -1996,7 +2062,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-67",
@@ -2026,7 +2093,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-68",
@@ -2056,7 +2124,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-69",
@@ -2086,7 +2155,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-70",
@@ -2116,7 +2186,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-71",
@@ -2146,7 +2217,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-72",
@@ -2176,7 +2248,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-73",
@@ -2206,7 +2279,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-74",
@@ -2236,7 +2310,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-75",
@@ -2266,7 +2341,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-76",
@@ -2296,7 +2372,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-77",
@@ -2326,7 +2403,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-78",
@@ -2356,7 +2434,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-79",
@@ -2386,7 +2465,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-80",
@@ -2416,7 +2496,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-81",
@@ -2446,7 +2527,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-82",
@@ -2476,7 +2558,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-83",
@@ -2506,7 +2589,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-84",
@@ -2536,7 +2620,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-85",
@@ -2566,7 +2651,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-86",
@@ -2596,7 +2682,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-87",
@@ -2626,7 +2713,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-88",
@@ -2656,7 +2744,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-89",
@@ -2686,7 +2775,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-90",
@@ -2716,7 +2806,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-91",
@@ -2746,7 +2837,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-92",
@@ -2776,7 +2868,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-93",
@@ -2806,7 +2899,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-94",
@@ -2836,7 +2930,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-95",
@@ -2866,7 +2961,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-96",
@@ -2896,7 +2992,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-97",
@@ -2926,7 +3023,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-98",
@@ -2956,7 +3054,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-99",
@@ -2986,7 +3085,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-100",
@@ -3016,7 +3116,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-101",
@@ -3046,7 +3147,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-102",
@@ -3076,7 +3178,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-103",
@@ -3106,7 +3209,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-104",
@@ -3136,7 +3240,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-105",
@@ -3166,7 +3271,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-106",
@@ -3196,7 +3302,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-107",
@@ -3226,7 +3333,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-108",
@@ -3256,7 +3364,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-109",
@@ -3286,7 +3395,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-110",
@@ -3316,7 +3426,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-111",
@@ -3346,7 +3457,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-112",
@@ -3376,7 +3488,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-113",
@@ -3406,7 +3519,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-114",
@@ -3436,7 +3550,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-115",
@@ -3466,7 +3581,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-116",
@@ -3496,7 +3612,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-117",
@@ -3526,7 +3643,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-118",
@@ -3556,7 +3674,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-119",
@@ -3586,7 +3705,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-120",
@@ -3616,7 +3736,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-121",
@@ -3646,7 +3767,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-122",
@@ -3676,7 +3798,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-123",
@@ -3706,7 +3829,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-124",
@@ -3736,7 +3860,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-125",
@@ -3766,7 +3891,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-126",
@@ -3796,7 +3922,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-127",
@@ -3826,7 +3953,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-128",
@@ -3856,7 +3984,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-129",
@@ -3886,7 +4015,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-130",
@@ -3916,7 +4046,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-131",
@@ -3946,7 +4077,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-132",
@@ -3976,7 +4108,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-133",
@@ -4006,7 +4139,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-134",
@@ -4036,7 +4170,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-135",
@@ -4066,7 +4201,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-136",
@@ -4096,7 +4232,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-137",
@@ -4126,7 +4263,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-138",
@@ -4156,7 +4294,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-139",
@@ -4186,7 +4325,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-140",
@@ -4216,7 +4356,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-141",
@@ -4246,7 +4387,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-142",
@@ -4276,7 +4418,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-143",
@@ -4306,7 +4449,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-144",
@@ -4336,7 +4480,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-145",
@@ -4366,7 +4511,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-146",
@@ -4396,7 +4542,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-147",
@@ -4426,7 +4573,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-148",
@@ -4456,7 +4604,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-149",
@@ -4486,7 +4635,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-150",
@@ -4516,7 +4666,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-151",
@@ -4546,7 +4697,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-152",
@@ -4576,7 +4728,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-153",
@@ -4606,7 +4759,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-154",
@@ -4636,7 +4790,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-155",
@@ -4666,7 +4821,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-156",
@@ -4696,7 +4852,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-157",
@@ -4726,7 +4883,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-158",
@@ -4756,7 +4914,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-159",
@@ -4786,7 +4945,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-160",
@@ -4816,7 +4976,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-161",
@@ -4846,7 +5007,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-162",
@@ -4876,7 +5038,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-163",
@@ -4906,7 +5069,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-164",
@@ -4936,7 +5100,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-165",
@@ -4966,7 +5131,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-166",
@@ -4996,7 +5162,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-167",
@@ -5026,7 +5193,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-168",
@@ -5056,7 +5224,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-169",
@@ -5086,7 +5255,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-170",
@@ -5116,7 +5286,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-171",
@@ -5146,7 +5317,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-172",
@@ -5176,7 +5348,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-173",
@@ -5206,7 +5379,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-174",
@@ -5236,7 +5410,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-175",
@@ -5266,7 +5441,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-176",
@@ -5296,7 +5472,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-177",
@@ -5326,7 +5503,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-178",
@@ -5356,7 +5534,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-179",
@@ -5386,7 +5565,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-180",
@@ -5416,7 +5596,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-181",
@@ -5446,7 +5627,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-182",
@@ -5476,7 +5658,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-183",
@@ -5506,7 +5689,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-184",
@@ -5536,7 +5720,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-185",
@@ -5566,7 +5751,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-186",
@@ -5596,7 +5782,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-187",
@@ -5626,7 +5813,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-188",
@@ -5656,7 +5844,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-189",
@@ -5686,7 +5875,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-190",
@@ -5716,7 +5906,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-191",
@@ -5746,7 +5937,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-192",
@@ -5776,7 +5968,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-193",
@@ -5806,7 +5999,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-194",
@@ -5836,7 +6030,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-195",
@@ -5866,7 +6061,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-196",
@@ -5896,7 +6092,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-197",
@@ -5926,7 +6123,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-198",
@@ -5956,7 +6154,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-199",
@@ -5986,7 +6185,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-200",
@@ -6016,7 +6216,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-201",
@@ -6046,7 +6247,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-202",
@@ -6076,7 +6278,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-203",
@@ -6106,7 +6309,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-204",
@@ -6136,7 +6340,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-205",
@@ -6166,7 +6371,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-206",
@@ -6196,7 +6402,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-207",
@@ -6226,7 +6433,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-208",
@@ -6256,7 +6464,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-209",
@@ -6286,7 +6495,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-210",
@@ -6316,7 +6526,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-211",
@@ -6346,7 +6557,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-212",
@@ -6376,7 +6588,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-213",
@@ -6406,7 +6619,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-214",
@@ -6436,7 +6650,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-215",
@@ -6466,7 +6681,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-216",
@@ -6496,7 +6712,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-217",
@@ -6526,7 +6743,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-218",
@@ -6556,7 +6774,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-219",
@@ -6586,7 +6805,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-220",
@@ -6616,7 +6836,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-221",
@@ -6646,7 +6867,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-222",
@@ -6676,7 +6898,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-223",
@@ -6706,7 +6929,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-224",
@@ -6736,7 +6960,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-225",
@@ -6766,7 +6991,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-226",
@@ -6796,7 +7022,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-227",
@@ -6826,7 +7053,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-228",
@@ -6856,7 +7084,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-229",
@@ -6886,7 +7115,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-230",
@@ -6916,7 +7146,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-231",
@@ -6946,7 +7177,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-232",
@@ -6976,7 +7208,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-233",
@@ -7006,7 +7239,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-234",
@@ -7036,7 +7270,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-235",
@@ -7066,7 +7301,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-236",
@@ -7096,7 +7332,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-237",
@@ -7126,7 +7363,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-238",
@@ -7156,7 +7394,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-239",
@@ -7186,7 +7425,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-240",
@@ -7216,7 +7456,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-241",
@@ -7246,7 +7487,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-242",
@@ -7276,7 +7518,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-243",
@@ -7306,7 +7549,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-244",
@@ -7336,7 +7580,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-245",
@@ -7366,7 +7611,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-246",
@@ -7396,7 +7642,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-247",
@@ -7426,7 +7673,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-248",
@@ -7456,7 +7704,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-249",
@@ -7486,7 +7735,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-250",
@@ -7516,7 +7766,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-251",
@@ -7546,7 +7797,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-252",
@@ -7576,7 +7828,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-253",
@@ -7606,7 +7859,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-254",
@@ -7636,7 +7890,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-255",
@@ -7666,7 +7921,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-256",
@@ -7696,7 +7952,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-257",
@@ -7726,7 +7983,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-258",
@@ -7756,7 +8014,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-259",
@@ -7786,7 +8045,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-260",
@@ -7816,7 +8076,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-261",
@@ -7846,7 +8107,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-262",
@@ -7876,7 +8138,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-263",
@@ -7906,7 +8169,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-264",
@@ -7936,7 +8200,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-265",
@@ -7966,7 +8231,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-266",
@@ -7996,7 +8262,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-267",
@@ -8026,7 +8293,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-268",
@@ -8056,7 +8324,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-269",
@@ -8086,7 +8355,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-270",
@@ -8116,7 +8386,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-271",
@@ -8146,7 +8417,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-272",
@@ -8176,7 +8448,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-273",
@@ -8206,7 +8479,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-274",
@@ -8236,7 +8510,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-275",
@@ -8266,7 +8541,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-276",
@@ -8296,7 +8572,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-277",
@@ -8326,7 +8603,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-278",
@@ -8356,7 +8634,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-279",
@@ -8386,7 +8665,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-280",
@@ -8416,7 +8696,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-281",
@@ -8446,7 +8727,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-282",
@@ -8476,7 +8758,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-283",
@@ -8506,7 +8789,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-284",
@@ -8536,7 +8820,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-285",
@@ -8566,7 +8851,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-286",
@@ -8596,7 +8882,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-287",
@@ -8626,7 +8913,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-288",
@@ -8656,7 +8944,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-289",
@@ -8686,7 +8975,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-290",
@@ -8716,7 +9006,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-291",
@@ -8746,7 +9037,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-292",
@@ -8776,7 +9068,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-293",
@@ -8806,7 +9099,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-294",
@@ -8836,7 +9130,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-295",
@@ -8866,7 +9161,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-296",
@@ -8896,7 +9192,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-297",
@@ -8926,7 +9223,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-298",
@@ -8956,7 +9254,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-299",
@@ -8986,7 +9285,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-300",
@@ -9016,7 +9316,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-301",
@@ -9046,7 +9347,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-302",
@@ -9076,7 +9378,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-303",
@@ -9106,7 +9409,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-304",
@@ -9136,7 +9440,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-305",
@@ -9166,7 +9471,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-306",
@@ -9196,7 +9502,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-307",
@@ -9226,7 +9533,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-308",
@@ -9256,7 +9564,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-309",
@@ -9286,7 +9595,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-310",
@@ -9316,7 +9626,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-311",
@@ -9346,7 +9657,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-312",
@@ -9376,7 +9688,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-313",
@@ -9406,7 +9719,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-314",
@@ -9436,7 +9750,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-315",
@@ -9466,7 +9781,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-316",
@@ -9496,7 +9812,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-317",
@@ -9526,7 +9843,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-318",
@@ -9556,7 +9874,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-319",
@@ -9586,7 +9905,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-320",
@@ -9616,7 +9936,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-321",
@@ -9646,7 +9967,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-322",
@@ -9676,7 +9998,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-323",
@@ -9706,7 +10029,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-324",
@@ -9736,7 +10060,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-325",
@@ -9766,7 +10091,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-326",
@@ -9796,7 +10122,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-327",
@@ -9826,7 +10153,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-328",
@@ -9856,7 +10184,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-329",
@@ -9886,7 +10215,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-330",
@@ -9916,7 +10246,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-331",
@@ -9946,7 +10277,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-332",
@@ -9976,7 +10308,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-333",
@@ -10006,7 +10339,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-334",
@@ -10036,7 +10370,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-335",
@@ -10066,7 +10401,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-336",
@@ -10096,7 +10432,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-337",
@@ -10126,7 +10463,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-338",
@@ -10156,7 +10494,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-339",
@@ -10186,7 +10525,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-340",
@@ -10216,7 +10556,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-341",
@@ -10246,7 +10587,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-342",
@@ -10276,7 +10618,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-343",
@@ -10306,7 +10649,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-344",
@@ -10336,7 +10680,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-345",
@@ -10366,7 +10711,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-346",
@@ -10396,7 +10742,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-347",
@@ -10426,7 +10773,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-348",
@@ -10456,7 +10804,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-349",
@@ -10486,7 +10835,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-350",
@@ -10516,7 +10866,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-351",
@@ -10546,7 +10897,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-352",
@@ -10576,7 +10928,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-353",
@@ -10606,7 +10959,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-354",
@@ -10636,7 +10990,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-355",
@@ -10666,7 +11021,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-356",
@@ -10696,7 +11052,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-357",
@@ -10726,7 +11083,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-358",
@@ -10756,7 +11114,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-359",
@@ -10786,7 +11145,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-360",
@@ -10816,7 +11176,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-361",
@@ -10846,7 +11207,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-362",
@@ -10876,7 +11238,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-363",
@@ -10906,7 +11269,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-364",
@@ -10936,7 +11300,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-365",
@@ -10966,7 +11331,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-366",
@@ -10996,7 +11362,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-367",
@@ -11026,7 +11393,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-368",
@@ -11056,7 +11424,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-369",
@@ -11086,7 +11455,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-370",
@@ -11116,7 +11486,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-371",
@@ -11146,7 +11517,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-372",
@@ -11176,7 +11548,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-373",
@@ -11206,7 +11579,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-374",
@@ -11236,7 +11610,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-375",
@@ -11266,7 +11641,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-376",
@@ -11296,7 +11672,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-377",
@@ -11326,7 +11703,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-378",
@@ -11356,7 +11734,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-379",
@@ -11386,7 +11765,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-380",
@@ -11416,7 +11796,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-381",
@@ -11446,7 +11827,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-382",
@@ -11476,7 +11858,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-383",
@@ -11506,7 +11889,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-384",
@@ -11536,7 +11920,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-385",
@@ -11566,7 +11951,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-386",
@@ -11596,7 +11982,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-387",
@@ -11626,7 +12013,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-388",
@@ -11656,7 +12044,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-389",
@@ -11686,7 +12075,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-390",
@@ -11716,7 +12106,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-391",
@@ -11746,7 +12137,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-392",
@@ -11776,7 +12168,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-393",
@@ -11806,7 +12199,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-394",
@@ -11836,7 +12230,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-395",
@@ -11866,7 +12261,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-396",
@@ -11896,7 +12292,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-397",
@@ -11926,7 +12323,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-398",
@@ -11956,7 +12354,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-399",
@@ -11986,7 +12385,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-400",
@@ -12016,7 +12416,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-401",
@@ -12046,7 +12447,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-402",
@@ -12076,7 +12478,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-403",
@@ -12106,7 +12509,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-404",
@@ -12136,7 +12540,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-405",
@@ -12166,7 +12571,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-406",
@@ -12196,7 +12602,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-407",
@@ -12226,7 +12633,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-408",
@@ -12256,7 +12664,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-409",
@@ -12286,7 +12695,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-410",
@@ -12316,7 +12726,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-411",
@@ -12346,7 +12757,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-412",
@@ -12376,7 +12788,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-413",
@@ -12406,7 +12819,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-414",
@@ -12436,7 +12850,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-415",
@@ -12466,7 +12881,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-416",
@@ -12496,7 +12912,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-417",
@@ -12526,7 +12943,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-418",
@@ -12556,7 +12974,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-419",
@@ -12586,7 +13005,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-420",
@@ -12616,7 +13036,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-421",
@@ -12646,7 +13067,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-422",
@@ -12676,7 +13098,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-423",
@@ -12706,7 +13129,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-424",
@@ -12736,7 +13160,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-425",
@@ -12766,7 +13191,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-426",
@@ -12796,7 +13222,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-427",
@@ -12826,7 +13253,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-428",
@@ -12856,7 +13284,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-429",
@@ -12886,7 +13315,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-430",
@@ -12916,7 +13346,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-431",
@@ -12946,7 +13377,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-432",
@@ -12976,7 +13408,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-433",
@@ -13006,7 +13439,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-434",
@@ -13036,7 +13470,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-435",
@@ -13066,7 +13501,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-436",
@@ -13096,7 +13532,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-437",
@@ -13126,7 +13563,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-438",
@@ -13156,7 +13594,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-439",
@@ -13186,7 +13625,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-440",
@@ -13216,7 +13656,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-441",
@@ -13246,7 +13687,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-442",
@@ -13276,7 +13718,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-443",
@@ -13306,7 +13749,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-444",
@@ -13336,7 +13780,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-445",
@@ -13366,7 +13811,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-446",
@@ -13396,7 +13842,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-447",
@@ -13426,7 +13873,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-448",
@@ -13456,7 +13904,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-449",
@@ -13486,7 +13935,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-450",
@@ -13516,7 +13966,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-451",
@@ -13546,7 +13997,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-452",
@@ -13576,7 +14028,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-453",
@@ -13606,7 +14059,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-454",
@@ -13636,7 +14090,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-455",
@@ -13666,7 +14121,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-456",
@@ -13696,7 +14152,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-457",
@@ -13726,7 +14183,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-458",
@@ -13756,7 +14214,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-459",
@@ -13786,7 +14245,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-460",
@@ -13816,7 +14276,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-461",
@@ -13846,7 +14307,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-462",
@@ -13876,7 +14338,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-463",
@@ -13906,7 +14369,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-464",
@@ -13936,7 +14400,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-465",
@@ -13966,7 +14431,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-466",
@@ -13996,7 +14462,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-467",
@@ -14026,7 +14493,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-468",
@@ -14056,7 +14524,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-469",
@@ -14086,7 +14555,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-470",
@@ -14116,7 +14586,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-471",
@@ -14146,7 +14617,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-472",
@@ -14176,7 +14648,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-473",
@@ -14206,7 +14679,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-474",
@@ -14236,7 +14710,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-475",
@@ -14266,7 +14741,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-476",
@@ -14296,7 +14772,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-477",
@@ -14326,7 +14803,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-478",
@@ -14356,7 +14834,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-479",
@@ -14386,7 +14865,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-480",
@@ -14416,7 +14896,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-481",
@@ -14446,7 +14927,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-482",
@@ -14476,7 +14958,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-483",
@@ -14506,7 +14989,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-484",
@@ -14536,7 +15020,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-485",
@@ -14566,7 +15051,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-486",
@@ -14596,7 +15082,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-487",
@@ -14626,7 +15113,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-488",
@@ -14656,7 +15144,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-489",
@@ -14686,7 +15175,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-490",
@@ -14716,7 +15206,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-491",
@@ -14746,7 +15237,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   },
   {
     "id": "uottawa-492",
@@ -14776,7 +15268,8 @@ export const uottawaCourses: UottawaCourse[] = [
     "province": "Ontario",
     "city": "Ottawa",
     "countryCode": "CA",
-    "pgwp": true
+    "pgwp": true,
+    "feeVerified": false
   }
 ];
 
