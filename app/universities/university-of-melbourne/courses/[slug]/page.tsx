@@ -11,7 +11,7 @@ import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLab
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
-import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { feeDisplay, feeDisplayINRLakh, isFeeVerified, titleFeeFragment } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-of-melbourne';
 export async function generateStaticParams() {
@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getUomCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Melbourne — Fees in INR, IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Melbourne — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
     description: `${course.name} at University of Melbourne, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-melbourne/courses/${slug}`,
     keywords: [course.name, 'UniMelb', 'University of Melbourne', 'study in Australia', course.level],
@@ -111,7 +111,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 University of Melbourne · #13 QS
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Melbourne — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Melbourne — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
@@ -230,9 +230,9 @@ export default async function CoursePage(
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
             <div className="space-y-3">
               {[
-                { label: `Tuition × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}`, value: `A$${course.totalAUD.toLocaleString()}`, hi: false },
+                { label: `Tuition × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}`, value: feeDisplay(course as any, course.totalAUD, 'AUD'), hi: false },
                 { label: `Living in Melbourne × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''} (~A$1,833/mo)`, value: `A$${(course.livingCostAUD * course.durationYears).toLocaleString()}`, hi: false },
-                { label: 'Total Estimated Cost', value: `A$${totalCostAUD.toLocaleString()}`, hi: true },
+                { label: 'Total Estimated Cost', value: feeDisplay(course as any, totalCostAUD, 'AUD'), hi: true },
                 { label: 'In Indian Rupees', value: `₹${totalCostINRLakh} Lakh`, hi: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.hi ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>

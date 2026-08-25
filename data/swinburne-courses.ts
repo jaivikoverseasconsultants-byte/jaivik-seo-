@@ -2,6 +2,7 @@
 // Source: data/scraped/australia/swinburne.json
 
 export interface SwinburneCourse {
+  feeVerified?: boolean;
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualAUD: number; annualUSD: number; annualINR: number; totalAUD: number;
@@ -21,6 +22,7 @@ export const swinburneCourses = [
     "studyLevel": "Postgraduate",
     "duration": "2 years",
     "durationYears": 2,
+    "feeVerified": false,
     "annualAUD": 32000,
     "annualUSD": 20800,
     "annualINR": 1747200,
@@ -50,6 +52,7 @@ export const swinburneCourses = [
     "studyLevel": "Postgraduate",
     "duration": "2 years",
     "durationYears": 2,
+    "feeVerified": false,
     "annualAUD": 32000,
     "annualUSD": 20800,
     "annualINR": 1747200,
@@ -79,6 +82,7 @@ export const swinburneCourses = [
     "studyLevel": "Postgraduate",
     "duration": "2 years",
     "durationYears": 2,
+    "feeVerified": false,
     "annualAUD": 32000,
     "annualUSD": 20800,
     "annualINR": 1747200,
@@ -108,6 +112,7 @@ export const swinburneCourses = [
     "studyLevel": "Postgraduate",
     "duration": "2 years",
     "durationYears": 2,
+    "feeVerified": false,
     "annualAUD": 32000,
     "annualUSD": 20800,
     "annualINR": 1747200,
@@ -137,6 +142,7 @@ export const swinburneCourses = [
     "studyLevel": "Postgraduate",
     "duration": "2 years",
     "durationYears": 2,
+    "feeVerified": false,
     "annualAUD": 32000,
     "annualUSD": 20800,
     "annualINR": 1747200,

@@ -7,7 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
-import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { feeDisplay, feeDisplayINRLakh, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 export async function generateStaticParams() {
   return (maastrichtUniversityCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -19,8 +19,8 @@ export async function generateMetadata(
   const course = getMaastrichtUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Maastricht University — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at Maastricht University, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${course.name} at Maastricht University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    description: `${course.name} at Maastricht University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/maastricht-university/courses/${slug}`,
     keywords: [course.name, 'Maastricht University', 'study in Netherlands', course.level],
   });
@@ -60,7 +60,7 @@ export default async function CourseDetailPage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇳🇱 Maastricht University · Maastricht, Netherlands
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Maastricht University — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Maastricht University — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-5">
                 {[
                   { label: 'Annual Fee', value: feeDisplay(course as any, course.annualEUR, 'EUR') },
@@ -98,7 +98,7 @@ export default async function CourseDetailPage(
                 ['TOEFL Minimum', `${course.toeflMin}+`],
                 ['Annual Fee (EUR)', feeDisplay(course as any, course.annualEUR, 'EUR')],
                 ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
-                ['Annual Fee (INR)', `₹${(course.annualINR/100000).toFixed(1)}L`],
+                ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (course.annualINR / 100000).toFixed(1), '')],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">
                   <span className="text-xs text-gray-500">{k}</span>

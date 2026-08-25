@@ -11,7 +11,7 @@ import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLab
 import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
-import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-of-sydney';
 export async function generateStaticParams() {
@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getUsydCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Sydney — Fees in INR, IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Sydney — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
     description: `${course.name} at University of Sydney, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-sydney/courses/${slug}`,
     keywords: [course.name, 'USyd', 'University of Sydney', 'study in Australia', course.level],
@@ -68,7 +68,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 University of Sydney · Sydney, Australia
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Sydney — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Sydney — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">{course.studyLevel} · {course.duration} · {course.campus}</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[

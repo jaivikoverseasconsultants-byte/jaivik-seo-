@@ -9,7 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
-import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'kaplan-business-school';
 export async function generateStaticParams() {
@@ -23,8 +23,8 @@ export async function generateMetadata(
   const course = getKaplanCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Kaplan Business School — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at Kaplan Business School, ${(course as any).city || course.country}${course.annualINR > 0 ? ` costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students.` : '.'}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${course.name} at Kaplan Business School — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    description: `${course.name} at Kaplan Business School, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/kaplan-business-school/courses/${slug}`,
     keywords: [course.name, 'Kaplan', 'Kaplan Business School', 'study in Australia', course.level],
   });
@@ -71,7 +71,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 Kaplan Business School · {course.campus}
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Kaplan Business School — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Kaplan Business School — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>
@@ -108,7 +108,7 @@ export default async function CoursePage(
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 course.annualAUD > 0 ? { label: 'Annual Tuition (AUD)', value: feeDisplay(course as any, course.annualAUD, 'AUD') } : null,
                 course.annualUSD > 0 ? { label: 'Annual Tuition (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') } : null,
-                course.totalAUD > 0 ? { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` } : null,
+                course.totalAUD > 0 ? { label: 'Total Course Fee', value: feeDisplay(course as any, course.totalAUD, 'AUD') } : null,
               ].filter((f): f is { label: string; value: string } => f !== null).map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
@@ -150,10 +150,10 @@ export default async function CoursePage(
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
             <div className="space-y-3">
               {[
-                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${course.totalAUD.toLocaleString()}`, highlight: true },
+                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: feeDisplay(course as any, course.totalAUD, 'AUD'), highlight: true },
                 { label: `Living Cost × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${(course.livingCostAUD * course.durationYears).toLocaleString()}` },
-                { label: 'Total Estimated Cost', value: `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}`, highlight: true },
-                { label: 'In Indian Rupees (₹)', value: `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh`, highlight: true },
+                { label: 'Total Estimated Cost', value: (isFeeVerified(course as any) ? `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}` : 'On request'), highlight: true },
+                { label: 'In Indian Rupees (₹)', value: (isFeeVerified(course as any) ? `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh` : 'On request'), highlight: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.highlight ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
                   <span className="text-sm text-gray-700">{r.label}</span>

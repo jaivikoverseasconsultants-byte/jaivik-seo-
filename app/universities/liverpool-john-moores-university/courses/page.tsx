@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import { ljmuCourses } from '@/data/ljmu-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Liverpool John Moores University International Courses – All Programs, Fees & IELTS 2026',
@@ -29,13 +30,12 @@ export default function CoursesPage() {
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
   const pgCourses = courses.filter((c: any) => c.studyLevel === 'Masters' || c.studyLevel === 'Postgraduate');
-  const avgFee = pgCourses.length
-    ? Math.round(pgCourses.reduce((s: number, c: any) => s + c.annualGBP, 0) / pgCourses.length)
-    : Math.round(courses.reduce((s: number, c: any) => s + c.annualGBP, 0) / (totalCourses || 1));
+  const avgFee = verifiedAvgFee(pgCourses.length ? (pgCourses as any[]) : (courses as any[]), 'annualGBP');
 
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _avgFeeUSD = courses.length
-    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
+  const _avgFeeUSD = _feeVerifiedCourses.length
+    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
     : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
@@ -60,14 +60,14 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at Liverpool John Moores University is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      {
+      ...(_avgFeeUSD > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at Liverpool John Moores University?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: `The average annual tuition at Liverpool John Moores University is approximately ${_avgFeeUSD.toLocaleString()} USD. Fees vary by program and level.`,
         },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake options does Liverpool John Moores University offer?`,
@@ -100,7 +100,9 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'Liverpool John Moores University' },
-        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+          : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
     })),
@@ -137,13 +139,13 @@ export default function CoursesPage() {
                 Liverpool John Moores University — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg £{avgFee.toLocaleString()}/yr · IELTS 6.0+ · September intakes
+                {totalCourses} programs · {avgFee > 0 ? `Avg £${avgFee.toLocaleString()}/yr` : 'Fees on request'} · IELTS 6.0+ · September intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'TEF Rating', value: 'Gold' },
-                  { label: 'Avg PG Fee', value: `£${Math.round(avgFee/1000)}K` },
+                  { label: 'Avg PG Fee', value: avgFee > 0 ? `£${Math.round(avgFee/1000)}K` : 'On request' },
                   { label: 'Campus', value: 'Liverpool' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">

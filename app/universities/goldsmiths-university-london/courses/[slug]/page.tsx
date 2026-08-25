@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
+import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 
 export async function generateStaticParams() {
   return goldsmithsCourses.map((c) => ({ slug: c.slug }));
@@ -17,8 +18,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getGoldsmithsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Goldsmiths, University of London — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at Goldsmiths, University of London, London${course.annualINR > 0 ? ` costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students.` : '.'}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${course.name} at Goldsmiths, University of London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    description: `${course.name} at Goldsmiths, University of London, London${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/goldsmiths-university-london/courses/${slug}`,
     keywords: [course.name, 'Goldsmiths', 'Goldsmiths, University of London', 'study in UK', course.level],
   });
@@ -46,7 +47,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             <span>{course.name}</span>
           </div>
           <div className="inline-block bg-white/10 text-blue-100 text-xs px-3 py-1 rounded-full mb-3">{course.level} · {course.studyLevel}</div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Goldsmiths, University of London — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at Goldsmiths, University of London — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
           <p className="text-blue-100 text-lg">Goldsmiths, University of London · London, UK · {course.duration}</p>
         </div>
       </section>
@@ -57,7 +58,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <h2 className="text-xl font-bold text-gray-900 mb-5">Program Overview</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {[
-                  fee > 0 ? { label: 'Annual Fee', value: `£${fee.toLocaleString()}`, sub: `₹${feeINRLakh}L/year` } : null,
+                  fee > 0 ? { label: 'Annual Fee', value: feeDisplay(course as any, fee, 'GBP'), sub: feeDisplayINRLakh(course as any, feeINRLakh, '/year') } : null,
                   course.ieltsMin > 0 ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: undefined } : null,
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Campus', value: 'London', sub: 'UK' },

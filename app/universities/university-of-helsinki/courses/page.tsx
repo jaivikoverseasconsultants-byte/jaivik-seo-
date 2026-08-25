@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import { universityOfHelsinkiCourses } from '@/data/university-of-helsinki-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Helsinki Courses 2026 – Programs, Fees & IELTS for Indian Students',
@@ -28,11 +29,12 @@ export default function CoursesPage() {
   const courses = universityOfHelsinkiCourses as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualEUR, 0) / totalCourses);
+  const avgFee = verifiedAvgFee(courses as any[], 'annualEUR');
 
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.5)) : 6.5;
-  const _avgFeeUSD = courses.length
-    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
+  const _avgFeeUSD = _feeVerifiedCourses.length
+    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
     : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
@@ -97,7 +99,9 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Helsinki' },
-        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+          : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Postgraduate',
       },
     })),

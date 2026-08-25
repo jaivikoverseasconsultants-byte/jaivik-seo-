@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import { chesterCourses } from '@/data/chester-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Chester Courses – All Programs, Fees & IELTS 2026',
@@ -28,7 +29,7 @@ export default function CoursesPage() {
   const courses = chesterCourses as unknown as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualGBP, 0) / (totalCourses || 1));
+  const avgFee = verifiedAvgFee(courses as any[], 'annualGBP');
   const minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
 
   const schema = {
@@ -59,13 +60,13 @@ export default function CoursesPage() {
                 University of Chester — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg £{avgFee.toLocaleString()}/yr · IELTS {minIelts}+ · September & January intakes
+                {totalCourses} programs · {avgFee > 0 ? `Avg £${avgFee.toLocaleString()}/yr` : 'Fees on request'} · IELTS {minIelts}+ · September & January intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'Ranking', value: 'Top 100 Modern' },
-                  { label: 'Avg Annual Fee', value: `£${Math.round(avgFee/1000)}K` },
+                  { label: 'Avg Annual Fee', value: avgFee > 0 ? `£${Math.round(avgFee/1000)}K` : 'On request' },
                   { label: 'Campus', value: 'Chester' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">

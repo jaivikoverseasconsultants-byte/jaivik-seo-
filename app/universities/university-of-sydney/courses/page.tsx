@@ -6,6 +6,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
+import { isFeeVerified } from '@/lib/fee-verification';
 export const metadata: Metadata = buildMetadata({
   title: 'University of Sydney International Courses – All Programs, Fees & IELTS 2026',
   description: `University of Sydney — ${(usydCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
@@ -32,7 +33,7 @@ export default function CoursesPage() {
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0);
+  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0 && isFeeVerified(c));
   const _avgFeeUSD = _pricedCourses.length
     ? Math.round(_pricedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _pricedCourses.length)
     : 0;
@@ -59,14 +60,14 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at University of Sydney is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      {
+      ...(_avgFeeUSD > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at University of Sydney?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: `The average annual tuition at University of Sydney is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake options does University of Sydney offer?`,
@@ -100,6 +101,7 @@ export default function CoursesPage() {
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Sydney' },
         ...(Number(c.annualUSD) > 0
+          && isFeeVerified(c as any)
           ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
@@ -136,13 +138,13 @@ export default function CoursesPage() {
                 University of Sydney — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg A${avgFee.toLocaleString()}/yr · IELTS 6.5+ · February & July intakes
+                {totalCourses} programs · {avgFee > 0 ? `Avg A$${avgFee.toLocaleString()}/yr` : 'Fees on request'} · IELTS 6.5+ · February & July intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: '#19 QS' },
-                  { label: 'Avg PG Fee', value: `A$${Math.round(avgFee/1000)}K` },
+                  { label: 'Avg PG Fee', value: avgFee > 0 ? `A$${Math.round(avgFee/1000)}K` : 'On request' },
                   { label: 'Campus', value: 'Sydney' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">

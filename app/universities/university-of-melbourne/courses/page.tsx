@@ -5,6 +5,7 @@ import { uomCourses } from '@/data/uom-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
+import { isFeeVerified } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Melbourne International Courses — Programs, Fees & IELTS 2026',
@@ -30,7 +31,7 @@ export default function CoursesPage() {
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0);
+  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0 && isFeeVerified(c));
   const _avgFeeUSD = _pricedCourses.length
     ? Math.round(_pricedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _pricedCourses.length)
     : 0;
@@ -57,14 +58,14 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at University of Melbourne is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      {
+      ...(_avgFeeUSD > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at University of Melbourne?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: `The average annual tuition at University of Melbourne is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake options does University of Melbourne offer?`,
@@ -98,6 +99,7 @@ export default function CoursesPage() {
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Melbourne' },
         ...(Number(c.annualUSD) > 0
+          && isFeeVerified(c as any)
           ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
           : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',

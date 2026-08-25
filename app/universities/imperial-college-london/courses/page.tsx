@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import { imperialCourses } from '@/data/imperial-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Imperial College London International Courses – All Programs, Fees & IELTS 2026',
@@ -22,7 +23,7 @@ export default function CoursesPage() {
   const courses = imperialCourses;
   const groups = groupByLevel(courses);
   const withFee = courses.filter(c => c.annualUSD > 0);
-  const avgFeeUSD = withFee.length ? Math.round(withFee.reduce((s, c) => s + c.annualUSD, 0) / withFee.length) : 0;
+  const avgFeeUSD = verifiedAvgFee(withFee as any[], 'annualUSD');
   const feeINRLakh = withFee.length ? (withFee.reduce((s, c) => s + c.annualINR, 0) / withFee.length / 100000).toFixed(1) : '0';
   const levelOrder = ['Undergraduate', 'Postgraduate', 'MBA'];
   const orderedGroups = levelOrder.filter(l => groups[l]).map(l => [l, groups[l]] as [string, typeof imperialCourses]);

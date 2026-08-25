@@ -6,6 +6,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 
 import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
+import { isFeeVerified } from '@/lib/fee-verification';
 export const metadata: Metadata = buildMetadata({
   title: 'University of Wollongong International Courses – All Programs, Fees & IELTS 2026',
   description: `University of Wollongong — ${(uowCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
@@ -31,7 +32,7 @@ export default function CoursesPage() {
   const totalCourses = courses.length;
   const avgFee = averageAnnualFee(courses);
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0);
+  const _pricedCourses = courses.filter((c: any) => Number(c.annualUSD) > 0 && isFeeVerified(c));
   const _avgFeeUSD = _pricedCourses.length ? Math.round(_pricedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _pricedCourses.length) : 0;
 
   const faqSchema = {
@@ -40,7 +41,7 @@ export default function CoursesPage() {
     mainEntity: [
       { '@type': 'Question', name: `How many courses does the University of Wollongong offer for international students?`, acceptedAnswer: { '@type': 'Answer', text: `UOW offers ${courses.length} programs for international students including Undergraduate, Master's, and PhD degrees.` } },
       { '@type': 'Question', name: `What is the minimum IELTS score required at UOW?`, acceptedAnswer: { '@type': 'Answer', text: `The minimum IELTS score at UOW is ${_minIelts}+. Some programs may require higher scores.` } },
-      { '@type': 'Question', name: `What is the average tuition fee at UOW?`, acceptedAnswer: { '@type': 'Answer', text: `The average annual tuition at UOW is approximately $${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR).` } },
+      ...(_avgFeeUSD > 0 ? [{ '@type': 'Question', name: `What is the average tuition fee at UOW?`, acceptedAnswer: { '@type': 'Answer', text: `The average annual tuition at UOW is approximately $${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR).` } }] : []),
       { '@type': 'Question', name: `What intakes does UOW offer?`, acceptedAnswer: { '@type': 'Answer', text: `UOW offers February and July intakes. Apply 3–6 months before the intake.` } },
       { '@type': 'Question', name: `How can Indian students apply to UOW?`, acceptedAnswer: { '@type': 'Answer', text: `Indian students can apply to UOW through Jaivik Overseas Consultants — free application guidance, SOP writing, and visa assistance included.` } },
     ],
@@ -74,7 +75,7 @@ export default function CoursesPage() {
                 University of Wollongong — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg A${avgFee.toLocaleString()}/yr · IELTS 6+ · February & July intakes
+                {totalCourses} programs · {avgFee > 0 ? `Avg A$${avgFee.toLocaleString()}/yr` : 'Fees on request'} · IELTS 6+ · February & July intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[

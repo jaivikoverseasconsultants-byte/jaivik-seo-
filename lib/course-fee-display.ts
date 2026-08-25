@@ -14,7 +14,10 @@
  * Rule: never render a precise figure we do not have. Show the range instead.
  */
 
+import { isFeeVerified } from './fee-verification';
+
 export interface FeeBearingCourse {
+  feeVerified?: boolean;
   annualAUD: number;
   annualUSD?: number;
   annualINR?: number;
@@ -27,9 +30,17 @@ export interface FeeBearingCourse {
 export const FEE_RANGE_NOTE =
   'Exact fee varies by program — confirmed during counselling.';
 
-/** True when the university publishes an exact fee for this specific course. */
+/**
+ * True when the university publishes an exact fee for this specific course AND
+ * that figure has been verified against the provider's own page.
+ *
+ * The verification test lives here rather than at each call site so every label
+ * in this module — and `averageAnnualFee` below — is honest by construction: an
+ * unverified row falls through to the range/"on request" path instead of
+ * printing a precise number.
+ */
 export function hasExactFee(c: FeeBearingCourse): boolean {
-  return typeof c.annualAUD === 'number' && c.annualAUD > 0;
+  return isFeeVerified(c) && typeof c.annualAUD === 'number' && c.annualAUD > 0;
 }
 
 /** True when we can show at least a real published range. */

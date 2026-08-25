@@ -18,9 +18,13 @@
  * suppression is reversible the moment a provider is verified.
  */
 
+/**
+ * Deliberately just the one field, with no index signature: an index signature
+ * would make every concrete course interface (which has none) fail to satisfy
+ * this. `verifiedAvgFee` casts locally where it needs dynamic field access.
+ */
 export interface FeeVerifiable {
   feeVerified?: boolean;
-  [key: string]: unknown;
 }
 
 /** Rows are treated as verified unless explicitly flagged otherwise. */
@@ -52,6 +56,72 @@ export function feeDisplay(
   if (!isFeeVerified(course)) return UNVERIFIED_FEE_LABEL;
   if (typeof amount !== 'number' || amount <= 0) return UNVERIFIED_FEE_LABEL;
   return `${SYMBOL[code] ?? code + ' '}${amount.toLocaleString()}`;
+}
+
+/**
+ * Mean annual fee across the rows that are BOTH verified and priced; 0 when none
+ * are. Used by the university course-index pages, whose "Avg £24K/yr" headline
+ * stat and average-tuition FAQ answer were previously averaged over the whole
+ * catalogue — so a university with no verified fee at all still published a
+ * confident-looking average built entirely from unverified numbers.
+ *
+ * Callers pass the same list they were already averaging, so each page keeps its
+ * own scope (postgraduate-only, priced-only, etc.); only the verification filter
+ * is added. Render 0 as "On request" rather than as a figure.
+ */
+export function verifiedAvgFee(
+  courses: readonly FeeVerifiable[] | undefined | null,
+  ...fields: string[]
+): number {
+  if (!Array.isArray(courses)) return 0;
+  const vals: number[] = [];
+  for (const c of courses) {
+    if (!isFeeVerified(c)) continue;
+    // first field that carries a real number wins, mirroring the
+    // `c.annualEUR || c.annualUSD || 0` fallbacks these pages used inline
+    const row = c as unknown as Record<string, unknown>;
+    for (const f of fields) {
+      const v = row?.[f];
+      if (typeof v === 'number' && isFinite(v) && v > 0) { vals.push(v); break; }
+    }
+  }
+  if (!vals.length) return 0;
+  return Math.round(vals.reduce((s, v) => s + v, 0) / vals.length);
+}
+
+/**
+ * The "Fees in INR, " fragment of a course-page <title>.
+ *
+ * Empty when the fee is unverified or absent, so a suppressed page does not
+ * promise a figure in the SERP headline that the page itself answers with
+ * "On request". Same standard as the body content and the meta description.
+ */
+export function titleFeeFragment(
+  course: FeeVerifiable,
+  annualINR?: number | null,
+): string {
+  if (!isFeeVerified(course)) return '';
+  if (typeof annualINR !== 'number' || !isFinite(annualINR) || annualINR <= 0) return '';
+  return 'Fees in INR, ';
+}
+
+/**
+ * The " costs ₹X.XL/year for Indian students." clause used in course-page meta
+ * descriptions (and og:description).
+ *
+ * Returns a bare "." when the fee is unverified or absent, so the preceding
+ * sentence still closes cleanly without stating a figure we cannot support.
+ * This matters more than the on-page label: the meta description is what Google
+ * renders in the SERP, so an unguarded figure here is a fabricated price shown
+ * to searchers even when the page body correctly says "On request".
+ */
+export function feeSentenceINR(
+  course: FeeVerifiable,
+  annualINR: number | undefined | null,
+): string {
+  if (!isFeeVerified(course)) return '.';
+  if (typeof annualINR !== 'number' || !isFinite(annualINR) || annualINR <= 0) return '.';
+  return ` costs ₹${(annualINR / 100000).toFixed(1)}L/year for Indian students.`;
 }
 
 /** INR-lakh fee for display, or the placeholder when unverified. */

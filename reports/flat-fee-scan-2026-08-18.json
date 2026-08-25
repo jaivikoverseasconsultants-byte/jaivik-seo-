@@ -1,7 +1,7 @@
 {
   "title": "Flat-fee (fabricated tuition) scan across all live universities",
   "date": "2026-08-18",
-  "status": "SCAN COMPLETE — no fees changed. Scope is far larger than expected and needs a decision before any fix.",
+  "status": "SCAN COMPLETE — phase 1 partially executed 2026-08-25, see phase1Outcome",
   "headline": [
     "73 of 101 universities with a priced catalogue show the same fabricated flat-fee signature already fixed for the 9 Australian files — 15,583 courses.",
     "That is roughly 5x the size of the completed Australian tuition fix (3,257 courses), and it is the dominant pattern in the registry rather than an exception."
@@ -860,5 +860,45 @@
     "what": "If the fees cannot be fixed soon, consider suppressing the precise figure on affected pages and showing a university-level range instead, the same treatment used for the courses with no published fee.",
     "why": "Every one of those 15,583 pages currently states a specific tuition figure to a prospective student, and the evidence says most of those figures were assigned by band rather than observed.",
     "cost": "Template-only, no URL changes."
+  },
+  "phase1Outcome": {
+    "date": "2026-08-25",
+    "status": "PARTIAL — 3 of 6 targets verified, 3 not extractable; interim suppression complete across all render surfaces",
+    "verified": {
+      "strathclyde": "492 of 561",
+      "leeds": "268 of 589",
+      "auckland": "241 of 527",
+      "totalCourses": 1001
+    },
+    "notExtractable": {
+      "bath": "course pages link only to a central fees page, no per-course figure",
+      "edinburgh": "per-programme fee page renders fees client-side, no figure in the HTML",
+      "birmingham": "fee block not reliably present; same URL served different content across fetches, plus HTTP 503s"
+    },
+    "remainingCheapestWin": "Leeds (321 rows) and Auckland (286 rows) are ~45% done with working extractors",
+    "suppression": {
+      "rowsSuppressed": 14587,
+      "rowsVerified": 1001,
+      "mechanism": "lib/fee-verification.ts — feeVerified:false renders \"On request\"; underlying numbers left in the data so it reverses on verification",
+      "surfacesFixed": [
+        "course-page fee rows",
+        "meta description",
+        "<title>",
+        "visible <h1>",
+        "JSON-LD offers.price on index pages",
+        "average-tuition FAQ answer",
+        "Avg-fee headline stat",
+        "lib/course-fee-display.ts hasExactFee gate"
+      ],
+      "noteOnUnflagged": "rows with no feeVerified field render as verified by design (keeps the 28 scan-clean universities showing real figures); any NEW data file added without the flag will publish its fees as if verified"
+    },
+    "dataFlagsAdded": {
+      "swinburne-courses.ts": "5 rows on a flat 32000"
+    },
+    "deliberatelyNotFlagged": {
+      "uham-courses.ts": "46 courses all at EUR 800/yr is Hamburg's real semester contribution, not a fabricated flat fee",
+      "birmingham-courses.ts": "112 flat rows but nothing imports it — live route uses bham-courses.ts; dead data, deletion candidate",
+      "wave2 files": "14 never-scanned live files show genuine per-course variance; Wave 2 integration already nulled implausible fees"
+    }
   }
 }

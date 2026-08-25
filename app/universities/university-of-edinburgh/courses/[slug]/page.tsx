@@ -6,6 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
+import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 
 export async function generateStaticParams() {
   return (edinburghCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -19,8 +20,8 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualGBP || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} at University of Edinburgh — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at University of Edinburgh, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${course.name} at University of Edinburgh — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    description: `${course.name} at University of Edinburgh, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-edinburgh/courses/${slug}`,
     keywords: [course.name, 'Edinburgh', 'University of Edinburgh', 'study in UK', course.level],
   });
@@ -89,7 +90,7 @@ export default async function CoursePage(
           <div className="inline-block bg-white/10 text-blue-100 text-xs px-3 py-1 rounded-full mb-3">
             {course.level} · {course.studyLevel}
           </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Edinburgh — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Edinburgh — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
           <p className="text-blue-100 text-lg">
             University of Edinburgh · Edinburgh, UK · {course.duration}
           </p>
@@ -105,8 +106,8 @@ export default async function CoursePage(
               <h2 className="text-xl font-bold text-gray-900 mb-5">Program Overview</h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {[
-                  { label: 'Annual Fee', value: `£${fee.toLocaleString()}`, sub: `₹${feeINRLakh}L/year` },
-                  { label: 'Total Fees', value: `£${totalFee.toLocaleString()}`, sub: `${course.durationYears} year(s)` },
+                  { label: 'Annual Fee', value: feeDisplay(course as any, fee, 'GBP'), sub: feeDisplayINRLakh(course as any, feeINRLakh, '/year') },
+                  { label: 'Total Fees', value: feeDisplay(course as any, totalFee, 'GBP'), sub: `${course.durationYears} year(s)` },
                   { label: 'IELTS', value: `${course.ieltsMin}+`, sub: `TOEFL ${course.toeflMin}+` },
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Intake', value: (course.intakeMonths || []).join(' & '), sub: 'Annual' },

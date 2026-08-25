@@ -5,6 +5,7 @@ import { ucdavisCourses } from '@/data/ucdavis-courses';
 import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import CourseRichContent from '@/components/CourseRichContent';
+import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 
 export function generateStaticParams() {
   return ucdavisCourses.map(c => ({ slug: c.slug }));
@@ -17,8 +18,8 @@ export async function generateMetadata(
   const c = ucdavisCourses.find(x => x.slug === slug);
   if (!c) return {};
   return buildMetadata({
-    title: `${c.name} at UC Davis — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${c.name} at UC Davis, ${(c as any).city || c.country} costs ₹${(c.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${c.name} at UC Davis — ${titleFeeFragment(c as any, c.annualINR)}IELTS & Requirements for Indian Students`,
+    description: `${c.name} at UC Davis, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)} IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/uc-davis/courses/${slug}`,
   });
 }
@@ -46,15 +47,15 @@ export default async function CourseDetailPage(
             <div className="inline-flex items-center gap-2 bg-brand-50 text-brand-700 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
               🇺🇸 USA · {c.level}
             </div>
-            <h1 className="text-2xl font-bold text-gray-900 mb-2">{c.name} at UC Davis — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+            <h1 className="text-2xl font-bold text-gray-900 mb-2">{c.name} at UC Davis — {titleFeeFragment(c as any, c.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
             <p className="text-gray-500 text-sm">UC Davis · {c.city}, {c.state}</p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-6">
               {[
                 { label: 'Duration', value: c.duration },
                 { label: 'Level', value: c.level },
-                { label: 'Annual Fee (USD)', value: '$${(c.annualUSD/1000).toFixed(0)}K' },
-                { label: 'Annual Fee (INR)', value: `₹${(c.annualINR/100000).toFixed(1)}L` },
+                { label: 'Annual Fee (USD)', value: feeDisplay(c as any, c.annualUSD, 'USD') },
+                { label: 'Annual Fee (INR)', value: feeDisplayINRLakh(c as any, (c.annualINR / 100000).toFixed(1), '') },
               ].map(s => (
                 <div key={s.label} className="bg-brand-50 rounded-xl p-3 text-center">
                   <p className="text-lg font-bold text-brand-700">{s.value}</p>
@@ -86,9 +87,9 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Cost Summary (Full Course)</h2>
             <div className="space-y-3">
               {[
-                ['Tuition (Total)', '$${Math.round(c.totalUSD/1000)}K USD'],
-                ['Living Cost (Total)', '~$${Math.round(c.livingCostUSD*12*c.durationYears/1000)}K USD'],
-                ['Approx. Total in INR', `≈ ₹${((c.annualINR * c.durationYears)/100000).toFixed(1)}L`],
+                ['Tuition (Total)', feeDisplay(c as any, c.annualUSD * c.durationYears, 'USD')],
+                ['Living Cost (Total)', `~$${Math.round(c.livingCostUSD*12*c.durationYears/1000)}K USD`],
+                ['Approx. Total in INR', feeDisplayINRLakh(c as any, (c.annualINR * c.durationYears) / 100000, '')],
               ].map(([k,v])=>(
                 <div key={k} className="flex justify-between items-center py-3 border-b border-gray-50 last:border-0">
                   <span className="text-sm text-gray-600">{k}</span>

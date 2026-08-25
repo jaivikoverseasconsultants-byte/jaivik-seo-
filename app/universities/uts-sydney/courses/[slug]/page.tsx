@@ -9,7 +9,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
-import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'uts-sydney';
 export async function generateStaticParams() {
@@ -23,8 +23,8 @@ export async function generateMetadata(
   const course = getUtsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Technology Sydney — Fees in INR, IELTS & Requirements for Indian Students`,
-    description: `${course.name} at University of Technology Sydney, ${(course as any).city || course.country} costs ₹${(course.annualINR / 100000).toFixed(1)}L/year for Indian students. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${course.name} at University of Technology Sydney — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    description: `${course.name} at University of Technology Sydney, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/uts-sydney/courses/${slug}`,
     keywords: [course.name, 'UTS Sydney', 'University of Technology Sydney', 'study in Australia', course.level],
   });
@@ -72,7 +72,7 @@ export default async function UTSCoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇦🇺 University of Technology Sydney · {course.campus}
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Technology Sydney — Fees in INR, IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at University of Technology Sydney — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>
@@ -112,7 +112,7 @@ export default async function UTSCoursePage(
                 ...(showOnCoursePage(UNIVERSITY_SLUG, 'intakeMonths') ? [{ label: 'Intakes', value: course.intakeMonths.join(' & ') }] : []),
                 { label: 'Annual Tuition (AUD)', value: feeDisplay(course as any, course.annualAUD, 'AUD') },
                 { label: 'Annual Tuition (USD)', value: feeDisplay(course as any, course.annualUSD, 'USD') },
-                { label: 'Total Course Fee', value: `A$${course.totalAUD.toLocaleString()}` },
+                { label: 'Total Course Fee', value: feeDisplay(course as any, course.totalAUD, 'AUD') },
               ].map(f => (
                 <div key={f.label} className="p-4 bg-gray-50 rounded-xl">
                   <p className="text-xs text-gray-500 font-medium mb-1">{f.label}</p>
@@ -153,10 +153,10 @@ export default async function UTSCoursePage(
             <h2 className="text-xl font-bold text-gray-900 mb-4">Total Cost of Study (Indian Students)</h2>
             <div className="space-y-3">
               {[
-                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${course.totalAUD.toLocaleString()}`, highlight: true },
+                { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: feeDisplay(course as any, course.totalAUD, 'AUD'), highlight: true },
                 { label: `Living Cost × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${(course.livingCostAUD * course.durationYears).toLocaleString()}` },
-                { label: 'Total Estimated Cost', value: `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}`, highlight: true },
-                { label: 'In Indian Rupees (₹)', value: `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh`, highlight: true },
+                { label: 'Total Estimated Cost', value: (isFeeVerified(course as any) ? `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}` : 'On request'), highlight: true },
+                { label: 'In Indian Rupees (₹)', value: (isFeeVerified(course as any) ? `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh` : 'On request'), highlight: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.highlight ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
                   <span className="text-sm text-gray-700">{r.label}</span>

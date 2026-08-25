@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { uiucCourses } from '@/data/uiuc-courses';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
+import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Illinois Urbana-Champaign Courses & Programs 2026 – Fees, IELTS & Intakes',
@@ -14,12 +15,13 @@ const levels = ['All', 'Bachelor', 'Master', 'Doctoral', 'Diploma'];
 
 export default function UiucCoursesPage() {
   const courses = uiucCourses;
-  const avgFee = Math.round(courses.reduce((s,c)=>s+c.annualUSD,0)/courses.length);
+  const avgFee = verifiedAvgFee(courses as any[], 'annualUSD');
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _avgFeeUSD = courses.length
-    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
+  const _avgFeeUSD = _feeVerifiedCourses.length
+    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
     : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
@@ -44,14 +46,14 @@ export default function UiucCoursesPage() {
           text: `The minimum IELTS score at University of Illinois Urbana-Champaign is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      {
+      ...(_avgFeeUSD > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at University of Illinois Urbana-Champaign?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: `The average annual tuition at University of Illinois Urbana-Champaign is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake options does University of Illinois Urbana-Champaign offer?`,
@@ -84,7 +86,9 @@ export default function UiucCoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'University of Illinois Urbana-Champaign' },
-        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+          : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
     })),

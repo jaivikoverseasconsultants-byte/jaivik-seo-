@@ -10,7 +10,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 import { annualFeeLabel, annualFeeINRLabel, totalFeeLabel, totalEstimatedCostLabel, totalEstimatedCostINRLabel, feeMetaPhrase, hasExactFee, FEE_RANGE_NOTE } from '@/lib/course-fee-display';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
-import { feeDisplay, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'griffith-university';
 export async function generateStaticParams() {
@@ -34,7 +34,7 @@ export async function generateMetadata(
     });
   }
   return buildMetadata({
-    title: `${course.name} at Griffith University — Fees in INR, IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Griffith University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
     description: `${course.name} at Griffith University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/griffith-university/courses/${slug}`,
     keywords: [course.name, 'Griffith', 'Griffith University', 'study in Australia', course.level],
@@ -88,7 +88,7 @@ export default async function CoursePage(
               <h1 className="text-3xl md:text-4xl font-bold mb-3">
                 {(course as any).withdrawn
                   ? `${course.name} at Griffith University — No Longer Offered`
-                  : <>{course.name} at Griffith University — Fees in INR, IELTS &amp; Requirements for Indian Students</>}
+                  : <>{course.name} at Griffith University — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</>}
               </h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}

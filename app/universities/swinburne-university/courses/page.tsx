@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 import { swinburneCourses } from '@/data/swinburne-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
+import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Swinburne International Courses – All Programs, Fees & IELTS 2026',
@@ -28,12 +29,13 @@ export default function CoursesPage() {
   const courses = swinburneCourses as unknown as any[];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
-  const avgFee = Math.round(courses.reduce((s: number, c: any) => s + c.annualAUD, 0) / (totalCourses || 1));
+  const avgFee = verifiedAvgFee(courses as any[], 'annualAUD');
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
-  const _avgFeeUSD = courses.length
-    ? Math.round(courses.reduce((s: number, c: any) => s + (Number(c.annualUSD) || 0), 0) / courses.length)
+  const _feeVerifiedCourses = (courses as any[]).filter((c: any) => isFeeVerified(c) && Number(c.annualUSD) > 0);
+  const _avgFeeUSD = _feeVerifiedCourses.length
+    ? Math.round(_feeVerifiedCourses.reduce((s: number, c: any) => s + Number(c.annualUSD), 0) / _feeVerifiedCourses.length)
     : 0;
   const _intakeSample: string[] = (courses[0] as any)?.intakeMonths ?? ['September'];
   const _intakesText = _intakeSample.join(' and ');
@@ -58,14 +60,14 @@ export default function CoursesPage() {
           text: `The minimum IELTS score at Swinburne University of Technology is ${_minIelts}+. High-demand programs may require up to 7.0.`,
         },
       },
-      {
+      ...(_avgFeeUSD > 0 ? [{
         '@type': 'Question',
         name: `What is the average tuition fee at Swinburne University of Technology?`,
         acceptedAnswer: {
           '@type': 'Answer',
           text: `The average annual tuition at Swinburne University of Technology is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
-      },
+      }] : []),
       {
         '@type': 'Question',
         name: `What intake options does Swinburne University of Technology offer?`,
@@ -98,7 +100,9 @@ export default function CoursesPage() {
         '@type': 'Course',
         name: c.name,
         provider: { '@type': 'CollegeOrUniversity', name: 'Swinburne University of Technology' },
-        offers: { '@type': 'Offer', price: Number(c.annualUSD) || 0, priceCurrency: 'USD' },
+        ...(isFeeVerified(c as any) && Number(c.annualUSD) > 0
+          ? { offers: { '@type': 'Offer', price: Number(c.annualUSD), priceCurrency: 'USD' } }
+          : {}),
         educationalLevel: c.level ?? c.studyLevel ?? 'Undergraduate',
       },
     })),
@@ -135,13 +139,13 @@ export default function CoursesPage() {
                 Swinburne University of Technology — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg A${avgFee.toLocaleString()}/yr · IELTS 6.5+ · February & July intakes
+                {totalCourses} programs · {avgFee > 0 ? `Avg A$${avgFee.toLocaleString()}/yr` : 'Fees on request'} · IELTS 6.5+ · February & July intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: '#397' },
-                  { label: 'Avg Annual Fee', value: `A$${Math.round(avgFee/1000)}K` },
+                  { label: 'Avg Annual Fee', value: avgFee > 0 ? `A$${Math.round(avgFee/1000)}K` : 'On request' },
                   { label: 'Campus', value: 'Hawthorn Campus' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
