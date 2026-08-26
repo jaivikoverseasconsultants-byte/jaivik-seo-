@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import WhyJaivik from '@/components/WhyJaivik';
 
 export default function Footer() {
   return (
@@ -97,6 +98,8 @@ export default function Footer() {
             </div>
           </div>
         </div>
+
+        <WhyJaivik />
 
         <div className="border-t border-blue-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-blue-300">
           <p>© 2026 Jaivik Overseas Consultants. Data curated in-house.</p>

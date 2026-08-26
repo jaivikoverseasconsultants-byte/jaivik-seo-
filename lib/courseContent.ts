@@ -307,7 +307,7 @@ function generateWhyStudy(country: string, uniName: string, pgwp?: boolean, vari
   ) || 'default';
 
   const texts = countryWhy[countryKey] || [
-    `${country} is home to internationally respected universities and a growing economy that creates strong demand for internationally qualified graduates. Students at ${uniName} benefit from a high-quality educational environment, access to industry networks, and the opportunity to build a professional profile in a globally connected job market. Post-graduation pathways for international students vary; Jaivik Overseas Consultants can advise on the most appropriate visa and immigration strategy for your individual circumstances and career goals.`,
+    `${country} is home to internationally respected universities and a growing economy that creates strong demand for internationally qualified graduates. Students at ${uniName} benefit from a high-quality educational environment, access to industry networks, and the opportunity to build a professional profile in a globally connected job market.`,
   ];
 
   const idx = ((variation || 0) + (uniName.charCodeAt(0) || 0)) % texts.length;

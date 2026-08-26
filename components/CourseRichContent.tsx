@@ -291,7 +291,7 @@ export default function CourseRichContent({ course, universityName, universitySl
         {trendingContext && (
           <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-xl">
             <p className="text-xs text-blue-800">
-              <strong>📰 2026 Update:</strong> {trendingContext} — ask our counsellors how this affects your application.
+              <strong>📰 2026 Update:</strong> {trendingContext}
             </p>
           </div>
         )}
@@ -359,14 +359,14 @@ export default function CourseRichContent({ course, universityName, universitySl
             For the <strong>intake for Indian students</strong>, {universityName} accepts applications for the {intakesText} intake{course.intakeMonths.length > 1 ? 's' : ''}. Starting your application 4–6 months before the deadline is strongly recommended to allow adequate time for document preparation, statement of purpose drafting, reference letters, and student visa processing.
           </p>
           <p>
-            There are several <strong>scholarship for Indian students at {universityName}</strong> worth exploring — including merit-based university awards, government-sponsored scholarships (such as Commonwealth Scholarships and GREAT Scholarships for UK universities), and country-specific funding for students from India. Jaivik Overseas can help you identify and apply for scholarships you qualify for at no extra cost.
+            There are several <strong>scholarship for Indian students at {universityName}</strong> worth exploring — including merit-based university awards, government-sponsored scholarships (such as Commonwealth Scholarships and GREAT Scholarships for UK universities), and country-specific funding for students from India.
           </p>
         </div>
         <div className="mt-4 p-4 bg-brand-50 border border-brand-200 rounded-xl">
           <p className="text-xs text-brand-800 font-semibold mb-1">Free Scholarship &amp; Application Guidance</p>
-          <p className="text-xs text-brand-700">
-            Our counsellors have 13 years of experience and 99% visa success helping Indian students secure admissions and scholarships at {universityName}. Book a free session today.
-          </p>
+          {/* The "13 years / 99% visa success" counsellor pitch that used to sit here is
+              now rendered once site-wide from components/WhyJaivik.tsx (in the footer) —
+              it was byte-identical on every course page and counted as duplicate body copy. */}
           <Link href="/book-counselling" className="inline-block mt-2 text-xs font-semibold text-brand-700 underline">
             Book Free Counselling →
           </Link>
@@ -628,16 +628,10 @@ export default function CourseRichContent({ course, universityName, universitySl
             <p key={i}>{para}</p>
           ))}
         </div>
-        <div className="mt-4 flex items-start gap-3 p-4 bg-brand-50 border border-brand-200 rounded-xl">
-          <span className="text-brand-700 text-2xl flex-shrink-0">📍</span>
-          <div>
-            <p className="text-sm font-semibold text-brand-800">Jaivik Overseas Consultants — Ghaziabad</p>
-            <p className="text-xs text-brand-700 mt-0.5">333 Orbit Plaza, Crossing Republik, Ghaziabad · 13 years experience · 99% visa success rate</p>
-            <Link href="/book-counselling" className="text-xs font-semibold text-brand-700 underline mt-1.5 block">
-              Book a Free Counselling Session →
-            </Link>
-          </div>
-        </div>
+        {/* The office-address + "13 years / 99% visa success" card that used to sit here
+            is now rendered once site-wide from components/WhyJaivik.tsx (in the footer);
+            the footer already carried the same address. The visa-process paragraphs above
+            stay — they are real, country-specific guidance, not a sales pitch. */}
       </div>
 
       {/* Related Courses from Same University */}
