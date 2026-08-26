@@ -206,15 +206,21 @@ for (const uni of fs.readdirSync(APP)) {
 // decision about what an honest range over partially-verified data even means,
 // which is tracked as backlog, not silently ignored.
 const AGGREGATE_BACKLOG = {
-  'components/SubjectPillarPage.tsx': 'fee range/median across many courses — backlog',
-  'components/CourseMatcherClient.tsx': 'fee in a generated shortlist export — backlog',
-  'lib/cost-pillars.ts': 'min/max/median fee bands — backlog',
-  'lib/country-subject-comparisons.ts': 'min/max fee range — backlog',
-  'lib/courseContent.ts': 'prose fee mention — backlog',
-  'lib/find-my-course.ts': 'matcher scoring over fees — backlog',
-  'lib/subject-pillars.ts': 'pillar fee aggregates — backlog',
-  'lib/university-comparisons.ts': 'comparison fee aggregates — backlog',
-  'lib/generate-shortlist-pdf.ts': 'PDF shortlist fees — backlog',
+  // Resolved 2026-08-26: these now compute their range from verified rows only via
+  // verifiedFeeRange(), disclose the basis, and omit the range where none are
+  // verified. They stay listed because they still READ fee fields directly, which
+  // check 7 would otherwise flag.
+  'components/SubjectPillarPage.tsx': 'verified-only range + basis disclosed (2026-08-26)',
+  'lib/cost-pillars.ts': 'verified-only range + basis disclosed (2026-08-26)',
+  'lib/country-subject-comparisons.ts': 'verified-only range + basis disclosed (2026-08-26)',
+  'lib/subject-pillars.ts': 'verified-only range + basis disclosed (2026-08-26)',
+  'lib/university-comparisons.ts': 'verified-only range + basis disclosed (2026-08-26)',
+  'lib/generate-shortlist-pdf.ts': 'per-course fee suppressed when unverified (2026-08-26)',
+
+  // Still outstanding:
+  'lib/courseContent.ts': 'fee prose lives in the dead "about" return value (computed but never destructured by CourseRichContent, which takes only whyStudyHere) — remove it or wire it up',
+  'lib/find-my-course.ts': 'budget-band FILTER still uses unverified fees — a search filter, not a published claim, so changing it is a product decision',
+  'components/CourseMatcherClient.tsx': 'prints per-course fees from data/course-index.ts, a HAND-CURATED ~180-course index with no feeVerified field at all — a different problem from unverified-crawled fees',
 };
 const PER_COURSE_FEE = /\b(?:annual|total)(?:GBP|USD|INR|AUD|NZD|CAD|EUR|SGD|AED)\b/;
 const RENDERS = /`|toLocaleString\(|toFixed\(|value:|text:|label:|price:/;

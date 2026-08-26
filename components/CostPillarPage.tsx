@@ -24,7 +24,7 @@ export default function CostPillarPage({ config }: { config: CostPillarConfig })
     tuition && combined.length
       ? {
           q: `What is the total cost of studying in ${config.displayName} for Indian students?`,
-          a: `Combining real tuition fee data (₹${tuition.cheapestLakh}L–₹${tuition.maxLakh}L per year, from ${tuition.count} real courses) with real city-by-city living costs, total yearly budgets on this site range from roughly ₹${Math.min(...combined.map(c => parseFloat(c.lowYearlyLakh))).toFixed(1)}L to ₹${Math.max(...combined.map(c => parseFloat(c.highYearlyLakh))).toFixed(1)}L, depending on your university, course, and city. See the table below for a city-by-city breakdown.`,
+          a: `Combining verified tuition fee data (₹${tuition.cheapestLakh}L–₹${tuition.maxLakh}L per year, ${tuition.basisNote}) with real city-by-city living costs, total yearly budgets on this site range from roughly ₹${Math.min(...combined.map(c => parseFloat(c.lowYearlyLakh))).toFixed(1)}L to ₹${Math.max(...combined.map(c => parseFloat(c.highYearlyLakh))).toFixed(1)}L, depending on your university, course, and city. See the table below for a city-by-city breakdown.`,
         }
       : null,
     cheapestCity
@@ -36,7 +36,7 @@ export default function CostPillarPage({ config }: { config: CostPillarConfig })
     tuition
       ? {
           q: `What is the average tuition fee in ${config.displayName}?`,
-          a: `Across ${tuition.count} real courses on this site, tuition fees range from ₹${tuition.cheapestLakh}L to ₹${tuition.maxLakh}L per year, with a median of ₹${tuition.medianLakh}L. ${tuition.bachelor ? `Bachelor's programmes range ₹${tuition.bachelor.minLakh}L–₹${tuition.bachelor.maxLakh}L. ` : ''}${tuition.master ? `Master's programmes range ₹${tuition.master.minLakh}L–₹${tuition.master.maxLakh}L. ` : ''}See the cheapest options table below, or the full course list at the university-specific hubs.`,
+          a: `Tuition fees range from ₹${tuition.cheapestLakh}L to ₹${tuition.maxLakh}L per year, with a median of ₹${tuition.medianLakh}L — ${tuition.basisNote}. Every course listed is real; fees we have not yet checked against the university's own page are shown as "On request" and are excluded from this range. ${tuition.bachelor ? `Bachelor's programmes range ₹${tuition.bachelor.minLakh}L–₹${tuition.bachelor.maxLakh}L. ` : ''}${tuition.master ? `Master's programmes range ₹${tuition.master.minLakh}L–₹${tuition.master.maxLakh}L. ` : ''}See the cheapest options table below, or the full course list at the university-specific hubs.`,
         }
       : null,
     guide
@@ -77,12 +77,17 @@ export default function CostPillarPage({ config }: { config: CostPillarConfig })
       {/* Tuition */}
       {tuition && (
         <div className="mb-8 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-          <h2 className="text-xl font-bold text-gray-900 mb-1">Real Tuition Fees in {config.displayName}</h2>
-          <p className="text-gray-500 text-sm mb-4">Computed from {tuition.count} real courses crawled from university course pages.</p>
+          <h2 className="text-xl font-bold text-gray-900 mb-1">Verified Tuition Fees in {config.displayName}</h2>
+          <p className="text-gray-500 text-sm mb-4">
+            Computed from fees checked against each university's own course page — {tuition.basisNote}.{' '}
+            {tuition.verifiedCount < tuition.count && (
+              <>The remaining {(tuition.count - tuition.verifiedCount).toLocaleString('en-IN')} listed courses are real, but their fees are still being re-checked and show as “On request”, so they are excluded from these figures.</>
+            )}
+          </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-4">
             <div className="bg-gray-50 rounded-xl p-4 text-center">
               <p className="text-lg font-bold text-brand-700">₹{tuition.cheapestLakh}L</p>
-              <p className="text-xs text-gray-500 mt-1">Cheapest Real Course</p>
+              <p className="text-xs text-gray-500 mt-1">Cheapest Verified Course</p>
             </div>
             <div className="bg-gray-50 rounded-xl p-4 text-center">
               <p className="text-lg font-bold text-brand-700">₹{tuition.medianLakh}L</p>
@@ -90,21 +95,21 @@ export default function CostPillarPage({ config }: { config: CostPillarConfig })
             </div>
             <div className="bg-gray-50 rounded-xl p-4 text-center">
               <p className="text-lg font-bold text-brand-700">₹{tuition.maxLakh}L</p>
-              <p className="text-xs text-gray-500 mt-1">Highest Found</p>
+              <p className="text-xs text-gray-500 mt-1">Highest Verified</p>
             </div>
           </div>
           {(tuition.bachelor || tuition.master) && (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {tuition.bachelor && (
                 <div className="p-4 bg-blue-50 rounded-xl">
-                  <p className="text-xs text-blue-600 font-medium mb-1">🎓 Bachelor&apos;s Programmes ({tuition.bachelor.count} real courses)</p>
+                  <p className="text-xs text-blue-600 font-medium mb-1">🎓 Bachelor&apos;s Programmes ({tuition.bachelor.verifiedCount} verified of {tuition.bachelor.count})</p>
                   <p className="font-bold text-gray-900">₹{tuition.bachelor.minLakh}L – ₹{tuition.bachelor.maxLakh}L/year</p>
                   <p className="text-xs text-gray-500 mt-1">Median: ₹{tuition.bachelor.medianLakh}L</p>
                 </div>
               )}
               {tuition.master && (
                 <div className="p-4 bg-purple-50 rounded-xl">
-                  <p className="text-xs text-purple-600 font-medium mb-1">🎓 Master&apos;s Programmes ({tuition.master.count} real courses)</p>
+                  <p className="text-xs text-purple-600 font-medium mb-1">🎓 Master&apos;s Programmes ({tuition.master.verifiedCount} verified of {tuition.master.count})</p>
                   <p className="font-bold text-gray-900">₹{tuition.master.minLakh}L – ₹{tuition.master.maxLakh}L/year</p>
                   <p className="text-xs text-gray-500 mt-1">Median: ₹{tuition.master.medianLakh}L</p>
                 </div>

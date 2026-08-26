@@ -16,17 +16,22 @@ export default function CountrySubjectComparisonPage({ data }: { data: CountrySu
   const nameA = sideA.countryName;
   const nameB = sideB.countryName;
 
-  const feeA = parseFloat(sideA.minFeeLakh);
-  const feeB = parseFloat(sideB.minFeeLakh);
-  const cheaperSide = feeA < feeB ? sideA : feeB < feeA ? sideB : null;
+  // A "which is cheaper" claim may only rest on verified fees. When either side has
+  // no verified fee at all, we make no cheapness claim rather than comparing nulls.
+  const feeA = sideA.minFeeLakh ? parseFloat(sideA.minFeeLakh) : null;
+  const feeB = sideB.minFeeLakh ? parseFloat(sideB.minFeeLakh) : null;
+  const comparable = feeA !== null && feeB !== null;
+  const cheaperSide = comparable ? (feeA! < feeB! ? sideA : feeB! < feeA! ? sideB : null) : null;
   const moreCoursesSide = sideA.count > sideB.count ? sideA : sideB.count > sideA.count ? sideB : null;
 
   const faqs = [
     {
       q: `Which is cheaper for ${pillar.name}, ${nameA} or ${nameB}?`,
       a: cheaperSide
-        ? `Based on ${sideA.count + sideB.count} real ${pillar.introLabel} courses on this site, ${cheaperSide.countryName}'s cheapest real course starts at ₹${cheaperSide.minFeeLakh} lakh/year, lower than the other country's cheapest option. Fee ranges vary a lot by university and course level in both — see the cheapest real courses listed below for each.`
-        : `Both countries' cheapest real ${pillar.introLabel} courses start at a similar fee, around ₹${sideA.minFeeLakh} lakh/year — see the full course lists below.`,
+        ? `${cheaperSide.countryName}'s cheapest verified ${pillar.introLabel} course starts at ₹${cheaperSide.minFeeLakh} lakh/year, lower than the other country's cheapest verified option (${cheaperSide.basisNote}). Fee ranges vary a lot by university and course level in both — see the cheapest courses listed below for each.`
+        : comparable
+          ? `Both countries' cheapest verified ${pillar.introLabel} courses start at a similar fee, around ₹${sideA.minFeeLakh} lakh/year — see the full course lists below.`
+          : `We cannot compare fees for these two countries yet: the ${pillar.introLabel} courses listed are real, but their tuition has not yet been checked against the universities' own pages, so it shows as "On request". See the course lists below and ask us for current fees in writing.`,
     },
     {
       q: `How many real ${pillar.name} courses does ${nameA} offer compared to ${nameB}?`,

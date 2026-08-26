@@ -5,7 +5,8 @@ import { classifyLevel } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import type { UniversityComparisonPair } from '@/data/university-comparisons';
 import { getCostGuideBySlug } from '@/data/cost-of-living';
-import { courseAnnualINRLakh } from '@/lib/currency';
+import { courseAnnualINRLakh, courseAnnualINR } from '@/lib/currency';
+import { verifiedFeeRange, isFeeVerified } from '@/lib/fee-verification';
 
 function toCourseForContent(c: RealCourseEntry): CourseForContent {
   return {
@@ -22,8 +23,11 @@ export interface UniversitySide {
   count: number;
   bachelorCount: number;
   masterCount: number;
-  minFeeLakh: string;
-  maxFeeLakh: string;
+  /** verified-only; null when this university has no verified fee */
+  minFeeLakh: string | null;
+  maxFeeLakh: string | null;
+  verifiedCount: number;
+  basisNote: string | null;
   cheapest: RealCourseEntry[]; // top 3, cheapest first
 }
 
@@ -37,6 +41,7 @@ function buildSide(universitySlug: string): UniversitySide | null {
 
   const bachelorCount = courses.filter(c => classifyLevel(toCourseForContent(c)) === 'bachelor').length;
   const masterCount = courses.filter(c => classifyLevel(toCourseForContent(c)) === 'master').length;
+  const fees = verifiedFeeRange(courses as any);
 
   return {
     university,
@@ -44,9 +49,12 @@ function buildSide(universitySlug: string): UniversitySide | null {
     count: courses.length,
     bachelorCount,
     masterCount,
-    minFeeLakh: (courseAnnualINRLakh(courses[0] as any, 1) ?? '0'),
-    maxFeeLakh: (courseAnnualINRLakh(courses[courses.length - 1] as any, 1) ?? '0'),
-    cheapest: courses.slice(0, 3),
+    minFeeLakh: fees ? fees.minLakh : null,
+    maxFeeLakh: fees ? fees.maxLakh : null,
+    verifiedCount: fees ? fees.verifiedCount : 0,
+    basisNote: fees ? fees.basisNote : null,
+    // only verified rows may be ranked as "cheapest"
+    cheapest: courses.filter(c => isFeeVerified(c as any) && (courseAnnualINR(c as any) ?? 0) > 0).slice(0, 3),
   };
 }
 

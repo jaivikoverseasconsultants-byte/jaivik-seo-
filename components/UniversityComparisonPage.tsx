@@ -20,17 +20,21 @@ export default function UniversityComparisonPage({ data }: { data: UniversityCom
   const cheapestHubSlug = CHEAPEST_COUNTRY_SLUGS[pair.country];
   const pswHubSlug = PSW_COUNTRY_SLUGS[pair.country];
 
-  const feeA = parseFloat(sideA.minFeeLakh);
-  const feeB = parseFloat(sideB.minFeeLakh);
-  const cheaperSide = feeA < feeB ? sideA : feeB < feeA ? sideB : null;
+  // cheapness claims must rest on verified fees only
+  const feeA = sideA.minFeeLakh ? parseFloat(sideA.minFeeLakh) : null;
+  const feeB = sideB.minFeeLakh ? parseFloat(sideB.minFeeLakh) : null;
+  const comparable = feeA !== null && feeB !== null;
+  const cheaperSide = comparable ? (feeA! < feeB! ? sideA : feeB! < feeA! ? sideB : null) : null;
   const moreCoursesSide = sideA.count > sideB.count ? sideA : sideB.count > sideA.count ? sideB : null;
 
   const faqs = [
     {
       q: `Which is cheaper, ${nameA} or ${nameB}?`,
       a: cheaperSide
-        ? `Based on real course fee data, ${cheaperSide.university.name}'s cheapest real course starts at ₹${cheaperSide.minFeeLakh} lakh/year, versus ₹${(cheaperSide === sideA ? sideB : sideA).minFeeLakh} lakh/year at the other university. Fee ranges vary a lot by course and level at both — see the cheapest real courses listed below for each.`
-        : `Both universities' cheapest real courses start at approximately the same fee, around ₹${sideA.minFeeLakh} lakh/year — see the full course lists below for each.`,
+        ? `${cheaperSide.university.name}'s cheapest verified course starts at ₹${cheaperSide.minFeeLakh} lakh/year, versus ₹${(cheaperSide === sideA ? sideB : sideA).minFeeLakh} lakh/year at the other university (${cheaperSide.basisNote}). Fee ranges vary a lot by course and level at both — see the cheapest courses listed below for each.`
+        : comparable
+          ? `Both universities' cheapest verified courses start at approximately the same fee, around ₹${sideA.minFeeLakh} lakh/year — see the full course lists below for each.`
+          : `We cannot compare fees for these two universities yet: the courses listed are real, but their tuition has not yet been checked against the universities' own pages, so it shows as "On request". See the course lists below and ask us for current fees in writing.`,
     },
     {
       q: `How many real courses does ${nameA} offer compared to ${nameB}?`,
@@ -99,7 +103,7 @@ export default function UniversityComparisonPage({ data }: { data: UniversityCom
               <dt className="text-gray-500">Master&apos;s</dt>
               <dd className="text-right font-semibold text-gray-900">{side.masterCount}</dd>
               <dt className="text-gray-500">Fee range/yr</dt>
-              <dd className="text-right font-semibold text-gray-900">₹{side.minFeeLakh}L–₹{side.maxFeeLakh}L</dd>
+              <dd className="text-right font-semibold text-gray-900">{side.minFeeLakh && side.maxFeeLakh ? <>₹{side.minFeeLakh}L–₹{side.maxFeeLakh}L</> : <span className="text-gray-400 font-normal">On request</span>}</dd>
             </dl>
             <div className="mt-4 pt-4 border-t border-gray-100">
               <p className="text-xs font-semibold text-gray-700 mb-2">Cheapest real courses</p>

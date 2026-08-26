@@ -457,9 +457,34 @@ export interface RealCourseEntry {
   url?: string;
   /** false = not a degree programme for post-study-work purposes */
   pswEligible?: boolean;
+  /**
+   * false = tuition not yet verified against the provider's own page.
+   * MUST be carried through: `isFeeVerified()` treats a missing flag as verified,
+   * so dropping it here silently told every registry consumer (the cost/subject
+   * pillars, comparisons, matcher, related-course chips) that all 21,000+ courses
+   * had verified fees.
+   */
+  feeVerified?: boolean;
+  /**
+   * Native-currency annual fee, e.g. annualGBP. Carried through so
+   * `courseAnnualINR()` can convert at the central rate instead of falling back
+   * to the record's baked, crawl-dated `annualINR`.
+   */
+  [nativeFee: `annual${string}`]: unknown;
 }
 
 const COUNTRY_NORM: Record<string, string> = { UK: 'UK', 'United Kingdom': 'UK', USA: 'USA', 'United States': 'USA' };
+
+/** Every `annual<CUR>` field on a raw course row, so conversion can use the native fee. */
+function nativeFeeFields(raw: Record<string, unknown>): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const k of Object.keys(raw)) {
+    if (/^annual[A-Z]{3}$/.test(k) && typeof raw[k] === 'number' && (raw[k] as number) > 0) {
+      out[k] = raw[k] as number;
+    }
+  }
+  return out;
+}
 
 let _allRealCoursesCache: RealCourseEntry[] | null = null;
 
@@ -490,6 +515,11 @@ export function getAllRealCourses(): RealCourseEntry[] {
         // non-degree entries that their own pages had already stopped claiming
         url: typeof raw.url === 'string' ? raw.url : undefined,
         pswEligible: raw.pswEligible === false ? false : undefined,
+        // Same reason as pswEligible above, for fees: without these the pillar and
+        // comparison hubs reported every course as fee-verified and converted from
+        // the baked annualINR rather than the central rate.
+        feeVerified: raw.feeVerified === false ? false : undefined,
+        ...nativeFeeFields(raw),
       });
     }
   }

@@ -1,4 +1,5 @@
 import type { University } from '@/types';
+import { RATE_TO_INR } from '@/lib/currency';
 
 /** Returns concise country-specific context for study abroad text */
 const countryContext: Record<string, string> = {
@@ -61,7 +62,7 @@ ${u.description} With a student community of over ${u.totalStudents.toLocaleStri
 
 ${campusDesc} The campus is equipped with research libraries, modern computer labs, on-campus accommodation, sports and recreation facilities, an international student office, and a dedicated career and placement centre.
 
-Graduates of ${u.shortName} can expect an estimated (not officially published) employment rate of around ${u.employmentRate}% within six months of graduation, with an indicative starting salary in the region of $${(u.avgSalaryUSD / 1000).toFixed(0)}K (approximately ₹${(u.avgSalaryUSD * 84 / 100000).toFixed(0)}L per annum) — confirm current outcomes with the university. Top employers recruiting from ${u.shortName} include ${u.topEmployers.slice(0, 4).join(', ')}, reflecting the institution's strong industry connections.
+Graduates of ${u.shortName} can expect an estimated (not officially published) employment rate of around ${u.employmentRate}% within six months of graduation, with an indicative starting salary in the region of $${(u.avgSalaryUSD / 1000).toFixed(0)}K (approximately ₹${(u.avgSalaryUSD * RATE_TO_INR.USD / 100000).toFixed(0)}L per annum) — confirm current outcomes with the university. Top employers recruiting from ${u.shortName} include ${u.topEmployers.slice(0, 4).join(', ')}, reflecting the institution's strong industry connections.
 
 ${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an estimated overall acceptance rate around ${u.acceptanceRate}% (not officially published). Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin} for postgraduate admission — confirm current minimum grade requirements directly with the university.`;
 }

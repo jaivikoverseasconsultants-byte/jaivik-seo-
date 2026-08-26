@@ -2,7 +2,8 @@ import { getAllRealCourses, type RealCourseEntry } from '@/data/university-cours
 import { SUBJECT_PILLARS, type SubjectPillarConfig } from '@/data/subject-pillars';
 import { buildMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
-import { courseAnnualINRLakh } from '@/lib/currency';
+import { courseAnnualINRLakh, courseAnnualINR } from '@/lib/currency';
+import { verifiedFeeRange, isFeeVerified } from '@/lib/fee-verification';
 
 // Same slug maps used by the decision hubs (app/[decisionSlug]/page.tsx,
 // components/IeltsBandHub.tsx, app/courses-with-psw/[country]/page.tsx) —
@@ -48,8 +49,12 @@ export function getCoursesForPillar(config: SubjectPillarConfig): RealCourseEntr
 export interface CountryBreakdown {
   country: string;
   courses: RealCourseEntry[];
-  minFeeLakh: string;
-  maxFeeLakh: string;
+  /** verified-only fee range; null when no course in this country has a verified fee */
+  minFeeLakh: string | null;
+  maxFeeLakh: string | null;
+  verifiedCount: number;
+  listedCount: number;
+  basisNote: string | null;
   minIelts: number;
   cheapestHubSlug?: string;
   pswHubSlug?: string;
@@ -66,6 +71,8 @@ export function getCountryBreakdown(courses: RealCourseEntry[]): CountryBreakdow
   const rows: CountryBreakdown[] = [];
   for (const [country, list] of Array.from(byCountry.entries())) {
     const sorted = list.slice().sort((a, b) => a.annualINR - b.annualINR);
+    // fee range is verified-only; null when nothing in this country is verified
+    const fees = verifiedFeeRange(list as any);
     const ieltsValues = list.map(c => c.ieltsMin).filter(v => v > 0);
     const budgetSlug = BUDGET_COUNTRY_SLUGS[country];
     const budgetBand = budgetSlug
@@ -76,8 +83,11 @@ export function getCountryBreakdown(courses: RealCourseEntry[]): CountryBreakdow
     rows.push({
       country,
       courses: sorted,
-      minFeeLakh: (courseAnnualINRLakh(sorted[0] as any, 1) ?? '0'),
-      maxFeeLakh: (courseAnnualINRLakh(sorted[sorted.length - 1] as any, 1) ?? '0'),
+      minFeeLakh: fees ? fees.minLakh : null,
+      maxFeeLakh: fees ? fees.maxLakh : null,
+      verifiedCount: fees ? fees.verifiedCount : 0,
+      listedCount: fees ? fees.listedCount : sorted.length,
+      basisNote: fees ? fees.basisNote : null,
       minIelts: ieltsValues.length ? Math.min(...ieltsValues) : 0,
       cheapestHubSlug: CHEAPEST_COUNTRY_SLUGS[country],
       pswHubSlug: PSW_COUNTRY_SLUGS[country],
@@ -88,8 +98,14 @@ export function getCountryBreakdown(courses: RealCourseEntry[]): CountryBreakdow
   return rows.sort((a, b) => b.courses.length - a.courses.length);
 }
 
+// Only rows whose fee was checked against the provider's own page can be ranked
+// or named as 'cheapest' — an unverified figure must not decide an ordering the
+// page then presents as fact.
 export function getCheapestOverall(courses: RealCourseEntry[], limit = 20): RealCourseEntry[] {
-  return courses.slice().sort((a, b) => a.annualINR - b.annualINR).slice(0, limit);
+  return courses
+    .filter(c => isFeeVerified(c as any) && (courseAnnualINR(c as any) ?? 0) > 0)
+    .sort((a, b) => (courseAnnualINR(a as any) ?? 0) - (courseAnnualINR(b as any) ?? 0))
+    .slice(0, limit);
 }
 
 /** Subject pillars that actually have ≥1 real course in this country — used so

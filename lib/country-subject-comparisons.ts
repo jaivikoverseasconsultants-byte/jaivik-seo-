@@ -5,15 +5,19 @@ import {
   COMPARISON_COUNTRIES, COMPARISON_COUNTRY_PAIRS, SUBJECT_SHORT_SLUGS, MIN_COURSES_PER_SIDE,
 } from '@/data/country-subject-comparisons';
 import { getCostGuideBySlug } from '@/data/cost-of-living';
-import { courseAnnualINRLakh } from '@/lib/currency';
+import { courseAnnualINRLakh, courseAnnualINR } from '@/lib/currency';
+import { verifiedFeeRange, isFeeVerified } from '@/lib/fee-verification';
 
 export interface CountrySubjectSide {
   countrySlug: string;
   countryName: string;
   courses: RealCourseEntry[];
   count: number;
-  minFeeLakh: string;
-  maxFeeLakh: string;
+  /** verified-only; null when no course on this side has a verified fee */
+  minFeeLakh: string | null;
+  maxFeeLakh: string | null;
+  verifiedCount: number;
+  basisNote: string | null;
   cheapest: RealCourseEntry[]; // top 3, cheapest first
 }
 
@@ -22,14 +26,18 @@ function buildCountrySide(countrySlug: string, pillar: SubjectPillarConfig): Cou
   if (!countryName) return null;
   const courses = getCoursesForPillar(pillar).filter(c => c.country === countryName).sort((a, b) => a.annualINR - b.annualINR);
   if (courses.length < MIN_COURSES_PER_SIDE) return null;
+  const fees = verifiedFeeRange(courses as any);
   return {
     countrySlug,
     countryName,
     courses,
     count: courses.length,
-    minFeeLakh: (courseAnnualINRLakh(courses[0] as any, 1) ?? '0'),
-    maxFeeLakh: (courseAnnualINRLakh(courses[courses.length - 1] as any, 1) ?? '0'),
-    cheapest: courses.slice(0, 3),
+    minFeeLakh: fees ? fees.minLakh : null,
+    maxFeeLakh: fees ? fees.maxLakh : null,
+    verifiedCount: fees ? fees.verifiedCount : 0,
+    basisNote: fees ? fees.basisNote : null,
+    // only verified rows may be ranked as "cheapest"
+    cheapest: courses.filter(c => isFeeVerified(c as any) && (courseAnnualINR(c as any) ?? 0) > 0).slice(0, 3),
   };
 }
 

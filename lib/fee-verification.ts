@@ -91,6 +91,63 @@ export function verifiedAvgFee(
 }
 
 /**
+ * A fee range built ONLY from rows whose fee has been verified against the
+ * provider's own page, plus the provenance needed to state it honestly.
+ *
+ * Why (2026-08-26): the cost- and subject-pillar pages published sentences like
+ * "Across 2,308 real courses on this site, tuition fees range from ₹4.9L to
+ * ₹35.6L per year" — into the visible copy AND the FAQPage JSON-LD — computed
+ * across the whole catalogue including suppressed rows. For Canada, Ireland, the
+ * Netherlands, the USA and 5 more, NONE of the underlying fees were verified.
+ *
+ * Returns null when nothing is verified, which callers must render as "no range"
+ * rather than as a zero range. Where a range does survive it is usually drawn
+ * from a minority of the catalogue, so `basisNote` is not optional decoration —
+ * it is the difference between a checkable claim and a misleading one. The
+ * courses themselves are real; it is their fees that are unverified, and the
+ * wording must keep that distinction.
+ */
+export interface VerifiedFeeRange {
+  verifiedCount: number;
+  listedCount: number;
+  minLakh: string;
+  medianLakh: string;
+  maxLakh: string;
+  /** e.g. "based on 1,294 fee-verified courses of 9,692 listed" */
+  basisNote: string;
+  /** true when the verified rows are a minority — callers may want to lead with it */
+  isPartial: boolean;
+}
+
+export function verifiedFeeRange(
+  courses: readonly FeeVerifiable[] | null | undefined,
+): VerifiedFeeRange | null {
+  if (!Array.isArray(courses)) return null;
+  const priced: number[] = [];
+  const verified: number[] = [];
+  for (const c of courses) {
+    const inr = courseAnnualINR(c as never);
+    if (!inr || inr <= 0) continue;
+    priced.push(inr);
+    if (isFeeVerified(c)) verified.push(inr);
+  }
+  if (!verified.length) return null;
+  verified.sort((a, b) => a - b);
+  const lakh = (n: number) => (n / 100000).toFixed(1);
+  const verifiedCount = verified.length;
+  const listedCount = priced.length;
+  return {
+    verifiedCount,
+    listedCount,
+    minLakh: lakh(verified[0]),
+    medianLakh: lakh(verified[Math.floor(verified.length / 2)]),
+    maxLakh: lakh(verified[verified.length - 1]),
+    basisNote: `based on ${verifiedCount.toLocaleString('en-IN')} fee-verified course${verifiedCount === 1 ? '' : 's'} of ${listedCount.toLocaleString('en-IN')} listed`,
+    isPartial: verifiedCount < listedCount,
+  };
+}
+
+/**
  * The "Fees in INR, " fragment of a course-page <title>.
  *
  * Empty when the fee is unverified or absent, so a suppressed page does not

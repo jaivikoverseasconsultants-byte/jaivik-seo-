@@ -8,6 +8,7 @@
 
 import type { MatchedCourse } from '@/lib/find-my-course';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { isFeeVerified } from '@/lib/fee-verification';
 
 const SITE_URL = 'https://study.jaivikoverseasconsultants.com';
 const LOGO_PATH = '/joc-logo.png';
@@ -221,7 +222,9 @@ export async function generateShortlistPdf(
 
     doc.setFontSize(8);
     doc.setTextColor(...NAVY);
-    doc.text(`Rs. ${(courseAnnualINRLakh(c as any, 1) ?? '0')}L`, MARGIN + 108, y);
+    // an unverified fee must not be printed into a document the student keeps
+    const feeLakh = isFeeVerified(c as any) ? courseAnnualINRLakh(c as any, 1) : null;
+    doc.text(feeLakh ? `Rs. ${feeLakh}L` : 'On request', MARGIN + 108, y);
     doc.setTextColor(c.ieltsVerified ? 22 : 130, c.ieltsVerified ? 130 : 130, c.ieltsVerified ? 60 : 130);
     const ieltsText = doc.splitTextToSize(c.ieltsDisplay, 24);
     doc.text(ieltsText, MARGIN + 138, y);

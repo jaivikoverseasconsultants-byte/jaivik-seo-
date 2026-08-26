@@ -5,7 +5,8 @@ import { classifyLevel } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import { buildMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
-import { courseAnnualINRLakh } from '@/lib/currency';
+import { courseAnnualINRLakh, courseAnnualINR } from '@/lib/currency';
+import { verifiedFeeRange, isFeeVerified } from '@/lib/fee-verification';
 
 // Same slug maps/thresholds used by the decision hubs — duplicated here
 // rather than centralized, matching this repo's existing per-file convention.
@@ -22,47 +23,69 @@ function toCourseForContent(c: RealCourseEntry): CourseForContent {
 }
 
 export interface LevelStats {
+  /** courses listed at this level (verified or not) */
   count: number;
+  /** how many of those carry a fee verified against the provider's own page */
+  verifiedCount: number;
   minLakh: string;
   maxLakh: string;
   medianLakh: string;
+  basisNote: string;
 }
 
 export interface TuitionStats {
+  /** courses listed for this country */
   count: number;
+  verifiedCount: number;
+  basisNote: string;
   cheapestLakh: string;
   medianLakh: string;
   maxLakh: string;
+  /** the cheapest course among VERIFIED rows — safe to name in copy */
   cheapestCourse: RealCourseEntry;
   bachelor: LevelStats | null;
   master: LevelStats | null;
 }
 
+// Every figure below comes from `verifiedFeeRange`, i.e. from rows whose fee was
+// read off the provider's own page. Returning null (rather than a zero range)
+// where nothing is verified is deliberate — the caller drops the block entirely.
 function levelStats(courses: RealCourseEntry[]): LevelStats | null {
-  if (!courses.length) return null;
-  const sorted = courses.slice().sort((a, b) => a.annualINR - b.annualINR);
+  const r = verifiedFeeRange(courses as any);
+  if (!r) return null;
   return {
-    count: sorted.length,
-    minLakh: (courseAnnualINRLakh(sorted[0] as any, 1) ?? '0'),
-    maxLakh: (courseAnnualINRLakh(sorted[sorted.length - 1] as any, 1) ?? '0'),
-    medianLakh: (courseAnnualINRLakh(sorted[Math.floor(sorted.length / 2)] as any, 1) ?? '0'),
+    count: r.listedCount,
+    verifiedCount: r.verifiedCount,
+    minLakh: r.minLakh,
+    maxLakh: r.maxLakh,
+    medianLakh: r.medianLakh,
+    basisNote: r.basisNote,
   };
 }
 
 export function getTuitionStats(registryCountry: string): TuitionStats | null {
   const courses = getAllRealCourses().filter(c => c.country === registryCountry && c.annualINR > 0);
   if (!courses.length) return null;
-  const sorted = courses.slice().sort((a, b) => a.annualINR - b.annualINR);
+
+  const range = verifiedFeeRange(courses as any);
+  if (!range) return null;                 // no verified fee for this country at all
+
+  // name the cheapest VERIFIED course, never the cheapest unverified one
+  const verifiedSorted = courses
+    .filter(c => isFeeVerified(c as any) && (courseAnnualINR(c as any) ?? 0) > 0)
+    .sort((a, b) => (courseAnnualINR(a as any) ?? 0) - (courseAnnualINR(b as any) ?? 0));
 
   const bachelorCourses = courses.filter(c => classifyLevel(toCourseForContent(c)) === 'bachelor');
   const masterCourses = courses.filter(c => classifyLevel(toCourseForContent(c)) === 'master');
 
   return {
-    count: sorted.length,
-    cheapestLakh: (courseAnnualINRLakh(sorted[0] as any, 1) ?? '0'),
-    medianLakh: (courseAnnualINRLakh(sorted[Math.floor(sorted.length / 2)] as any, 1) ?? '0'),
-    maxLakh: (courseAnnualINRLakh(sorted[sorted.length - 1] as any, 1) ?? '0'),
-    cheapestCourse: sorted[0],
+    count: range.listedCount,
+    verifiedCount: range.verifiedCount,
+    basisNote: range.basisNote,
+    cheapestLakh: range.minLakh,
+    medianLakh: range.medianLakh,
+    maxLakh: range.maxLakh,
+    cheapestCourse: verifiedSorted[0],
     bachelor: levelStats(bachelorCourses),
     master: levelStats(masterCourses),
   };
@@ -102,7 +125,7 @@ export function buildCostPillarMetadata(config: CostPillarConfig, tuition: Tuiti
   return buildMetadata({
     title: `Cost of Studying in ${config.displayName} for Indian Students — Tuition + Living Costs in INR 2026`,
     description: tuition
-      ? `Real tuition fees (₹${tuition.cheapestLakh}L–₹${tuition.maxLakh}L/year from ${tuition.count} real courses) combined with real city-by-city living costs for ${config.displayName}. Total budget ranges, cheapest options, and ways to reduce cost for Indian students.`
+      ? `Verified tuition fees (₹${tuition.cheapestLakh}L–₹${tuition.maxLakh}L/year, ${tuition.basisNote}) combined with real city-by-city living costs for ${config.displayName}. Total budget ranges, cheapest options, and ways to reduce cost for Indian students.`
       : `Tuition and living cost guide for studying in ${config.displayName} as an Indian student.`,
     path: `/${config.slug}`,
     keywords: [`cost of studying in ${config.displayName}`, `${config.displayName} study cost for indian students`, `total cost of studying abroad in ${config.displayName}`, `${config.displayName} tuition and living cost`],

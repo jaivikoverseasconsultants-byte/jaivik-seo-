@@ -11,6 +11,7 @@ import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { verifiedFeeRange } from '@/lib/fee-verification';
 
 const CHEAPEST_ROWS_SHOWN = 20;
 const ROWS_PER_COUNTRY = 30;
@@ -24,15 +25,16 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
   const ieltsMin = ieltsValues.length ? Math.min(...ieltsValues) : null;
   const ieltsMax = ieltsValues.length ? Math.max(...ieltsValues) : null;
   const cheapestOverallCountry = cheapest[0]?.country ?? null;
-  const maxFeeLakhOverall = courses.length ? (Math.max(...courses.map(c => c.annualINR)) / 100000).toFixed(1) : null;
+  // verified-only overall range; null when nothing in this subject has a verified fee
+  const overallFees = verifiedFeeRange(courses as any);
 
   const otherPillars = SUBJECT_PILLARS.filter(p => p.slug !== config.slug);
 
   const faqs = [
     {
       q: `What is the average fee for ${config.name} abroad for Indian students?`,
-      a: cheapest.length
-        ? `Across ${courses.length} real ${config.introLabel} courses on this site, fees range from ₹${(courseAnnualINRLakh(cheapest[0] as any, 1) ?? '0')} lakh to ₹${maxFeeLakhOverall} lakh per year, depending on country and university. The cheapest is ${cheapest[0].name} at ${getUniversityBySlug(cheapest[0].universitySlug)?.name ?? cheapest[0].universitySlug} in ${cheapest[0].country}. See the full country-by-country list below — every row links to the real course page.`
+      a: overallFees && cheapest.length
+        ? `Fees range from ₹${overallFees.minLakh} lakh to ₹${overallFees.maxLakh} lakh per year, depending on country and university — ${overallFees.basisNote}. All ${courses.length} ${config.introLabel} courses listed are real; those whose fee we have not yet checked against the university's own page show "On request" and are excluded from this range. The cheapest verified option is ${cheapest[0].name} at ${getUniversityBySlug(cheapest[0].universitySlug)?.name ?? cheapest[0].universitySlug} in ${cheapest[0].country}. See the full country-by-country list below — every row links to the real course page.`
         : `See the full list below.`,
     },
     {
@@ -139,7 +141,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
 
       {/* Country sections */}
       <div className="space-y-10">
-        {countries.map(({ country, courses: list, minFeeLakh, maxFeeLakh, minIelts, cheapestHubSlug, pswHubSlug, budgetLink }) => {
+        {countries.map(({ country, courses: list, minFeeLakh, maxFeeLakh, basisNote, minIelts, cheapestHubSlug, pswHubSlug, budgetLink }) => {
           const shown = list.slice(0, ROWS_PER_COUNTRY);
           const costPillar = getCostPillarForCountry(country);
           return (
@@ -153,7 +155,10 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                 </span>
               </div>
               <p className="text-xs text-gray-500 mb-4">
-                ₹{minFeeLakh}L–₹{maxFeeLakh}L per year{minIelts > 0 ? ` · IELTS from ${minIelts}+` : ''}
+                {minFeeLakh && maxFeeLakh
+                  ? <>₹{minFeeLakh}L–₹{maxFeeLakh}L per year <span className="text-gray-400">({basisNote})</span></>
+                  : <span className="text-gray-400">Fees on request — none verified against the university&apos;s own page yet</span>}
+                {minIelts > 0 ? ` · IELTS from ${minIelts}+` : ''}
               </p>
 
               {(cheapestHubSlug || pswHubSlug || budgetLink || costPillar) && (
