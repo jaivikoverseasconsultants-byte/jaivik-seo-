@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { feeDisplay, feeDisplayINRLakh, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 export async function generateStaticParams() {
   return (aucklandCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -33,7 +34,7 @@ export default async function CourseDetailPage(
   const course = getAucklandCourseBySlug(slug);
   if (!course) notFound();
 
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
 
   const schema = {
     '@context': 'https://schema.org',
@@ -98,7 +99,7 @@ export default async function CourseDetailPage(
                 ['TOEFL Minimum', `${course.toeflMin}+`],
                 ['Annual Fee (NZD)', feeDisplay(course as any, course.annualNZD, 'NZD')],
                 ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
-                ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (course.annualINR / 100000).toFixed(1), '')],
+                ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (courseAnnualINRLakh(course as any, 1) ?? '0'), '')],
               ].map(([k, v]) => (
                 <div key={k} className="flex flex-col">
                   <span className="text-xs text-gray-500">{k}</span>

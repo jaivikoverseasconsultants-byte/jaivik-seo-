@@ -1,3 +1,4 @@
+import { courseAnnualINR, inrToLakh } from '@/lib/currency';
 /**
  * Interim suppression of unverified tuition figures.
  *
@@ -101,7 +102,9 @@ export function titleFeeFragment(
   annualINR?: number | null,
 ): string {
   if (!isFeeVerified(course)) return '';
-  if (typeof annualINR !== 'number' || !isFinite(annualINR) || annualINR <= 0) return '';
+  const inr = courseAnnualINR(course as never)
+    ?? (typeof annualINR === 'number' ? annualINR : null);
+  if (typeof inr !== 'number' || !isFinite(inr) || inr <= 0) return '';
   return 'Fees in INR, ';
 }
 
@@ -120,8 +123,13 @@ export function feeSentenceINR(
   annualINR: number | undefined | null,
 ): string {
   if (!isFeeVerified(course)) return '.';
-  if (typeof annualINR !== 'number' || !isFinite(annualINR) || annualINR <= 0) return '.';
-  return ` costs ₹${(annualINR / 100000).toFixed(1)}L/year for Indian students.`;
+  // Derive from the native fee at the central rate rather than trusting the
+  // caller's baked, crawl-dated annualINR (see lib/currency.ts). The argument is
+  // kept as a fallback for courses whose country has no mapped currency.
+  const inr = courseAnnualINR(course as never)
+    ?? (typeof annualINR === 'number' ? annualINR : null);
+  const lakh = inrToLakh(inr);
+  return lakh ? ` costs ₹${lakh}L/year for Indian students.` : '.';
 }
 
 /** INR-lakh fee for display, or the placeholder when unverified. */

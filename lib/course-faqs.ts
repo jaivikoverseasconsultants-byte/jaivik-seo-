@@ -1,4 +1,5 @@
 import { getUniversityBySlug } from '@/data/universities';
+import { COUNTRY_CURRENCY, courseAnnualINRLakh } from '@/lib/currency';
 import { costOfLivingGuides } from '@/data/cost-of-living';
 import type { CourseForContent } from '@/lib/courseContent';
 import { isNonDegreeOffering } from '@/lib/psw-eligibility';
@@ -11,27 +12,6 @@ export interface Faq {
 
 // ─── Currency lookup ────────────────────────────────────────────────────────
 
-const COUNTRY_CURRENCY: Record<string, string> = {
-  Australia: 'AUD',
-  Canada: 'CAD',
-  'United Kingdom': 'GBP',
-  UK: 'GBP',
-  'New Zealand': 'NZD',
-  Germany: 'EUR',
-  Ireland: 'EUR',
-  Netherlands: 'EUR',
-  France: 'EUR',
-  Italy: 'EUR',
-  Spain: 'EUR',
-  Finland: 'EUR',
-  Denmark: 'DKK',
-  Sweden: 'SEK',
-  Singapore: 'SGD',
-  UAE: 'AED',
-  'United Arab Emirates': 'AED',
-  USA: 'USD',
-  'United States': 'USD',
-};
 
 export function nativeFee(course: CourseForContent): { amount: number; code: string } | null {
   const code = COUNTRY_CURRENCY[course.country];
@@ -84,7 +64,7 @@ function tuitionFeeFaq(course: CourseForContent, universityName: string): Faq | 
   // do not quote a fee we are re-verifying
   if (!isFeeVerified(course as any)) return null;
   if (typeof course.annualINR !== 'number' || course.annualINR <= 0) return null;
-  const inrLakh = (course.annualINR / 100000).toFixed(1);
+  const inrLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
   const native = nativeFee(course);
   const answer = native
     ? `The annual tuition fee for ${course.name} at ${universityName} is ${native.code} ${native.amount.toLocaleString()}, which is approximately ₹${inrLakh} lakh in INR for Indian students. This covers tuition only — living costs, visa fees, and health insurance are additional.`

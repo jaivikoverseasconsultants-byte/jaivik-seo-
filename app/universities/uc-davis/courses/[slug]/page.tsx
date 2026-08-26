@@ -6,6 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 import LeadForm from '@/components/LeadForm';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 export function generateStaticParams() {
   return ucdavisCourses.map(c => ({ slug: c.slug }));
@@ -55,7 +56,7 @@ export default async function CourseDetailPage(
                 { label: 'Duration', value: c.duration },
                 { label: 'Level', value: c.level },
                 { label: 'Annual Fee (USD)', value: feeDisplay(c as any, c.annualUSD, 'USD') },
-                { label: 'Annual Fee (INR)', value: feeDisplayINRLakh(c as any, (c.annualINR / 100000).toFixed(1), '') },
+                { label: 'Annual Fee (INR)', value: feeDisplayINRLakh(c as any, (courseAnnualINRLakh(c as any, 1) ?? '0'), '') },
               ].map(s => (
                 <div key={s.label} className="bg-brand-50 rounded-xl p-3 text-center">
                   <p className="text-lg font-bold text-brand-700">{s.value}</p>

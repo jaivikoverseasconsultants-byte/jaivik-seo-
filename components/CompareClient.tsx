@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { RATE_TO_INR } from '@/lib/currency';
 import {
   COUNTRIES, COMPARE_UNIVERSITIES, COMPARE_COURSES,
   calcCountryMatch,
@@ -36,7 +37,7 @@ const LEVEL_OPTIONS = ['Undergraduate', 'Postgraduate', 'PhD'];
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
-function usdToInr(usd: number) { return Math.round(usd * 84); }
+function usdToInr(usd: number) { return Math.round(usd * RATE_TO_INR.USD); }
 function inrLabel(inr: number) {
   if (inr >= 10_000_000) return `₹${(inr / 10_000_000).toFixed(1)}Cr`;
   if (inr >= 100_000) return `₹${(inr / 100_000).toFixed(1)}L`;

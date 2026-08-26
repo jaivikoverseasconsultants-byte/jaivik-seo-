@@ -5,6 +5,7 @@ import { getAllNursingCourses, classifyLevel, type NursingCourseEntry } from '@/
 import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 // Real, sourced facts used in the FAQ below — not per-university estimates:
 // - NMC (UK) registration: IELTS Academic 7.0 in Listening/Reading/Speaking,
@@ -198,7 +199,7 @@ export default function NursingAbroadPage() {
                             <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-brand-100 text-brand-700">{levelBadge(c)}</span>
                           </td>
                           <td className="text-right py-2.5 px-2 text-gray-700">
-                            {c.annualINR > 0 ? `₹${(c.annualINR / 100000).toFixed(1)}L` : '—'}
+                            {c.annualINR > 0 ? `₹${(courseAnnualINRLakh(c as any, 1) ?? '0')}L` : '—'}
                           </td>
                           <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                         </tr>

@@ -10,6 +10,7 @@ import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 const CHEAPEST_ROWS_SHOWN = 20;
 const ROWS_PER_COUNTRY = 30;
@@ -31,7 +32,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
     {
       q: `What is the average fee for ${config.name} abroad for Indian students?`,
       a: cheapest.length
-        ? `Across ${courses.length} real ${config.introLabel} courses on this site, fees range from ₹${(cheapest[0].annualINR / 100000).toFixed(1)} lakh to ₹${maxFeeLakhOverall} lakh per year, depending on country and university. The cheapest is ${cheapest[0].name} at ${getUniversityBySlug(cheapest[0].universitySlug)?.name ?? cheapest[0].universitySlug} in ${cheapest[0].country}. See the full country-by-country list below — every row links to the real course page.`
+        ? `Across ${courses.length} real ${config.introLabel} courses on this site, fees range from ₹${(courseAnnualINRLakh(cheapest[0] as any, 1) ?? '0')} lakh to ₹${maxFeeLakhOverall} lakh per year, depending on country and university. The cheapest is ${cheapest[0].name} at ${getUniversityBySlug(cheapest[0].universitySlug)?.name ?? cheapest[0].universitySlug} in ${cheapest[0].country}. See the full country-by-country list below — every row links to the real course page.`
         : `See the full list below.`,
     },
     {
@@ -125,7 +126,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                       </td>
                       <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
                       <td className="py-2.5 px-2 text-gray-700">{COUNTRY_FLAGS[c.country] ?? ''} {c.country}</td>
-                      <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(c.annualINR / 100000).toFixed(1)}L</td>
+                      <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
                       <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                     </tr>
                   );
@@ -201,7 +202,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                             </Link>
                           </td>
                           <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
-                          <td className="text-right py-2.5 px-2 text-gray-700">₹{(c.annualINR / 100000).toFixed(1)}L</td>
+                          <td className="text-right py-2.5 px-2 text-gray-700">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
                           <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                         </tr>
                       );

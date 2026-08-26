@@ -11,6 +11,7 @@ import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-of-hamburg';
 export async function generateStaticParams() {
@@ -48,7 +49,7 @@ export default async function CoursePage(
     url: course.url,
   };
 
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
 
   return (
     <>
@@ -144,7 +145,7 @@ export default async function CoursePage(
                 { label: `Tuition × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}`, value: feeDisplay(course as any, course.totalEUR, 'EUR'), hi: true },
                 { label: `Living × ${course.durationYears} yr${course.durationYears !== 1 ? 's' : ''}`, value: `€${(course.livingCostEUR * course.durationYears).toLocaleString()}` },
                 { label: 'Total Est. Cost', value: (isFeeVerified(course as any) ? `€${(course.totalEUR + course.livingCostEUR * course.durationYears).toLocaleString()}` : 'On request'), hi: true },
-                { label: 'In Indian Rupees', value: (isFeeVerified(course as any) ? `₹${((course.totalEUR + course.livingCostEUR * course.durationYears) * 1.08 * 84 / 100000).toFixed(1)} Lakh` : 'On request'), hi: true },
+                { label: 'In Indian Rupees', value: (isFeeVerified(course as any) ? `₹${((course.totalEUR + course.livingCostEUR * course.durationYears) * 1.08 * RATE_TO_INR.USD / 100000).toFixed(1)} Lakh` : 'On request'), hi: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.hi ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
                   <span className="text-sm text-gray-700">{r.label}</span>

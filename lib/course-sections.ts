@@ -10,23 +10,10 @@ import {
   type CareerOutcomeDetails,
 } from '@/lib/course-faqs';
 
-// Pinned indicative rates (INR per 1 unit of currency), consistent with the
-// site-wide CurrencyConverter fallback table. Not a live rate — labelled as
-// indicative with an as-of date so students know to confirm the live rate.
-const RATE_TO_INR: Record<string, number> = {
-  USD: 83.5,
-  CAD: 61.4,
-  GBP: 105.7,
-  AUD: 54.6,
-  EUR: 90.8,
-  SGD: 62.3,
-  NZD: 51.2,
-  AED: 22.7,
-  DKK: 12.1,
-  SEK: 8.0,
-};
-
-export const RATE_AS_OF = 'July 2026';
+// Rates now live in lib/currency.ts — the single source of truth. Re-exported
+// here so existing importers of RATE_AS_OF keep working.
+import { RATE_TO_INR, RATE_AS_OF, courseAnnualINR, inrToLakh } from '@/lib/currency';
+export { RATE_AS_OF };
 
 // ─── Overview ────────────────────────────────────────────────────────────────
 
@@ -55,7 +42,10 @@ export function getFeesBreakdown(course: CourseForContent): FeesBreakdown | null
   // Tuition flagged unverified (Aug 2026 flat-fee scan) must not be shown as a
   // precise figure; skip the whole breakdown until the provider is re-crawled.
   if (!isFeeVerified(course as any)) return null;
-  const annualINR = typeof course.annualINR === 'number' && course.annualINR > 0 ? course.annualINR : null;
+  // Derived from the native fee at the central rate (lib/currency.ts), NOT the
+  // record's baked annualINR — that was written at crawl time and differs between
+  // rows in the same file wherever the phase-1 fee crawl recomputed only some.
+  const annualINR = courseAnnualINR(course as never);
   const native = nativeFee(course);
   if (!annualINR && !native) return null;
 
@@ -68,10 +58,10 @@ export function getFeesBreakdown(course: CourseForContent): FeesBreakdown | null
   return {
     native,
     annualINR,
-    annualINRLakh: annualINR ? (annualINR / 100000).toFixed(1) : null,
+    annualINRLakh: inrToLakh(annualINR),
     livingCostNative,
     livingCostINR,
-    livingCostINRLakh: livingCostINR ? (livingCostINR / 100000).toFixed(1) : null,
+    livingCostINRLakh: inrToLakh(livingCostINR),
     rate,
     rateAsOf: RATE_AS_OF,
   };

@@ -12,6 +12,7 @@ import { fetchUnsplashImage, COUNTRY_QUERIES, type UnsplashImage } from '@/lib/u
 import { UNIVERSITY_COMPARISONS } from '@/data/university-comparisons';
 import { getUniversityComparisonData } from '@/lib/university-comparisons';
 import { getAllCountrySubjectComparisons } from '@/lib/country-subject-comparisons';
+import { RATE_TO_INR } from '@/lib/currency';
 
 // Root layout (app/layout.tsx) sets the site-wide title/description but no
 // canonical — add an explicit self-referencing canonical here so the
@@ -402,7 +403,7 @@ export default async function HomePage() {
                 </div>
                 <div className="grid grid-cols-2 gap-2 text-xs mb-3">
                   <div className="bg-gray-50 rounded-lg p-2 text-center">
-                    <p className="font-bold text-brand-700">${(c.avgFeesUSD / 1000).toFixed(0)}K (≈₹{(c.avgFeesUSD * 84 / 100000).toFixed(1)}L)</p>
+                    <p className="font-bold text-brand-700">${(c.avgFeesUSD / 1000).toFixed(0)}K (≈₹{(c.avgFeesUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L)</p>
                     <p className="text-gray-400">Avg Fees</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-2 text-center">

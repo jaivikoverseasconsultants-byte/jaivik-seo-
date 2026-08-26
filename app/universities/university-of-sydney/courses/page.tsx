@@ -7,6 +7,7 @@ import JsonLd from '@/components/JsonLd';
 
 import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
   title: 'University of Sydney International Courses – All Programs, Fees & IELTS 2026',
   description: `University of Sydney — ${(usydCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
@@ -65,7 +66,7 @@ export default function CoursesPage() {
         name: `What is the average tuition fee at University of Sydney?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at University of Sydney is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `The average annual tuition at University of Sydney is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
       }] : []),
       {
@@ -181,7 +182,7 @@ export default function CoursesPage() {
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">{annualFeeLabel(c)}</p>
-                      <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
+                      <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
                       <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                     </div>
                   </Link>

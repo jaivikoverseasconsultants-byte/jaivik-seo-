@@ -7,6 +7,7 @@ import JsonLd from '@/components/JsonLd';
 
 import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
   title: 'University of Wollongong International Courses – All Programs, Fees & IELTS 2026',
   description: `University of Wollongong — ${(uowCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
@@ -41,7 +42,7 @@ export default function CoursesPage() {
     mainEntity: [
       { '@type': 'Question', name: `How many courses does the University of Wollongong offer for international students?`, acceptedAnswer: { '@type': 'Answer', text: `UOW offers ${courses.length} programs for international students including Undergraduate, Master's, and PhD degrees.` } },
       { '@type': 'Question', name: `What is the minimum IELTS score required at UOW?`, acceptedAnswer: { '@type': 'Answer', text: `The minimum IELTS score at UOW is ${_minIelts}+. Some programs may require higher scores.` } },
-      ...(_avgFeeUSD > 0 ? [{ '@type': 'Question', name: `What is the average tuition fee at UOW?`, acceptedAnswer: { '@type': 'Answer', text: `The average annual tuition at UOW is approximately $${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR).` } }] : []),
+      ...(_avgFeeUSD > 0 ? [{ '@type': 'Question', name: `What is the average tuition fee at UOW?`, acceptedAnswer: { '@type': 'Answer', text: `The average annual tuition at UOW is approximately $${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR).` } }] : []),
       { '@type': 'Question', name: `What intakes does UOW offer?`, acceptedAnswer: { '@type': 'Answer', text: `UOW offers February and July intakes. Apply 3–6 months before the intake.` } },
       { '@type': 'Question', name: `How can Indian students apply to UOW?`, acceptedAnswer: { '@type': 'Answer', text: `Indian students can apply to UOW through Jaivik Overseas Consultants — free application guidance, SOP writing, and visa assistance included.` } },
     ],
@@ -118,7 +119,7 @@ export default function CoursesPage() {
                       </div>
                       <div className="ml-4 text-right flex-shrink-0">
                         <p className="text-sm font-bold text-brand-700">{annualFeeLabel(c)}</p>
-                        <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
+                        <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
                         <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                       </div>
                     </Link>

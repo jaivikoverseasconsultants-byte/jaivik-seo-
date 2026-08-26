@@ -5,6 +5,7 @@ import { lsbuCourses } from '@/data/lsbu-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
   title: 'London South Bank University Courses – All Programs, Fees & IELTS 2026',
@@ -110,7 +111,7 @@ export default function CoursesPage() {
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">£{c.annualGBP.toLocaleString()}/yr</p>
-                      <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
+                      <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
                       <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
                     </div>
                   </Link>

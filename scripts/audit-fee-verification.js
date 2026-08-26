@@ -241,6 +241,48 @@ for (const dir of ['components', 'lib']) {
   }
 }
 
+// ── 8. currency conversion must go through lib/currency.ts ──────────────────
+//
+// Added 2026-08-26. Conversion used to happen three ways at once — a private rate
+// table, ~180 multipliers inlined in templates (`* 107 / 100000` for GBP, `* 84`
+// for USD, `* 0.65 * 84` for AUD), and an `annualINR` baked into each record at
+// crawl time. They disagreed: leeds/auckland/strath each carried TWO different
+// baked rates internally, so two courses on one page converted differently.
+//
+// Now everything reads RATE_TO_INR from lib/currency.ts. These checks keep it that
+// way: an inlined multiplier or a raw baked-annualINR read is a regression.
+const CONVERSION_DIRS = ['app', 'components', 'lib'];
+const INLINE_RATE = /\*\s*(?:0\.\d+\s*\*\s*)?\d{2,3}(?:\.\d+)?\s*\/\s*100000/;
+const BAKED_INR = /\bannualINR\s*\/\s*100000\s*\)?\s*\.toFixed/;
+
+function walkTs(dir, fn) {
+  for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    // exact directory names — a substring match here would skip bournem-OUT-h,
+    // s-OUT-hampton, portsm-OUT-h and friends, which is exactly how the first
+    // pass of this refactor silently missed 16 files.
+    if (e.isDirectory()) { if (!['node_modules', '.next', 'out'].includes(e.name)) walkTs(p, fn); continue; }
+    if (/\.tsx?$/.test(e.name)) fn(p);
+  }
+}
+
+for (const d of CONVERSION_DIRS) {
+  const abs = path.join(ROOT, d);
+  if (!fs.existsSync(abs)) continue;
+  walkTs(abs, (p) => {
+    const rel = path.relative(ROOT, p).replace(/\\/g, '/');
+    if (rel === 'lib/currency.ts') return;                 // the table's own docs
+    const src = fs.readFileSync(p, 'utf8');
+    src.split('\n').forEach((line, i) => {
+      if (/^\s*(\/\/|\*|\/\*)/.test(line)) return;         // comments
+      if (INLINE_RATE.test(line) && !/RATE_TO_INR/.test(line))
+        failures.push(`[currency] ${rel}:${i + 1}: inlined conversion multiplier — use RATE_TO_INR from lib/currency.ts.  ${line.trim().slice(0, 90)}`);
+      else if (BAKED_INR.test(line) && !/courseAnnualINR/.test(line))
+        failures.push(`[currency] ${rel}:${i + 1}: reads the baked annualINR — use courseAnnualINRLakh() from lib/currency.ts.  ${line.trim().slice(0, 90)}`);
+    });
+  });
+}
+
 // ── report ──────────────────────────────────────────────────────────────────
 console.log('=== Audit: tuition-fee verification guards ===');
 console.log(`Live course routes checked:      ${routes.length}`);

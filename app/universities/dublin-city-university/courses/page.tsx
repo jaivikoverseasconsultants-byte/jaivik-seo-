@@ -5,6 +5,7 @@ import { dcuCourses } from '@/data/dcu-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
+import { RATE_TO_INR } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Dublin City University International Courses – All Programs, Fees & IELTS 2026',
@@ -27,7 +28,7 @@ export default function CoursesPage() {
   const totalCourses = courses.length;
   const pgCourses = courses.filter((c: any) => c.studyLevel !== 'Undergraduate');
   const avgFee = verifiedAvgFee(pgCourses.length ? (pgCourses as any[]) : (courses as any[]), 'annualEUR', 'annualUSD');
-  const feeINRLakh = (avgFee * 90 / 100000).toFixed(1);
+  const feeINRLakh = (avgFee * RATE_TO_INR.EUR / 100000).toFixed(1);
 
   
   const _minIelts = courses.length ? Math.min(...courses.map((c: any) => Number(c.ieltsMin) || 6.0)) : 6.0;
@@ -63,7 +64,7 @@ export default function CoursesPage() {
         name: `What is the average tuition fee at Dublin City University?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at Dublin City University is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `The average annual tuition at Dublin City University is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
       }] : []),
       {

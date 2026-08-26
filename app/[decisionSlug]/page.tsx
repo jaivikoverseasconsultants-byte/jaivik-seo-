@@ -14,6 +14,7 @@ import {
   getAllCountrySubjectComparisons, parseCountrySubjectSlug, getCountrySubjectComparisonData,
 } from '@/lib/country-subject-comparisons';
 import CountrySubjectComparisonPage from '@/components/CountrySubjectComparisonPage';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 // Root-level dynamic segment handling TWO distinct decision-hub URL shapes,
 // merged into a single route. Next.js App Router's static export does not
@@ -167,8 +168,8 @@ function CheapestView({ country }: { country: string }) {
   const courses = getCheapestCourses(country);
   const countrySlug = CHEAPEST_COUNTRY_SLUGS[country];
   const shown = courses.slice(0, CHEAPEST_ROWS_SHOWN);
-  const cheapestLakh = courses.length ? (courses[0].annualINR / 100000).toFixed(1) : null;
-  const medianLakh = courses.length ? (courses[Math.floor(courses.length / 2)].annualINR / 100000).toFixed(1) : null;
+  const cheapestLakh = courses.length ? (courseAnnualINRLakh(courses[0] as any, 1) ?? '0') : null;
+  const medianLakh = courses.length ? (courseAnnualINRLakh(courses[Math.floor(courses.length / 2)] as any, 1) ?? '0') : null;
 
   // Sideways cross-links to related decision hubs for the same country
   const budgetCountrySlug = BUDGET_COUNTRY_SLUGS[country];
@@ -246,7 +247,7 @@ function CheapestView({ country }: { country: string }) {
                       </Link>
                     </td>
                     <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
-                    <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(c.annualINR / 100000).toFixed(1)}L</td>
+                    <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
                     <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                   </tr>
                 );
@@ -343,7 +344,7 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
   const faqs = [
     {
       q: `Can I study in ${country} under ₹${band} lakh per year?`,
-      a: `Yes — ${matches.length} real courses in ${country} on this site have an annual tuition fee of ₹${band} lakh or less. The cheapest is ${shown[0].name} at ${getUniversityBySlug(shown[0].universitySlug)?.name ?? shown[0].universitySlug}, at approximately ₹${(shown[0].annualINR / 100000).toFixed(1)} lakh per year. See the full list below — every row links to the real course page for exact, current fees.`,
+      a: `Yes — ${matches.length} real courses in ${country} on this site have an annual tuition fee of ₹${band} lakh or less. The cheapest is ${shown[0].name} at ${getUniversityBySlug(shown[0].universitySlug)?.name ?? shown[0].universitySlug}, at approximately ₹${(courseAnnualINRLakh(shown[0] as any, 1) ?? '0')} lakh per year. See the full list below — every row links to the real course page for exact, current fees.`,
     },
     {
       q: `Does ₹${band} lakh include living costs in ${country}?`,
@@ -420,7 +421,7 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
                       </Link>
                     </td>
                     <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
-                    <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(c.annualINR / 100000).toFixed(1)}L</td>
+                    <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
                     <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                   </tr>
                 );

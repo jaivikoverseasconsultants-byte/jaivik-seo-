@@ -9,6 +9,7 @@ import LeadForm from '@/components/LeadForm';
 import SaveCourseButton from '@/components/SaveCourseButton';
 import JsonLd from '@/components/JsonLd';
 import { buildMetadata, formatINR, formatUSD } from '@/lib/seo';
+import { RATE_TO_INR } from '@/lib/currency';
 
 const SalaryChart = dynamic(() => import('@/components/charts/SalaryChart'), { ssr: false });
 const JobRolesChart = dynamic(() => import('@/components/charts/JobRolesChart'), { ssr: false });
@@ -160,7 +161,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
           name: `What is the average fee for ${cat.name} abroad?`,
           acceptedAnswer: {
             '@type': 'Answer',
-            text: `Average annual tuition for ${cat.name} is approximately $${Math.round(cat.avgFeeUSD / 1000)}K USD (₹${(cat.avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Germany and Netherlands are cheaper; USA and UK can be $30K–$65K/year.`,
+            text: `Average annual tuition for ${cat.name} is approximately $${Math.round(cat.avgFeeUSD / 1000)}K USD (₹${(cat.avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Germany and Netherlands are cheaper; USA and UK can be $30K–$65K/year.`,
           },
         },
         {
@@ -376,7 +377,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                           </td>
                           <td className="px-3 py-3 text-right font-semibold text-gray-900">
                             ${Math.round(u.annualTuitionUSD / 1000)}K
-                            <div className="text-xs text-gray-400 font-normal">≈ ₹{(u.annualTuitionUSD * 84 / 100000).toFixed(1)}L</div>
+                            <div className="text-xs text-gray-400 font-normal">≈ ₹{(u.annualTuitionUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L</div>
                           </td>
                           <td className="px-3 py-3 text-right text-gray-700 text-sm">{u.requirements?.ieltsMin}+</td>
                           <td className="px-3 py-3 text-right text-xs text-gray-500">{WORK_RIGHTS[u.country] || '—'}</td>
@@ -527,7 +528,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                     Math.round(baseUSD * 0.82 / 1000),
                   ];
                   const sal = salaries[i] ?? Math.round(baseUSD / 1000);
-                  const inrL = (sal * 84 / 100).toFixed(0);
+                  const inrL = (sal * RATE_TO_INR.USD / 100).toFixed(0);
                   return (
                     <div key={role} className="flex items-center justify-between p-4 bg-gray-50 rounded-xl">
                       <div className="flex items-center gap-3">
@@ -552,7 +553,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                   <p className="text-xs text-green-600 mt-1">Avg Starting Salary (USD)</p>
                 </div>
                 <div className="p-4 bg-blue-50 rounded-xl text-center">
-                  <p className="text-2xl font-bold text-blue-700">₹{(cat.avgSalaryUSD * 84 / 100000).toFixed(0)}L</p>
+                  <p className="text-2xl font-bold text-blue-700">₹{(cat.avgSalaryUSD * RATE_TO_INR.USD / 100000).toFixed(0)}L</p>
                   <p className="text-xs text-blue-600 mt-1">Approx. in Indian Rupees</p>
                 </div>
                 <div className="p-4 bg-purple-50 rounded-xl text-center">
@@ -573,7 +574,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                   {
                     icon: '💰',
                     title: 'Significantly Higher Graduate Salary',
-                    text: `${cat.name} graduates from overseas universities earn $${Math.round(cat.avgSalaryUSD / 1000)}K–$${Math.round(cat.avgSalaryUSD * 1.25 / 1000)}K per year internationally — approximately ₹${(cat.avgSalaryUSD * 84 / 100000).toFixed(0)}L–₹${(cat.avgSalaryUSD * 1.25 * 84 / 100000).toFixed(0)}L per year. This typically represents a 3–5× premium over a comparable Indian degree after 3–5 years of work experience.`,
+                    text: `${cat.name} graduates from overseas universities earn $${Math.round(cat.avgSalaryUSD / 1000)}K–$${Math.round(cat.avgSalaryUSD * 1.25 / 1000)}K per year internationally — approximately ₹${(cat.avgSalaryUSD * RATE_TO_INR.USD / 100000).toFixed(0)}L–₹${(cat.avgSalaryUSD * 1.25 * RATE_TO_INR.USD / 100000).toFixed(0)}L per year. This typically represents a 3–5× premium over a comparable Indian degree after 3–5 years of work experience.`,
                   },
                   {
                     icon: '🌐',
@@ -612,7 +613,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
               <h2 className="text-xl font-bold text-gray-900 mb-4">FAQ — {cat.name} Abroad</h2>
               <div className="space-y-4">
                 {[
-                  { q: `How much does ${cat.name} cost abroad for Indian students?`, a: `Average annual tuition for ${cat.name} is $${Math.round(cat.avgFeeUSD / 1000)}K–$${Math.round(cat.avgFeeUSD * 1.3 / 1000)}K USD (₹${(cat.avgFeeUSD * 84 / 100000).toFixed(1)}L–₹${(cat.avgFeeUSD * 1.3 * 84 / 100000).toFixed(1)}L/yr). Germany and Netherlands are more affordable; USA and UK tend to be higher.` },
+                  { q: `How much does ${cat.name} cost abroad for Indian students?`, a: `Average annual tuition for ${cat.name} is $${Math.round(cat.avgFeeUSD / 1000)}K–$${Math.round(cat.avgFeeUSD * 1.3 / 1000)}K USD (₹${(cat.avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L–₹${(cat.avgFeeUSD * 1.3 * RATE_TO_INR.USD / 100000).toFixed(1)}L/yr). Germany and Netherlands are more affordable; USA and UK tend to be higher.` },
                   { q: `What IELTS score is required for ${cat.name}?`, a: `Most universities require IELTS ${cat.ieltsTypical}+ for ${cat.name}. Highly-ranked universities may require ${cat.ieltsTypical + 0.5}+. Pathway programs may accept ${Math.max(5.0, cat.ieltsTypical - 0.5)}+.` },
                   { q: `Which country is best for ${cat.name}?`, a: `${cat.topCountries[0]} is considered the best for ${cat.name} due to its world-class universities and strong employment opportunities. ${cat.topCountries[1]} offers strong value, and ${cat.topCountries[2] || 'Canada'} provides excellent PR pathways.` },
                   { q: `Can I get PR after studying ${cat.name} abroad?`, a: `Yes. Canada (PGWP → Express Entry), Australia (485 Temporary Graduate visa), and UK (Graduate Route 2 years) all offer strong post-study immigration pathways after completing a ${cat.name} degree.` },
@@ -647,7 +648,7 @@ export default async function CourseSlugPage({ params }: { params: Promise<{ slu
                 {[
                   ['Level', cat.level === 'UG' ? 'Undergraduate' : cat.level === 'PG' ? 'Postgraduate' : 'UG & PG'],
                   ['Avg Annual Fee', `$${Math.round(cat.avgFeeUSD / 1000)}K`],
-                  ['In INR', `₹${(cat.avgFeeUSD * 84 / 100000).toFixed(1)}L/yr`],
+                  ['In INR', `₹${(cat.avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L/yr`],
                   ['IELTS Minimum', `${cat.ieltsTypical}+`],
                   ['Avg Salary', `$${Math.round(cat.avgSalaryUSD / 1000)}K/yr`],
                   ['Universities', `${matchingUnis.length}+ listed`],

@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { feeDisplay, feeDisplayINRLakh, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 export async function generateStaticParams() {
   return (universityOfHelsinkiCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -33,7 +34,7 @@ export default async function CourseDetailPage(
   const course = getUniversityOfHelsinkiCourseBySlug(slug);
   if (!course) notFound();
 
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
 
   const schema = {
     '@context': 'https://schema.org',
@@ -98,7 +99,7 @@ export default async function CourseDetailPage(
                 course.toeflMin > 0 ? ['TOEFL Minimum', `${course.toeflMin}+`] : null,
                 course.annualEUR > 0 ? ['Annual Fee (EUR)', feeDisplay(course as any, course.annualEUR, 'EUR')] : null,
                 course.annualUSD > 0 ? ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')] : null,
-                course.annualINR > 0 ? ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (course.annualINR / 100000).toFixed(1), '')] : null,
+                course.annualINR > 0 ? ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (courseAnnualINRLakh(course as any, 1) ?? '0'), '')] : null,
               ] as ([string, string] | null)[]).filter((x): x is [string, string] => x !== null).map(([k, v]) => (
                 <div key={k} className="flex flex-col">
                   <span className="text-xs text-gray-500">{k}</span>

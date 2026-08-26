@@ -16,6 +16,7 @@ import { getVerifiedRanking } from '@/data/university-rankings-verified';
 import { buildMetadata, formatINR, formatUSD, authorPersonSchema } from '@/lib/seo';
 import { fetchUnsplashImage, fetchUnsplashImages } from '@/lib/unsplash';
 import { generateUniversityAbout, generateWhyIndianStudents, generateApplicationProcess, generateNotableAlumni } from '@/lib/content-gen';
+import { RATE_TO_INR } from '@/lib/currency';
 
 const FeesChart = dynamic(() => import('@/components/charts/FeesChart'), { ssr: false });
 const RankingChart = dynamic(() => import('@/components/charts/RankingChart'), { ssr: false });
@@ -385,7 +386,7 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                 {[
                   { label: 'Annual Tuition Fee', usd: u.annualTuitionUSD, inr: u.annualTuitionINR },
                   { label: 'Living Cost (Accommodation + Food)', usd: u.livingCostUSD, inr: u.livingCostINR },
-                  { label: 'Application Fee (one-time)', usd: u.applicationFeeUSD, inr: u.applicationFeeUSD * 84 },
+                  { label: 'Application Fee (one-time)', usd: u.applicationFeeUSD, inr: u.applicationFeeUSD * RATE_TO_INR.USD },
                 ].map(item => (
                   <div key={item.label} className="flex items-center justify-between py-3 border-b border-gray-50">
                     <span className="text-sm text-gray-700">{item.label}</span>

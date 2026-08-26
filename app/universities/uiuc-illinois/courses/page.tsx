@@ -4,6 +4,7 @@ import { uiucCourses } from '@/data/uiuc-courses';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Illinois Urbana-Champaign Courses & Programs 2026 – Fees, IELTS & Intakes',
@@ -51,7 +52,7 @@ export default function UiucCoursesPage() {
         name: `What is the average tuition fee at University of Illinois Urbana-Champaign?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at University of Illinois Urbana-Champaign is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `The average annual tuition at University of Illinois Urbana-Champaign is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
       }] : []),
       {
@@ -150,7 +151,7 @@ export default function UiucCoursesPage() {
                 </div>
                 <div className="text-right whitespace-nowrap">
                   <p className="font-bold text-brand-700 text-sm">$${(c.annualUSD/1000).toFixed(0)}K/yr</p>
-                  <p className="text-xs text-gray-400">≈ ₹{(c.annualINR/100000).toFixed(1)}L/yr</p>
+                  <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
                 </div>
               </div>
             </Link>

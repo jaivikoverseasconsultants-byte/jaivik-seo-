@@ -10,6 +10,7 @@ import CourseRichContent from '@/components/CourseRichContent';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'flinders-university';
 export async function generateStaticParams() {
@@ -52,7 +53,7 @@ export default async function CoursePage(
     url: course.url,
   };
 
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
 
   return (
     <>
@@ -150,7 +151,7 @@ export default async function CoursePage(
                 { label: `Tuition Fee × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: feeDisplay(course as any, course.totalAUD, 'AUD'), highlight: true },
                 { label: `Living Cost × ${course.durationYears} year${course.durationYears !== 1 ? 's' : ''}`, value: `A$${(course.livingCostAUD * course.durationYears).toLocaleString()}` },
                 { label: 'Total Estimated Cost', value: (isFeeVerified(course as any) ? `A$${(course.totalAUD + course.livingCostAUD * course.durationYears).toLocaleString()}` : 'On request'), highlight: true },
-                { label: 'In Indian Rupees (₹)', value: (isFeeVerified(course as any) ? `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * 0.65 * 84 / 100000).toFixed(1)} Lakh` : 'On request'), highlight: true },
+                { label: 'In Indian Rupees (₹)', value: (isFeeVerified(course as any) ? `₹${((course.totalAUD + course.livingCostAUD * course.durationYears) * RATE_TO_INR.AUD / 100000).toFixed(1)} Lakh` : 'On request'), highlight: true },
               ].map(r => (
                 <div key={r.label} className={`flex justify-between items-center p-3 rounded-xl ${r.highlight ? 'bg-brand-50 font-bold' : 'bg-gray-50'}`}>
                   <span className="text-sm text-gray-700">{r.label}</span>

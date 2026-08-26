@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
+import { courseAnnualINRLakh, RATE_TO_INR } from '@/lib/currency';
 
 export async function generateStaticParams() {
   return (tcdCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -35,7 +36,7 @@ export default async function CoursePage(
   if (!course) notFound();
 
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
   const totalFee = (course as any)['totalEUR'] || fee * course.durationYears;
 
   const schema = {
@@ -71,7 +72,7 @@ export default async function CoursePage(
   for (const [key, val] of Object.entries(careerMap)) {
     if (fieldKey.includes(key)) { career = val; break; }
   }
-  const avgINR = Math.round(career.avgUSD * 83.5);
+  const avgINR = Math.round(career.avgUSD * RATE_TO_INR.USD);
   const avgINRLakh = (avgINR / 100000).toFixed(1);
 
   return (

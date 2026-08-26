@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import type { RegistryCourse } from '@/data/university-course-registry';
 import { isFeeVerified } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 const PAGE_SIZE = 20;
 
@@ -180,7 +181,7 @@ export default function UniversityCoursesSection({
                 <div>
                   <p className="text-gray-400 mb-0.5">Annual Fee</p>
                   <p className="font-semibold text-brand-700">{formatFee(course)}</p>
-                  {isFeeVerified(course as any) && course.annualINR > 0 && <p className="text-gray-400 text-[10px]">≈ ₹{(course.annualINR/100000).toFixed(1)}L</p>}
+                  {isFeeVerified(course as any) && course.annualINR > 0 && <p className="text-gray-400 text-[10px]">≈ ₹{(courseAnnualINRLakh(course as any, 1) ?? '0')}L</p>}
                 </div>
                 <div>
                   <p className="text-gray-400 mb-0.5">IELTS Min</p>

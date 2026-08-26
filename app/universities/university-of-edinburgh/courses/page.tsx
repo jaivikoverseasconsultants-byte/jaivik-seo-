@@ -5,6 +5,7 @@ import { edinburghCourses } from '@/data/edinburgh-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
+import { RATE_TO_INR } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Edinburgh International Courses – All Programs, Fees & IELTS 2026',
@@ -66,7 +67,7 @@ export default function CoursesPage() {
         name: `What is the average tuition fee at University of Edinburgh?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `The average annual tuition at University of Edinburgh is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * 84 / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
+          text: `The average annual tuition at University of Edinburgh is approximately ${_avgFeeUSD.toLocaleString()} USD (≈ ₹${(_avgFeeUSD * RATE_TO_INR.USD / 100000).toFixed(1)}L INR). Fees vary by program and level.`,
         },
       }] : []),
       {
@@ -123,7 +124,7 @@ export default function CoursesPage() {
   const otherGroups = Object.keys(groups).filter(l => !levelOrder.includes(l)).map(l => [l, groups[l]]);
   const allGroups = [...orderedGroups, ...otherGroups] as [string, any[]][];
 
-  const feeINRLakh = (avgFee * 106 / 100000).toFixed(1);
+  const feeINRLakh = (avgFee * RATE_TO_INR.GBP / 100000).toFixed(1);
 
   return (
     <>

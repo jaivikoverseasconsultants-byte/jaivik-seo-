@@ -5,6 +5,7 @@ import {
   COMPARISON_COUNTRIES, COMPARISON_COUNTRY_PAIRS, SUBJECT_SHORT_SLUGS, MIN_COURSES_PER_SIDE,
 } from '@/data/country-subject-comparisons';
 import { getCostGuideBySlug } from '@/data/cost-of-living';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 export interface CountrySubjectSide {
   countrySlug: string;
@@ -26,8 +27,8 @@ function buildCountrySide(countrySlug: string, pillar: SubjectPillarConfig): Cou
     countryName,
     courses,
     count: courses.length,
-    minFeeLakh: (courses[0].annualINR / 100000).toFixed(1),
-    maxFeeLakh: (courses[courses.length - 1].annualINR / 100000).toFixed(1),
+    minFeeLakh: (courseAnnualINRLakh(courses[0] as any, 1) ?? '0'),
+    maxFeeLakh: (courseAnnualINRLakh(courses[courses.length - 1] as any, 1) ?? '0'),
     cheapest: courses.slice(0, 3),
   };
 }

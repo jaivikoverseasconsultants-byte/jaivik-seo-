@@ -2,6 +2,7 @@ import { getAllRealCourses, type RealCourseEntry } from '@/data/university-cours
 import { SUBJECT_PILLARS, type SubjectPillarConfig } from '@/data/subject-pillars';
 import { buildMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 // Same slug maps used by the decision hubs (app/[decisionSlug]/page.tsx,
 // components/IeltsBandHub.tsx, app/courses-with-psw/[country]/page.tsx) —
@@ -75,8 +76,8 @@ export function getCountryBreakdown(courses: RealCourseEntry[]): CountryBreakdow
     rows.push({
       country,
       courses: sorted,
-      minFeeLakh: (sorted[0].annualINR / 100000).toFixed(1),
-      maxFeeLakh: (sorted[sorted.length - 1].annualINR / 100000).toFixed(1),
+      minFeeLakh: (courseAnnualINRLakh(sorted[0] as any, 1) ?? '0'),
+      maxFeeLakh: (courseAnnualINRLakh(sorted[sorted.length - 1] as any, 1) ?? '0'),
       minIelts: ieltsValues.length ? Math.min(...ieltsValues) : 0,
       cheapestHubSlug: CHEAPEST_COUNTRY_SLUGS[country],
       pswHubSlug: PSW_COUNTRY_SLUGS[country],

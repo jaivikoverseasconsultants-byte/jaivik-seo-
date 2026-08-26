@@ -12,6 +12,7 @@ import { getMatchingPillarsForCourseName } from '@/data/subject-pillars';
 import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 import DeadlineCountdown from '@/components/DeadlineCountdown';
 import { isFeeVerified, feeDisplayINRLakh } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 interface Props {
   course: CourseForContent;
@@ -119,7 +120,7 @@ export default function CourseRichContent({ course, universityName, universitySl
   );
 
   const countrySlug = course.country.toLowerCase().replace(/\s+/g, '-');
-  const inrLakh = (course.annualINR / 100000).toFixed(1);
+  const inrLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
   const intakesText = course.intakeMonths.join(' and ');
   const fieldLabel = detectFieldLabel(course.name);
   const currentSlug = (course as any).slug as string | undefined;
@@ -508,7 +509,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                       </Link>
                     </td>
                     <td className="text-right py-2.5 px-2 text-gray-700">
-                      {feeDisplayINRLakh(prog as any, (prog.annualINR / 100000).toFixed(1), '')}
+                      {feeDisplayINRLakh(prog as any, (courseAnnualINRLakh(prog as any, 1) ?? '0'), '')}
                     </td>
                     <td className="text-right py-2.5 px-2 text-gray-700">{prog.ieltsMin}+</td>
                     <td className="text-right py-2.5 px-2 text-gray-700">{prog.duration}</td>
@@ -546,7 +547,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                       {rnUni?.name ?? rn.universitySlug} · {rn.country} · IELTS {rn.ieltsMin || '—'}+
                     </p>
                   </div>
-                  <span className="text-xs font-semibold text-brand-700 flex-shrink-0">{feeDisplayINRLakh(rn as any, (rn.annualINR / 100000).toFixed(1), '/yr')} →</span>
+                  <span className="text-xs font-semibold text-brand-700 flex-shrink-0">{feeDisplayINRLakh(rn as any, (courseAnnualINRLakh(rn as any, 1) ?? '0'), '/yr')} →</span>
                 </Link>
               );
             })}

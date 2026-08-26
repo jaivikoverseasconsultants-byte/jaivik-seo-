@@ -7,6 +7,7 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export async function generateStaticParams() {
   return (dcuCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -31,7 +32,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   if (!course) notFound();
 
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
   const totalFee = (course as any).totalEUR || fee * course.durationYears;
 
   const schema = { '@context': 'https://schema.org', '@type': 'Course', name: course.name, provider: { '@type': 'CollegeOrUniversity', name: 'Dublin City University', sameAs: 'https://www.dcu.ie' }, courseMode: 'full-time', educationalLevel: course.studyLevel };
@@ -49,7 +50,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   };
   let career = careerMap.default;
   for (const [key, val] of Object.entries(careerMap)) { if (fieldKey.includes(key)) { career = val; break; } }
-  const avgINRLakh = (career.avgUSD * 83.5 / 100000).toFixed(1);
+  const avgINRLakh = (career.avgUSD * RATE_TO_INR.USD / 100000).toFixed(1);
 
   return (
     <>

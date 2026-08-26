@@ -11,6 +11,7 @@ import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { getPillarsWithCoverageInCountry } from '@/lib/subject-pillars';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 // Only countries lib/course-faqs.ts's pswDetails() actually computes a real
 // post-study-work pathway for — never guess a country's PSW rules.
@@ -181,7 +182,7 @@ export default async function PswCoursesPage({ params }: { params: Promise<{ cou
                       </Link>
                     </td>
                     <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
-                    <td className="text-right py-2.5 px-2 text-gray-700">₹{(c.annualINR / 100000).toFixed(1)}L</td>
+                    <td className="text-right py-2.5 px-2 text-gray-700">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
                     <td className="text-right py-2.5 px-2 text-gray-700">{c.duration}</td>
                     <td className="text-right py-2.5 pl-2 font-semibold text-green-700">{workDuration}</td>
                   </tr>

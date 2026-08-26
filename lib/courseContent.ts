@@ -1,3 +1,4 @@
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export interface CourseForContent {
   name: string;
   level: string;
@@ -184,7 +185,7 @@ function generateCareer(course: CourseForContent, uniName: string, field: Field,
   const cd = fieldCareers[field];
   const topRoles = cd.roles.slice(0, 4).join(', ');
   const country = course.country;
-  const inrLakh = (cd.avgUSD * 83.5 / 100000).toFixed(1);
+  const inrLakh = (cd.avgUSD * RATE_TO_INR.USD / 100000).toFixed(1);
 
   const openers = [
     `Graduates of the ${course.name} from ${uniName} are well positioned for careers across the ${cd.industries[0]} and ${cd.industries[1]} sectors in ${country} and internationally.`,
@@ -369,7 +370,7 @@ export function generateCourseContent(
   const city = course.city || 'the university campus';
   const intakes = course.intakeMonths.join(' and ');
   const variation = v(course.name, universityName, 4);
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
 
   const levelLabel = course.level;
   const studyLevelLabel = course.studyLevel || course.level;

@@ -5,6 +5,7 @@ import { classifyLevel } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import type { UniversityComparisonPair } from '@/data/university-comparisons';
 import { getCostGuideBySlug } from '@/data/cost-of-living';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 function toCourseForContent(c: RealCourseEntry): CourseForContent {
   return {
@@ -43,8 +44,8 @@ function buildSide(universitySlug: string): UniversitySide | null {
     count: courses.length,
     bachelorCount,
     masterCount,
-    minFeeLakh: (courses[0].annualINR / 100000).toFixed(1),
-    maxFeeLakh: (courses[courses.length - 1].annualINR / 100000).toFixed(1),
+    minFeeLakh: (courseAnnualINRLakh(courses[0] as any, 1) ?? '0'),
+    maxFeeLakh: (courseAnnualINRLakh(courses[courses.length - 1] as any, 1) ?? '0'),
     cheapest: courses.slice(0, 3),
   };
 }

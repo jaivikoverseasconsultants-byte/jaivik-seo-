@@ -11,6 +11,7 @@ import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
+import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-college-london';
 export async function generateStaticParams() {
@@ -79,9 +80,9 @@ export default async function CoursePage(
   if (!course) notFound();
 
   const careers = getCareers(slug);
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
   const totalCostGBP = course.totalGBP + course.livingCostGBP * course.durationYears;
-  const totalCostINRLakh = (totalCostGBP * 1.27 * 84 / 100000).toFixed(1);
+  const totalCostINRLakh = (totalCostGBP * 1.27 * RATE_TO_INR.USD / 100000).toFixed(1);
 
   const schema = {
     '@context': 'https://schema.org', '@type': 'Course',

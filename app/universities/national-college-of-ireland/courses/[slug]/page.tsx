@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 export async function generateStaticParams() {
   return nciCourses.map((c) => ({ slug: c.slug }));
@@ -31,7 +32,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   if (!course) notFound();
 
   const fee = course.annualUSD;
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
   const schema = { '@context': 'https://schema.org', '@type': 'Course', name: course.name, provider: { '@type': 'CollegeOrUniversity', name: 'National College of Ireland', sameAs: 'https://www.ncirl.ie' }, courseMode: 'full-time', educationalLevel: course.studyLevel };
 
   return (

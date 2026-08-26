@@ -12,6 +12,7 @@ import { isPswEligible } from '@/lib/psw-eligibility';
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
 
 import { feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 /** decides which "course facts" are really university-wide constants */
 const UNIVERSITY_SLUG = 'university-of-sydney';
 export async function generateStaticParams() {
@@ -49,7 +50,7 @@ export default async function CoursePage(
     url: course.url,
   };
 
-  const feeINRLakh = (course.annualINR / 100000).toFixed(1);
+  const feeINRLakh = (courseAnnualINRLakh(course as any, 1) ?? '0');
 
   return (
     <>

@@ -15,6 +15,7 @@
  */
 
 import { isFeeVerified } from './fee-verification';
+import { courseAnnualINRLakh, RATE_TO_INR } from '@/lib/currency';
 
 export interface FeeBearingCourse {
   feeVerified?: boolean;
@@ -67,14 +68,18 @@ export function totalFeeLabel(c: FeeBearingCourse): string {
   return 'Fee on request';
 }
 
-/** Annual tuition in INR lakh, e.g. "29.9" — null when no exact fee is published. */
+/**
+ * Annual tuition in INR lakh, e.g. "29.9" — null when no exact fee is published.
+ * Derived from the native fee at the central rate; it no longer depends on the
+ * record's baked `annualINR` existing.
+ */
 export function annualFeeINRLakh(c: FeeBearingCourse): string | null {
-  if (!hasExactFee(c) || !c.annualINR) return null;
-  return (c.annualINR / 100000).toFixed(1);
+  if (!hasExactFee(c)) return null;
+  return courseAnnualINRLakh(c as any, 1);
 }
 
 /** Annual fee in INR for display: "₹29.9L/yr", a range, or an honest fallback. */
-export function annualFeeINRLabel(c: FeeBearingCourse, audToInr = 55): string {
+export function annualFeeINRLabel(c: FeeBearingCourse, audToInr = RATE_TO_INR.AUD): string {
   const lakh = annualFeeINRLakh(c);
   if (lakh) return `₹${lakh}L/yr`;
   if (hasFeeRange(c)) {
@@ -89,7 +94,7 @@ export function annualFeeINRLabel(c: FeeBearingCourse, audToInr = 55): string {
  * Fee sentence for meta descriptions. Avoids emitting "₹0.0L/year" for courses
  * with no published fee.
  */
-export function feeMetaPhrase(c: FeeBearingCourse, audToInr = 55): string {
+export function feeMetaPhrase(c: FeeBearingCourse, audToInr = RATE_TO_INR.AUD): string {
   const lakh = annualFeeINRLakh(c);
   if (lakh) return `costs ₹${lakh}L/year for Indian students`;
   if (hasFeeRange(c)) {
@@ -115,7 +120,7 @@ export function totalEstimatedCostLabel(c: FeeBearingCourse, livingCostAUD: numb
 export function totalEstimatedCostINRLabel(
   c: FeeBearingCourse,
   livingCostAUD: number,
-  audToInr = 0.65 * 84,
+  audToInr = RATE_TO_INR.AUD,
 ): string {
   const years = c.durationYears || 0;
   const living = livingCostAUD * years;

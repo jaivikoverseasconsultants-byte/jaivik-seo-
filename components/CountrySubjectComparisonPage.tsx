@@ -8,6 +8,7 @@ import VerifiedBy from '@/components/VerifiedBy';
 import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { feeDisplayINRLakh } from '@/lib/fee-verification';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 export default function CountrySubjectComparisonPage({ data }: { data: CountrySubjectComparisonData }) {
   const { parsed, sideA, sideB, costA, costB, pswA, pswB } = data;
@@ -103,7 +104,7 @@ export default function CountrySubjectComparisonPage({ data }: { data: CountrySu
                     <Link href={`/universities/${c.universitySlug}/courses/${c.slug}`} className="text-brand-700 hover:underline">
                       {c.name}
                     </Link>
-                    <span className="text-gray-500"> — {feeDisplayINRLakh(c as any, (c.annualINR / 100000).toFixed(1), '/yr')}</span>
+                    <span className="text-gray-500"> — {feeDisplayINRLakh(c as any, (courseAnnualINRLakh(c as any, 1) ?? '0'), '/yr')}</span>
                   </li>
                 ))}
               </ul>

@@ -5,6 +5,7 @@ import { classifyLevel } from '@/lib/course-faqs';
 import type { CourseForContent } from '@/lib/courseContent';
 import { buildMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
+import { courseAnnualINRLakh } from '@/lib/currency';
 
 // Same slug maps/thresholds used by the decision hubs — duplicated here
 // rather than centralized, matching this repo's existing per-file convention.
@@ -42,9 +43,9 @@ function levelStats(courses: RealCourseEntry[]): LevelStats | null {
   const sorted = courses.slice().sort((a, b) => a.annualINR - b.annualINR);
   return {
     count: sorted.length,
-    minLakh: (sorted[0].annualINR / 100000).toFixed(1),
-    maxLakh: (sorted[sorted.length - 1].annualINR / 100000).toFixed(1),
-    medianLakh: (sorted[Math.floor(sorted.length / 2)].annualINR / 100000).toFixed(1),
+    minLakh: (courseAnnualINRLakh(sorted[0] as any, 1) ?? '0'),
+    maxLakh: (courseAnnualINRLakh(sorted[sorted.length - 1] as any, 1) ?? '0'),
+    medianLakh: (courseAnnualINRLakh(sorted[Math.floor(sorted.length / 2)] as any, 1) ?? '0'),
   };
 }
 
@@ -58,9 +59,9 @@ export function getTuitionStats(registryCountry: string): TuitionStats | null {
 
   return {
     count: sorted.length,
-    cheapestLakh: (sorted[0].annualINR / 100000).toFixed(1),
-    medianLakh: (sorted[Math.floor(sorted.length / 2)].annualINR / 100000).toFixed(1),
-    maxLakh: (sorted[sorted.length - 1].annualINR / 100000).toFixed(1),
+    cheapestLakh: (courseAnnualINRLakh(sorted[0] as any, 1) ?? '0'),
+    medianLakh: (courseAnnualINRLakh(sorted[Math.floor(sorted.length / 2)] as any, 1) ?? '0'),
+    maxLakh: (courseAnnualINRLakh(sorted[sorted.length - 1] as any, 1) ?? '0'),
     cheapestCourse: sorted[0],
     bachelor: levelStats(bachelorCourses),
     master: levelStats(masterCourses),
