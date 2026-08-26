@@ -289,6 +289,35 @@ for (const d of CONVERSION_DIRS) {
   });
 }
 
+// ── 9. standing reminder: the registry whitelist has no guard yet ───────────
+//
+// BACKLOG, see BUILD-LOG §2 item 17. getAllRealCourses() maps raw rows into
+// RealCourseEntry via an explicit field list; anything not listed is dropped
+// silently. That has now cost us `pswEligible` (the PSW hub listed non-degree
+// entries) and `feeVerified` + the native annual<CUR> fields (every registry
+// consumer saw all 21,055 courses as fee-verified and converted from the baked
+// annualINR). Both were found by accident during unrelated work.
+//
+// This check is a placeholder that only asserts the fields are PRESENT in the
+// mapping source — it is not the real fix. The real fix makes the safety keys
+// required on RealCourseEntry so tsc fails when a construction site forgets one.
+const REGISTRY_SAFETY_FIELDS = ['pswEligible', 'feeVerified', 'url'];
+const registrySrc = fs.readFileSync(path.join(DATA, 'university-course-registry.ts'), 'utf8');
+const mapping = registrySrc.slice(
+  registrySrc.indexOf('export function getAllRealCourses'),
+  registrySrc.indexOf('export function getAllRealCourses') + 2500);
+const missing = REGISTRY_SAFETY_FIELDS.filter(f => !new RegExp(`\\b${f}\\b`).test(mapping));
+if (missing.length) {
+  failures.push(`[registry] getAllRealCourses() no longer carries: ${missing.join(', ')}. ` +
+    `Fields dropped from this mapping vanish silently for every hub page — see BUILD-LOG §2 item 17.`);
+}
+if (!/nativeFeeFields/.test(mapping)) {
+  failures.push('[registry] getAllRealCourses() no longer spreads nativeFeeFields(raw) — ' +
+    'native annual<CUR> fees are lost, so conversion falls back to the baked annualINR.');
+}
+notes.push('[backlog] BUILD-LOG §2 item 17: no type-level guard yet on the registry field ' +
+  'whitelist — check 9 here is a text-match placeholder, not the real fix.');
+
 // ── report ──────────────────────────────────────────────────────────────────
 console.log('=== Audit: tuition-fee verification guards ===');
 console.log(`Live course routes checked:      ${routes.length}`);
