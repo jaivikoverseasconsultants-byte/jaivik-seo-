@@ -1,0 +1,1122 @@
+<title>Option A Coverage Pilot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    --paper:      #F4F5F7;
+    --card:       #FFFFFF;
+    --ink:        #17181C;
+    --ink-2:      #3E3B40;
+    --ink-3:      #6E6870;
+    --rule:       #DCDAE0;
+    --rule-soft:  #E9E7EC;
+    --accent:     #8C2F39;
+    --accent-dim: #B0616A;
+    --accent-wash:#F6EAEB;
+    --full:       #2E6A4F;
+    --full-wash:  #E5F0EA;
+    --partial:    #96650F;
+    --partial-wash:#F7EEDC;
+    --none:       #6E6870;
+    --none-wash:  #E8E6EA;
+    --shadow:     0 1px 2px rgba(23,24,28,.05), 0 8px 24px -16px rgba(23,24,28,.25);
+  }
+  :root:not([data-theme="light"]) { }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:      #131317;
+      --card:       #1A1A1F;
+      --ink:        #EDEBEF;
+      --ink-2:      #C3BFC7;
+      --ink-3:      #918C97;
+      --rule:       #2E2D34;
+      --rule-soft:  #26252B;
+      --accent:     #D98A92;
+      --accent-dim: #A9646C;
+      --accent-wash:#2A1D20;
+      --full:       #7FBF9C;
+      --full-wash:  #17281F;
+      --partial:    #D9AC5F;
+      --partial-wash:#2A2114;
+      --none:       #918C97;
+      --none-wash:  #26252B;
+      --shadow:     0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:      #131317;
+    --card:       #1A1A1F;
+    --ink:        #EDEBEF;
+    --ink-2:      #C3BFC7;
+    --ink-3:      #918C97;
+    --rule:       #2E2D34;
+    --rule-soft:  #26252B;
+    --accent:     #D98A92;
+    --accent-dim: #A9646C;
+    --accent-wash:#2A1D20;
+    --full:       #7FBF9C;
+    --full-wash:  #17281F;
+    --partial:    #D9AC5F;
+    --partial-wash:#2A2114;
+    --none:       #918C97;
+    --none-wash:  #26252B;
+    --shadow:     0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    margin: 0;
+    padding: 0 20px 96px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  .col  { max-width: 68ch; }
+
+  /* ---------- masthead ---------- */
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 56px 0 22px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: .72rem;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 18px;
+  }
+  h1 {
+    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: clamp(2.1rem, 5.2vw, 3.1rem);
+    line-height: 1.08;
+    letter-spacing: -.015em;
+    text-wrap: balance;
+    margin: 0 0 16px;
+  }
+  .standfirst {
+    font-family: Newsreader, Georgia, serif;
+    font-size: clamp(1.05rem, 2.1vw, 1.25rem);
+    line-height: 1.5;
+    color: var(--ink-2);
+    max-width: 60ch;
+    margin: 0 0 22px;
+  }
+  .meta {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .74rem;
+    color: var(--ink-3);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+  }
+
+  /* ---------- headings ---------- */
+  h2 {
+    font-family: Newsreader, Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(1.45rem, 3vw, 1.85rem);
+    line-height: 1.18;
+    letter-spacing: -.01em;
+    text-wrap: balance;
+    margin: 0 0 6px;
+  }
+  h3 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1.02rem;
+    letter-spacing: -.005em;
+    text-wrap: balance;
+    margin: 0 0 8px;
+  }
+  section { margin-top: 62px; }
+  .sect-rule {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    border-top: 1px solid var(--rule);
+    padding-top: 14px;
+    margin-bottom: 24px;
+  }
+  .sect-num {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .72rem;
+    letter-spacing: .1em;
+    color: var(--accent);
+    padding-top: .5em;
+    flex: none;
+  }
+  p { margin: 0 0 16px; }
+  .col p:last-child { margin-bottom: 0; }
+  strong { font-weight: 600; color: var(--ink); }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* ---------- headline stats ---------- */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-bottom: 34px;
+  }
+  .stat { background: var(--card); padding: 22px 22px 20px; }
+  .stat-label {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .68rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    margin: 0 0 12px;
+  }
+  .stat-fig {
+    font-family: Newsreader, Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -.02em;
+    font-variant-numeric: tabular-nums;
+    margin: 0 0 4px;
+  }
+  .stat-fig .den { font-size: 1.1rem; color: var(--ink-3); font-weight: 400; }
+  .stat-note { font-size: .82rem; color: var(--ink-3); line-height: 1.45; margin: 0; }
+
+  /* ---------- verdict ---------- */
+  .verdict {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 24px 26px;
+    box-shadow: var(--shadow);
+  }
+  .verdict p { max-width: 66ch; }
+  .verdict p:last-child { margin-bottom: 0; }
+
+  /* ---------- tables ---------- */
+  .scroll { overflow-x: auto; border: 1px solid var(--rule); background: var(--card); }
+  table { border-collapse: collapse; width: 100%; font-size: .875rem; }
+  caption {
+    caption-side: bottom;
+    text-align: left;
+    font-size: .78rem;
+    color: var(--ink-3);
+    padding: 12px 2px 0;
+    line-height: 1.5;
+  }
+  th, td {
+    text-align: left;
+    padding: 11px 14px;
+    border-bottom: 1px solid var(--rule-soft);
+    vertical-align: top;
+  }
+  thead th {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .68rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    font-weight: 500;
+    border-bottom: 1px solid var(--rule);
+    white-space: nowrap;
+    background: var(--card);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  .num { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+  .uni { font-weight: 500; white-space: nowrap; }
+  .course-name { min-width: 200px; }
+  .lvl {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .7rem;
+    color: var(--ink-3);
+    white-space: nowrap;
+  }
+  .found { font-size: .8rem; color: var(--ink-2); line-height: 1.45; min-width: 260px; }
+
+  /* ---------- grade pills ---------- */
+  .pill {
+    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .66rem;
+    font-weight: 500;
+    letter-spacing: .05em;
+    padding: 3px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .g-full    { background: var(--full-wash);    color: var(--full); }
+  .g-partial { background: var(--partial-wash); color: var(--partial); }
+  .g-none    { background: var(--none-wash);    color: var(--none); }
+
+  /* ---------- ratio bar ---------- */
+  .bar {
+    display: flex;
+    height: 7px;
+    width: 92px;
+    border-radius: 1px;
+    overflow: hidden;
+    background: var(--none-wash);
+  }
+  .bar span { display: block; height: 100%; }
+  .bar .b-full { background: var(--full); }
+  .bar .b-part { background: var(--partial); }
+
+  /* ---------- callouts ---------- */
+  .note {
+    background: var(--accent-wash);
+    border: 1px solid var(--accent-dim);
+    padding: 18px 22px;
+    margin: 26px 0 0;
+  }
+  .note h3 { color: var(--accent); margin-bottom: 6px; }
+  .note p { max-width: 64ch; font-size: .93rem; }
+  .note p:last-child { margin-bottom: 0; }
+
+  /* ---------- findings list ---------- */
+  .findings { list-style: none; padding: 0; margin: 0; display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .findings li { background: var(--card); padding: 18px 22px; }
+  .findings h3 { margin-bottom: 4px; }
+  .findings p { font-size: .9rem; color: var(--ink-2); margin: 0; max-width: 72ch; }
+  .tag {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .64rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    display: block;
+    margin-bottom: 7px;
+  }
+
+  /* ---------- phases ---------- */
+  .phases { display: grid; gap: 18px; margin-top: 8px; }
+  .phase {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    box-shadow: var(--shadow);
+  }
+  .phase-n {
+    border-right: 1px solid var(--rule);
+    padding: 20px 0 20px 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .7rem;
+    letter-spacing: .08em;
+    color: var(--accent);
+  }
+  .phase-body { padding: 20px 24px; }
+  .phase-body h3 { font-size: 1.06rem; margin-bottom: 2px; }
+  .phase-sub {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .72rem;
+    color: var(--ink-3);
+    margin: 0 0 12px;
+  }
+  .phase-body p { font-size: .92rem; color: var(--ink-2); max-width: 70ch; }
+  .phase-body p:last-child { margin-bottom: 0; }
+  .phase-body ul { margin: 0 0 14px; padding-left: 20px; font-size: .92rem; color: var(--ink-2); }
+  .phase-body li { margin-bottom: 5px; }
+
+  /* ---------- tiers ---------- */
+  .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .tier { background: var(--card); padding: 20px 22px; }
+  .tier .tag { color: var(--accent); }
+  .tier p { font-size: .88rem; color: var(--ink-2); margin: 0 0 10px; }
+  .tier p:last-child { margin: 0; }
+  .tier-cost {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .78rem;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* ---------- footer ---------- */
+  .foot {
+    margin-top: 72px;
+    border-top: 1px solid var(--rule);
+    padding-top: 20px;
+    font-size: .82rem;
+    color: var(--ink-3);
+    max-width: 72ch;
+  }
+  .foot p { margin-bottom: 10px; }
+  .foot code {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .92em;
+    background: var(--none-wash);
+    padding: 1px 5px;
+    border-radius: 2px;
+    color: var(--ink-2);
+  }
+
+  @media (max-width: 640px) {
+    .phase { grid-template-columns: 1fr; }
+    .phase-n { border-right: none; border-bottom: 1px solid var(--rule); padding: 14px 20px 0; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">Option A · Phase 0 · Data-availability research</p>
+    <h1>Is the differentiating data actually out there?</h1>
+    <p class="standfirst">
+      Twenty courses across the six fee-verified universities, checked against what each
+      university publishes on its own course page. Short answer: yes, and there is more of
+      it than the plan assumed — but the traffic case for the pilot six is weaker than the
+      data case.
+    </p>
+    <div class="meta">
+      <span>9–10 September 2026</span>
+      <span>20 courses · 6 universities</span>
+      <span>20/20 pages fetched at HTTP 200</span>
+      <span>Template untouched · 890 course names repaired</span>
+    </div>
+  </header>
+
+  <div class="stats">
+    <div class="stat">
+      <p class="stat-label">Named module list</p>
+      <p class="stat-fig">16<span class="den">/20</span></p>
+      <p class="stat-note">Full curriculum published — module names with credits. Six of those also carry per-module descriptions.</p>
+    </div>
+    <div class="stat">
+      <p class="stat-label">Course-specific entry reqs</p>
+      <p class="stat-fig">16<span class="den">/20</span></p>
+      <p class="stat-note">Grades and subject prerequisites on the page itself. The other four are obtainable, just not in the first response.</p>
+    </div>
+    <div class="stat">
+      <p class="stat-label">Published career outcomes</p>
+      <p class="stat-fig">18<span class="den">/20</span></p>
+      <p class="stat-note">Something real and course-specific. 11 of those name actual employers.</p>
+    </div>
+    <div class="stat">
+      <p class="stat-label">Harvestable words / course</p>
+      <p class="stat-fig">1,911</p>
+      <p class="stat-note">Mean of genuinely course-specific published text. Median 1,971; range 404–4,731.</p>
+    </div>
+  </div>
+
+  <div class="verdict">
+    <p>
+      <strong>The data exists and it is richer than expected.</strong> Every one of the 20 sampled
+      courses has real, published, course-specific content in at least two of the three
+      categories. Not one course would need to fall back to generic text across the board.
+      The weakest single category is career outcomes, where 2 of 20 publish nothing usable.
+    </p>
+    <p>
+      <strong>But the pilot six are not where the traffic is.</strong> Over the last 90 days those six
+      universities' course pages drew 47 impressions and zero clicks — 2% of the site's
+      course-page impressions. That does not argue against Option A; it argues for
+      re-ordering which universities go first. Detail in section 5.
+    </p>
+  </div>
+
+  <!-- ================= 1. METHOD ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">01</span>
+      <div class="col">
+        <h2>What was checked, and how</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        Twenty courses were sampled across the six universities, stratified by subject
+        (business, computing, engineering, health, law, social science, arts, science) and
+        by level, so the result is not skewed by one discipline's habits. Each course's
+        official university URL was taken from our own data file and fetched live. All
+        twenty returned HTTP 200 with full server-rendered HTML.
+      </p>
+      <p>
+        Each page was then read — not keyword-matched — for three things: a named
+        module or curriculum list, entry requirements specific to that course beyond an
+        IELTS number, and career outcomes the university itself states. Nothing was
+        inferred, estimated, or filled in. Every grade in the tables below reflects text
+        actually present on the university's page, and the full evidence with per-course
+        notes is committed to
+        <code>reports/option-a-pilot-coverage-2026-09-09.json</code>.
+      </p>
+    </div>
+
+    <div class="note">
+      <h3>One measurement correction worth stating</h3>
+      <p>
+        Bath's entry-requirement section initially measured at 21,000–37,000 words per
+        course. That is not per-course content — Bath renders an A–Z of every country's
+        qualifications on every course page. The figures in this report count only the
+        course-specific portion (selection criteria, A-level and GCSE requirements, and the
+        Indian-qualification block), which is 200–3,000 words depending on level.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 2. PER-UNIVERSITY ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">02</span>
+      <div class="col">
+        <h2>Coverage by university</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        The spread between universities is much wider than the spread between subjects.
+        Strathclyde publishes everything we would want on every course checked; Edinburgh
+        publishes the least and hides most of it behind JavaScript.
+      </p>
+    </div>
+
+    <div class="scroll" style="margin-top:24px">
+      <table>
+        <thead>
+          <tr>
+            <th>University</th>
+            <th class="num">Sampled</th>
+            <th>Modules</th>
+            <th>Entry reqs</th>
+            <th>Named employers</th>
+            <th class="num">Median words</th>
+            <th>Extraction difficulty</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="uni">Strathclyde</td>
+            <td class="num">3</td>
+            <td><span class="pill g-full">3/3 full + desc</span></td>
+            <td><span class="pill g-full">3/3 on page</span></td>
+            <td><span class="pill g-full">3/3</span></td>
+            <td class="num">2,285</td>
+            <td class="found">Easy. Server-rendered, consistent tab panels present in HTML.</td>
+          </tr>
+          <tr>
+            <td class="uni">Bath</td>
+            <td class="num">4</td>
+            <td><span class="pill g-full">4/4 full</span></td>
+            <td><span class="pill g-full">4/4 + India</span></td>
+            <td><span class="pill g-full">3/4</span></td>
+            <td class="num">3,546</td>
+            <td class="found">Easy. Consistent URL patterns, structured headings. Only uni publishing an Indian-qualification block per course.</td>
+          </tr>
+          <tr>
+            <td class="uni">Leeds</td>
+            <td class="num">3</td>
+            <td><span class="pill g-full">3/3 full + desc</span></td>
+            <td><span class="pill g-full">3/3 on page</span></td>
+            <td><span class="pill g-partial">1/3</span></td>
+            <td class="num">2,652</td>
+            <td class="found">Easy. Cleanest markup of the six; module descriptions are long-form.</td>
+          </tr>
+          <tr>
+            <td class="uni">Birmingham</td>
+            <td class="num">3</td>
+            <td><span class="pill g-full">3/3 full</span></td>
+            <td><span class="pill g-full">3/3 on page</span></td>
+            <td><span class="pill g-partial">2/3</span></td>
+            <td class="num">1,100</td>
+            <td class="found">Easy–medium. Module tables parse cleanly, but this host returned 503s during the August fee crawl — rate-limit politely.</td>
+          </tr>
+          <tr>
+            <td class="uni">Auckland</td>
+            <td class="num">3</td>
+            <td><span class="pill g-partial">2/3 full</span></td>
+            <td><span class="pill g-full">3/3 on page</span></td>
+            <td><span class="pill g-none">0/3</span></td>
+            <td class="num">2,064</td>
+            <td class="found">Medium. Three page archetypes in one data file; postgraduate programmes push modules to an external catalogue.</td>
+          </tr>
+          <tr>
+            <td class="uni">Edinburgh</td>
+            <td class="num">4</td>
+            <td><span class="pill g-partial">1/4 full</span></td>
+            <td><span class="pill g-none">0/4 on page</span></td>
+            <td><span class="pill g-partial">2/4</span></td>
+            <td class="num">1,049</td>
+            <td class="found">Hard. Entry requirements sit behind a Drupal AJAX form; undergraduate modules are prose summaries linking out to a catalogue.</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <p style="font-size:.78rem;color:var(--ink-3);margin:12px 2px 0;line-height:1.5">
+        "Median words" is genuinely course-specific published text across all three categories,
+        per course. Extraction difficulty is my estimate from reading the markup, not a measured build time.
+      </p>
+  </section>
+
+  <!-- ================= 3. THE MATRIX ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">03</span>
+      <div class="col">
+        <h2>The twenty courses</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        The "what was found" column quotes the actual specifics on each page. These are the
+        details that make a page about Strathclyde's Advanced Computer Science MSc different
+        from a page about Leeds' — the kind of thing our current template cannot express
+        because we do not hold the data.
+      </p>
+    </div>
+
+    <div class="scroll" style="margin-top:24px">
+      <table>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Modules</th>
+            <th>Entry</th>
+            <th>Career</th>
+            <th>What was found on the university's page</th>
+            <th class="num">Words</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="course-name"><span class="uni">Bath</span><br><span class="lvl">UG · BSc Psychology</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">+INDIA</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">A*AA; GCSE Maths grade 7 required and flagged as decisive; graduates at Amazon, Autism Somerset, Barnardo's, Civil Service.</td>
+            <td class="num">3,560</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Bath</span><br><span class="lvl">UG · BEng Integrated Mech &amp; Elec Eng</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">+INDIA</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Named units with credits per year; employers listed as BAE Systems, Dyson, Rolls-Royce, Mars, Swisslog, Hawk-Eye, Bloomberg.</td>
+            <td class="num">3,546</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Bath</span><br><span class="lvl">PG · MSc Automotive Eng w/ Business Mgmt</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">+INDIA</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Requires a UG degree in mech/elec/automotive engineering; Indian 2nd Division or 6.0/10 stated explicitly; graduates at AVL, JLR, McLaren, Rolls-Royce with job titles.</td>
+            <td class="num">717</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Bath</span><br><span class="lvl">PG · MSc Financial Maths w/ Data Science</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">+INDIA</span></td>
+            <td><span class="pill g-partial">SECTORS</span></td>
+            <td class="found">Named units with credits; career text names sectors (FX trading, credit risk, fund management) but no employers.</td>
+            <td class="num">665</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Edinburgh</span><br><span class="lvl">UG · Accounting and Business MA</span></td>
+            <td><span class="pill g-partial">PROSE</span></td>
+            <td><span class="pill g-none">AJAX</span></td>
+            <td><span class="pill g-partial">SECTORS</span></td>
+            <td class="found">Year-level prose only; module lists behind "Find courses" links. Entry requirements need the AJAX form.</td>
+            <td class="num">1,049</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Edinburgh</span><br><span class="lvl">UG · AI and Computer Science BSc</span></td>
+            <td><span class="pill g-partial">PROSE</span></td>
+            <td><span class="pill g-none">AJAX</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">A sub-page fetch yields course-specific "Required subjects: Mathematics at A". Employers: Google, Meta, Amazon, IBM, Skyscanner, Intel, Samsung, ARM, Nvidia, NatWest.</td>
+            <td class="num">1,749</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Edinburgh</span><br><span class="lvl">PG · Advanced Nursing MSc</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-none">AJAX</span></td>
+            <td><span class="pill g-none">GENERIC</span></td>
+            <td class="found">Named compulsory and option courses by semester and pathway. Career section is generic progression prose — nothing harvestable.</td>
+            <td class="num">569</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Edinburgh</span><br><span class="lvl">PG · Commercial Law LLM</span></td>
+            <td><span class="pill g-none">NONE</span></td>
+            <td><span class="pill g-none">AJAX</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Credit split only; courses live in an outbound catalogue. Graduates named at Deloitte, PwC, Standard Life.</td>
+            <td class="num">404</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Birmingham</span><br><span class="lvl">UG · International Law and Globalisation LLB</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Module table with credits per year; graduates at Goldman Sachs, Shakespeare Martineau, Ministry of Justice, MoD, Pinsent Masons — with the data source stated (Cturtle, 43,666 alumni).</td>
+            <td class="num">1,965</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Birmingham</span><br><span class="lvl">PG · Accounting and Finance MSc</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-none">GENERIC</span></td>
+            <td class="found">Module table with title, credits and semester. Career section is prose with no names or roles.</td>
+            <td class="num">786</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Birmingham</span><br><span class="lvl">PG · Space Engineering MSc</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Core and optional module tables; 2:1 in a physical science or engineering subject; employers include Manufacturing Technology Centre, Leonardo, Goonhilly Earth Station.</td>
+            <td class="num">1,100</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Leeds</span><br><span class="lvl">UG · Law LLB</span></td>
+            <td><span class="pill g-full">+DESC</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-partial">ROLES</span></td>
+            <td class="found">3,382 words of module content alone — named modules with credits and a full paragraph each. AAA with two A-levels in traditional academic subjects.</td>
+            <td class="num">4,731</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Leeds</span><br><span class="lvl">UG · Accounting and Finance BSc</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-partial">ROLES</span></td>
+            <td class="found">Named modules with credits per year; AAA plus GCSE Maths A/7 and English B/5 with an explicit substitution rule.</td>
+            <td class="num">2,652</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Leeds</span><br><span class="lvl">PG · Advanced Computer Science MSc</span></td>
+            <td><span class="pill g-full">+DESC</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Requires a 2:1 in CS <em>and</em> specific module breadth (programming, systems development, data structures, algorithms). Careers listed as role+employer pairs: Software Development Engineer/Amazon, Programmer/Alibaba, BI Developer/INEOS.</td>
+            <td class="num">1,978</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Strathclyde</span><br><span class="lvl">UG · BA Accounting</span></td>
+            <td><span class="pill g-full">+DESC</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Highers AAAA/AAABB (English B, Maths A), A-level AAA, IB 36, HNC/HND route. Employers: Santander, EY, PwC, Deloitte, HBOS, KPMG, Morgan Stanley.</td>
+            <td class="num">2,077</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Strathclyde</span><br><span class="lvl">PG · Advanced Computer Science MSc</span></td>
+            <td><span class="pill g-full">+DESC</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Modules with credits and learning outcomes by semester. Entry needs a 2:2 <em>plus significant programming experience, preferably Java</em> — a real prerequisite our data has no field for. Employers: Amazon, JP Morgan, Morgan Stanley, BT, Skyscanner.</td>
+            <td class="num">2,285</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Strathclyde</span><br><span class="lvl">UG · BSc Architectural Studies</span></td>
+            <td><span class="pill g-full">+DESC</span></td>
+            <td><span class="pill g-full">+PORTFOLIO</span></td>
+            <td><span class="pill g-full">NAMED</span></td>
+            <td class="found">Named design studio projects with descriptions. Highers AAAB with Art &amp; Design B, and <em>a portfolio may be required if no art-based Higher</em>. Graduates at Page and Park, Nord, Collective, Tog Studio.</td>
+            <td class="num">3,186</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Auckland</span><br><span class="lvl">UG · Bachelor of Commerce</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-partial">ROLES</span></td>
+            <td class="found">Course codes, names, type and points per year (BUSINESS 111 Understanding Organisations, 15 pts). Entry: IB 27, A-Level BCC, IELTS 6.0 no band below 5.5.</td>
+            <td class="num">2,064</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Auckland</span><br><span class="lvl">PG · Master of Artificial Intelligence</span></td>
+            <td><span class="pill g-none">NONE</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-partial">ROLES</span></td>
+            <td class="found">Points total only; courses live in an external Curriculum Catalogue. Published job list is real but generic to the field.</td>
+            <td class="num">683</td>
+          </tr>
+          <tr>
+            <td class="course-name"><span class="uni">Auckland</span><br><span class="lvl">UG · Bachelor of Laws</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-full">FULL</span></td>
+            <td><span class="pill g-partial">ROLES</span></td>
+            <td class="found">Named Part I courses (LAW 121G, LAW 131, LAW 141) plus sample structure by part; separate Part I and Part II entry requirements.</td>
+            <td class="num">2,454</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:.78rem;color:var(--ink-3);margin:12px 2px 0;line-height:1.5">
+      FULL = named module list with credits · +DESC = also carries per-module descriptions ·
+      PROSE = year-level summary only · AJAX = present but behind a form ·
+      NAMED = university names actual employers · ROLES = job-title list, no employers ·
+      SECTORS = sectors only · GENERIC = nothing course-specific.
+    </p>
+  </section>
+
+  <!-- ================= 4. WHAT IT BUYS ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">04</span>
+      <div class="col">
+        <h2>What this would actually add to a page</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        Two of our live course pages were fetched for comparison. Both render roughly
+        2,250 words in total. At the stated 36.8% uniqueness, that is about 845 genuinely
+        unique words per page, with the remaining ~1,400 shared across every course page on
+        the site.
+      </p>
+      <p>
+        Adding the mean 1,911 harvestable words would take a page to roughly 4,200 words, of
+        which about 2,750 would be unique to that course — <strong>a projected shift from
+        36.8% to roughly 65%</strong>. That is arithmetic on the measured word counts, not a
+        modelled SEO outcome, and it assumes the template surfaces the new content without
+        adding more boilerplate around it.
+      </p>
+      <p>
+        The more important point is qualitative. A page that states "requires a 2:2 plus
+        significant programming experience, preferably in Java" or "a portfolio may be
+        required if no art-based Higher" is answering a question a student actually has.
+        Our current entry-requirements text says the threshold "varies by department" and
+        invites them to contact us.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 5. THE TRAFFIC PROBLEM ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">05</span>
+      <div class="col">
+        <h2>The finding that should change the plan</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        The brief asked for phasing based on coverage. Coverage turns out not to be the
+        constraint — availability is high almost everywhere. So the phasing question becomes
+        <em>which universities first</em>, and Search Console has a clear opinion that
+        differs from the fee-verified six.
+      </p>
+    </div>
+
+    <div class="stats" style="margin-top:24px">
+      <div class="stat">
+        <p class="stat-label">Site impressions · 90 days</p>
+        <p class="stat-fig">2,378</p>
+        <p class="stat-note">16 clicks total, average position 21.2.</p>
+      </div>
+      <div class="stat">
+        <p class="stat-label">From course pages</p>
+        <p class="stat-fig">82<span class="den">%</span></p>
+        <p class="stat-note">1,944 impressions and 12 of 16 clicks. Course pages are the site's main search surface.</p>
+      </div>
+      <div class="stat">
+        <p class="stat-label">Course pages with any impression</p>
+        <p class="stat-fig">4.3<span class="den">%</span></p>
+        <p class="stat-note">909 of 21,055. The other 20,146 were invisible for the whole quarter.</p>
+      </div>
+      <div class="stat">
+        <p class="stat-label">Pilot six share</p>
+        <p class="stat-fig">2<span class="den">%</span></p>
+        <p class="stat-note">47 impressions, 0 clicks across Bath, Edinburgh, Birmingham, Leeds, Strathclyde and Auckland combined.</p>
+      </div>
+    </div>
+
+    <div class="col" style="margin-top:26px">
+      <p>
+        Read the right way, this supports the initiative rather than undermining it: 96% of
+        course pages earning no impressions at all over a quarter is exactly what thin,
+        near-duplicate content looks like at scale. Option A is aimed at the right problem.
+      </p>
+      <p>
+        But it means the pilot six were chosen for a reason — they are fee-verified — that
+        has nothing to do with where organic visibility currently exists. The universities
+        actually drawing impressions are a different set:
+      </p>
+    </div>
+
+    <div class="scroll" style="margin-top:20px;max-width:560px">
+      <table>
+        <thead>
+          <tr><th>University</th><th class="num">Impressions</th><th class="num">Pages</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="uni">Northumbria University</td><td class="num">197</td><td class="num">12</td></tr>
+          <tr><td class="uni">Australian National University</td><td class="num">98</td><td class="num">14</td></tr>
+          <tr><td class="uni">University College London</td><td class="num">72</td><td class="num">29</td></tr>
+          <tr><td class="uni">University of Toronto</td><td class="num">60</td><td class="num">25</td></tr>
+          <tr><td class="uni">Charles Darwin University</td><td class="num">56</td><td class="num">30</td></tr>
+          <tr><td class="uni">UTS Sydney</td><td class="num">50</td><td class="num">25</td></tr>
+          <tr><td class="uni">University of Surrey</td><td class="num">47</td><td class="num">3</td></tr>
+          <tr><td class="uni">University of Warwick</td><td class="num">42</td><td class="num">19</td></tr>
+        </tbody>
+        <caption>Top course-page impressions, 11 June – 8 September 2026. The top 10 universities account for 35% of all course-page impressions; the top 20 for 45%.</caption>
+      </table>
+    </div>
+  </section>
+
+  <!-- ================= 6. INCIDENTAL FINDINGS ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">06</span>
+      <div class="col">
+        <h2>Things found along the way</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        None of these were the object of the research, and none were fixed — this phase
+        changed no data. They are recorded because two of them affect what a bulk crawl
+        would produce.
+      </p>
+    </div>
+
+    <ul class="findings" style="margin-top:24px">
+      <li>
+        <span class="tag">Blocker · Strathclyde · FIXED</span>
+        <h3>561 course names were unconverted slugs</h3>
+        <p>
+          Live page titles read "Advancedcomputerscience", "Accountingfinancedataanalytics",
+          "Bschonscomputersciencesliit". The real names exist only on Strathclyde's own pages,
+          in a two-span H1. All 561 pages were crawled: <strong>541 names recovered and
+          applied</strong>; 20 were left untouched because their page now 404s — a withdrawn
+          course is not a licence to invent a title for it. "Psychologyimu" turned out to be
+          "BSc Hons Psychology / Psychology &amp; Counselling (IMU)", which no heuristic
+          could have guessed.
+        </p>
+      </li>
+      <li>
+        <span class="tag">Blocker · Auckland · FIXED</span>
+        <h3>349 course names were scraped metadata blobs</h3>
+        <p>
+          Names were stored as "Programme name: Bachelor of Commerce Faculty: Business School
+          Type: Bachelors degree". The shape is perfectly regular, so the name was
+          re-extracted rather than guessed, then <strong>verified against 25 live pages —
+          25/25 matched</strong>. Faculty and Type were kept as fields rather than thrown
+          away; the crawl phase will want them.
+        </p>
+      </li>
+      <li>
+        <span class="tag">Found during the fix · not fixed</span>
+        <h3>26 course records are unreachable behind duplicate slugs</h3>
+        <p>
+          22 Strathclyde slugs are shared by 2–3 genuinely different courses — "strath-history"
+          is the BA Hons, the MSc/PgDip <em>and</em> the PhD/MPhil/MRes. Only the first has ever
+          had a page; the rest are invisible, including most research degrees. Durham and
+          Swinburne were already known to have the same bug, so it is at least 35 records
+          site-wide and has never been audited across all 116 files. Fixing it adds URLs rather
+          than changing any, so it needs no redirects.
+        </p>
+      </li>
+      <li>
+        <span class="tag">Correction to this report</span>
+        <h3>Auckland has 278 real programme pages, not 146</h3>
+        <p>
+          My first draft counted only the blob-prefixed entries and missed 132 programmes whose
+          names were already clean. The accurate split of the 527 is <strong>278 programme
+          pages, 237 subject pages, and 12 subject-area browse pages</strong> — the browse pages
+          ("Business and commerce", "Law and justice") are landing pages ingested as courses and
+          are thin by construction.
+        </p>
+      </li>
+      <li>
+        <span class="tag">Data accuracy · Auckland</span>
+        <h3>Published IELTS differs from what we store</h3>
+        <p>
+          Auckland's BCom page states IELTS 6.0 with no band below 5.5. This is a per-programme
+          published figure, and a crawl of this kind would give us real English requirements
+          as a by-product — the Phase 2 work left open in BUILD-LOG §2 item 12.
+        </p>
+      </li>
+      <li>
+        <span class="tag">Housekeeping</span>
+        <h3>An orphaned Birmingham data file is still in the tree</h3>
+        <p>
+          <code style="font-family:'IBM Plex Mono',monospace;font-size:.9em">data/birmingham-courses.ts</code>
+          holds 112 courses whose every <code style="font-family:'IBM Plex Mono',monospace;font-size:.9em">url</code>
+          is the university homepage. The live registry uses
+          <code style="font-family:'IBM Plex Mono',monospace;font-size:.9em">bham-courses.ts</code> (603 real URLs),
+          so nothing is broken — but the orphan would poison any script that globs the data directory.
+        </p>
+      </li>
+      <li>
+        <span class="tag">Good news</span>
+        <h3>URL rot is not a problem for the pilot six</h3>
+        <p>
+          150 URLs probed across the six: 149 alive. A wider probe of 109 URLs across 28 other
+          registry universities came back 85% alive, with three universities fully blocked or
+          dead (West London, Calgary, De Montfort). Expect roughly 15% attrition beyond the pilot.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================= 7. PHASING ================= -->
+  <section>
+    <div class="sect-rule">
+      <span class="sect-num">07</span>
+      <div class="col">
+        <h2>Proposed phasing</h2>
+      </div>
+    </div>
+    <div class="col">
+      <p>
+        The registry is 116 universities and 21,055 courses. Crawling is not the bottleneck —
+        at a polite rate a 600-course university takes under half an hour. The cost is writing
+        and QA-ing a per-university extractor, because every university has its own markup.
+        That cost sorts into three tiers.
+      </p>
+    </div>
+
+    <div class="tiers" style="margin-top:24px">
+      <div class="tier">
+        <span class="tag">Tier A</span>
+        <p>Server-rendered, one page archetype, structured headings or tables. Bath, Leeds, Birmingham, Strathclyde.</p>
+        <p class="tier-cost">≈ 0.5–1 day each, including QA</p>
+      </div>
+      <div class="tier">
+        <span class="tag">Tier B</span>
+        <p>Multiple page archetypes in one file, or partial coverage needing a fallback path. Auckland.</p>
+        <p class="tier-cost">≈ 1.5 days each</p>
+      </div>
+      <div class="tier">
+        <span class="tag">Tier C</span>
+        <p>Content behind JavaScript or an AJAX form. Edinburgh. Can be descoped to modules-prose plus careers at Tier A cost.</p>
+        <p class="tier-cost">≈ 2–3 days each, or 1 day descoped</p>
+      </div>
+    </div>
+
+    <div class="phases" style="margin-top:34px">
+      <div class="phase">
+        <div class="phase-n">PHASE 1</div>
+        <div class="phase-body">
+          <h3>The revised pilot six</h3>
+          <p class="phase-sub">Bath · Leeds · Birmingham · Strathclyde · Northumbria · ANU — 3,081 courses · est. 6–8 working days</p>
+          <p>
+            Edinburgh and Auckland are out; Northumbria and ANU are in. Edinburgh was the
+            clear drop — Tier C, and the worst coverage of the six. Auckland was the second:
+            Tier B, no named-employer careers on any sampled course, and nearly half its file
+            is subject or browse pages rather than programmes. That leaves four Tier A sources
+            with full module and entry coverage, plus two universities that between them carry
+            six times the original six's impressions and need no name cleanup — Northumbria
+            (382 courses) and ANU (344) both have clean names and no duplicate slugs.
+          </p>
+          <p>
+            <strong>The two blockers are already cleared.</strong> 541 Strathclyde and 349
+            Auckland names are repaired, verified and building clean. The Auckland repair was
+            kept even though Auckland left the pilot — it fixes 349 live page titles regardless.
+          </p>
+          <p>
+            This phase still has to answer a question the research deliberately did not touch:
+            <strong>what the template does with the new fields.</strong> Some universities
+            publish nothing usable for careers, so every section needs a real skip-on-missing
+            path, the same pattern already used for suppressed fees.
+          </p>
+        </div>
+      </div>
+
+      <div class="phase">
+        <div class="phase-n">PHASE 2</div>
+        <div class="phase-body">
+          <h3>The universities that already have impressions</h3>
+          <p class="phase-sub">~10 universities · est. 8–12 working days</p>
+          <p>
+            UCL, Toronto, Charles Darwin, UTS Sydney, Surrey, Warwick, UWA, Queensland,
+            King's College London, Edith Cowan — the impression leaders after Northumbria and
+            ANU, which moved into Phase 1. Together with Phase 1 this covers the top 10, about
+            35% of all course-page impressions.
+          </p>
+          <p>
+            Run a liveness pre-screen before committing to each — Calgary already failed the
+            probe, and the WAF-blocked list in memory suggests one or two of these will need
+            the curl/TLS workaround rather than Node.
+          </p>
+        </div>
+      </div>
+
+      <div class="phase">
+        <div class="phase-n">PHASE 3</div>
+        <div class="phase-body">
+          <h3>Re-measure before going further</h3>
+          <p class="phase-sub">Decision gate · ~4 weeks after Phase 2 ships</p>
+          <p>
+            After two phases roughly 14,000 courses are still untouched. Before spending
+            another 4–5 months on the long tail, check whether Phases 1 and 2 moved
+            impressions and average position on the pages they touched. If they did not, the
+            content-uniqueness hypothesis is wrong and the remaining effort is better spent
+            elsewhere.
+          </p>
+        </div>
+      </div>
+
+      <div class="phase">
+        <div class="phase-n">PHASE 4+</div>
+        <div class="phase-body">
+          <h3>The long tail, only if Phase 3 justifies it</h3>
+          <p class="phase-sub">~96 universities · batches of 10 · est. 8–10 days per batch</p>
+          <p>
+            At that cadence the full registry is roughly 10 more batches, or 4–5 months.
+            My recommendation is not to commit to that up front. Prioritise each batch by
+            impressions rather than file size, and expect ~15% of universities to be
+            unworkable behind bot protection.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="note">
+      <h3>Decided: the pilot roster changed</h3>
+      <p>
+        The original six were the right choice for testing <em>availability</em> — they are the
+        universities we know best — but the wrong choice for testing <em>impact</em>, because
+        they carry almost no traffic. Edinburgh and Auckland have been swapped out for
+        Northumbria and ANU, which between them carry six times the original six's combined
+        impressions. Phase 1 now tests both availability and impact at once.
+      </p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p>
+      <strong>Scope.</strong> The research phase touched no code and no data. The follow-up
+      repair changed exactly two data files — <code>data/strath-courses.ts</code> and
+      <code>data/auckland-courses.ts</code> — and only their <code>name</code> field. No page
+      template was touched. Nothing was fabricated: every recovered name came from the
+      university's own page, and the 20 courses whose page has been withdrawn kept their old
+      name rather than receive an invented one. The extraction-effort figures are labelled as
+      estimates throughout.
+    </p>
+    <p>
+      <strong>No URL changed.</strong> The course route keys off <code>slug</code>, not
+      <code>name</code>, and a before/after diff confirms the slug and URL sets are identical
+      in both files. Per the URL-stability rule in CLAUDE.md this therefore required no
+      <code>vercel.json</code> redirects — verified rather than assumed.
+      <code>tsc</code> is clean, <code>npm run build</code> is clean, and the rendered
+      <code>out/</code> HTML was checked to carry the real names in both
+      <code>&lt;title&gt;</code> and <code>&lt;h1&gt;</code>.
+    </p>
+    <p>
+      Added to the repo: <code>reports/option-a-pilot-coverage-2026-09-09.json</code> (per-course
+      evidence with source URLs and verbatim notes), <code>reports/strath-real-names.json</code>
+      and <code>reports/auckland-name-verification.json</code> (the crawl and verification
+      records), and five scripts under <code>scripts/</code> — including
+      <code>parse-course-data-file.js</code>, a reusable parser for the three different formats
+      used across <code>data/*-courses.ts</code>. Changes are in the working tree, not committed.
+    </p>
+    <p>
+      Search Console figures cover 11 June – 8 September 2026. URL liveness probes and all 20
+      course-page fetches were run on 9 September 2026 and are reproducible from the URLs in the
+      evidence file.
+    </p>
+  </footer>
+
+</div>

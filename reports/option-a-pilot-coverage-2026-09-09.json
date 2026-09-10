@@ -1,0 +1,507 @@
+{
+  "generated": "2026-09-09T10:20:12.204Z",
+  "purpose": "Option A pilot - data-availability research only. No page-template and no data-file changes were made.",
+  "method": "20 courses sampled across the 6 phase-1 universities. Each course's official university page was fetched live (all 20 returned HTTP 200) and read manually for three categories: named module/curriculum lists, course-specific entry requirements beyond IELTS, and university-published career outcomes. Nothing was estimated or inferred; every grade below reflects text actually present on the university page.",
+  "legend": {
+    "modules": {
+      "FULL+DESC": "named modules with credits AND descriptions",
+      "FULL": "named module list (names plus credits/points)",
+      "PARTIAL": "year-level prose only, no named list",
+      "NONE": "not on the page; outbound catalogue link only"
+    },
+    "entryRequirements": {
+      "FULL+INDIA": "course-specific grades/prerequisites on page PLUS an Indian-qualification block",
+      "FULL+PORTFOLIO": "course-specific grades/prerequisites including a portfolio requirement",
+      "FULL": "course-specific grades/prerequisites on the page itself",
+      "EXTRA-FETCH": "not in the course page HTML; needs a sub-page fetch or AJAX form emulation"
+    },
+    "careerOutcomes": {
+      "NAMED": "university names actual employers (sometimes with roles)",
+      "ROLES": "university publishes a role/job-title list but no employers",
+      "SECTORS": "university names sectors only",
+      "GENERIC": "prose only - nothing course-specific to harvest"
+    }
+  },
+  "courses": [
+    {
+      "n": 1,
+      "university": "university-of-bath",
+      "course": "BSc Psychology",
+      "level": "Undergraduate",
+      "url": "https://www.bath.ac.uk/courses/undergraduate-2027/psychology/bsc-psychology/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named units per year with ECTS credits",
+        "words": 194
+      },
+      "entryRequirements": {
+        "grade": "FULL+INDIA",
+        "note": "A*AA; GCSE Maths 7/A, English 6/B; explicit selection criteria; Indian-qualification block",
+        "words": 3022
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Amazon, Autism Somerset, Barnardo’s, Civil Service",
+        "words": 344
+      },
+      "harvestableWords": 3560
+    },
+    {
+      "n": 2,
+      "university": "university-of-bath",
+      "course": "BEng Integrated Mechanical and Electrical Engineering",
+      "level": "Undergraduate",
+      "url": "https://www.bath.ac.uk/courses/undergraduate-2027/integrated-mechanical-and-electrical-engineering/beng-integrated-mechanical-and-electrical-engineering/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named units per year with credits",
+        "words": 282
+      },
+      "entryRequirements": {
+        "grade": "FULL+INDIA",
+        "note": "A-level offer, GCSE requirements, Indian-qualification block",
+        "words": 2801
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "BAE Systems, Dyson, Rolls-Royce, Mars, Swisslog, Hawk-Eye Innovations, Bloomberg",
+        "words": 463
+      },
+      "harvestableWords": 3546
+    },
+    {
+      "n": 3,
+      "university": "university-of-bath",
+      "course": "MSc Automotive Engineering with Business Management",
+      "level": "Postgraduate",
+      "url": "https://www.bath.ac.uk/courses/postgraduate-2026/taught-postgraduate-courses/msc-automotive-engineering-with-business-management/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named units by semester with credits",
+        "words": 166
+      },
+      "entryRequirements": {
+        "grade": "FULL+INDIA",
+        "note": "Requires UG degree in mech/elec/automotive eng; Indian 2nd Division or 6.0/10; IELTS 6.5 no band below 6.0",
+        "words": 204
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "AVL, JLR, McLaren Automotive, Rolls-Royce, plus named job titles",
+        "words": 347
+      },
+      "harvestableWords": 717
+    },
+    {
+      "n": 4,
+      "university": "university-of-bath",
+      "course": "MSc Financial Mathematics with Data Science",
+      "level": "Postgraduate",
+      "url": "https://www.bath.ac.uk/courses/postgraduate-2026/taught-postgraduate-courses/msc-financial-mathematics-with-data-science/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named units with credits",
+        "words": 218
+      },
+      "entryRequirements": {
+        "grade": "FULL+INDIA",
+        "note": "Course-specific degree background; Indian-qualification block",
+        "words": 329
+      },
+      "careerOutcomes": {
+        "grade": "SECTORS",
+        "note": "Named sectors (FX trading, credit risk, fund management) but no employers",
+        "words": 118
+      },
+      "harvestableWords": 665
+    },
+    {
+      "n": 5,
+      "university": "university-of-edinburgh",
+      "course": "Accounting and Business MA (Hons)",
+      "level": "Undergraduate",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/189-accounting-and-business",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "PARTIAL",
+        "note": "Year-level prose only; module lists sit behind \"Find courses\" links",
+        "words": 367
+      },
+      "entryRequirements": {
+        "grade": "EXTRA-FETCH",
+        "note": "Drupal AJAX country/qualification form; no per-country text in the HTML",
+        "words": 508
+      },
+      "careerOutcomes": {
+        "grade": "SECTORS",
+        "note": "Field list (accountancy, management, consulting) with no employers",
+        "words": 174
+      },
+      "harvestableWords": 1049
+    },
+    {
+      "n": 6,
+      "university": "university-of-edinburgh",
+      "course": "Artificial Intelligence and Computer Science BSc (Hons)",
+      "level": "Undergraduate",
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/66-artificial-intelligence-and-computer-science",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "PARTIAL",
+        "note": "Year-level prose only",
+        "words": 834
+      },
+      "entryRequirements": {
+        "grade": "EXTRA-FETCH",
+        "note": "/entry-requirements sub-page carries course-specific \"Required subjects: Mathematics at A\"; India-specific needs the AJAX form",
+        "words": 566
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Google, Meta, Amazon, IBM, Skyscanner, Intel, Samsung, ARM, Nvidia, NatWest",
+        "words": 349
+      },
+      "harvestableWords": 1749
+    },
+    {
+      "n": 7,
+      "university": "university-of-edinburgh",
+      "course": "Advanced Nursing MSc",
+      "level": "Postgraduate",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/419-advanced-nursing",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named compulsory and option courses by semester (no credits shown)",
+        "words": 409
+      },
+      "entryRequirements": {
+        "grade": "EXTRA-FETCH",
+        "note": "Country dropdown only; no per-country requirement text in the HTML",
+        "words": 0
+      },
+      "careerOutcomes": {
+        "grade": "GENERIC",
+        "note": "Generic progression prose; no employers or roles",
+        "words": 160
+      },
+      "harvestableWords": 569
+    },
+    {
+      "n": 8,
+      "university": "university-of-edinburgh",
+      "course": "Commercial Law LLM",
+      "level": "Postgraduate",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "NONE",
+        "note": "Credit split only; the course list is an outbound catalogue link",
+        "words": 238
+      },
+      "entryRequirements": {
+        "grade": "EXTRA-FETCH",
+        "note": "Same AJAX pattern as the other Edinburgh pages",
+        "words": 0
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Deloitte, PricewaterhouseCoopers, Standard Life, plus roles",
+        "words": 166
+      },
+      "harvestableWords": 404
+    },
+    {
+      "n": 9,
+      "university": "university-of-birmingham",
+      "course": "International Law and Globalisation LLB",
+      "level": "Undergraduate",
+      "url": "https://www.birmingham.ac.uk/study/undergraduate/subjects/law-courses/international-law-and-globalisation-llb",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Module table with titles and credits per year",
+        "words": 367
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "On-page course-specific requirements plus an international entry section",
+        "words": 860
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Goldman Sachs, Shakespeare Martineau, Ministry of Justice, Ministry of Defence, Pinsent Masons, with the data source stated (Cturtle, 43,666 alumni)",
+        "words": 738
+      },
+      "harvestableWords": 1965
+    },
+    {
+      "n": 10,
+      "university": "university-of-birmingham",
+      "course": "Accounting and Finance MSc",
+      "level": "Postgraduate",
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/accounting-and-finance-courses/accounting-and-finance-msc",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Module table: title, credits, semester; core and optional",
+        "words": 217
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "On-page degree-class and subject requirement plus IELTS/TOEFL/PTE breakdown",
+        "words": 373
+      },
+      "careerOutcomes": {
+        "grade": "GENERIC",
+        "note": "Prose only; no named employers or roles",
+        "words": 196
+      },
+      "harvestableWords": 786
+    },
+    {
+      "n": 11,
+      "university": "university-of-birmingham",
+      "course": "Space Engineering MSc",
+      "level": "Postgraduate",
+      "url": "https://www.birmingham.ac.uk/study/postgraduate/subjects/aerospace-engineering-courses/space-engineering-msc",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Core and optional module tables with credits",
+        "words": 680
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "2:1 in a physical science or engineering subject; IELTS 6.5 no band below 6.0 with TOEFL/PTE equivalents",
+        "words": 320
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Manufacturing Technology Centre, Northumbria University, Leonardo, Goonhilly Earth Station",
+        "words": 100
+      },
+      "harvestableWords": 1100
+    },
+    {
+      "n": 12,
+      "university": "university-of-leeds",
+      "course": "Law LLB",
+      "level": "Undergraduate",
+      "url": "https://courses.leeds.ac.uk/3010/law-llb",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL+DESC",
+        "note": "Named modules with credits AND paragraph descriptions, per year, compulsory and optional",
+        "words": 3382
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "AAA with two A-levels in traditional academic subjects; GCSE requirements",
+        "words": 850
+      },
+      "careerOutcomes": {
+        "grade": "ROLES",
+        "note": "Published role list; no named employers",
+        "words": 499
+      },
+      "harvestableWords": 4731
+    },
+    {
+      "n": 13,
+      "university": "university-of-leeds",
+      "course": "Accounting and Finance BSc",
+      "level": "Undergraduate",
+      "url": "https://courses.leeds.ac.uk/f834/accounting-and-finance-bsc",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named modules with credits per year",
+        "words": 1087
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "AAA; GCSE Maths A/7 and English B/5 with a stated substitution rule",
+        "words": 1045
+      },
+      "careerOutcomes": {
+        "grade": "ROLES",
+        "note": "Named role types (retail/investment banking, brokers, auditors, insolvency administrators)",
+        "words": 520
+      },
+      "harvestableWords": 2652
+    },
+    {
+      "n": 14,
+      "university": "university-of-leeds",
+      "course": "Advanced Computer Science MSc",
+      "level": "Postgraduate",
+      "url": "https://courses.leeds.ac.uk/202627/f753/advanced-computer-science-msc",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL+DESC",
+        "note": "Named modules with credits and descriptions; recent project examples listed",
+        "words": 1125
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "2:1 in CS plus explicit required module breadth (programming, systems development, data structures, algorithms) and case-by-case alternatives",
+        "words": 243
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Role+employer pairs: Software Development Engineer/Amazon, Programmer/Alibaba, Senior SWE/Funding Circle, BI Developer/INEOS",
+        "words": 610
+      },
+      "harvestableWords": 1978
+    },
+    {
+      "n": 15,
+      "university": "university-of-strathclyde",
+      "course": "Accounting",
+      "level": "Undergraduate",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accounting/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL+DESC",
+        "note": "Named modules with descriptions by year",
+        "words": 1516
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "Highers AAAA/AAABB (English B, Maths A); A-level AAA; IB 36; HNC/HND route",
+        "words": 467
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Santander, EY, PwC, Deloitte, HBOS, KPMG, Morgan Stanley",
+        "words": 94
+      },
+      "harvestableWords": 2077
+    },
+    {
+      "n": 16,
+      "university": "university-of-strathclyde",
+      "course": "Advancedcomputerscience",
+      "level": "Postgraduate",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputerscience/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL+DESC",
+        "note": "Compulsory and elective modules with credits and learning outcomes, by semester",
+        "words": 1728
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "2:2 in CS or related PLUS significant programming experience (Java/OO) — a real prerequisite absent from our data",
+        "words": 190
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Amazon, JP Morgan, Morgan Stanley, BT, Bridgeall, Kana, Skyscanner, ThinkAnalytics",
+        "words": 367
+      },
+      "harvestableWords": 2285
+    },
+    {
+      "n": 17,
+      "university": "university-of-strathclyde",
+      "course": "Architecturalstudies",
+      "level": "Undergraduate",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/architecturalstudies/",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL+DESC",
+        "note": "Named design studio projects with descriptions by year",
+        "words": 2396
+      },
+      "entryRequirements": {
+        "grade": "FULL+PORTFOLIO",
+        "note": "Highers AAAB (English B, Maths/Physics B, Art & Design B); A-level ABB-BBB; a PORTFOLIO may be required if no art-based Higher",
+        "words": 608
+      },
+      "careerOutcomes": {
+        "grade": "NAMED",
+        "note": "Page and Park, Nord, Collective, Dress for the Weather, Tog Studio, Lateral North",
+        "words": 182
+      },
+      "harvestableWords": 3186
+    },
+    {
+      "n": 18,
+      "university": "university-of-auckland",
+      "course": "Bachelor of Commerce Faculty: Business School Type: Bachelors degree",
+      "level": "Undergraduate",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Course codes, names, type and points per year (e.g. BUSINESS 111 Understanding Organisations, 15 pts)",
+        "words": 650
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "IB 27, GCE A-Level BCC, IELTS 6.0 no band below 5.5 — per-programme, and differs from our stored value",
+        "words": 1331
+      },
+      "careerOutcomes": {
+        "grade": "ROLES",
+        "note": "Published \"Jobs related to this programme\" list; no employers",
+        "words": 83
+      },
+      "harvestableWords": 2064
+    },
+    {
+      "n": 19,
+      "university": "university-of-auckland",
+      "course": "Master of Artificial Intelligence Faculty: Science Type: Masters degree",
+      "level": "Postgraduate",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-artificial-intelligence--mai-.html",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "NONE",
+        "note": "Points total only; courses live in an external Curriculum Catalogue",
+        "words": 77
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "On-page programme requirements including minimum and further requirements",
+        "words": 538
+      },
+      "careerOutcomes": {
+        "grade": "ROLES",
+        "note": "Published job list (AI engineer, ML engineer, data engineer, NLP engineer)",
+        "words": 68
+      },
+      "harvestableWords": 683
+    },
+    {
+      "n": 20,
+      "university": "university-of-auckland",
+      "course": "Bachelor of Laws Faculty: Auckland Law School Type: Bachelors degree",
+      "level": "Undergraduate",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-laws-llb.html",
+      "httpStatus": 200,
+      "modules": {
+        "grade": "FULL",
+        "note": "Named Part I courses (LAW 121G, LAW 131, LAW 141) plus sample structure by part",
+        "words": 572
+      },
+      "entryRequirements": {
+        "grade": "FULL",
+        "note": "Separate Entry to Part I and Entry to Part II requirements",
+        "words": 1660
+      },
+      "careerOutcomes": {
+        "grade": "ROLES",
+        "note": "Published sector/role list (judiciary, law reform, in-house counsel, policy work)",
+        "words": 222
+      },
+      "harvestableWords": 2454
+    }
+  ]
+}

@@ -1,0 +1,4482 @@
+{
+  "generated": "2026-09-10T00:34:51.214Z",
+  "crawled": 561,
+  "extracted": 541,
+  "failed": 20,
+  "wouldChange": 541,
+  "bySource": {
+    "h1:award+title": 535,
+    "h1:title": 6
+  },
+  "results": [
+    {
+      "slug": "strath-accounting",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accounting/",
+      "oldName": "Accounting",
+      "status": 200,
+      "newName": "BA Hons Accounting",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingbusinessanalysistechnology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountingbusinessanalysistechnology/",
+      "oldName": "Accountingbusinessanalysistechnology",
+      "status": 200,
+      "newName": "BA Hons Accounting & Business Analysis and Technology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingbusinessenterprise",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountingbusinessenterprise/",
+      "oldName": "Accountingbusinessenterprise",
+      "status": 200,
+      "newName": "BA Hons Accounting & Business Enterprise",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingbusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountingbusinesslaw/",
+      "oldName": "Accountingbusinesslaw",
+      "status": 200,
+      "newName": "BA Accounting & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountingeconomics/",
+      "oldName": "Accountingeconomics",
+      "status": 200,
+      "newName": "BA Accounting & Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingfinance",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountingfinance/",
+      "oldName": "Accountingfinance",
+      "status": 200,
+      "newName": "BA Joint Hons Accounting & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingfinance",
+      "url": "https://www.strath.ac.uk/courses/research/accountingfinance/",
+      "oldName": "Accountingfinance",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Accounting & finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingfinancedataanalytics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/accountingfinancedataanalytics/",
+      "oldName": "Accountingfinancedataanalytics",
+      "status": 200,
+      "newName": "MSc Accounting, Finance & Data Analytics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingfinancedataanalyticsjanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/accountingfinancedataanalyticsjanuary/",
+      "oldName": "Accountingfinancedataanalyticsjanuary",
+      "status": 200,
+      "newName": "MSc Accounting, Finance & Data Analytics (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountinghospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountinghospitalitytourismmanagement/",
+      "oldName": "Accountinghospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons Accounting & Hospitality and Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountinghumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountinghumanresourcemanagement/",
+      "oldName": "Accountinghumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Joint Hons Accounting & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-accountingmarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/accountingmarketing/",
+      "oldName": "Accountingmarketing",
+      "status": 200,
+      "newName": "BA Accounting & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-actuarialscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/actuarialscience/",
+      "oldName": "Actuarialscience",
+      "status": 200,
+      "newName": "MSc Actuarial Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-adolescentmentalhealthresilience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/adolescentmentalhealthresilience/",
+      "oldName": "Adolescentmentalhealthresilience",
+      "status": 200,
+      "newName": "MSc Adolescent Mental Health & Resilience",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedarchitecturaldesign",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedarchitecturaldesign/",
+      "oldName": "Advancedarchitecturaldesign",
+      "status": 200,
+      "newName": "MArch/PgDip Advanced Architectural Design",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedbiochemistry",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedbiochemistry/",
+      "oldName": "Advancedbiochemistry",
+      "status": 200,
+      "newName": "MSc Advanced Biochemistry",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedchemicalengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedchemicalengineering/",
+      "oldName": "Advancedchemicalengineering",
+      "status": 200,
+      "newName": "MSc Advanced Chemical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedchemicalengineeringwithenergysystemsinnovation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedchemicalengineeringwithenergysystemsinnovation/",
+      "oldName": "Advancedchemicalengineeringwithenergysystemsinnovation",
+      "status": 200,
+      "newName": "MSc Advanced Chemical Engineering with Energy Systems Innovation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedchemicalengineeringwithmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedchemicalengineeringwithmanagement/",
+      "oldName": "Advancedchemicalengineeringwithmanagement",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Advanced Chemical Engineering with Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedchemicalprocessengineeringdistancelearning",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedchemicalprocessengineeringdistancelearning/",
+      "oldName": "Advancedchemicalprocessengineeringdistancelearning",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Advanced Chemical & Process Engineering (distance learning)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcommunicationssystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcommunicationssystems/",
+      "oldName": "Advancedcommunicationssystems",
+      "status": 200,
+      "newName": "MSc Advanced Communications Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputationalmathematics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputationalmathematics/",
+      "oldName": "Advancedcomputationalmathematics",
+      "status": 200,
+      "newName": "MSc Advanced Computational Mathematics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputerscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputerscience/",
+      "oldName": "Advancedcomputerscience",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencejanuarystart",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencejanuarystart/",
+      "oldName": "Advancedcomputersciencejanuarystart",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science (January start)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithartificialintelligence",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithartificialintelligence/",
+      "oldName": "Advancedcomputersciencewithartificialintelligence",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Artificial Intelligence",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithcybersecurity",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithcybersecurity/",
+      "oldName": "Advancedcomputersciencewithcybersecurity",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Cyber Security",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithcybersecurityjanuarystart",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithcybersecurityjanuarystart/",
+      "oldName": "Advancedcomputersciencewithcybersecurityjanuarystart",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Cyber Security (January start)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithdatascience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithdatascience/",
+      "oldName": "Advancedcomputersciencewithdatascience",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Data Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithdatasciencejanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithdatasciencejanuary/",
+      "oldName": "Advancedcomputersciencewithdatasciencejanuary",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Data Science (January start)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithsoftwareengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithsoftwareengineering/",
+      "oldName": "Advancedcomputersciencewithsoftwareengineering",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Software Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedcomputersciencewithsoftwareengineeringjanuarystart",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedcomputersciencewithsoftwareengineeringjanuarystart/",
+      "oldName": "Advancedcomputersciencewithsoftwareengineeringjanuarystart",
+      "status": 200,
+      "newName": "MSc Advanced Computer Science with Software Engineering (January start)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedconstructiontechnologiesandbuildinginformationmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedconstructiontechnologiesandbuildinginformationmanagement/",
+      "oldName": "Advancedconstructiontechnologiesandbuildinginformationmanagement",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Advanced Construction Technologies & BIM",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advanceddatascience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advanceddatascience/",
+      "oldName": "Advanceddatascience",
+      "status": 200,
+      "newName": "MSc Advanced Data Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advanceddrugdelivery",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advanceddrugdelivery/",
+      "oldName": "Advanceddrugdelivery",
+      "status": 200,
+      "newName": "MSc Advanced Drug Delivery",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedelectricalpowerenergysystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedelectricalpowerenergysystems/",
+      "oldName": "Advancedelectricalpowerenergysystems",
+      "status": 200,
+      "newName": "MSc Advanced Electrical Power & Energy Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedimmunology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedimmunology/",
+      "oldName": "Advancedimmunology",
+      "status": 200,
+      "newName": "MSc Advanced Immunology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmanufacturetechnologysystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmanufacturetechnologysystems/",
+      "oldName": "Advancedmanufacturetechnologysystems",
+      "status": 200,
+      "newName": "MSc Advanced Manufacturing: Technology & Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmaterialsengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmaterialsengineering/",
+      "oldName": "Advancedmaterialsengineering",
+      "status": 200,
+      "newName": "MSc Advanced Materials Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmathematicalmodelling",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmathematicalmodelling/",
+      "oldName": "Advancedmathematicalmodelling",
+      "status": 200,
+      "newName": "MSc Advanced Mathematical Modelling",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineering/",
+      "oldName": "Advancedmechanicalengineering",
+      "status": 200,
+      "newName": "MSc Advanced Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineeringbymodularstudy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineeringbymodularstudy/",
+      "oldName": "Advancedmechanicalengineeringbymodularstudy",
+      "status": 200,
+      "newName": "MSc, PGDip, PGCert Advanced Mechanical Engineering by Modular study",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineeringonlinelearning",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineeringonlinelearning/",
+      "oldName": "Advancedmechanicalengineeringonlinelearning",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Advanced Mechanical Engineering (Online Learning)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineeringwithaerospace",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineeringwithaerospace/",
+      "oldName": "Advancedmechanicalengineeringwithaerospace",
+      "status": 200,
+      "newName": "MSc Advanced Mechanical Engineering with Aerospace",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineeringwithenergysystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineeringwithenergysystems/",
+      "oldName": "Advancedmechanicalengineeringwithenergysystems",
+      "status": 200,
+      "newName": "MSc Advanced Mechanical Engineering with Energy Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineeringwithindustrialplacement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineeringwithindustrialplacement/",
+      "oldName": "Advancedmechanicalengineeringwithindustrialplacement",
+      "status": 200,
+      "newName": "MSc Advanced Mechanical Engineering with Industrial Placement",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedmechanicalengineeringwithmaterials",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedmechanicalengineeringwithmaterials/",
+      "oldName": "Advancedmechanicalengineeringwithmaterials",
+      "status": 200,
+      "newName": "MSc Advanced Mechanical Engineering with Materials",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancednavalarchitecture",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancednavalarchitecture/",
+      "oldName": "Advancednavalarchitecture",
+      "status": 200,
+      "newName": "MSc Advanced Naval Architecture",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedpharmaceuticalmanufacturing",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedpharmaceuticalmanufacturing/",
+      "oldName": "Advancedpharmaceuticalmanufacturing",
+      "status": 200,
+      "newName": "MSc Advanced Pharmaceutical Manufacturing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedpharmacology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedpharmacology/",
+      "oldName": "Advancedpharmacology",
+      "status": 200,
+      "newName": "MSc Advanced Pharmacology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedphysics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedphysics/",
+      "oldName": "Advancedphysics",
+      "status": 200,
+      "newName": "MSc/PgDip Advanced Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-advancedresidentialchildcare",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/advancedresidentialchildcare/",
+      "oldName": "Advancedresidentialchildcare",
+      "status": 200,
+      "newName": "MSc Advanced Residential Child Care",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-aero-mechanicalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/aero-mechanicalengineeringbeng/",
+      "oldName": "Aero Mechanicalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Aero-Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-aero-mechanicalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/aero-mechanicalengineeringmeng/",
+      "oldName": "Aero Mechanicalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Aero-Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-aerospaceengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/aerospaceengineering/",
+      "oldName": "Aerospaceengineering",
+      "status": 200,
+      "newName": "MSc Aerospace Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedchemistrychemicalengineering",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/appliedchemistrychemicalengineering/",
+      "oldName": "Appliedchemistrychemicalengineering",
+      "status": 200,
+      "newName": "MSci Applied Chemistry & Chemical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedchemistrykmitl",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/appliedchemistrykmitl/",
+      "oldName": "Appliedchemistrykmitl",
+      "status": 200,
+      "newName": "BSc Hons Applied Chemistry (King Mongkut's Institute of Technology Ladkrabang)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedeconomics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedeconomics/",
+      "oldName": "Appliedeconomics",
+      "status": 200,
+      "newName": "MSc Applied Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedeconomicsonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedeconomicsonline/",
+      "oldName": "Appliedeconomicsonline",
+      "status": 200,
+      "newName": "MSc Applied Economics (Online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliededucationalsocialresearch",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliededucationalsocialresearch/",
+      "oldName": "Appliededucationalsocialresearch",
+      "status": 200,
+      "newName": "MSc Applied Educational & Social Research",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedgenderstudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedgenderstudies/",
+      "oldName": "Appliedgenderstudies",
+      "status": 200,
+      "newName": "MSc Applied Gender Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedlinguistics",
+      "url": "https://www.strath.ac.uk/courses/research/appliedlinguistics/",
+      "oldName": "Appliedlinguistics",
+      "status": 200,
+      "newName": "PhD Applied Linguistics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedphysics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedphysics/",
+      "oldName": "Appliedphysics",
+      "status": 200,
+      "newName": "MSc/PgDip Applied Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatistics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatistics/",
+      "oldName": "Appliedstatistics",
+      "status": 200,
+      "newName": "MSc Applied Statistics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatisticsinfinanceoncampus",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatisticsinfinanceoncampus/",
+      "oldName": "Appliedstatisticsinfinanceoncampus",
+      "status": 200,
+      "newName": "MSc Applied Statistics in Finance (on campus)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatisticsinfinanceonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatisticsinfinanceonline/",
+      "oldName": "Appliedstatisticsinfinanceonline",
+      "status": 200,
+      "newName": "MSc Applied Statistics in Finance (online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatisticsinhealthsciences",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatisticsinhealthsciences/",
+      "oldName": "Appliedstatisticsinhealthsciences",
+      "status": 200,
+      "newName": "MSc Applied Statistics in Health Sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatisticsinhealthsciencesonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatisticsinhealthsciencesonline/",
+      "oldName": "Appliedstatisticsinhealthsciencesonline",
+      "status": 200,
+      "newName": "MSc Applied Statistics in Health Sciences (online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatisticsonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatisticsonline/",
+      "oldName": "Appliedstatisticsonline",
+      "status": 200,
+      "newName": "MSc Applied Statistics (online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedstatisticswithdatascienceonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedstatisticswithdatascienceonline/",
+      "oldName": "Appliedstatisticswithdatascienceonline",
+      "status": 200,
+      "newName": "MSc Applied Statistics with Data Science (online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-appliedtranslation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedtranslation/",
+      "oldName": "Appliedtranslation",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-appliedtranslationinterpreting",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/appliedtranslationinterpreting/",
+      "oldName": "Appliedtranslationinterpreting",
+      "status": 200,
+      "newName": "MSc/PgDip Applied Translation & Interpreting",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-architecturaldesignfortheconservationofbuiltheritage",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/architecturaldesignfortheconservationofbuiltheritage/",
+      "oldName": "Architecturaldesignfortheconservationofbuiltheritage",
+      "status": 200,
+      "newName": "MSc Architectural Design for the Conservation of Built Heritage",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-architecturaldesigninternational",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/architecturaldesigninternational/",
+      "oldName": "Architecturaldesigninternational",
+      "status": 200,
+      "newName": "MArch/PgDip Architectural Design (International)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-architecturalstudies",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/architecturalstudies/",
+      "oldName": "Architecturalstudies",
+      "status": 200,
+      "newName": "BSc Hons Architectural Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-architecture",
+      "url": "https://www.strath.ac.uk/courses/research/architecture/",
+      "oldName": "Architecture",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Architecture",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-artificialintelligenceapplications",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/artificialintelligenceapplications/",
+      "oldName": "Artificialintelligenceapplications",
+      "status": 200,
+      "newName": "MSc Artificial Intelligence & Applications",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-autismmed",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/autismmed/",
+      "oldName": "Autismmed",
+      "status": 200,
+      "newName": "MEd (part-time) Autism",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-autismmsc",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/autismmsc/",
+      "oldName": "Autismmsc",
+      "status": 200,
+      "newName": "MSc Autism",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-autonomousroboticintelligentsystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/autonomousroboticintelligentsystems/",
+      "oldName": "Autonomousroboticintelligentsystems",
+      "status": 200,
+      "newName": "MSc Autonomous Robotic Intelligent Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biochemistry",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biochemistry/",
+      "oldName": "Biochemistry",
+      "status": 200,
+      "newName": "MSci Biochemistry",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biochemistryimmunology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biochemistryimmunology/",
+      "oldName": "Biochemistryimmunology",
+      "status": 200,
+      "newName": "BSc Hons Biochemistry & Immunology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biochemistrymicrobiology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biochemistrymicrobiology/",
+      "oldName": "Biochemistrymicrobiology",
+      "status": 200,
+      "newName": "BSc Hons Biochemistry & Microbiology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biochemistrypharmacology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biochemistrypharmacology/",
+      "oldName": "Biochemistrypharmacology",
+      "status": 200,
+      "newName": "BSc Hons Biochemistry & Pharmacology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biofluidmechanics",
+      "url": "https://www.strath.ac.uk/courses/research/biofluidmechanics/",
+      "oldName": "Biofluidmechanics",
+      "status": 200,
+      "newName": "MRes Biofluid mechanics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biologywithteachinginternational",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biologywithteachinginternational/",
+      "oldName": "Biologywithteachinginternational",
+      "status": 200,
+      "newName": "BSc Hons Biology with Teaching (International)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/biomedicalengineering/",
+      "oldName": "Biomedicalengineering",
+      "status": 200,
+      "newName": "MSc Biomedical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalengineering",
+      "url": "https://www.strath.ac.uk/courses/research/biomedicalengineering/",
+      "oldName": "Biomedicalengineering",
+      "status": 200,
+      "newName": "MRes, MPhil, PhD Biomedical engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biomedicalengineeringbeng/",
+      "oldName": "Biomedicalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Biomedical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biomedicalengineeringmeng/",
+      "oldName": "Biomedicalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Biomedical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalscience",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biomedicalscience/",
+      "oldName": "Biomedicalscience",
+      "status": 200,
+      "newName": "BSc Hons Biomedical Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalscienceimu",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biomedicalscienceimu/",
+      "oldName": "Biomedicalscienceimu",
+      "status": 200,
+      "newName": "BSc Hons Biomedical Science (International Medical University)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomedicalsciences",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/biomedicalsciences/",
+      "oldName": "Biomedicalsciences",
+      "status": 200,
+      "newName": "MSc Biomedical Sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-biomolecularsciences",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/biomolecularsciences/",
+      "oldName": "Biomolecularsciences",
+      "status": 200,
+      "newName": "BSc Hons Biomolecular Sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-bschonscomputersciencesliit",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/bschonscomputersciencesliit/",
+      "oldName": "Bschonscomputersciencesliit",
+      "status": 200,
+      "newName": "BSc Hons Computer Science (Sri Lanka Institute of Information Technology)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-business",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/business/",
+      "oldName": "Business",
+      "status": 200,
+      "newName": "BA Hons Business",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessadministration",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessadministration/",
+      "oldName": "Businessadministration",
+      "status": 200,
+      "newName": "BBA Hons Business Administration",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessadministrationbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessadministrationbahrain/",
+      "oldName": "Businessadministrationbahrain",
+      "status": 200,
+      "newName": "BBA Hons Business Administration (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessadministrationwithmarketingbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessadministrationwithmarketingbahrain/",
+      "oldName": "Businessadministrationwithmarketingbahrain",
+      "status": 200,
+      "newName": "BBA Hons Business Administration with specialisation in Marketing (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysisconsulting",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/businessanalysisconsulting/",
+      "oldName": "Businessanalysisconsulting",
+      "status": 200,
+      "newName": "MSc/PgDip Business Analysis & Consulting",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysisconsultingjanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/businessanalysisconsultingjanuary/",
+      "oldName": "Businessanalysisconsultingjanuary",
+      "status": 200,
+      "newName": "MSc Business Analysis & Consulting (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysisconsultingwithartificialintelligence",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/businessanalysisconsultingwithartificialintelligence/",
+      "oldName": "Businessanalysisconsultingwithartificialintelligence",
+      "status": 200,
+      "newName": "MSc Business Analysis & Consulting with Artificial Intelligence",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysisconsultingwithprojectmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/businessanalysisconsultingwithprojectmanagement/",
+      "oldName": "Businessanalysisconsultingwithprojectmanagement",
+      "status": 200,
+      "newName": "MSc Business Analysis & Consulting with Project Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnology/",
+      "oldName": "Businessanalysistechnology",
+      "status": 200,
+      "newName": "BA Hons Business Analysis & Technology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologybusinessenterprise",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologybusinessenterprise/",
+      "oldName": "Businessanalysistechnologybusinessenterprise",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Business Enterprise",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologybusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologybusinesslaw/",
+      "oldName": "Businessanalysistechnologybusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologyeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologyeconomics/",
+      "oldName": "Businessanalysistechnologyeconomics",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologyfinance",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologyfinance/",
+      "oldName": "Businessanalysistechnologyfinance",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologyhospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologyhospitalitytourismmanagement/",
+      "oldName": "Businessanalysistechnologyhospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Hospitality and Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologyhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologyhumanresourcemanagement/",
+      "oldName": "Businessanalysistechnologyhumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologymarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologymarketing/",
+      "oldName": "Businessanalysistechnologymarketing",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessanalysistechnologymathematicsstatistics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessanalysistechnologymathematicsstatistics/",
+      "oldName": "Businessanalysistechnologymathematicsstatistics",
+      "status": 200,
+      "newName": "BA Hons Business Analysis and Technology & Mathematics and Statistics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterprise",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterprise/",
+      "oldName": "Businessenterprise",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterprisebusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterprisebusinesslaw/",
+      "oldName": "Businessenterprisebusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterpriseeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterpriseeconomics/",
+      "oldName": "Businessenterpriseeconomics",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise & Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterprisefinance",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterprisefinance/",
+      "oldName": "Businessenterprisefinance",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterprisehospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterprisehospitalitytourismmanagement/",
+      "oldName": "Businessenterprisehospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise & Hospitality and Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterprisehumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterprisehumanresourcemanagement/",
+      "oldName": "Businessenterprisehumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessenterprisemarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/businessenterprisemarketing/",
+      "oldName": "Businessenterprisemarketing",
+      "status": 200,
+      "newName": "BA Hons Business Enterprise & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/businessmanagement/",
+      "oldName": "Businessmanagement",
+      "status": 200,
+      "newName": "MSc Business & Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-businessmanagementjanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/businessmanagementjanuary/",
+      "oldName": "Businessmanagementjanuary",
+      "status": 200,
+      "newName": "MSc Business & Management (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-cancertherapies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/cancertherapies/",
+      "oldName": "Cancertherapies",
+      "status": 200,
+      "newName": "MSc Cancer Therapies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemicalengineeringbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemicalengineeringbahrain/",
+      "oldName": "Chemicalengineeringbahrain",
+      "status": 200,
+      "newName": "BEng Hons Chemical Engineering (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemicalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemicalengineeringbeng/",
+      "oldName": "Chemicalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Chemical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemicalengineeringbengdistancelearning",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemicalengineeringbengdistancelearning/",
+      "oldName": "Chemicalengineeringbengdistancelearning",
+      "status": 200,
+      "newName": "BEng Hons Chemical Engineering (distance learning)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemicalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemicalengineeringmeng/",
+      "oldName": "Chemicalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Chemical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemicalprocessengineering",
+      "url": "https://www.strath.ac.uk/courses/research/chemicalprocessengineering/",
+      "oldName": "Chemicalprocessengineering",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Chemical & process engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistry",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemistry/",
+      "oldName": "Chemistry",
+      "status": 200,
+      "newName": "BSc (Hons), MChem Chemistry",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistry",
+      "url": "https://www.strath.ac.uk/courses/research/chemistry/",
+      "oldName": "Chemistry",
+      "status": 200,
+      "newName": "MPhil, PhD Chemistry",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistryeducation-cnu",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemistryeducation-cnu/",
+      "oldName": "Chemistryeducation Cnu",
+      "status": 200,
+      "newName": "BSc Chemistry (Education) (Capital Normal University)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistrywithartificialintelligence",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/chemistrywithartificialintelligence/",
+      "oldName": "Chemistrywithartificialintelligence",
+      "status": 200,
+      "newName": "MSc Chemistry with Artificial Intelligence",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistrywithdatascience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/chemistrywithdatascience/",
+      "oldName": "Chemistrywithdatascience",
+      "status": 200,
+      "newName": "MSc Chemistry with Data Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistrywithdatasciencemchem",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemistrywithdatasciencemchem/",
+      "oldName": "Chemistrywithdatasciencemchem",
+      "status": 200,
+      "newName": "BSc (Hons), MChem Chemistry with Data Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistrywithdrugdiscovery",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemistrywithdrugdiscovery/",
+      "oldName": "Chemistrywithdrugdiscovery",
+      "status": 200,
+      "newName": "BSc (Hons), MChem Chemistry with Drug Discovery",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistrywithteaching",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemistrywithteaching/",
+      "oldName": "Chemistrywithteaching",
+      "status": 200,
+      "newName": "BSc (Hons), MChem Chemistry with Teaching",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-chemistrywithteachinginternational",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/chemistrywithteachinginternational/",
+      "oldName": "Chemistrywithteachinginternational",
+      "status": 200,
+      "newName": "BSc Hons Chemistry with Teaching (International)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-childhoodpractice",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/childhoodpractice/",
+      "oldName": "Childhoodpractice",
+      "status": 200,
+      "newName": "BA Childhood Practice",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-childrenyoungpeopleinconflictwiththelaw",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/childrenyoungpeopleinconflictwiththelaw/",
+      "oldName": "Childrenyoungpeopleinconflictwiththelaw",
+      "status": 200,
+      "newName": "PG Certificate Children & Young People in Conflict with the Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-childyouthcarestudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/childyouthcarestudies/",
+      "oldName": "Childyouthcarestudies",
+      "status": 200,
+      "newName": "MSc Child & Youth Care Studies by Distance Learning",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/civilengineering/",
+      "oldName": "Civilengineering",
+      "status": 200,
+      "newName": "MSc Civil Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilengineeringbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/civilengineeringbahrain/",
+      "oldName": "Civilengineeringbahrain",
+      "status": 200,
+      "newName": "BEng Hons Civil Engineering (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/civilengineeringbeng/",
+      "oldName": "Civilengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Civil Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/civilengineeringmeng/",
+      "oldName": "Civilengineeringmeng",
+      "status": 200,
+      "newName": "MEng Civil Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilenvironmentalengineering",
+      "url": "https://www.strath.ac.uk/courses/research/civilenvironmentalengineering/",
+      "oldName": "Civilenvironmentalengineering",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Civil & environmental engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilenvironmentalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/civilenvironmentalengineeringbeng/",
+      "oldName": "Civilenvironmentalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Civil & Environmental Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-civilenvironmentalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/civilenvironmentalengineeringmeng/",
+      "oldName": "Civilenvironmentalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Civil & Environmental Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-climatechangeadaptation",
+      "url": "https://www.strath.ac.uk/courses/research/climatechangeadaptation/",
+      "oldName": "Climatechangeadaptation",
+      "status": 200,
+      "newName": "MRes Climate Change Adaptation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-clinicalhealthpsychology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/clinicalhealthpsychology/",
+      "oldName": "Clinicalhealthpsychology",
+      "status": 200,
+      "newName": "MSc Clinical Health Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-clinicalpharmacy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/clinicalpharmacy/",
+      "oldName": "Clinicalpharmacy",
+      "status": 200,
+      "newName": "MSc Clinical Pharmacy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-communicationradioaccessnetworks",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/communicationradioaccessnetworks/",
+      "oldName": "Communicationradioaccessnetworks",
+      "status": 200,
+      "newName": "Communication & Radio Access Networks",
+      "source": "h1:title"
+    },
+    {
+      "slug": "strath-computerelectronicsystemsbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computerelectronicsystemsbeng/",
+      "oldName": "Computerelectronicsystemsbeng",
+      "status": 200,
+      "newName": "BEng Computer & Electronic Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computerelectronicsystemsmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computerelectronicsystemsmeng/",
+      "oldName": "Computerelectronicsystemsmeng",
+      "status": 200,
+      "newName": "MEng Computer & Electronic Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computerelectronicsystemswithinternationalstudy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computerelectronicsystemswithinternationalstudy/",
+      "oldName": "Computerelectronicsystemswithinternationalstudy",
+      "status": 200,
+      "newName": "MEng Computer & Electronic Systems with International Study",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computerinformationsciences",
+      "url": "https://www.strath.ac.uk/courses/research/computerinformationsciences/",
+      "oldName": "Computerinformationsciences",
+      "status": 200,
+      "newName": "PhD, MPhil Computer & information sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computersciencebahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computersciencebahrain/",
+      "oldName": "Computersciencebahrain",
+      "status": 200,
+      "newName": "BSc Hons Computer Science (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computersciencebitzh",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computersciencebitzh/",
+      "oldName": "Computersciencebitzh",
+      "status": 200,
+      "newName": "BSc Hons Computer Science (BITZH)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computersciencebsc",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computersciencebsc/",
+      "oldName": "Computersciencebsc",
+      "status": 200,
+      "newName": "BSc Hons Computer Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-computersciencemeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/computersciencemeng/",
+      "oldName": "Computersciencemeng",
+      "status": 200,
+      "newName": "MEng Computer Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-constructionlaw",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/constructionlaw/",
+      "oldName": "Constructionlaw",
+      "status": 200,
+      "newName": "LLM/PgDip/PgCert Construction Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-counselling",
+      "url": "https://www.strath.ac.uk/courses/research/counselling/",
+      "oldName": "Counselling",
+      "status": 200,
+      "newName": "MPhil, PhD Counselling",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-counsellingpsychotherapy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/counsellingpsychotherapy/",
+      "oldName": "Counsellingpsychotherapy",
+      "status": 200,
+      "newName": "MSc Counselling & Psychotherapy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-counsellingpsychotherapypart-time",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/counsellingpsychotherapypart-time/",
+      "oldName": "Counsellingpsychotherapypart Time",
+      "status": 200,
+      "newName": "MSc Counselling & Psychotherapy (part-time)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-creativewriting",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/creativewriting/",
+      "oldName": "Creativewriting",
+      "status": 200,
+      "newName": "MLitt Creative Writing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-creativewriting",
+      "url": "https://www.strath.ac.uk/courses/research/creativewriting/",
+      "oldName": "Creativewriting",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Creative writing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-creativewritingmfa",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/creativewritingmfa/",
+      "oldName": "Creativewritingmfa",
+      "status": 200,
+      "newName": "MFA Creative Writing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-criminaljusticepenalchange",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/criminaljusticepenalchange/",
+      "oldName": "Criminaljusticepenalchange",
+      "status": 200,
+      "newName": "LLM/MSc/PgDip/PgCert Criminal Justice & Penal Change",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-criminology",
+      "url": "https://www.strath.ac.uk/courses/research/criminology/",
+      "oldName": "Criminology",
+      "status": 200,
+      "newName": "PhD Criminology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-criminologysocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/criminologysocialpolicy/",
+      "oldName": "Criminologysocialpolicy",
+      "status": 200,
+      "newName": "MSc Criminology & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-cultureheritagemuseumstudies",
+      "url": "https://www.strath.ac.uk/courses/research/cultureheritagemuseumstudies/",
+      "oldName": "Cultureheritagemuseumstudies",
+      "status": 200,
+      "newName": "PhD, MPhil Culture, Heritage & Museum Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-cybersecurity",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/cybersecurity/",
+      "oldName": "Cybersecurity",
+      "status": 200,
+      "newName": "MSc Cyber Security (Graduate Apprenticeship)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-dataanalytics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/dataanalytics/",
+      "oldName": "Dataanalytics",
+      "status": 200,
+      "newName": "BSc Hons Data Analytics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-dataanalytics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/dataanalytics/",
+      "oldName": "Dataanalytics",
+      "status": 200,
+      "newName": "MSc Data Analytics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-datascienceforpoliticspolicymaking",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/datascienceforpoliticspolicymaking/",
+      "oldName": "Datascienceforpoliticspolicymaking",
+      "status": 200,
+      "newName": "MSc Data Science for Politics & Policymaking",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-designengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/designengineering/",
+      "oldName": "Designengineering",
+      "status": 200,
+      "newName": "MSc Design Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-designengineeringwithadvancedproductdevelopment",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/designengineeringwithadvancedproductdevelopment/",
+      "oldName": "Designengineeringwithadvancedproductdevelopment",
+      "status": 200,
+      "newName": "MSc Design Engineering with Advanced Product Development",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-designengineeringwithsustainability",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/designengineeringwithsustainability/",
+      "oldName": "Designengineeringwithsustainability",
+      "status": 200,
+      "newName": "MSc Design Engineering with Sustainability",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-designmanufacturingengineeringmanagement",
+      "url": "https://www.strath.ac.uk/courses/research/designmanufacturingengineeringmanagement/",
+      "oldName": "Designmanufacturingengineeringmanagement",
+      "status": 200,
+      "newName": "PhD, MPhil, Industrial Doctorate Design, manufacturing & engineering management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-digitalhealthsystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/digitalhealthsystems/",
+      "oldName": "Digitalhealthsystems",
+      "status": 200,
+      "newName": "MSc Digital Health Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-digitaljournalism",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/digitaljournalism/",
+      "oldName": "Digitaljournalism",
+      "status": 200,
+      "newName": "MSc/PgDip Digital Journalism",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-digitalmarketingmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/digitalmarketingmanagement/",
+      "oldName": "Digitalmarketingmanagement",
+      "status": 200,
+      "newName": "MSc Digital Marketing Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-digitalmarketingmanagementjanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/digitalmarketingmanagementjanuary/",
+      "oldName": "Digitalmarketingmanagementjanuary",
+      "status": 200,
+      "newName": "MSc Digital Marketing Management (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-diplomacyinternationalsecurity",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/diplomacyinternationalsecurity/",
+      "oldName": "Diplomacyinternationalsecurity",
+      "status": 200,
+      "newName": "MSc Diplomacy & International Security",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-doctorateofeducation",
+      "url": "https://www.strath.ac.uk/courses/research/doctorateofeducation/",
+      "oldName": "Doctorateofeducation",
+      "status": 200,
+      "newName": "EdD Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-doctorofbusinessadministration",
+      "url": "https://www.strath.ac.uk/courses/research/doctorofbusinessadministration/",
+      "oldName": "Doctorofbusinessadministration",
+      "status": 200,
+      "newName": "DBA Doctor of Business Administration",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-doctorofinformationscience",
+      "url": "https://www.strath.ac.uk/courses/research/doctorofinformationscience/",
+      "oldName": "Doctorofinformationscience",
+      "status": 200,
+      "newName": "DInfSci Doctor of Information Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-earlyyearspedagogue",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/earlyyearspedagogue/",
+      "oldName": "Earlyyearspedagogue",
+      "status": 200,
+      "newName": "MEd Early Years Pedagogue",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economics/",
+      "oldName": "Economics",
+      "status": 200,
+      "newName": "BA Hons Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economics",
+      "url": "https://www.strath.ac.uk/courses/research/economics/",
+      "oldName": "Economics",
+      "status": 200,
+      "newName": "MPhil, MRes, PhD Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsbusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economicsbusinesslaw/",
+      "oldName": "Economicsbusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Economics & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsdatascienceartificialintelligence",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/economicsdatascienceartificialintelligence/",
+      "oldName": "Economicsdatascienceartificialintelligence",
+      "status": 200,
+      "newName": "MSc Economics, Data Science & Artificial Intelligence",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsfinance",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economicsfinance/",
+      "oldName": "Economicsfinance",
+      "status": 200,
+      "newName": "BA Hons Economics & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsfinance",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/economicsfinance/",
+      "oldName": "Economicsfinance",
+      "status": 200,
+      "newName": "MSc Economics & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsfinance-bahrain",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/economicsfinance-bahrain/",
+      "oldName": "Economicsfinance Bahrain",
+      "status": 200,
+      "newName": "MSc Economics & Finance - Bahrain",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicshumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economicshumanresourcemanagement/",
+      "oldName": "Economicshumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Joint Hons Economics & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsmarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economicsmarketing/",
+      "oldName": "Economicsmarketing",
+      "status": 200,
+      "newName": "BA Joint Hons Economics & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicsmathematicsstatistics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economicsmathematicsstatistics/",
+      "oldName": "Economicsmathematicsstatistics",
+      "status": 200,
+      "newName": "BA Joint Hons Economics, Mathematics & Statistics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicspolicyofenergyclimatechange",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/economicspolicyofenergyclimatechange/",
+      "oldName": "Economicspolicyofenergyclimatechange",
+      "status": 200,
+      "newName": "MSc Economics & Policy of Energy & Climate Change",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicspolicyofenergyclimatechangeonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/economicspolicyofenergyclimatechangeonline/",
+      "oldName": "Economicspolicyofenergyclimatechangeonline",
+      "status": 200,
+      "newName": "MSc Economics & Policy of Energy & Climate Change (Online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-economicspsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/economicspsychology/",
+      "oldName": "Economicspsychology",
+      "status": 200,
+      "newName": "BA Economics & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-education",
+      "url": "https://www.strath.ac.uk/courses/research/education/",
+      "oldName": "Education",
+      "status": 200,
+      "newName": "MPhil, PhD Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationalissuesimpact",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/educationalissuesimpact/",
+      "oldName": "Educationalissuesimpact",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-educationalleadershipmed",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/educationalleadershipmed/",
+      "oldName": "Educationalleadershipmed",
+      "status": 200,
+      "newName": "MEd Educational Leadership",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationalleadershipmsc",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/educationalleadershipmsc/",
+      "oldName": "Educationalleadershipmsc",
+      "status": 200,
+      "newName": "MSc Educational Leadership (online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationalpsychology",
+      "url": "https://www.strath.ac.uk/courses/research/educationalpsychology/",
+      "oldName": "Educationalpsychology",
+      "status": 200,
+      "newName": "DEdPsy Educational Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationcurricularstudieswithteachingqualification",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationcurricularstudieswithteachingqualification/",
+      "oldName": "Educationcurricularstudieswithteachingqualification",
+      "status": 200,
+      "newName": "BSc Hons Education & Curricular Studies with Teaching Qualification",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationeconomics/",
+      "oldName": "Educationeconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-educationenglish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationenglish/",
+      "oldName": "Educationenglish",
+      "status": 200,
+      "newName": "BA Hons Education & English",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationenglishcreativewriting",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationenglishcreativewriting/",
+      "oldName": "Educationenglishcreativewriting",
+      "status": 200,
+      "newName": "BA Hons Education & English and Creative Writing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationfrench",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationfrench/",
+      "oldName": "Educationfrench",
+      "status": 200,
+      "newName": "BA Hons Education & French",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationhistory",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationhistory/",
+      "oldName": "Educationhistory",
+      "status": 200,
+      "newName": "BA Hons Education & History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationhumanresourcemanagement/",
+      "oldName": "Educationhumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-educationjournalismmediacommunication",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationjournalismmediacommunication/",
+      "oldName": "Educationjournalismmediacommunication",
+      "status": 200,
+      "newName": "BA Hons Education & Journalism, Media and Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationlaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationlaw/",
+      "oldName": "Educationlaw",
+      "status": 200,
+      "newName": "BA Hons Education & Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationpoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationpoliticsinternationalrelations/",
+      "oldName": "Educationpoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons Education & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationpsychology/",
+      "oldName": "Educationpsychology",
+      "status": 200,
+      "newName": "BA Hons Education & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationsocialpolicy/",
+      "oldName": "Educationsocialpolicy",
+      "status": 200,
+      "newName": "BA Hons Education & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationsocialservices",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationsocialservices/",
+      "oldName": "Educationsocialservices",
+      "status": 200,
+      "newName": "BA Hons Education & Social Services",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationspanish/",
+      "oldName": "Educationspanish",
+      "status": 200,
+      "newName": "BA Hons Education & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationstudiesmed",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/educationstudiesmed/",
+      "oldName": "Educationstudiesmed",
+      "status": 200,
+      "newName": "MEd Education Studies (part-time)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationstudiesmsc",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/educationstudiesmsc/",
+      "oldName": "Educationstudiesmsc",
+      "status": 200,
+      "newName": "MSc Education Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-educationtesol",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/educationtesol/",
+      "oldName": "Educationtesol",
+      "status": 200,
+      "newName": "BA Hons Education & TESOL",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electricalenergysystems",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electricalenergysystems/",
+      "oldName": "Electricalenergysystems",
+      "status": 200,
+      "newName": "MEng Electrical Energy Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electricalmechanicalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electricalmechanicalengineeringbeng/",
+      "oldName": "Electricalmechanicalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Electrical & Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electricalmechanicalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electricalmechanicalengineeringmeng/",
+      "oldName": "Electricalmechanicalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Electrical & Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electricalmechanicalengineeringwithinternationalstudy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electricalmechanicalengineeringwithinternationalstudy/",
+      "oldName": "Electricalmechanicalengineeringwithinternationalstudy",
+      "status": 200,
+      "newName": "MEng Electrical & Mechanical Engineering with International Study",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electricalpowerenergysystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/electricalpowerenergysystems/",
+      "oldName": "Electricalpowerenergysystems",
+      "status": 200,
+      "newName": "MSc Electrical Power & Energy Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicdigitalsystems",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electronicdigitalsystems/",
+      "oldName": "Electronicdigitalsystems",
+      "status": 200,
+      "newName": "MEng Electronic & Digital Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/electronicelectricalengineering/",
+      "oldName": "Electronicelectricalengineering",
+      "status": 200,
+      "newName": "MSc Electronic & Electrical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineering",
+      "url": "https://www.strath.ac.uk/courses/research/electronicelectricalengineering/",
+      "oldName": "Electronicelectricalengineering",
+      "status": 200,
+      "newName": "MPhil, PhD, EngD & Industrial Doctorate Electronic & electrical engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineeringbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electronicelectricalengineeringbahrain/",
+      "oldName": "Electronicelectricalengineeringbahrain",
+      "status": 200,
+      "newName": "BEng Hons Electronic & Electrical Engineering (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electronicelectricalengineeringbeng/",
+      "oldName": "Electronicelectricalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Electronic & Electrical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electronicelectricalengineeringmeng/",
+      "oldName": "Electronicelectricalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Electronic & Electrical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineeringwithbusinessstudies",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electronicelectricalengineeringwithbusinessstudies/",
+      "oldName": "Electronicelectricalengineeringwithbusinessstudies",
+      "status": 200,
+      "newName": "MEng Electronic & Electrical Engineering with Business Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-electronicelectricalengineeringwithinternationalstudy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/electronicelectricalengineeringwithinternationalstudy/",
+      "oldName": "Electronicelectricalengineeringwithinternationalstudy",
+      "status": 200,
+      "newName": "MEng Electronic & Electrical Engineering with International Study",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-engineeringacademy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/engineeringacademy/",
+      "oldName": "Engineeringacademy",
+      "status": 200,
+      "newName": "Engineering Academy",
+      "source": "h1:title"
+    },
+    {
+      "slug": "strath-engineeringmanagementforprocessexcellence",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/engineeringmanagementforprocessexcellence/",
+      "oldName": "Engineeringmanagementforprocessexcellence",
+      "status": 200,
+      "newName": "MSc Engineering Management for Process Excellence",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-engineeringprojectmanagementonline",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/engineeringprojectmanagementonline/",
+      "oldName": "Engineeringprojectmanagementonline",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Engineering Project Management (online)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-english",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/english/",
+      "oldName": "English",
+      "status": 200,
+      "newName": "BA Hons English",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-english",
+      "url": "https://www.strath.ac.uk/courses/research/english/",
+      "oldName": "English",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes English",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewriting",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewriting/",
+      "oldName": "Englishcreativewriting",
+      "status": 200,
+      "newName": "BA Hons English & Creative Writing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritingfrench",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritingfrench/",
+      "oldName": "Englishcreativewritingfrench",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & French",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritinghistory",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritinghistory/",
+      "oldName": "Englishcreativewritinghistory",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritinghumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritinghumanresourcemanagement/",
+      "oldName": "Englishcreativewritinghumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-englishcreativewritingjournalismmediacommunication",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritingjournalismmediacommunication/",
+      "oldName": "Englishcreativewritingjournalismmediacommunication",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & Journalism, Media and Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritinglaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritinglaw/",
+      "oldName": "Englishcreativewritinglaw",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritingpoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritingpoliticsinternationalrelations/",
+      "oldName": "Englishcreativewritingpoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritingpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritingpsychology/",
+      "oldName": "Englishcreativewritingpsychology",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritingsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritingsocialpolicy/",
+      "oldName": "Englishcreativewritingsocialpolicy",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishcreativewritingspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishcreativewritingspanish/",
+      "oldName": "Englishcreativewritingspanish",
+      "status": 200,
+      "newName": "BA Hons English and Creative Writing & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishfrench",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishfrench/",
+      "oldName": "Englishfrench",
+      "status": 200,
+      "newName": "BA Joint Hons English & French",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishhistory",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishhistory/",
+      "oldName": "Englishhistory",
+      "status": 200,
+      "newName": "BA Joint Hons English & History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishhumanresourcemanagement/",
+      "oldName": "Englishhumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-englishjournalismmediacommunication",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishjournalismmediacommunication/",
+      "oldName": "Englishjournalismmediacommunication",
+      "status": 200,
+      "newName": "BA Hons English & Journalism, Media and Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishlaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishlaw/",
+      "oldName": "Englishlaw",
+      "status": 200,
+      "newName": "BA Joint Hons English & Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishpoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishpoliticsinternationalrelations/",
+      "oldName": "Englishpoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons English & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishpsychology/",
+      "oldName": "Englishpsychology",
+      "status": 200,
+      "newName": "BA Joint Hons English & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishsocialpolicy/",
+      "oldName": "Englishsocialpolicy",
+      "status": 200,
+      "newName": "BA Hons English & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-englishspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/englishspanish/",
+      "oldName": "Englishspanish",
+      "status": 200,
+      "newName": "BA Joint Hons English & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-entrepreneurship",
+      "url": "https://www.strath.ac.uk/courses/research/entrepreneurship/",
+      "oldName": "Entrepreneurship",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Entrepreneurship, Innovation & Strategy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-entrepreneurshipinnovationtechnology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/entrepreneurshipinnovationtechnology/",
+      "oldName": "Entrepreneurshipinnovationtechnology",
+      "status": 200,
+      "newName": "MSc Entrepreneurship, Innovation & Technology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-environmentalengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/environmentalengineering/",
+      "oldName": "Environmentalengineering",
+      "status": 200,
+      "newName": "MSc Environmental Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-facultyofsciencesummerprojectschulalongkornuniversity",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/facultyofsciencesummerprojectschulalongkornuniversity/",
+      "oldName": "Facultyofsciencesummerprojectschulalongkornuniversity",
+      "status": 200,
+      "newName": "Faculty of Science summer projects (Chulalongkorn University)",
+      "source": "h1:title"
+    },
+    {
+      "slug": "strath-facultyofsciencesummerprojectsoceanuniversityofchina",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/facultyofsciencesummerprojectsoceanuniversityofchina/",
+      "oldName": "Facultyofsciencesummerprojectsoceanuniversityofchina",
+      "status": 200,
+      "newName": "Faculty of Science summer projects (Ocean University of China)",
+      "source": "h1:title"
+    },
+    {
+      "slug": "strath-finance",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/finance/",
+      "oldName": "Finance",
+      "status": 200,
+      "newName": "BA Hons Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-finance",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/finance/",
+      "oldName": "Finance",
+      "status": 200,
+      "newName": "MSc Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-finance-bahrain",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/finance-bahrain/",
+      "oldName": "Finance Bahrain",
+      "status": 200,
+      "newName": "MSc Finance - Bahrain",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financebusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/financebusinesslaw/",
+      "oldName": "Financebusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Finance & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financehospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/financehospitalitytourismmanagement/",
+      "oldName": "Financehospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons Finance & Hospitality and Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financehumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/financehumanresourcemanagement/",
+      "oldName": "Financehumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Joint Hons Finance & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financejanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/financejanuary/",
+      "oldName": "Financejanuary",
+      "status": 200,
+      "newName": "MSc Finance (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financemanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/financemanagement/",
+      "oldName": "Financemanagement",
+      "status": 200,
+      "newName": "MSc Finance & Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financemarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/financemarketing/",
+      "oldName": "Financemarketing",
+      "status": 200,
+      "newName": "BA Joint Hons Finance & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financemathematicsstatistics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/financemathematicsstatistics/",
+      "oldName": "Financemathematicsstatistics",
+      "status": 200,
+      "newName": "BA Joint Hons Finance & Mathematics and Statistics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financialmathematicsdatascience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/financialmathematicsdatascience/",
+      "oldName": "Financialmathematicsdatascience",
+      "status": 200,
+      "newName": "MSc Financial Mathematics & Data Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-financialtechnology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/financialtechnology/",
+      "oldName": "Financialtechnology",
+      "status": 200,
+      "newName": "MSc Financial Technology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-forensicanalyticalchemistry",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/forensicanalyticalchemistry/",
+      "oldName": "Forensicanalyticalchemistry",
+      "status": 200,
+      "newName": "BSc (Hons), MChem Forensic & Analytical Chemistry",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-forensicscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/forensicscience/",
+      "oldName": "Forensicscience",
+      "status": 200,
+      "newName": "MSc Forensic Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-forensicsciencewaterloo",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/forensicsciencewaterloo/",
+      "oldName": "Forensicsciencewaterloo",
+      "status": 200,
+      "newName": "MSc Forensic Science (Waterloo)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frencheconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frencheconomics/",
+      "oldName": "Frencheconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-frenchhistory",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchhistory/",
+      "oldName": "Frenchhistory",
+      "status": 200,
+      "newName": "BA Joint Hons French & History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchhospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchhospitalitytourismmanagement/",
+      "oldName": "Frenchhospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons French & Hospitality and Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchhumanresourcemanagement/",
+      "oldName": "Frenchhumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Joint Hons French & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchjournalismmediacommunication",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchjournalismmediacommunication/",
+      "oldName": "Frenchjournalismmediacommunication",
+      "status": 200,
+      "newName": "BA Hons French & Journalism, Media and Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchlaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchlaw/",
+      "oldName": "Frenchlaw",
+      "status": 200,
+      "newName": "BA Joint Hons French & Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchmarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchmarketing/",
+      "oldName": "Frenchmarketing",
+      "status": 200,
+      "newName": "BA Joint Hons French & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchpoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchpoliticsinternationalrelations/",
+      "oldName": "Frenchpoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons French & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchpsychology/",
+      "oldName": "Frenchpsychology",
+      "status": 200,
+      "newName": "BA Joint Hons French & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchsocialpolicy/",
+      "oldName": "Frenchsocialpolicy",
+      "status": 200,
+      "newName": "BA Hons French & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-frenchspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/frenchspanish/",
+      "oldName": "Frenchspanish",
+      "status": 200,
+      "newName": "BA Joint Hons French & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-genderstudies",
+      "url": "https://www.strath.ac.uk/courses/research/genderstudies/",
+      "oldName": "Genderstudies",
+      "status": 200,
+      "newName": "PhD Gender Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-genealogicalpalaeographicheraldicstudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/genealogicalpalaeographicheraldicstudies/",
+      "oldName": "Genealogicalpalaeographicheraldicstudies",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Genealogical, Palaeographic & Heraldic Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-geoenvironmentalengineering",
+      "url": "https://www.strath.ac.uk/courses/research/geoenvironmentalengineering/",
+      "oldName": "Geoenvironmentalengineering",
+      "status": 200,
+      "newName": "MRes Geoenvironmental Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-healthanalysispolicymanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/healthanalysispolicymanagement/",
+      "oldName": "Healthanalysispolicymanagement",
+      "status": 200,
+      "newName": "MSc Health Analysis, Policy & Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-healthhistory",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/healthhistory/",
+      "oldName": "Healthhistory",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Health History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-healthsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/healthsocialpolicy/",
+      "oldName": "Healthsocialpolicy",
+      "status": 200,
+      "newName": "MSc Health & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-history",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/history/",
+      "oldName": "History",
+      "status": 200,
+      "newName": "BA Hons History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-history",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/history/",
+      "oldName": "History",
+      "status": 200,
+      "newName": "MSc/PgDip History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-history",
+      "url": "https://www.strath.ac.uk/courses/research/history/",
+      "oldName": "History",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historyeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historyeconomics/",
+      "oldName": "Historyeconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-historyhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historyhumanresourcemanagement/",
+      "oldName": "Historyhumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-historyjournalismmediacommunication",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historyjournalismmediacommunication/",
+      "oldName": "Historyjournalismmediacommunication",
+      "status": 200,
+      "newName": "BA Hons History & Journalism, Media and Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historylaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historylaw/",
+      "oldName": "Historylaw",
+      "status": 200,
+      "newName": "BA Joint Hons History & Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historypoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historypoliticsinternationalrelations/",
+      "oldName": "Historypoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Joint Hons History & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historypsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historypsychology/",
+      "oldName": "Historypsychology",
+      "status": 200,
+      "newName": "BA History & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historysocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historysocialpolicy/",
+      "oldName": "Historysocialpolicy",
+      "status": 200,
+      "newName": "BA Hons History & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historyspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/historyspanish/",
+      "oldName": "Historyspanish",
+      "status": 200,
+      "newName": "BA Joint Hons History & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-historywithgenealogicalstudies",
+      "url": "https://www.strath.ac.uk/courses/research/historywithgenealogicalstudies/",
+      "oldName": "Historywithgenealogicalstudies",
+      "status": 200,
+      "newName": "PhD History with Genealogical Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-hospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/hospitalitytourismmanagement/",
+      "oldName": "Hospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons Hospitality & Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-hospitalitytourismmanagementbusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/hospitalitytourismmanagementbusinesslaw/",
+      "oldName": "Hospitalitytourismmanagementbusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Hospitality and Tourism Management & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-hospitalitytourismmanagementhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/hospitalitytourismmanagementhumanresourcemanagement/",
+      "oldName": "Hospitalitytourismmanagementhumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Hons Hospitality and Tourism Management & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-hospitalitytourismmanagementmarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/hospitalitytourismmanagementmarketing/",
+      "oldName": "Hospitalitytourismmanagementmarketing",
+      "status": 200,
+      "newName": "BA Hons Hospitality and Tourism Management & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/humanresourcemanagement/",
+      "oldName": "Humanresourcemanagement",
+      "status": 200,
+      "newName": "BA Hons Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/humanresourcemanagement/",
+      "oldName": "Humanresourcemanagement",
+      "status": 200,
+      "newName": "MSc Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagement-part-time",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/humanresourcemanagement-part-time/",
+      "oldName": "Humanresourcemanagement Part Time",
+      "status": 200,
+      "newName": "MSc/PgDip Human Resource Management (part-time)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagementbusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/humanresourcemanagementbusinesslaw/",
+      "oldName": "Humanresourcemanagementbusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Human Resource Management & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagementmarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/humanresourcemanagementmarketing/",
+      "oldName": "Humanresourcemanagementmarketing",
+      "status": 200,
+      "newName": "BA Joint Hons Human Resource Management & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagementpeopleanalytics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/humanresourcemanagementpeopleanalytics/",
+      "oldName": "Humanresourcemanagementpeopleanalytics",
+      "status": 200,
+      "newName": "MSc Human Resource Management & People Analytics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanresourcemanagementpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/humanresourcemanagementpsychology/",
+      "oldName": "Humanresourcemanagementpsychology",
+      "status": 200,
+      "newName": "BA Joint Hons Human Resource Management & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-humanrightslaw",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/humanrightslaw/",
+      "oldName": "Humanrightslaw",
+      "status": 200,
+      "newName": "LLM/PgDip/PgCert Human Rights Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-hydrogeology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/hydrogeology/",
+      "oldName": "Hydrogeology",
+      "status": 200,
+      "newName": "MSc Hydrogeology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-immunology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/immunology/",
+      "oldName": "Immunology",
+      "status": 200,
+      "newName": "MSci Immunology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-immunologymicrobiology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/immunologymicrobiology/",
+      "oldName": "Immunologymicrobiology",
+      "status": 200,
+      "newName": "BSc Hons Immunology & Microbiology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-immunologypharmacology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/immunologypharmacology/",
+      "oldName": "Immunologypharmacology",
+      "status": 200,
+      "newName": "BSc Hons Immunology & Pharmacology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-industrialbiotechnology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/industrialbiotechnology/",
+      "oldName": "Industrialbiotechnology",
+      "status": 200,
+      "newName": "MSc Industrial Biotechnology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-informationlibrarystudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/informationlibrarystudies/",
+      "oldName": "Informationlibrarystudies",
+      "status": 200,
+      "newName": "MSc/PgDip Information & Library Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-informationmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/informationmanagement/",
+      "oldName": "Informationmanagement",
+      "status": 200,
+      "newName": "MSc Information Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-integratedpollutionpreventioncontrol",
+      "url": "https://www.strath.ac.uk/courses/research/integratedpollutionpreventioncontrol/",
+      "oldName": "Integratedpollutionpreventioncontrol",
+      "status": 200,
+      "newName": "MRes Integrated Pollution Prevention & Control",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalbusiness",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/internationalbusiness/",
+      "oldName": "Internationalbusiness",
+      "status": 200,
+      "newName": "BA Hons International Business",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalbusiness",
+      "url": "https://www.strath.ac.uk/courses/research/internationalbusiness/",
+      "oldName": "Internationalbusiness",
+      "status": 200,
+      "newName": "PhD International Business",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalbusinesswithamodernlanguage",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/internationalbusinesswithamodernlanguage/",
+      "oldName": "Internationalbusinesswithamodernlanguage",
+      "status": 200,
+      "newName": "MIBML International Business with a Modern Language",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalcommerciallaw",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalcommerciallaw/",
+      "oldName": "Internationalcommerciallaw",
+      "status": 200,
+      "newName": "LLM/PgDip/PgCert International Commercial Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalhumanresourcemanagement/",
+      "oldName": "Internationalhumanresourcemanagement",
+      "status": 200,
+      "newName": "MSc International Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalmanagement/",
+      "oldName": "Internationalmanagement",
+      "status": 200,
+      "newName": "MSc International Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalmanagementjanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalmanagementjanuary/",
+      "oldName": "Internationalmanagementjanuary",
+      "status": 200,
+      "newName": "MSc International Management (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalmaritimelaw",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalmaritimelaw/",
+      "oldName": "Internationalmaritimelaw",
+      "status": 200,
+      "newName": "LLM/MSc International Maritime Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalmarketing",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalmarketing/",
+      "oldName": "Internationalmarketing",
+      "status": 200,
+      "newName": "MSc International Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalmasterprojectmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalmasterprojectmanagement/",
+      "oldName": "Internationalmasterprojectmanagement",
+      "status": 200,
+      "newName": "MSc International Master Project Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalrelations",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalrelations/",
+      "oldName": "Internationalrelations",
+      "status": 200,
+      "newName": "MSc International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-internationalsocialwelfare",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/internationalsocialwelfare/",
+      "oldName": "Internationalsocialwelfare",
+      "status": 200,
+      "newName": "MSc International Social Welfare",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-investmentfinance",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/investmentfinance/",
+      "oldName": "Investmentfinance",
+      "status": 200,
+      "newName": "MSc Investment & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-investmentfinancejanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/investmentfinancejanuary/",
+      "oldName": "Investmentfinancejanuary",
+      "status": 200,
+      "newName": "MSc Investment & Finance (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-ipgce",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/ipgce/",
+      "oldName": "Ipgce",
+      "status": 200,
+      "newName": "PgCert Education (International)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-itsoftwaredevelopmentgraduateapprenticeship",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/itsoftwaredevelopmentgraduateapprenticeship/",
+      "oldName": "Itsoftwaredevelopmentgraduateapprenticeship",
+      "status": 200,
+      "newName": "BSc Hons IT: Software Development (Graduate Apprenticeship)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-journalismmediacommunication",
+      "url": "https://www.strath.ac.uk/courses/research/journalismmediacommunication/",
+      "oldName": "Journalismmediacommunication",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Journalism, Media & Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationeconomics/",
+      "oldName": "Journalismmediacommunicationeconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationhumanresourcemanagement/",
+      "oldName": "Journalismmediacommunicationhumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationlaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationlaw/",
+      "oldName": "Journalismmediacommunicationlaw",
+      "status": 200,
+      "newName": "BA Hons Journalism, Media and Communication & Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationpoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationpoliticsinternationalrelations/",
+      "oldName": "Journalismmediacommunicationpoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons Journalism, Media and Communication & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationpsychology/",
+      "oldName": "Journalismmediacommunicationpsychology",
+      "status": 200,
+      "newName": "BA Hons Journalism, Media and Communication & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationsocialpolicy/",
+      "oldName": "Journalismmediacommunicationsocialpolicy",
+      "status": 200,
+      "newName": "BA Hons Journalism, Media and Communication & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-journalismmediacommunicationspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/journalismmediacommunicationspanish/",
+      "oldName": "Journalismmediacommunicationspanish",
+      "status": 200,
+      "newName": "BA Hons Journalism, Media and Communication & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-law",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/law/",
+      "oldName": "Law",
+      "status": 200,
+      "newName": "LLB Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-law",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/law/",
+      "oldName": "Law",
+      "status": 200,
+      "newName": "LLM / PgDip / PgCert Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-law",
+      "url": "https://www.strath.ac.uk/courses/research/law/",
+      "oldName": "Law",
+      "status": 200,
+      "newName": "PhD, MPhil Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-laweconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/laweconomics/",
+      "oldName": "Laweconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-lawgraduateentry",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawgraduateentry/",
+      "oldName": "Lawgraduateentry",
+      "status": 200,
+      "newName": "LLB Law (Graduate Entry)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawhumanresourcemanagement/",
+      "oldName": "Lawhumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-lawllbpart-time",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawllbpart-time/",
+      "oldName": "Lawllbpart Time",
+      "status": 200,
+      "newName": "LLB Law (part-time)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawpoliticsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawpoliticsinternationalrelations/",
+      "oldName": "Lawpoliticsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons Law & Politics and International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawpsychology/",
+      "oldName": "Lawpsychology",
+      "status": 200,
+      "newName": "BA Joint Hons Law & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawsocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawsocialpolicy/",
+      "oldName": "Lawsocialpolicy",
+      "status": 200,
+      "newName": "BA Hons Law & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawspanish/",
+      "oldName": "Lawspanish",
+      "status": 200,
+      "newName": "BA Joint Hons Law & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawtechnologyandinnovation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/lawtechnologyandinnovation/",
+      "oldName": "Lawtechnologyandinnovation",
+      "status": 200,
+      "newName": "LLM/MSc Law, Technology & Innovation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawwithfrench",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawwithfrench/",
+      "oldName": "Lawwithfrench",
+      "status": 200,
+      "newName": "LLB Hons Law with French",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-lawwithspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/lawwithspanish/",
+      "oldName": "Lawwithspanish",
+      "status": 200,
+      "newName": "LLB Hons Law with Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-leadinglearningtransformativepracticeincolleges",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/leadinglearningtransformativepracticeincolleges/",
+      "oldName": "Leadinglearningtransformativepracticeincolleges",
+      "status": 200,
+      "newName": "PG Certificate / Graduate Certificate Leading Learning & Transformative Practice in Colleges (with TQFE)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-learningteachinghighereducation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/learningteachinghighereducation/",
+      "oldName": "Learningteachinghighereducation",
+      "status": 200,
+      "newName": "PgCert Learning & Teaching in Higher Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-literatureculturesociety",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/literatureculturesociety/",
+      "oldName": "Literatureculturesociety",
+      "status": 200,
+      "newName": "MSc Literature, Culture & Society",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-llblawclinical",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/llblawclinical/",
+      "oldName": "Llblawclinical",
+      "status": 200,
+      "newName": "LLB Hons Law (Clinical)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-llblawclinicalgraduateentry",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/llblawclinicalgraduateentry/",
+      "oldName": "Llblawclinicalgraduateentry",
+      "status": 200,
+      "newName": "LLB Law (Clinical) (Graduate Entry)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-machinelearningdeeplearning",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/machinelearningdeeplearning/",
+      "oldName": "Machinelearningdeeplearning",
+      "status": 200,
+      "newName": "MSc Machine Learning & Deep Learning",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-managementscience",
+      "url": "https://www.strath.ac.uk/courses/research/managementscience/",
+      "oldName": "Managementscience",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Management science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-manufacturingengineeringwithmanagementbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/manufacturingengineeringwithmanagementbeng/",
+      "oldName": "Manufacturingengineeringwithmanagementbeng",
+      "status": 200,
+      "newName": "BEng Hons Manufacturing Engineering with Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-manufacturingengineeringwithmanagementmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/manufacturingengineeringwithmanagementmeng/",
+      "oldName": "Manufacturingengineeringwithmanagementmeng",
+      "status": 200,
+      "newName": "MEng Manufacturing Engineering with Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marineengineering",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/marineengineering/",
+      "oldName": "Marineengineering",
+      "status": 200,
+      "newName": "MSc Marine Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marineengineeringwithspecialisationinautonomousmarinevehicles",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/marineengineeringwithspecialisationinautonomousmarinevehicles/",
+      "oldName": "Marineengineeringwithspecialisationinautonomousmarinevehicles",
+      "status": 200,
+      "newName": "MSc Marine Engineering with Specialisation in Autonomous Marine Vehicles",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/marketing/",
+      "oldName": "Marketing",
+      "status": 200,
+      "newName": "BA Hons Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marketing",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/marketing/",
+      "oldName": "Marketing",
+      "status": 200,
+      "newName": "MSc Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marketing",
+      "url": "https://www.strath.ac.uk/courses/research/marketing/",
+      "oldName": "Marketing",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marketingbusinesslaw",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/marketingbusinesslaw/",
+      "oldName": "Marketingbusinesslaw",
+      "status": 200,
+      "newName": "BA Hons Marketing & Business Law",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marketingjanuary",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/marketingjanuary/",
+      "oldName": "Marketingjanuary",
+      "status": 200,
+      "newName": "MSc Marketing (January)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-marketingpsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/marketingpsychology/",
+      "oldName": "Marketingpsychology",
+      "status": 200,
+      "newName": "BA Joint Hons Marketing & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicalsciencesmres",
+      "url": "https://www.strath.ac.uk/courses/research/mathematicalsciencesmres/",
+      "oldName": "Mathematicalsciencesmres",
+      "status": 200,
+      "newName": "MRes Mathematical Sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsbsc",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsbsc/",
+      "oldName": "Mathematicsbsc",
+      "status": 200,
+      "newName": "BSc Mathematics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicscomputerscience",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicscomputerscience/",
+      "oldName": "Mathematicscomputerscience",
+      "status": 200,
+      "newName": "BSc Hons Mathematics & Computer Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsmmath",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsmmath/",
+      "oldName": "Mathematicsmmath",
+      "status": 200,
+      "newName": "MMath Mathematics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsphysics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsphysics/",
+      "oldName": "Mathematicsphysics",
+      "status": 200,
+      "newName": "BSc Hons Mathematics & Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatistics",
+      "url": "https://www.strath.ac.uk/courses/research/mathematicsstatistics/",
+      "oldName": "Mathematicsstatistics",
+      "status": 200,
+      "newName": "PhD, MPhil Mathematics & statistics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticsaccounting",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticsaccounting/",
+      "oldName": "Mathematicsstatisticsaccounting",
+      "status": 200,
+      "newName": "BSc Hons Mathematics, Statistics & Accounting",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticsbusinessanalysis",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticsbusinessanalysis/",
+      "oldName": "Mathematicsstatisticsbusinessanalysis",
+      "status": 200,
+      "newName": "BSc Hons Mathematics, Statistics & Business Analysis",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticsdonghuauniversity",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticsdonghuauniversity/",
+      "oldName": "Mathematicsstatisticsdonghuauniversity",
+      "status": 200,
+      "newName": "BSc Hons Mathematics & Statistics (Donghua University)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticseconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticseconomics/",
+      "oldName": "Mathematicsstatisticseconomics",
+      "status": 200,
+      "newName": "BSc Hons Mathematics, Statistics & Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticsfinance",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticsfinance/",
+      "oldName": "Mathematicsstatisticsfinance",
+      "status": 200,
+      "newName": "BSc Hons Mathematics, Statistics & Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticsscau",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticsscau/",
+      "oldName": "Mathematicsstatisticsscau",
+      "status": 200,
+      "newName": "BSc Hons Mathematics & Statistics (SCAU)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicsstatisticssnu",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicsstatisticssnu/",
+      "oldName": "Mathematicsstatisticssnu",
+      "status": 200,
+      "newName": "BSc Hons Mathematics & Statistics (Shanghai Normal University)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicswithteaching",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicswithteaching/",
+      "oldName": "Mathematicswithteaching",
+      "status": 200,
+      "newName": "BSc Hons Mathematics with Teaching",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mathematicswithteachinginternational",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mathematicswithteachinginternational/",
+      "oldName": "Mathematicswithteachinginternational",
+      "status": 200,
+      "newName": "BSc Hons Mathematics with Teaching (International)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/",
+      "oldName": "Mba",
+      "status": 200,
+      "newName": "MBA Master of Business Administration",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba-bahrain",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/mba-bahrain/",
+      "oldName": "Mba Bahrain",
+      "status": 200,
+      "newName": "MBA Master of Business Administration, Bahrain",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba-fulltime",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/mba-fulltime/",
+      "oldName": "Mba Fulltime",
+      "status": 200,
+      "newName": "MBA Master of Business Administration, Full-time Glasgow",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba-malaysia",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/mba-malaysia/",
+      "oldName": "Mba Malaysia",
+      "status": 200,
+      "newName": "MBA Master of Business Administration, Malaysia",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba-oman",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/mba-oman/",
+      "oldName": "Mba Oman",
+      "status": 200,
+      "newName": "MBA Master of Business Administration, Oman",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba-parttime",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/mba-parttime/",
+      "oldName": "Mba Parttime",
+      "status": 200,
+      "newName": "MBA Master of Business Administration, part-time Glasgow",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mba-uae",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mba/mba-uae/",
+      "oldName": "Mba Uae",
+      "status": 200,
+      "newName": "MBA Master of Business Administration, UAE",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mbawithaspecialisationinsustainableenergyfutures",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mbawithaspecialisationinsustainableenergyfutures/",
+      "oldName": "Mbawithaspecialisationinsustainableenergyfutures",
+      "status": 200,
+      "newName": "MBA Master of Business Administration with a Specialisation in Sustainable Energy Futures",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechanicalaerospaceengineering",
+      "url": "https://www.strath.ac.uk/courses/research/mechanicalaerospaceengineering/",
+      "oldName": "Mechanicalaerospaceengineering",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Mechanical & aerospace engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechanicalengineeringbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mechanicalengineeringbahrain/",
+      "oldName": "Mechanicalengineeringbahrain",
+      "status": 200,
+      "newName": "BEng Hons Mechanical Engineering (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechanicalengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mechanicalengineeringbeng/",
+      "oldName": "Mechanicalengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechanicalengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mechanicalengineeringmeng/",
+      "oldName": "Mechanicalengineeringmeng",
+      "status": 200,
+      "newName": "MEng Mechanical Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechanicalengineeringwithinternationalstudybeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mechanicalengineeringwithinternationalstudybeng/",
+      "oldName": "Mechanicalengineeringwithinternationalstudybeng",
+      "status": 200,
+      "newName": "BEng Hons Mechanical Engineering with International Study",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechanicalengineeringwithinternationalstudymeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/mechanicalengineeringwithinternationalstudymeng/",
+      "oldName": "Mechanicalengineeringwithinternationalstudymeng",
+      "status": 200,
+      "newName": "MEng Mechanical Engineering with International Study",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mechatronicsautomation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mechatronicsautomation/",
+      "oldName": "Mechatronicsautomation",
+      "status": 200,
+      "newName": "MSc Mechatronics & Automation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mediacommunication",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mediacommunication/",
+      "oldName": "Mediacommunication",
+      "status": 200,
+      "newName": "MSc Media & Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mediacrimeviolence",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mediacrimeviolence/",
+      "oldName": "Mediacrimeviolence",
+      "status": 200,
+      "newName": "MSc Media, Crime & Violence",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-mediationconflictresolution",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mediationconflictresolution/",
+      "oldName": "Mediationconflictresolution",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-mentalhealthsocialwork",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/mentalhealthsocialwork/",
+      "oldName": "Mentalhealthsocialwork",
+      "status": 200,
+      "newName": "Postgraduate Certificate Mental Health Social Work",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-microbiology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/microbiology/",
+      "oldName": "Microbiology",
+      "status": 200,
+      "newName": "MSci Microbiology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-microbiologypharmacology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/microbiologypharmacology/",
+      "oldName": "Microbiologypharmacology",
+      "status": 200,
+      "newName": "BSc Hons Microbiology & Pharmacology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-modernlanguages",
+      "url": "https://www.strath.ac.uk/courses/research/modernlanguages/",
+      "oldName": "Modernlanguages",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Modern languages",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-molecularmicrobiology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/molecularmicrobiology/",
+      "oldName": "Molecularmicrobiology",
+      "status": 200,
+      "newName": "MSc Molecular Microbiology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-msccybersecurity",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/msccybersecurity/",
+      "oldName": "Msccybersecurity",
+      "status": 200,
+      "newName": "MSc Cyber Security",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-nanoscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/nanoscience/",
+      "oldName": "Nanoscience",
+      "status": 200,
+      "newName": "MSc/PgDip Nanoscience",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitecturemarineengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/navalarchitecturemarineengineeringbeng/",
+      "oldName": "Navalarchitecturemarineengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Naval Architecture & Marine Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitecturemarineengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/navalarchitecturemarineengineeringmeng/",
+      "oldName": "Navalarchitecturemarineengineeringmeng",
+      "status": 200,
+      "newName": "MEng Naval Architecture & Marine Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitectureoceanmarineengineering",
+      "url": "https://www.strath.ac.uk/courses/research/navalarchitectureoceanmarineengineering/",
+      "oldName": "Navalarchitectureoceanmarineengineering",
+      "status": 200,
+      "newName": "PhD, MPhil, EngD, MRes Naval architecture, ocean & marine engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitecturewithhighperformancemarinevehiclesbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/navalarchitecturewithhighperformancemarinevehiclesbeng/",
+      "oldName": "Navalarchitecturewithhighperformancemarinevehiclesbeng",
+      "status": 200,
+      "newName": "BEng Hons Naval Architecture with High Performance Marine Vehicles",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitecturewithhighperformancemarinevehiclesmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/navalarchitecturewithhighperformancemarinevehiclesmeng/",
+      "oldName": "Navalarchitecturewithhighperformancemarinevehiclesmeng",
+      "status": 200,
+      "newName": "MEng Naval Architecture with High Performance Marine Vehicles",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitecturewithoceanengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/navalarchitecturewithoceanengineeringbeng/",
+      "oldName": "Navalarchitecturewithoceanengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Naval Architecture with Ocean Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-navalarchitecturewithoceanengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/navalarchitecturewithoceanengineeringmeng/",
+      "oldName": "Navalarchitecturewithoceanengineeringmeng",
+      "status": 200,
+      "newName": "MEng Naval Architecture with Ocean Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-neurosciencementalhealth",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/neurosciencementalhealth/",
+      "oldName": "Neurosciencementalhealth",
+      "status": 200,
+      "newName": "MSc Neuroscience & Mental Health",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-occupationalpsychology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/occupationalpsychology/",
+      "oldName": "Occupationalpsychology",
+      "status": 200,
+      "newName": "MSc Occupational Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-offshorewindenergy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/offshorewindenergy/",
+      "oldName": "Offshorewindenergy",
+      "status": 200,
+      "newName": "MSc Offshore Wind Energy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-pharmaceuticalanalysis",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/pharmaceuticalanalysis/",
+      "oldName": "Pharmaceuticalanalysis",
+      "status": 200,
+      "newName": "MSc Pharmaceutical Analysis",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-pharmaceuticalqualitygoodmanufacturingpractice",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/pharmaceuticalqualitygoodmanufacturingpractice/",
+      "oldName": "Pharmaceuticalqualitygoodmanufacturingpractice",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Pharmaceutical Quality & Good Manufacturing Practice",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-pharmacistindependentprescribing",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/pharmacistindependentprescribing/",
+      "oldName": "Pharmacistindependentprescribing",
+      "status": 200,
+      "newName": "Practice Certificate Independent Prescribing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-pharmacology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/pharmacology/",
+      "oldName": "Pharmacology",
+      "status": 200,
+      "newName": "MSci Pharmacology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-pharmacy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/pharmacy/",
+      "oldName": "Pharmacy",
+      "status": 200,
+      "newName": "MPharm Pharmacy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-pharmacybiomedicalsciences",
+      "url": "https://www.strath.ac.uk/courses/research/pharmacybiomedicalsciences/",
+      "oldName": "Pharmacybiomedicalsciences",
+      "status": 200,
+      "newName": "PhD, MPhil Pharmacy & biomedical sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-photonics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/photonics/",
+      "oldName": "Photonics",
+      "status": 200,
+      "newName": "MSc/PgDip Photonics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicalactivityandhealth",
+      "url": "https://www.strath.ac.uk/courses/research/physicalactivityandhealth/",
+      "oldName": "Physicalactivityandhealth",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Physical activity and health",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physics/",
+      "oldName": "Physics",
+      "status": 200,
+      "newName": "BSc Hons Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physics",
+      "url": "https://www.strath.ac.uk/courses/research/physics/",
+      "oldName": "Physics",
+      "status": 200,
+      "newName": "PhD, MPhil Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicsdonghuauniversity",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physicsdonghuauniversity/",
+      "oldName": "Physicsdonghuauniversity",
+      "status": 200,
+      "newName": "BSc Hons Physics (Donghua University)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicsmphys",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physicsmphys/",
+      "oldName": "Physicsmphys",
+      "status": 200,
+      "newName": "MPhys Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicsmphyswithadvancedresearch",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physicsmphyswithadvancedresearch/",
+      "oldName": "Physicsmphyswithadvancedresearch",
+      "status": 200,
+      "newName": "MPhys Physics with Advanced Research",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicsmres",
+      "url": "https://www.strath.ac.uk/courses/research/physicsmres/",
+      "oldName": "Physicsmres",
+      "status": 200,
+      "newName": "MRes Physics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicssnu",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physicssnu/",
+      "oldName": "Physicssnu",
+      "status": 200,
+      "newName": "BSc Hons Physics (Shanghai Normal University)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicswithteaching",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physicswithteaching/",
+      "oldName": "Physicswithteaching",
+      "status": 200,
+      "newName": "BSc Hons Physics with Teaching",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-physicswithteachinginternational",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/physicswithteachinginternational/",
+      "oldName": "Physicswithteachinginternational",
+      "status": 200,
+      "newName": "BSc Hons Physics with Teaching (International)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicalcommunicationmedia",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/politicalcommunicationmedia/",
+      "oldName": "Politicalcommunicationmedia",
+      "status": 200,
+      "newName": "MSc Political Communication & Media",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicaleconomy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/politicaleconomy/",
+      "oldName": "Politicaleconomy",
+      "status": 200,
+      "newName": "MSc Political Economy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicalresearch",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/politicalresearch/",
+      "oldName": "Politicalresearch",
+      "status": 200,
+      "newName": "MSc Political Research",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicalsciencemres",
+      "url": "https://www.strath.ac.uk/courses/research/politicalsciencemres/",
+      "oldName": "Politicalsciencemres",
+      "status": 200,
+      "newName": "MRes Political Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/politics/",
+      "oldName": "Politics",
+      "status": 200,
+      "newName": "MSc Politics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politics",
+      "url": "https://www.strath.ac.uk/courses/research/politics/",
+      "oldName": "Politics",
+      "status": 200,
+      "newName": "PhD, MPhil Politics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicsinternationalrelations",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/politicsinternationalrelations/",
+      "oldName": "Politicsinternationalrelations",
+      "status": 200,
+      "newName": "BA Hons Politics & International Relations",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicsinternationalrelationseconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/politicsinternationalrelationseconomics/",
+      "oldName": "Politicsinternationalrelationseconomics",
+      "status": 200,
+      "newName": "BA Hons Politics and International Relations & Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicsinternationalrelationshumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/politicsinternationalrelationshumanresourcemanagement/",
+      "oldName": "Politicsinternationalrelationshumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-politicsinternationalrelationspsychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/politicsinternationalrelationspsychology/",
+      "oldName": "Politicsinternationalrelationspsychology",
+      "status": 200,
+      "newName": "BA Hons Politics and International Relations & Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicsinternationalrelationssocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/politicsinternationalrelationssocialpolicy/",
+      "oldName": "Politicsinternationalrelationssocialpolicy",
+      "status": 200,
+      "newName": "BA Hons Politics and International Relations & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-politicsinternationalrelationsspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/politicsinternationalrelationsspanish/",
+      "oldName": "Politicsinternationalrelationsspanish",
+      "status": 200,
+      "newName": "BA Hons Politics and International Relations & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-practiceoftelecomsregulationgovernance",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/practiceoftelecomsregulationgovernance/",
+      "oldName": "Practiceoftelecomsregulationgovernance",
+      "status": 200,
+      "newName": "Practice of Telecoms Regulation & Governance",
+      "source": "h1:title"
+    },
+    {
+      "slug": "strath-primaryeducation",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/primaryeducation/",
+      "oldName": "Primaryeducation",
+      "status": 200,
+      "newName": "BA Hons Primary Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-primaryeducation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/primaryeducation/",
+      "oldName": "Primaryeducation",
+      "status": 200,
+      "newName": "PGDE Primary Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-processtechnologymanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/processtechnologymanagement/",
+      "oldName": "Processtechnologymanagement",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Process Technology & Management (Distance Learning)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-productdesign",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/productdesign/",
+      "oldName": "Productdesign",
+      "status": 200,
+      "newName": "MSc Product Design",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-productdesignengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/productdesignengineeringbeng/",
+      "oldName": "Productdesignengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Product Design Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-productdesignengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/productdesignengineeringmeng/",
+      "oldName": "Productdesignengineeringmeng",
+      "status": 200,
+      "newName": "MEng Product Design Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-productdesigninnovationbsc",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/productdesigninnovationbsc/",
+      "oldName": "Productdesigninnovationbsc",
+      "status": 200,
+      "newName": "BSc Hons Product Design & Innovation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-productdesigninnovationmsci",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/productdesigninnovationmsci/",
+      "oldName": "Productdesigninnovationmsci",
+      "status": 200,
+      "newName": "MSci Product Design & Innovation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-professionallegalpractice",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/professionallegalpractice/",
+      "oldName": "Professionallegalpractice",
+      "status": 200,
+      "newName": "Diploma Professional Legal Practice",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-professionallegalpracticeonlinelearning",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/professionallegalpracticeonlinelearning/",
+      "oldName": "Professionallegalpracticeonlinelearning",
+      "status": 200,
+      "newName": "LLM Professional Legal Practice",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-professionalpractice",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/professionalpractice/",
+      "oldName": "Professionalpractice",
+      "status": 200,
+      "newName": "MEd Professional Practice",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-projectmanagementinnovation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/projectmanagementinnovation/",
+      "oldName": "Projectmanagementinnovation",
+      "status": 200,
+      "newName": "MSc Project Management & Innovation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-prostheticsorthotics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/prostheticsorthotics/",
+      "oldName": "Prostheticsorthotics",
+      "status": 200,
+      "newName": "BSc Hons Prosthetics & Orthotics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-prostheticsorthotics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/prostheticsorthotics/",
+      "oldName": "Prostheticsorthotics",
+      "status": 200,
+      "newName": "MSc Prosthetics & Orthotics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-prostheticsorthoticsrehabilitationstudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/prostheticsorthoticsrehabilitationstudies/",
+      "oldName": "Prostheticsorthoticsrehabilitationstudies",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Prosthetics & Orthotics Rehabilitation Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychology/",
+      "oldName": "Psychology",
+      "status": 200,
+      "newName": "BA Hons Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychology",
+      "url": "https://www.strath.ac.uk/courses/research/psychology/",
+      "oldName": "Psychology",
+      "status": 200,
+      "newName": "MPhil, PhD, DEdPsy Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychologycounselling",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologycounselling/",
+      "oldName": "Psychologycounselling",
+      "status": 200,
+      "newName": "BSc Hons Psychology & Counselling",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychologyeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologyeconomics/",
+      "oldName": "Psychologyeconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-psychologyhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologyhumanresourcemanagement/",
+      "oldName": "Psychologyhumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Hons Psychology & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychologyimu",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologyimu/",
+      "oldName": "Psychologyimu",
+      "status": 200,
+      "newName": "BSc Hons Psychology / Psychology & Counselling (IMU)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychologymathematics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologymathematics/",
+      "oldName": "Psychologymathematics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-psychologysocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologysocialpolicy/",
+      "oldName": "Psychologysocialpolicy",
+      "status": 200,
+      "newName": "BA Hons Psychology & Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychologyspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/psychologyspanish/",
+      "oldName": "Psychologyspanish",
+      "status": 200,
+      "newName": "BA Joint Hons Psychology & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-psychologywithaspecialisation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/psychologywithaspecialisation/",
+      "oldName": "Psychologywithaspecialisation",
+      "status": 200,
+      "newName": "MSc Psychology with a specialisation in Business or Health",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-publichealthhealthpolicy",
+      "url": "https://www.strath.ac.uk/courses/research/publichealthhealthpolicy/",
+      "oldName": "Publichealthhealthpolicy",
+      "status": 200,
+      "newName": "PhD Public Health & Health Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-publichealthsocialinnovation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/publichealthsocialinnovation/",
+      "oldName": "Publichealthsocialinnovation",
+      "status": 200,
+      "newName": "MSc Public Health & Social Innovation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-publicpolicy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/publicpolicy/",
+      "oldName": "Publicpolicy",
+      "status": 200,
+      "newName": "MSc Public Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-quantitativefinance",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/quantitativefinance/",
+      "oldName": "Quantitativefinance",
+      "status": 200,
+      "newName": "MSc Quantitative Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-quantumtechnologies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/quantumtechnologies/",
+      "oldName": "Quantumtechnologies",
+      "status": 200,
+      "newName": "MSc/PgDip Quantum Technologies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-renewableenergydecarbonisationtechnologies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/renewableenergydecarbonisationtechnologies/",
+      "oldName": "Renewableenergydecarbonisationtechnologies",
+      "status": 200,
+      "newName": "MSc Renewable Energy & Decarbonisation Technologies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-researchmethodologyinbusinessmanagement",
+      "url": "https://www.strath.ac.uk/courses/research/researchmethodologyinbusinessmanagement/",
+      "oldName": "Researchmethodologyinbusinessmanagement",
+      "status": 200,
+      "newName": "MRes Research Methodology in Business & Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-researchmethodsinpsychology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/researchmethodsinpsychology/",
+      "oldName": "Researchmethodsinpsychology",
+      "status": 200,
+      "newName": "MSc Research Methods in Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-safetyriskmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/safetyriskmanagement/",
+      "oldName": "Safetyriskmanagement",
+      "status": 200,
+      "newName": "MSc/PgDip/PgCert Safety & Risk Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationartdesign",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationartdesign/",
+      "oldName": "Secondaryeducationartdesign",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Art & Design",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationbiologywithscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationbiologywithscience/",
+      "oldName": "Secondaryeducationbiologywithscience",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Biology with Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationbusinesseducation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationbusinesseducation/",
+      "oldName": "Secondaryeducationbusinesseducation",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Business Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationchemistrywithscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationchemistrywithscience/",
+      "oldName": "Secondaryeducationchemistrywithscience",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Chemistry with Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationcomputingscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationcomputingscience/",
+      "oldName": "Secondaryeducationcomputingscience",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Computing Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationenglish",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationenglish/",
+      "oldName": "Secondaryeducationenglish",
+      "status": 200,
+      "newName": "PGDE Secondary Education: English",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationgaelic",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationgaelic/",
+      "oldName": "Secondaryeducationgaelic",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Gaelic",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationgeography",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationgeography/",
+      "oldName": "Secondaryeducationgeography",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Geography",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationhistory",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationhistory/",
+      "oldName": "Secondaryeducationhistory",
+      "status": 200,
+      "newName": "PGDE Secondary Education: History",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationhomeeconomics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationhomeeconomics/",
+      "oldName": "Secondaryeducationhomeeconomics",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Home Economics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationlanguages",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationlanguages/",
+      "oldName": "Secondaryeducationlanguages",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Languages",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationmathematics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationmathematics/",
+      "oldName": "Secondaryeducationmathematics",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Mathematics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationmodernstudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationmodernstudies/",
+      "oldName": "Secondaryeducationmodernstudies",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Modern Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationmsc",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationmsc/",
+      "oldName": "Secondaryeducationmsc",
+      "status": 200,
+      "newName": "MSc Secondary Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationphysicaleducation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationphysicaleducation/",
+      "oldName": "Secondaryeducationphysicaleducation",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Physical Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationphysicswithscience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationphysicswithscience/",
+      "oldName": "Secondaryeducationphysicswithscience",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Physics with Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationpsychology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationpsychology/",
+      "oldName": "Secondaryeducationpsychology",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Psychology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationreligiousmoraleducation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationreligiousmoraleducation/",
+      "oldName": "Secondaryeducationreligiousmoraleducation",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Religious Moral Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-secondaryeducationtechnologicaleducation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/secondaryeducationtechnologicaleducation/",
+      "oldName": "Secondaryeducationtechnologicaleducation",
+      "status": 200,
+      "newName": "PGDE Secondary Education: Technological Education",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-shipoffshorestructures",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/shipoffshorestructures/",
+      "oldName": "Shipoffshorestructures",
+      "status": 200,
+      "newName": "MSc Ship & Offshore Structures",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-shipoffshoretechnology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/shipoffshoretechnology/",
+      "oldName": "Shipoffshoretechnology",
+      "status": 200,
+      "newName": "MSc Ship & Offshore Technology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-smartgridspartnershipuniversitycomillasmadridiberdrola",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/smartgridspartnershipuniversitycomillasmadridiberdrola/",
+      "oldName": "Smartgridspartnershipuniversitycomillasmadridiberdrola",
+      "status": 200,
+      "newName": "MSc Smart Grids with the Comillas Pontifical University, Madrid",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-socialpolicy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/socialpolicy/",
+      "oldName": "Socialpolicy",
+      "status": 200,
+      "newName": "MSc Social Policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-socialpolicyeconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/socialpolicyeconomics/",
+      "oldName": "Socialpolicyeconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-socialpolicyhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/socialpolicyhumanresourcemanagement/",
+      "oldName": "Socialpolicyhumanresourcemanagement",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-socialpolicyresearchmethods",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/socialpolicyresearchmethods/",
+      "oldName": "Socialpolicyresearchmethods",
+      "status": 200,
+      "newName": "MSc Social Policy (Research Methods)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-socialpolicyspanish",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/socialpolicyspanish/",
+      "oldName": "Socialpolicyspanish",
+      "status": 200,
+      "newName": "BA Hons Social Policy & Spanish",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-socialwork",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/socialwork/",
+      "oldName": "Socialwork",
+      "status": 200,
+      "newName": "BA Hons Social Work",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-socialwork",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/socialwork/",
+      "oldName": "Socialwork",
+      "status": 200,
+      "newName": "MSW Social Work",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-socialworksocialpolicy",
+      "url": "https://www.strath.ac.uk/courses/research/socialworksocialpolicy/",
+      "oldName": "Socialworksocialpolicy",
+      "status": 200,
+      "newName": "PhD, MPhil Social work & social policy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-softwaredevelopment",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/softwaredevelopment/",
+      "oldName": "Softwaredevelopment",
+      "status": 200,
+      "newName": "MSc Software Development",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-softwareengineering",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/softwareengineering/",
+      "oldName": "Softwareengineering",
+      "status": 200,
+      "newName": "BSc Hons Software Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-softwareengineeringbahrain",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/softwareengineeringbahrain/",
+      "oldName": "Softwareengineeringbahrain",
+      "status": 200,
+      "newName": "BSc Hons Software Engineering (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-spanisheconomics",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/spanisheconomics/",
+      "oldName": "Spanisheconomics",
+      "status": 404,
+      "error": "HTTP 404"
+    },
+    {
+      "slug": "strath-spanishhospitalitytourismmanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/spanishhospitalitytourismmanagement/",
+      "oldName": "Spanishhospitalitytourismmanagement",
+      "status": 200,
+      "newName": "BA Hons Spanish & Hospitality and Tourism Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-spanishhumanresourcemanagement",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/spanishhumanresourcemanagement/",
+      "oldName": "Spanishhumanresourcemanagement",
+      "status": 200,
+      "newName": "BA Hons Spanish & Human Resource Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-spanishmarketing",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/spanishmarketing/",
+      "oldName": "Spanishmarketing",
+      "status": 200,
+      "newName": "BA Joint Hons Spanish & Marketing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-spark",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/spark/",
+      "oldName": "Spark",
+      "status": 200,
+      "newName": "SPARK (Non-graduating)",
+      "source": "h1:title"
+    },
+    {
+      "slug": "strath-speechlanguagepathology",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/speechlanguagepathology/",
+      "oldName": "Speechlanguagepathology",
+      "status": 200,
+      "newName": "BSc Hons Speech & Language Pathology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-speechlanguagesciences",
+      "url": "https://www.strath.ac.uk/courses/research/speechlanguagesciences/",
+      "oldName": "Speechlanguagesciences",
+      "status": 200,
+      "newName": "MRes Speech & Language Sciences",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-speechlanguagetherapy",
+      "url": "https://www.strath.ac.uk/courses/research/speechlanguagetherapy/",
+      "oldName": "Speechlanguagetherapy",
+      "status": 200,
+      "newName": "PhD Speech & language therapy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sportdataanalytics",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sportdataanalytics/",
+      "oldName": "Sportdataanalytics",
+      "status": 200,
+      "newName": "MSc Sport Data Analytics",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sportphysicalactivity",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/sportphysicalactivity/",
+      "oldName": "Sportphysicalactivity",
+      "status": 200,
+      "newName": "BSc Hons Sport & Physical Activity",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sportsdesignengineeringbeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/sportsdesignengineeringbeng/",
+      "oldName": "Sportsdesignengineeringbeng",
+      "status": 200,
+      "newName": "BEng Hons Sports Design Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sportsdesignengineeringmeng",
+      "url": "https://www.strath.ac.uk/courses/undergraduate/sportsdesignengineeringmeng/",
+      "oldName": "Sportsdesignengineeringmeng",
+      "status": 200,
+      "newName": "MEng Sports Design Engineering",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-statisticsdatascience",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/statisticsdatascience/",
+      "oldName": "Statisticsdatascience",
+      "status": 200,
+      "newName": "MSc Statistics & Data Science",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-strategicfintechbahrain",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/strategicfintechbahrain/",
+      "oldName": "Strategicfintechbahrain",
+      "status": 200,
+      "newName": "MSc Strategic FinTech (Bahrain)",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-supplychainlogisticsmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/supplychainlogisticsmanagement/",
+      "oldName": "Supplychainlogisticsmanagement",
+      "status": 200,
+      "newName": "MSc Supply Chain & Logistics Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-supplychainprocurementmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/supplychainprocurementmanagement/",
+      "oldName": "Supplychainprocurementmanagement",
+      "status": 200,
+      "newName": "MSc Supply Chain & Procurement Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-supplychainsustainabilitymanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/supplychainsustainabilitymanagement/",
+      "oldName": "Supplychainsustainabilitymanagement",
+      "status": 200,
+      "newName": "MSc Supply Chain & Sustainability Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sustainabilityenvironmentalstudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sustainabilityenvironmentalstudies/",
+      "oldName": "Sustainabilityenvironmentalstudies",
+      "status": 200,
+      "newName": "MSc Sustainability & Environmental Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sustainableengineeringchemicalprocessing",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sustainableengineeringchemicalprocessing/",
+      "oldName": "Sustainableengineeringchemicalprocessing",
+      "status": 200,
+      "newName": "MSc Sustainable Engineering: Chemical Processing",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sustainableengineeringmarinetechnology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sustainableengineeringmarinetechnology/",
+      "oldName": "Sustainableengineeringmarinetechnology",
+      "status": 200,
+      "newName": "MSc Sustainable Engineering: Marine Technology",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sustainableengineeringoffshorerenewableenergy",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sustainableengineeringoffshorerenewableenergy/",
+      "oldName": "Sustainableengineeringoffshorerenewableenergy",
+      "status": 200,
+      "newName": "MSc Sustainable Engineering: Offshore Renewable Energy",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sustainableengineeringrenewableenergysystemstheenvironment",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sustainableengineeringrenewableenergysystemstheenvironment/",
+      "oldName": "Sustainableengineeringrenewableenergysystemstheenvironment",
+      "status": 200,
+      "newName": "MSc Sustainable Engineering: Renewable Energy Systems & the Environment",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-sustainablefinance",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/sustainablefinance/",
+      "oldName": "Sustainablefinance",
+      "status": 200,
+      "newName": "MSc Sustainable Finance",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-systemsengineeringmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/systemsengineeringmanagement/",
+      "oldName": "Systemsengineeringmanagement",
+      "status": 200,
+      "newName": "MSc Systems Engineering Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-technicalshipmanagement",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/technicalshipmanagement/",
+      "oldName": "Technicalshipmanagement",
+      "status": 200,
+      "newName": "MSc Technical Ship Management",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-tesolinterculturalcommunication",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/tesolinterculturalcommunication/",
+      "oldName": "Tesolinterculturalcommunication",
+      "status": 200,
+      "newName": "MSc TESOL & Intercultural Communication",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-translationstudies",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/translationstudies/",
+      "oldName": "Translationstudies",
+      "status": 200,
+      "newName": "MSc/PgDip Translation Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-translationstudies",
+      "url": "https://www.strath.ac.uk/courses/research/translationstudies/",
+      "oldName": "Translationstudies",
+      "status": 200,
+      "newName": "PhD Translation Studies",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-urbandesign",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/urbandesign/",
+      "oldName": "Urbandesign",
+      "status": 200,
+      "newName": "MSc Urban Design",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-visionimpairmentrehabilitation",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/visionimpairmentrehabilitation/",
+      "oldName": "Visionimpairmentrehabilitation",
+      "status": 200,
+      "newName": "PGCert (Assistant) / PGDip (Specialist) Vision Impairment Rehabilitation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-windenergysystems",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/windenergysystems/",
+      "oldName": "Windenergysystems",
+      "status": 200,
+      "newName": "MSc Wind Energy Systems",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-workemploymentorganisation",
+      "url": "https://www.strath.ac.uk/courses/research/workemploymentorganisation/",
+      "oldName": "Workemploymentorganisation",
+      "status": 200,
+      "newName": "PhD, MPhil, MRes Work, employment & organisation",
+      "source": "h1:award+title"
+    },
+    {
+      "slug": "strath-workorganisationalpsychology",
+      "url": "https://www.strath.ac.uk/courses/postgraduatetaught/workorganisationalpsychology/",
+      "oldName": "Workorganisationalpsychology",
+      "status": 200,
+      "newName": "MSc Work & Organisational Psychology",
+      "source": "h1:award+title"
+    }
+  ],
+  "retriedAt": "2026-09-10T00:36:12.628Z"
+}

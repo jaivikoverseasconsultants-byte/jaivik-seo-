@@ -1,0 +1,233 @@
+{
+  "generated": "2026-09-10T00:34:04.148Z",
+  "sampled": 25,
+  "checked": 25,
+  "matched": 25,
+  "rows": [
+    {
+      "slug": "auckland-programme-name-bachelor-of-architectural-studies-faculty-engineering-and-design-type-bachelors-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-architectural-studies-bas.html",
+      "parsedName": "Bachelor of Architectural Studies",
+      "status": 200,
+      "pageH1": "Bachelor of Architectural Studies BAS",
+      "pageTitle": "Bachelor of Architectural Studies – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-bachelor-of-engineering-honours-faculty-engineering-and-design-type-bachelors-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-engineering-honours-behons.html",
+      "parsedName": "Bachelor of Engineering (Honours)",
+      "status": 200,
+      "pageH1": "Bachelor of Engineering (Honours) BE(Hons)",
+      "pageTitle": "Bachelor of Engineering (Honours) – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-bachelor-of-property-faculty-business-school-type-bachelors-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-property-bprop.html",
+      "parsedName": "Bachelor of Property",
+      "status": 200,
+      "pageH1": "Bachelor of Property BProp",
+      "pageTitle": "Bachelor of Property – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-doctor-of-philosophy-faculty-the-university-of-auckland-type-doctoral-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/doctor-of-philosophy-phd.html",
+      "parsedName": "Doctor of Philosophy",
+      "status": 200,
+      "pageH1": "Doctor of Philosophy PhD",
+      "pageTitle": "Doctor of Philosophy – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-artificial-intelligence-faculty-science-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-artificial-intelligence--mai-.html",
+      "parsedName": "Master of Artificial Intelligence",
+      "status": 200,
+      "pageH1": "Master of Artificial Intelligence MAI",
+      "pageTitle": "master",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-clinical-exercise-physiology-faculty-science-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-clinical-exercise-physiology.html",
+      "parsedName": "Master of Clinical Exercise Physiology",
+      "status": 200,
+      "pageH1": "Master of Clinical Exercise Physiology MClinExPhys",
+      "pageTitle": "Master of Clinical Exercise Physiology – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-earthquake-engineering-faculty-engineering-and-design-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-earthquake-engineering-meqeng.html",
+      "parsedName": "Master of Earthquake Engineering",
+      "status": 200,
+      "pageH1": "Master of Earthquake Engineering MEqEng",
+      "pageTitle": "Master of Earthquake Engineering – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-food-science-faculty-science-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-food-science-mfoodsci.html",
+      "parsedName": "Master of Food Science",
+      "status": 200,
+      "pageH1": "Master of Food Science MFoodSci",
+      "pageTitle": "Master of Food Science – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-legal-studies-faculty-auckland-law-school-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-legal-studies-mls.html",
+      "parsedName": "Master of Legal Studies",
+      "status": 200,
+      "pageH1": "Master of Legal Studies MLS",
+      "pageTitle": "Master of Legal Studies – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-paediatrics-faculty-medical-and-health-sciences-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-paediatrics-.html",
+      "parsedName": "Master of Paediatrics",
+      "status": 200,
+      "pageH1": "Master of Paediatrics MPaed",
+      "pageTitle": "Master of Paediatrics – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-master-of-taxation-studies-faculty-auckland-law-school-type-masters-degree",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/master-of-taxation-studies-mtaxs.html",
+      "parsedName": "Master of Taxation Studies",
+      "status": 200,
+      "pageH1": "Master of Taxation Studies MTaxS",
+      "pageTitle": "Master of Taxation Studies – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-programme-name-postgraduate-diploma-in-forensic-science-faculty-science-type-postgraduate-diploma-or-certificate",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/postgraduate-diploma-in-forensic-science-pgdipforensic.html",
+      "parsedName": "Postgraduate Diploma in Forensic Science",
+      "status": 200,
+      "pageH1": "Postgraduate Diploma in Forensic Science PGDipForensic",
+      "pageTitle": "Postgraduate Diploma in Forensic Science – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-applied-linguistics-faculty-arts-and-education-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/applied-linguistics.html",
+      "parsedName": "Applied Linguistics",
+      "status": 200,
+      "pageH1": "Applied Linguistics",
+      "pageTitle": "Applied Linguistics – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-biotechnology-faculty-science-type-undergraduate-subject-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/biotechnology.html",
+      "parsedName": "Biotechnology",
+      "status": 200,
+      "pageH1": "Biotechnology",
+      "pageTitle": "Biotechnology – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-clinical-psychology-faculty-science-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/clinical-psychology.html",
+      "parsedName": "Clinical Psychology",
+      "status": 200,
+      "pageH1": "Clinical Psychology",
+      "pageTitle": "Clinical Psychology – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-creative-writing-faculty-arts-and-education-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/creative-writing.html",
+      "parsedName": "Creative Writing",
+      "status": 200,
+      "pageH1": "Creative Writing",
+      "pageTitle": "Creative Writing – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-education-faculty-arts-and-education-type-undergraduate-subject-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/education.html",
+      "parsedName": "Education",
+      "status": 200,
+      "pageH1": "Education",
+      "pageTitle": "Education – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-finance-faculty-business-school-type-undergraduate-subject-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/finance.html",
+      "parsedName": "Finance",
+      "status": 200,
+      "pageH1": "Finance",
+      "pageTitle": "Finance – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-german-faculty-arts-and-education-type-undergraduate-subject-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/german.html",
+      "parsedName": "German",
+      "status": 200,
+      "pageH1": "German",
+      "pageTitle": "German – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-health-systems-and-data-analytics-faculty-medical-and-health-sciences-type-undergraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/health-systems-and-data-analytics.html",
+      "parsedName": "Health Systems and Data Analytics",
+      "status": 200,
+      "pageH1": "Health Systems and Data Analytics",
+      "pageTitle": "Health Systems and Data Analytics – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-international-law-faculty-auckland-law-school-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/international-law.html",
+      "parsedName": "International Law",
+      "status": 200,
+      "pageH1": "International Law",
+      "pageTitle": "International Law – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-mammography-faculty-medical-and-health-sciences-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/mammography.html",
+      "parsedName": "Mammography",
+      "status": 200,
+      "pageH1": "Mammography",
+      "pageTitle": "Mammography – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-medical-physics-and-imaging-technology-faculty-science-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/medical-physics-imaging-technology.html",
+      "parsedName": "Medical Physics and Imaging Technology",
+      "status": 200,
+      "pageH1": "Medical Physics and Imaging Technology",
+      "pageTitle": "Medical Physics and Imaging Technology – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-nutrition-and-dietetics-faculty-medical-and-health-sciences-type-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/nutrition-dietetics.html",
+      "parsedName": "Nutrition and Dietetics",
+      "status": 200,
+      "pageH1": "Nutrition and Dietetics",
+      "pageTitle": "Nutrition and Dietetics – University of Auckland",
+      "match": true
+    },
+    {
+      "slug": "auckland-subject-name-physics-faculty-arts-and-education-science-type-undergraduate-subject-postgraduate-subject",
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/physics.html",
+      "parsedName": "Physics",
+      "status": 200,
+      "pageH1": "Physics",
+      "pageTitle": "Physics – University of Auckland",
+      "match": true
+    }
+  ]
+}
