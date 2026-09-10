@@ -123,7 +123,7 @@ export function getBudgetBandsForCountry(registryCountry: string): number[] {
 
 export function buildCostPillarMetadata(config: CostPillarConfig, tuition: TuitionStats | null): Metadata {
   return buildMetadata({
-    title: `Cost of Studying in ${config.displayName} for Indian Students — Tuition + Living Costs in INR 2026`,
+    title: `Cost of Studying in ${config.displayName} — Tuition + Living in INR 2026`,
     description: tuition
       ? `Verified tuition fees (₹${tuition.cheapestLakh}L–₹${tuition.maxLakh}L/year, ${tuition.basisNote}) combined with real city-by-city living costs for ${config.displayName}. Total budget ranges, cheapest options, and ways to reduce cost for Indian students.`
       : `Tuition and living cost guide for studying in ${config.displayName} as an Indian student.`,

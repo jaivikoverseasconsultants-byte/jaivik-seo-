@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Groningen Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'University of Groningen Courses — Fees & IELTS 2026',
   description: '18 programs at University of Groningen for international students. €16,400/yr. IELTS 6+. September & February intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/university-of-groningen/courses',
   keywords: ['RUG courses', 'University of Groningen international', 'study in Netherlands', 'Netherlands university'],

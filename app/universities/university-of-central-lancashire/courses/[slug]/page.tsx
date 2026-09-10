@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getUclanCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Central Lancashire — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Central Lancashire`,
     description: `${course.name} at University of Central Lancashire, Preston${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-central-lancashire/courses/${slug}`,
     keywords: [course.name, 'UCLan', 'University of Central Lancashire', 'study in UK', course.level],

@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Imperial College London International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Imperial College London Courses — Fees & IELTS 2026',
   description: `Imperial College London – ${imperialCourses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/imperial-college-london/courses',
   keywords: ['Imperial courses', 'Imperial College London', 'study in UK'],

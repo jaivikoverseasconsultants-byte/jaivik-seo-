@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getHertfordshireCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Hertfordshire — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Hertfordshire`,
     description: `${course.name} at University of Hertfordshire, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-hertfordshire/courses/${slug}`,
     keywords: [course.name, 'Hertfordshire', 'University of Hertfordshire', 'study in UK', course.level],

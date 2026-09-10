@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getBrunelW2CourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Brunel University London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Brunel University London`,
     description: `${course.name} at Brunel University London, Uxbridge${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/brunel-university-london/courses/${slug}`,
     keywords: [course.name, 'Brunel', 'Brunel University London', 'study in UK', course.level],

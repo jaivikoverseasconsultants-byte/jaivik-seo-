@@ -8,7 +8,7 @@ import { verifiedAvgFee } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Sheffield Hallam University Courses – All Programs, Fees & IELTS 2026',
+  title: 'Sheffield Hallam University Courses — Fees & IELTS 2026',
   description: `Sheffield Hallam University — ${(sheffieldHallamCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/sheffield-hallam-university/courses',
   keywords: ['SHU courses', 'Sheffield Hallam University international', 'SHU fees', 'study in UK', 'UK university'],

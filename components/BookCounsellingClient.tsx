@@ -152,7 +152,7 @@ export default function BookCounsellingClient() {
         <span className="inline-block bg-white/15 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
           📅 Book a Free Counselling Session
         </span>
-        <h1 className="text-2xl sm:text-3xl font-bold text-white mb-2">Talk to Our Expert Counsellor</h1>
+        <p className="text-2xl sm:text-3xl font-bold text-white mb-2">Talk to Our Expert Counsellor</p>
         <p className="text-blue-200 text-sm">Free 30-minute personalised session · No obligation · 1,400+ students guided</p>
       </div>
 

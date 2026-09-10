@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getBcuW2CourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Birmingham City University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Birmingham City University`,
     description: `${course.name} at Birmingham City University, Birmingham${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/birmingham-city-university/courses/${slug}`,
     keywords: [course.name, 'BCU', 'Birmingham City University', 'study in UK', course.level],

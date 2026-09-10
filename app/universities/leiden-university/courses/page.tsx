@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Leiden University Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'Leiden University Courses — Fees & IELTS 2026',
   description: '20 programs at Leiden University for international students. €16,200/yr. IELTS 6.5+. September & February intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/leiden-university/courses',
   keywords: ['Leiden courses', 'Leiden University international', 'study in Netherlands', 'Netherlands university'],

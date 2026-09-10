@@ -9,7 +9,7 @@ import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Wollongong International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Wollongong Courses — Fees & IELTS 2026',
   description: `University of Wollongong — ${(uowCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-wollongong/courses',
   keywords: ['UOW courses', 'University of Wollongong international', 'UOW fees', 'study in Australia Wollongong'],

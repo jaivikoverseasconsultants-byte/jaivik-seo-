@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UCL International Courses — Programs, Fees & IELTS 2026',
+  title: 'UCL Courses — Fees & IELTS 2026',
   description: `UCL (University College London) — ${uclCourses.length} courses for international students. London campus. IELTS 6.5+. September intake. 2-year Graduate Route visa. Free guidance from Jaivik Overseas.`,
   path: '/universities/university-college-london/courses',
   keywords: ['UCL courses', 'UCL international students', 'University College London programs', 'study in London', 'UCL fees India'],

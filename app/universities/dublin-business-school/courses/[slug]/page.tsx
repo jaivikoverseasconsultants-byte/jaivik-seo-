@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getDbsCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Dublin Business School — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Dublin Business School`,
     description: `${course.name} at Dublin Business School, Dublin${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/dublin-business-school/courses/${slug}`,
     keywords: [course.name, 'DBS', 'Dublin Business School', 'study in Ireland', course.level],

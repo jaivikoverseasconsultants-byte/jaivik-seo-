@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getMiddlesexCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Middlesex University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Middlesex University`,
     description: `${course.name} at Middlesex University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/middlesex-university/courses/${slug}`,
     keywords: [course.name, 'Middlesex', 'Middlesex University', 'study in UK', course.level],

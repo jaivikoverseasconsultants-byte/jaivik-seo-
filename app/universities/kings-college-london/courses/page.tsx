@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: "King's College London International Courses – All Programs, Fees & IELTS 2026",
+  title: "King's College London Courses — Fees & IELTS 2026",
   description: `King's College London — ${(kclCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/kings-college-london/courses',
   keywords: ['KCL courses', "King's College London international", 'KCL fees', 'study in UK', 'UK university'],

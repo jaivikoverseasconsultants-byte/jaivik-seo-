@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Portsmouth International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Portsmouth Courses — Fees & IELTS 2026',
   description: `University of Portsmouth — ${(portsmouthCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-portsmouth/courses',
   keywords: ['Portsmouth courses', 'University of Portsmouth international', 'Portsmouth fees', 'study in UK', 'UK university'],

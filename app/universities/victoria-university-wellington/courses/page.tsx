@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Victoria University of Wellington International Courses – Programs, Fees & IELTS 2026',
+  title: 'Victoria University of Wellington Courses — Fees & IELTS 2026',
   description: `Victoria University of Wellington — ${(vuwCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/victoria-university-wellington/courses',
   keywords: ['Victoria courses', 'Victoria University of Wellington international', 'study in New Zealand', 'New Zealand university'],

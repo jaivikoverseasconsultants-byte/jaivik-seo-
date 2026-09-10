@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getUniversityOfHelsinkiCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Helsinki — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Helsinki`,
     description: `${course.name} at University of Helsinki, Finland${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} September intake. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-helsinki/courses/${slug}`,
     keywords: [course.name, 'University of Helsinki', 'study in Finland', course.level],

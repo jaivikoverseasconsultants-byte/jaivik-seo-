@@ -8,7 +8,7 @@ import { COMMON_COUNTRY_HUB_LINKS, SUBJECT_PILLAR_LINKS, CHEAPEST_HUB_LINKS, COS
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata({
-    title: 'Low CGPA? Universities Abroad You Can Still Apply To — Honest Guide 2026',
+    title: 'Low CGPA Universities Abroad — 2026 Guide',
     description: 'How a low CGPA or percentage is generally viewed by admissions teams abroad, what pathway/foundation programmes actually are, and how to find real courses to apply to — an honest guide, no invented per-university cutoffs.',
     path: '/low-cgpa-universities-abroad',
     keywords: ['low cgpa universities abroad', 'study abroad with low percentage', 'low gpa masters abroad', 'pathway program low cgpa'],

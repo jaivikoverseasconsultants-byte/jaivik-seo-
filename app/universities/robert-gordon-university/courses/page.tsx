@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Robert Gordon University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Robert Gordon University Courses — Fees & IELTS 2026',
   description: `Robert Gordon University — ${(rguCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/robert-gordon-university/courses',
   keywords: ['RGU courses', 'Robert Gordon University international', 'RGU fees', 'study in UK', 'UK university'],

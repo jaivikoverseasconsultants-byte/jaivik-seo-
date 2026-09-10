@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Liverpool John Moores University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Liverpool John Moores University Courses — Fees & IELTS 2026',
   description: `Liverpool John Moores University — ${ljmuCourses.length} courses for international students. IELTS 6.0+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/liverpool-john-moores-university/courses',
   keywords: ['LJMU courses', 'Liverpool John Moores University international', 'LJMU fees', 'study in UK', 'UK university Liverpool'],

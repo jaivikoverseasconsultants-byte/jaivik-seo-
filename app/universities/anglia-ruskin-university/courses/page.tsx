@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'ARU International Courses – All Programs, Fees & IELTS 2026',
+  title: 'ARU Courses — Fees & IELTS 2026',
   description: `Anglia Ruskin University — ${(aruCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/anglia-ruskin-university/courses',
   keywords: ['ARU courses', 'Anglia Ruskin University international', 'ARU fees', 'study in UK', 'UK university'],

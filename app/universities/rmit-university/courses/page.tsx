@@ -9,7 +9,7 @@ import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
-  title: 'RMIT University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'RMIT University Courses — Fees & IELTS 2026',
   description: `RMIT University — ${(rmitCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/rmit-university/courses',
   keywords: ['RMIT courses', 'RMIT University international', 'RMIT fees', 'study in Australia', 'Australia university'],

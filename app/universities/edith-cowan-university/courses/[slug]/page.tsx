@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getEcuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Edith Cowan University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Edith Cowan University`,
     description: `${course.name} at Edith Cowan University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/edith-cowan-university/courses/${slug}`,
     keywords: [course.name, 'ECU', 'Edith Cowan University', 'study in Australia', course.level],

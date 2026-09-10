@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Trinity College Dublin International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Trinity College Dublin Courses — Fees & IELTS 2026',
   description: `Trinity College Dublin – ${(tcdCourses as unknown as any[]).length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/trinity-college-dublin/courses',
   keywords: ['Trinity Dublin courses', 'Trinity College Dublin international', 'study in Ireland'],

@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getBocconiUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Bocconi University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Bocconi University`,
     description: `${course.name} at Bocconi University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/bocconi-university/courses/${slug}`,
     keywords: [course.name, 'Bocconi University', 'study in Italy', course.level],

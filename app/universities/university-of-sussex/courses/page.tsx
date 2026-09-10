@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Sussex International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Sussex Courses — Fees & IELTS 2026',
   description: `University of Sussex – ${sussexW2Courses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-sussex/courses',
   keywords: ['Sussex courses', 'University of Sussex', 'study in UK'],

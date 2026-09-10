@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getGlasgowCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Glasgow — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Glasgow`,
     description: `${course.name} at University of Glasgow, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-glasgow/courses/${slug}`,
     keywords: [course.name, 'Glasgow', 'University of Glasgow', 'study in UK', course.level],

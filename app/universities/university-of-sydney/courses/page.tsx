@@ -9,7 +9,7 @@ import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Sydney International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Sydney Courses — Fees & IELTS 2026',
   description: `University of Sydney — ${(usydCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-sydney/courses',
   keywords: ['USyd courses', 'University of Sydney international', 'USyd fees', 'study in Australia', 'Australia university'],

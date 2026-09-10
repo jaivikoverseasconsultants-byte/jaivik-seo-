@@ -14,7 +14,7 @@ const CompareClient = dynamic(() => import('@/components/CompareClient'), {
 });
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Study Abroad Comparison Tool – Compare Countries, Universities & Courses',
+  title: 'Compare Countries, Universities & Courses',
   description: 'Compare study abroad destinations side by side. See visa success rates, tuition fees, PR pathways, post-study work permits and get a personalised recommendation for Indian students.',
   path: '/compare',
   keywords: [

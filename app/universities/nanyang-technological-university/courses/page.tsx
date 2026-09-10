@@ -7,7 +7,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Nanyang Technological University Courses & Programs 2026 – Fees, IELTS & Intakes',
+  title: 'Nanyang Technological University Courses — Fees & IELTS 2026',
   description: '50 programs at Nanyang Technological University for Indian students. Tuition, IELTS requirements, intake dates. Free counselling by Jaivik Overseas.',
   path: '/universities/nanyang-technological-university/courses',
 });

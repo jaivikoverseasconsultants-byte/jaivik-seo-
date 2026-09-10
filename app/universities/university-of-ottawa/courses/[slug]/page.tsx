@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getUottawaCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Ottawa — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Ottawa`,
     description: `${course.name} at University of Ottawa, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-ottawa/courses/${slug}`,
     keywords: [course.name, 'uOttawa', 'University of Ottawa', 'study in Canada', course.level, 'PGWP'],

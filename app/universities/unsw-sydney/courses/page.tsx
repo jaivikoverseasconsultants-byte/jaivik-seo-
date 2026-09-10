@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UNSW Sydney International Courses – All Programs, Fees & IELTS 2026',
+  title: 'UNSW Sydney Courses — Fees & IELTS 2026',
   description: `UNSW Sydney – ${unswW2Courses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/unsw-sydney/courses',
   keywords: ['UNSW courses', 'UNSW Sydney', 'study in Australia'],

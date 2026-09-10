@@ -8,7 +8,7 @@ import { COMMON_COUNTRY_HUB_LINKS, SUBJECT_PILLAR_LINKS, COST_PILLAR_LINKS } fro
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata({
-    title: 'Study Abroad With a Study Gap — Honest Guide for Indian Students 2026',
+    title: 'Study Abroad With a Study Gap — 2026 Guide',
     description: 'How admissions teams generally view a study gap or career break, how to explain it in your application, and how to find out which specific universities will accept yours — an honest guide, no invented per-university claims.',
     path: '/study-gap-accepted-universities',
     keywords: ['study gap accepted universities abroad', 'study abroad after gap year india', 'career break study abroad', 'study gap explanation letter'],

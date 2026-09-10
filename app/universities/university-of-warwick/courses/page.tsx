@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Warwick International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Warwick Courses — Fees & IELTS 2026',
   description: `University of Warwick — ${(warwickCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. October intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-warwick/courses',
   keywords: ['Warwick courses', 'University of Warwick international', 'Warwick fees', 'study in UK', 'UK university'],

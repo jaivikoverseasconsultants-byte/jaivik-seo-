@@ -9,7 +9,7 @@ import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
-  title: 'ECU International Courses – All Programs, Fees & IELTS 2026',
+  title: 'ECU Courses — Fees & IELTS 2026',
   description: `Edith Cowan University — ${(ecuCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/edith-cowan-university/courses',
   keywords: ['ECU courses', 'Edith Cowan University international', 'ECU fees', 'study in Australia'],

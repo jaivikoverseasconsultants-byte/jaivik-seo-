@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getLeedsBeckettCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Leeds Beckett University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Leeds Beckett University`,
     description: `${course.name} at Leeds Beckett University, Leeds${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/leeds-beckett-university/courses/${slug}`,
     keywords: [course.name, 'Leeds Beckett', 'Leeds Beckett University', 'study in UK', course.level],

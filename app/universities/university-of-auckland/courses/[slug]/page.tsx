@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getAucklandCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Auckland — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Auckland`,
     description: `${course.name} at University of Auckland, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-auckland/courses/${slug}`,
     keywords: [course.name, 'University of Auckland', 'study in New Zealand', course.level],

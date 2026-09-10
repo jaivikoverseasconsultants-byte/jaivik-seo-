@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getLjmuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Liverpool John Moores University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Liverpool John Moores University`,
     description: `${course.name} at LJMU, Liverpool${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/liverpool-john-moores-university/courses/${slug}`,
     keywords: [course.name, 'LJMU', 'Liverpool John Moores University', 'study in UK', course.level],

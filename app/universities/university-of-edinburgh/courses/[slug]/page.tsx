@@ -21,7 +21,7 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualGBP || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} at University of Edinburgh — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Edinburgh`,
     description: `${course.name} at University of Edinburgh, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-edinburgh/courses/${slug}`,
     keywords: [course.name, 'Edinburgh', 'University of Edinburgh', 'study in UK', course.level],

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Maastricht University Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'Maastricht University Courses — Fees & IELTS 2026',
   description: '15 programs at Maastricht University for international students. €16,300/yr. IELTS 6.5+. September & February intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/maastricht-university/courses',
   keywords: ['UM courses', 'Maastricht University international', 'study in Netherlands', 'Netherlands university'],

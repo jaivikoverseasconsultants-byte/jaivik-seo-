@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Hertfordshire International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Hertfordshire Courses — Fees & IELTS 2026',
   description: `University of Hertfordshire — ${(hertfordshireCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-hertfordshire/courses',
   keywords: ['Hertfordshire courses', 'University of Hertfordshire international', 'Hertfordshire fees', 'study in UK', 'UK university'],

@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of the Sunshine Coast International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of the Sunshine Coast Courses — Fees & IELTS 2026',
   description: `University of the Sunshine Coast – ${uniscCourses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-sunshine-coast/courses',
   keywords: ['UniSC courses', 'University of the Sunshine Coast', 'study in Australia'],

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Coventry International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Coventry Courses — Fees & IELTS 2026',
   description: `Coventry University — ${(coventryCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/coventry-university/courses',
   keywords: ['Coventry courses', 'Coventry University international', 'Coventry fees', 'study in UK', 'UK university'],

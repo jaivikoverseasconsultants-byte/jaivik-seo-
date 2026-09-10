@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Flinders International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Flinders Courses — Fees & IELTS 2026',
   description: `Flinders University — ${(flindersCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/flinders-university/courses',
   keywords: ['Flinders courses', 'Flinders University international', 'Flinders fees', 'study in Australia'],

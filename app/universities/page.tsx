@@ -8,7 +8,7 @@ import JsonLd from '@/components/JsonLd';
 const UniversityListingClient = dynamic(() => import('@/components/UniversityListingClient'), { ssr: false });
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Top 300+ Universities Abroad for Indian Students 2026 – Filter by Fees, Rank & Country',
+  title: 'Top 300+ Universities Abroad 2026 — Fees & Rank',
   description: 'Browse 300+ top universities in USA, UK, Canada, Australia, Germany, Ireland, Singapore & more. Filter by fees, QS rank, acceptance rate, 48hr offer letter, and scholarships.',
   path: '/universities',
   keywords: [
@@ -42,6 +42,11 @@ export default function UniversitiesPage() {
   return (
     <>
       <JsonLd data={schema} />
+      {/* Server-rendered so the page has an h1 in its HTML: the listing below is loaded
+          with `ssr: false`, so nothing it renders — including its heading — reaches the
+          static output. Visually hidden because the same wording is already the visible
+          hero heading inside the client component. */}
+      <h1 className="sr-only">Top Universities Abroad 2026</h1>
       <UniversityListingClient universities={universities} countries={countries} initialSearch="" courseIndex={courseIndex} />
     </>
   );

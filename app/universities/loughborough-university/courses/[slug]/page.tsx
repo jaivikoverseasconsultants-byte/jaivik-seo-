@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getLboroCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Loughborough University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Loughborough University`,
     description: `${course.name} at Loughborough University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/loughborough-university/courses/${slug}`,
     keywords: [course.name, 'Loughborough', 'Loughborough University', 'study in UK', course.level],

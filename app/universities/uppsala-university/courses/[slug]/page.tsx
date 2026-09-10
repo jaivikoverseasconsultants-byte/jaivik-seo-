@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getUppsalaUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Uppsala University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Uppsala University`,
     description: `${course.name} at Uppsala University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/uppsala-university/courses/${slug}`,
     keywords: [course.name, 'Uppsala University', 'study in Sweden', course.level],

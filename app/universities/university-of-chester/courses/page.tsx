@@ -8,7 +8,7 @@ import { verifiedAvgFee } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Chester Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Chester Courses — Fees & IELTS 2026',
   description: `University of Chester — ${(chesterCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-chester/courses',
   keywords: ['Chester courses', 'University of Chester international', 'Chester fees', 'study in UK', 'UK university'],

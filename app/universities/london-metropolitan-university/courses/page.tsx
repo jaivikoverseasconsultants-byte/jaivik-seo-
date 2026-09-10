@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'London Metropolitan University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'London Metropolitan University Courses — Fees & IELTS 2026',
   description: `London Metropolitan University — ${(londonmetCourses as unknown as any[]).length} courses for international students. IELTS 5.5+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/london-metropolitan-university/courses',
   keywords: ['London Met courses', 'London Metropolitan University international', 'London Met fees', 'study in UK', 'UK university'],

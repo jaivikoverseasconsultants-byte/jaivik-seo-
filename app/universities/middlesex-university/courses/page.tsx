@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Middlesex International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Middlesex Courses — Fees & IELTS 2026',
   description: `Middlesex University — ${(middlesexCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/middlesex-university/courses',
   keywords: ['Middlesex courses', 'Middlesex University international', 'Middlesex fees', 'study in UK', 'UK university'],

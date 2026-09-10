@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of East Anglia International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of East Anglia Courses — Fees & IELTS 2026',
   description: `University of East Anglia — ${(ueaCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-east-anglia/courses',
   keywords: ['UEA courses', 'University of East Anglia international', 'UEA fees', 'study in UK', 'UK university'],

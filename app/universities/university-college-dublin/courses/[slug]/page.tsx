@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getUcdCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University College Dublin — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University College Dublin`,
     description: `${course.name} at University College Dublin, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-college-dublin/courses/${slug}`,
     keywords: [course.name, 'UCD', 'University College Dublin', 'study in Ireland', course.level],

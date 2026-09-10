@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getNciCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at National College of Ireland — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at National College of Ireland`,
     description: `${course.name} at National College of Ireland, Dublin${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/national-college-of-ireland/courses/${slug}`,
     keywords: [course.name, 'NCI', 'National College of Ireland', 'study in Ireland', course.level],

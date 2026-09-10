@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'NTU International Courses – All Programs, Fees & IELTS 2026',
+  title: 'NTU Courses — Fees & IELTS 2026',
   description: `Nottingham Trent University — ${(nottinghamtrentCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/nottingham-trent-university/courses',
   keywords: ['NTU courses', 'Nottingham Trent University international', 'NTU fees', 'study in UK', 'UK university'],

@@ -4,7 +4,7 @@ import CurrencyConverter from '@/components/CurrencyConverter';
 import Link from 'next/link';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Currency Converter – USD, CAD, GBP, AUD to INR | Jaivik Overseas',
+  title: 'Currency Converter — USD, GBP, CAD to INR',
   description:
     'Live currency converter for Indian students studying abroad. Convert USD, CAD, GBP, AUD, EUR, SGD, NZD, AED, DKK, SEK to Indian Rupees (INR) with live exchange rates. Free tool by Jaivik Overseas Consultants.',
   path: '/currency-converter',

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Northumbria International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Northumbria Courses — Fees & IELTS 2026',
   description: `Northumbria University — ${(northumbriaCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/northumbria-university/courses',
   keywords: ['Northumbria courses', 'Northumbria University international', 'Northumbria fees', 'study in UK', 'UK university'],

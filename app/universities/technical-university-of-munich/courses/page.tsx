@@ -8,7 +8,7 @@ import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'TU Munich International Courses — Programs, Fees & IELTS 2026',
+  title: 'TU Munich Courses — Fees & IELTS 2026',
   description: `TU Munich (Technical University of Munich) — ${tuMunichCourses.length} courses for international students. Near-zero tuition (€300/yr admin fee). IELTS 6.5+. October intake. Free admission guidance.`,
   path: '/universities/technical-university-of-munich/courses',
   keywords: ['TU Munich courses', 'Technical University Munich international', 'study in Germany', 'TUM degree programs', 'TUM engineering'],

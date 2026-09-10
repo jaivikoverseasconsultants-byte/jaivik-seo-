@@ -26,7 +26,7 @@ export async function generateMetadata(
   const course = getUsydCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Sydney — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Sydney`,
     description: `${course.name} at University of Sydney, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-sydney/courses/${slug}`,
     keywords: [course.name, 'USyd', 'University of Sydney', 'study in Australia', course.level],

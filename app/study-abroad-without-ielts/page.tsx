@@ -8,7 +8,7 @@ import { COMMON_COUNTRY_HUB_LINKS, SUBJECT_PILLAR_LINKS, IELTS_BAND_HUB_LINKS } 
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata({
-    title: 'Study Abroad Without Taking IELTS — Honest Guide for Indian Students 2026',
+    title: 'Study Abroad Without IELTS — 2026 Guide',
     description: 'MOI waivers, alternative English tests, and how English-medium schooling can sometimes replace IELTS — an honest guide covering only what we can verify, plus real IELTS-band course data for lower-threshold options.',
     path: '/study-abroad-without-ielts',
     keywords: ['study abroad without ielts', 'moi waiver for study abroad', 'ielts alternative tests', 'study abroad without english test'],

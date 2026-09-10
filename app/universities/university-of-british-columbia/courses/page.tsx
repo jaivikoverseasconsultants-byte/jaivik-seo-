@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UBC International Courses – All Programs, Fees & IELTS 2026',
+  title: 'UBC Courses — Fees & IELTS 2026',
   description: `University of British Columbia — ${(ubcCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6.5+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-british-columbia/courses',
   keywords: ['UBC courses', 'University of British Columbia international', 'UBC fees', 'study in Canada', 'Canada university', 'PGWP'],

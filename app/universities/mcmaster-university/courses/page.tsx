@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'McMaster International Courses – All Programs, Fees & IELTS 2026',
+  title: 'McMaster Courses — Fees & IELTS 2026',
   description: `McMaster University — ${(mcmasterCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6.5+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/mcmaster-university/courses',
   keywords: ['McMaster courses', 'McMaster University international', 'McMaster fees', 'study in Canada', 'Canada university', 'PGWP'],

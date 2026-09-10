@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Uppsala University Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'Uppsala University Courses — Fees & IELTS 2026',
   description: '17 programs at Uppsala University for international students. SEK 1,45,000/yr. IELTS 6.5+. August intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/uppsala-university/courses',
   keywords: ['UU courses', 'Uppsala University international', 'study in Sweden', 'Sweden university'],

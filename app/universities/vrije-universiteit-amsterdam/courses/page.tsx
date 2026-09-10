@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Vrije Universiteit Amsterdam Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'Vrije Universiteit Amsterdam Courses — Fees & IELTS 2026',
   description: '19 programs at Vrije Universiteit Amsterdam for international students. €16,200/yr. IELTS 6.5+. September & February intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/vrije-universiteit-amsterdam/courses',
   keywords: ['VU Amsterdam courses', 'Vrije Universiteit Amsterdam international', 'study in Netherlands', 'Netherlands university'],

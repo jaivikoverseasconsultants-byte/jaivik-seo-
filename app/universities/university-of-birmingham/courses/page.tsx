@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Birmingham International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Birmingham Courses — Fees & IELTS 2026',
   description: `University of Birmingham — ${(bhamCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-birmingham/courses',
   keywords: ['Birmingham courses', 'University of Birmingham international', 'Birmingham fees', 'study in UK', 'UK university'],

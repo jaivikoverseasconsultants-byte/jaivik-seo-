@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Heriot-Watt University Dubai Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'Heriot-Watt University Dubai Courses — Fees & IELTS 2026',
   description: '15 programs at Heriot-Watt University Dubai for international students. AED 80,000/yr. IELTS 6.5+. September & January intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/heriot-watt-university-dubai/courses',
   keywords: ['HWU Dubai courses', 'Heriot-Watt University Dubai international', 'study in UAE', 'UAE university'],

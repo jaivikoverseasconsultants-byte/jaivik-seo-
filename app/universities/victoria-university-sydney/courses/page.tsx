@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'VU Sydney International Courses – All Programs, Fees & IELTS 2026',
+  title: 'VU Sydney Courses — Fees & IELTS 2026',
   description: `Victoria University Sydney — ${(vu_sydneyCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/victoria-university-sydney/courses',
   keywords: ['VU Sydney courses', 'Victoria University Sydney international', 'VU Sydney fees', 'study in Australia'],

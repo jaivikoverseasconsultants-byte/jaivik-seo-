@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getKingstonCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Kingston University London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Kingston University London`,
     description: `${course.name} at Kingston University London, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/kingston-university-london/courses/${slug}`,
     keywords: [course.name, 'Kingston', 'Kingston University London', 'study in UK', course.level],

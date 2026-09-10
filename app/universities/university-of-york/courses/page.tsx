@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of York International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of York Courses — Fees & IELTS 2026',
   description: `University of York — ${(yorkuniCourses as unknown as any[]).length} courses for international students. IELTS 6+. October intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-york/courses',
   keywords: ['York courses', 'University of York international', 'York fees', 'study in UK', 'UK university'],

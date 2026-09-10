@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Glasgow International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Glasgow Courses — Fees & IELTS 2026',
   description: `University of Glasgow — ${(glasgowCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-glasgow/courses',
   keywords: ['Glasgow courses', 'University of Glasgow international', 'Glasgow fees', 'study in UK', 'UK university'],

@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getUbcCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of British Columbia — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of British Columbia`,
     description: `${course.name} at University of British Columbia, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-british-columbia/courses/${slug}`,
     keywords: [course.name, 'UBC', 'University of British Columbia', 'study in Canada', course.level, 'PGWP'],

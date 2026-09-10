@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getNclCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Newcastle University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Newcastle University`,
     description: `${course.name} at Newcastle University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/newcastle-university/courses/${slug}`,
     keywords: [course.name, 'Newcastle', 'Newcastle University', 'study in UK', course.level],

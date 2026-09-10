@@ -375,7 +375,7 @@ export default function AdvancedCourseFinderClient({ universities }: { universit
             <span className="inline-block bg-white/15 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-3">
               🔍 Advanced University & Program Finder
             </span>
-            <h1 className="text-3xl sm:text-4xl font-bold mb-2">Find Your Perfect Program Abroad</h1>
+            <p className="text-3xl sm:text-4xl font-bold mb-2">Find Your Perfect Program Abroad</p>
             <p className="text-blue-200 text-sm max-w-lg mx-auto">
               {universities.length}+ universities · 15 countries · Filter by intake, fees, IELTS, and more
             </p>

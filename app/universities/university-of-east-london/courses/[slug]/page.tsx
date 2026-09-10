@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getUelCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of East London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of East London`,
     description: `${course.name} at University of East London, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-east-london/courses/${slug}`,
     keywords: [course.name, 'UEL', 'University of East London', 'study in UK', course.level],

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Swinburne International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Swinburne Courses — Fees & IELTS 2026',
   description: `Swinburne University of Technology — ${(swinburneCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/swinburne-university/courses',
   keywords: ['Swinburne courses', 'Swinburne University of Technology international', 'Swinburne fees', 'study in Australia'],

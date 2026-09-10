@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getOtagoCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Otago — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Otago`,
     description: `${course.name} at University of Otago, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-otago/courses/${slug}`,
     keywords: [course.name, 'Otago', 'University of Otago', 'study in New Zealand', course.level],

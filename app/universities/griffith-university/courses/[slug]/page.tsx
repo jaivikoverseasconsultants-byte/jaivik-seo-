@@ -35,7 +35,7 @@ export async function generateMetadata(
     });
   }
   return buildMetadata({
-    title: `${course.name} at Griffith University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Griffith University`,
     description: `${course.name} at Griffith University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/griffith-university/courses/${slug}`,
     keywords: [course.name, 'Griffith', 'Griffith University', 'study in Australia', course.level],

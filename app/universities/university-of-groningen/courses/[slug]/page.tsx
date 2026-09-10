@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getUniversityOfGroningenCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Groningen — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Groningen`,
     description: `${course.name} at University of Groningen, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-groningen/courses/${slug}`,
     keywords: [course.name, 'University of Groningen', 'study in Netherlands', course.level],

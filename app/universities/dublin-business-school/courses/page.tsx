@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Dublin Business School International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Dublin Business School Courses — Fees & IELTS 2026',
   description: `Dublin Business School – ${dbsCourses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/dublin-business-school/courses',
   keywords: ['DBS courses', 'Dublin Business School', 'study in Ireland'],

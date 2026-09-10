@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Newcastle University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Newcastle University Courses — Fees & IELTS 2026',
   description: `Newcastle University — ${(nclCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/newcastle-university/courses',
   keywords: ['Newcastle courses', 'Newcastle University international', 'Newcastle fees', 'study in UK', 'UK university'],

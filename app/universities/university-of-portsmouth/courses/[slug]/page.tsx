@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getPortsmouthCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Portsmouth — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Portsmouth`,
     description: `${course.name} at University of Portsmouth, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-portsmouth/courses/${slug}`,
     keywords: [course.name, 'Portsmouth', 'University of Portsmouth', 'study in UK', course.level],

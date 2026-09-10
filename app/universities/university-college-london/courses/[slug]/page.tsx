@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getUclCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University College London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University College London`,
     description: `${course.name} at University College London, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-college-london/courses/${slug}`,
     keywords: [course.name, 'UCL', 'University College London', 'study in London UK', course.level],

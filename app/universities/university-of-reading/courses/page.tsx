@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Reading International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Reading Courses — Fees & IELTS 2026',
   description: `University of Reading — ${(rdgCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-reading/courses',
   keywords: ['Reading courses', 'University of Reading international', 'Reading fees', 'study in UK', 'UK university'],

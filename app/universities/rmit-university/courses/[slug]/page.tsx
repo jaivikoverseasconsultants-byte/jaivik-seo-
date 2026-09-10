@@ -26,7 +26,7 @@ export async function generateMetadata(
   const course = getRmitCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at RMIT University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at RMIT University`,
     description: `${course.name} at RMIT University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/rmit-university/courses/${slug}`,
     keywords: [course.name, 'RMIT', 'RMIT University', 'study in Australia', course.level],

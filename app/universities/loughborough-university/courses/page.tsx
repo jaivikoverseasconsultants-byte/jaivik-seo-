@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Loughborough University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Loughborough University Courses — Fees & IELTS 2026',
   description: `Loughborough University — ${(lboroCourses as unknown as any[]).length} courses for international students. IELTS 6+. October intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/loughborough-university/courses',
   keywords: ['Loughborough courses', 'Loughborough University international', 'Loughborough fees', 'study in UK', 'UK university'],

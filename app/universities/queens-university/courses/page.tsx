@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: "Queen's International Courses – All Programs, Fees & IELTS 2026",
+  title: "Queen's Courses — Fees & IELTS 2026",
   description: `Queen's University — ${(queensCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6.5+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/queens-university/courses',
   keywords: ["Queen's courses", "Queen's University international", "Queen's fees", 'study in Canada', 'Canada university', 'PGWP'],

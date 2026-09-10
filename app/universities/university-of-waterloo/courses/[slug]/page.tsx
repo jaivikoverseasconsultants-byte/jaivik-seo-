@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getWaterlooCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Waterloo — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Waterloo`,
     description: `${course.name} at University of Waterloo, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-waterloo/courses/${slug}`,
     keywords: [course.name, 'Waterloo', 'University of Waterloo', 'study in Canada', course.level, 'PGWP'],

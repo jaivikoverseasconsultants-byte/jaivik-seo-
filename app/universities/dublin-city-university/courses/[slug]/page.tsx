@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!course) return {};
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} at Dublin City University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Dublin City University`,
     description: `${course.name} at Dublin City University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/dublin-city-university/courses/${slug}`,
     keywords: [course.name, 'DCU', 'Dublin City University', 'study in Ireland', course.level],

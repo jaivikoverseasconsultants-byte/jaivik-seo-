@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Hamburg International Courses – Programs, Fees & IELTS 2026',
+  title: 'University of Hamburg Courses — Fees & IELTS 2026',
   description: `University of Hamburg — ${(uhamCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. October & April intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-hamburg/courses',
   keywords: ['Hamburg courses', 'University of Hamburg international', 'study in Germany', 'Germany university'],

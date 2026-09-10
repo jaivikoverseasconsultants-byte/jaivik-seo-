@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getUoftCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Toronto — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Toronto`,
     description: `${course.name} at University of Toronto, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-toronto/courses/${slug}`,
     keywords: [course.name, 'UofT', 'University of Toronto', 'study in Canada', course.level, 'PGWP'],

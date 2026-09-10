@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Dal International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Dal Courses — Fees & IELTS 2026',
   description: `Dalhousie University — ${(dalCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6.5+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/dalhousie-university/courses',
   keywords: ['Dal courses', 'Dalhousie University international', 'Dal fees', 'study in Canada', 'Canada university', 'PGWP'],

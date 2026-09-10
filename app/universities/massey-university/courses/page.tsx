@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Massey University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Massey University Courses — Fees & IELTS 2026',
   description: `Massey University — ${(masseyCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/massey-university/courses',
   keywords: ['Massey courses', 'Massey University international', 'Massey fees', 'study in New Zealand'],

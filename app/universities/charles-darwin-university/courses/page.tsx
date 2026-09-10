@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'CDU International Courses – All Programs, Fees & IELTS 2026',
+  title: 'CDU Courses — Fees & IELTS 2026',
   description: `Charles Darwin University — ${(cduCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/charles-darwin-university/courses',
   keywords: ['CDU courses', 'Charles Darwin University international', 'CDU fees', 'study in Australia'],

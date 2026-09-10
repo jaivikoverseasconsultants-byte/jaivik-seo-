@@ -5,7 +5,7 @@ import { blogPosts, blogCategories } from '@/data/blog-posts';
 import JsonLd from '@/components/JsonLd';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Study Abroad Blog 2026 – Tips, Guides & University Advice | Jaivik Overseas',
+  title: 'Study Abroad Blog 2026 — Tips & Guides',
   description: 'Expert advice for Indian students studying abroad. IELTS tips, visa guides, SOP writing, scholarship lists, country comparisons, and university admission strategies.',
   path: '/blog',
   keywords: [

@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getAnuCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Australian National University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Australian National University`,
     description: `${course.name} at Australian National University, ${(course as any).city || course.country} ${feeMetaPhrase(course)}. IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/australian-national-university/courses/${slug}`,
     keywords: [course.name, 'ANU', 'Australian National University', 'study in Australia', course.level],

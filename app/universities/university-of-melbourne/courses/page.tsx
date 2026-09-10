@@ -9,7 +9,7 @@ import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Melbourne International Courses — Programs, Fees & IELTS 2026',
+  title: 'University of Melbourne Courses — Fees & IELTS 2026',
   description: `University of Melbourne — ${uomCourses.length} courses for international students. February & July intakes. IELTS 6.5+. Graduate Visa 2–4 years. Free guidance from Jaivik Overseas.`,
   path: '/universities/university-of-melbourne/courses',
   keywords: ['University of Melbourne courses', 'UniMelb international programs', 'study in Melbourne', 'Australia university fees India'],

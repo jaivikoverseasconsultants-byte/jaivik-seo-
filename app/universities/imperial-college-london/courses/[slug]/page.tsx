@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getImperialCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Imperial College London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Imperial College London`,
     description: `${course.name} at Imperial College London, London${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/imperial-college-london/courses/${slug}`,
     keywords: [course.name, 'Imperial', 'Imperial College London', 'study in UK', course.level],

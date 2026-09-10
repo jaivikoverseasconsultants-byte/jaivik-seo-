@@ -183,7 +183,7 @@ export default function UniversityListingClient({ universities, countries, initi
       <div className="bg-gradient-to-br from-brand-800 to-brand-900 text-white py-10 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-6">
-            <h1 className="text-3xl font-bold mb-2">Top Universities Abroad 2026</h1>
+            <p className="text-3xl font-bold mb-2">Top Universities Abroad 2026</p>
             <p className="text-blue-200 text-sm">{universities.length} universities · {countries.length} countries · Filter by fees, rank, acceptance rate & more</p>
           </div>
           {/* Hero search */}

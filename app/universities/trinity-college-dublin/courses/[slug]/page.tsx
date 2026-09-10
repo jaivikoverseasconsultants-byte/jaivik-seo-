@@ -21,7 +21,7 @@ export async function generateMetadata(
   if (!course) return {};
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
-    title: `${course.name} at Trinity College Dublin — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Trinity College Dublin`,
     description: `${course.name} at Trinity College Dublin, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/trinity-college-dublin/courses/${slug}`,
     keywords: [course.name, 'Trinity Dublin', 'Trinity College Dublin', 'study in Ireland', course.level],

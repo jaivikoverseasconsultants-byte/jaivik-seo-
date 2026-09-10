@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Auckland Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'University of Auckland Courses — Fees & IELTS 2026',
   description: 'Explore all programs at University of Auckland for international students. NZ$ fees, IELTS requirements, and intake dates. Free admission guidance from Jaivik Overseas.',
   path: '/universities/university-of-auckland/courses',
   keywords: ['UoA courses', 'University of Auckland international', 'study in New Zealand', 'New Zealand university'],

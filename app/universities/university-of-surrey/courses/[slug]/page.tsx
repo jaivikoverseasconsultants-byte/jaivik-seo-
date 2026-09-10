@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getSurreyCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Surrey — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Surrey`,
     description: `${course.name} at University of Surrey, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-surrey/courses/${slug}`,
     keywords: [course.name, 'Surrey', 'University of Surrey', 'study in UK', course.level],

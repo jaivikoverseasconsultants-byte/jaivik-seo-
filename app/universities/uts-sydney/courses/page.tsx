@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UTS Sydney International Courses – All Programs, Fees & IELTS 2026',
+  title: 'UTS Sydney Courses — Fees & IELTS 2026',
   description: `University of Technology Sydney — ${utsCourses.length} courses for international students. Fees from A$28,000/yr. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/uts-sydney/courses',
   keywords: ['UTS Sydney courses', 'University of Technology Sydney international', 'UTS fees', 'study in Australia'],

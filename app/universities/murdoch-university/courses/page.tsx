@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Murdoch International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Murdoch Courses — Fees & IELTS 2026',
   description: `Murdoch University — ${(murdochCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/murdoch-university/courses',
   keywords: ['Murdoch courses', 'Murdoch University international', 'Murdoch fees', 'study in Australia'],

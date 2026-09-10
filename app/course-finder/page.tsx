@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 const AdvancedCourseFinderClient = dynamic(() => import('@/components/AdvancedCourseFinderClient'), { ssr: false });
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Advanced Course & University Finder 2026 – Filter by Fees, IELTS, Country | Jaivik Overseas',
+  title: 'Course & University Finder — Fees & IELTS',
   description: 'Find the right university abroad using 20+ smart filters — country, province, fees, IELTS, co-op, scholarships, Russell Group, 48hr offer letter, and more. 300+ universities.',
   path: '/course-finder',
   keywords: [
@@ -32,6 +32,10 @@ export default function CourseFinderPage() {
   return (
     <>
       <JsonLd data={toolSchema} />
+      {/* Server-rendered so the page has an h1 in its HTML — the finder below loads with
+          `ssr: false`, so its own heading never reaches the static output. Hidden because
+          the identical wording is already the visible heading inside the client component. */}
+      <h1 className="sr-only">Find Your Perfect Program Abroad</h1>
       <AdvancedCourseFinderClient universities={universities} />
     </>
   );

@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!u) return {} as Metadata;
   const qsRankPart = u.qsRanking ? ` – QS Rank #${u.qsRanking}` : '';
   return buildMetadata({
-    title: `${u.name} | Fees, Rankings, Courses & Admissions 2026`,
+    title: `${u.name} — Fees, Courses & Admission 2026`,
     description: `${u.name} (${u.shortName})${qsRankPart}. Annual tuition ${formatUSD(u.annualTuitionUSD)} (${formatINR(u.annualTuitionINR)}). Intake: ${u.intakeMonths.join(', ')}. Get free admission guidance from Jaivik Overseas Consultants.`,
     path: `/universities/${slug}`,
     keywords: [u.name, u.shortName, u.country, 'university fees', 'study abroad', 'admissions 2026'],

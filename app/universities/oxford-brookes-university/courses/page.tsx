@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Oxford Brookes University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Oxford Brookes University Courses — Fees & IELTS 2026',
   description: `Oxford Brookes University — ${(brookesCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/oxford-brookes-university/courses',
   keywords: ['Oxford Brookes courses', 'Oxford Brookes University international', 'Oxford Brookes fees', 'study in UK', 'UK university'],

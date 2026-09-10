@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'National College of Ireland International Courses – All Programs, Fees & IELTS 2026',
+  title: 'National College of Ireland Courses — Fees & IELTS 2026',
   description: `National College of Ireland – ${nciCourses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/national-college-of-ireland/courses',
   keywords: ['NCI courses', 'National College of Ireland', 'study in Ireland'],

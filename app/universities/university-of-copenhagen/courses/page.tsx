@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Copenhagen Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'University of Copenhagen Courses — Fees & IELTS 2026',
   description: '17 programs at University of Copenhagen for international students. Non-EU: ~DKK 95K/yr. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/university-of-copenhagen/courses',
   keywords: ['UCPH courses', 'University of Copenhagen international', 'study in Denmark', 'Denmark university'],

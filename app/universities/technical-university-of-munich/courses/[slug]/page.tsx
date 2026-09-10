@@ -25,7 +25,7 @@ export async function generateMetadata(
   const course = getTuMunichCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Technical University of Munich — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Technical University of Munich`,
     description: `${course.name} at Technical University of Munich, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/technical-university-of-munich/courses/${slug}`,
     keywords: [course.name, 'TU Munich', 'Technical University Munich', 'study in Germany', course.level],

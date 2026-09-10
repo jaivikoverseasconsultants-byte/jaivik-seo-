@@ -19,7 +19,7 @@ export async function generateMetadata(
   const c = purdueCourses.find(x => x.slug === slug);
   if (!c) return {};
   return buildMetadata({
-    title: `${c.name} at Purdue University — ${titleFeeFragment(c as any, c.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${c.name} at Purdue University`,
     description: `${c.name} at Purdue University, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)} IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/purdue-university/courses/${slug}`,
   });

@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getBhamCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of Birmingham — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of Birmingham`,
     description: `${course.name} at University of Birmingham, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-birmingham/courses/${slug}`,
     keywords: [course.name, 'Birmingham', 'University of Birmingham', 'study in UK', course.level],

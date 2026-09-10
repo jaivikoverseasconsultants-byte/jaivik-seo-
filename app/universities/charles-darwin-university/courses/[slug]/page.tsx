@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getCduCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Charles Darwin University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Charles Darwin University`,
     description: `${course.name} at Charles Darwin University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/charles-darwin-university/courses/${slug}`,
     keywords: [course.name, 'CDU', 'Charles Darwin University', 'study in Australia', course.level],

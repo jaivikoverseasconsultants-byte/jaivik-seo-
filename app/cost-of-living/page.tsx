@@ -4,7 +4,7 @@ import { costOfLivingGuides } from '@/data/cost-of-living';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Cost of Living Abroad 2026 for Indian Students | Canada, UK & Australia',
+  title: 'Cost of Living Abroad 2026 — Canada, UK & Australia',
   description: 'Detailed cost of living guides for Indian students studying abroad in 2026. Monthly budgets for Toronto, Vancouver, London, Manchester, Sydney, and Melbourne in INR.',
   path: '/cost-of-living',
   keywords: ['cost of living abroad', 'study abroad budget', 'student expenses Canada UK Australia', 'Indian students monthly budget'],

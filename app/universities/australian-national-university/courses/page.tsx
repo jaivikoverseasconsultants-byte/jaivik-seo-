@@ -9,7 +9,7 @@ import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
-  title: 'ANU International Courses – All Programs, Fees & IELTS 2026',
+  title: 'ANU Courses — Fees & IELTS 2026',
   description: `Australian National University — ${(anuCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/australian-national-university/courses',
   keywords: ['ANU courses', 'Australian National University international', 'ANU fees', 'study in Australia'],

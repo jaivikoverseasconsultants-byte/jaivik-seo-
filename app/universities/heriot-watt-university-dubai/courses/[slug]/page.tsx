@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getHeriotWattUniversityDubaiCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Heriot-Watt University Dubai — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Heriot-Watt University Dubai`,
     description: `${course.name} at Heriot-Watt University Dubai, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/heriot-watt-university-dubai/courses/${slug}`,
     keywords: [course.name, 'Heriot-Watt University Dubai', 'study in UAE', course.level],

@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Central Lancashire International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Central Lancashire Courses — Fees & IELTS 2026',
   description: `University of Central Lancashire – ${uclanCourses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-central-lancashire/courses',
   keywords: ['UCLan courses', 'University of Central Lancashire', 'study in UK'],

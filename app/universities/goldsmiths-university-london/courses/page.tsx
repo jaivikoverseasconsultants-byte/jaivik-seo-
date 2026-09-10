@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Goldsmiths, University of London International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Goldsmiths, University of London Courses — Fees & IELTS 2026',
   description: `Goldsmiths, University of London – ${goldsmithsCourses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/goldsmiths-university-london/courses',
   keywords: ['Goldsmiths courses', 'Goldsmiths, University of London', 'study in UK'],

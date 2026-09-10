@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getSwinburneCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Swinburne University of Technology — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Swinburne University of Technology`,
     description: `${course.name} at Swinburne University of Technology, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/swinburne-university/courses/${slug}`,
     keywords: [course.name, 'Swinburne', 'Swinburne University of Technology', 'study in Australia', course.level],

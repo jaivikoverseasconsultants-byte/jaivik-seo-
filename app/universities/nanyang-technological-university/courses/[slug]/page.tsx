@@ -19,7 +19,7 @@ export async function generateMetadata(
   const c = ntuCourses.find(x => x.slug === slug);
   if (!c) return {};
   return buildMetadata({
-    title: `${c.name} at Nanyang Technological University — ${titleFeeFragment(c as any, c.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${c.name} at Nanyang Technological University`,
     description: `${c.name} at Nanyang Technological University, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)} IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/nanyang-technological-university/courses/${slug}`,
   });

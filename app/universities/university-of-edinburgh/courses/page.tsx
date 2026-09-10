@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Edinburgh International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Edinburgh Courses — Fees & IELTS 2026',
   description: `University of Edinburgh – ${(edinburghCourses as unknown as any[]).length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-edinburgh/courses',
   keywords: ['Edinburgh courses', 'University of Edinburgh international', 'study in UK'],

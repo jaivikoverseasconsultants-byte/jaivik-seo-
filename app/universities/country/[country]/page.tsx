@@ -318,7 +318,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   if (!unis.length) return {};
   const minFee = Math.min(...unis.map(u => u.annualTuitionUSD));
   return buildMetadata({
-    title: `Study in ${country} from India – Top Universities, Fees & Visa 2026`,
+    title: `Study in ${country} — Fees, Universities & Visa 2026`,
     description: `${unis.length}+ universities in ${country} for Indian students. Fees from $${(minFee / 1000).toFixed(0)}K/yr. Visa process, work rights, PR pathway, cost of living & scholarships. Free guidance from Jaivik Overseas Consultants.`,
     path: `/universities/country/${slug}`,
     keywords: [`study in ${country}`, `universities in ${country} for Indians`, `${country} student visa`, `${country} PR for Indian students`],

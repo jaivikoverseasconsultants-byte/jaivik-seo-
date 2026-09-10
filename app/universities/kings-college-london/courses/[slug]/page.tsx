@@ -24,8 +24,8 @@ export async function generateMetadata(
   const course = getKclCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at King\ — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
-    description: `${course.name} at King\, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    title: `${course.name} at King's College London`,
+    description: `${course.name} at King's College London, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/kings-college-london/courses/${slug}`,
     keywords: [course.name, 'KCL', 'King\'s College London', 'study in UK', course.level],
   });
@@ -73,7 +73,7 @@ export default async function CoursePage(
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-4">
                 🇬🇧 King's College London · London, UK
               </div>
-              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at King\ — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
+              <h1 className="text-3xl md:text-4xl font-bold mb-3">{course.name} at King&apos;s College London — {titleFeeFragment(course as any, course.annualINR)}IELTS &amp; Requirements for Indian Students</h1>
               <p className="text-blue-200 text-lg mb-5">
                 {course.studyLevel} · {course.duration} · {course.campus}
               </p>

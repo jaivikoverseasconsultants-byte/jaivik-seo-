@@ -165,7 +165,7 @@ export default function IELTSMockTest() {
           <span className="inline-block bg-white/15 text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-4">
             📝 Free IELTS Mock Test
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-white mb-3">IELTS Practice Test with AI Scoring</h1>
+          <p className="text-3xl sm:text-4xl font-bold text-white mb-3">IELTS Practice Test with AI Scoring</p>
           <p className="text-blue-200 text-sm">Reading (40 Q) + Writing (2 Tasks) · AI band score 1–9 · Free instant results</p>
         </div>
         <div className="max-w-2xl mx-auto bg-white rounded-3xl p-7 shadow-2xl">
@@ -519,7 +519,7 @@ export default function IELTSMockTest() {
         <div className="bg-brand-700 text-white px-4 py-7 print:hidden">
           <div className="max-w-2xl mx-auto text-center">
             <p className="text-blue-200 text-sm mb-2">Test Complete · {formatTime(elapsed)} taken</p>
-            <h1 className="text-2xl font-bold">Your IELTS Mock Test Results</h1>
+            <h2 className="text-2xl font-bold">Your IELTS Mock Test Results</h2>
           </div>
         </div>
 

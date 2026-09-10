@@ -20,7 +20,7 @@ export async function generateMetadata(
   const course = getMaastrichtUniversityCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Maastricht University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Maastricht University`,
     description: `${course.name} at Maastricht University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/maastricht-university/courses/${slug}`,
     keywords: [course.name, 'Maastricht University', 'study in Netherlands', course.level],

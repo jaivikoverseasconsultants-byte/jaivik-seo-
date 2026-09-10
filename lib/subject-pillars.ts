@@ -117,7 +117,7 @@ export function getPillarsWithCoverageInCountry(country: string): SubjectPillarC
 export function buildPillarMetadata(config: SubjectPillarConfig, courses: RealCourseEntry[]): Metadata {
   const countries = new Set(courses.map(c => c.country)).size;
   return buildMetadata({
-    title: `${config.name} Abroad for Indian Students — Fees in INR, IELTS & Top Universities 2026`,
+    title: `${config.name} Abroad — Fees in INR, IELTS & Universities`,
     description: `${courses.length} real ${config.introLabel} courses across ${countries} countries, with tuition fees converted to INR, IELTS requirements, and direct links to every course. Real data, crawled from each university's own course pages.`,
     path: `/${config.slug}`,
     keywords: [`${config.name} abroad for indian students`, `${config.name} abroad fees in INR`, `study ${config.name} abroad`, `${config.name} universities for indian students`],

@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const nameB = data.sideB.university.name;
 
   return buildMetadata({
-    title: `${nameA} vs ${nameB} — Fees, Courses & PSW Compared for Indian Students`,
+    title: `${nameA} vs ${nameB} — Fees, Courses & PSW`,
     description: `Real course data comparison: ${nameA} (${data.sideA.count} real courses) vs ${nameB} (${data.sideB.count} real courses) — tuition fees in INR, course counts by level, and post-study work rights for Indian students.`,
     path: `/compare/${slug}`,
     keywords: [`${nameA} vs ${nameB}`, `${nameA} or ${nameB}`, `${nameA} vs ${nameB} for indian students`],

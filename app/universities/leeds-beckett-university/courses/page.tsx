@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Leeds Beckett University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Leeds Beckett University Courses — Fees & IELTS 2026',
   description: `Leeds Beckett University — ${leedsBeckettCourses.length} courses for international students. IELTS 6.0+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/leeds-beckett-university/courses',
   keywords: ['Leeds Beckett courses', 'Leeds Beckett University international', 'Leeds Beckett fees', 'study in UK', 'UK university Leeds'],

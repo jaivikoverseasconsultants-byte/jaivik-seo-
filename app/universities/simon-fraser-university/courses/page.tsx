@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'SFU International Courses – All Programs, Fees & IELTS 2026',
+  title: 'SFU Courses — Fees & IELTS 2026',
   description: `Simon Fraser University — ${(sfuCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6.5+. September & January & May intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/simon-fraser-university/courses',
   keywords: ['SFU courses', 'Simon Fraser University international', 'SFU fees', 'study in Canada', 'Canada university', 'PGWP'],

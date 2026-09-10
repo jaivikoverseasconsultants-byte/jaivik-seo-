@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = getUniscCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at University of the Sunshine Coast — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at University of the Sunshine Coast`,
     description: `${course.name} at University of the Sunshine Coast, Sippy Downs${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-sunshine-coast/courses/${slug}`,
     keywords: [course.name, 'UniSC', 'University of the Sunshine Coast', 'study in Australia', course.level],

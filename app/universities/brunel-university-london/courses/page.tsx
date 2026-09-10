@@ -7,7 +7,7 @@ import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Brunel University London International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Brunel University London Courses — Fees & IELTS 2026',
   description: `Brunel University London – ${brunelW2Courses.length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/brunel-university-london/courses',
   keywords: ['Brunel courses', 'Brunel University London', 'study in UK'],

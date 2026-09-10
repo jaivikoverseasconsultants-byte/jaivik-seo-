@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getVu_sydneyCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Victoria University Sydney — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Victoria University Sydney`,
     description: `${course.name} at Victoria University Sydney, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/victoria-university-sydney/courses/${slug}`,
     keywords: [course.name, 'VU Sydney', 'Victoria University Sydney', 'study in Australia', course.level],

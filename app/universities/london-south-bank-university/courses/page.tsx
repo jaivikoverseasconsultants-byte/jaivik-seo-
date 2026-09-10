@@ -8,7 +8,7 @@ import { verifiedAvgFee } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'London South Bank University Courses – All Programs, Fees & IELTS 2026',
+  title: 'London South Bank University Courses — Fees & IELTS 2026',
   description: `London South Bank University — ${(lsbuCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/london-south-bank-university/courses',
   keywords: ['LSBU courses', 'London South Bank University international', 'LSBU fees', 'study in UK', 'UK university'],

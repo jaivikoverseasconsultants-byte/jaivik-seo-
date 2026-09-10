@@ -6,7 +6,7 @@ const StudentDashboard = dynamic(() => import('@/components/StudentDashboard'), 
 
 // noIndex: legacy portal, superseded by /dashboard/student — see app/student-portal/page.tsx.
 export const metadata: Metadata = buildMetadata({
-  title: 'My Dashboard – Applications & Visa Status | Jaivik Overseas',
+  title: 'My Dashboard – Applications & Visa Status',
   description: 'Track your university applications, offer letters, visa status and payments from your Jaivik Overseas student dashboard.',
   path: '/student-portal/dashboard',
   keywords: ['student dashboard', 'application status', 'visa tracker'],

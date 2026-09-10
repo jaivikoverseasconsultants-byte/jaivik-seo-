@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Otago International Courses – Programs, Fees & IELTS 2026',
+  title: 'University of Otago Courses — Fees & IELTS 2026',
   description: `University of Otago — ${(otagoCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-otago/courses',
   keywords: ['Otago courses', 'University of Otago international', 'study in New Zealand', 'New Zealand university'],

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Bournemouth University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Bournemouth University Courses — Fees & IELTS 2026',
   description: `Bournemouth University — ${(bmouthCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/bournemouth-university/courses',
   keywords: ['Bournemouth courses', 'Bournemouth University international', 'Bournemouth fees', 'study in UK', 'UK university'],

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Bocconi University Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'Bocconi University Courses — Fees & IELTS 2026',
   description: '14 programs at Bocconi University for international students. €14,800/yr. IELTS 7+. September intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/bocconi-university/courses',
   keywords: ['Bocconi courses', 'Bocconi University international', 'study in Italy', 'Italy university'],

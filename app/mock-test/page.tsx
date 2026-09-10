@@ -5,7 +5,7 @@ import JsonLd from '@/components/JsonLd';
 import MockTestRecommend from '@/components/MockTestRecommend';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Free IELTS Mock Test 2026 – Full Test + Reading, Listening, Writing, Speaking | Jaivik Overseas',
+  title: 'Free IELTS Mock Test 2026 — All 4 Sections',
   description: 'Take a free IELTS mock test online. Choose Beginner, Intermediate, or Advanced level. Full test or individual sections — Reading, Listening, Writing, Speaking — with auto band scoring.',
   path: '/mock-test',
   keywords: [

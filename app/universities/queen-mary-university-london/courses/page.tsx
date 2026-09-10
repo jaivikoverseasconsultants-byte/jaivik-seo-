@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Queen Mary University of London International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Queen Mary University of London Courses — Fees & IELTS 2026',
   description: `Queen Mary University of London — ${(qmulCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/queen-mary-university-london/courses',
   keywords: ['QMUL courses', 'Queen Mary University of London international', 'QMUL fees', 'study in UK', 'UK university'],

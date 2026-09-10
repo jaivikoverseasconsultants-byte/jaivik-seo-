@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getMurdochCoursesBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Murdoch University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Murdoch University`,
     description: `${course.name} at Murdoch University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/murdoch-university/courses/${slug}`,
     keywords: [course.name, 'Murdoch', 'Murdoch University', 'study in Australia', course.level],

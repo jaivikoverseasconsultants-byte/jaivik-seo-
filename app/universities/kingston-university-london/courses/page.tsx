@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Kingston University London International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Kingston University London Courses — Fees & IELTS 2026',
   description: `Kingston University London — ${(kingstonCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/kingston-university-london/courses',
   keywords: ['Kingston courses', 'Kingston University London international', 'Kingston fees', 'study in UK', 'UK university'],

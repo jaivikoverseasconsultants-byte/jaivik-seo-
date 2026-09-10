@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getSheffieldHallamCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Sheffield Hallam University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Sheffield Hallam University`,
     description: `${course.name} at Sheffield Hallam University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/sheffield-hallam-university/courses/${slug}`,
     keywords: [course.name, 'SHU', 'Sheffield Hallam University', 'study in UK', course.level],

@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Royal Holloway, University of London International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Royal Holloway, University of London Courses — Fees & IELTS 2026',
   description: `Royal Holloway, University of London — ${(rhulCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/royal-holloway-university-london/courses',
   keywords: ['Royal Holloway courses', 'Royal Holloway, University of London international', 'Royal Holloway fees', 'study in UK', 'UK university'],

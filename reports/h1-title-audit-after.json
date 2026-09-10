@@ -1,0 +1,833 @@
+{
+  "generated": "2026-09-10T01:51:15.078Z",
+  "pixelLimit": 561,
+  "charLimit": 60,
+  "totals": {
+    "pages": 21789,
+    "missingH1": 9,
+    "titlesOverPx": 20252,
+    "titlesOverChars": 21653
+  },
+  "missingH1ByTemplate": {
+    "/dashboard/*": {
+      "missing": 2,
+      "total": 2,
+      "examples": [
+        "/dashboard/student",
+        "/dashboard/trainer"
+      ]
+    },
+    "/dashboard": {
+      "missing": 1,
+      "total": 1,
+      "examples": [
+        "/dashboard"
+      ]
+    },
+    "/student-login": {
+      "missing": 1,
+      "total": 1,
+      "examples": [
+        "/student-login"
+      ]
+    },
+    "/student-portal/*": {
+      "missing": 2,
+      "total": 2,
+      "examples": [
+        "/student-portal/dashboard",
+        "/student-portal/verify"
+      ]
+    },
+    "/student-portal": {
+      "missing": 1,
+      "total": 1,
+      "examples": [
+        "/student-portal"
+      ]
+    },
+    "/trainer-dashboard": {
+      "missing": 1,
+      "total": 1,
+      "examples": [
+        "/trainer-dashboard"
+      ]
+    },
+    "/universities/country/[country]": {
+      "missing": 1,
+      "total": 17,
+      "examples": [
+        "/universities/country/united-kingdom"
+      ]
+    }
+  },
+  "titlesByTemplate": {
+    "/404": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 269,
+      "sample": "404: This page could not be found."
+    },
+    "/australia-under-10-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 655,
+      "sample": "Study in Australia Under ₹10 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/australia-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 655,
+      "sample": "Study in Australia Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/australia-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 655,
+      "sample": "Study in Australia Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/australia-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 655,
+      "sample": "Study in Australia Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-canada-for-computer-science": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 845,
+      "sample": "Australia vs Canada for Computer Science — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-canada-for-data-science": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 806,
+      "sample": "Australia vs Canada for Data Science — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-canada-for-finance-accounting": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 872,
+      "sample": "Australia vs Canada for Finance & Accounting — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-canada-for-mba": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 741,
+      "sample": "Australia vs Canada for MBA — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-uk-for-computer-science": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 809,
+      "sample": "Australia vs UK for Computer Science — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-uk-for-data-science": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 770,
+      "sample": "Australia vs UK for Data Science — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-uk-for-finance-accounting": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 836,
+      "sample": "Australia vs UK for Finance & Accounting — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/australia-vs-uk-for-mba": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 705,
+      "sample": "Australia vs UK for MBA — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/blog/[slug]": {
+      "over": 30,
+      "total": 30,
+      "maxPx": 949,
+      "sample": "Australia Student Visa Subclass 500 Guide 2026 – Process, Documents & Cost for Indians | Jaivik Overseas Consultants"
+    },
+    "/blog": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 558,
+      "sample": "Study Abroad Blog 2026 — Tips & Guides | Jaivik Overseas Consultants"
+    },
+    "/book-counselling": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 528,
+      "sample": "Book Free Study Abroad Counselling | Jaivik Overseas Consultants"
+    },
+    "/canada-under-10-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Canada Under ₹10 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/canada-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Canada Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/canada-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Canada Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/canada-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Canada Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/canada-vs-uk-for-computer-science": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 801,
+      "sample": "Canada vs UK for Computer Science — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/canada-vs-uk-for-data-science": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 762,
+      "sample": "Canada vs UK for Data Science — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/canada-vs-uk-for-finance-accounting": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 828,
+      "sample": "Canada vs UK for Finance & Accounting — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/canada-vs-uk-for-mba": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 697,
+      "sample": "Canada vs UK for MBA — Fees, Courses & PSW Compared | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-australia": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 777,
+      "sample": "Cheapest Universities in Australia for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-canada": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 769,
+      "sample": "Cheapest Universities in Canada for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-denmark": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 780,
+      "sample": "Cheapest Universities in Denmark for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-finland": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 768,
+      "sample": "Cheapest Universities in Finland for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-germany": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 780,
+      "sample": "Cheapest Universities in Germany for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-ireland": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 768,
+      "sample": "Cheapest Universities in Ireland for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-netherlands": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 802,
+      "sample": "Cheapest Universities in Netherlands for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-new-zealand": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 816,
+      "sample": "Cheapest Universities in New Zealand for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-singapore": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 788,
+      "sample": "Cheapest Universities in Singapore for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-sweden": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 775,
+      "sample": "Cheapest Universities in Sweden for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-uk": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 733,
+      "sample": "Cheapest Universities in UK for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-united-arab-emirates": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 874,
+      "sample": "Cheapest Universities in United Arab Emirates for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/cheapest-universities-usa": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 746,
+      "sample": "Cheapest Universities in USA for Indian Students — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/compare/*": {
+      "over": 10,
+      "total": 10,
+      "maxPx": 880,
+      "sample": "University of Sydney vs University of Technology Sydney — Fees, Courses & PSW | Jaivik Overseas Consultants"
+    },
+    "/compare": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 572,
+      "sample": "Compare Countries, Universities & Courses | Jaivik Overseas Consultants"
+    },
+    "/computer-science-abroad-for-indian-students": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 743,
+      "sample": "Computer Science Abroad — Fees in INR, IELTS & Universities | Jaivik Overseas Consultants"
+    },
+    "/contact": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 722,
+      "sample": "Contact Jaivik Overseas Consultants — Ghaziabad, Delhi NCR | Jaivik Overseas Consultants"
+    },
+    "/cost-calculator": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 671,
+      "sample": "Study Abroad Cost Calculator 2026 — Total Cost in INR | Jaivik Overseas Consultants"
+    },
+    "/cost-of-living/*": {
+      "over": 3,
+      "total": 3,
+      "maxPx": 732,
+      "sample": "Cost of Living in Australia 2026: Sydney, Melbourne & Brisbane | Jaivik Overseas Consultants"
+    },
+    "/cost-of-living": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 652,
+      "sample": "Cost of Living Abroad 2026 — Canada, UK & Australia | Jaivik Overseas Consultants"
+    },
+    "/cost-of-studying-in-australia": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 705,
+      "sample": "Cost of Studying in Australia — Tuition + Living in INR 2026 | Jaivik Overseas Consultants"
+    },
+    "/cost-of-studying-in-canada": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 697,
+      "sample": "Cost of Studying in Canada — Tuition + Living in INR 2026 | Jaivik Overseas Consultants"
+    },
+    "/cost-of-studying-in-uk": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 661,
+      "sample": "Cost of Studying in UK — Tuition + Living in INR 2026 | Jaivik Overseas Consultants"
+    },
+    "/course-finder": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 585,
+      "sample": "Course & University Finder — Fees & IELTS | Jaivik Overseas Consultants"
+    },
+    "/courses/[slug]": {
+      "over": 125,
+      "total": 125,
+      "maxPx": 871,
+      "sample": "Computer Science & Information Systems Abroad — Fees, IELTS & Universities | Jaivik Overseas Consultants"
+    },
+    "/courses/category/[category]": {
+      "over": 6,
+      "total": 6,
+      "maxPx": 768,
+      "sample": "Engineering & Technology Courses Abroad — Fees & Eligibility 2026 | Jaivik Overseas Consultants"
+    },
+    "/courses-with-psw/[country]": {
+      "over": 6,
+      "total": 6,
+      "maxPx": 812,
+      "sample": "Courses in Germany with the 18-Month Job-Seeker Permit — Fees in INR | Jaivik Overseas Consultants"
+    },
+    "/courses": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 842,
+      "sample": "Courses to Study Abroad from India 2026 — Fees, IELTS & Top Universities | Jaivik Overseas Consultants"
+    },
+    "/currency-converter": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 593,
+      "sample": "Currency Converter — USD, GBP, CAD to INR | Jaivik Overseas Consultants"
+    },
+    "/dashboard/*": {
+      "over": 0,
+      "total": 2,
+      "maxPx": 530,
+      "sample": "Student Dashboard – Applications, Visa & IELTS | Jaivik Overseas"
+    },
+    "/dashboard": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 612,
+      "sample": "Student Dashboard – Applications & Visa Status | Jaivik Overseas Consultants"
+    },
+    "/data-science-abroad-for-indian-students": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 704,
+      "sample": "Data Science Abroad — Fees in INR, IELTS & Universities | Jaivik Overseas Consultants"
+    },
+    "/denmark-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Denmark Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/denmark-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Denmark Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/denmark-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Denmark Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/eligibility-checker": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 718,
+      "sample": "University Eligibility Checker 2026 — Free for Indian Students | Jaivik Overseas Consultants"
+    },
+    "/finance-accounting-abroad-for-indian-students": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 771,
+      "sample": "Finance & Accounting Abroad — Fees in INR, IELTS & Universities | Jaivik Overseas Consultants"
+    },
+    "/find-my-course": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 540,
+      "sample": "Find My Course | Real University Course Matcher for Indian Students"
+    },
+    "/finland-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Finland Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/finland-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Finland Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/finland-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Finland Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/germany-under-10-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Germany Under ₹10 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/germany-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Germany Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/germany-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Germany Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/germany-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 658,
+      "sample": "Study in Germany Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/ielts-6-0-universities": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 922,
+      "sample": "What IELTS 6.0 Really Means for Studying Abroad — Honest Guide for Indian Students | Jaivik Overseas Consultants"
+    },
+    "/ielts-6-5-universities": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 922,
+      "sample": "What IELTS 6.5 Really Means for Studying Abroad — Honest Guide for Indian Students | Jaivik Overseas Consultants"
+    },
+    "/ielts-7-0-universities": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 922,
+      "sample": "What IELTS 7.0 Really Means for Studying Abroad — Honest Guide for Indian Students | Jaivik Overseas Consultants"
+    },
+    "/ielts-coaching": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 462,
+      "sample": "IELTS Coaching & Trainers | Jaivik Overseas Consultants"
+    },
+    "/ielts-mock-test": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 670,
+      "sample": "Free IELTS Mock Test — Band 1-9 with AI Feedback | Jaivik Overseas Consultants"
+    },
+    "/": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 433,
+      "sample": "Jaivik Overseas Consultants | Study Abroad from India"
+    },
+    "/ireland-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Ireland Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/ireland-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Ireland Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/ireland-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 647,
+      "sample": "Study in Ireland Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/italy-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 627,
+      "sample": "Study in Italy Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/italy-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 627,
+      "sample": "Study in Italy Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/italy-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 627,
+      "sample": "Study in Italy Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/low-cgpa-universities-abroad": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 595,
+      "sample": "Low CGPA Universities Abroad — 2026 Guide | Jaivik Overseas Consultants"
+    },
+    "/mba-abroad-for-indian-students": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 639,
+      "sample": "MBA Abroad — Fees in INR, IELTS & Universities | Jaivik Overseas Consultants"
+    },
+    "/mock-test/[level]": {
+      "over": 8,
+      "total": 15,
+      "maxPx": 590,
+      "sample": "IELTS Speaking Mock Test – Intermediate | Jaivik Overseas Consultants"
+    },
+    "/mock-test": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 603,
+      "sample": "Free IELTS Mock Test 2026 — All 4 Sections | Jaivik Overseas Consultants"
+    },
+    "/netherlands-under-10-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 680,
+      "sample": "Study in Netherlands Under ₹10 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/netherlands-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 680,
+      "sample": "Study in Netherlands Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/netherlands-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 680,
+      "sample": "Study in Netherlands Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/netherlands-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 680,
+      "sample": "Study in Netherlands Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/new-zealand-under-10-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 694,
+      "sample": "Study in New Zealand Under ₹10 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/new-zealand-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 694,
+      "sample": "Study in New Zealand Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/new-zealand-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 694,
+      "sample": "Study in New Zealand Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/new-zealand-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 694,
+      "sample": "Study in New Zealand Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/nursing-abroad": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 673,
+      "sample": "BSc Nursing Abroad — Fees in INR for Indian Students | Jaivik Overseas Consultants"
+    },
+    "/privacy-policy": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 353,
+      "sample": "Privacy Policy | Jaivik Overseas Consultants"
+    },
+    "/scholarships-and-low-budget-guide": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 784,
+      "sample": "Study Abroad Without IELTS, Low Budget & Scholarships — Honest Guide for Indian Students 2026"
+    },
+    "/scholarships": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 666,
+      "sample": "Scholarships for Indian Students Abroad — 2026 Guide | Jaivik Overseas Consultants"
+    },
+    "/singapore-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 666,
+      "sample": "Study in Singapore Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/student-login": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 368,
+      "sample": "Student Login – Jaivik Overseas Portal (BETA)"
+    },
+    "/student-portal/*": {
+      "over": 1,
+      "total": 2,
+      "maxPx": 578,
+      "sample": "My Dashboard – Applications & Visa Status | Jaivik Overseas Consultants"
+    },
+    "/student-portal": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 554,
+      "sample": "Student Portal – Track Your Applications | Jaivik Overseas Consultants"
+    },
+    "/study-abroad-without-ielts": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 581,
+      "sample": "Study Abroad Without IELTS — 2026 Guide | Jaivik Overseas Consultants"
+    },
+    "/study-gap-accepted-universities": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 592,
+      "sample": "Study Abroad With a Study Gap — 2026 Guide | Jaivik Overseas Consultants"
+    },
+    "/sweden-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 653,
+      "sample": "Study in Sweden Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/sweden-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 653,
+      "sample": "Study in Sweden Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/sweden-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 653,
+      "sample": "Study in Sweden Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/terms": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 345,
+      "sample": "Terms of Use | Jaivik Overseas Consultants"
+    },
+    "/thank-you": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 433,
+      "sample": "Jaivik Overseas Consultants | Study Abroad from India"
+    },
+    "/trainer-dashboard": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 350,
+      "sample": "Trainer Dashboard | Jaivik Overseas IELTS"
+    },
+    "/uk-under-10-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 612,
+      "sample": "Study in UK Under ₹10 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/uk-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 612,
+      "sample": "Study in UK Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/uk-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 612,
+      "sample": "Study in UK Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/uk-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 612,
+      "sample": "Study in UK Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/united-arab-emirates-under-15-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 752,
+      "sample": "Study in United Arab Emirates Under ₹15 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/united-arab-emirates-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 752,
+      "sample": "Study in United Arab Emirates Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/united-arab-emirates-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 752,
+      "sample": "Study in United Arab Emirates Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/universities/[slug]": {
+      "over": 493,
+      "total": 493,
+      "maxPx": 906,
+      "sample": "Management Development Institute of Singapore — Fees, Courses & Admission 2026 | Jaivik Overseas Consultants"
+    },
+    "/universities/[uni]/courses/[slug]": {
+      "over": 19353,
+      "total": 20847,
+      "maxPx": 1804,
+      "sample": "Psychology with Specialization in School Psychology for Teacher Certification at Vocational Schools Bachelors Supplementary Degree Program Component Sonstiges at Technical University of Munich | Jaivik Overseas Consultants"
+    },
+    "/universities/[uni]/courses": {
+      "over": 97,
+      "total": 116,
+      "maxPx": 806,
+      "sample": "University of Illinois Urbana-Champaign Courses — Fees & IELTS 2026 | Jaivik Overseas Consultants"
+    },
+    "/universities/country/[country]": {
+      "over": 16,
+      "total": 17,
+      "maxPx": 674,
+      "sample": "Study in New Zealand — Fees, Universities & Visa 2026 | Jaivik Overseas Consultants"
+    },
+    "/universities-accepting-backlogs": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 614,
+      "sample": "Universities Abroad That Accept Backlogs 2026 | Jaivik Overseas Consultants"
+    },
+    "/universities": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 635,
+      "sample": "Top 300+ Universities Abroad 2026 — Fees & Rank | Jaivik Overseas Consultants"
+    },
+    "/usa-under-20-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 624,
+      "sample": "Study in USA Under ₹20 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/usa-under-25-lakh": {
+      "over": 1,
+      "total": 1,
+      "maxPx": 624,
+      "sample": "Study in USA Under ₹25 Lakh — Real Course List | Jaivik Overseas Consultants"
+    },
+    "/visa-guide/*": {
+      "over": 5,
+      "total": 5,
+      "maxPx": 717,
+      "sample": "Canada Student Visa Guide 2026: Study Permit & Documents | Jaivik Overseas Consultants"
+    },
+    "/visa-guide": {
+      "over": 0,
+      "total": 1,
+      "maxPx": 443,
+      "sample": "Student Visa Guides 2026 | Jaivik Overseas Consultants"
+    }
+  },
+  "missingH1Routes": [
+    "/dashboard/student",
+    "/dashboard/trainer",
+    "/dashboard",
+    "/student-login",
+    "/student-portal/dashboard",
+    "/student-portal/verify",
+    "/student-portal",
+    "/trainer-dashboard",
+    "/universities/country/united-kingdom"
+  ]
+}

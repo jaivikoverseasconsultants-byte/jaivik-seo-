@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Helsinki Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'University of Helsinki Courses — Fees & IELTS 2026',
   description: '107 programs at University of Helsinki for international students. €13,000/yr. IELTS 6.5+. September intake. Free admission guidance from Jaivik Overseas.',
   path: '/universities/university-of-helsinki/courses',
   keywords: ['University of Helsinki courses', 'Helsinki international students', 'study in Finland', 'Finland university'],

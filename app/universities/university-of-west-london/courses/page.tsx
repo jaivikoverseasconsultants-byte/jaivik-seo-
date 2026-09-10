@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UWL International Courses – All Programs, Fees & IELTS 2026',
+  title: 'UWL Courses — Fees & IELTS 2026',
   description: `University of West London — ${(westlondonCourses as unknown as any[]).length} courses for international students. IELTS 6+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-west-london/courses',
   keywords: ['UWL courses', 'University of West London international', 'UWL fees', 'study in UK', 'UK university'],

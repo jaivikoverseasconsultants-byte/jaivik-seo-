@@ -73,7 +73,7 @@ export async function generateMetadata(
       u.popularCourses?.some(c => cat.keywords.some(k => c.toLowerCase().includes(k)))
     ).length;
     return buildMetadata({
-      title: `${cat.name} Abroad for Indian Students 2026 – Fees, IELTS & Universities`,
+      title: `${cat.name} Abroad — Fees, IELTS & Universities`,
       description: `Study ${cat.name} abroad. ${matchCount}+ universities in ${cat.topCountries.join(', ')}. Avg fee $${Math.round(cat.avgFeeUSD / 1000)}K/yr, IELTS ${cat.ieltsTypical}+. Free guidance from Jaivik Overseas.`,
       path: `/courses/${slug}`,
       keywords: [`${cat.name} abroad`, `${cat.name} universities`, `study ${cat.name} india`, `${cat.name} fees for indian students`],
@@ -84,7 +84,7 @@ export async function generateMetadata(
   const c = getCourseBySlug(slug);
   if (!c) return {} as Metadata;
   return buildMetadata({
-    title: `${c.name} Abroad – Fees, Salary, Eligibility & Top Universities 2026`,
+    title: `${c.name} Abroad — Fees, Salary & Universities`,
     description: `${c.name} abroad – Duration: ${c.duration}. Avg fees: ${formatUSD(c.avgFeesUSD)} (${formatINR(c.avgFeesINR)}). Avg salary: ${formatUSD(c.avgSalaryUSD)}/year. Job growth: ${c.roi.jobGrowthRate}%. Available in ${c.countriesOffered.slice(0, 3).join(', ')}.`,
     path: `/courses/${slug}`,
     keywords: [c.name, c.category, 'study abroad', 'fees', 'eligibility', 'salary'],

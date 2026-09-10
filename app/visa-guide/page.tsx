@@ -4,7 +4,7 @@ import { visaGuides } from '@/data/visa-guides';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Student Visa Guides 2026 for Indian Students | Jaivik Overseas',
+  title: 'Student Visa Guides 2026',
   description: 'Complete student visa guides for Indian students in 2026. Canada, UK, Australia, Germany, and USA — step-by-step process, documents, timelines, and expert tips.',
   path: '/visa-guide',
   keywords: ['student visa guide', 'study abroad visa 2026', 'canada student visa', 'uk student visa', 'australia student visa', 'germany student visa'],

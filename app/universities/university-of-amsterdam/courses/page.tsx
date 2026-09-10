@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Amsterdam Courses 2026 – Programs, Fees & IELTS for Indian Students',
+  title: 'University of Amsterdam Courses — Fees & IELTS 2026',
   description: '20 programs at University of Amsterdam for international students. €16,200/yr. IELTS 6.5+. September & February intakes. Free admission guidance from Jaivik Overseas.',
   path: '/universities/university-of-amsterdam/courses',
   keywords: ['UvA courses', 'University of Amsterdam international', 'study in Netherlands', 'Netherlands university'],

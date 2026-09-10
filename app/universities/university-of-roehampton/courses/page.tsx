@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Roehampton International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Roehampton Courses — Fees & IELTS 2026',
   description: `University of Roehampton — ${(roehamCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-roehampton/courses',
   keywords: ['Roehampton courses', 'University of Roehampton international', 'Roehampton fees', 'study in UK', 'UK university'],

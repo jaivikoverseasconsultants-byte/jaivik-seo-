@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Dublin City University International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Dublin City University Courses — Fees & IELTS 2026',
   description: `Dublin City University – ${(dcuCourses as unknown as any[]).length} courses for international students. Free guidance from Jaivik Overseas Consultants.`,
   path: '/universities/dublin-city-university/courses',
   keywords: ['DCU courses', 'Dublin City University international', 'study in Ireland'],

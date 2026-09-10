@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'University of Dundee International Courses – All Programs, Fees & IELTS 2026',
+  title: 'University of Dundee Courses — Fees & IELTS 2026',
   description: `University of Dundee — ${(dundeeCourses as unknown as any[]).length} courses for international students. IELTS 6+. September intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-dundee/courses',
   keywords: ['Dundee courses', 'University of Dundee international', 'Dundee fees', 'study in UK', 'UK university'],

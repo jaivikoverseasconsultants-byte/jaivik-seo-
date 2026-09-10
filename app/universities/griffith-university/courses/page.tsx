@@ -9,7 +9,7 @@ import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 export const metadata: Metadata = buildMetadata({
-  title: 'Griffith International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Griffith Courses — Fees & IELTS 2026',
   description: `Griffith University — ${(griffithCourses as unknown as any[]).length} courses for international students. IELTS 6+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/griffith-university/courses',
   keywords: ['Griffith courses', 'Griffith University international', 'Griffith fees', 'study in Australia'],

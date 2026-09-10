@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Kaplan International Courses – All Programs, Fees & IELTS 2026',
+  title: 'Kaplan Courses — Fees & IELTS 2026',
   description: `Kaplan Business School — ${(kaplanCourses as unknown as any[]).length} courses for international students. IELTS 6+. January & April & July & October intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/kaplan-business-school/courses',
   keywords: ['Kaplan courses', 'Kaplan Business School international', 'Kaplan fees', 'study in Australia'],

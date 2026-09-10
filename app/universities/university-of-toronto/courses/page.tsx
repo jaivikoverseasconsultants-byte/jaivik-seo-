@@ -8,7 +8,7 @@ import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'UofT International Courses – All Programs, Fees & IELTS 2026',
+  title: 'UofT Courses — Fees & IELTS 2026',
   description: `University of Toronto — ${(uoftCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 6.5+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-toronto/courses',
   keywords: ['UofT courses', 'University of Toronto international', 'UofT fees', 'study in Canada', 'Canada university', 'PGWP'],

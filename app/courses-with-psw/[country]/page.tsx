@@ -87,7 +87,7 @@ export async function generateMetadata({ params }: { params: Promise<{ country: 
   const data = getPswCourses(countrySlug);
   if (!data) return {};
   return buildMetadata({
-    title: `${COUNTRY_HEADLINE[data.country]} — Full List with Fees in INR`,
+    title: `${COUNTRY_HEADLINE[data.country]} — Fees in INR`,
     description: `${data.rows.length} real courses in ${data.country} that qualify for post-study work rights based on programme duration, with fees converted to INR and direct links to every course.`,
     path: `/courses-with-psw/${countrySlug}`,
     keywords: [`post study work visa ${data.country}`, `PGWP eligible courses`, `${data.country} PR pathway courses for Indian students`],

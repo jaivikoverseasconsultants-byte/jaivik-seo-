@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getLondonmetCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at London Metropolitan University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at London Metropolitan University`,
     description: `${course.name} at London Metropolitan University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/london-metropolitan-university/courses/${slug}`,
     keywords: [course.name, 'London Met', 'London Metropolitan University', 'study in UK', course.level],

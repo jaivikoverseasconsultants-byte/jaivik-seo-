@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getRhulCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Royal Holloway, University of London — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Royal Holloway, University of London`,
     description: `${course.name} at Royal Holloway, University of London, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/royal-holloway-university-london/courses/${slug}`,
     keywords: [course.name, 'Royal Holloway', 'Royal Holloway, University of London', 'study in UK', course.level],

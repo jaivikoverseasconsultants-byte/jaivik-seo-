@@ -8,7 +8,7 @@ import { COMMON_COUNTRY_HUB_LINKS, SUBJECT_PILLAR_LINKS, CHEAPEST_HUB_LINKS } fr
 
 export async function generateMetadata(): Promise<Metadata> {
   return buildMetadata({
-    title: 'Universities Abroad That Accept Backlogs — Honest Guide for Indian Students 2026',
+    title: 'Universities Abroad That Accept Backlogs 2026',
     description: 'What counts as a backlog, how admissions teams generally view them, and how to find out which specific universities will accept yours — a real, no-fabrication guide, not a list of invented per-university numbers.',
     path: '/universities-accepting-backlogs',
     keywords: ['universities accepting backlogs abroad', 'study abroad with backlogs india', 'how many backlogs allowed abroad', 'backlog friendly universities'],

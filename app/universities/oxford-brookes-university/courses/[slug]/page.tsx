@@ -24,7 +24,7 @@ export async function generateMetadata(
   const course = getBrookesCourseBySlug(slug);
   if (!course) return {};
   return buildMetadata({
-    title: `${course.name} at Oxford Brookes University — ${titleFeeFragment(course as any, course.annualINR)}IELTS & Requirements for Indian Students`,
+    title: `${course.name} at Oxford Brookes University`,
     description: `${course.name} at Oxford Brookes University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/oxford-brookes-university/courses/${slug}`,
     keywords: [course.name, 'Oxford Brookes', 'Oxford Brookes University', 'study in UK', course.level],
