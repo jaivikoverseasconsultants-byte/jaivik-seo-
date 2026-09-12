@@ -1,0 +1,44 @@
+[
+  {
+    "key": "durham",
+    "count": 151,
+    "withFee": 129,
+    "verified": 129
+  },
+  {
+    "key": "tmu",
+    "count": 121,
+    "withFee": 65,
+    "verified": 0
+  },
+  {
+    "key": "unb",
+    "count": 95,
+    "withFee": 0,
+    "verified": 0
+  },
+  {
+    "key": "waterloo_ug",
+    "count": 107,
+    "withFee": 107,
+    "verified": 0
+  },
+  {
+    "key": "york",
+    "count": 106,
+    "withFee": 0,
+    "verified": 0
+  },
+  {
+    "key": "guelph",
+    "count": 198,
+    "withFee": 0,
+    "verified": 0
+  },
+  {
+    "key": "algonquin",
+    "count": 176,
+    "withFee": 0,
+    "verified": 0
+  }
+]

@@ -1,0 +1,454 @@
+[
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/minors",
+    "text": "Learn about adding minors to your degree →"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/business",
+    "text": "Discover Waterloo's business programs →"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/environmental-degrees",
+    "text": "Environmental programs at a glance"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/exchange-programs",
+    "text": "Study abroad"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/themes",
+    "text": "Programs by theme"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/by-faculty",
+    "text": "Programs by faculty"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/accounting-and-financial-management",
+    "text": "Accounting and Financial Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/actuarial-science",
+    "text": "Actuarial Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/anthropology",
+    "text": "Anthropology"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/applied-mathematics",
+    "text": "Applied Mathematics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/applied-mathematics-scientific-computing",
+    "text": "Applied Mathematics with Scientific Computing and Scientific Machine Learning"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/architectural-engineering",
+    "text": "Architectural Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/architecture",
+    "text": "Architecture"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/bachelor-of-arts",
+    "text": "Bachelor of Arts"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/bachelor-of-science",
+    "text": "Bachelor of Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/biochemistry",
+    "text": "Biochemistry"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/biological-and-medical-physics",
+    "text": "Biological and Medical Physics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/biology",
+    "text": "Biology"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/biomedical-engineering",
+    "text": "Biomedical Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/biomedical-sciences",
+    "text": "Biomedical Sciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/biostatistics",
+    "text": "Biostatistics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/business-administration-computer-science-double-degree",
+    "text": "Business Administration (Laurier) and Computer Science (Waterloo) Double Degree"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/business-administration-mathematics-double-degree",
+    "text": "Business Administration (Laurier) and Mathematics (Waterloo) Double Degree"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/chemical-engineering",
+    "text": "Chemical Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/chemistry",
+    "text": "Chemistry"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/civil-engineering",
+    "text": "Civil Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/classical-studies",
+    "text": "Classical Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/climate-environmental-change",
+    "text": "Climate and Environmental Change"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/combinatorics-and-optimization",
+    "text": "Combinatorics and Optimization"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/communication-studies",
+    "text": "Communication Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/computational-mathematics",
+    "text": "Computational Mathematics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/computer-engineering",
+    "text": "Computer Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/computer-science",
+    "text": "Computer Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/computing-and-financial-management",
+    "text": "Computing and Financial Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/data-science",
+    "text": "Data Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/earth-sciences",
+    "text": "Earth Sciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/economics",
+    "text": "Economics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/education-teaching",
+    "text": "Education (teaching)"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/electrical-engineering",
+    "text": "Electrical Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/english",
+    "text": "English"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/environment-and-business",
+    "text": "Environment and Business"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/environment-resources-and-sustainability",
+    "text": "Environment, Resources and Sustainability"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/environmental-engineering",
+    "text": "Environmental Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/environmental-sciences",
+    "text": "Environmental Sciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/fine-arts",
+    "text": "Fine Arts"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/french",
+    "text": "French"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/gender-and-social-justice",
+    "text": "Gender and Social Justice"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/geography-and-aviation",
+    "text": "Geography and Aviation"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/geography-and-environmental-management",
+    "text": "Geography and Environmental Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/geological-engineering",
+    "text": "Geological Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/geospatial-data-science",
+    "text": "Geospatial Data Analysis"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/global-business-and-digital-arts",
+    "text": "Global Business and Digital Arts"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/health-sciences",
+    "text": "Health Sciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/history",
+    "text": "History"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/honours-arts",
+    "text": "Honours Arts"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/arts-and-business",
+    "text": "Honours Arts and Business"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/honours-science",
+    "text": "Honours Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/human-rights-law",
+    "text": "Human Rights and Law (LLB)"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/information-technology-management",
+    "text": "Information Technology Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/kinesiology",
+    "text": "Kinesiology"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/legal-studies",
+    "text": "Legal Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/liberal-studies",
+    "text": "Liberal Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/life-sciences",
+    "text": "Life Sciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/management-engineering",
+    "text": "Management Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/materials-and-nanosciences",
+    "text": "Materials and Nanosciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-economics",
+    "text": "Mathematical Economics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-finance",
+    "text": "Mathematical Finance"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-optimization",
+    "text": "Mathematical Optimization"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-physics",
+    "text": "Mathematical Physics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-studies",
+    "text": "Mathematical Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+    "text": "Mathematics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics-business-administration",
+    "text": "Mathematics/Business Administration"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics-accounting",
+    "text": "Mathematics/Chartered Professional Accountancy"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/financial-analysis-and-risk-management",
+    "text": "Mathematics/Financial Analysis and Risk Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/waterloo-math-teaching",
+    "text": "Mathematics/Teaching"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mechanical-engineering",
+    "text": "Mechanical Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/mechatronics-engineering",
+    "text": "Mechatronics Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/medical-sciences-and-md",
+    "text": "Medical Sciences (Waterloo) and Doctor of Medicine (St. George's University)"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/medicinal-chemistry",
+    "text": "Medicinal Chemistry"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/medieval-studies",
+    "text": "Medieval Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/music",
+    "text": "Music"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/nanotechnology-engineering",
+    "text": "Nanotechnology Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/optometry",
+    "text": "Optometry"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/peace-and-conflict-studies",
+    "text": "Peace and Conflict Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/pharmacy",
+    "text": "Pharmacy"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/philosophy",
+    "text": "Philosophy"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/physical-sciences",
+    "text": "Physical Sciences"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/physics",
+    "text": "Physics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/physics-and-astronomy",
+    "text": "Physics and Astronomy"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/planning",
+    "text": "Planning"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/political-science",
+    "text": "Political Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/pre-law",
+    "text": "Pre-law"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/psychology-arts",
+    "text": "Psychology – Bachelor of Arts"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/psychology-science",
+    "text": "Psychology – Bachelor of Science"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/public-health",
+    "text": "Public Health"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/pure-mathematics",
+    "text": "Pure Mathematics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/recreation-and-leisure-studies",
+    "text": "Recreation and Leisure Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/recreation-leadership-health",
+    "text": "Recreation, Leadership and Health"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/religion-culture-spirituality",
+    "text": "Religion, Culture, and Spirituality"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/science-and-aviation",
+    "text": "Science and Aviation"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/science-and-business",
+    "text": "Science and Business"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/science-financial-management",
+    "text": "Science and Financial Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/sexualities-relationships-families",
+    "text": "Sexualities, Relationships, and Families"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/social-development-studies",
+    "text": "Social Development Studies"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/sds-social-work-double-degree",
+    "text": "Social Development Studies and Bachelor of Social Work (BSW) Double Degree"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/sociology",
+    "text": "Sociology"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/software-engineering",
+    "text": "Software Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/sport-recreation-management",
+    "text": "Sport and Recreation Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/statistics",
+    "text": "Statistics"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/sustainability-financial-management",
+    "text": "Sustainability and Financial Management"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/systems-design-engineering",
+    "text": "Systems Design Engineering"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/theatre-performance",
+    "text": "Theatre and Performance"
+  },
+  {
+    "url": "https://uwaterloo.ca/future-students/programs/therapeutic-recreation",
+    "text": "Therapeutic Recreation"
+  }
+]

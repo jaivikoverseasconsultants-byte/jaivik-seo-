@@ -1,0 +1,2997 @@
+[
+  {
+    "sourceName": "Accounting (ACCT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/accounting-acct/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57215
+  },
+  {
+    "sourceName": "Agriculture (AGR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/agriculture-agr/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49882
+  },
+  {
+    "sourceName": "Agriculture, Honours (AGRS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/honours-agriculture-agrs/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60529
+  },
+  {
+    "sourceName": "Animal Biology (ABIO)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/animal-biology-abio/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52329
+  },
+  {
+    "sourceName": "Animal Science (ANSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/animal-science-ansc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60465
+  },
+  {
+    "sourceName": "Anthropology (ANTH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/anthropology-anth/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57357
+  },
+  {
+    "sourceName": "Applied Geomatics (AG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-geomatics-ag/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45791
+  },
+  {
+    "sourceName": "Applied Human Nutrition (AHN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-human-nutrition-ahn/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52559
+  },
+  {
+    "sourceName": "Art History (ARTH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/art-history-arth/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48600
+  },
+  {
+    "sourceName": "Arts and Sciences (AS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/arts-sciences-as/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 44433
+  },
+  {
+    "sourceName": "Bio- Medical Science (BIOM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/bio-medical-science-biom/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52435
+  },
+  {
+    "sourceName": "Biochemistry (BIOC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biochemistry-bioc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58765
+  },
+  {
+    "sourceName": "Biodiversity (BIOD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biodiversity-biod/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 50607
+  },
+  {
+    "sourceName": "Biological and Medical Physics (BMPH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-medical-physics-bmph/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52846
+  },
+  {
+    "sourceName": "Biological and Pharmaceutical Chemistry (BPCH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-pharmaceutical-chemistry-bpch/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 64187
+  },
+  {
+    "sourceName": "Biological Engineering (BIOE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-engineering-program-bioe/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56909
+  },
+  {
+    "sourceName": "Biological Science (BIOS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-science-bios/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55973
+  },
+  {
+    "sourceName": "Biology (BIOL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biology-biol/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45140
+  },
+  {
+    "sourceName": "Biomedical Engineering (BME)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biomedical-engineering-program-bme/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55468
+  },
+  {
+    "sourceName": "Biomedical Toxicology (BTOX)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biomedical-toxicology-btox/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53545
+  },
+  {
+    "sourceName": "Biotechnology (BIOT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biotechnology-biot/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45922
+  },
+  {
+    "sourceName": "Black Canadian Studies (BLCK)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/black-canadian-studies-blck/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47355
+  },
+  {
+    "sourceName": "Business (BUS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-bus/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51979
+  },
+  {
+    "sourceName": "Business Data Analytics (BDA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-data-analytics-bda/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47546
+  },
+  {
+    "sourceName": "Business Economics (BECN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-economics-becn/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46374
+  },
+  {
+    "sourceName": "Chemical Physics (CHPY)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/chemical-physics-chpy/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53210
+  },
+  {
+    "sourceName": "Chemistry (CHEM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/chemistry-chem/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58764
+  },
+  {
+    "sourceName": "Child Studies (CSTU)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/child-studies-cstu/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49910
+  },
+  {
+    "sourceName": "Civil Engineering (CIVE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/civil-engineering-program-cive/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54617
+  },
+  {
+    "sourceName": "Classical and Modern Cultures (CMC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/classical-modern-cultures-cmc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51803
+  },
+  {
+    "sourceName": "Classical Studies (CLAS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/classical-studies-clas/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46020
+  },
+  {
+    "sourceName": "Computer Engineering (CENG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computer-engineering-program-ceng/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52713
+  },
+  {
+    "sourceName": "Computer Science (CS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computer-science-cs/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "8 semesters",
+      "years": 4
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58376
+  },
+  {
+    "sourceName": "Computing and Information Science (CIS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computing-information-science-cis/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45598
+  },
+  {
+    "sourceName": "Creative Arts, Health and Wellness (CREA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/creative-arts-health-and-wellness/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 44509
+  },
+  {
+    "sourceName": "Creative Writing (CW)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/creative-writing-cw/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53680
+  },
+  {
+    "sourceName": "Criminal Justice and Public Policy (CJPP)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/criminal-justice-public-policy-cjpp/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 62514
+  },
+  {
+    "sourceName": "Crop Science (CRSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/crop-science-crsc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56189
+  },
+  {
+    "sourceName": "Culture and Technology Studies (CTS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/culture-and-technology-studies-cts/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 68213
+  },
+  {
+    "sourceName": "Earth Observation and Geographic Information Science (EO)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/earth-observation-gis-eo/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53558
+  },
+  {
+    "sourceName": "Ecology (ECOL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/ecology-ecol/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60309
+  },
+  {
+    "sourceName": "Economics (ECON)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 semesters",
+      "years": 2
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51501
+  },
+  {
+    "sourceName": "Engineering Systems and Computing (ESC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/engineering-systems-computing-program-esc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53437
+  },
+  {
+    "sourceName": "English (ENGL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/english-engl/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51338
+  },
+  {
+    "sourceName": "Entrepreneurship (ENT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/entrepreneurship-ent/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48416
+  },
+  {
+    "sourceName": "Environment and Resource Management (ERM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environment-resource-management-erm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52322
+  },
+  {
+    "sourceName": "Environmental Citizenship (ECT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-citizenship-ect/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46703
+  },
+  {
+    "sourceName": "Environmental Conservation (ECV)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-conservation-ecv/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46627
+  },
+  {
+    "sourceName": "Environmental Economics and Policy (EEP)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-economics-policy-eep/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55911
+  },
+  {
+    "sourceName": "Environmental Engineering (ENVE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-engineering-program-enve/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57821
+  },
+  {
+    "sourceName": "Environmental Governance (EGOV)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-governance-egov/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53285
+  },
+  {
+    "sourceName": "Environmental Management (EM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-management-major-em/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 61546
+  },
+  {
+    "sourceName": "Environmental Sciences (ENVS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-sciences-envs/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60075
+  },
+  {
+    "sourceName": "Equine Management (EQM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/equine-management-major-eqm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58629
+  },
+  {
+    "sourceName": "European Cultures (EC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/european-cultures/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45760
+  },
+  {
+    "sourceName": "Family and Child Studies (FCS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-child-studies-fcs/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46974
+  },
+  {
+    "sourceName": "Family Studies and Human Development (FSHD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-studies-human-development-fshd/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51682
+  },
+  {
+    "sourceName": "Food and Agricultural Business (FAB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-agricultural-business-fab/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52911
+  },
+  {
+    "sourceName": "Food Engineering (FENG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-engineering-feng/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46835
+  },
+  {
+    "sourceName": "Food Science (FOOD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-science-food/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56401
+  },
+  {
+    "sourceName": "Food, Agricultural and Resource Economics (FARE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-agricultural-resource-economics-fare/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56212
+  },
+  {
+    "sourceName": "French Studies (FREN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/french-studies-fren/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 semesters",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49279
+  },
+  {
+    "sourceName": "Geography (GEOG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/geography-geog/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51394
+  },
+  {
+    "sourceName": "German (GERM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/german-germ/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 semesters",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48019
+  },
+  {
+    "sourceName": "Government, Economics and Management (GEM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/government-economics-and-management-gem/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56594
+  },
+  {
+    "sourceName": "Health and Well- Being (HWB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/health-wellbeing-hwb/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47349
+  },
+  {
+    "sourceName": "History (HIST)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/history-hist/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56607
+  },
+  {
+    "sourceName": "Horticulture (HRT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/horticulture-hort/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57045
+  },
+  {
+    "sourceName": "Hospitality and Tourism Management (HTM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/hospitality-tourism-management-htm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57025
+  },
+  {
+    "sourceName": "Human Health and Nutritional Sciences (HHNS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-health-nutritional-sciences-hhns/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53992
+  },
+  {
+    "sourceName": "Human Kinetics (HK)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-kinetics-hk/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48968
+  },
+  {
+    "sourceName": "Human Resources (HR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-resources-hr/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45707
+  },
+  {
+    "sourceName": "Indigenous Environmental Governance (IEG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/indigenous-environmental-governance-ieg/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47785
+  },
+  {
+    "sourceName": "Indigenous Environmental Science and Practice (IESP)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/indigenous-environmental-sscience-practice-iesp/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 44551
+  },
+  {
+    "sourceName": "International Business (IB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-business-ib/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48558
+  },
+  {
+    "sourceName": "International Development Studies (IDS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-development-studies-ids/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 76348
+  },
+  {
+    "sourceName": "Italian (ITAL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/italian-ital/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 semesters",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46595
+  },
+  {
+    "sourceName": "Justice and Legal Studies (JLS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/justice-and-legal-studies-jls/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 89872
+  },
+  {
+    "sourceName": "Landscape Architecture (LA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/landscape-architecture-la/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 44451
+  },
+  {
+    "sourceName": "Leadership (LEAD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/leadership-lead/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46288
+  },
+  {
+    "sourceName": "Linguistics (LING)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/linguistics-ling/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47557
+  },
+  {
+    "sourceName": "Management (MGMT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/management-mgmt/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52706
+  },
+  {
+    "sourceName": "Management Economics and Finance (MEF)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/management-economics-finance-mef/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 68107
+  },
+  {
+    "sourceName": "Marine and Freshwater Biology (MFB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marine-freshwater-biology-mfb/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52659
+  },
+  {
+    "sourceName": "Marketing (MKTG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-mktg/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46028
+  },
+  {
+    "sourceName": "Marketing Management (MKMN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-management-mkmn/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 61168
+  },
+  {
+    "sourceName": "Mathematical Science (MSCI)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematical-science-msci/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51171
+  },
+  {
+    "sourceName": "Mathematics (MATH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematics-math/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45730
+  },
+  {
+    "sourceName": "Mechanical Engineering (MECH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mechanical-engineering-program-mech/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53711
+  },
+  {
+    "sourceName": "Mechatronics Engineering (MTE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mechatronics-engineering-program-mte/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58232
+  },
+  {
+    "sourceName": "Media and Cinema Studies (MCST)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/media-cinema-studies-mcst/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47137
+  },
+  {
+    "sourceName": "Microbiology (MICR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/microbiology-micr/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45933
+  },
+  {
+    "sourceName": "Microbiology and Immunology (MIMM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/microbiology-immunology-mimm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55610
+  },
+  {
+    "sourceName": "Molecular Biology and Genetics (MBG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/molecular-biology-genetics-mbg/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56136
+  },
+  {
+    "sourceName": "Museum Studies (MS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/museum-studies-ms/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45398
+  },
+  {
+    "sourceName": "Music (MUSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/music-musc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "25 Semester",
+      "years": 12.5
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54846
+  },
+  {
+    "sourceName": "Neuroscience (NEUR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/neuroscience-neur/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 63898
+  },
+  {
+    "sourceName": "Nutritional and Nutraceutical Sciences (NANS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/nutritional-nutraceutical-sciences-nans/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46479
+  },
+  {
+    "sourceName": "One Health (ONEH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/one-health-oneh/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 50089
+  },
+  {
+    "sourceName": "Philosophy (PHIL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/philosophy-phil/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47633
+  },
+  {
+    "sourceName": "Physical Science (PSCI)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/physical-science-psci/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49326
+  },
+  {
+    "sourceName": "Physics (PHYS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/physics-phys/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53896
+  },
+  {
+    "sourceName": "Plant Science (PLSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/plant-science-plsc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 62264
+  },
+  {
+    "sourceName": "Political Science (POLS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/political-science-pols/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 61214
+  },
+  {
+    "sourceName": "Project Management (PM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/project-management-pm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47945
+  },
+  {
+    "sourceName": "Psychology (PSYC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/psychology-psyc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "1 Year",
+      "years": 1
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56352
+  },
+  {
+    "sourceName": "Public Policy and Administration (PPA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/public-policy-administration-ppa/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46278
+  },
+  {
+    "sourceName": "Quantitative Economics and Finance (QEF)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/quantitative-economics-finance-qef/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 50110
+  },
+  {
+    "sourceName": "Real Estate (RE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/real-estate-re/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53494
+  },
+  {
+    "sourceName": "Restaurant and Beverage Management (RBM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/restaurant-beverage-mgmt-rbm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46262
+  },
+  {
+    "sourceName": "Sales (SALE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sale/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 45141
+  },
+  {
+    "sourceName": "Sexualities, Genders and Social Change (SXGN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sexualities-genders-and-social-change-sxgn/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55474
+  },
+  {
+    "sourceName": "Sociology (SOC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sociology-soc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47546
+  },
+  {
+    "sourceName": "Software Engineering (SENG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/software-engineering-seng/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "8 semesters",
+      "years": 4
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58978
+  },
+  {
+    "sourceName": "Spanish and Hispanic Studies (SPAH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/spanish-hispanic-studies-spah/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 46522
+  },
+  {
+    "sourceName": "Sport and Event Management (SPMT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sport-event-management-spmt/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "00 Semester",
+      "years": 0
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 59660
+  },
+  {
+    "sourceName": "Statistics (STAT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/statistics-stat/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47226
+  },
+  {
+    "sourceName": "Studio Art (SART)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/studio-art-sart/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48457
+  },
+  {
+    "sourceName": "Sustainable Business (SB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sustainable-business-sb/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49512
+  },
+  {
+    "sourceName": "Theatre Studies (THST)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/theatre-studies-thst/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48130
+  },
+  {
+    "sourceName": "Theoretical Physics (THPY)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/theoretical-physics-thpy/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49120
+  },
+  {
+    "sourceName": "Veterinary Medicine (VM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/veterinary-medicine-vm/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 44437
+  },
+  {
+    "sourceName": "Water Resources Engineering (WRE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/water-resources-engineering-program-wre/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54659
+  },
+  {
+    "sourceName": "Wildlife Biology and Conservation (WBC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/wildlife-biology-conservation-wbc/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "Fall",
+      "Winter",
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60895
+  },
+  {
+    "sourceName": "Zoology (ZOO)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/zoology-zoo/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49965
+  },
+  {
+    "sourceName": "Accounting",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/accounting/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55706
+  },
+  {
+    "sourceName": "Animal Biosciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/animal-biosciences/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 years",
+      "years": 2
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 71092
+  },
+  {
+    "sourceName": "Applied Molecular and Health Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/applied-molecular-health-sciences/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": 7,
+    "toefl": 93,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49929
+  },
+  {
+    "sourceName": "Bioinformatics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/bioinformatics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "12 months",
+      "years": 1
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": 7,
+    "toefl": 93,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 68485
+  },
+  {
+    "sourceName": "Biomedical Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/biomedical-sciences/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 semester",
+      "years": 1
+    },
+    "intakes": [
+      "Fall"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 83034
+  },
+  {
+    "sourceName": "Biophysics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/biophysics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55408
+  },
+  {
+    "sourceName": "Biotechnology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/biotechnology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "12 months",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": 7,
+    "toefl": 93,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56352
+  },
+  {
+    "sourceName": "Business Administration",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/business-administration/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 69808
+  },
+  {
+    "sourceName": "Capacity Development and Extension",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/capacity-development-extension/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58263
+  },
+  {
+    "sourceName": "Chemistry",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/chemistry/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 78153
+  },
+  {
+    "sourceName": "Clinical Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/clinical-studies/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 years",
+      "years": 2
+    },
+    "intakes": [
+      "August"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 72853
+  },
+  {
+    "sourceName": "Computational Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/computational-sciences/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 70120
+  },
+  {
+    "sourceName": "Computer Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/computer-science/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 71414
+  },
+  {
+    "sourceName": "Conservation Leadership",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/conservation-leadership/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "5 years",
+      "years": 5
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54717
+  },
+  {
+    "sourceName": "Creative Writing",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/creative-writing/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 63995
+  },
+  {
+    "sourceName": "Criminal Justice and Public Policy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/criminal-justice-public-policy/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49257
+  },
+  {
+    "sourceName": "Critical Studies in Improvisation",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/critical-studies-improvisation/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "1 Semester",
+      "years": 0.5
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54588
+  },
+  {
+    "sourceName": "Cybersecurity and Threat Intelligence",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/cybersecurity-threat-intelligence/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52495
+  },
+  {
+    "sourceName": "Cybersecurity Leadership and Cyberpreneurship",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/cybersecurity-leadership-cyberpreneurship/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52137
+  },
+  {
+    "sourceName": "Dairy Technology Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/dairy-technology-management/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 51010
+  },
+  {
+    "sourceName": "Data Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/data-science/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55846
+  },
+  {
+    "sourceName": "Development Practice and Global Justice",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/development-practice-global-justice/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49461
+  },
+  {
+    "sourceName": "Economics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/economics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 69662
+  },
+  {
+    "sourceName": "Engineering",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/engineering/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 138549
+  },
+  {
+    "sourceName": "Engineering Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/engineering-management/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52341
+  },
+  {
+    "sourceName": "English",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/english/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "Fall"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58427
+  },
+  {
+    "sourceName": "Environmental Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/environmental-sciences/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 semesters",
+      "years": 2
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 79430
+  },
+  {
+    "sourceName": "Family Relations and Applied Nutrition",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/family-relations-applied-nutrition/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "3 semesters",
+      "years": 1.5
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 105886
+  },
+  {
+    "sourceName": "Financial Economics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/financial-economics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52714
+  },
+  {
+    "sourceName": "Food Safety and Quality Assurance",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/food-safety-quality-assurance/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55784
+  },
+  {
+    "sourceName": "Food Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/food-science/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": 6.5,
+    "toefl": 89,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60239
+  },
+  {
+    "sourceName": "Food, Agricultural and Resource Economics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/food-agricultural-resource-economics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 72049
+  },
+  {
+    "sourceName": "Geography",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/geography/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 63074
+  },
+  {
+    "sourceName": "History - Tri- University Program",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/history-tri-university-program/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 86194
+  },
+  {
+    "sourceName": "Human Health and Nutritional Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/human-health-nutritional-sciences/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 semesters",
+      "years": 2
+    },
+    "intakes": [
+      "January",
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 71160
+  },
+  {
+    "sourceName": "Integrated Humanities",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/integrated-humanities/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 59580
+  },
+  {
+    "sourceName": "Integrative Biology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/integrative-biology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 semesters",
+      "years": 2
+    },
+    "intakes": [
+      "January",
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 62496
+  },
+  {
+    "sourceName": "Landscape Architecture",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/landscape-architecture/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "50 Semester",
+      "years": 25
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": 6.5,
+    "toefl": 93,
+    "pte": 63,
+    "tuitionIntl": [],
+    "chars": 62212
+  },
+  {
+    "sourceName": "Leadership",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/leadership/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55796
+  },
+  {
+    "sourceName": "Literary Studies/ Theatre Studies in English",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/literary-studies-theatre-studies-english/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 61850
+  },
+  {
+    "sourceName": "Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/management/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": 6.5,
+    "toefl": 89,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 85500
+  },
+  {
+    "sourceName": "Marketing and Consumer Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/marketing-consumer-studies/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 65027
+  },
+  {
+    "sourceName": "Mathematics and Statistics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/mathematics-statistics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 67672
+  },
+  {
+    "sourceName": "Medical Foundations",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/medical-foundations/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": 7,
+    "toefl": 93,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 50428
+  },
+  {
+    "sourceName": "Mental Health",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/mental-health/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "12 months",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52426
+  },
+  {
+    "sourceName": "Molecular and Cellular Biology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/molecular-cellular-biology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "January",
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 67789
+  },
+  {
+    "sourceName": "Organizational Consulting",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/organizational-consulting/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49759
+  },
+  {
+    "sourceName": "Pathobiology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/pathobiology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "2 years",
+      "years": 2
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 74981
+  },
+  {
+    "sourceName": "Philosophy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/philosophy/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "1 year",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 60428
+  },
+  {
+    "sourceName": "Physics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/physics/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "January",
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 78887
+  },
+  {
+    "sourceName": "Plant Agriculture",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/plant-agriculture/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 73562
+  },
+  {
+    "sourceName": "Political Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/political-science/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 years",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 76598
+  },
+  {
+    "sourceName": "Population Medicine",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/population-medicine/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "5 semesters",
+      "years": 2.5
+    },
+    "intakes": [
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 76486
+  },
+  {
+    "sourceName": "Project Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/project-management/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57382
+  },
+  {
+    "sourceName": "Psychology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/psychology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 97292
+  },
+  {
+    "sourceName": "Psychotherapy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/psychotherapy/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53954
+  },
+  {
+    "sourceName": "Public Health",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/public-health/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57750
+  },
+  {
+    "sourceName": "Public Issues Anthropology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/public-issues-anthropology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 years",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 58678
+  },
+  {
+    "sourceName": "Real Estate",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/real-estate/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 48417
+  },
+  {
+    "sourceName": "Relational and Family Therapy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/relational-family-therapy/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 53909
+  },
+  {
+    "sourceName": "Rural Planning and Development",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/rural-planning-development/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "3 years",
+      "years": 3
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 68124
+  },
+  {
+    "sourceName": "Rural Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/rural-studies/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54522
+  },
+  {
+    "sourceName": "Social Practice and Transformational Change",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/social-practice-transformational-change/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 55291
+  },
+  {
+    "sourceName": "Sociology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/sociology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4 years",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 65151
+  },
+  {
+    "sourceName": "Studio Art",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/studio-art/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57101
+  },
+  {
+    "sourceName": "Supply Chain Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/supply-chain-management/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "10 months",
+      "years": 0.8
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 49863
+  },
+  {
+    "sourceName": "Sustainable Agriculture",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/sustainable-agriculture/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": 6.5,
+    "toefl": 93,
+    "pte": 63,
+    "tuitionIntl": [],
+    "chars": 51789
+  },
+  {
+    "sourceName": "Theatre Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/theatre-studies/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [
+      "Fall"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54233
+  },
+  {
+    "sourceName": "Tourism and Hospitality",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/tourism-hospitality/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 57862
+  },
+  {
+    "sourceName": "Toxicology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/toxicology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 52038
+  },
+  {
+    "sourceName": "Wildlife Biology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/wildlife-biology/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 56555
+  },
+  {
+    "sourceName": "Veterinary Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/veterinary-science/",
+    "officialName": "2026-2027 Academic Calendar",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 47958
+  },
+  {
+    "sourceName": "Download Page (PDF)",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/graduate-programs.pdf",
+    "officialName": "Download Page (PDF)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 54657
+  }
+]

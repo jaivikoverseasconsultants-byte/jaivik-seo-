@@ -1,0 +1,218 @@
+{
+  "Algonquin College": {
+    "university": "Algonquin College",
+    "applicationFee": {
+      "amountCAD": 135,
+      "evidence": "tional Application Form ( International Application Form) • Application fee $135 CAD Admission To Undergraduate Certificate or Diploma Program (1/2/3 years) • High School Transcripts – Officially translated into English • English ",
+      "sourceUrl": "https://www.algonquincollege.com/international/future-students-2018/admissions-apply/"
+    },
+    "deposit": {
+      "amountCAD": 500,
+      "evidence": "ee what makes us unique. Register Now Step 6: Pay Your Fees Tuition Deposit In order to save your seat in the program, you will need to make a $500 non-refundable tuition deposit. The easiest way to do that is online banking: Log ",
+      "sourceUrl": "https://www.algonquincollege.com/ro/admissions/"
+    },
+    "scholarship": {
+      "maxAmountCAD": 1000,
+      "evidence": "IS each term Spriggs Pride in Health and Wellness Education Bursary The Financial Aid and Students Awards Office will annually award $1,000 each to five students who self identify as LGBTQIA2S+ in demonstrated financial need who are continuing from f",
+      "sourceUrl": "https://www.algonquincollege.com/financial-aid/awards-and-scholarships/college-wide-awards/",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 13
+  },
+  "Durham College": {
+    "university": "Durham College",
+    "applicationFee": null,
+    "deposit": {
+      "amountCAD": 500,
+      "evidence": "on once received (don’t wait—programs fill quickly) Pay the $500 tuition deposit by the deadline to reserve your seat Start classes and begin building career-ready skills APPLY AS AN INTERNATIONAL STUDENT Students from around the ",
+      "sourceUrl": "https://durhamcollege.ca/apply-now"
+    },
+    "scholarship": {
+      "maxAmountCAD": 2000,
+      "evidence": "k DC Home Info For Welcome Home! Study @ DC Global Entrance Scholarship Global Entrance Scholarship Accept your offer of admission as soon as possible and receive a $2,000 Global Entrance Scholarship! *Students applying for a Durham College Bachelor ",
+      "sourceUrl": "https://durhamcollege.ca/info-for/international/study-dc/global-entrance-scholarship-of-up-to-3000-for-all-international-students",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 26
+  },
+  "Kwantlen (KPU)": {
+    "university": "Kwantlen (KPU)",
+    "applicationFee": {
+      "amountCAD": 40,
+      "evidence": "ZEN AND PERMANENT RESIDENT APPLICANTS NON-REFUNDABLE AMOUNT Application Fee* $40 Confirmation Deposit for Open Intake programs (to accept offer) $250 Confirmation Deposit for Limited Intake programs (to accept offer) $500 INTERNAT",
+      "sourceUrl": "https://www.kpu.ca/admission/fees-deposits"
+    },
+    "deposit": {
+      "amountCAD": 250,
+      "evidence": "IDENT APPLICANTS NON-REFUNDABLE AMOUNT Application Fee* $40 Confirmation Deposit for Open Intake programs (to accept offer) $250 Confirmation Deposit for Limited Intake programs (to accept offer) $500 INTERNATIONAL APPLICANTS NON-",
+      "sourceUrl": "https://www.kpu.ca/admission/fees-deposits"
+    },
+    "scholarship": {
+      "maxAmountCAD": 30000,
+      "evidence": "t your individual needs. I would like to apply to KPU. What scholarships and awards are available to new students? Major Entrance Scholarships and Awards: 6 President’s Scholarships of $30,000 each 18 Merit Awards of $7,500 each 3 Indigenous Merit Aw",
+      "sourceUrl": "https://www.kpu.ca/awards",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 14
+  },
+  "University of Waterloo": {
+    "university": "University of Waterloo",
+    "applicationFee": null,
+    "deposit": null,
+    "scholarship": {
+      "maxAmountCAD": 2000,
+      "evidence": "ive one or the other) . Expand all Collapse all President s Scholarship of Distinction (admission average of 95% or higher) Value $2,000 entrance scholarship $1,500 International Experience Award* and/or $1,500 Research Award* Criteria Your early May",
+      "sourceUrl": "https://uwaterloo.ca/future-students/financing/scholarships",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 26
+  },
+  "Queen's University": {
+    "university": "Queen's University",
+    "applicationFee": {
+      "amountCAD": 150,
+      "evidence": "rd is reset, start your application! Please note there is a $150 CAD non-refundable application fee . For this fee, you may apply to a maximum of three programs. Start an Application Key Dates June 1, 2026 Applications Open Octobe",
+      "sourceUrl": "https://www.queensu.ca/admission/international/winter-entry"
+    },
+    "deposit": {
+      "amountCAD": 2500,
+      "evidence": "ffer email. Once you have accepted your offer and paid your $2500 CDN deposit, your PAL and LOA will be issued. These two documents are required for your study permit application. When will the process for attestation letters be r",
+      "sourceUrl": "https://www.queensu.ca/admission/international-students/study-permit-faq"
+    },
+    "scholarship": null,
+    "pagesTried": 26
+  },
+  "University of Ottawa": {
+    "university": "University of Ottawa",
+    "applicationFee": {
+      "amountCAD": 104,
+      "evidence": "ide Canada. Unless you’re applying for a program without an application fee, you must pay a $104 fee . Within one week applying, you’ll receive an acknowledgment email from us. This email will include your student number, as well ",
+      "sourceUrl": "https://www.uottawa.ca/study/undergraduate-studies/how-to-apply"
+    },
+    "deposit": {
+      "amountCAD": 2000,
+      "evidence": "rd your tuition fees once you enrol. The standard admission deposit is $2,000 for undergraduate programs and $1,000 for graduate certificate and diploma programs. Some programs may require a different amount. Your offer of admissi",
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/admission-deposit"
+    },
+    "scholarship": {
+      "maxAmountCAD": 3000,
+      "evidence": " our website is the most accurate and up to date. Admission scholarships 2026-2027 arrow_drop_down University of Ottawa Admission Scholarship Value Admission average of: 95-100% = $3,000 90-94.9% = $2,000 85-89.9% = $1,000 Description The University ",
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/scholarships-awards-overview",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 12
+  },
+  "Dalhousie University": {
+    "university": "Dalhousie University",
+    "applicationFee": {
+      "unresolved": true,
+      "note": "first-pass value was a residence/domestic figure; no international admissions figure located",
+      "previous": {
+        "amountCAD": 50,
+        "evidence": "ees. Explore our residences Have your payment ready for the application fee A $50 non-refundable application fee will be due with your residence application. This will be paid online via credit card. Learn about other costs and fe",
+        "sourceUrl": "https://www.dal.ca/life-at-dal/housing/apply-for-residence.html"
+      }
+    },
+    "deposit": null,
+    "scholarship": null,
+    "pagesTried": 26
+  },
+  "York University": {
+    "university": "York University",
+    "applicationFee": null,
+    "deposit": {
+      "amountCAD": 2000,
+      "evidence": "ndergraduate international students are required to pay the $2,000 non-refundable acceptance deposit regardless of scholarship status. To maintain scholarship eligibility, students must have: a) accepted their offer of admission b",
+      "sourceUrl": "https://futurestudents.yorku.ca/your-application/how-apply/international-student"
+    },
+    "scholarship": {
+      "maxAmountCAD": 100000,
+      "evidence": "must first apply for admission to York University. Featured Scholarships Schulich Leader Scholarship 1 domestic award valued at $100,000 ( $25,000 x 4 years ) granted to a student admitted to a Science, Technology or Mathematics program 1 domestic aw",
+      "sourceUrl": "https://futurestudents.yorku.ca/financing-your-degree/scholarships-bursaries",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 15
+  },
+  "University of Guelph": {
+    "university": "University of Guelph",
+    "applicationFee": null,
+    "deposit": null,
+    "scholarship": null,
+    "pagesTried": 27
+  },
+  "University of Manitoba": {
+    "university": "University of Manitoba",
+    "applicationFee": {
+      "unresolved": true,
+      "note": "first-pass value was a residence/domestic figure; no international admissions figure located",
+      "previous": {
+        "amountCAD": 100,
+        "evidence": "ine your question in detail below. Application payment: The application fee is: $100 CAD for Canadian citizens, permanent residents, and refugees $130 CAD for international students You must pay the application fee for each applic",
+        "sourceUrl": "https://apply.umanitoba.ca/register/?id=eba45fa3-fcd7-43e6-a89d-7325f4e96bad&amp;program_email=admissions@umanitoba.ca"
+      }
+    },
+    "deposit": {
+      "amountCAD": 2000,
+      "evidence": "l Attestation Letter (PAL) UM will require a non-refundable $2000 CAD tuition deposit, paid by credit card, for students requiring a Provincial Attestation Letter (PAL) for study permit applications. This deposit will need to be p",
+      "sourceUrl": "https://apply.umanitoba.ca/register/?id=eba45fa3-fcd7-43e6-a89d-7325f4e96bad&amp;program_email=admissions@umanitoba.ca"
+    },
+    "scholarship": {
+      "maxAmountCAD": 800,
+      "evidence": "ion of Plant Biologists Graduate Student Fellowships Value: Scholarship valued at $800 For: Full-time Master's and PhD students Details: The Manitoba Association of Plant Biologists has established an endowment fund at the University of Manitoba to s",
+      "sourceUrl": "https://umanitoba.ca/graduate-studies/funding-awards-and-financial-aid",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 13
+  },
+  "Toronto Metropolitan": {
+    "university": "Toronto Metropolitan",
+    "applicationFee": {
+      "unresolved": true,
+      "note": "first-pass value was a residence/domestic figure; no international admissions figure located",
+      "previous": {
+        "amountCAD": 50,
+        "evidence": "n denied (proof required) Applying to live in residence ? A $50 residence application fee payment must be made in addition to your tuition deposit. How to pay Pay through your Canadian bank account by selecting “Toronto Metropolit",
+        "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/after-applying/admitted-students/"
+      }
+    },
+    "deposit": {
+      "unresolved": true,
+      "note": "first-pass value was a residence/domestic figure; no international admissions figure located",
+      "previous": {
+        "amountCAD": 500,
+        "evidence": "stic tuition deposit amount. Please proceed with making the $500 payment and then email, deposit@torontomu.ca to alert us of your payment. TMU English Language Institute (ELI) program: Please refer to your Offer of Admission for t",
+        "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/after-applying/admitted-students/"
+      }
+    },
+    "scholarship": {
+      "maxAmountCAD": 12000,
+      "evidence": "Vulnerable Sector Check and CPR and first aid certification Scholarships and awards: You may automatically qualify for a guaranteed and renewable scholarship valued up to $12,000. Check out our entrance scholarships and awards Housing & Residence Lif",
+      "sourceUrl": "https://www.torontomu.ca/admissions/undergraduate/after-applying/admitted-students/",
+      "verified": false,
+      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+    },
+    "pagesTried": 24
+  },
+  "Univ of New Brunswick": {
+    "university": "Univ of New Brunswick",
+    "applicationFee": {
+      "amountCAD": 65,
+      "evidence": "ng on the program, processing applications may take longer. Application Fee Domestic - $65.00 International - $125.00 *Fredericton applicants ONLY* Official transcripts are only required if you are accepted into the program. All S",
+      "sourceUrl": "https://www.unb.ca/gradstudies/admissions/index.html"
+    },
+    "deposit": {
+      "amountCAD": 4000,
+      "evidence": "ons to obtain a study permit. How much is my non-refundable tuition deposit and how do I pay? The international tuition deposit (also known as the PAL deposit) is $4000. International students must pay their deposit by using the C",
+      "sourceUrl": "https://www.unb.ca/admissions/applying-to-unb/been-admitted-next-steps.html"
+    },
+    "scholarship": null,
+    "pagesTried": 26
+  }
+}

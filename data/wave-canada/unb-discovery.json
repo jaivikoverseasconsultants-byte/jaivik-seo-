@@ -1,0 +1,522 @@
+[
+  {
+    "name": "Applied Arts",
+    "url": "https://www.unb.ca/academics/programs/applied-arts/applied-arts.html"
+  },
+  {
+    "name": "Accounting",
+    "url": "https://www.unb.ca/academics/programs/applied-management/accounting.html"
+  },
+  {
+    "name": "General Business",
+    "url": "https://www.unb.ca/academics/programs/applied-management/general-business.html"
+  },
+  {
+    "name": "Anthropology",
+    "url": "https://www.unb.ca/academics/programs/arts/anthropology.html"
+  },
+  {
+    "name": "Biology",
+    "url": "https://www.unb.ca/academics/programs/arts/biology.html"
+  },
+  {
+    "name": "Classical Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/classical-studies.html"
+  },
+  {
+    "name": "Classics",
+    "url": "https://www.unb.ca/academics/programs/arts/classics.html"
+  },
+  {
+    "name": "Comparative Cultural Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/comparative-cultural-studies.html"
+  },
+  {
+    "name": "Comparative Literature",
+    "url": "https://www.unb.ca/academics/programs/arts/comparative-literature.html"
+  },
+  {
+    "name": "Creative Writing",
+    "url": "https://www.unb.ca/academics/programs/arts/creative-writing.html"
+  },
+  {
+    "name": "Criminal Justice Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/criminal-justice-studies.html"
+  },
+  {
+    "name": "Criminology and Criminal Justice",
+    "url": "https://www.unb.ca/academics/programs/arts/criminology.html"
+  },
+  {
+    "name": "Drama",
+    "url": "https://www.unb.ca/academics/programs/arts/drama.html"
+  },
+  {
+    "name": "Economic Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/economic-studies.html"
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.unb.ca/academics/programs/arts/economics-fr.html"
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.unb.ca/academics/programs/arts/economics-sj.html"
+  },
+  {
+    "name": "English",
+    "url": "https://www.unb.ca/academics/programs/arts/english-fr.html"
+  },
+  {
+    "name": "English",
+    "url": "https://www.unb.ca/academics/programs/arts/english-sj.html"
+  },
+  {
+    "name": "French",
+    "url": "https://www.unb.ca/academics/programs/arts/french.html"
+  },
+  {
+    "name": "French",
+    "url": "https://www.unb.ca/academics/programs/arts/french-sj.html"
+  },
+  {
+    "name": "Gender and Women's Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/gender-and-womens-studies.html"
+  },
+  {
+    "name": "Gender Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/gender-studies.html"
+  },
+  {
+    "name": "History",
+    "url": "https://www.unb.ca/academics/programs/arts/history.html"
+  },
+  {
+    "name": "History",
+    "url": "https://www.unb.ca/academics/programs/arts/history-sj.html"
+  },
+  {
+    "name": "Communication Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/information-and-communication-studies.html"
+  },
+  {
+    "name": "International Development Studies",
+    "url": "https://www.unb.ca/academics/programs/arts/international-development-studies.html"
+  },
+  {
+    "name": "Law in Society",
+    "url": "https://www.unb.ca/academics/programs/arts/law-in-society.html"
+  },
+  {
+    "name": "Linguistics",
+    "url": "https://www.unb.ca/academics/programs/arts/linguistics.html"
+  },
+  {
+    "name": "Mathematics",
+    "url": "https://www.unb.ca/academics/programs/arts/mathematics.html"
+  },
+  {
+    "name": "Media Arts and Cultures",
+    "url": "https://www.unb.ca/academics/programs/arts/media-arts--cultures.html"
+  },
+  {
+    "name": "Music",
+    "url": "https://www.unb.ca/academics/programs/arts/music.html"
+  },
+  {
+    "name": "Neuroscience",
+    "url": "https://www.unb.ca/academics/programs/arts/neuroscience.html"
+  },
+  {
+    "name": "Philosophy",
+    "url": "https://www.unb.ca/academics/programs/arts/philosophy.html"
+  },
+  {
+    "name": "Philosophy",
+    "url": "https://www.unb.ca/academics/programs/arts/philosophy-sj.html"
+  },
+  {
+    "name": "Political Science",
+    "url": "https://www.unb.ca/academics/programs/arts/political-science.html"
+  },
+  {
+    "name": "Politics",
+    "url": "https://www.unb.ca/academics/programs/arts/politics.html"
+  },
+  {
+    "name": "Psychology",
+    "url": "https://www.unb.ca/academics/programs/arts/psychology.html"
+  },
+  {
+    "name": "Psychology",
+    "url": "https://www.unb.ca/academics/programs/arts/psychology-sj.html"
+  },
+  {
+    "name": "Sociology",
+    "url": "https://www.unb.ca/academics/programs/arts/sociology.html"
+  },
+  {
+    "name": "Sociology",
+    "url": "https://www.unb.ca/academics/programs/arts/sociology-sj.html"
+  },
+  {
+    "name": "Statistics",
+    "url": "https://www.unb.ca/academics/programs/arts/statistics.html"
+  },
+  {
+    "name": "Accounting",
+    "url": "https://www.unb.ca/academics/programs/business/accounting-fr.html"
+  },
+  {
+    "name": "Accounting",
+    "url": "https://www.unb.ca/academics/programs/business/accounting-sj.html"
+  },
+  {
+    "name": "Digital Business Design",
+    "url": "https://www.unb.ca/academics/programs/business/digital-business-sj.html"
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.unb.ca/academics/programs/business/economics.html"
+  },
+  {
+    "name": "Economics and Finance (combined)",
+    "url": "https://www.unb.ca/academics/programs/business/economics-and-finance-combined.html"
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.unb.ca/academics/programs/business/economics-sj.html"
+  },
+  {
+    "name": "Entrepreneurship",
+    "url": "https://www.unb.ca/academics/programs/business/entrepreneurship.html"
+  },
+  {
+    "name": "Finance",
+    "url": "https://www.unb.ca/academics/programs/business/finance.html"
+  },
+  {
+    "name": "Finance",
+    "url": "https://www.unb.ca/academics/programs/business/finance-sj.html"
+  },
+  {
+    "name": "French Communication and Culture",
+    "url": "https://www.unb.ca/academics/programs/business/french-communication-and-culture-sj.html"
+  },
+  {
+    "name": "Human Resources Management",
+    "url": "https://www.unb.ca/academics/programs/business/hrm.html"
+  },
+  {
+    "name": "Human Resources Management",
+    "url": "https://www.unb.ca/academics/programs/business/hrm_sj.html"
+  },
+  {
+    "name": "International Business",
+    "url": "https://www.unb.ca/academics/programs/business/international-business.html"
+  },
+  {
+    "name": "Logistics",
+    "url": "https://www.unb.ca/academics/programs/business/logistics.html"
+  },
+  {
+    "name": "Marketing",
+    "url": "https://www.unb.ca/academics/programs/business/marketing.html"
+  },
+  {
+    "name": "Marketing",
+    "url": "https://www.unb.ca/academics/programs/business/marketing-sj.html"
+  },
+  {
+    "name": "Computer Science",
+    "url": "https://www.unb.ca/academics/programs/computer-science/computer-science_f.html"
+  },
+  {
+    "name": "Computer Science",
+    "url": "https://www.unb.ca/academics/programs/computer-science/computer-science_sj.html"
+  },
+  {
+    "name": "Adult Education",
+    "url": "https://www.unb.ca/academics/programs/education/adult-education.html"
+  },
+  {
+    "name": "Early Childhood Education",
+    "url": "https://www.unb.ca/academics/programs/education/earlychildhood.html"
+  },
+  {
+    "name": "Education",
+    "url": "https://www.unb.ca/academics/programs/education/education-fr.html"
+  },
+  {
+    "name": "Education",
+    "url": "https://www.unb.ca/academics/programs/education/education_sj.html"
+  },
+  {
+    "name": "Wabanaki Governance",
+    "url": "https://www.unb.ca/academics/programs/education/wabanakigovernance.html"
+  },
+  {
+    "name": "Chemical Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/chemical-engineering_f.html"
+  },
+  {
+    "name": "Chemical Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/chemical-engineering_sj.html"
+  },
+  {
+    "name": "Civil Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/civil-f.html"
+  },
+  {
+    "name": "Civil Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/civil_sj.html"
+  },
+  {
+    "name": "Electrical Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/electrical.html"
+  },
+  {
+    "name": "Electrical Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/electrical_sj.html"
+  },
+  {
+    "name": "Environmental Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/enveng_sj.html"
+  },
+  {
+    "name": "Geological Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/geological.html"
+  },
+  {
+    "name": "Geological Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/geological_sj.html"
+  },
+  {
+    "name": "Geomatics Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/gge.html"
+  },
+  {
+    "name": "Geomatics Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/gge_sj.html"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/mechanical-f.html"
+  },
+  {
+    "name": "Mechanical Engineering",
+    "url": "https://www.unb.ca/academics/programs/engineering/mechanical_sj.html"
+  },
+  {
+    "name": "Environmental Engineering Technology",
+    "url": "https://www.unb.ca/academics/programs/engineering-tech/environmental-engineering-technology.html"
+  },
+  {
+    "name": "Environmental Management",
+    "url": "https://www.unb.ca/academics/programs/environment-and-natural-resources/envm.html"
+  },
+  {
+    "name": "Forestry",
+    "url": "https://www.unb.ca/academics/programs/forestry/forestry.html"
+  },
+  {
+    "name": "Biomedical Sciences and Health",
+    "url": "https://www.unb.ca/academics/programs/health/biomedical.html"
+  },
+  {
+    "name": "Management in Health",
+    "url": "https://www.unb.ca/academics/programs/health/management.html"
+  },
+  {
+    "name": "Society and Health",
+    "url": "https://www.unb.ca/academics/programs/health/society-health.html"
+  },
+  {
+    "name": "Radiography",
+    "url": "https://www.unb.ca/academics/programs/health-sciences/radiography.html"
+  },
+  {
+    "name": "Respiratory Therapy",
+    "url": "https://www.unb.ca/academics/programs/health-sciences/respiratory-therapy.html"
+  },
+  {
+    "name": "Kinesiology",
+    "url": "https://www.unb.ca/academics/programs/kin/kinesiology.html"
+  },
+  {
+    "name": "Law",
+    "url": "https://www.unb.ca/academics/programs/law/law.html"
+  },
+  {
+    "name": "Integrated Studies",
+    "url": "https://www.unb.ca/academics/programs/leadership-studies/integrated-studies.html"
+  },
+  {
+    "name": "Leadership Studies",
+    "url": "https://www.unb.ca/academics/programs/leadership-studies/leadership-studies.html"
+  },
+  {
+    "name": "Medical Laboratory Science",
+    "url": "https://www.unb.ca/academics/programs/medical-laboratory-science/medical-laboratory-science.html"
+  },
+  {
+    "name": "Nursing",
+    "url": "https://www.unb.ca/academics/programs/nursing/nursing.html"
+  },
+  {
+    "name": "Nursing",
+    "url": "https://www.unb.ca/academics/programs/nursing/nursing_sj.html"
+  },
+  {
+    "name": "Nursing - Accelerated Program",
+    "url": "https://www.unb.ca/academics/programs/nursing/nursingasp.html"
+  },
+  {
+    "name": "Recreation and Sport Studies",
+    "url": "https://www.unb.ca/academics/programs/recreation-and-sport-studies/brss.html"
+  },
+  {
+    "name": "Applied Coastal Ecology",
+    "url": "https://www.unb.ca/academics/programs/science/applied-coastal-ecology.html"
+  },
+  {
+    "name": "Applied Physics",
+    "url": "https://www.unb.ca/academics/programs/science/applied-physics.html"
+  },
+  {
+    "name": "Biology",
+    "url": "https://www.unb.ca/academics/programs/science/biology.html"
+  },
+  {
+    "name": "Biology-Chemistry",
+    "url": "https://www.unb.ca/academics/programs/science/biology-chemistry.html"
+  },
+  {
+    "name": "Biology-Psychology",
+    "url": "https://www.unb.ca/academics/programs/science/biology-psychology.html"
+  },
+  {
+    "name": "Biology-Psychology",
+    "url": "https://www.unb.ca/academics/programs/science/biology-psychology-fr.html"
+  },
+  {
+    "name": "Biology",
+    "url": "https://www.unb.ca/academics/programs/science/biology-sj.html"
+  },
+  {
+    "name": "Biology-Mathematics and Statistics",
+    "url": "https://www.unb.ca/academics/programs/science/biomath.html"
+  },
+  {
+    "name": "Biology-Physics",
+    "url": "https://www.unb.ca/academics/programs/science/biophysics.html"
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://www.unb.ca/academics/programs/science/chemistry.html"
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://www.unb.ca/academics/programs/science/chemistry-sj.html"
+  },
+  {
+    "name": "Chemistry-Physics",
+    "url": "https://www.unb.ca/academics/programs/science/chemphys.html"
+  },
+  {
+    "name": "Earth Sciences-Physics",
+    "url": "https://www.unb.ca/academics/programs/science/earth-phys.html"
+  },
+  {
+    "name": "Earth Sciences",
+    "url": "https://www.unb.ca/academics/programs/science/earth-sciences.html"
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.unb.ca/academics/programs/science/economics-fr.html"
+  },
+  {
+    "name": "Engineering Physics",
+    "url": "https://www.unb.ca/academics/programs/science/engineering-physics.html"
+  },
+  {
+    "name": "Environmental Biology",
+    "url": "https://www.unb.ca/academics/programs/science/environmental-biology.html"
+  },
+  {
+    "name": "Environmental Geosciences",
+    "url": "https://www.unb.ca/academics/programs/science/environmental-geochemistry.html"
+  },
+  {
+    "name": "Environmental Sciences",
+    "url": "https://www.unb.ca/academics/programs/science/environmental-sciences.html"
+  },
+  {
+    "name": "General Science",
+    "url": "https://www.unb.ca/academics/programs/science/gensci.html"
+  },
+  {
+    "name": "Geology",
+    "url": "https://www.unb.ca/academics/programs/science/geology.html"
+  },
+  {
+    "name": "Geological Studies",
+    "url": "https://www.unb.ca/academics/programs/science/geostudies.html"
+  },
+  {
+    "name": "Marine Biology",
+    "url": "https://www.unb.ca/academics/programs/science/marine-biology.html"
+  },
+  {
+    "name": "Mathematics-Physics",
+    "url": "https://www.unb.ca/academics/programs/science/math-phys.html"
+  },
+  {
+    "name": "Mathematics/Statistics-Economics",
+    "url": "https://www.unb.ca/academics/programs/science/mathecon.html"
+  },
+  {
+    "name": "Mathematics",
+    "url": "https://www.unb.ca/academics/programs/science/mathematics.html"
+  },
+  {
+    "name": "Mathematics and Statistics",
+    "url": "https://www.unb.ca/academics/programs/science/mathematics-and-statistics.html"
+  },
+  {
+    "name": "Medicinal Chemistry",
+    "url": "https://www.unb.ca/academics/programs/science/medchem.html"
+  },
+  {
+    "name": "Physics",
+    "url": "https://www.unb.ca/academics/programs/science/physics.html"
+  },
+  {
+    "name": "Physics",
+    "url": "https://www.unb.ca/academics/programs/science/physics-sj.html"
+  },
+  {
+    "name": "Psychology",
+    "url": "https://www.unb.ca/academics/programs/science/psychology.html"
+  },
+  {
+    "name": "Psychology",
+    "url": "https://www.unb.ca/academics/programs/science/psychology-sj.html"
+  },
+  {
+    "name": "Statistics",
+    "url": "https://www.unb.ca/academics/programs/science/statistics.html"
+  },
+  {
+    "name": "Social Work",
+    "url": "https://www.unb.ca/academics/programs/socialwork/socialwork.html"
+  },
+  {
+    "name": "Software Engineering",
+    "url": "https://www.unb.ca/academics/programs/software-engineering/software_eng.html"
+  },
+  {
+    "name": "Software Engineering",
+    "url": "https://www.unb.ca/academics/programs/software-engineering/software_engsj.html"
+  }
+]

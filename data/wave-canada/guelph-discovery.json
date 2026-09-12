@@ -1,0 +1,992 @@
+[
+  {
+    "name": "Accounting (ACCT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/accounting-acct/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Agriculture (AGR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/agriculture-agr/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Agriculture, Honours (AGRS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/honours-agriculture-agrs/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Animal Biology (ABIO)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/animal-biology-abio/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Animal Science (ANSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/animal-science-ansc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Anthropology (ANTH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/anthropology-anth/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Applied Geomatics (AG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-geomatics-ag/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Applied Human Nutrition (AHN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/applied-human-nutrition-ahn/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Art History (ARTH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/art-history-arth/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Arts and Sciences (AS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/arts-sciences-as/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Bio- Medical Science (BIOM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/bio-medical-science-biom/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biochemistry (BIOC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biochemistry-bioc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biodiversity (BIOD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biodiversity-biod/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biological and Medical Physics (BMPH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-medical-physics-bmph/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biological and Pharmaceutical Chemistry (BPCH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-pharmaceutical-chemistry-bpch/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biological Engineering (BIOE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-engineering-program-bioe/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biological Science (BIOS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biological-science-bios/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biology (BIOL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biology-biol/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biomedical Engineering (BME)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biomedical-engineering-program-bme/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biomedical Toxicology (BTOX)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biomedical-toxicology-btox/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Biotechnology (BIOT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/biotechnology-biot/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Black Canadian Studies (BLCK)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/black-canadian-studies-blck/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Business (BUS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-bus/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Business Data Analytics (BDA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-data-analytics-bda/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Business Economics (BECN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/business-economics-becn/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Chemical Physics (CHPY)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/chemical-physics-chpy/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Chemistry (CHEM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/chemistry-chem/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Child Studies (CSTU)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/child-studies-cstu/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Civil Engineering (CIVE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/civil-engineering-program-cive/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Classical and Modern Cultures (CMC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/classical-modern-cultures-cmc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Classical Studies (CLAS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/classical-studies-clas/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Computer Engineering (CENG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computer-engineering-program-ceng/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Computer Science (CS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computer-science-cs/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Computing and Information Science (CIS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/computing-information-science-cis/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Creative Arts, Health and Wellness (CREA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/creative-arts-health-and-wellness/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Creative Writing (CW)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/creative-writing-cw/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Criminal Justice and Public Policy (CJPP)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/criminal-justice-public-policy-cjpp/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Crop Science (CRSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/crop-science-crsc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Culture and Technology Studies (CTS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/culture-and-technology-studies-cts/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Earth Observation and Geographic Information Science (EO)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/earth-observation-gis-eo/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Ecology (ECOL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/ecology-ecol/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Economics (ECON)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/economics-econ/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Engineering Systems and Computing (ESC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/engineering-systems-computing-program-esc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "English (ENGL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/english-engl/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Entrepreneurship (ENT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/entrepreneurship-ent/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environment and Resource Management (ERM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environment-resource-management-erm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Citizenship (ECT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-citizenship-ect/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Conservation (ECV)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-conservation-ecv/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Economics and Policy (EEP)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-economics-policy-eep/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Engineering (ENVE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-engineering-program-enve/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Governance (EGOV)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-governance-egov/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Management (EM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-management-major-em/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Environmental Sciences (ENVS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/environmental-sciences-envs/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Equine Management (EQM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/equine-management-major-eqm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "European Cultures (EC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/european-cultures/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Family and Child Studies (FCS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-child-studies-fcs/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Family Studies and Human Development (FSHD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/family-studies-human-development-fshd/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Food and Agricultural Business (FAB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-agricultural-business-fab/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Food Engineering (FENG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-engineering-feng/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Food Science (FOOD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-science-food/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Food, Agricultural and Resource Economics (FARE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/food-agricultural-resource-economics-fare/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "French Studies (FREN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/french-studies-fren/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Geography (GEOG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/geography-geog/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "German (GERM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/german-germ/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Government, Economics and Management (GEM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/government-economics-and-management-gem/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Health and Well- Being (HWB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/health-wellbeing-hwb/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "History (HIST)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/history-hist/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Horticulture (HRT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/horticulture-hort/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Hospitality and Tourism Management (HTM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/hospitality-tourism-management-htm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Human Health and Nutritional Sciences (HHNS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-health-nutritional-sciences-hhns/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Human Kinetics (HK)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-kinetics-hk/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Human Resources (HR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/human-resources-hr/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Indigenous Environmental Governance (IEG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/indigenous-environmental-governance-ieg/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Indigenous Environmental Science and Practice (IESP)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/indigenous-environmental-sscience-practice-iesp/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "International Business (IB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-business-ib/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "International Development Studies (IDS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/international-development-studies-ids/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Italian (ITAL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/italian-ital/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Justice and Legal Studies (JLS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/justice-and-legal-studies-jls/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Landscape Architecture (LA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/landscape-architecture-la/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Leadership (LEAD)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/leadership-lead/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Linguistics (LING)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/linguistics-ling/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Management (MGMT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/management-mgmt/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Management Economics and Finance (MEF)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/management-economics-finance-mef/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Marine and Freshwater Biology (MFB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marine-freshwater-biology-mfb/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Marketing (MKTG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-mktg/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Marketing Management (MKMN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/marketing-management-mkmn/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Mathematical Science (MSCI)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematical-science-msci/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Mathematics (MATH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mathematics-math/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Mechanical Engineering (MECH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mechanical-engineering-program-mech/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Mechatronics Engineering (MTE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/mechatronics-engineering-program-mte/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Media and Cinema Studies (MCST)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/media-cinema-studies-mcst/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Microbiology (MICR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/microbiology-micr/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Microbiology and Immunology (MIMM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/microbiology-immunology-mimm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Molecular Biology and Genetics (MBG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/molecular-biology-genetics-mbg/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Museum Studies (MS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/museum-studies-ms/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Music (MUSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/music-musc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Neuroscience (NEUR)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/neuroscience-neur/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Nutritional and Nutraceutical Sciences (NANS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/nutritional-nutraceutical-sciences-nans/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "One Health (ONEH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/one-health-oneh/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Philosophy (PHIL)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/philosophy-phil/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Physical Science (PSCI)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/physical-science-psci/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Physics (PHYS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/physics-phys/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Plant Science (PLSC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/plant-science-plsc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Political Science (POLS)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/political-science-pols/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Project Management (PM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/project-management-pm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Psychology (PSYC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/psychology-psyc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Public Policy and Administration (PPA)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/public-policy-administration-ppa/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Quantitative Economics and Finance (QEF)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/quantitative-economics-finance-qef/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Real Estate (RE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/real-estate-re/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Restaurant and Beverage Management (RBM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/restaurant-beverage-mgmt-rbm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Sales (SALE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sale/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Sexualities, Genders and Social Change (SXGN)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sexualities-genders-and-social-change-sxgn/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Sociology (SOC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sociology-soc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Software Engineering (SENG)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/software-engineering-seng/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Spanish and Hispanic Studies (SPAH)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/spanish-hispanic-studies-spah/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Sport and Event Management (SPMT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sport-event-management-spmt/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Statistics (STAT)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/statistics-stat/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Studio Art (SART)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/studio-art-sart/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Sustainable Business (SB)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/sustainable-business-sb/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Theatre Studies (THST)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/theatre-studies-thst/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Theoretical Physics (THPY)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/theoretical-physics-thpy/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Veterinary Medicine (VM)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/veterinary-medicine-vm/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Water Resources Engineering (WRE)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/water-resources-engineering-program-wre/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Wildlife Biology and Conservation (WBC)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/wildlife-biology-conservation-wbc/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Zoology (ZOO)",
+    "url": "https://calendar.uoguelph.ca/undergraduate-calendar/programs-majors-minors/zoology-zoo/",
+    "studyLevel": "Undergraduate"
+  },
+  {
+    "name": "Accounting",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/accounting/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Animal Biosciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/animal-biosciences/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Applied Molecular and Health Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/applied-molecular-health-sciences/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Bioinformatics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/bioinformatics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Biomedical Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/biomedical-sciences/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Biophysics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/biophysics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Biotechnology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/biotechnology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Business Administration",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/business-administration/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Capacity Development and Extension",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/capacity-development-extension/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/chemistry/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Clinical Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/clinical-studies/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Computational Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/computational-sciences/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Computer Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/computer-science/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Conservation Leadership",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/conservation-leadership/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Creative Writing",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/creative-writing/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Criminal Justice and Public Policy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/criminal-justice-public-policy/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Critical Studies in Improvisation",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/critical-studies-improvisation/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Cybersecurity and Threat Intelligence",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/cybersecurity-threat-intelligence/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Cybersecurity Leadership and Cyberpreneurship",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/cybersecurity-leadership-cyberpreneurship/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Dairy Technology Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/dairy-technology-management/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Data Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/data-science/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Development Practice and Global Justice",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/development-practice-global-justice/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Economics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/economics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Engineering",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/engineering/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Engineering Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/engineering-management/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "English",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/english/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Environmental Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/environmental-sciences/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Family Relations and Applied Nutrition",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/family-relations-applied-nutrition/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Financial Economics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/financial-economics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Food Safety and Quality Assurance",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/food-safety-quality-assurance/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Food Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/food-science/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Food, Agricultural and Resource Economics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/food-agricultural-resource-economics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Geography",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/geography/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "History - Tri- University Program",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/history-tri-university-program/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Human Health and Nutritional Sciences",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/human-health-nutritional-sciences/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Integrated Humanities",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/integrated-humanities/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Integrative Biology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/integrative-biology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Landscape Architecture",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/landscape-architecture/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Leadership",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/leadership/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Literary Studies/ Theatre Studies in English",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/literary-studies-theatre-studies-english/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/management/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Marketing and Consumer Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/marketing-consumer-studies/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Mathematics and Statistics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/mathematics-statistics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Medical Foundations",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/medical-foundations/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Mental Health",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/mental-health/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Molecular and Cellular Biology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/molecular-cellular-biology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Organizational Consulting",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/organizational-consulting/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Pathobiology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/pathobiology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Philosophy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/philosophy/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Physics",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/physics/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Plant Agriculture",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/plant-agriculture/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Political Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/political-science/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Population Medicine",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/population-medicine/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Project Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/project-management/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Psychology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/psychology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Psychotherapy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/psychotherapy/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Public Health",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/public-health/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Public Issues Anthropology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/public-issues-anthropology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Real Estate",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/real-estate/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Relational and Family Therapy",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/relational-family-therapy/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Rural Planning and Development",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/rural-planning-development/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Rural Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/rural-studies/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Social Practice and Transformational Change",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/social-practice-transformational-change/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Sociology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/sociology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Studio Art",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/studio-art/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Supply Chain Management",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/supply-chain-management/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Sustainable Agriculture",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/sustainable-agriculture/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Theatre Studies",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/theatre-studies/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Tourism and Hospitality",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/tourism-hospitality/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Toxicology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/toxicology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Wildlife Biology",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/wildlife-biology/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Veterinary Science",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/veterinary-science/",
+    "studyLevel": "Postgraduate"
+  },
+  {
+    "name": "Download Page (PDF)",
+    "url": "https://calendar.uoguelph.ca/graduate-calendar/graduate-programs/graduate-programs.pdf",
+    "studyLevel": "Postgraduate"
+  }
+]

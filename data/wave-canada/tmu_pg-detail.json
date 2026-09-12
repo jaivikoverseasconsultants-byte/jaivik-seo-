@@ -1,0 +1,742 @@
+[
+  {
+    "sourceName": "Accounting (PMDip)",
+    "url": "https://www.torontomu.ca/graduate/programs/accounting-pmdip/",
+    "officialName": "Accounting",
+    "duration": {
+      "text": "4 months",
+      "years": 0.3
+    },
+    "intakes": [
+      "January",
+      "June"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [
+      {
+        "amountCAD": 19287,
+        "basis": "unknown",
+        "evidence": "s page for updated domestic tuition fees. The domestic fees for this program are approximately: $9,624.27 The international fees for this program are approximately: $19,287.27 Note: One cour"
+      }
+    ],
+    "chars": 7730
+  },
+  {
+    "sourceName": "Aerospace Design Management (PMDip)",
+    "url": "https://www.torontomu.ca/graduate/programs/aerospace-design-management-pmdip/",
+    "officialName": "Aerospace Engineering Graduate Program",
+    "duration": {
+      "text": "2 yrs",
+      "years": 2
+    },
+    "intakes": [
+      "Fall",
+      "Winter"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 23064
+  },
+  {
+    "sourceName": "Aerospace Engineering (MASc, MEng, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/aerospace-engineering/",
+    "officialName": "Aerospace Engineering (MASc, MEng, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16457
+  },
+  {
+    "sourceName": "Architecture (MArch, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/architecture/",
+    "officialName": "Architecture (MArch, PhD)",
+    "duration": null,
+    "intakes": [
+      "March"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14229
+  },
+  {
+    "sourceName": "Biomedical Engineering (MASc, MEng, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/biomedical-engineering/",
+    "officialName": "Biomedical Engineering (MASc, MEng, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15455
+  },
+  {
+    "sourceName": "Building Science (MASc, MBSc, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/building-science/",
+    "officialName": "Building Science (MASc, MBSc, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15132
+  },
+  {
+    "sourceName": "Chemical Engineering (MASc, MEng, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/chemical-engineering/",
+    "officialName": "Chemical Engineering (MASc, MEng, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15911
+  },
+  {
+    "sourceName": "Child and Youth Care (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/child-youth-care/",
+    "officialName": "Child and Youth Care (MA)",
+    "duration": {
+      "text": "12 months",
+      "years": 1
+    },
+    "intakes": [
+      "Fall",
+      "Winter"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15507
+  },
+  {
+    "sourceName": "Civil Engineering (MASc, MEng, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/civil-engineering/",
+    "officialName": "Civil Engineering (MASc, MEng, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17522
+  },
+  {
+    "sourceName": "Communication and Culture (MA, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/communication-culture/",
+    "officialName": "Communication and Culture",
+    "duration": {
+      "text": "3 years",
+      "years": 3
+    },
+    "intakes": [
+      "January",
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [
+      {
+        "amountCAD": 29006,
+        "basis": "unknown",
+        "evidence": "ees For detailed information, visit Graduate tuition and fees . MA Full time (domestic): $5,940.80 Full time (international): $29,006.15 Part time (domestic - Ontario): $3,380.35 PhD Full ti"
+      },
+      {
+        "amountCAD": 27156,
+        "basis": "unknown",
+        "evidence": "ational): $29,006.15 Part time (domestic - Ontario): $3,380.35 PhD Full time (domestic): $5,854.67 Full time (international): $27,156.15 Funding, scholarships and awards We recognize that pu"
+      }
+    ],
+    "chars": 27741
+  },
+  {
+    "sourceName": "Computer Networks (MASc, MEng)",
+    "url": "https://www.torontomu.ca/graduate/programs/computer-networks/",
+    "officialName": "Computer Networks (MASc, MEng)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14475
+  },
+  {
+    "sourceName": "Computer Science (MSc, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/computer-science/",
+    "officialName": "Computer Science (MSc, PhD)",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15093
+  },
+  {
+    "sourceName": "Criminology and Social Justice (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/criminology-and-social-justice/",
+    "officialName": "Criminology and Social Justice (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15252
+  },
+  {
+    "sourceName": "Cybersecurity (MC)",
+    "url": "https://www.torontomu.ca/graduate/programs/cybersecurity-ysgps/",
+    "officialName": "Cybersecurity (MC)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13638
+  },
+  {
+    "sourceName": "Data Science and Analytics (MSc)",
+    "url": "https://www.torontomu.ca/graduate/programs/data-science-analytics/",
+    "officialName": "Data Science and Analytics (MSc)",
+    "duration": null,
+    "intakes": [
+      "Fall",
+      "Winter"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15994
+  },
+  {
+    "sourceName": "Dietetics (PMDip)",
+    "url": "https://www.torontomu.ca/graduate/programs/dietetics-pmdip/",
+    "officialName": "Dietetics (PMDip)",
+    "duration": null,
+    "intakes": [
+      "Fall",
+      "Summer",
+      "Spring"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11464
+  },
+  {
+    "sourceName": "Digital Media (MDM)",
+    "url": "https://www.torontomu.ca/graduate/programs/digital-media/",
+    "officialName": "Digital Media (MDM)",
+    "duration": null,
+    "intakes": [
+      "Fall",
+      "Winter"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14472
+  },
+  {
+    "sourceName": "Documentary Media (MFA)",
+    "url": "https://www.torontomu.ca/graduate/programs/documentary-media/",
+    "officialName": "Documentary Media (MFA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14205
+  },
+  {
+    "sourceName": "Early Childhood Studies (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/early-childhood-studies/",
+    "officialName": "Early Childhood Studies (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14429
+  },
+  {
+    "sourceName": "Economics (MA, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/economics-graduate/",
+    "officialName": "International Economics and Finance (MA), Economics (PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14633
+  },
+  {
+    "sourceName": "Electrical and Computer Engineering (MASc, MEng, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/electrical-computer-engineering/",
+    "officialName": "Electrical and Computer Engineering (MASc, MEng, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15814
+  },
+  {
+    "sourceName": "Energy and Innovation (PMDip)",
+    "url": "https://www.torontomu.ca/graduate/programs/energy-and-innovation-pmdip/",
+    "officialName": "Professional Master’s Diploma in Energy and Innovation",
+    "duration": null,
+    "intakes": [
+      "January",
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11087
+  },
+  {
+    "sourceName": "Master of Engineering Innovation and Entrepreneurship (MEIE)",
+    "url": "https://www.torontomu.ca/graduate/programs/engineering-innovation-entrepreneurship/",
+    "officialName": "Master of Engineering Innovation and Entrepreneurship (MEIE)",
+    "duration": {
+      "text": "3-year",
+      "years": 3
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14846
+  },
+  {
+    "sourceName": "Environmental Applied Science and Management (MASc, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/environmental-applied-science-management/",
+    "officialName": "Environmental Applied Science and Management (MASc, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15090
+  },
+  {
+    "sourceName": "Fashion (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/fashion/",
+    "officialName": "Fashion (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14725
+  },
+  {
+    "sourceName": "Film + Photography Preservation and Collections Management (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/film-photography-preservation/",
+    "officialName": "Film + Photography Preservation and Collections Management (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15332
+  },
+  {
+    "sourceName": "Immigration and Settlement Studies (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/immigration-settlement-studies/",
+    "officialName": "Immigration and Settlement Studies (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15052
+  },
+  {
+    "sourceName": "Interior Design (MID)",
+    "url": "https://www.torontomu.ca/graduate/programs/interior-design/",
+    "officialName": "Interior Design (MID)",
+    "duration": {
+      "text": "2 years",
+      "years": 2
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14335
+  },
+  {
+    "sourceName": "Journalism (MJ)",
+    "url": "https://www.torontomu.ca/graduate/programs/journalism/",
+    "officialName": "Journalism (MJ)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14665
+  },
+  {
+    "sourceName": "Literatures of Modernity (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/literatures-modernity/",
+    "officialName": "Literatures of Modernity (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14246
+  },
+  {
+    "sourceName": "Management (PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/management-phd/",
+    "officialName": "Management (PhD)",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14313
+  },
+  {
+    "sourceName": "Master of Business Administration (MBA)",
+    "url": "https://www.torontomu.ca/graduate/programs/master-business-administration/",
+    "officialName": "Ted Rogers MBA",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14766
+  },
+  {
+    "sourceName": "Master of Health Administration (Community Care) (MHA)CC",
+    "url": "https://www.torontomu.ca/graduate/programs/master-of-health-administration-community-care/",
+    "officialName": "Master of Health Administration (Community Care) (MHA(CC))",
+    "duration": {
+      "text": "16 months",
+      "years": 1.3
+    },
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15662
+  },
+  {
+    "sourceName": "Master of Science in Management (MScM)",
+    "url": "https://www.torontomu.ca/graduate/programs/master-science-management/",
+    "officialName": "Master of Science in Management (MScM)",
+    "duration": null,
+    "intakes": [
+      "May"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14662
+  },
+  {
+    "sourceName": "Mathematics (MSc, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/mathematics/",
+    "officialName": "Mathematics (MSc, PhD)",
+    "duration": {
+      "text": "2 years",
+      "years": 2
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14627
+  },
+  {
+    "sourceName": "Mechanical and Industrial Engineering (MASc, MEng, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/mechanical-industrial-engineering/",
+    "officialName": "Mechanical and Industrial Engineering (MASc, MEng, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15318
+  },
+  {
+    "sourceName": "Media and Design Innovation (PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/media-design-innovation/",
+    "officialName": "Media and Design Innovation (PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13565
+  },
+  {
+    "sourceName": "Media Production (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/media-production/",
+    "officialName": "Media Production (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14434
+  },
+  {
+    "sourceName": "Molecular Science (MSc, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/molecular-science/",
+    "officialName": "Molecular Science (MSc, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14564
+  },
+  {
+    "sourceName": "Nursing (MN)",
+    "url": "https://www.torontomu.ca/graduate/programs/nursing-graduate/",
+    "officialName": "Nursing (MN, PHCNP Certificate)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15899
+  },
+  {
+    "sourceName": "Nutrition Communication (MHSc)",
+    "url": "https://www.torontomu.ca/graduate/programs/nutrition-communication/",
+    "officialName": "Nutrition Communication (MHSc)",
+    "duration": {
+      "text": "4-year",
+      "years": 4
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15404
+  },
+  {
+    "sourceName": "Occupational and Public Health (MSc)",
+    "url": "https://www.torontomu.ca/graduate/programs/occupational-public-health/",
+    "officialName": "Occupational and Public Health (MSc)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14538
+  },
+  {
+    "sourceName": "Philosophy (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/philosophy/",
+    "officialName": "Philosophy (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14685
+  },
+  {
+    "sourceName": "Physics (MSc, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/physics/",
+    "officialName": "Physics (MSc, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16063
+  },
+  {
+    "sourceName": "Policy Studies (PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/policy-studies/",
+    "officialName": "Policy Studies (PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13836
+  },
+  {
+    "sourceName": "Professional Communication (MPC)",
+    "url": "https://www.torontomu.ca/graduate/programs/professional-communication/",
+    "officialName": "Professional Communication (MPC)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13978
+  },
+  {
+    "sourceName": "Project Management in the Built Environment (MPM, MASc)",
+    "url": "https://www.torontomu.ca/graduate/programs/project-management-built-environment/",
+    "officialName": "Project Management in the Built Environment (MPM, MASc)",
+    "duration": {
+      "text": "12 months",
+      "years": 1
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15069
+  },
+  {
+    "sourceName": "Psychology (MA, PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/psychology/",
+    "officialName": "Psychology (MA, PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16453
+  },
+  {
+    "sourceName": "Public Policy and Administration (MA)",
+    "url": "https://www.torontomu.ca/graduate/programs/public-policy-administration/",
+    "officialName": "Public Policy and Administration (MA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15125
+  },
+  {
+    "sourceName": "Scriptwriting and Story Design (MFA)",
+    "url": "https://www.torontomu.ca/graduate/programs/scriptwriting-story-design/",
+    "officialName": "Scriptwriting and Story Design (MFA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13158
+  },
+  {
+    "sourceName": "Social Work (MSW)",
+    "url": "https://www.torontomu.ca/graduate/programs/social-work/",
+    "officialName": "Social Work (MSW)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14798
+  },
+  {
+    "sourceName": "Spatial Analysis (MSA)",
+    "url": "https://www.torontomu.ca/graduate/programs/spatial-analysis/",
+    "officialName": "Spatial Analysis (MSA)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15836
+  },
+  {
+    "sourceName": "Urban Development (MPI)",
+    "url": "https://www.torontomu.ca/graduate/programs/urban-development/",
+    "officialName": "Urban Development (MPI)",
+    "duration": {
+      "text": "1-Year",
+      "years": 1
+    },
+    "intakes": [
+      "Fall",
+      "Winter"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14607
+  },
+  {
+    "sourceName": "Urban Health (PhD)",
+    "url": "https://www.torontomu.ca/graduate/programs/urban-health-phd/",
+    "officialName": "Urban Health (PhD)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13038
+  }
+]

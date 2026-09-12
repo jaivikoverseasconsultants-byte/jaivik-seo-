@@ -1,0 +1,1700 @@
+[
+  {
+    "sourceName": "Learn about adding minors to your degree →",
+    "url": "https://uwaterloo.ca/future-students/programs/minors",
+    "officialName": "Customize your degree with minors, certificates, and diplomas",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 28039
+  },
+  {
+    "sourceName": "Discover Waterloo's business programs →",
+    "url": "https://uwaterloo.ca/future-students/programs/business",
+    "officialName": "Waterloo s business programs",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 8665
+  },
+  {
+    "sourceName": "Environmental programs at a glance",
+    "url": "https://uwaterloo.ca/future-students/programs/environmental-degrees",
+    "officialName": "Environmental degrees",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11636
+  },
+  {
+    "sourceName": "Study abroad",
+    "url": "https://uwaterloo.ca/future-students/programs/exchange-programs",
+    "officialName": "Study abroad",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 6119
+  },
+  {
+    "sourceName": "Programs by theme",
+    "url": "https://uwaterloo.ca/future-students/programs/themes",
+    "officialName": "Programs listed by theme",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 10624
+  },
+  {
+    "sourceName": "Programs by faculty",
+    "url": "https://uwaterloo.ca/future-students/programs/by-faculty",
+    "officialName": "Programs by faculty",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 9425
+  },
+  {
+    "sourceName": "Accounting and Financial Management",
+    "url": "https://uwaterloo.ca/future-students/programs/accounting-and-financial-management",
+    "officialName": "Accounting and Financial Management degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13956
+  },
+  {
+    "sourceName": "Actuarial Science",
+    "url": "https://uwaterloo.ca/future-students/programs/actuarial-science",
+    "officialName": "Actuarial Science degree",
+    "duration": null,
+    "intakes": [
+      "February",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14339
+  },
+  {
+    "sourceName": "Anthropology",
+    "url": "https://uwaterloo.ca/future-students/programs/anthropology",
+    "officialName": "Anthropology degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11943
+  },
+  {
+    "sourceName": "Applied Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/applied-mathematics",
+    "officialName": "Applied Mathematics degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13980
+  },
+  {
+    "sourceName": "Applied Mathematics with Scientific Computing and Scientific Machine Learning",
+    "url": "https://uwaterloo.ca/future-students/programs/applied-mathematics-scientific-computing",
+    "officialName": "Applied Mathematics with Scientific Computing and Scientific Machine Learning",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [
+      "Spring"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13522
+  },
+  {
+    "sourceName": "Architectural Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/architectural-engineering",
+    "officialName": "Architectural Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "April",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 21001
+  },
+  {
+    "sourceName": "Architecture",
+    "url": "https://uwaterloo.ca/future-students/programs/architecture",
+    "officialName": "Architecture degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12506
+  },
+  {
+    "sourceName": "Bachelor of Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/bachelor-of-arts",
+    "officialName": "Bachelor of Arts degree",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 10179
+  },
+  {
+    "sourceName": "Bachelor of Science",
+    "url": "https://uwaterloo.ca/future-students/programs/bachelor-of-science",
+    "officialName": "Bachelor of Science degree",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13014
+  },
+  {
+    "sourceName": "Biochemistry",
+    "url": "https://uwaterloo.ca/future-students/programs/biochemistry",
+    "officialName": "Biochemistry degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14351
+  },
+  {
+    "sourceName": "Biological and Medical Physics",
+    "url": "https://uwaterloo.ca/future-students/programs/biological-and-medical-physics",
+    "officialName": "Biological and Medical Physics degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12463
+  },
+  {
+    "sourceName": "Biology",
+    "url": "https://uwaterloo.ca/future-students/programs/biology",
+    "officialName": "Biology degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14332
+  },
+  {
+    "sourceName": "Biomedical Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/biomedical-engineering",
+    "officialName": "Biomedical Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16244
+  },
+  {
+    "sourceName": "Biomedical Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/biomedical-sciences",
+    "officialName": "Biomedical Sciences degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 18291
+  },
+  {
+    "sourceName": "Biostatistics",
+    "url": "https://uwaterloo.ca/future-students/programs/biostatistics",
+    "officialName": "Biostatistics degree",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13059
+  },
+  {
+    "sourceName": "Business Administration (Laurier) and Computer Science (Waterloo) Double Degree",
+    "url": "https://uwaterloo.ca/future-students/programs/business-administration-computer-science-double-degree",
+    "officialName": "Business Administration (Laurier) and Computer Science (Waterloo) double degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14461
+  },
+  {
+    "sourceName": "Business Administration (Laurier) and Mathematics (Waterloo) Double Degree",
+    "url": "https://uwaterloo.ca/future-students/programs/business-administration-mathematics-double-degree",
+    "officialName": "Business Administration (Laurier) and Mathematics (Waterloo) double degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14719
+  },
+  {
+    "sourceName": "Chemical Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/chemical-engineering",
+    "officialName": "Chemical Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "January",
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17443
+  },
+  {
+    "sourceName": "Chemistry",
+    "url": "https://uwaterloo.ca/future-students/programs/chemistry",
+    "officialName": "Chemistry degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14041
+  },
+  {
+    "sourceName": "Civil Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/civil-engineering",
+    "officialName": "Civil Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17598
+  },
+  {
+    "sourceName": "Classical Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/classical-studies",
+    "officialName": "Classical Studies",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14194
+  },
+  {
+    "sourceName": "Climate and Environmental Change",
+    "url": "https://uwaterloo.ca/future-students/programs/climate-environmental-change",
+    "officialName": "Climate and Environmental Change degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11471
+  },
+  {
+    "sourceName": "Combinatorics and Optimization",
+    "url": "https://uwaterloo.ca/future-students/programs/combinatorics-and-optimization",
+    "officialName": "Combinatorics and Optimization degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14547
+  },
+  {
+    "sourceName": "Communication Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/communication-studies",
+    "officialName": "Communication Studies degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16021
+  },
+  {
+    "sourceName": "Computational Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/computational-mathematics",
+    "officialName": "Computational Mathematics degree",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13819
+  },
+  {
+    "sourceName": "Computer Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/computer-engineering",
+    "officialName": "Computer Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 18073
+  },
+  {
+    "sourceName": "Computer Science",
+    "url": "https://uwaterloo.ca/future-students/programs/computer-science",
+    "officialName": "Computer Science degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15584
+  },
+  {
+    "sourceName": "Computing and Financial Management",
+    "url": "https://uwaterloo.ca/future-students/programs/computing-and-financial-management",
+    "officialName": "Computing and Financial Management",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12871
+  },
+  {
+    "sourceName": "Data Science",
+    "url": "https://uwaterloo.ca/future-students/programs/data-science",
+    "officialName": "Data Science degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13835
+  },
+  {
+    "sourceName": "Earth Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/earth-sciences",
+    "officialName": "Earth Sciences degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14111
+  },
+  {
+    "sourceName": "Economics",
+    "url": "https://uwaterloo.ca/future-students/programs/economics",
+    "officialName": "Economics degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14122
+  },
+  {
+    "sourceName": "Education (teaching)",
+    "url": "https://uwaterloo.ca/future-students/programs/education-teaching",
+    "officialName": "Education (teaching)",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 5887
+  },
+  {
+    "sourceName": "Electrical Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/electrical-engineering",
+    "officialName": "Electrical Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14680
+  },
+  {
+    "sourceName": "English",
+    "url": "https://uwaterloo.ca/future-students/programs/english",
+    "officialName": "English degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13576
+  },
+  {
+    "sourceName": "Environment and Business",
+    "url": "https://uwaterloo.ca/future-students/programs/environment-and-business",
+    "officialName": "Environment and Business degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13040
+  },
+  {
+    "sourceName": "Environment, Resources and Sustainability",
+    "url": "https://uwaterloo.ca/future-students/programs/environment-resources-and-sustainability",
+    "officialName": "Environment, Resources and Sustainability",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14559
+  },
+  {
+    "sourceName": "Environmental Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/environmental-engineering",
+    "officialName": "Environmental Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 20713
+  },
+  {
+    "sourceName": "Environmental Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/environmental-sciences",
+    "officialName": "Environmental Sciences degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16702
+  },
+  {
+    "sourceName": "Fine Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/fine-arts",
+    "officialName": "Fine Arts degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14508
+  },
+  {
+    "sourceName": "French",
+    "url": "https://uwaterloo.ca/future-students/programs/french",
+    "officialName": "French degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12665
+  },
+  {
+    "sourceName": "Gender and Social Justice",
+    "url": "https://uwaterloo.ca/future-students/programs/gender-and-social-justice",
+    "officialName": "Gender and Social Justice degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11706
+  },
+  {
+    "sourceName": "Geography and Aviation",
+    "url": "https://uwaterloo.ca/future-students/programs/geography-and-aviation",
+    "officialName": "Geography and Aviation degree",
+    "duration": null,
+    "intakes": [
+      "May",
+      "August",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11958
+  },
+  {
+    "sourceName": "Geography and Environmental Management",
+    "url": "https://uwaterloo.ca/future-students/programs/geography-and-environmental-management",
+    "officialName": "Geography and Environmental Management Degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12566
+  },
+  {
+    "sourceName": "Geological Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/geological-engineering",
+    "officialName": "Geological Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 19144
+  },
+  {
+    "sourceName": "Geospatial Data Analysis",
+    "url": "https://uwaterloo.ca/future-students/programs/geospatial-data-science",
+    "officialName": "Geospatial Data Science degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13907
+  },
+  {
+    "sourceName": "Global Business and Digital Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/global-business-and-digital-arts",
+    "officialName": "Global Business and Digital Arts",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12263
+  },
+  {
+    "sourceName": "Health Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/health-sciences",
+    "officialName": "Health Sciences degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 19471
+  },
+  {
+    "sourceName": "History",
+    "url": "https://uwaterloo.ca/future-students/programs/history",
+    "officialName": "History degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12173
+  },
+  {
+    "sourceName": "Honours Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/honours-arts",
+    "officialName": "Honours Arts",
+    "duration": null,
+    "intakes": [
+      "June",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13072
+  },
+  {
+    "sourceName": "Honours Arts and Business",
+    "url": "https://uwaterloo.ca/future-students/programs/arts-and-business",
+    "officialName": "Honours Arts and Business",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "June",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13246
+  },
+  {
+    "sourceName": "Honours Science",
+    "url": "https://uwaterloo.ca/future-students/programs/honours-science",
+    "officialName": "Honours Science",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 10611
+  },
+  {
+    "sourceName": "Human Rights and Law (LLB)",
+    "url": "https://uwaterloo.ca/future-students/programs/human-rights-law",
+    "officialName": "Double degree program in human rights and law",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11541
+  },
+  {
+    "sourceName": "Information Technology Management",
+    "url": "https://uwaterloo.ca/future-students/programs/information-technology-management",
+    "officialName": "Information Technology Management degree",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14046
+  },
+  {
+    "sourceName": "Kinesiology",
+    "url": "https://uwaterloo.ca/future-students/programs/kinesiology",
+    "officialName": "Kinesiology degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 18044
+  },
+  {
+    "sourceName": "Legal Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/legal-studies",
+    "officialName": "Legal Studies degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12354
+  },
+  {
+    "sourceName": "Liberal Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/liberal-studies",
+    "officialName": "Liberal Studies degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11507
+  },
+  {
+    "sourceName": "Life Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/life-sciences",
+    "officialName": "Life Sciences",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 8013
+  },
+  {
+    "sourceName": "Management Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/management-engineering",
+    "officialName": "Management Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 19056
+  },
+  {
+    "sourceName": "Materials and Nanosciences",
+    "url": "https://uwaterloo.ca/future-students/programs/materials-and-nanosciences",
+    "officialName": "Materials and Nanosciences degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13816
+  },
+  {
+    "sourceName": "Mathematical Economics",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-economics",
+    "officialName": "Mathematical Economics degree",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13557
+  },
+  {
+    "sourceName": "Mathematical Finance",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-finance",
+    "officialName": "Mathematical Finance degree",
+    "duration": {
+      "text": "24 months",
+      "years": 2
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14313
+  },
+  {
+    "sourceName": "Mathematical Optimization",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-optimization",
+    "officialName": "Mathematical Optimization degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14291
+  },
+  {
+    "sourceName": "Mathematical Physics",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-physics",
+    "officialName": "Mathematical Physics degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17728
+  },
+  {
+    "sourceName": "Mathematical Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematical-studies",
+    "officialName": "Mathematical Studies degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13834
+  },
+  {
+    "sourceName": "Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+    "officialName": "Mathematics degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13937
+  },
+  {
+    "sourceName": "Mathematics/Business Administration",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics-business-administration",
+    "officialName": "Mathematics/Business Administration degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14464
+  },
+  {
+    "sourceName": "Mathematics/Chartered Professional Accountancy",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics-accounting",
+    "officialName": "Mathematics/Chartered Professional Accountancy",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13559
+  },
+  {
+    "sourceName": "Mathematics/Financial Analysis and Risk Management",
+    "url": "https://uwaterloo.ca/future-students/programs/financial-analysis-and-risk-management",
+    "officialName": "Mathematics/Financial Analysis and Risk Management",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 15397
+  },
+  {
+    "sourceName": "Mathematics/Teaching",
+    "url": "https://uwaterloo.ca/future-students/programs/waterloo-math-teaching",
+    "officialName": "Mathematics/Teaching degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13497
+  },
+  {
+    "sourceName": "Mechanical Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/mechanical-engineering",
+    "officialName": "Mechanical Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14907
+  },
+  {
+    "sourceName": "Mechatronics Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/mechatronics-engineering",
+    "officialName": "Mechatronics Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16411
+  },
+  {
+    "sourceName": "Medical Sciences (Waterloo) and Doctor of Medicine (St. George's University)",
+    "url": "https://uwaterloo.ca/future-students/programs/medical-sciences-and-md",
+    "officialName": "Medical Sciences (Waterloo) and Doctor of Medicine (St. George s University)",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14310
+  },
+  {
+    "sourceName": "Medicinal Chemistry",
+    "url": "https://uwaterloo.ca/future-students/programs/medicinal-chemistry",
+    "officialName": "Medicinal Chemistry degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14041
+  },
+  {
+    "sourceName": "Medieval Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/medieval-studies",
+    "officialName": "Medieval Studies degree",
+    "duration": {
+      "text": "5 terms",
+      "years": 2.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12134
+  },
+  {
+    "sourceName": "Music",
+    "url": "https://uwaterloo.ca/future-students/programs/music",
+    "officialName": "Music degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12521
+  },
+  {
+    "sourceName": "Nanotechnology Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/nanotechnology-engineering",
+    "officialName": "Nanotechnology Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 18539
+  },
+  {
+    "sourceName": "Optometry",
+    "url": "https://uwaterloo.ca/future-students/programs/optometry",
+    "officialName": "Optometry",
+    "duration": null,
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 6391
+  },
+  {
+    "sourceName": "Peace and Conflict Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/peace-and-conflict-studies",
+    "officialName": "Peace and Conflict Studies degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12467
+  },
+  {
+    "sourceName": "Pharmacy",
+    "url": "https://uwaterloo.ca/future-students/programs/pharmacy",
+    "officialName": "Pharmacy",
+    "duration": null,
+    "intakes": [
+      "January",
+      "April",
+      "May",
+      "August",
+      "September",
+      "December"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 9084
+  },
+  {
+    "sourceName": "Philosophy",
+    "url": "https://uwaterloo.ca/future-students/programs/philosophy",
+    "officialName": "Philosophy degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12746
+  },
+  {
+    "sourceName": "Physical Sciences",
+    "url": "https://uwaterloo.ca/future-students/programs/physical-sciences",
+    "officialName": "Physical Sciences",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 8468
+  },
+  {
+    "sourceName": "Physics",
+    "url": "https://uwaterloo.ca/future-students/programs/physics",
+    "officialName": "Physics degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14118
+  },
+  {
+    "sourceName": "Physics and Astronomy",
+    "url": "https://uwaterloo.ca/future-students/programs/physics-and-astronomy",
+    "officialName": "Physics and Astronomy degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14018
+  },
+  {
+    "sourceName": "Planning",
+    "url": "https://uwaterloo.ca/future-students/programs/planning",
+    "officialName": "Planning degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14067
+  },
+  {
+    "sourceName": "Political Science",
+    "url": "https://uwaterloo.ca/future-students/programs/political-science",
+    "officialName": "Political Science degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12750
+  },
+  {
+    "sourceName": "Pre-law",
+    "url": "https://uwaterloo.ca/future-students/programs/pre-law",
+    "officialName": "Pre-law degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 10495
+  },
+  {
+    "sourceName": "Psychology – Bachelor of Arts",
+    "url": "https://uwaterloo.ca/future-students/programs/psychology-arts",
+    "officialName": "Psychology (Bachelor of Arts degree)",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12869
+  },
+  {
+    "sourceName": "Psychology – Bachelor of Science",
+    "url": "https://uwaterloo.ca/future-students/programs/psychology-science",
+    "officialName": "Psychology (Bachelor of Science)",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13244
+  },
+  {
+    "sourceName": "Public Health",
+    "url": "https://uwaterloo.ca/future-students/programs/public-health",
+    "officialName": "Public Health degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16157
+  },
+  {
+    "sourceName": "Pure Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/pure-mathematics",
+    "officialName": "Pure Mathematics degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14138
+  },
+  {
+    "sourceName": "Recreation and Leisure Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/recreation-and-leisure-studies",
+    "officialName": "Recreation and Leisure Studies",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 9067
+  },
+  {
+    "sourceName": "Recreation, Leadership and Health",
+    "url": "https://uwaterloo.ca/future-students/programs/recreation-leadership-health",
+    "officialName": "Recreation, Leadership, and Health degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16707
+  },
+  {
+    "sourceName": "Religion, Culture, and Spirituality",
+    "url": "https://uwaterloo.ca/future-students/programs/religion-culture-spirituality",
+    "officialName": "Religion, Culture, and Spirituality degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13234
+  },
+  {
+    "sourceName": "Science and Aviation",
+    "url": "https://uwaterloo.ca/future-students/programs/science-and-aviation",
+    "officialName": "Science and Aviation degree",
+    "duration": null,
+    "intakes": [
+      "May",
+      "August",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11424
+  },
+  {
+    "sourceName": "Science and Business",
+    "url": "https://uwaterloo.ca/future-students/programs/science-and-business",
+    "officialName": "Science and Business degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12861
+  },
+  {
+    "sourceName": "Science and Financial Management",
+    "url": "https://uwaterloo.ca/future-students/programs/science-financial-management",
+    "officialName": "Science and Financial Management",
+    "duration": {
+      "text": "16 months",
+      "years": 1.3
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12573
+  },
+  {
+    "sourceName": "Sexualities, Relationships, and Families",
+    "url": "https://uwaterloo.ca/future-students/programs/sexualities-relationships-families",
+    "officialName": "Sexualities, Relationships, and Families degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12054
+  },
+  {
+    "sourceName": "Social Development Studies",
+    "url": "https://uwaterloo.ca/future-students/programs/social-development-studies",
+    "officialName": "Social Development Studies",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13661
+  },
+  {
+    "sourceName": "Social Development Studies and Bachelor of Social Work (BSW) Double Degree",
+    "url": "https://uwaterloo.ca/future-students/programs/sds-social-work-double-degree",
+    "officialName": "Social Development Studies and Bachelor of Social Work Double Degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11882
+  },
+  {
+    "sourceName": "Sociology",
+    "url": "https://uwaterloo.ca/future-students/programs/sociology",
+    "officialName": "Sociology degree",
+    "duration": {
+      "text": "20 months",
+      "years": 1.7
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12183
+  },
+  {
+    "sourceName": "Software Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/software-engineering",
+    "officialName": "Software Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17742
+  },
+  {
+    "sourceName": "Sport and Recreation Management",
+    "url": "https://uwaterloo.ca/future-students/programs/sport-recreation-management",
+    "officialName": "Sport and Recreation Management degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 16789
+  },
+  {
+    "sourceName": "Statistics",
+    "url": "https://uwaterloo.ca/future-students/programs/statistics",
+    "officialName": "Statistics degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14560
+  },
+  {
+    "sourceName": "Sustainability and Financial Management",
+    "url": "https://uwaterloo.ca/future-students/programs/sustainability-financial-management",
+    "officialName": "Sustainability and Financial Management",
+    "duration": {
+      "text": "16 months",
+      "years": 1.3
+    },
+    "intakes": [
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13506
+  },
+  {
+    "sourceName": "Systems Design Engineering",
+    "url": "https://uwaterloo.ca/future-students/programs/systems-design-engineering",
+    "officialName": "Systems Design Engineering degree",
+    "duration": {
+      "text": "6 months",
+      "years": 0.5
+    },
+    "intakes": [
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17693
+  },
+  {
+    "sourceName": "Theatre and Performance",
+    "url": "https://uwaterloo.ca/future-students/programs/theatre-performance",
+    "officialName": "Theatre and Performance degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12250
+  },
+  {
+    "sourceName": "Therapeutic Recreation",
+    "url": "https://uwaterloo.ca/future-students/programs/therapeutic-recreation",
+    "officialName": "Therapeutic Recreation degree",
+    "duration": null,
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 17840
+  }
+]

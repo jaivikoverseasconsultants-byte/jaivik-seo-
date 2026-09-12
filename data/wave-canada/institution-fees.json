@@ -1,0 +1,31 @@
+{
+  "_note": "Institution-wide / faculty-level international tuition, for universities that publish no per-programme figure. feeScope mirrors englishScope: it records the granularity of the number so an institution-wide maximum is never read as a programme's own fee. feeBasis is copied verbatim from the source's own wording — Waterloo bills per TERM, and deriving an annual figure from it would be our arithmetic, not the university's statement.",
+
+  "University of Waterloo": {
+    "found": true,
+    "feeScope": "institution-wide",
+    "feeBasis": "per term",
+    "currency": "CAD",
+    "maxTuitionPerTerm": 27010,
+    "pricePerHalfUnitCourse": 5402,
+    "range": { "lowPerTerm": 23598, "highPerTerm": 34942, "note": "varies by faculty/programme; Engineering and Optometry are assessed differently" },
+    "sourceUrl": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+    "sourceTitle": "Fee Schedule for International Undergraduate Students Fall 2026",
+    "sourceQuote": "Fees below are for Fall 2026 term only. ... University of Waterloo bills students one term at a time: fall term - September to December, winter term - January to April, spring term - May to August. With the exception of Engineering and Optometry programs, tuition is assessed for each 0.5-unit course.",
+    "doNotDeriveAnnual": true,
+    "derivationWarning": "Annual cost depends on how many terms the student is enrolled (regular study is 2 academic terms; co-op sequences differ). The university does not publish an annual international figure on this page, so no annual value is stored."
+  },
+
+  "Univ of New Brunswick": {
+    "found": false,
+    "feeScope": null,
+    "searched": [
+      "https://www.unb.ca/financialservices/tuitionfees/",
+      "https://www.unb.ca/moneymatters/tuition-fees.html",
+      "https://www.unb.ca/finance/financial-services/undergraduate/fee-descriptions.html",
+      "https://www.unb.ca/fredericton/studentservices/costs.html"
+    ],
+    "finding": "No international tuition table is published as HTML. The money-matters and financial-services pages are navigation shells carrying no dollar figures, and UNB routes prospective students to a JavaScript tuition calculator at https://es.unb.ca/apps/tuition-calculator/ which computes per-student amounts rather than publishing a schedule.",
+    "action": "All 130 UNB programmes keep feeVerified:false. No figure fabricated."
+  }
+}
