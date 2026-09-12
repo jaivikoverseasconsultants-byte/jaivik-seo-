@@ -1,0 +1,247 @@
+[
+  {
+    "sourceName": "Ocean Sciences (BSc)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc.html",
+    "officialName": "Ocean Sciences (BSc)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13726
+  },
+  {
+    "sourceName": "Physics (BSc)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/physics-bsc.html",
+    "officialName": "Physics (BSc)",
+    "duration": null,
+    "intakes": [
+      "Summer"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 14993
+  },
+  {
+    "sourceName": "Plant Science (BSc Agr)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr.html",
+    "officialName": "Plant Science (BSc Agr)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12364
+  },
+  {
+    "sourceName": "Artificial Intelligence (BCS)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-artificial-intelligence-bcs.html",
+    "officialName": "Artificial Intelligence (BCS)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12989
+  },
+  {
+    "sourceName": "Cybersecurity (BCS)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-cybersecurity-bcs.html",
+    "officialName": "Cybersecurity (BCS)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12498
+  },
+  {
+    "sourceName": "Digital Innovation (BCS)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-digital-innovation-bcs.html",
+    "officialName": "Digital Innovation (BCS)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12495
+  },
+  {
+    "sourceName": "Human-Computer Interaction (BCS)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-human-computer-interaction-bcs.html",
+    "officialName": "Human-Computer Interaction (BCS)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12459
+  },
+  {
+    "sourceName": "Software Development (BCS)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-software-development-bcs.html",
+    "officialName": "Software Development (BCS)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12446
+  },
+  {
+    "sourceName": "Algorithms & Scientific Computing (BCS)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-algorithms-scientific-computing-bcs.html",
+    "officialName": "Algorithms & Scientific Computing (BCS)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12716
+  },
+  {
+    "sourceName": "Plant Science (DipTech)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-diptech.html",
+    "officialName": "Plant Science (DipTech)",
+    "duration": null,
+    "intakes": [
+      "May",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11020
+  },
+  {
+    "sourceName": "Computer Engineering (BEng)",
+    "url": "https://www.dal.ca/study/programs/undergraduate/computer-engineering-beng.html",
+    "officialName": "Computer Engineering (BEng)",
+    "duration": null,
+    "intakes": [
+      "January",
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 13085
+  },
+  {
+    "sourceName": "Law (JD)",
+    "url": "https://www.dal.ca/study/programs/graduate-professional/law-jd.html",
+    "officialName": "Law (JD)",
+    "duration": {
+      "text": "3 years",
+      "years": 3
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 9161
+  },
+  {
+    "sourceName": "Pharmacy (PharmD)",
+    "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacy-pharm-d.html",
+    "officialName": "Pharmacy (PharmD)",
+    "duration": {
+      "text": "4 years",
+      "years": 4
+    },
+    "intakes": [
+      "September"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 9221
+  },
+  {
+    "sourceName": "Medicine (MD)",
+    "url": "https://www.dal.ca/study/programs/graduate-professional/medicine-md.html",
+    "officialName": "Medicine (MD)",
+    "duration": {
+      "text": "4 years",
+      "years": 4
+    },
+    "intakes": [
+      "August"
+    ],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 11298
+  },
+  {
+    "sourceName": "Certificate in Information and Communication",
+    "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-information-and-communication.html",
+    "officialName": "Certificate in Information and Communication",
+    "duration": {
+      "text": "3 years",
+      "years": 3
+    },
+    "intakes": [],
+    "ielts": 6.5,
+    "toefl": 90,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12071
+  },
+  {
+    "sourceName": "Certificate in Systems Security Engineering",
+    "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-systems-security-engineering.html",
+    "officialName": "Certificate in Systems Security Engineering",
+    "duration": {
+      "text": "3 years",
+      "years": 3
+    },
+    "intakes": [],
+    "ielts": null,
+    "toefl": null,
+    "pte": null,
+    "tuitionIntl": [],
+    "chars": 12663
+  }
+]

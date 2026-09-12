@@ -1,0 +1,802 @@
+{
+  "University of Ottawa": {
+    "staleTotal": 270,
+    "sampled": 30,
+    "aliveInSample": 30,
+    "deadInSample": 0,
+    "detail": [
+      {
+        "name": "Doctorate Environmental Sustainability",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-environmental-sustainability/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-environmental-sustainability/",
+        "chars": 28457,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy Biomedical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biomedical-engineering/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biomedical-engineering/",
+        "chars": 30826,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy Civil Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-civil-engineering/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-civil-engineering/",
+        "chars": 57976,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy Education",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education/",
+        "chars": 73688,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy in Geography",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-geography/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-geography/",
+        "chars": 19157,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy Mechanical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mechanical-engineering/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mechanical-engineering/",
+        "chars": 53345,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy Political Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-political-science/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-political-science/",
+        "chars": 46273,
+        "gone": false
+      },
+      {
+        "name": "Doctorate in Philosophy Translation Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-translation-studies/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-translation-studies/",
+        "chars": 51389,
+        "gone": false
+      },
+      {
+        "name": "Graduate Diploma Health Professions Education (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-health-professions-education/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-health-professions-education/",
+        "chars": 71506,
+        "gone": false
+      },
+      {
+        "name": "Graduate Diploma Public Management and Governance",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-public-management-governance/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-public-management-governance/",
+        "chars": 25961,
+        "gone": false
+      },
+      {
+        "name": "Master of Applied Science Civil Engineering and Concentration Sustainable and Resilient Infrastructure",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering-concentration-sustainable-resilient-infrastructure/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering-concentration-sustainable-resilient-infrastructure/",
+        "chars": 62331,
+        "gone": false
+      },
+      {
+        "name": "Master of Applied Science Mechanical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-mechanical-engineering/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-mechanical-engineering/",
+        "chars": 54267,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts Criminology and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-criminology-specialization-feminist-gender-studies/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-arts-criminology-specialization-feminist-gender-studies/",
+        "chars": 45969,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts English Literature with Concentration in Creative Writing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-concentration-creative-writing/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-concentration-creative-writing/",
+        "chars": 19075,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts in Security and Defence Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-security-defence-studies/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-arts-security-defence-studies/",
+        "chars": 66251,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts Philosophy and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy-specialization-medieval-renaissance-studies/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy-specialization-medieval-renaissance-studies/",
+        "chars": 20129,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts Public and International Affairs and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-international-affairs-specialization-science-society-policy/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-international-affairs-specialization-science-society-policy/",
+        "chars": 79576,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts Theatre and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-theatre-specialization-medieval-renaissance-studies/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-arts-theatre-specialization-medieval-renaissance-studies/",
+        "chars": 24251,
+        "gone": false
+      },
+      {
+        "name": "Master of Computer Science and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-bioinformatics/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-bioinformatics/",
+        "chars": 72291,
+        "gone": false
+      },
+      {
+        "name": "Master of Education (Education in Minority Language Contexts and Inclusion) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-education-minority-language-contexts-inclusion-virtual/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-education-minority-language-contexts-inclusion-virtual/",
+        "chars": 72194,
+        "gone": false
+      },
+      {
+        "name": "Master of Engineering Chemical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-chemical-engineering/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-engineering-chemical-engineering/",
+        "chars": 21663,
+        "gone": false
+      },
+      {
+        "name": "Master of Engineering Management (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-engineering-management-online/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-engineering-engineering-management-online/",
+        "chars": 18023,
+        "gone": false
+      },
+      {
+        "name": "Master of Human Kinetics with Concentration Mental Performance Consulting",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-human-kinetics-concentration-mental-performance-consulting/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-human-kinetics-concentration-mental-performance-consulting/",
+        "chars": 40881,
+        "gone": false
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration International Trade and Foreign Investment",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-international-trade-foreign-investment/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-international-trade-foreign-investment/",
+        "chars": 53815,
+        "gone": false
+      },
+      {
+        "name": "Master of Public Health, Concentration in Public Health Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-public-health-policy/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-public-health-policy/",
+        "chars": 16863,
+        "gone": false
+      },
+      {
+        "name": "Master of Science Cellular and Molecular Medicine",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine/",
+        "chars": 22243,
+        "gone": false
+      },
+      {
+        "name": "Master of Science Earth Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences/",
+        "chars": 26656,
+        "gone": false
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Epidemiology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-epidemiology/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-epidemiology/",
+        "chars": 49540,
+        "gone": false
+      },
+      {
+        "name": "Master of Science Interdisciplinary Health Sciences with Concentration Technologies and Innovation in Health Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-technologies-innovation-health-sciences/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-technologies-innovation-health-sciences/",
+        "chars": 44364,
+        "gone": false
+      },
+      {
+        "name": "Master of Science Nursing and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-specialization-feminist-gender-studies/",
+        "code": "200",
+        "finalUrl": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-specialization-feminist-gender-studies/",
+        "chars": 52479,
+        "gone": false
+      }
+    ]
+  },
+  "University of Manitoba": {
+    "staleTotal": 206,
+    "sampled": 30,
+    "aliveInSample": 28,
+    "deadInSample": 2,
+    "detail": [
+      {
+        "name": "Actuarial Mathematics, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/actuarial-mathematics/actuarial-mathematics-bsc-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/actuarial-mathematics/actuarial-mathematics-bsc-honours/",
+        "chars": 114051,
+        "gone": false
+      },
+      {
+        "name": "Applied Mathematics with Computer Science Option, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-computer-science-option/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-computer-science-option/",
+        "chars": 170759,
+        "gone": false
+      },
+      {
+        "name": "Biochemistry and Medical Genetics, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/biochemistry-medical-genetics-phd/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/biochemistry-medical-genetics-phd/",
+        "chars": 28765,
+        "gone": false
+      },
+      {
+        "name": "Canadian Studies, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-double-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-double-honours/",
+        "chars": 138968,
+        "gone": false
+      },
+      {
+        "name": "Central and East European Studies, B.A. Single Advanced",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-single-advanced/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-single-advanced/",
+        "chars": 145262,
+        "gone": false
+      },
+      {
+        "name": "Classical Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-general/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-general/",
+        "chars": 130605,
+        "gone": false
+      },
+      {
+        "name": "Computer Science, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-bsc-major/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-bsc-major/",
+        "chars": 152231,
+        "gone": false
+      },
+      {
+        "name": "Data Science, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/data-science/data-science-bsc-major/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/data-science/data-science-bsc-major/",
+        "chars": 121097,
+        "gone": false
+      },
+      {
+        "name": "Economics, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-single-advanced/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-single-advanced/",
+        "chars": 182012,
+        "gone": false
+      },
+      {
+        "name": "English, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-double-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-double-honours/",
+        "chars": 160500,
+        "gone": false
+      },
+      {
+        "name": "Environmental Science, B.Env.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/environmental-science-benvsc-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/environmental-science-benvsc-honours/",
+        "chars": 107407,
+        "gone": true
+      },
+      {
+        "name": "French, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-double-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-double-honours/",
+        "chars": 157101,
+        "gone": false
+      },
+      {
+        "name": "General Regulations – Pre-Master’s",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-pre-masters/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-pre-masters/",
+        "chars": 4576,
+        "gone": false
+      },
+      {
+        "name": "Geography, B.A. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-honours/",
+        "chars": 134986,
+        "gone": true
+      },
+      {
+        "name": "German, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-double-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-double-honours/",
+        "chars": 154743,
+        "gone": false
+      },
+      {
+        "name": "Global Political Economy, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-single-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-single-honours/",
+        "chars": 133591,
+        "gone": false
+      },
+      {
+        "name": "History, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-general/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-general/",
+        "chars": 181518,
+        "gone": false
+      },
+      {
+        "name": "Icelandic, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-general/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-general/",
+        "chars": 146608,
+        "gone": false
+      },
+      {
+        "name": "Indigenous Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-general/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-general/",
+        "chars": 191695,
+        "gone": false
+      },
+      {
+        "name": "Labour Relations and Workplace Studies, Diploma",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/diploma-labour-relations-workplace-studies/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/diploma-labour-relations-workplace-studies/",
+        "chars": 144288,
+        "gone": false
+      },
+      {
+        "name": "Linguistics, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-general/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-general/",
+        "chars": 150466,
+        "gone": false
+      },
+      {
+        "name": "Mathematics, B.Sc. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-double-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-double-honours/",
+        "chars": 176138,
+        "gone": false
+      },
+      {
+        "name": "Medical Microbiology and Infectious Diseases, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/medical-microbiology-infectious-diseases-phd/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/medical-microbiology-infectious-diseases-phd/",
+        "chars": 11679,
+        "gone": false
+      },
+      {
+        "name": "Micro-Diploma in Introduction to German Language, Life, and Culture",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/micro-diploma-german-language-life-culture/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/micro-diploma-german-language-life-culture/",
+        "chars": 126012,
+        "gone": false
+      },
+      {
+        "name": "Oral Biology, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/dentistry/oral-biology-msc/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/dentistry/oral-biology-msc/",
+        "chars": 9719,
+        "gone": false
+      },
+      {
+        "name": "Pharmaceutical Sciences, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/pharmacy/pharmacy-msc/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/pharmacy/pharmacy-msc/",
+        "chars": 11131,
+        "gone": false
+      },
+      {
+        "name": "Philosophy, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-general/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-general/",
+        "chars": 155411,
+        "gone": false
+      },
+      {
+        "name": "Physics and Astronomy, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/physics-astronomy/physics-astronomy-bsc-major/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/physics-astronomy/physics-astronomy-bsc-major/",
+        "chars": 161598,
+        "gone": false
+      },
+      {
+        "name": "Political Science, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-honours/",
+        "chars": 176470,
+        "gone": false
+      },
+      {
+        "name": "Psychology, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/psychology/psychology-bsc-honours/",
+        "code": "200",
+        "finalUrl": "https://catalog.umanitoba.ca/undergraduate-studies/science/psychology/psychology-bsc-honours/",
+        "chars": 151883,
+        "gone": false
+      }
+    ]
+  },
+  "Dalhousie University": {
+    "staleTotal": 6,
+    "sampled": 6,
+    "aliveInSample": 2,
+    "deadInSample": 4,
+    "detail": [
+      {
+        "name": "Managed Landscapes (Dip)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/managed-landscapes-diploma.html",
+        "code": "404",
+        "finalUrl": "https://www.dal.ca/study/programs/undergraduate/managed-landscapes-diploma.html",
+        "chars": 6837,
+        "gone": true
+      },
+      {
+        "name": "Ocean Sciences (BSc)(BA)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc-ba.html",
+        "code": "404",
+        "finalUrl": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc-ba.html",
+        "chars": 6837,
+        "gone": true
+      },
+      {
+        "name": "Physics and Atmospheric Science (BSc)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/physics-atmospheric-science-bsc.html",
+        "code": "200",
+        "finalUrl": "https://www.dal.ca/study/programs/undergraduate/physics-bsc.html",
+        "chars": 15048,
+        "gone": false
+      },
+      {
+        "name": "Plant Science (BSc Agr, DipTech)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr-dip-tech.html",
+        "code": "404",
+        "finalUrl": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr-dip-tech.html",
+        "chars": 6837,
+        "gone": true
+      },
+      {
+        "name": "Integrated Science (BSc)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/integrated-science-bsc.html",
+        "code": "200",
+        "finalUrl": "https://www.dal.ca/study/programs/undergraduate/integrated-science-bsc.html",
+        "chars": 13283,
+        "gone": false
+      },
+      {
+        "name": "Certificate in Inclusive Leadership",
+        "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-inclusive-leadership.html",
+        "code": "404",
+        "finalUrl": "https://www.dal.ca/study/programs/non-degree/certificate-in-inclusive-leadership.html",
+        "chars": 6837,
+        "gone": true
+      }
+    ]
+  },
+  "Queen's University": {
+    "staleTotal": 91,
+    "sampled": 30,
+    "aliveInSample": 28,
+    "deadInSample": 2,
+    "detail": [
+      {
+        "name": "Bachelor of Arts (General)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "000",
+        "finalUrl": "",
+        "chars": 0,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Computing (Honours)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Engineering (Civil)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Engineering (Mining)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Science in Nursing",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Music",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Science (Biology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "000",
+        "finalUrl": "",
+        "chars": 0,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Science (Statistics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Arts (Environmental Studies)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Arts (Film and Media)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Arts (Mathematics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Bachelor of Arts (Languages)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Business Administration (MBA)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of International Business",
+        "url": "https://smith.queensu.ca/grad_studies/",
+        "code": "200",
+        "finalUrl": "https://smith.queensu.ca/grad_studies/",
+        "chars": 2649,
+        "gone": false
+      },
+      {
+        "name": "Master of Engineering (MEng)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Education (MEd)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Science in Computer Science",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Science in Psychology",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Science in Mathematics",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Arts in English",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "Master of Science in Biochemistry",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "PhD (Arts and Science)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "PhD Nursing Science",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "PhD (Biology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "PhD (Economics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "PhD (English)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      },
+      {
+        "name": "PhD (Geography)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "code": "200",
+        "finalUrl": "https://www.queensu.ca/academics/programs",
+        "chars": 223901,
+        "gone": false
+      }
+    ]
+  }
+}

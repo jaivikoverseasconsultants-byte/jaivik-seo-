@@ -5284,6 +5284,16 @@
       "source": "/universities/university-of-toronto/courses/uoft-master-global-affairs",
       "destination": "/universities/university-of-toronto/courses/uoft-master-of-global-affairs",
       "permanent": true
+    },
+    {
+      "source": "/universities/dalhousie-university/courses/dal-ocean-sciences-bscba",
+      "destination": "/universities/dalhousie-university/courses/dal-ocean-sciences-bsc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/dalhousie-university/courses/dal-plant-science-bsc-agr-diptech",
+      "destination": "/universities/dalhousie-university/courses/dal-plant-science-bsc-agr",
+      "permanent": true
     }
   ]
 }

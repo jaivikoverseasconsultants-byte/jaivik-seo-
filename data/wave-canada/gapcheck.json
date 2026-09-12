@@ -1,0 +1,3031 @@
+{
+  "University of Ottawa": {
+    "ourCount": 492,
+    "liveCount": 232,
+    "liveFetchOk": true,
+    "droppedByProgramFilter": 166,
+    "missingFromOurs": [
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-music-honours-bachelor-science-major/",
+        "name": "Bachelor of Music and Honours Bachelor of Science with Major"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-science-double-minor/",
+        "name": "Bachelor of Science with Double Minor"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-science-major/",
+        "name": "Bachelor of Science with Major"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-science-minor/",
+        "name": "Bachelor of Science with Minor"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-social-sciences-double-minor/",
+        "name": "Bachelor of Social Sciences with double Minor"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/bachelor-social-sciences-minor/",
+        "name": "Bachelor of Social Sciences with Minor"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/ba-specialise-bidisciplinaire-communication-lettres-francaises/",
+        "name": "B.A. spécialisé bidisciplinaire en communication et lettres françaises"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/ba-specialise-lettres-francaises/",
+        "name": "B.A. spécialisé Lettres françaises"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/majeure-lettres-francaises-baccalaureat-education/",
+        "name": "Majeure en lettres françaises et Baccalauréat en éducation"
+      },
+      {
+        "url": "https://catalogue.uottawa.ca/en/undergrad/undergraduate-doctor-pharmacy/",
+        "name": "Undergraduate Doctor of Pharmacy (D.Pharm.)"
+      }
+    ],
+    "notOnLiveSite": [
+      {
+        "name": "Doctorate Environmental Sustainability",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-environmental-sustainability/",
+        "slug": "uottawa-doctorate-environmental-sustainability"
+      },
+      {
+        "name": "Doctorate in Philosophy Advanced Materials and Manufacturing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-advanced-materials-manufacturing/",
+        "slug": "uottawa-doctorate-in-philosophy-advanced-materials-and-manufacturing"
+      },
+      {
+        "name": "Doctorate in Philosophy Anthropology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-anthropology/",
+        "slug": "uottawa-doctorate-in-philosophy-anthropology"
+      },
+      {
+        "name": "Doctorate in Philosophy Biochemistry",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biochemistry/",
+        "slug": "uottawa-doctorate-in-philosophy-biochemistry"
+      },
+      {
+        "name": "Doctorate in Philosophy Biochemistry and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctor-philosophy-biochemistry-specialization-bioinformatics/",
+        "slug": "uottawa-doctorate-in-philosophy-biochemistry-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Doctorate in Philosophy Biochemistry and Specialization Human and Molecular Genetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biochemistry-specialization-human-molecular-genetics/",
+        "slug": "uottawa-doctorate-in-philosophy-biochemistry-and-specialization-human-and-molecular-gene"
+      },
+      {
+        "name": "Doctorate in Philosophy Biology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biology/",
+        "slug": "uottawa-doctorate-in-philosophy-biology"
+      },
+      {
+        "name": "Doctorate in Philosophy Biology and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biology-specialization-bioinformatics/",
+        "slug": "uottawa-doctorate-in-philosophy-biology-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Doctorate in Philosophy Biology and Specialization Chemical and Environmental Toxicology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biology-specialization-chemical-environmental-toxicology/",
+        "slug": "uottawa-doctorate-in-philosophy-biology-and-specialization-chemical-and-environmental-to"
+      },
+      {
+        "name": "Doctorate in Philosophy Biomedical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biomedical-engineering/",
+        "slug": "uottawa-doctorate-in-philosophy-biomedical-engineering"
+      },
+      {
+        "name": "Doctorate in Philosophy Biomedical Engineering and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-biomedical-engineering-specialization-bioinformatics/",
+        "slug": "uottawa-doctorate-in-philosophy-biomedical-engineering-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Doctorate in Philosophy Cellular and Molecular Medicine",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-cellular-molecular-medicine/",
+        "slug": "uottawa-doctorate-in-philosophy-cellular-and-molecular-medicine"
+      },
+      {
+        "name": "Doctorate in Philosophy Cellular and Molecular Medicine and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctor-philosophy-cellular-moleculat-medicine-specialization-bioinformatics/",
+        "slug": "uottawa-doctorate-in-philosophy-cellular-and-molecular-medicine-and-specialization-bioin"
+      },
+      {
+        "name": "Doctorate in Philosophy Cellular and Molecular Medicine and Specialization Human and Molecular Genetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-cellular-molecular-medicine-specialization-human-molecular-genetics/",
+        "slug": "uottawa-doctorate-in-philosophy-cellular-and-molecular-medicine-and-specialization-human"
+      },
+      {
+        "name": "Doctorate in Philosophy Chemical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemical-engineering/",
+        "slug": "uottawa-doctorate-in-philosophy-chemical-engineering"
+      },
+      {
+        "name": "Doctorate in Philosophy Chemistry",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemistry/",
+        "slug": "uottawa-doctorate-in-philosophy-chemistry"
+      },
+      {
+        "name": "Doctorate in Philosophy Chemistry and Specialization Chemical and Environmental Toxicology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemistry-specialization-chemical-environmental-toxicology/",
+        "slug": "uottawa-doctorate-in-philosophy-chemistry-and-specialization-chemical-and-environmental-"
+      },
+      {
+        "name": "Doctorate in Philosophy Chemistry, Concentration in Biomolecular Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-chemistry-concentration-biomolecular-sciences/",
+        "slug": "uottawa-doctorate-in-philosophy-chemistry-concentration-in-biomolecular-sciences"
+      },
+      {
+        "name": "Doctorate in Philosophy Civil Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-civil-engineering/",
+        "slug": "uottawa-doctorate-in-philosophy-civil-engineering"
+      },
+      {
+        "name": "Doctorate in philosophy Clinical Science and Translational Medicine",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-clinical-science-translational-medicine/",
+        "slug": "uottawa-doctorate-in-philosophy-clinical-science-and-translational-medicine"
+      },
+      {
+        "name": "Doctorate in Philosophy Communication",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-communication/",
+        "slug": "uottawa-doctorate-in-philosophy-communication"
+      },
+      {
+        "name": "Doctorate in Philosophy Computer Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-computer-science/",
+        "slug": "uottawa-doctorate-in-philosophy-computer-science"
+      },
+      {
+        "name": "Doctorate in Philosophy Criminology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-criminology/",
+        "slug": "uottawa-doctorate-in-philosophy-criminology"
+      },
+      {
+        "name": "Doctorate in Philosophy Digital Transformation and Innovation",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-digital-transformation-innovation/",
+        "slug": "uottawa-doctorate-in-philosophy-digital-transformation-and-innovation"
+      },
+      {
+        "name": "Doctorate in Philosophy Earth Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-earth-sciences/",
+        "slug": "uottawa-doctorate-in-philosophy-earth-sciences"
+      },
+      {
+        "name": "Doctorate in Philosophy Earth Sciences and Specialization Chemical and Environmental Toxicology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-earth-sciences-specialization-chemical-environmental-toxicology/",
+        "slug": "uottawa-doctorate-in-philosophy-earth-sciences-and-specialization-chemical-and-environme"
+      },
+      {
+        "name": "Doctorate in Philosophy Economics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-economics/",
+        "slug": "uottawa-doctorate-in-philosophy-economics"
+      },
+      {
+        "name": "Doctorate in Philosophy Education",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education/",
+        "slug": "uottawa-doctorate-in-philosophy-education"
+      },
+      {
+        "name": "Doctorate in Philosophy Education (Educational Counselling)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education-concentration-educational-counselling/",
+        "slug": "uottawa-doctorate-in-philosophy-education-educational-counselling"
+      },
+      {
+        "name": "Doctorate in Philosophy Education (Health Professions Education)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-education-concentration-health-professions-education/",
+        "slug": "uottawa-doctorate-in-philosophy-education-health-professions-education"
+      },
+      {
+        "name": "Doctorate in Philosophy Electrical and Computer Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-electrical-computer-engineering/",
+        "slug": "uottawa-doctorate-in-philosophy-electrical-and-computer-engineering"
+      },
+      {
+        "name": "Doctorate in Philosophy English Literature",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-english-literature/",
+        "slug": "uottawa-doctorate-in-philosophy-english-literature"
+      },
+      {
+        "name": "Doctorate in Philosophy Environmental Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-environmental-engineering/",
+        "slug": "uottawa-doctorate-in-philosophy-environmental-engineering"
+      },
+      {
+        "name": "Doctorate in Philosophy History",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-history/",
+        "slug": "uottawa-doctorate-in-philosophy-history"
+      },
+      {
+        "name": "Doctorate in Philosophy Human Kinetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-human-kinetics/",
+        "slug": "uottawa-doctorate-in-philosophy-human-kinetics"
+      },
+      {
+        "name": "Doctorate in Philosophy in Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-feminist-gender-studies/",
+        "slug": "uottawa-doctorate-in-philosophy-in-feminist-and-gender-studies"
+      },
+      {
+        "name": "Doctorate in Philosophy in Geography",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-geography/",
+        "slug": "uottawa-doctorate-in-philosophy-in-geography"
+      },
+      {
+        "name": "Doctorate in Philosophy in Spanish",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-spanish/",
+        "slug": "uottawa-doctorate-in-philosophy-in-spanish"
+      },
+      {
+        "name": "Doctorate in Philosophy Interdisciplinary Research in Music",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-interdisciplinary-research-music/",
+        "slug": "uottawa-doctorate-in-philosophy-interdisciplinary-research-in-music"
+      },
+      {
+        "name": "Doctorate in Philosophy International Development",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-international-development/",
+        "slug": "uottawa-doctorate-in-philosophy-international-development"
+      },
+      {
+        "name": "Doctorate in Philosophy Law",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-law/",
+        "slug": "uottawa-doctorate-in-philosophy-law"
+      },
+      {
+        "name": "Doctorate in Philosophy Linguistics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-linguistics/",
+        "slug": "uottawa-doctorate-in-philosophy-linguistics"
+      },
+      {
+        "name": "Doctorate in Philosophy Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-management/",
+        "slug": "uottawa-doctorate-in-philosophy-management"
+      },
+      {
+        "name": "Doctorate in Philosophy Mathematics and Statistics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mathematics-statistics/",
+        "slug": "uottawa-doctorate-in-philosophy-mathematics-and-statistics"
+      },
+      {
+        "name": "Doctorate in Philosophy Mathematics and Statistics and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mathematics-statistics-specialization-bioinformatics/",
+        "slug": "uottawa-doctorate-in-philosophy-mathematics-and-statistics-and-specialization-bioinforma"
+      },
+      {
+        "name": "Doctorate in Philosophy Mechanical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-mechanical-engineering/",
+        "slug": "uottawa-doctorate-in-philosophy-mechanical-engineering"
+      },
+      {
+        "name": "Doctorate in Philosophy Microbiology and Immunology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-microbiology-immunology/",
+        "slug": "uottawa-doctorate-in-philosophy-microbiology-and-immunology"
+      },
+      {
+        "name": "Doctorate in Philosophy Microbiology and Immunology and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctor-philosophy-microbiology-immunology-specialization-bioinformatics/",
+        "slug": "uottawa-doctorate-in-philosophy-microbiology-and-immunology-and-specialization-bioinform"
+      },
+      {
+        "name": "Doctorate in Philosophy Neuroscience",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-neuroscience/",
+        "slug": "uottawa-doctorate-in-philosophy-neuroscience"
+      },
+      {
+        "name": "Doctorate in Philosophy Neuroscience and Specialization Human and Molecular Genetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-neuroscience-specialization-human-molecular-genetics/",
+        "slug": "uottawa-doctorate-in-philosophy-neuroscience-and-specialization-human-and-molecular-gene"
+      },
+      {
+        "name": "Doctorate in Philosophy Nursing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-nursing/",
+        "slug": "uottawa-doctorate-in-philosophy-nursing"
+      },
+      {
+        "name": "Doctorate in Philosophy Nursing - Distance Option",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-nursing-virutal/",
+        "slug": "uottawa-doctorate-in-philosophy-nursing-distance-option"
+      },
+      {
+        "name": "Doctorate in Philosophy Philosophy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-philosophy/",
+        "slug": "uottawa-doctorate-in-philosophy-philosophy"
+      },
+      {
+        "name": "Doctorate in Philosophy Physics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-physics/",
+        "slug": "uottawa-doctorate-in-philosophy-physics"
+      },
+      {
+        "name": "Doctorate in Philosophy Political Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-political-science/",
+        "slug": "uottawa-doctorate-in-philosophy-political-science"
+      },
+      {
+        "name": "Doctorate in Philosophy Population Health",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-population-health/",
+        "slug": "uottawa-doctorate-in-philosophy-population-health"
+      },
+      {
+        "name": "Doctorate in Philosophy Psychology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-psychology/",
+        "slug": "uottawa-doctorate-in-philosophy-psychology"
+      },
+      {
+        "name": "Doctorate in Philosophy Public Administration",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-public-administration/",
+        "slug": "uottawa-doctorate-in-philosophy-public-administration"
+      },
+      {
+        "name": "Doctorate in Philosophy Rehabilitation Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-rehabilitation-sciences/",
+        "slug": "uottawa-doctorate-in-philosophy-rehabilitation-sciences"
+      },
+      {
+        "name": "Doctorate in Philosophy Rehabilitation Sciences - Distance Option",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-rehabilitation-sciences-virtual/",
+        "slug": "uottawa-doctorate-in-philosophy-rehabilitation-sciences-distance-option"
+      },
+      {
+        "name": "Doctorate in Philosophy Religious Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-religious-studies/",
+        "slug": "uottawa-doctorate-in-philosophy-religious-studies"
+      },
+      {
+        "name": "Doctorate in Philosophy Social Work",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-social-work/",
+        "slug": "uottawa-doctorate-in-philosophy-social-work"
+      },
+      {
+        "name": "Doctorate in Philosophy Sociology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-sociology/",
+        "slug": "uottawa-doctorate-in-philosophy-sociology"
+      },
+      {
+        "name": "Doctorate in Philosophy Translation Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-translation-studies/",
+        "slug": "uottawa-doctorate-in-philosophy-translation-studies"
+      },
+      {
+        "name": "Doctorate of Philosophy in Epidemiology and Applied Health Research",
+        "url": "https://catalogue.uottawa.ca/en/graduate/doctorate-philosophy-epidemiology-applied-health-research/",
+        "slug": "uottawa-doctorate-of-philosophy-in-epidemiology-and-applied-health-research"
+      },
+      {
+        "name": "Executive Master of Health Administration (EMHA) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-health-administration-executive-mha/",
+        "slug": "uottawa-executive-master-of-health-administration-emha-online"
+      },
+      {
+        "name": "Graduate Diploma Chartered Professional Accountancy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-chartered-professional-accountancy/",
+        "slug": "uottawa-graduate-diploma-chartered-professional-accountancy"
+      },
+      {
+        "name": "Graduate Diploma Complex Project Leadership",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-complex-project-leadership/",
+        "slug": "uottawa-graduate-diploma-complex-project-leadership"
+      },
+      {
+        "name": "Graduate Diploma Engineering Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-technology-project-management/",
+        "slug": "uottawa-graduate-diploma-engineering-management"
+      },
+      {
+        "name": "Graduate Diploma Engineering Management (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-engineering-management-online/",
+        "slug": "uottawa-graduate-diploma-engineering-management-online"
+      },
+      {
+        "name": "Graduate Diploma Food Policy and Regulatory Affairs (online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-food-policy-regulatory-affairs-online/",
+        "slug": "uottawa-graduate-diploma-food-policy-and-regulatory-affairs-online"
+      },
+      {
+        "name": "Graduate Diploma for Nurse Practitioners",
+        "url": "https://catalogue.uottawa.ca/en/graduate/diploma-nurse-practitioners/",
+        "slug": "uottawa-graduate-diploma-for-nurse-practitioners"
+      },
+      {
+        "name": "Graduate Diploma Health Professions Education (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-health-professions-education/",
+        "slug": "uottawa-graduate-diploma-health-professions-education-online"
+      },
+      {
+        "name": "Graduate Diploma Information Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-information-management/",
+        "slug": "uottawa-graduate-diploma-information-management"
+      },
+      {
+        "name": "Graduate Diploma in Health Education",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-health-education/",
+        "slug": "uottawa-graduate-diploma-in-health-education"
+      },
+      {
+        "name": "Graduate Diploma Leadership and Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-leadership-management/",
+        "slug": "uottawa-graduate-diploma-leadership-and-management"
+      },
+      {
+        "name": "Graduate Diploma Music Performance",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-music-performance/",
+        "slug": "uottawa-graduate-diploma-music-performance"
+      },
+      {
+        "name": "Graduate Diploma Music Performance (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-music-performance-online/",
+        "slug": "uottawa-graduate-diploma-music-performance-online"
+      },
+      {
+        "name": "Graduate Diploma Organizational Performance Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-organizational-performance-management/",
+        "slug": "uottawa-graduate-diploma-organizational-performance-management"
+      },
+      {
+        "name": "Graduate Diploma Piano Pedagogy Research",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-piano-pedagogy-research/",
+        "slug": "uottawa-graduate-diploma-piano-pedagogy-research"
+      },
+      {
+        "name": "Graduate Diploma Program Evaluation",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-program-evaluation/",
+        "slug": "uottawa-graduate-diploma-program-evaluation"
+      },
+      {
+        "name": "Graduate Diploma Public Management and Governance",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-public-management-governance/",
+        "slug": "uottawa-graduate-diploma-public-management-and-governance"
+      },
+      {
+        "name": "Graduate Diploma Scientific Management and Leadership",
+        "url": "https://catalogue.uottawa.ca/en/graduate/graduate-diploma-scientific-management-leadership/",
+        "slug": "uottawa-graduate-diploma-scientific-management-and-leadership"
+      },
+      {
+        "name": "Master of Applied Science Advanced Materials and Manufacturing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-advanced-materials-manufacturing/",
+        "slug": "uottawa-master-of-applied-science-advanced-materials-and-manufacturing"
+      },
+      {
+        "name": "Master of Applied Science Anatomical Sciences Education",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-anatomical-sciences-education/",
+        "slug": "uottawa-master-of-applied-science-anatomical-sciences-education"
+      },
+      {
+        "name": "Master of Applied Science Biomedical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-biomedical-engineering/",
+        "slug": "uottawa-master-of-applied-science-biomedical-engineering"
+      },
+      {
+        "name": "Master of Applied Science Biomedical Engineering and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-biomedical-engineering-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-applied-science-biomedical-engineering-and-specialization-bioinformati"
+      },
+      {
+        "name": "Master of Applied Science Chemical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-chemical-engineering/",
+        "slug": "uottawa-master-of-applied-science-chemical-engineering"
+      },
+      {
+        "name": "Master of Applied Science Chemical Engineering and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-chemical-engineering-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-applied-science-chemical-engineering-and-specialization-science-societ"
+      },
+      {
+        "name": "Master of Applied Science Civil Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering/",
+        "slug": "uottawa-master-of-applied-science-civil-engineering"
+      },
+      {
+        "name": "Master of Applied Science Civil Engineering and Concentration Sustainable and Resilient Infrastructure",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering-concentration-sustainable-resilient-infrastructure/",
+        "slug": "uottawa-master-of-applied-science-civil-engineering-and-concentration-sustainable-and-re"
+      },
+      {
+        "name": "Master of Applied Science Civil Engineering and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-civil-engineering-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-applied-science-civil-engineering-and-specialization-science-society-a"
+      },
+      {
+        "name": "Master of Applied Science Electrical and Computer Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering/",
+        "slug": "uottawa-master-of-applied-science-electrical-and-computer-engineering"
+      },
+      {
+        "name": "Master of Applied Science Electrical and Computer Engineering and Concentration Applied Artificial Intelligence",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering-concentration-applied-artificial-intelligence/",
+        "slug": "uottawa-master-of-applied-science-electrical-and-computer-engineering-and-concentration-"
+      },
+      {
+        "name": "Master of Applied Science Electrical and Computer Engineering and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-electrical-computer-engineering-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-applied-science-electrical-and-computer-engineering-and-specialization"
+      },
+      {
+        "name": "Master of Applied Science Environmental Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-environmental-engineering/",
+        "slug": "uottawa-master-of-applied-science-environmental-engineering"
+      },
+      {
+        "name": "Master of Applied Science in Accessibility in Biomedicine",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-accessibility-biomedicine/",
+        "slug": "uottawa-master-of-applied-science-in-accessibility-in-biomedicine"
+      },
+      {
+        "name": "Master of Applied Science in Systems Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-systems-engineering/",
+        "slug": "uottawa-master-of-applied-science-in-systems-engineering"
+      },
+      {
+        "name": "Master of Applied Science in Systems Engineering, Concentration in Interdisciplinary Artificial Intelligence",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-systems-engineering-concentration-interdisciplinary-artificial-intelligence/",
+        "slug": "uottawa-master-of-applied-science-in-systems-engineering-concentration-in-interdisciplin"
+      },
+      {
+        "name": "Master of Applied Science Mechanical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-applied-science-mechanical-engineering/",
+        "slug": "uottawa-master-of-applied-science-mechanical-engineering"
+      },
+      {
+        "name": "Master of Arts Anthropology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-anthropology/",
+        "slug": "uottawa-master-of-arts-anthropology"
+      },
+      {
+        "name": "Master of Arts Bilingualism Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-bilingualism-studies/",
+        "slug": "uottawa-master-of-arts-bilingualism-studies"
+      },
+      {
+        "name": "Master of Arts Classical Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-classical-studies/",
+        "slug": "uottawa-master-of-arts-classical-studies"
+      },
+      {
+        "name": "Master of Arts Classical Studies and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-classical-studies-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-classical-studies-and-specialization-medieval-and-renaissance-stu"
+      },
+      {
+        "name": "Master of Arts Communication",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-communication/",
+        "slug": "uottawa-master-of-arts-communication"
+      },
+      {
+        "name": "Master of Arts Communication and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-communication-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-arts-communication-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Arts Contemporary Art Theory",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-contemporary-art-theory/",
+        "slug": "uottawa-master-of-arts-contemporary-art-theory"
+      },
+      {
+        "name": "Master of Arts Criminology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-criminology/",
+        "slug": "uottawa-master-of-arts-criminology"
+      },
+      {
+        "name": "Master of Arts Criminology and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-criminology-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-criminology-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Economics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-economics/",
+        "slug": "uottawa-master-of-arts-economics"
+      },
+      {
+        "name": "Master of arts Education",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education/",
+        "slug": "uottawa-master-of-arts-education"
+      },
+      {
+        "name": "Master of Arts Education and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-education-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Education (Counselling Psychology)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education-concentration-counselling-psychology/",
+        "slug": "uottawa-master-of-arts-education-counselling-psychology"
+      },
+      {
+        "name": "Master of Arts Education (Health Professions Education)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-education-concentration-health-professions-education/",
+        "slug": "uottawa-master-of-arts-education-health-professions-education"
+      },
+      {
+        "name": "Master of Arts English Literature",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature/",
+        "slug": "uottawa-master-of-arts-english-literature"
+      },
+      {
+        "name": "Master of Arts English Literature and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-english-literature-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts English Literature and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-english-literature-and-specialization-medieval-and-renaissance-st"
+      },
+      {
+        "name": "Master of Arts English Literature with Concentration in Creative Writing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-english-literature-concentration-creative-writing/",
+        "slug": "uottawa-master-of-arts-english-literature-with-concentration-in-creative-writing"
+      },
+      {
+        "name": "Master of Arts Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Geography",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-geography/",
+        "slug": "uottawa-master-of-arts-geography"
+      },
+      {
+        "name": "Master of Arts Geography and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-geography-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-arts-geography-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Arts History",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-history/",
+        "slug": "uottawa-master-of-arts-history"
+      },
+      {
+        "name": "Master of Arts History and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-history-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-history-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts History and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-history-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-history-and-specialization-medieval-and-renaissance-studies"
+      },
+      {
+        "name": "Master of Arts Human Kinetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-human-kinetics/",
+        "slug": "uottawa-master-of-arts-human-kinetics"
+      },
+      {
+        "name": "Master of Arts Human Kinetics with Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-human-kinetics-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-human-kinetics-with-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts in Security and Defence Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-security-defence-studies/",
+        "slug": "uottawa-master-of-arts-in-security-and-defence-studies"
+      },
+      {
+        "name": "Master of Arts International Development and Globalization",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-globalization-international-development/",
+        "slug": "uottawa-master-of-arts-international-development-and-globalization"
+      },
+      {
+        "name": "Master of Arts International Development and Globalization and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-globalization-international-development-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-international-development-and-globalization-and-specialization-fe"
+      },
+      {
+        "name": "Master of Arts Linguistics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-linguistics/",
+        "slug": "uottawa-master-of-arts-linguistics"
+      },
+      {
+        "name": "Master of Arts Music",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-music/",
+        "slug": "uottawa-master-of-arts-music"
+      },
+      {
+        "name": "Master of Arts Music and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-music-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-music-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Music and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-music-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-music-and-specialization-medieval-and-renaissance-studies"
+      },
+      {
+        "name": "Master of Arts Philosophy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy/",
+        "slug": "uottawa-master-of-arts-philosophy"
+      },
+      {
+        "name": "Master of Arts Philosophy and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-philosophy-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Philosophy and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-philosophy-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-philosophy-and-specialization-medieval-and-renaissance-studies"
+      },
+      {
+        "name": "Master of Arts Political Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-political-science/",
+        "slug": "uottawa-master-of-arts-political-science"
+      },
+      {
+        "name": "Master of Arts Political Science and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-political-science-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-political-science-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Psychedelics and Consciousness Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-psychedelics-consciousness-studies/",
+        "slug": "uottawa-master-of-arts-psychedelics-and-consciousness-studies"
+      },
+      {
+        "name": "Master of Arts Psychology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-psychology/",
+        "slug": "uottawa-master-of-arts-psychology"
+      },
+      {
+        "name": "Master of Arts Public Administration",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-administration/",
+        "slug": "uottawa-master-of-arts-public-administration"
+      },
+      {
+        "name": "Master of Arts Public Administration and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-administration-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-public-administration-and-specialization-feminist-and-gender-stud"
+      },
+      {
+        "name": "Master of Arts Public Administration and Specialization in Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-administration-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-arts-public-administration-and-specialization-in-science-society-and-p"
+      },
+      {
+        "name": "Master of Arts Public and International Affairs",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-international-affairs/",
+        "slug": "uottawa-master-of-arts-public-and-international-affairs"
+      },
+      {
+        "name": "Master of Arts Public and International Affairs and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-public-international-affairs-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-arts-public-and-international-affairs-and-specialization-science-socie"
+      },
+      {
+        "name": "Master of Arts Religious Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-religious-studies/",
+        "slug": "uottawa-master-of-arts-religious-studies"
+      },
+      {
+        "name": "Master of Arts Religious Studies and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-religious-studies-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-religious-studies-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Religious Studies and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-religious-studies-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-religious-studies-and-specialization-medieval-and-renaissance-stu"
+      },
+      {
+        "name": "Master of Arts Sociology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-sociology/",
+        "slug": "uottawa-master-of-arts-sociology"
+      },
+      {
+        "name": "Master of Arts Sociology and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-sociology-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-arts-sociology-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Arts Spanish",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-spanish/",
+        "slug": "uottawa-master-of-arts-spanish"
+      },
+      {
+        "name": "Master of Arts Spanish and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-spanish-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-spanish-and-specialization-medieval-and-renaissance-studies"
+      },
+      {
+        "name": "Master of Arts Theatre",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-theatre/",
+        "slug": "uottawa-master-of-arts-theatre"
+      },
+      {
+        "name": "Master of Arts Theatre and Specialization Medieval and Renaissance Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-theatre-specialization-medieval-renaissance-studies/",
+        "slug": "uottawa-master-of-arts-theatre-and-specialization-medieval-and-renaissance-studies"
+      },
+      {
+        "name": "Master of Arts Translation Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-translation-studies/",
+        "slug": "uottawa-master-of-arts-translation-studies"
+      },
+      {
+        "name": "Master of Arts Translation Studies and Concentration Literary Translation",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-translation-studies-concentration-literary-translation/",
+        "slug": "uottawa-master-of-arts-translation-studies-and-concentration-literary-translation"
+      },
+      {
+        "name": "Master of Arts World Literatures and Cultures",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-arts-world-literatures-cultures/",
+        "slug": "uottawa-master-of-arts-world-literatures-and-cultures"
+      },
+      {
+        "name": "Master of Business Administration (MBA)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-business-administration-mba/",
+        "slug": "uottawa-master-of-business-administration-mba"
+      },
+      {
+        "name": "Master of Business Complex Project Leadership",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-business-complex-project-leadership/",
+        "slug": "uottawa-master-of-business-complex-project-leadership"
+      },
+      {
+        "name": "Master of Communication",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-communication/",
+        "slug": "uottawa-master-of-communication"
+      },
+      {
+        "name": "Master of Computer Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science/",
+        "slug": "uottawa-master-of-computer-science"
+      },
+      {
+        "name": "Master of Computer Science and Concentration Applied Artificial Intelligence",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-artificialintelligence/",
+        "slug": "uottawa-master-of-computer-science-and-concentration-applied-artificial-intelligence"
+      },
+      {
+        "name": "Master of Computer Science and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-computer-science-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Master of Conference Interpreting",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-conference-interpreting/",
+        "slug": "uottawa-master-of-conference-interpreting"
+      },
+      {
+        "name": "Master of Digital Transformation and Innovation",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation/",
+        "slug": "uottawa-master-of-digital-transformation-and-innovation"
+      },
+      {
+        "name": "Master of Digital Transformation and Innovation and Concentration Applied Data Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation-concentration-applied-data-science/",
+        "slug": "uottawa-master-of-digital-transformation-and-innovation-and-concentration-applied-data-s"
+      },
+      {
+        "name": "Master of Digital Transformation and Innovation Concentration UX Design",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation-concentration-ux-deisgn/",
+        "slug": "uottawa-master-of-digital-transformation-and-innovation-concentration-ux-design"
+      },
+      {
+        "name": "Master of Digital Transformation and Innovation (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-digital-transformation-innovation-online/",
+        "slug": "uottawa-master-of-digital-transformation-and-innovation-online"
+      },
+      {
+        "name": "Master of Education (Counselling Psychology)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-counselling-psychology/",
+        "slug": "uottawa-master-of-education-counselling-psychology"
+      },
+      {
+        "name": "Master of Education (Educational Leadership, Policy and Evaluation) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-educational-leadership-policy-evaluation-virtual/",
+        "slug": "uottawa-master-of-education-educational-leadership-policy-and-evaluation-online"
+      },
+      {
+        "name": "Master of Education (Education in Minority Language Contexts and Inclusion)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-education-minority-language-contexts-inclusion/",
+        "slug": "uottawa-master-of-education-education-in-minority-language-contexts-and-inclusion"
+      },
+      {
+        "name": "Master of Education (Education in Minority Language Contexts and Inclusion) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-education-minority-language-contexts-inclusion-virtual/",
+        "slug": "uottawa-master-of-education-education-in-minority-language-contexts-and-inclusion-online"
+      },
+      {
+        "name": "Master of Education (Health Professions Education) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-health-professions-education/",
+        "slug": "uottawa-master-of-education-health-professions-education-online"
+      },
+      {
+        "name": "Master of Education (Second Language Education) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-second-language-education-virtual/",
+        "slug": "uottawa-master-of-education-second-language-education-online"
+      },
+      {
+        "name": "Master of Education (Societies, Cultures and Languages)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-societies-cultures-languages/",
+        "slug": "uottawa-master-of-education-societies-cultures-and-languages"
+      },
+      {
+        "name": "Master of Education (Studies in Teaching and Learning)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-studies-teaching-learning/",
+        "slug": "uottawa-master-of-education-studies-in-teaching-and-learning"
+      },
+      {
+        "name": "Master of Education (Studies in Teaching and Learning) (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-education-concentration-studies-teaching-learning-virtual/",
+        "slug": "uottawa-master-of-education-studies-in-teaching-and-learning-online"
+      },
+      {
+        "name": "Master of Engineering Advanced Materials and Manufacturing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-advanced-materials-manufacturing/",
+        "slug": "uottawa-master-of-engineering-advanced-materials-and-manufacturing"
+      },
+      {
+        "name": "Master of Engineering Biomedical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-biomedical/",
+        "slug": "uottawa-master-of-engineering-biomedical-engineering"
+      },
+      {
+        "name": "Master of Engineering Biomedical Engineering and Concentration Clinical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-biomedical-engineering-concentration-clinical-engineering/",
+        "slug": "uottawa-master-of-engineering-biomedical-engineering-and-concentration-clinical-engineer"
+      },
+      {
+        "name": "Master of Engineering Chemical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-chemical-engineering/",
+        "slug": "uottawa-master-of-engineering-chemical-engineering"
+      },
+      {
+        "name": "Master of Engineering Civil Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-civil-engineering/",
+        "slug": "uottawa-master-of-engineering-civil-engineering"
+      },
+      {
+        "name": "Master of Engineering Electrical and Computer Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-electrical-computer-engineering/",
+        "slug": "uottawa-master-of-engineering-electrical-and-computer-engineering"
+      },
+      {
+        "name": "Master of Engineering Electrical and Computer Engineering and Concentration Applied Artificial Intelligence",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-electrical-computer-engineering-concentration-applied-artificial-intelligence/",
+        "slug": "uottawa-master-of-engineering-electrical-and-computer-engineering-and-concentration-appl"
+      },
+      {
+        "name": "Master of Engineering Engineering Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-engineering-management/",
+        "slug": "uottawa-master-of-engineering-engineering-management"
+      },
+      {
+        "name": "Master of Engineering Environmental Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-environmental-engineering/",
+        "slug": "uottawa-master-of-engineering-environmental-engineering"
+      },
+      {
+        "name": "Master of Engineering in Entrepreneurial Engineering Design",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-entrepreneurial-engineering-design/",
+        "slug": "uottawa-master-of-engineering-in-entrepreneurial-engineering-design"
+      },
+      {
+        "name": "Master of Engineering in Systems Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-systems-engineering/",
+        "slug": "uottawa-master-of-engineering-in-systems-engineering"
+      },
+      {
+        "name": "Master of Engineering in Systems Engineering, Concentration in Interdisciplinary Artificial Intelligence",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-systems-engineering-concentration-interdisciplinary-artificial-intelligence/",
+        "slug": "uottawa-master-of-engineering-in-systems-engineering-concentration-in-interdisciplinary-"
+      },
+      {
+        "name": "Master of Engineering Management (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-engineering-management-online/",
+        "slug": "uottawa-master-of-engineering-management-online"
+      },
+      {
+        "name": "Master of Engineering Mechanical Engineering",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-engineering-mechanical-engineering/",
+        "slug": "uottawa-master-of-engineering-mechanical-engineering"
+      },
+      {
+        "name": "Master of Fine Arts Theatre Directing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-fine-arts-theatre-directing/",
+        "slug": "uottawa-master-of-fine-arts-theatre-directing"
+      },
+      {
+        "name": "Master of Fine Arts Visual Arts",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-fine-arts-visual-arts/",
+        "slug": "uottawa-master-of-fine-arts-visual-arts"
+      },
+      {
+        "name": "Master of Health Administration (MHA)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-health-administration-mha/",
+        "slug": "uottawa-master-of-health-administration-mha"
+      },
+      {
+        "name": "Master of Health Sciences Audiology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-audiology/",
+        "slug": "uottawa-master-of-health-sciences-audiology"
+      },
+      {
+        "name": "Master of Health Sciences Occupational Therapy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-occupational-therapy/",
+        "slug": "uottawa-master-of-health-sciences-occupational-therapy"
+      },
+      {
+        "name": "Master of Health Sciences Physiotherapy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-physiotherapy/",
+        "slug": "uottawa-master-of-health-sciences-physiotherapy"
+      },
+      {
+        "name": "Master of Health Sciences Speech-Language Pathology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-health-sciences-speechlanguage-pathology/",
+        "slug": "uottawa-master-of-health-sciences-speech-language-pathology"
+      },
+      {
+        "name": "Master of Human Kinetics with Concentration Mental Performance Consulting",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-human-kinetics-concentration-mental-performance-consulting/",
+        "slug": "uottawa-master-of-human-kinetics-with-concentration-mental-performance-consulting"
+      },
+      {
+        "name": "Master of Human Kinetics with Concentration Sport Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-human-kinetics-concentration-sport-management/",
+        "slug": "uottawa-master-of-human-kinetics-with-concentration-sport-management"
+      },
+      {
+        "name": "Master of Information Studies (Bilingual)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-information-studies-bilingual/",
+        "slug": "uottawa-master-of-information-studies-bilingual"
+      },
+      {
+        "name": "Master of Information Studies (Bilingual) and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-information-studies-bilingual-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-information-studies-bilingual-and-specialization-science-society-and-p"
+      },
+      {
+        "name": "Master of Interdisciplinary Artificial Intelligence (Online)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-interdisciplinary-applied-artificial-intelligence-online/",
+        "slug": "uottawa-master-of-interdisciplinary-artificial-intelligence-online"
+      },
+      {
+        "name": "Master of Laws (LLM)",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm/",
+        "slug": "uottawa-master-of-laws-llm"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration Global Sustainability and Environmental Law",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-global-sustainability-environmental-law/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-global-sustainability-and-environmental-law"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration Health Law, Policy and Ethics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-health-law-policy-ethics/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-health-law-policy-and-ethics"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration International Humanitarian and Security Law",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-international-humanitarian-security-law/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-international-humanitarian-and-security-law"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration International Trade and Foreign Investment",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-international-trade-foreign-investment/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-international-trade-and-foreign-investment"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration Law and Social Justice",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-law-social-justice/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-law-and-social-justice"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration Law and Technology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-law-technology/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-law-and-technology"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration Legislative Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-legislative-studies/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-legislative-studies"
+      },
+      {
+        "name": "Master of Laws (LLM) and Concentration Notarial Law",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-concentration-notarial-law/",
+        "slug": "uottawa-master-of-laws-llm-and-concentration-notarial-law"
+      },
+      {
+        "name": "Master of Laws (LLM) and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-laws-llm-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-laws-llm-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Music and Concentration Composition",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-music-concentration-in-composition/",
+        "slug": "uottawa-master-of-music-and-concentration-composition"
+      },
+      {
+        "name": "Master of Music and Concentration Performance",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-music-concentration-in-performance/",
+        "slug": "uottawa-master-of-music-and-concentration-performance"
+      },
+      {
+        "name": "Master of Public Health, Concentration in Global Health",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-global-health/",
+        "slug": "uottawa-master-of-public-health-concentration-in-global-health"
+      },
+      {
+        "name": "Master of Public Health, Concentration in Public Health Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-public-health-policy/",
+        "slug": "uottawa-master-of-public-health-concentration-in-public-health-policy"
+      },
+      {
+        "name": "Master of Public Health Concentration in Public Health Practice",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-public-health-concentration-public-health-practice/",
+        "slug": "uottawa-master-of-public-health-concentration-in-public-health-practice"
+      },
+      {
+        "name": "Master of Science Biochemistry",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biochemistry/",
+        "slug": "uottawa-master-of-science-biochemistry"
+      },
+      {
+        "name": "Master of Science Biochemistry and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biochemistry-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-science-biochemistry-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Master of Science Biochemistry and Specialization Human and Molecular Genetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biochemistry-specialization-human-molecular-genetics/",
+        "slug": "uottawa-master-of-science-biochemistry-and-specialization-human-and-molecular-genetics"
+      },
+      {
+        "name": "Master of Science Biology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology/",
+        "slug": "uottawa-master-of-science-biology"
+      },
+      {
+        "name": "Master of Science Biology and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-science-biology-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Master of Science Biology and Specialization Chemical and Environmental Toxicology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology-specialization-chemical-environmental-toxicology/",
+        "slug": "uottawa-master-of-science-biology-and-specialization-chemical-and-environmental-toxicolo"
+      },
+      {
+        "name": "Master of Science Biology and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-biology-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-science-biology-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Science Cellular and Molecular Medicine",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine/",
+        "slug": "uottawa-master-of-science-cellular-and-molecular-medicine"
+      },
+      {
+        "name": "Master of Science Cellular and Molecular Medicine and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-science-cellular-and-molecular-medicine-and-specialization-bioinformat"
+      },
+      {
+        "name": "Master of Science Cellular and Molecular Medicine and Specialization Human and Molecular Genetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-cellular-molecular-medicine-specialization-human-molecular-genetics/",
+        "slug": "uottawa-master-of-science-cellular-and-molecular-medicine-and-specialization-human-and-m"
+      },
+      {
+        "name": "Master of Science Chemistry",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry/",
+        "slug": "uottawa-master-of-science-chemistry"
+      },
+      {
+        "name": "Master of Science Chemistry and Specialization Chemical and Environmental Toxicology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry-specialization-chemical-environmental-toxicology/",
+        "slug": "uottawa-master-of-science-chemistry-and-specialization-chemical-and-environmental-toxico"
+      },
+      {
+        "name": "Master of Science Chemistry and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-science-chemistry-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Science Chemistry Concentration in Biomolecular Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-chemistry-concentration-biomolecular-science/",
+        "slug": "uottawa-master-of-science-chemistry-concentration-in-biomolecular-science"
+      },
+      {
+        "name": "Master of Science Clinical Science and Translational Medicine",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-clinical-science-translational-medicine/",
+        "slug": "uottawa-master-of-science-clinical-science-and-translational-medicine"
+      },
+      {
+        "name": "Master of Science Digital Transformation and Innovation",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-digital-transformation-innovation/",
+        "slug": "uottawa-master-of-science-digital-transformation-and-innovation"
+      },
+      {
+        "name": "Master of Science Earth Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences/",
+        "slug": "uottawa-master-of-science-earth-sciences"
+      },
+      {
+        "name": "Master of Science Earth Sciences and Specialization Chemical and Environmental Toxicology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences-specialization-chemical-environmental-toxicology/",
+        "slug": "uottawa-master-of-science-earth-sciences-and-specialization-chemical-and-environmental-t"
+      },
+      {
+        "name": "Master of Science Earth Sciences and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-earth-sciences-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-science-earth-sciences-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Science Environmental Sustainability",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-environmental-sustainability/",
+        "slug": "uottawa-master-of-science-environmental-sustainability"
+      },
+      {
+        "name": "Master of Science Geography",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-geography/",
+        "slug": "uottawa-master-of-science-geography"
+      },
+      {
+        "name": "Master of Science Geography and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-geography-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-science-geography-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Science Health Systems",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-health-systems/",
+        "slug": "uottawa-master-of-science-health-systems"
+      },
+      {
+        "name": "Master of Science Human Kinetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-human-kinetics/",
+        "slug": "uottawa-master-of-science-human-kinetics"
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Clinical Research",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-clinical-research/",
+        "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-c"
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Epidemiology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-epidemiology/",
+        "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-e"
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Global Health Research",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-global-health-research/",
+        "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-g"
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Health Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-health-policy/",
+        "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-h"
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Health Technology Assessment",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-health-technology-assessment/",
+        "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-h-460"
+      },
+      {
+        "name": "Master of Science in Epidemiology and Applied Health Research, Concentration in Implementation Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-epidemiology-applied-health-research-concentration-implementation-science/",
+        "slug": "uottawa-master-of-science-in-epidemiology-and-applied-health-research-concentration-in-i"
+      },
+      {
+        "name": "Master of Science in Management",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-management/",
+        "slug": "uottawa-master-of-science-in-management"
+      },
+      {
+        "name": "Master of Science Interdisciplinary Health Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences/",
+        "slug": "uottawa-master-of-science-interdisciplinary-health-sciences"
+      },
+      {
+        "name": "Master of Science Interdisciplinary Health Sciences with Concentration Integrative Health Biosciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-integrative-health-biosciences/",
+        "slug": "uottawa-master-of-science-interdisciplinary-health-sciences-with-concentration-integrati"
+      },
+      {
+        "name": "Master of Science Interdisciplinary Health Sciences with Concentration Population and Public Health",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-population-public-health/",
+        "slug": "uottawa-master-of-science-interdisciplinary-health-sciences-with-concentration-populatio"
+      },
+      {
+        "name": "Master of Science Interdisciplinary Health Sciences with Concentration Technologies and Innovation in Health Sciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-interdisciplinary-health-sciences-concentration-technologies-innovation-health-sciences/",
+        "slug": "uottawa-master-of-science-interdisciplinary-health-sciences-with-concentration-technolog"
+      },
+      {
+        "name": "Master of Science Mathematics and Statistics and Concentration Mathematics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-mathematics-statistics-concentration-mathematics/",
+        "slug": "uottawa-master-of-science-mathematics-and-statistics-and-concentration-mathematics"
+      },
+      {
+        "name": "Master of Science Mathematics and Statistics and Concentration Statistics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-mathematics-statistics-concentration-statistics/",
+        "slug": "uottawa-master-of-science-mathematics-and-statistics-and-concentration-statistics"
+      },
+      {
+        "name": "Master of Science Mathematics and Statistics and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-mathematics-statistics-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-science-mathematics-and-statistics-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Master of Science Microbiology and Immunology",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-microbiology-immunology/",
+        "slug": "uottawa-master-of-science-microbiology-and-immunology"
+      },
+      {
+        "name": "Master of Science Microbiology and Immunology and Specialization Bioinformatics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-microbiology-immunology-specialization-bioinformatics/",
+        "slug": "uottawa-master-of-science-microbiology-and-immunology-and-specialization-bioinformatics"
+      },
+      {
+        "name": "Master of Science Neuroscience",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-neuroscience/",
+        "slug": "uottawa-master-of-science-neuroscience"
+      },
+      {
+        "name": "Master of Science Neuroscience and Specialization Human and Molecular Genetics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-neuroscience-specialization-human-molecular-genetics/",
+        "slug": "uottawa-master-of-science-neuroscience-and-specialization-human-and-molecular-genetics"
+      },
+      {
+        "name": "Master of Science Nursing",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing/",
+        "slug": "uottawa-master-of-science-nursing"
+      },
+      {
+        "name": "Master of Science Nursing and Specialization Feminist and Gender Studies",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-specialization-feminist-gender-studies/",
+        "slug": "uottawa-master-of-science-nursing-and-specialization-feminist-and-gender-studies"
+      },
+      {
+        "name": "Master of Science Nursing - Distance Option",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-virtual/",
+        "slug": "uottawa-master-of-science-nursing-distance-option"
+      },
+      {
+        "name": "Master of Science Nursing with Graduate Diploma for Nurse Practitioners",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nursing-diploma-nurse-practitioners/",
+        "slug": "uottawa-master-of-science-nursing-with-graduate-diploma-for-nurse-practitioners"
+      },
+      {
+        "name": "Master of Science Nutrition and Food Biosciences",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-nutrition-food-biosciences/",
+        "slug": "uottawa-master-of-science-nutrition-and-food-biosciences"
+      },
+      {
+        "name": "Master of Science Physics",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-physics/",
+        "slug": "uottawa-master-of-science-physics"
+      },
+      {
+        "name": "Master of Science Physics and Concentration Quantum Science",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-physics-concentration-quantum-science/",
+        "slug": "uottawa-master-of-science-physics-and-concentration-quantum-science"
+      },
+      {
+        "name": "Master of Science Physics and Specialization Science, Society and Policy",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-science-physics-specialization-science-society-policy/",
+        "slug": "uottawa-master-of-science-physics-and-specialization-science-society-and-policy"
+      },
+      {
+        "name": "Master of Social Work",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-social-work/",
+        "slug": "uottawa-master-of-social-work"
+      },
+      {
+        "name": "Master of Translation",
+        "url": "https://catalogue.uottawa.ca/en/graduate/master-translation/",
+        "slug": "uottawa-master-of-translation"
+      }
+    ]
+  },
+  "University of Manitoba": {
+    "ourCount": 340,
+    "liveCount": 137,
+    "liveFetchOk": true,
+    "droppedByProgramFilter": 377,
+    "missingFromOurs": [
+      {
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/course-descriptions/dagr/",
+        "name": "Agriculture Diploma (DAGR)"
+      },
+      {
+        "url": "https://catalog.umanitoba.ca/graduate-studies/course-descriptions/educ/",
+        "name": "Education Ph.D. Courses (EDUC)"
+      },
+      {
+        "url": "https://catalog.umanitoba.ca/graduate-studies/course-descriptions/phdm/",
+        "name": "Management Ph.D. (PHDM)"
+      }
+    ],
+    "notOnLiveSite": [
+      {
+        "name": "Actuarial Mathematics, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/actuarial-mathematics/actuarial-mathematics-bsc-honours/",
+        "slug": "umanitoba-actuarial-mathematics-bsc-honours"
+      },
+      {
+        "name": "Anthropology, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-double-advanced-major/",
+        "slug": "umanitoba-anthropology-ba-double-advanced-major"
+      },
+      {
+        "name": "Anthropology, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-double-honours/",
+        "slug": "umanitoba-anthropology-ba-double-honours"
+      },
+      {
+        "name": "Anthropology, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-general/",
+        "slug": "umanitoba-anthropology-ba-general"
+      },
+      {
+        "name": "Anthropology, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-single-advanced/",
+        "slug": "umanitoba-anthropology-ba-single-advanced-major"
+      },
+      {
+        "name": "Anthropology, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/anthropology/anthropology-ba-single-honours/",
+        "slug": "umanitoba-anthropology-ba-single-honours"
+      },
+      {
+        "name": "Applied Mathematics with Computer Science Option, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-computer-science-option/",
+        "slug": "umanitoba-applied-mathematics-with-computer-science-option-bsc-major"
+      },
+      {
+        "name": "Applied Mathematics with Economics Option, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-economics-option/",
+        "slug": "umanitoba-applied-mathematics-with-economics-option-bsc-major"
+      },
+      {
+        "name": "Applied Mathematics with Statistics Option, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/applied-mathematics-bsc-major-statistics-option/",
+        "slug": "umanitoba-applied-mathematics-with-statistics-option-bsc-major"
+      },
+      {
+        "name": "Art History, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/courses-programs-offered-faculties-schools-credit-arts/art-history-ba-general/",
+        "slug": "umanitoba-art-history-ba-general"
+      },
+      {
+        "name": "Asian Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/asian-studies/asian-studies-ba-general/",
+        "slug": "umanitoba-asian-studies-ba-general"
+      },
+      {
+        "name": "Biochemistry and Medical Genetics, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/biochemistry-medical-genetics-msc/",
+        "slug": "umanitoba-biochemistry-and-medical-genetics-msc"
+      },
+      {
+        "name": "Biochemistry and Medical Genetics, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/biochemistry-medical-genetics-phd/",
+        "slug": "umanitoba-biochemistry-and-medical-genetics-phd"
+      },
+      {
+        "name": "Biochemistry, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biochemistry/biochemistry-bsc-joint-honours/",
+        "slug": "umanitoba-biochemistry-bsc-honours"
+      },
+      {
+        "name": "Biochemistry, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biochemistry/biochemistry-bsc-joint-major/",
+        "slug": "umanitoba-biochemistry-bsc-major"
+      },
+      {
+        "name": "Biological Sciences, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biological-sciences/biological-sciences-bsc-honours/",
+        "slug": "umanitoba-biological-sciences-bsc-honours"
+      },
+      {
+        "name": "Biological Sciences, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/biological-sciences/biological-sciences-bsc-major/",
+        "slug": "umanitoba-biological-sciences-bsc-major"
+      },
+      {
+        "name": "Biosystems Engineering, B.Sc.",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/biosystems-engineering/biosystems-engineering-bsc/",
+        "slug": "umanitoba-biosystems-engineering-bsc"
+      },
+      {
+        "name": "Canadian Studies, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-double-honours/",
+        "slug": "umanitoba-canadian-studies-ba-double-honours"
+      },
+      {
+        "name": "Canadian Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-general/",
+        "slug": "umanitoba-canadian-studies-ba-general"
+      },
+      {
+        "name": "Canadian Studies, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/canadian-studies/canadian-studies-ba-single-honours/",
+        "slug": "umanitoba-canadian-studies-ba-single-honours"
+      },
+      {
+        "name": "Central and East European Studies, B.A. Double Advanced",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-double-advanced/",
+        "slug": "umanitoba-central-and-east-european-studies-ba-double-advanced"
+      },
+      {
+        "name": "Central and East European Studies, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-double-honours/",
+        "slug": "umanitoba-central-and-east-european-studies-ba-double-honours"
+      },
+      {
+        "name": "Central and East European Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-general/",
+        "slug": "umanitoba-central-and-east-european-studies-ba-general"
+      },
+      {
+        "name": "Central and East European Studies, B.A. Single Advanced",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/central-east-european-studies/central-east-european-studies-ba-single-advanced/",
+        "slug": "umanitoba-central-and-east-european-studies-ba-single-advanced"
+      },
+      {
+        "name": "Chemistry, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/chemistry/chemistry-bsc-honours/",
+        "slug": "umanitoba-chemistry-bsc-honours"
+      },
+      {
+        "name": "Chemistry, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/chemistry/chemistry-bsc-major/",
+        "slug": "umanitoba-chemistry-bsc-major"
+      },
+      {
+        "name": "Chemistry - Physics Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/chemistry/chemistry-physics-bsc-honours/",
+        "slug": "umanitoba-chemistry-physics-joint-bsc-honours"
+      },
+      {
+        "name": "Civil Engineering, B.Sc.",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/civil-engineering/civil-engineering-bsc/",
+        "slug": "umanitoba-civil-engineering-bsc"
+      },
+      {
+        "name": "Classical Studies, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-double-advanced-major/",
+        "slug": "umanitoba-classical-studies-ba-double-advanced-major"
+      },
+      {
+        "name": "Classical Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-general/",
+        "slug": "umanitoba-classical-studies-ba-general"
+      },
+      {
+        "name": "Classical Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/classical-studies-ba-single-advanced-major/",
+        "slug": "umanitoba-classical-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Community Health Sciences, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/community-global-health/community-health-sciences-msc/",
+        "slug": "umanitoba-community-health-sciences-msc"
+      },
+      {
+        "name": "Community Health Sciences, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/community-global-health/community-health-sciences-phd/",
+        "slug": "umanitoba-community-health-sciences-phd"
+      },
+      {
+        "name": "Computer Engineering, B.Sc.",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/electrical-computer-engineering/computer-engineering-bsc/",
+        "slug": "umanitoba-computer-engineering-bsc"
+      },
+      {
+        "name": "Computer Science, B.C.Sc., Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-bcsc-honours/",
+        "slug": "umanitoba-computer-science-bcsc-honours"
+      },
+      {
+        "name": "Computer Science, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-bsc-major/",
+        "slug": "umanitoba-computer-science-bsc-major"
+      },
+      {
+        "name": "Computer Science - Mathematics Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-mathematics-bsc-honours/",
+        "slug": "umanitoba-computer-science-mathematics-joint-bsc-honours"
+      },
+      {
+        "name": "Computer Science - Physics & Astronomy Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-physics-astronomy-bsc-honours/",
+        "slug": "umanitoba-computer-science-physics-and-astronomy-joint-bsc-honours"
+      },
+      {
+        "name": "Computer Science - Statistics Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/computer-science/computer-science-statistics-bsc-honours/",
+        "slug": "umanitoba-computer-science-statistics-joint-bsc-honours"
+      },
+      {
+        "name": "Criminology, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/criminology-ba-general/",
+        "slug": "umanitoba-criminology-ba-general"
+      },
+      {
+        "name": "Criminology, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/criminology-ba-single-honours/",
+        "slug": "umanitoba-criminology-ba-single-honours"
+      },
+      {
+        "name": "Data Science, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/data-science/data-science-bsc-major/",
+        "slug": "umanitoba-data-science-bsc-major"
+      },
+      {
+        "name": "Dental Hygiene, B.Sc.D.Hyg.",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/health-sciences/dental-hygiene/dental-hygiene-bscdhyg/",
+        "slug": "umanitoba-dental-hygiene-bscdhyg"
+      },
+      {
+        "name": "Dentistry, B.Sc. Dent",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/health-sciences/dentistry/dentistry-bscdent/",
+        "slug": "umanitoba-dentistry-bsc-dent"
+      },
+      {
+        "name": "Earth Sciences, B.Sc. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/earth-sciences-bsc-general/",
+        "slug": "umanitoba-earth-sciences-bsc-general"
+      },
+      {
+        "name": "Economics, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-double-honours/",
+        "slug": "umanitoba-economics-ba-double-honours"
+      },
+      {
+        "name": "Economics, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-general/",
+        "slug": "umanitoba-economics-ba-general"
+      },
+      {
+        "name": "Economics, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-single-advanced/",
+        "slug": "umanitoba-economics-ba-single-advanced-major"
+      },
+      {
+        "name": "Economics, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-ba-single-honours/",
+        "slug": "umanitoba-economics-ba-single-honours"
+      },
+      {
+        "name": "Economics-Mathematics, B.A. Joint Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-mathematics-ba-joint-honours/",
+        "slug": "umanitoba-economics-mathematics-ba-joint-honours"
+      },
+      {
+        "name": "Economics-Statistics, B.A. Joint Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/economics/economics-statistics-ba-joint-honours/",
+        "slug": "umanitoba-economics-statistics-ba-joint-honours"
+      },
+      {
+        "name": "Electrical Engineering, B.Sc.",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/electrical-computer-engineering/electrical-engineering-bsc/",
+        "slug": "umanitoba-electrical-engineering-bsc"
+      },
+      {
+        "name": "English, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-double-advanced/",
+        "slug": "umanitoba-english-ba-double-advanced-major"
+      },
+      {
+        "name": "English, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-double-honours/",
+        "slug": "umanitoba-english-ba-double-honours"
+      },
+      {
+        "name": "English, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-general/",
+        "slug": "umanitoba-english-ba-general"
+      },
+      {
+        "name": "English, B.A. Single Advanced Major (including Co-Operative Education Option if selected)",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-single-advanced/",
+        "slug": "umanitoba-english-ba-single-advanced-major-including-co-operative-education-option-if-sele"
+      },
+      {
+        "name": "English, B.A. Single Honours (including Co-operative Education Option if selected)",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/english-ba-single-honours/",
+        "slug": "umanitoba-english-ba-single-honours-including-co-operative-education-option-if-selected"
+      },
+      {
+        "name": "Environmental Geoscience, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/environmental-geoscience-bsc-honours/",
+        "slug": "umanitoba-environmental-geoscience-bsc-honours"
+      },
+      {
+        "name": "Environmental Geoscience, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/environmental-geoscience-bsc-major/",
+        "slug": "umanitoba-environmental-geoscience-bsc-major"
+      },
+      {
+        "name": "Environmental Science, B.Env.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/environmental-science-benvsc-honours/",
+        "slug": "umanitoba-environmental-science-benvsc-honours"
+      },
+      {
+        "name": "Environmental Studies, B.Env.St. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/environmental-studies-benvst-honours/",
+        "slug": "umanitoba-environmental-studies-benvst-honours"
+      },
+      {
+        "name": "Film Studies, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/film-studies-ba-double-advanced/",
+        "slug": "umanitoba-film-studies-ba-double-advanced-major"
+      },
+      {
+        "name": "Film Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/film-studies-ba-general/",
+        "slug": "umanitoba-film-studies-ba-general"
+      },
+      {
+        "name": "Film Studies, B.A. Single Advanced Major (including Co-operative Education Option if selected)",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/film-studies-ba-single-advanced/",
+        "slug": "umanitoba-film-studies-ba-single-advanced-major-including-co-operative-education-option-if"
+      },
+      {
+        "name": "French, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-double-advanced/",
+        "slug": "umanitoba-french-ba-double-advanced-major"
+      },
+      {
+        "name": "French, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-double-honours/",
+        "slug": "umanitoba-french-ba-double-honours"
+      },
+      {
+        "name": "French, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-general/",
+        "slug": "umanitoba-french-ba-general"
+      },
+      {
+        "name": "French, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-single-advanced/",
+        "slug": "umanitoba-french-ba-single-advanced-major"
+      },
+      {
+        "name": "French, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/french-ba-single-honours/",
+        "slug": "umanitoba-french-ba-single-honours"
+      },
+      {
+        "name": "General Regulations – Graduate Diploma",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-diploma/",
+        "slug": "umanitoba-general-regulations-graduate-diploma"
+      },
+      {
+        "name": "General Regulations – Graduate Micro-Diploma",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-micro-diploma/",
+        "slug": "umanitoba-general-regulations-graduate-micro-diploma"
+      },
+      {
+        "name": "General Regulations – Pre-Master’s",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/general-regulations-pre-masters/",
+        "slug": "umanitoba-general-regulations-pre-masters"
+      },
+      {
+        "name": "Genetic Counselling, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/genetic-counselling-msc/",
+        "slug": "umanitoba-genetic-counselling-msc"
+      },
+      {
+        "name": "Genetics, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/genetics/genetics-bsc-honours/",
+        "slug": "umanitoba-genetics-bsc-honours"
+      },
+      {
+        "name": "Genetics, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/genetics/genetics-bsc-major/",
+        "slug": "umanitoba-genetics-bsc-major"
+      },
+      {
+        "name": "Geography, B.A. Advanced",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-advanced/",
+        "slug": "umanitoba-geography-ba-advanced"
+      },
+      {
+        "name": "Geography, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-general/",
+        "slug": "umanitoba-geography-ba-general"
+      },
+      {
+        "name": "Geography, B.A. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/geography-ba-honours/",
+        "slug": "umanitoba-geography-ba-honours"
+      },
+      {
+        "name": "Geology, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geology-bsc-honours/",
+        "slug": "umanitoba-geology-bsc-honours"
+      },
+      {
+        "name": "Geology, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geology-bsc-major/",
+        "slug": "umanitoba-geology-bsc-major"
+      },
+      {
+        "name": "Geophysics, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geophysics-bsc-honours/",
+        "slug": "umanitoba-geophysics-bsc-honours"
+      },
+      {
+        "name": "Geophysics, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/earth-sciences/geophysics-bsc-major/",
+        "slug": "umanitoba-geophysics-bsc-major"
+      },
+      {
+        "name": "German, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-double-advanced-major/",
+        "slug": "umanitoba-german-ba-double-advanced-major"
+      },
+      {
+        "name": "German, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-double-honours/",
+        "slug": "umanitoba-german-ba-double-honours"
+      },
+      {
+        "name": "German, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-general/",
+        "slug": "umanitoba-german-ba-general"
+      },
+      {
+        "name": "German, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-single-advanced-major/",
+        "slug": "umanitoba-german-ba-single-advanced-major"
+      },
+      {
+        "name": "German, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/german-ba-single-honours/",
+        "slug": "umanitoba-german-ba-single-honours"
+      },
+      {
+        "name": "Global Political Economy, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-general/",
+        "slug": "umanitoba-global-political-economy-ba-general"
+      },
+      {
+        "name": "Global Political Economy, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-single-advanced/",
+        "slug": "umanitoba-global-political-economy-ba-single-advanced-major"
+      },
+      {
+        "name": "Global Political Economy, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/global-political-economy/global-political-economy-ba-single-honours/",
+        "slug": "umanitoba-global-political-economy-ba-single-honours"
+      },
+      {
+        "name": "Graduate Micro-Diploma in Applied Health Services Research",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/community-global-health/micro-diploma-applied-health-services/",
+        "slug": "umanitoba-graduate-micro-diploma-in-applied-health-services-research"
+      },
+      {
+        "name": "Graduate Micro-Diploma in Science Communication",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/micro-diploma-science-communication/",
+        "slug": "umanitoba-graduate-micro-diploma-in-science-communication"
+      },
+      {
+        "name": "Greek, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/greek-ba-single-advanced/",
+        "slug": "umanitoba-greek-ba-single-advanced-major"
+      },
+      {
+        "name": "History, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-double-advanced/",
+        "slug": "umanitoba-history-ba-double-advanced-major"
+      },
+      {
+        "name": "History, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-double-honours/",
+        "slug": "umanitoba-history-ba-double-honours"
+      },
+      {
+        "name": "History, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-general/",
+        "slug": "umanitoba-history-ba-general"
+      },
+      {
+        "name": "History, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-single-advanced/",
+        "slug": "umanitoba-history-ba-single-advanced-major"
+      },
+      {
+        "name": "History, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/history/history-ba-single-honours/",
+        "slug": "umanitoba-history-ba-single-honours"
+      },
+      {
+        "name": "Human Anatomy and Cell Science, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/human-anatomy-cell-science-msc/",
+        "slug": "umanitoba-human-anatomy-and-cell-science-msc"
+      },
+      {
+        "name": "Human Anatomy and Cell Science, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/human-anatomy-cell-science-phd/",
+        "slug": "umanitoba-human-anatomy-and-cell-science-phd"
+      },
+      {
+        "name": "Icelandic, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-double-honours/",
+        "slug": "umanitoba-icelandic-ba-double-honours"
+      },
+      {
+        "name": "Icelandic, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-general/",
+        "slug": "umanitoba-icelandic-ba-general"
+      },
+      {
+        "name": "Icelandic, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/icelandic-studies/icelandic-ba-single-honours/",
+        "slug": "umanitoba-icelandic-ba-single-honours"
+      },
+      {
+        "name": "Immunology, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/immunology-msc/",
+        "slug": "umanitoba-immunology-msc"
+      },
+      {
+        "name": "Immunology, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/immunology-phd/",
+        "slug": "umanitoba-immunology-phd"
+      },
+      {
+        "name": "Indigenous Governance, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/aboriginal-governance-ba-single-advanced/",
+        "slug": "umanitoba-indigenous-governance-ba-single-advanced-major"
+      },
+      {
+        "name": "Indigenous Studies, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-double-advanced-major/",
+        "slug": "umanitoba-indigenous-studies-ba-double-advanced-major"
+      },
+      {
+        "name": "Indigenous Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-general/",
+        "slug": "umanitoba-indigenous-studies-ba-general"
+      },
+      {
+        "name": "Indigenous Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/indigenous-studies-ba-single-advanced/",
+        "slug": "umanitoba-indigenous-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Italian Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/italian-studies-ba-general/",
+        "slug": "umanitoba-italian-studies-ba-general"
+      },
+      {
+        "name": "Italian Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/italian-studies-ba-single-advanced/",
+        "slug": "umanitoba-italian-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Judaic Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/judaic-studies/judaic-studies-ba-general/",
+        "slug": "umanitoba-judaic-studies-ba-general"
+      },
+      {
+        "name": "Judaic Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/judaic-studies/judaic-studies-ba-single-advanced/",
+        "slug": "umanitoba-judaic-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Labour Relations and Workplace Studies, Diploma",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/diploma-labour-relations-workplace-studies/",
+        "slug": "umanitoba-labour-relations-and-workplace-studies-diploma"
+      },
+      {
+        "name": "Labour Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/labour-studies-ba-general/",
+        "slug": "umanitoba-labour-studies-ba-general"
+      },
+      {
+        "name": "Labour Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/labour-studies-ba-single-advanced/",
+        "slug": "umanitoba-labour-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Latin, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/latin-ba-single-advanced/",
+        "slug": "umanitoba-latin-ba-single-advanced-major"
+      },
+      {
+        "name": "Linguistics, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-double-advanced/",
+        "slug": "umanitoba-linguistics-ba-double-advanced-major"
+      },
+      {
+        "name": "Linguistics, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-double-honours/",
+        "slug": "umanitoba-linguistics-ba-double-honours"
+      },
+      {
+        "name": "Linguistics, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-general/",
+        "slug": "umanitoba-linguistics-ba-general"
+      },
+      {
+        "name": "Linguistics, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-single-advanced/",
+        "slug": "umanitoba-linguistics-ba-single-advanced-major"
+      },
+      {
+        "name": "Linguistics, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/linguistics/linguistics-ba-honours/",
+        "slug": "umanitoba-linguistics-ba-single-honours"
+      },
+      {
+        "name": "Master’s Degrees General Regulations",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/academic-guide/masters-degrees-general-regulations/",
+        "slug": "umanitoba-masters-degrees-general-regulations"
+      },
+      {
+        "name": "Mathematics, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/courses-programs-offered-faculties-schools-credit-arts/mathematics-ba-general/",
+        "slug": "umanitoba-mathematics-ba-general"
+      },
+      {
+        "name": "Mathematics, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/courses-programs-offered-faculties-schools-credit-arts/mathematics-ba-single-advanced-major/",
+        "slug": "umanitoba-mathematics-ba-single-advanced-major"
+      },
+      {
+        "name": "Mathematics, B.Sc. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-double-honours/",
+        "slug": "umanitoba-mathematics-bsc-double-honours"
+      },
+      {
+        "name": "Mathematics, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-honours/",
+        "slug": "umanitoba-mathematics-bsc-honours"
+      },
+      {
+        "name": "Mathematics, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-bsc-major/",
+        "slug": "umanitoba-mathematics-bsc-major"
+      },
+      {
+        "name": "Mathematics - Economics Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-economics-bsc-honours/",
+        "slug": "umanitoba-mathematics-economics-joint-bsc-honours"
+      },
+      {
+        "name": "Mathematics - Physics and Astronomy Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/mathematics/mathematics-physics-astronomy-bsc-honours/",
+        "slug": "umanitoba-mathematics-physics-and-astronomy-joint-bsc-honours"
+      },
+      {
+        "name": "Mechanical Engineering, B.Sc.",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/engineering/mechanical-engineering/mechanical-engineering-bsc/",
+        "slug": "umanitoba-mechanical-engineering-bsc"
+      },
+      {
+        "name": "Medical Microbiology and Infectious Diseases, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/medical-microbiology-infectious-diseases-phd/",
+        "slug": "umanitoba-medical-microbiology-and-infectious-diseases-phd"
+      },
+      {
+        "name": "Medical Microbiology & Infectious Diseases, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/medical-microbiology-infectious-diseases-msc/",
+        "slug": "umanitoba-medical-microbiology-and-infectious-diseases-msc"
+      },
+      {
+        "name": "Medieval and Early Modern Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/medieval-early-modern-studies/medieval-early-modern-studies-ba-general/",
+        "slug": "umanitoba-medieval-and-early-modern-studies-ba-general"
+      },
+      {
+        "name": "Medieval and Early Modern Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/medieval-early-modern-studies/medieval-early-modern-studies-ba-single-advanced/",
+        "slug": "umanitoba-medieval-and-early-modern-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Microbiology, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/microbiology/microbiology-bsc-honours/",
+        "slug": "umanitoba-microbiology-bsc-honours"
+      },
+      {
+        "name": "Microbiology, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/microbiology/microbiology-bsc-major/",
+        "slug": "umanitoba-microbiology-bsc-major"
+      },
+      {
+        "name": "Micro-Diploma in Introduction to German Language, Life, and Culture",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/micro-diploma-german-language-life-culture/",
+        "slug": "umanitoba-micro-diploma-in-introduction-to-german-language-life-and-culture"
+      },
+      {
+        "name": "Micro-Diploma in Introduction to the Anishinaabemowin Language",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/micro-diploma-introduction-anishinaabemowin-language/",
+        "slug": "umanitoba-micro-diploma-in-introduction-to-the-anishinaabemowin-language"
+      },
+      {
+        "name": "Micro-Diploma in Introduction to the Cree Language",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/indigenous-studies/micro-diploma-introduction-cree-language/",
+        "slug": "umanitoba-micro-diploma-in-introduction-to-the-cree-language"
+      },
+      {
+        "name": "Micro-Diploma in Mythology and Folktale",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/classics/micro-diploma-mythology-folktale/",
+        "slug": "umanitoba-micro-diploma-in-mythology-and-folktale"
+      },
+      {
+        "name": "Micro-Diploma in Workplace Health and Safety",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/labour-studies/micro-diploma-workplace-health-safety/",
+        "slug": "umanitoba-micro-diploma-in-workplace-health-and-safety"
+      },
+      {
+        "name": "Nursing, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/nursing/nursing-phd/",
+        "slug": "umanitoba-nursing-phd"
+      },
+      {
+        "name": "Oral Biology, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/dentistry/oral-biology-msc/",
+        "slug": "umanitoba-oral-biology-msc"
+      },
+      {
+        "name": "Oral Biology, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/dentistry/oral-biology-phd/",
+        "slug": "umanitoba-oral-biology-phd"
+      },
+      {
+        "name": "Pathology and Laboratory Medicine, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pathology-laboratory-medicine-phd/",
+        "slug": "umanitoba-pathology-and-laboratory-medicine-phd"
+      },
+      {
+        "name": "Pathology, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pathology-msc/",
+        "slug": "umanitoba-pathology-msc"
+      },
+      {
+        "name": "Pediatrics and Child Health, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pediatrics-child-health-msc/",
+        "slug": "umanitoba-pediatrics-and-child-health-msc"
+      },
+      {
+        "name": "Pediatrics and Child Health, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pediatrics-child-health-phd/",
+        "slug": "umanitoba-pediatrics-and-child-health-phd"
+      },
+      {
+        "name": "Pharmaceutical Sciences, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/pharmacy/pharmacy-msc/",
+        "slug": "umanitoba-pharmaceutical-sciences-msc"
+      },
+      {
+        "name": "Pharmaceutical Sciences, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/pharmacy/pharmacy-phd/",
+        "slug": "umanitoba-pharmaceutical-sciences-phd"
+      },
+      {
+        "name": "Pharmacology and Therapeutics, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pharmacology-therapeutics-msc/",
+        "slug": "umanitoba-pharmacology-and-therapeutics-msc"
+      },
+      {
+        "name": "Pharmacology and Therapeutics, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/pharmacology-therapeutics-phd/",
+        "slug": "umanitoba-pharmacology-and-therapeutics-phd"
+      },
+      {
+        "name": "Philosophy, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-double-advanced/",
+        "slug": "umanitoba-philosophy-ba-double-advanced-major"
+      },
+      {
+        "name": "Philosophy, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-double-honours/",
+        "slug": "umanitoba-philosophy-ba-double-honours"
+      },
+      {
+        "name": "Philosophy, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-general/",
+        "slug": "umanitoba-philosophy-ba-general"
+      },
+      {
+        "name": "Philosophy, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-single-advanced/",
+        "slug": "umanitoba-philosophy-ba-single-advanced-major"
+      },
+      {
+        "name": "Philosophy, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/philosophy/philosophy-ba-single-honours/",
+        "slug": "umanitoba-philosophy-ba-single-honours"
+      },
+      {
+        "name": "Physical Geography, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/physical-geography-bsc-honours/",
+        "slug": "umanitoba-physical-geography-bsc-honours"
+      },
+      {
+        "name": "Physical Geography, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/environment-earth-resources/environment-geography/physical-geography-bsc-major/",
+        "slug": "umanitoba-physical-geography-bsc-major"
+      },
+      {
+        "name": "Physics and Astronomy, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/physics-astronomy/physics-bsc-honours/",
+        "slug": "umanitoba-physics-and-astronomy-bsc-honours"
+      },
+      {
+        "name": "Physics and Astronomy, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/physics-astronomy/physics-astronomy-bsc-major/",
+        "slug": "umanitoba-physics-and-astronomy-bsc-major"
+      },
+      {
+        "name": "Physiology & Pathophysiology, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/physiology-pathophysiology-msc/",
+        "slug": "umanitoba-physiology-and-pathophysiology-msc"
+      },
+      {
+        "name": "Physiology & Pathophysiology, Ph.D.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/physiology-pathophysiology-phd/",
+        "slug": "umanitoba-physiology-and-pathophysiology-phd"
+      },
+      {
+        "name": "Political Science, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-double-honours/",
+        "slug": "umanitoba-political-science-ba-double-honours"
+      },
+      {
+        "name": "Political Science, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-general/",
+        "slug": "umanitoba-political-science-ba-general"
+      },
+      {
+        "name": "Political Science, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-advanced/",
+        "slug": "umanitoba-political-science-ba-single-advanced-major"
+      },
+      {
+        "name": "Political Science, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/political-studies/political-studies-ba-honours/",
+        "slug": "umanitoba-political-science-ba-single-honours"
+      },
+      {
+        "name": "Post-Baccalaureate Diploma in Medical Physiology and Pathophysiology",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/health-sciences/medicine/post-bacc-medical-physiology-pathophysiology/",
+        "slug": "umanitoba-post-baccalaureate-diploma-in-medical-physiology-and-pathophysiology"
+      },
+      {
+        "name": "Psychology, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-double-honours/",
+        "slug": "umanitoba-psychology-ba-double-honours"
+      },
+      {
+        "name": "Psychology, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-general/",
+        "slug": "umanitoba-psychology-ba-general"
+      },
+      {
+        "name": "Psychology, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-single-advanced/",
+        "slug": "umanitoba-psychology-ba-single-advanced-major"
+      },
+      {
+        "name": "Psychology, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/psychology/psychology-ba-single-honours/",
+        "slug": "umanitoba-psychology-ba-single-honours"
+      },
+      {
+        "name": "Psychology, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/psychology/psychology-bsc-honours/",
+        "slug": "umanitoba-psychology-bsc-honours"
+      },
+      {
+        "name": "Psychology, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/psychology/psychology-bsc-major/",
+        "slug": "umanitoba-psychology-bsc-major"
+      },
+      {
+        "name": "Rehabilitation Sciences, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/rehabilitation-sciences/rehabilitation-sciences-msc/",
+        "slug": "umanitoba-rehabilitation-sciences-msc"
+      },
+      {
+        "name": "Religion, B.A., Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-double-advanced-major/",
+        "slug": "umanitoba-religion-ba-double-advanced-major"
+      },
+      {
+        "name": "Religion, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-double-honours/",
+        "slug": "umanitoba-religion-ba-double-honours"
+      },
+      {
+        "name": "Religion, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-general/",
+        "slug": "umanitoba-religion-ba-general"
+      },
+      {
+        "name": "Religion, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-single-advanced/",
+        "slug": "umanitoba-religion-ba-single-advanced-major"
+      },
+      {
+        "name": "Religion, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/religion/religion-ba-single-honours/",
+        "slug": "umanitoba-religion-ba-single-honours"
+      },
+      {
+        "name": "Russian, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/russian-ba-general/",
+        "slug": "umanitoba-russian-ba-general"
+      },
+      {
+        "name": "Sociology, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-double-honours/",
+        "slug": "umanitoba-sociology-ba-double-honours"
+      },
+      {
+        "name": "Sociology, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-general/",
+        "slug": "umanitoba-sociology-ba-general"
+      },
+      {
+        "name": "Sociology, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-single-advanced/",
+        "slug": "umanitoba-sociology-ba-single-advanced-major"
+      },
+      {
+        "name": "Sociology, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/sociology-criminology/sociology-ba-single-honours/",
+        "slug": "umanitoba-sociology-ba-single-honours"
+      },
+      {
+        "name": "Spanish, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/spanish-ba-general/",
+        "slug": "umanitoba-spanish-ba-general"
+      },
+      {
+        "name": "Spanish, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/french-spanish-italian/spanish-ba-single-advanced/",
+        "slug": "umanitoba-spanish-ba-single-advanced-major"
+      },
+      {
+        "name": "Statistics - Actuarial Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-actuarial-bsc-honours/",
+        "slug": "umanitoba-statistics-actuarial-joint-bsc-honours"
+      },
+      {
+        "name": "Statistics, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-bsc-honours/",
+        "slug": "umanitoba-statistics-bsc-honours"
+      },
+      {
+        "name": "Statistics, B.Sc. Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-bsc-major/",
+        "slug": "umanitoba-statistics-bsc-major"
+      },
+      {
+        "name": "Statistics - Economics Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-economics-bsc-honours/",
+        "slug": "umanitoba-statistics-economics-joint-bsc-honours"
+      },
+      {
+        "name": "Statistics - Mathematics Joint, B.Sc. Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/science/statistics/statistics-mathematics-bsc-honours/",
+        "slug": "umanitoba-statistics-mathematics-joint-bsc-honours"
+      },
+      {
+        "name": "Surgery, M.Sc.",
+        "url": "https://catalog.umanitoba.ca/graduate-studies/health-sciences/medicine/surgery-msc/",
+        "slug": "umanitoba-surgery-msc"
+      },
+      {
+        "name": "Theatre, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/theatre-ba-double-advanced/",
+        "slug": "umanitoba-theatre-ba-double-advanced-major"
+      },
+      {
+        "name": "Theatre, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/theatre-ba-general/",
+        "slug": "umanitoba-theatre-ba-general"
+      },
+      {
+        "name": "Theatre, B.A. Single Advanced Major (including Co-Operative Education Option if selected)",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/english-theatre-film-media/theatre-ba-single-advanced/",
+        "slug": "umanitoba-theatre-ba-single-advanced-major-including-co-operative-education-option-if-sele"
+      },
+      {
+        "name": "Ukrainian, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/german-slavic-studies/ukrainian-ba-general/",
+        "slug": "umanitoba-ukrainian-ba-general"
+      },
+      {
+        "name": "Ukrainian Canadian Heritage Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/ukrainian-canadian-heritage-studies/ukrainian-canadian-heritage-studies-ba-general/",
+        "slug": "umanitoba-ukrainian-canadian-heritage-studies-ba-general"
+      },
+      {
+        "name": "Ukrainian Canadian Heritage Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/ukrainian-canadian-heritage-studies/ukrainian-canadian-heritage-studies-ba-single-advanced/",
+        "slug": "umanitoba-ukrainian-canadian-heritage-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Women's and Gender Studies, B.A. Double Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-double-advanced/",
+        "slug": "umanitoba-womens-and-gender-studies-ba-double-advanced-major"
+      },
+      {
+        "name": "Women's and Gender Studies, B.A. Double Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-double-honours/",
+        "slug": "umanitoba-womens-and-gender-studies-ba-double-honours"
+      },
+      {
+        "name": "Women's and Gender Studies, B.A. General",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-general/",
+        "slug": "umanitoba-womens-and-gender-studies-ba-general"
+      },
+      {
+        "name": "Women's and Gender Studies, B.A. Single Advanced Major",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-single-advanced/",
+        "slug": "umanitoba-womens-and-gender-studies-ba-single-advanced-major"
+      },
+      {
+        "name": "Women's and Gender Studies, B.A. Single Honours",
+        "url": "https://catalog.umanitoba.ca/undergraduate-studies/arts/womens-gender-studies/womens-gender-studies-ba-single-honours/",
+        "slug": "umanitoba-womens-and-gender-studies-ba-single-honours"
+      }
+    ]
+  },
+  "Dalhousie University": {
+    "ourCount": 299,
+    "liveCount": 309,
+    "liveFetchOk": true,
+    "droppedByProgramFilter": 0,
+    "missingFromOurs": [
+      {
+        "name": "Ocean Sciences (BSc)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc.html"
+      },
+      {
+        "name": "Physics (BSc)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/physics-bsc.html"
+      },
+      {
+        "name": "Plant Science (BSc Agr)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr.html"
+      },
+      {
+        "name": "Artificial Intelligence (BCS)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-artificial-intelligence-bcs.html"
+      },
+      {
+        "name": "Cybersecurity (BCS) ",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-cybersecurity-bcs.html"
+      },
+      {
+        "name": "Digital Innovation (BCS)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-digital-innovation-bcs.html"
+      },
+      {
+        "name": "Human-Computer Interaction (BCS) ",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-human-computer-interaction-bcs.html"
+      },
+      {
+        "name": "Software Development (BCS)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-software-development-bcs.html"
+      },
+      {
+        "name": "Algorithms & Scientific Computing (BCS)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-algorithms-scientific-computing-bcs.html"
+      },
+      {
+        "name": "Plant Science (DipTech)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-diptech.html"
+      },
+      {
+        "name": "Computer Engineering (BEng)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/computer-engineering-beng.html"
+      },
+      {
+        "name": "Law (JD)",
+        "url": "https://www.dal.ca/study/programs/graduate-professional/law-jd.html"
+      },
+      {
+        "name": "Pharmacy (PharmD)",
+        "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacy-pharm-d.html"
+      },
+      {
+        "name": "Medicine (MD)",
+        "url": "https://www.dal.ca/study/programs/graduate-professional/medicine-md.html"
+      },
+      {
+        "name": "Certificate in Information and Communication",
+        "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-information-and-communication.html"
+      },
+      {
+        "name": "Certificate in Systems Security Engineering",
+        "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-systems-security-engineering.html"
+      }
+    ],
+    "notOnLiveSite": [
+      {
+        "name": "Managed Landscapes (Dip)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/managed-landscapes-diploma.html",
+        "slug": "dal-managed-landscapes-dip"
+      },
+      {
+        "name": "Ocean Sciences (BSc)(BA)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc-ba.html",
+        "slug": "dal-ocean-sciences-bscba"
+      },
+      {
+        "name": "Physics and Atmospheric Science (BSc)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/physics-atmospheric-science-bsc.html",
+        "slug": "dal-physics-and-atmospheric-science-bsc"
+      },
+      {
+        "name": "Plant Science (BSc Agr, DipTech)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr-dip-tech.html",
+        "slug": "dal-plant-science-bsc-agr-diptech"
+      },
+      {
+        "name": "Integrated Science (BSc)",
+        "url": "https://www.dal.ca/study/programs/undergraduate/integrated-science-bsc.html",
+        "slug": "dal-integrated-science-bsc"
+      },
+      {
+        "name": "Certificate in Inclusive Leadership",
+        "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-inclusive-leadership.html",
+        "slug": "dal-certificate-in-inclusive-leadership"
+      }
+    ]
+  },
+  "Queen's University": {
+    "ourCount": 91,
+    "liveCount": 2,
+    "liveFetchOk": true,
+    "droppedByProgramFilter": 4,
+    "missingFromOurs": [
+      {
+        "url": "https://www.queensu.ca/ensc/graduate/programs-overview",
+        "name": "Doctorate"
+      },
+      {
+        "url": "https://www.queensu.ca/geographyandplanning/undergraduate/programs",
+        "name": "On-Campus Certificate"
+      }
+    ],
+    "notOnLiveSite": [
+      {
+        "name": "Bachelor of Arts (General)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-general"
+      },
+      {
+        "name": "Bachelor of Arts (Honours)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-honours"
+      },
+      {
+        "name": "Bachelor of Science (Honours)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-honours"
+      },
+      {
+        "name": "Bachelor of Computing (Honours)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-computing-honours"
+      },
+      {
+        "name": "Bachelor of Commerce (Honours)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-commerce-honours"
+      },
+      {
+        "name": "Bachelor of Engineering (Chemical)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-chemical"
+      },
+      {
+        "name": "Bachelor of Engineering (Civil)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-civil"
+      },
+      {
+        "name": "Bachelor of Engineering (Electrical)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-electrical"
+      },
+      {
+        "name": "Bachelor of Engineering (Mechanical)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-mechanical"
+      },
+      {
+        "name": "Bachelor of Engineering (Mining)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-mining"
+      },
+      {
+        "name": "Bachelor of Engineering (Geological)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-geological"
+      },
+      {
+        "name": "Bachelor of Engineering (Computer)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-engineering-computer"
+      },
+      {
+        "name": "Bachelor of Science in Nursing",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-in-nursing"
+      },
+      {
+        "name": "Bachelor of Education (Primary/Junior)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-education-primary-junior"
+      },
+      {
+        "name": "Bachelor of Education (Intermediate/Senior)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-education-intermediate-senior"
+      },
+      {
+        "name": "Bachelor of Music",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-music"
+      },
+      {
+        "name": "Bachelor of Physical and Health Education",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-physical-and-health-education"
+      },
+      {
+        "name": "Bachelor of Health Sciences",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-health-sciences"
+      },
+      {
+        "name": "Bachelor of Science (Biology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-biology"
+      },
+      {
+        "name": "Bachelor of Science (Biochemistry)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-biochemistry"
+      },
+      {
+        "name": "Bachelor of Science (Chemistry)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-chemistry"
+      },
+      {
+        "name": "Bachelor of Science (Physics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-physics"
+      },
+      {
+        "name": "Bachelor of Science (Computer Science)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-computer-science"
+      },
+      {
+        "name": "Bachelor of Science (Mathematics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-mathematics"
+      },
+      {
+        "name": "Bachelor of Science (Statistics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-statistics"
+      },
+      {
+        "name": "Bachelor of Science (Life Sciences)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-life-sciences"
+      },
+      {
+        "name": "Bachelor of Science (Kinesiology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-science-kinesiology"
+      },
+      {
+        "name": "Bachelor of Arts (Economics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-economics"
+      },
+      {
+        "name": "Bachelor of Arts (History)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-history"
+      },
+      {
+        "name": "Bachelor of Arts (English)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-english"
+      },
+      {
+        "name": "Bachelor of Arts (Psychology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-psychology"
+      },
+      {
+        "name": "Bachelor of Arts (Political Studies)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-political-studies"
+      },
+      {
+        "name": "Bachelor of Arts (Sociology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-sociology"
+      },
+      {
+        "name": "Bachelor of Arts (Environmental Studies)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-environmental-studies"
+      },
+      {
+        "name": "Bachelor of Arts (Global Development Studies)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-global-development-studies"
+      },
+      {
+        "name": "Bachelor of Arts (Drama)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-drama"
+      },
+      {
+        "name": "Bachelor of Arts (Film and Media)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-film-and-media"
+      },
+      {
+        "name": "Bachelor of Arts (Geography)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-geography"
+      },
+      {
+        "name": "Bachelor of Arts (Philosophy)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-philosophy"
+      },
+      {
+        "name": "Bachelor of Arts (Mathematics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-mathematics"
+      },
+      {
+        "name": "Bachelor of Arts (Religious Studies)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-religious-studies"
+      },
+      {
+        "name": "Bachelor of Arts (Classics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-classics"
+      },
+      {
+        "name": "Bachelor of Arts (Languages)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-languages"
+      },
+      {
+        "name": "Bachelor of Arts (Art History)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-bachelor-of-arts-art-history"
+      },
+      {
+        "name": "Juris Doctor (JD)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-juris-doctor-jd"
+      },
+      {
+        "name": "Master of Business Administration (MBA)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-business-administration-mba"
+      },
+      {
+        "name": "Master of Finance",
+        "url": "https://smith.queensu.ca/grad_studies/",
+        "slug": "queens-master-of-finance"
+      },
+      {
+        "name": "Master of Management Analytics",
+        "url": "https://smith.queensu.ca/grad_studies/",
+        "slug": "queens-master-of-management-analytics"
+      },
+      {
+        "name": "Master of International Business",
+        "url": "https://smith.queensu.ca/grad_studies/",
+        "slug": "queens-master-of-international-business"
+      },
+      {
+        "name": "Master of Science (MSc)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-msc"
+      },
+      {
+        "name": "Master of Arts (MA)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-arts-ma"
+      },
+      {
+        "name": "Master of Engineering (MEng)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-engineering-meng"
+      },
+      {
+        "name": "Master of Applied Science (MASc)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-applied-science-masc"
+      },
+      {
+        "name": "Master of Public Administration (MPA)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-public-administration-mpa"
+      },
+      {
+        "name": "Master of Education (MEd)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-education-med"
+      },
+      {
+        "name": "Master of Nursing (MN)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-nursing-mn"
+      },
+      {
+        "name": "Master of Laws (LLM)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-laws-llm"
+      },
+      {
+        "name": "Master of Science in Computer Science",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-computer-science"
+      },
+      {
+        "name": "Master of Science in Biology",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-biology"
+      },
+      {
+        "name": "Master of Science in Chemistry",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-chemistry"
+      },
+      {
+        "name": "Master of Science in Psychology",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-psychology"
+      },
+      {
+        "name": "Master of Science in Economics",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-economics"
+      },
+      {
+        "name": "Master of Science in Physics",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-physics"
+      },
+      {
+        "name": "Master of Science in Mathematics",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-mathematics"
+      },
+      {
+        "name": "Master of Science in Environmental Studies",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-environmental-studies"
+      },
+      {
+        "name": "Master of Arts in History",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-arts-in-history"
+      },
+      {
+        "name": "Master of Arts in English",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-arts-in-english"
+      },
+      {
+        "name": "Master of Arts in Political Studies",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-arts-in-political-studies"
+      },
+      {
+        "name": "Master of Science in Kinesiology",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-kinesiology"
+      },
+      {
+        "name": "Master of Science in Biochemistry",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-science-in-biochemistry"
+      },
+      {
+        "name": "Master of Urban and Regional Planning",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-urban-and-regional-planning"
+      },
+      {
+        "name": "Master of Arts in Education",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-master-of-arts-in-education"
+      },
+      {
+        "name": "PhD (Arts and Science)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-arts-and-science"
+      },
+      {
+        "name": "PhD Engineering",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-engineering"
+      },
+      {
+        "name": "PhD Education",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-education"
+      },
+      {
+        "name": "PhD Nursing Science",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-nursing-science"
+      },
+      {
+        "name": "PhD Law",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-law"
+      },
+      {
+        "name": "PhD (Computer Science)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-computer-science"
+      },
+      {
+        "name": "PhD (Biology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-biology"
+      },
+      {
+        "name": "PhD (Chemistry)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-chemistry"
+      },
+      {
+        "name": "PhD (Psychology)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-psychology"
+      },
+      {
+        "name": "PhD (Economics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-economics"
+      },
+      {
+        "name": "PhD (Physics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-physics"
+      },
+      {
+        "name": "PhD (History)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-history"
+      },
+      {
+        "name": "PhD (English)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-english"
+      },
+      {
+        "name": "PhD (Political Studies)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-political-studies"
+      },
+      {
+        "name": "PhD (Mathematics)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-mathematics"
+      },
+      {
+        "name": "PhD (Geography)",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-phd-geography"
+      },
+      {
+        "name": "Graduate Diploma in Business",
+        "url": "https://smith.queensu.ca/grad_studies/",
+        "slug": "queens-graduate-diploma-in-business"
+      },
+      {
+        "name": "Graduate Certificate in Business Analytics",
+        "url": "https://smith.queensu.ca/grad_studies/",
+        "slug": "queens-graduate-certificate-in-business-analytics"
+      },
+      {
+        "name": "Postgraduate Diploma in Computing",
+        "url": "https://www.queensu.ca/academics/programs",
+        "slug": "queens-postgraduate-diploma-in-computing"
+      }
+    ]
+  }
+}
