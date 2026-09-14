@@ -118,6 +118,13 @@ import { uniscCourses as m_university_of_sunshine_coast } from './unisc-courses'
 import { dbsCourses as m_dublin_business_school } from './dbs-courses';
 import { bcuW2Courses as m_birmingham_city_university } from './bcu-w2-courses';
 import { nciCourses as m_national_college_of_ireland } from './nci-courses';
+import { algonquinRealCourses as m_algonquin_college } from './algonquin-courses';
+import { durhamCourses as m_durham_college } from './durham-courses';
+import { guelphCourses as m_university_of_guelph } from './guelph-courses';
+import { tmuCourses as m_toronto_metropolitan_university } from './tmu-courses';
+import { unbCourses as m_university_of_new_brunswick } from './unb-courses';
+import { waterlooUgCourses as m_university_of_waterloo_ug } from './waterlooug-courses';
+import { yorkuCourses as m_york_university } from './yorku-courses';
 
 const REGISTRY: Record<string, readonly unknown[]> = {
   'anglia-ruskin-university': m_anglia_ruskin_university,
@@ -213,7 +220,9 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-sydney': m_university_of_sydney,
   'university-of-toronto': m_university_of_toronto,
   'university-of-warwick': m_university_of_warwick,
-  'university-of-waterloo': m_university_of_waterloo,
+  // Graduate (waterloo-courses.ts, 92) + undergraduate (waterlooug-courses.ts, 107).
+  // Slug prefixes differ (waterloo-* / waterlooug-*), so no course slug collides.
+  'university-of-waterloo': [...m_university_of_waterloo, ...m_university_of_waterloo_ug],
   'university-of-west-london': m_university_of_west_london,
   'university-of-west-of-england': m_university_of_west_of_england,
   'university-of-wollongong': m_university_of_wollongong,
@@ -236,6 +245,12 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'dublin-business-school': m_dublin_business_school,
   'birmingham-city-university': m_birmingham_city_university,
   'national-college-of-ireland': m_national_college_of_ireland,
+  'algonquin-college': m_algonquin_college,
+  'durham-college': m_durham_college,
+  'toronto-metropolitan-university': m_toronto_metropolitan_university,
+  'university-of-guelph': m_university_of_guelph,
+  'university-of-new-brunswick': m_university_of_new_brunswick,
+  'york-university': m_york_university,
 };
 
 export interface RegistryCourse {
