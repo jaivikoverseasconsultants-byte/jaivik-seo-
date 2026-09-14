@@ -1,0 +1,998 @@
+[
+  {
+    "name": "Bachelor of Arts (Double Major)",
+    "url": "https://calendar.kpu.ca/programs-az/arts/double-major-ba/"
+  },
+  {
+    "name": "Bachelor of Business Administration in Accounting",
+    "url": "https://calendar.kpu.ca/programs-az/business/accounting/accounting-bba/"
+  },
+  {
+    "name": "Accounting",
+    "url": "https://calendar.kpu.ca/programs-az/business/accounting/"
+  },
+  {
+    "name": "Certificate in Accounting",
+    "url": "https://calendar.kpu.ca/programs-az/business/accounting/accounting-certificate/"
+  },
+  {
+    "name": "Diploma in Accounting",
+    "url": "https://calendar.kpu.ca/programs-az/business/accounting/accounting-diploma/"
+  },
+  {
+    "name": "Post-Baccalaureate Diploma in Accounting",
+    "url": "https://calendar.kpu.ca/programs-az/business/accounting/accounting-post-baccalaureate-diploma/"
+  },
+  {
+    "name": "BC Adult Graduation Diploma (Adult Dogwood)",
+    "url": "https://calendar.kpu.ca/programs-az/academic-career-preparation/academic-career-preparation-adult-upgrading/bc-adult-graduation-diploma/"
+  },
+  {
+    "name": "Faculty of Academic & Career Preparation",
+    "url": "https://calendar.kpu.ca/programs-az/academic-career-preparation/academic-career-preparation-adult-upgrading/"
+  },
+  {
+    "name": "Associate of Arts Degree in Anthropology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/anthropology/anthropology-aa/"
+  },
+  {
+    "name": "Anthropology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/anthropology/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Anthropology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/anthropology/anthropology-ba/"
+  },
+  {
+    "name": "Minor in Anthropology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/anthropology/anthropology-minor/"
+  },
+  {
+    "name": "Certificate in Appliance Service Technician",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/appliance-service-technician/appliance-service-technician-certificate/"
+  },
+  {
+    "name": "Appliance Service Technician",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/appliance-service-technician/"
+  },
+  {
+    "name": "Certificate in Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/arts/arts-certificate/"
+  },
+  {
+    "name": "Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/arts/"
+  },
+  {
+    "name": "Diploma in Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/arts/arts-diploma/"
+  },
+  {
+    "name": "Associate of Arts Degree in Asian Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/asian-studies/asian-studies-aa/"
+  },
+  {
+    "name": "Asian Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/asian-studies/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Asian Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/asian-studies/asian-studies-ba/"
+  },
+  {
+    "name": "Minor in Asian Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/asian-studies/asian-studies-minor/"
+  },
+  {
+    "name": "Certificate in Automotive Service Technician",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/automotive-service-technician/automotive-service-technician-certificate/"
+  },
+  {
+    "name": "Automotive Service Technician",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/automotive-service-technician/"
+  },
+  {
+    "name": "Bachelor of Science (Honours), Major in Biology",
+    "url": "https://calendar.kpu.ca/programs-az/science/biology/biology-bsh/"
+  },
+  {
+    "name": "Biology",
+    "url": "https://calendar.kpu.ca/programs-az/science/biology/"
+  },
+  {
+    "name": "Bachelor of Science, Major in Biology",
+    "url": "https://calendar.kpu.ca/programs-az/science/biology/biology-bs/"
+  },
+  {
+    "name": "Minor in Biology",
+    "url": "https://calendar.kpu.ca/programs-az/science/biology/biology-minor/"
+  },
+  {
+    "name": "Certificate in Brewing",
+    "url": "https://calendar.kpu.ca/programs-az/science/brewing/brewing-certificate/"
+  },
+  {
+    "name": "Brewing",
+    "url": "https://calendar.kpu.ca/programs-az/science/brewing/"
+  },
+  {
+    "name": "Diploma in Brewing and Brewery Operations",
+    "url": "https://calendar.kpu.ca/programs-az/science/brewing/brewing-brewery-operations-diploma/"
+  },
+  {
+    "name": "Diploma in Business Administration",
+    "url": "https://calendar.kpu.ca/programs-az/business/business-administration/business-administration-diploma/"
+  },
+  {
+    "name": "Business Administration",
+    "url": "https://calendar.kpu.ca/programs-az/business/business-administration/"
+  },
+  {
+    "name": "Diploma in Business Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/business-management/business-management-diploma/"
+  },
+  {
+    "name": "Business Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/business-management/"
+  },
+  {
+    "name": "Citation in Carpentry/Building Construction",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/carpentry-building-construction/carpentry-building-construction-citation/"
+  },
+  {
+    "name": "Carpentry/Building Construction",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/carpentry-building-construction/"
+  },
+  {
+    "name": "Minor in Medicinal Chemistry",
+    "url": "https://calendar.kpu.ca/programs-az/science/chemistry/medicinal-chemistry-minor/"
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://calendar.kpu.ca/programs-az/science/chemistry/"
+  },
+  {
+    "name": "Certificate in Computer Aided Design and Drafting",
+    "url": "https://calendar.kpu.ca/programs-az/science/computer-aided-design-drafting/computer-aided-design-drafting-certificate/"
+  },
+  {
+    "name": "Computer Aided Design & Drafting",
+    "url": "https://calendar.kpu.ca/programs-az/science/computer-aided-design-drafting/"
+  },
+  {
+    "name": "Citation in Computer Aided Design and Drafting",
+    "url": "https://calendar.kpu.ca/programs-az/science/computer-aided-design-drafting/computer-aided-design-drafting-citation/"
+  },
+  {
+    "name": "Diploma in Computer Aided Design and Drafting (With Specialization)",
+    "url": "https://calendar.kpu.ca/programs-az/science/computer-aided-design-drafting/computer-aided-design-drafting-diploma/"
+  },
+  {
+    "name": "Certificate in Computer Information Systems",
+    "url": "https://calendar.kpu.ca/programs-az/business/computer-information-systems/computer-information-systems-certificate/"
+  },
+  {
+    "name": "Computer Information Systems",
+    "url": "https://calendar.kpu.ca/programs-az/business/computer-information-systems/"
+  },
+  {
+    "name": "Diploma in Computer Information Systems",
+    "url": "https://calendar.kpu.ca/programs-az/business/computer-information-systems/computer-information-systems-diploma/"
+  },
+  {
+    "name": "Citation in Construction Electrician",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/construction-electrician/construction-electrician-citation/"
+  },
+  {
+    "name": "Construction Electrician",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/construction-electrician/"
+  },
+  {
+    "name": "Minor in Counselling",
+    "url": "https://calendar.kpu.ca/programs-az/arts/counselling/counselling-minor/"
+  },
+  {
+    "name": "Counselling",
+    "url": "https://calendar.kpu.ca/programs-az/arts/counselling/"
+  },
+  {
+    "name": "Associate of Arts Degree in Creative Writing",
+    "url": "https://calendar.kpu.ca/programs-az/arts/creative-writing/creative-writing-aa/"
+  },
+  {
+    "name": "Creative Writing",
+    "url": "https://calendar.kpu.ca/programs-az/arts/creative-writing/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Creative Writing",
+    "url": "https://calendar.kpu.ca/programs-az/arts/creative-writing/creative-writing-ba/"
+  },
+  {
+    "name": "Minor in Creative Writing",
+    "url": "https://calendar.kpu.ca/programs-az/arts/creative-writing/creative-writing-minor/"
+  },
+  {
+    "name": "Associate of Arts Degree in Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/criminology-aa/"
+  },
+  {
+    "name": "Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/"
+  },
+  {
+    "name": "Bachelor of Arts (Honours), Major in Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/criminology-bah/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/criminology-ba/"
+  },
+  {
+    "name": "Certificate in Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/criminology-certificate/"
+  },
+  {
+    "name": "Diploma in Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/criminology-diploma/"
+  },
+  {
+    "name": "Minor in Criminology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/criminology/criminology-minor/"
+  },
+  {
+    "name": "Bachelor of Arts (Double Minor)",
+    "url": "https://calendar.kpu.ca/programs-az/arts/double-minor-ba/"
+  },
+  {
+    "name": "Associate of Arts Degree in Economics",
+    "url": "https://calendar.kpu.ca/programs-az/business/economics/economics-aa/"
+  },
+  {
+    "name": "Economics",
+    "url": "https://calendar.kpu.ca/programs-az/business/economics/"
+  },
+  {
+    "name": "Minor in Economics",
+    "url": "https://calendar.kpu.ca/programs-az/business/economics/economics-minor/"
+  },
+  {
+    "name": "Certificate in Education Assistant",
+    "url": "https://calendar.kpu.ca/programs-az/arts/education-assistant/education-assistant-certificate/"
+  },
+  {
+    "name": "Education Assistant",
+    "url": "https://calendar.kpu.ca/programs-az/arts/education-assistant/"
+  },
+  {
+    "name": "Citation in Employment and Community Studies",
+    "url": "https://calendar.kpu.ca/programs-az/academic-career-preparation/access-programs/employment-community-studies-citation/"
+  },
+  {
+    "name": "Employment and Community Studies",
+    "url": "https://calendar.kpu.ca/programs-az/academic-career-preparation/access-programs/"
+  },
+  {
+    "name": "Certificate in Engineering",
+    "url": "https://calendar.kpu.ca/programs-az/science/engineering/engineering-certificate/"
+  },
+  {
+    "name": "Engineering",
+    "url": "https://calendar.kpu.ca/programs-az/science/engineering/"
+  },
+  {
+    "name": "Diploma in Engineering Physics",
+    "url": "https://calendar.kpu.ca/programs-az/science/engineering/engineering-physics-diploma/"
+  },
+  {
+    "name": "Associate of Arts Degree in English",
+    "url": "https://calendar.kpu.ca/programs-az/arts/english/english-aa/"
+  },
+  {
+    "name": "English",
+    "url": "https://calendar.kpu.ca/programs-az/arts/english/"
+  },
+  {
+    "name": "Bachelor of Arts (Honours), Major in English",
+    "url": "https://calendar.kpu.ca/programs-az/arts/english/english-bah/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in English",
+    "url": "https://calendar.kpu.ca/programs-az/arts/english/english-ba/"
+  },
+  {
+    "name": "Minor in English",
+    "url": "https://calendar.kpu.ca/programs-az/arts/english/english-minor/"
+  },
+  {
+    "name": "Diploma in English Language Proficiency",
+    "url": "https://calendar.kpu.ca/programs-az/academic-career-preparation/english-language-studies/english-language-proficiency-diploma/"
+  },
+  {
+    "name": "English Language Studies",
+    "url": "https://calendar.kpu.ca/programs-az/academic-career-preparation/english-language-studies/"
+  },
+  {
+    "name": "Certificate in Foundation in Entertainment Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/entertainment-arts/entertainment-arts-foundation-entertainment-arts-certificate/"
+  },
+  {
+    "name": "Entertainment Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/entertainment-arts"
+  },
+  {
+    "name": "Diploma in Advanced 2D Digital Animation Production",
+    "url": "https://calendar.kpu.ca/programs-az/arts/entertainment-arts/entertainment-arts-2d-diploma/"
+  },
+  {
+    "name": "Diploma in Advanced 3D Animation and 3D Modelling",
+    "url": "https://calendar.kpu.ca/programs-az/arts/entertainment-arts/entertainment-arts-3d-diploma/"
+  },
+  {
+    "name": "Diploma in Advanced Game Development",
+    "url": "https://calendar.kpu.ca/programs-az/arts/entertainment-arts/entertainment-arts-game-dev-diploma/"
+  },
+  {
+    "name": "Diploma in Advanced VFX (Virtual Production)",
+    "url": "https://calendar.kpu.ca/programs-az/arts/entertainment-arts/entertainment-arts-vfx-diploma/"
+  },
+  {
+    "name": "Bachelor of Business Administration in Entrepreneurial Leadership",
+    "url": "https://calendar.kpu.ca/programs-az/business/entrepreneurial-leadership/entrepreneurial-leadership-bba/"
+  },
+  {
+    "name": "Entrepreneurial Leadership",
+    "url": "https://calendar.kpu.ca/programs-az/business/entrepreneurial-leadership/"
+  },
+  {
+    "name": "Diploma of Technology in Environmental Protection",
+    "url": "https://calendar.kpu.ca/programs-az/science/environmental-protection-technology/environmental-protection-diploma-technology/"
+  },
+  {
+    "name": "Environmental Protection Technology",
+    "url": "https://calendar.kpu.ca/programs-az/science/environmental-protection-technology/"
+  },
+  {
+    "name": "Certificate in Farrier Science",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/farrier-science/farrier-science-certificate/"
+  },
+  {
+    "name": "Farrier Science",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/farrier-science/"
+  },
+  {
+    "name": "Bachelor of Design in Fashion and Technology",
+    "url": "https://calendar.kpu.ca/programs-az/design/fashion-technology/fashion-technology-ba/"
+  },
+  {
+    "name": "Fashion & Technology",
+    "url": "https://calendar.kpu.ca/programs-az/design/fashion-technology/"
+  },
+  {
+    "name": "Diploma in Fashion Marketing",
+    "url": "https://calendar.kpu.ca/programs-az/design/fashion-marketing/fashion-marketing-diploma/"
+  },
+  {
+    "name": "Fashion Marketing",
+    "url": "https://calendar.kpu.ca/programs-az/design/fashion-marketing/"
+  },
+  {
+    "name": "Bachelor of Fine Arts, Visual Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/fine-arts/fine-arts-bfa/"
+  },
+  {
+    "name": "Fine Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/fine-arts/"
+  },
+  {
+    "name": "Certificate in Fine Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/fine-arts/fine-arts-certificate/"
+  },
+  {
+    "name": "Diploma in Fine Arts",
+    "url": "https://calendar.kpu.ca/programs-az/arts/fine-arts/fine-arts-diploma/"
+  },
+  {
+    "name": "Certificate in Foundations in Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/foundations-design/foundations-design-certificate/"
+  },
+  {
+    "name": "Foundations in Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/foundations-design/"
+  },
+  {
+    "name": "Certificate in General Business Studies",
+    "url": "https://calendar.kpu.ca/programs-az/business/general-business/general-business-studies-certificate/"
+  },
+  {
+    "name": "General Business",
+    "url": "https://calendar.kpu.ca/programs-az/business/general-business/"
+  },
+  {
+    "name": "Diploma in General Business Studies",
+    "url": "https://calendar.kpu.ca/programs-az/business/general-business/general-business-studies-diploma/"
+  },
+  {
+    "name": "Associate of Science Degree in General Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/general-science/general-science-as/"
+  },
+  {
+    "name": "General Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/general-science/"
+  },
+  {
+    "name": "Diploma in Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/general-science/science-diploma/"
+  },
+  {
+    "name": "Associate of Arts Degree in General Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/general-studies/general-studies-aa/"
+  },
+  {
+    "name": "General Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/general-studies/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in General Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/general-studies/general-studies-ba/"
+  },
+  {
+    "name": "Diploma in General Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/general-studies/general-studies-diploma/"
+  },
+  {
+    "name": "Associate of Arts Degree in Geography",
+    "url": "https://calendar.kpu.ca/programs-az/arts/geography/geography-aa/"
+  },
+  {
+    "name": "Geography",
+    "url": "https://calendar.kpu.ca/programs-az/arts/geography/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Applied Geography",
+    "url": "https://calendar.kpu.ca/programs-az/arts/geography/geography-applied-ba/"
+  },
+  {
+    "name": "Minor in Geography",
+    "url": "https://calendar.kpu.ca/programs-az/arts/geography/geography-minor/"
+  },
+  {
+    "name": "Graduate Diploma in Business Administration - Global Business Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/global-business-management/global-business-management-graduate-diploma-administration/"
+  },
+  {
+    "name": "Global Business Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/global-business-management/"
+  },
+  {
+    "name": "Bachelor of Design in Graphic Design for Marketing",
+    "url": "https://calendar.kpu.ca/programs-az/design/graphic-design-marketing/graphic-design-marketing-ba/"
+  },
+  {
+    "name": "Graphic Design for Marketing",
+    "url": "https://calendar.kpu.ca/programs-az/design/graphic-design-marketing/"
+  },
+  {
+    "name": "Diploma in Front-End Development for Interactive Applications",
+    "url": "https://calendar.kpu.ca/programs-az/design/front-end-development-interactive-applications/front-end-development-interactive-applications-diploma/"
+  },
+  {
+    "name": "Graphic Design for Marketing",
+    "url": "https://calendar.kpu.ca/programs-az/design/front-end-development-interactive-applications/"
+  },
+  {
+    "name": "Graduate Diploma in Business Administration - Green Business Management and Sustainability",
+    "url": "https://calendar.kpu.ca/programs-az/business/green-business-management-sustainability/green-business-management-sustainability-graduate-diploma-administration/"
+  },
+  {
+    "name": "Green Business Management and Sustainability",
+    "url": "https://calendar.kpu.ca/programs-az/business/green-business-management-sustainability/"
+  },
+  {
+    "name": "Certificate in Health Care Assistant",
+    "url": "https://calendar.kpu.ca/programs-az/health/health-care-assistant/health-care-assistant-certificate/"
+  },
+  {
+    "name": "Health Care Assistant",
+    "url": "https://calendar.kpu.ca/programs-az/health/health-care-assistant/"
+  },
+  {
+    "name": "Certificate in Health Foundations",
+    "url": "https://calendar.kpu.ca/programs-az/health/health-foundations/health-foundations-certificate/"
+  },
+  {
+    "name": "Health Foundations",
+    "url": "https://calendar.kpu.ca/programs-az/health/health-foundations/"
+  },
+  {
+    "name": "Bachelor of Science (Honours), Major in Health Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/health-science/health-science-bsh/"
+  },
+  {
+    "name": "Health Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/health-science/"
+  },
+  {
+    "name": "Bachelor of Science, Major in Health Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/health-science/health-science-bs/"
+  },
+  {
+    "name": "Minor in Health Science",
+    "url": "https://calendar.kpu.ca/programs-az/science/health-science/health-science-minor/"
+  },
+  {
+    "name": "Certificate in Health Unit Coordinator",
+    "url": "https://calendar.kpu.ca/programs-az/health/health-unit-coordinator/health-unit-coordinator-certificate/"
+  },
+  {
+    "name": "Health Unit Coordinator",
+    "url": "https://calendar.kpu.ca/programs-az/health/health-unit-coordinator/"
+  },
+  {
+    "name": "Associate of Arts Degree in History",
+    "url": "https://calendar.kpu.ca/programs-az/arts/history/history-aa/"
+  },
+  {
+    "name": "History",
+    "url": "https://calendar.kpu.ca/programs-az/arts/history/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in History",
+    "url": "https://calendar.kpu.ca/programs-az/arts/history/history-ba/"
+  },
+  {
+    "name": "Minor in History",
+    "url": "https://calendar.kpu.ca/programs-az/arts/history/history-minor/"
+  },
+  {
+    "name": "Citation in Horticulture Technology",
+    "url": "https://calendar.kpu.ca/programs-az/science/horticulture/horticulture-technology-citations/"
+  },
+  {
+    "name": "Horticulture",
+    "url": "https://calendar.kpu.ca/programs-az/science/horticulture/"
+  },
+  {
+    "name": "Diploma in Horticulture Technology (Optional Specializations)",
+    "url": "https://calendar.kpu.ca/programs-az/science/horticulture/horticulture-technology-diploma/"
+  },
+  {
+    "name": "Bachelor of Business Administration in Human Resources Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/human-resources-management/human-resources-management-bba/"
+  },
+  {
+    "name": "Human Resources Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/human-resources-management/"
+  },
+  {
+    "name": "Post-Baccalaureate Diploma in Human Resources Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/human-resources-management/human-resources-management-post-baccalaureate-diploma/"
+  },
+  {
+    "name": "Minor in Indigenous Community Justice",
+    "url": "https://calendar.kpu.ca/programs-az/arts/indigenous-community-justice/indigenous-community-justice-minor/"
+  },
+  {
+    "name": "Indigenous Community Justice",
+    "url": "https://calendar.kpu.ca/programs-az/arts/indigenous-community-justice/"
+  },
+  {
+    "name": "Bachelor of Technology in Information Technology",
+    "url": "https://calendar.kpu.ca/programs-az/business/information-technology/information-technology-bt/"
+  },
+  {
+    "name": "Information Technology",
+    "url": "https://calendar.kpu.ca/programs-az/business/information-technology/"
+  },
+  {
+    "name": "Citation in Cloud Architecture and Security",
+    "url": "https://calendar.kpu.ca/programs-az/business/cloud-architecture-security/cloud-architecture-security-citation/"
+  },
+  {
+    "name": "Information Technology",
+    "url": "https://calendar.kpu.ca/programs-az/business/cloud-architecture-security/"
+  },
+  {
+    "name": "Bachelor of Interior Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/interior-design/interior-design-ba/"
+  },
+  {
+    "name": "Interior Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/interior-design/"
+  },
+  {
+    "name": "Bachelor of Interior Design (Honours)",
+    "url": "https://calendar.kpu.ca/programs-az/design/interior-design/interior-design-bidh/"
+  },
+  {
+    "name": "Bachelor of Journalism",
+    "url": "https://calendar.kpu.ca/programs-az/arts/journalism/journalism-ba/"
+  },
+  {
+    "name": "Journalism",
+    "url": "https://calendar.kpu.ca/programs-az/arts/journalism/"
+  },
+  {
+    "name": "Bachelor of Journalism (Honours)",
+    "url": "https://calendar.kpu.ca/programs-az/arts/journalism/journalism-bjh/"
+  },
+  {
+    "name": "Minor in Journalism",
+    "url": "https://calendar.kpu.ca/programs-az/arts/journalism/journalism-minor/"
+  },
+  {
+    "name": "Minor in Language and Culture",
+    "url": "https://calendar.kpu.ca/programs-az/arts/language-cultures/language-culture-minor/"
+  },
+  {
+    "name": "Language and Cultures",
+    "url": "https://calendar.kpu.ca/programs-az/arts/language-cultures/"
+  },
+  {
+    "name": "Certificate in Legal Administrative Studies",
+    "url": "https://calendar.kpu.ca/programs-az/business/legal-administrative-studies/legal-administrative-studies-certificate/"
+  },
+  {
+    "name": "Legal Administrative Studies",
+    "url": "https://calendar.kpu.ca/programs-az/business/legal-administrative-studies/"
+  },
+  {
+    "name": "Bachelor of Business Administration in Marketing Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/marketing/marketing-management-bba/"
+  },
+  {
+    "name": "Marketing",
+    "url": "https://calendar.kpu.ca/programs-az/business/marketing/"
+  },
+  {
+    "name": "Diploma in Marketing Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/marketing/marketing-management-diploma/"
+  },
+  {
+    "name": "Citation in Masonry",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/masonry/masonry-citation/"
+  },
+  {
+    "name": "Masonry",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/masonry/"
+  },
+  {
+    "name": "Associate of Science Degree in Mathematics",
+    "url": "https://calendar.kpu.ca/programs-az/science/mathematics/mathematics-as/"
+  },
+  {
+    "name": "Mathematics",
+    "url": "https://calendar.kpu.ca/programs-az/science/mathematics/"
+  },
+  {
+    "name": "Bachelor of Science, Major in Applications of Mathematics",
+    "url": "https://calendar.kpu.ca/programs-az/science/mathematics/mathematics-applications-bs/"
+  },
+  {
+    "name": "Minor in Mathematics",
+    "url": "https://calendar.kpu.ca/programs-az/science/mathematics/mathematics-minor/"
+  },
+  {
+    "name": "Citation in Metal Fabrication/Fitter",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/metal-fabrication-fitter/metal-fabrication-fitter-citation/"
+  },
+  {
+    "name": "Metal Fabrication/Fitter",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/metal-fabrication-fitter/"
+  },
+  {
+    "name": "Citation in Millwright/Industrial Mechanic",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/millwright-industrial-mechanic/millwright-industrial-mechanic-citation/"
+  },
+  {
+    "name": "Millwright/Industrial Mechanic",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/millwright-industrial-mechanic/"
+  },
+  {
+    "name": "Associate of Arts Degree in Music",
+    "url": "https://calendar.kpu.ca/programs-az/arts/music/music-aa/"
+  },
+  {
+    "name": "Music",
+    "url": "https://calendar.kpu.ca/programs-az/arts/music/"
+  },
+  {
+    "name": "Diploma in Music",
+    "url": "https://calendar.kpu.ca/programs-az/arts/music/music-diploma/"
+  },
+  {
+    "name": "Minor in Music",
+    "url": "https://calendar.kpu.ca/programs-az/arts/music/music-minor/"
+  },
+  {
+    "name": "Certificate in Non-Governmental Organizations and Nonprofit Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/non-governmental-organizations-nonprofit-studies/non-governmental-organizations-nonprofit-studies-certificate/"
+  },
+  {
+    "name": "Non-Governmental Organizations and Nonprofit Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/non-governmental-organizations-nonprofit-studies/"
+  },
+  {
+    "name": "Bachelor of Psychiatric Nursing",
+    "url": "https://calendar.kpu.ca/programs-az/health/psychiatric-nursing/psychiatric-nursing-bpn/"
+  },
+  {
+    "name": "Psychiatric Nursing",
+    "url": "https://calendar.kpu.ca/programs-az/health/psychiatric-nursing/"
+  },
+  {
+    "name": "Bachelor of Science in Nursing",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/nursing-bsn/"
+  },
+  {
+    "name": "Nursing",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/"
+  },
+  {
+    "name": "Bachelor of Science in Nursing, Advanced Entry",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/nursing-bsn-advanced-entry/"
+  },
+  {
+    "name": "Bachelor of Science in Nursing, Advanced Entry for Psychiatric Nurses",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/nursing-bsn-advanced-entry-psychiatric-nurses/"
+  },
+  {
+    "name": "Bachelor of Science in Nursing, Degree Completion for Registered Nurses",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/nursing-degree-completion-registered-nurses/"
+  },
+  {
+    "name": "Certificate in Graduate Nurse, Internationally Educated Re-entry",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/graduate-nurse-internationally-educated-re-entry-certificate/"
+  },
+  {
+    "name": "Certificate of Completion in Graduate Nurse Qualifying",
+    "url": "https://calendar.kpu.ca/programs-az/health/nursing/graduate-nurse-qualifying-certificate-completion/"
+  },
+  {
+    "name": "Post-Baccalaureate Diploma in Operations and Supply Chain Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/operations-supply-chain-management/operations-supply-chain-management-post-baccalaureate-diploma/"
+  },
+  {
+    "name": "Operations & Supply Chain Management",
+    "url": "https://calendar.kpu.ca/programs-az/business/operations-supply-chain-management/"
+  },
+  {
+    "name": "Citation in Parts, Warehousing, Logistics and Distribution",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/parts-warehousing-logistics-distribution/parts-warehousing-logistics-distribution-citation/"
+  },
+  {
+    "name": "Parts, Warehousing, Logistics & Distribution",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/parts-warehousing-logistics-distribution/"
+  },
+  {
+    "name": "Associate of Arts Degree in Philosophy",
+    "url": "https://calendar.kpu.ca/programs-az/arts/philosophy/philosophy-aa/"
+  },
+  {
+    "name": "Philosophy",
+    "url": "https://calendar.kpu.ca/programs-az/arts/philosophy/"
+  },
+  {
+    "name": "Bachelor of Arts (Honours), Major in Philosophy",
+    "url": "https://calendar.kpu.ca/programs-az/arts/philosophy/philosophy-bah/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Philosophy",
+    "url": "https://calendar.kpu.ca/programs-az/arts/philosophy/philosophy-ba/"
+  },
+  {
+    "name": "Minor in Philosophy",
+    "url": "https://calendar.kpu.ca/programs-az/arts/philosophy/philosophy-minor/"
+  },
+  {
+    "name": "Bachelor of Science (Honours), Major in Applications of Mathematics",
+    "url": "https://calendar.kpu.ca/programs-az/science/mathematics/mathematics-applications-bsh/"
+  },
+  {
+    "name": "Bachelor of Science, Major in Physics for Modern Technology",
+    "url": "https://calendar.kpu.ca/programs-az/science/physics/physics-modern-technology-bs/"
+  },
+  {
+    "name": "Physics",
+    "url": "https://calendar.kpu.ca/programs-az/science/physics/"
+  },
+  {
+    "name": "Bachelor of Horticulture Science, Major in Plant Health",
+    "url": "https://calendar.kpu.ca/programs-az/science/plant-health/plant-health-bs/"
+  },
+  {
+    "name": "Plant Health",
+    "url": "https://calendar.kpu.ca/programs-az/science/plant-health/"
+  },
+  {
+    "name": "Minor in Plant Health",
+    "url": "https://calendar.kpu.ca/programs-az/science/plant-health/plant-health-minor/"
+  },
+  {
+    "name": "Citation in Plumbing",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/plumbing/plumbing-citation/"
+  },
+  {
+    "name": "Plumbing",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/plumbing/"
+  },
+  {
+    "name": "Citation in Plumbing and Piping",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/plumbing-piping/plumbing-piping-citation/"
+  },
+  {
+    "name": "Plumbing and Piping",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/plumbing-piping/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Policy Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/policy-studies/policy-studies-ba/"
+  },
+  {
+    "name": "Policy Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/policy-studies/"
+  },
+  {
+    "name": "Minor in Policy Studies",
+    "url": "https://calendar.kpu.ca/programs-az/arts/policy-studies/policy-studies-minor/"
+  },
+  {
+    "name": "Associate of Arts Degree in Political Science",
+    "url": "https://calendar.kpu.ca/programs-az/arts/political-science/political-science-aa/"
+  },
+  {
+    "name": "Political Science",
+    "url": "https://calendar.kpu.ca/programs-az/arts/political-science/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Political Science",
+    "url": "https://calendar.kpu.ca/programs-az/arts/political-science/political-science-ba/"
+  },
+  {
+    "name": "Minor in Political Science",
+    "url": "https://calendar.kpu.ca/programs-az/arts/political-science/political-science-minor/"
+  },
+  {
+    "name": "Bachelor of Design, Product Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/product-design/product-design-ba/"
+  },
+  {
+    "name": "Wilson School of Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/product-design/"
+  },
+  {
+    "name": "Bachelor of Psychiatric Nursing, Degree Completion for Registered Psychiatric Nurses",
+    "url": "https://calendar.kpu.ca/programs-az/health/psychiatric-nursing/psychiatric-nursing-degree-completion-registered-psychiatric-nurses/"
+  },
+  {
+    "name": "Bachelor of Psychiatric Nursing, Degree Completion for Stenberg College Graduates",
+    "url": "https://calendar.kpu.ca/programs-az/health/psychiatric-nursing/psychiatric-nursing-degree-completion-stenberg-college-graduates/"
+  },
+  {
+    "name": "Associate of Arts Degree in Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-aa/"
+  },
+  {
+    "name": "Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/"
+  },
+  {
+    "name": "Bachelor of Arts (Honours), Major in Human Behaviour and Applied Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/human-behaviour-applied-psychology-bah/"
+  },
+  {
+    "name": "Bachelor of Arts (Honours), Major in Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-bah/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Human Behaviour and Applied Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/human-behaviour-applied-psychology-ba/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-ba/"
+  },
+  {
+    "name": "Bachelor of Science (Honours) in Applied Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-applied-bsh/"
+  },
+  {
+    "name": "Bachelor of Science in Applied Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-applied-bs/"
+  },
+  {
+    "name": "Minor in Psychology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-minor/"
+  },
+  {
+    "name": "Diploma in Public Relations",
+    "url": "https://calendar.kpu.ca/programs-az/business/public-relations/public-relations-diploma/"
+  },
+  {
+    "name": "Public Relations",
+    "url": "https://calendar.kpu.ca/programs-az/business/public-relations/"
+  },
+  {
+    "name": "Associate of Arts Degree in Sociology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/sociology/sociology-aa/"
+  },
+  {
+    "name": "Sociology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/sociology/"
+  },
+  {
+    "name": "Bachelor of Arts, Major in Sociology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/sociology/sociology-ba/"
+  },
+  {
+    "name": "Minor in Sociology",
+    "url": "https://calendar.kpu.ca/programs-az/arts/sociology/sociology-minor/"
+  },
+  {
+    "name": "Bachelor of Applied Science in Sustainable Agriculture",
+    "url": "https://calendar.kpu.ca/programs-az/science/sustainable-agriculture/sustainable-agriculture-ba/"
+  },
+  {
+    "name": "Sustainable Agriculture",
+    "url": "https://calendar.kpu.ca/programs-az/science/sustainable-agriculture/"
+  },
+  {
+    "name": "Graduate Certificate in Sustainable Food Systems and Security",
+    "url": "https://calendar.kpu.ca/programs-az/arts/sustainable-food-systems-security/sustainable-food-systems-security-graduate-certificate/"
+  },
+  {
+    "name": "Sustainable Food Systems and Security",
+    "url": "https://calendar.kpu.ca/programs-az/arts/sustainable-food-systems-security/"
+  },
+  {
+    "name": "Post-Baccalaureate Diploma in Technical Apparel Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/technical-apparel-design/technical-apparel-design-post-baccalaureate-diploma/"
+  },
+  {
+    "name": "Technical Apparel Design",
+    "url": "https://calendar.kpu.ca/programs-az/design/technical-apparel-design/"
+  },
+  {
+    "name": "Post-Baccalaureate Diploma in Technical Management and Services",
+    "url": "https://calendar.kpu.ca/programs-az/business/technical-management-services/technical-management-services-post-baccalaureate-diploma/"
+  },
+  {
+    "name": "Technical Management & Services",
+    "url": "https://calendar.kpu.ca/programs-az/business/technical-management-services/"
+  },
+  {
+    "name": "Bachelor of Traditional Chinese Medicine",
+    "url": "https://calendar.kpu.ca/programs-az/health/traditional-chinese-medicine/traditional-chinese-medicine-btcm/"
+  },
+  {
+    "name": "Diploma in Traditional Chinese Medicine - Acupuncture",
+    "url": "https://calendar.kpu.ca/programs-az/health/traditional-chinese-medicine/traditional-chinese-medicine-acupuncture-diploma/"
+  },
+  {
+    "name": "Traditional Chinese Medicine - Acupuncture",
+    "url": "https://calendar.kpu.ca/programs-az/health/traditional-chinese-medicine/"
+  },
+  {
+    "name": "Bachelor of Horticulture Science, Major in Urban Ecosystems",
+    "url": "https://calendar.kpu.ca/programs-az/science/urban-ecosystems/urban-ecosystems-bs/"
+  },
+  {
+    "name": "Urban Ecosystems",
+    "url": "https://calendar.kpu.ca/programs-az/science/urban-ecosystems/"
+  },
+  {
+    "name": "Certificate in Welding Foundation",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/welding/welding-foundation-certificate/"
+  },
+  {
+    "name": "Welding",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/welding/"
+  },
+  {
+    "name": "Citation in Welding Level A",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/welding/welding-level-a-citation/"
+  },
+  {
+    "name": "Citation in Welding Level B",
+    "url": "https://calendar.kpu.ca/programs-az/trades-technology/welding/welding-level-b-citation/"
+  }
+]

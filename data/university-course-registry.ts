@@ -125,6 +125,7 @@ import { tmuCourses as m_toronto_metropolitan_university } from './tmu-courses';
 import { unbCourses as m_university_of_new_brunswick } from './unb-courses';
 import { waterlooUgCourses as m_university_of_waterloo_ug } from './waterlooug-courses';
 import { yorkuCourses as m_york_university } from './yorku-courses';
+import { kpuRealCourses as m_kwantlen_polytechnic_university } from './kpu-courses';
 
 const REGISTRY: Record<string, readonly unknown[]> = {
   'anglia-ruskin-university': m_anglia_ruskin_university,
@@ -251,6 +252,7 @@ const REGISTRY: Record<string, readonly unknown[]> = {
   'university-of-guelph': m_university_of_guelph,
   'university-of-new-brunswick': m_university_of_new_brunswick,
   'york-university': m_york_university,
+  'kwantlen-polytechnic-university': m_kwantlen_polytechnic_university,
 };
 
 export interface RegistryCourse {

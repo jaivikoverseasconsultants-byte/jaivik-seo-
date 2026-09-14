@@ -1,0 +1,210 @@
+{
+  "redriver": {
+    "found": 4,
+    "sampled": 4,
+    "validOk": 4,
+    "checks": [
+      {
+        "url": "https://www.rrc.ca/explore/program/administrative-assistant/?program-type=full-time-program",
+        "status": 200,
+        "title": "Administrative Assistant : RRC Polytech: Program Explorer",
+        "h1": "Program Explorer",
+        "chars": 10991,
+        "ok": true
+      },
+      {
+        "url": "https://www.rrc.ca/explore/program/application-development-and-delivery/?program-type=full-time-program",
+        "status": 200,
+        "title": "Application Development and Delivery : RRC Polytech: Program Explorer",
+        "h1": "Program Explorer",
+        "chars": 15556,
+        "ok": true
+      },
+      {
+        "url": "https://www.rrc.ca/explore/program/culinary-arts/?program-type=full-time-program",
+        "status": 200,
+        "title": "Culinary Arts : RRC Polytech: Program Explorer",
+        "h1": "Program Explorer",
+        "chars": 14985,
+        "ok": true
+      },
+      {
+        "url": "https://www.rrc.ca/explore/program/transportation-logistics-and-supply-chain-management/?program-type=full-time-program",
+        "status": 200,
+        "title": "Transportation, Logistics and Supply Chain Management : RRC Polytech: Program Explorer",
+        "h1": "Program Explorer",
+        "chars": 11242,
+        "ok": true
+      }
+    ]
+  },
+  "uvic": {
+    "found": 1,
+    "sampled": 1,
+    "validOk": 0,
+    "checks": [
+      {
+        "url": "https://www.uvic.ca/undergraduate/programs/index.php",
+        "status": 404,
+        "title": "404 error - University of Victoria",
+        "h1": "Oops...",
+        "chars": 1289,
+        "ok": false
+      }
+    ]
+  },
+  "windsor": {
+    "found": 0,
+    "sampled": 0,
+    "validOk": 0,
+    "checks": []
+  },
+  "ubco": {
+    "found": 0,
+    "sampled": 0,
+    "validOk": 0,
+    "checks": []
+  },
+  "ualberta": {
+    "found": 25,
+    "sampled": 8,
+    "validOk": 8,
+    "checks": [
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/index.html",
+        "status": 200,
+        "title": "Undergraduate Programs",
+        "h1": "Undergraduate Programs",
+        "chars": 1635,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-in-nutrition-and-food-science-dietetics-specialization.html",
+        "status": 200,
+        "title": "Dietetics Specialization | Undergraduate Programs",
+        "h1": "Dietetics Specialization",
+        "chars": 9140,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-data-science-computing-option.html",
+        "status": 200,
+        "title": "Data Science - Computing Option | Undergraduate Programs",
+        "h1": "Data Science - Computing Option",
+        "chars": 5339,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-honors-data-science-mathematics-option.html",
+        "status": 200,
+        "title": "Data Science - Mathematics Option | Undergraduate Programs",
+        "h1": "Data Science - Mathematics Option",
+        "chars": 5592,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-in-nursing-with-honors-after-degree-nursing.html",
+        "status": 200,
+        "title": "Nursing | Undergraduate Programs",
+        "h1": "Nursing",
+        "chars": 5523,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-education-in-secondary-education-second-languages-other.html",
+        "status": 200,
+        "title": "Second Languages - Other | Undergraduate Programs",
+        "h1": "Second Languages - Other",
+        "chars": 5291,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-education-in-secondary-education-second-languages-ukrainian.html",
+        "status": 200,
+        "title": "Second Languages - Ukrainian | Undergraduate Programs",
+        "h1": "Second Languages - Ukrainian",
+        "chars": 5558,
+        "ok": true
+      },
+      {
+        "url": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-education-in-secondary-education-second-languages-german.html",
+        "status": 200,
+        "title": "Second Languages - German | Undergraduate Programs",
+        "h1": "Second Languages - German",
+        "chars": 5560,
+        "ok": true
+      }
+    ]
+  },
+  "kpu": {
+    "found": 249,
+    "sampled": 8,
+    "validOk": 8,
+    "checks": [
+      {
+        "url": "https://calendar.kpu.ca/programs-az/arts/double-major-ba/",
+        "status": 200,
+        "title": "Bachelor of Arts (Double Major) < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 3959,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/business/business-administration/",
+        "status": 200,
+        "title": "Business Administration < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 2753,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/business/economics/",
+        "status": 200,
+        "title": "Economics < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 1981,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/design/fashion-marketing/",
+        "status": 200,
+        "title": "Fashion Marketing < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 3348,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/health/health-foundations/health-foundations-certificate/",
+        "status": 200,
+        "title": "Certificate in Health Foundations < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 2648,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/arts/language-cultures/language-culture-minor/",
+        "status": 200,
+        "title": "Minor in Language and Culture < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 2537,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/health/nursing/graduate-nurse-qualifying-certificate-completion/",
+        "status": 200,
+        "title": "Certificate of Completion in Graduate Nurse Qualifying < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 2693,
+        "ok": true
+      },
+      {
+        "url": "https://calendar.kpu.ca/programs-az/arts/psychology/psychology-aa/",
+        "status": 200,
+        "title": "Associate of Arts Degree in Psychology < Kwantlen Polytechnic University Academic Catalog",
+        "h1": "Kwantlen Polytechnic University",
+        "chars": 2842,
+        "ok": true
+      }
+    ]
+  }
+}

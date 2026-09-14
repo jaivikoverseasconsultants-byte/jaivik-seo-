@@ -184,12 +184,13 @@ const JOBS = [
   ['york',        ['data/wave-canada/york-detail.json']],
   ['guelph',      ['data/wave-canada/guelph-detail.json']],
   ['algonquin',   ['data/wave-canada/algonquin-detail.json']],
-  // KPU is deliberately NOT generated. All 249 discovered URLs return HTTP 404 on direct
-  // fetch — including the ones kpu.ca/programs itself currently links to — so the crawl
-  // produced 249 real programme NAMES attached to 249 dead URLs. Publishing that would
-  // recreate exactly the bare-URL problem this wave exists to fix. Needs a Puppeteer
-  // session (the pages render only inside the site's own JS app).
-  // ['kpu',      ['data/wave-canada/kpu-detail.json']],
+  // KPU, corrected 2026-09-14. The first pass harvested www.kpu.ca/programs-az/... and every
+  // one of those 249 URLs 404s — in curl AND in a real browser (verified with a control URL,
+  // scripts/kpu-verify.js). The cause was NOT bot-blocking: KPU's programme pages live on a
+  // different HOST, the CourseLeaf catalogue at calendar.kpu.ca, which serves 200 to plain
+  // curl. No Puppeteer needed. The dead www.kpu.ca set is kept as kpu-discovery.json for the
+  // record; kpu2-* is the real one.
+  ['kpu',         ['data/wave-canada/kpu2-detail.json']],
 ];
 const summary = [];
 for (const [k, files] of JOBS) {
