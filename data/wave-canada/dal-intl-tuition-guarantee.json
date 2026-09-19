@@ -1,0 +1,4520 @@
+{
+ "_source": "https://www.dal.ca/admissions/cost-and-payment/tuition/international-tuition-guarantee.html + PDF /content/dam/www/admissions/cost-and-payment/tuition-and-fee-schedules/international-tution-guarantee.pdf",
+ "_academicYear": "2026-2027",
+ "_retrieved": "2026-09-17",
+ "_basis": "You pay a set tuition amount per year (page wording). Tuition only; incidentals and co-op excluded. Faculty per programme from programfinder.model.json.",
+ "facultyRates": {
+  "Agriculture": 30906,
+  "Arts and Social Sciences": 37992,
+  "Computer Science": 41688,
+  "Engineering": 48594,
+  "Management": 42042,
+  "Science": 37992
+ },
+ "masters": {
+  "_source": "masters-tuition-fee-schedule.pdf",
+  "note": "International master students pay programme fee PLUS an International Tuition Fee: 8079/yr thesis or thesis-option, 24685/yr non-thesis. Summing them is our arithmetic — decision pending."
+ },
+ "rows": [
+  {
+   "slug": "dal-veterinary-technology-diptech",
+   "name": "Veterinary Technology (DipTech)",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/veterinary-technology-diptech.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-agricultural-business-bsc-agr",
+   "name": "Agricultural Business (BSc Agr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/agricultural-business-bsc.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-animal-science-bsc-agr",
+   "name": "Animal Science (BSc Agr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/animal-science-bsc-agr.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-applied-computer-science-bacs",
+   "name": "Applied Computer Science (BACS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/applied-computer-science-bacs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-aquaculture-bsc-agr",
+   "name": "Aquaculture (BSc Agr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/aquaculture-bsc.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-accounting-bcomm",
+   "name": "Accounting (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/accounting-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-actuarial-science-bsc",
+   "name": "Actuarial Science (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/actuarial-science-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-agriculture-bsc",
+   "name": "Agriculture (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/agriculture-bsc.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-arctic-nursing-bscn",
+   "name": "Arctic Nursing (BScN)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/arctic-nursing-bscn.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-arts-ba",
+   "name": "Arts (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/arts-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-biochemistry-bsc",
+   "name": "Biochemistry (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/biochemistry-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-biology-bscba",
+   "name": "Biology (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/biology-bsc-ba.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-bioveterinary-science-bsc",
+   "name": "Bioveterinary Science (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/bioveterinary-science-bsc.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-business-management-diptech",
+   "name": "Business Management (DipTech)",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/business-management-diptech.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-canadian-studies-ba",
+   "name": "Canadian Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/canadian-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-chemical-engineering-beng",
+   "name": "Chemical Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/chemical-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-chemistry-bscba",
+   "name": "Chemistry (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/chemistry-bsc-ba.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-cinema-and-media-studies-ba",
+   "name": "Cinema and Media Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/cinema-media-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-civil-engineering-beng",
+   "name": "Civil Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/civil-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-classics-ba",
+   "name": "Classics (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/classics-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-commerce-bcomm",
+   "name": "Commerce (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/commerce-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-computer-science-bcs",
+   "name": "Computer Science (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-contemporary-studies-ba",
+   "name": "Contemporary Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/contemporary-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-theatre-costume-studies-ba",
+   "name": "Theatre (Costume Studies) (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/costume-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-creative-writing-ba",
+   "name": "Creative Writing (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/creative-writing-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-health-sciences-diagnostic-medical-ultrasound-bhsc",
+   "name": "Health Sciences (Diagnostic Medical Ultrasound) (BHSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/diagnostic-medical-ultrasound-bhsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-early-modern-studies-ba",
+   "name": "Early Modern Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/early-modern-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-earth-sciences-bsc",
+   "name": "Earth Sciences (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/earth-sciences-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-economics-bsc",
+   "name": "Economics (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/economics-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-ehs-management",
+   "name": "EHS Management",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/ehs-management-diploma.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-electrical-engineering-beng",
+   "name": "Electrical Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/electrical-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-engineering-beng",
+   "name": "Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-english-ba",
+   "name": "English (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/english-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-entrepreneurship-and-innovation-bmgmt",
+   "name": "Entrepreneurship & Innovation (BMgmt)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/entrepreneurship-innovation-bmgmt.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-environment-sustainability-and-society-babscbmgmtbcdbjh",
+   "name": "Environment, Sustainability, and Society (BA)(BSc)(BMgmt)(BCD)(BJH)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/environment-sustainability-society-ba-bsc.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Science",
+    "Management",
+    "Architecture and Planning"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Architecture and Planning"
+  },
+  {
+   "slug": "dal-environmental-engineering-beng",
+   "name": "Environmental Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/environmental-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-environmental-science-bscba",
+   "name": "Environmental Science (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/environmental-science-bsc-ba.html",
+   "faculties": [
+    "Science",
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-european-studies-ba",
+   "name": "European Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/european-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-finance-bcomm",
+   "name": "Finance (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/finance-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-french-ba",
+   "name": "French (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/french-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-gender-and-womens-studies-ba",
+   "name": "Gender and Women’s Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/gender-womens-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-german-ba",
+   "name": "German (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/german-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-health-promotion-bhp",
+   "name": "Health Promotion (BHP)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/health-promotion-bhp-bsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-health-sciences-post-diploma-bhsc",
+   "name": "Health Sciences (Post Diploma) (BHSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/health-sciences-post-diploma-bhsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-health-services-administration",
+   "name": "Health Services Administration",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/health-services-administration-diploma.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-history-of-science-and-technology-babsc",
+   "name": "History of Science and Technology (BA)(BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/history-science-technology-ba-bsc.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-history-ba",
+   "name": "History (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/history-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-industrial-engineering-beng",
+   "name": "Industrial Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/industrial-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-integrated-environmental-management-bsc",
+   "name": "Integrated Environmental Management (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/integrated-environmental-management-bsc.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-international-business-bcomm",
+   "name": "International Business (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/international-business-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-international-development-studies-ba",
+   "name": "International Development Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/international-development-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-international-food-business-bagr",
+   "name": "International Food Business (BAgr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/international-food-business-bagr.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-kinesiology-bsc",
+   "name": "Kinesiology (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/kinesiology-bsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-landscape-architecture-bla",
+   "name": "Landscape Architecture (BLA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/landscape-architecture-bla.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-landscape-horticulture-diploma",
+   "name": "Landscape Horticulture (Diploma)",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/landscape-horticulture-diploma.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-law-justice-and-society-ba",
+   "name": "Law, Justice, and Society (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/law-justice-society-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-leadership-and-organization-bmgmt",
+   "name": "Leadership and Organization (BMgmt)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/leadership-organization-bmgmt.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-management-bmgmt",
+   "name": "Management (BMgmt)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/management-bmgmt.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-managing-data-and-information-bmgmt",
+   "name": "Managing Data and Information (BMgmt)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/managing-data-information-bmgmt.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-managing-people-and-organizations-bcomm",
+   "name": "Managing People & Organizations (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/managing-people-organizations-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-marine-biology-bscba",
+   "name": "Marine Biology (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/marine-biology-bsc-ba.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-marketing-bcomm",
+   "name": "Marketing (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/marketing-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-mathematics-babsc",
+   "name": "Mathematics (BA)(BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/mathematics-ba-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-mechanical-engineering-beng",
+   "name": "Mechanical Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/mechanical-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-medical-sciences-bsc",
+   "name": "Medical Sciences (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/medical-sciences-bsc.html",
+   "faculties": [
+    "Science",
+    "Medicine"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Medicine"
+  },
+  {
+   "slug": "dal-meteorology-dip",
+   "name": "Meteorology (Dip)",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/meteorology-diploma.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-microbiology-and-immunology-bsc",
+   "name": "Microbiology and Immunology (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/microbiology-immunology-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-music-bmusba",
+   "name": "Music (BMus)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/music-bmus-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-neuroscience-bscba",
+   "name": "Neuroscience (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/neuroscience-bsc-ba.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-health-sciences-nuclear-medicine-technology-bhsc",
+   "name": "Health Sciences (Nuclear Medicine Technology) (BHSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/nuclear-medicine-technology-bhsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-nursing-bscn",
+   "name": "Nursing (BScN)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/nursing-bscn.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Yarmouth"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-philosophy-ba",
+   "name": "Philosophy (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/philosophy-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-political-science-ba",
+   "name": "Political Science (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/political-science-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-psychology-bscba",
+   "name": "Psychology (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/psychology-bsc-ba.html",
+   "faculties": [
+    "Science",
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-public-sector-management-bmgmt",
+   "name": "Public Sector Management (BMgmt)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/public-sector-management-bmgmt.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-health-sciences-radiological-technology-bhsc",
+   "name": "Health Sciences (Radiological Technology) (BHSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/radiological-technology-bhsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-recreation-management-bscbmgmt",
+   "name": "Recreation Management (BSc)(BMgmt)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/recreation-management-bsc-bmgmt.html",
+   "faculties": [
+    "Management",
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-religious-studies-ba",
+   "name": "Religious Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/religious-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-health-sciences-respiratory-therapy-bhsc",
+   "name": "Health Sciences (Respiratory Therapy) (BHSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/respiratory-therapy-bhsc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-russian-studies-ba",
+   "name": "Russian Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/russian-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-science-bsc",
+   "name": "Science (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/science-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-small-business-management-btech",
+   "name": "Small Business Management (BTech)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/small-business-management-btech.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-sociology-and-social-anthropology-ba",
+   "name": "Sociology and Social Anthropology (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/sociology-social-anthropology-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-spanish-and-latin-american-studies-ba",
+   "name": "Spanish and Latin American Studies (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/spanish-latin-american-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-theatre-stage-design-and-technical-theatre-ba",
+   "name": "Theatre (Stage Design and Technical Theatre) (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/stage-design-technical-theatre-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-statistics-bscba",
+   "name": "Statistics (BSc)(BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/statistics-bsc-ba.html",
+   "faculties": [
+    "Science",
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-supply-chain-and-logistics-management-bcomm",
+   "name": "Supply Chain and Logistics Management (BComm)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/supply-chain-logistics-management-bcomm.html",
+   "faculties": [
+    "Management"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 42042,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-theatre-acting-ba",
+   "name": "Theatre (Acting) (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/theatre-acting-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-theatre-ba",
+   "name": "Theatre (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/theatre-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-theatre-theatre-studies-ba",
+   "name": "Theatre (Theatre Studies) (BA)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/theatre-studies-ba.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-therapeutic-recreation-bscr-tr",
+   "name": "Therapeutic Recreation (BScR-TR)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/therapeutic-recreation-bscrtr.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-agricultural-economics-bsc-agr",
+   "name": "Agricultural Economics (BSc Agr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/agricultural-economics-bsc-agr.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-social-work-bsw",
+   "name": "Social Work (BSW)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/social-work-bsw.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Health"
+  },
+  {
+   "slug": "dal-integrated-science-bsc",
+   "name": "Integrated Science (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/integrated-science-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-architecture-beds",
+   "name": "Architecture (BEDS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/architecture-beds.html",
+   "faculties": [
+    "Architecture and Planning"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Architecture and Planning"
+  },
+  {
+   "slug": "dal-black-and-african-diaspora-studies-ba-bsc",
+   "name": "Black and African Diaspora Studies (BA) (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/black-african-diaspora-studies-ba-bsc.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-environmental-sciences-bsc-agr",
+   "name": "Environmental Sciences (BSc Agr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/environmental-sciences-bsc-agr.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-agriculture-msc",
+   "name": "Agriculture (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/agriculture-msc.html",
+   "faculties": [
+    "Agriculture",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-applied-computer-science-macsc",
+   "name": "Applied Computer Science (MACSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/applied-computer-science-macsc.html",
+   "faculties": [
+    "Computer Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-architecture-march",
+   "name": "Architecture (MArch)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/architecture-march.html",
+   "faculties": [
+    "Architecture and Planning",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-audiology-msc",
+   "name": "Audiology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/audiology-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biochemistry-and-molecular-biology-msc",
+   "name": "Biochemistry and Molecular Biology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biochemistry-molecular-biology-msc.html",
+   "faculties": [
+    "Medicine",
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biochemistry-and-molecular-biology-phd",
+   "name": "Biochemistry and Molecular Biology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biochemistry-molecular-biology-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biological-engineering-masc",
+   "name": "Biological Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biological-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biological-engineering-meng",
+   "name": "Biological Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biological-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biological-engineering-phd",
+   "name": "Biological Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biological-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biology-msc",
+   "name": "Biology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biology-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biology-phd",
+   "name": "Biology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biology-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biomedical-engineering-masc",
+   "name": "Biomedical Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biomedical-engineering-masc.html",
+   "faculties": [
+    "Medicine",
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-biomedical-engineering-phd",
+   "name": "Biomedical Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/biomedical-engineering-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-chemical-engineering-masc",
+   "name": "Chemical Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/chemical-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-chemical-engineering-meng",
+   "name": "Chemical Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/chemical-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-chemical-engineering-phd",
+   "name": "Chemical Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/chemical-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-chemistry-msc",
+   "name": "Chemistry (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/chemistry-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-chemistry-phd",
+   "name": "Chemistry (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/chemistry-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-civil-engineering-masc",
+   "name": "Civil Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/civil-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-civil-engineering-meng",
+   "name": "Civil Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/civil-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-civil-engineering-phd",
+   "name": "Civil Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/civil-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-classics-ma",
+   "name": "Classics (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/classics-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-classics-phd",
+   "name": "Classics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/classics-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-clinical-psychology-phd",
+   "name": "Clinical Psychology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/clinical-psychology-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-clinical-vision-science-msc",
+   "name": "Clinical Vision Science (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/clinical-vision-science-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-computer-science-mcsc",
+   "name": "Computer Science (MCSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/computer-science-mcsc.html",
+   "faculties": [
+    "Computer Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-computer-science-phd",
+   "name": "Computer Science (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/computer-science-phd.html",
+   "faculties": [
+    "Computer Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-creative-nonfiction-mfa",
+   "name": "Creative Nonfiction (MFA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/creative-nonfiction-mfa.html",
+   "faculties": [
+    "King's College",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-development-economics-mde",
+   "name": "Development Economics (MDE)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/development-economics-mde.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-digital-innovation-mdi",
+   "name": "Digital Innovation (MDI)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/digital-innovation-mdi.html",
+   "faculties": [
+    "Computer Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-earth-sciences-msc",
+   "name": "Earth Sciences (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/earth-sciences-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-earth-sciences-phd",
+   "name": "Earth Sciences (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/earth-sciences-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-electrical-engineering-masc",
+   "name": "Electrical Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-electrical-engineering-meng",
+   "name": "Electrical Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-environmental-engineering-masc",
+   "name": "Environmental Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/environmental-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-environmental-engineering-meng",
+   "name": "Environmental Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/environmental-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-environmental-studies-mes",
+   "name": "Environmental Studies (MES)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/environmental-studies-mes.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-epidemiology-and-applied-health-research-msc",
+   "name": "Epidemiology and Applied Health Research (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/epidemiology-applied-health-research-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-epidemiology-and-applied-health-research-phd",
+   "name": "Epidemiology and Applied Health Research (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/epidemiology-applied-health-research-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-health-administration-mha",
+   "name": "Health Administration (MHA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/health-administration-mha.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-history-ma",
+   "name": "History (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/history-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-history-phd",
+   "name": "History (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/history-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-industrial-engineering-meng",
+   "name": "Industrial Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/industrial-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-industrial-engineering-phd",
+   "name": "Industrial Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/industrial-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-interdisciplinary-phd-phd",
+   "name": "Interdisciplinary PhD (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/interdisciplinary-phd.html",
+   "faculties": [
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax",
+    "Saint John",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-international-development-studies-ma",
+   "name": "International Development Studies (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/international-development-studies-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-internetworking-meng",
+   "name": "Internetworking (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/internetworking-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-journalism-mj",
+   "name": "Journalism (MJ)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/journalism-mj.html",
+   "faculties": [
+    "King's College",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-health-administration-combined-with-jd-jdmha",
+   "name": "Health Administration combined with JD (JD)(MHA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mha.html",
+   "faculties": [
+    "Law",
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-law-llm",
+   "name": "Law (LLM)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/law-llm.html",
+   "faculties": [
+    "Law",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-law-phd",
+   "name": "Law (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/law-phd.html",
+   "faculties": [
+    "Law",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-leisure-studies-ma",
+   "name": "Leisure Studies (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/leisure-studies-ma.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-marine-management-mmm",
+   "name": "Marine Management (MMM)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/marine-management-mmm.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-materials-engineering-masc",
+   "name": "Materials Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/materials-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-materials-engineering-meng",
+   "name": "Materials Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/materials-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-materials-engineering-phd",
+   "name": "Materials Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/materials-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mechanical-engineering-masc",
+   "name": "Mechanical Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mechanical-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mechanical-engineering-meng",
+   "name": "Mechanical Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mechanical-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mechanical-engineering-phd",
+   "name": "Mechanical Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mechanical-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medical-neuroscience-msc",
+   "name": "Medical Neuroscience (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medical-neuroscience-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medical-neuroscience-phd",
+   "name": "Medical Neuroscience (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medical-neuroscience-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medical-research-msc",
+   "name": "Medical Research (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medical-research-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medical-research-phd",
+   "name": "Medical Research (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medical-research-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-microbiology-and-immunology-msc",
+   "name": "Microbiology and Immunology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/microbiology-immunology-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-microbiology-and-immunology-phd",
+   "name": "Microbiology and Immunology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/microbiology-immunology-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mineral-resource-engineering-masc",
+   "name": "Mineral Resource Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mineral-resource-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mineral-resource-engineering-meng",
+   "name": "Mineral Resource Engineering (MEng)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mineral-resource-engineering-meng.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mineral-resource-engineering-phd",
+   "name": "Mineral Resource Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mineral-resource-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-nursing-mn",
+   "name": "Nursing (MN)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/nursing-mn.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-oceanography-msc",
+   "name": "Oceanography (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/oceanography-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-oceanography-phd",
+   "name": "Oceanography (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/oceanography-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-pathology-msc",
+   "name": "Pathology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/pathology-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-pathology-phd",
+   "name": "Pathology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/pathology-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-periodontics-msc",
+   "name": "Periodontics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/periodontics-msc.html",
+   "faculties": [
+    "Dentistry",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-pharmaceutical-science-msc",
+   "name": "Pharmaceutical Science (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/pharmaceutical-science-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-pharmacology-msc",
+   "name": "Pharmacology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacology-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-pharmacology-phd",
+   "name": "Pharmacology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacology-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physician-assistant-studies-mpas",
+   "name": "Physician Assistant Studies (MPAS)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physician-assistant-studies-mpas.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physiology-and-biophysics-msc",
+   "name": "Physiology and Biophysics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physiology-biophysics-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physiology-and-biophysics-phd",
+   "name": "Physiology and Biophysics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physiology-biophysics-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physiotherapy-combined-with-rehabilitation-research-msc",
+   "name": "Physiotherapy combined with Rehabilitation Research (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physiotherapy-rehabilitation-research-msc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-planning-mplan",
+   "name": "Planning (MPlan)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/planning-mplan.html",
+   "faculties": [
+    "Architecture and Planning",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-planning-studies-mps",
+   "name": "Planning Studies (MPS)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/planning-studies-mps.html",
+   "faculties": [
+    "Architecture and Planning",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-psychiatry-research-phd",
+   "name": "Psychiatry Research (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/psychiatry-research-phd.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-rehabilitation-research-msc",
+   "name": "Rehabilitation Research (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/rehabilitation-research-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-resource-and-environmental-management-mrem",
+   "name": "Resource and Environmental Management (MREM)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/resource-environmental-management-mrem.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-social-anthropology-ma",
+   "name": "Social Anthropology (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/social-anthropology-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-social-anthropology-phd",
+   "name": "Social Anthropology (Phd)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/social-anthropology-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-sociology-ma",
+   "name": "Sociology (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/sociology-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-sociology-phd",
+   "name": "Sociology (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/sociology-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-economics-ma",
+   "name": "Economics (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/economics-ma.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-economics-phd",
+   "name": "Economics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/economics-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-electrical-engineering-phd",
+   "name": "Electrical Engineering (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/electrical-engineering-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-engineering-mathematics-msc",
+   "name": "Engineering Mathematics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/engineering-mathematics-msc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-english-ma",
+   "name": "English (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/english-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-engineering-mathematics-phd",
+   "name": "Engineering Mathematics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/engineering-mathematics-phd.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-fiction-mfa",
+   "name": "Fiction (MFA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/fiction-mfa.html",
+   "faculties": [
+    "King's College",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-fisheries-science-mfsc",
+   "name": "Fisheries Science (MFSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/fisheries-science-mfsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-french-ma",
+   "name": "French (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/french-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-french-phd",
+   "name": "French (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/french-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-health-phd",
+   "name": "Health (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/health-phd.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-health-promotion-ma",
+   "name": "Health Promotion (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/health-promotion-ma.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-industrial-engineering-masc",
+   "name": "Industrial Engineering (MASc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/industrial-engineering-masc.html",
+   "faculties": [
+    "Engineering",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-information-phd",
+   "name": "Information (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/information-phd.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-kinesiology-msc",
+   "name": "Kinesiology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/kinesiology-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-management-phd",
+   "name": "Management (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/management-phd.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mathematics-msc",
+   "name": "Mathematics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mathematics-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medical-physics-phd",
+   "name": "Medical Physics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medical-physics-phd.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-musicology-ma",
+   "name": "Musicology (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/musicology-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-nursing-msc",
+   "name": "Nursing (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/nursing-msc.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mathematics-phd",
+   "name": "Mathematics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mathematics-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medical-physics-msc",
+   "name": "Medical Physics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medical-physics-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-nursing-phd",
+   "name": "Nursing (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/nursing-phd.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-occupational-science-msc",
+   "name": "Occupational Science (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/occupational-science-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-occupational-therapy-entry-level-msc",
+   "name": "Occupational Therapy - Entry level (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/occupational-therapy-entry-level-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-oral-and-maxiofacial-surgery-combined-with-md-md-msc",
+   "name": "Oral and Maxiofacial Surgery combined with MD (MD) (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-md-msc.html",
+   "faculties": [
+    "Dentistry"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-philosophy-ma",
+   "name": "Philosophy (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/philosophy-ma.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physics-phd",
+   "name": "Physics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physics-phd.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physiotherapy-msc",
+   "name": "Physiotherapy (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physiotherapy-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-political-science-ma",
+   "name": "Political Science (MA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/political-science-ma.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-public-administration-gdpa",
+   "name": "Public Administration (GDPA)",
+   "level": "Graduate Diploma",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/public-administration-gdpa.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-psychiatry-research-msc",
+   "name": "Psychiatry Research (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/psychiatry-research-msc.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-psychology-and-neuroscience-phd",
+   "name": "Psychology and Neuroscience (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/psychology-neuroscience-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-public-administration-combined-with-jd-jdmpa",
+   "name": "Public Administration combined with JD (JD)(MPA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mpa.html",
+   "faculties": [
+    "Law",
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-physics-msc",
+   "name": "Physics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/physics-msc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-political-science-phd",
+   "name": "Political Science (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/political-science-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-psychology-and-neuroscience-msc",
+   "name": "Psychology and Neuroscience (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/psychology-neuroscience-msc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-social-work-msw",
+   "name": "Social Work (MSW)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/social-work-msw.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-speech-language-pathology-msc",
+   "name": "Speech Language Pathology (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/speech-language-pathology-msc.html",
+   "faculties": [
+    "Health",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-statistics-phd",
+   "name": "Statistics (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/statistics-phd.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-statistics-msc",
+   "name": "Statistics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/statistics-msc.html",
+   "faculties": [
+    "Science",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-doctor-of-dental-surgery-dds",
+   "name": "Doctor of Dental Surgery (DDS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/dentistry-dds.html",
+   "faculties": [
+    "Dentistry"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Dentistry"
+  },
+  {
+   "slug": "dal-dental-hygiene-bdh-bdh-hons",
+   "name": "Dental Hygiene (BDH) (BDH (Hons))",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/dental-hygiene-ddh-bdh.html",
+   "faculties": [
+    "Dentistry"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "faculty not on the guarantee: Dentistry"
+  },
+  {
+   "slug": "dal-philosophy-phd",
+   "name": "Philosophy (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/philosophy-phd.html",
+   "faculties": [
+    "Arts and Social Sciences"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-computational-biology-and-bioinformatics-msc",
+   "name": "Computational Biology and Bioinformatics (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/computational-biology-bioinformatics-msc.html",
+   "faculties": [
+    "Computer Science",
+    "Medicine",
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-english-phd",
+   "name": "English (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/english-phd.html",
+   "faculties": [
+    "Arts and Social Sciences",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-food-science-msc",
+   "name": "Food Science (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/food-science-msc.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-food-science-phd",
+   "name": "Food Science (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/food-science-phd.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-orthoptics-and-ophthalmic-medical-technology-gdomt",
+   "name": "Orthoptics and Ophthalmic Medical Technology (GDOMT)",
+   "level": "Graduate Diploma",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/orthoptics-ophthalmic-medical-technology-graduate-diploma.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-mental-health-and-addictions-gradcert",
+   "name": "Mental Health and Addictions (GradCert)",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/mental-health-addictions-graduate-certificate.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-nurse-prescribing-gradcert",
+   "name": "Nurse Prescribing (GradCert)",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/nurse-prescribing-graduate-certificate.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-clinical-psychiatry-and-global-mental-health-mcpgmh",
+   "name": "Clinical Psychiatry and Global Mental Health (MCPGMH)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/clinical-psychiatry-global-mental-health-mcpgmh.html",
+   "faculties": [
+    "Medicine",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-business-administration-corporate-residency-mba",
+   "name": "Business Administration - Corporate Residency (MBA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/business-administration-mba-corporate-residency.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-business-administration-career-advance-mba",
+   "name": "Business Administration - Career Advance (MBA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/business-administration-mba-career-advance.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax",
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-information-mi",
+   "name": "Information (MI)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/information-mi.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-public-administration-mpa",
+   "name": "Public Administration (MPA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/public-administration-mpa.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-public-administration-management-mpa-m",
+   "name": "Public Administration Management (MPA) (M)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/public-administration-management-mpa-m.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-business-msc",
+   "name": "Business (MSc)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/business-msc.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-agricultural-sciences-phd",
+   "name": "Agricultural Sciences (PhD)",
+   "level": "PhD",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/agricultural-sciences-phd.html",
+   "faculties": [
+    "Agriculture",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-information-combined-with-public-administration-mi-mpa",
+   "name": "Information combined with Public Administration (MI) (MPA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-mi-mpa.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-information-combined-with-resource-and-environmental-management-mimrem",
+   "name": "Information combined with Resource and Environmental Management (MI)(MREM)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-mi-mrem.html",
+   "faculties": [
+    "Science",
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-information-combined-with-jd-jdmi",
+   "name": "Information combined with JD (JD)(MI)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mi.html",
+   "faculties": [
+    "Law",
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-business-administration-combined-with-jd-jdmba",
+   "name": "Business Administration combined with JD (JD)(MBA)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/combined-jd-mba.html",
+   "faculties": [
+    "Law",
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-management-mm",
+   "name": "Management (MM)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/management-mm.html",
+   "faculties": [
+    "Management",
+    "Graduate Studies"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-advanced-fire-service-administration",
+   "name": "Certificate in Advanced Fire Service Administration",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/fire-service-administration-advanced.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online",
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-autocad",
+   "name": "Certificate in AutoCAD",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/autoCAD.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-building-positive-workplace-cultures",
+   "name": "Certificate in Building Positive Workplace Cultures",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/building-positive-workplace-cultures.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-change-management",
+   "name": "Certificate in Change Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/change-management-cert.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-construction-management",
+   "name": "Certificate in Construction Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/construction-management-cert.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-data-management-for-professionals",
+   "name": "Certificate in Data Management for Professionals",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/data-management-professionals.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-equity-diversity-and-inclusion",
+   "name": "Certificate in Equity, Diversity, and Inclusion",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/equity-diversity-inclusion-cert.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-ergonomic-program-management",
+   "name": "Certificate in Ergonomic Program Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/ergonomic-program-management-cert.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-fire-service-administration-operational-planning",
+   "name": "Certificate in Fire Service Administration: Operational Planning",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/fire-service-administration-operational-planning.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-fire-service-leadership",
+   "name": "Certificate in Fire Service Leadership",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/fire-service-leadership.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-home-inspection",
+   "name": "Certificate in Home Inspection",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/home-inspection-cert.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-human-resource-leadership",
+   "name": "Certificate in Human Resource Leadership",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/human-resource-leadership.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online",
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-human-resource-management",
+   "name": "Certificate in Human Resource Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/human-resource-management.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-local-government-finance",
+   "name": "Certificate in Local Government Finance",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/local-government-finance.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online",
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-maintenance-management",
+   "name": "Certificate in Maintenance Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/maintenance-management.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-police-leadership",
+   "name": "Certificate in Police Leadership",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/police-leadership.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online",
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-police-supervisory-skills",
+   "name": "Certificate in Police Supervisory Skills",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/police-supervisory-skills.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online",
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-project-management",
+   "name": "Certificate in Project Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/project-management.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-technical-writing",
+   "name": "Certificate in Technical Writing",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/technical-writing.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-fire-officer-iii-certification-track",
+   "name": "Fire Officer III Certification Track",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/fire-officer-iii-certification-track.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-fire-officer-iv-accreditation-track",
+   "name": "Fire Officer IV Accreditation Track",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/fire-officer-iv-accreditation-track.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-adult-education",
+   "name": "Certificate in Adult Education",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/adult-education.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-equity-diversity-inclusion-and-accessibility-in-the-fir",
+   "name": "Certificate in Equity, Diversity, Inclusion, and Accessibility in the Fire Service",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-equity-diversity-inclusion-and-accessibility-fire-service.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-first-responder-health-and-wellness",
+   "name": "Certificate in First Responder Health and Wellness",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-first-responder-health-and-wellness.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-gaming-leadership",
+   "name": "Certificate in Gaming Leadership",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-gaming-leadership.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-general-fire-service-administration",
+   "name": "Certificate in General Fire Service Administration",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-general-fire-service-administration.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-governance-and-administration",
+   "name": "Certificate in Governance and Administration",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-governance-and-administration.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-principles-of-professional-selling",
+   "name": "Certificate in Principles of Professional Selling",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-principles-of-professional-selling.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-public-sector-leadership",
+   "name": "Certificate in Public Sector Leadership",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-public-sector-leadership.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-strategic-leadership",
+   "name": "Certificate in Strategic Leadership",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-strategic-leadership.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-training-officer-education",
+   "name": "Certificate in Training Officer Education",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-training-officer-education.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-student-affairs-program-assessment",
+   "name": "Certificate in Student Affairs Program Assessment",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-student-affairs-program-assessment.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-lean-six-sigma-green-belt",
+   "name": "Certificate in Lean Six Sigma Green Belt",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-lean-six-sigma-green-belt.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-business-analysis",
+   "name": "Certificate in Business Analysis",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-business-analysis.html",
+   "faculties": [],
+   "locations": [],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-english-medium-instruction-emi",
+   "name": "Certificate in English-Medium Instruction (EMI)",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-english-medium-instruction--emi-.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-heating-ventilation-and-air-conditioning-hvac",
+   "name": "Certificate in Heating, Ventilation, and Air Conditioning (HVAC)",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-heating--ventilation--and-air-conditioning--hvac-.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-operational-planning",
+   "name": "Certificate in Operational Planning",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-operational-planning.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-fire-service-human-resource-management",
+   "name": "Certificate in Fire Service Human Resource Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-fire-service-human-resource-management.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-emergency-management-for-the-fire-service",
+   "name": "Certificate in Emergency Management for the Fire Service",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-emergency-management-for-the-fire-service.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-heating-ventilation-and-air-conditioning-hvac-297",
+   "name": "Certificate in Heating, Ventilation, and Air Conditioning (HVAC)",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-heating--ventilation--and-air-conditioning--hvac-0.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-systems-engineering-and-complex-project-management",
+   "name": "Certificate in Systems Engineering and Complex Project Management",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-systems-engineering-and-complex-project-managemen.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-sustainable-energy-technologies-set",
+   "name": "Certificate in Sustainable Energy Technologies (SET)",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-sustainable-energy-technologies--set-.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-ocean-sciences-bsc",
+   "name": "Ocean Sciences (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/ocean-sciences-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-physics-bsc",
+   "name": "Physics (BSc)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/physics-bsc.html",
+   "faculties": [
+    "Science"
+   ],
+   "locations": [
+    "Halifax",
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 37992,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-plant-science-bsc-agr",
+   "name": "Plant Science (BSc Agr)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-bsc-agr.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": 30906,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-artificial-intelligence-bcs",
+   "name": "Artificial Intelligence (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-artificial-intelligence-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-cybersecurity-bcs",
+   "name": "Cybersecurity (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-cybersecurity-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-digital-innovation-bcs",
+   "name": "Digital Innovation (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-digital-innovation-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-human-computer-interaction-bcs",
+   "name": "Human-Computer Interaction (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-human-computer-interaction-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-software-development-bcs",
+   "name": "Software Development (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-software-development-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-algorithms-scientific-computing-bcs",
+   "name": "Algorithms & Scientific Computing (BCS)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-science-algorithms-scientific-computing-bcs.html",
+   "faculties": [
+    "Computer Science"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 41688,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-plant-science-diptech",
+   "name": "Plant Science (DipTech)",
+   "level": "Undergraduate Diploma",
+   "url": "https://www.dal.ca/study/programs/undergraduate/plant-science-diptech.html",
+   "faculties": [
+    "Agriculture"
+   ],
+   "locations": [
+    "Truro and Bible Hill"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-computer-engineering-beng",
+   "name": "Computer Engineering (BEng)",
+   "level": "Bachelor",
+   "url": "https://www.dal.ca/study/programs/undergraduate/computer-engineering-beng.html",
+   "faculties": [
+    "Engineering"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": 48594,
+   "reason": "faculty on international tuition guarantee"
+  },
+  {
+   "slug": "dal-law-jd",
+   "name": "Law (JD)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/law-jd.html",
+   "faculties": [
+    "Law"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-pharmacy-pharmd",
+   "name": "Pharmacy (PharmD)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/pharmacy-pharm-d.html",
+   "faculties": [
+    "Health"
+   ],
+   "locations": [
+    "Halifax"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-medicine-md",
+   "name": "Medicine (MD)",
+   "level": "Master",
+   "url": "https://www.dal.ca/study/programs/graduate-professional/medicine-md.html",
+   "faculties": [
+    "Medicine"
+   ],
+   "locations": [
+    "Halifax",
+    "Saint John"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-information-and-communication",
+   "name": "Certificate in Information and Communication",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-information-and-communication.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  },
+  {
+   "slug": "dal-certificate-in-systems-security-engineering",
+   "name": "Certificate in Systems Security Engineering",
+   "level": "Graduate Certificate",
+   "url": "https://www.dal.ca/study/programs/non-degree/certificate-in-systems-security-engineering.html",
+   "faculties": [
+    "Open Learning and Career Development"
+   ],
+   "locations": [
+    "Online"
+   ],
+   "guaranteedAnnualCAD": null,
+   "reason": "not a bachelor programme (guarantee is undergraduate degree only)"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "_retrieved": "2026-09-17",
+ "perTerm": {
+  "_source": "https://uwaterloo.ca/finance/fee-schedule-international-undergraduate-students-fall-2026",
+  "_basis": "Maximum tuition per term, first-year rows (Regular Year 1 / Co-op 1A), Fall 2026",
+  "rates": {
+   "Arts": 27010,
+   "Engineering (incl. Architecture, Software Engineering)": 34942,
+   "Computer Science / Data Science": 34942,
+   "CS & Business double degree": 34942,
+   "Mathematics": 29259,
+   "Math, Financial Analysis & Risk Management": 29828,
+   "Computing & Financial Management": 29259,
+   "Environment": 23598,
+   "Health": 25296,
+   "Science": 25296,
+   "Global Business & Digital Arts": 26378,
+   "Optometry": 36011,
+   "Pharmacy": 35561
+  }
+ },
+ "firstYear": {
+  "_source": "https://uwaterloo.ca/future-students/financing/tuition (International (visa) students accordion)",
+  "_basis": "Estimated tuition AND incidental fees for two terms (eight months), rounded, students starting Sept 2026",
+  "rates": {
+   "Accounting and Financial Management; Sustainability and Financial Management": 58000,
+   "Architecture": 75000,
+   "BBA (Laurier) + Computer Science double degree": 75000,
+   "BBA (Laurier) + Mathematics double degree": 64000,
+   "Computer Science": 73000,
+   "Computing and Financial Management": 64000,
+   "Faculty of Arts": 58000,
+   "Faculty of Engineering, Software Engineering": 75000,
+   "Faculty of Environment": 51000,
+   "Faculty of Health": 54000,
+   "Faculty of Science": 54000,
+   "Geography and Aviation": 51000,
+   "Science and Aviation": 54000,
+   "Global Business and Digital Arts": 56000,
+   "Mathematics (16 majors), Math/BBA, Math/CPA": 62000,
+   "Mathematics/Financial Analysis and Risk Management": 63000
+  }
+ },
+ "dataBug": "waterlooug-courses.ts stores instTuitionPerTermCAD=27010 (the ARTS rate) on all 107 rows, including CS and Engineering (34,942)."
+}

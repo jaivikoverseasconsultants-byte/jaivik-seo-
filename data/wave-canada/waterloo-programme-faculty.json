@@ -1,0 +1,867 @@
+[
+ {
+  "slug": "waterlooug-accounting-and-financial-management",
+  "name": "Accounting and Financial Management",
+  "url": "https://uwaterloo.ca/future-students/programs/accounting-and-financial-management",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-actuarial-science",
+  "name": "Actuarial Science",
+  "url": "https://uwaterloo.ca/future-students/programs/actuarial-science",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-anthropology",
+  "name": "Anthropology",
+  "url": "https://uwaterloo.ca/future-students/programs/anthropology",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-applied-mathematics",
+  "name": "Applied Mathematics",
+  "url": "https://uwaterloo.ca/future-students/programs/applied-mathematics",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-applied-mathematics-with-scientific-computing-and-scientific-machine-learning",
+  "name": "Applied Mathematics with Scientific Computing and Scientific Machine Learning",
+  "url": "https://uwaterloo.ca/future-students/programs/applied-mathematics-scientific-computing",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-architectural-engineering",
+  "name": "Architectural Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/architectural-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-architecture",
+  "name": "Architecture",
+  "url": "https://uwaterloo.ca/future-students/programs/architecture",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-bachelor-of-arts",
+  "name": "Bachelor of Arts",
+  "url": "https://uwaterloo.ca/future-students/programs/bachelor-of-arts",
+  "faculties": [
+   "Arts",
+   "Health"
+  ]
+ },
+ {
+  "slug": "waterlooug-bachelor-of-science",
+  "name": "Bachelor of Science",
+  "url": "https://uwaterloo.ca/future-students/programs/bachelor-of-science",
+  "faculties": [
+   "Arts",
+   "Health",
+   "Environment",
+   "Science",
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-biochemistry",
+  "name": "Biochemistry",
+  "url": "https://uwaterloo.ca/future-students/programs/biochemistry",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-biological-and-medical-physics",
+  "name": "Biological and Medical Physics",
+  "url": "https://uwaterloo.ca/future-students/programs/biological-and-medical-physics",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-biology",
+  "name": "Biology",
+  "url": "https://uwaterloo.ca/future-students/programs/biology",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-biomedical-engineering",
+  "name": "Biomedical Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/biomedical-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-biomedical-sciences",
+  "name": "Biomedical Sciences",
+  "url": "https://uwaterloo.ca/future-students/programs/biomedical-sciences",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-biostatistics",
+  "name": "Biostatistics",
+  "url": "https://uwaterloo.ca/future-students/programs/biostatistics",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-business-administration-laurier-and-computer-science-waterloo-double",
+  "name": "Business Administration (Laurier) and Computer Science (Waterloo) double",
+  "url": "https://uwaterloo.ca/future-students/programs/business-administration-computer-science-double-degree",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-business-administration-laurier-and-mathematics-waterloo-double",
+  "name": "Business Administration (Laurier) and Mathematics (Waterloo) double",
+  "url": "https://uwaterloo.ca/future-students/programs/business-administration-mathematics-double-degree",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-chemical-engineering",
+  "name": "Chemical Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/chemical-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-chemistry",
+  "name": "Chemistry",
+  "url": "https://uwaterloo.ca/future-students/programs/chemistry",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-civil-engineering",
+  "name": "Civil Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/civil-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-classical-studies",
+  "name": "Classical Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/classical-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-climate-and-environmental-change",
+  "name": "Climate and Environmental Change",
+  "url": "https://uwaterloo.ca/future-students/programs/climate-environmental-change",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-combinatorics-and-optimization",
+  "name": "Combinatorics and Optimization",
+  "url": "https://uwaterloo.ca/future-students/programs/combinatorics-and-optimization",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-communication-studies",
+  "name": "Communication Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/communication-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-computational-mathematics",
+  "name": "Computational Mathematics",
+  "url": "https://uwaterloo.ca/future-students/programs/computational-mathematics",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-computer-engineering",
+  "name": "Computer Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/computer-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-computer-science",
+  "name": "Computer Science",
+  "url": "https://uwaterloo.ca/future-students/programs/computer-science",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-computing-and-financial-management",
+  "name": "Computing and Financial Management",
+  "url": "https://uwaterloo.ca/future-students/programs/computing-and-financial-management",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-data-science",
+  "name": "Data Science",
+  "url": "https://uwaterloo.ca/future-students/programs/data-science",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-earth-sciences",
+  "name": "Earth Sciences",
+  "url": "https://uwaterloo.ca/future-students/programs/earth-sciences",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-economics",
+  "name": "Economics",
+  "url": "https://uwaterloo.ca/future-students/programs/economics",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-education-teaching",
+  "name": "Education (teaching)",
+  "url": "https://uwaterloo.ca/future-students/programs/education-teaching",
+  "faculties": []
+ },
+ {
+  "slug": "waterlooug-electrical-engineering",
+  "name": "Electrical Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/electrical-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-english",
+  "name": "English",
+  "url": "https://uwaterloo.ca/future-students/programs/english",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-environment-and-business",
+  "name": "Environment and Business",
+  "url": "https://uwaterloo.ca/future-students/programs/environment-and-business",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-environment-resources-and-sustainability",
+  "name": "Environment, Resources and Sustainability",
+  "url": "https://uwaterloo.ca/future-students/programs/environment-resources-and-sustainability",
+  "faculties": [
+   "Environment",
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-environmental-engineering",
+  "name": "Environmental Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/environmental-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-environmental-sciences",
+  "name": "Environmental Sciences",
+  "url": "https://uwaterloo.ca/future-students/programs/environmental-sciences",
+  "faculties": [
+   "Science",
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-fine-arts",
+  "name": "Fine Arts",
+  "url": "https://uwaterloo.ca/future-students/programs/fine-arts",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-french",
+  "name": "French",
+  "url": "https://uwaterloo.ca/future-students/programs/french",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-gender-and-social-justice",
+  "name": "Gender and Social Justice",
+  "url": "https://uwaterloo.ca/future-students/programs/gender-and-social-justice",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-geography-and-aviation",
+  "name": "Geography and Aviation",
+  "url": "https://uwaterloo.ca/future-students/programs/geography-and-aviation",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-geography-and-environmental-management",
+  "name": "Geography and Environmental Management",
+  "url": "https://uwaterloo.ca/future-students/programs/geography-and-environmental-management",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-geological-engineering",
+  "name": "Geological Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/geological-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-geospatial-data-science",
+  "name": "Geospatial Data Science",
+  "url": "https://uwaterloo.ca/future-students/programs/geospatial-data-science",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-global-business-and-digital-arts",
+  "name": "Global Business and Digital Arts",
+  "url": "https://uwaterloo.ca/future-students/programs/global-business-and-digital-arts",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-health-sciences",
+  "name": "Health Sciences",
+  "url": "https://uwaterloo.ca/future-students/programs/health-sciences",
+  "faculties": [
+   "Health",
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-history",
+  "name": "History",
+  "url": "https://uwaterloo.ca/future-students/programs/history",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-honours-arts",
+  "name": "Honours Arts",
+  "url": "https://uwaterloo.ca/future-students/programs/honours-arts",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-honours-arts-and-business",
+  "name": "Honours Arts and Business",
+  "url": "https://uwaterloo.ca/future-students/programs/arts-and-business",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-honours-science",
+  "name": "Honours Science",
+  "url": "https://uwaterloo.ca/future-students/programs/honours-science",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-double-degree-program-in-human-rights-and-law",
+  "name": "Double degree program in human rights and law",
+  "url": "https://uwaterloo.ca/future-students/programs/human-rights-law",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-information-technology-management",
+  "name": "Information Technology Management",
+  "url": "https://uwaterloo.ca/future-students/programs/information-technology-management",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-kinesiology",
+  "name": "Kinesiology",
+  "url": "https://uwaterloo.ca/future-students/programs/kinesiology",
+  "faculties": [
+   "Health",
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-legal-studies",
+  "name": "Legal Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/legal-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-liberal-studies",
+  "name": "Liberal Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/liberal-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-life-sciences",
+  "name": "Life Sciences",
+  "url": "https://uwaterloo.ca/future-students/programs/life-sciences",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-management-engineering",
+  "name": "Management Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/management-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-materials-and-nanosciences",
+  "name": "Materials and Nanosciences",
+  "url": "https://uwaterloo.ca/future-students/programs/materials-and-nanosciences",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematical-economics",
+  "name": "Mathematical Economics",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematical-economics",
+  "faculties": [
+   "Mathematics",
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematical-finance",
+  "name": "Mathematical Finance",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematical-finance",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematical-optimization",
+  "name": "Mathematical Optimization",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematical-optimization",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematical-physics",
+  "name": "Mathematical Physics",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematical-physics",
+  "faculties": [
+   "Mathematics",
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematical-studies",
+  "name": "Mathematical Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematical-studies",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematics",
+  "name": "Mathematics",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematics-business-administration",
+  "name": "Mathematics/Business Administration",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematics-business-administration",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematics-chartered-professional-accountancy",
+  "name": "Mathematics/Chartered Professional Accountancy",
+  "url": "https://uwaterloo.ca/future-students/programs/mathematics-accounting",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematics-financial-analysis-and-risk-management",
+  "name": "Mathematics/Financial Analysis and Risk Management",
+  "url": "https://uwaterloo.ca/future-students/programs/financial-analysis-and-risk-management",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mathematics-teaching",
+  "name": "Mathematics/Teaching",
+  "url": "https://uwaterloo.ca/future-students/programs/waterloo-math-teaching",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-mechanical-engineering",
+  "name": "Mechanical Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/mechanical-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-mechatronics-engineering",
+  "name": "Mechatronics Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/mechatronics-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-medical-sciences-waterloo-and-doctor-of-medicine-st-george-s-university",
+  "name": "Medical Sciences (Waterloo) and Doctor of Medicine (St. George s University)",
+  "url": "https://uwaterloo.ca/future-students/programs/medical-sciences-and-md",
+  "faculties": []
+ },
+ {
+  "slug": "waterlooug-medicinal-chemistry",
+  "name": "Medicinal Chemistry",
+  "url": "https://uwaterloo.ca/future-students/programs/medicinal-chemistry",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-medieval-studies",
+  "name": "Medieval Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/medieval-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-music",
+  "name": "Music",
+  "url": "https://uwaterloo.ca/future-students/programs/music",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-nanotechnology-engineering",
+  "name": "Nanotechnology Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/nanotechnology-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-optometry",
+  "name": "Optometry",
+  "url": "https://uwaterloo.ca/future-students/programs/optometry",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-peace-and-conflict-studies",
+  "name": "Peace and Conflict Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/peace-and-conflict-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-pharmacy",
+  "name": "Pharmacy",
+  "url": "https://uwaterloo.ca/future-students/programs/pharmacy",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-philosophy",
+  "name": "Philosophy",
+  "url": "https://uwaterloo.ca/future-students/programs/philosophy",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-physical-sciences",
+  "name": "Physical Sciences",
+  "url": "https://uwaterloo.ca/future-students/programs/physical-sciences",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-physics",
+  "name": "Physics",
+  "url": "https://uwaterloo.ca/future-students/programs/physics",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-physics-and-astronomy",
+  "name": "Physics and Astronomy",
+  "url": "https://uwaterloo.ca/future-students/programs/physics-and-astronomy",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-planning",
+  "name": "Planning",
+  "url": "https://uwaterloo.ca/future-students/programs/planning",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-political-science",
+  "name": "Political Science",
+  "url": "https://uwaterloo.ca/future-students/programs/political-science",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-pre-law",
+  "name": "Pre-law",
+  "url": "https://uwaterloo.ca/future-students/programs/pre-law",
+  "faculties": [
+   "Health"
+  ]
+ },
+ {
+  "slug": "waterlooug-psychology-bachelor-of-arts-degree",
+  "name": "Psychology (Bachelor of Arts degree)",
+  "url": "https://uwaterloo.ca/future-students/programs/psychology-arts",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-psychology-bachelor-of-science",
+  "name": "Psychology (Bachelor of Science)",
+  "url": "https://uwaterloo.ca/future-students/programs/psychology-science",
+  "faculties": [
+   "Science",
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-public-health",
+  "name": "Public Health",
+  "url": "https://uwaterloo.ca/future-students/programs/public-health",
+  "faculties": [
+   "Health"
+  ]
+ },
+ {
+  "slug": "waterlooug-pure-mathematics",
+  "name": "Pure Mathematics",
+  "url": "https://uwaterloo.ca/future-students/programs/pure-mathematics",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-recreation-and-leisure-studies",
+  "name": "Recreation and Leisure Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/recreation-and-leisure-studies",
+  "faculties": [
+   "Health"
+  ]
+ },
+ {
+  "slug": "waterlooug-recreation-leadership-and-health",
+  "name": "Recreation, Leadership, and Health",
+  "url": "https://uwaterloo.ca/future-students/programs/recreation-leadership-health",
+  "faculties": [
+   "Health"
+  ]
+ },
+ {
+  "slug": "waterlooug-religion-culture-and-spirituality",
+  "name": "Religion, Culture, and Spirituality",
+  "url": "https://uwaterloo.ca/future-students/programs/religion-culture-spirituality",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-science-and-aviation",
+  "name": "Science and Aviation",
+  "url": "https://uwaterloo.ca/future-students/programs/science-and-aviation",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-science-and-business",
+  "name": "Science and Business",
+  "url": "https://uwaterloo.ca/future-students/programs/science-and-business",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-science-and-financial-management",
+  "name": "Science and Financial Management",
+  "url": "https://uwaterloo.ca/future-students/programs/science-financial-management",
+  "faculties": [
+   "Science"
+  ]
+ },
+ {
+  "slug": "waterlooug-sexualities-relationships-and-families",
+  "name": "Sexualities, Relationships, and Families",
+  "url": "https://uwaterloo.ca/future-students/programs/sexualities-relationships-families",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-social-development-studies",
+  "name": "Social Development Studies",
+  "url": "https://uwaterloo.ca/future-students/programs/social-development-studies",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-social-development-studies-and-bachelor-of-social-work-double",
+  "name": "Social Development Studies and Bachelor of Social Work Double",
+  "url": "https://uwaterloo.ca/future-students/programs/sds-social-work-double-degree",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-sociology",
+  "name": "Sociology",
+  "url": "https://uwaterloo.ca/future-students/programs/sociology",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-software-engineering",
+  "name": "Software Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/software-engineering",
+  "faculties": [
+   "Engineering",
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-sport-and-recreation-management",
+  "name": "Sport and Recreation Management",
+  "url": "https://uwaterloo.ca/future-students/programs/sport-recreation-management",
+  "faculties": [
+   "Health"
+  ]
+ },
+ {
+  "slug": "waterlooug-statistics",
+  "name": "Statistics",
+  "url": "https://uwaterloo.ca/future-students/programs/statistics",
+  "faculties": [
+   "Mathematics"
+  ]
+ },
+ {
+  "slug": "waterlooug-sustainability-and-financial-management",
+  "name": "Sustainability and Financial Management",
+  "url": "https://uwaterloo.ca/future-students/programs/sustainability-financial-management",
+  "faculties": [
+   "Environment"
+  ]
+ },
+ {
+  "slug": "waterlooug-systems-design-engineering",
+  "name": "Systems Design Engineering",
+  "url": "https://uwaterloo.ca/future-students/programs/systems-design-engineering",
+  "faculties": [
+   "Engineering"
+  ]
+ },
+ {
+  "slug": "waterlooug-theatre-and-performance",
+  "name": "Theatre and Performance",
+  "url": "https://uwaterloo.ca/future-students/programs/theatre-performance",
+  "faculties": [
+   "Arts"
+  ]
+ },
+ {
+  "slug": "waterlooug-therapeutic-recreation",
+  "name": "Therapeutic Recreation",
+  "url": "https://uwaterloo.ca/future-students/programs/therapeutic-recreation",
+  "faculties": [
+   "Health"
+  ]
+ }
+]

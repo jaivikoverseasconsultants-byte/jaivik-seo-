@@ -1,0 +1,2432 @@
+{
+ "_source": "https://es.unb.ca/apps/tuition-calculator/ (GET _resources/php/getFees.php, citizenshipidSearch=4 international, loadidSearch=2 full time)",
+ "_academicYear": "2026-2027",
+ "_retrieved": "2026-09-17",
+ "_basis": "Calculator states TOTAL ESTIMATED TUITION AND FEES (one academic year only); the Tuition line is the annual international tuition. Rates are by DEGREE, not by major.",
+ "rows": [
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Applied Management (Online)",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$22,996.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,996.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$747.50"
+    ],
+    [
+     "Online tech fee ($150 x 10 courses)",
+     "$1,500.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$26,083.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,754.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Arts",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,490.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$22,996.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,996.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,847.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Business Administration",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$22,996.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,996.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,583.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Computer Science",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$22,514.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,514.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,365.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Computer Science",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$22,514.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,514.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,101.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Education (10 month program)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$31,354.50",
+   "rows": [
+    [
+     "Tuition",
+     "$31,354.50"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Program Fee/Practicum",
+     "$500.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$33,905.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Education (4 year program)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Program Fee/Practicum",
+     "$500.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$23,254.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Education (Montreal)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$30,397.50",
+   "rows": [
+    [
+     "Tuition",
+     "$30,397.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$30,397.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Engineering",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$25,871.00",
+   "rows": [
+    [
+     "Tuition",
+     "$25,871.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$27,722.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Engineering",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$25,871.00",
+   "rows": [
+    [
+     "Tuition",
+     "$25,871.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$27,458.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Engineering - Software/Geological",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$24,905.50",
+   "rows": [
+    [
+     "Tuition",
+     "$24,905.50"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$26,756.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Engineering - Software/Geological",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$24,905.50",
+   "rows": [
+    [
+     "Tuition",
+     "$24,905.50"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$26,492.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Forestry & Environmental Management",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$22,374.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,374.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,225.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Health",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$20,860.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,860.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$709.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,408.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Health Sciences",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$21,618.00",
+   "rows": [
+    [
+     "Tuition",
+     "$21,618.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$23,205.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Integrated Studies (School of Leadership Studies)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,754.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Law (Juris Doctor)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$33,507.00",
+   "rows": [
+    [
+     "Tuition",
+     "$33,507.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Law Student's Society Fee",
+     "$60.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$35,418.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Nursing Accelerated Program (Moncton)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$34,438.50",
+   "rows": [
+    [
+     "Tuition",
+     "$34,438.50"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$163.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$35,641.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Nursing/LPN Pathway",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$22,959.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,959.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,810.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Nursing/LPN Pathway",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$22,959.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,959.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,546.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Philosophy (School of Leadership Studies)",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$22,374.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,374.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,425.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Science",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$21,618.00",
+   "rows": [
+    [
+     "Tuition",
+     "$21,618.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$23,469.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Science",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$21,618.00",
+   "rows": [
+    [
+     "Tuition",
+     "$21,618.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$23,205.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Science in Kinesiology",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$22,996.00",
+   "rows": [
+    [
+     "Tuition",
+     "$22,996.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$24,847.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "Bachelor of Social Work",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,490.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "No Degree/Visiting Students",
+   "campus": "Fredericton",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$831.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "Bus pass for International Students",
+     "$180.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,754.00"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate",
+   "programme": "No Degree/Visiting Students",
+   "campus": "Saint John",
+   "stream": "",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$747.50"
+    ],
+    [
+     "Undergrad Health and Dental",
+     "$375.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,490.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Applied Cybersecurity",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$28,335.00",
+   "rows": [
+    [
+     "Tuition",
+     "$28,335.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$30,740.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Applied Health Services Research",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,660.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,660.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,077.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Applied Health Services Research",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Applied Psychology Research and Evaluation",
+   "campus": "Saint John",
+   "stream": "Course based",
+   "tuition": "$18,660.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,660.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$681.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$20,735.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Arts in Sport and Recreation Studies",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Business Administration (1 year intensive program)",
+   "campus": "Saint John",
+   "stream": "Course based",
+   "tuition": "$34,766.00",
+   "rows": [
+    [
+     "Tuition",
+     "$34,766.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$36,829.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Business Administration (MBA and C-CGM)",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$23,590.00",
+   "rows": [
+    [
+     "Tuition",
+     "$23,590.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$26,007.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Business Administration (Online)",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$23,590.00",
+   "rows": [
+    [
+     "Tuition",
+     "$23,590.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Online tech fee ($150 x 10 courses)",
+     "$1,500.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$27,307.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Education (online)",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,740.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,740.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Online Tech fee",
+     "$1,500.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,657.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Quantitative Investment Management (MQIM)",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$47,197.00",
+   "rows": [
+    [
+     "Tuition",
+     "$47,197.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$49,602.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Master of Technology Management & Entrepreneurship (MTME)",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$25,060.00",
+   "rows": [
+    [
+     "Tuition",
+     "$25,060.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$27,477.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters - Qualifying year",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$628.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,901.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters - Qualifying year",
+   "campus": "Saint John",
+   "stream": "Course based",
+   "tuition": "$20,903.00",
+   "rows": [
+    [
+     "Tuition",
+     "$20,903.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$446.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$22,543.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters of Engineering, Leadership In Design Innovation (MELDI)",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$24,057.00",
+   "rows": [
+    [
+     "Tuition",
+     "$24,057.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$628.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$400.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$26,055.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters of Science in Kinesiology",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD - Nursing",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,740.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,740.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,157.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD - Nursing",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,542.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,542.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,947.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD - Nursing",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,542.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,542.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,605.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Arts",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,660.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,660.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,077.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Arts",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Arts",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,686.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Computer Science",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,740.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,740.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,157.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Computer Science",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Computer Science",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,686.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Education",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,740.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,740.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$20,981.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Education",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Education",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,686.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Engineering",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$19,090.00",
+   "rows": [
+    [
+     "Tuition",
+     "$19,090.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,507.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Engineering",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Engineering",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,686.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Environmental Management",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,740.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,740.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,157.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Environmental Management",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,449.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,449.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,854.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Forestry/Forestry Engineering",
+   "campus": "Fredericton",
+   "stream": "Course based",
+   "tuition": "$18,740.00",
+   "rows": [
+    [
+     "Tuition",
+     "$18,740.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$846.50"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$21,157.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Forestry/Forestry Engineering",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,449.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,449.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,854.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Interdisciplinary Studies",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,542.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,542.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,947.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Interdisciplinary Studies",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,542.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,542.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,605.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Science",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,098.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,098.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,503.25"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "Masters/PhD programs - Science",
+   "campus": "Saint John",
+   "stream": "Research based",
+   "tuition": "$16,098.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,098.00"
+    ],
+    [
+     "Mandatory fees - SJ",
+     "$669.00"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$18,161.50"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate",
+   "programme": "PhD Kinesiology, Sport and Recreation",
+   "campus": "Fredericton",
+   "stream": "Research based",
+   "tuition": "$16,623.00",
+   "rows": [
+    [
+     "Tuition",
+     "$16,623.00"
+    ],
+    [
+     "Mandatory fees - FR",
+     "$834.75"
+    ],
+    [
+     "Graduate Health and Dental",
+     "$730.00"
+    ],
+    [
+     "Graduate Bus Pass",
+     "$176.00"
+    ],
+    [
+     "International Health Insurance",
+     "$600.00"
+    ],
+    [
+     "International Excursion Insurance",
+     "$64.50"
+    ],
+    [
+     "TOTAL ESTIMATED TUITION AND FEES (one academic year only)",
+     "$19,028.25"
+    ]
+   ]
+  }
+ ]
+}

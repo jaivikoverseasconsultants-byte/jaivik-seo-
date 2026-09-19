@@ -1,0 +1,8896 @@
+{
+ "_source": "https://dnn.uottawa.ca/en/Utilities/University-Fees/Tuition-Fees-INTL (iframed on https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international)",
+ "_academicYear": "2026-2027",
+ "_retrieved": "2026-09-17",
+ "_basis": "International tuition PER TERM (or per unit) by progress band, exactly as the tool states. Not annualised — number of terms per year differs by level/program.",
+ "_note": "Not yet mapped to uottawa-courses.ts rows; automated name matching gives one unambiguous fee for ~339 of 492 rows, needs review.",
+ "rows": [
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Communication",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "English Literature",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Geography",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "History",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Interdisciplinary Research in Music",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Lettres françaises",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Linguistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Philosophy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Religious Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Spanish",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Arts",
+   "discipline": "Translation Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Anthropology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Criminology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Economics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Environmental Sustainability",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Feminist and Gender Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "International Development",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Psychology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Public Administration",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Social Work",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Social Sciences",
+   "discipline": "Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Management",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$7,283.03"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$7,283.03"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$7,283.03"
+    ],
+    [
+     "9 terms or more",
+     "CA$7,283.03"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Advanced Materials and Manufacturing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Biomedical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Chemical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Civil Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Computer Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Digital Transformation and Innovation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Electrical and Computer Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Environmental Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Engineering",
+   "discipline": "Mechanical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$6,052.17"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$6,052.17"
+    ],
+    [
+     "9 terms or more",
+     "CA$6,052.17"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Education",
+   "discipline": "Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Education",
+   "discipline": "Education (Counselling Psychology)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,935.77"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,935.77"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,935.77"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,935.77"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Health Sciences",
+   "discipline": "Human Kinetics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Health Sciences",
+   "discipline": "Nursing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Health Sciences",
+   "discipline": "Population Health",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Health Sciences",
+   "discipline": "Rehabilitation Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Law",
+   "discipline": "Law",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,935.77"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,935.77"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,935.77"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,935.77"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Biochemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Cellular and Molecular Medicine",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Epidemiology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,935.77"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,935.77"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,935.77"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,935.77"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Medicine and Biochemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Medicine and Cellular Molecular Medicine",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Medicine and Microbiology and Immunology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Medicine and Neuroscience",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Microbiology and Immunology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Medicine",
+   "discipline": "Neuroscience",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Science",
+   "discipline": "Biology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Science",
+   "discipline": "Chemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Science",
+   "discipline": "Earth Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Science",
+   "discipline": "Mathematics and Statistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Science",
+   "discipline": "Physics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (PhD)",
+   "faculty": "Science",
+   "discipline": "Scientific Management and Leadership",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$5,825.85"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$5,825.85"
+    ],
+    [
+     "9 terms or more",
+     "CA$5,825.85"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Bilingualism Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Classical Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Communication",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Communication (MC)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.33"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.33"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.33"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.33"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Conference Interpreting",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "English Literature",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Geography",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Graduate Diploma Music",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "History",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Information Management",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Information Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,000.44"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,000.44"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,000.44"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,000.44"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Lettres françaises",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Linguistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Music",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Philosophy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Piano Pedagogy Research",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Religious Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Spanish",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Theatre",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Theatre - Directing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Translation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,000.44"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,000.44"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,000.44"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,000.44"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Translation Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "Visual Arts",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Arts",
+   "discipline": "World Literatures and Cultures",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Anthropology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Criminology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Economics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Environmental Sustainability",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Experimental Psychology (MA)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Feminist and Gender Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Globalization and International Development",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Psychedelics and Consciousness Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,000.00"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,000.00"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,000.00"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,000.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Public Administration",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Public and International Affairs",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Public Management and Governance",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Security and Defence Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Social Work",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,900.60"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,900.60"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,900.60"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,900.60"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Social Sciences",
+   "discipline": "Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Business Administration (MBA - English intensive program ) - 12 months",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "3 or fewer terms",
+     "CA$23,557.41"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Business Administration (MBA - English professional program) - 24 months",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "3 or fewer terms",
+     "CA$11,788.94"
+    ],
+    [
+     "4 terms or more",
+     "CA$11,788.94"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Business Administration (MBA - French program) - 24 months",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "3 or fewer terms",
+     "CA$11,788.94"
+    ],
+    [
+     "4 terms or more",
+     "CA$11,788.94"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Chartered Professional Accountancy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,850.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Health Administration (MHA - English professional program) - 24 months",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "3 or fewer terms",
+     "CA$9,552.94"
+    ],
+    [
+     "4 to 6 terms",
+     "CA$9,552.94"
+    ],
+    [
+     "7 terms or more",
+     "CA$9,552.94"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Health Systems",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,851.94"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,851.94"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,851.94"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,851.94"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Management (MSc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,851.94"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,851.94"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,851.94"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,851.94"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Interdisciplinary Program",
+   "discipline": "Population Health Risk Assessment and Management",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Advanced Materials and Manufacturing (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Advanced Materials and Manufacturing (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Biomedical Engineering (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Biomedical Engineering (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Biomedical Engineering (MEng)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Chemical Engineering (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Chemical Engineering (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Civil Engineering (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Civil Engineering (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Computer Science (Coursework and Project)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,155.27"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,155.27"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,155.27"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,155.27"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Computer Science (thesis)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Digital Transformation and Innovation (MSc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Digital Transformation and Innovation (MTDI)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,079.68"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,079.68"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,079.68"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,079.68"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Engineering Electrical and Computer Engineering (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Engineering Electrical and Computer Engineering (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Engineering Management (Diploma)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Engineering Management (Master's)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Entrepreneurial Engineering Design (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Environmental Engineering (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Environmental Engineering (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Internet Technologies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Mechanical Engineering (MASc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Mechanical Engineering (MEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,421.91"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,421.91"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,421.91"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Systems Science (GD)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,502.45"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,502.45"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,502.45"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Systems Science and Engineering (MSc)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Engineering",
+   "discipline": "Systems Science and Engineering (MSysScEng)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,079.68"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,079.68"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,079.68"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,079.68"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Education",
+   "discipline": "Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,419.68"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,419.68"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,419.68"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,419.68"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Education",
+   "discipline": "Education (Counselling Psychology)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$12,798.67"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$12,798.67"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$12,798.67"
+    ],
+    [
+     "9 terms or more",
+     "CA$12,798.67"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Education",
+   "discipline": "Health Professions Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,419.68"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,419.68"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,419.68"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,419.68"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Education",
+   "discipline": "Program Evaluation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,419.68"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,419.68"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,419.68"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,419.68"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Audiology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Human Kinetics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Human Kinetics (MScHK)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,000.47"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,000.47"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,000.47"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,000.47"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Interdisciplinary Health Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Nursing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,990.67"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,990.67"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,990.67"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,990.67"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Nursing (MScN) and Graduate Diploma",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,990.67"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,990.67"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,990.67"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,990.67"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Nutrition and Food Biosciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,990.67"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,990.67"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$11,990.67"
+    ],
+    [
+     "9 terms or more",
+     "CA$11,990.67"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Occupational Therapy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Physiotherapy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Primary Health Care for Nurse Practitioners",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,577.41"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,577.41"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,577.41"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,577.41"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Health Sciences",
+   "discipline": "Speech-Language Pathology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,815.26"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,815.26"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,815.26"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Law",
+   "discipline": "Law (Course/Research Paper)",
+   "billing": "Full time (per unit)",
+   "basis": "per unit",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$1,428.64"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$1,428.64"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$1,428.64"
+    ],
+    [
+     "9 terms or more",
+     "CA$1,428.64"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Law",
+   "discipline": "Law (Thesis)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$10,000.44"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$10,000.44"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$10,000.44"
+    ],
+    [
+     "9 terms or more",
+     "CA$10,000.44"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Accessibility in Biomedecine (Online)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Anatomical Sciences Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Biochemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Cellular and Molecular Medicine",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Clinical Science and Translational Medicine",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Epidemiology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,904.31"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,904.31"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,904.31"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,904.31"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Health Professions Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Microbiology and Immunology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Neuroscience",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Population Health Risk Assessment and Management",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Medicine",
+   "discipline": "Public Health",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$11,025.00"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$11,025.00"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Biochemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Biology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Chemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Earth Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Mathematics and Statistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Physics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Graduate (master’s, graduate diploma)",
+   "faculty": "Science",
+   "discipline": "Scientific Management and Leadership",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "2 or fewer terms",
+     "CA$9,720.89"
+    ],
+    [
+     "3 to 5 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "6 to 8 terms",
+     "CA$9,720.89"
+    ],
+    [
+     "9 terms or more",
+     "CA$9,720.89"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Acting",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Arabic Language and Culture",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Art History",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Arts",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Communication",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Communication and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Communication and Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Communication et Lettres françaises",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Creative Writing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Digital Journalism",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "English",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "English as a Second Language",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Environmental Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Ethics and Political Philosophy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Francophone Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "French as a Second Language",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "French Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Geography",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Geography and Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Geomatics and Spatial Analysis",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "German Language and Culture",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Greek and Roman Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "History",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "History and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Indigenous Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Interdisciplinary Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Italian Language and Culture",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Lettres françaises",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Lettres françaises et éducation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Linguistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Medieval and Renaissance Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Music",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Music and Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Music Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Philosophy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Philosophy and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Physical Geography and Geomatics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Piano Pedagogy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Professional Writing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Psychology and Linguistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Public Relations",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Rédaction professionnelle et édition",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Religious Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Russian Language and Culture",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Second-Language Teaching",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Spanish",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Theatre",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Translation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Translation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "Visual Arts",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "World Cinemas",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Arts",
+   "discipline": "World Languages and Cultures",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "African Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Anthropology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Anthropology and Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Communication and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Communication and Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Conflict Studies and Human Rights",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Criminology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Criminology and Feminist and Gender Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Economics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Economics and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Economics and Public Policy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Environmental Economics and Public Policy",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Feminist and Gender Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Feminist and Gender Studies and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Feminist and Gender Studies and Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "History and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Interdisciplinary Studies",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "International Development and Globalization",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "International Economics and Development",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "International Studies and Modern Languages",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Law and International Development and Globalization",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Mathematics and Economics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Philosophy and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Political Science and Juris Doctor (JD)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Psychology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Psychology and Linguistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Public Administration",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Public Administration and Political Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Social Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Social Work",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Social Sciences",
+   "discipline": "Sociology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Commerce",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$26,548.27"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$25,809.15"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Commerce and Juris Doctor",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$26,548.27"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$25,809.15"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Human Resource Management",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$26,548.27"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$25,809.15"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Management (Telfer)",
+   "discipline": "Management",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$26,592.19"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$26,548.27"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$25,809.15"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Biochemistry and Chemical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$27,795.62"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$27,021.78"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Biomedical Mechanical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Biomedical Mechanical Engineering and Computing Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Chemical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Chemical Engineering and Computing Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Civil Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Civil Engineering and Computing Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Computer Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Computer Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Computer Science and Mathematics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Computing Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Data Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Electrical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Electrical Engineering and Computing Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Mechanical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Mechanical Engineering and Computing Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Multidisciplinary Design",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Physics and Electrical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$27,795.62"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$27,021.78"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Engineering",
+   "discipline": "Software Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$31,582.15"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$31,529.98"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$30,652.17"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Education",
+   "discipline": "Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,227.42"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$20,636.42"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Education",
+   "discipline": "Indigenous Teacher Education Program",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,227.42"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$20,636.42"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Education",
+   "discipline": "Lettres françaises et éducation",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,227.42"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$20,636.42"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Education",
+   "discipline": "Teacher Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,262.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,227.42"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$20,636.42"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Health Sciences",
+   "discipline": "Food and Nutrition Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Health Sciences",
+   "discipline": "Health Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Health Sciences",
+   "discipline": "Human Kinetics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Health Sciences",
+   "discipline": "Integrated Food Sciences (Le Cordon Bleu)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$15,978.66"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$15,978.66"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$15,978.66"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$15,978.66"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Health Sciences",
+   "discipline": "Nursing",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Health Sciences",
+   "discipline": "Nursing (Algonquin)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$25,730.40"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$25,730.40"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$25,730.40"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$25,730.40"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$25,687.90"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$24,972.72"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Civil Law (LLL)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,678.67"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$23,991.59"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Civil Law and International Development and Globalization",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,678.67"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$23,991.59"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Commerce and Juris Doctor",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$24,719.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Juris Doctor",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$24,719.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Juris Doctor and Business Administration",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$24,719.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Law (General Certificate)",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,678.67"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$23,991.59"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Law and Business Administration",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,678.67"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$23,991.59"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "National Program",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Political Science and Juris Doctor",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$24,719.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Law",
+   "discipline": "Programme de droit canadien",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$24,719.50"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$24,719.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Medicine",
+   "discipline": "Ophthalmic Medical Technology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Medicine",
+   "discipline": "Translational and Molecular Medicine",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Biochemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Biochemistry and Chemical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$27,795.62"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$27,021.78"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Biology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Biomedical Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Biopharmaceutical Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Chemistry",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Environmental Geoscience",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Environmental Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Financial Mathematics and Economics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Geology",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Geology-Physics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Life Sciences",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Mathematics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Mathematics and Economics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Physics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Physics and Electrical Engineering",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$27,841.61"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$27,795.62"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$27,021.78"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Physics-Mathematics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Science",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Science and Education",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  },
+  {
+   "level": "Undergraduate (bachelor’s, certificate)",
+   "faculty": "Science",
+   "discipline": "Statistics",
+   "billing": "Full time (flat rate)",
+   "basis": "per term",
+   "bands": [
+    [
+     "33 or fewer units (usually 11 or fewer courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "33.01 to 66 units (usually 12 to 22 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "66.01 to 99 units (usually 23 to 33 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "99.01 to 132 units (usually 34 to 44 courses)",
+     "CA$21,667.54"
+    ],
+    [
+     "132.01 to 165 units (usually 45 to 55 courses)",
+     "CA$21,631.75"
+    ],
+    [
+     "165.01 units or more (usually more than 56 courses)",
+     "CA$21,029.50"
+    ]
+   ]
+  }
+ ]
+}
