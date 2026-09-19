@@ -6,6 +6,8 @@ import { universities, countries } from '@/data/universities';
 import { courses, courseCategories } from '@/data/courses';
 import { CANADA_CITY_SLUGS } from '@/data/canada-cities';
 import { getAllRealCourses } from '@/data/university-course-registry';
+import { courseSitemapUniversities, isRedirected } from '@/lib/sitemap-courses';
+import { latestOf } from '@/lib/sitemap-lastmod';
 import { SUBJECT_PILLARS } from '@/data/subject-pillars';
 import { COST_PILLARS } from '@/data/cost-pillars';
 import { UNIVERSITY_COMPARISONS } from '@/data/university-comparisons';
@@ -15,82 +17,9 @@ import { englishReqsVerified } from '@/data/english-requirements-verified';
 
 const BASE = 'https://study.jaivikoverseasconsultants.com';
 
-/** Extract course slugs from a TypeScript data file using regex. */
-function extractSlugsFromTs(filePath: string): string[] {
-  try {
-    const content = fs.readFileSync(filePath, 'utf-8');
-    const results: string[] = [];
-    // Matches both: slug: 'foo'  and  "slug": "foo"
-    const re = /["']?slug["']?\s*:\s*["']([^"']+)["']/g;
-    let m: RegExpExecArray | null;
-    while ((m = re.exec(content)) !== null) results.push(m[1]);
-    return results;
-  } catch {
-    return [];
-  }
-}
-
-/**
- * Read a university's courses/page.tsx and return the path to its data file.
- * Looks for the first import from '@/data/...-courses'.
- */
-function findDataFile(coursesPagePath: string): string | null {
-  try {
-    const content = fs.readFileSync(coursesPagePath, 'utf-8');
-    const m = content.match(/from\s+['"]@\/data\/([\w-]+-courses)['"]/);
-    if (m) return path.join(process.cwd(), 'data', `${m[1]}.ts`);
-  } catch {}
-  return null;
-}
-
-// ── Per-page lastmod: real git history, not build time ──────────────────────
-// A single `new Date()` stamped on every URL at build time is a freshness
-// signal search engines learn to ignore entirely — it never differentiates a
-// just-added page from one that's sat unchanged for months. Instead, derive
-// each URL's lastModified from the actual git commit history of the source
-// file(s) that page's content comes from (its data file, its route file, any
-// shared component it renders). Skip-on-missing: if git history can't be
-// resolved for a path (e.g. a shallow clone with no history for that file),
-// lastModified is omitted for that URL entirely — never fall back to build
-// time or invent a date. Cached per unique file path so a build touching
-// thousands of URLs only shells out to git once per underlying source file
-// (on the order of a few hundred, not tens of thousands).
-const gitDateCache = new Map<string, Date | null>();
-
-function gitLastModified(absOrRelPath: string): Date | null {
-  const relPath = (path.isAbsolute(absOrRelPath) ? path.relative(process.cwd(), absOrRelPath) : absOrRelPath)
-    .split(path.sep).join('/');
-  if (gitDateCache.has(relPath)) return gitDateCache.get(relPath)!;
-  let result: Date | null = null;
-  try {
-    const out = execSync(`git log -1 --format=%cI -- "${relPath}"`, {
-      cwd: process.cwd(),
-      stdio: ['ignore', 'pipe', 'ignore'],
-      timeout: 5000,
-    }).toString().trim();
-    if (out) {
-      const d = new Date(out);
-      if (!isNaN(d.getTime())) result = d;
-    }
-  } catch {
-    result = null;
-  }
-  gitDateCache.set(relPath, result);
-  return result;
-}
-
-/** Most recent git lastmod among several candidate source files — used when a
- * page's rendered content is assembled from more than one file (a route +
- * a shared component + a data file). undefined (omit lastmod) only if none
- * of the candidates resolve to a real git history entry. */
-function latestOf(...paths: string[]): Date | undefined {
-  let latest: Date | null = null;
-  for (const p of paths) {
-    const d = gitLastModified(p);
-    if (d && (!latest || d > latest)) latest = d;
-  }
-  return latest ?? undefined;
-}
+// Course URLs come from lib/sitemap-courses (the course registry, same source as each
+// route's generateStaticParams) and lastmod from lib/sitemap-lastmod — both shared with
+// app/sitemap-courses.xml/route.ts so the two sitemaps cannot disagree.
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // ── Static pages ────────────────────────────────────────────────────────────
@@ -162,45 +91,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const, priority: 0.6,
   }));
 
-  // ── University course index + detail pages (fully dynamic) ───────────────────
-  const appUniversitiesDir = path.join(process.cwd(), 'app', 'universities');
+  // ── University course index + detail pages ───────────────────────────────────
+  // From the course registry via lib/sitemap-courses: a university appears only if its
+  // courses/[slug] route exists, and no URL a vercel.json redirect sends elsewhere is listed.
   const courseIndexPages: MetadataRoute.Sitemap = [];
   const courseDetailPages: MetadataRoute.Sitemap = [];
 
-  const uniDirs = fs.readdirSync(appUniversitiesDir, { withFileTypes: true }).filter(d =>
-    d.isDirectory() &&
-    !d.name.startsWith('[') &&
-    d.name !== 'country' &&
-    d.name !== 'city' &&
-    fs.existsSync(path.join(appUniversitiesDir, d.name, 'courses'))
-  );
-
-  for (const d of uniDirs) {
-    const uniSlug = d.name;
-    const coursesPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', 'page.tsx');
-    const courseDetailPagePath = path.join(appUniversitiesDir, uniSlug, 'courses', '[slug]', 'page.tsx');
-    const dataFilePath = findDataFile(coursesPagePath);
-
-    // Course listing page (all universities)
-    courseIndexPages.push({
-      url: `${BASE}/universities/${uniSlug}/courses`,
-      lastModified: latestOf(coursesPagePath, ...(dataFilePath ? [dataFilePath] : [])),
-      changeFrequency: 'monthly' as const, priority: 0.6,
-    });
-
-    // Stub detection: no real data file → skip course detail pages
-    if (dataFilePath && fs.existsSync(dataFilePath)) {
-      const slugs = extractSlugsFromTs(dataFilePath);
-      // Same underlying data + route files for every course at this university —
-      // resolve once per university, not once per course.
-      const detailLastmod = latestOf(dataFilePath, courseDetailPagePath, 'components/CourseRichContent.tsx');
-      for (const slug of slugs) {
-        courseDetailPages.push({
-          url: `${BASE}/universities/${uniSlug}/courses/${slug}`,
-          lastModified: detailLastmod,
-          changeFrequency: 'monthly' as const, priority: 0.8,
-        });
-      }
+  for (const uni of courseSitemapUniversities()) {
+    const routeFiles = [
+      `app/universities/${uni.uniSlug}/courses/page.tsx`,
+      `app/universities/${uni.uniSlug}/courses/[slug]/page.tsx`,
+    ];
+    if (uni.hasIndexRoute) {
+      courseIndexPages.push({
+        url: `${BASE}/universities/${uni.uniSlug}/courses`,
+        lastModified: latestOf(routeFiles[0], ...uni.dataFiles),
+        changeFrequency: 'monthly' as const, priority: 0.6,
+      });
+    }
+    // Same underlying data + route files for every course at this university —
+    // resolve once per university, not once per course.
+    const detailLastmod = latestOf(routeFiles[1], ...uni.dataFiles, 'components/CourseRichContent.tsx');
+    for (const slug of uni.slugs) {
+      courseDetailPages.push({
+        url: `${BASE}/universities/${uni.uniSlug}/courses/${slug}`,
+        lastModified: detailLastmod,
+        changeFrequency: 'monthly' as const, priority: 0.8,
+      });
     }
   }
 

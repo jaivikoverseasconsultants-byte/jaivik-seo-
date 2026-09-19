@@ -35,7 +35,15 @@ const BUDGET_BANDS = [10, 15, 20, 25];
 const BUDGET_MIN_MATCHES = 15;
 
 export async function generateStaticParams() {
-  return countries.map(c => ({ country: c.toLowerCase().replace(' ', '-') }));
+  // Only countries this page can actually render. A slug whose normalised name matches no
+  // university made the component call notFound(), so the build emitted the 404 page (noindex,
+  // no canonical) at a URL the sitemap advertised — that is what
+  // /universities/country/united-kingdom was until 2026-09-19, when the five universities
+  // tagged 'United Kingdom' rather than 'UK' were retagged in data/universities.ts.
+  return countries
+    .map(c => c.toLowerCase().replace(/ /g, '-'))
+    .filter(slug => getUniversitiesByCountry(normalizeCountry(slug)).length > 0)
+    .map(country => ({ country }));
 }
 
 // ── Rich country data ────────────────────────────────────────────────────────
@@ -304,6 +312,10 @@ const countryData: Record<string, CountryInfo> = {
 
 function normalizeCountry(slug: string): string {
   const map: Record<string, string> = {
+    // Spelling variants that are not simply the capitalised slug. 'united-kingdom' and
+    // 'united-states' are kept as aliases so an externally-linked or previously-indexed URL
+    // still resolves even though no university record uses those spellings any more.
+    'united-kingdom': 'UK', 'united-states': 'USA', 'united-arab-emirates': 'UAE', uae: 'UAE',
     usa: 'USA', uk: 'UK', canada: 'Canada', australia: 'Australia',
     germany: 'Germany', ireland: 'Ireland', singapore: 'Singapore',
     'new-zealand': 'New Zealand', france: 'France', netherlands: 'Netherlands', sweden: 'Sweden',

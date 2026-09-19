@@ -10467,7 +10467,7 @@ export const universities: University[] = [
   },
   {
     id: 'lsbu-london', name: 'London South Bank University', shortName: 'LSBU',
-    slug: 'london-south-bank-university', country: 'United Kingdom', state: 'England', city: 'London',
+    slug: 'london-south-bank-university', country: 'UK', state: 'England', city: 'London',
     qsRanking: 901, theRanking: undefined, annualTuitionUSD: 20314, annualTuitionINR: 1711465,
     livingCostUSD: 22860, livingCostINR: 1926000,
     intakeMonths: ['September', 'January'],
@@ -10490,7 +10490,7 @@ export const universities: University[] = [
   },
   {
     id: 'lbu-leeds', name: 'Leeds Beckett University', shortName: 'LBU',
-    slug: 'leeds-beckett-university', country: 'United Kingdom', state: 'England', city: 'Leeds',
+    slug: 'leeds-beckett-university', country: 'UK', state: 'England', city: 'Leeds',
     qsRanking: 1001, theRanking: undefined, annualTuitionUSD: 23165, annualTuitionINR: 1951680,
     livingCostUSD: 12065, livingCostINR: 1016500,
     intakeMonths: ['September', 'January'],
@@ -10512,7 +10512,7 @@ export const universities: University[] = [
   },
   {
     id: 'ljmu-liverpool', name: 'Liverpool John Moores University', shortName: 'LJMU',
-    slug: 'liverpool-john-moores-university', country: 'United Kingdom', state: 'England', city: 'Liverpool',
+    slug: 'liverpool-john-moores-university', country: 'UK', state: 'England', city: 'Liverpool',
     qsRanking: 851, theRanking: undefined, annualTuitionUSD: 22276, annualTuitionINR: 1876780,
     livingCostUSD: 12065, livingCostINR: 1016500,
     intakeMonths: ['September', 'January'],
@@ -10534,7 +10534,7 @@ export const universities: University[] = [
   },
   {
     id: 'shu-sheffield', name: 'Sheffield Hallam University', shortName: 'SHU',
-    slug: 'sheffield-hallam-university', country: 'United Kingdom', state: 'England', city: 'Sheffield',
+    slug: 'sheffield-hallam-university', country: 'UK', state: 'England', city: 'Sheffield',
     qsRanking: 1001, theRanking: undefined, annualTuitionUSD: 18504, annualTuitionINR: 1558990,
     livingCostUSD: 13970, livingCostINR: 1177000,
     intakeMonths: ['September', 'January'],
@@ -10556,7 +10556,7 @@ export const universities: University[] = [
   },
   {
     id: 'uoc-chester', name: 'University of Chester', shortName: 'Chester',
-    slug: 'university-of-chester', country: 'United Kingdom', state: 'England', city: 'Chester',
+    slug: 'university-of-chester', country: 'UK', state: 'England', city: 'Chester',
     qsRanking: undefined, theRanking: undefined, annualTuitionUSD: 15939, annualTuitionINR: 1342850,
     livingCostUSD: 12700, livingCostINR: 1070000,
     intakeMonths: ['September', 'January'],

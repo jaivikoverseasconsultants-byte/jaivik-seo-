@@ -891,16 +891,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/imperial-college-london/courses",
-      "destination": "/universities/imperial-college-london",
-      "permanent": true
-    },
-    {
-      "source": "/universities/imperial-college-london/courses/:path*",
-      "destination": "/universities/imperial-college-london",
-      "permanent": true
-    },
-    {
       "source": "/universities/university-of-windsor/courses",
       "destination": "/universities/university-of-windsor",
       "permanent": true
@@ -1218,16 +1208,6 @@
     {
       "source": "/universities/wilfrid-laurier-university/courses/:path*",
       "destination": "/universities/wilfrid-laurier-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/kwantlen-polytechnic-university/courses",
-      "destination": "/universities/kwantlen-polytechnic-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/kwantlen-polytechnic-university/courses/:path*",
-      "destination": "/universities/kwantlen-polytechnic-university",
       "permanent": true
     },
     {
@@ -5478,6 +5458,16 @@
     {
       "source": "/universities/university-of-new-brunswick/courses/unb-bed-education",
       "destination": "/universities/university-of-new-brunswick/courses/unb-education",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kwantlen-polytechnic-university/courses",
+      "destination": "/universities/kwantlen-polytechnic-university",
+      "permanent": true
+    },
+    {
+      "source": "/universities/kwantlen-polytechnic-university/courses/:path*",
+      "destination": "/universities/kwantlen-polytechnic-university",
       "permanent": true
     }
   ]
