@@ -4,8 +4,10 @@ import { buildMetadata } from '@/lib/seo';
 import { lsbuCourses } from '@/data/lsbu-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
-import { verifiedAvgFee } from '@/lib/fee-verification';
+import { verifiedAvgFee, isFeeVerified } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'london-south-bank-university';
 
 export const metadata: Metadata = buildMetadata({
   title: 'London South Bank University Courses — Fees & IELTS 2026',
@@ -110,9 +112,9 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">£{c.annualGBP.toLocaleString()}/yr</p>
-                      <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
-                      <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
+                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.annualGBP) > 0 ? `£${c.annualGBP.toLocaleString()}/yr` : 'Fee on request'}</p>
+                      {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
+                      {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>
                   </Link>
                 ))}

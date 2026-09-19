@@ -2,14 +2,17 @@
 import Link from 'next/link';
 import { buildMetadata } from '@/lib/seo';
 import { waterlooCourses } from '@/data/waterloo-courses';
+import { waterlooUgCourses } from '@/data/waterlooug-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'university-of-waterloo';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Waterloo Courses — Fees & IELTS 2026',
-  description: `University of Waterloo — ${(waterlooCourses as unknown as any[]).length} courses for international students. PGWP Eligible · IELTS 7+. September & January intakes. Free admission guidance from Jaivik Overseas Consultants.`,
+  description: `University of Waterloo — ${(waterlooCourses as unknown as any[]).length + (waterlooUgCourses as unknown as any[]).length} courses for international students. Free admission guidance from Jaivik Overseas Consultants.`,
   path: '/universities/university-of-waterloo/courses',
   keywords: ['Waterloo courses', 'University of Waterloo international', 'Waterloo fees', 'study in Canada', 'Canada university', 'PGWP'],
 });
@@ -27,7 +30,7 @@ function groupByLevel(courses: any[]) {
 }
 
 export default function CoursesPage() {
-  const courses = waterlooCourses as unknown as any[];
+  const courses = [...(waterlooCourses as unknown as any[]), ...(waterlooUgCourses as unknown as any[])];
   const groups = groupByLevel(courses);
   const totalCourses = courses.length;
   const avgFee = verifiedAvgFee(courses as any[], 'annualCAD');
@@ -141,13 +144,13 @@ export default function CoursesPage() {
                 University of Waterloo — International Courses
               </h1>
               <p className="text-blue-200 text-lg mb-5">
-                {totalCourses} programs · Avg CAD $${avgFee.toLocaleString()}/yr · IELTS 7+ · September & January intakes
+                {totalCourses} programs · {avgFee > 0 ? `Avg CAD $${avgFee.toLocaleString()}/yr` : 'Fees on request'} · IELTS 7+ · September & January intakes
               </p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: '#112' },
-                  { label: 'Avg Annual Fee', value: `$${Math.round(avgFee/1000)}K CAD` },
+                  { label: 'Avg Annual Fee', value: avgFee > 0 ? `$${Math.round(avgFee/1000)}K CAD` : 'On request' },
                   { label: 'PGWP', value: 'Eligible ✅' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -187,9 +190,9 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">{`$${c.annualCAD.toLocaleString()} CAD/yr`}</p>
-                      <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
-                      <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
+                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.annualCAD) > 0 ? `$${c.annualCAD.toLocaleString()} CAD/yr` : 'Fee on request'}</p>
+                      {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
+                      {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>
                   </Link>
                 ))}

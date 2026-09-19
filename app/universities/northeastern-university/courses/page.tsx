@@ -5,6 +5,8 @@ import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'northeastern-university';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Northeastern University Courses — Fees & IELTS 2026',
@@ -110,7 +112,7 @@ export default function NortheasternCoursesPage() {
 
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">Northeastern University — All Courses & Programs 2026</h1>
-        <p className="text-gray-500">{courses.length} programs listed · Avg ~$${Math.round(avgFee/1000)}K USD/yr</p>
+        <p className="text-gray-500">{courses.length} programs listed · {avgFee > 0 ? `Avg ~$${Math.round(avgFee / 1000)}K USD/yr` : 'Fees on request'}</p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -145,13 +147,13 @@ export default function NortheasternCoursesPage() {
                   <h3 className="font-bold text-gray-900 hover:text-brand-700 text-sm">{c.name}</h3>
                   <p className="text-xs text-gray-500 mt-1">{c.level} · {c.duration} · {c.campus}</p>
                   <div className="flex flex-wrap gap-2 mt-2">
-                    <span className="text-xs bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {c.ieltsMin}+</span>
+                    {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <span className="text-xs bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {c.ieltsMin}+</span>}
                     <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{c.intakeMonths.join(' & ')}</span>
                   </div>
                 </div>
                 <div className="text-right whitespace-nowrap">
-                  <p className="font-bold text-brand-700 text-sm">$${(c.annualUSD/1000).toFixed(0)}K/yr</p>
-                  <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
+                  <p className="font-bold text-brand-700 text-sm">{isFeeVerified(c as any) && Number(c.annualUSD) > 0 ? `$${(c.annualUSD / 1000).toFixed(0)}K/yr` : 'Fee on request'}</p>
+                  {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
                 </div>
               </div>
             </Link>

@@ -5,6 +5,8 @@ import { sussexW2Courses } from '@/data/sussex-w2-courses';
 import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { verifiedAvgFee } from '@/lib/fee-verification';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'university-of-sussex';
 
 export const metadata: Metadata = buildMetadata({
   title: 'University of Sussex Courses — Fees & IELTS 2026',
@@ -78,7 +80,7 @@ export default function CoursesPage() {
                     <div className="flex flex-wrap gap-2 text-xs">
                       <span className="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{course.level}</span>
                       {fee > 0 && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">£{fee.toLocaleString()}/yr</span>}
-                      {course.ieltsMin > 0 && <span className="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {course.ieltsMin}+</span>}
+                      {hasPublishedIelts(UNIVERSITY_SLUG, course as never) && <span className="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full">IELTS {course.ieltsMin}+</span>}
                       <span className="bg-orange-50 text-orange-700 px-2 py-0.5 rounded-full">{course.duration}</span>
                     </div>
                   </Link>

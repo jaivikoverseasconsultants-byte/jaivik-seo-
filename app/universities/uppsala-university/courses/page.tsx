@@ -6,6 +6,8 @@ import LeadForm from '@/components/LeadForm';
 import JsonLd from '@/components/JsonLd';
 import { isFeeVerified, verifiedAvgFee } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'uppsala-university';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Uppsala University Courses — Fees & IELTS 2026',
@@ -144,7 +146,7 @@ export default function CoursesPage() {
                 {[
                   { label: 'Total Courses', value: totalCourses },
                   { label: 'QS Ranking', value: '#120 QS World Ranking' },
-                  { label: 'Avg Fee', value: `USD ${Math.round(avgFee / 1000)}K` },
+                  { label: 'Avg Fee', value: avgFee > 0 ? `USD ${Math.round(avgFee / 1000)}K` : 'On request' },
                   { label: 'Campus', value: 'Uppsala' },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -180,9 +182,9 @@ export default function CoursesPage() {
                       <p className="text-xs text-gray-500 mt-1">{c.duration} · {c.intakeMonths.join(' & ')} · {c.campus}</p>
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
-                      <p className="text-sm font-bold text-brand-700">${c.annualUSD.toLocaleString()}/yr</p>
-                      <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
-                      <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
+                      <p className="text-sm font-bold text-brand-700">{isFeeVerified(c as any) && Number(c.annualUSD) > 0 ? `$${c.annualUSD.toLocaleString()}/yr` : 'Fee on request'}</p>
+                      {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
+                      {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>
                   </Link>
                 ))}

@@ -8,6 +8,8 @@ import JsonLd from '@/components/JsonLd';
 import { annualFeeLabel, averageAnnualFee } from '@/lib/course-fee-display';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'university-of-sydney';
 export const metadata: Metadata = buildMetadata({
   title: 'University of Sydney Courses — Fees & IELTS 2026',
   description: `University of Sydney — ${(usydCourses as unknown as any[]).length} courses for international students. IELTS 6.5+. February & July intakes. Free admission guidance from Jaivik Overseas Consultants.`,
@@ -182,8 +184,8 @@ export default function CoursesPage() {
                     </div>
                     <div className="ml-4 text-right flex-shrink-0">
                       <p className="text-sm font-bold text-brand-700">{annualFeeLabel(c)}</p>
-                      <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>
-                      <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>
+                      {isFeeVerified(c as any) && <p className="text-xs text-gray-400">≈ ₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L/yr</p>}
+                      {hasPublishedIelts(UNIVERSITY_SLUG, c as never) && <p className="text-xs text-gray-500">IELTS {c.ieltsMin}+</p>}
                     </div>
                   </Link>
                 ))}
