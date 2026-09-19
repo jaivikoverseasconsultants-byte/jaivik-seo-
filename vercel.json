@@ -181,16 +181,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/university-of-guelph/courses",
-      "destination": "/universities/university-of-guelph",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-guelph/courses/:path*",
-      "destination": "/universities/university-of-guelph",
-      "permanent": true
-    },
-    {
       "source": "/universities/national-university-of-singapore/courses",
       "destination": "/universities/national-university-of-singapore",
       "permanent": true
@@ -971,16 +961,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/algonquin-college/courses",
-      "destination": "/universities/algonquin-college",
-      "permanent": true
-    },
-    {
-      "source": "/universities/algonquin-college/courses/:path*",
-      "destination": "/universities/algonquin-college",
-      "permanent": true
-    },
-    {
       "source": "/universities/mohawk-college/courses",
       "destination": "/universities/mohawk-college",
       "permanent": true
@@ -1101,16 +1081,6 @@
       "permanent": true
     },
     {
-      "source": "/universities/durham-college/courses",
-      "destination": "/universities/durham-college",
-      "permanent": true
-    },
-    {
-      "source": "/universities/durham-college/courses/:path*",
-      "destination": "/universities/durham-college",
-      "permanent": true
-    },
-    {
       "source": "/universities/georgian-college/courses",
       "destination": "/universities/georgian-college",
       "permanent": true
@@ -1218,26 +1188,6 @@
     {
       "source": "/universities/lakehead-university/courses/:path*",
       "destination": "/universities/lakehead-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/toronto-metropolitan-university/courses",
-      "destination": "/universities/toronto-metropolitan-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/toronto-metropolitan-university/courses/:path*",
-      "destination": "/universities/toronto-metropolitan-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/york-university/courses",
-      "destination": "/universities/york-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/york-university/courses/:path*",
-      "destination": "/universities/york-university",
       "permanent": true
     },
     {
@@ -1398,16 +1348,6 @@
     {
       "source": "/universities/memorial-university/courses/:path*",
       "destination": "/universities/memorial-university",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-new-brunswick/courses",
-      "destination": "/universities/university-of-new-brunswick",
-      "permanent": true
-    },
-    {
-      "source": "/universities/university-of-new-brunswick/courses/:path*",
-      "destination": "/universities/university-of-new-brunswick",
       "permanent": true
     },
     {
@@ -5293,6 +5233,251 @@
     {
       "source": "/universities/dalhousie-university/courses/dal-plant-science-bsc-agr-diptech",
       "destination": "/universities/dalhousie-university/courses/dal-plant-science-bsc-agr",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bcom-business-administration",
+      "destination": "/universities/york-university/courses/yorku-business-administration",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bsc-computer-science",
+      "destination": "/universities/york-university/courses/yorku-computer-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bsc-data-science",
+      "destination": "/universities/york-university/courses/yorku-data-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-beng-civil-engineering",
+      "destination": "/universities/york-university/courses/yorku-civil-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-beng-electrical-engineering",
+      "destination": "/universities/york-university/courses/yorku-electrical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-beng-mechanical-engineering",
+      "destination": "/universities/york-university/courses/yorku-mechanical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bsc-chemistry",
+      "destination": "/universities/york-university/courses/yorku-chemistry",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bsc-physics",
+      "destination": "/universities/york-university/courses/yorku-physics-astronomy",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bsc-kinesiology",
+      "destination": "/universities/york-university/courses/yorku-kinesiology-health-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-ba-english",
+      "destination": "/universities/york-university/courses/yorku-english",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-ba-criminology",
+      "destination": "/universities/york-university/courses/yorku-criminology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/york-university/courses/york-bed-education",
+      "destination": "/universities/york-university/courses/yorku-bachelor-of-education-bed",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-msc-management",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-master-of-science-in-management-mscm",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-msc-data-science-and-analytics",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-data-science-and-analytics-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-bcom-business-management",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-business-management-bcomm-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-bcom-accounting-and-finance",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-accounting-finance-bcomm-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-bsc-computer-science",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-computer-science-bsc-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-beng-electrical-engineering",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-electrical-engineering-beng-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-beng-mechanical-engineering",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-mechanical-engineering-beng-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-beng-industrial-engineering",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-industrial-engineering-beng-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-beng-computer-engineering",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-computer-engineering-beng-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-beng-civil-engineering",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-civil-engineering-beng-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-ba-criminology",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-criminology-ba-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-ba-psychology",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-psychology-ba-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-ba-politics-and-governance",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-politics-and-governance-ba-hons",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-bdes-fashion",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-fashion-bdes",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-phd-computer-science",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-computer-science-msc-phd",
+      "permanent": true
+    },
+    {
+      "source": "/universities/toronto-metropolitan-university/courses/tmu-msc-data-science",
+      "destination": "/universities/toronto-metropolitan-university/courses/tmu-data-science-and-analytics-msc",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bcom-accounting",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-accounting",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bcom-finance",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-finance",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bcom-marketing",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-marketing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-beng-civil-engineering",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-civil-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-beng-electrical-engineering",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-electrical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-beng-mechanical-engineering",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-mechanical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-beng-chemical-engineering",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-chemical-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-computer-science",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-computer-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-software-engineering",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-software-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-biology",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-biology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-chemistry",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-chemistry",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-physics",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-physics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-mathematics",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-mathematics",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-forestry",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-forestry",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-nursing",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-nursing",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bsc-kinesiology",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-kinesiology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-ba-psychology",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-psychology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-ba-sociology",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-sociology",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-ba-political-science",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-political-science",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-ba-history",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-history",
+      "permanent": true
+    },
+    {
+      "source": "/universities/university-of-new-brunswick/courses/unb-bed-education",
+      "destination": "/universities/university-of-new-brunswick/courses/unb-education",
       "permanent": true
     }
   ]
