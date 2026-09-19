@@ -1,4 +1,4 @@
-// Toronto Metropolitan University — REAL crawl of the university's own website (Canada wave, 2026-09-12).
+// Toronto Metropolitan University — REAL crawl of the university's own website (Canada wave, 2026-09-14).
 // Discovery: scripts/ca-discover*.js   Detail: scripts/ca-detail.js   Generator: scripts/ca-generate.js
 // 121 programmes | international tuition published on 65 | annual basis stated on 0
 //

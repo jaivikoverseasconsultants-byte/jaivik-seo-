@@ -1,4 +1,4 @@
-// University of New Brunswick — REAL crawl of the university's own website (Canada wave, 2026-09-12).
+// University of New Brunswick — REAL crawl of the university's own website (Canada wave, 2026-09-14).
 // Discovery: scripts/ca-discover*.js   Detail: scripts/ca-detail.js   Generator: scripts/ca-generate.js
 // 95 programmes | international tuition published on 0 | annual basis stated on 0
 //

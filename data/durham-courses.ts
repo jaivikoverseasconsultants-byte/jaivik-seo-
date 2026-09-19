@@ -1,4 +1,4 @@
-// Durham College — REAL crawl of the university's own website (Canada wave, 2026-09-12).
+// Durham College — REAL crawl of the university's own website (Canada wave, 2026-09-14).
 // Discovery: scripts/ca-discover*.js   Detail: scripts/ca-detail.js   Generator: scripts/ca-generate.js
 // 151 programmes | international tuition published on 129 | annual basis stated on 129
 //

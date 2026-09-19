@@ -46,6 +46,7 @@ const UNIS = {
   york:        { prefix: 'yorku',     varName: 'yorku',       iface: 'Yorku',       uniName: 'York University',                province: 'Ontario',          city: 'Toronto',     campus: 'Keele Campus',         english: 'York University' },
   guelph:      { prefix: 'guelph',    varName: 'guelph',      iface: 'Guelph',      uniName: 'University of Guelph',           province: 'Ontario',          city: 'Guelph',      campus: 'Main Campus',          english: 'University of Guelph' },
   algonquin:   { prefix: 'algonquin', varName: 'algonquinReal', iface: 'AlgonquinReal', uniName: 'Algonquin College',          province: 'Ontario',          city: 'Ottawa',      campus: 'Ottawa Campus',        english: 'Algonquin College' },
+  ualberta:    { prefix: 'ualberta',  varName: 'ualberta',    iface: 'Ualberta',   uniName: 'University of Alberta',     province: 'Alberta',          city: 'Edmonton',    campus: 'North Campus',          english: 'University of Alberta' },
   kpu:         { prefix: 'kpu',       varName: 'kpuReal',     iface: 'KpuReal',     uniName: 'Kwantlen Polytechnic University', province: 'British Columbia', city: 'Surrey',      campus: 'Surrey Campus',        english: 'Kwantlen (KPU)' },
 };
 
@@ -191,6 +192,9 @@ const JOBS = [
   // curl. No Puppeteer needed. The dead www.kpu.ca set is kept as kpu-discovery.json for the
   // record; kpu2-* is the real one.
   ['kpu',         ['data/wave-canada/kpu2-detail.json']],
+  // UAlberta: www.ualberta.ca answers curl with HTTP 202 + an 8-byte body on every path,
+  // so discovery AND detail both ran in-browser (ualberta-sitemap-pptr.js / ualberta-detail-pptr.js).
+  ['ualberta',    ['data/wave-canada/ualberta2-detail.json']],
 ];
 const summary = [];
 for (const [k, files] of JOBS) {

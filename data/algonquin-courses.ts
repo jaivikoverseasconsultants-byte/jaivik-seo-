@@ -1,4 +1,4 @@
-// Algonquin College — REAL crawl of the university's own website (Canada wave, 2026-09-12).
+// Algonquin College — REAL crawl of the university's own website (Canada wave, 2026-09-14).
 // Discovery: scripts/ca-discover*.js   Detail: scripts/ca-detail.js   Generator: scripts/ca-generate.js
 // 176 programmes | international tuition published on 0 | annual basis stated on 0
 //
