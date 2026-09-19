@@ -8,6 +8,7 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 
 import { showOnCoursePage, entryRequirementsVaryByCourse } from '@/lib/course-field-variance';
+import { publishedEnglishTests, englishOnRequestNote, hasPublishedIelts } from '@/lib/english-verification';
 
 import { feeDisplay, feeDisplayINRLakh, isFeeVerified, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
@@ -25,7 +26,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at Massey University`,
-    description: `${course.name} at Massey University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at Massey University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ` IELTS ${course.ieltsMin}+` : ''}, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/massey-university/courses/${slug}`,
     keywords: [course.name, 'Massey', 'Massey University', 'study in New Zealand', course.level],
   });
@@ -80,7 +81,7 @@ export default async function CoursePage(
                 {[
                   { label: 'Annual Fee (NZD)', value: feeDisplay(course as any, course.annualNZD, 'NZD') },
                   { label: 'Fee in INR', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
-                  ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
+                  ...(showOnCoursePage(UNIVERSITY_SLUG, 'ieltsMin') && publishedEnglishTests(UNIVERSITY_SLUG, course as never).some(t => t.test === 'ielts') ? [{ label: 'IELTS Minimum', value: `${course.ieltsMin}+` }] : []),
                   { label: 'Duration', value: course.duration },
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
@@ -121,24 +122,23 @@ export default async function CoursePage(
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) ? (
+            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) && publishedEnglishTests(UNIVERSITY_SLUG, course as never).length > 0 ? (
               <div className="grid grid-cols-3 gap-4">
-              {[
-                { label: 'IELTS Academic', value: `${course.ieltsMin}+`, sub: 'No band below 5.5' },
-                { label: 'TOEFL iBT', value: `${course.toeflMin}+`, sub: 'Writing 20+' },
-                { label: 'PTE Academic', value: `${course.pteMin}+`, sub: 'No band below 50' },
-              ].map(e => (
+              {publishedEnglishTests(UNIVERSITY_SLUG, course as never)
+                .map(t => ({ label: t.label, value: `${t.value}+` }))
+                .map(e => (
                 <div key={e.label} className="bg-blue-50 rounded-xl p-4 text-center">
                   <p className="text-xl font-bold text-brand-700">{e.value}</p>
-                  <p className="text-xs font-semibold text-gray-700 mt-1">{e.label}</p>
-                  <p className="text-xs text-gray-500 mt-0.5">{e.sub}</p>
+                  <p className="text-xs font-semibold text-gray-700 mt-1">{e.label}</p>
                 </div>
               ))}
             </div>
             ) : (
               <p className="text-sm text-gray-600">
-                Massey University publishes one English language requirement across its courses
-                rather than a per-course score. See the full entry requirements and intake dates on the{' '}
+                {publishedEnglishTests(UNIVERSITY_SLUG, course as never).length > 0
+                  ? "Massey University publishes one English language requirement across its courses rather than a per-course score."
+                  : englishOnRequestNote("Massey University")}{' '}
+                See the full entry requirements and intake dates on the{' '}
                 <Link href={`/universities/${UNIVERSITY_SLUG}`} className="text-brand-700 font-medium hover:underline">university page</Link>.
               </p>
             )}

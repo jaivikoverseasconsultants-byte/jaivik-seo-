@@ -9,6 +9,8 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { feeDisplay, feeDisplayINRLakh, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'vrije-universiteit-amsterdam';
 export async function generateStaticParams() {
   return (vrijeUniversiteitAmsterdamCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -21,7 +23,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at Vrije Universiteit Amsterdam`,
-    description: `${course.name} at Vrije Universiteit Amsterdam, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at Vrije Universiteit Amsterdam, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ` IELTS ${course.ieltsMin}+` : ''}, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/vrije-universiteit-amsterdam/courses/${slug}`,
     keywords: [course.name, 'Vrije Universiteit Amsterdam', 'study in Netherlands', course.level],
   });
@@ -67,7 +69,7 @@ export default async function CourseDetailPage(
                   { label: 'Annual Fee', value: feeDisplay(course as any, course.annualEUR, 'EUR') },
                   { label: 'Fee (INR)', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') },
                   { label: 'Duration', value: course.duration },
-                  { label: 'IELTS Min', value: `${course.ieltsMin}+` },
+                  ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [{ label: 'IELTS Min', value: `${course.ieltsMin}+` }] : []),
                 ].map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
                     <p className="text-xl font-bold">{s.value}</p>
@@ -95,8 +97,8 @@ export default async function CourseDetailPage(
                 ['Campus', course.campus],
                 ['Country', 'Netherlands'],
                 ['Intake', course.intakeMonths.join(' & ')],
-                ['IELTS Minimum', `${course.ieltsMin} overall`],
-                ['TOEFL Minimum', `${course.toeflMin}+`],
+                ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [['IELTS Minimum', `${course.ieltsMin} overall`]] : []),
+                ...(publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? [['TOEFL Minimum', `${course.toeflMin}+`]] : []),
                 ['Annual Fee (EUR)', feeDisplay(course as any, course.annualEUR, 'EUR')],
                 ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')],
                 ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (courseAnnualINRLakh(course as any, 1) ?? '0'), '')],

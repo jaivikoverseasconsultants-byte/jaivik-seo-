@@ -8,6 +8,8 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh, RATE_TO_INR } from '@/lib/currency';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'university-of-edinburgh';
 
 export async function generateStaticParams() {
   return (edinburghCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -22,7 +24,7 @@ export async function generateMetadata(
   const fee = (course as any).annualGBP || (course as any).annualUSD || 0;
   return buildMetadata({
     title: `${course.name} at University of Edinburgh`,
-    description: `${course.name} at University of Edinburgh, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)} IELTS ${course.ieltsMin}+, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at University of Edinburgh, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ` IELTS ${course.ieltsMin}+` : ''}, intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-edinburgh/courses/${slug}`,
     keywords: [course.name, 'Edinburgh', 'University of Edinburgh', 'study in UK', course.level],
   });
@@ -109,7 +111,7 @@ export default async function CoursePage(
                 {[
                   { label: 'Annual Fee', value: feeDisplay(course as any, fee, 'GBP'), sub: feeDisplayINRLakh(course as any, feeINRLakh, '/year') },
                   { label: 'Total Fees', value: feeDisplay(course as any, totalFee, 'GBP'), sub: `${course.durationYears} year(s)` },
-                  { label: 'IELTS', value: `${course.ieltsMin}+`, sub: `TOEFL ${course.toeflMin}+` },
+                  ...(hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? [{ label: 'IELTS', value: `${course.ieltsMin}+`, sub: publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? `TOEFL ${course.toeflMin}+` : undefined }] : []),
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Intake', value: (course.intakeMonths || []).join(' & '), sub: 'Annual' },
                   { label: 'Campus', value: course.campus?.split(',')[0] || 'Edinburgh', sub: 'UK' },
@@ -189,15 +191,15 @@ export default async function CoursePage(
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-500">IELTS</span>
-                  <span className="font-medium">{course.ieltsMin}+ overall</span>
+                  <span className="font-medium">{hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? `${course.ieltsMin}+ overall` : 'On request'}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-500">TOEFL</span>
-                  <span className="font-medium">{course.toeflMin}+</span>
+                  <span className="font-medium">{publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? `${course.toeflMin}+` : 'On request'}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-500">PTE</span>
-                  <span className="font-medium">{course.pteMin}+</span>
+                  <span className="font-medium">{publishedScore(UNIVERSITY_SLUG, course as never, 'pte') ? `${course.pteMin}+` : 'On request'}</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-500">Education</span>

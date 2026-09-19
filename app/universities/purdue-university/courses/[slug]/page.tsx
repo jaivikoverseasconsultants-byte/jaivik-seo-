@@ -7,6 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'purdue-university';
 
 export function generateStaticParams() {
   return purdueCourses.map(c => ({ slug: c.slug }));
@@ -20,7 +22,7 @@ export async function generateMetadata(
   if (!c) return {};
   return buildMetadata({
     title: `${c.name} at Purdue University`,
-    description: `${c.name} at Purdue University, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)} IELTS ${c.ieltsMin}+, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${c.name} at Purdue University, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)}${hasPublishedIelts(UNIVERSITY_SLUG, c as never) ? ` IELTS ${c.ieltsMin}+` : ''}, intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/purdue-university/courses/${slug}`,
   });
 }
@@ -70,9 +72,9 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Admission Requirements</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                { label: 'IELTS', value: `${c.ieltsMin}+ overall` },
-                { label: 'TOEFL', value: `${c.toeflMin}+ iBT` },
-                { label: 'PTE', value: `${c.pteMin}+` },
+                ...(hasPublishedIelts(UNIVERSITY_SLUG, c as never) ? [{ label: 'IELTS', value: `${c.ieltsMin}+ overall` }] : []),
+                ...(publishedScore(UNIVERSITY_SLUG, c as never, 'toefl') ? [{ label: 'TOEFL', value: `${c.toeflMin}+ iBT` }] : []),
+                ...(publishedScore(UNIVERSITY_SLUG, c as never, 'pte') ? [{ label: 'PTE', value: `${c.pteMin}+` }] : []),
                 { label: 'Intake', value: c.intakeMonths.join(' & ') },
                 { label: 'Work Rights', value: '20 hrs/wk (on-campus)' },
               ].map(r => (

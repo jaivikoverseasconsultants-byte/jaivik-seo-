@@ -1,5 +1,6 @@
 import type { University } from '@/types';
 import { RATE_TO_INR } from '@/lib/currency';
+import { isTestPublished } from '@/lib/english-verification';
 
 /** Returns concise country-specific context for study abroad text */
 const countryContext: Record<string, string> = {
@@ -64,7 +65,7 @@ ${campusDesc} The campus is equipped with research libraries, modern computer la
 
 Graduates of ${u.shortName} can expect an estimated (not officially published) employment rate of around ${u.employmentRate}% within six months of graduation, with an indicative starting salary in the region of $${(u.avgSalaryUSD / 1000).toFixed(0)}K (approximately ₹${(u.avgSalaryUSD * RATE_TO_INR.USD / 100000).toFixed(0)}L per annum) — confirm current outcomes with the university. Top employers recruiting from ${u.shortName} include ${u.topEmployers.slice(0, 4).join(', ')}, reflecting the institution's strong industry connections.
 
-${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an estimated overall acceptance rate around ${u.acceptanceRate}% (not officially published). Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin} for postgraduate admission — confirm current minimum grade requirements directly with the university.`;
+${scholarshipText} The university accepts applications for ${u.intakeMonths.join(' and ')} intake, with an estimated overall acceptance rate around ${u.acceptanceRate}% (not officially published). ${isTestPublished(u.slug, 'ielts') ? `Students from India typically require a minimum IELTS score of ${u.requirements.ieltsMin}` : `English requirements are confirmed per programme — ask us for ${u.shortName}'s current score`} for postgraduate admission — confirm current minimum grade requirements directly with the university.`;
 }
 
 /**
@@ -105,7 +106,7 @@ export function generateApplicationProcess(u: University): {
       {
         step: 1,
         title: 'Check Eligibility',
-        detail: `IELTS ${u.requirements.ieltsMin}+${u.requirements.greMin ? `, GRE ${u.requirements.greMin}+` : ''}${u.requirements.gmatMin ? `, GMAT ${u.requirements.gmatMin}+` : ''}. Minimum grade/backlog requirements vary by course and intake — confirm current policy with the university or your counsellor.`,
+        detail: `${isTestPublished(u.slug, 'ielts') ? `IELTS ${u.requirements.ieltsMin}+` : 'English test score (ask us to confirm)'}${u.requirements.greMin ? `, GRE ${u.requirements.greMin}+` : ''}${u.requirements.gmatMin ? `, GMAT ${u.requirements.gmatMin}+` : ''}. Minimum grade/backlog requirements vary by course and intake — confirm current policy with the university or your counsellor.`,
       },
       {
         step: 2,

@@ -6,6 +6,7 @@ import { getUniversityBySlug } from '@/data/universities';
 import JsonLd from '@/components/JsonLd';
 import VerifiedBy from '@/components/VerifiedBy';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
 
 // Real, sourced facts used in the FAQ below — not per-university estimates:
 // - NMC (UK) registration: IELTS Academic 7.0 in Listening/Reading/Speaking,
@@ -201,7 +202,7 @@ export default function NursingAbroadPage() {
                           <td className="text-right py-2.5 px-2 text-gray-700">
                             {c.annualINR > 0 ? `₹${(courseAnnualINRLakh(c as any, 1) ?? '0')}L` : '—'}
                           </td>
-                          <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
+                          <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                         </tr>
                       );
                     })}

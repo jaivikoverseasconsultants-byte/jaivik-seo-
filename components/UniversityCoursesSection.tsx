@@ -5,6 +5,7 @@ import Link from 'next/link';
 import type { RegistryCourse } from '@/data/university-course-registry';
 import { isFeeVerified } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
 
 const PAGE_SIZE = 20;
 
@@ -185,7 +186,7 @@ export default function UniversityCoursesSection({
                 </div>
                 <div>
                   <p className="text-gray-400 mb-0.5">IELTS Min</p>
-                  <p className="font-semibold text-gray-700">{course.ieltsMin}+</p>
+                  <p className="font-semibold text-gray-700">{hasPublishedIelts(uniSlug, course as never) ? `${course.ieltsMin}+` : 'On request'}</p>
                 </div>
               </div>
               <p className="text-xs text-brand-600 font-semibold mt-3 group-hover:text-brand-800">

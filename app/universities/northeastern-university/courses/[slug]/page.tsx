@@ -7,6 +7,8 @@ import LeadForm from '@/components/LeadForm';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'northeastern-university';
 
 export function generateStaticParams() {
   return northeasternCourses.map(c => ({ slug: c.slug }));
@@ -20,7 +22,7 @@ export async function generateMetadata(
   if (!c) return {};
   return buildMetadata({
     title: `${c.name} at Northeastern University`,
-    description: `${c.name} at Northeastern University, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)}${c.ieltsMin > 0 ? ` IELTS ${c.ieltsMin}+,` : ''} intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${c.name} at Northeastern University, ${(c as any).city || c.country}${feeSentenceINR(c as any, c.annualINR)}${c.ieltsMin > 0 ? `${hasPublishedIelts(UNIVERSITY_SLUG, c as never) ? ` IELTS ${c.ieltsMin}+` : ''},` : ''} intakes ${c.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/northeastern-university/courses/${slug}`,
   });
 }
@@ -70,9 +72,9 @@ export default async function CourseDetailPage(
             <h2 className="text-lg font-bold text-gray-900 mb-4">Admission Requirements</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                c.ieltsMin > 0 ? { label: 'IELTS', value: `${c.ieltsMin}+ overall` } : null,
-                c.toeflMin > 0 ? { label: 'TOEFL', value: `${c.toeflMin}+ iBT` } : null,
-                (c.pteMin ?? 0) > 0 ? { label: 'PTE', value: `${c.pteMin}+` } : null,
+                hasPublishedIelts(UNIVERSITY_SLUG, c as never) ? { label: 'IELTS', value: `${c.ieltsMin}+ overall` } : null,
+                publishedScore(UNIVERSITY_SLUG, c as never, 'toefl') ? { label: 'TOEFL', value: `${c.toeflMin}+ iBT` } : null,
+                publishedScore(UNIVERSITY_SLUG, c as never, 'pte') ? { label: 'PTE', value: `${c.pteMin}+` } : null,
                 { label: 'Intake', value: c.intakeMonths.join(' & ') },
                 { label: 'Work Rights', value: '20 hrs/wk (on-campus)' },
               ].filter((r): r is { label: string; value: string } => r !== null).map(r => (

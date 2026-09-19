@@ -9,6 +9,8 @@ import CourseRichContent from '@/components/CourseRichContent';
 
 import { feeDisplay, feeDisplayINRLakh, feeSentenceINR, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'university-of-helsinki';
 export async function generateStaticParams() {
   return (universityOfHelsinkiCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
 }
@@ -21,7 +23,7 @@ export async function generateMetadata(
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at University of Helsinki`,
-    description: `${course.name} at University of Helsinki, Finland${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} September intake. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at University of Helsinki, Finland${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? `${hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ` IELTS ${course.ieltsMin}+` : ''},` : ''} September intake. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/university-of-helsinki/courses/${slug}`,
     keywords: [course.name, 'University of Helsinki', 'study in Finland', course.level],
   });
@@ -67,7 +69,7 @@ export default async function CourseDetailPage(
                   course.annualEUR > 0 ? { label: 'Annual Fee', value: feeDisplay(course as any, course.annualEUR, 'EUR') } : null,
                   course.annualINR > 0 ? { label: 'Fee (INR)', value: feeDisplayINRLakh(course as any, feeINRLakh, '/yr') } : null,
                   { label: 'Duration', value: course.duration },
-                  course.ieltsMin > 0 ? { label: 'IELTS Min', value: `${course.ieltsMin}+` } : null,
+                  hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? { label: 'IELTS Min', value: `${course.ieltsMin}+` } : null,
                 ].filter((s): s is { label: string; value: string } => s !== null).map(s => (
                   <div key={s.label} className="bg-white/10 rounded-xl p-3 text-center">
                     <p className="text-xl font-bold">{s.value}</p>
@@ -95,8 +97,8 @@ export default async function CourseDetailPage(
                 ['Campus', course.campus],
                 ['Country', 'Finland'],
                 ['Intake', course.intakeMonths.join(' & ')],
-                course.ieltsMin > 0 ? ['IELTS Minimum', `${course.ieltsMin} overall`] : null,
-                course.toeflMin > 0 ? ['TOEFL Minimum', `${course.toeflMin}+`] : null,
+                hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ['IELTS Minimum', `${course.ieltsMin} overall`] : null,
+                publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? ['TOEFL Minimum', `${course.toeflMin}+`] : null,
                 course.annualEUR > 0 ? ['Annual Fee (EUR)', feeDisplay(course as any, course.annualEUR, 'EUR')] : null,
                 course.annualUSD > 0 ? ['Annual Fee (USD)', feeDisplay(course as any, course.annualUSD, 'USD')] : null,
                 course.annualINR > 0 ? ['Annual Fee (INR)', feeDisplayINRLakh(course as any, (courseAnnualINRLakh(course as any, 1) ?? '0'), '')] : null,

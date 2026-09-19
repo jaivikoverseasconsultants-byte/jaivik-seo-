@@ -1,6 +1,7 @@
 import { costOfLivingGuides } from '@/data/cost-of-living';
 import type { CourseForContent } from '@/lib/courseContent';
 import { isFeeVerified } from '@/lib/fee-verification';
+import { publishedEnglishTests, type EnglishBearingCourse } from '@/lib/english-verification';
 import {
   nativeFee,
   nativeLivingCost,
@@ -74,7 +75,7 @@ export interface EntryRequirements {
   ielts: { min: number; toefl: number | null; pte: number | null } | null;
 }
 
-export function getEntryRequirements(course: CourseForContent): EntryRequirements | null {
+export function getEntryRequirements(course: CourseForContent, universitySlug?: string): EntryRequirements | null {
   const level = course.level.toLowerCase();
   const isMasters = /master|msc|mba|meng|llm|mres|mphil/.test(level) || course.studyLevel === 'Postgraduate';
   const isPhD = /phd|doctorate|doctoral/.test(level);
@@ -91,13 +92,13 @@ export function getEntryRequirements(course: CourseForContent): EntryRequirement
     academic = `Academic eligibility for this ${course.level} programme is set by the department. Contact Jaivik Overseas for a personalised eligibility check.`;
   }
 
-  const hasIelts = typeof course.ieltsMin === 'number' && course.ieltsMin > 0;
-  const ielts = hasIelts
-    ? {
-        min: course.ieltsMin,
-        toefl: typeof course.toeflMin === 'number' && course.toeflMin > 0 ? course.toeflMin : null,
-        pte: typeof course.pteMin === 'number' && course.pteMin > 0 ? course.pteMin : null,
-      }
+  // Only tests this university actually publishes — the rest are house defaults (see
+  // lib/english-verification). Without a slug the caller gets the old behaviour.
+  const published = publishedEnglishTests(universitySlug, course as EnglishBearingCourse);
+  const score = (test: 'ielts' | 'toefl' | 'pte') => published.find((t) => t.test === test)?.value ?? null;
+  const ieltsMin = score('ielts');
+  const ielts = ieltsMin
+    ? { min: ieltsMin, toefl: score('toefl'), pte: score('pte') }
     : null;
 
   return { academic, ielts };

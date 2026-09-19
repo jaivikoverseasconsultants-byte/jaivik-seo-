@@ -9,7 +9,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "audit:fees": "node scripts/audit-fee-verification.js"
+    "audit:fees": "node scripts/audit-fee-verification.js",
+    "audit:english": "node scripts/audit-english-verification.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0",

@@ -12,6 +12,7 @@ import WhatsAppLeadCTA from '@/components/WhatsAppLeadCTA';
 import FindMyCourseCTA from '@/components/FindMyCourseCTA';
 import { courseAnnualINRLakh } from '@/lib/currency';
 import { verifiedFeeRange } from '@/lib/fee-verification';
+import { hasPublishedIelts } from '@/lib/english-verification';
 
 const CHEAPEST_ROWS_SHOWN = 20;
 const ROWS_PER_COUNTRY = 30;
@@ -129,7 +130,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                       <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
                       <td className="py-2.5 px-2 text-gray-700">{COUNTRY_FLAGS[c.country] ?? ''} {c.country}</td>
                       <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
-                      <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
+                      <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                     </tr>
                   );
                 })}
@@ -208,7 +209,7 @@ export default function SubjectPillarPage({ config }: { config: SubjectPillarCon
                           </td>
                           <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
                           <td className="text-right py-2.5 px-2 text-gray-700">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
-                          <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
+                          <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                         </tr>
                       );
                     })}

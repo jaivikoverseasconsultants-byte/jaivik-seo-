@@ -6,6 +6,7 @@ import { CANADA_CITIES, CANADA_CITY_SLUGS } from '@/data/canada-cities';
 import { buildMetadata } from '@/lib/seo';
 import JsonLd from '@/components/JsonLd';
 import LeadForm from '@/components/LeadForm';
+import { isTestPublished } from '@/lib/english-verification';
 
 export function generateStaticParams() {
   return CANADA_CITY_SLUGS.map(city => ({ city }));
@@ -182,7 +183,7 @@ export default async function CityPage(
                             {u.intakeMonths.join(' & ')} intake
                           </span>
                           <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded-full">
-                            IELTS {u.requirements.ieltsMin}+
+                            IELTS {isTestPublished(u.slug, 'ielts') ? `${u.requirements.ieltsMin}+` : 'on request'}
                           </span>
                           <span className="bg-gold-50 text-gold-700 px-2 py-1 rounded-full">
                             PGWP Eligible

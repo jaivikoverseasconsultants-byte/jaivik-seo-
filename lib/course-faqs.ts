@@ -4,6 +4,7 @@ import { costOfLivingGuides } from '@/data/cost-of-living';
 import type { CourseForContent } from '@/lib/courseContent';
 import { isNonDegreeOffering } from '@/lib/psw-eligibility';
 import { isFeeVerified } from '@/lib/fee-verification';
+import { publishedEnglishTests, englishOnRequestNote } from '@/lib/english-verification';
 
 export interface Faq {
   question: string;
@@ -77,14 +78,23 @@ function tuitionFeeFaq(course: CourseForContent, universityName: string): Faq | 
 
 // ─── Q2 — IELTS ─────────────────────────────────────────────────────────────
 
-function ieltsFaq(course: CourseForContent, universityName: string): Faq | null {
-  if (typeof course.ieltsMin !== 'number' || course.ieltsMin <= 0) return null;
-  let answer = `${universityName}'s standard IELTS requirement for ${course.name} is an overall band of ${course.ieltsMin}+`;
-  if (typeof course.toeflMin === 'number' && course.toeflMin > 0) {
-    answer += `. TOEFL iBT ${course.toeflMin}+ is accepted as an alternative`;
+function ieltsFaq(course: CourseForContent, universityName: string, universitySlug?: string): Faq | null {
+  // Only scores the university itself publishes; house defaults answer honestly instead.
+  const published = publishedEnglishTests(universitySlug, course as never);
+  const score = (test: 'ielts' | 'toefl' | 'pte') => published.find((t) => t.test === test)?.value ?? 0;
+  if (!score('ielts')) {
+    if (typeof course.ieltsMin !== 'number' || course.ieltsMin <= 0) return null;
+    return {
+      question: `What English score do I need for ${course.name} at ${universityName}?`,
+      answer: englishOnRequestNote(universityName),
+    };
   }
-  if (typeof course.pteMin === 'number' && course.pteMin > 0) {
-    answer += `, and PTE Academic ${course.pteMin}+ is also accepted`;
+  let answer = `${universityName}'s standard IELTS requirement for ${course.name} is an overall band of ${score('ielts')}+`;
+  if (score('toefl')) {
+    answer += `. TOEFL iBT ${score('toefl')}+ is accepted as an alternative`;
+  }
+  if (score('pte')) {
+    answer += `, and PTE Academic ${score('pte')}+ is also accepted`;
   }
   answer += `. This is the university's published standard requirement — it is not broken down by section (listening/reading/writing/speaking) in our data, so confirm section-wise minimums with the admissions office before applying.`;
   return {
@@ -274,14 +284,14 @@ function worthItFaq(course: CourseForContent, universityName: string, university
 export function generateFaqs(
   course: CourseForContent,
   universityName: string,
-  _universitySlug: string
+  universitySlug: string
 ): Faq[] {
   const faqs: Faq[] = [];
 
   const q1 = tuitionFeeFaq(course, universityName);
   if (q1) faqs.push(q1);
 
-  const q2 = ieltsFaq(course, universityName);
+  const q2 = ieltsFaq(course, universityName, universitySlug);
   if (q2) faqs.push(q2);
 
   const q3 = pswFaq(course, universityName);

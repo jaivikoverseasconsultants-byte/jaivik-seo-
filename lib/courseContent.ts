@@ -1,4 +1,5 @@
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
+import { publishedEnglishTests } from '@/lib/english-verification';
 export interface CourseForContent {
   name: string;
   level: string;
@@ -317,7 +318,7 @@ function generateWhyStudy(country: string, uniName: string, pgwp?: boolean, vari
 
 // ─── Requirements ─────────────────────────────────────────────────────────────
 
-function generateRequirements(course: CourseForContent, intakes: string): string[] {
+function generateRequirements(course: CourseForContent, intakes: string, universityName: string, universitySlug: string): string[] {
   const level = course.level.toLowerCase();
   const isMasters = level.includes('master') || level.includes('msc') || level.includes('mba') || level.includes('meng');
   const isBachelors = level.includes('bachelor') || level.includes('bsc') || level.includes('beng') || level.includes('ba ');
@@ -345,10 +346,15 @@ function generateRequirements(course: CourseForContent, intakes: string): string
 
   const deadline = `Application deadline: Typically 3–6 months before the ${intakes} intake; early applications are strongly advised`;
 
+  // English lines only for tests this university publishes (lib/english-verification); the rest
+  // are house defaults and must not be stated as requirements.
+  const englishPublished = publishedEnglishTests(universitySlug, course as never);
+  const englishScore = (test: 'ielts' | 'toefl' | 'pte') => englishPublished.find((t) => t.test === test)?.value ?? 0;
   const reqs = [
-    `IELTS Academic: Minimum ${course.ieltsMin} overall (no individual band below 5.5 for most programmes)`,
-    `TOEFL iBT: Minimum ${course.toeflMin} (with section minimums varying by department)`,
-    course.pteMin ? `PTE Academic: Minimum ${course.pteMin} (no communicative skill below 42)` : null,
+    englishScore('ielts') ? `IELTS Academic: Minimum ${englishScore('ielts')} overall (no individual band below 5.5 for most programmes)` : null,
+    englishScore('toefl') ? `TOEFL iBT: Minimum ${englishScore('toefl')} (with section minimums varying by department)` : null,
+    englishScore('pte') ? `PTE Academic: Minimum ${englishScore('pte')} (no communicative skill below 42)` : null,
+    englishPublished.length === 0 ? `English language: ${universityName} does not publish one score for this programme — ask us to confirm the IELTS, TOEFL or PTE score you need` : null,
     academicReq,
     workExp,
     `Intake: ${intakes} — early application recommended to secure scholarship consideration`,
@@ -402,7 +408,7 @@ export function generateCourseContent(
   const whyStudyHere = generateWhyStudy(course.country, universityName, course.pgwp, variation);
 
   // ─── Requirements ────────────────────────────────────────────────────────
-  const requirements = generateRequirements(course, intakes);
+  const requirements = generateRequirements(course, intakes, universityName, universitySlug);
 
   return { about, careerOutcomes, whyStudyHere, requirements };
 }

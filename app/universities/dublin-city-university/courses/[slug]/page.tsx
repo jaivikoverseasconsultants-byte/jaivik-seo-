@@ -8,6 +8,8 @@ import JsonLd from '@/components/JsonLd';
 import CourseRichContent from '@/components/CourseRichContent';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 import { RATE_TO_INR, courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts, publishedScore } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'dublin-city-university';
 
 export async function generateStaticParams() {
   return (dcuCourses as unknown as any[]).map((c: any) => ({ slug: c.slug }));
@@ -20,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const fee = (course as any).annualEUR || (course as any).annualUSD || 0;
   return buildMetadata({
     title: `${course.name} at Dublin City University`,
-    description: `${course.name} at Dublin City University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at Dublin City University, ${(course as any).city || course.country}${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? `${hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ` IELTS ${course.ieltsMin}+` : ''},` : ''} intakes ${course.intakeMonths.join(' & ')}. Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/dublin-city-university/courses/${slug}`,
     keywords: [course.name, 'DCU', 'Dublin City University', 'study in Ireland', course.level],
   });
@@ -78,7 +80,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 {[
                   fee > 0 ? { label: 'Annual Fee', value: feeDisplay(course as any, fee, 'EUR'), sub: feeDisplayINRLakh(course as any, feeINRLakh, '/year') } : null,
                   totalFee > 0 ? { label: 'Total Fees', value: feeDisplay(course as any, totalFee, 'EUR'), sub: `${course.durationYears} year(s)` } : null,
-                  course.ieltsMin > 0 ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: course.toeflMin > 0 ? `TOEFL ${course.toeflMin}+` : undefined } : null,
+                  hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') ? `TOEFL ${course.toeflMin}+` : undefined } : null,
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Intake', value: (course.intakeMonths || []).join(' & '), sub: 'Annual' },
                   { label: 'Campus', value: 'Dublin', sub: 'Ireland' },
@@ -114,9 +116,9 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             <div className="bg-white rounded-2xl border border-gray-100 p-5">
               <h3 className="font-bold text-gray-900 mb-3">Eligibility</h3>
               <div className="space-y-2 text-sm">
-                {course.ieltsMin > 0 && <div className="flex justify-between"><span className="text-gray-500">IELTS</span><span className="font-medium">{course.ieltsMin}+</span></div>}
-                {course.toeflMin > 0 && <div className="flex justify-between"><span className="text-gray-500">TOEFL</span><span className="font-medium">{course.toeflMin}+</span></div>}
-                {(course.pteMin ?? 0) > 0 && <div className="flex justify-between"><span className="text-gray-500">PTE</span><span className="font-medium">{course.pteMin}+</span></div>}
+                {hasPublishedIelts(UNIVERSITY_SLUG, course as never) && <div className="flex justify-between"><span className="text-gray-500">IELTS</span><span className="font-medium">{course.ieltsMin}+</span></div>}
+                {publishedScore(UNIVERSITY_SLUG, course as never, 'toefl') && <div className="flex justify-between"><span className="text-gray-500">TOEFL</span><span className="font-medium">{course.toeflMin}+</span></div>}
+                {publishedScore(UNIVERSITY_SLUG, course as never, 'pte') && <div className="flex justify-between"><span className="text-gray-500">PTE</span><span className="font-medium">{course.pteMin}+</span></div>}
               </div>
             </div>
             )}

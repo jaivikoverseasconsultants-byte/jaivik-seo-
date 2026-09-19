@@ -15,6 +15,7 @@ import {
 } from '@/lib/country-subject-comparisons';
 import CountrySubjectComparisonPage from '@/components/CountrySubjectComparisonPage';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
 
 // Root-level dynamic segment handling TWO distinct decision-hub URL shapes,
 // merged into a single route. Next.js App Router's static export does not
@@ -248,7 +249,7 @@ function CheapestView({ country }: { country: string }) {
                     </td>
                     <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
                     <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
-                    <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
+                    <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                   </tr>
                 );
               })}
@@ -422,7 +423,7 @@ function BudgetView({ country, band, matches }: { country: string; band: number;
                     </td>
                     <td className="py-2.5 px-2 text-gray-700">{uni?.name ?? c.universitySlug}</td>
                     <td className="text-right py-2.5 px-2 font-semibold text-gray-900">₹{(courseAnnualINRLakh(c as any, 1) ?? '0')}L</td>
-                    <td className="text-right py-2.5 pl-2 text-gray-700">{c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
+                    <td className="text-right py-2.5 pl-2 text-gray-700">{hasPublishedIelts(c.universitySlug, c as never) && c.ieltsMin > 0 ? `${c.ieltsMin}+` : '—'}</td>
                   </tr>
                 );
               })}

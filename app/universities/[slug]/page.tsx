@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { universities, getUniversityBySlug } from '@/data/universities';
+import { isTestPublished } from '@/lib/english-verification';
 import { universityWebsites } from '@/data/university-websites';
 import { getCoursesBySlug, getAllRealCourses } from '@/data/university-course-registry';
 import LeadForm from '@/components/LeadForm';
@@ -412,8 +413,8 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
               <p className="text-gray-500 text-sm mb-5">Minimum eligibility for Indian students at {u.shortName}</p>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                 {[
-                  { label: 'IELTS Score', value: `${u.requirements.ieltsMin}+` },
-                  { label: 'TOEFL Score', value: `${u.requirements.toeflMin}+` },
+                  ...(isTestPublished(u.slug, 'ielts') ? [{ label: 'IELTS Score', value: `${u.requirements.ieltsMin}+` }] : []),
+                  ...(isTestPublished(u.slug, 'toefl') ? [{ label: 'TOEFL Score', value: `${u.requirements.toeflMin}+` }] : []),
                   { label: 'GRE Score', value: u.requirements.greMin ? `${u.requirements.greMin}+` : 'Not required' },
                   { label: 'GMAT Score', value: u.requirements.gmatMin ? `${u.requirements.gmatMin}+` : 'Not required' },
                 ].map(req => (
@@ -689,7 +690,9 @@ export default async function UniversityPage({ params }: { params: Promise<{ slu
                   },
                   {
                     q: `What are the IELTS requirements for ${u.shortName}?`,
-                    a: `${u.name} requires a minimum IELTS score of ${u.requirements.ieltsMin} overall. TOEFL iBT minimum is ${u.requirements.toeflMin}.`,
+                    a: isTestPublished(u.slug, 'ielts')
+                      ? `${u.name} requires a minimum IELTS score of ${u.requirements.ieltsMin} overall.${isTestPublished(u.slug, 'toefl') ? ` TOEFL iBT minimum is ${u.requirements.toeflMin}.` : ''}`
+                      : `${u.name} does not publish a single English score that applies across its programmes — ask us to confirm what your course needs.`,
                   },
                   {
                     q: `When is the application deadline for ${u.shortName}?`,

@@ -9,6 +9,8 @@ import CourseRichContent from '@/components/CourseRichContent';
 import CourseKeyFacts from '@/components/CourseKeyFacts';
 import { feeSentenceINR, feeDisplay, feeDisplayINRLakh, titleFeeFragment } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { hasPublishedIelts } from '@/lib/english-verification';
+const UNIVERSITY_SLUG = 'unsw-sydney';
 
 export async function generateStaticParams() {
   return unswW2Courses.map((c) => ({ slug: c.slug }));
@@ -20,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!course) return {};
   return buildMetadata({
     title: `${course.name} at UNSW Sydney`,
-    description: `${course.name} at UNSW Sydney, Sydney${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? ` IELTS ${course.ieltsMin}+,` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
+    description: `${course.name} at UNSW Sydney, Sydney${feeSentenceINR(course as any, course.annualINR)}${course.ieltsMin > 0 ? `${hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? ` IELTS ${course.ieltsMin}+` : ''},` : ''} Apply with Jaivik Overseas — 13 years expertise, 99% visa success.`,
     path: `/universities/unsw-sydney/courses/${slug}`,
     keywords: [course.name, 'UNSW', 'UNSW Sydney', 'study in Australia', course.level],
   });
@@ -60,7 +62,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {[
                   fee > 0 ? { label: 'Annual Fee', value: feeDisplay(course as any, fee, 'AUD'), sub: feeDisplayINRLakh(course as any, feeINRLakh, '/year') } : null,
-                  course.ieltsMin > 0 ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: undefined } : null,
+                  hasPublishedIelts(UNIVERSITY_SLUG, course as never) ? { label: 'IELTS', value: `${course.ieltsMin}+`, sub: undefined } : null,
                   { label: 'Duration', value: course.duration, sub: course.studyLevel },
                   { label: 'Campus', value: 'Sydney', sub: 'Australia' },
                 ].filter((x): x is { label: string; value: string; sub: string | undefined } => x !== null).map(({ label, value, sub }) => (

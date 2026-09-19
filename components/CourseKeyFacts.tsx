@@ -1,4 +1,5 @@
 import type { CourseForContent } from '@/lib/courseContent';
+import { englishOnRequestNote } from '@/lib/english-verification';
 import {
   getOverview,
   getFeesBreakdown,
@@ -18,7 +19,7 @@ export default function CourseKeyFacts({ course, universityName, universitySlug 
   const overview = getOverview(course, universityName);
   const fees = getFeesBreakdown(course);
   const cityLiving = getCityLivingCost(course);
-  const entryReq = getEntryRequirements(course);
+  const entryReq = getEntryRequirements(course, universitySlug);
   const psw = getPswPathway(course, universityName);
   const career = getCareerOutcomes(course, universitySlug);
 
@@ -87,13 +88,26 @@ export default function CourseKeyFacts({ course, universityName, universitySlug 
               <h3 className="text-sm font-semibold text-gray-900 mb-1.5">Academic Eligibility</h3>
               <p className="text-sm text-gray-700 leading-relaxed">{entryReq.academic}</p>
             </div>
+            {!entryReq.ielts && (
+              <div>
+                <h3 className="text-sm font-semibold text-gray-900 mb-1.5">English Language Requirement</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">{englishOnRequestNote(universityName)}</p>
+              </div>
+            )}
             {entryReq.ielts && (
               <div>
                 <h3 className="text-sm font-semibold text-gray-900 mb-1.5">IELTS Requirement</h3>
                 <p className="text-sm text-gray-700 leading-relaxed">
                   {universityName}&apos;s standard IELTS requirement for {course.name} is an overall band of <strong>{entryReq.ielts.min}+</strong>
-                  {entryReq.ielts.toefl ? <> (TOEFL iBT {entryReq.ielts.toefl}+ accepted as an alternative</> : null}
-                  {entryReq.ielts.toefl && entryReq.ielts.pte ? <>, PTE Academic {entryReq.ielts.pte}+ also accepted)</> : entryReq.ielts.toefl ? <>)</> : null}
+                  {/* alternatives listed only where this university publishes that test — a missing
+                      TOEFL no longer swallows a published PTE score (Durham, TMU, Waterloo) */}
+                  {(() => {
+                    const alts = [
+                      entryReq.ielts.toefl ? `TOEFL iBT ${entryReq.ielts.toefl}+` : null,
+                      entryReq.ielts.pte ? `PTE Academic ${entryReq.ielts.pte}+` : null,
+                    ].filter(Boolean) as string[];
+                    return alts.length ? <> ({alts.join(' and ')} accepted as an alternative)</> : null;
+                  })()}
                   . This is the university&apos;s published overall-band standard — our data does not include a section-wise (listening/reading/writing/speaking) breakdown, so confirm individual section minimums with the admissions office before applying.
                 </p>
               </div>

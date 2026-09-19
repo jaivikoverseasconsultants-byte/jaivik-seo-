@@ -3,6 +3,7 @@
 import { useState, useMemo, useCallback } from 'react';
 import Link from 'next/link';
 import type { University } from '@/types';
+import { isTestPublished } from '@/lib/english-verification';
 
 /* ─── Constants ─────────────────────────────────────────────────── */
 
@@ -527,7 +528,7 @@ export default function AdvancedCourseFinderClient({ universities }: { universit
                             <p className="text-gray-600 mt-0.5">Tuition/yr</p>
                           </div>
                           <div className="bg-green-50 rounded-lg p-2">
-                            <p className="font-bold text-green-700">{u.requirements.ieltsMin}+</p>
+                            <p className="font-bold text-green-700">{isTestPublished(u.slug, 'ielts') ? `${u.requirements.ieltsMin}+` : 'On request'}</p>
                             <p className="text-gray-600 mt-0.5">IELTS</p>
                           </div>
                           <div className="bg-purple-50 rounded-lg p-2">

@@ -13,6 +13,7 @@ import { getTrendingContext, getLocalGuidance } from '@/lib/trending-context';
 import DeadlineCountdown from '@/components/DeadlineCountdown';
 import { isFeeVerified, feeDisplayINRLakh } from '@/lib/fee-verification';
 import { courseAnnualINRLakh } from '@/lib/currency';
+import { publishedEnglishTests, englishOnRequestNote } from '@/lib/english-verification';
 
 interface Props {
   course: CourseForContent;
@@ -135,6 +136,10 @@ export default function CourseRichContent({ course, universityName, universitySl
   const intakeStatuses = course.intakeMonths.slice(0, 2).map(computeIntakeStatus);
 
   const fieldKeywords = getFieldKeywords(fieldLabel);
+  const englishPublished = publishedEnglishTests(universitySlug, course as never);
+  const publishedIelts = englishPublished.find(t => t.test === 'ielts')?.value ?? 0;
+  const publishedToefl = englishPublished.find(t => t.test === 'toefl')?.value ?? 0;
+  const publishedPte = englishPublished.find(t => t.test === 'pte')?.value ?? 0;
   const ieltsAlternatives = findAlternativeCourses(fieldKeywords, universitySlug, course.ieltsMin - 1, 2);
   const similarPrograms = findAlternativeCourses(fieldKeywords, universitySlug, undefined, 2);
 
@@ -375,14 +380,14 @@ export default function CourseRichContent({ course, universityName, universitySl
       </div>
 
       {/* Section B — IELTS Score Match — only when a real IELTS minimum exists */}
-      {course.ieltsMin > 0 && (
+      {publishedIelts > 0 && (
       <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
         <h2 className="text-xl font-bold text-gray-900 mb-4">Does Your IELTS Score Qualify?</h2>
         <div className="space-y-3">
           <div className="flex items-start gap-3 p-4 bg-green-50 border border-green-200 rounded-xl">
             <span className="text-green-600 text-lg flex-shrink-0 mt-0.5">✅</span>
             <div>
-              <p className="text-sm font-semibold text-green-800">IELTS {course.ieltsMin}+ — You qualify directly</p>
+              <p className="text-sm font-semibold text-green-800">IELTS {publishedIelts}+ — You qualify directly</p>
               <p className="text-xs text-green-700 mt-0.5">
                 Your score meets the minimum requirement for {course.name} at {universityName}. Proceed with your application — contact us for SOP and document guidance.
               </p>
@@ -392,7 +397,7 @@ export default function CourseRichContent({ course, universityName, universitySl
             <span className="text-yellow-600 text-lg flex-shrink-0 mt-0.5">⚠️</span>
             <div>
               <p className="text-sm font-semibold text-yellow-800">
-                IELTS {(course.ieltsMin - 0.5).toFixed(1)} — Pathway or pre-sessional programs may apply
+                IELTS {(publishedIelts - 0.5).toFixed(1)} — Pathway or pre-sessional programs may apply
               </p>
               <p className="text-xs text-yellow-700 mt-0.5">
                 You may be eligible for a pre-sessional English course or conditional offer leading to direct entry. Ask us about {universityName}&apos;s pathway options.
@@ -403,7 +408,7 @@ export default function CourseRichContent({ course, universityName, universitySl
             <span className="text-red-500 text-lg flex-shrink-0 mt-0.5">❌</span>
             <div>
               <p className="text-sm font-semibold text-red-800">
-                Below IELTS {(course.ieltsMin - 1).toFixed(1)} — Consider lower-threshold alternatives
+                Below IELTS {(publishedIelts - 1).toFixed(1)} — Consider lower-threshold alternatives
               </p>
               <p className="text-xs text-red-700 mt-0.5 mb-2">
                 Your score may not yet meet the requirement. Consider improving your IELTS or exploring similar {fieldLabel} programs with lower requirements:
@@ -416,7 +421,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                       href={`/universities/${alt.universitySlug}/courses/${alt.slug}`}
                       className="block text-xs text-red-700 underline hover:text-red-900 font-medium"
                     >
-                      {alt.name} at {slugToUniName(alt.universitySlug)} — IELTS {alt.ieltsMin}+ →
+                      {alt.name} at {slugToUniName(alt.universitySlug)} — IELTS {publishedEnglishTests(alt.universitySlug, alt as never).some(t => t.test === 'ielts') ? `${alt.ieltsMin}+` : 'on request'} →
                     </Link>
                   ))}
                 </div>
@@ -428,11 +433,11 @@ export default function CourseRichContent({ course, universityName, universitySl
             </div>
           </div>
         </div>
-        {((course.pteMin ?? 0) > 0 || course.toeflMin > 0) && (
+        {(publishedPte > 0 || publishedToefl > 0) && (
           <p className="text-xs text-gray-500 mt-3">
-            {(course.pteMin ?? 0) > 0 && `PTE Academic ${course.pteMin}+`}
-            {(course.pteMin ?? 0) > 0 && course.toeflMin > 0 && ' and '}
-            {course.toeflMin > 0 && `TOEFL iBT ${course.toeflMin}+`}
+            {publishedPte > 0 && `PTE Academic ${publishedPte}+`}
+            {publishedPte > 0 && publishedToefl > 0 && ' and '}
+            {publishedToefl > 0 && `TOEFL iBT ${publishedToefl}+`}
             {' '}are also accepted as IELTS equivalents at most institutions.
           </p>
         )}
@@ -446,7 +451,7 @@ export default function CourseRichContent({ course, universityName, universitySl
           How Does {universityName} Compare for {fieldLabel}?
         </h2>
         <p className="text-sm text-gray-700 leading-relaxed mb-4">
-          {universityName} charges USD ${course.annualUSD.toLocaleString()} per year for {course.name}, with an IELTS minimum of {course.ieltsMin} and {intakesText} intake{course.intakeMonths.length > 1 ? 's' : ''}. For Indian students evaluating options in {course.country}, this places {universityName} among the universities offering competitive {fieldLabel} programmes with strong graduate outcomes and post-study work rights.
+          {universityName} charges USD ${course.annualUSD.toLocaleString()} per year for {course.name}, {publishedIelts > 0 ? `with an IELTS minimum of ${publishedIelts} and ` : ''}{intakesText} intake{course.intakeMonths.length > 1 ? 's' : ''}. For Indian students evaluating options in {course.country}, this places {universityName} among the universities offering competitive {fieldLabel} programmes with strong graduate outcomes and post-study work rights.
         </p>
         <div className="grid grid-cols-3 gap-3 mb-4">
           <div className="bg-gray-50 rounded-xl p-3 text-center">
@@ -454,7 +459,7 @@ export default function CourseRichContent({ course, universityName, universitySl
             <p className="text-xs text-gray-500 mt-0.5">Annual Tuition (USD)</p>
           </div>
           <div className="bg-gray-50 rounded-xl p-3 text-center">
-            <p className="text-base font-bold text-gray-900">{course.ieltsMin}+</p>
+            <p className="text-base font-bold text-gray-900">{publishedIelts > 0 ? `${publishedIelts}+` : 'On request'}</p>
             <p className="text-xs text-gray-500 mt-0.5">IELTS Required</p>
           </div>
           <div className="bg-gray-50 rounded-xl p-3 text-center">
@@ -494,7 +499,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                 <tr className="border-b border-brand-100 bg-brand-50">
                   <td className="py-2.5 pr-3 font-semibold text-brand-800">{universityName} ★</td>
                   <td className="text-right py-2.5 px-2 text-brand-700">₹{inrLakh}L</td>
-                  <td className="text-right py-2.5 px-2 text-brand-700">{course.ieltsMin}+</td>
+                  <td className="text-right py-2.5 px-2 text-brand-700">{publishedIelts > 0 ? `${publishedIelts}+` : 'On request'}</td>
                   <td className="text-right py-2.5 px-2 text-brand-700">{course.duration}</td>
                   <td className="text-right py-2.5 pl-2 text-brand-700">{course.intakeMonths[0]}</td>
                 </tr>
@@ -511,7 +516,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                     <td className="text-right py-2.5 px-2 text-gray-700">
                       {feeDisplayINRLakh(prog as any, (courseAnnualINRLakh(prog as any, 1) ?? '0'), '')}
                     </td>
-                    <td className="text-right py-2.5 px-2 text-gray-700">{prog.ieltsMin}+</td>
+                    <td className="text-right py-2.5 px-2 text-gray-700">{publishedEnglishTests(universitySlug, prog as never).some(t => t.test === 'ielts') ? `${prog.ieltsMin}+` : '—'}</td>
                     <td className="text-right py-2.5 px-2 text-gray-700">{prog.duration}</td>
                     <td className="text-right py-2.5 pl-2 text-gray-700">{prog.intakeMonths[0]}</td>
                   </tr>
@@ -544,7 +549,7 @@ export default function CourseRichContent({ course, universityName, universitySl
                   <div className="min-w-0">
                     <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700 truncate">{rn.name}</p>
                     <p className="text-xs text-gray-500 mt-0.5">
-                      {rnUni?.name ?? rn.universitySlug} · {rn.country} · IELTS {rn.ieltsMin || '—'}+
+                      {rnUni?.name ?? rn.universitySlug} · {rn.country} · IELTS {publishedEnglishTests(rn.universitySlug, rn as never).some(t => t.test === 'ielts') ? `${rn.ieltsMin}+` : 'on request'}
                     </p>
                   </div>
                   <span className="text-xs font-semibold text-brand-700 flex-shrink-0">{feeDisplayINRLakh(rn as any, (courseAnnualINRLakh(rn as any, 1) ?? '0'), '/yr')} →</span>
@@ -648,7 +653,7 @@ export default function CourseRichContent({ course, universityName, universitySl
               >
                 <div>
                   <p className="text-sm font-semibold text-gray-900 group-hover:text-brand-700">{rc.name}</p>
-                  <p className="text-xs text-gray-500 mt-0.5">{rc.level} · {rc.duration}{rc.ieltsMin > 0 ? ` · IELTS ${rc.ieltsMin}+` : ''}</p>
+                  <p className="text-xs text-gray-500 mt-0.5">{rc.level} · {rc.duration}{publishedEnglishTests(universitySlug, rc as never).some(t => t.test === 'ielts') ? ` · IELTS ${rc.ieltsMin}+` : ''}</p>
                 </div>
                 <span className="text-brand-700 text-sm font-bold ml-4 flex-shrink-0">→</span>
               </Link>

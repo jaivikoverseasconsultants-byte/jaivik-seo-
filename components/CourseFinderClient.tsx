@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import type { University } from '@/types';
+import { isTestPublished } from '@/lib/english-verification';
 
 interface Props {
   courses: { id: string; name: string; level?: string; category?: string }[];
@@ -361,7 +362,7 @@ export default function CourseFinderClient({ universities }: Props) {
                           <p className="text-gray-600 mt-0.5">Total/yr</p>
                         </div>
                         <div className="bg-green-50 rounded-lg p-2">
-                          <p className="font-bold text-green-700">{u.requirements.ieltsMin}+</p>
+                          <p className="font-bold text-green-700">{isTestPublished(u.slug, 'ielts') ? `${u.requirements.ieltsMin}+` : 'On request'}</p>
                           <p className="text-gray-600 mt-0.5">IELTS</p>
                         </div>
                         <div className="bg-purple-50 rounded-lg p-2">

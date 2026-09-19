@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import { isTestPublished } from '@/lib/english-verification';
 
 interface University {
   id: string; name: string; slug: string; city: string; state: string; country: string;
@@ -273,7 +274,7 @@ export default function CountryUniversitiesClient({ unis, country }: Props) {
                   <div className="flex flex-wrap gap-2 mt-3 text-xs">
                     <span className="bg-green-50 text-green-700 px-2 py-1 rounded-full">✓ Visa {u.visaApprovalRate}%</span>
                     <span className="bg-blue-50 text-blue-700 px-2 py-1 rounded-full">📅 {u.intakeMonths.join(', ')}</span>
-                    <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded-full">IELTS {u.requirements.ieltsMin}+</span>
+                    {isTestPublished(u.slug, 'ielts') && <span className="bg-purple-50 text-purple-700 px-2 py-1 rounded-full">IELTS {u.requirements.ieltsMin}+</span>}
                   </div>
                   <div className="flex gap-3 mt-3">
                     <button
