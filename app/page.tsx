@@ -123,7 +123,7 @@ export default async function HomePage() {
             {/* Left: Copy + Search */}
             <div>
               <div className="inline-flex items-center gap-2 bg-gold-500/20 text-gold-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-5">
-                ⭐ India&apos;s Trusted Study Abroad Consultancy · Since 2012
+                ⭐ India&apos;s Trusted Study Abroad Consultancy · 13+ Years
               </div>
               <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
                 Study Abroad from India —{' '}

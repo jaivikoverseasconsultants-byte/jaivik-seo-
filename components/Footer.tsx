@@ -11,7 +11,7 @@ export default function Footer() {
               <img src="/joc-logo-circle.jpeg" alt="Jaivik Overseas Consultants" className="h-12 w-12 rounded-full" />
             </div>
             <p className="text-sm text-blue-200 leading-relaxed">
-              Trusted study abroad consultancy helping students across India achieve their international education dreams since 2012.
+              Trusted study abroad consultancy — 13+ years helping students across India achieve their international education dreams.
             </p>
             <div className="mt-4 space-y-1.5 text-sm">
               <p>📍 333 Orbit Plaza, Crossing Republik,<br />
