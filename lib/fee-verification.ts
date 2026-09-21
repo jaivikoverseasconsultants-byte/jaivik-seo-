@@ -56,7 +56,11 @@ export function feeDisplay(
 ): string {
   if (!isFeeVerified(course)) return UNVERIFIED_FEE_LABEL;
   if (typeof amount !== 'number' || amount <= 0) return UNVERIFIED_FEE_LABEL;
-  return `${SYMBOL[code] ?? code + ' '}${amount.toLocaleString()}`;
+  // Some universities publish a rate with cents (UNB's software/geological engineering is
+  // C$24,905.50). Plain toLocaleString renders that as "24,905.5", which reads like a typo, so
+  // give a non-integer amount both decimal places and leave whole amounts alone.
+  const digits = Number.isInteger(amount) ? undefined : { minimumFractionDigits: 2, maximumFractionDigits: 2 };
+  return `${SYMBOL[code] ?? code + ' '}${amount.toLocaleString(undefined, digits)}`;
 }
 
 /**

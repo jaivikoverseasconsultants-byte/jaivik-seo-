@@ -1,0 +1,672 @@
+{
+ "_source": "Each row read off that programme's own page on unb.ca, which states \"Degree(s)\" and \"Campus\".",
+ "_why": "UNB prices international tuition by DEGREE, not by major, and its fee calculator is keyed on the degree name. The 95 course rows carry majors, so the degree has to come from UNB before any rate can be attached. The same crawl also corrects the campus, which was Fredericton on all 95 rows.",
+ "_retrieved": "2026-09-21",
+ "rows": [
+  {
+   "slug": "unb-applied-arts",
+   "name": "Applied Arts",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/applied-arts/applied-arts.html"
+  },
+  {
+   "slug": "unb-accounting",
+   "name": "Accounting",
+   "degree": "Bachelor of Applied Management in Accounting",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/applied-management/accounting.html"
+  },
+  {
+   "slug": "unb-general-business",
+   "name": "General Business",
+   "degree": "Bachelor of Applied Management",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/applied-management/general-business.html"
+  },
+  {
+   "slug": "unb-anthropology",
+   "name": "Anthropology",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/anthropology.html"
+  },
+  {
+   "slug": "unb-biology",
+   "name": "Biology",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/biology.html"
+  },
+  {
+   "slug": "unb-classical-studies",
+   "name": "Classical Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/classical-studies.html"
+  },
+  {
+   "slug": "unb-classics",
+   "name": "Classics",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/classics.html"
+  },
+  {
+   "slug": "unb-comparative-cultural-studies",
+   "name": "Comparative Cultural Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/comparative-cultural-studies.html"
+  },
+  {
+   "slug": "unb-comparative-literature",
+   "name": "Comparative Literature",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/comparative-literature.html"
+  },
+  {
+   "slug": "unb-creative-writing",
+   "name": "Creative Writing",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/creative-writing.html"
+  },
+  {
+   "slug": "unb-criminal-justice-studies",
+   "name": "Criminal Justice Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/criminal-justice-studies.html"
+  },
+  {
+   "slug": "unb-criminology-and-criminal-justice",
+   "name": "Criminology and Criminal Justice",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/criminology.html"
+  },
+  {
+   "slug": "unb-drama",
+   "name": "Drama",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/drama.html"
+  },
+  {
+   "slug": "unb-economic-studies",
+   "name": "Economic Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/economic-studies.html"
+  },
+  {
+   "slug": "unb-economics",
+   "name": "Economics",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/economics-fr.html"
+  },
+  {
+   "slug": "unb-english",
+   "name": "English",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/english-fr.html"
+  },
+  {
+   "slug": "unb-french",
+   "name": "French",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/french.html"
+  },
+  {
+   "slug": "unb-gender-and-women-s-studies",
+   "name": "Gender and Women's Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/gender-and-womens-studies.html"
+  },
+  {
+   "slug": "unb-gender-studies",
+   "name": "Gender Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/gender-studies.html"
+  },
+  {
+   "slug": "unb-history",
+   "name": "History",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/history.html"
+  },
+  {
+   "slug": "unb-communication-studies",
+   "name": "Communication Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/information-and-communication-studies.html"
+  },
+  {
+   "slug": "unb-international-development-studies",
+   "name": "International Development Studies",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/international-development-studies.html"
+  },
+  {
+   "slug": "unb-law-in-society",
+   "name": "Law in Society",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/law-in-society.html"
+  },
+  {
+   "slug": "unb-linguistics",
+   "name": "Linguistics",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/linguistics.html"
+  },
+  {
+   "slug": "unb-mathematics",
+   "name": "Mathematics",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/mathematics.html"
+  },
+  {
+   "slug": "unb-media-arts-and-cultures",
+   "name": "Media Arts and Cultures",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/media-arts--cultures.html"
+  },
+  {
+   "slug": "unb-music",
+   "name": "Music",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/music.html"
+  },
+  {
+   "slug": "unb-neuroscience",
+   "name": "Neuroscience",
+   "degree": "Bachelor of Arts or Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/neuroscience.html"
+  },
+  {
+   "slug": "unb-philosophy",
+   "name": "Philosophy",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/philosophy.html"
+  },
+  {
+   "slug": "unb-political-science",
+   "name": "Political Science",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/political-science.html"
+  },
+  {
+   "slug": "unb-politics",
+   "name": "Politics",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/politics.html"
+  },
+  {
+   "slug": "unb-psychology",
+   "name": "Psychology",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/psychology.html"
+  },
+  {
+   "slug": "unb-sociology",
+   "name": "Sociology",
+   "degree": "Bachelor of Arts",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/arts/sociology.html"
+  },
+  {
+   "slug": "unb-statistics",
+   "name": "Statistics",
+   "degree": "Bachelor of Arts",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/arts/statistics.html"
+  },
+  {
+   "slug": "unb-digital-business-design",
+   "name": "Digital Business Design",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/business/digital-business-sj.html"
+  },
+  {
+   "slug": "unb-economics-and-finance-combined",
+   "name": "Economics and Finance (combined)",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/economics-and-finance-combined.html"
+  },
+  {
+   "slug": "unb-entrepreneurship",
+   "name": "Entrepreneurship",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/entrepreneurship.html"
+  },
+  {
+   "slug": "unb-finance",
+   "name": "Finance",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/finance.html"
+  },
+  {
+   "slug": "unb-french-communication-and-culture",
+   "name": "French Communication and Culture",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/business/french-communication-and-culture-sj.html"
+  },
+  {
+   "slug": "unb-human-resources-management",
+   "name": "Human Resources Management",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/hrm.html"
+  },
+  {
+   "slug": "unb-international-business",
+   "name": "International Business",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/international-business.html"
+  },
+  {
+   "slug": "unb-logistics",
+   "name": "Logistics",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/logistics.html"
+  },
+  {
+   "slug": "unb-marketing",
+   "name": "Marketing",
+   "degree": "Bachelor of Business Administration",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/business/marketing.html"
+  },
+  {
+   "slug": "unb-computer-science",
+   "name": "Computer Science",
+   "degree": "Bachelor of Computer Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/computer-science/computer-science_f.html"
+  },
+  {
+   "slug": "unb-adult-education",
+   "name": "Adult Education",
+   "degree": "Bachelor of Education in Adult Education",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/education/adult-education.html"
+  },
+  {
+   "slug": "unb-early-childhood-education",
+   "name": "Early Childhood Education",
+   "degree": "Bachelor of Education in Early Childhood Education",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/education/earlychildhood.html"
+  },
+  {
+   "slug": "unb-education",
+   "name": "Education",
+   "degree": "Bachelor of Education",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/education/education-fr.html"
+  },
+  {
+   "slug": "unb-wabanaki-governance",
+   "name": "Wabanaki Governance",
+   "degree": "Certificate or Diploma",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/education/wabanakigovernance.html"
+  },
+  {
+   "slug": "unb-chemical-engineering",
+   "name": "Chemical Engineering",
+   "degree": "Bachelor of Science in Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/engineering/chemical-engineering_f.html"
+  },
+  {
+   "slug": "unb-civil-engineering",
+   "name": "Civil Engineering",
+   "degree": "Bachelor of Science in Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/engineering/civil-f.html"
+  },
+  {
+   "slug": "unb-electrical-engineering",
+   "name": "Electrical Engineering",
+   "degree": "Bachelor of Science in Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/engineering/electrical.html"
+  },
+  {
+   "slug": "unb-environmental-engineering",
+   "name": "Environmental Engineering",
+   "degree": "Bachelor of Science in Engineering – Environmental Engineering",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/engineering/enveng_sj.html"
+  },
+  {
+   "slug": "unb-geological-engineering",
+   "name": "Geological Engineering",
+   "degree": "Bachelor of Science in Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/engineering/geological.html"
+  },
+  {
+   "slug": "unb-geomatics-engineering",
+   "name": "Geomatics Engineering",
+   "degree": "Bachelor of Science in Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/engineering/gge.html"
+  },
+  {
+   "slug": "unb-mechanical-engineering",
+   "name": "Mechanical Engineering",
+   "degree": "Bachelor of Science in Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/engineering/mechanical-f.html"
+  },
+  {
+   "slug": "unb-environmental-engineering-technology",
+   "name": "Environmental Engineering Technology",
+   "degree": "Bachelor of Environmental Engineering Technology",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/engineering-tech/environmental-engineering-technology.html"
+  },
+  {
+   "slug": "unb-environmental-management",
+   "name": "Environmental Management",
+   "degree": "Bachelor of Science in Environmental Management",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/environment-and-natural-resources/envm.html"
+  },
+  {
+   "slug": "unb-forestry",
+   "name": "Forestry",
+   "degree": "Bachelor of Science in Forestry",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/forestry/forestry.html"
+  },
+  {
+   "slug": "unb-biomedical-sciences-and-health",
+   "name": "Biomedical Sciences and Health",
+   "degree": "Bachelor of Health",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/health/biomedical.html"
+  },
+  {
+   "slug": "unb-management-in-health",
+   "name": "Management in Health",
+   "degree": "Bachelor of Health",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/health/management.html"
+  },
+  {
+   "slug": "unb-society-and-health",
+   "name": "Society and Health",
+   "degree": "Bachelor of Health",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/health/society-health.html"
+  },
+  {
+   "slug": "unb-radiography",
+   "name": "Radiography",
+   "degree": "Bachelor of Health Sciences",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/health-sciences/radiography.html"
+  },
+  {
+   "slug": "unb-respiratory-therapy",
+   "name": "Respiratory Therapy",
+   "degree": "Bachelor of Health Sciences",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/health-sciences/respiratory-therapy.html"
+  },
+  {
+   "slug": "unb-kinesiology",
+   "name": "Kinesiology",
+   "degree": "Bachelor of Science in Kinesiology",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/kin/kinesiology.html"
+  },
+  {
+   "slug": "unb-integrated-studies",
+   "name": "Integrated Studies",
+   "degree": "Bachelor of Integrated Studies",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/leadership-studies/integrated-studies.html"
+  },
+  {
+   "slug": "unb-leadership-studies",
+   "name": "Leadership Studies",
+   "degree": "Bachelor of Philosophy in Interdisciplinary Leadership",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/leadership-studies/leadership-studies.html"
+  },
+  {
+   "slug": "unb-medical-laboratory-science",
+   "name": "Medical Laboratory Science",
+   "degree": "Bachelor of Medical Laboratory Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/medical-laboratory-science/medical-laboratory-science.html"
+  },
+  {
+   "slug": "unb-nursing",
+   "name": "Nursing",
+   "degree": "Bachelor of Nursing",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/nursing/nursing.html"
+  },
+  {
+   "slug": "unb-nursing-accelerated-program",
+   "name": "Nursing - Accelerated Program",
+   "degree": "Bachelor of Nursing",
+   "campus": "Moncton",
+   "url": "https://www.unb.ca/academics/programs/nursing/nursingasp.html"
+  },
+  {
+   "slug": "unb-recreation-and-sport-studies",
+   "name": "Recreation and Sport Studies",
+   "degree": "Bachelor of Recreation and Sport Studies",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/recreation-and-sport-studies/brss.html"
+  },
+  {
+   "slug": "unb-applied-coastal-ecology",
+   "name": "Applied Coastal Ecology",
+   "degree": "Major in Applied Coastal Ecology",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/science/applied-coastal-ecology.html"
+  },
+  {
+   "slug": "unb-applied-physics",
+   "name": "Applied Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/applied-physics.html"
+  },
+  {
+   "slug": "unb-biology-chemistry",
+   "name": "Biology-Chemistry",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/biology-chemistry.html"
+  },
+  {
+   "slug": "unb-biology-psychology",
+   "name": "Biology-Psychology",
+   "degree": "Bachelor of Science",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/science/biology-psychology.html"
+  },
+  {
+   "slug": "unb-biology-mathematics-and-statistics",
+   "name": "Biology-Mathematics and Statistics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/biomath.html"
+  },
+  {
+   "slug": "unb-biology-physics",
+   "name": "Biology-Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/biophysics.html"
+  },
+  {
+   "slug": "unb-chemistry",
+   "name": "Chemistry",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/chemistry.html"
+  },
+  {
+   "slug": "unb-chemistry-physics",
+   "name": "Chemistry-Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/chemphys.html"
+  },
+  {
+   "slug": "unb-earth-sciences-physics",
+   "name": "Earth Sciences-Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/earth-phys.html"
+  },
+  {
+   "slug": "unb-earth-sciences",
+   "name": "Earth Sciences",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/earth-sciences.html"
+  },
+  {
+   "slug": "unb-engineering-physics",
+   "name": "Engineering Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/engineering-physics.html"
+  },
+  {
+   "slug": "unb-environmental-biology",
+   "name": "Environmental Biology",
+   "degree": "Bachelor of Science",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/science/environmental-biology.html"
+  },
+  {
+   "slug": "unb-environmental-geosciences",
+   "name": "Environmental Geosciences",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/environmental-geochemistry.html"
+  },
+  {
+   "slug": "unb-environmental-sciences",
+   "name": "Environmental Sciences",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/environmental-sciences.html"
+  },
+  {
+   "slug": "unb-general-science",
+   "name": "General Science",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/gensci.html"
+  },
+  {
+   "slug": "unb-geology",
+   "name": "Geology",
+   "degree": "A Minor in Geology is available within the Bachelor of Science in Saint John. Full degrees in Geology (Earth Science) need to be completed in Fredericton.",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/science/geology.html"
+  },
+  {
+   "slug": "unb-geological-studies",
+   "name": "Geological Studies",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/geostudies.html"
+  },
+  {
+   "slug": "unb-marine-biology",
+   "name": "Marine Biology",
+   "degree": "Bachelor of Science",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/science/marine-biology.html"
+  },
+  {
+   "slug": "unb-mathematics-physics",
+   "name": "Mathematics-Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/math-phys.html"
+  },
+  {
+   "slug": "unb-mathematics-statistics-economics",
+   "name": "Mathematics/Statistics-Economics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/mathecon.html"
+  },
+  {
+   "slug": "unb-mathematics-and-statistics",
+   "name": "Mathematics and Statistics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/mathematics-and-statistics.html"
+  },
+  {
+   "slug": "unb-medicinal-chemistry",
+   "name": "Medicinal Chemistry",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/medchem.html"
+  },
+  {
+   "slug": "unb-physics",
+   "name": "Physics",
+   "degree": "Bachelor of Science",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/science/physics.html"
+  },
+  {
+   "slug": "unb-social-work",
+   "name": "Social Work",
+   "degree": "Bachelor of Social Work",
+   "campus": "Saint John",
+   "url": "https://www.unb.ca/academics/programs/socialwork/socialwork.html"
+  },
+  {
+   "slug": "unb-software-engineering",
+   "name": "Software Engineering",
+   "degree": "Bachelor of Science in Software Engineering",
+   "campus": "Fredericton",
+   "url": "https://www.unb.ca/academics/programs/software-engineering/software_eng.html"
+  }
+ ]
+}

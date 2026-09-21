@@ -310,12 +310,101 @@ function applyInstitutionEnglish() {
   return out;
 }
 
+// ── UNB ──────────────────────────────────────────────────────────────────────
+// UNB prices international tuition by DEGREE, and its fee calculator is keyed on the degree name.
+// Our 95 rows are majors, so data/wave-canada/unb-programme-degrees.json supplies the degree each
+// major leads to, read off that programme's own page. A major whose degree has no matching rate in
+// the calculator is left unverified — never mapped to the nearest-looking one.
+const UNB_DEGREE_RATE = [
+  // [matches the degree UNB states, calculator programme, tuition, total incl. fees by campus]
+  { deg: /^Bachelor of Arts$/, prog: 'Bachelor of Arts', tuition: 20903, total: { Fredericton: 22754, 'Saint John': 22490 } },
+  { deg: /^Bachelor of Business Administration$/, prog: 'Bachelor of Business Administration', tuition: 22996, total: { Fredericton: 24847, 'Saint John': 24583 } },
+  { deg: /^Bachelor of Computer Science$/, prog: 'Bachelor of Computer Science', tuition: 22514, total: { Fredericton: 24365, 'Saint John': 24101 } },
+  // Software and Geological engineering are priced below the other engineering degrees
+  { deg: /Software Engineering|Geological Engineering/, prog: 'Bachelor of Engineering – Software/Geological', tuition: 24905.5, total: { Fredericton: 26756.5, 'Saint John': 26492.5 } },
+  { deg: /^Bachelor of Science in Engineering/, prog: 'Bachelor of Engineering', tuition: 25871, total: { Fredericton: 27722, 'Saint John': 27458 } },
+  { deg: /^Bachelor of Science in Forestry$|^Bachelor of Science in Environmental Management$/, prog: 'Bachelor of Forestry & Environmental Management', tuition: 22374, total: { Fredericton: 24225 } },
+  { deg: /^Bachelor of Science in Kinesiology$/, prog: 'Bachelor of Science in Kinesiology', tuition: 22996, total: { Fredericton: 24847 } },
+  { deg: /^Bachelor of Philosophy/, prog: 'Bachelor of Philosophy (School of Leadership Studies)', tuition: 22374, total: { Fredericton: 24425 } },
+  { deg: /^Bachelor of Integrated Studies$/, prog: 'Bachelor of Integrated Studies (School of Leadership Studies)', tuition: 20903, total: { Fredericton: 22754 } },
+  { deg: /^Bachelor of Health$/, prog: 'Bachelor of Health', tuition: 20860, total: { 'Saint John': 22408.5 } },
+  { deg: /^Bachelor of Health Sciences$/, prog: 'Bachelor of Health Sciences', tuition: 21618, total: { 'Saint John': 23205 } },
+  { deg: /^Bachelor of Social Work$/, prog: 'Bachelor of Social Work', tuition: 20903, total: { 'Saint John': 22490 } },
+  // the accelerated nursing programme is delivered in Moncton and priced on its own line
+  { deg: /^Bachelor of Nursing$/, campus: /Moncton/, prog: 'Bachelor of Nursing Accelerated Program (Moncton)', tuition: 34438.5, total: { Moncton: 35641.5 } },
+  // a BSc major is a BSc whether the page words it as a degree or as a major within one
+  { deg: /^Bachelor of Science$|^Major in |Full degrees in Geology/, prog: 'Bachelor of Science', tuition: 21618, total: { Fredericton: 23469, 'Saint John': 23205 } },
+];
+
+// UNB's own English page: one baseline for direct entry, and a named set of programmes at 7.0.
+// The 7.0 list is by campus, so a Saint John BA stays at the baseline while a Fredericton one does
+// not. Rows we cannot place on one side of that line publish nothing rather than a guess.
+const UNB_ENGLISH_BASE = { ielts: 6.5, toefl: 85, pte: 59 };
+const UNB_ENGLISH_HIGH = { ielts: 7, toefl: 100, pte: 68 };
+const UNB_ENGLISH_SRC = 'https://www.unb.ca/international/admission/english.html';
+
+function unbEnglishTier(degree, campus) {
+  // "Bachelor of Arts or Bachelor of Science" — a Fredericton BA is 7.0 and a BSc is 6.5, and the
+  // row does not say which the student takes
+  if (/ or Bachelor of/.test(degree)) return null;
+  // UNB names "Health Sciences" at Saint John; it also runs a separate Bachelor of Health degree
+  // there, and its own fee calculator treats the two as different degrees, so this one is unclear
+  if (/^Bachelor of Health$/.test(degree)) return null;
+  const fredericton = /Fredericton/.test(campus);
+  if (/Nursing/.test(degree)) return UNB_ENGLISH_HIGH; // named on both campuses
+  if (fredericton && /^Bachelor of (Arts|Education)/.test(degree)) return UNB_ENGLISH_HIGH;
+  if (/Saint John/.test(campus) && /^Bachelor of Health Sciences$/.test(degree)) return UNB_ENGLISH_HIGH;
+  return UNB_ENGLISH_BASE;
+}
+
+function applyUnb() {
+  const file = 'data/unb-courses.ts';
+  const ev = read('data/wave-canada/unb-programme-degrees.json');
+  const bySlug = new Map(ev.rows.map((r) => [r.slug, r]));
+  const doc = loadArray(file);
+  const review = [];
+  let fees = 0; let campuses = 0; let high = 0; let noEnglish = 0;
+  for (const c of doc.arr) {
+    const p = bySlug.get(c.slug);
+    if (!p) continue;
+
+    // campus first: every row said Fredericton, including the Saint John and Moncton programmes
+    const campus = `${p.campus}${/Moncton/.test(p.campus) ? '' : ' Campus'}`;
+    if (c.campus !== campus) { c.campus = campus; c.city = p.campus; campuses++; }
+
+    const hit = UNB_DEGREE_RATE.find((r) => r.deg.test(p.degree) && (!r.campus || r.campus.test(p.campus)));
+    if (!hit) {
+      review.push(`${c.name} — UNB states "${p.degree}" (${p.campus}), which its fee calculator does not list`);
+    } else {
+      const total = hit.total[p.campus];
+      setFee(c, hit.tuition, {
+        feeScope: 'degree',
+        feeBasis: `annual international tuition for the ${hit.prog}, 2026-27, full-time — UNB prices by degree, not by major${total ? `; mandatory fees are charged on top, and UNB estimates C$${total.toLocaleString('en-CA')} in tuition and fees for one academic year at ${p.campus}` : ''}`,
+        feeSourceUrl: 'https://es.unb.ca/apps/tuition-calculator/',
+      });
+      fees++;
+    }
+
+    const tier = unbEnglishTier(p.degree, p.campus);
+    if (!tier) { delete c.englishVerified; noEnglish++; continue; }
+    c.ieltsMin = tier.ielts; c.toeflMin = tier.toefl; c.pteMin = tier.pte;
+    c.englishVerified = { ...tier, sourceUrl: UNB_ENGLISH_SRC, verifiedOn: '2026-09-21' };
+    c.englishScope = 'institution-wide';
+    if (tier === UNB_ENGLISH_HIGH) high++;
+  }
+  writeArray(file, doc, doc.arr);
+  return { fees, campuses, high, noEnglish, review, total: doc.arr.length };
+}
+
 const dal = applyDal();
 const uw = applyWaterloo();
 const programme = applyProgrammeVerified();
+const unb = applyUnb();
 const instEnglish = applyInstitutionEnglish();
 console.log(`Dalhousie: ${dal} bachelor's rows verified from the international tuition guarantee`);
 console.log(`Waterloo:  ${uw.n} rows verified from the first-year table; per-term rate corrected on all rows`);
 console.log(`Institution English applied: ${instEnglish.join("; ")}`);
 console.log(`Programme-level verified rows: ${programme.length} (${programme.join(", ")})`);
 console.log(`Waterloo left for manual review (${uw.review.length}):\n  ${uw.review.join('\n  ')}`);
+console.log(`UNB: ${unb.fees} of ${unb.total} rows priced from UNB's own calculator; ${unb.campuses} campus labels corrected; English on ${unb.total - unb.noEnglish} rows (${unb.high} at the 7.0 tier), ${unb.noEnglish} left unpublished`);
+console.log(`UNB left for manual review (${unb.review.length}):\n  ${unb.review.join('\n  ')}`);
