@@ -26,7 +26,9 @@ const PRINTS = [
 const BACKLOG = [/CourseMatcherClient.tsx/, /CompareClient.tsx/];
 const ALLOW = /publishedEnglishTests|isTestPublished|publishedScore|hasPublishedIelts|englishOnRequestNote|publishedIelts|publishedToefl|publishedPte/;
 
-const files = git('ls-files', 'app', 'components', 'lib').filter((f) => /\.(tsx|ts)$/.test(f));
+// --cached --others --exclude-standard: a route generated but not yet committed is exactly
+// where an unguarded score hides — a tracked-only listing skipped 7 generated routes once.
+const files = git('ls-files', '--cached', '--others', '--exclude-standard', 'app', 'components', 'lib').filter((f) => /\.(tsx|ts)$/.test(f));
 const problems = [];
 const backlog = [];
 for (const rel of files) {

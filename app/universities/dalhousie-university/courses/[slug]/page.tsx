@@ -120,11 +120,17 @@ export default async function CoursePage(
                 </div>
               ))}
             </div>
+            {isFeeVerified(course as any) && (course as any).feeBasis && (
+              <p className="text-xs text-gray-500 mt-4">
+                Fee basis: {(course as any).feeBasis}.{' '}
+                {(course as any).feeSourceUrl && <a href={(course as any).feeSourceUrl} target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">Source ↗</a>}
+              </p>
+            )}
           </div>
 
           <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
             <h2 className="text-xl font-bold text-gray-900 mb-4">English Language Requirements</h2>
-            {entryRequirementsVaryByCourse(UNIVERSITY_SLUG) && publishedEnglishTests(UNIVERSITY_SLUG, course as never).length > 0 ? (
+            {publishedEnglishTests(UNIVERSITY_SLUG, course as never).length > 0 && (entryRequirementsVaryByCourse(UNIVERSITY_SLUG) || !!(course as any).englishVerified) ? (
               <div className="grid grid-cols-3 gap-4">
               {publishedEnglishTests(UNIVERSITY_SLUG, course as never)
                 .map(t => ({ label: t.label, value: `${t.value}+` }))

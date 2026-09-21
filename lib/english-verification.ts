@@ -28,6 +28,21 @@ export interface EnglishBearingCourse {
   pteMin?: number;
   /** per-row provenance written by the Canada-wave generator */
   englishScope?: string;
+  /**
+   * Scores read off THIS programme's own page on the university's site, with the page they came
+   * from. Per-programme proof outranks the university-level record in ENGLISH_PUBLISHED, which
+   * only says whether a university states one score for everything: a university that publishes
+   * nothing institution-wide can still publish a score on a particular programme's page, and a
+   * graduate programme routinely asks for more than the institutional floor.
+   * Only the tests listed here publish; a test left out stays suppressed.
+   */
+  englishVerified?: {
+    ielts?: number;
+    toefl?: number;
+    pte?: number;
+    sourceUrl: string;
+    verifiedOn: string;
+  };
 }
 
 const LABELS: Record<EnglishTest, string> = {
@@ -68,7 +83,17 @@ export function publishedEnglishTests(
   universitySlug: string | undefined,
   course: EnglishBearingCourse | null | undefined,
 ): Array<{ test: EnglishTest; label: string; value: number }> {
-  if (!course || rowIsHouseDefault(course)) return [];
+  if (!course) return [];
+  // Per-programme scores verified at the source win outright, in both directions: they publish
+  // even where the university publishes nothing institution-wide, and a test they omit stays
+  // suppressed even if the university does publish one.
+  const verified = course.englishVerified;
+  if (verified) {
+    return (Object.keys(LABELS) as EnglishTest[])
+      .map((test) => ({ test, label: LABELS[test], value: Number(verified[test] ?? 0) }))
+      .filter((t) => t.value > 0);
+  }
+  if (rowIsHouseDefault(course)) return [];
   return (Object.keys(LABELS) as EnglishTest[])
     .map((test) => ({ test, label: LABELS[test], value: Number(course[FIELDS[test]] ?? 0) }))
     .filter((t) => t.value > 0 && isTestPublished(universitySlug, t.test));
@@ -99,6 +124,7 @@ export function englishOnRequestNote(universityName: string): string {
 
 /** Where the published figures came from, for a source link under the scores. */
 export function englishScopeNote(universitySlug: string | undefined, course?: EnglishBearingCourse | null): string {
+  if (course?.englishVerified) return 'Published on this programme’s own page.';
   const scope = course?.englishScope ?? englishPublication(universitySlug)?.scope ?? '';
   return /institution/i.test(scope)
     ? 'University-wide minimum — some programmes set a higher score.'
