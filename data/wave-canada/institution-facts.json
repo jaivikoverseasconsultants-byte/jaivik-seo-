@@ -89,9 +89,19 @@
   "University of Ottawa": {
     "university": "University of Ottawa",
     "applicationFee": {
-      "amountCAD": 104,
-      "evidence": "ide Canada. Unless you’re applying for a program without an application fee, you must pay a $104 fee . Within one week applying, you’ll receive an acknowledgment email from us. This email will include your student number, as well ",
-      "sourceUrl": "https://www.uottawa.ca/study/undergraduate-studies/how-to-apply"
+      "undergraduateCAD": 104,
+      "graduateCAD": 125,
+      "verified": true,
+      "verifiedOn": "2026-09-19",
+      "sourceUrls": [
+        "https://www.uottawa.ca/study/undergraduate-studies/how-to-apply",
+        "https://www.uottawa.ca/study/fees-financial-support/university-fees/administrative-fees"
+      ],
+      "sourceQuotes": [
+        "Unless you are applying for a program without an application fee, you must pay a $104 fee. (undergraduate how-to-apply)",
+        "File evaluation — graduate and professional programs: Graduate studies — application $125.00 (amounts effective starting September 1, 2026)"
+      ],
+      "note": "Two different populations, both published by uOttawa: $104 for undergraduate applications, $125 for graduate and professional programs. The single 104 previously stored was the undergraduate figure only."
     },
     "deposit": {
       "amountCAD": 2000,
@@ -105,7 +115,23 @@
       "verified": false,
       "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
     },
-    "pagesTried": 12
+    "pagesTried": 12,
+    "english": {
+      "resolved": false,
+      "checkedOn": "2026-09-19",
+      "note": "The programme page (Master of Computer Science, AI concentration) states only that proof of proficiency may be required and names no IELTS/TOEFL/PTE score; no institution-wide score found on uOttawa pages.",
+      "pagesChecked": [
+        "https://catalogue.uottawa.ca/en/graduate/master-computer-science-specialization-artificialintelligence/",
+        "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international"
+      ]
+    },
+    "tuition": {
+      "basis": "per term",
+      "resolved": true,
+      "verifiedOn": "2026-09-17",
+      "note": "uOttawa publishes international tuition per TERM per discipline in its own fee tool, not as a yearly figure — see data/wave-canada/uottawa-intl-fee-tool.json. Not written to annualCAD: the field and the page label say annual.",
+      "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international"
+    }
   },
   "Dalhousie University": {
     "university": "Dalhousie University",
