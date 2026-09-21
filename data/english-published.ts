@@ -9,7 +9,7 @@
 // universities whose real per-course IELTS varies). Add universities here as they are checked.
 //
 // Canada rows come from data/wave-canada/institution-english.json (16 universities,
-// generated 2026-09-18).
+// generated 2026-09-21).
 
 export interface EnglishPublication {
   /** the university's own page states an IELTS score */
@@ -33,7 +33,7 @@ export const ENGLISH_PUBLISHED: Record<string, EnglishPublication> = {
   'toronto-metropolitan-university': { ielts: true, toefl: false, pte: true, scope: 'institution-wide', sourceUrl: 'https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/', note: null },
   'university-of-alberta': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://www.ualberta.ca/en/admissions/undergraduate/admission/admission-requirements/english-language-requirement/index.html', note: null },
   'university-of-guelph': { ielts: true, toefl: true, pte: true, scope: 'institution-wide', sourceUrl: 'https://admission.uoguelph.ca/englishproficiency', note: null },
-  'university-of-manitoba': { ielts: true, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://umanitoba.ca/admissions/undergraduate/requirements/english-language-proficiency', note: null },
+  'university-of-manitoba': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements', note: 'Published for UNDERGRADUATE admission only — the page states graduate applicants must check each programme. Applied to the 200 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); nothing publishes university-wide.' },
   'university-of-new-brunswick': { ielts: true, toefl: true, pte: true, scope: 'institution-wide', sourceUrl: 'https://www.unb.ca/international/admission/english.html', note: null },
   'university-of-ottawa': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://www.uottawa.ca/study/undergraduate-studies/admission/language-requirements', note: null },
   'university-of-victoria': { ielts: false, toefl: false, pte: false, scope: 'institution-wide', sourceUrl: 'https://www.uvic.ca/undergraduate/admissions/admission-requirements/english-language-requirements/index.php', note: null },

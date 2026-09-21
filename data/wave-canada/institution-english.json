@@ -190,14 +190,20 @@
     ]
   },
   "University of Manitoba": {
-    "url": "https://umanitoba.ca/admissions/undergraduate/requirements/english-language-proficiency",
+    "url": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
     "http": "200",
-    "chars": 13106,
     "ielts": [
       "6.5"
     ],
-    "toefl": [],
-    "pte": []
+    "toefl": [
+      "86"
+    ],
+    "pte": [
+      "58"
+    ],
+    "resolved": false,
+    "unresolvedReason": "Published for UNDERGRADUATE admission only — the page states graduate applicants must check each programme. Applied to the 200 undergraduate rows as englishVerified (scripts/apply-canada-published-fees.js); nothing publishes university-wide.",
+    "checkedOn": "2026-09-21"
   },
   "Toronto Metropolitan": {
     "url": "https://www.torontomu.ca/admissions/undergraduate/requirements/english-language/",

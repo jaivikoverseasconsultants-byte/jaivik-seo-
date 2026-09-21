@@ -10,6 +10,8 @@
 
 export interface UmanitobaCourse {
   feeVerified?: boolean;
+  /** scores read off the university's own requirements page — see lib/english-verification */
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   id: string; name: string; slug: string; url: string;
   level: string; studyLevel: string; duration: string; durationYears: number;
   annualCAD: number; annualUSD: number; annualINR: number; totalCAD: number;
@@ -39,7 +41,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -50,7 +52,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-2",
@@ -70,7 +79,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -81,7 +90,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-3",
@@ -101,7 +117,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -112,7 +128,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-4",
@@ -132,7 +155,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -143,7 +166,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-5",
@@ -194,7 +224,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -205,7 +235,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-7",
@@ -225,7 +262,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -236,7 +273,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-8",
@@ -256,7 +300,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -267,7 +311,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-9",
@@ -349,7 +400,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -360,7 +411,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-12",
@@ -380,7 +438,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -391,7 +449,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-13",
@@ -411,7 +476,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -422,7 +487,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-14",
@@ -442,7 +514,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -453,7 +525,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-15",
@@ -473,7 +552,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -484,7 +563,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-16",
@@ -504,7 +590,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -515,7 +601,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-17",
@@ -659,7 +752,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -670,7 +763,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-22",
@@ -690,7 +790,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -701,7 +801,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-23",
@@ -721,7 +828,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -732,7 +839,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-24",
@@ -783,7 +897,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -794,7 +908,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-26",
@@ -814,7 +935,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -825,7 +946,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-27",
@@ -845,7 +973,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -856,7 +984,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-28",
@@ -876,7 +1011,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -887,7 +1022,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-29",
@@ -969,7 +1111,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -980,7 +1122,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-32",
@@ -1000,7 +1149,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1011,7 +1160,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-33",
@@ -1031,7 +1187,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1042,7 +1198,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-34",
@@ -1062,7 +1225,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1073,7 +1236,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-35",
@@ -1217,7 +1387,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1228,7 +1398,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-40",
@@ -1310,7 +1487,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1321,7 +1498,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-43",
@@ -1341,7 +1525,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1352,7 +1536,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-44",
@@ -1403,7 +1594,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1414,7 +1605,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-46",
@@ -1434,7 +1632,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1445,7 +1643,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-47",
@@ -1465,7 +1670,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1476,7 +1681,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-48",
@@ -1496,7 +1708,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1507,7 +1719,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-49",
@@ -1527,7 +1746,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1538,7 +1757,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-50",
@@ -1558,7 +1784,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1569,7 +1795,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-51",
@@ -1589,7 +1822,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1600,7 +1833,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-52",
@@ -1620,7 +1860,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1631,7 +1871,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-53",
@@ -1651,7 +1898,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1662,7 +1909,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-54",
@@ -1744,7 +1998,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1755,7 +2009,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-57",
@@ -1775,7 +2036,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1786,7 +2047,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-58",
@@ -1868,7 +2136,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1879,7 +2147,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-61",
@@ -1899,7 +2174,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1910,7 +2185,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-62",
@@ -1930,7 +2212,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -1941,7 +2223,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-63",
@@ -2085,7 +2374,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2096,7 +2385,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-68",
@@ -2116,7 +2412,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2127,7 +2423,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-69",
@@ -2147,7 +2450,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2158,7 +2461,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-70",
@@ -2178,7 +2488,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2189,7 +2499,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-71",
@@ -2271,7 +2588,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2282,7 +2599,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-74",
@@ -2302,7 +2626,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2313,7 +2637,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-75",
@@ -2333,7 +2664,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2344,7 +2675,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-76",
@@ -2364,7 +2702,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2375,7 +2713,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-77",
@@ -2426,7 +2771,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2437,7 +2782,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-79",
@@ -2457,7 +2809,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2468,7 +2820,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-80",
@@ -2488,7 +2847,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2499,7 +2858,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-81",
@@ -2612,7 +2978,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2623,7 +2989,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-85",
@@ -2705,7 +3078,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2716,7 +3089,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-88",
@@ -2736,7 +3116,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2747,7 +3127,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-89",
@@ -2767,7 +3154,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2778,7 +3165,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-90",
@@ -2798,7 +3192,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2809,7 +3203,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-91",
@@ -2860,7 +3261,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2871,7 +3272,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-93",
@@ -2922,7 +3330,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -2933,7 +3341,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-95",
@@ -3046,7 +3461,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3057,7 +3472,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-99",
@@ -3077,7 +3499,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3088,7 +3510,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-100",
@@ -3108,7 +3537,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3119,7 +3548,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-101",
@@ -3139,7 +3575,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3150,7 +3586,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-102",
@@ -3170,7 +3613,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3181,7 +3624,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-103",
@@ -3201,7 +3651,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3212,7 +3662,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-104",
@@ -3356,7 +3813,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3367,7 +3824,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-109",
@@ -3418,7 +3882,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3429,7 +3893,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-111",
@@ -3449,7 +3920,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3460,7 +3931,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-112",
@@ -3480,7 +3958,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3491,7 +3969,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-113",
@@ -3511,7 +3996,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3522,7 +4007,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-114",
@@ -3573,7 +4065,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3584,7 +4076,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-116",
@@ -3604,7 +4103,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3615,7 +4114,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-117",
@@ -3635,7 +4141,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3646,7 +4152,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-118",
@@ -3666,7 +4179,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3677,7 +4190,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-119",
@@ -3697,7 +4217,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3708,7 +4228,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-120",
@@ -3728,7 +4255,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3739,7 +4266,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-121",
@@ -3759,7 +4293,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3770,7 +4304,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-122",
@@ -3852,7 +4393,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3863,7 +4404,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-125",
@@ -3883,7 +4431,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3894,7 +4442,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-126",
@@ -3914,7 +4469,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3925,7 +4480,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-127",
@@ -3945,7 +4507,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3956,7 +4518,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-128",
@@ -3976,7 +4545,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -3987,7 +4556,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-129",
@@ -4007,7 +4583,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4018,7 +4594,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-130",
@@ -4131,7 +4714,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4142,7 +4725,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-134",
@@ -4162,7 +4752,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4173,7 +4763,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-135",
@@ -4317,7 +4914,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4328,7 +4925,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-140",
@@ -4348,7 +4952,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4359,7 +4963,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-141",
@@ -4379,7 +4990,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4390,7 +5001,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-142",
@@ -4410,7 +5028,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4421,7 +5039,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-143",
@@ -4441,7 +5066,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4452,7 +5077,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-144",
@@ -4534,7 +5166,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4545,7 +5177,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-147",
@@ -4565,7 +5204,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4576,7 +5215,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-148",
@@ -4596,7 +5242,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4607,7 +5253,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-149",
@@ -4627,7 +5280,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4638,7 +5291,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-150",
@@ -4658,7 +5318,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4669,7 +5329,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-151",
@@ -4689,7 +5356,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4700,7 +5367,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-152",
@@ -4720,7 +5394,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4731,7 +5405,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-153",
@@ -4751,7 +5432,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4762,7 +5443,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-154",
@@ -4782,7 +5470,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4793,7 +5481,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-155",
@@ -4844,7 +5539,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4855,7 +5550,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-157",
@@ -4875,7 +5577,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4886,7 +5588,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-158",
@@ -4906,7 +5615,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -4917,7 +5626,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-159",
@@ -4999,7 +5715,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5010,7 +5726,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-162",
@@ -5030,7 +5753,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5041,7 +5764,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-163",
@@ -5061,7 +5791,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5072,7 +5802,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-164",
@@ -5092,7 +5829,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5103,7 +5840,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-165",
@@ -5123,7 +5867,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5134,7 +5878,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-166",
@@ -5154,7 +5905,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5165,7 +5916,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-167",
@@ -5309,7 +6067,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5320,7 +6078,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-172",
@@ -5340,7 +6105,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5351,7 +6116,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-173",
@@ -5433,7 +6205,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5444,7 +6216,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-176",
@@ -5464,7 +6243,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5475,7 +6254,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-177",
@@ -5495,7 +6281,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5506,7 +6292,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-178",
@@ -5526,7 +6319,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5537,7 +6330,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-179",
@@ -5650,7 +6450,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5661,7 +6461,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-183",
@@ -5681,7 +6488,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5692,7 +6499,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-184",
@@ -5712,7 +6526,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5723,7 +6537,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-185",
@@ -5743,7 +6564,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5754,7 +6575,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-186",
@@ -5774,7 +6602,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5785,7 +6613,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-187",
@@ -5960,7 +6795,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -5971,7 +6806,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-193",
@@ -5991,7 +6833,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6002,7 +6844,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-194",
@@ -6022,7 +6871,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6033,7 +6882,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-195",
@@ -6053,7 +6909,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6064,7 +6920,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-196",
@@ -6239,7 +7102,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6250,7 +7113,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-202",
@@ -6270,7 +7140,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6281,7 +7151,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-203",
@@ -6301,7 +7178,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6312,7 +7189,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-204",
@@ -6332,7 +7216,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6343,7 +7227,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-205",
@@ -6363,7 +7254,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6374,7 +7265,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-206",
@@ -6394,7 +7292,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6405,7 +7303,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-207",
@@ -6425,7 +7330,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6436,7 +7341,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-208",
@@ -6456,7 +7368,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6467,7 +7379,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-209",
@@ -6580,7 +7499,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6591,7 +7510,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-213",
@@ -6611,7 +7537,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6622,7 +7548,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-214",
@@ -6704,7 +7637,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6715,7 +7648,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-217",
@@ -6735,7 +7675,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6746,7 +7686,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-218",
@@ -6797,7 +7744,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6808,7 +7755,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-220",
@@ -6828,7 +7782,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6839,7 +7793,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-221",
@@ -6859,7 +7820,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6870,7 +7831,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-222",
@@ -6890,7 +7858,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6901,7 +7869,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-223",
@@ -6921,7 +7896,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6932,7 +7907,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-224",
@@ -6952,7 +7934,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -6963,7 +7945,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-225",
@@ -7045,7 +8034,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7056,7 +8045,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-228",
@@ -7076,7 +8072,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7087,7 +8083,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-229",
@@ -7231,7 +8234,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7242,7 +8245,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-234",
@@ -7262,7 +8272,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7273,7 +8283,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-235",
@@ -7293,7 +8310,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7304,7 +8321,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-236",
@@ -7324,7 +8348,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7335,7 +8359,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-237",
@@ -7758,7 +8789,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -7769,7 +8800,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-251",
@@ -8161,7 +9199,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8172,7 +9210,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-264",
@@ -8192,7 +9237,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8203,7 +9248,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-265",
@@ -8223,7 +9275,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8234,7 +9286,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-266",
@@ -8254,7 +9313,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8265,7 +9324,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-267",
@@ -8285,7 +9351,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8296,7 +9362,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-268",
@@ -8347,7 +9420,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8358,7 +9431,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-270",
@@ -8378,7 +9458,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8389,7 +9469,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-271",
@@ -8409,7 +9496,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8420,7 +9507,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-272",
@@ -8440,7 +9534,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8451,7 +9545,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-273",
@@ -8595,7 +9696,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8606,7 +9707,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-278",
@@ -8688,7 +9796,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8699,7 +9807,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-281",
@@ -8719,7 +9834,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8730,7 +9845,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-282",
@@ -8750,7 +9872,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8761,7 +9883,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-283",
@@ -8781,7 +9910,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8792,7 +9921,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-284",
@@ -8936,7 +10072,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8947,7 +10083,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-289",
@@ -8967,7 +10110,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -8978,7 +10121,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-290",
@@ -8998,7 +10148,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9009,7 +10159,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-291",
@@ -9029,7 +10186,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9040,7 +10197,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-292",
@@ -9060,7 +10224,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9071,7 +10235,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-293",
@@ -9091,7 +10262,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9102,7 +10273,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-294",
@@ -9184,7 +10362,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9195,7 +10373,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-297",
@@ -9246,7 +10431,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9257,7 +10442,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-299",
@@ -9277,7 +10469,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9288,7 +10480,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-300",
@@ -9308,7 +10507,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9319,7 +10518,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-301",
@@ -9339,7 +10545,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9350,7 +10556,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-302",
@@ -9370,7 +10583,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9381,7 +10594,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-303",
@@ -9463,7 +10683,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9474,7 +10694,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-306",
@@ -9587,7 +10814,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9598,7 +10825,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-310",
@@ -9618,7 +10852,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9629,7 +10863,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-311",
@@ -9649,7 +10890,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9660,7 +10901,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-312",
@@ -9680,7 +10928,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9691,7 +10939,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-313",
@@ -9835,7 +11090,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9846,7 +11101,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-318",
@@ -9866,7 +11128,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9877,7 +11139,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-319",
@@ -9897,7 +11166,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9908,7 +11177,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-320",
@@ -9928,7 +11204,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9939,7 +11215,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-321",
@@ -9959,7 +11242,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -9970,7 +11253,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-322",
@@ -9990,7 +11280,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10001,7 +11291,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-323",
@@ -10021,7 +11318,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10032,7 +11329,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-324",
@@ -10052,7 +11356,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10063,7 +11367,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-325",
@@ -10145,7 +11456,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10156,7 +11467,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-328",
@@ -10176,7 +11494,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10187,7 +11505,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-329",
@@ -10238,7 +11563,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10249,7 +11574,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-331",
@@ -10269,7 +11601,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10280,7 +11612,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-332",
@@ -10300,7 +11639,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10311,7 +11650,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-333",
@@ -10331,7 +11677,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10342,7 +11688,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-334",
@@ -10362,7 +11715,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10373,7 +11726,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-335",
@@ -10393,7 +11753,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10404,7 +11764,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-336",
@@ -10424,7 +11791,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10435,7 +11802,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-337",
@@ -10455,7 +11829,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10466,7 +11840,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-338",
@@ -10486,7 +11867,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10497,7 +11878,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-339",
@@ -10517,7 +11905,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10528,7 +11916,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "umanitoba-340",
@@ -10548,7 +11943,7 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
     "toeflMin": 86,
-    "pteMin": 59,
+    "pteMin": 58,
     "intakeMonths": [
       "September",
       "January"
@@ -10559,7 +11954,14 @@ export const umanitobaCourses: UmanitobaCourse[] = [
     "city": "Winnipeg",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": false,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 86,
+      "pte": 58,
+      "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements",
+      "verifiedOn": "2026-09-21"
+    }
   }
 ];
 

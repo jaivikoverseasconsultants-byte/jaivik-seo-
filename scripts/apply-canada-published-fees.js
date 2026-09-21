@@ -45,6 +45,23 @@ const PROGRAMME_VERIFIED = {
   ],
 };
 
+// INSTITUTION-LEVEL English confirmed on the university's own requirements page, applied to the
+// rows it actually covers. Manitoba states its scores for UNDERGRADUATE admission and says
+// graduate programmes set their own, so only undergraduate rows publish; the graduate ones keep
+// saying "ask us" rather than borrowing an undergraduate floor.
+const INSTITUTION_ENGLISH = [
+  {
+    file: 'data/umanitoba-courses.ts',
+    appliesTo: (c) => c.studyLevel === 'Undergraduate',
+    scores: { ielts: 6.5, toefl: 86, pte: 58 },
+    // the row fields too, so the stored number is right even where it is suppressed
+    fields: { ieltsMin: 6.5, toeflMin: 86, pteMin: 58 },
+    sourceUrl: 'https://umanitoba.ca/explore/undergraduate-admissions/requirements/english-language-proficiency-requirements',
+    verifiedOn: '2026-09-21',
+    note: 'IELTS 6.5 overall (6.0 per module), TOEFL iBT 86 for tests before 20 Jan 2026, Pearson Test of English 58. The stored PTE was 59, which Manitoba does not publish.',
+  },
+];
+
 const fs = require('fs');
 const path = require('path');
 
@@ -170,10 +187,29 @@ function applyProgrammeVerified() {
   return applied;
 }
 
+function applyInstitutionEnglish() {
+  const out = [];
+  for (const entry of INSTITUTION_ENGLISH) {
+    const doc = loadArray(entry.file);
+    let n = 0;
+    for (const c of doc.arr) {
+      if (!entry.appliesTo(c)) continue;
+      Object.assign(c, entry.fields);
+      c.englishVerified = { ...entry.scores, sourceUrl: entry.sourceUrl, verifiedOn: entry.verifiedOn };
+      n++;
+    }
+    writeArray(entry.file, doc, doc.arr);
+    out.push(`${entry.file}: ${n} rows`);
+  }
+  return out;
+}
+
 const dal = applyDal();
 const uw = applyWaterloo();
 const programme = applyProgrammeVerified();
+const instEnglish = applyInstitutionEnglish();
 console.log(`Dalhousie: ${dal} bachelor's rows verified from the international tuition guarantee`);
 console.log(`Waterloo:  ${uw.n} rows verified from the first-year table; per-term rate corrected on all rows`);
+console.log(`Institution English applied: ${instEnglish.join("; ")}`);
 console.log(`Programme-level verified rows: ${programme.length} (${programme.join(", ")})`);
 console.log(`Waterloo left for manual review (${uw.review.length}):\n  ${uw.review.join('\n  ')}`);
