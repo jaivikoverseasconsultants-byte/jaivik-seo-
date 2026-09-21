@@ -3,8 +3,11 @@
     "university": "Algonquin College",
     "applicationFee": {
       "amountCAD": 135,
-      "evidence": "tional Application Form ( International Application Form) • Application fee $135 CAD Admission To Undergraduate Certificate or Diploma Program (1/2/3 years) • High School Transcripts – Officially translated into English • English ",
-      "sourceUrl": "https://www.algonquincollege.com/international/future-students-2018/admissions-apply/"
+      "verified": true,
+      "verifiedOn": "2026-09-21",
+      "sourceUrl": "https://www.algonquincollege.com/international/admission-requirements/",
+      "sourceQuote": "International Application Form • Application fee $135 CAD … There will be no cost, apart from the Algonquin College $135 Canadian dollar application fee, for submitting an application via one of these agencies.",
+      "note": "A lead listing this as waived is not what Algonquin publishes."
     },
     "deposit": {
       "amountCAD": 500,
@@ -18,7 +21,13 @@
       "verified": false,
       "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
     },
-    "pagesTried": 13
+    "pagesTried": 13,
+    "english": {
+      "resolved": true,
+      "verifiedOn": "2026-09-21",
+      "note": "Programme pages state IELTS and TOEFL (and Duolingo). No PTE score is published on the programme page or the international admission requirements page, so PTE stays suppressed.",
+      "sourceUrl": "https://www.algonquincollege.com/business-hospitality/program/business-supply-chain-and-operations/"
+    }
   },
   "Durham College": {
     "university": "Durham College",

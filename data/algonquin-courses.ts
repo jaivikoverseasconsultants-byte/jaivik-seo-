@@ -12,6 +12,8 @@
 export interface AlgonquinRealCourse {
   feeVerified?: boolean;
   englishScope?: string;
+  /** scores read off this programme's own page — see lib/english-verification */
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;
@@ -2052,7 +2054,13 @@ export const algonquinRealCourses: AlgonquinRealCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6,
+      "toefl": 80,
+      "sourceUrl": "https://www.algonquincollege.com/business-hospitality/program/business-supply-chain-and-operations/",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "algonquin-56",

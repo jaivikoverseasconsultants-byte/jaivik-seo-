@@ -151,6 +151,8 @@ function build(key, detailFiles) {
 export interface ${cfg.iface}Course {
   feeVerified?: boolean;
   englishScope?: string;
+  /** scores read off this programme's own page — see lib/english-verification */
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;

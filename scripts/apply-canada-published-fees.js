@@ -43,6 +43,21 @@ const PROGRAMME_VERIFIED = {
       },
     },
   ],
+  'data/algonquin-courses.ts': [
+    {
+      slug: 'algonquin-business-supply-chain-and-operations-ottawa-ontario-college-diploma-2-years-full',
+      // The programme page states IELTS 6.0 (5.5 per band) and TOEFL iBT 80 (components 20) for
+      // tests before 21 Jan 2026, plus Duolingo. It names no PTE score, and neither does
+      // Algonquin's international admission requirements page — so PTE is left out and stays
+      // suppressed. No fee: the page sends you to Algonquin's Tuition and Fees Estimator instead.
+      englishVerified: {
+        ielts: 6,
+        toefl: 80,
+        sourceUrl: 'https://www.algonquincollege.com/business-hospitality/program/business-supply-chain-and-operations/',
+        verifiedOn: '2026-09-21',
+      },
+    },
+  ],
 };
 
 // INSTITUTION-LEVEL English confirmed on the university's own requirements page, applied to the
