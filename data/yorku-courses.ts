@@ -12,6 +12,7 @@
 export interface YorkuCourse {
   feeVerified?: boolean;
   englishScope?: string;
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;
@@ -44,8 +45,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -63,7 +64,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-2",
@@ -82,8 +90,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -101,7 +109,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-3",
@@ -120,8 +135,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -139,7 +154,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-4",
@@ -158,8 +180,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -177,7 +199,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-5",
@@ -272,8 +301,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -291,7 +320,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-8",
@@ -310,8 +346,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -329,7 +365,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-9",
@@ -348,8 +391,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -367,7 +410,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-10",
@@ -386,8 +436,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -405,7 +455,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-11",
@@ -424,8 +481,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -443,7 +500,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-12",
@@ -462,8 +526,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -481,7 +545,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-13",
@@ -500,8 +571,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -519,7 +590,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-14",
@@ -538,8 +616,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -557,7 +635,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-15",
@@ -576,8 +661,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -595,7 +680,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-16",
@@ -614,8 +706,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -633,7 +725,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-17",
@@ -652,8 +751,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -671,7 +770,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-18",
@@ -690,8 +796,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 58,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "Fall"
     ],
@@ -706,7 +812,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-19",
@@ -725,8 +838,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -744,7 +857,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-20",
@@ -763,8 +883,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -782,7 +902,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-21",
@@ -801,8 +928,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -820,7 +947,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-22",
@@ -839,8 +973,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -858,7 +992,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-23",
@@ -877,8 +1018,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -896,7 +1037,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-24",
@@ -915,8 +1063,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -934,7 +1082,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-25",
@@ -953,8 +1108,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -972,7 +1127,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-26",
@@ -991,8 +1153,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1010,7 +1172,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-27",
@@ -1029,8 +1198,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1048,7 +1217,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-28",
@@ -1067,8 +1243,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1086,7 +1262,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-29",
@@ -1105,8 +1288,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1124,7 +1307,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-30",
@@ -1143,8 +1333,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1162,7 +1352,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-31",
@@ -1181,8 +1378,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1200,7 +1397,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-32",
@@ -1219,8 +1423,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1238,7 +1442,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-33",
@@ -1257,8 +1468,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1276,7 +1487,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-34",
@@ -1295,8 +1513,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1314,7 +1532,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-35",
@@ -1333,8 +1558,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1352,7 +1577,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-36",
@@ -1371,8 +1603,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 58,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "Fall"
     ],
@@ -1387,7 +1619,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-37",
@@ -1406,8 +1645,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1425,7 +1664,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-38",
@@ -1444,8 +1690,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1463,7 +1709,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-39",
@@ -1482,8 +1735,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1501,7 +1754,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-40",
@@ -1520,8 +1780,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1539,7 +1799,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-41",
@@ -1558,8 +1825,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1577,7 +1844,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-42",
@@ -1596,8 +1870,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1615,7 +1889,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-43",
@@ -1634,8 +1915,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1653,7 +1934,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-44",
@@ -1672,8 +1960,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1691,7 +1979,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-45",
@@ -1710,8 +2005,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1729,7 +2024,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-46",
@@ -1748,8 +2050,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1767,7 +2069,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-47",
@@ -1786,8 +2095,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1805,7 +2114,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-48",
@@ -1824,8 +2140,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1843,7 +2159,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-49",
@@ -1862,8 +2185,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1881,7 +2204,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-50",
@@ -1900,8 +2230,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1919,7 +2249,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-51",
@@ -1938,8 +2275,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1957,7 +2294,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-52",
@@ -1976,8 +2320,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -1995,7 +2339,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-53",
@@ -2014,8 +2365,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2033,7 +2384,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-54",
@@ -2052,8 +2410,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2071,7 +2429,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-55",
@@ -2090,8 +2455,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2109,7 +2474,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-56",
@@ -2128,8 +2500,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2147,7 +2519,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-57",
@@ -2166,8 +2545,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2185,7 +2564,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-58",
@@ -2204,8 +2590,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2223,7 +2609,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-59",
@@ -2242,8 +2635,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2261,7 +2654,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-60",
@@ -2280,8 +2680,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2299,7 +2699,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-61",
@@ -2318,8 +2725,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2337,7 +2744,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-62",
@@ -2356,8 +2770,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2375,7 +2789,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-63",
@@ -2394,8 +2815,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2413,7 +2834,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-64",
@@ -2432,8 +2860,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2451,7 +2879,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-65",
@@ -2470,8 +2905,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2489,7 +2924,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-66",
@@ -2508,8 +2950,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2527,7 +2969,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-67",
@@ -2546,8 +2995,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2565,7 +3014,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-68",
@@ -2584,8 +3040,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2603,7 +3059,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-69",
@@ -2622,8 +3085,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2641,7 +3104,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-70",
@@ -2660,8 +3130,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2679,7 +3149,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-71",
@@ -2698,8 +3175,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2717,7 +3194,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-72",
@@ -2736,8 +3220,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2755,7 +3239,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-73",
@@ -2774,8 +3265,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2793,7 +3284,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-74",
@@ -2812,8 +3310,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2831,7 +3329,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-75",
@@ -2850,8 +3355,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2869,7 +3374,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-76",
@@ -2888,8 +3400,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2907,7 +3419,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-77",
@@ -2926,8 +3445,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2945,7 +3464,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-78",
@@ -2964,8 +3490,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -2983,7 +3509,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-79",
@@ -3002,8 +3535,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3021,7 +3554,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-80",
@@ -3039,9 +3579,9 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "ieltsMin": 7,
+    "toeflMin": 94,
+    "pteMin": 67,
     "intakeMonths": [
       "February",
       "March",
@@ -3059,7 +3599,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 7,
+      "toefl": 94,
+      "pte": 67,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-81",
@@ -3077,9 +3624,9 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "ieltsMin": 7,
+    "toeflMin": 94,
+    "pteMin": 67,
     "intakeMonths": [
       "February",
       "March",
@@ -3097,7 +3644,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 7,
+      "toefl": 94,
+      "pte": 67,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-82",
@@ -3115,9 +3669,9 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
-    "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "ieltsMin": 7,
+    "toeflMin": 94,
+    "pteMin": 67,
     "intakeMonths": [
       "February",
       "March",
@@ -3135,7 +3689,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 7,
+      "toefl": 94,
+      "pte": 67,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-83",
@@ -3154,8 +3715,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3173,7 +3734,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-84",
@@ -3192,8 +3760,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3211,7 +3779,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-85",
@@ -3230,8 +3805,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3249,7 +3824,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-86",
@@ -3268,8 +3850,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3287,7 +3869,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-87",
@@ -3306,8 +3895,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3325,7 +3914,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-88",
@@ -3344,8 +3940,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 58,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "September"
     ],
@@ -3360,7 +3956,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-89",
@@ -3379,8 +3982,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3398,7 +4001,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-90",
@@ -3417,8 +4027,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3436,7 +4046,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-91",
@@ -3455,8 +4072,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3474,7 +4091,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-92",
@@ -3493,8 +4117,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3512,7 +4136,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-93",
@@ -3531,8 +4162,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3550,7 +4181,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-94",
@@ -3569,8 +4207,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3588,7 +4226,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-95",
@@ -3607,8 +4252,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3626,7 +4271,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-96",
@@ -3645,8 +4297,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3664,7 +4316,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-97",
@@ -3683,8 +4342,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3702,7 +4361,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-98",
@@ -3721,8 +4387,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3740,7 +4406,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-99",
@@ -3759,8 +4432,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3778,7 +4451,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-100",
@@ -3797,8 +4477,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3816,7 +4496,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-101",
@@ -3835,8 +4522,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3854,7 +4541,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-102",
@@ -3873,8 +4567,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3892,7 +4586,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-103",
@@ -3911,8 +4612,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3930,7 +4631,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-104",
@@ -3949,8 +4657,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -3968,7 +4676,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-105",
@@ -3987,8 +4702,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -4006,7 +4721,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   },
   {
     "id": "yorku-106",
@@ -4025,8 +4747,8 @@ export const yorkuCourses: YorkuCourse[] = [
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
     "ieltsMin": 6.5,
-    "toeflMin": 86,
-    "pteMin": 70,
+    "toeflMin": 88,
+    "pteMin": 60,
     "intakeMonths": [
       "February",
       "March",
@@ -4044,7 +4766,14 @@ export const yorkuCourses: YorkuCourse[] = [
     "feeScope": "not published",
     "feeBasis": "not published",
     "feeSourceUrl": null,
-    "instTuitionPerTermCAD": null
+    "instTuitionPerTermCAD": null,
+    "englishVerified": {
+      "ielts": 6.5,
+      "toefl": 88,
+      "pte": 60,
+      "sourceUrl": "https://futurestudents.yorku.ca/requirements/language-tests",
+      "verifiedOn": "2026-09-21"
+    }
   }
 ];
 

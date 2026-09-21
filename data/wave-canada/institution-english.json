@@ -139,29 +139,19 @@
   },
   "York University": {
     "url": "https://futurestudents.yorku.ca/requirements/language-tests",
-    "label": "language proficiency test results",
     "http": "200",
-    "chars": 11955,
-    "ielts": [],
-    "toefl": [],
-    "pte": [],
+    "ielts": [
+      "6.5"
+    ],
+    "toefl": [
+      "88"
+    ],
+    "pte": [
+      "60"
+    ],
     "resolved": false,
-    "unresolvedReason": "Tiered, and the low bands belong to the ESL/pathway route (bands seen: 6.5 / 5.5 / 6 / 5).",
-    "doNotPublish": true,
-    "bandsSeen": {
-      "ielts": [
-        "6.5",
-        "5.5",
-        "6",
-        "5"
-      ],
-      "toefl": [
-        "88"
-      ],
-      "pte": [
-        "60"
-      ]
-    }
+    "unresolvedReason": "York states minimums for \"most programs\" (IELTS 6.5 / TOEFL iBT 88 before Jan 2026 / PTE 60) plus a table of programmes needing more (Nursing 7.0/94/67; TESOL Certificate 7.0/102) and Education, which it refers to the Faculty of Education site. Applied per row as englishVerified (scripts/apply-canada-published-fees.js): 104 rows at the baseline, 3 Nursing rows at the higher scores, 2 Education rows left unpublished. Nothing publishes university-wide.",
+    "checkedOn": "2026-09-21"
   },
   "University of Victoria": {
     "url": "https://www.uvic.ca/undergraduate/admissions/admission-requirements/english-language-requirements/index.php",

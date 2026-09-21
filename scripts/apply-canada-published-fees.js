@@ -84,6 +84,22 @@ const INSTITUTION_ENGLISH = [
     verifiedOn: '2026-09-21',
     note: 'IELTS 6.5 overall (6.5 writing/speaking, 6.0 reading/listening), TOEFL iBT 90 overall (25 writing, 25 speaking) for tests before 21 Jan 2026, PTE Academic 63 overall. The stored 7.0 came from a line further down the same page offering IELTS 7.0 with no band below 6.0 as an ALTERNATIVE acceptable combination — not the minimum. The stored TOEFL 86 was a house default.',
   },
+  {
+    file: 'data/yorku-courses.ts',
+    appliesTo: () => true,
+    scores: { ielts: 6.5, toefl: 88, pte: 60 },
+    fields: { ieltsMin: 6.5, toeflMin: 88, pteMin: 60 },
+    sourceUrl: 'https://futurestudents.yorku.ca/requirements/language-tests',
+    verifiedOn: '2026-09-21',
+    note: 'York states one set of minimums for "most programs" — IELTS 6.5, TOEFL iBT 88 (before Jan 2026), PTE 60 — and a table of programmes that need more. The stored TOEFL 86 and PTE 70/58 were house defaults.',
+    // programmes York lists separately, from the same page
+    overrides: [
+      { match: /nursing/i, scores: { ielts: 7, toefl: 94, pte: 67 }, why: 'Health: Nursing' },
+      { match: /TESOL/i, scores: { ielts: 7, toefl: 102 }, why: 'Liberal Arts and Professional Studies: TESOL Certificate' },
+    ],
+    // York sends these to another site for the requirement, so nothing is published for them
+    skip: { match: /consecutive education|bachelor of education|\bB\.?Ed\b/i, why: 'Education: Consecutive Education — York refers applicants to the Faculty of Education website' },
+  },
 ];
 
 const fs = require('fs');
@@ -216,14 +232,25 @@ function applyInstitutionEnglish() {
   for (const entry of INSTITUTION_ENGLISH) {
     const doc = loadArray(entry.file);
     let n = 0;
+    let skipped = 0;
+    let overridden = 0;
     for (const c of doc.arr) {
       if (!entry.appliesTo(c)) continue;
+      if (entry.skip?.match.test(c.name)) { delete c.englishVerified; skipped++; continue; }
+      const override = (entry.overrides ?? []).find((o) => o.match.test(c.name));
+      const scores = override ? override.scores : entry.scores;
       Object.assign(c, entry.fields);
-      c.englishVerified = { ...entry.scores, sourceUrl: entry.sourceUrl, verifiedOn: entry.verifiedOn };
+      if (override) {
+        if (override.scores.ielts) c.ieltsMin = override.scores.ielts;
+        if (override.scores.toefl) c.toeflMin = override.scores.toefl;
+        if (override.scores.pte) c.pteMin = override.scores.pte;
+        overridden++;
+      }
+      c.englishVerified = { ...scores, sourceUrl: entry.sourceUrl, verifiedOn: entry.verifiedOn };
       n++;
     }
     writeArray(entry.file, doc, doc.arr);
-    out.push(`${entry.file}: ${n} rows`);
+    out.push(`${entry.file}: ${n} rows${overridden ? `, ${overridden} programme-specific` : ''}${skipped ? `, ${skipped} left unpublished` : ''}`);
   }
   return out;
 }
