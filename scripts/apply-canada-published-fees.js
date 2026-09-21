@@ -43,6 +43,18 @@ const PROGRAMME_VERIFIED = {
       },
     },
   ],
+  'data/guelph-courses.ts': [
+    {
+      slug: 'guelph-public-health',
+      // Guelph's registrar publishes international tuition per graduate programme. The table is
+      // headed "These amounts reflect tuition only for three semesters (unless noted)" and its
+      // figures are the approved 2027-28 rates.
+      annualCAD: 38808,
+      feeScope: 'programme (university fee schedule)',
+      feeBasis: 'tuition only for three semesters, 2027-28 rate approved by the Board of Governors',
+      feeSourceUrl: 'https://www.uoguelph.ca/registrar/finances-fees/tuition-fees',
+    },
+  ],
   'data/algonquin-courses.ts': [
     {
       slug: 'algonquin-business-supply-chain-and-operations-ottawa-ontario-college-diploma-2-years-full',

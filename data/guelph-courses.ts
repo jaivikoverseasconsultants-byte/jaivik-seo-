@@ -12,6 +12,7 @@
 export interface GuelphCourse {
   feeVerified?: boolean;
   englishScope?: string;
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;
@@ -6496,10 +6497,10 @@ export const guelphCourses: GuelphCourse[] = [
     "studyLevel": "Undergraduate",
     "duration": "4 years",
     "durationYears": 4,
-    "annualCAD": 28000,
-    "annualUSD": 20440,
-    "annualINR": 1708000,
-    "totalCAD": 112000,
+    "annualCAD": 38808,
+    "annualUSD": 28330,
+    "annualINR": 2367288,
+    "totalCAD": 155232,
     "livingCostCAD": 14000,
     "livingCostUSD": 10220,
     "livingCostINR": 854000,
@@ -6515,11 +6516,11 @@ export const guelphCourses: GuelphCourse[] = [
     "city": "Guelph",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false,
+    "feeVerified": true,
     "englishScope": "institution-wide",
-    "feeScope": "not published",
-    "feeBasis": "not published",
-    "feeSourceUrl": null,
+    "feeScope": "programme (university fee schedule)",
+    "feeBasis": "tuition only for three semesters, 2027-28 rate approved by the Board of Governors",
+    "feeSourceUrl": "https://www.uoguelph.ca/registrar/finances-fees/tuition-fees",
     "instTuitionPerTermCAD": null
   },
   {
