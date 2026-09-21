@@ -19,6 +19,32 @@
 //              guarantee at the same rate. The guarantee is an annual, tuition-only figure.
 // Anything ambiguous is left feeVerified:false for manual review, never guessed.
 
+// PROGRAMME-LEVEL facts checked one programme at a time against the university's own pages
+// (2026-09-19, prompted by a coursefinder.ai lead list — the leads were pointers only; every number
+// below was read off the university's own site, and anything its site does not state is left out).
+// Each entry names the pages it came from so the next person can re-check it.
+const PROGRAMME_VERIFIED = {
+  'data/dal-courses.ts': [
+    {
+      slug: 'dal-applied-computer-science-macsc',
+      // Dalhousie bills a master's international student the programme fee PLUS an international
+      // tuition fee; this programme's page states the international fee is charged at the
+      // thesis-option rate, so: 11,303 + 8,079 = 19,382 a year.
+      annualCAD: 11303 + 8079,
+      feeScope: 'programme fee + international tuition fee',
+      feeBasis: 'annual — programme fee C$11,303 plus the international tuition fee C$8,079 at the thesis-option rate (payable for up to 2 years)',
+      feeSourceUrl: 'https://www.dal.ca/content/dam/www/admissions/cost-and-payment/tuition-and-fee-schedules/masters-tuition-fee-schedule.pdf',
+      englishVerified: {
+        ielts: 7,
+        toefl: 92,
+        pte: 65,
+        sourceUrl: 'https://www.dal.ca/study/programs/graduate-professional/applied-computer-science-macsc.html',
+        verifiedOn: '2026-09-19',
+      },
+    },
+  ],
+};
+
 const fs = require('fs');
 const path = require('path');
 
@@ -126,8 +152,28 @@ function applyWaterloo() {
   return { n, review };
 }
 
+// ── Programme-level verified facts ───────────────────────────────────────────
+function applyProgrammeVerified() {
+  const applied = [];
+  for (const [file, rows] of Object.entries(PROGRAMME_VERIFIED)) {
+    const doc = loadArray(file);
+    for (const entry of rows) {
+      const c = doc.arr.find((x) => x.slug === entry.slug);
+      if (!c) throw new Error(`${file}: no row with slug ${entry.slug}`);
+      const { slug, annualCAD, englishVerified, ...fields } = entry;
+      if (annualCAD) setFee(c, annualCAD, fields);
+      if (englishVerified) c.englishVerified = englishVerified;
+      applied.push(slug);
+    }
+    writeArray(file, doc, doc.arr);
+  }
+  return applied;
+}
+
 const dal = applyDal();
 const uw = applyWaterloo();
+const programme = applyProgrammeVerified();
 console.log(`Dalhousie: ${dal} bachelor's rows verified from the international tuition guarantee`);
 console.log(`Waterloo:  ${uw.n} rows verified from the first-year table; per-term rate corrected on all rows`);
+console.log(`Programme-level verified rows: ${programme.length} (${programme.join(", ")})`);
 console.log(`Waterloo left for manual review (${uw.review.length}):\n  ${uw.review.join('\n  ')}`);

@@ -19,6 +19,8 @@
 
 export interface DalCourse {
   feeVerified?: boolean;
+  /** scores read off this programme's own page — see lib/english-verification */
+  englishVerified?: { ielts?: number; toefl?: number; pte?: number; sourceUrl: string; verifiedOn: string };
   feeScope?: string;
   feeBasis?: string;
   feeSourceUrl?: string | null;
@@ -3313,10 +3315,10 @@ export const dalCourses: DalCourse[] = [
     "studyLevel": "Postgraduate",
     "duration": "2 years",
     "durationYears": 2,
-    "annualCAD": 19500,
-    "annualUSD": 14235,
-    "annualINR": 1189500,
-    "totalCAD": 39000,
+    "annualCAD": 19382,
+    "annualUSD": 14149,
+    "annualINR": 1182302,
+    "totalCAD": 38764,
     "livingCostCAD": 15000,
     "livingCostUSD": 10950,
     "livingCostINR": 915000,
@@ -3332,7 +3334,17 @@ export const dalCourses: DalCourse[] = [
     "city": "Halifax",
     "countryCode": "CA",
     "pgwp": true,
-    "feeVerified": false
+    "feeVerified": true,
+    "feeScope": "programme fee + international tuition fee",
+    "feeBasis": "annual — programme fee C$11,303 plus the international tuition fee C$8,079 at the thesis-option rate (payable for up to 2 years)",
+    "feeSourceUrl": "https://www.dal.ca/content/dam/www/admissions/cost-and-payment/tuition-and-fee-schedules/masters-tuition-fee-schedule.pdf",
+    "englishVerified": {
+      "ielts": 7,
+      "toefl": 92,
+      "pte": 65,
+      "sourceUrl": "https://www.dal.ca/study/programs/graduate-professional/applied-computer-science-macsc.html",
+      "verifiedOn": "2026-09-19"
+    }
   },
   {
     "id": "dal-105",
