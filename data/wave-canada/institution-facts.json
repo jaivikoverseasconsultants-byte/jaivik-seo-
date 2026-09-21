@@ -31,20 +31,32 @@
   },
   "Durham College": {
     "university": "Durham College",
-    "applicationFee": null,
+    "applicationFee": {
+      "resolved": false,
+      "checkedOn": "2026-09-21",
+      "note": "Durham publishes no amount of its own — its how-to-apply page directs applicants to pay the fee at Ontario Colleges. A lead's C$100 is therefore unconfirmed.",
+      "sourceUrl": "https://durhamcollege.ca/admissions/how-to-apply"
+    },
     "deposit": {
       "amountCAD": 500,
       "evidence": "on once received (don’t wait—programs fill quickly) Pay the $500 tuition deposit by the deadline to reserve your seat Start classes and begin building career-ready skills APPLY AS AN INTERNATIONAL STUDENT Students from around the ",
       "sourceUrl": "https://durhamcollege.ca/apply-now"
     },
     "scholarship": {
-      "maxAmountCAD": 2000,
-      "evidence": "k DC Home Info For Welcome Home! Study @ DC Global Entrance Scholarship Global Entrance Scholarship Accept your offer of admission as soon as possible and receive a $2,000 Global Entrance Scholarship! *Students applying for a Durham College Bachelor ",
-      "sourceUrl": "https://durhamcollege.ca/info-for/international/study-dc/global-entrance-scholarship-of-up-to-3000-for-all-international-students",
-      "verified": false,
-      "note": "auto-extracted; may be a domestic-only or niche award. Needs manual confirmation before publishing."
+      "amountCAD": 2000,
+      "name": "Global Entrance Scholarship",
+      "verified": true,
+      "verifiedOn": "2026-09-21",
+      "eligibility": "Automatic for international students who accept an offer to a full-time programme; credited to the student account. Bachelor applicants may also be considered for the Degree Entrance Award, C$500–C$3,000.",
+      "sourceUrl": "https://durhamcollege.ca/info-for/international/study-dc/global-entrance-scholarship",
+      "sourceQuote": "Accept your offer of admission as soon as possible and receive a $2,000 Global Entrance Scholarship! … $2000 will be credited directly to your student account when you accept your offer of admission."
     },
-    "pagesTried": 26
+    "pagesTried": 26,
+    "tuitionCheck": {
+      "verifiedOn": "2026-09-21",
+      "note": "Spot-check of Personal Support Worker: the programme page states \"Year one international: $15,489 (CAD)\", matching the stored verified figure.",
+      "sourceUrl": "https://durhamcollege.ca/programs/personal-support-worker"
+    }
   },
   "Kwantlen (KPU)": {
     "university": "Kwantlen (KPU)",
